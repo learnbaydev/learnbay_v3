@@ -362,7 +362,7 @@ data science and gen ai training  program
    "provider": {
         "@type": "Organization",
         "name": "Learnbay",
-        "Url": "https://www.learnbay.co/"
+        "Url": "https://www.learnbay.co/data-science-gen-ai-program"
       },
   "coursePrerequisites": "You should know about Python, Machine Learning, & basic Deep Learning before joining the program.",
   "hasCourseInstance": [

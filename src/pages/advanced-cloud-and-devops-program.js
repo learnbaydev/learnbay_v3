@@ -318,11 +318,11 @@ const NewDSA = ({ DSADataJson }) => {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Advanced Cloud & DevOps program
-Advanced cloud & devOps certification
-Advanced Cloud & DevOps training
-Best advanced program for Cloud & DevOps
-Best certification for advanced cloud and DevOps
+          content="Advanced Cloud & DevOps program,
+Advanced cloud & devOps certification,
+Advanced Cloud & DevOps training,
+Best advanced program for Cloud & DevOps,
+Best certification for advanced cloud and DevOps,
 "
         />
         <meta

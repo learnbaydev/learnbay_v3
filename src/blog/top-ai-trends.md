@@ -139,7 +139,7 @@ This is the right time to invest in these <b>artificial intelligence trends</b>,
 
 To grab the upcoming opportunities in AI, professionals can upgrade themselves with the <a href="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program" target="_blank"> Data Science and GenAI Master Certification </a> Program by Learnbay. This will help them remain ahead of the curve by learning under the supervision of skilled mentors. Furthermore, you can develop practical skills through live, real-world applications.
 
-## FAQs:
+<!-- ## FAQs:
 
 ### 1.What is the next big thing in AI?
 
@@ -149,18 +149,59 @@ The next big thing in AI, as of now, is Agentic AI. It is the latest <b>AI trend
 
 Some crucial AI adoption challenges in 2026 and afterwards will be –
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• Data security </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Data bias and misinterpretation </p> 
-<p style="font-size: 15px;margin: 0; padding: 0;">• AI talent shortage </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Employee’s resistance </p> 
-<p style="font-size: 15px;margin: 0; padding: 0;">• Unclear business KPIs and ROI </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Data security </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Data bias and misinterpretation </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• AI talent shortage </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Employee’s resistance </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Unclear business KPIs and ROI </p>
 
 ### 3.What are the key problems AI models can solve?
 
 **AI in business** operations can solve the following problems –
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• Lack of insightful decision-making </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Customer service issues </p> 
-<p style="font-size: 15px;margin: 0; padding: 0;">• Risk prediction </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Fraud detection </p> 
-<p style="font-size: 15px;margin: 0; padding: 0;">• Operational issues </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Lack of insightful decision-making </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Customer service issues </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Risk prediction </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Fraud detection </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Operational issues </p> -->
+
+---
+
+<div style="width: 100%; background-color: #f9f9f9; padding: 40px 20px; border-radius: 12px; border: 1px solid #e0e0e0; box-sizing: border-box;">
+
+<h2 style="margin-top: 0; color: #000; text-align: center;">Frequently Asked Questions (FAQs)</h2>
+
+<div style="margin-bottom: 25px;">
+<h3 style="color: #1a73e8;">1. What is the next big thing in AI?</h3>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444;">The next big thing in AI, as of now, is Agentic AI. It is the latest <b>AI trend</b> that integrates autonomous systems with existing business models. Agentic AI mainly focuses on enriching business efficiency without or with lesser human intervention.</p>
+</div>
+
+<div style="margin-bottom: 25px;">
+<h3 style="color: #1a73e8;">2. What will be the biggest AI adoption challenges in the upcoming years?</h3>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Some crucial AI adoption challenges in 2026 and afterwards will be –
+
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Data security </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Data bias and misinterpretation </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• AI talent shortage </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Employee’s resistance </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Unclear business KPIs and ROI </p>
+
+</p>
+</div>
+
+<div style="margin-top: 0;">
+<h3 style="color: #1a73e8;">3. What are the key problems AI models can solve?</h3>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444;">AI in business** operations can solve the following problems –
+
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Lack of insightful decision-making </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Customer service issues </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Risk prediction </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Fraud detection </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Operational issues </p>
+
+</p>
+</div>
+
+</div>
+
+---

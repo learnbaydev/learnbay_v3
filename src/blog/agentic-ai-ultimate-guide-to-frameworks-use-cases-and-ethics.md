@@ -57,9 +57,9 @@ Microsoft presents an open-source Agentic AI framework termed ‘AutoGen’. It 
 
 <b>Core features: </b>
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• Scalable <b>Agentic AI architecture</b> </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Hassle-free support agents via APIs</p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Able to prioritize tasks and provide logic for them </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Scalable <b>Agentic AI architecture</b> </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Hassle-free support agents via APIs</p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Able to prioritize tasks and provide logic for them </p>
 
 ### LangGraph
 
@@ -67,9 +67,9 @@ Agentic AI is introduced to LangGraph, a well-known framework for managing state
 
 <b>Core features:</b>
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• A platform to have a graph-based workflow handling </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Applies advanced logic to tackle complex systems </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Flexible API integration </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• A platform to have a graph-based workflow handling </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Applies advanced logic to tackle complex systems </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Flexible API integration </p>
 
 ### LangChain
 
@@ -77,9 +77,9 @@ Agentic AI is known for its flexible work settings, offering enticing benefits f
 
 <b>Core features:</b>
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• Autonomous workflow handling </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Built-in memory features for stateful uses </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Works flexibly with LLMs and APIs </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Autonomous workflow handling </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Built-in memory features for stateful uses </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Works flexibly with LLMs and APIs </p>
 
 ### Crew AI
 
@@ -87,10 +87,10 @@ Crew AI is a collaborative Agentic AI platform that gathers multiple agents to c
 
 <b>Core features:</b>
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• Teamwork and group tasks </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Automated task planning functions </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Seamless task delegation </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Custom-fit modules </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Teamwork and group tasks </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Automated task planning functions </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Seamless task delegation </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Custom-fit modules </p>
 
 ### Semantic Kernel (Microsoft)
 
@@ -98,23 +98,23 @@ Microsoft presents a semantic kernel framework that helps users to have a clear 
 
 <b>Core features:</b>
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• Aware of real-time contexts </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• In-depth knowledge of users </p>
-<p style="font-size: 15px;margin: 0; padding: 0;">• Pre-built systems to seamlessly integrate with business tools </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Aware of real-time contexts </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• In-depth knowledge of users </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Pre-built systems to seamlessly integrate with business tools </p>
 
 ## Diving into Agentic AI Use Cases in 2025
 
 <b>Agentic AI use cases</b> reflect its wider applications across diverse sectors. Let’s explore them.
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• <i><b>Agentic AI in automating workflows:</b></i> Work automation is viable with Agentic AI, where multiple agents can tackle a project or task with vital changes. </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• <i><b>Agentic AI in automating workflows:</b></i> Work automation is viable with Agentic AI, where multiple agents can tackle a project or task with vital changes. </p>
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• <i><b>Agentic AI in energy management:</b></i> Agentic AI helps distribute energy channels and balance demand and supply levels in time- and cost-saving ways. </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• <i><b>Agentic AI in energy management:</b></i> Agentic AI helps distribute energy channels and balance demand and supply levels in time- and cost-saving ways. </p>
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• <i><b>Agentic AI in healthcare:</b></i> <b>Agentic AI applications</b> in medical science help plan treatment options, arrange patient follow-ups, and connect with other departments. </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• <i><b>Agentic AI in healthcare:</b></i> <b>Agentic AI applications</b> in medical science help plan treatment options, arrange patient follow-ups, and connect with other departments. </p>
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• <i><b>Agentic AI as personal assistants:</b></i> Agentic AI works as agents, planning tasks, writing emails, booking trips, and sending reminders. </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• <i><b>Agentic AI as personal assistants:</b></i> Agentic AI works as agents, planning tasks, writing emails, booking trips, and sending reminders. </p>
 
-<p style="font-size: 15px;margin: 0; padding: 0;">• <i><b>Agentic AI in logistics:</b></i> Automated agents help firms plan their supply channels, decide routes, and forecast demands. </p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;">• <i><b>Agentic AI in logistics:</b></i> Automated agents help firms plan their supply channels, decide routes, and forecast demands. </p>
 
 ## Ethical Issues with Agentic AI Applications
 
@@ -126,7 +126,7 @@ Agentic AI has become the latest version of AI models, navigating the future of 
 
 The <b>Agentic AI roadmap</b> stresses upskilling for overall learning and career progress. Enrolling in a **[](https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-data-science-professionals)** <a href="https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-data-science-professionals" target="_blank">GenAI Certification for Managers and Tech Leaders Course </a> is worth investing in. Its _<b>E&ICT Academy, IIT Guwahati certifications</b>_ empower you to excel in your field with Agentic AI skills.
 
-## FAQs:–
+<!-- ## FAQs:–
 
 ### 1. What is Agentic AI, and how is it separate from Gen AI?
 
@@ -138,4 +138,29 @@ _<b>Ans:</b>_ Gen AI uses data patterns and prompts to create new data, such as 
 
 ### 3. Are there any real Agentic AI systems available?
 
-_<b>Ans:</b>_ Yes. AutoGPT and BabyAGI are early-level Agentic AI systems with flexible functionalities.
+_<b>Ans:</b>_ Yes. AutoGPT and BabyAGI are early-level Agentic AI systems with flexible functionalities. -->
+
+---
+
+<div style="width: 100%; background-color: #f9f9f9; padding: 40px 20px; border-radius: 12px; border: 1px solid #e0e0e0; box-sizing: border-box;">
+
+<h2 style="margin-top: 0; color: #000; text-align: center;">Frequently Asked Questions (FAQs)</h2>
+
+<div style="margin-bottom: 25px;">
+<h3 style="color: #1a73e8;">1. What is Agentic AI, and how is it separate from Gen AI?</h3>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Agentic AI is not limited to forging outputs—it takes independent actions aligned with core goals. Conversely, Gen AI aims to create content like text, images, or code.</p>
+</div>
+
+<div style="margin-bottom: 25px;">
+<h3 style="color: #1a73e8;">2. What is the difference between Generative AI and Predictive AI?</h3>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Gen AI uses data patterns and prompts to create new data, such as images or text. On the other hand, predictive AI uses past data trends to forecast future patterns.</p>
+</div>
+
+<div style="margin-top: 0;">
+<h3 style="color: #1a73e8;">3. Are there any real Agentic AI systems available?</h3>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Yes. AutoGPT and BabyAGI are early-level Agentic AI systems with flexible functionalities.</p>
+</div>
+
+</div>
+
+---
