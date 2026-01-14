@@ -172,12 +172,12 @@ Some crucial AI adoption challenges in 2026 and afterwards will be –
 <h2 style="margin-top: 0; color: #000; text-align: center;">Frequently Asked Questions (FAQs)</h2>
 
 <div style="margin-bottom: 25px;">
-<h3 style="color: #1a73e8;">1. What is the next big thing in AI?</h3>
+<h3 style="color: #2372bc;">1. What is the next big thing in AI?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">The next big thing in AI, as of now, is Agentic AI. It is the latest <b>AI trend</b> that integrates autonomous systems with existing business models. Agentic AI mainly focuses on enriching business efficiency without or with lesser human intervention.</p>
 </div>
 
 <div style="margin-bottom: 25px;">
-<h3 style="color: #1a73e8;">2. What will be the biggest AI adoption challenges in the upcoming years?</h3>
+<h3 style="color: #2372bc;">2. What will be the biggest AI adoption challenges in the upcoming years?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Some crucial AI adoption challenges in 2026 and afterwards will be –
 
 <p style="font-size:  1.2rem;margin: 0; padding: 0;">• Data security </p>
@@ -190,7 +190,7 @@ Some crucial AI adoption challenges in 2026 and afterwards will be –
 </div>
 
 <div style="margin-top: 0;">
-<h3 style="color: #1a73e8;">3. What are the key problems AI models can solve?</h3>
+<h3 style="color: #2372bc;">3. What are the key problems AI models can solve?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">AI in business** operations can solve the following problems –
 
 <p style="font-size:  1.2rem;margin: 0; padding: 0;">• Lack of insightful decision-making </p>

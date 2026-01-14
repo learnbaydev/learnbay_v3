@@ -206,17 +206,17 @@ Absolutely not. AI agents can automate various tasks and help us lead a hassle-f
 <h2 style="margin-top: 0; color: #000; text-align: center;">Frequently Asked Questions (FAQs)</h2>
 
 <div style="margin-bottom: 25px;">
-<h3 style="color: #1a73e8;">1. Is AI a threat to data scientists?</h3>
+<h3 style="color: #2372bc;">1. Is AI a threat to data scientists?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">AI is not a threat to certified data scientists with proven <b>Gen AI and Agentic AI skills</b>. However, experts with stagnant skills can face layoffs or job losses due to AI systems. The future reflects a data science and AI union that requires constant learning.</p>
 </div>
 
 <div style="margin-bottom: 25px;">
-<h3 style="color: #1a73e8;">2. Are data scientist jobs declining?</h3>
+<h3 style="color: #2372bc;">2. Are data scientist jobs declining?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;"><b>No.</b> The demand for data science experts is evolving, not disappearing. The field is looking for unique skills to confront AI agents and build a competitive presence. Jobs for freshers and experts are shifting toward model orchestration and strategic AI management.</p>
 </div>
 
 <div style="margin-top: 0;">
-<h3 style="color: #1a73e8;">3. Do we really need AI agents for everything?</h3>
+<h3 style="color: #2372bc;">3. Do we really need AI agents for everything?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;"><b>Absolutely not.</b> AI agents can automate tasks and drive efficiency, but they lack emotional intelligence and human intuition. High-stakes decisions and creative strategy still require human data scientists to ensure ethical and accurate outcomes.</p>
 </div>
 

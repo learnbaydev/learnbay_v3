@@ -147,17 +147,17 @@ _<b>Ans:</b>_ Yes. AutoGPT and BabyAGI are early-level Agentic AI systems with f
 <h2 style="margin-top: 0; color: #000; text-align: center;">Frequently Asked Questions (FAQs)</h2>
 
 <div style="margin-bottom: 25px;">
-<h3 style="color: #1a73e8;">1. What is Agentic AI, and how is it separate from Gen AI?</h3>
+<h3 style="color: #2372bc;">1. What is Agentic AI, and how is it separate from Gen AI?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Agentic AI is not limited to forging outputs—it takes independent actions aligned with core goals. Conversely, Gen AI aims to create content like text, images, or code.</p>
 </div>
 
 <div style="margin-bottom: 25px;">
-<h3 style="color: #1a73e8;">2. What is the difference between Generative AI and Predictive AI?</h3>
+<h3 style="color: #2372bc;">2. What is the difference between Generative AI and Predictive AI?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Gen AI uses data patterns and prompts to create new data, such as images or text. On the other hand, predictive AI uses past data trends to forecast future patterns.</p>
 </div>
 
 <div style="margin-top: 0;">
-<h3 style="color: #1a73e8;">3. Are there any real Agentic AI systems available?</h3>
+<h3 style="color: #2372bc;">3. Are there any real Agentic AI systems available?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Yes. AutoGPT and BabyAGI are early-level Agentic AI systems with flexible functionalities.</p>
 </div>
 

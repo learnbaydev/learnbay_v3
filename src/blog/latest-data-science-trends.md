@@ -206,7 +206,7 @@ AI cannot fully replace data scientists, but it can partially. Yet, AI can easil
 <h2 style="margin-top: 0; color: #000; text-align: center;">Frequently Asked Questions (FAQs)</h2>
 
 <div style="margin-bottom: 25px;">
-<h3 style="color: #1a73e8;">1. What are the five emerging AI and data science trends for 2026?</h3>
+<h3 style="color: #2372bc;">1. What are the five emerging AI and data science trends for 2026?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">The top AI and <b>data scientist trends</b> for 2026 that reshape professional and personal lives are –
 
 <p style="font-size:  1.2rem;margin: 0; padding: 0;">• Generative AI</p>
@@ -219,12 +219,12 @@ AI cannot fully replace data scientists, but it can partially. Yet, AI can easil
 </div>
 
 <div style="margin-bottom: 25px;">
-<h3 style="color: #1a73e8;">2. Is data science still a good career in 2026?</h3>
+<h3 style="color: #2372bc;">2. Is data science still a good career in 2026?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Yes. Data science will continue to be a rewarding career in 2026 and beyond. According to industry reports, there will be over 11.5 million data science jobs by 2026. Yet, emerging trends and technologies are reshaping data science roles. Hence, learners must enhance their skills following the latest trends to stay competitive.</p>
 </div>
 
 <div style="margin-top: 0;">
-<h3 style="color: #1a73e8;">3. Does AI replace data scientists?</h3>
+<h3 style="color: #2372bc;">3. Does AI replace data scientists?</h3>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">AI cannot fully replace data scientists, but it can partially. Yet, AI can easily replace the experts with stagnant skills or industry knowledge. Data scientists with unique AI-rich skills and deep insights can stay ahead of the AI race.</p>
 </div>
 
