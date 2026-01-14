@@ -149,7 +149,7 @@ const ThankYouAds = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        margin: "100px",
+        width: "100%",
       }}
     >
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>

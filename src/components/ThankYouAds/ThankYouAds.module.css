@@ -20,18 +20,17 @@
 /* The actual white card */
 .modal {
   background: #ffffff;
-  width: 90%;
-  max-width: 450px; /* Limits width on desktop */
-  border-radius: 16px;
-  padding: 32px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 680px; /* ⬅️ increased from 550px */
+  border-radius: 20px;
+  padding: 36px 40px; /* ⬅️ more breathing room */
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
   position: relative;
 
-  /* Crucial for mobile responsiveness: ensures it doesn't get cut off */
   max-height: 90vh;
   overflow-y: auto;
 
-  transform: scale(0.95);
+  transform: scale(0.96);
   animation: scaleUp 0.3s forwards;
 }
 
@@ -169,5 +168,6 @@
   .modal {
     padding: 24px 20px;
     width: 95%;
+    max-width: 95%;
   }
 }
