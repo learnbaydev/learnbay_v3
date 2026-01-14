@@ -39,6 +39,7 @@ function FirstSection({
   DSAFresherHeadContent,
   DSA,
   courseId,
+  DABAOnly,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -92,6 +93,7 @@ function FirstSection({
         microsoftOnly={microsoftOnly}
         DSA={DSA}
         DSAFresherHeadContent={DSAFresherHeadContent}
+        DABAOnly={DABAOnly}
       />
     </>
   );

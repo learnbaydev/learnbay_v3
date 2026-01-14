@@ -39,6 +39,7 @@ const FirstContent = ({
   backgroundImage,
   microsoftOnly,
   DSAFresherHeadContent,
+  DABAOnly,
 }) => {
   const texts = [
     "Job-ready with interview support",
@@ -246,7 +247,15 @@ const FirstContent = ({
                                 width="70"
                                 height="30"
                                 priority
-                                alt="data science course"
+                                alt="IBM only"
+                              />
+                            ) : DABAOnly ? (
+                              <Image
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DABAImage2026.webp" // Replace with actual URL
+                                width="200"
+                                height="60"
+                                priority
+                                alt="DABA Only"
                               />
                             ) : (
                               <Image
@@ -254,7 +263,7 @@ const FirstContent = ({
                                 width="266"
                                 height="48"
                                 priority
-                                alt="data science course"
+                                alt="Both IBM and Microsoft"
                               />
                             )}
                           </div>

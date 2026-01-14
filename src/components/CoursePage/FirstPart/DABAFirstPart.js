@@ -3,8 +3,11 @@ import dynamic from "next/dynamic";
 
 import Navbar from "@/components/Global/Navbar/Navbar";
 import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
-const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/AnimationNew")
+// const AnimationNew = dynamic(() =>
+//   import("@/components/Home/whyChooseSection/AnimationNew")
+// );
+const AnimationNewDABA = dynamic(() =>
+  import("@/components/Home/whyChooseSection/AnimationNewDABA")
 );
 const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
 import { BAThirdSectionData } from "@/Data/ThirdSectionData";
@@ -124,7 +127,8 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData, courseId }) => {
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
       <FirstSection
-        dataScienceCounselling={true}
+        // dataScienceCounselling={true}
+        DABAOnly={true}
         interstedInHide={true}
         dataScience={true}
         ThirdTyped="Live Interactive Classes"
@@ -157,7 +161,8 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData, courseId }) => {
         ThirdSectionData={BAThirdSectionData}
         interstedInHide={true}
       />
-      <AnimationNew />
+      {/* <AnimationNew /> */}
+      <AnimationNewDABA />
       <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
