@@ -35,10 +35,10 @@ const FormNew = ({
 }) => {
   const router = useRouter();
   const [formFields, setFormFields] = useState(
-    getFormFields(radio, google, referrals, Domain, interstedInHide)
+    getFormFields(radio, google, referrals, Domain, interstedInHide),
   );
   const [formField, setFormField] = useState(
-    getFormFields(radio, google, referrals, interstedInHide)
+    getFormFields(radio, google, referrals, interstedInHide),
   );
 
   const [value, setValue] = useState();
@@ -121,7 +121,7 @@ const FormNew = ({
         event,
         dataScience,
         dataScienceGeneric,
-        dataScienceCounselling
+        dataScienceCounselling,
       );
 
       setError(getValidation(radio, Domain, interstedInHide, query));
@@ -162,11 +162,24 @@ const FormNew = ({
             downloadFileAtUrl(brochurePdf); // Download the brochure only after a successful submission
           }
           sessionStorage.setItem("pending_syllabus", courseId);
+          const cloudAndDevopsCouserIds = [
+            "cloud-devops-master",
+            "adv-cloud-devops",
+            "cloud-db-admin",
+            "cloud-it-support",
+            "cloud-sys-admin",
+            "cloud-network-pro",
+          ];
+
+          // 1. Determine which thank you page to use
+          const thankYouPath = cloudAndDevopsCouserIds.includes(courseId)
+            ? "/Thank-you-cloud"
+            : "/Thank-you";
           router.push(
             pushPath,
             dataScience
               ? {
-                  pathname: "/Thank-you",
+                  pathname: thankYouPath,
                   query: {
                     titleCourse: titleCourse,
                     brochureLink: brochureLink,
@@ -174,7 +187,7 @@ const FormNew = ({
                 }
               : {
                   pathname: pushPath,
-                }
+                },
           );
         }
       }
@@ -196,11 +209,11 @@ const FormNew = ({
   const fetchLocation = async () => {
     try {
       const response = await fetch(
-        "https://ipinfo.io/json?token=bc89c2010abac0"
+        "https://ipinfo.io/json?token=bc89c2010abac0",
       );
       if (!response.ok) {
         throw new Error(
-          `Failed to fetch location: ${response.status} ${response.statusText}`
+          `Failed to fetch location: ${response.status} ${response.statusText}`,
         );
       }
       const data = await response.json();
@@ -277,7 +290,7 @@ const FormNew = ({
                         />
                       )}
                     </div>
-                  )
+                  ),
               )
             : formFields.map(
                 (field) =>
@@ -331,7 +344,7 @@ const FormNew = ({
                         />
                       )}
                     </div>
-                  )
+                  ),
               )}
         </>
         <input name="country" value={query.country} type="hidden" />
@@ -361,8 +374,8 @@ const FormNew = ({
               {submitting
                 ? "Submitting..."
                 : downloadBrochure
-                ? "Download Now"
-                : btnText}
+                  ? "Download Now"
+                  : btnText}
             </button>
           </div>
         ) : (
@@ -380,8 +393,8 @@ const FormNew = ({
               {submitting
                 ? "Submitting..."
                 : downloadBrochure
-                ? "Download Now"
-                : btnText}
+                  ? "Download Now"
+                  : btnText}
             </button>
           </>
         )}

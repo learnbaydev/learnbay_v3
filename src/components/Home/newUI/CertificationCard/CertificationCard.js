@@ -37,13 +37,15 @@ const CertificationCard = ({
           className={styles.image}
         />
         <h2 className={styles.title}>{data.title}</h2>
-        <Image
-          src={data.logoSrc}
-          alt={imageAlt}
-          width={160}
-          height={100}
-          className={styles.logo}
-        />
+        {data.logoSrc && (
+          <Image
+            src={data.logoSrc}
+            alt={imageAlt}
+            width={160}
+            height={100}
+            className={styles.logo}
+          />
+        )}
       </div>
 
       {/* Middle Section: Subtitle (with Icon) and Bullet Points */}
