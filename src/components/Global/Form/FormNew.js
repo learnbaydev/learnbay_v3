@@ -164,7 +164,7 @@ const FormNew = ({
           sessionStorage.setItem("pending_syllabus", courseId);
           const cloudAndDevopsCouserIds = [
             "cloud-devops-master",
-            "genai-cloud-devops",
+            "adv-cloud-devops",
             "cloud-db-admin",
             "cloud-it-support",
             "cloud-sys-admin",
