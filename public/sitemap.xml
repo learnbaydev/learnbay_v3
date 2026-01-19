@@ -705,4 +705,81 @@
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
+
+
+<url>
+		<loc>https://www.learnbay.co/genai-and-agentic-ai-master-program</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/genai-agentic-ai-managers-leaders</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/genai-agentic-ai-for-cloud-devops</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/genai-agentic-ai-program</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/cloud-and-devops-for-network-professionals</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/cloud-and-devops-for-system-administrators</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/advanced-cloud-and-devops-program</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/cloud-and-devops-for-it-support-and-it-operations</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+<url>
+		<loc>https://www.learnbay.co/cloud-and-devops-for-database-administrators</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/data-science-genai-program</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+
+	
+
 </urlset>
