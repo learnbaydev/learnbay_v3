@@ -4,7 +4,7 @@ import styles from "./Firstcloud.module.css";
 import CertificationCard from "../../../Home/newUI/CertificationCard/CertificationCard";
 import { certificationcloudCourses } from "../../../Home/newUI/NewCourse/NewCourseData";
 
-const FirstHeader = ({ donwnload, brochurePdf, brochureLink }) => {
+const FirstCloud = ({ donwnload, brochurePdf, brochureLink }) => {
   return (
     <>
       <Head>
@@ -23,21 +23,26 @@ const FirstHeader = ({ donwnload, brochurePdf, brochureLink }) => {
           <br />
           Premium Guidance from Industry Expert's
         </p>
-        <h1>
+        {/* <h1>
           at <span className={styles.cutText}>Rs. 2999/-</span>{" "}
           <span className={styles.greenText}>FREE</span>
-        </h1>
+        </h1> */}
+        <div className={styles.btnFlex}>
+          {brochureLink && (
+            <a href={brochureLink}>
+              <button className={styles.btnDownload}>View Syllabus</button>
+            </a>
+          )}
+        </div>
       </div>
 
-      <div className={styles.btnFlex}>
-        {donwnload || brochurePdf ? (
+      {/* <div className={styles.btnFlex}>
+        {brochureLink && (
           <a href={brochureLink}>
             <button className={styles.btnDownload}>View Syllabus</button>
           </a>
-        ) : (
-          ""
         )}
-      </div>
+      </div> */}
 
       <div className={`${styles.MasterCard} width`}>
         <div className={styles.cardwrapper}>
@@ -55,4 +60,4 @@ const FirstHeader = ({ donwnload, brochurePdf, brochureLink }) => {
   );
 };
 
-export default FirstHeader;
+export default FirstCloud;

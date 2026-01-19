@@ -20,6 +20,7 @@ const setCookie = (name, value, days, domain) => {
 };
 
 const ThankYouDemo = ({ initialName, initialPhone }) => {
+  const [pdfUrl, setPdfUrl] = useState(null);
   const email = JSON.stringify(initialName);
   const phone = JSON.stringify(initialPhone);
   console.log(email); // Log the email to the console
@@ -94,6 +95,15 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Masters-in-CS.pdf",
   };
 
+  useEffect(() => {
+    const courseId = sessionStorage.getItem("pending_syllabus");
+    console.log({ courseId, link: SYLLABUS_MAP[courseId], pdfUrl });
+    if (courseId && SYLLABUS_MAP[courseId] && pdfUrl === null) {
+      console.log({ courseId, link: SYLLABUS_MAP[courseId], pdfUrl });
+      setPdfUrl(SYLLABUS_MAP[courseId]);
+    }
+  }, []);
+
   return (
     <div>
       <Head>
@@ -118,7 +128,7 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
         brochurePdf={showBrochureButton}
         brochureLink={data[1]}
       /> */}
-      <Firstcloud />
+      <Firstcloud brochureLink={pdfUrl} />
 
       <ThankStats
         img1="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/GIF.gif"

@@ -54,14 +54,19 @@
 }
 .btnDownload {
   border: 0;
-  font-weight: 500;
-  color: #242424;
+  font-weight: 300;
+  color: #000;
   background-color: #edbb52;
+  width: 180px;
+  border-radius: 2.67px;
+  white-space: nowrap;
 }
 
 .btnFlex {
   display: flex;
   gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 641px) {
   .cardwrapper {
