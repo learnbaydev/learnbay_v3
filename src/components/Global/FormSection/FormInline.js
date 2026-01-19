@@ -33,10 +33,10 @@ const Form = ({
 }) => {
   const router = useRouter();
   const [formFields, setFormFields] = useState(
-    getFormFields(radio, google, referrals, Domain, interstedInHide)
+    getFormFields(radio, google, referrals, Domain, interstedInHide),
   );
   const [formField, setFormField] = useState(
-    getFormFields(radio, google, referrals, interstedInHide)
+    getFormFields(radio, google, referrals, interstedInHide),
   );
 
   const [value, setValue] = useState();
@@ -118,7 +118,7 @@ const Form = ({
         event,
         dataScience,
         dataScienceGeneric,
-        dataScienceCounselling
+        dataScienceCounselling,
       );
 
       setError(getValidation(radio, Domain, interstedInHide, query));
@@ -156,11 +156,24 @@ const Form = ({
 
         if (sendData.status === 200) {
           sessionStorage.setItem("pending_syllabus", courseId);
+          const cloudAndDevopsCouserIds = [
+            "cloud-devops-master",
+            "genai-cloud-devops",
+            "cloud-db-admin",
+            "cloud-it-support",
+            "cloud-sys-admin",
+            "cloud-network-pro",
+          ];
+
+          // 1. Determine which thank you page to use
+          const thankYouPath = cloudAndDevopsCouserIds.includes(courseId)
+            ? "/Thank-you-cloud"
+            : "/Thank-you";
           router.push(
             pushPath,
             dataScience
               ? {
-                  pathname: "/Thank-you",
+                  pathname: thankYouPath,
                   query: {
                     titleCourse: titleCourse,
                     brochureLink: brochureLink,
@@ -168,7 +181,7 @@ const Form = ({
                 }
               : {
                   pathname: pushPath,
-                }
+                },
           );
         }
       }
@@ -181,11 +194,11 @@ const Form = ({
   const fetchLocation = async () => {
     try {
       const response = await fetch(
-        "https://ipinfo.io/json?token=bc89c2010abac0"
+        "https://ipinfo.io/json?token=bc89c2010abac0",
       );
       if (!response.ok) {
         throw new Error(
-          `Failed to fetch location: ${response.status} ${response.statusText}`
+          `Failed to fetch location: ${response.status} ${response.statusText}`,
         );
       }
       const data = await response.json();
@@ -261,7 +274,7 @@ const Form = ({
                         />
                       )}
                     </div>
-                  )
+                  ),
               )
             : formFields.map(
                 (field) =>
@@ -315,7 +328,7 @@ const Form = ({
                         />
                       )}
                     </div>
-                  )
+                  ),
               )}
           <input name="country" value={query.country} type="hidden" />
           <input name="region" value={query.region} type="hidden" />
@@ -347,8 +360,8 @@ const Form = ({
                 {submitting
                   ? "Submitting..."
                   : downloadBrochure
-                  ? "Download Now"
-                  : btnText}
+                    ? "Download Now"
+                    : btnText}
               </button>
             </div>
           ) : (
@@ -365,8 +378,8 @@ const Form = ({
                 {submitting
                   ? "Submitting..."
                   : downloadBrochure
-                  ? "Download Now"
-                  : btnText}
+                    ? "Download Now"
+                    : btnText}
               </button>
             </>
           )}

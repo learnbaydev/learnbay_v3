@@ -46,6 +46,52 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
   }, []);
   const showBrochureButton = !!data[1]; // Only true if brochureLink exists
 
+  const SYLLABUS_MAP = {
+    // Popular & Master Programs
+    "ads-genai-master":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf",
+    "genai-agentic-master":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf",
+    "cloud-devops-master":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf",
+    "sde-genai-master":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
+
+    // GenAI & Agentic AI Category
+    "genai-managers":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf",
+    "genai-cloud-devops":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf",
+    "genai-software-dev":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_for_Software_Developers.pdf",
+    "genai-agentic-program":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_Program.pdf",
+    "applied-ai-practitioner":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/IIT_Patna_Applied_AI_Program.pdf",
+
+    // Cloud & DevOps Category
+    "cloud-network-pro":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf",
+    "cloud-sys-admin":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
+    "adv-cloud-devops":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Advanced_Cloud_and_Devops_Program.pdf",
+    "cloud-it-support":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_ITS_and_ITOps_Professionals.pdf",
+    "cloud-db-admin":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_DBA_Professionals.pdf",
+
+    // Data Science & GenAI Category
+    "ds-genai-program":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
+    "genai-analytics":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
+
+    // Academic
+    "masters-cs-ds-genai":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Masters-in-CS.pdf",
+  };
+
   return (
     <div>
       <Head>
