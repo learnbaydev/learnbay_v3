@@ -4,13 +4,15 @@ import { useEffect, useState } from "react";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
 import Footer from "../components/Global/Footer/Footer";
 import Navbar from "../components/Global/Navbar/Navbar";
-import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHeader";
+// import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHeader";
 import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
 import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
 import Head from "next/head";
 import cookies from "next-cookies";
 import CertificationCard from "../components/Home/newUI/CertificationCard/CertificationCard";
 import { certificationCourses } from "../components/Home/newUI/NewCourse/NewCourseData";
+import Firstcloud from "../components/StaticPage/Thankyou/FirstCloud/FirstCloud";
+
 const setCookie = (name, value, days, domain) => {
   const expires = new Date();
   expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
@@ -65,11 +67,12 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
         />
       </Head>
       <Navbar donwnload={showBrochureButton} brochureLink={data[1]} />
-      <FirstHeader
+      {/* <FirstHeader
         donwnload={showBrochureButton}
         brochurePdf={showBrochureButton}
         brochureLink={data[1]}
-      />
+      /> */}
+      <Firstcloud />
 
       <ThankStats
         img1="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/GIF.gif"

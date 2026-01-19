@@ -1369,6 +1369,57 @@ export const certificationCourses = [
   // Add more course objects here as needed...
 ];
 
+export const certificationcloudCourses = [
+  {
+    title: "Cloud & DevOps for Network Professionals",
+    points: [
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
+        text: "5 months",
+      },
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
+        text: "Get certified in Cloud & DevOps from Microsoft",
+      },
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp",
+        text: "Designed and developed for network professionals ",
+      },
+    ],
+    imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp",
+
+    link: "/cloud-and-devops-for-network-professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf",
+    brochurePdfs:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf",
+  },
+
+  {
+    title: "Cloud & DevOps for System Administrators",
+    points: [
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
+        text: "5 months",
+      },
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
+        text: "Get certified in Cloud & DevOps from Microsoft",
+      },
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp",
+        text: "Designed and developed for System Administrators ",
+      },
+    ],
+    imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_II.webp",
+    link: "/cloud-and-devops-for-system-administrators",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf",
+    brochurePdfs:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
+  },
+];
+
 export const SvgArrow = ({ color }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
