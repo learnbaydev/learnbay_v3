@@ -10,21 +10,21 @@ import styles from "@/styles/Home.module.css";
 import NewSevenSection from "@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection";
 
 const LabFirst = dynamic(() => import("@/components/Seo/Co-lab/co-lab"));
-const Lbdifference = dynamic(() =>
-  import("@/components/Seo/Lbdifference/lbdifference")
+const Lbdifference = dynamic(
+  () => import("@/components/Seo/Lbdifference/lbdifference"),
 );
 
-const UnderstandingProcess = dynamic(() =>
-  import("@/components/Seo/UnderstandingProcess/UnderstandingProcess")
+const UnderstandingProcess = dynamic(
+  () => import("@/components/Seo/UnderstandingProcess/UnderstandingProcess"),
 );
 
 const Benefits = dynamic(() => import("@/components/Seo/Benefits/Benefits"));
 
-const AchievementCertificate = dynamic(() =>
-  import("@/components/AchievementCertificate/AchievementCertificate")
+const AchievementCertificate = dynamic(
+  () => import("@/components/AchievementCertificate/AchievementCertificate"),
 );
-const WisdomFromLeaders = dynamic(() =>
-  import("@/components/WisdomFromLeaders/WisdomFromLeaders")
+const WisdomFromLeaders = dynamic(
+  () => import("@/components/WisdomFromLeaders/WisdomFromLeaders"),
 );
 const PieChart = dynamic(() => import("@/components/piechart/piechart"), {
   ssr: false,
@@ -94,24 +94,6 @@ export default function Home() {
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Course",
-              name: "AI Co-Lab",
-              description:
-                "Work on real AI startup projects, build GenAI and automation solutions, gain dual certification and portfolio-ready experience with LearnBay.",
-              url: "https://www.learnbay.co/ai-co-lab",
-              provider: {
-                "@type": "Organization",
-                name: "Learnbay",
-                url: "https://www.learnbay.co/",
-              },
-            }),
-          }}
         />
       </Head>
       <main>
