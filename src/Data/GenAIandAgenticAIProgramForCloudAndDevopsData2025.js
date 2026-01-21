@@ -7378,8 +7378,66 @@ export const NewDSAData = [
 
       {
         Module5: {
+          title: "Module 5 – LLMOP’s & Production Deployment",
+          hours: "(1 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "LLMOP’s & Production Deployment",
+          content: [
+            {
+              chap: {
+                title: "LLM Lifecycle, Versioning & Deployment Basics",
+                desc: [
+                  "End-to-end LLM lifecycle from development to production.",
+                  "Model and prompt versioning using evaluation traces.",
+                  "API-based LLM deployment using FastAPI and OpenAI / Azure OpenAI endpoints.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Containerization & Inference Serving",
+                desc: [
+                  "Packaging GenAI applications for consistent deployment.",
+                  "Serving LLM-powered APIs using containers.",
+                  "Localand cloud-ready inference setups.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "RAG & Agent Deployment Pipelines",
+                desc: [
+                  "Deploying Retrieval-Augmented Generation pipelines reliably.",
+                  "Vector database operations for production workloads.",
+                  "Deploying agent workflows with tool calling and state handling.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Monitoring, Cost Optimization & Reliability",
+                desc: [
+                  "Tracking latency, token usage, and failures.",
+                  "Prompt evaluation and trace-based monitoring.",
+                  "Cost optimization, rollback, and safe production controls.",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module6: {
           title:
-            "Module 5 – Gen AI Specialization for Cloud & DevOps Professionals",
+            "Module 6 – Gen AI Specialization for Cloud & DevOps Professionals",
           hours: "(1 Month)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7466,7 +7524,7 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 5,
+          id: 6,
           open: false,
         },
       },

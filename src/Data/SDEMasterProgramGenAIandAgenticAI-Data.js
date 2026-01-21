@@ -7376,7 +7376,65 @@ export const NewDSAData = [
 
       {
         Module5: {
-          title: "Module 5 – Data Structures & Algorithms",
+          title: "Module 5 – LLMOP’s & Production Deployment",
+          hours: "(1 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "LLMOP’s & Production Deployment",
+          content: [
+            {
+              chap: {
+                title: "LLM Lifecycle, Versioning & Deployment Basics",
+                desc: [
+                  "End-to-end LLM lifecycle from development to production.",
+                  "Model and prompt versioning using evaluation traces.",
+                  "API-based LLM deployment using FastAPI and OpenAI / Azure OpenAI endpoints.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Containerization & Inference Serving",
+                desc: [
+                  "Packaging GenAI applications for consistent deployment.",
+                  "Serving LLM-powered APIs using containers.",
+                  "Localand cloud-ready inference setups.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "RAG & Agent Deployment Pipelines",
+                desc: [
+                  "Deploying Retrieval-Augmented Generation pipelines reliably.",
+                  "Vector database operations for production workloads.",
+                  "Deploying agent workflows with tool calling and state handling.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Monitoring, Cost Optimization & Reliability",
+                desc: [
+                  "Tracking latency, token usage, and failures.",
+                  "Prompt evaluation and trace-based monitoring.",
+                  "Cost optimization, rollback, and safe production controls.",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module6: {
+          title: "Module 6 – Data Structures & Algorithms",
           hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7550,8 +7608,8 @@ export const NewDSAData = [
       },
 
       {
-        Module6: {
-          title: "Module 6 – System Design",
+        Module7: {
+          title: "Module 7 – System Design",
           hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7752,13 +7810,13 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 6,
+          id: 7,
           open: false,
         },
       },
 
       {
-        Module7: {
+        Module8: {
           title:
             "Elective A - LLM-Powered Software Engineering & Developer Copilots",
           hours: "(40 Hours)",
@@ -7815,13 +7873,13 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 7,
+          id: 8,
           open: false,
         },
       },
 
       {
-        Module8: {
+        Module9: {
           title: "Elective B - Cloud, DevOps & LLM Infrastructure Engineering",
           hours: "(40 Hours)",
           imageUrl:
