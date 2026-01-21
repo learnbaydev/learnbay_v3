@@ -7415,6 +7415,19 @@ export const NewDSAData = [
       //   ],
       // },
       {
+        id: 1,
+        topnav: "Microsoft",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        width: 330,
+        height: 260,
+        title: "Certification in Collaboration with Microsoft",
+        para: [
+          "Earn an Industry-certified Microsoft certificate , validating your skills",
+          "Showcase your expertise & enhance your resume highlighting job ready skills",
+          "Boost job opportunities and earnings with Microsoft’s certification",
+        ],
+      },
+      {
         id: 2,
         topnav: "Gen-AI Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
