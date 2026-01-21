@@ -7034,19 +7034,19 @@ export const NewDSAData = [
     ],
 
     Certificate: [
-      {
-        id: 1,
-        topnav: "Project Certificate",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
-        width: 300,
-        height: 270,
-        title: "Capstone Project Certificate from Renowened Industry",
-        para: [
-          "Globally recognized Renowened Industry certification based on industrial-level projects.",
-          "Earn an industry recognized Capstone project certification from Renowened Industry.",
-          "Individualized project experience with easy access to premium job opportunities.",
-        ],
-      },
+      // {
+      //   id: 1,
+      //   topnav: "Project Certificate",
+      //   img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
+      //   width: 300,
+      //   height: 270,
+      //   title: "Capstone Project Certificate from Renowened Industry",
+      //   para: [
+      //     "Globally recognized Renowened Industry certification based on industrial-level projects.",
+      //     "Earn an industry recognized Capstone project certification from Renowened Industry.",
+      //     "Individualized project experience with easy access to premium job opportunities.",
+      //   ],
+      // },
       {
         id: 2,
         topnav: "Gen-AI Certificate",

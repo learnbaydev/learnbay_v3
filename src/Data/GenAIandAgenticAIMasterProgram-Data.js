@@ -7474,20 +7474,20 @@ export const NewDSAData = [
     ],
 
     Certificate: [
-      {
-        id: 1,
-        topnav: "IBM",
-        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp",
+      // {
+      //   id: 1,
+      //   topnav: "IBM",
+      //   img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp",
 
-        width: 300,
-        height: 340,
-        title: "Course Completion Certificate from IBM",
-        para: [
-          "Complete your training with the internationally recognized certificate.",
-          "Validate your Data Science & AI skills with IBM Course Completion Certificate.",
-          "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
-        ],
-      },
+      //   width: 300,
+      //   height: 340,
+      //   title: "Course Completion Certificate from IBM",
+      //   para: [
+      //     "Complete your training with the internationally recognized certificate.",
+      //     "Validate your Data Science & AI skills with IBM Course Completion Certificate.",
+      //     "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+      //   ],
+      // },
       {
         id: 2,
         topnav: "Microsoft",
@@ -7516,7 +7516,7 @@ export const NewDSAData = [
       },
       {
         id: 4,
-        topnav: "Gen-AI Certificate",
+        topnav: "IBM Gen-AI Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
         width: 300,
         height: 270,
