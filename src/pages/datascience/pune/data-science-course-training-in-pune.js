@@ -11,33 +11,33 @@ import Form from "../../../components/Global/Form/Form";
 import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import styles from "../../../styles/Home.module.css";
-const FirstSection = dynamic(() =>
-  import("../../../components/Seo/FirstSection/FirstSection")
+const FirstSection = dynamic(
+  () => import("../../../components/Seo/FirstSection/FirstSection"),
 );
-const SecondSection = dynamic(() =>
-  import("../../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import("../../../components/Seo/SecondSection/SecondSection"),
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
+const ProgramInfo = dynamic(
+  () => import("../../../components/Seo/ProgramInfo/ProgramInfo"),
 );
-const SeventhSection = dynamic(() =>
-  import("../../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import("../../../components/Seo/SeventhSection/SeventhSection"),
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
+const ProgramFee = dynamic(
+  () => import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee"),
 );
-const CityText = dynamic(() =>
-  import("../../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import("../../../components/Seo/CityText/CityText"),
 );
-const CitiesLeft = dynamic(() =>
-  import("../../../components/Seo/CitiesLeft/CitiesLeft")
+const CitiesLeft = dynamic(
+  () => import("../../../components/Seo/CitiesLeft/CitiesLeft"),
 );
-const CitiesRight = dynamic(() =>
-  import("../../../components/Seo/CitiesRight/CitiesRight")
+const CitiesRight = dynamic(
+  () => import("../../../components/Seo/CitiesRight/CitiesRight"),
 );
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
+const OfferPopup = dynamic(
+  () => import("../../../components/Global/OfferPopup/OfferPopup"),
 );
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -323,7 +323,7 @@ export default function Home() {
         <Realstory />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹1,35,000"
+            Fee="₹1,20,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
@@ -346,11 +346,11 @@ export default function Home() {
             // <EMI POPUP
             emiType="NO COST EMI"
             duration1="18 Months"
-            totalAmount1="₹1,35,000"
+            totalAmount1="₹1,20,000"
             monthlyPayment1="₹8,850"
             greenDown1="Standard Intrest rate Applicable"
             duration2="12 Months"
-            totalAmount2="₹1,35,000"
+            totalAmount2="₹1,20,000"
             monthlyPayment2="₹13,275"
           />
         </div>
@@ -406,6 +406,7 @@ export default function Home() {
               src={DSPuneCourseData[0].src}
               src22={DSPuneCourseData[0].src22}
               src33={DSPuneCourseData[0].src33}
+              src44={DSPuneCourseData[0].src44}
               alt2={DSPuneCourseData[0].alt2}
               alt3={DSPuneCourseData[0].alt3}
               alt4={DSPuneCourseData[0].alt4}

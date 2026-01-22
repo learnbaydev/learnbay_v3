@@ -537,7 +537,7 @@ export const DSPuneCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in Pune?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The duration of the data science and Gen AI course is 9-13 months.",
             open: false,
           },
           {
@@ -618,11 +618,7 @@ export const DSPuneCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in Pune?",
-            ans: `The total course fee for the 
-                Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: ` The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST. `,
             open: true,
           },
           {
@@ -696,12 +692,7 @@ export const DSPuneCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                Foundational Data Science and AI Training course- 1 Course Completion Certificate.
-                Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-                *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.`,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification. `,
             open: true,
           },
         ],
@@ -810,6 +801,7 @@ export const DSPuneCourseData = [
       "Students earn IBM Data Science Certification at the end of the course. Even the Advance program, Managers program consists of 6-8 separate IBM certificates on different sub-module completion. Even in these two courses, you get a data science project completion certificate issued by IBM.",
     src33:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    src44: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
@@ -817,38 +809,26 @@ export const DSPuneCourseData = [
       "Within Learnbay’s Data scientists courses in Pune, every module is customized as per the present data science job market direction. There are even special coding classes for students from non-technical backgrounds so students can get along with other technical mates.",
     ModuleBot2:
       "The modules cover plenty of hands-on assignments on demanding  Data science tools. Our industry FAANG experts teach you to apply statistics, probability, and mathematical analysis skills. Learnbay helps students master Data scientist tools like Advance excel, SQL, MONGO-DB, TABLEAU, POWER BI, BIG DATA, SPARK ANALYTICS, PYTHON, and TIME SERIES. Professional Data scientists widely use these programs, and our students learn the same at the trending industry level throughout the Data science training in Pune.",
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
     JobHead1: "Learnbay's data science course in Pune",
