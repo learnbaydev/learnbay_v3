@@ -1,0 +1,187 @@
+.container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Desktop Layout */
+@media (min-width: 1024px) {
+  .layout {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  align-self: flex-start;
+  margin-bottom: 24px;
+}
+
+/* PDF Controls */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  margin-bottom: 16px;
+}
+
+.navButton {
+  padding: 8px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+.navButton:hover:not(:disabled) {
+  background-color: #f3f4f6;
+}
+
+.navButton:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* PDF Canvas Container */
+.pdfWrapper {
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+/* Bottom Action Buttons */
+.buttonGroup {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.viewBtn,
+.downloadBtn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: 0.2s;
+}
+
+.viewBtn {
+  background: white;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.downloadBtn {
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+
+/* Sidebar / Banner */
+.sidebar {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .sidebar {
+    width: 320px;
+    position: sticky;
+    top: 20px;
+  }
+}
+
+.bannerCard {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid #f3f4f6;
+}
+
+.bannerContent {
+  padding: 24px;
+}
+
+.applyBtn {
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 16px 0;
+}
+
+.pageIndicator {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4b5563;
+  min-width: 60px;
+  text-align: center;
+}
+
+.pdfWrapper {
+  width: 100%;
+  min-height: 500px; /* Essential: Gives the loader/canvas space */
+  background: #525659; /* Darker background like a real PDF viewer */
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.loadingState {
+  color: white;
+  padding: 40px;
+  font-weight: 500;
+}
+
+/* Ensure the canvas itself is visible */
+.pdfWrapper canvas {
+  max-width: 100% !important;
+  height: auto !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
