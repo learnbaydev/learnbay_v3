@@ -7940,7 +7940,7 @@ export const NewDSAData = [
         },
       },
       {
-        Module9: {
+        Module10: {
           title:
             "Elective C - Backend Engineering for LLM Applications & RAG Microservices",
           hours: "(40 Hours)",
@@ -8003,7 +8003,7 @@ export const NewDSAData = [
       },
 
       {
-        Module10: {
+        Module11: {
           title:
             "Elective D - Distributed Systems & Microservices for AI Applications",
           hours: "(40 Hours)",
@@ -8067,7 +8067,7 @@ export const NewDSAData = [
       },
 
       {
-        Module11: {
+        Module12: {
           title:
             "Elective E - Multi-Agent Systems, Workflow Automation & Enterprise Orchestration",
           hours: "(40 Hours)",
@@ -8130,7 +8130,7 @@ export const NewDSAData = [
       },
 
       {
-        Module12: {
+        Module13: {
           title: "Elective F - GenAI & Agentic AI for Product Managers",
           hours: "(32 Hours)",
           imageUrl:
