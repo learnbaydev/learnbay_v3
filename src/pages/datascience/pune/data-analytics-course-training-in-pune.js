@@ -9,32 +9,32 @@ import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import styles from "../../../styles/Home.module.css";
-const FirstSection = dynamic(() =>
-  import("../../../components/Seo/FirstSection/FirstSection")
+const FirstSection = dynamic(
+  () => import("../../../components/Seo/FirstSection/FirstSection"),
 );
-const SecondSection = dynamic(() =>
-  import("../../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import("../../../components/Seo/SecondSection/SecondSection"),
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
+const ProgramInfo = dynamic(
+  () => import("../../../components/Seo/ProgramInfo/ProgramInfo"),
 );
-const SeventhSection = dynamic(() =>
-  import("../../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import("../../../components/Seo/SeventhSection/SeventhSection"),
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
+const ProgramFee = dynamic(
+  () => import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee"),
 );
-const CityText = dynamic(() =>
-  import("../../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import("../../../components/Seo/CityText/CityText"),
 );
-const CitiesLeft = dynamic(() =>
-  import("../../../components/Seo/CitiesLeft/CitiesLeftDomain")
+const CitiesLeft = dynamic(
+  () => import("../../../components/Seo/CitiesLeft/CitiesLeftDomain"),
 );
-const CitiesRight = dynamic(() =>
-  import("../../../components/Seo/CitiesRight/CitiesRightdomain")
+const CitiesRight = dynamic(
+  () => import("../../../components/Seo/CitiesRight/CitiesRightdomain"),
 );
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
+const OfferPopup = dynamic(
+  () => import("../../../components/Global/OfferPopup/OfferPopup"),
 );
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 
@@ -75,7 +75,7 @@ export default function Home() {
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -163,7 +163,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Analytics Course Training in Pune"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf"
           brochurePdf={pdfUrl}
           idss="y_0IdhFKJKM"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/data+analytics+header+image.webp"
@@ -181,7 +181,7 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹85,000"
+            Fee="1,20,000"
             FeeEmi="₹5,572/month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
@@ -199,16 +199,16 @@ export default function Home() {
             interstedInHide={true}
             dataScience={true}
             titleCourse="Data Analytics Certification Program"
-            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf"
             brochurePdf={pdfUrl}
             // EMI POPUPDATA
             emiType="NO COST EMI"
             duration1="18 Months"
-            totalAmount1="₹85,000"
+            totalAmount1="1,20,000"
             monthlyPayment1="₹5,572"
             greenDown1="Standard Intrest rate Applicable"
             duration2="12 Months"
-            totalAmount2="₹85,000"
+            totalAmount2="1,20,000"
             monthlyPayment2="₹8,358"
           />
         </div>

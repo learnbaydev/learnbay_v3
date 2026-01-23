@@ -832,9 +832,26 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IITPATNAIBM2026.webp",
 
       link: "/artificial-intelligence/applied-ai-practitioner-program",
-      brochureLinks: "",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+
       brochurePdfs:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/IIT_Patna_Applied_AI_Program.pdf",
+    },
+
+    {
+      title: "AI Engineering Master Program  ",
+      duration: "9 months | 4 capstone Projects",
+      certification: "Certification form IBM and Microsoft",
+      description: "For Programmers",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp",
+
+      link: "/ai-engineering-master-program",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf",
     },
 
     // {

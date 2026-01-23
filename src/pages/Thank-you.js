@@ -18,6 +18,8 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf",
     "sde-genai-master":
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
+    "ai-engineering-master-program":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI+Engineering+Program_compressed.pdf",
 
     // GenAI & Agentic AI Category
     "genai-managers":
@@ -30,6 +32,8 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_Program.pdf",
     "applied-ai-practitioner":
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/IIT_Patna_Applied_AI_Program.pdf",
+    "ai-engineering-master-program":
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI+Engineering+Program_compressed.pdf",
 
     // Cloud & DevOps Category
     "cloud-network-pro":

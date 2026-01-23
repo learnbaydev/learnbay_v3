@@ -481,13 +481,7 @@ export const DAPuneCourseData = [
           {
             id: 3,
             ques: "What’s the duration of the Data Analytics Course in Pune?",
-            ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-            
-                Classes will be conducted on weekdays and weekend batches.
-                Weekday batch - 4.5 months
-                   Monday to Friday - 2 hours/day
-                Weekend batch - 6 months
-                Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of the Data Analytics course training in Pune is 8-9 months, including weekend and weekday batches.`,
             open: false,
           },
           {
@@ -565,13 +559,13 @@ export const DAPuneCourseData = [
           {
             id: 0,
             ques: "What is the total fee for the Data Analytics Program in Pune?",
-            ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
+            ans: `The total program fee for the Data Analytics Program is INR 1,20,000 + 18% GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 93,220/-?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Can I pay in installments for INR 1,20,000 + 18% GST-?",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option . You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             open: false,
           },
           {
@@ -635,7 +629,7 @@ export const DAPuneCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion. `,
+            ans: `Yes, you will be awarded Gen AI and IIT Patna accredited Data Analytics Certificate on successful course completion. `,
             open: true,
           },
         ],
@@ -717,7 +711,7 @@ export const DAPuneCourseData = [
 
     ProgramHead1: (
       <span>
-        About Learnbay’s Data Analyst Course in Pune [In Alliance with IBM]{" "}
+        Add alliance with IBM and IIT Patna, and the GEN AI Certificate{" "}
       </span>
     ),
     ProgramBot1: (

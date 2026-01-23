@@ -21,10 +21,36 @@ export const TabData = [
         url: "/genai-and-agentic-ai-master-program",
       },
       {
+        CName: "AI Engineering Master Program",
+        hours: "9 Months",
+        url: "/ai-engineering-master-program",
+      },
+      {
         CName: "GenAI and Agentic AI Program",
         hours: "5 Months",
         url: "/gen-ai-agentic-ai-program",
       },
+      {
+        CName: "GenAI and Agentic AI Program for Managers and Leaders",
+        hours: "5 Months",
+        url: "/genai-agentic-ai-managers-leaders",
+      },
+      {
+        CName: "GenAI and Agentic AI Program for Cloud and DevOps",
+        hours: "5 Months",
+        url: "/genai-agentic-ai-for-cloud-devops",
+      },
+      {
+        CName: "Applied AI Practitioner Program",
+        hours: "4 Months",
+        url: "/artificial-intelligence/applied-ai-practitioner-program",
+      },
+      {
+        CName: "GenAI & Agentic AI for Software Developer",
+        hours: "5 Months",
+        url: "/artificial-intelligence/genai-software-developers",
+      },
+
       // {
       //   CName: "GenAI and Agentic AI Program for BFSI",
       //   hours: "5 Months",
@@ -51,31 +77,12 @@ export const TabData = [
       //   hours: "5 Months",
       //   url: "/gen-ai-agentic-ai-program-for-automotive",
       // },
-      {
-        CName: "GenAI and Agentic AI Program for Managers and Leaders",
-        hours: "5 Months",
-        url: "/genai-agentic-ai-managers-leaders",
-      },
+
       // {
       //   CName: "GenAI Professional Certification for Managers With IBM",
       //   hours: "4 Months",
       //   url: "/artificial-intelligence/generative-ai-for-managers",
       // },
-      {
-        CName: "GenAI and Agentic AI Program for Cloud and DevOps",
-        hours: "5 Months",
-        url: "/genai-agentic-ai-for-cloud-devops",
-      },
-      {
-        CName: "Applied AI Practitioner Program",
-        hours: "4 Months",
-        url: "/artificial-intelligence/applied-ai-practitioner-program",
-      },
-      {
-        CName: "GenAI & Agentic AI for Software Developer",
-        hours: "5 Months",
-        url: "/artificial-intelligence/genai-software-developers",
-      },
     ],
   },
   {

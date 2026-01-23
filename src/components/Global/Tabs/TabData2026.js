@@ -33,6 +33,11 @@ export const TabData = [
         hours: "4 Months",
         url: "/artificial-intelligence/applied-ai-practitioner-program",
       },
+      {
+        CName: "AI Engineering Master Program",
+        hours: "9 Months",
+        url: "/ai-engineering-master-program",
+      },
     ],
   },
   {
@@ -68,6 +73,11 @@ export const TabData = [
         CName: "Applied AI Practioner Program ",
         hours: "4 months ",
         url: "/artificial-intelligence/applied-ai-practitioner-program",
+      },
+      {
+        CName: "AI Engineering Master Program",
+        hours: "9 Months",
+        url: "/ai-engineering-master-program",
       },
     ],
   },
