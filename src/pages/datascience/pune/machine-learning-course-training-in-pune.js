@@ -9,32 +9,32 @@ import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import styles from "../../../styles/Home.module.css";
-const FirstSection = dynamic(() =>
-  import("../../../components/Seo/FirstSection/FirstSection")
+const FirstSection = dynamic(
+  () => import("../../../components/Seo/FirstSection/FirstSection"),
 );
-const SecondSection = dynamic(() =>
-  import("../../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import("../../../components/Seo/SecondSection/SecondSection"),
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
+const ProgramInfo = dynamic(
+  () => import("../../../components/Seo/ProgramInfo/ProgramInfo"),
 );
-const SeventhSection = dynamic(() =>
-  import("../../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import("../../../components/Seo/SeventhSection/SeventhSection"),
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
+const ProgramFee = dynamic(
+  () => import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee"),
 );
-const CityText = dynamic(() =>
-  import("../../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import("../../../components/Seo/CityText/CityText"),
 );
-const CitiesLeft = dynamic(() =>
-  import("../../../components/Seo/CitiesLeft/CitiesLeft")
+const CitiesLeft = dynamic(
+  () => import("../../../components/Seo/CitiesLeft/CitiesLeft"),
 );
-const CitiesRight = dynamic(() =>
-  import("../../../components/Seo/CitiesRight/CitiesRight")
+const CitiesRight = dynamic(
+  () => import("../../../components/Seo/CitiesRight/CitiesRight"),
 );
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
+const OfferPopup = dynamic(
+  () => import("../../../components/Global/OfferPopup/OfferPopup"),
 );
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 
@@ -75,7 +75,7 @@ export default function Home() {
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -160,7 +160,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Machine Learning Course Training In Pune"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
           brochurePdf={pdfUrl}
           idss="Jn2puEQC8yk"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/ML.png"
@@ -178,7 +178,7 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 1,15,000"
+            Fee="₹ 1,59,000"
             FeeEmi="₹ 7,539/ Month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
@@ -194,12 +194,12 @@ export default function Home() {
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
             titleCourse="AI & ML Program for tech professionals"
-            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
             interstedInHide={true}
             // <EMI POPUP
             emiType="NO COST EMI"
             duration1="18 Months"
-            totalAmount1="₹1,15,000"
+            totalAmount1="₹1,59,000"
             monthlyPayment1="₹7,539"
             greenDown1="Standard Intrest rate Applicable"
             duration2="12 Months"
@@ -261,8 +261,8 @@ export default function Home() {
               CertificationBot1={MLPuneCourseData[0].CertificationBot1}
               CertificationBot2={MLPuneCourseData[0].CertificationBot2}
               src={MLPuneCourseData[0].src}
-              src22={MLPuneCourseData[0].src22}
               src33={MLPuneCourseData[0].src33}
+              src44={MLPuneCourseData[0].src44}
               alt2={MLPuneCourseData[0].alt2}
               alt3={MLPuneCourseData[0].alt3}
               alt4={MLPuneCourseData[0].alt4}

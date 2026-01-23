@@ -110,7 +110,7 @@ export const MLPuneCourseData = [
           name: "What’s the duration of this Machine Learning course in Pune?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate. Classes will be conducted on weekdays and weekend batches. Weekday batch - 9.5 months Monday to Friday - 2 hours/day Weekend batch -11 months Saturday & Sunday - 3.5 hours/day.",
+            text: "The duration of this course is about 13 months which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate. Classes will be conducted on weekdays and weekend batches. Weekday batch - 9.5 months Monday to Friday - 2 hours/day Weekend batch -11 months Saturday & Sunday - 3.5 hours/day.",
           },
         },
         {
@@ -190,15 +190,15 @@ export const MLPuneCourseData = [
           name: "What is the total Fee for this machine learning course in Pune?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,15,000/- Inclusive of GST.",
+            text: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000 +18% GST Inclusive of GST.",
           },
         },
         {
           "@type": "Question",
-          name: "Can I pay in installments for 1,15,000/-?",
+          name: "Can I pay in installments for 1,59,000 ?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            text: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
           },
         },
         {
@@ -246,7 +246,7 @@ export const MLPuneCourseData = [
           name: "Is there any accredited certification after this machine learning course completion in Pune?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.",
+            text: "Yes, you will be awarded 6 separate IBM and Gen AI  accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.",
           },
         },
         {
@@ -545,7 +545,7 @@ export const MLPuneCourseData = [
           {
             id: 3,
             ques: "What’s the duration of this  Machine Learning course in Pune?",
-            ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
+            ans: `The duration of this course is about 13 Months which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
             
                 Classes will be conducted on weekdays and weekend batches.
                 Weekday batch - 9.5 months
@@ -628,13 +628,13 @@ export const MLPuneCourseData = [
           {
             id: 0,
             ques: "What is the total Fee for this machine learning course in Pune?",
-            ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,15,000/- Inclusive of GST.`,
+            ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000+18% GST- Inclusive of GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for 1,15,000/-?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Can I pay in installments for 1,59,000/-?",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             open: false,
           },
           {
@@ -697,7 +697,7 @@ export const MLPuneCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after this machine learning course completion in Pune?",
-            ans: `Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.`,
+            ans: `Yes, you will be awarded 6 separate IBM and Gen AI accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.`,
             open: true,
           },
           {
@@ -833,44 +833,34 @@ export const MLPuneCourseData = [
     CertificationBot2:
       "The students who completed the course and the projects get separate certificates for gaining different Machine Learning skills like Deep Learning, Machine Learning with Python, Tensorflow, capstone project certificates, and many more. The most important is IBM Machine Learning project completion certificates for two new capstone projects.",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Advanced-AI-ML.jpeg",
+    src33: "",
+    src44: "",
     ModuleBot1:
       "The Learnbay Machine Learning program in Pune consists of 300 hrs of uninterrupted live classes from PRODUCT Based Companies experts. More than 18 specially planned Machine Learning modules are there, so students can be thoroughly trained for super industrial skills. Every module at Learnbay has its sub-module, from basic to advanced.",
     ModuleBot2:
       "Leanbay understands the difficulty of non-programmers learning ML, so we conduct special coding classes for such students. The Learnbay Faculty team constantly updates all assignments and projects. We even conduct Webinars and hackathons for students to hone their coding skills. Learnbay teaches students to work with advanced ML skills that world-class business giants are presently operating, like Big Data Analytics, NLP, Time-Analysis, Data structure, algorithms, etc.",
-    syllabush1: "Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Anaconda Installation",
-    SyllabusBotlist12: "Basics of Programming",
-    SyllabusBotlist13: "Memory Management",
-    SyllabusBotlist14: "Compiler and Interpreter",
-    SyllabusBotlist15: "Syntax of Python",
-    SyllabusBotlist16: "Basics of Statistics",
-    syllabush2: "Python Programming (Basic + Advance)",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Git and GitHub",
-    SyllabusBotlist22: "Operators + Data Types + Loops",
-    SyllabusBotlist23: "Functions + Regular Expression",
-    SyllabusBotlist24: "Conditional Statement",
-    SyllabusBotlist25: "File & Exceptional Handling",
-    SyllabusBotlist26: "Numpy, Pandas, Matplotlib, etc.",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Linear Algebra, Probability",
-    SyllabusBotlist32: "Permutation & Combination",
-    SyllabusBotlist33: "Descriptive & Inferential Stats",
-    SyllabusBotlist34: "Hypothesis Testing",
-    SyllabusBotlist35: "Time Series Analysis",
-    SyllabusBotlist36: "ML Algorithms",
-    syllabush4: "Industrial Projects & Capstone Projects",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: "Text Classification",
-    SyllabusBotlist42: "Human Activity Recognition",
-    SyllabusBotlist43: "Forecasting Business KPI's",
-    SyllabusBotlist44: "Credit Risk Analysis",
-    SyllabusBotlist45: "Customer Churn Prediction",
-    SyllabusBotlist46: "Sentiment Analysis",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf",
     JobHead1:
       "How does Learnbay train students to crack the interviews for Machine Learning MNC jobs in Pune?",
     JobBot1:

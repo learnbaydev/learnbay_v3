@@ -5,47 +5,50 @@ import { parseJSONData } from "@/Util/JsonConvertor";
 import DSAHeader from "@/components/CoursePage/NewDSA/Header/NewDSAHeader";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
-const ProgramSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProgramSection/ProgramSection")
+const ProgramSection = dynamic(
+  () => import("@/components/CoursePage/NewDSA/ProgramSection/ProgramSection"),
 );
-const DSAPractical = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
+const DSAPractical = dynamic(
+  () => import("@/components/CoursePage/NewDSA/Practical/DSAPractical"),
 );
-const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/Whylb")
+const AnimationNew = dynamic(
+  () => import("@/components/Home/whyChooseSection/Whylb"),
 );
-const Other = dynamic(() =>
-  import("@/components/Home/newUI/OtherVS_updated/Other")
+const Other = dynamic(
+  () => import("@/components/Home/newUI/OtherVS_updated/Other"),
 );
-const JobReadySection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
+const JobReadySection = dynamic(
+  () =>
+    import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection"),
 );
-const DSASyllabus = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus")
+const DSASyllabus = dynamic(
+  () => import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus"),
 );
-const NewCertificateSection = dynamic(() =>
-  import("@/components/CoursePage/newCertificate/NewCertificate")
+const NewCertificateSection = dynamic(
+  () => import("@/components/CoursePage/newCertificate/NewCertificate"),
 );
-const DSAFeeSection = dynamic(() =>
-  import("@/components/CoursePage/dsaFee/DSAFeeSection")
+const DSAFeeSection = dynamic(
+  () => import("@/components/CoursePage/dsaFee/DSAFeeSection"),
 );
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-const NewSevenSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
+const NewSevenSection = dynamic(
+  () =>
+    import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection"),
 );
-const MentorsSection = dynamic(() =>
-  import("@/components/course/MentorsSection/MentorsSection")
+const MentorsSection = dynamic(
+  () => import("@/components/course/MentorsSection/MentorsSection"),
 );
-const DSAProjectSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProjectSection/DSAProjectSection")
+const DSAProjectSection = dynamic(
+  () =>
+    import("@/components/CoursePage/NewDSA/ProjectSection/DSAProjectSection"),
 );
-const ReviewSlider = dynamic(() =>
-  import("@/components/Home/newUI/reviewSlider/reviewSlider")
+const ReviewSlider = dynamic(
+  () => import("@/components/Home/newUI/reviewSlider/reviewSlider"),
 );
 import Certificate from "@/components/CoursePage/Certificate/Certificate";
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
+const Content = dynamic(
+  () => import("@/components/CoursePage/Content/content"),
 );
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
@@ -62,8 +65,8 @@ import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/Updat
 import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
 import ToolsCovered from "@/components/CoursePage/ToolsCovered/ToolsCovered";
 import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
-const SyllabusNew = dynamic(() =>
-  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
+const SyllabusNew = dynamic(
+  () => import("@/components/CoursePage/Syllabus/MasterSyllabus2025"),
 );
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
@@ -735,7 +738,7 @@ export async function getStaticProps() {
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>
-    value === undefined ? null : value
+    value === undefined ? null : value,
   );
 
   return { props: { DSADataJson } };

@@ -118,7 +118,6 @@ const CitiesRight = ({
   CertificationBot7,
   CertificationMasterHead1,
   CertificationMasterHead2,
-
   src,
   ModuleMasterBot1,
   ModuleMasterBot2,
