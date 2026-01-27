@@ -171,7 +171,7 @@ Now the question is, <b>‘How to prepare for Agentic AI?’</b>
 
 Well, <a href="https://www.learnbay.co/" target=_blank >Learnbay</a> has become everyone’s one-stop solution for career upskilling. Data experts can join Learnbay’s <a href= "https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program" target=_blank >Data Science and GenAI Master Certification Program</a> to master in-demand skills.
 
-<b>Note</b>: If you want to start over in GenAI and Agentic AI for upskilling, Learnbay’s <a href= "https://www.learnbay.co/gen-ai-agentic-ai-program" target=_blank >Generative AI and Agentic AI Program</a> can be a good option for you.
+<b>Note</b>: If you want to start over in GenAI and Agentic AI for upskilling, Learnbay’s <a href= "https://www.learnbay.co/genai-agentic-ai-program" target=_blank >Generative AI and Agentic AI Program</a> can be a good option for you.
 
 <b>But why Learnbay?</b>
 
