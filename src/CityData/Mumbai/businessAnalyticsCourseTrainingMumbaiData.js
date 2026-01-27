@@ -554,13 +554,13 @@ export const BAMumbaiCourseData = [
           {
             id: 0,
             ques: "What is the total fee for the Business Analytics Program in Mumbai?",
-            ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of GST.`,
+            ans: `The total program fee for the Business Analytics Program is INR 1,20,000/- exclusive of GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 93,220/-?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Can I pay in installments for INR 1,20,000/-?",
+            ans: "Yes, can pay in instalments using a credit card with a no-cost EMI option for up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip. ",
             linkText1:
               "Please check with our sales team to know more +917795687988 ",
             link1: "tel:+917795687988",
@@ -623,7 +623,7 @@ export const BAMumbaiCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion.`,
+            ans: `Yes you will be awarded one IBM course completion certificate, one Project certificate and one IIT Patna Certificate. `,
             open: true,
           },
         ],
@@ -731,39 +731,26 @@ export const BAMumbaiCourseData = [
       "Learnbay's business analytics course structure includes more than eight tools and modules. Each module has five-plus sub-modules- all are sequentially designed using an appropriate bottom-up teaching approach. That means you first learn the basics of analytics and gradually approach the advanced industrial application.",
     ModuleBot2:
       "The course becomes a profitable fit for non-programmer candidates too. The reason for the same includes easy to adapt and dedicated additional python for business analytics sessions for candidates with zero coding experience. Other than that, it also covers big data analytics tools like apache spark, dashboarding tools like Power BI, basics to moderate stage of statistics, etc.",
-    syllabush1: "Introduction to Business Analytics",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Introduction to Business Analysis",
-    SyllabusBotlist12: "Stakeholders in Business Analysis",
-    SyllabusBotlist13: "Formulating Requirements",
-    SyllabusBotlist14: "Flowchart and Modelling",
-    SyllabusBotlist15: "Analyzing and Transforming Requirements",
-    SyllabusBotlist16: "Finalising Requirements",
-    syllabush2: "Applied business statistics",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "R programming fundamentals",
-    SyllabusBotlist22: "Statistics",
-    SyllabusBotlist23: "Descriptive Statistics",
-    SyllabusBotlist24: "Sampling Techniques",
-    SyllabusBotlist25: "Probability",
-    SyllabusBotlist26: "Inferential Statistics",
-    syllabush3: "Data Science & AI",
-    syllabusb3: "30 Hours",
-    SyllabusBotlist31: "Introduction to Data Science and AI",
-    SyllabusBotlist32: "Machine Learning Fundamentals",
-    SyllabusBotlist33: "Natural Language Processing (NLP)",
-    SyllabusBotlist34: "Advanced NLP Techniques",
-    SyllabusBotlist35: "Popular ML Libraries",
-    SyllabusBotlist36: "Bayesian optimization",
-    syllabush4: "Deployment (AWS+Azure)",
-    syllabusb4: "6+ Classes",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
     SyllabusBotlist41:
-      "Introduction to AWS and Azure Machine Learning Services",
-    SyllabusBotlist42: "Setting up the Environment",
-    SyllabusBotlist43: "Data Preparation and Feature Engineering",
-    SyllabusBotlist44: "Model Training and Evaluation",
-    SyllabusBotlist45: "Model Deployment and Management",
-    SyllabusBotlist46: "Advanced Topics in Machine Learning on AWS and Azure",
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
     JobHead1:
