@@ -714,8 +714,8 @@ generative ai and agentic ai course for working professionals
           onlyGENAIPage={true}
           dataScienceCounselling={true}
           dataScience={true}
-          titleCourse=""
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+2025_compressed+.pdf"
+          titleCourse="Data Structure Algorithms & System Design"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf"
           brochurePdf={pdfUrl}
           buttonHide={true}
           interstedInHide={true}
