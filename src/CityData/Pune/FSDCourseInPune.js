@@ -220,7 +220,7 @@ export const FSDPuneCourseData = [
           {
             id: 0,
             ques: "How much is the full-stack software developer course fee in Pune?",
-            ans: `The total cost of the full-stack software development course in Pune is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+            ans: `The course costs INR 1,59,000 plus 18% GST. Learnbay extends a pocket-friendly career switch with its flexible installment options, with a no-cost EMI for 6, 9, and 12 months.`,
             open: true,
           },
           {
