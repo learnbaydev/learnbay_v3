@@ -341,7 +341,7 @@ export default function Home() {
             interstedInHide={true}
             dataScience={true}
             titleCourse="Advanced Data Science and AI Program with domain specialization"
-            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
             brochurePdf={pdfUrl}
             // <EMI POPUP
             emiType="NO COST EMI"
