@@ -153,7 +153,7 @@ export default function Home() {
         <CloudDevopstestimonials />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee=" ₹ 1,59e,000"
+            Fee=" ₹ 1,59,000"
             FeeEmi="₹ 5,244/month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
