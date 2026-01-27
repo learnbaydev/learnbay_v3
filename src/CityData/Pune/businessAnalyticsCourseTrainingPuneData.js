@@ -477,13 +477,7 @@ export const BAPuneCourseData = [
             id: 3,
             ques: "What’s the duration of the Business Analytics Course in Pune?",
             //About Data Science
-            ans: `The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-          
-              Classes will be conducted on weekdays and weekend batches.
-              Weekday batch - 5 months
-                 Monday to Friday - 2 hours/day
-              Weekend batch - 6.5 months
-              Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of the Business Analytics course training in Pune is 8-9 months, including weekend and weekday batches.`,
             open: false,
           },
           {
@@ -561,12 +555,12 @@ export const BAPuneCourseData = [
           {
             id: 0,
             ques: "What is the total fee for the Business Analytics Program in Pune?",
-            ans: `The total program fee for the Business Analytics Program is INR  88,500/- inclusive of GST.`,
+            ans: `The total program fee for the Business Analytics Program is INR  1,20,000 + 18% GST inclusive of GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 93,220/-?",
+            ques: "Can I pay in installments for INR  1,20,000 + 18% GST-?",
             ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
             linkText1: " +917795687988 ",
             link1: "tel:+917795687988",
@@ -629,7 +623,7 @@ export const BAPuneCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion.`,
+            ans: `Yes, you will be awarded IBM and IIT Patna Vislehsan accredited Business Analytics Certificate on successful course completion.`,
             open: true,
           },
         ],
@@ -722,44 +716,31 @@ export const BAPuneCourseData = [
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+      "hhttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
     ModuleBot1:
       "Learnbay has online and offline classes for Business analytics course training in Pune. Our Business Analytics course includes 200 hrs of live hassle-free classes conducted by Business analysts experts. Learnbay Provides students and working professionals with batches, even on weekends. Enrolled candidates get a one-year subscription to complete their course and master their skills as Business analysts at their own pace but through live and interactive training only. Learnbay even conducts webinars and hackathons for students, so learning becomes fun, and everyone can again enjoy these events just like their past days in universities.",
     ModuleBot2:
       "Students and professionals enrolled in Learnbay's Business analytics course training in Pune learn a series of Basic Python. Non-techies need not worry about coding; our faculties conduct special coding modules for non-programmers. Our business analytics program is IBM certified and also covers every subject and tool for one to become a professional Business analyst. Students Learn Business analysts tools like Advance excel to analyze data, make models, Data visualization with Tableau, SQL databases, and many more.",
-    syllabush1: "Introduction to Business Analytics",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Introduction to Business Analysis",
-    SyllabusBotlist12: "Stakeholders in Business Analysis",
-    SyllabusBotlist13: "Formulating Requirements",
-    SyllabusBotlist14: "Flowchart and Modelling",
-    SyllabusBotlist15: "Analyzing and Transforming Requirements",
-    SyllabusBotlist16: "Finalising Requirements",
-    syllabush2: "Applied business statistics",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "R programming fundamentals",
-    SyllabusBotlist22: "Statistics",
-    SyllabusBotlist23: "Descriptive Statistics",
-    SyllabusBotlist24: "Sampling Techniques",
-    SyllabusBotlist25: "Probability",
-    SyllabusBotlist26: "Inferential Statistics",
-    syllabush3: "Data Science & AI",
-    syllabusb3: "30 Hours",
-    SyllabusBotlist31: "Introduction to Data Science and AI",
-    SyllabusBotlist32: "Machine Learning Fundamentals",
-    SyllabusBotlist33: "Natural Language Processing (NLP)",
-    SyllabusBotlist34: "Advanced NLP Techniques",
-    SyllabusBotlist35: "Popular ML Libraries",
-    SyllabusBotlist36: "Bayesian optimization",
-    syllabush4: "Deployment (AWS+Azure)",
-    syllabusb4: "6+ Classes",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
     SyllabusBotlist41:
-      "Introduction to AWS and Azure Machine Learning Services",
-    SyllabusBotlist42: "Setting up the Environment",
-    SyllabusBotlist43: "Data Preparation and Feature Engineering",
-    SyllabusBotlist44: "Model Training and Evaluation",
-    SyllabusBotlist45: "Model Deployment and Management",
-    SyllabusBotlist46: "Advanced Topics in Machine Learning on AWS and Azure",
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
     JobBot1:

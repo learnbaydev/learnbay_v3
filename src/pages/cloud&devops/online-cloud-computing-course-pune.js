@@ -8,28 +8,27 @@ import Navbar from "../../components/Global/Navbar/Navbar";
 import FeeSection from "../../components/Seo/FeeSection/FeeSection";
 import YoutubeVideo from "../../components/Seo/YoutubeVideo/YoutubeVideo";
 import styles from "../../styles/Home.module.css";
-const FirstSection = dynamic(() =>
-  import("../../components/Seo/FirstSection/FirstSection")
+const FirstSection = dynamic(
+  () => import("../../components/Seo/FirstSection/FirstSection"),
 );
-const SecondSection = dynamic(() =>
-  import("../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import("../../components/Seo/SecondSection/SecondSection"),
 );
-const SeventhSection = dynamic(() =>
-  import("../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import("../../components/Seo/SeventhSection/SeventhSection"),
 );
-const CityText = dynamic(() =>
-  import("../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import("../../components/Seo/CityText/CityText"),
 );
-const CitiesLeft = dynamic(() =>
-  import("../../components/Seo/CitiesLeft/CitiesLeftDomain")
+const CitiesLeft = dynamic(
+  () => import("../../components/Seo/CitiesLeft/CitiesLeftDomain"),
 );
-const CloudDevopstestimonials = dynamic(() =>
-  import(
-    "../../components/CoursePage/cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials.js"
-  )
+const CloudDevopstestimonials = dynamic(
+  () =>
+    import("../../components/CoursePage/cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials.js"),
 );
-const CitiesRight = dynamic(() =>
-  import("../../components/Seo/CitiesRight/CitiesRightdomain")
+const CitiesRight = dynamic(
+  () => import("../../components/Seo/CitiesRight/CitiesRightdomain"),
 );
 const FAQNew = dynamic(() => import("../../components/Seo/FAQNew/FAQNew"));
 
@@ -154,7 +153,7 @@ export default function Home() {
         <CloudDevopstestimonials />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee=" ₹ 80,000"
+            Fee=" ₹ 1,59e,000"
             FeeEmi="₹ 5,244/month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
