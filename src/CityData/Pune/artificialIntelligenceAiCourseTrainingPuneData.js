@@ -564,27 +564,7 @@ export const AIPuneCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced AI in Pune?",
-            ans: `The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations.
-            Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
-            Foundational Data Science and Artificial Intelligence Training Course (220+ hours)
-            Weekday batch - 6 months
-            Weekend batch - 8 months
-            
-            Machine learning and AI Certification (280+ hours)
-            Weekday batch - 9.5 months
-            Weekend batch - 11 months
-            
-            Advanced Data Science and AI Certification Course (270+ hours)
-            Weekday batch - 7 months
-            Weekend batch - 9  months
-            
-            Data Science and AI Certification Course for Managers and Leaders (340+ hours)
-            Weekday batch - 11 months
-            Weekend batch - 13  months
-            
-            Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours)
-            Weekday batch - 13 months
-            Weekend batch - 15  months`,
+            ans: `The duration should be 13 months, including weekends and weekday batches.`,
             open: false,
           },
           {
@@ -668,11 +648,8 @@ export const AIPuneCourseData = [
             id: 0,
             ques: "What is the total fee for Learnbay AI Certifications courses in Pune?",
             ans: `The total course fee for the 
-            Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST.
-            Advance Data Science and  AI Certification course is 1,05,000/- inclusive of GST.
-            Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-            Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-            Machine learning and AI Certification is 1,15,000/-inclusive of GST`,
+            Foundational Data Science and Artificial Intelligence Training Course is 1,59,000 + 18% GST.
+            Advance Data Science and  AI Certification course is 1,59,000 + 18% GST.`,
             open: true,
           },
           {
@@ -754,13 +731,11 @@ export const AIPuneCourseData = [
           {
             id: 0,
             ques: "Is there any accredited AI certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-            Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
-            Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-            Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-            Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
-            Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-            *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.`,
+            ans: `Yes. Working professionals will receive globally accredited certifications from IBM, Microsoft, and real AI startups. You will earn:
+One IBM course completion, Generative AI Certificate
+Three Microsoft Azure AI Fundamentals
+Two AI Co-Lab Project Certificates
+`,
             open: true,
           },
         ],
@@ -881,47 +856,35 @@ export const AIPuneCourseData = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
     CertificationBot1:
       "All of the Learnbay Artificial intelligence courses in Pune are IBM certified. So, there is no question about the course authentication. Students get certificates for completing Artificial intelligence course training along with micro-certificates for working with industry compliance tools like Python, Deep learning with Tensorflow, and many more. Learnbay IBM certificates for Artificial intelligence course training depend on the course you choose. You can avail 1 to 8 certificates by IBM. Learnbay even offers certificates for working on capstone projects. This kind of project experience certificate is also issued by IBM.",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
     ModuleBot1:
       "Learnbay Artificial intelligence training in Pune consists of 400hrs of hassle-free classes led by PRODUCT Based Companies experts. Our foundational and advanced program has around 200+ classes. Here you get 18+ AI modules and tools.",
     ModuleBot2:
       "Each of the AI courses offered by Learnbay are planned with different modules as per the consented career stage of the professionals. All of the courses are equipped with properly balanced theoretical and practical sub-modules. The most important modules that Learnbay artificial intelligence course covers are SQL, Pandas, Numpy, Data visualization, NP, artificial neural network, etc. Keeping the non-programmer huddle about programming in mind, Learnbay AI courses also offer basic programming sub-modules.",
-    syllabush1: "Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Cohort Orientation",
-    SyllabusBotlist12: "Data and its impact on career opportunities",
-    SyllabusBotlist13: "Fundamentals of programming",
-    SyllabusBotlist14: "Python Fundamentals",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode.",
-    syllabush2: "Statistics and Machine Learning",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: " Fundamentals of Math and Probability",
-    SyllabusBotlist22: " Descriptive Statistics",
-    SyllabusBotlist23: " Inferential Statistics",
-    SyllabusBotlist24: " Data Preprocessing",
-    SyllabusBotlist25: "Logistic Regression Model",
-    SyllabusBotlist26: "K Nearest Neighbours Model",
-    syllabush3: "Data Science Tools",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "SQL",
-    SyllabusBotlist32: "MongoDB",
-    SyllabusBotlist33: "Tableau",
-    SyllabusBotlist34: "PowerBI",
-    SyllabusBotlist35: "Big Data & Spark Analytics",
-    SyllabusBotlist36: "Time Series",
-    syllabush4: "Artificial Intelligence Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: "Deep Learning Using Tensorflow",
-    SyllabusBotlist42: "Natural Language Processing (NLP)",
-    SyllabusBotlist43: "Computer Vision",
-    SyllabusBotlist44: "Reinforcement Learning",
-    SyllabusBotlist45: "Deployment (AWS+Azure)",
-    SyllabusBotlist46: "Model Training and Evaluation",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
 

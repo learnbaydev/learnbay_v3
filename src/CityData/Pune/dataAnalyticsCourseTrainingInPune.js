@@ -134,15 +134,15 @@ export const DAPuneCourseData = [
           name: "What is the total fee for the Data Analytics Program in Pune?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.",
+            text: "The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.",
           },
         },
         {
           "@type": "Question",
-          name: "Can I pay in installments for INR 93,220/-?",
+          name: "Can I pay in installments for INR 1,20,000/-?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            text: "Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip.",
           },
         },
         {
@@ -868,9 +868,11 @@ export const DAPuneCourseData = [
     CertificationBot3:
       "Learnbay’s data analytics certification in Pune unlocks the door to global-level career shifts with attractive gains. Here, you will receive two IBM certifications – coursework and projects with impactful career returns. These certificates are vital in enriching career values and helping you ace prime job roles with lucrative pay.        ",
 
+    src44: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
+
     src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
     ModuleBot1:
       "Data analytics upskilling is crucial to stay competitive and thrive in today’s tech era. Data analysis is vital for businesses to enhance their yields and craft an exciting future. Yet, a lack of data-driven skills and analytics knowledge limits business growth. Hence, experts from diverse fields prefer upskilling regardless of data analyst course fees in Pune. Its in-depth learning modules guide you to develop abstract and practical skills with assured success.     ",
     ModuleBot2:
@@ -878,38 +880,26 @@ export const DAPuneCourseData = [
     ModuleBot3:
       "Even busy working pros find upskilling from our institute helpful in effortless career shifts. Our learning modules with a prime data analyst course in Pune offer 360-degree knowledge-building in GenAI. Experts learn everything – from basic analytics concepts to advanced uses in real-world cases. Even non-tech experts learn coding and practical deployment of tools from scratch. If you’re worried about course modules and learning methods, consult our career experts and find the right way to upscale your future.     ",
 
-    syllabush1: "Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode .",
-    syllabush2: "Python Programming (Basic + Advance)",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming Overview",
-    SyllabusBotlist22: "Python Data Types",
-    SyllabusBotlist23: "Data Analysis Using Numpy",
-    SyllabusBotlist24: "Data Analysis Using Pandas",
-    SyllabusBotlist25: "Data Visualization using Matplotlib",
-    SyllabusBotlist26: "Functions And Modules ,Class hands-on:",
-    syllabush3: " Statistics & Basic Machine Learning",
-    syllabusb3: "50 Hours",
-    SyllabusBotlist31: " Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Regression and Classification Models",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Introduction to Machine Learning",
-    SyllabusBotlist36: "Encoding the Data",
-    syllabush4: "Data Analytics Tools",
-    syllabusb4: "6+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "JSON Data & CRUD",
-    SyllabusBotlist43: " PowerBI",
-    SyllabusBotlist44: "Big Data & Spark Analytics",
-    SyllabusBotlist45: " Time Series",
-    SyllabusBotlist46: "Introduction to Time Series Forecasting",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     JobHead1:

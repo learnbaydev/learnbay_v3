@@ -804,7 +804,7 @@ export const DSPuneCourseData = [
     src44: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
     ModuleBot1:
       "Within Learnbay’s Data scientists courses in Pune, every module is customized as per the present data science job market direction. There are even special coding classes for students from non-technical backgrounds so students can get along with other technical mates.",
     ModuleBot2:
@@ -830,7 +830,7 @@ export const DSPuneCourseData = [
       "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
 
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
     JobHead1: "Learnbay's data science course in Pune",
     JobBot1:
       "It offers data scientists interview calls in the specific domain opted by students. The students of Learnbay get recruited by globally recognized companies and startups as Data scientists, Data engineers, AI experts, etc. Learnbay has created a strong network with 350+ companies that recruit for highly paid data science job roles throughout the year.",

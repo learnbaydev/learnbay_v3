@@ -35,6 +35,8 @@ const CitiesRight = ({
   CertificationBot2,
   CertificationBot3,
   src,
+
+  src44,
   syllabussrc,
   ModuleHead1,
   ModuleHead2,
@@ -985,7 +987,8 @@ const CitiesRight = ({
                       learners will learn about are the significance of data in
                       decision-making, the scope of data in research and
                       development, the fundamentals of programming and
-                      statistics, including an introduction to Linear Algebra.{" "}
+                      statistics, including an introduction to Linear
+                      Algebra.{" "}
                     </p>
 
                     <h2>Term 1: Python Programming</h2>
@@ -1593,7 +1596,7 @@ const CitiesRight = ({
           <div className={styles.certNew}>
             <img src={src}></img>
             <img src={src22}></img>
-            <img src={src33}></img>
+            <img src={src44}></img>
           </div>
         </div>
       </div>
@@ -1625,7 +1628,7 @@ const CitiesRight = ({
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist11}
                   </p>
-                  <p className={styles.SyllabusBotlistp}>
+                  {/* <p className={styles.SyllabusBotlistp}>
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist12}
                   </p>
@@ -1644,7 +1647,7 @@ const CitiesRight = ({
                   <p className={styles.SyllabusBotlistp}>
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist16}
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className={styles.SyllabusBot2}>
@@ -1663,7 +1666,7 @@ const CitiesRight = ({
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist21}
                   </p>
-                  <p className={styles.SyllabusBotlistp}>
+                  {/* <p className={styles.SyllabusBotlistp}>
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist22}
                   </p>
@@ -1681,8 +1684,8 @@ const CitiesRight = ({
                   </p>
                   <p className={styles.SyllabusBotlistp}>
                     <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist26}
-                  </p>
+                    {SyllabusBotlist26} 
+                  </p>*/}
                 </div>
               </div>
             </div>
@@ -1703,7 +1706,7 @@ const CitiesRight = ({
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist31}
                   </p>
-                  <p className={styles.SyllabusBotlistp}>
+                  {/* <p className={styles.SyllabusBotlistp}>
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist32}
                   </p>
@@ -1722,7 +1725,7 @@ const CitiesRight = ({
                   <p className={styles.SyllabusBotlistp}>
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist36}
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className={styles.SyllabusBot4}>
@@ -1741,7 +1744,7 @@ const CitiesRight = ({
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist41}
                   </p>
-                  <p className={styles.SyllabusBotlistp}>
+                  {/* <p className={styles.SyllabusBotlistp}>
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist42}
                   </p>
@@ -1760,7 +1763,7 @@ const CitiesRight = ({
                   <p className={styles.SyllabusBotlistp}>
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist46}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -1810,26 +1813,6 @@ const CitiesRight = ({
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist11}
                   </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist12}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist13}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist14}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist15}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist16}
-                  </p>
                 </div>
               </div>
               <div className={styles.SyllabusBot2}>
@@ -1847,26 +1830,6 @@ const CitiesRight = ({
                   <p className={styles.SyllabusBotlistp}>
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist21}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist22}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist23}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist24}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist25}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist26}
                   </p>
                 </div>
               </div>
@@ -1888,26 +1851,6 @@ const CitiesRight = ({
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist31}
                   </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist32}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist33}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist34}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist35}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist36}
-                  </p>
                 </div>
               </div>
               <div className={styles.SyllabusBot4}>
@@ -1925,26 +1868,6 @@ const CitiesRight = ({
                   <p className={styles.SyllabusBotlistp}>
                     <FiCheck className={styles.bIcons} />
                     {SyllabusBotlist41}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist42}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist43}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist44}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist45}
-                  </p>
-                  <p className={styles.SyllabusBotlistp}>
-                    <FiCheck className={styles.bIcons} />
-                    {SyllabusBotlist46}
                   </p>
                 </div>
               </div>

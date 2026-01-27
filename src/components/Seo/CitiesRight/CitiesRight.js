@@ -712,8 +712,8 @@ const CitiesRight = ({
               </li>
             </ol>
             <h2 className={styles.pHead}>
-              Data Science Foundation Program in Mumbai with Placement
-              Assistance{" "}
+              Data Science and Gen AI Master Foundation Program in Mumbai with
+              Placement Assistance{" "}
             </h2>
             <ul>
               <li>
@@ -726,9 +726,10 @@ const CitiesRight = ({
                 switching your career, the foundation program will make it easy
                 for you.{" "}
               </li>
-              <li>This program’s fee is INR 1,10,000, excluding GST.</li>
+
               <h3 className={styles.pHead}>
-                Highlights of the Data Science Foundation Program in Mumbai{" "}
+                Highlights of the Data Science and Gen AI Master Program in
+                Mumbai{" "}
               </h3>
               <li>
                 This course offers an immersive and thorough learning
@@ -770,12 +771,6 @@ const CitiesRight = ({
                 For anyone wishing to change careers or advance their skills,
                 this extensive course is meant to give a solid understanding of
                 data science.
-              </li>
-
-              <li>
-                This program is a cost-effective and accessible choice for
-                anyone wishing to increase their knowledge and proficiency in
-                data science, costing only INR 95,000 + 18% GST.
               </li>
 
               <h3 className={styles.pHead}>
@@ -836,13 +831,6 @@ const CitiesRight = ({
                 Ready to take your data science skills to the next level? Our
                 program will help you become an expert in this field with the
                 knowledge and expertise you need to lead teams at top companies.
-              </li>
-              <li>
-                Investing in your education is always a smart choice; our
-                master's program in data science is no exception. With a course
-                fee of INR 1,25,000 (excluding GST), it's an affordable option
-                for anyone looking to advance their career in this exciting
-                field.
               </li>
 
               <h3 className={styles.pHead}>
@@ -983,7 +971,7 @@ const CitiesRight = ({
               In Mumbai, data science is assuming greater importance. Companies
               now rely more on data science to help them make wise decisions due
               to the volume of data created daily. Worldwide data production is
-              predicted to reach a startling 463 exabytes by 2025. In
+              predicted to reach a startling 463 exabytes by 2032. In
               comparison, just 5 exabytes of data have been uttered by humans as
               a whole. As a result, Mumbai will see an increase in demand for
               qualified data scientists.{" "}
@@ -6976,7 +6964,7 @@ const CitiesRight = ({
                         height={250}
                         loading="lazy"
                         src={src22}
-                        alt="Learnbay - Sample IBM Certification Course"
+                        alt="Learnbay - Sample Learnbay Certification Course"
                       />
                     )}
                     {src33 && (

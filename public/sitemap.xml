@@ -732,6 +732,14 @@
 	</url>
 
 	<url>
+		<loc>https://www.learnbay.co/ai-engineering-master-program</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+
+
+
+	<url>
 		<loc>https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>

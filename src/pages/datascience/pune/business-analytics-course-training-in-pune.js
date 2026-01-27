@@ -9,33 +9,33 @@ import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import styles from "../../../styles/Home.module.css";
-const FirstSection = dynamic(() =>
-  import("../../../components/Seo/FirstSection/FirstSection")
+const FirstSection = dynamic(
+  () => import("../../../components/Seo/FirstSection/FirstSection"),
 );
-const SecondSection = dynamic(() =>
-  import("../../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import("../../../components/Seo/SecondSection/SecondSection"),
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
+const ProgramInfo = dynamic(
+  () => import("../../../components/Seo/ProgramInfo/ProgramInfo"),
 );
-const SeventhSection = dynamic(() =>
-  import("../../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import("../../../components/Seo/SeventhSection/SeventhSection"),
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
+const ProgramFee = dynamic(
+  () => import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee"),
 );
-const CityText = dynamic(() =>
-  import("../../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import("../../../components/Seo/CityText/CityText"),
 );
-const CitiesLeft = dynamic(() =>
-  import("../../../components/Seo/CitiesLeft/CitiesLeftDomain")
+const CitiesLeft = dynamic(
+  () => import("../../../components/Seo/CitiesLeft/CitiesLeftDomain"),
 );
-const CitiesRight = dynamic(() =>
-  import("../../../components/Seo/CitiesRight/CitiesRightdomain")
+const CitiesRight = dynamic(
+  () => import("../../../components/Seo/CitiesRight/CitiesRightdomain"),
 );
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
+const OfferPopup = dynamic(
+  () => import("../../../components/Global/OfferPopup/OfferPopup"),
 );
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -177,7 +177,7 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 95,000"
+            Fee="₹ 1,20,000"
             FeeEmi="₹ 6,228/month"
             weekdaybatch="Weekday Batch"
             weekendbatch="Weekend Batch"
@@ -266,35 +266,15 @@ export default function Home() {
               syllabush1={BAPuneCourseData[0].syllabush1}
               syllabusb1={BAPuneCourseData[0].syllabusb1}
               SyllabusBotlist11={BAPuneCourseData[0].SyllabusBotlist11}
-              SyllabusBotlist12={BAPuneCourseData[0].SyllabusBotlist12}
-              SyllabusBotlist13={BAPuneCourseData[0].SyllabusBotlist13}
-              SyllabusBotlist14={BAPuneCourseData[0].SyllabusBotlist14}
-              SyllabusBotlist15={BAPuneCourseData[0].SyllabusBotlist15}
-              SyllabusBotlist16={BAPuneCourseData[0].SyllabusBotlist16}
               syllabush2={BAPuneCourseData[0].syllabush2}
               syllabusb2={BAPuneCourseData[0].syllabusb2}
               SyllabusBotlist21={BAPuneCourseData[0].SyllabusBotlist21}
-              SyllabusBotlist22={BAPuneCourseData[0].SyllabusBotlist22}
-              SyllabusBotlist23={BAPuneCourseData[0].SyllabusBotlist23}
-              SyllabusBotlist24={BAPuneCourseData[0].SyllabusBotlist24}
-              SyllabusBotlist25={BAPuneCourseData[0].SyllabusBotlist25}
-              SyllabusBotlist26={BAPuneCourseData[0].SyllabusBotlist26}
               syllabush3={BAPuneCourseData[0].syllabush3}
               syllabusb3={BAPuneCourseData[0].syllabusb3}
               SyllabusBotlist31={BAPuneCourseData[0].SyllabusBotlist31}
-              SyllabusBotlist32={BAPuneCourseData[0].SyllabusBotlist32}
-              SyllabusBotlist33={BAPuneCourseData[0].SyllabusBotlist33}
-              SyllabusBotlist34={BAPuneCourseData[0].SyllabusBotlist34}
-              SyllabusBotlist35={BAPuneCourseData[0].SyllabusBotlist35}
-              SyllabusBotlist36={BAPuneCourseData[0].SyllabusBotlist36}
               syllabush4={BAPuneCourseData[0].syllabush4}
               syllabusb4={BAPuneCourseData[0].syllabusb4}
               SyllabusBotlist41={BAPuneCourseData[0].SyllabusBotlist41}
-              SyllabusBotlist42={BAPuneCourseData[0].SyllabusBotlist42}
-              SyllabusBotlist43={BAPuneCourseData[0].SyllabusBotlist43}
-              SyllabusBotlist44={BAPuneCourseData[0].SyllabusBotlist44}
-              SyllabusBotlist45={BAPuneCourseData[0].SyllabusBotlist45}
-              SyllabusBotlist46={BAPuneCourseData[0].SyllabusBotlist46}
               syllabussrc={BAPuneCourseData[0].syllabussrc}
               JobBot1={BAPuneCourseData[0].JobBot1}
               JobHead2={BAPuneCourseData[0].JobHead2}

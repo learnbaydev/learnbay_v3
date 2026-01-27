@@ -619,13 +619,13 @@ export const MLMumbaiCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the total fee for Data Science Foundation Program in Mumbai?",
-            ans: "The total course fee for the Foundational Data Science and AI Training course is 93,220/- inclusive of GST. Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.",
+            ques: "What is the total fee for machine learning program in Mumbai?",
+            ans: "Fees of machine learning course in Mumbai with Gen AI and Agentic AI are 1,59,000 INR, exclusive of GST. ",
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for Data Science Foundation Program in Mumbai?",
+            ques: "Can I pay in installments for machine learning program in Mumbai?",
             ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             linkText1: " +917795687988 ",
             link1: "tel:+917795687988",
@@ -648,7 +648,7 @@ export const MLMumbaiCourseData = [
           },
           {
             id: 3,
-            ques: "What is the refund policy for the Data Science Foundation Program at Learnbay?",
+            ques: "What is the refund policy for the machine learning program at Learnbay?",
             ans: "Candidates are advised to read  ",
             linkText1: "Learnbay’s Refund/Cancellation Policy",
             link1: "/refund-cancellation-policy",
@@ -699,12 +699,7 @@ export const MLMumbaiCourseData = [
           {
             id: 1,
             ques: "What categories of certifications might I expect to receive?",
-            ans: `Deep Learning Fundamentals
-    Deep Learning with TensorFlow
-    Machine Learning with Python
-    Accelerating Deep Learning with GPUs
-    Advance AI & ML Certificate (final)
-    Capstone Project Certificate by IBM`,
+            ans: `It offers a total of 4 Certifications: Three IBM certifications and one Microsoft Certification. `,
             open: true,
           },
         ],
@@ -840,45 +835,33 @@ export const MLMumbaiCourseData = [
     CertificationHead1: "One Course but Multiple ML skill Certification",
     CertificationBot1:
       "Our machine learning training program in Mumbai has an end-to-end collaboration with IBM. The course is powered by six separate IBM certifications. Along with the most featured ‘Advance AI and ML Course Completion Certification’ and ‘Machine Learning project Certification,' you get four more micro ML skill Certificates- all issued by IBM.",
-    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Advanced-AI-ML.jpeg",
+    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     ModuleHead1:
       "How do Learnbay Machine Learning Course modules become highly industry competent?",
     ModuleBot1:
       "The ultimate magic of this IBM machine learning course lies in this submodule designing and training execution. The course comprises 15+ modules that cover all the trending concepts and tools of ML. But it’s not like a random stuffing of demeaning ML tools and techniques. The submodules are well-planned to ensure a bottom-up training approach so that even a complete novice of programming and statistics can also learn with 100% efficiency. Apart from the advanced modules like Big data, Spark analytics, and NLP, Learnbay provides basic python and R-related modules too.",
     ModuleBot2:
       "The entire course modules are well-balanced in theoretical and practical machine learning training.",
-    syllabush1: "Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Anaconda Installation",
-    SyllabusBotlist12: "Basics of Programming",
-    SyllabusBotlist13: "Memory Management",
-    SyllabusBotlist14: "Compiler and Interpreter",
-    SyllabusBotlist15: "Syntax of Python",
-    SyllabusBotlist16: "Basics of Statistics",
-    syllabush2: "Python Programming (Basic + Advance)",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Git and GitHub",
-    SyllabusBotlist22: "Operators + Data Types + Loops",
-    SyllabusBotlist23: "Functions + Regular Expression",
-    SyllabusBotlist24: "Conditional Statement",
-    SyllabusBotlist25: "File & Exceptional Handling",
-    SyllabusBotlist26: "Numpy, Pandas, Matplotlib, etc.",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Linear Algebra, Probability",
-    SyllabusBotlist32: "Permutation & Combination",
-    SyllabusBotlist33: "Descriptive & Inferential Stats",
-    SyllabusBotlist34: "Hypothesis Testing",
-    SyllabusBotlist35: "Time Series Analysis",
-    SyllabusBotlist36: "ML Algorithms",
-    syllabush4: "Industrial Projects & Capstone Projects",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: "Text Classification",
-    SyllabusBotlist42: "Human Activity Recognition",
-    SyllabusBotlist43: "Forecasting Business KPI's",
-    SyllabusBotlist44: "Credit Risk Analysis",
-    SyllabusBotlist45: "Customer Churn Prediction",
-    SyllabusBotlist46: "Sentiment Analysis",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
     JobBot1:

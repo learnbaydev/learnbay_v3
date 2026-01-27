@@ -323,38 +323,33 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>AI Engineering Master Program - Learnbay</title>
+        <title>AI Engineering Master Certification Program - Learnbay</title>
         <meta
           name="description"
-          content="Advance your career with Learnbay’s GenAI & Agentic AI Master Program for Working Professionals. Build AI agents, RAG, & LLMOps projects with career support.
-"
+          content="Accelerate your tech career with Learnbay’s AI Engineering Master Program. Learn GenAI, Agentic AI, RAG, and production AI through real projects. Join Now."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="generative ai master program for working professionals,
-generative ai certification for working professionals,
-genai and agentic ai for working professionals,
-genai agentic ai master program for working professionals,
-agentic ai certification for working professionals,
-generative ai and agentic ai course for working professionals
-
-
-"
+          content="ai engineering course,
+ai engineer program,
+ai engineering master program,
+ai engineering training program,
+ai engineering certification program"
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/genai-and-agentic-ai-master-program"
+          content="https://www.learnbay.co/ai-engineering-master-program"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="GenAI & Agentic AI Master Program for Professionals - Learnbay"
+          content="AI Engineering Master Certification Program - Learnbay"
         />
         <meta
           property="og:description"
-          content="Advance your career with Learnbay’s GenAI & Agentic AI Master Program for Working Professionals. Build AI agents, RAG, & LLMOps projects with career support."
+          content="Accelerate your tech career with Learnbay’s AI Engineering Master Program. Learn GenAI, Agentic AI, RAG, and production AI through real projects. Join Now."
         />
         <meta
           property="og:image"
@@ -366,15 +361,16 @@ generative ai and agentic ai course for working professionals
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/genai-and-agentic-ai-master-program"
+          content="https://www.learnbay.co/ai-engineering-master-program
+"
         />
         <meta
           name="twitter:title"
-          content="GenAI & Agentic AI Master Program for Professionals - Learnbay"
+          content="AI Engineering Master Certification Program - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Advance your career with Learnbay’s GenAI & Agentic AI Master Program for Working Professionals. Build AI agents, RAG, & LLMOps projects with career support."
+          content="Accelerate your tech career with Learnbay’s AI Engineering Master Program. Learn GenAI, Agentic AI, RAG, and production AI through real projects. Join Now."
         />
         <meta
           name="twitter:image"
@@ -390,41 +386,43 @@ generative ai and agentic ai course for working professionals
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/genai-and-agentic-ai-master-program"
+          href="https://www.learnbay.co/ai-engineering-master-program"
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
       "@context": "http://schema.org",
-      "@type": "Course",
-      "name": "GenAI & Agentic AI Master Program for Professionals - Learnbay",
-      "description": "Advance your career with Learnbay’s GenAI & Agentic AI Master Program for Working Professionals. Build AI agents, RAG, & LLMOps projects with career support.",
-      "url": "https://www.learnbay.co/genai-and-agentic-ai-master-program",
-      "offers": {
-        "@type": "offer",
-        "price": "159000",
-        "pricecurrency": "INR",
-        "category": "Educational"
-      },
-      "provider": {
+  "@type": "Course",
+  "name": "AI Engineering Master Certification Program - Learnbay",
+  "description": "Accelerate your tech career with Learnbay’s AI Engineering Master Program. Learn GenAI, Agentic AI, RAG, and production AI through real projects. Join Now.",
+  "url": "https://www.learnbay.co/ai-engineering-master-program",
+  "offers": {
+    "@type": "offer",
+    "price": "159000",
+    "pricecurrency": "INR",
+    "category": "Educational"
+  },
+   "provider": {
         "@type": "Organization",
         "name": "Learnbay",
         "Url": "https://www.learnbay.co/"
       },
-      "coursePrerequisites": "You should know about Python, Machine Learning, & basic Deep Learning before joining the program.",
-      "hasCourseInstance": [
-        {
-          "@type": "CourseInstance",
-          "courseMode": "Online",
-          "courseWorkload": "P9M",
-          "courseFee": {
-            "@type": "PriceSpecification",
-            "price": "₹ 1,59,000 + 18% GST",
-            "priceCurrency": "INR"
-          }
-        }
-      ]
+  "coursePrerequisites": "This program is suitable for entry to mid-level IT professionals with a minimum of 1 year of work experience. Professionals such as system administrators, solution architects, support engineers, and IT experts are the most welcomed for this certification.",
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "courseMode": "Online",
+      "courseWorkload": "P9M",
+      "courseFee": {
+        "@type": "PriceSpecification",
+        "price": "₹ 1,59,000 + 18% GST",
+        "priceCurrency": "INR"
+      }
+    }
+  ]
+    
+
     }`,
           }}
         />

@@ -832,9 +832,13 @@ export const MLPuneCourseData = [
       "At Learnbay, Students get 6 globally recognized certifications by IBM in a single Machine learning course program.",
     CertificationBot2:
       "The students who completed the course and the projects get separate certificates for gaining different Machine Learning skills like Deep Learning, Machine Learning with Python, Tensorflow, capstone project certificates, and many more. The most important is IBM Machine Learning project completion certificates for two new capstone projects.",
-    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Advanced-AI-ML.jpeg",
-    src33: "",
-    src44: "",
+    src33:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    src44: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
+    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
+    src22:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
+
     ModuleBot1:
       "The Learnbay Machine Learning program in Pune consists of 300 hrs of uninterrupted live classes from PRODUCT Based Companies experts. More than 18 specially planned Machine Learning modules are there, so students can be thoroughly trained for super industrial skills. Every module at Learnbay has its sub-module, from basic to advanced.",
     ModuleBot2:

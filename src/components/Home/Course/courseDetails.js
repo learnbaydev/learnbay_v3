@@ -202,7 +202,7 @@ export const courseDetails = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
             brochurePdfs:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
             titleCourse: "Advance Data Science and AI Certification",
@@ -213,7 +213,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
           },
           {
             id: 5,
@@ -664,7 +664,7 @@ export const courseDetails = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
             brochurePdfs:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
             titleCourse: "Advance Data Science and AI Certification",
@@ -675,7 +675,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
           },
           {
             id: 5,
@@ -992,7 +992,7 @@ export const courseDetails = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
             brochurePdfs:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
             titleCourse: "Advance Data Science and AI Certification",
@@ -1003,7 +1003,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
           },
           {
             id: 5,
@@ -1173,7 +1173,7 @@ export const courseDetails = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
             brochurePdfs:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
             titleCourse: "Advance Data Science and AI Certification",
@@ -1184,7 +1184,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
           },
           {
             id: 5,
@@ -1531,7 +1531,7 @@ export const courseDetails = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
             brochurePdfs:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
             titleCourse: "Advance Data Science and AI Certification",
@@ -1542,7 +1542,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
           },
           {
             id: 5,
@@ -1934,7 +1934,7 @@ export const courseDetails = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
             brochurePdfs:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
             titleCourse: "Advance Data Science and AI Certification",
@@ -1945,7 +1945,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
           },
           {
             id: 5,
@@ -2366,7 +2366,7 @@ export const courseDetailsM = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
             brochurePdfs:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
             titleCourse: "Advance Data Science and AI Certification",
@@ -2377,7 +2377,7 @@ export const courseDetailsM = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
           },
           {
             id: 5,
@@ -2710,7 +2710,7 @@ export const courseDetailsM = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
             brochurePdfs:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
             titleCourse: "Advance Data Science and AI Certification",
@@ -2721,7 +2721,7 @@ export const courseDetailsM = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
           },
           {
             id: 5,
@@ -2892,7 +2892,7 @@ export const courseDetailsM = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
             brochurePdfs:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
             titleCourse: "Advance Data Science and AI Certification",
@@ -2903,7 +2903,7 @@ export const courseDetailsM = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
           },
           {
             id: 5,
@@ -3309,7 +3309,7 @@ export const courseDetailsM = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
             brochurePdfs:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
             titleCourse: "Advance Data Science and AI Certification",
@@ -3320,7 +3320,7 @@ export const courseDetailsM = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
           },
           {
             id: 5,
