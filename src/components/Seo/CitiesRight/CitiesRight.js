@@ -6976,7 +6976,7 @@ const CitiesRight = ({
                         height={250}
                         loading="lazy"
                         src={src22}
-                        alt="Learnbay - Sample IBM Certification Course"
+                        alt="Learnbay - Sample Learnbay Certification Course"
                       />
                     )}
                     {src33 && (

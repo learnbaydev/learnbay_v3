@@ -263,6 +263,7 @@ export default function Home() {
               src={MLPuneCourseData[0].src}
               src33={MLPuneCourseData[0].src33}
               src44={MLPuneCourseData[0].src44}
+              src22={MLPuneCourseData[0].src22}
               alt2={MLPuneCourseData[0].alt2}
               alt3={MLPuneCourseData[0].alt3}
               alt4={MLPuneCourseData[0].alt4}

@@ -868,9 +868,11 @@ export const DAPuneCourseData = [
     CertificationBot3:
       "Learnbay’s data analytics certification in Pune unlocks the door to global-level career shifts with attractive gains. Here, you will receive two IBM certifications – coursework and projects with impactful career returns. These certificates are vital in enriching career values and helping you ace prime job roles with lucrative pay.        ",
 
+    src44: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
+
     src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
     ModuleBot1:
       "Data analytics upskilling is crucial to stay competitive and thrive in today’s tech era. Data analysis is vital for businesses to enhance their yields and craft an exciting future. Yet, a lack of data-driven skills and analytics knowledge limits business growth. Hence, experts from diverse fields prefer upskilling regardless of data analyst course fees in Pune. Its in-depth learning modules guide you to develop abstract and practical skills with assured success.     ",
     ModuleBot2:

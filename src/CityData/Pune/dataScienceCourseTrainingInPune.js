@@ -804,7 +804,7 @@ export const DSPuneCourseData = [
     src44: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
     ModuleBot1:
       "Within Learnbay’s Data scientists courses in Pune, every module is customized as per the present data science job market direction. There are even special coding classes for students from non-technical backgrounds so students can get along with other technical mates.",
     ModuleBot2:

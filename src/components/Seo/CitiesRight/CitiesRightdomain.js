@@ -35,6 +35,8 @@ const CitiesRight = ({
   CertificationBot2,
   CertificationBot3,
   src,
+
+  src44,
   syllabussrc,
   ModuleHead1,
   ModuleHead2,
@@ -985,7 +987,8 @@ const CitiesRight = ({
                       learners will learn about are the significance of data in
                       decision-making, the scope of data in research and
                       development, the fundamentals of programming and
-                      statistics, including an introduction to Linear Algebra.{" "}
+                      statistics, including an introduction to Linear
+                      Algebra.{" "}
                     </p>
 
                     <h2>Term 1: Python Programming</h2>
@@ -1593,7 +1596,7 @@ const CitiesRight = ({
           <div className={styles.certNew}>
             <img src={src}></img>
             <img src={src22}></img>
-            <img src={src33}></img>
+            <img src={src44}></img>
           </div>
         </div>
       </div>
