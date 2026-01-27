@@ -688,7 +688,7 @@ generative ai and agentic ai course for working professionals
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
-          courseId={"genai-agentic-master"}
+          courseId={"ai-engineering-master-program"}
         />
         <AlumniCompanies
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf"
