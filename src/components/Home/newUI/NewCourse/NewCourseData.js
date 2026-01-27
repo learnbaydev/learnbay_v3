@@ -839,21 +839,6 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/IIT_Patna_Applied_AI_Program.pdf",
     },
 
-    {
-      title: "AI Engineering Master Program  ",
-      duration: "9 months | 4 capstone Projects",
-      certification: "Certification form IBM and Microsoft",
-      description: "For Programmers",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp",
-
-      link: "/ai-engineering-master-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf",
-    },
-
     // {
     //   title: "Data Science and Generative AI Master Certification Program",
     //   duration: "13 months | 4 Capstone Project",
@@ -1192,6 +1177,20 @@ export const courses = {
     },
 
     {
+      title: "AI Engineering Master Program  ",
+      duration: "9 months | 4 capstone Projects",
+      certification: "Certification form IBM and Microsoft",
+      description: "For Programmers",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp",
+
+      link: "/ai-engineering-master-program",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf",
+    },
+    {
       title: "GenAI and Agentic AI for Software Developers",
       duration: "5 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
@@ -1204,19 +1203,19 @@ export const courses = {
       brochurePdfs:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Software_Developers.pdf",
     },
-    {
-      title: "GenAI & Agentic AI Master Certification Program",
-      duration: "9 months | 4 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Working Professionals",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICROIBMV12026.webp",
-      link: "/genai-and-agentic-ai-master-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf",
-    },
+    // {
+    //   title: "GenAI & Agentic AI Master Certification Program",
+    //   duration: "9 months | 4 capstone Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Working Professionals",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICROIBMV12026.webp",
+    //   link: "/genai-and-agentic-ai-master-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf",
+    // },
   ],
 
   dsa: [
