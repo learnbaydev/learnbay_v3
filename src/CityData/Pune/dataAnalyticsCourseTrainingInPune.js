@@ -880,38 +880,26 @@ export const DAPuneCourseData = [
     ModuleBot3:
       "Even busy working pros find upskilling from our institute helpful in effortless career shifts. Our learning modules with a prime data analyst course in Pune offer 360-degree knowledge-building in GenAI. Experts learn everything – from basic analytics concepts to advanced uses in real-world cases. Even non-tech experts learn coding and practical deployment of tools from scratch. If you’re worried about course modules and learning methods, consult our career experts and find the right way to upscale your future.     ",
 
-    syllabush1: "Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode .",
-    syllabush2: "Python Programming (Basic + Advance)",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming Overview",
-    SyllabusBotlist22: "Python Data Types",
-    SyllabusBotlist23: "Data Analysis Using Numpy",
-    SyllabusBotlist24: "Data Analysis Using Pandas",
-    SyllabusBotlist25: "Data Visualization using Matplotlib",
-    SyllabusBotlist26: "Functions And Modules ,Class hands-on:",
-    syllabush3: " Statistics & Basic Machine Learning",
-    syllabusb3: "50 Hours",
-    SyllabusBotlist31: " Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Regression and Classification Models",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Introduction to Machine Learning",
-    SyllabusBotlist36: "Encoding the Data",
-    syllabush4: "Data Analytics Tools",
-    syllabusb4: "6+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "JSON Data & CRUD",
-    SyllabusBotlist43: " PowerBI",
-    SyllabusBotlist44: "Big Data & Spark Analytics",
-    SyllabusBotlist45: " Time Series",
-    SyllabusBotlist46: "Introduction to Time Series Forecasting",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     JobHead1:

@@ -578,11 +578,7 @@ export const DataScienceMumbaiCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in Mumbai?",
-            ans: `The total course fee for the 
-            Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-            Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-            Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-            Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI category. Usually course price will vary from 1,20,000 to 1,59,000 INR, exclusive of GST. `,
             open: true,
           },
           {
@@ -594,15 +590,7 @@ export const DataScienceMumbaiCourseData = [
           {
             id: 2,
             ques: " Is there any scholarship/discount available for these Data Science training courses available in Mumbai? What is Group Discount?",
-            ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
-            Please check our websites or contact our sales team to know more about the applicable discounts.
-            
-            
-            Group Discount :
-            Group Discount is applicable only if you’re joining with your friends. 
-            5% extra discount: Group of 2
-            8% extra discount: Group of 3
-            Max 10% discount: Groupe of 4+`,
+            ans: ` you will get a total of 3 to 4 certifications: Course Completion Certification from IBM Certification, Gen AI Certification from IBM, and Capstone Project Certification. For a few advanced and Master Program there will be additional IBM certification also. `,
             open: false,
           },
           {
@@ -1010,7 +998,8 @@ export const DataScienceMumbaiCourseData = [
 
           <li>
             <b>Resume Building Support:</b> Our experts teach you how to make a
-            resume to get interviews in top MNCs and product-based startups.{" "}
+            resume to get interviews in top MNCs and product-based
+            startups.{" "}
           </li>
 
           <li>
@@ -1027,7 +1016,8 @@ export const DataScienceMumbaiCourseData = [
     ProgramBot25: (
       <span>
         <h2>
-          Data Science Foundation Program in Mumbai with Placement Assistance{" "}
+          Data Science Foundation Program in Mumbai with Placement
+          Assistance{" "}
         </h2>
       </span>
     ),
@@ -1146,7 +1136,8 @@ export const DataScienceMumbaiCourseData = [
     ProgramBot30: (
       <span>
         <h2>
-          Data Science and AI Master Program in Mumbai with Placement Assistance{" "}
+          Data Science and AI Master Program in Mumbai with Placement
+          Assistance{" "}
         </h2>
       </span>
     ),
@@ -1339,7 +1330,8 @@ export const DataScienceMumbaiCourseData = [
           volume of data created daily. Worldwide data production is predicted
           to reach a startling 463 exabytes by 2025. In comparison, just 5
           exabytes of data have been uttered by humans as a whole. As a result,
-          Mumbai will see an increase in demand for qualified data scientists.{" "}
+          Mumbai will see an increase in demand for qualified data
+          scientists.{" "}
         </p>
         <p>
           Additionally, data science is a profitable field; in Mumbai, the
@@ -1460,38 +1452,26 @@ export const DataScienceMumbaiCourseData = [
       "4. It also provides a basic understanding of various coding platforms and editors, such as Jupyter notebooks, Githubs, Git, and Anaconda.",
     ModuleBot45:
       "5. This module (0) deals with a few terminologies in statistics such as (Mean, Median, Mode Standard Deviation, Average, Probability, permutations, combinations and Introduction to Linear Algebra)",
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
     JobHead1: "What is a job assistance program?",
