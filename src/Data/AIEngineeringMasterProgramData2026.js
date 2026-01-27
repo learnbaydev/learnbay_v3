@@ -9,13 +9,13 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "SDE Master Program\n",
+            text: "AI Engineering",
             color: true,
             gradient:
               "linear-gradient(90deg, #7eb6f9 0%, #d1a4e8 50%, #f78dc7 100%)",
           },
           {
-            text: "Generative AI and Agentic AI ",
+            text: " Master Program",
             color: false,
           },
         ],
@@ -6843,7 +6843,7 @@ export const NewDSAData = [
       {
         Module1: {
           title: "Module 1 – Python for GenAI",
-          hours: "(2 Months)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -6996,7 +6996,7 @@ export const NewDSAData = [
       {
         Module2: {
           title: "Module 2 – Foundation for GenAI",
-          hours: "(2 Months)",
+          hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7086,7 +7086,7 @@ export const NewDSAData = [
       {
         Module3: {
           title: "Module 3 – Advanced Generative AI",
-          hours: "(1.5 Months)",
+          hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7254,7 +7254,7 @@ export const NewDSAData = [
 
       {
         Module4: {
-          title: "Module 4 – Agentic AI & AI Automation",
+          title: "Module 4 – Agentic AI & Automation",
           hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7376,7 +7376,75 @@ export const NewDSAData = [
 
       {
         Module5: {
-          title: "Module 5 – LLMOP’s & Production Deployment",
+          title: "Module 5 – AI System Architecture & Platform Engineering",
+          hours: "(1.5 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "AI System Architecture & Platform Engineering",
+          content: [
+            {
+              chap: {
+                title: "AI System Design Patterns",
+                desc: [
+                  "Inference gateways and routing",
+                  "Event-driven AI architectures",
+                  "Cost and latency decisions",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "API & Microservice Design",
+                desc: [
+                  "FastAPI and gRPC patterns",
+                  "Async processing and queues",
+                  "Circuit breakers and backpressure",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Data Storage & State",
+                desc: [
+                  "Vector stores and feature storage",
+                  "Caching with Redis",
+                  "State management strategies",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Security & Governance",
+                desc: [
+                  "IAM, secrets, and access control",
+                  "Secure ingress and audit logging",
+                  "Enterprise compliance readiness",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Platform Automation",
+                desc: [
+                  "CI/CD for AI services",
+                  "GitOps and infrastructure automation",
+                  "Release strategies",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module6: {
+          title: "Module 6 – LLMOP’s & Production Deployment",
           hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7427,769 +7495,84 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 5,
+          id: 6,
           open: false,
         },
       },
 
-      {
-        Module6: {
-          title: "Module 6 – Data Structures & Algorithms",
-          hours: "(2 Months)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Agentic AI & Autonomous Systems",
-          content: [
-            {
-              chap: {
-                title: "Time and Space Complexity",
-                desc: [
-                  "Understanding Performance: Importance of complexity analysis in interviews.",
-                  "Big O Notation: Common complexities and how to analyze them.",
-                  "Space Complexity: Optimizing memory usage in data structure choices.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Arrays",
-                desc: [
-                  "Array Fundamentals & Operations: Basics of arrays, insertion, deletion, searching, updating, and two-dimensional (matrix) manipulation.",
-                  "Common Array Problems: Maximum and minimum elements, reverse array, sorted check, count occurrences, rotation, merge sorted arrays, intersections, move zeroes, and pairs with a given sum.",
-                  "Advanced Array & DP Problems: Longest increasing subsequence, maximum subarray sum, longest common subsequence, minimum path sum, and maximum product subarray.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Linked Lists & Interview Problems",
-                desc: [
-                  "Linked List Types & Basics: Singly, doubly, and circular linked lists with creation, traversal, insertion, deletion, and use cases.",
-                  "Common Linked List Operations: Middle, length, palindrome check,reverse, rotate, merge, partition, split, remove N-th node, and loop detection.",
-                  "Advanced Linked List Problems: Add numbers, flatten multilevel doubly lists, reorder lists, and clone lists with next and random pointers.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Stacks and Queues",
-                desc: [
-                  "Concepts & Implementation: LIFO and FIFO fundamentals, stacks and queues using arrays and linked lists.",
-                  "Advanced Variants: Priority queues and deques with common interview applications.",
-                  "Practice Coverage: Balanced parentheses, stack/queue implementations, expression evaluation (infix, postfix), reverse queue, circular queue, binary number generation, and duplicate supporting stack.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Recursion and Backtracking",
-                desc: [
-                  "Mastering Recursion: Key concepts and base cases crucial for problem-solving",
-                  "Divide and Conquer: Understanding its application in interviews.",
-                  "Backtracking: N-Queens, Sudoku. Practice Problems:",
-                  "Calculate the factorial of a number, Fibonacci sequence using recursion, Tower of Hanoi.",
-                  "Generate all subsets of a set, Solve the N-Queens problem, Rat in a maze.",
-                  "Solve the Sudoku puzzle, Permutations of a string, Word search, Generate all valid parentheses, Subset sum problem.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Searching Algorithms",
-                desc: [
-                  "Linear vs Binary Search: Time complexities.",
-                  "Advanced Searches: Ternary search and applications.",
-                  "Practice Problems: Search Techniques: Linear vs. Binary Search with time complexity analysis.",
-                  "Advanced Searches: Ternary search and its practical applications.",
-                  "Practice Problems: Basic, intermediate, and advanced search problems covering array operations, binary search variants, order statistics, and optimization cases.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Sorting Algorithms",
-                desc: [
-                  "Simple Sorting Algorithms: Bubble, selection, insertion— understanding their performance.",
-                  "Advanced Sorting Algorithms: Merge sort, quick sort—key algorithms in interviews.",
-                  "Practice Problems: Sorting fundamentals (bubble, selection, insertion, 0s–1s–2s, merge arrays), advanced sorting algorithms (merge, quick, heap, counting), and applied problems like nearly sorted arrays, k-th largest element, and minimum difference pairs.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Hashing",
-                desc: [
-                  "Hash Tables and Hash Functions: Importance in optimizing search operations.",
-                  "Collision Handling Techniques: Techniques to handle collisions effectively.",
-                  "Hash Table Implementations",
-                  "Practice Problems:Frequency counting, two-sum, first non-repeating character,longest consecutive sequence, and grouping anagrams.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Mastering Trees for Problem Solving",
-                desc: [
-                  "Binary Trees: Understanding traversal techniques (inorder, preorder, postorder).",
-                  "Binary Search Trees (BSTs)",
-                  "Balanced Trees (AVL, Red-Black): Importance of balancing in interviews.",
-                  "Practice Problems: Binary Tree Basics: Implement tree traversals and count nodes.",
-                  "Tree Queries: Find lowest common ancestor in a binary tree.",
-                  "Tree Serialization: Serialize and deserialize a binary tree.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Understanding and Implementing Tries",
-                desc: [
-                  "Understanding Tries: Structure and its applications in string problems.",
-                  "Insertion and Search Operations",
-                  "Practice Problems: Insert and search in a trie, prefix-based word search, distinct substring counting, autocomplete system, and phone directory implementation.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Heap Structures and Their Applications",
-                desc: [
-                  "Max-Heaps and Min-Heaps: Key properties & operations. ",
-                  "Heap Applications",
-                  "Practice Problems:Build a max heap from an array, Find the maximum element in a heap.",
-                  "Implement heap sort, K-th largest element in a stream using a min heap.",
-                  "Merge k sorted linked lists, Top k frequent elements in an array.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Greedy Algorithms",
-                desc: [
-                  "Understanding Greedy Strategy: When to apply greedy methods in problem-solving.",
-                  "Practice Problems: Coin change problem (greedy version), Activity selection problem.",
-                  "Job sequencing problem, Fractional knapsack problem.",
-                  "Huffman coding, Minimum spanning tree using Prim's or Kruskal's algorithm.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Dynamic Programming (DP)",
-                desc: [
-                  "Introduction to DP: Recognizing overlapping subproblems and optimal substructure.",
-                  "Top-down vs. Bottom-up: Common DP Problems: Longest common subsequence, 0/1 knapsack",
-                  "Practice Problems: Calculate the nth Fibonacci number using DP.",
-                  "Longest increasing subsequence, Coin change problem.",
-                  "0/1 knapsack problem, Edit distance between two strings.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Graphs",
-                desc: [
-                  "Graph Representations: Adjacency matrix vs. adjacency list—pros and cons.",
-                  "Graph Traversal Algorithms: BFS and DFS—understanding their applications in problem-solving.",
-                  "Shortest Path Algorithms: Dijkstra's, Bellman-Ford; how to apply them in interviews.",
-                  "Practice Problems: Implement BFS and DFS for a graph.",
-                  "Detect cycles in an undirected graph, Find connected components.",
-                  "Dijkstra's algorithm for shortest path, Kruskal's or Prim's algorithm for minimum spanning tree.",
-                ],
-              },
-            },
-          ],
-          id: 5,
-          open: false,
-        },
-      },
-
-      {
-        Module7: {
-          title: "Module 7 – System Design",
-          hours: "(2 Months)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Agentic AI & Autonomous Systems",
-          content: [
-            {
-              chap: {
-                title: "AI-Powered System Design Foundations",
-                desc: [
-                  "Introduction to System Design: Core principles of scalability, reliability, performance, and security.",
-                  "System Design Components: High-level vs. low-level design and their role in building robust systems.",
-                  "System Design Building Blocks: Key elements—databases, servers, clients, APIs, and message queues.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Fundamentals of Object-Oriented Programming (OOP)",
-                desc: [
-                  "Core principles: Abstraction, Encapsulation, Inheritance, and Polymorphism.",
-                  "Practical applications with real-world examples to solidify understanding.",
-                  "Modular component design for ease of code maintenance.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "SOLID Principles for Effective Design",
-                desc: [
-                  "SOLID Principles Overview: In-depth understanding of Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.",
-                  "Design Intent & Application: How each principle improves flexibility, maintainability, and code quality.",
-                  "Practical Exercises: Apply SOLID principles to real scenarios for clean, adaptable code.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Essential Design Patterns",
-                desc: [
-                  "Overview of major design patterns: Creational (Factory, Singleton), Structural (Adapter, Composite), Behavioral (Observer, Strategy).",
-                  "Identifying the right pattern based on requirements and scenarios.",
-                  "Practical examples to solve common challenges with design patterns.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "UML Diagrams for Visual Representation",
-                desc: [
-                  "Introduction to essential UML diagrams, including Class, Sequence, and Component diagrams.",
-                  "Exercises in creating visual maps for clear communication of design.",
-                  "Best practices for organized, understandable diagramming.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Designing Efficient Database Schemas",
-                desc: [
-                  "Overview of major design patterns: Creational (Factory, Singleton), Structural (Adapter, Composite), Behavioral (Observer, Strategy).",
-                  "Identifying the right pattern based on requirements and scenarios.",
-                  "Practical examples to solve common challenges with design patterns.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "API Design and Implementation Basics",
-                desc: [
-                  "RESTful API design principles: Structuring endpoints, managing errors, and versioning.",
-                  "Exercises for creating well-structured, scalable APIs with error handling.",
-                  "Best practices in API development for smooth integrations.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Multithreading and Concurrency Management",
-                desc: [
-                  "Introduction to multithreading and concurrency control basics.",
-                  "Managing issues like race conditions and deadlocks effectively.",
-                  "Practical examples to design systems handling concurrent tasks efficiently.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Basic Integration AI/ML in Software Design",
-                desc: [
-                  "Basics of embedding ML models and GenAI in systems for functionality enhancement.",
-                  "Setting up data flows for AI/ML and GenAI: Data preprocessing, model execution, and output integration.",
-                  "Model lifecycle management, including monitoring and updates for performance consistency.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Testing and Code Quality Best Practices",
-                desc: [
-                  "Overview of unit and integration testing to maintain design stability.",
-                  "Techniques for documenting and structuring code for clarity and maintenance.",
-                  "Continuous monitoring and refinement for long-term code and design quality.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Introduction to System Architecture and Design",
-                desc: [
-                  "System design fundamentals: Overview of monolithic, client-server, and microservices architectures.",
-                  "Principles of system design: Scalability, reliability, maintainability, and fault tolerance.",
-                  "Evaluating architecture choices: Choosing the right design patterns for different application needs.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Distributed Systems Overview",
-                desc: [
-                  "Key concepts: Data replication, data consistency, and distributed communication.",
-                  "Design challenges in distributed systems: Fault tolerance, data integrity, and managing distributed transactions.",
-                  "Use cases: Examining examples of distributed systems and architectures in action.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Network and Communication Protocols",
-                desc: [
-                  "Network fundamentals: How TCP/IP, DNS, and HTTP/HTTPS protocols function within HLD.",
-                  "Load balancing techniques: Understanding load balancers, DNSbased load balancing, and API gateways.",
-                  "Case studies: Implementing load balancing in distributed environments.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "ZooKeeper and Kafka (Distributed Messaging Queue)",
-                desc: [
-                  "ZooKeeper: Overview of distributed coordination, leader election, and configuration management.",
-                  "Apache Kafka: Introduction to message queuing, real-time data streaming, and event-driven architecture.",
-                  "Implementing a distributed messaging system: Practical applications and setup for reliable messaging.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Designing with Microservices and CAP Theorem",
-                desc: [
-                  "Microservices architecture: Benefits and challenges of service decomposition and design.",
-                  "CAP Theorem: Trade-offs between Consistency, Availability, and Partition tolerance.",
-                  "Data partitioning: Techniques like sharding, horizontal scaling, and load distribution.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Database Selection and Data Storage Models",
-                desc: [
-                  "Database types: SQL, NoSQL, and NewSQL, understanding their scalability and data integrity trade-offs.",
-                  "Choosing a database: ACID vs. BASE properties, and database selection based on application needs.",
-                  "Distributed databases: How they manage scalability, availability, and latency",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Caching and Content Delivery Networks (CDNs)",
-                desc: [
-                  "Caching & Data Optimization: Use Redis and Memcached with expiration strategies to improve data access efficiency.",
-                  "CDN Integration: Apply CDNs to reduce load and deliver images and videos with lower latency.",
-                  "Project – Instagram Feed System: Design a scalable image and video feed handling high read traffic using caching and CDN techniques for better user experience.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Scalability, Security, and Reliability",
-                desc: [
-                  "Security best practices: Authentication, data encryption, and secure API design.",
-                  "Reliability patterns.",
-                  "Scaling infrastructure: Vertical and horizontal scaling, auto-scaling, and designing for peak load handling.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " AI/ML Systems in High-Level Design",
-                desc: [
-                  "Integrating AI/ML: High-level considerations for data pipelines, model serving, and scalability for ML.",
-                  "Data infrastructure for ML: Handling large datasets, real-time processing, and model versioning.",
-                  "Real-world case studies: Examples of high-level AI/ML systems in production environments.",
-                ],
-              },
-            },
-          ],
-          id: 7,
-          open: false,
-        },
-      },
-
-      {
-        Module8: {
-          title:
-            "Elective A - LLM-Powered Software Engineering & Developer Copilots",
-          hours: "(40 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Agentic AI & Autonomous Systems",
-          content: [
-            {
-              chap: {
-                title: "  AI-Augmented Coding & Software Productivity ",
-                desc: [
-                  "AI accelerates repetitive coding tasks with consistent patterns.",
-                  "Models generate clean boilerplate supporting rapid development cycles.",
-                  "Documentation tools convert source code into human-readable summaries.",
-                  "AI suggestions reduce coding effort across common workflows.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Intelligent Code Understanding, Search & Refactoring",
-                desc: [
-                  "Semantic models interpret large repositories with high accuracy.",
-                  "AI identifies hidden code issues using structural reasoning.",
-                  "Refactoring suggestions improve maintainability across codebases.",
-                  "Semantic search links related logic across distant files.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Automated Testing, Debugging & Quality Assurance",
-                desc: [
-                  "AI generates strong unit tests from contextual code understanding.",
-                  "Debugging agents detect failures using learned error patterns.",
-                  "Automated QA workflows enforce code consistency during releases.",
-                  "Intelligent testing reduces regressions across evolving features.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Developer Copilot & Engineering Automation Agents",
-                desc: [
-                  "Multi-agent copilots support complete development workflows autonomously.",
-                  "Memory systems maintain understanding across large repositories.",
-                  "Tool-calling enables automated refactoring and documentation generation.",
-                  "IDE plugins deliver real-time coding assistance with context.",
-                ],
-              },
-            },
-          ],
-          id: 8,
-          open: false,
-        },
-      },
-
-      {
-        Module9: {
-          title: "Elective B - Cloud, DevOps & LLM Infrastructure Engineering",
-          hours: "(40 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Agentic AI & Autonomous Systems",
-          content: [
-            {
-              chap: {
-                title: " Cloud Foundations for LLM Infrastructure  ",
-                desc: [
-                  "Cloud services provision scalable compute for heavy AI workloads.",
-                  "Storage layers handle embeddings, logs, and large model artifacts.",
-                  "Serverless functions trigger lightweight AI execution pipelines.",
-                  "Identity services protect sensitive model access endpoints.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Containerization & Deployment for AI Systems",
-                desc: [
-                  "Containers bundle AI runtimes into portable execution units.",
-                  "GPU-enabled images optimize inference throughput for models.",
-                  "Reverse proxies manage traffic for inference endpoints securely.",
-                  "CI pipelines automate container builds across multiple environments.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Observability, Monitoring & System Reliability",
-                desc: [
-                  "Distributed tracing reveals performance issues in AI microservices.",
-                  "Log pipelines capture events from inference and agent workflows.",
-                  "Metrics visualize latency, throughput, and performance trends.",
-                  "Alerts instantly detect multi-cloud failures.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Enterprise-Grade LLM Infrastructure & Governance",
-                desc: [
-                  "Infrastructure policies control access to deployed AI services.",
-                  "Cost governance monitors model usage across various workloads.",
-                  "Network policies secure vector stores, APIs, and inference gateways.",
-                  "Compliance workflows validate deployments against enterprise standards.",
-                ],
-              },
-            },
-          ],
-          id: 8,
-          open: false,
-        },
-      },
-      {
-        Module10: {
-          title:
-            "Elective C - Backend Engineering for LLM Applications & RAG Microservices",
-          hours: "(40 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Agentic AI & Autonomous Systems",
-          content: [
-            {
-              chap: {
-                title: " Backend Architecture for AI-Driven Applications ",
-                desc: [
-                  "Backend services orchestrate LLM workflows behind APIs.",
-                  "Routing layers manage dynamic prompt construction and responses.",
-                  "Middleware organizes context injection across pipelines.",
-                  "Modular design supports flexible AI integration.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "High-Performance API Engineering for LLM Services",
-                desc: [
-                  "Async servers handle concurrent AI requests efficiently.",
-                  "Request batching reduces model latency during peak load.",
-                  "Streaming responses improve perceived responsiveness significantly.",
-                  "API gateways unify authentication across all LLM endpoints.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Caching, Persistence & Storage for AI Microservices",
-                desc: [
-                  "Caches reduce repeated model computation for identical prompts.",
-                  "Persistent layers store structured outputs and audit trails.",
-                  "Feature stores retain embeddings and conversation context.",
-                  "Distributed storage supports multi-service AI architectures reliably.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Distributed RAG & AI Microservice Patterns",
-                desc: [
-                  "AI microservices collaborate through event-driven pipelines.",
-                  "Retrieval microservices expose optimized document search endpoints.",
-                  "Orchestration layers coordinate multi-step LLM tasks programmatically.",
-                  "Backend agents route tasks between independent functional services",
-                ],
-              },
-            },
-          ],
-          id: 9,
-          open: false,
-        },
-      },
-
-      {
-        Module11: {
-          title:
-            "Elective D - Distributed Systems & Microservices for AI Applications",
-          hours: "(40 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Agentic AI & Autonomous Systems",
-          content: [
-            {
-              chap: {
-                title: " Distributed Systems Fundamentals for AI Workloads ",
-                desc: [
-                  "Distributed systems handle large-scale AI traffic efficiently.",
-                  "Services communicate reliably using structured protocols and patterns.",
-                  "Replication improves availability across unpredictable workloads.",
-                  "Consensus mechanisms ensure consistency under pressure.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Microservices Design for AI-Driven Platforms",
-                desc: [
-                  "Microservices encapsulate isolated AI responsibilities cleanly.",
-                  "Communication patterns define service interactions across boundaries.",
-                  "Circuit breakers protect systems during failures.",
-                  "Service meshes manage traffic with advanced observability.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Scaling, Load Management & Fault Tolerance",
-                desc: [
-                  "Load balancers distribute traffic across multiple service replicas.",
-                  "Auto-scaling adapts deployments to fluctuating AI demand.",
-                  "Retry strategies reduce failure impact during transient issues.",
-                  "Fault tolerance improves reliability under distributed stress.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Distributed RAG & AI Microservice Patterns",
-                desc: [
-                  "Distributed Data, Messaging & Workflow Coordination",
-                  "Event systems coordinate asynchronous work across AI components.",
-                  "Distributed logs maintain ordered data streams for workflows.",
-                  "Coordination services manage worker states and distributed tasks.",
-                  "Message queues provide reliable delivery for background processing.",
-                ],
-              },
-            },
-          ],
-          id: 10,
-          open: false,
-        },
-      },
-
-      {
-        Module12: {
-          title:
-            "Elective E - Multi-Agent Systems, Workflow Automation & Enterprise Orchestration",
-          hours: "(40 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Agentic AI & Autonomous Systems",
-          content: [
-            {
-              chap: {
-                title: "  Advanced Multi-Agent Collaboration Patterns  ",
-                desc: [
-                  "Agents collaborate using structured communication roles and hierarchies.",
-                  "Workflows distribute tasks across specialized agents.",
-                  "Protocols ensure predictable agent interactions.",
-                  "Delegation improves multi-step autonomy.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Enterprise Workflow Automation with Agent Teams",
-                desc: [
-                  "Agents automate repetitive business workflows end-to-end reliably.",
-                  "Event triggers activate agent tasks across enterprise systems.",
-                  "Workflow guards enforce rules before executing critical actions.",
-                  "Cross-system automation reduces manual intervention for large operations.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Context Sharing, Memory, and Tool Ecosystems",
-                desc: [
-                  "Agents share contextual state for consistent multi-step reasoning.",
-                  "Memory layers persist results across long-running workflows.",
-                  "Tool ecosystems allow agents to act within real systems safely.",
-                  "Structured context routing improves decision accuracy.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Large-Scale Orchestration, Governance & Reliability",
-                desc: [
-                  "Enterprise orchestration frameworks manage thousands of parallel agents.",
-                  "Governance rules ensure compliant and traceable agent behavior.",
-                  "Monitoring dashboards visualize reasoning steps across agent workflows.",
-                  "Reliability patterns handle failures gracefully during complex automation.",
-                ],
-              },
-            },
-          ],
-          id: 11,
-          open: false,
-        },
-      },
-
-      {
-        Module13: {
-          title: "Elective F - GenAI & Agentic AI for Product Managers",
-          hours: "(32 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Agentic AI & Autonomous Systems",
-          content: [
-            {
-              chap: {
-                title: "  AI-Driven Product Thinking & Use-Case Design ",
-                desc: [
-                  "PMs identify impactful AI opportunities using structured frameworks.",
-                  "Problem discovery validates user needs before AI solutions.",
-                  "GenAI capability maps align features with model strengths.",
-                  "Prioritization frameworks guide AI roadmap decisions effectively.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Designing GenAI Experiences & User Workflows",
-                desc: [
-                  "AI products require clear interaction patterns for usability.",
-                  "Workflow blueprints define data flow and decision points.",
-                  "Guardrails protect users from harmful or incorrect outputs.",
-                  "UX patterns support transparent and intuitive AI experiences.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Agentic AI Product Architecture & Lifecycle Planning",
-                desc: [
-                  "Agent teams enable automated workflows for business users.",
-                  "Execution loops coordinate actions across complex tasks.",
-                  "PMs define agent roles and operational boundaries clearly.",
-                  "Lifecycle planning covers evaluation and deployment readiness.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "AI Governance, Risk, Evaluation & Success Metrics",
-                desc: [
-                  "PMs define evaluation metrics for accuracy, safety, and value.",
-                  "Governance ensures responsible behavior across AI features.",
-                  "Risk frameworks identify potential failures before deployment.",
-                  "Success metrics measure adoption, efficiency, and business impact.",
-                ],
-              },
-            },
-          ],
-          id: 12,
-          open: false,
-        },
-      },
+      // {
+      //   Module4: {
+      //     title: "Elective - (Choose Any 2)",
+      //     hours: "(1 Month)",
+      //     imageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+      //     StartImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+      //     endImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+      //     points: "Agentic AI & Autonomous Systems",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: " GenAI and Agentic AI for BFSI ",
+      //           desc: [
+      //             "AI solutions for fraud detection, credit risk modeling, customer intelligence, underwriting automation, and financial copilots.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Retail",
+      //           desc: [
+      //             "Build AI systems for demand forecasting, personalized recommendations, inventory optimization, and customer experience automation.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Manufacturing",
+      //           desc: [
+      //             "Apply GenAI for predictive maintenance, quality inspection, supply chain intelligence, and factory optimization.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Healthcare",
+      //           desc: [
+      //             "evelop AI use cases for clinical decision support, medical document analysis, diagnostics assistance, and patient data intelligence.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Cloud & Devops",
+      //           desc: [
+      //             "Design autonomous agents, AI-driven CI/CD, monitoring agents, RAG pipelines, and production-grade MLOps systems.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Managers & Leaders",
+      //           desc: [
+      //             "Learn Project Management uing AI, Gen AI for Digital Business Transformation , AI governance, agent-based decision systems.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Software Developers",
+      //           desc: [
+      //             "Build LLM-powered applications, APIs, copilots, autonomous agents, and GenAI features using modern frameworks.",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 4,
+      //     open: false,
+      //   },
+      // },
     ],
 
     certificateNew: [
@@ -8218,8 +7601,8 @@ export const NewDSAData = [
     Certificate: [
       // {
       //   id: 1,
-      //   topnav: "IBM Certificate",
-      //   img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp",
+      //   topnav: "OutSpoken",
+      //   img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/OUTSPOKEN+CERTIFICATE+1.webp",
 
       //   width: 300,
       //   height: 340,
@@ -8270,309 +7653,309 @@ export const NewDSAData = [
         ],
       },
     ],
-    faq: [
-      {
-        id: 0,
-        sectionName: "Course Related",
-        data: [
-          {
-            id: 0,
-            ques: "What are the prerequisites for the Data Science and AI Master Certification Program?",
-            ans: "There are no specific prerequisites for the Data Science and AI Master Certification program. Experts with no prior coding or programming knowledge can join this course. Just with basic mathematics or statistics knowledge and an interest in learning programming, one can enroll with us. ",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "What if I miss a few classes due to an emergency?",
-            ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "What is a Flexi Subscription in the ⁠Data Science and AI Master Certification Program?",
-            ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "What’s the duration of the ⁠Data Science and AI Master Certification Program?",
-            ans: "The duration of this course is about 13-15 months (500 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 13 months, Monday to Friday – 2 hours/day, Weekend batch – 15 months, Saturday & Sunday – 3.5 hours/day",
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "What is the mode of training at Learnbay?",
-            ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
-            open: false,
-          },
-          {
-            id: 5,
-            ques: "How can I opt for a Hybrid mode of learning?",
-            ans: "Simply, you can choose an online mode of study for the theoretical classes and classroom mode for all the capstone projects and interview preparation sessions.",
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 1,
-        sectionName: "Domain Electives",
-        data: [
-          {
-            id: 0,
-            ques: "What is domain specialization?            ",
-            ans: "Domain specialization refers to the practice of gaining specific expertise in a particular field of an industry. It is a metric of career growth where experts gain domain-specific knowledge to face real-world challenges and tackle them effectively.             ",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "What are the available elective domain options?            ",
-            ans: "Experts from diversified backgrounds can join this to gain domain-specific knowledge. The available domain elective options are –",
-            list1: "BFSI",
-            list2: "Retail            ",
-            list3: "Supply Chain            ",
-            list4: "Healthcare            ",
-            list5: "Marketing            ",
-            list6: "HR            ",
-            list7: "Manufacturing             ",
-            dscoursefaq1: true,
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "What if I don’t have any prior experience in any domain?            ",
-            ans: `We offer industry-focused upskilling with the domain electives that are trending at present with alluring career opportunities. In case, you do not hold any prior experience, you can opt for any domain as per your career interests and goals. You can here consider specializations during academics if you wish to craft a successful career in the same.             `,
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "Why is domain specialization important?",
-            ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "Can I select multiple domain electives and do I need to pay extra charges?",
-            ans: "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
-            open: false,
-          },
-          {
-            id: 5,
-            ques: "What if I don’t have any prior experience in any domain?",
-            ans: "If you don’t have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
-            open: false,
-          },
-          {
-            id: 6,
-            ques: "Can I change my domain electives later?",
-            ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 2,
-        sectionName: "Payments and Scholarships",
-        data: [
-          {
-            id: 0,
-            ques: "What is the total Fee for the Data Science and AI Master Certification Program?",
-            ans: "The total program fee for the Data Science and AI Master Certification Program with Domain Specialization is INR 1,35,000 + 18% GST.",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "Can I pay in installments for the Data Science and AI Master Certification Program?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,850/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "Is there any scholarship/discount available for Data Science and AI Master Certification Program? What is Group Discount?",
-            ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
-            Please check our website or contact our sales team to know more about the applicable discounts.
-            
-            Group Discount :
-            Group Discount is applicable only if you’re joining with your friends.
-            5% extra discount : Group of 2,
-            8% extra discount : Group of 3,
-            Max 10% discount : Groupe of 4+.`,
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "What is the refund policy for the Data Science and AI Master Certification Program at Learnbay?",
-            ans: "Candidates are advised to read  ",
-            linkText1: "Learnbay’s Refund/Cancellation Policy",
-            link1: "/refund-cancellation-policy",
-            ansAfter: " before enrolling in the program.",
-            link: true,
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 3,
-        sectionName: "Capstone and Real-Time Projects",
-        data: [
-          {
-            id: 0,
-            ques: "How many capstone projects will be there?",
-            ans: "In this course, you’ll be required to work on 3 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "How many real-time projects will be there?",
-            ans: "We have a set of 12 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
-            linkText1: " Click here to download the list of the projects.",
-            link1:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
-            link: true,
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "How will the project be executed?",
-            ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 4,
-        sectionName: "Certification",
-        data: [
-          {
-            id: 0,
-            ques: "Is there any accredited certification after course completion?            ",
-            ans: "Yes. Successful completion of the course will attest to a globally accredited certification for your career. Here, you will receive a course completion certificate accredited by IBM that validates your skills to thrive globally. Apart from this, an industry-certified Microsoft certificate justifies our collaboration for successful career transitions.           ",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "What categories of certifications might I expect to receive?            ",
-            ans: "This course offers you two categories of certifications –    ",
-            list1: "Two-Course Completion Certificates from IBM & Microsoft",
-            list2: "Capstone Project Certifications from IBM",
-            dscoursefaq1: true,
+    // faq: [
+    //   {
+    //     id: 0,
+    //     sectionName: "Course Related",
+    //     data: [
+    //       {
+    //         id: 0,
+    //         ques: "What are the prerequisites for the Data Science and AI Master Certification Program?",
+    //         ans: "There are no specific prerequisites for the Data Science and AI Master Certification program. Experts with no prior coding or programming knowledge can join this course. Just with basic mathematics or statistics knowledge and an interest in learning programming, one can enroll with us. ",
+    //         open: true,
+    //       },
+    //       {
+    //         id: 1,
+    //         ques: "What if I miss a few classes due to an emergency?",
+    //         ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 2,
+    //         ques: "What is a Flexi Subscription in the ⁠Data Science and AI Master Certification Program?",
+    //         ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+    //         open: false,
+    //       },
+    //       {
+    //         id: 3,
+    //         ques: "What’s the duration of the ⁠Data Science and AI Master Certification Program?",
+    //         ans: "The duration of this course is about 13-15 months (500 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 13 months, Monday to Friday – 2 hours/day, Weekend batch – 15 months, Saturday & Sunday – 3.5 hours/day",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 4,
+    //         ques: "What is the mode of training at Learnbay?",
+    //         ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 5,
+    //         ques: "How can I opt for a Hybrid mode of learning?",
+    //         ans: "Simply, you can choose an online mode of study for the theoretical classes and classroom mode for all the capstone projects and interview preparation sessions.",
+    //         open: false,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: 1,
+    //     sectionName: "Domain Electives",
+    //     data: [
+    //       {
+    //         id: 0,
+    //         ques: "What is domain specialization?            ",
+    //         ans: "Domain specialization refers to the practice of gaining specific expertise in a particular field of an industry. It is a metric of career growth where experts gain domain-specific knowledge to face real-world challenges and tackle them effectively.             ",
+    //         open: true,
+    //       },
+    //       {
+    //         id: 1,
+    //         ques: "What are the available elective domain options?            ",
+    //         ans: "Experts from diversified backgrounds can join this to gain domain-specific knowledge. The available domain elective options are –",
+    //         list1: "BFSI",
+    //         list2: "Retail            ",
+    //         list3: "Supply Chain            ",
+    //         list4: "Healthcare            ",
+    //         list5: "Marketing            ",
+    //         list6: "HR            ",
+    //         list7: "Manufacturing             ",
+    //         dscoursefaq1: true,
+    //         open: false,
+    //       },
+    //       {
+    //         id: 2,
+    //         ques: "What if I don’t have any prior experience in any domain?            ",
+    //         ans: `We offer industry-focused upskilling with the domain electives that are trending at present with alluring career opportunities. In case, you do not hold any prior experience, you can opt for any domain as per your career interests and goals. You can here consider specializations during academics if you wish to craft a successful career in the same.             `,
+    //         open: false,
+    //       },
+    //       {
+    //         id: 3,
+    //         ques: "Why is domain specialization important?",
+    //         ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 4,
+    //         ques: "Can I select multiple domain electives and do I need to pay extra charges?",
+    //         ans: "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 5,
+    //         ques: "What if I don’t have any prior experience in any domain?",
+    //         ans: "If you don’t have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 6,
+    //         ques: "Can I change my domain electives later?",
+    //         ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
+    //         open: false,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: 2,
+    //     sectionName: "Payments and Scholarships",
+    //     data: [
+    //       {
+    //         id: 0,
+    //         ques: "What is the total Fee for the Data Science and AI Master Certification Program?",
+    //         ans: "The total program fee for the Data Science and AI Master Certification Program with Domain Specialization is INR 1,35,000 + 18% GST.",
+    //         open: true,
+    //       },
+    //       {
+    //         id: 1,
+    //         ques: "Can I pay in installments for the Data Science and AI Master Certification Program?",
+    //         ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,850/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 2,
+    //         ques: "Is there any scholarship/discount available for Data Science and AI Master Certification Program? What is Group Discount?",
+    //         ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
+    //         Please check our website or contact our sales team to know more about the applicable discounts.
 
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 5,
-        sectionName: "Job Assistance",
-        data: [
-          {
-            id: 0,
-            ques: "What’s the eligibility for a job assistance program at Learnbay?",
+    //         Group Discount :
+    //         Group Discount is applicable only if you’re joining with your friends.
+    //         5% extra discount : Group of 2,
+    //         8% extra discount : Group of 3,
+    //         Max 10% discount : Groupe of 4+.`,
+    //         open: false,
+    //       },
+    //       {
+    //         id: 3,
+    //         ques: "What is the refund policy for the Data Science and AI Master Certification Program at Learnbay?",
+    //         ans: "Candidates are advised to read  ",
+    //         linkText1: "Learnbay’s Refund/Cancellation Policy",
+    //         link1: "/refund-cancellation-policy",
+    //         ansAfter: " before enrolling in the program.",
+    //         link: true,
+    //         open: false,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: 3,
+    //     sectionName: "Capstone and Real-Time Projects",
+    //     data: [
+    //       {
+    //         id: 0,
+    //         ques: "How many capstone projects will be there?",
+    //         ans: "In this course, you’ll be required to work on 3 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
+    //         open: true,
+    //       },
+    //       {
+    //         id: 1,
+    //         ques: "How many real-time projects will be there?",
+    //         ans: "We have a set of 12 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
+    //         linkText1: " Click here to download the list of the projects.",
+    //         link1:
+    //           "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+    //         link: true,
+    //         open: false,
+    //       },
+    //       {
+    //         id: 2,
+    //         ques: "How will the project be executed?",
+    //         ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
+    //         open: false,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: 4,
+    //     sectionName: "Certification",
+    //     data: [
+    //       {
+    //         id: 0,
+    //         ques: "Is there any accredited certification after course completion?            ",
+    //         ans: "Yes. Successful completion of the course will attest to a globally accredited certification for your career. Here, you will receive a course completion certificate accredited by IBM that validates your skills to thrive globally. Apart from this, an industry-certified Microsoft certificate justifies our collaboration for successful career transitions.           ",
+    //         open: true,
+    //       },
+    //       {
+    //         id: 1,
+    //         ques: "What categories of certifications might I expect to receive?            ",
+    //         ans: "This course offers you two categories of certifications –    ",
+    //         list1: "Two-Course Completion Certificates from IBM & Microsoft",
+    //         list2: "Capstone Project Certifications from IBM",
+    //         dscoursefaq1: true,
 
-            ans: `You should have completed the course with :
-            A minimum score of 70% in assessments.
-            Should have completed the assignments and case studies.
-            Worked and successfully completed the minimum recommended number of real-time projects.`,
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "How many interview calls will I get at Learnbay?            ",
-            ans: "This course promises you Job-readiness with interview support (at least 10 calls) with open-end access to the leading employers.             ",
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "What is a job-readiness program?",
-            ans: `Job readiness program helps you prepare for interviews which include:
-            Resume preparation sessions, 
-            Preparing projects for a strong portfolio, 
-            Interview guidance and prep sessions, 
-            1:1 Mock interviews based on targeted companies and roles.`,
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "Will I get job referrals at Learnbay?",
-            ans: "Yes, we offer dedicated placement assistance by referring your profile through our partnered consultancies and companies.",
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 6,
-        sectionName: "Mentorship",
-        data: [
-          {
-            id: 0,
-            ques: "Until when will the Learnbay students get the facility of mentorship?",
+    //         open: false,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: 5,
+    //     sectionName: "Job Assistance",
+    //     data: [
+    //       {
+    //         id: 0,
+    //         ques: "What’s the eligibility for a job assistance program at Learnbay?",
 
-            ans: "Our mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "Can a student choose to study from their desired mentor?",
-            ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "Are there mentors available to help with coursework and projects?            ",
-            ans: "Working professionals have the scope to learn business analytics online under the direct guidance of industry experts from MNCs. Learners will have dedicated coaching from mentors for coursework, job assistance programs, live projects, and 1:1 doubt clearing. You can get in touch with your mentors to resolve any doubts while working on fresh capstone projects.             ",
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "How can I connect with a mentor?            ",
-            ans: "Learners go through business analytics online training guided by industry mentors from MNCs. After enrolling in the course, learners will be assigned a mentor whom they can contact directly during online sessions (chat section) and over the call at any time.             ",
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "What is the typical response time for mentor support?            ",
-            ans: "Our mentors are available to support queries of learners at any time (during and after the sessions). So, within 10-15 minutes, learners can get mentor support to resolve queries regarding coursework or projects.             ",
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 7,
-        sectionName: "Support",
-        data: [
-          {
-            id: 0,
-            ques: "When is the job assistance provided and how long will I get it?",
+    //         ans: `You should have completed the course with :
+    //         A minimum score of 70% in assessments.
+    //         Should have completed the assignments and case studies.
+    //         Worked and successfully completed the minimum recommended number of real-time projects.`,
+    //         open: true,
+    //       },
+    //       {
+    //         id: 1,
+    //         ques: "How many interview calls will I get at Learnbay?            ",
+    //         ans: "This course promises you Job-readiness with interview support (at least 10 calls) with open-end access to the leading employers.             ",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 2,
+    //         ques: "What is a job-readiness program?",
+    //         ans: `Job readiness program helps you prepare for interviews which include:
+    //         Resume preparation sessions,
+    //         Preparing projects for a strong portfolio,
+    //         Interview guidance and prep sessions,
+    //         1:1 Mock interviews based on targeted companies and roles.`,
+    //         open: false,
+    //       },
+    //       {
+    //         id: 3,
+    //         ques: "Will I get job referrals at Learnbay?",
+    //         ans: "Yes, we offer dedicated placement assistance by referring your profile through our partnered consultancies and companies.",
+    //         open: false,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: 6,
+    //     sectionName: "Mentorship",
+    //     data: [
+    //       {
+    //         id: 0,
+    //         ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-            ans: "At Learnbay, placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "How long will I get Job referrals?",
-            ans: "You’ll be provided with job referrals after the completion of the course for a period of 1 year.",
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "How can I reach out for technical support if I encounter any issues with the course platform?            ",
-            ans: "After enrolling in the course, you are open to use 24x7 learner’s support to resolve any query. You can call the helpline number to reach the desired service providers to help you out of any technical issues with the course platform.             ",
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "Is there a discussion forum or community for students to interact and seek help?            ",
-            ans: "There is no discussion forum or community for students to interact and seek help. They can directly reach out to the learner’s support team which is available 24x7 to resolve queries. In case of any doubt related to coursework or projects, learners can schedule a call for 1:1 sessions with their respective mentors.              ",
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "What is the best way to contact your support team if I have general inquiries?            ",
-            ans: "Learnbay offers 24x7 learner’s support to help with general inquiries. You can check with our sales team at +91 7795687988 in case you have any questions in your mind. They will reach out to you as soon as possible with the best solutions.             ",
-            open: false,
-          },
-        ],
-      },
-    ],
+    //         ans: "Our mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
+    //         open: true,
+    //       },
+    //       {
+    //         id: 1,
+    //         ques: "Can a student choose to study from their desired mentor?",
+    //         ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 2,
+    //         ques: "Are there mentors available to help with coursework and projects?            ",
+    //         ans: "Working professionals have the scope to learn business analytics online under the direct guidance of industry experts from MNCs. Learners will have dedicated coaching from mentors for coursework, job assistance programs, live projects, and 1:1 doubt clearing. You can get in touch with your mentors to resolve any doubts while working on fresh capstone projects.             ",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 3,
+    //         ques: "How can I connect with a mentor?            ",
+    //         ans: "Learners go through business analytics online training guided by industry mentors from MNCs. After enrolling in the course, learners will be assigned a mentor whom they can contact directly during online sessions (chat section) and over the call at any time.             ",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 4,
+    //         ques: "What is the typical response time for mentor support?            ",
+    //         ans: "Our mentors are available to support queries of learners at any time (during and after the sessions). So, within 10-15 minutes, learners can get mentor support to resolve queries regarding coursework or projects.             ",
+    //         open: false,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: 7,
+    //     sectionName: "Support",
+    //     data: [
+    //       {
+    //         id: 0,
+    //         ques: "When is the job assistance provided and how long will I get it?",
+
+    //         ans: "At Learnbay, placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+    //         open: true,
+    //       },
+    //       {
+    //         id: 1,
+    //         ques: "How long will I get Job referrals?",
+    //         ans: "You’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 2,
+    //         ques: "How can I reach out for technical support if I encounter any issues with the course platform?            ",
+    //         ans: "After enrolling in the course, you are open to use 24x7 learner’s support to resolve any query. You can call the helpline number to reach the desired service providers to help you out of any technical issues with the course platform.             ",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 3,
+    //         ques: "Is there a discussion forum or community for students to interact and seek help?            ",
+    //         ans: "There is no discussion forum or community for students to interact and seek help. They can directly reach out to the learner’s support team which is available 24x7 to resolve queries. In case of any doubt related to coursework or projects, learners can schedule a call for 1:1 sessions with their respective mentors.              ",
+    //         open: false,
+    //       },
+    //       {
+    //         id: 4,
+    //         ques: "What is the best way to contact your support team if I have general inquiries?            ",
+    //         ans: "Learnbay offers 24x7 learner’s support to help with general inquiries. You can check with our sales team at +91 7795687988 in case you have any questions in your mind. They will reach out to you as soon as possible with the best solutions.             ",
+    //         open: false,
+    //       },
+    //     ],
+    //   },
+    // ],
     certificateNew: {
       degreeCertificate: {
         id: 1,

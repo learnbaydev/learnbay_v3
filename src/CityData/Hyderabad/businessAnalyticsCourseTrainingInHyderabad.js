@@ -521,7 +521,7 @@ export const BusinessAnalyticsHyderabadCourseData = [
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 93,220/-?",
+            ques: "Can I pay in installments for INR 1,20,000/-?",
             ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             linkText1:
               " Please check with our sales team to know more +917795687988 ",

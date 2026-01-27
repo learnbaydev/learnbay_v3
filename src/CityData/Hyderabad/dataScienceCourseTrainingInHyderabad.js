@@ -884,7 +884,7 @@ export const DataScienceHyderabadCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
     JobBot1:
       "Hyderabad’s job market outlook reflects a constantly changing space for working experts to acquire proven skills and grow. Its established tech space accepts skilled experts with the talent to face data-driven intricacies. Hence, experts prefer learning despite costly data science course fees in Hyderabad. Yet, joining a course with 100% job support is worth investing in for experts with stagnant salaries and positions. ",
     JobBot2:

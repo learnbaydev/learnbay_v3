@@ -113,7 +113,7 @@ function FirstSection({
                     />
                   ) : (
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DABAImage2026.webp"
                       width={266}
                       height={48}
                       loading="lazy" // Lazy load non-critical images

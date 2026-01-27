@@ -7086,7 +7086,7 @@ export const NewDSAData = [
 
       {
         Module3: {
-          title: "Module 3 – Generative AI",
+          title: "Module 3 – Advanced Generative AI",
           hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7255,7 +7255,7 @@ export const NewDSAData = [
 
       {
         Module4: {
-          title: "Module 4 – Agentic AI",
+          title: "Module 4 – Agentic AI & Automation",
           hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7376,78 +7376,184 @@ export const NewDSAData = [
       },
 
       {
-        Module4: {
-          title: "Elective - (Choose Any 2)",
-          hours: "(1 Month)",
+        Module5: {
+          title: "Module 5 – LLMOP’s & Production Deployment",
+          hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Agentic AI & Autonomous Systems",
+          points: "LLMOP’s & Production Deployment",
           content: [
             {
               chap: {
-                title: " GenAI and Agentic AI for BFSI ",
+                title: "LLM Lifecycle, Versioning & Deployment Basics",
                 desc: [
-                  "AI solutions for fraud detection, credit risk modeling, customer intelligence, underwriting automation, and financial copilots.",
+                  "End-to-end LLM lifecycle from development to production.",
+                  "Model and prompt versioning using evaluation traces.",
+                  "API-based LLM deployment using FastAPI and OpenAI / Azure OpenAI endpoints.",
                 ],
               },
             },
             {
               chap: {
-                title: "GenAI for Retail",
+                title: "Containerization & Inference Serving",
                 desc: [
-                  "Build AI systems for demand forecasting, personalized recommendations, inventory optimization, and customer experience automation.",
+                  "Packaging GenAI applications for consistent deployment.",
+                  "Serving LLM-powered APIs using containers.",
+                  "Localand cloud-ready inference setups.",
                 ],
               },
             },
             {
               chap: {
-                title: "GenAI for Manufacturing",
+                title: "RAG & Agent Deployment Pipelines",
                 desc: [
-                  "Apply GenAI for predictive maintenance, quality inspection, supply chain intelligence, and factory optimization.",
+                  "Deploying Retrieval-Augmented Generation pipelines reliably.",
+                  "Vector database operations for production workloads.",
+                  "Deploying agent workflows with tool calling and state handling.",
                 ],
               },
             },
             {
               chap: {
-                title: "GenAI for Healthcare",
+                title: "Monitoring, Cost Optimization & Reliability",
                 desc: [
-                  "evelop AI use cases for clinical decision support, medical document analysis, diagnostics assistance, and patient data intelligence.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "GenAI for Cloud & Devops",
-                desc: [
-                  "Design autonomous agents, AI-driven CI/CD, monitoring agents, RAG pipelines, and production-grade MLOps systems.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "GenAI for Managers & Leaders",
-                desc: [
-                  "Learn Project Management uing AI, Gen AI for Digital Business Transformation , AI governance, agent-based decision systems.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "GenAI for Software Developers",
-                desc: [
-                  "Build LLM-powered applications, APIs, copilots, autonomous agents, and GenAI features using modern frameworks.",
+                  "Tracking latency, token usage, and failures.",
+                  "Prompt evaluation and trace-based monitoring.",
+                  "Cost optimization, rollback, and safe production controls.",
                 ],
               },
             },
           ],
-          id: 4,
+          id: 5,
           open: false,
         },
       },
+
+      {
+        Module6: {
+          title: "Module 6 – Ethics, Guardrails & Responsible AI",
+          hours: "(2 Weeks)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Ethics, Guardrails & Responsible AI",
+          content: [
+            {
+              chap: {
+                title: "Responsible AI Foundations & Risk Awareness",
+                desc: [
+                  "Understanding bias, hallucination, and misuse risks in GenAI systems.",
+                  "Transparency, explainability, and accountability in AI decisions.",
+                  "Enterprise expectations for ethical AI adoption.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Safety Guardrails & Human-in-the-Loop Controls",
+                desc: [
+                  "Input and output validation strategies.",
+                  "Policy enforcement, prompt restrictions, and fallback handling.",
+                  "Human approval loops for high-risk AI actions.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Governance, Compliance & Audit Readiness",
+                desc: [
+                  "Monitoring AI behavior in production.",
+                  "Audit logs, traceability, and decision documentation.",
+                  "Aligning GenAI systems with enterprise and regulatory standards.",
+                ],
+              },
+            },
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+
+      // {
+      //   Module4: {
+      //     title: "Elective - (Choose Any 2)",
+      //     hours: "(1 Month)",
+      //     imageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+      //     StartImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+      //     endImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+      //     points: "Agentic AI & Autonomous Systems",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: " GenAI and Agentic AI for BFSI ",
+      //           desc: [
+      //             "AI solutions for fraud detection, credit risk modeling, customer intelligence, underwriting automation, and financial copilots.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Retail",
+      //           desc: [
+      //             "Build AI systems for demand forecasting, personalized recommendations, inventory optimization, and customer experience automation.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Manufacturing",
+      //           desc: [
+      //             "Apply GenAI for predictive maintenance, quality inspection, supply chain intelligence, and factory optimization.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Healthcare",
+      //           desc: [
+      //             "evelop AI use cases for clinical decision support, medical document analysis, diagnostics assistance, and patient data intelligence.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Cloud & Devops",
+      //           desc: [
+      //             "Design autonomous agents, AI-driven CI/CD, monitoring agents, RAG pipelines, and production-grade MLOps systems.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Managers & Leaders",
+      //           desc: [
+      //             "Learn Project Management uing AI, Gen AI for Digital Business Transformation , AI governance, agent-based decision systems.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "GenAI for Software Developers",
+      //           desc: [
+      //             "Build LLM-powered applications, APIs, copilots, autonomous agents, and GenAI features using modern frameworks.",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 4,
+      //     open: false,
+      //   },
+      // },
     ],
 
     certificateNew: [
@@ -7474,20 +7580,20 @@ export const NewDSAData = [
     ],
 
     Certificate: [
-      {
-        id: 1,
-        topnav: "IBM",
-        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp",
+      // {
+      //   id: 1,
+      //   topnav: "IBM",
+      //   img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp",
 
-        width: 300,
-        height: 340,
-        title: "Course Completion Certificate from IBM",
-        para: [
-          "Complete your training with the internationally recognized certificate.",
-          "Validate your Data Science & AI skills with IBM Course Completion Certificate.",
-          "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
-        ],
-      },
+      //   width: 300,
+      //   height: 340,
+      //   title: "Course Completion Certificate from IBM",
+      //   para: [
+      //     "Complete your training with the internationally recognized certificate.",
+      //     "Validate your Data Science & AI skills with IBM Course Completion Certificate.",
+      //     "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+      //   ],
+      // },
       {
         id: 2,
         topnav: "Microsoft",
@@ -7516,7 +7622,7 @@ export const NewDSAData = [
       },
       {
         id: 4,
-        topnav: "Gen-AI Certificate",
+        topnav: "IBM Gen-AI Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
         width: 300,
         height: 270,

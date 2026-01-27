@@ -4,46 +4,48 @@ import { useEffect, useState } from "react";
 import LJourney from "../LJourney/LJourney";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const WhatsappFloat = dynamic(() =>
-  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+const WhatsappFloat = dynamic(
+  () => import("@/components/Global/WhatappsFloat/WhatsappFloat"),
 );
-const Content = dynamic(() =>
-  import("../../../components/CoursePage/Content/content")
+const Content = dynamic(
+  () => import("../../../components/CoursePage/Content/content"),
 );
-const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate")
-);
-
-const FeeSection = dynamic(() =>
-  import("../../../components/CoursePage/FeeSection/FeeSection")
+const Certificate = dynamic(
+  () =>
+    import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate"),
 );
 
-const MentorsSection = dynamic(() =>
-  import("../../../components/Global/MentorsSection/MentorsSection")
+const FeeSection = dynamic(
+  () => import("../../../components/CoursePage/FeeSection/FeeSection"),
 );
 
-const SliderTab = dynamic(() =>
-  import("../../../components/Global/SliderTabs/SliderTabs")
+const MentorsSection = dynamic(
+  () => import("../../../components/Global/MentorsSection/MentorsSection"),
 );
 
-const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCall")
+const SliderTab = dynamic(
+  () => import("../../../components/Global/SliderTabs/SliderTabs"),
+);
+
+const PlacementCall = dynamic(
+  () => import("../../../components/Global/PlacementCall/PlacementCall"),
 );
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const NewProjectSection = dynamic(() =>
-  import("../../../components/Global/NewProjectSection/NewProjectSection")
+const NewProjectSection = dynamic(
+  () =>
+    import("../../../components/Global/NewProjectSection/NewProjectSection"),
 );
 
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+const FAQNew = dynamic(
+  () => import("../../../components/CoursePage/FAQNew/FAQNew"),
 );
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import("@/components/Global/SeventhSection/SeventhSection"),
 );
 
-const MobileTestimonial = dynamic(() =>
-  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+const MobileTestimonial = dynamic(
+  () => import("@/components/Home/MobileTestimonial/MobileTestimonial"),
 );
 
 const SecondPart = ({
@@ -83,7 +85,8 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf";
   return (
     <div>
       <LJourney />

@@ -85,15 +85,15 @@ export const DADelhiCourseData = [
           name: "What is the total fee for the Data Analytics Program in Delhi?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.",
+            text: "The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.",
           },
         },
         {
           "@type": "Question",
-          name: "Can I pay in installments for INR 93,220/-?",
+          name: "Can I pay in installments for INR 1,20,000/-?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            text: "Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip.",
           },
         },
         {
@@ -572,13 +572,13 @@ export const DADelhiCourseData = [
           {
             id: 0,
             ques: "What is the total fee for the Data Analytics Program in Delhi?",
-            ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
+            ans: `The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 93,220/-?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Can I pay in installments for INR 1,20,000/-?",
+            ans: "Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip.",
             open: false,
           },
           {

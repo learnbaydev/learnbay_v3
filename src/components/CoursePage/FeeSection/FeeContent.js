@@ -330,10 +330,10 @@ const FeeContent = ({
               />
             </>
           )}
-          <p style={{ textAlign: "center", margin: "0" }}>
+          {/* <p style={{ textAlign: "center", margin: "0" }}>
             <b>EMI Options</b>
-          </p>
-          <div className={styles.divContent}>
+          </p> */}
+          {/* <div className={styles.divContent}>
             <p>Pay in easy EMIs starting as low as</p>
             <p className={styles.boxSpan}> {FeeEmi} </p>
             <p>
@@ -345,9 +345,9 @@ const FeeContent = ({
                 click here.
               </span>
             </p>
-          </div>
+          </div> */}
 
-          <p className={styles.orangeText}>Payment Partners</p>
+          {/* <p className={styles.orangeText}>Payment Partners</p>
           <div className={styles.iconImage}>
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Finance+partners.webp"
@@ -357,7 +357,7 @@ const FeeContent = ({
               loading="lazy"
               quality={40}
             />
-          </div>
+          </div> */}
         </div>
 
         {/* <div className={styles.third}>

@@ -394,7 +394,7 @@ export const FullStackMumbaiCourseData = [
           {
             id: 4,
             ques: "What will be the program duration for this full-stack software developer course in Mumbai?",
-            ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+            ans: "The duration of this software development course with Agentic AI in Mumbai is 11 months. ",
             open: false,
           },
           {
@@ -478,7 +478,7 @@ export const FullStackMumbaiCourseData = [
           {
             id: 0,
             ques: "How much is the full-stack software developer course fee in Mumbai?",
-            ans: `The total cost of the full-stack software development course in Mumbai is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+            ans: `The total cost of the full-stack software development course in Mumbai is INR Rs. 1,59,000/- +18% GST.`,
             open: true,
           },
           {
