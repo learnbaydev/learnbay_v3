@@ -1,43 +1,42 @@
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";
-const SecondNavbar = dynamic(() =>
-  import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
+const SecondNavbar = dynamic(
+  () => import("../../../components/CoursePage/SecondNavbar/SecondNavbar"),
 );
-const WhoProgram = dynamic(() =>
-  import("../../../components/CoursePage/WhoProgram/ThirdSection")
+const WhoProgram = dynamic(
+  () => import("../../../components/CoursePage/WhoProgram/ThirdSection"),
 );
-const TrainerSection = dynamic(() =>
-  import("../../../components/Global/TrainerSection/TrainerSection")
+const TrainerSection = dynamic(
+  () => import("../../../components/Global/TrainerSection/TrainerSection"),
 );
-const Testimonial = dynamic(() =>
-  import("../../../components/Global/Testimonial/Testimonial")
+const Testimonial = dynamic(
+  () => import("../../../components/Global/Testimonial/Testimonial"),
 );
-const WhoIsProgram = dynamic(() =>
-  import("../../CoursePage/WhoIsProgram/WhoIsProgram")
+const WhoIsProgram = dynamic(
+  () => import("../../CoursePage/WhoIsProgram/WhoIsProgram"),
 );
-const WhyLearnbay = dynamic(() =>
-  import("../../CoursePage/WhyLearnbay/WhyLearnbay")
+const WhyLearnbay = dynamic(
+  () => import("../../CoursePage/WhyLearnbay/WhyLearnbay"),
 );
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
-const ContactConsellor = dynamic(() =>
-  import("../../CoursePage/ContactCounsellor/ContactCounsellor")
+const ContactConsellor = dynamic(
+  () => import("../../CoursePage/ContactCounsellor/ContactCounsellor"),
 );
-const CloudDevopsecond = dynamic(() =>
-  import(
-    "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
-  )
+const CloudDevopsecond = dynamic(
+  () =>
+    import("../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"),
 );
 import styles from "../../../styles/Home.module.css";
 import { DataScienceCourseData } from "../../../Data/DataScinceCourseOnly";
 
 import FAQNew from "../FAQNew/FAQNew";
-const FirstSection = dynamic(() =>
-  import("../../CoursePage/FirstSection/FirstSection")
+const FirstSection = dynamic(
+  () => import("../../CoursePage/FirstSection/FirstSection"),
 );
 
-const MasterSecondSection = dynamic(() =>
-  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+const MasterSecondSection = dynamic(
+  () => import("../../MastersCourse/MasterSecondSection/MasterSecondSection"),
 );
 const CitiesRight = dynamic(() => import("../../Seo/CitiesRight/CitiesRight"));
 const CitiesLeft = dynamic(() => import("../../Seo/CitiesLeft/CitiesLeft"));
@@ -76,7 +75,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         titleCourse="Data Science Courses – Learnbay        "
         cityParaCont="Experience the analytical power of data science with Learnbay’s industry-paced upskilling programs designed to propel competitive success rates. Enroll in our data science courses to break into the perplexity of emerging data-driven culture.     "
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
         firstToparaImg="– Learnbay"
         firstHeading="Data Science Courses       "

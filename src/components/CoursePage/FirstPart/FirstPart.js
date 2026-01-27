@@ -1,41 +1,40 @@
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";
-const SecondNavbar = dynamic(() =>
-  import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
+const SecondNavbar = dynamic(
+  () => import("../../../components/CoursePage/SecondNavbar/SecondNavbar"),
 );
-const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/AnimationNew")
+const AnimationNew = dynamic(
+  () => import("@/components/Home/whyChooseSection/AnimationNew"),
 );
-const WhoProgram = dynamic(() =>
-  import("../../../components/CoursePage/WhoProgram/ThirdSection")
+const WhoProgram = dynamic(
+  () => import("../../../components/CoursePage/WhoProgram/ThirdSection"),
 );
-const TrainerSection = dynamic(() =>
-  import("../../../components/Global/TrainerSection/TrainerSection")
+const TrainerSection = dynamic(
+  () => import("../../../components/Global/TrainerSection/TrainerSection"),
 );
-const WhoIsProgram = dynamic(() =>
-  import("../../CoursePage/WhoIsProgram/WhoIsProgram")
+const WhoIsProgram = dynamic(
+  () => import("../../CoursePage/WhoIsProgram/WhoIsProgram"),
 );
-const WhyLearnbay = dynamic(() =>
-  import("../../CoursePage/WhyLearnbay/WhyLearnbay")
+const WhyLearnbay = dynamic(
+  () => import("../../CoursePage/WhyLearnbay/WhyLearnbay"),
 );
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
-const ContactConsellor = dynamic(() =>
-  import("../../CoursePage/ContactCounsellor/ContactCounsellor")
+const ContactConsellor = dynamic(
+  () => import("../../CoursePage/ContactCounsellor/ContactCounsellor"),
 );
-const CloudDevopsecond = dynamic(() =>
-  import(
-    "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
-  )
+const CloudDevopsecond = dynamic(
+  () =>
+    import("../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"),
 );
-const FirstSection = dynamic(() =>
-  import("../../CoursePage/FirstSection/FirstSection")
+const FirstSection = dynamic(
+  () => import("../../CoursePage/FirstSection/FirstSection"),
 );
-const MasterSecondSection = dynamic(() =>
-  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+const MasterSecondSection = dynamic(
+  () => import("../../MastersCourse/MasterSecondSection/MasterSecondSection"),
 );
-const JobAbroad = dynamic(() =>
-  import("../../MastersCourse/JobAbroad/JobAbroad")
+const JobAbroad = dynamic(
+  () => import("../../MastersCourse/JobAbroad/JobAbroad"),
 );
 const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
@@ -144,7 +143,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         titleCourse="Advanced Data Science & AI Program with Domain Specialization"
         cityParaCont="Gain work experience with real projects & domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
         firstToparaImg="and Generative AI Program"
@@ -164,7 +163,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         brochurePdf={pdfUrl}
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
       />
@@ -190,7 +189,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         interstedInHide={true}
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         brochurePdf={pdfUrl}
       />
     </>

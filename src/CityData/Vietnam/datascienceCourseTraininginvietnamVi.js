@@ -471,7 +471,7 @@ export const DSVietnamCourseData = [
     SyllabusBotlist45: "Phân Tích Dữ Liệu Lớn & Spark",
     SyllabusBotlist46: "Phân Tích Dữ Liệu Lớn & Spark",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 
     JobHead1:
       "Những kỹ năng hướng nghiệp bạn sẽ xây dựng thông qua Khóa Học Khoa Học Dữ Liệu của Learnbay tại Việt Nam?",

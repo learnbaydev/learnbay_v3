@@ -9,20 +9,20 @@ import Media from "@/components/Home/Media/Media";
 import ProjectSection from "@/components/OrganicGeneric/ProjectSection/ProjectSection";
 import dynamic from "next/dynamic";
 import EightSection from "../EightSection/EightSection";
-const FirstSection = dynamic(() =>
-  import("@/components/CoursePage/FirstSectionDmd/FirstSection")
+const FirstSection = dynamic(
+  () => import("@/components/CoursePage/FirstSectionDmd/FirstSection"),
 );
-const Certificate = dynamic(() =>
-  import("@/components/CoursePage/UpdatedCertificate/UpdatedCertificate")
+const Certificate = dynamic(
+  () => import("@/components/CoursePage/UpdatedCertificate/UpdatedCertificate"),
 );
 
 const Transpro = dynamic(() => import("@/components/Dmd/Transpro/Transpro"));
-const SliderTab = dynamic(() =>
-  import("@/components/Dmd/SliderTab/SliderTabs")
+const SliderTab = dynamic(
+  () => import("@/components/Dmd/SliderTab/SliderTabs"),
 );
 const Webinar = dynamic(() => import("@/components/Dmd/ReactWebinar/Webinar"));
-const NewProjectSection = dynamic(() =>
-  import("@/components/Global/NewProjectSection/NewProjectSection")
+const NewProjectSection = dynamic(
+  () => import("@/components/Global/NewProjectSection/NewProjectSection"),
 );
 const DmdPart = ({ CertificateData, S3RightImage, projectSection }) => {
   const data = [
@@ -146,7 +146,7 @@ const DmdPart = ({ CertificateData, S3RightImage, projectSection }) => {
       <NewProjectSection
         interstedInHide={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         brochurePdf={pdfUrl}
         projectSection={projectSection}
         DomainInput={true}
