@@ -149,7 +149,7 @@ export const DSMarathCourseData = [
           {
             id: 0,
             ques: "How long does the data science course in Marathahalli typically take to complete?              ",
-            ans: "Learnbay offers flexible data science training in Marathahalli that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+            ans: "The duration of the data science and Gen AI course is 9-13 months.   ",
 
             link: false,
             open: true,
@@ -218,7 +218,7 @@ export const DSMarathCourseData = [
           {
             id: 0,
             ques: "What is the cost of the data science course, and are there any installment options?              ",
-            ans: `The data science course in Marathahalli fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST.          `,
             open: true,
           },
           {
@@ -277,7 +277,7 @@ export const DSMarathCourseData = [
           {
             id: 0,
             ques: "Is the certification internationally recognized?              ",
-            ans: `Learnbay offers an internationally recognized data science certification in Marathahalli. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certifications. `,
             open: true,
           },
         ],
@@ -408,8 +408,8 @@ export const DSMarathCourseData = [
       "Making your resume stand out on job portals, the MS certificate mandate enhances your skill set with the newest trends. The best MNCs mainly opt for precious credentials that raise your global visibility and set you apart.",
     CertificationBot5:
       "This certification states unique skill sets to help you stand out in the career race. When applying for top jobs, your professional credibility increases your power. Top high-profile MNCs are hiring data scientists as the demand for data expertise increases globally.",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",

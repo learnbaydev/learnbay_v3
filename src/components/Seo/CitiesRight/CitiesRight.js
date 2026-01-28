@@ -4899,8 +4899,7 @@ const CitiesRight = ({
         {DSMarth ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              Data Science Course in Marathahalli In Alliance with IBM &
-              Microsoft
+              Data Science Course in Marathahalli In Alliance with IBM
             </h4>
             <p>
               The digital landscape in Marathahalli is expanding quickly in
