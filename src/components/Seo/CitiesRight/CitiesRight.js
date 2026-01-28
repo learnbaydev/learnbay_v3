@@ -3230,7 +3230,6 @@ const CitiesRight = ({
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
               Introducing Learnbay’s Data Science Online Course in South Africa
-              [In alliance with IBM ]
             </h4>
             <p>
               Learnbay’s <b>data science certificate programs</b> support
@@ -3291,7 +3290,6 @@ const CitiesRight = ({
               <li>
                 2 IBM Certifications (Course completion & Project experience)
               </li>
-              <li>1 (Microsoft) Certification</li>
 
               <li>Advantageous job offers across South Africa and overseas </li>
             </ul>
