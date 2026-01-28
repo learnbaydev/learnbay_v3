@@ -267,7 +267,7 @@ export const masterdegreeUSACourseData = [
           {
             id: 0,
             ques: "What are the fees for the Master's in Data Science program, and are there any additional costs for data science master's programs in the USA?            ",
-            ans: "The Master’s in Data Science program costs $1700. Apart from the course fees, there are no additional costs for data science master’s programs in the USA.             ",
+            ans: "The Master’s in Data Science program costs $3500. Apart from the course fees, there are no additional costs for data science master’s programs in the USA.             ",
             open: true,
           },
           {

@@ -1140,14 +1140,14 @@ const CitiesRight = ({
         {cityTextDSPune ? (
           <div className={styles.CitiesRightInner}>
             <p>
-              The <b>Data Science Course in Pune</b> provided by Learnbay
+              The <b>Data Science Course in Kochi</b> provided by Learnbay
               promotes live training by industrial experts in Data Science. The
               online training is structured keeping in mind the local industry
               needs. With the skills and expertise gained, you can get a
               lucrative and ever-growing career in this field. Data Science,
               Artificial Intelligence, and Machine Learning are continuously
               transforming the business landscape in the 21st century, and
-              Learnbay’s <b>Data Science Training in Pune</b> is tailored to
+              Learnbay’s <b>Data Science Training in Kochi</b> is tailored to
               meet your needs. It’s good to deeply understand a subject to get a
               rewarding career.
             </p>
@@ -1169,14 +1169,14 @@ const CitiesRight = ({
             <p>
               A data scientist uses modern tools and techniques to drive
               meaningful information and make decisions. Learnbay’s{" "}
-              <b>Data Science Course in Pune</b> is designed to help you learn
+              <b>Data Science Course in Kochi</b> is designed to help you learn
               about Data Science from scratch according to your domain. Research
               shows that the top skills required to become a data scientist are
               analysis, communication, statistics, deep learning, machine
               learning, and artificial Intelligence, among many others.
             </p>
             <p>
-              Our <b>Data Science course in Pune</b> is a two to a three-year
+              Our <b>Data Science course in Kochi</b> is a two to a three-year
               subscription program. We have collaborated with IBM to provide a{" "}
               <b>data science certification course</b>. They are globally
               recognize. One-on-one, personalized, live doubt-clearing sessions
@@ -1229,7 +1229,7 @@ const CitiesRight = ({
             </ul>
             <p>
               <b>
-                The Data Scientist course in Pune has 9 months (300+ hours)
+                The Data Scientist course in Kochi has 9 months (300+ hours)
                 duration.
               </b>
             </p>
@@ -1340,7 +1340,7 @@ const CitiesRight = ({
               section)
             </p>
             <h2 className={styles.pHead}>
-              <b>Premium Features of Data Scientist Training in Pune</b>
+              <b>Premium Features of Data Scientist Training in Kochi</b>
             </h2>
             <ol type="1">
               <li>
@@ -1376,7 +1376,7 @@ const CitiesRight = ({
             </ol>
             <h2 className={styles.pHead}>
               <b>
-                Data Science Foundation Program in Pune with Placement
+                Data Science Foundation Program in Kochi with Placement
                 Assistance
               </b>
             </h2>
@@ -1401,7 +1401,7 @@ const CitiesRight = ({
             </ul>
 
             <h3 className={styles.pHead}>
-              Highlights of the Data Science and GenAI Program in Pune
+              Highlights of the Data Science and GenAI Program in Kochi
             </h3>
             <ul>
               <li>Consists of 200+ hours of live sessions</li>
@@ -1413,7 +1413,7 @@ const CitiesRight = ({
             </ul>
 
             <h2 className={styles.pHead}>
-              Advance Data Science and AI Program in Pune with Placement
+              Advance Data Science and AI Program in Kochi with Placement
               Assistance
             </h2>
             <ul>
@@ -1432,7 +1432,7 @@ const CitiesRight = ({
             </ul>
 
             <h3 className={styles.pHead}>
-              Highlights of Advance Data Science Course and AI Program in Pune
+              Highlights of Advance Data Science Course and AI Program in Kochi
             </h3>
 
             <ul>
@@ -1444,7 +1444,7 @@ const CitiesRight = ({
             </ul>
 
             <h2 className={styles.pHead}>
-              Data Science and AI program for Managers and Leaders in Pune with
+              Data Science and AI program for Managers and Leaders in Kochi with
               Placement Assistance
             </h2>
             <ul>
@@ -1474,7 +1474,7 @@ const CitiesRight = ({
 
             <h3 className={styles.pHead}>
               Highlights of Data Science and AI Program for Managers and Leaders
-              in Pune
+              in Kochi
             </h3>
             <ul>
               <li>Consists of 400+ hours of live sessions</li>
@@ -1489,7 +1489,7 @@ const CitiesRight = ({
             </ul>
 
             <h2 className={styles.pHead}>
-              Data Science and AI Master Program in Pune with Placement
+              Data Science and AI Master Program in Kochi with Placement
               Assistance
             </h2>
             <ul>
@@ -1517,7 +1517,7 @@ const CitiesRight = ({
               {/* <li>The course comes at just ₹1,20,000 + 18% GST. </li> */}
 
               <h3 className={styles.pHead}>
-                Highlights of Data Science and AI Master Program in Pune
+                Highlights of Data Science and AI Master Program in Kochi
               </h3>
               <li>You can opt for either a weekday or a weekend batch</li>
               <li>Consists of 500+ hours of live sessions</li>
@@ -1526,7 +1526,7 @@ const CitiesRight = ({
             </ul>
 
             <h2 className={styles.pHead}>
-              Learnbay’s Domain-Specific Data Science Course in Pune
+              Learnbay’s Domain-Specific Data Science Course in Kochi
             </h2>
             <p>Some available domains are </p>
 
@@ -1581,7 +1581,7 @@ const CitiesRight = ({
               </li>
             </ol>
 
-            <h2 className={styles.pHead}>Data Science Trends in Pune </h2>
+            <h2 className={styles.pHead}>Data Science Trends in Kochi </h2>
 
             <p>
               The experts have predicted that by 2026, the industry will have
@@ -1589,20 +1589,20 @@ const CitiesRight = ({
               firms need data scientists to function efficiently. Learnbay
               provides its learners with flexible training options. You can
               choose online or offline training sessions to avail the{" "}
-              <b>data science course in Pune</b>. You can also access recorded
+              <b>data science course in Kochi</b>. You can also access recorded
               lecture videos to learn anytime you want.
             </p>
 
             <h2 className={styles.pHead}>
-              Best Data Science Training Institute in Pune
+              Best Data Science Training Institute in Kochi
             </h2>
 
             <p>
               Ever found yourself wondering about the{" "}
-              <b>Best Data Science Training Institute in Pune</b>? Well, this is
-              the right place for you. Learnbay provides you with live training
-              at affordable prices. Want to stand out in your domain? Take the
-              course by{" "}
+              <b>Best Data Science Training Institute in Kochi</b>? Well, this
+              is the right place for you. Learnbay provides you with live
+              training at affordable prices. Want to stand out in your domain?
+              Take the course by{" "}
               <a
                 href="https://www.learnbay.co/data-science-course-training-in-pune"
                 target="_blank"
@@ -1621,7 +1621,7 @@ const CitiesRight = ({
             </p>
 
             <h2 className={styles.pHead}>
-              Why Choose Learnbay Data Science Training Institute in Pune?
+              Why Choose Learnbay Data Science Training Institute in Kochi?
             </h2>
             <ul>
               <li>IBM Certified Capstone</li>
@@ -1639,7 +1639,7 @@ const CitiesRight = ({
             <h2 className={styles.pHead}>Did You Know? </h2>
 
             <p>
-              The average <b>data scientist salary in Pune</b> is ₹8,20,000 per
+              The average <b>data scientist salary in Kochi</b> is ₹8,20,000 per
               year? Learnbay’s <b>online data science training</b> allows you to
               break through your career in this field! <br />
               <br />
@@ -1657,7 +1657,7 @@ const CitiesRight = ({
                 target="_blank"
                 style={{ color: "#2D9CD7", fontWeight: "600" }}
               >
-                artificial intelligence courses in Pune
+                artificial intelligence courses in Kochi
               </a>{" "}
               and data science courses.
             </p>
@@ -2495,7 +2495,7 @@ const CitiesRight = ({
             <br />
             <ul>
               <li>IBM Course Completion and Project Certifications</li>
-              <li>Microsoft Certification</li>
+
               <li>Highly-paid Job offers across the US and overseas</li>
             </ul>
           </div>
@@ -5350,8 +5350,7 @@ const CitiesRight = ({
         {DSKochi ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              About Learnbay’s Data Science Institute in Kochi [In Alliance with
-              IBM ]
+              About Learnbay’s Data Science Institute in Kochi
             </h4>
             <p>
               The digital world of today embraces data science for its
@@ -5365,10 +5364,11 @@ const CitiesRight = ({
 
             <p>
               Unlike typical ones, Learnbay sets the stage for global-scale
-              career building with its series of data science programs. Our data
-              science course in Kochi paves the way for abstract and practical
-              learning of the latest Gen AI-rich tools. We aim to help data
-              aspirants with end-to-end career growth solutions.{" "}
+              career building with its series of data science programs with
+              GenAI and Agentic AI.Our data science course in Kochi paves the
+              way for abstract and practical learning of the latest Gen AI-rich
+              tools. We aim to help data aspirants with end-to-end career growth
+              solutions.{" "}
             </p>
 
             <p>
@@ -5381,11 +5381,11 @@ const CitiesRight = ({
             </p>
 
             <p>
-              Our alliance with the industry’s top tech leaders, IBM &
-              Microsoft, validates your skill sets and helps you crack dream
-              roles. Successful completion of coursework and projects will offer
-              you certificates from IBM . Plus, experts will obtain one IBM
-              project certification, unleashing a global-scale career path.{" "}
+              Our alliance with the industry’s top tech leaders, IBM , validates
+              your skill sets and helps you crack dream roles. Successful
+              completion of coursework and projects will offer you certificates
+              from IBM . Plus, experts will obtain one IBM project
+              certification, unleashing a global-scale career path.{" "}
             </p>
 
             <b>
@@ -5452,9 +5452,13 @@ const CitiesRight = ({
                 <b>Globally-valued certifications:</b> An open upskilling space
                 to modernize career values in data science via IBM certificates.
               </li>
+              <br />
               <li>
-                <b>Career Service PRO:</b>Our data science institute in Kochi
-                offers career support services that help you land dream jobs.
+                <b>BYOP:</b> Learnbay data science course in Kochi is highly
+                focused on upskilling instead of forcing you to start afresh.
+                So, for project work, you can come with your own business
+                problem. Our trainers will help you to resolve it with the Gen
+                AI-infused data science strategies.
               </li>
             </ul>
 
@@ -5744,7 +5748,7 @@ const CitiesRight = ({
               cost the world $10.5 trillion by 2025. Hence, startups and
               long-term firms prefer having cyber experts to control internal
               and external risks. Indeed, such cases trigger the haste for
-              upskilling via a cyber security course in Pune with placement.
+              upskilling via a cyber security course in Kochi with placement.
             </p>
             <p>
               Learnbay marks an apparent breakthrough with its leading-edge
@@ -5753,7 +5757,7 @@ const CitiesRight = ({
               worth endlessly. We have designed this course solely for IT
               experts and network engineers to excel in the rising cyber
               security domain. Techies can join our cyber security course with
-              placement in Pune and build a prestigious career.
+              placement in Kochi and build a prestigious career.
             </p>
             <p>
               Techies can join our 2-day classroom training at IIT Roorkee to
@@ -5769,19 +5773,19 @@ const CitiesRight = ({
               Our alliance with iHUB DivyaSampark and IIT Roorkee validates your
               tech-driven skills to build a thriving career globally. These
               certificates will help you crack critical tech interviews with
-              assured success. At last, our cyber security classes in Pune equip
-              you with technical and soft skills to stay at the forefront of
-              today’s digital space.{" "}
+              assured success. At last, our cyber security classes in Kochi
+              equip you with technical and soft skills to stay at the forefront
+              of today’s digital space.{" "}
             </p>
             <h3 style={{ fontSize: "18px" }}>
-              Industry-specific Cyber Security Course in Pune with Placement
+              Industry-specific Cyber Security Course in Kochi with Placement
             </h3>
             <p>
               Cybercrimes keep growing now and then, creating a haste for
               defensive mechanisms and frameworks. Constant learning has become
               vital for techies willing to revamp or switch careers. In the
               interim, Learnbay eases the upskilling journey via its cyber
-              security course with placement in Pune.
+              security course with placement in Kochi.
             </p>
             <p>
               Techies who join us will get training focused on important tools
@@ -5800,7 +5804,7 @@ const CitiesRight = ({
             </h3>{" "}
             <p>
               Techies prefer upskilling despite hefty cyber security course fees
-              in Pune to unleash alluring perks and rewards. We provide
+              in Kochi to unleash alluring perks and rewards. We provide
               industry-specific career counseling to experts joining Learnbay.
             </p>
             <p>
@@ -5811,11 +5815,11 @@ const CitiesRight = ({
               master front-age tools and restrict crucial threats.
             </p>
             <h3 style={{ fontSize: "18px" }}>
-              Is Learnbay’s cyber security course in Pune worth investing in?
+              Is Learnbay’s cyber security course in Kochi worth investing in?
             </h3>
             <p>
               Learnbay expects a digitally defensive career path via its
-              cutting-edge cyber security course in Pune. Its expansively
+              cutting-edge cyber security course in Kochi. Its expansively
               curated Generative AI-rich learning modules help experts master
               key tools, methods, and frameworks to secure networks. Here,
               experts can upgrade their skills according to the new-age network
@@ -5825,27 +5829,27 @@ const CitiesRight = ({
               We believe in first-hand learning experiences where experts can
               learn and practice cutting-edge tools and practices. Learners can
               practice via live projects to gain insights and optimize their
-              skills. Our cyber security training in Pune follows a hybrid
+              skills. Our cyber security training in Kochi follows a hybrid
               method to help experts balance their work-study terms.
             </p>
             <p>
               Our tie-up with IIT Roorkee faculty members offers a
               career-specific mentorship. Learners acquire tech-driven skills
-              via live cyber security classes in Pune. Our mentors help you
+              via live cyber security classes in Kochi. Our mentors help you
               develop skills to specify likely risks, manage network systems,
               ensure safety, and build defensive walls.{" "}
             </p>
             <p>
               Also, learners can add globally valued credentials to their
               careers, unleashing true growth options. Our best cyber security
-              institute in Pune offers iHUB DivyaSampark and IIT Roorkee
+              institute in Kochi offers iHUB DivyaSampark and IIT Roorkee
               certificates once you complete your learning. These certificates
               help you grow endlessly and grab exciting offers.{" "}
             </p>
             <p>
               At last, Learnbay’s job assistance program helps you refine your
               skills and kick-start a thriving career. Our cyber security course
-              in Pune with placement equips you with skills to crack critical
+              in Kochi with placement equips you with skills to crack critical
               job interviews effortlessly. Learnbay’s career support services
               help techies prepare for upcoming risks and make them
               job-ready.{" "}
@@ -5861,14 +5865,14 @@ const CitiesRight = ({
               Today’s tech-driven business functions call for real-time mastery
               of new-age concepts and tools. Pune’s bustling tech space inspires
               IT and non-IT experts to rethink their career paths to unleash
-              true growth potential. Learnbay’s DSA course in Pune envisions a
+              true growth potential. Learnbay’s DSA course in Kochi envisions a
               hassle-free career transition for aspiring experts. Even busy
               working pros can balance their study hours and work obligations.
             </p>
             <p>
               Our inclusively-crafted course modules balance your abstract and
               practical learning expectations with enriched growth options. Our
-              data structures and algorithms classes in Pune lay the basis for
+              data structures and algorithms classes in Kochi lay the basis for
               an open-learning experience. Here, you can master in-demand DSA
               tools and practices via 1:1 interactive sessions. Plus, hands-on
               learning via live projects limitlessly accelerates your growth
@@ -5879,7 +5883,7 @@ const CitiesRight = ({
               esteemed mentors from top-notch MNCs with relevant industry
               experience. Mentorship from tech giants will help you grasp
               cutting-edge wisdom in DSA and thrive. Your data structures and
-              algorithms classes in Pune will help you acquire elementary and
+              algorithms classes in Kochi will help you acquire elementary and
               practical learning.{" "}
             </p>
             <p>
@@ -5887,7 +5891,7 @@ const CitiesRight = ({
               in DSA offers 100% job and placement assistance. Its career
               support services (1:1 mock interviews, CV-making, and
               doubt-clearing sessions) make you job-ready. Our DSA classes in
-              Pune help you master coding knacks and crack product-based
+              Kochi help you master coding knacks and crack product-based
               interviews.
             </p>
             <p>
@@ -5899,7 +5903,7 @@ const CitiesRight = ({
               with the leading MNCs.
             </p>
             <h3 style={{ fontSize: "18px" }}>
-              Cutting-edge Data Structure Training in Pune for IT and non-IT
+              Cutting-edge Data Structure Training in Kochi for IT and non-IT
               Professionals
             </h3>
             <p>
@@ -5907,7 +5911,7 @@ const CitiesRight = ({
               must join Learnbay for its cutting-edge interactive training. Our
               meticulously planned DSA syllabus helps you sharpen elementary
               concepts and learn advanced practices. Our data structures and
-              algorithms training in Pune offers real-time sessions to grasp
+              algorithms training in Kochi offers real-time sessions to grasp
               proven knowledge. Here, experts can learn everything from scratch.
               You can become a DSA expert beyond age-old
               coder/developer/programmer roles with us.
@@ -5918,7 +5922,7 @@ const CitiesRight = ({
             <p>
               In the present ever-changing era, constant upskilling has become a
               perfect solution to overcome career redundancies and grow. Experts
-              joining Learnbay’s DSA course in Pune will receive career-driven
+              joining Learnbay’s DSA course in Kochi will receive career-driven
               counseling addressing key queries. Counseling has prime role in
               easing career complexities and helping experts thrive now and
               then.
@@ -5932,14 +5936,15 @@ const CitiesRight = ({
               gains.
             </p>
             <h3 style={{ fontSize: "18px" }}>
-              Why is investing in Learnbay’s <b>DSA course in Pune</b> worth it?
+              Why is investing in Learnbay’s <b>DSA course in Kochi</b> worth
+              it?
             </h3>
             <p>
               Today’s data-driven age expects skilled tech talents with in-depth
               DSA knowledge. Mastering proven DSA tools, concepts, and practices
               helps experts excel in their tech roles and grab high-paying jobs.
-              Learnbay’s data structures and algorithms course in Pune designs a
-              job-enriched syllabus covering top trends.
+              Learnbay’s data structures and algorithms course in Kochi designs
+              a job-enriched syllabus covering top trends.
             </p>
             <p>
               Its hybrid learning model helps busy working pros balance their
@@ -5950,13 +5955,13 @@ const CitiesRight = ({
             <p>
               In addition, mentorship from eminent DSA experts helps you dive
               deeper into real-world uses of related tools and practices,
-              setting new growth standards. DSA classes in Pune offer
+              setting new growth standards. DSA classes in Kochi offer
               theoretical and practical training with live projects. Here,
               experts can gain real-world insights into DSA applications across
               diverse sectors.
             </p>
             <p>
-              Learnbay’s data structures and algorithms training in Pune offers
+              Learnbay’s data structures and algorithms training in Kochi offers
               end-to-end career support services to help you crack critical
               roles. Learners can fortify career success chances with abilities
               to ace product-based interviews. Our mock interviews, 1:1
@@ -5969,7 +5974,7 @@ const CitiesRight = ({
               true growth potential on a global level.{" "}
             </p>
             <p>
-              Hence, investing in Learnbay’s <b>DSA course in Pune</b> is worth
+              Hence, investing in Learnbay’s <b>DSA course in Kochi</b> is worth
               it as you will gain –
             </p>
             <ul>
@@ -7277,7 +7282,7 @@ const CitiesRight = ({
                   <li>{Joblist50}</li>
                   <li>{Joblist51}</li>
                   <li>{Joblist52}</li>
-                  <li>{Joblist53}</li>
+                  {/* <li>{Joblist53}</li> */}
                   {/* <li>{Joblist54}</li> */}
                 </ul>
               ) : (
