@@ -403,7 +403,7 @@ export const DSMarathCourseData = [
     CertificationBot2:
       "We offer the certification in alliance with IBM and MS, which unlocks a way toward a global-scale career. You will receive two IBM certificates after completing the course and project task. This certification includes (course and project) details that help you develop a fulfilling career.",
     CertificationBot3:
-      "The data science certification program is accredited by Microsoft, an established tech innovation company. This MS certification can help you obtain the perfect job by showcasing your data abilities and boosting crucial skills.",
+      "The data science certification program is accredite, an established tech innovation company. This MS certification can help you obtain the perfect job by showcasing your data abilities and boosting crucial skills.",
     CertificationBot4:
       "Making your resume stand out on job portals, the MS certificate mandate enhances your skill set with the newest trends. The best MNCs mainly opt for precious credentials that raise your global visibility and set you apart.",
     CertificationBot5:
