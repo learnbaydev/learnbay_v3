@@ -315,7 +315,7 @@ export const DSUSACourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will be awarded IBM-accredited Data Scientist and Gen AI Certifications on successful course completion. But based on the course you choose, you can get Multiple certification options too. If you choose the Master Course, then you can get Dual Certifications from IBM and Microsoft. `,
+            ans: `Yes, you will be awarded IBM-accredited Data Scientist and Gen AI Certifications on successful course completion. But based on the course you choose, you can get Multiple certification options too. If you choose the Master Course, then you can get Dual Certifications from IBM. `,
             open: true,
           },
         ],
