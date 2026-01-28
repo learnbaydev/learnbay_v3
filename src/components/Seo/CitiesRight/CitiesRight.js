@@ -4552,7 +4552,7 @@ const CitiesRight = ({
               <br />
               <li>
                 <b>Globally-valued certifications:</b> An upskilling gateway to
-                enriching career values in the field of data science via IBM &
+                enriching career values in the field of data science via IBM
                 certificates. s
               </li>
               <br />

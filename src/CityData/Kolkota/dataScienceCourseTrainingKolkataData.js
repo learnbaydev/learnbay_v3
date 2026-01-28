@@ -157,11 +157,11 @@ export const DSKolkotaCourseData = [
           {
             id: 1,
             ques: "What topics are covered in the curriculum of the data science course?              ",
-            list1: "Programming languages               ",
-            list2: "Python programming basics               ",
-            list3: "Statistics and Machine Learning              ",
-            list4: "Industry projects and capstone projects               ",
-            list5: "Generative AI concepts               ",
+            list1: "Programming languages",
+            list2: "Python programming basics",
+            list3: "Statistics and Machine Learning",
+            list4: "Industry projects and capstone projects ",
+            list5: "Generative AI concepts",
             ans: "",
             dscoursefaq1: true,
             open: false,
@@ -403,7 +403,7 @@ export const DSKolkotaCourseData = [
     CertificationBot2:
       "Certificates are vital for redefining a static career with fortunate gains and alluring returns. Any course with globally accredited certificates can validate your learned skills and make you job-ready. No wonder, certifications are impactful weapons to crack promising jobs with exciting hikes and endless growth options.         ",
     CertificationBot3:
-      "Our alliance with top-notch industry leaders IBM & unleashes an exciting way toward a definite career shift. Experts enrolling in our data science course in Kolkata will receive course completion and project certifications from IBM &. Learning with our data scientist course in Kolkata unleashes a competitive career path with excellent growth options in your desirable field. Attesting these globally recognized certifications validates your skills and enriches your career.         ",
+      "Our alliance with top-notch industry leaders IBM unleashes an exciting way toward a definite career shift. Experts enrolling in our data science course in Kolkata will receive course completion and project certifications from IBM. Learning with our data scientist course in Kolkata unleashes a competitive career path with excellent growth options in your desirable field. Attesting these globally recognized certifications validates your skills and enriches your career.         ",
     CertificationBot4: "  ",
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
@@ -517,7 +517,7 @@ export const DSKolkotaCourseData = [
     JobBot007:
       " Upskilling via Learnbay’s data science course in Kolkata is worth joining. It equips you with Gen AI-rich concepts and trends. Its in-depth training methods guide you to enrich your skill base with project-based learning.         ",
     JobBot005:
-      " Our leading MNCs & unicorn startupship with 450+ leading MNCs expands career growth metrics with vital gains. Our alliance with IBM & also lifts your career values with global-scale returns. Hence, learning with us is worth investing in to build a lucrative data science career in Kolkata.         ",
+      " Our leading MNCs & unicorn startupship with 450+ leading MNCs expands career growth metrics with vital gains. Our alliance with IBM also lifts your career values with global-scale returns. Hence, learning with us is worth investing in to build a lucrative data science career in Kolkata.         ",
     JobBot006: " ",
     JobHead22:
       "What are the most talked about job roles that you can crack down with Learnbay’s data science institute in Kolkata?         ",
