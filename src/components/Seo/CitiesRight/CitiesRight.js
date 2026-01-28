@@ -2447,9 +2447,9 @@ const CitiesRight = ({
               IBM, based in Armonk, NY, is a top tech leader known for its
               advanced data science solutions. Its virtual presence with
               insightful solutions saves businesses from unseen digital threats.
-              Microsoft, headquartered in Redmond, Washington, is famous for its
-              scalable solutions. Learnbay’s dynamic step of collaboration with
-              tech giants bridges learning gaps.
+              , headquartered in Redmond, Washington, is famous for its scalable
+              solutions. Learnbay’s dynamic step of collaboration with tech
+              giants bridges learning gaps.
             </p>
             <p>
               The data scientist certification program helps US professionals
@@ -3650,10 +3650,10 @@ const CitiesRight = ({
               for course and real-time projects.
             </p>
             <p>
-              Plus, our alliance with Microsoft supports global-scale career
-              shifts with promising hikes and upgrades. Learners opting for our
-              data science course Austin get one Microsoft certification that
-              accelerates career growth chances.
+              Plus, our alliance with supports global-scale career shifts with
+              promising hikes and upgrades. Learners opting for our data science
+              course Austin get one certification that accelerates career growth
+              chances.
             </p>
             <p>
               Note: If you opt for our master’s certification program in data
@@ -3729,9 +3729,8 @@ const CitiesRight = ({
             <p>
               We make your career switch journey effortless with our job assist
               program. Eligible learners get job calls from the leading MNCs
-              with attractive hikes. Plus, our Microsoft and IBM data science
-              professional certificate enriches your career values with exciting
-              offers.
+              with attractive hikes. Plus, our and IBM data science professional
+              certificate enriches your career values with exciting offers.
             </p>
 
             <br />
@@ -4057,8 +4056,7 @@ const CitiesRight = ({
               eager to revamp their stagnant careers in data science. Our data
               science training in Kolkata focuses on major career shifts via
               upskilling to thrive globally. Our alliance with the industry’s
-              top-tier tech leaders, IBM and Microsoft, unleashes global-scale
-              growth.
+              top-tier tech leaders, IBM and, unleashes global-scale growth.
             </p>
             <p>
               Experts enrolling in Learnbay’s data science institute in Kolkata
@@ -4493,12 +4491,11 @@ const CitiesRight = ({
             <p>
               Plus, our artificial intelligence and data science course in
               Coimbatore carries globally accredited certificates from industry
-              leaders. Our alliance with IBM and Microsoft lifts the career
-              graph and equips it with global-scale growth offers. Once learners
-              finish their course, they will receive two certificates from IBM
-              and Microsoft. Similarly, successful project completion will
-              attest an IBM project certificate to your career with alluring
-              gains.{" "}
+              leaders. Our alliance with IBM and lifts the career graph and
+              equips it with global-scale growth offers. Once learners finish
+              their course, they will receive two certificates from IBM and.
+              Similarly, successful project completion will attest an IBM
+              project certificate to your career with alluring gains.{" "}
             </p>
             <p>
               Yet, before joining our front-age courses, you must check if you
@@ -4556,7 +4553,7 @@ const CitiesRight = ({
               <li>
                 <b>Globally-valued certifications:</b> An upskilling gateway to
                 enriching career values in the field of data science via IBM &
-                Microsoft certificates. s
+                certificates. s
               </li>
               <br />
               <li>
@@ -4580,7 +4577,7 @@ const CitiesRight = ({
             <p>
               Learnbay offers cutting-edge a data science course in Jaipur
               tailored for advancing the career of experienced working experts,
-              in alliance with Microsoft and IBM.
+              in alliance with and IBM.
             </p>
 
             <p>
@@ -4643,9 +4640,9 @@ const CitiesRight = ({
             </p>
             <p>
               The data science syllabus in Jaipur provides prestigious, globally
-              recognized certifications from IBM and Microsoft. Register for our
-              training program now to enhance your abilities and achieve
-              established career progress.
+              recognized certifications from IBM and. Register for our training
+              program now to enhance your abilities and achieve established
+              career progress.
             </p>
             <p>
               So, if you are enthusiastic about pursuing a career in the data
@@ -4731,9 +4728,9 @@ const CitiesRight = ({
               About Data Science Course in Patna In Alliance with IBM
             </h4>
             <p>
-              Learnbay, in collaboration with Microsoft and IBM, offers a
-              leading-edge Data Science Course in Patna designed to enhance the
-              careers of experienced working professionals.
+              Learnbay, in collaboration with and IBM, offers a leading-edge
+              Data Science Course in Patna designed to enhance the careers of
+              experienced working professionals.
             </p>
 
             <p>
@@ -4802,9 +4799,9 @@ const CitiesRight = ({
             </p>
             <p>
               The data science syllabus in Patna includes highly esteemed,
-              globally recognized certifications from IBM and Microsoft. Sign up
-              for our training program right now to improve your abilities and
-              boosts your career.
+              globally recognized certifications from IBM and. Sign up for our
+              training program right now to improve your abilities and boosts
+              your career.
             </p>
             <p>
               If you want to build a profession in data science, sign-up for
@@ -4961,9 +4958,9 @@ const CitiesRight = ({
 
             <p>
               Plus, the Data Science Institute in Marathahalli provides you with
-              proven certifications from Microsoft and IBM that are recognized
-              worldwide. Enroll in our training program to sharpen your skills
-              and acquire an exciting career.
+              proven certifications from and IBM that are recognized worldwide.
+              Enroll in our training program to sharpen your skills and acquire
+              an exciting career.
             </p>
             <p>
               Thus, glance at the best data science training in Marathahalli
@@ -6923,7 +6920,7 @@ const CitiesRight = ({
                       height={250}
                       loading="lazy"
                       src={src22}
-                      alt="Learnbay - Sample Microsoft Certificate Course"
+                      alt="Learnbay - Sample Certificate Course"
                     />
                   </>
                 ) : null}
@@ -6953,7 +6950,7 @@ const CitiesRight = ({
                         height={250}
                         loading="lazy"
                         src={src33}
-                        alt="Learnbay - Sample Microsoft Certificate Course"
+                        alt="Learnbay - Sample Certificate Course"
                       />
                     )}
                     {src44 && (
