@@ -402,11 +402,11 @@ export const DSPatnaCourseData = [
     CertificationBot1:
       "Certifications are necessary components of any course. We offer high-quality credentials to assist you to gain knowledge of data skills and excel in the today’s worldwide job market. Our top data science institute in Patna will boost your career graph and advance your professional development.",
     CertificationBot2:
-      "We offer certification in collaboration with IBM and Microsoft, opening opportunities for rapid career advancements. After finishing the course, you will receive two IBM credentials. This certificate identifies course and project details that can assist in selecting a lucrative career path.",
+      "We offer certification in collaboration with IBM, opening opportunities for rapid career advancements. After finishing the course, you will receive two IBM credentials. This certificate identifies course and project details that can assist in selecting a lucrative career path.",
     CertificationBot3:
-      "Microsoft, a well-known technology company, also supports the data science certification course. This Microsoft certification can help you improve your skillset and demonstrate your data proficiency, enhancing your chances of landing the right job.",
+      "A well-known technology company, also supports the data science certification course. This certification can help you improve your skillset and demonstrate your data proficiency, enhancing your chances of landing the right job.",
     CertificationBot4:
-      "Accreditation with a Microsoft certificate enables you to build competencies in line with industry trends and improves the visibility of your resume across multiple job boards. Major MNCs prefer certifications allowing people to stand out globally and enhance their visibility. The skill sets listed in this credential can help you stand out in your ideal position. Improved professional reputation increases impact and draws in top job offers.",
+      "Accreditation with a certificate enables you to build competencies in line with industry trends and improves the visibility of your resume across multiple job boards. Major MNCs prefer certifications allowing people to stand out globally and enhance their visibility. The skill sets listed in this credential can help you stand out in your ideal position. Improved professional reputation increases impact and draws in top job offers.",
     CertificationBot5: "  ",
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
