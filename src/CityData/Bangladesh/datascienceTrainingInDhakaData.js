@@ -322,7 +322,7 @@ export const DSDhakaCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `The data science course in Dhaka comes with an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional Microsoft certification. `,
+            ans: `The data science course in Dhaka comes with an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional certification. `,
             open: true,
           },
         ],
@@ -560,7 +560,7 @@ export const DSDhakaCourseData = [
     JobBot25:
       " Learnbay is the one-stop solution for experts eager to revamp their careers with promising job offers across Dhaka and overseas. Here, you will gain GenAI-rich training followed by capstone projects. A proven learning space to expand professional links with like-minded experts.             ",
     JobBot26:
-      "Our top-notch data science training institute in Dhaka attests globally recognized certifications to your career with better growth offers. Experts obtain IBM and Microsoft certifications with global-scale job offers and swift rises.         ",
+      "Our top-notch data science training institute in Dhaka attests globally recognized certifications to your career with better growth offers. Experts obtain IBM certifications with global-scale job offers and swift rises.         ",
 
     JobSpan1:
       "Note: If you enroll in our online data science degree course, you will get 60+ countries-approved degrees from Woolf. This degree is identical to any generic MSc in data science in Bangladesh, with financially reliable job offers.             ",

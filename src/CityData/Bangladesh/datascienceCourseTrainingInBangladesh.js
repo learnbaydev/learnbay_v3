@@ -318,7 +318,7 @@ export const DSBangladeshCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `The data science course in Bangladesh comes with an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional Microsoft certification. `,
+            ans: `The data science course in Bangladesh comes with an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional certification. `,
             open: true,
           },
         ],
