@@ -164,7 +164,7 @@ export const DSUKCourseData = [
           {
             id: 1,
             ques: "What are the prerequisites for these Data Science training Courses in UK?",
-            ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ans: "There are no prerequisites for this Data Science training Courses in UK as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: false,
           },
           {
@@ -183,7 +183,7 @@ export const DSUKCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in UK?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The total duration of these courses is about 9-13 months and includes live lectures, hands-on practical training on live projects, and interview preparation. Classes will be conducted on weekdays and on weekends.",
             open: false,
           },
           {
@@ -264,11 +264,7 @@ export const DSUKCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in UK?",
-            ans: `The total course fee for the 
-                    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                    Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                    Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: `The total course fee for the data science course in UK will cost you around $1700.`,
             open: true,
           },
           {
@@ -310,21 +306,7 @@ export const DSUKCourseData = [
           {
             id: 0,
             ques: "How many capstone projects will be there? ",
-            ans: `Depending on the course you choose the number of capstone projects will vary.  
-                    Foundational Data Science and AI Training Course - 1 Capstone.
-                    Advance Data Science and AI Certification Course -2 Capstones.
-                    Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-                    Data Science and AI Training with Placement Assistance- 3 Capstones.
-                    How many real-time projects/case studies will be covered in these Data Science certification courses in UK?
-                    Depending on the course you choose the number of live projects will vary.  
-                    Foundational Data Science and AI Training course- 8 projects.
-                    Advance Data Science and AI Certification course-12 projects.
-                    Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-                    Data Science and AI Training with Placement Assistance- 15 projects.`,
-            linkText1: " Click here to download the list of the projects.",
-            link1:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
-            link: true,
+            ans: `Depending on the course you choose, the number of capstone projects will vary. Usually, you get multiple capstone projects. You can also build your own project using our BYOP feature. Click here to download the list of projects.`,
             open: true,
           },
           {
@@ -342,12 +324,7 @@ export const DSUKCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                    Foundational Data Science and AI Training course- 1 Course Completion Certificate.
-                    Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                    Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-                    *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+            ans: `The data science course in UK comes with an integrated dual Certification from IBM (one course completion and one project certificate).`,
             open: true,
           },
         ],
@@ -572,7 +549,7 @@ export const DSUKCourseData = [
 
     JobHead001: "     ",
     JobBotMasterBot5:
-      "Our job assist program paves the way for high-paying jobs with leading MNCs. Experts fearful of job market changes or eager to redefine them can opt for our exclusive programs. We offer the best data science certification accredited by IBM & MS. Upskilling with our data science course in UK unleashes career gains with global approval. Thus, investing in our training programs is worth it.       ",
+      "Our job assist program paves the way for high-paying jobs with leading MNCs. Experts fearful of job market changes or eager to redefine them can opt for our exclusive programs. We offer the best data science certification accredited by IBM. Upskilling with our data science course in UK unleashes career gains with global approval. Thus, investing in our training programs is worth it.       ",
     JobBot007:
       " Our data science course Austin offers course and project certificates to revamp your career on a global scale. Once you are done with the course and projects you will obtain IBM & Microsoft certifications. These certificates validate your skills to help you ace premium jobs globally.       ",
     JobBot005: "  ",

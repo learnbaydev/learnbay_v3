@@ -164,7 +164,7 @@ export const DSEgyptCourseData = [
           {
             id: 1,
             ques: "What are the prerequisites for these Data Science training Courses in Egypt?",
-            ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ans: "There are no prerequisites for this course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: false,
           },
           {
@@ -183,7 +183,7 @@ export const DSEgyptCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in Egypt?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The total duration of these courses is about 9-13 months, including live lectures, hands-on practical training on live projects, and interview preparation. Classes will be conducted on weekdays and in weekend batches.",
             open: false,
           },
           {
@@ -264,11 +264,7 @@ export const DSEgyptCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in Egypt?",
-            ans: `The total course fee for the 
-                        Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                        Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                        Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                        Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: `The total course fee for the data science course in Egypt is around $1700`,
             open: true,
           },
           {
@@ -310,21 +306,8 @@ export const DSEgyptCourseData = [
           {
             id: 0,
             ques: "How many capstone projects will be there? ",
-            ans: `Depending on the course you choose the number of capstone projects will vary.  
-                        Foundational Data Science and AI Training Course - 1 Capstone.
-                        Advance Data Science and AI Certification Course -2 Capstones.
-                        Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-                        Data Science and AI Training with Placement Assistance- 3 Capstones.
-                        How many real-time projects/case studies will be covered in these Data Science certification courses in Egypt?
-                        Depending on the course you choose the number of live projects will vary.  
-                        Foundational Data Science and AI Training course- 8 projects.
-                        Advance Data Science and AI Certification course-12 projects.
-                        Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-                        Data Science and AI Training with Placement Assistance- 15 projects.`,
-            linkText1: " Click here to download the list of the projects.",
-            link1:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
-            link: true,
+            ans: `Depending on the course you choose, the number of capstone projects will vary. Usually, you get multiple capstone projects. You can also build your own project using our BYOP feature.  Click here to download the list of projects.
+`,
             open: true,
           },
           {
@@ -342,12 +325,7 @@ export const DSEgyptCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                        Foundational Data Science and AI Training course- 1 Course Completion Certificate.
-                        Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                        Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                        Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-                        *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+            ans: `The data science course in Egypt includes an integrated dual Certification from IBM (one course completion certificate and one project certificate).`,
             open: true,
           },
         ],
@@ -455,9 +433,9 @@ export const DSEgyptCourseData = [
     DomainBot40:
       "Experts can enroll in our courses and choose any of the domains to learn data science as per the latest trends.         ",
     CertificationBot1:
-      "Certifications are useful to validate your skills and bring you global recognition. Learners enrolling in our data science courses in Egypt will receive globally recognized certifications from IBM & Microsoft.         ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+      "Certifications are useful to validate your skills and bring you global recognition. Learners enrolling in our data science courses in Egypt will receive globally recognized certifications from IBM .        ",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
@@ -466,7 +444,7 @@ export const DSEgyptCourseData = [
     CertificationBot3: " ",
     CertificationBot4:
       "• IBM certifications (Project & Course Completion)      ",
-    CertificationBot5: "• Microsoft Certificate      ",
+    // CertificationBot5: "• Microsoft Certificate      ",
     CertificationBot6: "• IBM project certifications      ",
     CertificationBot7: " ",
 
@@ -550,7 +528,7 @@ export const DSEgyptCourseData = [
     JobBot22:
       " Our data science course in Egypt offers inclusive training on GenAI tools and trends. As a result, it helps learners stay informed about the current trends and improve their skills accordingly. We offer a project-based learning space where experts work with real-time projects.        ",
     JobBot34:
-      "Plus, we offer the best data scientist course with valuable certifications from IBM & Microsoft that unlock the door to global-level success. With this certificate, you can get into roles like data scientist, data engineer, data analyst, AI/ML expert, and many more.         ",
+      "Plus, we offer the best data scientist course with valuable certifications from IBM that unlock the door to global-level success. With this certificate, you can get into roles like data scientist, data engineer, data analyst, AI/ML expert, and many more.         ",
     JobBot23: "",
     JobBot24: " ",
     Joblist50: "      ",

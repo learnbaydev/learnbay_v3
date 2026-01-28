@@ -2682,8 +2682,8 @@ const CitiesRight = ({
               data science programs keeps growing.{" "}
             </p>
             <p>
-              Our best data science courses offer globally recognized
-              certifications from tech giants such as IBM . With basic numeric
+              Our best data science courses offer globally recognised
+              certifications from tech giants like IBM. With basic numeric
               skills and domain knowledge, anyone can enroll in our program,
               revitalizing their careers.{" "}
             </p>
@@ -2767,7 +2767,7 @@ const CitiesRight = ({
               simulation projects in your domain.
             </p>
             <p>
-              Experts opting for an <b>MS in data science</b> will receive a
+              Experts opting for an <b> in data science</b> will receive a
               globally accredited master’s degree from Woolf. Plus, we also
               offer an IBM project certificate that justifies proven skill sets
               across the globe.
@@ -2849,7 +2849,7 @@ const CitiesRight = ({
             </h4>
 
             <p>
-              Learnbay’s globally recognized IBM (MS) certificates help learners
+              Learnbay’s globally recognized IBM certificates help learners
               counter career risks with proven skills. Valuable certifications
               validate your skills to ace top-tier job interviews with better
               hikes and perks. Major highlights are –
