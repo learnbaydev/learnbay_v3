@@ -102,7 +102,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content=" Enroll in the best Data Science training in Indore! Gain hands-on experience with live projects. Earn internationally recognized IBM & Microsoft Certificates.          "
+          content=" Enroll in the best Data Science training in Indore! Gain hands-on experience with live projects. Earn internationally recognized IBM Certificates.          "
         />
         <meta
           name="keywords"
@@ -188,7 +188,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Data Science Course in Indore          "
           firstTopPara="Foundational and Advance Job-ready Program"
-          cityParaCont="Gain global-scale excellence via Learnbay's broadly designed data science course in Indore. Enroll today to equip yourself with proven data-driven skills via real-time learning. Also, receive global certifications from IBM & Microsoft to accelerate your career growth prospects in today's tech age.          "
+          cityParaCont="Gain global-scale excellence via Learnbay's broadly designed data science course in Indore. Enroll today to equip yourself with proven data-driven skills via real-time learning. Also, receive global certifications from IBM to accelerate your career growth prospects in today's tech age.          "
         />
         <SecondSection
           SecondSectionData={DSinodreCourseData[0].secondSection}
