@@ -134,6 +134,7 @@ const CitiesRight = ({
   ModuleMasterlist5,
   ModuleMasterlist6,
   ModuleMasterlist7,
+  ModuleMasterBot4,
 
   ModuleHead2,
   ModuleHead3,
@@ -5337,8 +5338,11 @@ const CitiesRight = ({
 
               <br />
               <li>
-                <b>100% job assistance:</b> Learners get 100% job and placement
-                support with end-to-end skills growth and interviews.
+                <b>Bring Your Own Business Problem (BYOP):</b> We offer
+                customized training for working professionals. So, you need not
+                start a fresh, bring the problem or skill gap you are facing in
+                your current role. Learn software development with GenAI from
+                industry expert and solve your problem as your live project.
               </li>
             </ul>
 
@@ -7045,6 +7049,7 @@ const CitiesRight = ({
                   </ul>
                   <p className={styles.pp}>{ModuleMasterBot2}</p>
                   <p className={styles.pp}>{ModuleMasterBot3}</p>
+                  <p className={styles.pp}>{ModuleMasterBot4}</p>
                 </>
               ) : (
                 ""

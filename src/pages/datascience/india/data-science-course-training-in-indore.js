@@ -198,7 +198,7 @@ export default function Home() {
         </div>
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹1,35,000"
+            Fee="₹1,20,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
@@ -287,6 +287,7 @@ export default function Home() {
               ModuleMasterlist10={DSinodreCourseData[0].ModuleMasterlist10}
               ModuleMasterBot3={DSinodreCourseData[0].ModuleMasterBot3}
               ModuleMasterBot2={DSinodreCourseData[0].ModuleMasterBot2}
+              ModuleMasterBot4={DSinodreCourseData[0].ModuleMasterBot4}
               ModuleBot46={DSinodreCourseData[0].ModuleBot46}
               ModuleBot47={DSinodreCourseData[0].ModuleBot47}
               syllabush1={DSinodreCourseData[0].syllabush1}
