@@ -33,6 +33,11 @@ export const TabData = [
         hours: "4 Months",
         url: "/artificial-intelligence/applied-ai-practitioner-program",
       },
+      {
+        CName: "AI Engineering Master Program",
+        hours: "9 Months",
+        url: "/ai-engineering-master-program",
+      },
     ],
   },
   {
@@ -69,6 +74,11 @@ export const TabData = [
         hours: "4 months ",
         url: "/artificial-intelligence/applied-ai-practitioner-program",
       },
+      // {
+      //   CName: "AI Engineering Master Program",
+      //   hours: "9 Months",
+      //   url: "/ai-engineering-master-program",
+      // },
     ],
   },
   {
@@ -148,9 +158,9 @@ export const TabData = [
         url: "/artificial-intelligence/genai-software-developers",
       },
       {
-        CName: "GenAI & Agentic AI Master Certification Program",
-        hours: "9 months",
-        url: "/genai-and-agentic-ai-master-program",
+        CName: "AI Engineering Master Program",
+        hours: "9 Months",
+        url: "/ai-engineering-master-program",
       },
     ],
   },

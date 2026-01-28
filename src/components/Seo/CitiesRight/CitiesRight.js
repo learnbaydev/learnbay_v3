@@ -118,7 +118,6 @@ const CitiesRight = ({
   CertificationBot7,
   CertificationMasterHead1,
   CertificationMasterHead2,
-
   src,
   ModuleMasterBot1,
   ModuleMasterBot2,
@@ -337,6 +336,7 @@ const CitiesRight = ({
   src4,
   src22,
   src33,
+  src44,
   ProjectsH1,
   ProjectsH2,
   ProjectsH3,
@@ -693,7 +693,8 @@ const CitiesRight = ({
 
               <li>
                 <b>Doubt Clearance Sessions:</b> After your live classes, you
-                can take expert doubt clearance sessions to clear any doubts.{" "}
+                can take expert doubt clearance sessions to clear any
+                doubts.{" "}
               </li>
 
               <li>
@@ -711,8 +712,8 @@ const CitiesRight = ({
               </li>
             </ol>
             <h2 className={styles.pHead}>
-              Data Science Foundation Program in Mumbai with Placement
-              Assistance{" "}
+              Data Science and Gen AI Master Foundation Program in Mumbai with
+              Placement Assistance{" "}
             </h2>
             <ul>
               <li>
@@ -725,9 +726,10 @@ const CitiesRight = ({
                 switching your career, the foundation program will make it easy
                 for you.{" "}
               </li>
-              <li>This program’s fee is INR 1,10,000, excluding GST.</li>
+
               <h3 className={styles.pHead}>
-                Highlights of the Data Science Foundation Program in Mumbai{" "}
+                Highlights of the Data Science and Gen AI Master Program in
+                Mumbai{" "}
               </h3>
               <li>
                 This course offers an immersive and thorough learning
@@ -769,12 +771,6 @@ const CitiesRight = ({
                 For anyone wishing to change careers or advance their skills,
                 this extensive course is meant to give a solid understanding of
                 data science.
-              </li>
-
-              <li>
-                This program is a cost-effective and accessible choice for
-                anyone wishing to increase their knowledge and proficiency in
-                data science, costing only INR 95,000 + 18% GST.
               </li>
 
               <h3 className={styles.pHead}>
@@ -835,13 +831,6 @@ const CitiesRight = ({
                 Ready to take your data science skills to the next level? Our
                 program will help you become an expert in this field with the
                 knowledge and expertise you need to lead teams at top companies.
-              </li>
-              <li>
-                Investing in your education is always a smart choice; our
-                master's program in data science is no exception. With a course
-                fee of INR 1,25,000 (excluding GST), it's an affordable option
-                for anyone looking to advance their career in this exciting
-                field.
               </li>
 
               <h3 className={styles.pHead}>
@@ -982,7 +971,7 @@ const CitiesRight = ({
               In Mumbai, data science is assuming greater importance. Companies
               now rely more on data science to help them make wise decisions due
               to the volume of data created daily. Worldwide data production is
-              predicted to reach a startling 463 exabytes by 2025. In
+              predicted to reach a startling 463 exabytes by 2032. In
               comparison, just 5 exabytes of data have been uttered by humans as
               a whole. As a result, Mumbai will see an increase in demand for
               qualified data scientists.{" "}
@@ -1345,6 +1334,11 @@ const CitiesRight = ({
             </p>
             <p>
               <b>Module 3 - Model Training and Deployment using ( AWS GCP) </b>
+              <br />
+              Note: This is a draft module. Our modules keep changing in line
+              with the current job market demand. For the latest Syllebus, check
+              the detailed Module Section for the brochure. (link to the module
+              section)
             </p>
             <h2 className={styles.pHead}>
               <b>Premium Features of Data Scientist Training in Pune</b>
@@ -1404,15 +1398,11 @@ const CitiesRight = ({
                 You also work on hands-on projects, which will help you get
                 real-world experience.
               </li>
-              <li>
-                {" "}
-                The course provides a rigorous learning experience at just ₹
-                79,000 + 18% GST.{" "}
-              </li>
+              <li> The course provides a rigorous learning experience. </li>
             </ul>
 
             <h3 className={styles.pHead}>
-              Highlights of the Data Science Foundation Program in Pune
+              Highlights of the Data Science and GenAI Program in Pune
             </h3>
             <ul>
               <li>Consists of 200+ hours of live sessions</li>
@@ -1439,9 +1429,7 @@ const CitiesRight = ({
                 The course teaches you Deep Learning and Neural Networks.{" "}
               </li>
               <li>You can choose this if you want to switch your domain. </li>
-              <li>
-                You get rigorous hours of learning at just ₹ 99,000 + 18% GST.
-              </li>
+              <li>You get rigorous hours of learning .</li>
             </ul>
 
             <h3 className={styles.pHead}>
@@ -1477,7 +1465,7 @@ const CitiesRight = ({
                 You can also attend classroom sessions and get assistance in
                 online and offline project sessions.
               </li>
-              <li>The program fee is just ₹1,10,000 + 18% GST. </li>
+              {/* <li>The program fee is just ₹1,20,000 + 18% GST. </li> */}
               <li>
                 Our experts make you interview-ready, and the placement cell
                 ensures you get Job-ready with interview support from FinTech
@@ -1507,7 +1495,8 @@ const CitiesRight = ({
             </h2>
             <ul>
               <li>
-                This course covers all the skills a data scientist must possess.{" "}
+                This course covers all the skills a data scientist must
+                possess.{" "}
               </li>
               <li>
                 The MAANG and MNC experts guide the working professionals having
@@ -1526,7 +1515,7 @@ const CitiesRight = ({
                 The 3-year subscription gives you limitless access to learning
                 materials.{" "}
               </li>
-              <li>The course comes at just ₹1,29,000 + 18% GST. </li>
+              {/* <li>The course comes at just ₹1,20,000 + 18% GST. </li> */}
 
               <h3 className={styles.pHead}>
                 Highlights of Data Science and AI Master Program in Pune
@@ -1588,7 +1577,8 @@ const CitiesRight = ({
               <li>
                 <b>Data Science in Media, Hospitality, and Transport Domain:</b>{" "}
                 This course teaches you everything from identifying hotel issues
-                to satisfying customer needs by improving business strategies.{" "}
+                to satisfying customer needs by improving business
+                strategies.{" "}
               </li>
             </ol>
 
@@ -1926,7 +1916,8 @@ const CitiesRight = ({
             </p>
 
             <h2 className={styles.pHead}>
-              Data Science Foundation Program in Delhi with Placement Assistance{" "}
+              Data Science Foundation Program in Delhi with Placement
+              Assistance{" "}
             </h2>
             <p>
               Do you want to pursue a successful career in data science? To meet
@@ -1958,16 +1949,14 @@ const CitiesRight = ({
             <ul>
               <li>
                 The Advance Data Science and AI Program is a wonderful option
-                for students seeking more in-depth knowledge of data science.{" "}
+                for students seeking more in-depth knowledge of data
+                science.{" "}
               </li>
               <li>
                 This course provides in-depth training and helps you deeply
                 understand the subject.
               </li>
-              <li>
-                It's great for people wishing to swap domains, all at just ₹
-                99,000 + 18% GST.
-              </li>
+              <li>It's great for people wishing to swap domains,.</li>
               <h3 className={styles.pHead}>
                 Highlights of the Advance Data Science and AI Program in Delhi
               </h3>
@@ -1992,7 +1981,7 @@ const CitiesRight = ({
                 The course helps you with a smooth transition, and
                 domain-specific projects offer you an edge over others.{" "}
               </li>
-              <li>It only costs INR 1,10,000 plus 18% GST for the program.</li>
+
               <h3 className={styles.pHead}>
                 Highlights of Data Science and AI Program for Managers and
                 Leaders in Delhi
@@ -2020,7 +2009,7 @@ const CitiesRight = ({
               <li>
                 This custom-fit course lets you master Data Science and AI
                 effectively and efficiently, with intensive training of 500+
-                hours, all at just ₹1,29,000 + 18% GST.{" "}
+                hours.{" "}
               </li>
               <li>
                 With Learnbay's professional programs, you may begin your Data
@@ -2621,7 +2610,8 @@ const CitiesRight = ({
                 </b>{" "}
                 You will receive a globally recognized master’s degree (Woolf
                 University) with better job prospects. This degree enriches your
-                career value similar to a master's in 60+ Western countries.{" "}
+                career value similar to a master's in 60+ Western
+                countries.{" "}
               </li>
               <br />
               <li>
@@ -3264,7 +3254,8 @@ const CitiesRight = ({
 
             <p>
               Experts eager for a data-driven career can join our best data
-              science courses but before this, you must fulfil the requisites –{" "}
+              science courses but before this, you must fulfil the requisites
+              –{" "}
             </p>
             <br />
             <ul>
@@ -4501,7 +4492,8 @@ const CitiesRight = ({
               work on capstone projects in their chosen domain to learn how to
               use tools in real-time and devise better ways. Our practical
               sessions equip you with 12+ live projects, and learners must
-              choose one according to their domain, career goals, and interests.{" "}
+              choose one according to their domain, career goals, and
+              interests.{" "}
             </p>
 
             <p>
@@ -5238,7 +5230,8 @@ const CitiesRight = ({
               Many startups and MNCs in Indore leverage data to make smarter
               moves. Hence, the major job prospects in the data science industry
               have peaked. Thus, working experts choose to upskill at the best
-              data science institute in Indore, which offers better job offers.{" "}
+              data science institute in Indore, which offers better job
+              offers.{" "}
             </p>
 
             <p>
@@ -5872,7 +5865,8 @@ const CitiesRight = ({
               skills and kick-start a thriving career. Our cyber security course
               in Pune with placement equips you with skills to crack critical
               job interviews effortlessly. Learnbay’s career support services
-              help techies prepare for upcoming risks and make them job-ready.{" "}
+              help techies prepare for upcoming risks and make them
+              job-ready.{" "}
             </p>
           </div>
         ) : (
@@ -5990,7 +5984,8 @@ const CitiesRight = ({
             <p>
               Also, experts can validate their skills with IBM & Microsoft
               certificates to escalate career growth chances. Earn these
-              credentials and unleash true growth potential on a global level.{" "}
+              credentials and unleash true growth potential on a global
+              level.{" "}
             </p>
             <p>
               Hence, investing in Learnbay’s <b>DSA course in Pune</b> is worth
@@ -6888,7 +6883,7 @@ const CitiesRight = ({
         <></>
       ) : (
         <div id="Certification">
-          {(src || src22 || src33) && (
+          {(src || src22 || src33 || src44) && (
             <div className={styles.CitiesRightSpan}>
               <span>Certification Details</span>
             </div>
@@ -6969,7 +6964,7 @@ const CitiesRight = ({
                         height={250}
                         loading="lazy"
                         src={src22}
-                        alt="Learnbay - Sample IBM Certification Course"
+                        alt="Learnbay - Sample Learnbay Certification Course"
                       />
                     )}
                     {src33 && (
@@ -6979,6 +6974,15 @@ const CitiesRight = ({
                         loading="lazy"
                         src={src33}
                         alt="Learnbay - Sample Microsoft Certificate Course"
+                      />
+                    )}
+                    {src44 && (
+                      <Image
+                        width={350}
+                        height={250}
+                        loading="lazy"
+                        src={src44}
+                        alt="Learnbay - Sample GenAI IBM Certificate Course"
                       />
                     )}
                   </>
@@ -7085,26 +7089,6 @@ const CitiesRight = ({
                               <FiCheck className={styles.bIcons} />
                               {SyllabusBotlist11}
                             </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist12}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist13}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist14}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist15}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist16}
-                            </p>
                           </div>
                         </div>
                         <div className={styles.SyllabusBot2}>
@@ -7122,26 +7106,6 @@ const CitiesRight = ({
                             <p className={styles.SyllabusBotlistp}>
                               <FiCheck className={styles.bIcons} />
                               {SyllabusBotlist21}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist22}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist23}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist24}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist25}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist26}
                             </p>
                           </div>
                         </div>
@@ -7163,26 +7127,6 @@ const CitiesRight = ({
                               <FiCheck className={styles.bIcons} />
                               {SyllabusBotlist31}
                             </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist32}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist33}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist34}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist35}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist36}
-                            </p>
                           </div>
                         </div>
                         <div className={styles.SyllabusBot4}>
@@ -7200,26 +7144,6 @@ const CitiesRight = ({
                             <p className={styles.SyllabusBotlistp}>
                               <FiCheck className={styles.bIcons} />
                               {SyllabusBotlist41}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist42}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist43}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist44}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist45}
-                            </p>
-                            <p className={styles.SyllabusBotlistp}>
-                              <FiCheck className={styles.bIcons} />
-                              {SyllabusBotlist46}
                             </p>
                           </div>
                         </div>

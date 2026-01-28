@@ -218,7 +218,7 @@ export const TestingCourseData = [
           {
             id: 0,
             ques: "What is the total fee for the Data Analytics Program in Bangalore?",
-            ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
+            ans: `The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.`,
             open: true,
           },
           {

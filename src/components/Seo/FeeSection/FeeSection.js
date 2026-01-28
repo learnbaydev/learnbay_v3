@@ -5,8 +5,8 @@ const Form = dynamic(() => import("../../Global/Form/Form"));
 const Popup = dynamic(() => import("../../Global/Popup/Popup"));
 import styles from "./FeeSection.module.css";
 const Button = dynamic(() => import("../../Global/Button/Button"));
-import Emipopup from "../../CoursePage/EMIPopup/Emipopup"
-import Modal from 'react-modal';
+import Emipopup from "../../CoursePage/EMIPopup/Emipopup";
+import Modal from "react-modal";
 import { FaGlobe } from "react-icons/fa6";
 import { FaRegCreditCard } from "react-icons/fa";
 
@@ -46,7 +46,7 @@ const FeeSection = ({
   };
 
   const [emiPopupIsOpen, setEmiPopupIsOpen] = useState(false);
-  
+
   const openEmiPopup = () => {
     setEmiPopupIsOpen(true);
   };
@@ -54,7 +54,6 @@ const FeeSection = ({
   const closeEmiPopup = () => {
     setEmiPopupIsOpen(false);
   };
-
 
   return (
     <div className={styles.feesmain} id="Fees">
@@ -84,12 +83,11 @@ const FeeSection = ({
           />
         </div>
       </Popup>
-   
+
       {countryfee ? <h2>Program Fee Details</h2> : <h2>Fee & Batch Details</h2>}
       {countryfee ? (
         <p className={styles.pTop}>
           Invest in your future with affordable program fees
-          
         </p>
       ) : (
         <p className={styles.pTop}>
@@ -172,9 +170,7 @@ const FeeSection = ({
               <p className={styles.price}>
                 {Fee} <span className={styles.spanText}>+ 18% GST</span>
               </p>
-              <div className={styles.divButton} onClick={popupShow}>
-                <Button className={styles.Btn} text="Check EMI Options" />
-              </div>
+
               <hr
                 style={{
                   color: "rgba(0, 0, 0, 0.20)",
@@ -182,37 +178,24 @@ const FeeSection = ({
                   border: "0.9px solid",
                 }}
               />
-                 <p style={{ textAlign: "center", margin: "0" }}>
-            <b>EMI Options</b>
-          </p>
-          <div className={styles.divContent}>
-            <p>Pay in easy EMIs starting as low as</p>
-            <p className={styles.boxSpan}> {FeeEmi} </p>
-            <p>
-              For <b>No Cost EMI options</b>{" "}
-              <span
-                onClick={openEmiPopup}
-                style={{ color: "#0072BC", cursor: "pointer" }}
-              >
-                click here.
-              </span>
-            </p>
-          </div>
+              <p style={{ textAlign: "center", margin: "0" }}>
+                <b>EMI Options</b>
+              </p>
             </>
           )}
         </div>
-        {countryfee ? (
+        {/* {countryfee ? (
           ""
         ) : (
           <div className={styles.third}>
             <p>Batch Details</p>
             <div className={styles.boxOrange}>
-            <p>{weekendbatch}</p>
+              <p>{weekendbatch}</p>
               <div className={styles.batches}>
-              <p className={styles.date}>{WeekendDate}</p>
+                <p className={styles.date}>{WeekendDate}</p>
                 <div className={styles.Time}>
-                <p className={styles.day}>{weekend}</p>
-                <p className={styles.paraBot}>{WeekendTime}</p>
+                  <p className={styles.day}>{weekend}</p>
+                  <p className={styles.paraBot}>{WeekendTime}</p>
                 </div>
               </div>
             </div>
@@ -225,21 +208,19 @@ const FeeSection = ({
             />
             <div className={styles.boxOrange}>
               <div className={styles.batchImg}>
-              <p> {weekdaybatch}</p>
-
+                <p> {weekdaybatch}</p>
               </div>
               <div className={styles.batches}>
-              <p className={styles.date}>{WeekdayDate}</p>
- 
+                <p className={styles.date}>{WeekdayDate}</p>
+
                 <div className={styles.Time}>
-                <p className={styles.day}>{weekday}</p>
-                <p className={styles.paraBot}>{WeekdayTime}</p>
-              
+                  <p className={styles.day}>{weekday}</p>
+                  <p className={styles.paraBot}>{WeekdayTime}</p>
                 </div>
               </div>
             </div>
           </div>
-        )}
+        )} */}
       </div>
       {/* Emi Popup */}
       <Modal

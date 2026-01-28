@@ -9,7 +9,7 @@ export const CloudComputingTrainingInPune = [
             id: 0,
             ques: "What is the duration of the Cloud Computing Course in Pune?",
             open: true,
-            ans: "Learnbay’s cloud computing course in Pune offers 7 months of live-instructor-led sessions to complete. Here, you can opt for flexibly scheduled weekday or weekend sessions and kick-start a cloud-based career. ",
+            ans: "Learnbay’s cloud computing course in Pune offers 8 months of live-instructor-led sessions to complete. Here, you can opt for flexibly scheduled weekday or weekend sessions and kick-start a cloud-based career. ",
           },
           {
             id: 1,
@@ -119,7 +119,7 @@ export const CloudComputingTrainingInPune = [
           {
             id: 0,
             ques: "How much does the Cloud Computing Certification Course in Pune cost?",
-            ans: `Learners must pay INR 80,000 + 18% GST as cloud computing course fees in Pune.`,
+            ans: `Learners must pay INR 1,59,000 plus 18% GST as cloud computing course fees in Pune.`,
             open: true,
           },
           {
@@ -132,7 +132,7 @@ export const CloudComputingTrainingInPune = [
           {
             id: 2,
             ques: "Can I pay the course fee using credit cards, and are there other payment methods accepted?",
-            ans: "Yes, learners can pay the course fees through credit cards. Besides, they can also opt for internet banking, no-cost EMI, or UPI.",
+            ans: "Yes, you can pay for the course with credit cards. Other payment options, such as UPI or Internet banking, are also available.",
             //Check This
             open: false,
           },
@@ -210,7 +210,7 @@ export const CloudComputingTrainingInPune = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: `Our cloud computing program offers globally acknowledged IBM & Microsoft certifications once you finish the course.`,
+            ans: ` Yes. You will obtain multiple globally recognised certifications from IBM, Microsoft, and Learnbay upon completing the course and projects.`,
             open: true,
           },
           {
@@ -472,7 +472,7 @@ export const CloudComputingTrainingInPune = [
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
     ModuleHead1: "Learning Outcomes",
     ModuleBot1:
       "Pune’s tech space keeps growing, luring techies for regular skill upgrades. Cloud-driven practices help firms have agile data solutions and secure their info from external sources. Hence, upskilling from the right program is the best way to treasure career success in the cloud field. ",
@@ -497,38 +497,26 @@ export const CloudComputingTrainingInPune = [
     list5: "Data Migration: Cloud & DevOps",
     list6: "Splunk Design, Development, and Admin",
 
-    syllabush1: "Linux Fundamentals and Introduction",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Introduction to Linux Operating System",
-    SyllabusBotlist12: "Command Line Interface (CLI) Essentials",
-    SyllabusBotlist13: "User and Group Management",
-    SyllabusBotlist14: "Networking Basics in Linux ",
-    SyllabusBotlist15: "Command Line Mastery",
-    SyllabusBotlist16: "System Administration Tasks",
-    syllabush2: "Python Programming Essentials",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python and Environment Setup",
-    SyllabusBotlist22: "Python Programming Foundations",
-    SyllabusBotlist23: "Data Handling and Structures",
-    SyllabusBotlist24: "Advanced Python Concepts",
-    SyllabusBotlist25: "Project Work and Practice",
-    SyllabusBotlist26: "Real-world problem-solving using Python",
-    syllabush3: "AWS Cloud Mastery",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "AWS Administration Level",
-    SyllabusBotlist32: "Transitioning to Solution Architect",
-    SyllabusBotlist33: "Exam Preparation",
-    SyllabusBotlist34: " Preparation Tips",
-    SyllabusBotlist35: "Practice Exams and Scenarios",
-    SyllabusBotlist36: "Professional Level Exam Preparation",
-    syllabush4: "Splunk Development and Admin ",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " Splunk Security Essentials",
-    SyllabusBotlist42: "Splunk Data Analysis Techniques",
-    SyllabusBotlist43: "Splunk Dashboard Customization",
-    SyllabusBotlist44: "Splunk API Integration",
-    SyllabusBotlist45: "Performance Optimization in Splunk",
-    SyllabusBotlist46: "Splunk for Cloud Services",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
     JobHead1:

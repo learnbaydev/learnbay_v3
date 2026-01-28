@@ -85,15 +85,15 @@ export const DAMumbaiCourseData = [
           name: "What is the total fee for the Data Analytics Program in Mumbai?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.",
+            text: "The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.",
           },
         },
         {
           "@type": "Question",
-          name: "Can I pay in installments for INR 93,220/-?",
+          name: "Can I pay in installments for INR 1,20,000/-?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more +917795687988",
+            text: "Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip. Please check with our sales team to know more +917795687988",
           },
         },
         {
@@ -510,13 +510,13 @@ export const DAMumbaiCourseData = [
           {
             id: 0,
             ques: "What is the total fee for the Data Analytics Program in Mumbai?",
-            ans: `The total program fee for the Data Analytics Program is INR 93,220/- inclusive of GST.`,
+            ans: `The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 93,220/-?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,768/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Can I pay in installments for INR 1,20,000/-?",
+            ans: "Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip.",
             open: false,
           },
           {
@@ -693,38 +693,26 @@ export const DAMumbaiCourseData = [
       "Learnbay data analytics course incorporates 180+ hours of live and interactive learning. It's just like the offline class experience. Apart from that, at the end of every module, a student can request for 1-on-1 discussion session with their respective instructors.",
     ModuleBot4:
       "The submodules are comprehensively planned to create an expert data analyst within 4.5 to 6 months. Within this time span, you will be the pro of data analytics tools and skills like Probability, Data Storytelling, data mining, dashboarding, PCA analysis, Tableau, SQL, Power BI Hadoop, Seaborn, etc.",
-    syllabush1: "Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode .",
-    syllabush2: "Python Programming (Basic + Advance)",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming Overview",
-    SyllabusBotlist22: "Python Data Types",
-    SyllabusBotlist23: "Data Analysis Using Numpy",
-    SyllabusBotlist24: "Data Analysis Using Pandas",
-    SyllabusBotlist25: "Data Visualization using Matplotlib",
-    SyllabusBotlist26: "Functions And Modules ,Class hands-on:",
-    syllabush3: " Statistics & Basic Machine Learning",
-    syllabusb3: "50 Hours",
-    SyllabusBotlist31: " Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Regression and Classification Models",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Introduction to Machine Learning",
-    SyllabusBotlist36: "Encoding the Data",
-    syllabush4: "Data Analytics Tools",
-    syllabusb4: "6+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "JSON Data & CRUD",
-    SyllabusBotlist43: " PowerBI",
-    SyllabusBotlist44: "Big Data & Spark Analytics",
-    SyllabusBotlist45: " Time Series",
-    SyllabusBotlist46: "Introduction to Time Series Forecasting",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     JobHead1:

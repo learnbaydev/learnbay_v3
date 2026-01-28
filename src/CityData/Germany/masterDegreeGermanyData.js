@@ -545,7 +545,7 @@ export const masterdegreeGermanyCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
     JobHead1:
       "What job-ready skills will you develop with our MS in data science in Germany?         ",
     MasterJobBot1: " ",

@@ -6,33 +6,35 @@ import dynamic from "next/dynamic";
 import LJourney from "../LJourney/LJourney";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate")
+const Certificate = dynamic(
+  () =>
+    import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate"),
 );
-const FeeSection = dynamic(() =>
-  import("../../course/feeSection/FeeSectionCourse")
+const FeeSection = dynamic(
+  () => import("../../course/feeSection/FeeSectionCourse"),
 );
-const MentorsSection = dynamic(() =>
-  import("../../../components/Global/MentorsSection/MentorsSection")
+const MentorsSection = dynamic(
+  () => import("../../../components/Global/MentorsSection/MentorsSection"),
 );
-const SliderTab = dynamic(() =>
-  import("../../../components/Global/SliderTabs/SliderTabs")
+const SliderTab = dynamic(
+  () => import("../../../components/Global/SliderTabs/SliderTabs"),
 );
-const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCall")
+const PlacementCall = dynamic(
+  () => import("../../../components/Global/PlacementCall/PlacementCall"),
 );
-const NewProjectSection = dynamic(() =>
-  import("../../../components/Global/NewProjectSection/NewProjectSection")
+const NewProjectSection = dynamic(
+  () =>
+    import("../../../components/Global/NewProjectSection/NewProjectSection"),
 );
 
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+const FAQNew = dynamic(
+  () => import("../../../components/CoursePage/FAQNew/FAQNew"),
 );
-const Content = dynamic(() =>
-  import("../../../components/CoursePage/Content/content")
+const Content = dynamic(
+  () => import("../../../components/CoursePage/Content/content"),
 );
-const MobileTestimonial = dynamic(() =>
-  import("../../Home/MobileTestimonial/MobileTestimonial")
+const MobileTestimonial = dynamic(
+  () => import("../../Home/MobileTestimonial/MobileTestimonial"),
 );
 
 const SecondPart = ({
@@ -65,7 +67,7 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
       />
@@ -99,7 +101,7 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         brochurePdf={pdfUrl}
         projectSection={projectSection}
       />
