@@ -404,7 +404,7 @@ export const DSNoidaCourseData = [
     CertificationBot2:
       "Certificates are crucial to validating learned skills and cracking prime job offers globally. These certificates enrich professional credibility and are vital to redefining outpaced careers. Experts with valuable credentials can crack top-tier job roles with attractive pay scales. Globally recognized certifications help you to increase the chances of cracking jobs with leading MNCs with attractive pay scales.",
     CertificationBot3:
-      "At Learnbay, we believe in supporting career transitions with our end-to-end solutions. Our trustworthy alliance with industry leaders IBM & Microsoft enhances career worth and adds more value to it. Upskilling with the best data science training institute in Noida helps you gain a competitive edge in your domain or desired field. Here, you will get two-course completion certificates from IBM & MS and one IBM project certificate. Hence, learning with our leading-edge data science courses is crucial to building a lucrative career in data science.",
+      "At Learnbay, we believe in supporting career transitions with our end-to-end solutions. Our trustworthy alliance with industry leaders IBM  enhances career worth and adds more value to it. Upskilling with the best data science training institute in Noida helps you gain a competitive edge in your domain or desired field. Here, you will get two-course completion certificates from IBM & MS and one IBM project certificate. Hence, learning with our leading-edge data science courses is crucial to building a lucrative career in data science.",
     CertificationBot4: "",
     CertificationBot5: "",
     // src33:
@@ -519,7 +519,7 @@ export const DSNoidaCourseData = [
     JobBot007:
       "Upskilling with Learnbay unlocks a global-level career path with exciting gains. Experts from various fields join us to gain Gen AI-rich upskilling to face the changing digital era. Here, you will gain uninterrupted learning of vital tools from our esteemed mentors with years of experience in relevant fields. Apart from abstract learning, experts gain practical experience with tools to drive optimal business yields.",
     JobBot005:
-      "Our association with IBM & Microsoft helps experts build a global-scale data science career with promising growth options. Our certificates are career-worthy as they validate your skills and help you crack top-tier roles. Our leading MNCs & unicorn startupship with 450+ companies and endless career support services brings proven success. ",
+      "Our association with IBM  helps experts build a global-scale data science career with promising growth options. Our certificates are career-worthy as they validate your skills and help you crack top-tier roles. Our leading MNCs & unicorn startupship with 450+ companies and endless career support services brings proven success. ",
     JobBot006: " ",
     JobHead22:
       "What career-driven roles can you land with Learnbay’s data scientist course in Noida?",
