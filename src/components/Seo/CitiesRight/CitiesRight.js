@@ -2530,7 +2530,7 @@ const CitiesRight = ({
               experts to redefine their careers globally.
             </p>
             <p>
-              Experts joining our <b>data science MS programs</b> will develop
+              Experts joining our <b>data science programs</b> will develop
               diverse skills and knowledge for a gainful career. Currently, most
               learners look for customizable training programs to help them ace
               leading job interviews. Our custom-fit syllabus is frequently
@@ -2721,8 +2721,7 @@ const CitiesRight = ({
               <br />
               <li>
                 <b>Global certifications:</b>Our data science courses offer
-                globally accredited certifications from tech giants like IBM &
-                MS.
+                globally accredited certifications from tech giants like IBM .
               </li>
               <br />
               <li>
@@ -2858,7 +2857,7 @@ const CitiesRight = ({
 
             <ul>
               <li>Two IBM certificates (Course & Project)</li>
-              <li>One MS Certificate</li>
+              <li>One Certificate</li>
               <li>Premium job offers in Nigeria and overseas</li>
             </ul>
 
@@ -3116,7 +3115,7 @@ const CitiesRight = ({
             <br />
             <ul>
               <li>Một Chứng chỉ Hoàn thành Khóa học và Dự án (IBM)</li>
-              <li>Một Chứng chỉ MS</li>
+              <li>Một Chứng chỉ</li>
               <li>
                 Tăng lương hấp dẫn cùng các cơ hội việc làm trong và ngoài Việt
                 Nam
@@ -3196,7 +3195,6 @@ const CitiesRight = ({
 
             <ul>
               <li>2 Course Completion and Project Certifications (IBM)</li>
-              <li>1 Microsoft Certification</li>
               <li>Well-paid Job offers across Singapore and overseas</li>
             </ul>
 
@@ -3293,7 +3291,7 @@ const CitiesRight = ({
               <li>
                 2 IBM Certifications (Course completion & Project experience)
               </li>
-              <li>1 MS (Microsoft) Certification</li>
+              <li>1 (Microsoft) Certification</li>
 
               <li>Advantageous job offers across South Africa and overseas </li>
             </ul>
@@ -3396,7 +3394,7 @@ const CitiesRight = ({
               <li>
                 2 IBM Certifications (Course completion & Project experience)
               </li>
-              {/* <li>1 MS (Microsoft) Certification</li> */}
+              {/* <li>1 (Microsoft) Certification</li> */}
 
               <li>Job offers with hikes across Bangladesh and overseas </li>
             </ul>
@@ -3608,7 +3606,7 @@ const CitiesRight = ({
                 We offer the best data science certification with global-scale
                 job offers. Our certificates from IBM unlock promising career
                 paths. You will get two IBM certifications (project and course)
-                and one MS certification.
+                and one certification.
               </li>
               <br />
               <li>
@@ -3661,7 +3659,7 @@ const CitiesRight = ({
             </p>
             <p>
               Note: If you opt for our master’s certification program in data
-              science, you will get one MS certificate and 3 IBM project
+              science, you will get one certificate and 3 IBM project
               certificates. If you opt for a master’s degree in data science,
               you will have one IBM project certificate with a degree from Woolf
               University.
@@ -4020,7 +4018,7 @@ const CitiesRight = ({
                 <b>Global certifications:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
                 from IBM unlock promising career paths. You will get two IBM
-                certifications (project and course) and one MS certification.
+                certifications (project and course) and one certification.
               </li>
               <br />
               <li>
@@ -4287,7 +4285,7 @@ const CitiesRight = ({
                 <b>Global certifications:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
                 from IBM unlock promising career paths. You will get two IBM
-                certifications (project and course) and one MS certification.
+                certifications (project and course) and one certification.
               </li>
               <br />
               <li>
@@ -4721,7 +4719,7 @@ const CitiesRight = ({
                 <b>Global certifications:</b>We offer the best data science
                 certification with global-scale job offers. Our certificates
                 from IBM unlock promising career paths. You will get two IBM
-                certifications (project and course) and one MS certification.
+                certifications (project and course) and one certification.
               </li>
               <br />
               <li>
@@ -4884,7 +4882,7 @@ const CitiesRight = ({
                 <b>Global certifications:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
                 from IBM unlock promising career paths. You will get two IBM
-                certifications (project and course) and one MS certification.
+                certifications (project and course) and one certification.
               </li>
               <br />
               <li>
@@ -5038,7 +5036,7 @@ const CitiesRight = ({
                 <b>Industry collaborations:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
                 from IBM unlock promising career paths. You will get two IBM
-                certifications (project and course) and one MS certification.
+                certifications (project and course) and one certification.
               </li>
               <br />
               <li>
@@ -5336,7 +5334,7 @@ const CitiesRight = ({
                 <b>Industry collaborations:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
                 from IBM unlock promising career paths. You will get two IBM
-                certifications (project and course) and one MS certification.
+                certifications (project and course) and one certification.
               </li>
 
               <br />
@@ -7282,7 +7280,7 @@ const CitiesRight = ({
                   <li>{Joblist51}</li>
                   <li>{Joblist52}</li>
                   <li>{Joblist53}</li>
-                  <li>{Joblist54}</li>
+                  {/* <li>{Joblist54}</li> */}
                 </ul>
               ) : (
                 ""
