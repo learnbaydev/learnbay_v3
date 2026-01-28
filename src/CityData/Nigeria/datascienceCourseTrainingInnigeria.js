@@ -183,7 +183,7 @@ export const DSNigeriaCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in Nigeria?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The duration of the data science and Gen AI course is 9-13 months.",
             open: false,
           },
           {
@@ -264,11 +264,7 @@ export const DSNigeriaCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in Nigeria?",
-            ans: `The total course fee for the 
-                  Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                  Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                  Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                  Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: ` The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course prices start from $1700. `,
             open: true,
           },
           {
@@ -342,12 +338,7 @@ export const DSNigeriaCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                  Foundational Data Science and AI Training course- 1 Course Completion Certificate.
-                  Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                  Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                  Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-                  *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certifications. `,
             open: true,
           },
         ],
@@ -454,9 +445,9 @@ export const DSNigeriaCourseData = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
 
     CertificationBot1:
-      "Learnbay’s alliance with two tech giants – IBM & MS, uplifts the chances of a successful career rise. A global digital leader, IBM is known for its insightful offerings in predictive modeling, ML, AI, and automation.  Learnbay’s IBM data science certification in Nigeria validates your skills on a global scale with alluring job opportunities.",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+      "Learnbay’s alliance with two tech giants – IBM , uplifts the chances of a successful career rise. A global digital leader, IBM is known for its insightful offerings in predictive modeling, ML, AI, and automation.  Learnbay’s IBM data science certification in Nigeria validates your skills on a global scale with alluring job opportunities.",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
@@ -464,7 +455,7 @@ export const DSNigeriaCourseData = [
       "Learnbay’s data science course also attests MS certificate for your career. Working pros from early and mid-career stages can ace their careers with data-driven skills, and an MS certificate validates them.      ",
     CertificationBot3: "  ",
     CertificationBot4:
-      "Our globally recognized certificates from IBM & MS extend visionary support for learners to excel in data science. If you are still working on your slow-paced career, we are here to help you out with our job-driven programs.      ",
+      "Our globally recognized certificates from IBM  extend visionary support for learners to excel in data science. If you are still working on your slow-paced career, we are here to help you out with our job-driven programs.      ",
     ModuleHead1:
       "Learning Objectives of Learnbay’s Data Science Training in Nigeria     ",
     ModuleBot1:
@@ -540,12 +531,12 @@ export const DSNigeriaCourseData = [
     JobBot21:
       "Recent years have seen constant growth in demand for skilled data scientists in Nigeria. This rising trend encourages career aspirants to prepare themselves for making a global-level career in data science. Learnbay’s IBM data science certificate approves your global skills for prime job roles.",
     JobBot22:
-      "Learnbay offers the best data science courses in alliance with IBM & MS that unlock global career success with top-tier MNCs.",
+      "Learnbay offers the best data science courses in alliance with IBM  that unlock global career success with top-tier MNCs.",
     JobBot23: "Take a look at proven career gains with Learnbay –",
 
     Joblist50: "Gen AI-driven syllabus",
     Joblist51: "Experiential learning with live projects",
-    Joblist52: "IBM & MS certifications",
+    Joblist52: "IBM  certifications",
     Joblist53:
       "Master’s degree from Woolf with 60+ Western countries' approval",
     Joblist54: "100% job and placement support (Career Service Pro)",
