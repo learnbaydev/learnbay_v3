@@ -174,7 +174,7 @@ export const DSSingaporeCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in Singapore?",
-            ans: "Integrated dual Certification from IBM (one course completion and one project certificate) is there in the Data Science Certification Course in Singapore. However, if you choose to go with the Master Program, then an additional  Microsoft certification is available. ",
+            ans: "Integrated dual Certification from IBM (one course completion and one project certificate) is there in the Data Science Certification Course in Singapore. However, if you choose to go with the Master Program, then an additional  certification is available. ",
             open: false,
           },
           {
@@ -331,7 +331,7 @@ export const DSSingaporeCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `The data science course in Singapore offers an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional Microsoft certification. `,
+            ans: `The data science course in Singapore offers an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional certification. `,
             open: true,
           },
         ],
@@ -439,8 +439,8 @@ export const DSSingaporeCourseData = [
 
     CertificationBot1:
       "The successful union of data-driven methods with business actions paves the way for an informed future. IBM is one of the first-line tech leaders, famous for its ultra-age data-driven outcomes. Its unique data science program helps experts gain scalable skills for optimized decisiveness.      ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
