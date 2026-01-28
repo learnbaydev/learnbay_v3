@@ -4735,8 +4735,7 @@ const CitiesRight = ({
         {DSPatna ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              About Data Science Course in Patna In Alliance with IBM &
-              Microsoft
+              About Data Science Course in Patna In Alliance with IBM
             </h4>
             <p>
               Learnbay, in collaboration with Microsoft and IBM, offers a
@@ -5052,8 +5051,7 @@ const CitiesRight = ({
         {DSNoida ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              About the Data Scientist Course in Noida in Alliance with IBM &
-              Microsoft
+              About the Data Scientist Course in Noida in Alliance with IBM
             </h4>
             <p>
               Data science, a thriving tech creation, changes Noida’s business
@@ -5261,9 +5259,9 @@ const CitiesRight = ({
             </p>
             <p>
               In addition, the data science classes in Indore equip you with
-              valuable certifications (with global recognition) from IBM &
-              Microsoft. Enroll in our training program today and sharpen your
-              skills and abilities to attain proven career success.{" "}
+              valuable certifications (with global recognition) from IBM .
+              Enroll in our training program today and sharpen your skills and
+              abilities to attain proven career success.{" "}
             </p>
 
             <b>

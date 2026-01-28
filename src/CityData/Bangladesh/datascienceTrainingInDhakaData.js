@@ -435,8 +435,8 @@ export const DSDhakaCourseData = [
       "Note: If you are enrolling in an online master’s degree in data science, then you will have to choose a domain specialization and an elective. It depends on the career interests and goals of the learners that help them decide the suitable domain.",
     CertificationBot1:
       "Data science is a rewarding career with boundless growth options for working pros from diverse backgrounds. Today’s digital space in Dhaka accommodates experts with updated data-driven skills and knowledge. Thus, upskilling via an industry-paced data science course in Dhaka has become essential to accomplishing success.         ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",

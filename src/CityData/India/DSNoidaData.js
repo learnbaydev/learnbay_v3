@@ -149,7 +149,7 @@ export const DSNoidaCourseData = [
           {
             id: 0,
             ques: "How long does the data science course in Noida typically take to complete?              ",
-            ans: "Learnbay offers flexible data science training in Noida that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+            ans: "The duration of the data science and Gen AI course is 9-13 months.",
 
             link: false,
             open: true,
@@ -218,7 +218,7 @@ export const DSNoidaCourseData = [
           {
             id: 0,
             ques: "What is the cost of the data science course, and are there any installment options?              ",
-            ans: `The data science course in Noida fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST. `,
             open: true,
           },
           {
@@ -277,7 +277,7 @@ export const DSNoidaCourseData = [
           {
             id: 0,
             ques: "Is the certification internationally recognized?              ",
-            ans: `Learnbay offers an internationally recognized data science certification in Noida. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certifications.  `,
             open: true,
           },
         ],
@@ -407,8 +407,8 @@ export const DSNoidaCourseData = [
       "At Learnbay, we believe in supporting career transitions with our end-to-end solutions. Our trustworthy alliance with industry leaders IBM & Microsoft enhances career worth and adds more value to it. Upskilling with the best data science training institute in Noida helps you gain a competitive edge in your domain or desired field. Here, you will get two-course completion certificates from IBM & MS and one IBM project certificate. Hence, learning with our leading-edge data science courses is crucial to building a lucrative career in data science.",
     CertificationBot4: "",
     CertificationBot5: "",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
