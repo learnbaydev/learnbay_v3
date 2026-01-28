@@ -315,7 +315,7 @@ export const DSSouthAfricaCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `The data science course in South Africa comes with an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional Microsoft certification. `,
+            ans: `The data science course in South Africa comes with an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional certification. `,
             open: true,
           },
         ],
@@ -539,7 +539,7 @@ export const DSSouthAfricaCourseData = [
     ProjectsBot3:
       "Capstone projects help experts learn about current business issues and their ways to tackle them. Hands-on learning of tools via data science projects helps you rebuild an unbeatable career.       ",
     ProjectsBot4:
-      "Our project-based learning focuses on domain-specific training. Thus, projects are aligned with the trending domains – BFSI, Healthcare, Marketing, HR, Supply Chain, and Manufacturing. It helps you re-establish your career on a global scale with better perks. Plus, IBM  (Microsoft) certifications leverage career growth chances rapidly.      ",
+      "Our project-based learning focuses on domain-specific training. Thus, projects are aligned with the trending domains – BFSI, Healthcare, Marketing, HR, Supply Chain, and Manufacturing. It helps you re-establish your career on a global scale with better perks. Plus, IBM certifications leverage career growth chances rapidly.      ",
 
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
