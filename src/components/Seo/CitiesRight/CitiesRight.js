@@ -1049,8 +1049,8 @@ const CitiesRight = ({
               Indeed, our notable industry tie-ups with 450+ MNCs ease your
               job-hunting process. Our devoted placement teams enrich your
               job-ready skills to help you grab exciting job offers. Also, we
-              offer IBM & Microsoft certificates for course tasks and
-              domain-driven projects.
+              offer IBM certificates for course tasks and domain-driven
+              projects.
             </p>
 
             <h3 className={styles.pHead}>
@@ -1123,10 +1123,9 @@ const CitiesRight = ({
               Learnbay’s industry-driven career support services engage learners
               with high-paying roles. Here, experts will receive everything
               required to crack critical roles – from 1:1 interview prep to
-              CV-making. Also, having IBM & Microsoft certificates can validate
-              your skills and enhance your selection rates. Our globally valued
-              credentials enrich career worth and make it job-ready with solid
-              portfolios.
+              CV-making. Also, having IBM certificates can validate your skills
+              and enhance your selection rates. Our globally valued credentials
+              enrich career worth and make it job-ready with solid portfolios.
             </p>
             <p>
               Joining our data science training in Hyderabad is worth investing
@@ -2416,7 +2415,7 @@ const CitiesRight = ({
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
               About the Prime <b> Data Science Course</b> Curated in
-              Collaboration with IBM & Microsoft
+              Collaboration with IBM
             </h4>
             <p>
               Learnbay anticipates a favorable career switch for mid-career
@@ -2432,7 +2431,7 @@ const CitiesRight = ({
                   data scientist certification program
                 </a>
               </b>{" "}
-              in alliance with IBM & MS leads the career race. We believe in
+              in alliance with IBM leads the career race. We believe in
               360-degree knowledge-building to reach the peak of career success
               with sought-after skills.
             </p>
@@ -2441,7 +2440,7 @@ const CitiesRight = ({
               program and gain job-ready skills. Learnbay introduces a
               Generative AI-rich course syllabus with transformative career
               impacts. Our <b>data scientist course in USA</b> is associated
-              with IBM & Microsoft and envisions a rewarding career ahead.
+              with IBM and envisions a rewarding career ahead.
             </p>
             <p>
               IBM, based in Armonk, NY, is a top tech leader known for its
@@ -2464,7 +2463,7 @@ const CitiesRight = ({
             <br />
             <h4 style={{ fontSize: "20px" }}>
               What career gains will this <b>data science training in USA</b>{" "}
-              offer in collab with IBM & MS?
+              offer in collab with IBM ?
             </h4>
             <p>
               Data science is a multi-faceted field, welcoming experts from
@@ -2486,7 +2485,7 @@ const CitiesRight = ({
             </ul>
             <p>
               After finishing the online data science course, projects, and
-              assessments, you will receive IBM & MS certifications. These
+              assessments, you will receive IBM certifications. These
               certificates are well-known worldwide and can enhance your career
               opportunities. The cutting-edge digital era demands validated
               skill sets to conquer a long-run career success. In short, major
@@ -2683,9 +2682,9 @@ const CitiesRight = ({
             </p>
             <p>
               Our best data science courses offer globally recognized
-              certifications from tech giants such as IBM & Microsoft. With
-              basic numeric skills and domain knowledge, anyone can enroll in
-              our program, revitalizing their careers.{" "}
+              certifications from tech giants such as IBM . With basic numeric
+              skills and domain knowledge, anyone can enroll in our program,
+              revitalizing their careers.{" "}
             </p>
             <br />
             <h4 style={{ fontSize: "20px" }}>
@@ -2807,7 +2806,7 @@ const CitiesRight = ({
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
               Introducing Learnbay’s <b> Data Science Training in Nigeria</b> in
-              alliance with IBM & MS
+              alliance with IBM
             </h4>
             <p>
               Nigeria is one of the fastest-growing African countries with
@@ -2845,15 +2844,15 @@ const CitiesRight = ({
             </ul>
             <br />
             <h4 style={{ fontSize: "20px" }}>
-              In what ways does Learnbay’s collaboration with IBM & MS help in
-              your career rise?
+              In what ways does Learnbay’s collaboration with IBM help in your
+              career rise?
             </h4>
 
             <p>
-              Learnbay’s globally recognized IBM & Microsoft (MS) certificates
-              help learners counter career risks with proven skills. Valuable
-              certifications validate your skills to ace top-tier job interviews
-              with better hikes and perks. Major highlights are –
+              Learnbay’s globally recognized IBM (MS) certificates help learners
+              counter career risks with proven skills. Valuable certifications
+              validate your skills to ace top-tier job interviews with better
+              hikes and perks. Major highlights are –
             </p>
             <br />
 
@@ -2894,15 +2893,14 @@ const CitiesRight = ({
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
               Overview of Learnbay’s Premium Data Science Training in Vietnam
-              [In Alliance with IBM & Microsoft]
+              [In Alliance with IBM ]
             </h4>
             <p>
               Learnbay’s <b>data science training in Vietnam</b> unleashes an
               inclusive career-building space to arm you with job-driven skills.
-              IBM & MS’s global presence allures early and mid-career-level
-              experts to redefine their skill sets. Our alliance with tech
-              giants offers a scope to re-establish a global-scale career in
-              data science.
+              IBM global presence allures early and mid-career-level experts to
+              redefine their skill sets. Our alliance with tech giants offers a
+              scope to re-establish a global-scale career in data science.
             </p>
             <p>
               Vietnam’s digital economy heavily relies on the fast-paced rise of
@@ -2916,8 +2914,8 @@ const CitiesRight = ({
               Thus, experts expect a rapid rise in data scientists' jobs
               country-wide. Yet, it requires proven skills with eminent data
               tools to tackle issues with expertise. Learnbay’s alliance with
-              IBM & MS helps experts fulfill their career transition dreams and
-              land prospering job roles.
+              IBM helps experts fulfill their career transition dreams and land
+              prospering job roles.
             </p>
             <p>
               The enrollment rates for <b>data science certificate programs</b>{" "}
@@ -2926,7 +2924,7 @@ const CitiesRight = ({
               more than the bare minimum of skills and knowledge.
             </p>
             <p>
-              If you aspire to become a successful data scientist with IBM & MS
+              If you aspire to become a successful data scientist with IBM
               certifications, check whether you fulfill certain criteria –
               <br />
               <br />
@@ -2938,7 +2936,7 @@ const CitiesRight = ({
             <br />
             <h4 style={{ fontSize: "20px" }}>
               How does Learnbay’s <b>data science course</b> in alliance with
-              IBM & MS uplift your career?
+              IBM uplift your career?
             </h4>
             <p>
               Vietnam is progressing in the data science industry with multiple
@@ -2988,13 +2986,13 @@ const CitiesRight = ({
                 </a>
                 <br />
               </b>{" "}
-              in alliance with IBM & MS offers alluring career gains –{" "}
+              in alliance with IBM offers alluring career gains –{" "}
             </p>
             <br />
             <br />
             <ul>
               <li>One Course Completion and Project Certifications (IBM)</li>
-              <li>One MS Certification</li>
+              <li>Bring Your Own Business Problem</li>
               <li>
                 Attractive hikes with Job offers across Vietnam and overseas
               </li>
@@ -3007,16 +3005,16 @@ const CitiesRight = ({
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
               Tổng quan về Khóa đào tạo Khoa học Dữ liệu Cao cấp của Learnbay
-              tại Việt Nam [Liên minh với IBM & Microsoft]
+              tại Việt Nam [Liên minh với IBM ]
             </h4>
             <p>
               <b>Khóa đào tạo khoa học dữ liệu của Learnbay tại Việt Nam</b> mở
               ra một không gian xây dựng sự nghiệp bao trùm để trang bị cho bạn
               những kỹ năng phù hợp với nhu cầu công việc. Sự hiện diện toàn cầu
-              của IBM & MS thu hút các chuyên gia ở mức độ sớm và trung cấp để
-              định nghĩa lại bộ kỹ năng của họ. Liên minh của chúng tôi với
-              những ông lớn công nghệ cung cấp một phạm vi để tái thiết lập một
-              sự nghiệp quy mô toàn cầu trong lĩnh vực khoa học dữ liệu.
+              của IBM thu hút các chuyên gia ở mức độ sớm và trung cấp để định
+              nghĩa lại bộ kỹ năng của họ. Liên minh của chúng tôi với những ông
+              lớn công nghệ cung cấp một phạm vi để tái thiết lập một sự nghiệp
+              quy mô toàn cầu trong lĩnh vực khoa học dữ liệu.
             </p>
             <p>
               Nền kinh tế số của Việt Nam phụ thuộc nhiều vào sự gia tăng nhanh
@@ -3032,8 +3030,8 @@ const CitiesRight = ({
               làm cho nhà khoa học dữ liệu trên toàn quốc. Tuy nhiên, điều này
               đòi hỏi các kỹ năng được chứng minh với các công cụ dữ liệu đáng
               chú ý để giải quyết các vấn đề một cách thành thạo. Liên minh của
-              Learnbay với IBM & MS giúp các chuyên gia thực hiện ước mơ chuyển
-              đổi sự nghiệp của họ và đạt được các vai trò công việc phát triển.
+              Learnbay với IBM giúp các chuyên gia thực hiện ước mơ chuyển đổi
+              sự nghiệp của họ và đạt được các vai trò công việc phát triển.
             </p>
             <p>
               Tỷ lệ nhập học cho các{" "}
@@ -3048,8 +3046,8 @@ const CitiesRight = ({
             </p>
             <p>
               Nếu bạn ao ước trở thành một nhà khoa học dữ liệu thành công với
-              các chứng chỉ của IBM & MS, hãy kiểm tra xem bạn có đáp ứng được
-              các tiêu chí sau không –
+              các chứng chỉ của IBM , hãy kiểm tra xem bạn có đáp ứng được các
+              tiêu chí sau không –
               <br />
               <br />
             </p>
@@ -3060,7 +3058,7 @@ const CitiesRight = ({
             <br />
             <h4 style={{ fontSize: "20px" }}>
               Làm thế nào Khóa học <b>khoa học dữ liệu của Learnbay</b> phối hợp
-              với IBM & MS nâng cao sự nghiệp của bạn?
+              với IBM nâng cao sự nghiệp của bạn?
             </h4>
             <p>
               Việt Nam đang tiến triển trong ngành công nghiệp khoa học dữ liệu
@@ -3112,7 +3110,7 @@ const CitiesRight = ({
                   khoa học dữ liệu
                 </a>
               </b>{" "}
-              ở Liên minh với IBM & MS cung cấp các lợi ích sự nghiệp hấp dẫn –
+              ở Liên minh với IBM cung cấp các lợi ích sự nghiệp hấp dẫn –
             </p>
             <br />
             <br />
@@ -3133,26 +3131,26 @@ const CitiesRight = ({
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
               About a Rewarding <b>Data Scientist Course in Singapore</b> in
-              Alliance with IBM & Microsoft
+              Alliance with IBM
             </h4>
             <p>
               Singapore has seen a fast-paced rise in data-driven trends over
               the past few years. With over forty data centers, Singapore has
               become the 4th largest data-center market in the Asia-Pacific
               region. Thus, the demand for skillful data scientists keeps
-              increasing in the country. Our exclusive alliance with IBM & MS
-              drives career transition success with marketable skills.
+              increasing in the country. Our exclusive alliance with IBM drives
+              career transition success with marketable skills.
             </p>
             <p>
-              Learnbay, in alliance with IBM & MS, introduces a GenAI-rich
-              course syllabus. These updated modules captivate the focus of
-              working pros with stagnant careers. Its edifying modules craft a
-              bright future in data science.
+              Learnbay, in alliance with IBM , introduces a GenAI-rich course
+              syllabus. These updated modules captivate the focus of working
+              pros with stagnant careers. Its edifying modules craft a bright
+              future in data science.
             </p>
             <p>
-              The Asia-Pacific presence of IBM & MS anticipates a digitally
-              skilled workforce to face major risks with tactful results. Thus,
-              our alliance with these two tech giants proves an industrious step
+              The Asia-Pacific presence of IBM anticipates a digitally skilled
+              workforce to face major risks with tactful results. Thus, our
+              alliance with these two tech giants proves an industrious step
               toward bridging skills gaps. Indeed, Learnbay’s{" "}
               <b>data scientist course Singapore</b> extends a fulfilling step
               for career enthusiasts by all means.
@@ -3179,12 +3177,12 @@ const CitiesRight = ({
             <h4 style={{ fontSize: "20px" }}>
               What career benefits will Learnbay’s{" "}
               <b>data science course in Singapore</b> offer in alliance with IBM
-              & MS?
+              ?
             </h4>
             <p>
               Working pros worried about slow-paced careers and eager to revamp
               can <b>study data science in Singapore</b> with Learnbay. Once you
-              complete the course with project tasks, you will obtain IBM & MS
+              complete the course with project tasks, you will obtain IBM
               certifications. These globally accredited certificates validate
               your ability to sustain in today’s digital era. Currently,
               companies look for data experts with leading-edge skills, and
@@ -3234,22 +3232,22 @@ const CitiesRight = ({
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
               Introducing Learnbay’s Data Science Online Course in South Africa
-              [In alliance with IBM & MS]
+              [In alliance with IBM ]
             </h4>
             <p>
               Learnbay’s <b>data science certificate programs</b> support
               hassle-free career shifts of working experts from diverse fields.
               Its industry-focused course syllabus helps experts to stay
-              informed of recent trends. Meanwhile, our alliance with IBM & MS
+              informed of recent trends. Meanwhile, our alliance with IBM
               increases career values with premium job offers.
             </p>
             <p>
               Learnbay’s <b>data science training in South Africa</b> offers
               live instructor-led sessions to help experts gain in-depth
-              domain-specific skills. Our partnership with IBM & MS offers a
-              scope to gain applied knowledge on the trending tools.
-              Additionally, these valuable certificates further support global
-              career-building with promising job offers.
+              domain-specific skills. Our partnership with IBM offers a scope to
+              gain applied knowledge on the trending tools. Additionally, these
+              valuable certificates further support global career-building with
+              promising job offers.
             </p>
 
             <p>
@@ -3307,7 +3305,7 @@ const CitiesRight = ({
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
               Presenting Learnbay’s Data Science Certification Course in
-              Bangladesh [In Association with IBM & MS]
+              Bangladesh
             </h4>
             <p>
               Bangladesh is one of the digitally growing countries with infinite
@@ -3328,8 +3326,8 @@ const CitiesRight = ({
               Learnbay aims for hassle-free career shifts with promising skills
               upgrades. The industry-driven course syllabus justifies our vision
               to revamp stagnant careers across diverse fields. Meanwhile, our
-              alliance with IBM & MS supports this dynamic approach to assure
-              career gains.
+              alliance with IBM supports this dynamic approach to assure career
+              gains.
             </p>
             <p>
               Working pros eager to re-establish themselves in their career
@@ -3341,8 +3339,8 @@ const CitiesRight = ({
             </p>
             <p>
               Plus, Learnbay offers the best <b>data science certification</b>{" "}
-              in alliance with IBM & MS. It enriches career paths with global
-              job offers and better hikes in your dream roles.
+              in alliance with IBM . It enriches career paths with global job
+              offers and better hikes in your dream roles.
             </p>
 
             <p>
@@ -3398,7 +3396,7 @@ const CitiesRight = ({
               <li>
                 2 IBM Certifications (Course completion & Project experience)
               </li>
-              <li>1 MS (Microsoft) Certification</li>
+              {/* <li>1 MS (Microsoft) Certification</li> */}
 
               <li>Job offers with hikes across Bangladesh and overseas </li>
             </ul>
@@ -3409,8 +3407,7 @@ const CitiesRight = ({
         {cityTextDhaka ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              Briefing on a Trend-setting Data Science Course in Dhaka [In
-              Collaboration with IBM & Microsoft]
+              Briefing on a Trend-setting Data Science Course in Dhaka
             </h4>
             <p>
               In the context of today’s era of digital modernity, data science
@@ -3433,8 +3430,8 @@ const CitiesRight = ({
               Plus, our domain-focused data science course in Dhaka dilates our
               knowledge base with competitive skills. Experts level up their
               existing domain knowledge according to current trends. Plus, our
-              globally recognized certifications from IBM & Microsoft validate
-              your skills with excelling job roles.
+              globally recognized certifications from IBM validate your skills
+              with excelling job roles.
             </p>
             <br />
             <h4 style={{ fontSize: "20px" }}>
@@ -3451,7 +3448,6 @@ const CitiesRight = ({
 
             <ul>
               <li>Two IBM Certifications (Course & Projects)</li>
-              <li>One MS Certification </li>
               <li>Job offers with hikes across Dhaka and overseas</li>
             </ul>
             <br />
@@ -3610,9 +3606,9 @@ const CitiesRight = ({
                   <i>Global certifications: </i>
                 </b>
                 We offer the best data science certification with global-scale
-                job offers. Our certificates from IBM & MS unlock promising
-                career paths. You will get two IBM certifications (project and
-                course) and one MS certification.
+                job offers. Our certificates from IBM unlock promising career
+                paths. You will get two IBM certifications (project and course)
+                and one MS certification.
               </li>
               <br />
               <li>
@@ -3631,7 +3627,7 @@ const CitiesRight = ({
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
               Briefing on Broadly Designed Data Science Course Austin in
-              Collaboration with IBM & Microsoft
+              Collaboration with IBM
             </h4>
             <p>
               Data science tools and trends are drivers of growth and success
@@ -3703,7 +3699,7 @@ const CitiesRight = ({
               <li>Project-based learning (12+ real-time projects)</li>
               <li>Flexible learning methods </li>
               <li>100% job and placement support </li>
-              <li>Globally recognized certifications (IBM & Microsoft)</li>
+              <li>Globally recognized certifications (IBM )</li>
             </ul>
           </div>
         ) : (
@@ -3758,7 +3754,7 @@ const CitiesRight = ({
               <li>Inclusive learning of GenAI-rich tools</li>
               <li>Project-based learning </li>
               <li>100% job and placement support </li>
-              <li>Globally recognized certifications (IBM & Microsoft) </li>
+              <li>Globally recognized certifications (IBM ) </li>
             </ul>
           </div>
         ) : (
@@ -4023,9 +4019,8 @@ const CitiesRight = ({
               <li>
                 <b>Global certifications:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
-                from IBM & MS unlock promising career paths. You will get two
-                IBM certifications (project and course) and one MS
-                certification.
+                from IBM unlock promising career paths. You will get two IBM
+                certifications (project and course) and one MS certification.
               </li>
               <br />
               <li>
@@ -4092,10 +4087,10 @@ const CitiesRight = ({
             </p>
             <p>
               In addition, upskilling from the best data science training
-              institute in Kolkata validates your skills with IBM & Microsoft
-              credentials. These globally recognized certificates enrich career
-              values with fortunate returns. Hence, if you are eager to relaunch
-              your career in data science, enroll in Learnbay’s premier courses.
+              institute in Kolkata validates your skills with IBM credentials.
+              These globally recognized certificates enrich career values with
+              fortunate returns. Hence, if you are eager to relaunch your career
+              in data science, enroll in Learnbay’s premier courses.
             </p>
             <p>Before this, you must consider the requisites –</p>
 
@@ -4151,7 +4146,7 @@ const CitiesRight = ({
               <br />
               <li>
                 <b>Global certifications:</b> A proven training platform to
-                validate your skills via IBM & Microsoft certifications.
+                validate your skills via IBM certifications.
               </li>
               <br />
               <li>
@@ -4229,8 +4224,8 @@ const CitiesRight = ({
             <p>
               In addition, the data science program in Bhubaneswar equips you
               with valuable certifications (with worldwide recognition) from IBM
-              & Microsoft. Enroll in our training program today and sharpen your
-              abilities to attain proven career success.
+              . Enroll in our training program today and sharpen your abilities
+              to attain proven career success.
             </p>
             <p>
               So, if you are interested in a data science career consider
@@ -4291,9 +4286,8 @@ const CitiesRight = ({
               <li>
                 <b>Global certifications:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
-                from IBM & MS unlock promising career paths. You will get two
-                IBM certifications (project and course) and one MS
-                certification.
+                from IBM unlock promising career paths. You will get two IBM
+                certifications (project and course) and one MS certification.
               </li>
               <br />
               <li>
@@ -4348,12 +4342,12 @@ const CitiesRight = ({
             </p>
 
             <p>
-              Plus, our industry alliance with IBM & Microsoft releases true
-              career potential for busy experts in various sectors. Regardless
-              of the data science course in Nagpur fees, many experts enroll
-              here for globally valued certifications. All eligible learners
-              obtain course completion and project certificates from IBM &
-              Microsoft with better job offers.
+              Plus, our industry alliance with IBM releases true career
+              potential for busy experts in various sectors. Regardless of the
+              data science course in Nagpur fees, many experts enroll here for
+              globally valued certifications. All eligible learners obtain
+              course completion and project certificates from IBM with better
+              job offers.
             </p>
             <p>
               These globally recognized credentials help experts ace job
@@ -4417,7 +4411,7 @@ const CitiesRight = ({
               <br />
               <li>
                 <b>Global certifications:</b>A proven learning space to validate
-                learned skills via IBM & Microsoft credentials.
+                learned skills via IBM credentials.
               </li>
               <br />
               <li>
@@ -4726,9 +4720,8 @@ const CitiesRight = ({
               <li>
                 <b>Global certifications:</b>We offer the best data science
                 certification with global-scale job offers. Our certificates
-                from IBM & MS unlock promising career paths. You will get two
-                IBM certifications (project and course) and one MS
-                certification.
+                from IBM unlock promising career paths. You will get two IBM
+                certifications (project and course) and one MS certification.
               </li>
               <br />
               <li>
@@ -4890,9 +4883,8 @@ const CitiesRight = ({
                 {" "}
                 <b>Global certifications:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
-                from IBM & MS unlock promising career paths. You will get two
-                IBM certifications (project and course) and one MS
-                certification.
+                from IBM unlock promising career paths. You will get two IBM
+                certifications (project and course) and one MS certification.
               </li>
               <br />
               <li>
@@ -5045,9 +5037,8 @@ const CitiesRight = ({
               <li>
                 <b>Industry collaborations:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
-                from IBM & MS unlock promising career paths. You will get two
-                IBM certifications (project and course) and one MS
-                certification.
+                from IBM unlock promising career paths. You will get two IBM
+                certifications (project and course) and one MS certification.
               </li>
               <br />
               <li>
@@ -5128,10 +5119,9 @@ const CitiesRight = ({
               demean career values to a greater extent. Hence, join us to
               enhance your career values with global-scale recognition from the
               leading MNCs. Our data science certification in Noida, in alliance
-              with IBM & Microsoft, expands your growth chances and adds more
-              value to your career. Here, experts will obtain course and project
-              certificates from IBM & MS, paving the way for exciting job
-              offers.{" "}
+              with IBM , expands your growth chances and adds more value to your
+              career. Here, experts will obtain course and project certificates
+              from IBM , paving the way for exciting job offers.{" "}
             </p>
             <b>
               {" "}
@@ -5194,8 +5184,7 @@ const CitiesRight = ({
               <br />
               <li>
                 <b>Globally-valued certifications:</b> An open learning space to
-                modernize career values in data science via IBM & Microsoft
-                certificates.
+                modernize career values in data science via IBM certificates.
               </li>
 
               <br />
@@ -5214,7 +5203,7 @@ const CitiesRight = ({
         {DSIndore ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              Data Science Course in Indore In Partnership with IBM & Microsoft
+              Data Science Course in Indore In Partnership with IBM
             </h4>
             <p>
               The digital landscape in Indore is rapidly growing in several
@@ -5346,9 +5335,8 @@ const CitiesRight = ({
               <li>
                 <b>Industry collaborations:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
-                from IBM & MS unlock promising career paths. You will get two
-                IBM certifications (project and course) and one MS
-                certification.
+                from IBM unlock promising career paths. You will get two IBM
+                certifications (project and course) and one MS certification.
               </li>
 
               <br />
@@ -5367,7 +5355,7 @@ const CitiesRight = ({
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
               About Learnbay’s Data Science Institute in Kochi [In Alliance with
-              IBM & Microsoft]
+              IBM ]
             </h4>
             <p>
               The digital world of today embraces data science for its
@@ -5400,9 +5388,8 @@ const CitiesRight = ({
               Our alliance with the industry’s top tech leaders, IBM &
               Microsoft, validates your skill sets and helps you crack dream
               roles. Successful completion of coursework and projects will offer
-              you certificates from IBM & Microsoft. Plus, experts will obtain
-              one IBM project certification, unleashing a global-scale career
-              path.{" "}
+              you certificates from IBM . Plus, experts will obtain one IBM
+              project certification, unleashing a global-scale career path.{" "}
             </p>
 
             <b>
@@ -5467,8 +5454,7 @@ const CitiesRight = ({
               <br />
               <li>
                 <b>Globally-valued certifications:</b> An open upskilling space
-                to modernize career values in data science via IBM & Microsoft
-                certificates.
+                to modernize career values in data science via IBM certificates.
               </li>
               <li>
                 <b>Career Service PRO:</b>Our data science institute in Kochi
@@ -5613,7 +5599,7 @@ const CitiesRight = ({
                 3 years of flexible career support services (mock interviews &
                 resume writing){" "}
               </li>
-              <li>Globally acknowledged IBM & Microsoft certifications </li>
+              <li>Globally acknowledged IBM certifications </li>
             </ul>
           </div>
         ) : (
@@ -5724,10 +5710,10 @@ const CitiesRight = ({
             <p>
               Lastly, Learnbay’s cyber security certifications validate your
               skills and help you grow with definite career success. Experts can
-              earn IBM & Microsoft certificates and add them to their resumes
-              for enriched returns. These globally recognized certifications
-              help you land promising roles, have swift promotions, and attain
-              exciting growth.{" "}
+              earn IBM certificates and add them to their resumes for enriched
+              returns. These globally recognized certifications help you land
+              promising roles, have swift promotions, and attain exciting
+              growth.{" "}
             </p>
             <p>
               Enrol in Learnbay’s <b>cyber security course in Bangalore</b>{" "}
@@ -5909,11 +5895,11 @@ const CitiesRight = ({
               interviews.
             </p>
             <p>
-              Also, attesting IBM & Microsoft certificates to your career
-              empowers a globally acclaimed tech career with exciting perks.
-              These certificates add extra edge to your career and help you
-              crack top-tier product-based interviews. Certificates are useful
-              in validating your skills and helping you grab exciting job offers
+              Also, attesting IBM certificates to your career empowers a
+              globally acclaimed tech career with exciting perks. These
+              certificates add extra edge to your career and help you crack
+              top-tier product-based interviews. Certificates are useful in
+              validating your skills and helping you grab exciting job offers
               with the leading MNCs.
             </p>
             <h3 style={{ fontSize: "18px" }}>
@@ -5982,10 +5968,9 @@ const CitiesRight = ({
               enrich growth terms.
             </p>
             <p>
-              Also, experts can validate their skills with IBM & Microsoft
-              certificates to escalate career growth chances. Earn these
-              credentials and unleash true growth potential on a global
-              level.{" "}
+              Also, experts can validate their skills with IBM certificates to
+              escalate career growth chances. Earn these credentials and unleash
+              true growth potential on a global level.{" "}
             </p>
             <p>
               Hence, investing in Learnbay’s <b>DSA course in Pune</b> is worth
@@ -6005,7 +5990,7 @@ const CitiesRight = ({
                 3 years of flexible career support services (mock interviews &
                 resume writing){" "}
               </li>
-              <li>Globally conceded IBM & Microsoft certifications </li>
+              <li>Globally conceded IBM certifications </li>
             </ul>
           </div>
         ) : (

@@ -440,38 +440,26 @@ export const DSMarathCourseData = [
       "Learners work on real-time projects and case studies to achieve proven proficiency. This method of learning expands earning limits globally and enhances domain-driven skills. Learnbay, in contrast to generic courses, aims to provide data experts with a financially rewarding career by promoting greater enthusiasm and expertise.",
     ModuleBot47: "  ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 
