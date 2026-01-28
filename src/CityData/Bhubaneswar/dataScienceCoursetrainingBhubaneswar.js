@@ -403,7 +403,7 @@ export const DSBhubabneswasCourseData = [
     CertificationBot2:
       "We offer the certification in partnership with IBM and MS, which unleashes a way toward swift promotions. You will receive two IBM certifications after completing the course and project task. This certification includes (course and project) details that help you develop a fulfilling career.        ",
     CertificationBot3:
-      "Microsoft, a leading figure in technology and innovation, also accredits the data science certification course. This MS certification can add valuable skills and demonstrate your data skills, helping you land an ideal job.         ",
+      "A leading figure in technology and innovation, also accredits the data science certification course. This MS certification can add valuable skills and demonstrate your data skills, helping you land an ideal job.         ",
     CertificationBot4:
       " MS certificate Mandate enhances your skill sets with the latest trends, making your resume stand out on job portals. Top MNCs mostly prefer precious certificates that can give you global exposure and make you stand out.         ",
     CertificationBot5:

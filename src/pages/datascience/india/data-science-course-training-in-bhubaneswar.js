@@ -188,7 +188,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Top Data Science Course in Bhubaneswar         "
           firstTopPara="Foundational and Advance Job-ready Program"
-          cityParaCont="Transform your career with the GenAI-inclusive data science course in Bhubaneswar. The program is certified by IBM and Microsoft and offers domain-oriented training, real-world projects, and comprehensive career support to help working pros excel in the data-driven world.           "
+          cityParaCont="Transform your career with the GenAI-inclusive data science course in Bhubaneswar. The program is certified by IBM and offers domain-oriented training, real-world projects, and comprehensive career support to help working pros excel in the data-driven world.           "
         />
         <SecondSection
           SecondSectionData={DSBhubabneswasCourseData[0].secondSection}
