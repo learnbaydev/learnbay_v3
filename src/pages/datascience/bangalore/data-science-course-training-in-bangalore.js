@@ -206,7 +206,7 @@ export default function Home() {
                     "closes": "15:00"
                  }
               ],
-              "priceRange": "₹ 1,35,000 + 18% GST",
+              "priceRange": "₹ 1,20,000 + 18% GST",
               "servesCuisine": "Data Science Education",
               "areaServed": "Bangalore",
               "paymentAccepted": "Cash, Credit Card, Debit Card, EMI"
@@ -290,7 +290,7 @@ export default function Home() {
         <Realstory />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹1,35,000"
+            Fee="₹1,20,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
             weekendbatch="  Weekend Batch"
@@ -313,11 +313,11 @@ export default function Home() {
             // <EMI POPUP
             emiType="NO COST EMI"
             duration1="18 Months"
-            totalAmount1="₹1,35,000"
+            totalAmount1="₹1,20,000"
             monthlyPayment1="₹8,850"
             greenDown1="Standard Intrest rate Applicable"
             duration2="12 Months"
-            totalAmount2="₹1,35,000"
+            totalAmount2="₹1,20,000"
             monthlyPayment2="₹13,275"
           />
         </div>

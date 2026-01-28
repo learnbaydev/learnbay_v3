@@ -3462,8 +3462,7 @@ const CitiesRight = ({
         {cityTextDSMalaysia ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              About Data Science Course in Malaysia In Collaboration with IBM &
-              Microsoft
+              About Data Science Course in Malaysia In Collaboration with IBM
             </h4>
             <p>
               Lately, Malaysia has seen rapid growth in digital shifts across
@@ -3516,9 +3515,9 @@ const CitiesRight = ({
 
             <p>
               Plus, the data science program in Malaysia equips you with
-              valuable certifications (with global recognition) from IBM &
-              Microsoft. Enroll in our course today and hone your skills to
-              attain proven career success.
+              valuable certifications (with global recognition) from IBM .
+              Enroll in our course today and hone your skills to attain proven
+              career success.
             </p>
             <p>
               So, if you are eager to redefine your career in the data science
@@ -3897,8 +3896,7 @@ const CitiesRight = ({
         {DSindia ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              About Data Science Course in India In Collaboration with IBM &
-              Microsoft
+              About Data Science Course in India In Collaboration with IBM
             </h4>
             <p>
               The digital landscape in India shows exponential growth across
@@ -3953,9 +3951,9 @@ const CitiesRight = ({
             </p>
             <p>
               In addition, the data science program in India equips you with
-              valuable certifications (with global recognition) from IBM &
-              Microsoft. Enroll in our training program today and sharpen your
-              skills to attain proven career success.
+              valuable certifications (with global recognition) from IBM .
+              Enroll in our training program today and sharpen your skills to
+              attain proven career success.
             </p>
             <p>
               So, if you are enthusiastic about pursuing a career in the data
@@ -4034,8 +4032,7 @@ const CitiesRight = ({
         {DSkolkota ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              About Data Scientist Course in Kolkata in Alliance with IBM &
-              Microsoft
+              About Data Scientist Course in Kolkata in Alliance with IBM
             </h4>
             <p>
               Today’s rapidly growing digital space relies on effective tech
@@ -4161,8 +4158,7 @@ const CitiesRight = ({
         {DSBhub ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              Data Science Course in Bhubaneswar In Collaboration with IBM &
-              Microsoft
+              Data Science Course in Bhubaneswar In Collaboration with IBM
             </h4>
             <p>
               The digital landscape in Bhubaneswar shows exponential growth
@@ -4301,8 +4297,7 @@ const CitiesRight = ({
         {DSnagpur ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              About Data Science Institute in Nagpur in Alliance with IBM &
-              Microsoft
+              About Data Science Institute in Nagpur in Alliance with IBM
             </h4>
             <p>
               In the 21st Century, an increasing reliance on digital creations
@@ -4427,8 +4422,7 @@ const CitiesRight = ({
         {DSComibotre ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              About Data Science Training in Coimbatore in Alliance with IBM &
-              Microsoft
+              About Data Science Training in Coimbatore in Alliance with IBM
             </h4>
             <p>
               Certainly, the fast-paced evolution of data science across the
@@ -4581,8 +4575,7 @@ const CitiesRight = ({
         {DSJaipur ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              About Data Science Course in Jaipur In Alliance with IBM &
-              Microsoft
+              About Data Science Course in Jaipur In Alliance with IBM
             </h4>
             <p>
               Learnbay offers cutting-edge a data science course in Jaipur
@@ -5572,9 +5565,9 @@ const CitiesRight = ({
             </p>
             <p>
               Our DSA courses in Bangalore set the stage for end-to-end career
-              support – from mock interviews to resume buildup. Also, our IBM &
-              Microsoft certifications validate your skills and help you justify
-              your tech career with top MNCs.
+              support – from mock interviews to resume buildup. Also, our IBM
+              certifications validate your skills and help you justify your tech
+              career with top MNCs.
             </p>
             <p>
               Hence, experts willing to modernize their tech careers must join
