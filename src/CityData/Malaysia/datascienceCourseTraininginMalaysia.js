@@ -164,7 +164,7 @@ export const DSMalaysiaCourseData = [
           {
             id: 1,
             ques: "What are the prerequisites for these Data Science training Courses in Malaysia?",
-            ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ans: "There are no prerequisites for this course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: false,
           },
           {
@@ -183,7 +183,7 @@ export const DSMalaysiaCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in Malaysia?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The total duration of these courses is about 9-13 months, including live lectures, hands-on practical training on live projects, and interview preparation. Classes will be conducted on weekdays and in weekend batches. For a non-master's program, the duration is around 9 months, while the master's program is around 13 months.",
             open: false,
           },
           {
@@ -264,11 +264,7 @@ export const DSMalaysiaCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in Malaysia?",
-            ans: `The total course fee for the 
-                      Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                      Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                      Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                      Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: `The total course fee for the data science course in Malaysia is $1700.`,
             open: true,
           },
           {
@@ -310,17 +306,7 @@ export const DSMalaysiaCourseData = [
           {
             id: 0,
             ques: "How many capstone projects will be there? ",
-            ans: `Depending on the course you choose the number of capstone projects will vary.  
-                      Foundational Data Science and AI Training Course - 1 Capstone.
-                      Advance Data Science and AI Certification Course -2 Capstones.
-                      Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-                      Data Science and AI Training with Placement Assistance- 3 Capstones.
-                      How many real-time projects/case studies will be covered in these Data Science certification courses in Malaysia?
-                      Depending on the course you choose the number of live projects will vary.  
-                      Foundational Data Science and AI Training course- 8 projects.
-                      Advance Data Science and AI Certification course-12 projects.
-                      Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-                      Data Science and AI Training with Placement Assistance- 15 projects.`,
+            ans: `Depending on the course you choose, the number of capstone projects will vary. Usually, you get multiple capstone projects. You can also build your own project using our BYOP feature. Click here to download the list of projects.`,
             linkText1: " Click here to download the list of the projects.",
             link1:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -342,12 +328,7 @@ export const DSMalaysiaCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                      Foundational Data Science and AI Training course- 1 Course Completion Certificate.
-                      Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                      Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                      Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-                      *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+            ans: `The data science course in Malaysia includes an integrated dual Certification from IBM (one course completion certificate and one project certificate).`,
             open: true,
           },
         ],
@@ -458,21 +439,21 @@ export const DSMalaysiaCourseData = [
       "Experts eager to enrich their domain skills can join us and achieve unbeatable success. You can enroll in our program with at least six months of work experience (full-time/part-time).",
     CertificationBot1:
       "With every passing time, the business outlook keeps changing due to constant tech shifts globally. Firms from diverse fields take up many ways to cope with changes and easily tackle the odds. Thus, data literacy skills dominate the current global job market. Certifications are proven ways to cut down hurdles and thrive against rivals.         ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     CertificationBot2:
-      "Our data science certification course in Malaysia assists your career growth journey in collaboration with IBM & MS. Our alliance with two global tech leaders – IBM & MS unleashes a way toward swift promotions.         ",
+      "Our data science certification course in Malaysia assists your career growth journey in collaboration with IBM . Our alliance with two global tech leaders – IBM unleashes a way toward swift promotions.         ",
     CertificationBot3:
       "Once you complete your coursework and project tasks, you will receive two IBM certificates. It validates your domain knowledge and learned skills to craft a meaningful career.         ",
     CertificationBot4:
       "IBM certificates increase the marketability of your career, unleashing global-level success. Regardless of data scientist course fees, pros enroll here for globally recognized certifications. To grab the amazing opportunities, a costly degree in data science is not at all needed, instead, you need to learn the right skill in the right way.         ",
     CertificationBot5:
-      "A data science certification accredited by Microsoft expands the chances of getting selected across MNCs in Malaysia and overseas. With our valuable certificates, you can easily demonstrate your data skills and land dream jobs.    ",
+      "A data science certification accredited by IBM expands the chances of getting selected across MNCs in Malaysia and overseas. With our valuable certificates, you can easily demonstrate your data skills and land dream jobs.    ",
     CertificationBot6:
-      "MS certificate accredits one’s skill sets per the latest trends, increasing resume visibility across job portals. Many companies prefer valuable certificates like IBM & MS that offer you global recognition amongst competitors. ",
+      "IBM accredits one’s skill sets per the latest trends, increasing resume visibility across job portals. Many companies prefer valuable certificates like IBM  that offer you global recognition amongst competitors. ",
     CertificationBot7:
       "Valuable certificates improve your reputation in the workspace. It states unique skill sets to help you stand out against the career race. Increased career credibility enhances your career power with prime job calls.        ",
 
@@ -491,7 +472,7 @@ export const DSMalaysiaCourseData = [
     Modulelist6: " Data Structures and algorithms      ",
     Modulelist7:
       "Deep learning, Natural language processing, Machine learning algorithms       ",
-    Modulelist8: "AWS & MS Azure      ",
+    Modulelist8: "AWS       ",
     Modulelist9: "Case studies in your domain      ",
     Modulelist10: "Hands-on learning projects       ",
     ModuleBot46:
@@ -582,7 +563,7 @@ export const DSMalaysiaCourseData = [
     JobBot005:
       "Our data science online course unlocks the door to global career paths. Experts get the privilege to work with capstone projects in chosen domains. It helps experts get into real-world business issues and solve them with efficiency.       ",
     JobBot006:
-      "Plus, we offer a data science certificate online accredited by IBM & MS for extended social connections and global recognition. Our 350+ leading MNCs & unicorn startups guide you to crack product/service-based interviews with leading MNCs.       ",
+      "Plus, we offer a data science certificate online accredited by IBM for extended social connections and global recognition. Our 350+ leading MNCs & unicorn startups guide you to crack product/service-based interviews with leading MNCs.       ",
     JobHead22:
       "What job roles can you get into with Learnbay’s online data science course?         ",
 
