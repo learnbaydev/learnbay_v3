@@ -149,7 +149,7 @@ export const DSCoimbCourseData = [
           {
             id: 0,
             ques: "How long does the data science course in Coimbatore typically take to complete?              ",
-            ans: "Learnbay offers flexible data science training in Coimbatore that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+            ans: "The duration of the data science and Gen AI course is 9-13 months.",
 
             link: false,
             open: true,
@@ -218,7 +218,7 @@ export const DSCoimbCourseData = [
           {
             id: 0,
             ques: "What is the cost of the data science course, and are there any installment options?              ",
-            ans: `The data science course in Coimbatore fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST. `,
             open: true,
           },
           {
@@ -277,7 +277,7 @@ export const DSCoimbCourseData = [
           {
             id: 0,
             ques: "Is the certification internationally recognized?              ",
-            ans: `Learnbay offers an internationally recognized data science certification in Coimbatore. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certifications.  `,
             open: true,
           },
         ],
@@ -403,11 +403,11 @@ export const DSCoimbCourseData = [
     CertificationBot2:
       "Data science in Coimbatore brings alluring career growth options for experts at various levels. Certificates are the perfect way to attain global-level success by cracking top-tier jobs. Unlike standard courses, learning with us will enrich your career values with globally valued certificates. These certificates validate learned skills and guide you to crack top-tier job roles in your chosen field. ",
     CertificationBot3:
-      "Learning via our data science course in Coimbatore with global certifications improves your job selection rates with exciting gains. Our alliance with IBM & Microsoft accelerates your success metrics with proven gains. Learners will get two IBM & Microsoft course certificates and one IBM project certificate. Validation from top-notch tech leaders enhances career growth metrics and equips learners with tempting gains. Hence, join us today and rebuild your career graph, cracking in-demand roles with top-tier MNCs. Plus, you will get exposure to global-level job offers with swift promotions and hikes. ",
+      "Learning via our data science course in Coimbatore with global certifications improves your job selection rates with exciting gains. Our alliance with IBM accelerates your success metrics with proven gains. Learners will get two IBM course certificates and one IBM project certificate. Validation from top-notch tech leaders enhances career growth metrics and equips learners with tempting gains. Hence, join us today and rebuild your career graph, cracking in-demand roles with top-tier MNCs. Plus, you will get exposure to global-level job offers with swift promotions and hikes. ",
     CertificationBot4: "     ",
     CertificationBot5: "  ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
@@ -517,7 +517,7 @@ export const DSCoimbCourseData = [
     JobBot007:
       "Upskilling via Learnbay’s best data science courses in Coimbatore unleashes a global-level career path with tempting gains. With us, you will gain GenAI-rich skills to tackle critical business issues and devise optimal solutions. Mentorship from industry experts keeps you informed about the latest incidents and devises the right solution.",
     JobBot005:
-      "Our alliance with IBM & Microsoft crafts a global-scale career path enriching success metrics. Experts will attest valuable IBM & MS certificates to their careers and land their dream roles here. Our coalition with 350+ leading MNCs & unicorn startups helps you crack critical job interviews via career support services. Hence, join us today and escalate your career success chances with ultimate benefits.",
+      "Our alliance with IBM crafts a global-scale career path enriching success metrics. Experts will attest valuable IBM & MS certificates to their careers and land their dream roles here. Our coalition with 350+ leading MNCs & unicorn startups helps you crack critical job interviews via career support services. Hence, join us today and escalate your career success chances with ultimate benefits.",
     JobBot006: " ",
     JobHead22:
       "What specialized job roles can you crack with Learnbay’s data scientist course in Coimbatore?",

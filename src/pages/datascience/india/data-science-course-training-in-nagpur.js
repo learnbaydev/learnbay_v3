@@ -187,7 +187,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Best Online Data Science Course in Nagpur          "
           firstTopPara="Foundational and Advance Job-ready Program"
-          cityParaCont=" Stay ahead in your career by joining the leading data science course in Nagpur. Learn from industry experts, get hands-on experience on the latest tools, and earn certificates from IBM and Microsoft.           "
+          cityParaCont=" Stay ahead in your career by joining the leading data science course in Nagpur. Learn from industry experts, get hands-on experience on the latest tools, and earn certificates from IBM."
         />
         <SecondSection
           SecondSectionData={DSnagpurCourseData[0].secondSection}

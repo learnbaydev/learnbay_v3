@@ -149,7 +149,7 @@ export const DSnagpurCourseData = [
           {
             id: 0,
             ques: "How long does the data science course in Nagpur typically take to complete?              ",
-            ans: "Learnbay offers flexible data science training in Nagpur that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+            ans: "The duration of the data science and Gen AI course is 9-13 months.",
 
             link: false,
             open: true,
@@ -218,7 +218,7 @@ export const DSnagpurCourseData = [
           {
             id: 0,
             ques: "What is the cost of the data science course, and are there any installment options?              ",
-            ans: `The data science course in Nagpur fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST. `,
             open: true,
           },
           {
@@ -277,7 +277,7 @@ export const DSnagpurCourseData = [
           {
             id: 0,
             ques: "Is the certification internationally recognized?              ",
-            ans: `Learnbay offers an internationally recognized data science certification in Nagpur. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certifications. `,
             open: true,
           },
         ],
@@ -403,11 +403,11 @@ export const DSnagpurCourseData = [
     CertificationBot2:
       "Certifications are crucial to provide enough validation and recognition from esteemed companies to do a specific job. Thus, you must enroll in top-tier data science certification courses that offer globally accredited validation. Such certificates enhance your professional credibility to land dream roles in your chosen field. Thus, many join us regardless of data scientist course fees in Nagpur.         ",
     CertificationBot3:
-      "Learnbay’s industry alliance with top-notch leaders IBM and Microsoft unleashes prime career potential with global-scale gains. Experts enrolling in our top data science training programs in Nagpur will obtain globally valued certifications from IBM and Microsoft. Each learner will acquire course completion and project certificates from IBM and MS to demonstrate their expertise. These valuable certifications help experts crack desirable jobs with attractive packages. Additionally, it offers global exposure to learners with endless opportunities for career transitions and stands out against the competition.         ",
+      "Learnbay’s industry alliance with top-notch leaders IBM unleashes prime career potential with global-scale gains. Experts enrolling in our top data science training programs in Nagpur will obtain globally valued certifications from IBM . Each learner will acquire course completion and project certificates from IBM and MS to demonstrate their expertise. These valuable certifications help experts crack desirable jobs with attractive packages. Additionally, it offers global exposure to learners with endless opportunities for career transitions and stands out against the competition.         ",
     CertificationBot4: "   ",
     CertificationBot5: " ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
@@ -519,7 +519,7 @@ export const DSnagpurCourseData = [
     JobBot007:
       " Upskilling via a data science course in Nagpur unlocks the door toward global-level career shifts with top-tier MNCs. Learnbay offers career-worthy solutions via its GenAI-rich syllabus, project-based learning, and global certifications.         ",
     JobBot005:
-      " Our alliance with tech leaders IBM & Microsoft paves the way for alluring success with fortunate gains. Global certifications from IBM & MS extend earning limits with exciting hikes and promotions. Plus, our leading MNCs & unicorn startupship with 450+ MNCs assists with effortless job and placement support. Hence, joining Learnbay’s cutting-edge courses brings proven gains you should not miss.         ",
+      " Our alliance with tech leaders IBM paves the way for alluring success with fortunate gains. Global certifications from IBM & MS extend earning limits with exciting hikes and promotions. Plus, our leading MNCs & unicorn startupship with 450+ MNCs assists with effortless job and placement support. Hence, joining Learnbay’s cutting-edge courses brings proven gains you should not miss.         ",
     JobBot006: " ",
     JobHead22:
       "What specific career roles can you crack with Learnbay’s online data science courses in Nagpur?         ",
