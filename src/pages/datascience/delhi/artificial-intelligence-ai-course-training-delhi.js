@@ -199,7 +199,7 @@ export default function Home() {
                   closes: "15:00",
                 },
               ],
-              priceRange: "₹ 1,15,000 + 18% GST",
+              priceRange: "₹ 1,59,000 + 18% GST",
               servesCuisine: "Artificial Intelligence Education",
               areaServed: "Delhi",
               paymentAccepted: "Cash, Credit Card, Debit Card, EMI",
@@ -550,7 +550,7 @@ export default function Home() {
           firstToparaImg=" For Managers and Leaders"
           firstHeading="Artificial Intelligence (AI) Training in Delhi"
           firstTopPara="Becomes an AI Expertise In Product Based MNCs"
-          cityParaCont="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
+          cityParaCont="Become a successful data science manager/leader within 11 to 13  months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
         />
         <SecondSection SecondSectionData={AIelhiCourseData[0].secondSection} />
         <Testimonial
@@ -561,7 +561,7 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 1,15,000"
+            Fee="₹ 1,59,000"
             FeeEmi="₹ 7,539/ Month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"

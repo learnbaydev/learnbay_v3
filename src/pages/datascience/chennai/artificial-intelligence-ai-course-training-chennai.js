@@ -459,7 +459,7 @@ export default function Home() {
           FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
-          cityParaCont=" Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
+          cityParaCont=" Become a successful data science manager/leader within 11 to 13 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
           dataScienceCounselling={true}
           interstedInHide={true}
           firstToparaImg="For Managers and Leaders"

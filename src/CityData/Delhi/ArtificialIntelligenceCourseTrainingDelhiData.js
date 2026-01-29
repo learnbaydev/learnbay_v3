@@ -556,27 +556,7 @@ export const AIelhiCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced AI in Delhi?",
-            ans: `The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations.
-                Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
-                Foundational Data Science and Artificial Intelligence Training Course (220+ hours)
-                Weekday batch - 6 months
-                Weekend batch - 8 months
-                
-                Machine learning and AI Certification (280+ hours)
-                Weekday batch - 9.5 months
-                Weekend batch - 11 months
-                
-                Advanced Data Science and AI Certification Course (270+ hours)
-                Weekday batch - 7 months
-                Weekend batch - 9  months
-                
-                Data Science and AI Certification Course for Managers and Leaders (340+ hours)
-                Weekday batch - 11 months
-                Weekend batch - 13  months
-                
-                Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours)
-                Weekday batch - 13 months
-                Weekend batch - 15  months`,
+            ans: `The duration of the Artificial Intelligence training course in Delhi varies from 9 months to 13 months.  `,
             open: false,
           },
           {
@@ -658,18 +638,13 @@ export const AIelhiCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Learnbay AI Certifications courses in Delhi?",
-            ans: `The total course fee for the 
-                Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST.
-                Advance Data Science and  AI Certification course is 1,05,000/- inclusive of GST.
-                Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-                Machine learning and AI Certification is 1,15,000/-inclusive of GST`,
+            ans: `Depending on the artificial intelligence course with Gen AI you chose, the course fees vary from 1,20,000 to 1,59,000 INR. `,
             open: true,
           },
           {
             id: 1,
             ques: "Can I pay in installments for these AI Certification courses in Delhi?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             open: false,
           },
           {
@@ -745,13 +720,8 @@ export const AIelhiCourseData = [
           {
             id: 0,
             ques: "Is there any accredited AI certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                    Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
-                    Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                    Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                    Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
-                    Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                    *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.`,
+            ans: `Artificial intelligence training course in Delhi offers IBM and Microsoft certification with exclusive project certificate. 
+`,
             open: true,
           },
         ],
@@ -876,11 +846,11 @@ export const AIelhiCourseData = [
       "Candidates will acquire IBM certifications after completing an Artificial Intelligence course training in Delhi from Learnbay. You will receive one to eight certificates, depending on your chosen course available in Delhi. Additionally, students will also obtain an IBM project experience accreditation from IBM after completing capstone projects.",
     CertificationBot2:
       "Learnbay has reached a key milestone by partnering with IBM and Learners working at 350+ MNCs and startups. With Learnbay IBM certification on your resume, you'll be well on your way to land on a high-paying Artificial Intelligence job at one of the world's most prestigious companies. Over 10,000 students have completed our Artificial Intelligence course, allowing themselves to work in high-paying Artificial Intelligence and Machine Learning jobs all over Delhi.",
-    src33:
+   src33:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
     ModuleBot1:
       "Learnbay is dedicated to offering potential students with the highest-quality AI training. As a result, we've developed a variety of IBM Artificial Intelligence courses to meet the market's ever-changing requirements. Our Artificial Intelligence training courses in Delhi include various learning modules tailored to the aspirant's present professional stage, educational background and future career ambitions.",
     ModuleBot2:

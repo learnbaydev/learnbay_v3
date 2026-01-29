@@ -469,7 +469,7 @@ export default function Home() {
           firstToparaImg="For Managers and Leaders"
           firstHeading="Artificial Intelligence(Ai) Course Training In Canada"
           firstTopPara="Job-Assured Artificial Intelligence Training  Program"
-          cityParaCont="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
+          cityParaCont="Become a successful data science manager/leader within 11 to 13  months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
         />
         <SecondSection
           SecondSectionData={AIcanadaCourseData[0].secondSection}
@@ -482,7 +482,7 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 1,15,000"
+            Fee="₹ 1,59,000"
             FeeEmi="₹ 7,539/ Month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"

@@ -653,11 +653,7 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Learnbay AI Certifications courses in Bangalore?",
-            ans: `The total course fee for the 
-            Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-            Advance Data Science and AI Certification course is 1,15,000/- inclusive of GST.
-            Data Science and AI Certification Course for Managers and Leaders is 1,35,700/- inclusive of GST.
-            Data Science and AI Master Certification Program is 1,59,300/- inclusive of GST.`,
+            ans: `The total fees for the Artificial Intelligence course in Bangalore in master's program is 1.59,000/-. It also offers agentic AI. If you are not interested in master's program, you can check the Data Science and Agentic AI program, perfect for intermediate level proffessioanls. This costs around 1,20,000 INR.`,
             open: true,
           },
           {
@@ -745,7 +741,7 @@ export const DataScienceCourseData = [
             Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
             Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
             Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-            *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.`,
+            *All the certificates accredited by IBM. Note: Please check the course brochure for the latest and updated certifications.`,
             open: true,
           },
         ],
@@ -877,43 +873,31 @@ export const DataScienceCourseData = [
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
     ModuleBot1:
       "Learnbay artificial intelligence and ML training in Bangalore include 400 hrs of uninterrupted live classes conducted by MAANG experts. The foundational and advanced program also consists of  200+ sessions. The most impressive information is that all of these classes are completely live and interactive only. Students can attend multiple sessions of classes and instructors. Learnbay Provides 1- 3 years of flexi membership on artificial intelligence training so that students can learn at ease and in comfort from their devices. Students get to talk to mentors and guides with 1-1 live sessions to clear all their doubts. Our LMS is always updated with the latest version of courses and is altered according to the industry demands and standards. Here you get crisp industry-curated training on R, NLP, artificial neural networks, and so on.",
     ModuleBot2:
       "Learnbay provides special basic coding classes and regular updates of coding assignments. Students can participate in Learnbay's exclusive hackathons and webinars.",
-    syllabush1: "Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Cohort Orientation",
-    SyllabusBotlist12: "Data and its impact on career opportunities",
-    SyllabusBotlist13: "Fundamentals of programming",
-    SyllabusBotlist14: "Python Fundamentals",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode.",
-    syllabush2: "Statistics and Machine Learning",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: " Fundamentals of Math and Probability",
-    SyllabusBotlist22: " Descriptive Statistics",
-    SyllabusBotlist23: " Inferential Statistics",
-    SyllabusBotlist24: " Data Preprocessing",
-    SyllabusBotlist25: "Logistic Regression Model",
-    SyllabusBotlist26: "K Nearest Neighbours Model",
-    syllabush3: "Data Science Tools",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "SQL",
-    SyllabusBotlist32: "MongoDB",
-    SyllabusBotlist33: "Tableau",
-    SyllabusBotlist34: "PowerBI",
-    SyllabusBotlist35: "Big Data & Spark Analytics",
-    SyllabusBotlist36: "Time Series",
-    syllabush4: "Artificial Intelligence Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: "Deep Learning Using Tensorflow",
-    SyllabusBotlist42: "Natural Language Processing (NLP)",
-    SyllabusBotlist43: "Computer Vision",
-    SyllabusBotlist44: "Reinforcement Learning",
-    SyllabusBotlist45: "Deployment (AWS+Azure)",
-    SyllabusBotlist46: "Model Training and Evaluation",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
     JobBot1:
