@@ -134,7 +134,7 @@ export const FullStackDubaiCourseData = [
           {
             id: 4,
             ques: "What will be the program duration for this full-stack software developer course in Dubai?",
-            ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+            ans: "The duration of this software development course with Agentic AI in Dubai is 11 months.",
             open: false,
           },
           {
@@ -220,15 +220,13 @@ export const FullStackDubaiCourseData = [
           {
             id: 0,
             ques: "How much is the full-stack software developer course fee in Dubai?",
-            ans: `The total cost of the full-stack software development course in Dubai is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+            ans: `The total cost of a full-stack software development course in Dubai with agentic AI is 1,59,000 INR, excluding tax.`,
             open: true,
           },
           {
             id: 1,
             ques: "Is there any Installment / EMI option available for this course in Dubai?",
-            ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
-            linkText1: "@ +917795687988",
-            link1: "tel:+917795687988",
+            ans: "Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip.",
             open: false,
           },
           {
@@ -440,12 +438,15 @@ export const FullStackDubaiCourseData = [
     DomainBot1:
       "Nowadays, most organizations look for candidates with domain knowledge and experience, and this is why domain specialization is so important. Learnbay's full-stack developer course is a specialized domain course for students to excel in their particular domain. Actually, this is the success key of Learnbay’s full-stack development course in Dubai.",
     DomainHead2:
-      "There are five elite domains in the Full-stack development course :",
-    DomainHead3: "a. Full stack web development (Front and back-end)",
-    DomainHead4: "b. Product engineer and manager",
-    DomainHead5: "c. Data science and AI",
-    DomainHead6: "d. Web 3.0 developer",
-    DomainHead7: "e. DevOps and clouds",
+      "There are six elite domains in the Full-stack development course:-",
+    DomainHead3: "a. GenAI for Software Development and SDE Roles",
+    DomainHead4: "b. AI-Powered Backend Engineering for AI Systems",
+    DomainHead5: "c. AI for Cloud, DevOps, and LLM Infrastructure",
+    DomainHead6: "d. Distributed Systems & Microservices for AI Applications",
+    DomainHead7: "e. Multi-Agent Systems & Workflow Automation with Agentic AI",
+    DomainHead8: "f. GenAI & Agentic AI for Product Managers",
+
+  
     ModuleBot1:
       "Our full-stack developer course is conducted by experts and IT professionals who are experienced full-stack software developers and working in top-notch MNCs/ PRODUCT Based Companies for more than 8 years. They keep doing extensive research and accordingly design the respective full-stack course modules.",
     ModuleBot2: "Become a professional MEAN and MERN stack developer.",

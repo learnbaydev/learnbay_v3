@@ -179,7 +179,7 @@ export default function Home() {
         /> */}
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 1,15,000"
+            Fee="₹ 1,59,000"
             FeeEmi="₹ 7,538/month"
             weekendbatch="Weekday Evening (DSA BATCHES)"
             weekdaybatch="Weekday Evening (DSA BATCHES)"
@@ -212,7 +212,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              // certificate1={true}
+               fullStackCity={true}
               // certificate2={true}
               ProgramBot1={FullStackDubaiCourseData[0].ProgramBot1}
               ProgramBot2={FullStackDubaiCourseData[0].ProgramBot2}
@@ -240,6 +240,7 @@ export default function Home() {
               DomainHead5={FullStackDubaiCourseData[0].DomainHead5}
               DomainHead6={FullStackDubaiCourseData[0].DomainHead6}
               DomainHead7={FullStackDubaiCourseData[0].DomainHead7}
+              DomainHead8={FullStackDubaiCourseData[0].DomainHead8}
               DomainBot2={FullStackDubaiCourseData[0].DomainBot2}
               DomainBot3={FullStackDubaiCourseData[0].DomainBot3}
               DomainList1={FullStackDubaiCourseData[0].DomainList1}
