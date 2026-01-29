@@ -1,42 +1,42 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { BABangaloreCourseData } from "../../../../src/CityData/Bangalore/businessAnalyticsCourseTrainingBangaloreData";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Navbar from "../../../components/Global/Navbar/Navbar";
-import Popup from "../../../components/Global/Popup/Popup";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
-import styles from "../../../styles/Home.module.css";
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { BABangaloreCourseData } from '../../../../src/CityData/Bangalore/businessAnalyticsCourseTrainingBangaloreData';
+import Footer from '../../../components/Global/Footer/Footer';
+import Form from '../../../components/Global/Form/Form';
+import Navbar from '../../../components/Global/Navbar/Navbar';
+import Popup from '../../../components/Global/Popup/Popup';
+import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
+import Testimonial from '../../../components/Seo/Testimonial/Testimonial';
+import styles from '../../../styles/Home.module.css';
+const OfferPopup = dynamic(
+  () => import('../../../components/Global/OfferPopup/OfferPopup')
 );
-const FirstSection = dynamic(() =>
-  import("../../../components/Seo/FirstSection/FirstSection")
+const FirstSection = dynamic(
+  () => import('../../../components/Seo/FirstSection/FirstSection')
 );
-const SecondSection = dynamic(() =>
-  import("../../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import('../../../components/Seo/SecondSection/SecondSection')
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
+const ProgramInfo = dynamic(
+  () => import('../../../components/Seo/ProgramInfo/ProgramInfo')
 );
-const SeventhSection = dynamic(() =>
-  import("../../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import('../../../components/Seo/SeventhSection/SeventhSection')
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
+const ProgramFee = dynamic(
+  () => import('../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
-const CityText = dynamic(() =>
-  import("../../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import('../../../components/Seo/CityText/CityText')
 );
-const CitiesLeft = dynamic(() =>
-  import("../../../components/Seo/CitiesLeft/CitiesLeftDomain")
+const CitiesLeft = dynamic(
+  () => import('../../../components/Seo/CitiesLeft/CitiesLeftDomain')
 );
-const CitiesRight = dynamic(() =>
-  import("../../../components/Seo/CitiesRight/CitiesRightdomain")
+const CitiesRight = dynamic(
+  () => import('../../../components/Seo/CitiesRight/CitiesRightdomain')
 );
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -49,8 +49,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -63,7 +63,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === 'Adv Data Science and AI') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -75,7 +75,7 @@ export default function Home() {
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf';
   return (
     <div className={styles.container}>
       <Head>
@@ -142,7 +142,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -160,7 +160,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Business Analytics Master Program"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
           brochurePdf={pdfUrl}
           idss="CHut_wm-P2s"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/manager+header+image.webp"
@@ -197,7 +197,7 @@ export default function Home() {
             dataScienceCounselling={true}
             interstedInHide={true}
             titleCourse="Business Analytics Certification Program"
-            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
             brochurePdf={pdfUrl}
             dataScience={true}
             // EMI POPUPDATA

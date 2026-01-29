@@ -209,7 +209,7 @@ export default function Home() {
             dataScienceCounselling={true}
             dataScience={true}
             titleCourse="AI & ML Program for tech professionals"
-            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
             brochurePdf={pdfUrl}
             interstedInHide={true}
             // <EMI POPUP

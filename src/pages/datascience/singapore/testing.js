@@ -1,38 +1,38 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { TestingCourseData } from "@/CityData/testingData/testingData";
-import Navbar from "../../../components/Global/Navbar/Navbar";
-import styles from "../../../styles/Home.module.css";
-import FirstSectionCopy from "@/components/testingComponent/FirstSection/FirstSection";
-import SecondSectionCopy from "@/components/testingComponent/SecondSection/SecondSection";
-const RelatedCourses = dynamic(() =>
-  import("@/components/testingComponent/RelatedCourses/RelatedCourses")
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { TestingCourseData } from '@/CityData/testingData/testingData';
+import Navbar from '../../../components/Global/Navbar/Navbar';
+import styles from '../../../styles/Home.module.css';
+import FirstSectionCopy from '@/components/testingComponent/FirstSection/FirstSection';
+import SecondSectionCopy from '@/components/testingComponent/SecondSection/SecondSection';
+const RelatedCourses = dynamic(
+  () => import('@/components/testingComponent/RelatedCourses/RelatedCourses')
 );
-const TestimonialCopy = dynamic(() =>
-  import("@/components/testingComponent/Testimonial/Testimonial")
+const TestimonialCopy = dynamic(
+  () => import('@/components/testingComponent/Testimonial/Testimonial')
 );
-const SeventhSectionCopy = dynamic(() =>
-  import("@/components/testingComponent/SeventhSection/SeventhSection")
+const SeventhSectionCopy = dynamic(
+  () => import('@/components/testingComponent/SeventhSection/SeventhSection')
 );
-const FeeSectionCopy = dynamic(() =>
-  import("@/components/testingComponent/FeeSection/FeeSection")
+const FeeSectionCopy = dynamic(
+  () => import('@/components/testingComponent/FeeSection/FeeSection')
 );
-const CitiesLeftCopy = dynamic(() =>
-  import("@/components/testingComponent/CitiesLeft/CitiesLeftDomain")
+const CitiesLeftCopy = dynamic(
+  () => import('@/components/testingComponent/CitiesLeft/CitiesLeftDomain')
 );
-const CitiesRightCopy = dynamic(() =>
-  import("@/components/testingComponent/CitiesRight/CitiesRightdomain")
+const CitiesRightCopy = dynamic(
+  () => import('@/components/testingComponent/CitiesRight/CitiesRightdomain')
 );
-const MapCopy = dynamic(() =>
-  import("@/components/testingComponent/Maps/Maps")
+const MapCopy = dynamic(
+  () => import('@/components/testingComponent/Maps/Maps')
 );
-const Footer = dynamic(() =>
-  import("../../../components/Global/Footer/Footer")
+const Footer = dynamic(
+  () => import('../../../components/Global/Footer/Footer')
 );
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 export default function Home() {
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf';
   return (
     <div className={styles.container}>
       <Head>
@@ -78,7 +78,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <FirstSectionCopy
           FirstTyped="Job-ready with interview support"
@@ -87,7 +87,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Analytics Program"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
           brochurePdf={pdfUrl}
           idss="y_0IdhFKJKM"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/data+analytics+header+image.webp"
@@ -123,7 +123,7 @@ export default function Home() {
             interstedInHide={true}
             dataScience={true}
             titleCourse="Data Analytics Certification Program"
-            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
             brochurePdf={pdfUrl}
             // EMI POPUPDATA
             emiType="NO COST EMI"
