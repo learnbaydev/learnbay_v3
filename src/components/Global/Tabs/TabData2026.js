@@ -29,7 +29,7 @@ export const TabData = [
         url: "/genai-agentic-ai-for-cloud-devops",
       },
       {
-        CName: "Applied AI Practioner Program ",
+        CName: "Applied AI Practitioner Program ",
         hours: "4 Months",
         url: "/artificial-intelligence/applied-ai-practitioner-program",
       },
@@ -50,7 +50,7 @@ export const TabData = [
         url: "/genai-and-agentic-ai-master-program",
       },
       {
-        CName: "GenAI & Agentic AI For Manager & Leaders ",
+        CName: "GenAI & Agentic AI For Managers & Leaders ",
         hours: "5 months ",
         url: "/genai-agentic-ai-managers-leaders",
       },
@@ -60,7 +60,7 @@ export const TabData = [
         url: "/genai-agentic-ai-for-cloud-devops",
       },
       {
-        CName: "GenAI & Agentic AI For Software Developer",
+        CName: "GenAI & Agentic AI For Software Developers",
         hours: "5 months ",
         url: "/artificial-intelligence/genai-software-developers",
       },
@@ -70,7 +70,7 @@ export const TabData = [
         url: "/genai-agentic-ai-program",
       },
       {
-        CName: "Applied AI Practioner Program ",
+        CName: "Applied AI Practitioner Program ",
         hours: "4 months ",
         url: "/artificial-intelligence/applied-ai-practitioner-program",
       },

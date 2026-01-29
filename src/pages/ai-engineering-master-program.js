@@ -1,325 +1,268 @@
-import React from "react";
-import Head from "next/head";
-import dynamic from "next/dynamic";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import DSAHeader from "@/components/CoursePage/NewDSA/Header/NewDSAHeader";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
+import FAQ from '@/components/AppliedAIPractitionerProgram/FAQs/FAQ';
+import HighlightsSection from '@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection';
+import GenAIProject from '@/components/CoursePage/genAiProject/GenAIProject';
+import BookDemo from '@/components/CoursePage/NewDSA/BookDemo/BookDemo';
+import Newheader from '@/components/CoursePage/newHeader/newHeader';
+import AlumniCompanies from '@/components/CoursePage/newUICourse/AlumniCompanies';
+import LearningToPlacement from '@/components/CoursePage/newUICourse/LearningToPlacementinfinity/LearningToPlacement';
+import UpdatedCertificate from '@/components/CoursePage/UpdatedCertificate/UpdatedCertificate';
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
 const ProgramSection = dynamic(
-  () => import("@/components/CoursePage/NewDSA/ProgramSection/ProgramSection"),
+  () => import('@/components/CoursePage/NewDSA/ProgramSection/ProgramSection')
 );
 const DSAPractical = dynamic(
-  () => import("@/components/CoursePage/NewDSA/Practical/DSAPractical"),
+  () => import('@/components/CoursePage/NewDSA/Practical/DSAPractical')
 );
 const AnimationNew = dynamic(
-  () => import("@/components/Home/whyChooseSection/whylblimited"),
+  () => import('@/components/Home/whyChooseSection/whylblimited')
 );
 const Other = dynamic(
-  () => import("@/components/Home/newUI/OtherVS_updated/Other"),
+  () => import('@/components/Home/newUI/OtherVS_updated/Other')
 );
 const JobReadySection = dynamic(
-  () =>
-    import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection"),
+  () => import('@/components/CoursePage/NewDSA/JobReadySection/JobReadySection')
 );
 const SyllabusNew = dynamic(
-  () => import("@/components/CoursePage/Syllabus/MasterSyllabus2025"),
+  () => import('@/components/CoursePage/Syllabus/MasterSyllabus2025')
 );
 const NewCertificateSection = dynamic(
-  () => import("@/components/CoursePage/newCertificate/NewCertificate"),
+  () => import('@/components/CoursePage/newCertificate/NewCertificate')
 );
 const DSAFeeSection = dynamic(
-  () => import("@/components/CoursePage/dsaFee/DSAFeeSection"),
+  () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
 );
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
 const NewSevenSection = dynamic(
-  () =>
-    import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection"),
+  () => import('@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection')
 );
 const MentorsSection = dynamic(
-  () => import("@/components/course/MentorsSection/MentorsSection"),
+  () => import('@/components/course/MentorsSection/MentorsSection')
 );
-import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
 const ReviewSlider = dynamic(
-  () => import("@/components/Home/newUI/reviewSlider/reviewSlider"),
+  () => import('@/components/Home/newUI/reviewSlider/reviewSlider')
 );
-import Certificate from "@/components/CoursePage/Certificate/Certificate";
 const Content = dynamic(
-  () => import("@/components/CoursePage/Content/content"),
+  () => import('@/components/CoursePage/Content/content')
 );
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
-import {
-  getDSABookingLaterDate,
-  getDSABookingSoonDate,
-} from "@/Util/getDSABatchData";
-import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacementinfinity/LearningToPlacement";
-import Newheader from "@/components/CoursePage/newHeader/newHeader";
-import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
-import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
-import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
-import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection";
-import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf';
 
-  let soonDate = getDSABookingSoonDate();
-  let laterDate = getDSABookingLaterDate();
-  // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
-  // console.log(getDSABookingLaterDate(new Date('2023-03-24')));
-
-  // const faqNewData = [
-  //   {
-  //     id: 0,
-  //     sectionName: "Course-Related",
-  //     data: [
-  //       {
-  //         id: 0,
-  //         ques: "Can I do a Gen AI and Agentic AI Course at Learnbay?",
-  //         ans: "Yes, mid-career working professionals with a minimum of 1+ years of IT experience can pursue our Gen AI Program. Apart from this, one must have a basic understanding of Python, ML, and Deep Learning. ",
-  //         open: true,
-  //       },
-  //       {
-  //         id: 1,
-  //         ques: "Can I pursue a Generative AI course while having a full-time job or from a different time zone?",
-  //         ans: "Yes. Working professionals can enroll in a Generative AI course online and get the flexibility of balancing their work-study obligations. This course offers 100% live online interactive sessions. Experts can choose and plan their batches for weekday or weekend sessions. ",
-  //         open: false,
-  //       },
-  //       {
-  //         id: 2,
-  //         ques: "Are there any hands-on labs or practical tasks in the course modules?",
-  //         ans: "Yes. The Generative AI course focuses on project-based learning. Here, you will work on real-time AI startup projects to tackle GenAI and Agentic AI challenges and gain insights. ",
-  //         open: false,
-  //       },
-  //       {
-  //         id: 3,
-  //         ques: "Is a Gen AI course for working professionals worth it?",
-  //         ans: "Pursuing a Generative AI course for working professionals is a notable career investment. Working professionals can design GenAI applications, build AI agents, and integrate LLMs for smooth workflows. Also, earning IBM credentials and working with real-time AI startups can escalate career success metrics with exciting gains. ",
-  //         open: false,
-  //       },
-  //       {
-  //         id: 4,
-  //         ques: "What is the duration of the Gen AI Course for working professionals?",
-  //         ans: "The Generative AI course for working professionals comes with a duration of 9 months with live projects. ",
-  //         open: false,
-  //       },
-  //       {
-  //         id: 5,
-  //         ques: "What extra advantages does this Gen AI and Agentic AI program offer?",
-  //         ans: "Learners joining our Generative AI course online will receive endless career benefits. Apart from this, you will receive extra benefits like –",
-  //         open: false,
-  //         list1: "3-year flexi subscription",
-  //         list2: "BYOP + Mentorship",
-  //         list3: "AI CoLab experience with 2 AI startup certifications",
-  //         list4: "IBM Certification",
-  //         list5: "Career Services Pro (100% placement support)",
-  //       },
-  //     ],
-  //   },
-
-  //   {
-  //     id: 1,
-  //     sectionName: "Domain Specialization",
-  //     data: [
-  //       {
-  //         id: 0,
-  //         ques: "What is domain specialization?",
-  //         ans: "Domain specialization refers to the process of gaining field expertise in a specific subject or area of interest related to an industry. Domain-specific learning is vital for experts who want to retain their careers with enriched benefits (hikes, bonuses, promotions, etc). ",
-  //         open: true,
-  //       },
-  //       {
-  //         id: 1,
-  //         ques: "What are the available domain elective options?",
-  //         ans: "Our GenAI & Agentic AI for working professionals with domain specialization promises a rewarding future. Here, you can choose any two domain electives to transition your role to GenAI & Agentic AI specialists. The available domains are – ",
-  //         open: false,
-  //         list1: "BFSI",
-  //         list2: "Healthcare",
-  //         list3: "Retail",
-  //         list4: "Cloud & DevOps",
-  //         list5: "Managers & Leaders",
-  //         list6: "Software Developers",
-  //         list7: "Manufacturing",
-  //       },
-  //     ],
-  //   },
-
-  //   {
-  //     id: 2,
-  //     sectionName: "Payments and Scholarships",
-  //     data: [
-  //       {
-  //         id: 0,
-  //         ques: "What is the cost of the Generative AI course online?",
-  //         ans: "The Generative AI course fee is ₹1,59,000 + 18% GST.",
-  //         open: true,
-  //       },
-  //       {
-  //         id: 1,
-  //         ques: "Can I pay in installments for the Generative AI Developer Course?",
-  //         ans: "You can pay course fees in installments under a no-cost EMI option in 6, 9, or 12 months. You can also opt for interest-free loans, credit cards, or UPI with the necessary documents (Aadhaar card, PAN card, and salary slip). ",
-  //         open: false,
-  //       },
-  //       {
-  //         id: 2,
-  //         ques: "Is there any scholarship/discount available for the Gen AI course online?",
-  //         ans: "The GenAI and Agentic AI Course for working professionals offers a 15% – 20% discount for early birds. We also offer group discounts as per the following terms and conditions.",
-  //         open: false,
-  //         list1: "Group of 2: 5% extra discount",
-  //         list2: "Group of 3: 8% extra discount",
-  //         list3: "Group of 4+: Up to 10% discount",
-  //         note: "Apart from discounts, experts can receive up to a 25% scholarship while enrolling in the course. You can check with our sales team at +91 7795687988 for further details.",
-  //       },
-
-  //       {
-  //         id: 3,
-  //         ques: "What is the refund policy for the Advance Gen AI Program at Learnbay?",
-  //         ans: "Working professionals joining our Generative AI course can cancel anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy. ",
-  //         open: false,
-  //       },
-  //     ],
-  //   },
-
-  //   {
-  //     id: 3,
-  //     sectionName: "Capstone and Real-time Projects",
-  //     data: [
-  //       {
-  //         id: 0,
-  //         ques: "How many capstone projects are included?",
-  //         ans: "The program includes 12+ fresh capstone projects focused on real-world GenAI and Agentic AI use cases.",
-  //         open: true,
-  //       },
-  //       {
-  //         id: 1,
-  //         ques: "Are there opportunities to work on real industry projects?",
-  //         ans: "Yes. Working professionals can work on AI startup projects to tackle real-world problems and co-create GenAI solutions. Additionally, throughout the program tenure, learners will work on various domain-specific projects followed by 12+ capstone projects. ",
-  //         open: false,
-  //       },
-  //       {
-  //         id: 2,
-  //         ques: "Can I choose my capstone project, or are projects assigned?",
-  //         ans: "Once you enroll in the Gen AI program for working professionals, you can choose projects best suited to your career roles, interests, and goals. Learners go through group project work under the mentorship of industry experts. ",
-  //         open: false,
-  //       },
-  //     ],
-  //   },
-
-  //   {
-  //     id: 4,
-  //     sectionName: "Certifications",
-  //     data: [
-  //       {
-  //         id: 0,
-  //         ques: "Is there any accredited certification after course completion?",
-  //         ans: "Yes. working professionals can accelerate their career growth with industry-recognized certifications from IBM and Microsoft. In addition, they can earn AI startup certifications to validate their GenAI-rich expertise. Altogether, you will receive – ",
-  //         open: true,
-  //         list1: "IBM Generative AI Certification",
-  //         list2: "Microsoft Azure Certification",
-  //         list3: "AI CoLab Startup Certification",
-  //       },
-  //       {
-  //         id: 1,
-  //         ques: "How do I receive my certificate, and is it a digital or printed certificate?",
-  //         ans: "All eligible learners with scores of at least 70% in course tasks and projects can earn globally recognized certificates. Your digitally available certificates will reach you within 7 days. ",
-  //         open: false,
-  //       },
-  //     ],
-  //   },
-
-  //   {
-  //     id: 5,
-  //     sectionName: "Job Assistance",
-  //     data: [
-  //       {
-  //         id: 0,
-  //         ques: "What’s the eligibility for job assistance at Learnbay?",
-  //         ans: "Learners enrolling in this Generative AI course must complete the tasks and projects with a minimum score of 70%. Then they are eligible for a job assistance program at Learnbay to unleash exciting career growth options. ",
-  //         open: true,
-  //       },
-  //       {
-  //         id: 1,
-  //         ques: "How many interview calls will I receive?",
-  //         ans: "Working professionals joining our Generative AI course online will get unlimited interview calls from top-trending 350+ industry partners.  ",
-  //         open: false,
-  //       },
-  //       {
-  //         id: 2,
-  //         ques: "What does Career Services Pro include?",
-  //         ans: "Anyone with a minimum score of 70% in course tasks and projects is eligible for the Career Services PRO feature. Under this feature, you will get –",
-  //         open: false,
-  //         list1: "1:1 mock interviews with industry experts",
-  //         list2: "Resume optimization sessions",
-  //         list3: "Job referrals from top MNCs",
-  //       },
-  //       {
-  //         id: 3,
-
-  //         ques: "Do you offer job assistance services after course completion?",
-  //         ans: "Yes. We offer 100% job assistance services to learners opting for a Gen AI course online. Working professionals can avail themselves of the career services pro benefits once they complete the course. The program supports learners with premium career-enrich perks – from 1:1 interview prep to CV updates.  ",
-  //         open: false,
-  //       },
-  //     ],
-  //   },
-
-  //   {
-  //     id: 6,
-  //     sectionName: "Mentorships",
-  //     data: [
-  //       {
-  //         id: 0,
-  //         ques: "Until when will students receive mentorship?",
-  //         ans: "Working professionals will get mentorship until they complete the course. After completing the course tasks and projects, you can reach out to your mentors for doubt-clearing, career assistance, and project guidance. ",
-  //         open: true,
-  //       },
-  //       {
-  //         id: 1,
-  //         ques: "Can a Learnbay student choose to study with their desired mentor?",
-  //         ans: "Learnbay has a team of reliable mentors with relevant industry experience. Each learner is assigned a mentor who can justify upskilling and meet a learner’s career goals and interests. If a student does not find the mentor fit for training, he/she can request a new mentor. Learnbay supports quality upskilling; hence, students can change their mentors and study from the ones they desire. ",
-  //         open: false,
-  //       },
-  //       {
-  //         id: 2,
-  //         ques: "Are mentors available for one-on-one sessions?",
-  //         ans: "Yes. Our reliable mentors are available for a 1:1 session for live training, doubt-clearing, and project queries. ",
-  //         open: false,
-  //       },
-  //       {
-  //         id: 3,
-  //         ques: "Are there mentors available to help with coursework and projects?",
-  //         ans: "Learners enrolling in the Gen AI program for working professionals get the scope of learning under reliable industry training. These mentors are liable for guiding each learner with course tasks and real-time projects at AI CoLab. So, yes, you will get hassle-free help from your mentor while working on fresh capstone projects and course modules. ",
-  //       },
-  //     ],
-  //   },
-
-  //   {
-  //     id: 7,
-  //     sectionName: "Support",
-  //     data: [
-  //       {
-  //         id: 0,
-  //         ques: "How can I contact technical support?",
-  //         ans: "Once you register for the course, you will get 24×7 learner support that resolves any learning queries. You can call our helpline number to reach the desired service providers who can help you with any technical issues (login, sessions, projects, chat, or course materials) with the course platform. ",
-  //         open: true,
-  //       },
-  //       {
-  //         id: 1,
-  //         ques: "Is there a learner discussion forum or community?",
-  //         ans: "Learners will get a custom-fit Learnbay app with a list of learners and their mentors mentioned. They can directly reach out to their mentors to resolve queries in case of need and discuss doubts with peers. ",
-  //         open: false,
-  //       },
-  //       {
-  //         id: 2,
-  //         ques: "How long will I receive job referrals?",
-  //         ans: "You are qualified to get job referrals once you complete the course. Under the Career Services Pro package, a learner can avail of continuous job referrals to get placed across 350+ industry partners.",
-  //         open: false,
-  //       },
-  //     ],
-  //   },
-  // ];
-
+  const faqNewData = [
+    {
+      id: 0,
+      sectionName: 'Course-Related',
+      data: [
+        {
+          id: 0,
+          ques: 'What is the duration of the AI Engineering Master Program?',
+          ans: 'The program offers around 9 months of an intensive track. Within this time span, it will cover 100+ hours of live instructor-led learning on programming foundations to Agentic AI workflows. Later on, you will get capstone projects and job assistance.',
+          open: true,
+        },
+        {
+          id: 1,
+          ques: 'Is this a live training Program or recorded sessions?',
+          ans: 'Learnbay’s AI Engineering Program is a 100% live instructor-led program. In all the sessions, you get direct interaction with your trainers, who are highly experienced industry experts from top tech companies. This kind of learning scope helps you experience real-time debugging and AI system design.',
+          open: false,
+        },
+        {
+          id: 2,
+          ques: 'What technical topics are covered in the curriculum?',
+          ans: 'Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Agentic AI automation, and Vector Databases are included in the syllabus, as the key focus is on product-grade AI skills. Alongside the course has MLOps, CI/CD for AI and how to build GenAI microservices modules too.',
+          open: false,
+        },
+        {
+          id: 3,
+          ques: 'What is the “Flexi Pass” benefit at Learnbay?',
+          ans: 'The Flexi Pass is a 3-year complementary subscription that allows you to attend multiple batches and multiple trainers for up to 3 years of time. This offers working professionals an added advantage in flexible learning and managing a proper professional and upskilling time balance.',
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 1,
+      sectionName: 'Eligibility and Prerequisites',
+      data: [
+        {
+          id: 0,
+          ques: 'Who is the ideal candidate for this AI engineering course?',
+          ans: 'This course is custom-built for tech professionals. That means software Developers, Solution Architects, System Admins, and Support Engineers looking to lead the shift into AI Engineering are perfect for this course.',
+          open: false,
+        },
+        {
+          id: 1,
+          ques: 'Do I need prior experience in AI or Machine Learning?',
+          ans: 'A foundation in programming, APIs, and architecture is enough to join this course, while this program is designed to ‘add’ AI skills to your existing technical base. But yes, this AI engineering Master course offers preparatory modules for those needing a refresher on basics.',
+          open: false,
+        },
+        {
+          id: 2,
+          ques: 'Is there a minimum work experience requirement?',
+          ans: 'Yes, the program demands at least 1 year of work experience in the IT industry. Through this course, such IT professionals will be able to upgrade themselves for 2026-ready AI roles.',
+          open: false,
+        },
+        {
+          id: 3,
+          ques: 'Can I pursue this AI Engineering Program while having a full-time job or from a different time zone?',
+          ans: 'IT professionals enrolling for this AI Engineering Training Program can easily balance their work schedules and study goals. They will get the flexibility to choose their batches from multiple timings on both weekdays and weekends.',
+          open: false,
+        },
+        {
+          id: 4,
+          ques: 'Why should I join Learnbay’s MasterTrack Program?',
+          ans: 'If you’re an IT professional, enrolling in our MasterTrack program can be advantageous for you –',
+          open: false,
+          dscoursefaq1: true,
+          list1: '3-Year flexi subscription to upgrade your skills and evolve',
+          list2:
+            'AI Co-Lab experience in tackling trending AI Engineering projects',
+          list3:
+            'BYOP+Mentorship to resolve your own issues under a mentor’s guidance',
+          list4: 'IBM and Microsoft credentials to validate your AI skills',
+        },
+      ],
+    },
+    {
+      id: 2,
+      sectionName: 'Payments and Scholarships',
+      data: [
+        {
+          id: 0,
+          ques: 'What is the fee for the AI Engineering Master Program?',
+          ans: 'The AI Engineering Online course for tech professionals costs ₹1,59,000 + 18% GST. This investment includes 9 months of intensive learning, globally recognized certification, and custom-fit career support.',
+          open: false,
+        },
+        {
+          id: 1,
+          ques: 'Are there any financing or EMI options available?',
+          ans: 'Yes, you can opt for an interest-free (no-cost EMI) plan with the necessary documents (Aadhaar card, PAN card, and salary slip). You can check your eligibility with our support team before admission.',
+          open: false,
+        },
+        {
+          id: 2,
+          ques: 'Does Learnbay offer any scholarships for AI Engineering Master Course?',
+          ans: 'Being an early bird, you can avail yourself of a 15% – 20% discount. Additionally, experts can receive up to a 25% scholarship while enrolling in the course. Group discounts include:',
+          open: false,
+          dscoursefaq1: true,
+          list1: 'Group of 2: 5% extra discount',
+          list2: 'Group of 3: 8% additional discount',
+          list3: 'Group of 4+: Max 10% discount',
+        },
+        {
+          id: 3,
+          ques: 'What is the refund policy for the AI Engineering Program at Learnbay?',
+          ans: 'Experts joining our course can cancel anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy.',
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 3,
+      sectionName: 'Capstone and Real-time Projects',
+      data: [
+        {
+          id: 0,
+          ques: 'How many projects can I work on during this course?',
+          ans: 'The AI engineering online course by Learnbay includes 100 hours of real-time industrial project work. Most of the focus remains on building and deploying autonomous AI agents and Gen-AI-driven architectures.',
+          open: false,
+        },
+        {
+          id: 1,
+          ques: 'Can I choose my capstone project, or are projects assigned?',
+          ans: 'You can choose projects useful to your domain, career interests, and goals. Additionally, you will work on AI startup projects and can even Bring Your Own Problem (BYOP) to work on.',
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 4,
+      sectionName: 'Certifications',
+      data: [
+        {
+          id: 0,
+          ques: 'Is there any accredited certification after course completion?',
+          ans: 'Yes. Once you complete the course and project tasks, you will receive globally valued IBM and Microsoft Certifications—one Project Experience Certificate and one GenAI/Agentic AI Mastery Certificate.',
+          open: false,
+        },
+        {
+          id: 1,
+          ques: 'How do I receive my certificate, and is it a digital or printed certificate?',
+          ans: 'All eligible learners with at least 70% in course tasks and projects can earn globally recognized certificates. Your digitally available certificates will reach you within 7 days.',
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 5,
+      sectionName: 'Job Assistance',
+      data: [
+        {
+          id: 0,
+          ques: 'Do you offer job placement services after completing the course?',
+          ans: 'Yes. We offer dedicated job assistance services including 1:1 interview prep and CV updating for all eligible learners.',
+          open: false,
+        },
+        {
+          id: 1,
+          ques: 'How many interview calls will I get at Learnbay?',
+          ans: 'Learners from the IT sector joining our AI Engineering Certification online will get unlimited interview calls from our top allied partners.',
+          open: false,
+        },
+        {
+          id: 2,
+          ques: 'How does Learnbay’s Job Referrals and Career Acceleration Services support my job search?',
+          ans: 'Under this feature, you will get:',
+          open: false,
+          dscoursefaq1: true,
+          list1: 'Unlimited job referrals',
+          list2: 'Direct access to hiring managers in top MNCs',
+          list3: 'ATS-Optimized resume building',
+        },
+      ],
+    },
+    {
+      id: 6,
+      sectionName: 'Mentorships',
+      data: [
+        {
+          id: 0,
+          ques: 'Until when will the students get the mentorship facility?',
+          ans: 'The learners will get the mentorship until they complete the course. After that, you can still reach out for doubt-clearing, placement support, and project guidance.',
+          open: false,
+        },
+        {
+          id: 1,
+          ques: 'Can a Learnbay student choose to study with their desired mentor?',
+          ans: 'Yes. If a student does not find the assigned mentor fit for training, he/she can request a new mentor to meet their career goals and interests.',
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 7,
+      sectionName: 'Support',
+      data: [
+        {
+          id: 0,
+          ques: 'How can I contact technical support?',
+          ans: 'Once you register, you get 24/7 learner support. You can call our helpline number to resolve any technical issues regarding login, sessions, or course materials.',
+          open: false,
+        },
+        {
+          id: 1,
+          ques: 'What is the interview preparation process?',
+          ans: 'You get 5+ mock interview sessions conducted by top industry experts, focusing on AI system design and Agentic workflow questions.',
+          open: false,
+        },
+      ],
+    },
+  ];
   return (
     <>
       <Head>
@@ -331,11 +274,7 @@ const NewDSA = ({ DSADataJson }) => {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="ai engineering course,
-ai engineer program,
-ai engineering master program,
-ai engineering training program,
-ai engineering certification program"
+          content="ai engineering course, ai engineer program, ai engineering master program, ai engineering training program, ai engineering certification program"
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -392,276 +331,260 @@ ai engineering certification program"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-      "@context": "http://schema.org",
-  "@type": "Course",
-  "name": "AI Engineering Master Certification Program - Learnbay",
-  "description": "Accelerate your tech career with Learnbay’s AI Engineering Master Program. Learn GenAI, Agentic AI, RAG, and production AI through real projects. Join Now.",
-  "url": "https://www.learnbay.co/ai-engineering-master-program",
-  "offers": {
-    "@type": "offer",
-    "price": "159000",
-    "pricecurrency": "INR",
-    "category": "Educational"
-  },
-   "provider": {
-        "@type": "Organization",
-        "name": "Learnbay",
-        "Url": "https://www.learnbay.co/"
-      },
-  "coursePrerequisites": "This program is suitable for entry to mid-level IT professionals with a minimum of 1 year of work experience. Professionals such as system administrators, solution architects, support engineers, and IT experts are the most welcomed for this certification.",
-  "hasCourseInstance": [
-    {
-      "@type": "CourseInstance",
-      "courseMode": "Online",
-      "courseWorkload": "P9M",
-      "courseFee": {
-        "@type": "PriceSpecification",
-        "price": "₹ 1,59,000 + 18% GST",
-        "priceCurrency": "INR"
-      }
-    }
-  ]
-    
-
-    }`,
+                        "@context": "http://schema.org",
+                    "@type": "Course",
+                    "name": "AI Engineering Master Certification Program - Learnbay",
+                    "description": "Accelerate your tech career with Learnbay’s AI Engineering Master Program. Learn GenAI, Agentic AI, RAG, and production AI through real projects. Join Now.",
+                    "url": "https://www.learnbay.co/ai-engineering-master-program",
+                    "offers": {
+                      "@type": "offer",
+                      "price": "159000",
+                      "pricecurrency": "INR",
+                      "category": "Educational"
+                    },
+                    "provider": {
+                          "@type": "Organization",
+                          "name": "Learnbay",
+                          "Url": "https://www.learnbay.co/"
+                        },
+                    "coursePrerequisites": "This program is suitable for entry to mid-level IT professionals with a minimum of 1 year of work experience. Professionals such as system administrators, solution architects, support engineers, and IT experts are the most welcomed for this certification.",
+                    "hasCourseInstance": [
+                      {
+                        "@type": "CourseInstance",
+                        "courseMode": "Online",
+                        "courseWorkload": "P9M",
+                        "courseFee": {
+                          "@type": "PriceSpecification",
+                          "price": "₹ 1,59,000 + 18% GST",
+                          "priceCurrency": "INR"
+                        }
+                      }
+                    ]
+                  }`,
           }}
         />
-        {/* 
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I do a Gen AI and Agentic AI Course at Learnbay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, mid-career working professionals with a minimum of 1+ years of IT experience can pursue our Gen AI Program. Apart from this, one must have a basic understanding of Python, ML, and Deep Learning."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I pursue a Generative AI course while having a full-time job or from a different time zone?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Working professionals can enroll in a Generative AI course online and get the flexibility of balancing their work-study obligations. This course offers 100% live online interactive sessions. Experts can choose and plan their batches for weekday or weekend sessions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are there any hands-on labs or practical tasks in the course modules?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The Generative AI course focuses on project-based learning. Here, you will work on real-time AI startup projects to tackle GenAI and Agentic AI challenges and gain insights."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is a Gen AI course for working professionals worth it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pursuing a Generative AI course for working professionals is a notable career investment. working professionals can design GenAI applications, build AI agents, and integrate LLMs for smooth workflows. Also, earning IBM credentials and working with real-time AI startups can escalate career success metrics with exciting gains."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the duration of the Gen AI Course for working Professionals?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Generative AI course for working professionals comes with a duration of 9 months with live projects."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the extra advantages delivered through a Gen AI and Agentic AI program for working professionals?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Learners joining our Generative AI course online will receive endless career benefits. Apart from this, you will receive extra benefits like – 3-year flexi subscription, BYOP+Mentorship, AI CoLab experience with 2 industry certifications from AI startups, IBM certification, Career Services Pro (100% placement support)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is domain specialization?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Domain specialization refers to the process of gaining field expertise in a specific subject or area of interest related to an industry. Domain-specific learning is vital for experts who want to retain their careers with enriched benefits (hikes, bonuses, promotions, etc)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the available domain elective options?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our GenAI & Agentic AI for working professionals with domain specialization promises a rewarding future. Here, you can choose any two domain electives to transition your role to GenAI & Agentic AI specialists. The available domains are – BFSI, Healthcare, Retail, Cloud & DevOps, Managers & Leaders, Software Developers, Manufacturing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the cost of the Generative AI course online?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Generative AI course costs ₹1,59,000 + 18% GST."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I pay in installments for the Generative AI Developer Course?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can pay course fees in installments under a no-cost EMI option in 6, 9, or 12 months. You can also opt for interest-free loans, credit cards, or UPI with the necessary documents (Aadhaar card, PAN card, and salary slip)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there any scholarship/discount available for the Gen AI course online?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The GenAI and Agentic AI Course for working professionals offers a 15% – 20% discount for early birds. We also offer group discounts as per the following terms and conditions. Group of 2: 5% extra discount, Group of 3: 8% additional discount, Group of 4+: Max 10% discount. Apart from discounts, experts can receive up to a 25% scholarship while enrolling in the course. You can check with our sales team at +91 7795687988 for further details."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the refund policy for the Advance Gen AI Program at Learnbay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Working professionals joining our Generative AI course can cancel anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many capstone projects will there be?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Generative AI course for working professionals includes 12+ fresh capstone projects to refine domain knowledge."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are there opportunities to work on real industry projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. working professionals can work on AI startup projects to tackle real-world problems and co-create GenAI solutions. Additionally, throughout the program tenure, learners will work on various domain-specific projects followed by 12+ capstone projects."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I choose my capstone project, or are projects assigned?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Once you enroll in the Gen AI program for working professionals, you can choose projects best suited to your career roles, interests, and goals. Learners go through group project work under the mentorship of industry experts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there any accredited certification after course completion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Working professionals can accelerate their career growth with industry-recognized certifications from IBM and Microsoft. In addition, they can earn AI startup certifications to validate their GenAI-rich expertise. Altogether, you will receive – IBM Generative AI Certification, Microsoft Azure Certifications, AI CoLab Certifications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I receive my certificate, and is it a digital or printed certificate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "All eligible learners with scores of at least 70% in course tasks and projects can earn globally recognized certificates. Your digitally available certificates will reach you within 7 days."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What’s the eligibility for a job assistance program at Learnbay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Learners enrolling in this Generative AI course must complete the tasks and projects with a minimum score of 70%. Then they are eligible for a job assistance program at Learnbay to unleash exciting career growth options."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many interview calls will I get at Learnbay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "working professionals joining our Generative AI course online will get unlimited interview calls from top-trending 350+ industry partners."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I opt for the Career Services Pro feature?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Anyone with a minimum score of 70% in course tasks and projects is eligible for the Career Services PRO feature. Under this feature, you will get – 1:1 career-focused mock interviews with 350+ industry partners, Online resume build-up sessions, Promising job referrals from top-ranked MNCs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you offer job assistance services after course completion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We offer 100% job assistance services to learners opting for a Gen AI course online. Working professionals can avail themselves of the career services pro benefits once they complete the course. The program supports learners with premium career-enrich perks – from 1:1 interview prep to CV updates."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Until when will the students get the mentorship facility?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "working professionals will get mentorship until they complete the course. After completing the course tasks and projects, you can reach out to your mentors for doubt-clearing, career assistance, and project guidance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can a Learnbay student choose to study with their desired mentor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Learnbay has a team of reliable mentors with relevant industry experience. Each learner is assigned a mentor who can justify upskilling and meet a learner’s career goals and interests. If a student does not find the mentor fit for training, he/she can request a new mentor. Learnbay supports quality upskilling; hence, students can change their mentors and study from the ones they desire."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are mentors available for one-on-one or group sessions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Our reliable mentors are available for a 1:1 session for live training, doubt-clearing, and project queries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are there mentors available to help with coursework and projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Learners enrolling in the Gen AI program for working professionals get the scope of learning under reliable industry training. These mentors are liable for guiding each learner with course tasks and real-time projects at AI CoLab. So, yes, you will get hassle-free help from your mentor while working on fresh capstone projects and course modules."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can I contact technical support if I face any problems with the course platform?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Once you register for the course, you will get 24×7 learner support that resolves any learning queries. You can call our helpline number to reach the desired service providers who can help you with any technical issues (login, sessions, projects, chat, or course materials) with the course platform."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there a discussion forum or community for learners to communicate and seek support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Learners will get a custom-fit Learnbay app with a list of learners and their mentors mentioned. They can directly reach out to their mentors to resolve queries in case of need and discuss doubts with peers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long will I get job referrals?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You are qualified to get job referrals once you complete the course. Under the Career Services Pro package, a learner can avail of continuous job referrals to get placed across 350+ industry partners."
-      }
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is the duration of the AI Engineering Master Program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The program offers around 9 months of an intensive track. Within this time span, it will cover 100+ hours of live instructor-led learning on programming foundations to Agentic AI workflows. Later on, you will get capstone projects and job assistance."
     }
-  ]
-}`,
+  },{
+    "@type": "Question",
+    "name": "Is this a live training Program or recorded sessions?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learbay’s AI Engineering Program is a 100% live instructor-led program. In all the sessions, you get direct interaction with your trainers, who are highly experienced industry experts from top tech companies. This kind of learning scope helps you experience real-time debugging and AI system design."
+    }
+  },{
+    "@type": "Question",
+    "name": "What technical topics are covered in the curriculum?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Agentic AI automation, and Vector Databases are included in the syllabus, as the key focus is on product-grade AI skills. Alongside the course has MLOps, CI/CD for Ai and how to build GenAI microservices modules too. Note: Our courses are always getting updates as per contemporary market demand. Always check with our career counselor for the latest modules."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the “Flexi Pass” benefit at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Flexi Pass is a 3-year complementary subscription that allows you to attend multiple batches and multiple trainers for up to 3 years of time. This offers working professionals an added advantage in flexible learning and managing a proper professional and upskilling time balance."
+    }
+  },{
+    "@type": "Question",
+    "name": "Who is the ideal candidate for this AI engineering course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "This course is custom-built for tech professionals. That means software Developers, Solution Architects, System Admins, and Support Enigeers looking to lead the shift into AI Enigeering are perfect for this course."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do I need prior experience in AI or Machine Learning?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A foundation in programming, APIs, and architecture is enough to join this course, while this program is designed to ‘add’ AI skills to your existing technical base. But yes, this AI engineering Master course offers preparatory modules for those needing a refresher on basics."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there a minimum work experience requirement?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, the program demands at least 1 year of work experience in IT industry. Through this course, such IT professionals will be able to upgrade themselves for 2026-ready AI roles."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I pursue this AI Engineering Program while having a full-time job or from a different time zone?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "IT professionals enrolling for this AI Engineering Training Program can easily balance their work schedules and study goals. They will get the flexibility to choose their batches from multiple timings on both weekdays and weekends. Our 100% live online sessions allow professionals to optimize their domain expertise without giving up their current jobs."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why should I join Learnbay’s MasterTrack Program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you’re a cloud and devOps professional, enrolling in our MasterTrack program can be advantageous for you –3-Year flexi subscription to upgrade your skills and evolve. AI CoLab experience in tackling trending AI Engineering projects. BYOP+Mentorship to resolve your own issues under a mentor’s guidance. AI Colab feature. IBM and Microsoft credentials to validate your AI skills"
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the fee for the AI Engineering Master Program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The AI Engineering Online course for the tech professionals costs ₹1,59,000 + 18% GST. This investment includes the return of 9 months of intensive learning, BYOP projects, globally recognized certification, and custom-fit career support."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there any financing or EMI options available for this AI Engineering Certification Program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can opt for an interest-free (no-cost EMI) plan with the necessary documents (Aadhaar card, PAN card, and salary slip). You can check your eligibility with our support team before your admission."
+    }
+  },{
+    "@type": "Question",
+    "name": "Does Learnbay offer any scholarships for AI Engineering Master Course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Being an early bird, you can avail yourself of a 15% – 20% discount. Yet, learners who join with one or more friends can avail of group discounts per the following terms and conditions. Group of 2: 5% extra discount. Group of 3: 8% additional discount. Group of 4+: Max 10% discount. Apart from discounts, experts can receive up to a 25% scholarship while enrolling in the course. You can contact our sales team at +91 7795687988 for further details on special offers."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the refund policy for the Gen AI and Agentic AI Program at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Experts joining our course can cancel anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy (https://www.learnbay.co/refund-cancellation-policy)."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many projects can I work on during this course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The AI engineering online course by Learnbay includes 100 hours of real-time industrial project work. Most of the focus remains on building and deploying autonomous AI agents and Gen-AI-driven architectures."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I work on real industry projects if I enrol for this course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely. This artificial intelligence engineering course emphasises the production AI system, offering learning opportunities in guardrail management, observability, and scaling in a real-world environment."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I choose my capstone project, or are projects assigned?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "After enrolling in the AI Engineering program for Tech Professionals, you can choose projects useful to your domain, career interests, and goals. Additionally, you will work on AI startup projects to tackle real-time GenAI & Agentic AI challenges. Also, you can bring your own business problem (BYOP) to work on."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any accredited certification after course completion?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Learners joining this course will receive certifications to stand out in the career competition. Once you complete the course and project tasks, you will receive globally valued IBM and Microsoft Certifications- one is the Project Experience Certificate, and the other is the GenAI/Agentic AI Mastery Certificate."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I receive my certificate, and is it a digital or printed certificate?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "All eligible learners with at least 70% in course tasks and projects can earn globally recognized certificates. Your digitally available certificates will reach you within 7 days."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer job placement services after completing the course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. We offer dedicated job assistance services to learners opting for the AI Engineering Course. The program supports learners with premium career-enrich perks – from 1:1 interview prep to updating CVs."
+    }
+  },{
+    "@type": "Question",
+    "name": "What’s the eligibility for a job assistance program at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners enrolling in this AI Engineering course for Tech professionals must complete the tasks and projects with a minimum score of 70% to unlock exciting career options through the placement program."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many interview calls will I get at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners from the IT sector joining our AI Engineering Certification online will get unlimited interview calls from our top allied partners."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does Learnbay’s Job Referals and Career Acceleration Services support my job search?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Under this feature, you will get – Unlimited job referrals. Direct access to hiring managers in top MNC’s. ATS-Optimized resume building."
+    }
+  },{
+    "@type": "Question",
+    "name": "Until when will the students get the mentorship facility?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The learners will get the mentorship until they complete the course. After completing the course tasks and projects, you can reach out to your mentors for doubt-clearing, placement support, and project guidance."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can a Learnbay student choose to study with their desired mentor?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay has a team of reliable mentors with relevant industry experience. Each learner is assigned a mentor who can justify upskilling and meet a learner’s career goals and interests. If a student does not find the mentor fit for training, he/she can request a new mentor. Learnbay supports quality upskilling; hence, students can change their mentors and study from the ones they desire."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are mentors available for one-on-one or group sessions?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Our reputable mentors are available for 1:1 or group sessions in respective projects or courses. If a learner opts for a 1:1 session for live training, doubt-clearing, or project queries, mentors are available for them."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there mentors available to help with coursework and projects?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners enrolling in the course will get reliable industry training. Our mentors each learner with course tasks and real-time projects associated with core AI engineering. So, yes, you will get hassle-free help from your mentor while working on capstone projects and course modules."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I contact technical support if I face any problems with the course platform?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Once you register for the course, you will get 24×7 learner support that resolves any learning queries. You can call our helpline number to reach the desired service providers who can help you with any technical issues (login, sessions, projects, chat, or course materials) with the course platform."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there a discussion forum or community for learners to communicate and seek support?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners will get a customized Learnbay app with their mentors mentioned. They can directly communicate with their mentors to resolve queries and discuss doubts with peers."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get job referrals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We stay with you for 3 years until you are placed."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the interview preparation process?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Here, you get 5+ mock interview sessions conducted by top industry experts, who simulate technical and HR rounds. All the mock sessions will focus on AI system design and Agentic workflow questions."
+    }
+  }]
+}
+`,
           }}
-        /> */}
+        />
       </Head>
       <main>
         <Navbar
@@ -686,20 +609,14 @@ ai engineering certification program"
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
-          courseId={"ai-engineering-master-program"}
+          courseId={'ai-engineering-master-program'}
         />
         <AlumniCompanies
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="300" guided="40" />
-        {/* <ProgramSection
-          programSectionData={NewDSAData[0].ProgramSection}
-          dataScienceCounselling={true}
-          interstedInHide={true}
-          upSkillingHide={true}
-        /> */}
-        {/* <DSAPractical /> */}
+
         <HighlightsSection aiCloab={true} />
         <AnimationNew />
         <JobReadySection />
@@ -720,12 +637,7 @@ ai engineering certification program"
           genAIIIT={true}
         />
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
-        {/* <Certificate
-          noTabs={true}
-          data={NewDSAData[0].certificateNew}
-          DSAFresherCertHeading={true}
-        /> */}
-        {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
+
         <DSAFeeSection
           Fee="₹ 1,59,000"
           FeeEmi="₹ 7,916/ month"
@@ -752,28 +664,23 @@ ai engineering certification program"
           Admission="Admission Process"
           Content="Our 3-step admission process clearly guides you through checking your eligibility, selecting the right course via expert counselling, and smoothly completing your enrollment. It's designed for simplicity and clarity."
           highlight={[
-            "3-step admission process",
-            "eligibility",
-            "counselling",
-            "enrollment",
+            '3-step admission process',
+            'eligibility',
+            'counselling',
+            'enrollment',
           ]}
           first="Evaluation Call"
           second="Screening Call"
           third="Block your seat"
           // greenButton={true}
         />
-        {/* <FAQNew FAQNewData={NewDSAData[0].faq} background={true} /> */}
-        {/* <Content
-          dataScienceCounselling={true}
-          DSANewContent={true}
-          background={true}
-        /> */}
+
         <NewSevenSection
           dataScienceCounselling={true}
           interstedInHide={true}
           upSkillingHide={true}
         />
-        {/* <FAQ FaqData={faqNewData} /> */}
+        <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
         <WhatsappFloat />
@@ -785,11 +692,11 @@ ai engineering certification program"
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../Data/AIEngineeringMasterProgramData2026");
+  const module = await import('../Data/AIEngineeringMasterProgramData2026');
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>
-    value === undefined ? null : value,
+    value === undefined ? null : value
   );
 
   return { props: { DSADataJson } };
