@@ -667,8 +667,26 @@ export const FullStackHyderabadCourseData = [
         ],
       },
 
+      { 
+        id: 4,
+        sectionName: "Certifications",
+        data: [
+          {
+            id: 0,
+            ques: "Is there any accredited certification after course completion?",
+            ans: "Yes. Our SDE master’s course offers –",
+          list1: "One IBM Generative AI Certification",
+          list2: "Three Microsoft Azure Certifications",
+          list3: "Two AI Co-Lab certifications",
+          open: true,
+          },
+          
+        ],
+      },
+     
+
       {
-        id: 8,
+        id: 5,
         sectionName: "Eligiblity Criteria",
         data: [
           {
@@ -706,7 +724,7 @@ export const FullStackHyderabadCourseData = [
       },
 
       {
-        id: 5,
+        id: 6,
         sectionName: "Job Assistance",
         data: [
           {
@@ -732,7 +750,7 @@ export const FullStackHyderabadCourseData = [
       },
 
       {
-        id: 6,
+        id: 7,
         sectionName: "Mentorship",
         data: [
           {
@@ -757,34 +775,8 @@ export const FullStackHyderabadCourseData = [
         ],
       },
 
-      // {
-      //   id: 7,
-      //   sectionName: "Generic Queries",
-      //   data: [
-      //     {
-      //       id: 0,
-      //       ques: "What does a full-stack developer do?",
-
-      //       ans: "The term Full-Stack developer refers to a person proficient in both the front-end and back-end of software development. They create and keep up-and-running fully-fledged systems with databases or servers.",
-      //       open: true,
-      //     },
-      //     {
-      //       id: 1,
-      //       ques: "What is the average full-stack software developer salary in Hyderabad?",
-      //       ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
-      //       open: false,
-      //     },
-      //     {
-      //       id: 2,
-      //       ques: "Is a full-stack developer a software engineer?",
-      //       ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
-      //       open: false,
-      //     },
-      //   ],
-      // },
-
       {
-        id: 7,
+        id: 8,
         sectionName: "Support",
         data: [
           {
