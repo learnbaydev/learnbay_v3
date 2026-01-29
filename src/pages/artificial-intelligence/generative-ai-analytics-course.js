@@ -104,6 +104,46 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course"
         />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+        "@context": "http://schema.org",
+      "@type": "Course",
+      "name": "Data & Business Analytics Course with Gen AI | Learnbay",
+      "description": "Upskill with a hands-on Data & Business Analytics course powered by Generative AI. Learn top tools, real-world projects, and boost your career.",
+      "url": "https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course",
+      "offers": {
+        "@type": "offer",
+        "price": "120000",
+        "pricecurrency": "INR",
+        "category": "Educational"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Learnbay",
+        "Url": "https://www.learnbay.co/"
+      },
+      "coursePrerequisites": "You should have knowledge of Python, Machine Learning, & Deep Learning.",
+      "hasCourseInstance": [
+        {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "courseWorkload": "P6M",
+          "courseFee": {
+            "@type": "PriceSpecification",
+            "price": "₹ 1,20,000 + 18% GST",
+            "priceCurrency": "INR"
+          }
+        }
+      ]
+
+
+          }}
+`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

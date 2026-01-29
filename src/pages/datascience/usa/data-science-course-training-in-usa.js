@@ -224,7 +224,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Best Data Science Courses in USA          "
           firstTopPara="Foundational and Advanced Job-ready"
-          cityParaCont="Escalate your data science career with our premium training programs in the USA. Our comprehensively engineered courses will help you acquire marketable data science skills with validation from IBM & Microsoft. Get ready to equip yourself with job-oriented expertise via an AI and Data Science course in USA.           "
+          cityParaCont="Escalate your data science career with our premium training programs in the USA. Our comprehensively engineered courses will help you acquire marketable data science skills with validation from IBM . Get ready to equip yourself with job-oriented expertise via an AI and Data Science course in USA.           "
         />
         <SecondSection SecondSectionData={DSUSACourseData[0].secondSection} />
         {/* <Testimonial
@@ -389,7 +389,7 @@ export default function Home() {
               Joblist50={DSUSACourseData[0].Joblist50}
               Joblist51={DSUSACourseData[0].Joblist51}
               Joblist52={DSUSACourseData[0].Joblist52}
-              Joblist53={DSUSACourseData[0].Joblist53}
+              // Joblist53={DSUSACourseData[0].Joblist53}
               Joblist54={DSUSACourseData[0].Joblist54}
               JobBot23={DSUSACourseData[0].JobBot23}
               usaonly={true}

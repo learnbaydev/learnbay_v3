@@ -149,7 +149,7 @@ export const DSinodreCourseData = [
           {
             id: 0,
             ques: "How long does the data science course in Indore typically take to complete?              ",
-            ans: "Learnbay offers flexible data science training in Indore that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+            ans: "Learnbay offers flexible data science training in Indore that typically ranges from  9 months (for certification course) to 13 months (for master’s degree program).               ",
 
             link: false,
             open: true,
@@ -218,7 +218,8 @@ export const DSinodreCourseData = [
           {
             id: 0,
             ques: "What is the cost of the data science course, and are there any installment options?              ",
-            ans: `The data science course in Indore fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+            ans: `The data science course in Indore fees sum to ₹1,20,000 + 18% GST. You will have an installment facility, where you have to pay monthly EMI for upto 12 months. 
+              `,
             open: true,
           },
           {
@@ -277,7 +278,7 @@ export const DSinodreCourseData = [
           {
             id: 0,
             ques: "Is the certification internationally recognized?              ",
-            ans: `Learnbay offers an internationally recognized data science certification in Indore. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+            ans: `Learnbay offers an internationally recognized data science certification in Indore. Once learners complete the course and tasks, they get dual certification: a project experience certificate and course completion certificates from IBM .               `,
             open: true,
           },
         ],
@@ -402,15 +403,15 @@ export const DSinodreCourseData = [
     CertificationBot1:
       "Certifications are crucial for any course. We offer top-notch certificates to guide you in earning data literacy skills and facing the current global job market. Your career will be gained from our data science institute in Indore, which offers better career growth scopes.",
     CertificationBot2:
-      "We offer the certification in alliance with IBM and MS, which unlocks a way toward a global-scale career. You will receive two IBM certificates after completing the course and project task. This certification includes (course and project) details that help you develop a fulfilling career.",
-    CertificationBot3:
-      "A tech innovation leader, Microsoft accredits the data science certification course. This MS certification enriches skills and refines your data literacy, making you more attractive to top-tier employers.",
+      "We offer the certification in alliance with IBM , which unlocks a way toward a global-scale career. You will receive two IBM certificates after completing the course and project task. This certification includes (course and project) details that help you develop a fulfilling career.",
+    // CertificationBot3:
+    //   "A tech innovation leader, Microsoft accredits the data science certification course. This  certification enriches skills and refines your data literacy, making you more attractive to top-tier employers.",
     CertificationBot4:
-      "MS certificate approval equips you with skills aligned to current trends, raising your resume’s visibility on job sites. Top MNCs highly value the prestigious certificates, which provide global exposure and set you apart. This certification points out unique skills and enhances your efficiency in your career outlook.",
+      " certificate approval equips you with skills aligned to current trends, raising your resume’s visibility on job sites. Top MNCs highly value the prestigious certificates, which provide global exposure and set you apart. This certification points out unique skills and enhances your efficiency in your career outlook.",
     CertificationBot5:
       "This certification states unique skill sets to help you stand out in the career race. When applying for top jobs, your professional credibility increases your power. Top high-profile MNCs are hiring data scientists as demand for data expertise increases globally.",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
@@ -422,7 +423,7 @@ export const DSinodreCourseData = [
     ModuleHead2: "Learning Outcomes",
 
     ModuleMasterlist1: "Basic knowledge of statistical functions",
-    ModuleMasterlist2: "MS Excel – Beginners and Advanced",
+    ModuleMasterlist2: " Excel – Beginners and Advanced",
     ModuleMasterlist3: "Programming languages (Python, SQL, & R)",
     ModuleMasterlist4: "Big data and data vision tools (Power BI, Tableau)",
     ModuleMasterlist5: "Dashboard design with insights",
@@ -431,7 +432,7 @@ export const DSinodreCourseData = [
     ModuleMasterlist7:
       "Deep learning, Natural language processing, Machine learning algorithms",
     ModuleMasterlist8: "Generative AI tools & trends",
-    ModuleMasterlist9: "AWS & MS Azure",
+    ModuleMasterlist9: "AWS &  Azure",
     ModuleMasterlist10: "Case studies in your domain",
     ModuleMasterlist11: "Hands-on learning projects",
     ModuleMasterlist12: "",
@@ -439,40 +440,30 @@ export const DSinodreCourseData = [
       "Our data science course in Indore with 100% placement support offers excellent career growth offers. Learning from industry experts and collaborating with MNCs can lead to well-paying jobs aligned with your choices and career goals. ",
     ModuleMasterBot3:
       "Learners work on real-time projects and case studies to achieve job competencies. This learning method enriches domain-specific skills and increases earning limits globally. Unlike generic courses, Learnbay aims to offer data experts a financially rewarding career by fostering improved mastery and enthusiasm.",
+    ModuleMasterBot4:
+      "Note: Learnbay is always 10 step ahead in trending skill training. So our modules/syllebus get continuous update. Always contact our expert to get the idea about the latest modules and syllabus. ",
     ModuleBot47: "  ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 
@@ -534,7 +525,7 @@ export const DSinodreCourseData = [
     JobBot007:
       "The data science coaching in Indore program offers Gen AI-rich training courses with global career paths. Experts have the privilege of working on capstone projects in chosen domains. This assists experts in learning real-world business issues and solving them effectively.",
     JobBot005:
-      "In addition, we offer an accredited big data course in Indore, endorsed by IBM and MS. Our 350+ leading MNCs & unicorn startups will help you crack product/service-based jobs with leading MNCs. ",
+      "In addition, we offer an accredited big data course in Indore, endorsed by IBM . Our 350+ leading MNCs & unicorn startups will help you crack product/service-based jobs with leading MNCs. ",
     JobBot006: " ",
     JobHead22:
       "What jobs are possible with Learnbay’s data science course in Indore?",

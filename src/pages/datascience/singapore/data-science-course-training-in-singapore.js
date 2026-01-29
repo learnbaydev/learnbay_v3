@@ -82,7 +82,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Empower your career with Learnbay's premier data science course training in Singapore. Acquire prestigious IBM & Microsoft Certifications. Enroll now!"
+          content="Empower your career with Learnbay's premier data science course training in Singapore. Acquire prestigious IBM Certifications. Enroll now!"
         />
         <meta
           name="keywords"
@@ -395,7 +395,7 @@ export default function Home() {
               Joblist51={DSSingaporeCourseData[0].Joblist51}
               Joblist52={DSSingaporeCourseData[0].Joblist52}
               Joblist53={DSSingaporeCourseData[0].Joblist53}
-              Joblist54={DSSingaporeCourseData[0].Joblist54}
+              // Joblist54={DSSingaporeCourseData[0].Joblist54}
               modulelist={true}
               usaonly={true}
               joblist={true}

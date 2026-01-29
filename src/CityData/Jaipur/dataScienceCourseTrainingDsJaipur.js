@@ -149,7 +149,7 @@ export const DSJaipurCourseData = [
           {
             id: 0,
             ques: "How long does the data science course in Jaipur typically take to complete?              ",
-            ans: "Learnbay offers flexible data science training in Jaipur that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+            ans: "The duration of the data science and Gen AI course is 9-13 months.",
 
             link: false,
             open: true,
@@ -218,7 +218,7 @@ export const DSJaipurCourseData = [
           {
             id: 0,
             ques: "What is the cost of the data science course, and are there any installment options?              ",
-            ans: `The data science course in Jaipur fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST. `,
             open: true,
           },
           {
@@ -277,7 +277,7 @@ export const DSJaipurCourseData = [
           {
             id: 0,
             ques: "Is the certification internationally recognized?              ",
-            ans: `Learnbay offers an internationally recognized data science certification in Jaipur. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certifications.  `,
             open: true,
           },
         ],
@@ -402,14 +402,14 @@ export const DSJaipurCourseData = [
     CertificationBot1:
       "Certifications are vital elements of any course. We offer high-quality credentials to assist you in acquiring data literacy skills and excelling in the current global work market. Our top data science institute in Jaipur will improve your career graph and advance your professional growth.",
     CertificationBot2:
-      "We offer certification in partnership with IBM and Microsoft, opening prospects for rapid career advances. Upon completing the course, you will receive two IBM credentials. This certificate denotes course and project details that can help in choosing a lucrative career path.",
+      "We offer certification in partnership with IBM and , opening prospects for rapid career advances. Upon completing the course, you will receive two IBM credentials. This certificate denotes course and project details that can help in choosing a lucrative career path.",
     CertificationBot3:
-      "Microsoft, a prominent figure in the technology industry, also endorses the data science certification course. This Microsoft certification can enhance your skill set and showcase your ability in data, increasing your chances of securing ideal employment.",
+      "A prominent figure in the technology industry, also endorses the data science certification course. This certification can enhance your skill set and showcase your ability in data, increasing your chances of securing ideal employment.",
     CertificationBot4:
-      "Obtaining a Microsoft certificate accreditation allows you to develop skills aligned with current industry trends, enhancing the visibility of your resume on several job platforms. Major MNCs prioritize certificates that offer global visibility and help individuals distinguish themselves. This credential states specific skill sets that can set you apart in your dream job. Enhanced career reputation boosts your career impact and attracts top job offers.",
+      "Obtaining a certificate accreditation allows you to develop skills aligned with current industry trends, enhancing the visibility of your resume on several job platforms. Major MNCs prioritize certificates that offer global visibility and help individuals distinguish themselves. This credential states specific skill sets that can set you apart in your dream job. Enhanced career reputation boosts your career impact and attracts top job offers.",
     CertificationBot5: "  ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
@@ -440,38 +440,26 @@ export const DSJaipurCourseData = [
       "Learners can work on live projects and case studies to develop their job skills simultaneously. Consequently, it enriches expertise in a specific domain and increases earning limits globally. Learnbay aims to offer a lucrative career path for data experts via enhanced knowledge and passion, unlike typical courses",
     ModuleBot47: "  ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 

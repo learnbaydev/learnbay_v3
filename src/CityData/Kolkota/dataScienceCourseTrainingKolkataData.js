@@ -149,7 +149,7 @@ export const DSKolkotaCourseData = [
           {
             id: 0,
             ques: "How long does the data science course in Kolkata typically take to complete?              ",
-            ans: "Learnbay offers flexible data science training in Kolkata that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+            ans: "The duration of the data science and Gen AI course is 9-13 months.",
 
             link: false,
             open: true,
@@ -157,11 +157,11 @@ export const DSKolkotaCourseData = [
           {
             id: 1,
             ques: "What topics are covered in the curriculum of the data science course?              ",
-            list1: "Programming languages               ",
-            list2: "Python programming basics               ",
-            list3: "Statistics and Machine Learning              ",
-            list4: "Industry projects and capstone projects               ",
-            list5: "Generative AI concepts               ",
+            list1: "Programming languages",
+            list2: "Python programming basics",
+            list3: "Statistics and Machine Learning",
+            list4: "Industry projects and capstone projects ",
+            list5: "Generative AI concepts",
             ans: "",
             dscoursefaq1: true,
             open: false,
@@ -218,7 +218,7 @@ export const DSKolkotaCourseData = [
           {
             id: 0,
             ques: "What is the cost of the data science course, and are there any installment options?              ",
-            ans: `The data science course in Kolkata fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST. `,
             open: true,
           },
           {
@@ -277,7 +277,7 @@ export const DSKolkotaCourseData = [
           {
             id: 0,
             ques: "Is the certification internationally recognized?              ",
-            ans: `Learnbay offers an internationally recognized data science certification in Kolkata. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification. `,
             open: true,
           },
         ],
@@ -403,10 +403,10 @@ export const DSKolkotaCourseData = [
     CertificationBot2:
       "Certificates are vital for redefining a static career with fortunate gains and alluring returns. Any course with globally accredited certificates can validate your learned skills and make you job-ready. No wonder, certifications are impactful weapons to crack promising jobs with exciting hikes and endless growth options.         ",
     CertificationBot3:
-      "Our alliance with top-notch industry leaders IBM & Microsoft unleashes an exciting way toward a definite career shift. Experts enrolling in our data science course in Kolkata will receive course completion and project certifications from IBM & Microsoft. Learning with our data scientist course in Kolkata unleashes a competitive career path with excellent growth options in your desirable field. Attesting these globally recognized certifications validates your skills and enriches your career.         ",
+      "Our alliance with top-notch industry leaders IBM unleashes an exciting way toward a definite career shift. Experts enrolling in our data science course in Kolkata will receive course completion and project certifications from IBM. Learning with our data scientist course in Kolkata unleashes a competitive career path with excellent growth options in your desirable field. Attesting these globally recognized certifications validates your skills and enriches your career.         ",
     CertificationBot4: "  ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
@@ -436,38 +436,26 @@ export const DSKolkotaCourseData = [
       " Plus, learning via GenAI-rich course modules offers the scope to rise amidst AI dominance. The present tech invention scenario demands industry-specific skills and expertise in addition to basic academic learning. Hence, learning data science in Kolkata with Learnbay is vital to achieving global-level career success.         ",
     ModuleBot47: "  ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 
@@ -529,7 +517,7 @@ export const DSKolkotaCourseData = [
     JobBot007:
       " Upskilling via Learnbay’s data science course in Kolkata is worth joining. It equips you with Gen AI-rich concepts and trends. Its in-depth training methods guide you to enrich your skill base with project-based learning.         ",
     JobBot005:
-      " Our leading MNCs & unicorn startupship with 450+ leading MNCs expands career growth metrics with vital gains. Our alliance with IBM & Microsoft also lifts your career values with global-scale returns. Hence, learning with us is worth investing in to build a lucrative data science career in Kolkata.         ",
+      " Our leading MNCs & unicorn startupship with 450+ leading MNCs expands career growth metrics with vital gains. Our alliance with IBM also lifts your career values with global-scale returns. Hence, learning with us is worth investing in to build a lucrative data science career in Kolkata.         ",
     JobBot006: " ",
     JobHead22:
       "What are the most talked about job roles that you can crack down with Learnbay’s data science institute in Kolkata?         ",

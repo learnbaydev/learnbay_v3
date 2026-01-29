@@ -149,16 +149,7 @@ export const DSAustinCourseData = [
           {
             id: 0,
             ques: "What are Data Science Training courses available at Learnbay in Austin?",
-            linkText1: "Foundational Data Science Training Course, ",
-            linkText2: "Advance Data Science Certification Course, ",
-            linkText3:
-              "Data Science Certification Course for Managers and Leaders, ",
-            linkText4: "Data Science Training with Placement Assistance",
-            link1: "/data-science-certification-courses",
-            link2: "/advance-data-science-certification-courses",
-            link3: "/data-science-ai-for-managers",
-            link4: "/data-science-ai-masters-program",
-            link: true,
+            ans: `Data Science and GenAI Certification Program, Advance Data Science and GenAI Master program, GenAI and Agentic AI Program for Managers and Leaders are available in Bangladesh. `,
             open: true,
           },
           {
@@ -183,7 +174,7 @@ export const DSAustinCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in Austin?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The duration of the data science and Gen AI course is 9-13 months.",
             open: false,
           },
           {
@@ -264,11 +255,7 @@ export const DSAustinCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in Austin?",
-            ans: `The total course fee for the 
-                      Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                      Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                      Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                      Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price starts from $1700.`,
             open: true,
           },
           {
@@ -342,7 +329,7 @@ export const DSAustinCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification.`,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification. `,
             open: true,
           },
         ],
@@ -453,15 +440,15 @@ export const DSAustinCourseData = [
       "Experts interested in redefining their stagnant careers can research and choose any domain elective and fortify their skill sets. Any learner with a minimum of 6 months of work experience can select their desired domains for career change.         ",
     CertificationBot1:
       "Data science is an ever-evolving field that welcomes experts from diversified fields. Employers across MNCs in Austin and overseas look for working pros with proven data science skills. Yet, not all learned skills are considered acceptable by employers actively searching for skilled data scientists. Experts must showcase their skills with proofs, and globally recognized certificates validate them.         ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     CertificationBot2:
       "We at Learnbay offer an industry-paced data science course with useful certifications. Certificates are critical to help you attain a winning edge over the industry with proven expertise. We offer the best data science certification that validates the gained skills and expertise to thrive in a competitive world. Unlike generic courses, our data science course programs unlock global careers.         ",
     CertificationBot3:
-      "Working pros enrolling in our courses can leap to global-level success in their careers with our globally recognized certificates. We offer IBM certifications for the successful completion of courses and projects. In addition, our alliance with Microsoft offers a globally accredited certification to rise ahead of the competition.         ",
+      "Working pros enrolling in our courses can leap to global-level success in their careers with our globally recognized certificates. We offer IBM certifications for the successful completion of courses and projects. In addition, our alliance with  offers a globally accredited certification to rise ahead of the competition.         ",
     CertificationBot4: "",
     CertificationBot5: "  ",
     CertificationBot6: " ",
@@ -490,38 +477,26 @@ export const DSAustinCourseData = [
     ModuleBot47: "  ",
     ModuleBot47: "  ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 
@@ -584,7 +559,7 @@ export const DSAustinCourseData = [
     JobBotMasterBot5:
       "Our data science programs in Austin craft a hassle-free learning platform where you develop GenAI-inclusive expertise. Experts enrolling here get 24/7 guidance from our mentors on real-time projects that scale up success metrics. For realistic growth, we help you develop your behavioral skills to become a perfect fit for your organization. Our constant job and placement service guides you all the time.       ",
     JobBot007:
-      " Our data science course Austin offers course and project certificates to revamp your career on a global scale. Once you are done with the course and projects you will obtain IBM & Microsoft certifications. These certificates validate your skills to help you ace premium jobs globally.       ",
+      " Our data science course Austin offers course and project certificates to revamp your career on a global scale. Once you are done with the course and projects you will obtain IBM  certifications. These certificates validate your skills to help you ace premium jobs globally.       ",
     JobBot005: "  ",
     JobBot006: " ",
     JobHead22:

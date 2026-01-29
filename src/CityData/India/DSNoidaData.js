@@ -149,7 +149,7 @@ export const DSNoidaCourseData = [
           {
             id: 0,
             ques: "How long does the data science course in Noida typically take to complete?              ",
-            ans: "Learnbay offers flexible data science training in Noida that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+            ans: "The duration of the data science and Gen AI course is 9-13 months.",
 
             link: false,
             open: true,
@@ -218,7 +218,7 @@ export const DSNoidaCourseData = [
           {
             id: 0,
             ques: "What is the cost of the data science course, and are there any installment options?              ",
-            ans: `The data science course in Noida fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST. `,
             open: true,
           },
           {
@@ -277,7 +277,7 @@ export const DSNoidaCourseData = [
           {
             id: 0,
             ques: "Is the certification internationally recognized?              ",
-            ans: `Learnbay offers an internationally recognized data science certification in Noida. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certifications.  `,
             open: true,
           },
         ],
@@ -404,11 +404,11 @@ export const DSNoidaCourseData = [
     CertificationBot2:
       "Certificates are crucial to validating learned skills and cracking prime job offers globally. These certificates enrich professional credibility and are vital to redefining outpaced careers. Experts with valuable credentials can crack top-tier job roles with attractive pay scales. Globally recognized certifications help you to increase the chances of cracking jobs with leading MNCs with attractive pay scales.",
     CertificationBot3:
-      "At Learnbay, we believe in supporting career transitions with our end-to-end solutions. Our trustworthy alliance with industry leaders IBM & Microsoft enhances career worth and adds more value to it. Upskilling with the best data science training institute in Noida helps you gain a competitive edge in your domain or desired field. Here, you will get two-course completion certificates from IBM & MS and one IBM project certificate. Hence, learning with our leading-edge data science courses is crucial to building a lucrative career in data science.",
+      "At Learnbay, we believe in supporting career transitions with our end-to-end solutions. Our trustworthy alliance with industry leaders IBM  enhances career worth and adds more value to it. Upskilling with the best data science training institute in Noida helps you gain a competitive edge in your domain or desired field. Here, you will get two-course completion certificates from IBM & MS and one IBM project certificate. Hence, learning with our leading-edge data science courses is crucial to building a lucrative career in data science.",
     CertificationBot4: "",
     CertificationBot5: "",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
@@ -439,38 +439,26 @@ export const DSNoidaCourseData = [
       "Unlike a typical big data course in Noida, our upskilling programs help you build a competitive career with proven skills. Experts joining our courses will learn everything – from basic coding to hands-on practice with data-driven tools.",
     ModuleBot47: "  ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 
@@ -531,7 +519,7 @@ export const DSNoidaCourseData = [
     JobBot007:
       "Upskilling with Learnbay unlocks a global-level career path with exciting gains. Experts from various fields join us to gain Gen AI-rich upskilling to face the changing digital era. Here, you will gain uninterrupted learning of vital tools from our esteemed mentors with years of experience in relevant fields. Apart from abstract learning, experts gain practical experience with tools to drive optimal business yields.",
     JobBot005:
-      "Our association with IBM & Microsoft helps experts build a global-scale data science career with promising growth options. Our certificates are career-worthy as they validate your skills and help you crack top-tier roles. Our leading MNCs & unicorn startupship with 450+ companies and endless career support services brings proven success. ",
+      "Our association with IBM  helps experts build a global-scale data science career with promising growth options. Our certificates are career-worthy as they validate your skills and help you crack top-tier roles. Our leading MNCs & unicorn startupship with 450+ companies and endless career support services brings proven success. ",
     JobBot006: " ",
     JobHead22:
       "What career-driven roles can you land with Learnbay’s data scientist course in Noida?",

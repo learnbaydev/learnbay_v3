@@ -9,32 +9,32 @@ import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import styles from "../../../styles/Home.module.css";
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
+const OfferPopup = dynamic(
+  () => import("../../../components/Global/OfferPopup/OfferPopup"),
 );
-const FirstSection = dynamic(() =>
-  import("../../../components/Seo/FirstSection/FirstSection")
+const FirstSection = dynamic(
+  () => import("../../../components/Seo/FirstSection/FirstSection"),
 );
-const SecondSection = dynamic(() =>
-  import("../../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import("../../../components/Seo/SecondSection/SecondSection"),
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
+const ProgramInfo = dynamic(
+  () => import("../../../components/Seo/ProgramInfo/ProgramInfo"),
 );
-const SeventhSection = dynamic(() =>
-  import("../../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import("../../../components/Seo/SeventhSection/SeventhSection"),
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
+const ProgramFee = dynamic(
+  () => import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee"),
 );
-const CityText = dynamic(() =>
-  import("../../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import("../../../components/Seo/CityText/CityText"),
 );
-const CitiesLeft = dynamic(() =>
-  import("../../../components/Seo/CitiesLeft/CitiesLeft")
+const CitiesLeft = dynamic(
+  () => import("../../../components/Seo/CitiesLeft/CitiesLeft"),
 );
-const CitiesRight = dynamic(() =>
-  import("../../../components/Seo/CitiesRight/CitiesRight")
+const CitiesRight = dynamic(
+  () => import("../../../components/Seo/CitiesRight/CitiesRight"),
 );
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 
@@ -333,7 +333,7 @@ export default function Home() {
                   name: "What is the total fee for Learnbay AI Certifications courses in Bangalore?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "The total course fee for the Foundational Data Science and AI Training course is 75,000/- inclusive of GST. Advance Data Science and AI Certification course is 1,25,000/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,35,000/- inclusive of GST. Data Science and AI Master Certification Program is 1,55,000/- inclusive of GST.",
+                    text: "The total course fee for the Foundational Data Science and AI Training course is 75,000/- inclusive of GST. Advance Data Science and AI Certification course is 1,25,000/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,20,000/- inclusive of GST. Data Science and AI Master Certification Program is 1,55,000/- inclusive of GST.",
                   },
                 },
                 {

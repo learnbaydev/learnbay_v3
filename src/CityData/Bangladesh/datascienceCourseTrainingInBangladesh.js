@@ -149,16 +149,7 @@ export const DSBangladeshCourseData = [
           {
             id: 0,
             ques: "What are Data Science Training courses available at Learnbay in Bangladesh?",
-            linkText1: "Foundational Data Science Training Course, ",
-            linkText2: "Advance Data Science Certification Course, ",
-            linkText3:
-              "Data Science Certification Course for Managers and Leaders, ",
-            linkText4: "Data Science Training with Placement Assistance",
-            link1: "/data-science-certification-courses",
-            link2: "/advance-data-science-certification-courses",
-            link3: "/data-science-ai-for-managers",
-            link4: "/data-science-ai-masters-program",
-            link: true,
+            ans: "Data Science and GenAI Certification Program, Advance Data Science and GenAI Master program, GenAI and Agentic AI Program for Managers and Leaders are available in Bangladesh. ",
             open: true,
           },
           {
@@ -183,7 +174,7 @@ export const DSBangladeshCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in Bangladesh?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The total duration of these courses is about 9-13 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. In the case of a non-master program, around 9 months is the timeline, while the master program is of around 13 months.",
             open: false,
           },
           {
@@ -265,10 +256,9 @@ export const DSBangladeshCourseData = [
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in Bangladesh?",
             ans: `The total course fee for the 
-            Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-            Advance Data Science and AI Certification course is 1,15,000/- inclusive of GST.
-            Data Science and AI Certification Course for Managers and Leaders is 1,35,700/- inclusive of GST.
-            Data Science and AI Master Certification Program is 1,59,300/- inclusive of GST.`,
+            Foundational Data Science and AI Training course is 1,20,000/- exclusive of GST.
+            Advance Data Science and AI Certification course is 1,59,000/- exclusive of GST.
+           `,
             open: true,
           },
           {
@@ -310,21 +300,7 @@ export const DSBangladeshCourseData = [
           {
             id: 0,
             ques: "How many capstone projects will be there? ",
-            ans: `Depending on the course you choose the number of capstone projects will vary.  
-                        Foundational Data Science and AI Training Course - 1 Capstone.
-                        Advance Data Science and AI Certification Course -2 Capstones.
-                        Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-                        Data Science and AI Training with Placement Assistance- 3 Capstones.
-                        How many real-time projects/case studies will be covered in these Data Science certification courses in Bangladesh?
-                        Depending on the course you choose the number of live projects will vary.  
-                        Foundational Data Science and AI Training course- 8 projects.
-                        Advance Data Science and AI Certification course-12 projects.
-                        Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-                        Data Science and AI Training with Placement Assistance- 15 projects.`,
-            linkText1: " Click here to download the list of the projects.",
-            link1:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
-            link: true,
+            ans: "Depending on the course you choose, the number of capstone projects will vary. Usually, you get multiple capstone projects. Also, you can build your own project through our BYOP feature.  Click here to download the list of the projects.",
             open: true,
           },
           {
@@ -342,7 +318,7 @@ export const DSBangladeshCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification.`,
+            ans: `The data science course in Bangladesh comes with an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional certification. `,
             open: true,
           },
         ],
@@ -451,15 +427,15 @@ export const DSBangladeshCourseData = [
 
     CertificationBot1:
       "Learnbay’s data science certification course in Bangladesh supports career upskilling in alliance with IBM & MS. Two eminent global digital leaders (IBM & MS) envision a hassle-free career shift with alluring job offers.         ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     CertificationBot2:
       "Learnbay’s alliance with IBM supports your industry-paced upskilling and practical learning. Experts upgrade their skills via live projects that unlock their door to real-world business. Plus, IBM project certification validates your career, ensuring unbeatable success.         ",
-    CertificationBot3:
-      "Learnbay’s industrial accreditation with MS offers global recognition with extended earning potential. Our data science certification offers professional credibility to prosper globally.        ",
+    // CertificationBot3:
+    //   "Learnbay’s industrial accreditation with MS offers global recognition with extended earning potential. Our data science certification offers professional credibility to prosper globally.        ",
     ModuleHead1: "Learning Objectives         ",
 
     Modulelist1:
@@ -474,43 +450,31 @@ export const DSBangladeshCourseData = [
     Modulelist8: "AI tools      ",
     Modulelist9: "Machine learning: Basics, techniques, algorithms      ",
     Modulelist10: "Generative AI tools & trends      ",
-    Modulelist11: "AWS & MS Azure",
-    Modulelist12: "Hands-on learning projects       ",
+    // Modulelist11: "AWS & MS Azure",
+    // Modulelist12: "Hands-on learning projects       ",
     ModuleBot10:
       "Experts enrolling in Learnbay’s data science training in Bangladesh will learn via custom-fit course modules. Mentors train our learners with real-life examples that broaden their knowledge sphere. We follow industry trends and constantly update our modules for valuable upskilling.       ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 
@@ -534,7 +498,7 @@ export const DSBangladeshCourseData = [
     JobBot18:
       "Today’s data science field demands cutting-edge skills to drive competitive success for your career and businesses. Gone are the days when generic skills were enough to continue a career. The current digital age demands 360-degree data literacy with practical insights. Learnbay’s data science online course in Bangladesh helps you gain job-oriented skills and ace interviews.       ",
 
-    JobHead19: "Career Service Pro    ",
+    JobHead19: "Career Assistance   ",
 
     JobBot20:
       "Owing to the rising data-driven trends, the demand for a data science course with placement assistance increases. Eligible learners (at least 70% score in assessments) get the privilege of ‘Career Service Pro’ – Learnbay’s job assist program. With this program experts clear their course-related doubts, attend mock interviews, refine soft skills, and optimize their resumes.         ",

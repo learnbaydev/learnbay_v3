@@ -149,22 +149,13 @@ export const DSSouthAfricaCourseData = [
           {
             id: 0,
             ques: "What are Data Science Training courses available at Learnbay in South Africa?",
-            linkText1: "Foundational Data Science Training Course, ",
-            linkText2: "Advance Data Science Certification Course, ",
-            linkText3:
-              "Data Science Certification Course for Managers and Leaders, ",
-            linkText4: "Data Science Training with Placement Assistance",
-            link1: "/data-science-certification-courses",
-            link2: "/advance-data-science-certification-courses",
-            link3: "/data-science-ai-for-managers",
-            link4: "/data-science-ai-masters-program",
-            link: true,
+            ans: "Data Science and GenAI Certification Program, Advance Data Science and GenAI Master program, GenAI and Agentic AI Program for Managers and Leaders. ",
             open: true,
           },
           {
             id: 1,
             ques: "What are the prerequisites for these Data Science training Courses in South Africa?",
-            ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ans: "There are no prerequisites for this Data Science course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: false,
           },
           {
@@ -183,7 +174,7 @@ export const DSSouthAfricaCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in South Africa?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The duration of these courses is about 9-13 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. For the non-master program, around 9 months is the timeline, while the master program will get an extension for around 13 months. ",
             open: false,
           },
           {
@@ -264,17 +255,13 @@ export const DSSouthAfricaCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in South Africa?",
-            ans: `The total course fee for the 
-                      Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                      Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                      Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                      Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: `The total fees of this GenAI and Data Science Certification Course in South Africa is around $1700. `,
             open: true,
           },
           {
             id: 1,
             ques: "Can I pay in installments for these Data Science Certification courses in South Africa?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ans: "Yes, Installments remain available as per ongoing promotional offers. You can contact our career counselor for some customized deals. ",
             open: false,
           },
           {
@@ -310,21 +297,7 @@ export const DSSouthAfricaCourseData = [
           {
             id: 0,
             ques: "How many capstone projects will be there? ",
-            ans: `Depending on the course you choose the number of capstone projects will vary.  
-                      Foundational Data Science and AI Training Course - 1 Capstone.
-                      Advance Data Science and AI Certification Course -2 Capstones.
-                      Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-                      Data Science and AI Training with Placement Assistance- 3 Capstones.
-                      How many real-time projects/case studies will be covered in these Data Science certification courses in South Africa?
-                      Depending on the course you choose the number of live projects will vary.  
-                      Foundational Data Science and AI Training course- 8 projects.
-                      Advance Data Science and AI Certification course-12 projects.
-                      Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-                      Data Science and AI Training with Placement Assistance- 15 projects.`,
-            linkText1: " Click here to download the list of the projects.",
-            link1:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
-            link: true,
+            ans: `Depending on the course you choose, the number of capstone projects will vary. Usually, you get multiple capstone projects. Also, you can build your own project through our BYOP feature.  Click here to download the list of the projects. `,
             open: true,
           },
           {
@@ -342,7 +315,7 @@ export const DSSouthAfricaCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification.`,
+            ans: `The data science course in South Africa comes with an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional certification. `,
             open: true,
           },
         ],
@@ -449,14 +422,14 @@ export const DSSouthAfricaCourseData = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
 
     CertificationBot1:
-      "Learnbay’s data scientist courses in South Africa offer globally recognized certifications in alliance with IBM & MS. Our tie-up with IBM, a global digital leader, ensures your skill upgrades with in-demand tools. With IBM course and project certifications, learners can crack demanding job roles across MNCs.       ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+      "Learnbay’s data scientist courses in South Africa offer globally recognized certifications in alliance with IBM . Our tie-up with IBM, a global digital leader, ensures your skill upgrades with in-demand tools. With IBM course and project certifications, learners can crack demanding job roles across MNCs.       ",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     CertificationBot2:
-      "In addition, our alliance with MS delivers an inclusive learning space to demonstrate your skills on a global scale. IBM-MS certifications enrich Learnbay’s intend for hassle-free career shifts.       ",
+      "In addition, Master program with MS delivers an inclusive learning space to demonstrate your skills on a global scale. IBM-MS certifications enrich Learnbay’s intend for hassle-free career shifts.       ",
     CertificationBot3:
       "Regardless of data scientist course fees, many experts enroll in our certifications to redefine their slow-paced careers with alluring job offers.       ",
     ModuleHead1:
@@ -475,38 +448,26 @@ export const DSSouthAfricaCourseData = [
     Modulelist9: "AWS & Azure: Deployment & Evaluation     ",
     Modulelist10: "Practical tasks and projects     ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 
@@ -550,7 +511,7 @@ export const DSSouthAfricaCourseData = [
     JobBot23: "Unique career gains with Learnbay are –",
     Joblist18: "Industry-driven upskilling with GenAI-rich syllabus",
     Joblist19: "Leading edge portfolios with live projects",
-    Joblist20: "IBM & MS certifications (with in-demand data science courses)",
+    Joblist20: "IBM  certifications (with in-demand data science courses)",
     Joblist21:
       "Master’s degree from Woolf (with a Master’s program in data science)",
     Joblist22: "Career Service Pro (100% job and placement support)",
@@ -578,7 +539,7 @@ export const DSSouthAfricaCourseData = [
     ProjectsBot3:
       "Capstone projects help experts learn about current business issues and their ways to tackle them. Hands-on learning of tools via data science projects helps you rebuild an unbeatable career.       ",
     ProjectsBot4:
-      "Our project-based learning focuses on domain-specific training. Thus, projects are aligned with the trending domains – BFSI, Healthcare, Marketing, HR, Supply Chain, and Manufacturing. It helps you re-establish your career on a global scale with better perks. Plus, IBM & MS (Microsoft) certifications leverage career growth chances rapidly.      ",
+      "Our project-based learning focuses on domain-specific training. Thus, projects are aligned with the trending domains – BFSI, Healthcare, Marketing, HR, Supply Chain, and Manufacturing. It helps you re-establish your career on a global scale with better perks. Plus, IBM certifications leverage career growth chances rapidly.      ",
 
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",

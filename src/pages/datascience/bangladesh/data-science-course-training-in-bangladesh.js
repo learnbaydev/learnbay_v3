@@ -224,7 +224,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Best Online Data Science Course in Bangladesh          "
           firstTopPara="Foundational and Advanced Job-ready"
-          cityParaCont="Drive yourself towards multi-faceted career excellence with Learnbay’s industry-driven data science course in Bangladesh. Engage in Learnbay’s comprehensively curated GenAI-rich course syllabus to ace global job interviews. Our gainful alliance with IBM & Microsoft (MS) supports insightful upskilling with data-driven tools.           "
+          cityParaCont="Drive yourself towards multi-faceted career excellence with Learnbay’s industry-driven data science course in Bangladesh. Engage in Learnbay’s comprehensively curated GenAI-rich course syllabus to ace global job interviews. Our gainful alliance with IBM (MS) supports insightful upskilling with data-driven tools.           "
         />
         <SecondSection
           SecondSectionData={DSBangladeshCourseData[0].secondSection}
@@ -232,7 +232,7 @@ export default function Home() {
         <Realstory />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="$1700"
+            Fee="₹ 1,20,000 + 18% GST"
             FeeEmi="₹ 8,194/month"
             weekdaybatch="Weekday Batch"
             weekendbatch="Weekday  Batch"

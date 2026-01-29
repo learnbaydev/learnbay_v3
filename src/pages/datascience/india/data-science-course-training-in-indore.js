@@ -102,7 +102,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content=" Enroll in the best Data Science training in Indore! Gain hands-on experience with live projects. Earn internationally recognized IBM & Microsoft Certificates.          "
+          content=" Enroll in the best Data Science training in Indore! Gain hands-on experience with live projects. Earn internationally recognized IBM Certificates.          "
         />
         <meta
           name="keywords"
@@ -188,7 +188,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Data Science Course in Indore          "
           firstTopPara="Foundational and Advance Job-ready Program"
-          cityParaCont="Gain global-scale excellence via Learnbay's broadly designed data science course in Indore. Enroll today to equip yourself with proven data-driven skills via real-time learning. Also, receive global certifications from IBM & Microsoft to accelerate your career growth prospects in today's tech age.          "
+          cityParaCont="Gain global-scale excellence via Learnbay's broadly designed data science course in Indore. Enroll today to equip yourself with proven data-driven skills via real-time learning. Also, receive global certifications from IBM to accelerate your career growth prospects in today's tech age.          "
         />
         <SecondSection
           SecondSectionData={DSinodreCourseData[0].secondSection}
@@ -198,7 +198,7 @@ export default function Home() {
         </div>
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹1,35,000"
+            Fee="₹1,20,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
@@ -221,11 +221,11 @@ export default function Home() {
             // <EMI POPUP
             emiType="NO COST EMI"
             duration1="18 Months"
-            totalAmount1="₹1,35,000"
+            totalAmount1="₹1,20,000"
             monthlyPayment1="₹8,850"
             greenDown1="Standard Intrest rate Applicable"
             duration2="12 Months"
-            totalAmount2="₹1,35,000"
+            totalAmount2="₹1,20,000"
             monthlyPayment2="₹13,275"
           />
         </div>
@@ -287,6 +287,7 @@ export default function Home() {
               ModuleMasterlist10={DSinodreCourseData[0].ModuleMasterlist10}
               ModuleMasterBot3={DSinodreCourseData[0].ModuleMasterBot3}
               ModuleMasterBot2={DSinodreCourseData[0].ModuleMasterBot2}
+              ModuleMasterBot4={DSinodreCourseData[0].ModuleMasterBot4}
               ModuleBot46={DSinodreCourseData[0].ModuleBot46}
               ModuleBot47={DSinodreCourseData[0].ModuleBot47}
               syllabush1={DSinodreCourseData[0].syllabush1}

@@ -149,22 +149,13 @@ export const DSUSACourseData = [
           {
             id: 0,
             ques: "What are Data Science Training courses available at Learnbay in USA?",
-            linkText1: "Foundational Data Science Training Course, ",
-            linkText2: "Advance Data Science Certification Course, ",
-            linkText3:
-              "Data Science Certification Course for Managers and Leaders, ",
-            linkText4: "Data Science Training with Placement Assistance",
-            link1: "/data-science-certification-courses",
-            link2: "/advance-data-science-certification-courses",
-            link3: "/data-science-ai-for-managers",
-            link4: "/data-science-ai-masters-program",
-            link: true,
+            ans: "Data Science and Gen AI Certification Course, Advanced Data Science and Gen AI master Program, and Gen AI and Agentic AI for Managers and Leaders.",
             open: true,
           },
           {
             id: 1,
             ques: "What are the prerequisites for these Data Science training Courses in USA?",
-            ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ans: "There are no prerequisites for this Data Science course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: false,
           },
           {
@@ -183,7 +174,7 @@ export const DSUSACourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in USA?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The duration of these courses is about 9 to 13. months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches.",
             open: false,
           },
           {
@@ -264,17 +255,13 @@ export const DSUSACourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in USA?",
-            ans: `The total course fee for the 
-                  Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                  Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                  Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                  Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: `The Data Science certification courses in the USA from Learnbay will cost you around $1700 to $1800. `,
             open: true,
           },
           {
             id: 1,
             ques: "Can I pay in installments for these Data Science Certification courses in USA?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ans: "Yes, you can get installments and other offer beased on the availability and running promotional offers. Please contact our counselor for the same. ",
             open: false,
           },
           {
@@ -310,21 +297,7 @@ export const DSUSACourseData = [
           {
             id: 0,
             ques: "How many capstone projects will be there? ",
-            ans: `Depending on the course you choose the number of capstone projects will vary.  
-                  Foundational Data Science and AI Training Course - 1 Capstone.
-                  Advance Data Science and AI Certification Course -2 Capstones.
-                  Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-                  Data Science and AI Training with Placement Assistance- 3 Capstones.
-                  How many real-time projects/case studies will be covered in these Data Science certification courses in USA?
-                  Depending on the course you choose the number of live projects will vary.  
-                  Foundational Data Science and AI Training course- 8 projects.
-                  Advance Data Science and AI Certification course-12 projects.
-                  Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-                  Data Science and AI Training with Placement Assistance- 15 projects.`,
-            linkText1: " Click here to download the list of the projects.",
-            link1:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
-            link: true,
+            ans: `This course offers around 18 hours of live project, where you can experience AI-Colab and BYOP (Bring Your Own business Problem). `,
             open: true,
           },
           {
@@ -342,7 +315,7 @@ export const DSUSACourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification.`,
+            ans: `Yes, you will be awarded IBM-accredited Data Scientist and Gen AI Certifications on successful course completion. But based on the course you choose, you can get Multiple certification options too. If you choose the Master Course, then you can get Dual Certifications from IBM. `,
             open: true,
           },
         ],
@@ -450,8 +423,8 @@ export const DSUSACourseData = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
     CertificationBot1:
       "IBM is one of the top-notch tech giants in the world with proven predictive analytics and machine learning solutions. Its unstoppable support to businesses with insightful solutions assures success.",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
@@ -460,7 +433,7 @@ export const DSUSACourseData = [
     CertificationBot3:
       "IBM data science professional certificate course offers an integrated learning space. Our data science program in the USA is the epitome of a successful career transition.         ",
     CertificationBot4:
-      "Our association with Microsoft (MS) delivers unbeatable knowledge values to sustain in today’s cutting-edge digital space. With this program, we take a pledge to support our learners in launching a competitive career in data science. Microsoft-attested data science certificate helps you stay ahead of the career race across the USA.  ",
+      "Our association with IBM delivers unbeatable knowledge values to sustain in today’s cutting-edge digital space. With this program, we take a pledge to support our learners in launching a competitive career in data science. IBM-attested data science certificate helps you stay ahead of the career race across the USA.  ",
     ModuleHead1: "Enlisting the Learning Outcomes         ",
     ModuleBot1:
       "US experts gain knowledge in their fields and achieve success in data science careers with many opportunities. You can learn everything from scratch – from programming languages to Generative AI trends.         ",
@@ -476,38 +449,26 @@ export const DSUSACourseData = [
     Modulelist6: "Deployment of AWS & Azure        ",
     Modulelist7: "Bonus sessions on GenAI tools & future trends        ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
     JobHead1:
@@ -536,7 +497,7 @@ export const DSUSACourseData = [
     JobBot19:
       "In short, unlike standard data science programs, Learnbay arms you with proven skills to drive a certified career.         ",
 
-    JobHead19: "Career Service Pro        ",
+    JobHead19: "Career Assistance     ",
 
     JobBot20:
       "Learners in the USA will have the opportunity for 100% placement assistance with Learnbay’s data science course. We offer ‘Career Service Pro’ benefits to eligible learners (one with at least 70% score in assessments). Under this job assist program you will gain –      ",
@@ -552,8 +513,8 @@ export const DSUSACourseData = [
     JobBot23: "Some promising career gains are here –      ",
     Joblist50: "Project-based learning (real-time simulation projects)      ",
     Joblist51: "Extensive upskilling with GenAI tools and trends       ",
-    Joblist52: "Valuable certifications (IBM & Microsoft)      ",
-    Joblist53: "100% job and placement support      ",
+    Joblist52: "Valuable certifications (IBM)      ",
+    // Joblist53: "100% job and placement support      ",
     Joblist54:
       "Even, if you want you can earn a master degree in data science via Woolf’s University program available at Learnbay.      ",
     JobHead22:

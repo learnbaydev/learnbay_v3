@@ -148,8 +148,8 @@ export const DSKochiCourseData = [
         data: [
           {
             id: 0,
-            ques: "How long does the data science course in Nagpur typically take to complete?              ",
-            ans: "Learnbay offers flexible data science training in Nagpur that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+            ques: "How long does the data science course in Kochi typically take to complete?              ",
+            ans: "Learbay offers flexible data science training in Kochi that typically takes about 9 months to complete. For master's program, it is around 13 months. ",
 
             link: false,
             open: true,
@@ -169,13 +169,13 @@ export const DSKochiCourseData = [
           {
             id: 2,
             ques: "Can I attend classes online, or is it only available in a physical classroom?              ",
-            ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Nagpur with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
+            ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Kochi with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
             open: false,
           },
           {
             id: 3,
             ques: "Do you offer flexibility in scheduling for working professionals?              ",
-            ans: "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here and can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs in Nagpur.               ",
+            ans: "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here and can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs in Kochi.               ",
             open: false,
           },
         ],
@@ -218,13 +218,13 @@ export const DSKochiCourseData = [
           {
             id: 0,
             ques: "What is the cost of the data science course, and are there any installment options?              ",
-            ans: `The data science course in Nagpur fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+            ans: `The data science course in Kochi fees sum to ₹1,20,000 + 18% GST. You will have an installment facility, where you have to pay monthly EMI. One can make payments through credit card, UPI, or internet banking.               `,
             open: true,
           },
           {
             id: 1,
             ques: "Do you offer any scholarships, discounts, or financial assistance programs?              ",
-            ans: `Learnbay offers flexible financing options for paying data science course fees in Nagpur. You can opt for no-cost EMI, installments, or interest-free loans to pay the fee within 12 months. 
+            ans: `Learnbay offers flexible financing options for paying data science course fees in Kochi. You can opt for no-cost EMI, installments, or interest-free loans to pay the fee within 12 months. 
               We also occasionally offer a 15%—20% discount for early birds. Yet, a group discount is available for learners who join with one or more friends. 
               `,
             list1: "Group of 2: 5% extra discount             ",
@@ -240,7 +240,7 @@ export const DSKochiCourseData = [
             ans: "Learners opting for the data science course at Learnbay are advised to go through its Refund/Cancellation Policy before     ",
             linkText1: "Refund/Cancellation Policy",
             ansAfter:
-              " enrolling. The policy mentions that learners can withdraw their data science fees in Nagpur.           ",
+              " enrolling. The policy mentions that learners can withdraw their data science fees in Kochi.           ",
             link: true,
             open: false,
           },
@@ -277,7 +277,7 @@ export const DSKochiCourseData = [
           {
             id: 0,
             ques: "Is the certification internationally recognized?              ",
-            ans: `Learnbay offers an internationally recognized data science certification in Nagpur. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+            ans: `Learnbay offers an internationally recognized data science certification in Kochi. Once learners complete the course and tasks, they get dual certification: a project experience certificate and course completion certificates from IBM .               `,
             open: true,
           },
         ],
@@ -407,8 +407,8 @@ export const DSKochiCourseData = [
       "Learnbay’s data analytics certification in Pune unlocks the door to global-level career shifts with attractive gains. Here, you will receive two IBM certifications – coursework and projects with impactful career returns. These certificates are vital in enriching career values and helping you ace prime job roles with lucrative pay.",
     CertificationBot4: "",
     CertificationBot5: " ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
@@ -440,38 +440,26 @@ export const DSKochiCourseData = [
       "Even busy working pros find upskilling from our institute helpful in effortless career shifts. Our learning modules with a prime data analyst course in Pune offer 360-degree knowledge-building in GenAI. Experts learn everything – from basic analytics concepts to advanced uses in real-world cases. Even non-tech experts learn coding and practical deployment of tools from scratch. If you’re worried about course modules and learning methods, consult our career experts and find the right way to upscale your future. ",
     ModuleBot47: "  ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 

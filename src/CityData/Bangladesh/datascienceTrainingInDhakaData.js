@@ -149,22 +149,13 @@ export const DSDhakaCourseData = [
           {
             id: 0,
             ques: "What are Data Science Training courses available at Learnbay in Dhaka?",
-            linkText1: "Foundational Data Science Training Course, ",
-            linkText2: "Advance Data Science Certification Course, ",
-            linkText3:
-              "Data Science Certification Course for Managers and Leaders, ",
-            linkText4: "Data Science Training with Placement Assistance",
-            link1: "/data-science-certification-courses",
-            link2: "/advance-data-science-certification-courses",
-            link3: "/data-science-ai-for-managers",
-            link4: "/data-science-ai-masters-program",
-            link: true,
+            ans: "Data Science and GenAI Certification Program, Advance Data Science and GenAI Master program, GenAI and Agentic AI Program for Managers and Leaders are available in Dhaka. ",
             open: true,
           },
           {
             id: 1,
             ques: "What are the prerequisites for these Data Science training Courses in Dhaka?",
-            ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ans: "There are no prerequisites for this Data Science course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: false,
           },
           {
@@ -183,7 +174,7 @@ export const DSDhakaCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in Dhaka?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The total duration of these courses is about 9-13 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. In the case of a non-master program, around 9 months is the timeline, while the master program is of around 13 months.",
             open: false,
           },
           {
@@ -265,10 +256,9 @@ export const DSDhakaCourseData = [
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in Dhaka?",
             ans: `The total course fee for the 
-                        Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-                        Advance Data Science and AI Certification course is 1,15,000/- inclusive of GST.
-                        Data Science and AI Certification Course for Managers and Leaders is 1,35,700/- inclusive of GST.
-                        Data Science and AI Master Certification Program is 1,59,300/- inclusive of GST.`,
+                        Foundational Data Science and AI Training course is 1,20,000/- exclusive of GST.
+                        Advance Data Science and AI Certification course is 1,59,000/- exclusive of GST.
+                        `,
             open: true,
           },
           {
@@ -310,17 +300,7 @@ export const DSDhakaCourseData = [
           {
             id: 0,
             ques: "How many capstone projects will be there? ",
-            ans: `Depending on the course you choose the number of capstone projects will vary.  
-                          Foundational Data Science and AI Training Course - 1 Capstone.
-                          Advance Data Science and AI Certification Course -2 Capstones.
-                          Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-                          Data Science and AI Training with Placement Assistance- 3 Capstones.
-                          How many real-time projects/case studies will be covered in these Data Science certification courses in Dhaka?
-                          Depending on the course you choose the number of live projects will vary.  
-                          Foundational Data Science and AI Training course- 8 projects.
-                          Advance Data Science and AI Certification course-12 projects.
-                          Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-                          Data Science and AI Training with Placement Assistance- 15 projects.`,
+            ans: `Depending on the course you choose, the number of capstone projects will vary. Usually, you get multiple capstone projects. Also, you can build your own project through our BYOP feature.`,
             linkText1: " Click here to download the list of the projects.",
             link1:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -342,7 +322,7 @@ export const DSDhakaCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification.`,
+            ans: `The data science course in Dhaka comes with an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional certification. `,
             open: true,
           },
         ],
@@ -455,15 +435,15 @@ export const DSDhakaCourseData = [
       "Note: If you are enrolling in an online master’s degree in data science, then you will have to choose a domain specialization and an elective. It depends on the career interests and goals of the learners that help them decide the suitable domain.",
     CertificationBot1:
       "Data science is a rewarding career with boundless growth options for working pros from diverse backgrounds. Today’s digital space in Dhaka accommodates experts with updated data-driven skills and knowledge. Thus, upskilling via an industry-paced data science course in Dhaka has become essential to accomplishing success.         ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     CertificationBot2:
-      "Certificates are beneficial for driving attainable career growth across the globe. Experts must enroll in an industry-proven data science training institute in Dhaka with valuable credentials. Our top-level data science courses offer globally recognized certificates from the tech giants like IBM & Microsoft. Hence, experts regardless of data science course fees opt for skills upgrades with the latest tools.         ",
+      "Certificates are beneficial for driving attainable career growth across the globe. Experts must enroll in an industry-proven data science training institute in Dhaka with valuable credentials. Our top-level data science courses offer globally recognized certificates from the tech giants like IBM. Hence, experts regardless of data science course fees opt for skills upgrades with the latest tools.         ",
     CertificationBot3:
-      "Experts upskilling with our data science programs will receive two IBM certificates for course and project work. We offer a scope to attest to a globally valued IBM certificate to enrich your career values with more promising job offers. Our alliance with Microsoft offers you one MS certificate with global accreditation.         ",
+      "Experts upskilling with our data science programs will receive two IBM certificates for course and project work. We offer a scope to attest to a globally valued IBM certificate to enrich your career values with more promising job offers.",
     ModuleHead1: "Enlisting Learning Outcomes       ",
     ModuleBot1:
       "Experts eager to optimize their career success limits can opt for an industry-led data science course in Dhaka. Our initiative for GenAI-rich upskilling drives real-time career growth across diverse sectors. We value your aim to redefine yourself professionally, and our in-detailed modules work here.   ",
@@ -483,38 +463,26 @@ export const DSDhakaCourseData = [
     Modulelist12: "Hands-on learning projects       ",
     ModuleBot10: "    ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 
@@ -546,7 +514,7 @@ export const DSDhakaCourseData = [
     JobBot18:
       "Note: Experts learn data science skills to excel in their chosen domain and ace leading job roles in the industry. Apart from abstract learning, experts gain a flexible scope to master these skills via live projects. It drives better learning experiences with abilities to thrive in competitions in the field of data science in Dhaka.             ",
 
-    JobHead19: "Career Service PRO (100% Job & Support Assistance)      ",
+    JobHead19: " Personalised Career Assistance",
     JobBot20:
       "Joining a premium data science training institute in Dhaka unlocks global-scale job offers with competitive pay cheques. Our job and placement service helps all eligible learners land their dream job roles in their domains. Experts with the least 70% in their tasks and projects are eligible to appear in our placement programs. ",
     JobBot35:
@@ -592,7 +560,7 @@ export const DSDhakaCourseData = [
     JobBot25:
       " Learnbay is the one-stop solution for experts eager to revamp their careers with promising job offers across Dhaka and overseas. Here, you will gain GenAI-rich training followed by capstone projects. A proven learning space to expand professional links with like-minded experts.             ",
     JobBot26:
-      "Our top-notch data science training institute in Dhaka attests globally recognized certifications to your career with better growth offers. Experts obtain IBM and Microsoft certifications with global-scale job offers and swift rises.         ",
+      "Our top-notch data science training institute in Dhaka attests globally recognized certifications to your career with better growth offers. Experts obtain IBM certifications with global-scale job offers and swift rises.         ",
 
     JobSpan1:
       "Note: If you enroll in our online data science degree course, you will get 60+ countries-approved degrees from Woolf. This degree is identical to any generic MSc in data science in Bangladesh, with financially reliable job offers.             ",

@@ -149,22 +149,13 @@ export const DSSingaporeCourseData = [
           {
             id: 0,
             ques: "What are Data Science Training courses available at Learnbay in Singapore?",
-            linkText1: "Foundational Data Science Training Course, ",
-            linkText2: "Advance Data Science Certification Course, ",
-            linkText3:
-              "Data Science Certification Course for Managers and Leaders, ",
-            linkText4: "Data Science Training with Placement Assistance",
-            link1: "/data-science-certification-courses",
-            link2: "/advance-data-science-certification-courses",
-            link3: "/data-science-ai-for-managers",
-            link4: "/data-science-ai-masters-program",
-            link: true,
+            ans: "Data Science and GenAI certification Program and Advanced Data Science and GenAI Master program is available in Singapore. ",
             open: true,
           },
           {
             id: 1,
             ques: "What are the prerequisites for these Data Science training Courses in Singapore?",
-            ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ans: "There are no prerequisites for this Data Science course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: false,
           },
           {
@@ -183,7 +174,7 @@ export const DSSingaporeCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in Singapore?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "Integrated dual Certification from IBM (one course completion and one project certificate) is there in the Data Science Certification Course in Singapore. However, if you choose to go with the Master Program, then an additional  certification is available. ",
             open: false,
           },
           {
@@ -264,17 +255,13 @@ export const DSSingaporeCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in Singapore?",
-            ans: `The total course fee for the 
-                    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                    Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                    Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: `You need to invest around $1700 for a Data Science Training Course in Singapore. For more details, you can check the specific courses. `,
             open: true,
           },
           {
             id: 1,
             ques: "Can I pay in installments for these Data Science Certification courses in Singapore?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ans: " Yes, based on promotional special offers, you can get installments with lucrative EMI options. Contact our support team for the latest EMI offers. ",
             open: false,
           },
           {
@@ -321,10 +308,12 @@ export const DSSingaporeCourseData = [
                     Advance Data Science and AI Certification course-12 projects.
                     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
                     Data Science and AI Training with Placement Assistance- 15 projects.`,
+            note: "Note: Data Science and Gen AI projects in Singapore are as per the current demand. So check with our expert for the latest category of projects and BYOP options.",
             linkText1: " Click here to download the list of the projects.",
             link1:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
             link: true,
+            note: "Note: Data Science and Gen AI projects in Singapore are as per the current demand. So check with our expert for the latest category of projects and BYOP options.",
             open: true,
           },
           {
@@ -342,7 +331,7 @@ export const DSSingaporeCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification.`,
+            ans: `The data science course in Singapore offers an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional certification. `,
             open: true,
           },
         ],
@@ -450,15 +439,15 @@ export const DSSingaporeCourseData = [
 
     CertificationBot1:
       "The successful union of data-driven methods with business actions paves the way for an informed future. IBM is one of the first-line tech leaders, famous for its ultra-age data-driven outcomes. Its unique data science program helps experts gain scalable skills for optimized decisiveness.      ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     CertificationBot2:
       "Learnbay’s alliance with IBM supports industry-focused upskilling in Singapore. Our data science certification Singapore harnesses the power of data-led actions with assured gains.       ",
-    CertificationBot3:
-      "Microsoft (MS), a technologically advanced corporation, invests its prime thoughts in favorable skills upgrades. Our tie-up with MS refines working experts’ skill sets with the power to deliver next-gen solutions.      ",
+    // CertificationBot3:
+    //   "Microsoft (MS), a technologically advanced corporation, invests its prime thoughts in favorable skills upgrades. Our tie-up with MS refines working experts’ skill sets with the power to deliver next-gen solutions.      ",
     CertificationBot4:
       "Data science in Singapore is changing the job market outlook with its dynamic methods. Learners across the country thereby gain an open learning space followed by globally-valued certifications. It trusts your career shift decision and guides you toward a rewarding career in Singapore.       ",
     CertificationBot5:
@@ -480,38 +469,26 @@ export const DSSingaporeCourseData = [
     Modulelist6: "  AWS & Azure Model Deployment    ",
     Modulelist7: "Data Visualization & Dashboard Design      ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "PYTHON FOR GENAI",
+    syllabusb2: "1 Months",
+    SyllabusBotlist21:
+      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+
+    syllabush3: "FOUNDATION FOR GENAI",
+    syllabusb3: "1 Months",
+    SyllabusBotlist31:
+      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+
+    syllabush4: "ADVANCED GENERATIVE AI",
+    syllabusb4: "1.5 Months",
+    SyllabusBotlist41:
+      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 
@@ -555,10 +532,10 @@ export const DSSingaporeCourseData = [
     JobBot24: "",
     Joblist50: "Industry-driven upskilling with GenAI-rich syllabus",
     Joblist51: "Leading edge portfolios with live projects",
-    Joblist52: "IBM & MS certifications (with in-demand data science courses)",
+    Joblist52: "IBM  certifications (with in-demand data science courses)",
     Joblist53:
       "Master’s degree from Woolf (with a Master’s program in data science)",
-    Joblist54: "Career Service Pro (100% job and placement support)",
+    Joblist54: "BYOP (Bring Your Own Business Problem)",
 
     JobHead22:
       "What trending career roles can you find with Learnbay’s Data Science Program in Singapore?",
