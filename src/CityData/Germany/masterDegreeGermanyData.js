@@ -512,7 +512,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
       'Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.',
 
     syllabussrc:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Masters-in-CS.pdf',
     JobHead1:
       'What job-ready skills will you develop with our MS in data science in Germany?         ',
     MasterJobBot1: ' ',
