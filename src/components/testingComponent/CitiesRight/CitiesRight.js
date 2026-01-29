@@ -690,7 +690,8 @@ const CitiesRight = ({
 
               <li>
                 <b>Doubt Clearance Sessions:</b> After your live classes, you
-                can take expert doubt clearance sessions to clear any doubts.{" "}
+                can take expert doubt clearance sessions to clear any
+                doubts.{" "}
               </li>
 
               <li>
@@ -1504,7 +1505,8 @@ const CitiesRight = ({
             </h2>
             <ul>
               <li>
-                This course covers all the skills a data scientist must possess.{" "}
+                This course covers all the skills a data scientist must
+                possess.{" "}
               </li>
               <li>
                 The MAANG and MNC experts guide the working professionals having
@@ -1585,7 +1587,8 @@ const CitiesRight = ({
               <li>
                 <b>Data Science in Media, Hospitality, and Transport Domain:</b>{" "}
                 This course teaches you everything from identifying hotel issues
-                to satisfying customer needs by improving business strategies.{" "}
+                to satisfying customer needs by improving business
+                strategies.{" "}
               </li>
             </ol>
 
@@ -1923,7 +1926,8 @@ const CitiesRight = ({
             </p>
 
             <h2 className={styles.pHead}>
-              Data Science Foundation Program in Delhi with Placement Assistance{" "}
+              Data Science Foundation Program in Delhi with Placement
+              Assistance{" "}
             </h2>
             <p>
               Do you want to pursue a successful career in data science? To meet
@@ -1955,7 +1959,8 @@ const CitiesRight = ({
             <ul>
               <li>
                 The Advance Data Science and AI Program is a wonderful option
-                for students seeking more in-depth knowledge of data science.{" "}
+                for students seeking more in-depth knowledge of data
+                science.{" "}
               </li>
               <li>
                 This course provides in-depth training and helps you deeply
@@ -2230,7 +2235,7 @@ const CitiesRight = ({
               others. Learnbay delivers rigorous{" "}
               <b>Data Science online training in Chennai</b> and is considered
               the best in the industry. The <b>data science course fee</b> at
-              Learnbay institute ranges from INR 1,10,000 to INR 125,000,
+              Learnbay institute ranges from INR 1,20,000 to INR 1,59,000,
               depending on the preferred course.
             </p>
 
@@ -2618,7 +2623,8 @@ const CitiesRight = ({
                 </b>{" "}
                 You will receive a globally recognized master’s degree (Woolf
                 University) with better job prospects. This degree enriches your
-                career value similar to a master's in 60+ Western countries.{" "}
+                career value similar to a master's in 60+ Western
+                countries.{" "}
               </li>
               <br />
               <li>
@@ -3261,7 +3267,8 @@ const CitiesRight = ({
 
             <p>
               Experts eager for a data-driven career can join our best data
-              science courses but before this, you must fulfil the requisites –{" "}
+              science courses but before this, you must fulfil the requisites
+              –{" "}
             </p>
             <br />
             <ul>
@@ -4498,7 +4505,8 @@ const CitiesRight = ({
               work on capstone projects in their chosen domain to learn how to
               use tools in real-time and devise better ways. Our practical
               sessions equip you with 12+ live projects, and learners must
-              choose one according to their domain, career goals, and interests.{" "}
+              choose one according to their domain, career goals, and
+              interests.{" "}
             </p>
 
             <p>
@@ -5235,7 +5243,8 @@ const CitiesRight = ({
               Many startups and MNCs in Indore leverage data to make smarter
               moves. Hence, the major job prospects in the data science industry
               have peaked. Thus, working experts choose to upskill at the best
-              data science institute in Indore, which offers better job offers.{" "}
+              data science institute in Indore, which offers better job
+              offers.{" "}
             </p>
 
             <p>
@@ -5869,7 +5878,8 @@ const CitiesRight = ({
               skills and kick-start a thriving career. Our cyber security course
               in Pune with placement equips you with skills to crack critical
               job interviews effortlessly. Learnbay’s career support services
-              help techies prepare for upcoming risks and make them job-ready.{" "}
+              help techies prepare for upcoming risks and make them
+              job-ready.{" "}
             </p>
           </div>
         ) : (
@@ -5987,7 +5997,8 @@ const CitiesRight = ({
             <p>
               Also, experts can validate their skills with IBM & Microsoft
               certificates to escalate career growth chances. Earn these
-              credentials and unleash true growth potential on a global level.{" "}
+              credentials and unleash true growth potential on a global
+              level.{" "}
             </p>
             <p>
               Hence, investing in Learnbay’s <b>DSA course in Pune</b> is worth

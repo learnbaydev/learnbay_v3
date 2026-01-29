@@ -290,7 +290,7 @@ export default function Home() {
         <Realstory />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹1,35,000"
+            Fee="₹1,20,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
             weekendbatch="  Weekend Batch"

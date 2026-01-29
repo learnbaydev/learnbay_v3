@@ -2222,7 +2222,7 @@ const CitiesRight = ({
               others. Learnbay delivers rigorous{" "}
               <b>Data Science online training in Chennai</b> and is considered
               the best in the industry. The <b>data science course fee</b> at
-              Learnbay institute ranges from INR 1,10,000 to INR 125,000,
+              Learnbay institute ranges from INR 1,20,000 to INR 1,59,000,
               depending on the preferred course.
             </p>
 

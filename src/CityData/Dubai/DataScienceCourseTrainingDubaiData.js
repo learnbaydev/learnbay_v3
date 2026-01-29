@@ -118,7 +118,7 @@ export const DSDubaiCourseData = [
           name: "What’s the duration of these advanced data science courses in Dubai?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9 months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13 months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15 months",
+            text: "The duration of the Data Science Course Training In Chennai is 9-13 months, including weekend and weekday batches.",
           },
         },
         {
@@ -190,7 +190,7 @@ export const DSDubaiCourseData = [
           name: "What is the total fee for Data Science Certifications courses in Dubai?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The total course fee for the Foundational Data Science and AI Training course is 93,220/- inclusive of GST. Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.",
+            text: " The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST.",
           },
         },
         {
@@ -238,7 +238,7 @@ export const DSDubaiCourseData = [
           name: "Is there any accredited data science certification after course completion?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.",
+            text: "Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification.",
           },
         },
         {
@@ -537,7 +537,7 @@ export const DSDubaiCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in Dubai?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The duration of the Data Science Course Training In Chennai is 9-13 months, including weekend and weekday batches.",
             open: false,
           },
           {
@@ -619,11 +619,7 @@ export const DSDubaiCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in Dubai?",
-            ans: `The total course fee for the 
-            Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-            Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-            Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-            Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: ` The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST.`,
             open: true,
           },
           {
@@ -697,12 +693,7 @@ export const DSDubaiCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-            Foundational Data Science and AI Training course- 1 Course Completion Certificate.
-            Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-            Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-            Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-            *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.`,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification.`,
             open: true,
           },
         ],
@@ -831,8 +822,8 @@ export const DSDubaiCourseData = [
       "Once you complete your data science course from Learnbay, you will be awarded multiple certificates from IBM for completing distinct micro-data science modules. These certifications will demonstrate your data science expertise and help you stay ahead in the data science job market.",
     CertificationBot2:
       "In addition, you will receive an IBM project certificate upon completion of capstone projects which you can add to your portfolio. It assists in grabbing genuine and interesting job roles. To learn more about micro-skills certificates, refer to the respective course syllabus.",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
