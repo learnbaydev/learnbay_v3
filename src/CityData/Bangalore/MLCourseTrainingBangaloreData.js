@@ -183,12 +183,12 @@ export const MLBangaloreCourseData = [
           name: 'What is the total Fee for this machine learning course in Bangalore?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,15,000/- Inclusive of GST.',
+            text: 'The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000/- Inclusive of GST.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Can I pay in installments for 1,15,000/-?',
+          name: 'Can I pay in installments for 1,59,000/-?',
           acceptedAnswer: {
             '@type': 'Answer',
             text: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
@@ -615,12 +615,12 @@ export const MLBangaloreCourseData = [
           {
             id: 0,
             ques: 'What is the total Fee for this machine learning course in Bangalore?',
-            ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,10,900/- Inclusive of GST.`,
+            ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000/- Inclusive of GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: 'Can I pay in installments for 1,15,000/-?',
+            ques: 'Can I pay in installments for 1,59,000/-?',
             ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,539/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
             open: false,
           },
