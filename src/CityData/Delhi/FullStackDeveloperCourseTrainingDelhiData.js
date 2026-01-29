@@ -472,14 +472,14 @@ export const FSDelhiCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is Learnbay’s full-stack developer course in Delhi?",
-            ans: "Learnbay’s full-stack developer course is essentially the finest course in software development with GenAI in Delhi.. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.",
+            ques: 'What is Learnbay’s full-stack developer course in Delhi?',
+            ans: 'Learnbay’s full-stack developer course is essentially the finest course in software development with GenAI in Delhi.. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.',
             open: true,
           },
           {
             id: 1,
-            ques: "What types of topics will this full-stack development course cover?",
-            ans: "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., Gen AI associated software development tools and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.",
+            ques: 'What types of topics will this full-stack development course cover?',
+            ans: 'It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., Gen AI associated software development tools and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.',
             open: false,
           },
           {
@@ -496,8 +496,8 @@ export const FSDelhiCourseData = [
           },
           {
             id: 4,
-            ques: "What will be the program duration for this full-stack software developer course in Delhi?",
-            ans: "This full-stack software developer course is about 11 months, including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches.",
+            ques: 'What will be the program duration for this full-stack software developer course in Delhi?',
+            ans: 'This full-stack software developer course is about 11 months, including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches.',
             open: false,
           },
           {
@@ -535,9 +535,9 @@ export const FSDelhiCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is Domain Specialization associated with the full-stack software developer course in Delhi?",
-            ans: "In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain.",
-          
+            ques: 'What is Domain Specialization associated with the full-stack software developer course in Delhi?',
+            ans: 'In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain.',
+
             open: true,
           },
           {
@@ -581,13 +581,13 @@ export const FSDelhiCourseData = [
         data: [
           {
             id: 0,
-            ques: "How much is the full-stack software developer course fee in Delhi?",
-            ans: `The total cost of the full-stack software development course in Delhi is INR Rs.1,20,000 /- +18% GST .`,
+            ques: 'How much is the full-stack software developer course fee in Delhi?',
+            ans: `The total cost of the full-stack software development course in Delhi is INR Rs.1,59,000 /- +18% GST .`,
             open: true,
           },
           {
             id: 1,
-            ques: "Is there any Installment / EMI option available for this course in Delhi?",
+            ques: 'Is there any Installment / EMI option available for this course in Delhi?',
             ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact@ +917795687988 ",
             open: false,
           },
@@ -639,7 +639,7 @@ export const FSDelhiCourseData = [
         data: [
           {
             id: 0,
-            ques: "Is there any accredited AI certification after course completion?",
+            ques: 'Is there any accredited AI certification after course completion?',
             ans: `The software developer course in Delhi with Gen AI offers  One IBM Generative AI Certification, Three Microsoft Azure Certifications, Two AI Co-Lab certifications after course completion. `,
             open: true,
           },
