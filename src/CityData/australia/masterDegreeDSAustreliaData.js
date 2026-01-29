@@ -3,97 +3,97 @@ export const masterdegreeAUSData = [
     secondSection: [
       {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon1.png",
-        height: "40",
-        width: "43",
-        heading: "1:1 Doubt Session",
-        para: "Talk to an expert & receive real-time solutions to your queries",
+        img: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon1.png',
+        height: '40',
+        width: '43',
+        heading: '1:1 Doubt Session',
+        para: 'Talk to an expert & receive real-time solutions to your queries',
       },
       {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
-        height: "42",
-        width: "42",
-        heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
+        img: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png',
+        height: '42',
+        width: '42',
+        heading: 'Job-ready with interview support',
+        para: 'Boost your job prospects with referrals from leading MNCs & unicorn startups',
       },
       {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon2.png",
-        height: "50",
-        width: "53",
-        heading: "IBM Project Certificate",
-        para: "Grab opportunities with a portfolio & make a smooth career transition",
+        img: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon2.png',
+        height: '50',
+        width: '53',
+        heading: 'IBM Project Certificate',
+        para: 'Grab opportunities with a portfolio & make a smooth career transition',
       },
       {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon4.png",
-        height: "40",
-        width: "40",
-        heading: "Designed For Professionals",
-        para: "Prioritise growth, boost career with in-demand skills",
+        img: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon4.png',
+        height: '40',
+        width: '40',
+        heading: 'Designed For Professionals',
+        para: 'Prioritise growth, boost career with in-demand skills',
       },
     ],
     testimonial: [
       {
         id: 1,
-        name: "Preksha Mishra",
-        working: "HCL",
-        link: "vSjfKdIzUjY",
+        name: 'Preksha Mishra',
+        working: 'HCL',
+        link: 'vSjfKdIzUjY',
         proImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/preksha-testimonial.webp",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/preksha-testimonial.webp',
         sDesc:
-          "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job ...",
+          'I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job ...',
         lDesc:
-          "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job, they keep putting enormous efforts for each and every candidate. Thanks to all the trainers, backend team, the HR team and to the directors for making this journey smooth.",
+          'I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job, they keep putting enormous efforts for each and every candidate. Thanks to all the trainers, backend team, the HR team and to the directors for making this journey smooth.',
         complogo:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-        statLogo: "140% Hike",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp',
+        statLogo: '140% Hike',
       },
       {
         id: 2,
-        name: "Shubham Kumar",
-        working: "Cendrol Technology",
-        link: "JoKquvfAhZU",
+        name: 'Shubham Kumar',
+        working: 'Cendrol Technology',
+        link: 'JoKquvfAhZU',
         proImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Shubham-kumar-thumb+.webp",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Shubham-kumar-thumb+.webp',
         sDesc:
           "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech...",
         lDesc:
           "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech background. In six months, I got to learn how data science is used in the real world. Their mock interviews also prepared me for job interviews, and I got a data analyst job at Cendrol. This course really helped me change my career.",
         complogo:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-        statLogo: "  210% Hike",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp',
+        statLogo: '  210% Hike',
       },
       {
         id: 4,
-        name: "Arvind Kumar",
-        working: "The Math Company",
-        link: "hewBtR_WoDM",
+        name: 'Arvind Kumar',
+        working: 'The Math Company',
+        link: 'hewBtR_WoDM',
         proImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/aravind-k-thumb.webp",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/aravind-k-thumb.webp',
         sDesc:
-          "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that...",
+          'Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that...',
         lDesc:
-          "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage my time and learn while working. Thanks to Learnbay for my lucrative placement.",
+          'Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage my time and learn while working. Thanks to Learnbay for my lucrative placement.',
         complogo:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-        statLogo: " 150% Hike",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp',
+        statLogo: ' 150% Hike',
       },
       {
         id: 5,
-        name: "Jaya sinha",
-        working: "Amazon",
-        link: "A-BkcEM0rQM",
+        name: 'Jaya sinha',
+        working: 'Amazon',
+        link: 'A-BkcEM0rQM',
         proImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jaya-sinha-thumb.webp",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jaya-sinha-thumb.webp',
         sDesc:
           "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's...",
         lDesc:
           "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's market. The course's interactive sessions and personalized guidance from Abhishek sir were invaluable. Post-completion, I had received two offers, one from Amazon and other from Infosys for the role of senior data analyst. Highly recommend for anyone stepping into data science.",
         complogo:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/amazon.webp",
-        statLogo: " 150% Hike",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/amazon.webp',
+        statLogo: ' 150% Hike',
       },
       // {
       //   id: 6,
@@ -144,19 +144,19 @@ export const masterdegreeAUSData = [
     faq: [
       {
         id: 0,
-        sectionName: "Course Related",
+        sectionName: 'Course Related',
         data: [
           {
             id: 0,
 
-            ques: "What Data Science training courses are available at Learnbay in Australia?",
+            ques: 'What Data Science training courses are available at Learnbay in Australia?',
             ans: "Learnbay offers a comprehensive Master's in Data Science program in Australia, designed with Generative AI–rich modules to provide 360-degree industry-ready learning. The curriculum aligns with the latest Data Science and Agentic AI trends relevant to Australian businesses.\n\nThe program is structured into seven learning modules:\n\n• L1 – Cohort Orientation with Programming Fundamentals (foundation set, vibe check done)\n• L2 – Basic & Advanced Python Programming (Python era starts here )\n• L3 – Statistics & Machine Learning (core Data Science logic)\n• L4 – Data Science Tools (SQL, Power BI, Tableau, Git, etc.)\n• L5 – AI & Generative AI Tools (future-proof skills )\n• L6 – Model Deployment & MLOps (real-world implementation)\n• L7 – Capstone Projects & Industry Use Cases ",
 
             open: true,
           },
           {
             id: 1,
-            ques: "How are the courses structured? Are they more theoretical or practical in nature? ",
+            ques: 'How are the courses structured? Are they more theoretical or practical in nature? ',
             ans: "The courses are structured following the current happenings in the data science industry in Australia. The courses are crafted with specific attention to both theoretical and practical learning concepts. Learners enrolling for the master's in data science program will gain a comprehensive learning of theoretical concepts followed by projects. It focuses on real-time learning of tools via live projects and case studies associated with every learning term. Here you get the scope of Bringing your own business problems (BYOP) too.",
             open: false,
           },
@@ -174,37 +174,37 @@ export const masterdegreeAUSData = [
           },
           {
             id: 4,
-            ques: "How are the classes delivered? Are they in-person, online, or a combination of both for an MS in Data Science in Australia?",
-            ans: "Data science masters programs in Australia conduct online training sessions to help learners gain adequate abstract and practical knowledge. Experts joining our MS in Data Science in the Australia program can balance their hectic plans with our flexible online learning sessions.",
+            ques: 'How are the classes delivered? Are they in-person, online, or a combination of both for an MS in Data Science in Australia?',
+            ans: 'Data science masters programs in Australia conduct online training sessions to help learners gain adequate abstract and practical knowledge. Experts joining our MS in Data Science in the Australia program can balance their hectic plans with our flexible online learning sessions.',
             open: false,
           },
         ],
       },
       {
         id: 1,
-        sectionName: "Domain Electives",
+        sectionName: 'Domain Electives',
         data: [
           {
             id: 0,
-            ques: "What are the available elective domain options in the different data science training courses of Learnbay in Australia?",
-            ans: " In the Master Degree course provided by Learnbay in Australia, available domain specializations are: Retail, E-Commerce, & Supply Chain, Healthcare, BFSI; Manufacturing, BFSI, Managers and Leaders. However we update our domain specialisation as per market job market skill demand and ever changing trends.Contact our course experts for latest available domain specializations and modules. ",
+            ques: 'What are the available elective domain options in the different data science training courses of Learnbay in Australia?',
+            ans: ' In the Master Degree course provided by Learnbay in Australia, available domain specializations are: Retail, E-Commerce, & Supply Chain, Healthcare, BFSI; Manufacturing, BFSI, Managers and Leaders. However we update our domain specialisation as per market job market skill demand and ever changing trends.Contact our course experts for latest available domain specializations and modules. ',
             open: false,
           },
           {
             id: 1,
-            ques: "Which data science specialization domain elective is best suited for me?",
+            ques: 'Which data science specialization domain elective is best suited for me?',
             ans: `You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988`,
             open: false,
           },
           {
             id: 2,
-            ques: "Why is domain specialization important in professional data science certification?",
+            ques: 'Why is domain specialization important in professional data science certification?',
             ans: "After enrolling in the advanced data science courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
             open: false,
           },
           {
             id: 3,
-            ques: "Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?",
+            ques: 'Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?',
             ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. Check with our career support expert for more details. `,
             open: false,
           },
@@ -216,15 +216,15 @@ export const masterdegreeAUSData = [
           },
           {
             id: 5,
-            ques: "Can I change my domain electives later?",
-            ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. Check with our course expert for any kind of terms and conditions. ",
+            ques: 'Can I change my domain electives later?',
+            ans: 'Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. Check with our course expert for any kind of terms and conditions. ',
             open: false,
           },
         ],
       },
       {
         id: 2,
-        sectionName: "Payments and Scholarships",
+        sectionName: 'Payments and Scholarships',
         data: [
           {
             id: 0,
@@ -240,7 +240,7 @@ export const masterdegreeAUSData = [
           },
           {
             id: 2,
-            ques: "What payment options are available for the data science masters programs in Australia?",
+            ques: 'What payment options are available for the data science masters programs in Australia?',
             ans: `Learners enrolling in data science masters programs in Australia will have two options for one-time payment for the course: Internet banking and credit/Debit card.`,
             open: false,
           },
@@ -256,11 +256,11 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
       },
       {
         id: 3,
-        sectionName: "Capstone and Real-Time Projects",
+        sectionName: 'Capstone and Real-Time Projects',
         data: [
           {
             id: 0,
-            ques: "Could you provide more information about the capstone project or real-time projects included in the program for MS in Data Science in Australia?",
+            ques: 'Could you provide more information about the capstone project or real-time projects included in the program for MS in Data Science in Australia?',
             ans: `Learners joining the MS in data science course in Australia will gain exclusive learning scope via capstone projects. Here, learners can choose one domain specialization per their career interests and work on three capstone projects. The projects will relate to the leading industries - BFSI, Healthcare, HR, Marketing, Supply Chain, and Manufacturing. At last, learners in Australia will receive one Capstone Project Certificate from a renowned industry with alluring career gains.`,
             open: true,
           },
@@ -286,7 +286,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
       },
       {
         id: 4,
-        sectionName: "Certification",
+        sectionName: 'Certification',
         data: [
           {
             id: 0,
@@ -296,13 +296,13 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
           },
           {
             id: 2,
-            ques: "Is the certification recognized internationally, and what is its value in the job market for data science masters programs in Australia?",
+            ques: 'Is the certification recognized internationally, and what is its value in the job market for data science masters programs in Australia?',
             ans: `Yes, the certification is globally recognized (60+ countries recognize it), enriching your career and validating the learned skills for better job prospects. Anyone pursuing data science masters programs in Australia must obtain this certification for an effortless career transition. Learners with globally valued certifications attain a competitive advantage with compelling offers from top-tier companies in Australia. Certifications set a benchmark for exclusive competence to crack expanded career growth prospects throughout the country and overseas.`,
             open: true,
           },
           {
             id: 3,
-            ques: "Are there any additional certifications or credentials",
+            ques: 'Are there any additional certifications or credentials',
             ans: `Students can earn alongside the Master's degree in data science masters programs. Learners will receive course completion and project certifications from IBM & Microsoft alongside the master's degree in data science masters programs.`,
             open: true,
           },
@@ -310,7 +310,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
       },
       {
         id: 5,
-        sectionName: "Job Assistance",
+        sectionName: 'Job Assistance',
         data: [
           {
             id: 0,
@@ -321,7 +321,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
           },
           {
             id: 1,
-            ques: "Do you have partnerships with companies or industry connections that help students secure internships or job placements for MS in data science in Australia?",
+            ques: 'Do you have partnerships with companies or industry connections that help students secure internships or job placements for MS in data science in Australia?',
             ans: `Yes, we have a leading MNCs & unicorn startup with 450+ leading companies in Australia and overseas that assist career transitions with premium placements and internships.`,
             open: false,
           },
@@ -333,7 +333,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
           },
           {
             id: 3,
-            ques: "Do you provide resume assistance, interview preparation, or networking opportunities to help students transition into the workforce for data science masters programs in Australia?",
+            ques: 'Do you provide resume assistance, interview preparation, or networking opportunities to help students transition into the workforce for data science masters programs in Australia?',
             ans: `Yes, eligible learners enrolling in data science masters programs in Australia will have successful career transitions with hassle-free assistance and opportunities. Such assistance includes resume review, interview preparation sessions, professional networking, and many more. Such services help learners transition their careers into prominent roles with alluring hikes and promotions.`,
             open: false,
           },
@@ -341,7 +341,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
       },
       {
         id: 6,
-        sectionName: "Mentorship",
+        sectionName: 'Mentorship',
         data: [
           {
             id: 0,
@@ -352,14 +352,14 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
           },
           {
             id: 1,
-            ques: "What qualifications and experience do the mentors have in Data Science and AI for data science masters programs in Australia?",
-            ans: "Mentors assigned for data science masters programs in Australia hold at least seven years of work experience in a similar field from any domain/discipline. Their real-time exposure to business scenarios and decisiveness helps learners land their dream roles.",
+            ques: 'What qualifications and experience do the mentors have in Data Science and AI for data science masters programs in Australia?',
+            ans: 'Mentors assigned for data science masters programs in Australia hold at least seven years of work experience in a similar field from any domain/discipline. Their real-time exposure to business scenarios and decisiveness helps learners land their dream roles.',
             open: false,
           },
           {
             id: 2,
-            ques: "How are mentors assigned to students, and what level of interaction can students expect for MS in data science in Australia?",
-            ans: "We have a group of renowned industry experts in the role of mentors for MS in data science in Australia. These mentors are assigned to individual learning batches as per relevant skills and experience. Learners can expect direct interaction with their mentors during training sessions. Apart from training classes, you can also contact mentors for doubt clearing or certain queries via phone call or chat.",
+            ques: 'How are mentors assigned to students, and what level of interaction can students expect for MS in data science in Australia?',
+            ans: 'We have a group of renowned industry experts in the role of mentors for MS in data science in Australia. These mentors are assigned to individual learning batches as per relevant skills and experience. Learners can expect direct interaction with their mentors during training sessions. Apart from training classes, you can also contact mentors for doubt clearing or certain queries via phone call or chat.',
           },
           {
             id: 3,
@@ -375,7 +375,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
       },
       {
         id: 7,
-        sectionName: "Support",
+        sectionName: 'Support',
         data: [
           {
             id: 0,
@@ -385,8 +385,8 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
           },
           {
             id: 1,
-            ques: "How responsive are the faculty and support staff to student inquiries and concerns for MS in data science in Australia?",
-            ans: "Learners enrolling in MS in data science in Australia will get hassle-free training sessions with complete support from faculty and associated staff. In case of certain inquiries and concerns, you can contact your mentor 24/7 via the Learnbay app. You can contact them via phone or chat regarding coursework or project- related doubts. So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects.",
+            ques: 'How responsive are the faculty and support staff to student inquiries and concerns for MS in data science in Australia?',
+            ans: 'Learners enrolling in MS in data science in Australia will get hassle-free training sessions with complete support from faculty and associated staff. In case of certain inquiries and concerns, you can contact your mentor 24/7 via the Learnbay app. You can contact them via phone or chat regarding coursework or project- related doubts. So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects.',
             open: false,
           },
           {
@@ -406,243 +406,243 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
     ],
 
     DomainHead1:
-      "Upskill with Domain-specific Masters in Data Science Program        ",
+      'Upskill with Domain-specific Masters in Data Science Program        ',
     DomainBot1:
-      "At Learnbay, you will gain domain-specific training across Australia to thrive with the latest trends. Here, you will gain GenAI-rich knowledge-building in your chosen domain. Working pros in their early and mid-career level can opt for our master’s degree program to expand their career potential.         ",
-    DomainBot2: "  ",
-    DomainMasterh4: "Domain Electives       ",
+      'At Learnbay, you will gain domain-specific training across Australia to thrive with the latest trends. Here, you will gain GenAI-rich knowledge-building in your chosen domain. Working pros in their early and mid-career level can opt for our master’s degree program to expand their career potential.         ',
+    DomainBot2: '  ',
+    DomainMasterh4: 'Domain Electives       ',
     DomainMasterBot1:
-      "Our data science masters in Australia offer exclusive training in the trending domain disciples. They are –        ",
-    DomainList1: "• BFSI",
-    DomainList2: "• HR",
-    DomainList3: "• Marketing",
-    DomainList4: "• Manufacturing",
-    DomainList5: "• Healthcare      ",
-    DomainList6: "• Supply Chain ",
+      'Our data science masters in Australia offer exclusive training in the trending domain disciples. They are –        ',
+    DomainList1: '• BFSI',
+    DomainList2: '• HR',
+    DomainList3: '• Marketing',
+    DomainList4: '• Manufacturing',
+    DomainList5: '• Healthcare      ',
+    DomainList6: '• Supply Chain ',
     Domainlink1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf',
     Domainlink2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf',
     Domainlink3:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf',
     Domainlink4:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf',
     Domainlink5:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf',
     Domainlink6:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf',
 
     DomainMasterBot2:
-      " Experts eager to kick-start their career in data science can select any domain elective as per their goals and interests.         ",
+      ' Experts eager to kick-start their career in data science can select any domain elective as per their goals and interests.         ',
 
-    DomainMasterHead1: "Domain Specialization      ",
+    DomainMasterHead1: 'Domain Specialization      ',
     DomainMasterBot3:
-      " Domain-specific learning is vital to strengthen existing skills as per the current trends. Our master in data science program offers two domain specializations, following the key industry trends. They are –        ",
+      ' Domain-specific learning is vital to strengthen existing skills as per the current trends. Our master in data science program offers two domain specializations, following the key industry trends. They are –        ',
 
-    DomainMasterlist1: "Specialization 1: Data Science & Data Analytics       ",
+    DomainMasterlist1: 'Specialization 1: Data Science & Data Analytics       ',
     DomainMasterlist2:
-      "Specialization 2: Artificial Intelligence & Machine Learning ",
+      'Specialization 2: Artificial Intelligence & Machine Learning ',
     DomainMasterBot4:
-      "Experts eager to rebuild their careers as per the current trends can enroll with us and choose desired specializations with better growth offers. With Learnbay you can become a master of data science in Australia with prime offers.         ",
+      'Experts eager to rebuild their careers as per the current trends can enroll with us and choose desired specializations with better growth offers. With Learnbay you can become a master of data science in Australia with prime offers.         ',
     CertificationBot1:
-      "The current job market outlook of data science is changing rapidly, highlighting the promising job roles in leading MNCs. Employers in Australia search for skillful data experts who can deal with complex data sets. Learnbay’s globally recognized IBM project certificate and a master’s degree unlock true potential.         ",
+      'The current job market outlook of data science is changing rapidly, highlighting the promising job roles in leading MNCs. Employers in Australia search for skillful data experts who can deal with complex data sets. Learnbay’s globally recognized IBM project certificate and a master’s degree unlock true potential.         ',
     src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp",
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp',
     src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     CertificationMasterHead1:
-      " Validate Your Proven Skills and Expertise with IBM Project Certificate        ",
+      ' Validate Your Proven Skills and Expertise with IBM Project Certificate        ',
 
     CertificationBot2:
-      " Certifications in data science are vital to crack exciting career growth offers across the leading MNCs in Australia and overseas. Experts opting for upskilling programs with valuable certifications learn and validate the trending skills.         ",
+      ' Certifications in data science are vital to crack exciting career growth offers across the leading MNCs in Australia and overseas. Experts opting for upskilling programs with valuable certifications learn and validate the trending skills.         ',
     CertificationmasterBot5:
-      "Our globally recognized certifications envision a career with competitive success. Unlike generic courses, our masters in data science enrich a career with potential success metrics. We offer an IBM project certificate that validates learned skill sets to land global job offers.         ",
+      'Our globally recognized certifications envision a career with competitive success. Unlike generic courses, our masters in data science enrich a career with potential success metrics. We offer an IBM project certificate that validates learned skill sets to land global job offers.         ',
     CertificationMasterHead2:
-      "Drive Competitive Success with Our Globally Accredited Master’s Degree        ",
+      'Drive Competitive Success with Our Globally Accredited Master’s Degree        ',
 
     CertificationBot3:
       "We offer the best data science masters programs in Australia with globally approved degrees. Experts enrolling in our master's programs will obtain a globally valued degree from Woolf. Over 60+ Western countries approve our master’s degree, with lucrative job offers from Australia and overseas.         ",
-    CertificationBot4: " ",
+    CertificationBot4: ' ',
     ModuleMasterBot1:
-      "Learnbay’s data science masters in Australia offer a comprehensive learning module, the best suitable for today’s changing job market dynamics. Live instructor-led training helps you gain job-driven skills to thrive in a competitive career with better job offers. The learning modules of the master’s degree program consist of two domain specializations. Learners must choose one of the specializations and continue their upskilling.         ",
-    ModuleHead1: "Learning Outcomes     ",
+      'Learnbay’s data science masters in Australia offer a comprehensive learning module, the best suitable for today’s changing job market dynamics. Live instructor-led training helps you gain job-driven skills to thrive in a competitive career with better job offers. The learning modules of the master’s degree program consist of two domain specializations. Learners must choose one of the specializations and continue their upskilling.         ',
+    ModuleHead1: 'Learning Outcomes     ',
 
-    ModuleMasterHead1: "Specialization 1: Data Science & Data Analytics ",
+    ModuleMasterHead1: 'Specialization 1: Data Science & Data Analytics ',
 
-    ModuleBot1: " ",
-    ModuleBot2: "     ",
-    Modulelist1: "Basics of Excel and Worksheet for Data Analysis      ",
-    Modulelist2: "SQL basics (RDBMS, DBMS, sequence, and triggers)      ",
-    Modulelist3: "Big data and Data visualization (Power BI, Tableau)      ",
-    Modulelist4: "Power BI for visuals, charting, & data modeling       ",
-    Modulelist5: "Deep learning, MLP, Sequential API      ",
+    ModuleBot1: ' ',
+    ModuleBot2: '     ',
+    Modulelist1: 'Basics of Excel and Worksheet for Data Analysis      ',
+    Modulelist2: 'SQL basics (RDBMS, DBMS, sequence, and triggers)      ',
+    Modulelist3: 'Big data and Data visualization (Power BI, Tableau)      ',
+    Modulelist4: 'Power BI for visuals, charting, & data modeling       ',
+    Modulelist5: 'Deep learning, MLP, Sequential API      ',
 
-    Modulelist6: "ML systems, cloud deployment, ML deployment trends      ",
-    Modulelist7: "Generative AI tools, ethical practices      ",
+    Modulelist6: 'ML systems, cloud deployment, ML deployment trends      ',
+    Modulelist7: 'Generative AI tools, ethical practices      ',
     ModuleMasterHead2:
-      "Specialization 2: Artificial Intelligence & Machine Learning",
+      'Specialization 2: Artificial Intelligence & Machine Learning',
     ModuleMasterlist1:
-      "Deep learning for image filtering and enhancement       ",
-    ModuleMasterlist2: "Deep learning and NLP models      ",
-    ModuleMasterlist3: "High-dimensional data analysis (SQL, Spark, RDD)      ",
-    ModuleMasterlist4: "GenAI tools and trends      ",
+      'Deep learning for image filtering and enhancement       ',
+    ModuleMasterlist2: 'Deep learning and NLP models      ',
+    ModuleMasterlist3: 'High-dimensional data analysis (SQL, Spark, RDD)      ',
+    ModuleMasterlist4: 'GenAI tools and trends      ',
     ModuleMasterlist5:
-      "Data Structures and Algorithms (DSA): Essential & Advanced        ",
-    ModuleMasterlist6: "Case studies ",
-    ModuleMasterlist7: "Real-time projects for diverse domains",
+      'Data Structures and Algorithms (DSA): Essential & Advanced        ',
+    ModuleMasterlist6: 'Case studies ',
+    ModuleMasterlist7: 'Real-time projects for diverse domains',
     ModuleMasterBot2:
-      "In short, upskilling with an industry-focused program elevates the growth limits with endless scopes of success.         ",
+      'In short, upskilling with an industry-focused program elevates the growth limits with endless scopes of success.         ',
 
-    syllabush1: "INDUCTION + ORIENTATION",
-    syllabusb1: "3 Days",
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
     SyllabusBotlist11:
-      " Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+      ' Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
 
-    syllabush2: "PYTHON FOR GENAI",
-    syllabusb2: "1 Months",
+    syllabush2: 'PYTHON FOR GENAI',
+    syllabusb2: '1 Months',
     SyllabusBotlist21:
-      "Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.",
+      'Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.',
 
-    syllabush3: "FOUNDATION FOR GENAI",
-    syllabusb3: "1 Months",
+    syllabush3: 'FOUNDATION FOR GENAI',
+    syllabusb3: '1 Months',
     SyllabusBotlist31:
-      "Learn core ML, deep learning, and NLP concepts that power modern large language models.",
+      'Learn core ML, deep learning, and NLP concepts that power modern large language models.',
 
-    syllabush4: "ADVANCED GENERATIVE AI",
-    syllabusb4: "1.5 Months",
+    syllabush4: 'ADVANCED GENERATIVE AI',
+    syllabusb4: '1.5 Months',
     SyllabusBotlist41:
-      "Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.",
+      'Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.',
 
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Masters-in-CS.pdf',
     JobHead1:
-      "What job-oriented skills can you gain with our master’s in data science program?         ",
+      'What job-oriented skills can you gain with our master’s in data science program?         ',
     MasterJobBot1:
-      "Enroll in Learnbay’s master’s program to elevate success chances with prime job offers from leading MNCs. Industry-paced training sessions by renowned mentors will help you develop job-ready skills as –        ",
-    MasterJobSpan1: " Some promising job-driven skills are –",
+      'Enroll in Learnbay’s master’s program to elevate success chances with prime job offers from leading MNCs. Industry-paced training sessions by renowned mentors will help you develop job-ready skills as –        ',
+    MasterJobSpan1: ' Some promising job-driven skills are –',
 
-    Joblist1: "Coding efficiency with Python basics       ",
-    Joblist2: "Statistical analysis       ",
-    Joblist3: "Advanced ML: Regression, KNN, Clustering, Decision-tree        ",
-    Joblist4: "Expertise in problem-solving and debugging      ",
-    Joblist5: "Knowledge of prime visual tools for fair data analysis       ",
-    Joblist6: "Advanced data modeling      ",
-    Joblist7: "Deep learning & NLP      ",
-    Joblist8: "Knowledge of GenAI-rich tools        ",
-    Joblist9: "   DSA techniques and uses      ",
-    Joblist10: "  Knowledge of various algorithms       ",
-    Joblist11: "  Case studies   ",
-    Joblist12: "     Live projects (domain-based)    ",
-    Joblist13: "Exploration with Google Looker    ",
+    Joblist1: 'Coding efficiency with Python basics       ',
+    Joblist2: 'Statistical analysis       ',
+    Joblist3: 'Advanced ML: Regression, KNN, Clustering, Decision-tree        ',
+    Joblist4: 'Expertise in problem-solving and debugging      ',
+    Joblist5: 'Knowledge of prime visual tools for fair data analysis       ',
+    Joblist6: 'Advanced data modeling      ',
+    Joblist7: 'Deep learning & NLP      ',
+    Joblist8: 'Knowledge of GenAI-rich tools        ',
+    Joblist9: '   DSA techniques and uses      ',
+    Joblist10: '  Knowledge of various algorithms       ',
+    Joblist11: '  Case studies   ',
+    Joblist12: '     Live projects (domain-based)    ',
+    Joblist13: 'Exploration with Google Looker    ',
     JobBot19:
-      "   Apart from these technical skills, experts will also gain soft and behavioral skills to crack top-tier jobs across MNCs. Quality upskilling with a master’s program will equip you with job-driven skills to land your dream job.       ",
+      '   Apart from these technical skills, experts will also gain soft and behavioral skills to crack top-tier jobs across MNCs. Quality upskilling with a master’s program will equip you with job-driven skills to land your dream job.       ',
 
-    JobHead19: "Career Service Pro – Learnbay’s Job & Placement Program    ",
+    JobHead19: 'Career Service Pro – Learnbay’s Job & Placement Program    ',
 
     JobBot20:
-      "Working pros opting for a masters in data science will have 100% placement support. You can enroll and master data science in Australia with high-paying jobs in various domains. Eligible learners with a minimum score of 70% in tasks and assessments can avail of our job and placement services.  ",
-    JobBotmaster20: "Major career benefits with Career Service Pro are —      ",
-    Joblist14: "Resume Build & Optimization      ",
-    Joblist15: "LinkedIn Profile Review    ",
-    Joblist16: "Job Support for 3 years with Job Calls     ",
+      'Working pros opting for a masters in data science will have 100% placement support. You can enroll and master data science in Australia with high-paying jobs in various domains. Eligible learners with a minimum score of 70% in tasks and assessments can avail of our job and placement services.  ',
+    JobBotmaster20: 'Major career benefits with Career Service Pro are —      ',
+    Joblist14: 'Resume Build & Optimization      ',
+    Joblist15: 'LinkedIn Profile Review    ',
+    Joblist16: 'Job Support for 3 years with Job Calls     ',
     Joblist17:
-      "Six 1:1 Mock Interviews with leading MNCs & unicorn startups      ",
-    Joblist18: "1:1 Doubt-clearing sessions    ",
-    Joblist19: "Job Calls       ",
+      'Six 1:1 Mock Interviews with leading MNCs & unicorn startups      ',
+    Joblist18: '1:1 Doubt-clearing sessions    ',
+    Joblist19: 'Job Calls       ',
 
     JobBotMasterBot4:
-      "You can do a master in data science in Australia with careful career planning and decision-making. Yet, before making any move, you must consider major career goals and interests. Here, learners can gain a 360-degree skill-building scope, turning a right fit for the companies.       ",
+      'You can do a master in data science in Australia with careful career planning and decision-making. Yet, before making any move, you must consider major career goals and interests. Here, learners can gain a 360-degree skill-building scope, turning a right fit for the companies.       ',
     JobHead21:
-      "Is opting for a data science masters in Australia worth it?     ",
+      'Is opting for a data science masters in Australia worth it?     ',
     JobBot21:
-      "Today’s digital space relies on data science for optimizing business yields. It increases the demand for skillful data experts in diverse domains for data-driven insights. Upskilling with a master in data science program is the optimal gateway to attain competitive career success.       ",
+      'Today’s digital space relies on data science for optimizing business yields. It increases the demand for skillful data experts in diverse domains for data-driven insights. Upskilling with a master in data science program is the optimal gateway to attain competitive career success.       ',
     JobBot22:
-      "Our master’s course in data science and AI supports hassle-free career growth. Experts enrolling in our master’s program will gain GenAI-rich skills followed by real-time projects. You can gain hands-on learning experience with 12+ real-time projects in diverse domains. It helps to know real-world business issues and learn proven ways to address them.     ",
+      'Our master’s course in data science and AI supports hassle-free career growth. Experts enrolling in our master’s program will gain GenAI-rich skills followed by real-time projects. You can gain hands-on learning experience with 12+ real-time projects in diverse domains. It helps to know real-world business issues and learn proven ways to address them.     ',
     JobBotMasterBot5:
-      "Successful completion of upskilling will help you master data science in Australia with lucrative job offers. A master’s degree from Woolf followed by an IBM project certificate enriches career values. It helps you land your dream job roles across any of the 60+ Western countries. Upskilling with this certification program is worth it for enlarging your earning potential.       ",
+      'Successful completion of upskilling will help you master data science in Australia with lucrative job offers. A master’s degree from Woolf followed by an IBM project certificate enriches career values. It helps you land your dream job roles across any of the 60+ Western countries. Upskilling with this certification program is worth it for enlarging your earning potential.       ',
 
-    JobBot23: "   ",
-    Joblist50: "     ",
-    Joblist51: "      ",
-    Joblist52: "      ",
-    Joblist53: "    ",
-    Joblist54: "    ",
+    JobBot23: '   ',
+    Joblist50: '     ',
+    Joblist51: '      ',
+    Joblist52: '      ',
+    Joblist53: '    ',
+    Joblist54: '    ',
     JobHead22:
-      "What are prime career roles that you can get into with our masters in data science program?       ",
+      'What are prime career roles that you can get into with our masters in data science program?       ',
     JobBot24:
-      "Enrolling in Learnbay’s data science masters in Australia helps you develop proper skills to get into the trending job roles. Some trending roles are –      ",
-    Joblist23: "Data Scientist     ",
-    Joblist24: "Data Analyst    ",
-    Joblist25: "ML/AI Scientist    ",
-    Joblist26: "AI/ML Engineer    ",
-    Joblist27: "Data Architect    ",
-    Joblist28: "BI Developer    ",
-    Joblist29: "Data Science Consultant    ",
-    Joblist30: " Data Solution Lead    ",
-    JobBot25: "    ",
+      'Enrolling in Learnbay’s data science masters in Australia helps you develop proper skills to get into the trending job roles. Some trending roles are –      ',
+    Joblist23: 'Data Scientist     ',
+    Joblist24: 'Data Analyst    ',
+    Joblist25: 'ML/AI Scientist    ',
+    Joblist26: 'AI/ML Engineer    ',
+    Joblist27: 'Data Architect    ',
+    Joblist28: 'BI Developer    ',
+    Joblist29: 'Data Science Consultant    ',
+    Joblist30: ' Data Solution Lead    ',
+    JobBot25: '    ',
     ProjectsHead1:
-      "How do real-time projects help working pros kick-start a global-scale career in data science?       ",
+      'How do real-time projects help working pros kick-start a global-scale career in data science?       ',
     ProjectsBot1:
-      "Real-time projects are vital in improving job-driven skills to attain competitive success with attractive pay scales. Our real-time projects with masters in data science program help you get exposure to real-world business cases. It helps experts develop proven skills to combat inherent issues.       ",
+      'Real-time projects are vital in improving job-driven skills to attain competitive success with attractive pay scales. Our real-time projects with masters in data science program help you get exposure to real-world business cases. It helps experts develop proven skills to combat inherent issues.       ',
 
     ProjectsBot3:
-      "Experts opting for our master’s degree program will get the scope to work with real-time projects in the chosen domain specialization. Our master’s program offers two domain specializations and 3 real-time projects in each. Experts gain an open learning space to work on their real-time projects.       ",
+      'Experts opting for our master’s degree program will get the scope to work with real-time projects in the chosen domain specialization. Our master’s program offers two domain specializations and 3 real-time projects in each. Experts gain an open learning space to work on their real-time projects.       ',
     ProjectsBot4:
-      "Apart from domain specialization, experts need to choose one domain elective from – BFSI, HR, Marketing, Healthcare, Supply Chain, and Manufacturing.       ",
+      'Apart from domain specialization, experts need to choose one domain elective from – BFSI, HR, Marketing, Healthcare, Supply Chain, and Manufacturing.       ',
     ProjectsBot5:
-      "At last, the IBM project certificate validates the learned skills to thrive in success in today’s competitive digital space. Quality upskilling with valuable certifications increases the chances of getting selected across global MNCs.       ",
-    ProjectsBot6: "      ",
-    ProjectsBot7: " ",
-    ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
-    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
-    alt2: "Samsung Logo",
-    ProjectsH1: "Samsung Health Monitor App",
+      'At last, the IBM project certificate validates the learned skills to thrive in success in today’s competitive digital space. Quality upskilling with valuable certifications increases the chances of getting selected across global MNCs.       ',
+    ProjectsBot6: '      ',
+    ProjectsBot7: ' ',
+    ProjectsBot2: 'Below are a few projects from the Learnbay alumni profiles:',
+    src1: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png',
+    alt2: 'Samsung Logo',
+    ProjectsH1: 'Samsung Health Monitor App',
     Projectsp1:
-      "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
-    src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
-    alt3: "IBM Logo",
-    ProjectsH2: "IBM HR Analytics",
+      'Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.',
+    src2: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png',
+    alt3: 'IBM Logo',
+    ProjectsH2: 'IBM HR Analytics',
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",
-    src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
-    alt4: "Amazon Logo",
-    ProjectsH3: "Amazon Customer Review Analysis",
+    src3: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png',
+    alt4: 'Amazon Logo',
+    ProjectsH3: 'Amazon Customer Review Analysis',
     Projectsp3:
-      "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
-    src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
-    alt5: "BMW Logo",
-    ProjectsH4: "BMW Used Car Price Optimization",
+      'Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.',
+    src4: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png',
+    alt5: 'BMW Logo',
+    ProjectsH4: 'BMW Used Car Price Optimization',
     Projectsp4:
-      "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",
+      'BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.',
     AlumniBot1:
-      "We have emplaced numerous candidates in top global companies and startups. More than 1000+ Learnbay alumni have already started working as soon as they completed the course. Rest got recruited in a few months. Even 300+ candidates have directly joined data science project leadership or manager designation after completing the Data Science and AI program for Managers and leaders. Here are some of our alumni sharing their hard work and success:",
-    Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
-    AlumniH1: "Deveraj",
+      'We have emplaced numerous candidates in top global companies and startups. More than 1000+ Learnbay alumni have already started working as soon as they completed the course. Rest got recruited in a few months. Even 300+ candidates have directly joined data science project leadership or manager designation after completing the Data Science and AI program for Managers and leaders. Here are some of our alumni sharing their hard work and success:',
+    Asrc1: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg',
+    AlumniH1: 'Deveraj',
     Alumnip1:
-      "The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.",
-    Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
-    AlumniH2: "Shezan Baig",
+      'The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.',
+    Asrc2: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png',
+    AlumniH2: 'Shezan Baig',
     Alumnip2:
       "Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute.",
-    Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png",
-    AlumniH3: "Viraj Ghodke",
+    Asrc3: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png',
+    AlumniH3: 'Viraj Ghodke',
     Alumnip3:
       "For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews.",
-    Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
-    AlumniH4: "Shubhangi J. Waghmare ",
+    Asrc4: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png',
+    AlumniH4: 'Shubhangi J. Waghmare ',
     Alumnip4:
-      "The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.",
-    alt1: "data science course training in Austrelia",
-    alt2: "data science course training in Austrelia",
-    alt3: "data science course training in Austrelia",
-    alt4: "data science course training in Austrelia",
-    alt5: "data science course training in Austrelia",
-    alt6: "data science course training in Austrelia",
-    alt7: "data science course training in Austrelia",
-    alt8: "data science course training in Austrelia",
-    alt9: "data science course training in Austrelia",
+      'The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.',
+    alt1: 'data science course training in Austrelia',
+    alt2: 'data science course training in Austrelia',
+    alt3: 'data science course training in Austrelia',
+    alt4: 'data science course training in Austrelia',
+    alt5: 'data science course training in Austrelia',
+    alt6: 'data science course training in Austrelia',
+    alt7: 'data science course training in Austrelia',
+    alt8: 'data science course training in Austrelia',
+    alt9: 'data science course training in Austrelia',
     CityTextB:
-      "Artificial Intelligence Course Certification Training locations in Austrelia ",
+      'Artificial Intelligence Course Certification Training locations in Austrelia ',
   },
 ];

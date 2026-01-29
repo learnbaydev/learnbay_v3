@@ -435,8 +435,8 @@ export const DSUKCourseData = [
       'With at least six months of prior experience, experts can enroll in our data science training program and choose their preferred domains.       ',
     CertificationBot1:
       'Data science is an ever-evolving field that welcomes experts from diversified fields. Employers across MNCs in Austin and overseas look for working pros with proven data science skills. Yet, not all learned skills are considered acceptable by employers actively searching for skilled data scientists. Experts must showcase their skills with proofs, and globally recognized certificates validate them.         ',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
+    // src33:
+    //   'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
