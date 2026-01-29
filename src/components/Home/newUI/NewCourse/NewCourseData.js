@@ -404,7 +404,7 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf",
     },
     {
-      title: "Applied AI Practioner Program ",
+      title: "Applied AI Practitioner Program ",
       duration: "4 Months | 2 Capstone Projects",
       certification: "Certification from IIT Patna",
       description: "For Non-Programmers",
@@ -764,7 +764,7 @@ export const courses = {
     },
 
     {
-      title: "GenAI & Agentic AI For Manager & Leaders ",
+      title: "GenAI & Agentic AI For Managers & Leaders ",
       duration: "5 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Leaders",
@@ -794,7 +794,7 @@ export const courses = {
     },
 
     {
-      title: "GenAI & Agentic AI For Software Developer ",
+      title: "GenAI & Agentic AI For Software Developers ",
       duration: "5 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For Tech Professionals",
@@ -824,7 +824,7 @@ export const courses = {
     },
 
     {
-      title: "Applied AI Practioner Program ",
+      title: "Applied AI Practitioner Program ",
       duration: "4 months | 2 capstone Projects",
       certification: "Certification form IIT Patna",
       description: "For Non Programmers",
