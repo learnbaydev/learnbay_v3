@@ -471,7 +471,7 @@ export default function Home() {
           firstToparaImg="Training in Bangalore"
           firstHeading="Artificial Intelligence (AI)"
           firstTopPara="Industry Curated Artificial Intelligence Program"
-          cityParaCont="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects."
+          cityParaCont="Become a successful data science manager/leader within 11 to 13  months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects."
         />
         <SecondSection
           SecondSectionData={DataScienceCourseData[0].secondSection}
@@ -484,7 +484,7 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 1,15,000"
+            Fee="₹ 1,59,000"
             FeeEmi="₹ 7,539/ Month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"

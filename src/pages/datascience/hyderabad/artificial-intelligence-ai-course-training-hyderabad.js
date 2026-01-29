@@ -461,7 +461,7 @@ export default function Home() {
           FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
-          cityParaCont=" Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
+          cityParaCont=" Become a successful data science manager/leader within 11 to 13  months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Science and AI Program For Manager & Leaders"
@@ -484,7 +484,7 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 1,15,000"
+            Fee="₹ 1,59,000"
             FeeEmi="₹ 7,539/ Month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"

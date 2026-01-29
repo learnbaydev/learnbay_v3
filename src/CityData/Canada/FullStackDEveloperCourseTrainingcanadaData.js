@@ -68,8 +68,8 @@ export const FScanadaCourseData = [
           '@type': 'Question',
           name: 'What’s the duration of these advanced AI in Canada?',
           acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day Foundational Data Science and Artificial Intelligence Training Course (220+ hours) Weekday batch - 6 months Weekend batch - 8 months Machine learning and AI Certification (280+ hours) Weekday batch - 9.5 months Weekend batch - 11 months Advanced Data Science and AI Certification Course (270+ hours) Weekday batch - 7 months Weekend batch - 9 months Data Science and AI Certification Course for Managers and Leaders (340+ hours) Weekday batch - 11 months Weekend batch - 13 months Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours) Weekday batch - 13 months Weekend batch - 15 months.',
+            "@type": "Answer",
+            text: "The duration of this software development course with Agentic AI in Canada is 11 months.",
           },
         },
         {
@@ -148,16 +148,16 @@ export const FScanadaCourseData = [
           '@type': 'Question',
           name: 'What is the total fee for Learnbay AI Certifications courses in Canada?',
           acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The total course fee for the Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST. Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST. Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST. Machine learning and AI Certification is 1,15,000/-inclusive of GST.',
+            "@type": "Answer",
+            text: "The total cost of a full-stack software development course in Canada with agentic AI is 1,59,000 INR, excluding tax.",
           },
         },
         {
           '@type': 'Question',
           name: 'Can I pay in installments for these AI Certification courses in Canada?',
           acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
+            "@type": "Answer",
+            text: "Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip.",
           },
         },
         {
@@ -496,8 +496,8 @@ export const FScanadaCourseData = [
           },
           {
             id: 4,
-            ques: 'What will be the program duration for this full-stack software developer course in Canada?',
-            ans: 'This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.',
+            ques: "What will be the program duration for this full-stack software developer course in Canada?",
+            ans: "The duration of this software development course with Agentic AI in Canada is 11 months.",
             open: false,
           },
           {
@@ -593,16 +593,14 @@ export const FScanadaCourseData = [
         data: [
           {
             id: 0,
-            ques: 'How much is the full-stack software developer course fee in Canada?',
-            ans: `The total cost of the full-stack software development course in Canada is INR Rs. 1,15,000/- +18% GST i.e, Rs. 1,29,800/.`,
+            ques: "How much is the full-stack software developer course fee in Canada?",
+            ans: `The total cost of a full-stack software development course in Canada with agentic AI is 1,59,000 INR, excluding tax.`,
             open: true,
           },
           {
             id: 1,
-            ques: 'Is there any Installment / EMI option available for this course in Canada?',
-            ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹7,538/month up to 18 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
-            linkText1: '@ +917795687988',
-            link1: 'tel:+917795687988',
+            ques: "Is there any Installment / EMI option available for this course in Canada?",
+            ans: "Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip.",
             open: false,
           },
           {

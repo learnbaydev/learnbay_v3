@@ -912,10 +912,10 @@ The fees of this artificial intelligence course in Mumbai is 1,59,000 INR exclud
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
-    src1: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png',
-    alt2: 'Samsung Logo',
-    ProjectsH1: 'Samsung Health Monitor App',
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
+    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+    alt2: "Samsung Logo",
+    ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:
       'Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.',
     src2: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png',

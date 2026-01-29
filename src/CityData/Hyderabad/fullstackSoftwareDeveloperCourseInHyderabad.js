@@ -527,8 +527,8 @@ export const FullStackHyderabadCourseData = [
           },
           {
             id: 4,
-            ques: 'What will be the program duration for this full-stack software developer course in Hyderabad?',
-            ans: 'This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.',
+            ques: "What will be the program duration for this full-stack software developer course in Hyderabad?",
+            ans: "The course duration is 7 – 8 months, including flexible training sessions.",
             open: false,
           },
           {
@@ -613,16 +613,14 @@ export const FullStackHyderabadCourseData = [
         data: [
           {
             id: 0,
-            ques: 'How much is the full-stack software developer course fee in Hyderabad?',
-            ans: `The total cost of the full-stack software development course in Hyderabad is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+            ques: "How much is the full-stack software developer course fee in Hyderabad?",
+            ans: `The course costs INR 1,59,000 plus 18% GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: 'Is there any Installment / EMI option available for this course in Hyderabad?',
-            ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
-            linkText1: '@ +917795687988',
-            link1: 'tel:+917795687988',
+            ques: "Is there any Installment / EMI option available for this course in Hyderabad?",
+            ans: "Learnbay offers a pocket-friendly career switch with flexible installment options, including no-cost EMI for 6, 9, and 12 months.",
             open: false,
           },
           {
@@ -669,9 +667,27 @@ export const FullStackHyderabadCourseData = [
         ],
       },
 
+      { 
+        id: 4,
+        sectionName: "Certifications",
+        data: [
+          {
+            id: 0,
+            ques: "Is there any accredited certification after course completion?",
+            ans: "Yes. Our SDE master’s course offers –",
+          list1: "One IBM Generative AI Certification",
+          list2: "Three Microsoft Azure Certifications",
+          list3: "Two AI Co-Lab certifications",
+          open: true,
+          },
+          
+        ],
+      },
+     
+
       {
-        id: 8,
-        sectionName: 'Eligiblity Criteria',
+        id: 5,
+        sectionName: "Eligiblity Criteria",
         data: [
           {
             id: 0,
@@ -708,8 +724,8 @@ export const FullStackHyderabadCourseData = [
       },
 
       {
-        id: 5,
-        sectionName: 'Job Assistance',
+        id: 6,
+        sectionName: "Job Assistance",
         data: [
           {
             id: 0,
@@ -734,8 +750,8 @@ export const FullStackHyderabadCourseData = [
       },
 
       {
-        id: 6,
-        sectionName: 'Mentorship',
+        id: 7,
+        sectionName: "Mentorship",
         data: [
           {
             id: 0,
@@ -759,35 +775,9 @@ export const FullStackHyderabadCourseData = [
         ],
       },
 
-      // {
-      //   id: 7,
-      //   sectionName: "Generic Queries",
-      //   data: [
-      //     {
-      //       id: 0,
-      //       ques: "What does a full-stack developer do?",
-
-      //       ans: "The term Full-Stack developer refers to a person proficient in both the front-end and back-end of software development. They create and keep up-and-running fully-fledged systems with databases or servers.",
-      //       open: true,
-      //     },
-      //     {
-      //       id: 1,
-      //       ques: "What is the average full-stack software developer salary in Hyderabad?",
-      //       ans: "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers.",
-      //       open: false,
-      //     },
-      //     {
-      //       id: 2,
-      //       ques: "Is a full-stack developer a software engineer?",
-      //       ans: "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects.",
-      //       open: false,
-      //     },
-      //   ],
-      // },
-
       {
-        id: 7,
-        sectionName: 'Support',
+        id: 8,
+        sectionName: "Support",
         data: [
           {
             id: 0,

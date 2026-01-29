@@ -539,7 +539,7 @@ export default function Home() {
           firstToparaImg="For Managers and Leaders"
           firstHeading="Artificial Intelligence (AI) Course Training in Pune"
           firstTopPara="IBM Certified AI training With Domain Specialization and 100% job assistance"
-          cityParaCont="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects."
+          cityParaCont="Become a successful data science manager/leader within 11 to 13  months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects."
         />
         <SecondSection SecondSectionData={AIPuneCourseData[0].secondSection} />
         <Testimonial

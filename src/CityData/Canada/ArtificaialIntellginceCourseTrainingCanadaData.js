@@ -559,28 +559,8 @@ export const AIcanadaCourseData = [
           },
           {
             id: 4,
-            ques: 'What’s the duration of these advanced AI in Canada?',
-            ans: `The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations.
-                Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day
-                Foundational Data Science and Artificial Intelligence Training Course (220+ hours)
-                Weekday batch - 6 months
-                Weekend batch - 8 months
-                
-                Machine learning and AI Certification (280+ hours)
-                Weekday batch - 9.5 months
-                Weekend batch - 11 months
-                
-                Advanced Data Science and AI Certification Course (270+ hours)
-                Weekday batch - 7 months
-                Weekend batch - 9  months
-                
-                Data Science and AI Certification Course for Managers and Leaders (340+ hours)
-                Weekday batch - 11 months
-                Weekend batch - 13  months
-                
-                Data Science and Artificial Intelligence Training with Placement Assistance (380+ hours)
-                Weekday batch - 13 months
-                Weekend batch - 15  months`,
+            ques: "What’s the duration of these advanced AI in Canada?",
+            ans: `The duration of the artificial intelligence course in Canada is 13 months.`,
             open: false,
           },
           {
@@ -661,12 +641,8 @@ export const AIcanadaCourseData = [
         data: [
           {
             id: 0,
-            ques: 'What is the total fee for Learnbay AI Certifications courses in Canada?',
-            ans: `The total course fee for the 
-            Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-            Advance Data Science and AI Certification course is 1,15,000/- inclusive of GST.
-            Data Science and AI Certification Course for Managers and Leaders is 1,35,700/- inclusive of GST.
-            Data Science and AI Master Certification Program is 1,59,300/- inclusive of GST.`,
+            ques: "What is the total fee for Learnbay AI Certifications courses in Canada?",
+            ans: `The total course fee for this artificial intelligence course in Canada is 1,59,000 INR, excluding GST`,
             open: true,
           },
           {
@@ -747,14 +723,8 @@ export const AIcanadaCourseData = [
         data: [
           {
             id: 0,
-            ques: 'Is there any accredited AI certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
-                Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
-                Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.`,
+            ques: "Is there any accredited AI certification after course completion?",
+            ans: `Yes you will recieve 4 certifications in total. Course Completion from IBM, Gen-AI from IBM, Project certification, and Microsoft Certification. `,
             open: true,
           },
         ],
@@ -933,8 +903,8 @@ export const AIcanadaCourseData = [
     JobBot1:
       'Learnbay career coaches help students in developing impressive portfolios as well as refer their profiles to other renowned companies. They ensure you get interviews in top Canadian firms. Besides this, you’ll also be provided with multiple mock interviews for AI and ML positions to help you in facing real-world interviews.',
     JobBot2:
-      'In our Placement Assistance program, you will receive a full refund of your AI course fee in case you are unable to find a relevant job within 6 months after the course completion.',
-    JobHead2: 'Scope of  Artificial Intelligence in Canada:',
+      "In our Placement Assistance program, you will receive a full refund of your AI course fee in case you are unable to find a relevant job within 6 to 7 months after the course completion.",
+    JobHead2: "Scope of  Artificial Intelligence in Canada:",
     JobBot3:
       "An Artificial Intelligence (AI) field of computer science is concerned with creating machines that are capable of performing certain human-like tasks. It is replacing humans' grunt work, saving big businesses billions of dollars each year. Contrarily, many Canadian IT firms are built on AI and ML. Artificial Intelligence appears to have an endless capacity for improving and simplifying jobs performed by humans, such as speech recognition and business management processing. And it's only becoming smarter, faster, and better.",
     JobBot4:

@@ -856,8 +856,8 @@ Two AI Co-Lab Project Certificates
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf',
     CertificationBot1:
       'All of the Learnbay Artificial intelligence courses in Pune are IBM certified. So, there is no question about the course authentication. Students get certificates for completing Artificial intelligence course training along with micro-certificates for working with industry compliance tools like Python, Deep learning with Tensorflow, and many more. Learnbay IBM certificates for Artificial intelligence course training depend on the course you choose. You can avail 1 to 8 certificates by IBM. Learnbay even offers certificates for working on capstone projects. This kind of project experience certificate is also issued by IBM.',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+   src33:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',

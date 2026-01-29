@@ -66,6 +66,7 @@ const CitiesRight = ({
   DomainHead5,
   DomainHead6,
   DomainHead7,
+  DomainHead8,
   DomainBot1,
   DomainBot2,
   DomainBot3,
@@ -6779,6 +6780,8 @@ const CitiesRight = ({
               <h2 className={styles.pHead}>{DomainHead5}</h2>
               <h2 className={styles.pHead}>{DomainHead6}</h2>
               <h2 className={styles.pHead}>{DomainHead7}</h2>
+              <h2 className={styles.pHead}>{DomainHead8}</h2>
+
             </>
           ) : (
             <>

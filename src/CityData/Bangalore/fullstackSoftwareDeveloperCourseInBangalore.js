@@ -134,7 +134,7 @@ export const FullStackBangaloreCourseData = [
           {
             id: 4,
             ques: "What will be the program duration for this full-stack software developer course in Bangalore?",
-            ans: "The course duration is 7 – 8 months, including flexible training sessions.",
+            ans: "The full-stack software developer course with Gen Ai and Agentic AI is about 11 months for the Master program, while non- master Gen AI and Agentic AI certification for software developers is of 5 months. ",
             open: false,
           },
           {
@@ -220,15 +220,16 @@ export const FullStackBangaloreCourseData = [
           {
             id: 0,
             ques: "How much is the full-stack software developer course fee in Bangalore?",
-            ans: `The total cost of the full-stack software development course in Bangalore is INR 1,59,000 plus 18% GST..`,
+            ans: `Just replace the 1,15,000 with 1,59,00. 
+And remove the - i.e., Rs. 1,30,800/. 
+Add a sentence here, the non master certification course with a shorter duration is of 1,20,000/- + GST. 
+`,
             open: true,
           },
           {
             id: 1,
             ques: "Is there any Installment / EMI option available for this course in Bangalore?",
-            ans: "Learnbay extends a pocket-friendly career switch with its flexible installment options, with a no-cost EMI for 6, 9, and 12 months.",
-            linkText1: "@ +917795687988",
-            link1: "tel:+917795687988",
+            ans: "Yes, you can use a credit card to pay the installments with a no- fee EMI option. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan also. For further details, you can contact@ +917795687988",
             open: false,
           },
           {

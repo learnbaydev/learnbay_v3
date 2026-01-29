@@ -526,8 +526,8 @@ export const FullStackChennaiCourseData = [
           },
           {
             id: 4,
-            ques: 'What will be the program duration for this full-stack software developer course in Chennai?',
-            ans: 'This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.',
+            ques: "What will be the program duration for this full-stack software developer course in Chennai?",
+            ans: "The duration of this software development course with Agentic AI in Chennai is 11 months.",
             open: false,
           },
           {
@@ -612,8 +612,8 @@ export const FullStackChennaiCourseData = [
         data: [
           {
             id: 0,
-            ques: 'How much is the full-stack software developer course fee in Chennai?',
-            ans: `The total cost of the full-stack software development course in Chennai is INR Rs. 1,15,000/- +18% GST i.e, Rs. 1,29,800/.`,
+            ques: "How much is the full-stack software developer course fee in Chennai?",
+            ans: `The total cost of a full-stack software development course in Chennai with agentic AI is 1,59,000 INR, excluding tax.`,
             open: true,
           },
           {
@@ -670,7 +670,7 @@ export const FullStackChennaiCourseData = [
 
       {
         id: 4,
-        sectionName: 'Certification',
+        sectionName: "Job Assistance",
         data: [
           {
             id: 0,
@@ -696,7 +696,7 @@ export const FullStackChennaiCourseData = [
 
       {
         id: 5,
-        sectionName: 'Job Assistance',
+        sectionName: "Eligibility Criteria",
         data: [
           {
             id: 0,
