@@ -473,13 +473,13 @@ export const FSDelhiCourseData = [
           {
             id: 0,
             ques: "What is Learnbay’s full-stack developer course in Delhi?",
-            ans: "Learnbay's full-stack developer course is essentially the finest course in software development available in Delhi. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.",
+            ans: "Learnbay’s full-stack developer course is essentially the finest course in software development with GenAI in Delhi.. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.",
             open: true,
           },
           {
             id: 1,
             ques: "What types of topics will this full-stack development course cover?",
-            ans: "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.",
+            ans: "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., Gen AI associated software development tools and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.",
             open: false,
           },
           {
@@ -497,7 +497,7 @@ export const FSDelhiCourseData = [
           {
             id: 4,
             ques: "What will be the program duration for this full-stack software developer course in Delhi?",
-            ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+            ans: "This full-stack software developer course is about 11 months, including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches.",
             open: false,
           },
           {
@@ -537,6 +537,7 @@ export const FSDelhiCourseData = [
             id: 0,
             ques: "What is Domain Specialization associated with the full-stack software developer course in Delhi?",
             ans: "In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain.",
+          
             open: true,
           },
           {
@@ -581,15 +582,13 @@ export const FSDelhiCourseData = [
           {
             id: 0,
             ques: "How much is the full-stack software developer course fee in Delhi?",
-            ans: `The total cost of the full-stack software development course in Delhi is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+            ans: `The total cost of the full-stack software development course in Delhi is INR Rs.1,20,000 /- +18% GST .`,
             open: true,
           },
           {
             id: 1,
             ques: "Is there any Installment / EMI option available for this course in Delhi?",
-            ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
-            linkText1: "@ +917795687988",
-            link1: "tel:+917795687988",
+            ans: "Yes, you can use a credit card to pay the installments with a no-fee EMI option for up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact@ +917795687988 ",
             open: false,
           },
           {
@@ -641,13 +640,7 @@ export const FSDelhiCourseData = [
           {
             id: 0,
             ques: "Is there any accredited AI certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                    Foundational Data Science and Artificial Intelligence Training Course- 1 Course Completion Certificate.
-                    Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                    Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                    Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
-                    Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                    *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.`,
+            ans: `The software developer course in Delhi with Gen AI offers  One IBM Generative AI Certification, Three Microsoft Azure Certifications, Two AI Co-Lab certifications after course completion. `,
             open: true,
           },
         ],
