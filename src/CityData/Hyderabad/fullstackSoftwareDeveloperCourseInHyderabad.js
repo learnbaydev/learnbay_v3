@@ -528,7 +528,7 @@ export const FullStackHyderabadCourseData = [
           {
             id: 4,
             ques: "What will be the program duration for this full-stack software developer course in Hyderabad?",
-            ans: "This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.",
+            ans: "The course duration is 7 – 8 months, including flexible training sessions.",
             open: false,
           },
           {
@@ -614,15 +614,13 @@ export const FullStackHyderabadCourseData = [
           {
             id: 0,
             ques: "How much is the full-stack software developer course fee in Hyderabad?",
-            ans: `The total cost of the full-stack software development course in Hyderabad is INR Rs. 1,10,000/- +18% GST i.e, Rs. 1,29,800/.`,
+            ans: `The course costs INR 1,59,000 plus 18% GST.`,
             open: true,
           },
           {
             id: 1,
             ques: "Is there any Installment / EMI option available for this course in Hyderabad?",
-            ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
-            linkText1: "@ +917795687988",
-            link1: "tel:+917795687988",
+            ans: "Learnbay offers a pocket-friendly career switch with flexible installment options, including no-cost EMI for 6, 9, and 12 months.",
             open: false,
           },
           {
