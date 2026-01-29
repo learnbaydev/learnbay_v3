@@ -148,54 +148,34 @@ export const masterdegreeAUSData = [
         data: [
           {
             id: 0,
-            ques: "What are Data Science Training courses available at Learnbay in Austrelia?",
-            linkText1: "Foundational Data Science Training Course, ",
-            linkText2: "Advance Data Science Certification Course, ",
-            linkText3:
-              "Data Science Certification Course for Managers and Leaders, ",
-            linkText4: "Data Science Training with Placement Assistance",
-            link1: "/data-science-certification-courses",
-            link2: "/advance-data-science-certification-courses",
-            link3: "/data-science-ai-for-managers",
-            link4: "/data-science-ai-masters-program",
-            link: true,
+
+            ques: "What Data Science training courses are available at Learnbay in Australia?",
+            ans: "Learnbay offers a comprehensive Master's in Data Science program in Australia, designed with Generative AI–rich modules to provide 360-degree industry-ready learning. The curriculum aligns with the latest Data Science and Agentic AI trends relevant to Australian businesses.\n\nThe program is structured into seven learning modules:\n\n• L1 – Cohort Orientation with Programming Fundamentals (foundation set, vibe check done)\n• L2 – Basic & Advanced Python Programming (Python era starts here )\n• L3 – Statistics & Machine Learning (core Data Science logic)\n• L4 – Data Science Tools (SQL, Power BI, Tableau, Git, etc.)\n• L5 – AI & Generative AI Tools (future-proof skills )\n• L6 – Model Deployment & MLOps (real-world implementation)\n• L7 – Capstone Projects & Industry Use Cases ",
+
             open: true,
           },
           {
             id: 1,
-            ques: "What are the prerequisites for these Data Science training Courses in Austrelia?",
-            ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ques: "How are the courses structured? Are they more theoretical or practical in nature? ",
+            ans: "The courses are structured following the current happenings in the data science industry in Australia. The courses are crafted with specific attention to both theoretical and practical learning concepts. Learners enrolling for the master's in data science program will gain a comprehensive learning of theoretical concepts followed by projects. It focuses on real-time learning of tools via live projects and case studies associated with every learning term. Here you get the scope of Bringing your own business problems (BYOP) too.",
             open: false,
           },
           {
             id: 2,
-            ques: "What if I miss a few classes due to an emergency?",
-            ans: `In case you miss a few classes, you will be provided with backup classes in other batches.
-                      But if you could not attend more classes, you can opt for batch change and join the next batch. `,
+            ques: "What specific topics and skills are covered in the program's coursework for a master's degree in data science? ",
+            ans: `We offer a master's degree program in data science with a GenAl-inclusive course curriculum. Tech and non-tech experts will learn everything about Python programming from scratch. Some specific topics include ML models, deep learning, data structures, GenAl-rich tools, AWS & Azure deployment, and visualization. Experts enrolling in our master's program will gain proven data-driven skills to thrive globally.  `,
             open: false,
           },
           {
             id: 3,
-            ques: "What is a Flexi Subscription in these advanced data science courses in Austrelia?",
-            ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
+            ques: "Are any elective courses available to tailor the program to my interests in the data science master's program in Australia? ",
+            ans: "Data science master's programs in  Australia are specifically designed to meet the competitive requirements of the leading industries. Domain-based specializations are available to leverage your efficaciousness with assured success. Here, you can find your coursework and projects per your specialization interests covering prime domains. Such domains are - BFSI, HR, Marketing, Manufacturing, Healthcare, and Supply Chain. ",
             open: false,
           },
           {
             id: 4,
-            ques: "What’s the duration of these advanced data science courses in Austrelia?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
-            open: false,
-          },
-          {
-            id: 5,
-            ques: "What is the mode of data science training in Austrelia at Learnbay?",
-            ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
-            open: false,
-          },
-          {
-            id: 6,
-            ques: "How can I opt for a Hybrid mode of learning in IBM data science training courses in Austrelia, At Learnbay? ",
-            ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
+            ques: "How are the classes delivered? Are they in-person, online, or a combination of both for an MS in Data Science in Australia?",
+            ans: "Data science masters programs in Australia conduct online training sessions to help learners gain adequate abstract and practical knowledge. Experts joining our MS in Data Science in the Australia program can balance their hectic plans with our flexible online learning sessions.",
             open: false,
           },
         ],
@@ -206,53 +186,38 @@ export const masterdegreeAUSData = [
         data: [
           {
             id: 0,
-            ques: "What is domain specialization in the professional data science certification courses provided by Learnbay in Austrelia?",
-            ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational data science course. ",
-            open: true,
+            ques: "What are the available elective domain options in the different data science training courses of Learnbay in Australia?",
+            ans: " In the Master Degree course provided by Learnbay in Australia, available domain specializations are: Retail, E-Commerce, & Supply Chain, Healthcare, BFSI; Manufacturing, BFSI, Managers and Leaders. However we update our domain specialisation as per market job market skill demand and ever changing trends.Contact our course experts for latest available domain specializations and modules. ",
+            open: false,
           },
           {
             id: 1,
-            ques: "What are the available elective domain options in the different data science training courses of Learnbay in Austrelia?",
-            ans: " Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy",
+            ques: "Which data science specialization domain elective is best suited for me?",
+            ans: `You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988`,
             open: false,
           },
           {
             id: 2,
-            ques: "Which data science specialization domain elective is best suited for me?",
-            ans: `You can select your domain based on your prior work experience, academics, and career goals. 
-                      Book a slot with our industry expert for free profile review and career guidance.`,
-            linkText1: " +917795687988 ",
-            link1: "tel:+917795687988",
-            link: true,
-            open: false,
-          },
-          {
-            id: 3,
             ques: "Why is domain specialization important in professional data science certification?",
             ans: "After enrolling in the advanced data science courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
             open: false,
           },
           {
-            id: 4,
+            id: 3,
             ques: "Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?",
-            ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
-                      Advance Data Science and AI Certification course- Maximum 2 domains. 
-                      Data Science and AI Certification Course for Managers and Leaders- All domains 
-                      Data Science and AI Training with Placement Assistance- All domains
-                       
-                      No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
+            ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. Check with our career support expert for more details. `,
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What if I don't have any prior experience in any domain?",
+            ans: "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
             open: false,
           },
           {
             id: 5,
-            ques: "What if I don't have any prior experience in any domain?",
-            ans: " If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
-            open: false,
-          },
-          {
-            id: 6,
             ques: "Can I change my domain electives later?",
-            ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
+            ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. Check with our course expert for any kind of terms and conditions. ",
             open: false,
           },
         ],
@@ -263,42 +228,28 @@ export const masterdegreeAUSData = [
         data: [
           {
             id: 0,
-            ques: "What is the total fee for Data Science Certifications courses in Austrelia?",
-            ans: `The total course fee for the 
-                      Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                      Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                      Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                      Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ques: "What are the fees for the Master's in Data Science program, and are there any additional costs for data science master's programs in Australia?",
+            ans: `The Master's in Data Science program costs €3000. Apart from the course fees, there are no additional costs for data science master's programs in Australia.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for these Data Science Certification courses in Austrelia?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Do you offer any scholarships or financial aid for students pursuing a master's degree in data science in Australia?",
+            ans: "Learnbay offers scholarships to eligible learners opting for a master's degree in data science in Australia after reviewing their profiles. Eligible learners will receive up to a 25% scholarship for the master's course.",
             open: false,
           },
           {
             id: 2,
-            ques: " Is there any scholarship/discount available for these Data Science training courses available in Austrelia? What is Group Discount?",
-            ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
-                      Please check our websites or contact our sales team to know more about the applicable discounts.
-                      
-                      
-                      Group Discount :
-                      Group Discount is applicable only if you’re joining with your friends. 
-                      5% extra discount: Group of 2
-                      8% extra discount: Group of 3
-                      Max 10% discount: Groupe of 4+`,
+            ques: "What payment options are available for the data science masters programs in Australia?",
+            ans: `Learners enrolling in data science masters programs in Australia will have two options for one-time payment for the course: Internet banking and credit/Debit card.`,
             open: false,
           },
           {
             id: 3,
-            ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-            ans: `Candidates are advised to read `,
-            linkText1: "Learnbay’s Refund/Cancellation Policy",
-            link1: "/refund-cancellation-policy",
-            ansAfter: " before enrolling in the course.",
-            link: true,
+            ques: "Are any discounts available for early enrollment or paying the tuition upfront for a master's in data science in Australia?",
+            ans: `Yes, we offer early bird discounts of 15%-20% for learners enrolling in a master's in data science in Australia. Yet, a group discount is available for learners who join with one or more friends. 
+Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Max 10% discount
+`,
             open: false,
           },
         ],
@@ -309,28 +260,26 @@ export const masterdegreeAUSData = [
         data: [
           {
             id: 0,
-            ques: "How many capstone projects will be there? ",
-            ans: `Depending on the course you choose the number of capstone projects will vary.  
-                      Foundational Data Science and AI Training Course - 1 Capstone.
-                      Advance Data Science and AI Certification Course -2 Capstones.
-                      Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-                      Data Science and AI Training with Placement Assistance- 3 Capstones.
-                      How many real-time projects/case studies will be covered in these Data Science certification courses in Austrelia?
-                      Depending on the course you choose the number of live projects will vary.  
-                      Foundational Data Science and AI Training course- 8 projects.
-                      Advance Data Science and AI Certification course-12 projects.
-                      Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-                      Data Science and AI Training with Placement Assistance- 15 projects.`,
-            linkText1: " Click here to download the list of the projects.",
-            link1:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
-            link: true,
+            ques: "Could you provide more information about the capstone project or real-time projects included in the program for MS in Data Science in Australia?",
+            ans: `Learners joining the MS in data science course in Australia will gain exclusive learning scope via capstone projects. Here, learners can choose one domain specialization per their career interests and work on three capstone projects. The projects will relate to the leading industries - BFSI, Healthcare, HR, Marketing, Supply Chain, and Manufacturing. At last, learners in Australia will receive one Capstone Project Certificate from a renowned industry with alluring career gains.`,
             open: true,
           },
           {
             id: 1,
-            ques: "How will the projects be executed in Austrelia?",
-            ans: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
+            ques: "How are capstone projects assigned, and what level of guidance and support can students expect during the project for a master's degree in data science?",
+            ans: "Learners joining us for a master's degree in data science in Australia will gain uninterrupted learning assistance from respective mentors. We offer project-based learning scope via capstone projects in diversified domains. Learners can choose their projects based on domain specialization and industry trends. Our esteemed mentors are available 24/7 for end-to-end support during coursework and capstone projects. 1:1 doubt-clearing sessions are also available to resolve project-related queries.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Are there opportunities for students to work on industry projects or collaborate with companies as part of their studies for data science master's programs in Australia?",
+            ans: "Yes, learners enrolling in data science master's programs in Australia can gain industry-specific experience via projects. Our collaboration with leading MNCs helps learners gain adequate exposure to real-world businesses. Our master's programs offer domain-specific learning platforms with proven industry projects. Here, you will get an exclusive scope to refine prior domain knowledge and excel in your role.",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "Can students choose their projects, or are they assigned by the faculty for a master's degree in data science?",
+            ans: "Once you enroll in the master's degree in data science, you can choose your domain. Learners opting for the master's degree program can choose their projects as per their domain specialization and career interests. Learners go through group project work under the guidance of renowned faculties or mentors.",
             open: false,
           },
         ],
@@ -341,13 +290,20 @@ export const masterdegreeAUSData = [
         data: [
           {
             id: 0,
-            ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                      Foundational Data Science and AI Training course- 1 Course Completion Certificate.
-                      Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                      Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                      Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-                      *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+            ques: "What type of certification or degree will I receive upon completing the Master's in Data Science program in Australia?",
+            ans: `Learners enrolling in a master's in data science program in Australia will get a globally accredited degree from Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications.`,
+            open: true,
+          },
+          {
+            id: 2,
+            ques: "Is the certification recognized internationally, and what is its value in the job market for data science masters programs in Australia?",
+            ans: `Yes, the certification is globally recognized (60+ countries recognize it), enriching your career and validating the learned skills for better job prospects. Anyone pursuing data science masters programs in Australia must obtain this certification for an effortless career transition. Learners with globally valued certifications attain a competitive advantage with compelling offers from top-tier companies in Australia. Certifications set a benchmark for exclusive competence to crack expanded career growth prospects throughout the country and overseas.`,
+            open: true,
+          },
+          {
+            id: 3,
+            ques: "Are there any additional certifications or credentials",
+            ans: `Students can earn alongside the Master's degree in data science masters programs. Learners will receive course completion and project certifications from IBM & Microsoft alongside the master's degree in data science masters programs.`,
             open: true,
           },
         ],
@@ -358,34 +314,27 @@ export const masterdegreeAUSData = [
         data: [
           {
             id: 0,
-            ques: "What's the eligibility for a job assistance Program in Learnbay Data science training courses in Austrelia?",
+            ques: "What kind of career support services do you offer to students and alumni of master's in data science in Australia?",
 
-            ans: `You should have completed the course with :
-                      A minimum score of 70% in assessments
-                     Should have completed the assignments and case studies
-                     Worked and successfully completed the minimum recommended number of real-time projects.`,
+            ans: `Yes, eligible learners enrolling in data science masters programs in Australia will have successful career transitions with hassle-free assistance and opportunities. Such assistance includes resume review, interview preparation sessions, professional networking, and many more. Such services help learners transition their careers into prominent roles with alluring hikes and promotions.`,
             open: true,
           },
           {
             id: 1,
-            ques: "How long will I get support for job assistance at Learnbay in Austrelia?",
-            ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+            ques: "Do you have partnerships with companies or industry connections that help students secure internships or job placements for MS in data science in Australia?",
+            ans: `Yes, we have a leading MNCs & unicorn startup with 450+ leading companies in Australia and overseas that assist career transitions with premium placements and internships.`,
             open: false,
           },
           {
             id: 2,
-            ques: "What is a job-readiness program?",
-            ans: `The Job readiness program helps you prepare for interviews which include:
-                      Resume preparation sessions, 
-                      Preparing projects for a strong portfolio, 
-                      Interview guidance and prep sessions, 
-                      1:1 Mock interviews based on targeted companies and roles.`,
+            ques: "How successful are graduates from your program in finding employment in the Data Science field for a master's in data science in Australia?",
+            ans: `Learners enrolling in a master's in data science in Australia witness a notable career transformation with attractive hikes and swift job promotions. Graduates from this program gain a competitive advantage by overcoming career stagnancies. These graduates hold hands-on experience with the latest tools and techniques that enhance their chances of getting selected for leading career roles.`,
             open: false,
           },
           {
             id: 3,
-            ques: "Will I get job referrals at Learnbay?",
-            ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
+            ques: "Do you provide resume assistance, interview preparation, or networking opportunities to help students transition into the workforce for data science masters programs in Australia?",
+            ans: `Yes, eligible learners enrolling in data science masters programs in Australia will have successful career transitions with hassle-free assistance and opportunities. Such assistance includes resume review, interview preparation sessions, professional networking, and many more. Such services help learners transition their careers into prominent roles with alluring hikes and promotions.`,
             open: false,
           },
         ],
@@ -396,16 +345,31 @@ export const masterdegreeAUSData = [
         data: [
           {
             id: 0,
-            ques: "Until when do the students get the facility of mentorship?",
+            ques: "Do students have access to mentors or advisors throughout the program for a master's in data science in Australia?",
 
-            ans: "Our mentors will provide data science training to the students until the completion of the course. ",
+            ans: "Yes, learners have direct access to their mentors throughout the program for a master's in data science in Australia. They can reach out to their mentors in case of any course or project- related queries. ",
             open: true,
           },
           {
             id: 1,
-            ques: "Can a Learnbay student in Austrelia choose to study from their desired mentor?",
-            ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+            ques: "What qualifications and experience do the mentors have in Data Science and AI for data science masters programs in Australia?",
+            ans: "Mentors assigned for data science masters programs in Australia hold at least seven years of work experience in a similar field from any domain/discipline. Their real-time exposure to business scenarios and decisiveness helps learners land their dream roles.",
             open: false,
+          },
+          {
+            id: 2,
+            ques: "How are mentors assigned to students, and what level of interaction can students expect for MS in data science in Australia?",
+            ans: "We have a group of renowned industry experts in the role of mentors for MS in data science in Australia. These mentors are assigned to individual learning batches as per relevant skills and experience. Learners can expect direct interaction with their mentors during training sessions. Apart from training classes, you can also contact mentors for doubt clearing or certain queries via phone call or chat.",
+          },
+          {
+            id: 3,
+            ques: "Are there opportunities for one-on-one mentorship sessions or group mentorship activities for master's in data science in Australia?",
+            ans: "Experts enrolling in our master's in data science in Australia will receive exclusive mentorship from industry experts. Here, you will get group mentorship activities during learning sessions and 1:1 mentorship for doubt-clearing & project tasks. However, in special cases, you can avail of 1:1 mentorship sessions.",
+          },
+          {
+            id: 4,
+            ques: "How does mentorship contribute to students' academic and professional growth during the program for MS in data science in Australia?",
+            ans: "Mentorship is pivotal in enhancing a learner's academic and professional performance in the data science field. Experts joining us for MS in data science in Australia will gain live instructor-led training sessions from industry experts as mentors. Learning directly from eminent mentors helps learners see through the changing industry dynamics and improve their performance. Mentorship helps learners gain a 360-degree knowledge- building advantage, refining academic skills. Plus, mentorship enables learners to attain professional growth through hikes, promotions, and job offers.",
           },
         ],
       },
@@ -415,15 +379,26 @@ export const masterdegreeAUSData = [
         data: [
           {
             id: 0,
-            ques: "When is the job assistance provided at Learnbay and how long will I get it?",
-
-            ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
+            ques: "What academic support services are available to students, such as tutoring or study groups, for master's in data science in Australia?",
+            ans: "Learners enrolling in master's in data science in Australia can avail of dedicated mentorship from industry experts.You will gain uninterrupted training sessions from respective mentors with 24*7 assistance.\n\nSome exclusive academic support services will be -\n• Live instructor-led training sessions.\n• Dedicated mentorship with 1:1 doubt-clearance.\n• Hassle-free contact with mentors after classes.\n• Learning materials.\n• Course tasks and projects handling support\n• Career assistance.",
             open: true,
           },
           {
             id: 1,
-            ques: "How long will I get Job referrals?",
-            ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+            ques: "How responsive are the faculty and support staff to student inquiries and concerns for MS in data science in Australia?",
+            ans: "Learners enrolling in MS in data science in Australia will get hassle-free training sessions with complete support from faculty and associated staff. In case of certain inquiries and concerns, you can contact your mentor 24/7 via the Learnbay app. You can contact them via phone or chat regarding coursework or project- related doubts. So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Is technical support available for students encountering issues with online learning platforms or software used in the program for master's in data science in Australia?",
+            ans: "Yes, Learnbay has a centralized technical support system to help learners with related issues during the master's in Data Science in Australia. The Learnbay app is available 24/7 to help you out with all kinds of issues. In case you face technical issues during login, logout, training sessions, attendance, or any other time, our dedicated experts are there to help with the best possible solutions.",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How does the program foster community and peer support among students, especially in online learning environments for master's in data science in Australia?",
+            ans: "Learnbay utilizes several strategies to foster a sense of community and peer support among students pursuing a master's in data science in Australia.\n\nIt includes -\n• Collaborative learning platforms with discussion forums\n• Dedicated mentorship followed by 1:1 doubt-clearing sessions\n• Project-based learning via projects\n• Soft skills training\n• ATS- Resume optimization\n• Interview Preparation",
             open: false,
           },
         ],

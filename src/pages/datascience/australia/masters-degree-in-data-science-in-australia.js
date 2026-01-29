@@ -224,6 +224,7 @@ export default function Home() {
           firstHeading="  Master’s Degree Program in Data Science and AI – Australia           "
           firstTopPara="Learnbay Excelvarsity          "
           cityParaCont="Equip yourself with a cutting-edge masters in data science program for an effortless career transition.  Enroll with us to acquire the highly sought-after data science competencies through our GenAI-rich course modules.  Kick-start your data science career journey with IBM project certification.            "
+          woolfOnly={true}
         />
         <SecondSection
           SecondSectionData={masterdegreeAUSData[0].secondSection}

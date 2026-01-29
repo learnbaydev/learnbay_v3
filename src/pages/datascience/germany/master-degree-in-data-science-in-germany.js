@@ -224,8 +224,8 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="  Master’s Degree in Data Science in Germany   "
           firstTopPara="Learnbay Excelvarsity          "
-          cityParaCont="Proliferate your business growth metrics with Learnbay’s MS in data science in Germany. Join us to leverage business yields with data-driven insights and impactful decisions. Our trend-setting master’s program supports a GenAI-rich career transition with optimal success. Enroll today and validate your data skills with an IBM Project Certification. 
-   "
+          cityParaCont="Proliferate your business growth metrics with Learnbay’s MS in data science in Germany. Join us to leverage business yields with data-driven insights and impactful decisions. Our trend-setting master’s program supports a GenAI-rich career transition with optimal success. Enroll today and validate your data skills with an IBM Project Certification. "
+          woolfOnly={true}
         />
         <SecondSection
           SecondSectionData={masterdegreeGermanyCourseData[0].secondSection}

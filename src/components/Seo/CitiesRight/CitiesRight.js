@@ -2788,7 +2788,7 @@ const CitiesRight = ({
               <br />
               <li>Effortless Immigration Facilities</li>
               <br />
-              <li>Career Service PRO (100% Job and Placement Support)</li>
+              <li>Dedicated career acceleration support. </li>
               <br />
               <li>
                 Globally Accredited Master’s Degree with Affiliation to Woolf
