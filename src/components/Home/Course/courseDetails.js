@@ -85,7 +85,7 @@ export const courseDetails = [
             tagHead: 'Job-ready with interview support',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf',
             titleCourse: 'Cloud Computing & DevOps Certification Program',
@@ -98,7 +98,7 @@ export const courseDetails = [
             link1:
               '/cloud&devops/cloud-computing-and-devOps-certification-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
         ],
       },
@@ -871,7 +871,7 @@ export const courseDetails = [
             tagHead: 'Job-ready with interview support',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf',
             titleCourse: 'Cloud Computing & DevOps Certification Program',
@@ -884,7 +884,7 @@ export const courseDetails = [
             link1:
               '/cloud&devops/cloud-computing-and-devOps-certification-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
         ],
       },
@@ -1380,7 +1380,7 @@ export const courseDetails = [
             tagHead: 'Job-ready with interview support',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf',
             titleCourse: 'Cloud Computing & DevOps Certification Program',
@@ -1393,7 +1393,7 @@ export const courseDetails = [
             link1:
               '/cloud&devops/cloud-computing-and-devOps-certification-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
         ],
       },
@@ -1738,7 +1738,7 @@ export const courseDetails = [
             tagHead: 'Job-ready with interview support',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf',
             titleCourse: 'Cloud Computing & DevOps Certification Program',
@@ -1751,7 +1751,7 @@ export const courseDetails = [
             link1:
               '/cloud&devops/cloud-computing-and-devOps-certification-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
         ],
       },
@@ -1773,7 +1773,7 @@ export const courseDetails = [
             tagHead: 'Job-ready with interview support',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf',
 
@@ -1787,7 +1787,7 @@ export const courseDetails = [
             link1:
               '/cloud&devops/cloud-computing-and-devOps-certification-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
           {
             id: 2,
@@ -2141,7 +2141,7 @@ export const courseDetails = [
             tagHead: 'Job-ready with interview support',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf',
             titleCourse: 'Cloud Computing & DevOps Certification Program',
@@ -2154,7 +2154,7 @@ export const courseDetails = [
             link1:
               '/cloud&devops/cloud-computing-and-devOps-certification-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
         ],
       },
@@ -2249,7 +2249,7 @@ export const courseDetailsM = [
             tagHead: 'Job-ready with interview support',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf',
             titleCourse: 'Cloud Computing & DevOps Certification Program',
@@ -2262,7 +2262,7 @@ export const courseDetailsM = [
             link1:
               '/cloud&devops/cloud-computing-and-devOps-certification-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
         ],
       },
@@ -3151,7 +3151,7 @@ export const courseDetailsM = [
             tagHead: 'Job-ready with interview support',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf',
             titleCourse: 'Cloud Computing & DevOps Certification Program',
@@ -3164,7 +3164,7 @@ export const courseDetailsM = [
             link1:
               '/cloud&devops/cloud-computing-and-devOps-certification-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
           {
             id: 2,
@@ -3516,7 +3516,7 @@ export const courseDetailsM = [
             tagHead: 'Job-ready with interview support',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf',
             titleCourse: 'Cloud Computing & DevOps Certification Program',
@@ -3529,7 +3529,7 @@ export const courseDetailsM = [
             link1:
               '/cloud&devops/cloud-computing-and-devOps-certification-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
         ],
       },

@@ -1,27 +1,27 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const Certificate = dynamic(() => import("../Certificate/Certificate"));
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
-const MentorsSection = dynamic(() =>
-  import("../../Global/MentorsSection/MentorsSection")
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import SeventhSection from '@/components/Global/SeventhSection/SeventhSection';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
+const Certificate = dynamic(() => import('../Certificate/Certificate'));
+const OfferPopup = dynamic(() => import('../../Global/OfferPopup/OfferPopup'));
+const FeeSection = dynamic(() => import('../FeeSection/FeeSection'));
+const MentorsSection = dynamic(
+  () => import('../../Global/MentorsSection/MentorsSection')
 );
-const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-const PlacementCall = dynamic(() =>
-  import("../../Global/PlacementCall/PlacementCall")
+const SliderTab = dynamic(() => import('../../Global/SliderTabs/SliderTabs'));
+const PlacementCall = dynamic(
+  () => import('../../Global/PlacementCall/PlacementCall')
 );
-const DevOpsProject = dynamic(() =>
-  import("../DevOps/DevOpsProject/DevOpsProject")
+const DevOpsProject = dynamic(
+  () => import('../DevOps/DevOpsProject/DevOpsProject')
 );
 
-const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
-const Content = dynamic(() => import("../Content/content"));
+const FAQNew = dynamic(() => import('../FAQNew/FAQNewDomain'));
+const Content = dynamic(() => import('../Content/content'));
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -39,8 +39,8 @@ const SecondPart = ({
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -55,7 +55,7 @@ const SecondPart = ({
             // console.log(popData);
             if (
               popupData ===
-              "Advance Cloud Computing & DevOps Certification Program"
+              'Advance Cloud Computing & DevOps Certification Program'
             ) {
               setPopupData(data);
               // console.log(popupData);
@@ -69,16 +69,16 @@ const SecondPart = ({
   }, []);
 
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf';
   return (
-    <div style={{ marginTop: "50px" }}>
+    <div style={{ marginTop: '50px' }}>
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
         // interstedInHide={interstedInHide}
         titleCourse="Cloud Computing & DevOps Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf"
         buttonHide={true}
         brochurePdf={pdfUrl}
       />
@@ -105,7 +105,7 @@ const SecondPart = ({
         // interstedInHide={interstedInHide}
         dataScience={true}
         titleCourse="Cloud Computing & DevOps Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf"
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
@@ -119,21 +119,21 @@ const SecondPart = ({
 
       <MentorsSection />
       <SliderTab />
-      {adsHide ? "" : <PlacementCall devops={devops} />}
+      {adsHide ? '' : <PlacementCall devops={devops} />}
 
       <DevOpsProject
         adsHide={adsHide}
         brochurePdf={pdfUrl}
         titleCourse="Cloud Computing & DevOps Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf"
         dataScience={true}
         // interstedInHide={true}
       />
 
-      {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
+      {adsHide ? '' : <FAQNew FAQNewData={FAQNewData} />}
       <Content dataScienceCounselling={true} DevopsOnly={true} />
       <SeventhSection />
-      {adsHide ? "" : <Footer />}
+      {adsHide ? '' : <Footer />}
       <BottomBar
         dataScienceCounselling={true}
         // interstedInHide={true}

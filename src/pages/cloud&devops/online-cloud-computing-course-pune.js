@@ -1,40 +1,40 @@
-import { CloudPune } from "@/Data/Schema/CloudPune";
-import Map from "@/components/Seo/Maps/Maps";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { CloudComputingTrainingInPune } from "../../CityData/Bangalore/CloudComputingTrainingInPune";
-import Footer from "../../components/Global/Footer/Footer";
-import Navbar from "../../components/Global/Navbar/Navbar";
-import FeeSection from "../../components/Seo/FeeSection/FeeSection";
-import YoutubeVideo from "../../components/Seo/YoutubeVideo/YoutubeVideo";
-import styles from "../../styles/Home.module.css";
+import { CloudPune } from '@/Data/Schema/CloudPune';
+import Map from '@/components/Seo/Maps/Maps';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { CloudComputingTrainingInPune } from '../../CityData/Bangalore/CloudComputingTrainingInPune';
+import Footer from '../../components/Global/Footer/Footer';
+import Navbar from '../../components/Global/Navbar/Navbar';
+import FeeSection from '../../components/Seo/FeeSection/FeeSection';
+import YoutubeVideo from '../../components/Seo/YoutubeVideo/YoutubeVideo';
+import styles from '../../styles/Home.module.css';
 const FirstSection = dynamic(
-  () => import("../../components/Seo/FirstSection/FirstSection"),
+  () => import('../../components/Seo/FirstSection/FirstSection')
 );
 const SecondSection = dynamic(
-  () => import("../../components/Seo/SecondSection/SecondSection"),
+  () => import('../../components/Seo/SecondSection/SecondSection')
 );
 const SeventhSection = dynamic(
-  () => import("../../components/Seo/SeventhSection/SeventhSection"),
+  () => import('../../components/Seo/SeventhSection/SeventhSection')
 );
 const CityText = dynamic(
-  () => import("../../components/Seo/CityText/CityText"),
+  () => import('../../components/Seo/CityText/CityText')
 );
 const CitiesLeft = dynamic(
-  () => import("../../components/Seo/CitiesLeft/CitiesLeftDomain"),
+  () => import('../../components/Seo/CitiesLeft/CitiesLeftDomain')
 );
 const CloudDevopstestimonials = dynamic(
   () =>
-    import("../../components/CoursePage/cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials.js"),
+    import('../../components/CoursePage/cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials.js')
 );
 const CitiesRight = dynamic(
-  () => import("../../components/Seo/CitiesRight/CitiesRightdomain"),
+  () => import('../../components/Seo/CitiesRight/CitiesRightdomain')
 );
-const FAQNew = dynamic(() => import("../../components/Seo/FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import('../../components/Seo/FAQNew/FAQNew'));
 
 export default function Home() {
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf';
   return (
     <div className={styles.container}>
       <Head>
@@ -130,14 +130,14 @@ export default function Home() {
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <FirstSection
           FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           titleCourse="Best Online Cloud Computing Course in Pune"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf"
           dataScience={true}
           interstedInHide={true}
           brochurePdf={pdfUrl}
