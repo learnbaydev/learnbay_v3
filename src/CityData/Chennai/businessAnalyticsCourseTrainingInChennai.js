@@ -597,38 +597,25 @@ export const BusinessAnalyticsChennaiCourseData = [
       'The business analytics course in Chennai consists of 200 hours of live interactive classes from PRODUCT Based Companies experts. Aside from this, students can also discuss their doubts via the discussion forum and one-on-one with mentors.',
     ModuleBot41:
       "Business analysts generally define, document, and analyze data to develop solutions using specific skillsets to improve business performance. This IBM business analytics course module covers all of the concepts and tools necessary to succeed as a business analyst within 6 months of duration. Throughout this course, you'll learn basic data analytics tools and techniques that are applicable in a variety of industries and business analyst job roles. You'll also learn how to use Excel to analyze data and make models, query databases with SQL, and make interesting data visualizations with Tableau.",
-    syllabusb1: '6 Hours',
-    SyllabusBotlist11: 'Introduction to Business Analysis',
-    SyllabusBotlist12: 'Stakeholders in Business Analysis',
-    SyllabusBotlist13: 'Formulating Requirements',
-    SyllabusBotlist14: 'Flowchart and Modelling',
-    SyllabusBotlist15: 'Analyzing and Transforming Requirements',
-    SyllabusBotlist16: 'Finalising Requirements',
-    syllabush2: 'Applied business statistics',
-    syllabusb2: '40 Hours',
-    SyllabusBotlist21: 'R programming fundamentals',
-    SyllabusBotlist22: 'Statistics',
-    SyllabusBotlist23: 'Descriptive Statistics',
-    SyllabusBotlist24: 'Sampling Techniques',
-    SyllabusBotlist25: 'Probability',
-    SyllabusBotlist26: 'Inferential Statistics',
-    syllabush3: 'Data Science & AI',
-    syllabusb3: '30 Hours',
-    SyllabusBotlist31: 'Introduction to Data Science and AI',
-    SyllabusBotlist32: 'Machine Learning Fundamentals',
-    SyllabusBotlist33: 'Natural Language Processing (NLP)',
-    SyllabusBotlist34: 'Advanced NLP Techniques',
-    SyllabusBotlist35: 'Popular ML Libraries',
-    SyllabusBotlist36: 'Bayesian optimization',
-    syllabush4: 'Deployment (AWS+Azure)',
-    syllabusb4: '6+ Classes',
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
+    SyllabusBotlist11:
+      'Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
+
+    syllabush2: 'FOUNDATION OF GENAI',
+    syllabusb2: '2.5 Months',
+    SyllabusBotlist21:
+      'Build Python, ML, DL, and NLP foundations for modern GenAI workflows.',
+
+    syllabush3: 'ADVANCED GENERATIVE AI',
+    syllabusb3: '1 Month',
+    SyllabusBotlist31:
+      'Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.',
+
+    syllabush4: 'AGENTIC AI & AUTOMATION',
+    syllabusb4: '1 Month',
     SyllabusBotlist41:
-      'Introduction to AWS and Azure Machine Learning Services',
-    SyllabusBotlist42: 'Setting up the Environment',
-    SyllabusBotlist43: 'Data Preparation and Feature Engineering',
-    SyllabusBotlist44: 'Model Training and Evaluation',
-    SyllabusBotlist45: 'Model Deployment and Management',
-    SyllabusBotlist46: 'Advanced Topics in Machine Learning on AWS and Azure',
+      'Design autonomous AI agents that plan, reason, and automate complex workflows end to end.',
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
 
