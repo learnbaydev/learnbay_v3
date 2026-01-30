@@ -498,13 +498,7 @@ export const DAcanadaCourseData = [
           {
             id: 3,
             ques: "What’s the duration of the Data Analytics Course in Canada?",
-            ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-          
-              Classes will be conducted on weekdays and weekend batches.
-              Weekday batch - 4.5 months
-                 Monday to Friday - 2 hours/day
-              Weekend batch - 6 months
-              Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of the data analytics course in Canada is 6 months.`,
             open: false,
           },
           {
@@ -581,13 +575,13 @@ export const DAcanadaCourseData = [
           {
             id: 0,
             ques: "What is the total fee for the Data Analytics Program in Canada?",
-            ans: `The total program fee for the Data Analytics Program is INR 80-,000/- inclusive of GST.`,
+            ans: `The total Program fee for the data analytics program in Canada is 1,20,000/- exclusive of GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 80,000/-?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 5,244/month up to 5 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Can I pay in installments for INR 1,20,000/-?",
+            ans: "Yes, you can pay in instalments using a credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip. ",
             open: false,
           },
           {
@@ -652,7 +646,7 @@ export const DAcanadaCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion. `,
+            ans: `You will receive 3 certifications, two from IBM and one from IIT Patna, upon successful completion of the data analytics course in Canada.`,
             open: true,
           },
         ],
@@ -736,7 +730,7 @@ export const DAcanadaCourseData = [
     ProgramBot1:
       " Canada, being the global center for technical education, offers a variety of data science career opportunities. Learnbay is proud to present the Job-ready data analytics course in Canada, the first of its kind to cover programming, algorithm, and data analytics all in one complete course.",
     ProgramBot2:
-      "Our specialized faculty team has vast expertise in teaching basic to advanced data analytics in both academic and professional settings. Our IBM data analytics course curriculum is constantly being updated with the latest orientation in data analysis tools. So that you remain prepared for new changes in the technology industry- Designed for early pros and working professionals, this data analytics course at Learnbay will prepare you for a variety of careers in the field of data analytics jobs. The Online data analytics course in Canada is a 4.5-month program, with classes held weekly and weekend batches- facilitated by industry experts; students will learn through hands-on projects and group challenges.",
+      "Our specialized faculty team has vast expertise in teaching basic to advanced data analytics in both academic and professional settings. Our IBM data analytics course curriculum is constantly being updated with the latest orientation in data analysis tools. So that you remain prepared for new changes in the technology industry- Designed for early pros and working professionals, this data analytics course at Learnbay will prepare you for a variety of careers in the field of data analytics jobs. The Online data analytics course in Canada is a 6-month program, with classes held weekly and weekend batches- facilitated by industry experts; students will learn through hands-on projects and group challenges.",
     ProgramHead3:
       "What is the purpose of this data analytics course in Canada?",
     ProgramBot3:
@@ -759,38 +753,26 @@ export const DAcanadaCourseData = [
       "Additionally, you will have access to special classes of Python and R programming intended for non-technical learners. We have created this data analytics course with the idea that we will take you from a coding newbie to an expert data analyst in just a few months!",
     ModuleHead2:
       "The fundamental training in data analytics course training includes:",
-    syllabush1: "Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode .",
-    syllabush2: "Python Programming (Basic + Advance)",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming Overview",
-    SyllabusBotlist22: "Python Data Types",
-    SyllabusBotlist23: "Data Analysis Using Numpy",
-    SyllabusBotlist24: "Data Analysis Using Pandas",
-    SyllabusBotlist25: "Data Visualization using Matplotlib",
-    SyllabusBotlist26: "Functions And Modules ,Class hands-on:",
-    syllabush3: " Statistics & Basic Machine Learning",
-    syllabusb3: "50 Hours",
-    SyllabusBotlist31: " Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Regression and Classification Models",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Introduction to Machine Learning",
-    SyllabusBotlist36: "Encoding the Data",
-    syllabush4: "Data Analytics Tools",
-    syllabusb4: "6+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "JSON Data & CRUD",
-    SyllabusBotlist43: " PowerBI",
-    SyllabusBotlist44: "Big Data & Spark Analytics",
-    SyllabusBotlist45: " Time Series",
-    SyllabusBotlist46: "Introduction to Time Series Forecasting",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     JobBot1:
@@ -815,8 +797,9 @@ export const DAcanadaCourseData = [
     Projectsp1:
       "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
-    src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+    src2:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+    alt2:"IBM logo",
+      
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
