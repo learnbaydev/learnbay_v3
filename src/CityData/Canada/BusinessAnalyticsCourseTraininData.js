@@ -61,7 +61,7 @@ export const BAcanadaCourseData = [
           name: 'What’s the duration of the Business Analytics Course in Canada?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: ' The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 5 months Monday to Friday - 2 hours/day Weekend batch - 6.5 months Saturday & Sunday - 3.5 hours/day.',
+            text: 'The duration of the Business Analytics course training in hyderabad is 8-9 months, including weekend and weekday batches.',
           },
         },
         {
@@ -85,7 +85,7 @@ export const BAcanadaCourseData = [
           name: 'What is the total fee for the Business Analytics Program in Canada?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The total program fee for the Business Analytics Program is INR 88,500/- inclusive of GST.',
+            text: 'The total program fee for the Business Analytics Program is INR 1,20,000/- inclusive of GST.',
           },
         },
         {
@@ -475,13 +475,7 @@ export const BAcanadaCourseData = [
             id: 3,
             ques: 'What’s the duration of the Business Analytics Course in Canada?',
             //About Data Science
-            ans: `The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-            
-                Classes will be conducted on weekdays and weekend batches.
-                Weekday batch - 5 months
-                   Monday to Friday - 2 hours/day
-                Weekend batch - 6.5 months
-                Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of the Business Analytics course training in hyderabad is 8-9 months, including weekend and weekday batches.`,
             open: false,
           },
           {

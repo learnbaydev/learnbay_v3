@@ -180,7 +180,7 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 95,000"
+            Fee="₹ 1,20,000"
             FeeEmi="₹ 6,228/month"
             weekdaybatch="Weekday Batch"
             weekendbatch="Weekend Batch"

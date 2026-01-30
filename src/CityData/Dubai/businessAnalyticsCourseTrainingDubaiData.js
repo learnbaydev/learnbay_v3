@@ -134,7 +134,7 @@ export const BADubaiCourseData = [
           name: 'What is the total fee for the Business Analytics Program in Dubai?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The total program fee for the Business Analytics Program is INR 88,500/- inclusive of GST.',
+            text: 'The total program fee for the Business Analytics Program is INR 1,20,000/- inclusive of GST.',
           },
         },
         {
@@ -476,13 +476,7 @@ export const BADubaiCourseData = [
             id: 3,
             ques: 'What’s the duration of the Business Analytics Course in Dubai?',
             //About Data Science
-            ans: `The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-        
-            Classes will be conducted on weekdays and weekend batches.
-            Weekday batch - 5 months
-               Monday to Friday - 2 hours/day
-            Weekend batch - 6.5 months
-            Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of the Business Analytics course training in hyderabad is 8-9 months, including weekend and weekday batches.`,
             open: false,
           },
           {
@@ -732,38 +726,25 @@ export const BADubaiCourseData = [
     ModuleHead3: 'Support for Non-coders:',
     ModuleBot4:
       'Learning to code is no longer a risk for candidates with zero coding experience since our business analytics course comes with programming classes. These six to eight hours of Python and R programming sessions will turn any newbie into an expert coder and eventually a BI analyst.',
-    syllabush1: 'Preparatory Classes (Programming + Maths)',
-    syllabusb1: '6 Hours',
-    SyllabusBotlist11: 'Anaconda Installation',
-    SyllabusBotlist12: 'Basics of Programming',
-    SyllabusBotlist13: 'Memory Management',
-    SyllabusBotlist14: 'Compiler and Interpreter',
-    SyllabusBotlist15: 'Syntax of Python',
-    SyllabusBotlist16: 'Basics of Statistics',
-    syllabush2: 'Python Programming (Basic + Advance)',
-    syllabusb2: '40 Hours',
-    SyllabusBotlist21: 'Git and GitHub',
-    SyllabusBotlist22: 'Operators + Data Types + Loops',
-    SyllabusBotlist23: 'Functions + Regular Expression',
-    SyllabusBotlist24: 'Conditional Statement',
-    SyllabusBotlist25: 'File & Exceptional Handling',
-    SyllabusBotlist26: 'Numpy, Pandas, Matplotlib, etc.',
-    syllabush3: 'Statistics',
-    syllabusb3: '30 Hours',
-    SyllabusBotlist31: 'Linear Algebra, Probability',
-    SyllabusBotlist32: 'Permutation & Combination',
-    SyllabusBotlist33: 'Descriptive Stats',
-    SyllabusBotlist34: 'Hypothesis Testing',
-    SyllabusBotlist35: 'Time Series Analysis',
-    SyllabusBotlist36: 'Inferential Stats',
-    syllabush4: 'Industrial Projects & Capstone Projects',
-    syllabusb4: '6+ Classes',
-    SyllabusBotlist41: 'Market Basket Analysis',
-    SyllabusBotlist42: 'Analyzing Customer Feedback',
-    SyllabusBotlist43: 'Loan Eligibility Prediction,',
-    SyllabusBotlist44: 'Customer Churn Prediction',
-    SyllabusBotlist45: 'Inventory Demand Forecasting',
-    SyllabusBotlist46: 'Retain Analytics',
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
+    SyllabusBotlist11:
+      'Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
+
+    syllabush2: 'FOUNDATION OF GENAI',
+    syllabusb2: '2.5 Months',
+    SyllabusBotlist21:
+      'Build Python, ML, DL, and NLP foundations for modern GenAI workflows.',
+
+    syllabush3: 'ADVANCED GENERATIVE AI',
+    syllabusb3: '1 Month',
+    SyllabusBotlist31:
+      'Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.',
+
+    syllabush4: 'AGENTIC AI & AUTOMATION',
+    syllabusb4: '1 Month',
+    SyllabusBotlist41:
+      'Design autonomous AI agents that plan, reason, and automate complex workflows end to end.',
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
     JobHead1:

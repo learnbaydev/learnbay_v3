@@ -86,7 +86,7 @@ export const BABangaloreCourseData = [
           name: 'What is the total fee for the Business Analytics Program in Bangalore?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The total program fee for the Business Analytics Program is INR 88,500/- inclusive of GST.',
+            text: 'The total program fee for the Business Analytics Program is INR 1,20,000/- inclusive of GST.',
           },
         },
         {
@@ -724,39 +724,25 @@ export const BABangaloreCourseData = [
       'Students have flexible options to choose a batch and mentors according to their liking. Learnbay mentors respond quickly to any queries raised by students and can even talk to them on our Q&A platform. PRODUCT Based Companies experts guide every solution for students. Our LMS is created according to industrial requirements and can be accessed by any device and from any location.',
     ModuleBot3:
       "A series of basic Python programming sessions to help our non-techies to learn basic coding. So any techie or non-techie can enroll in our Business analytics program. Learnbay's Business Analytics program is IBM certified and covers all the concepts and tools required to be a successful Business Analyst. Students will learn to use Advance excel to analyze data, make models and SQL databases and create insightful data visualization with Tableau.",
-    syllabush1: 'Introduction to Business Analytics',
-    syllabusb1: '6 Hours',
-    SyllabusBotlist11: 'Introduction to Business Analysis',
-    SyllabusBotlist12: 'Stakeholders in Business Analysis',
-    SyllabusBotlist13: 'Formulating Requirements',
-    SyllabusBotlist14: 'Flowchart and Modelling',
-    SyllabusBotlist15: 'Analyzing and Transforming Requirements',
-    SyllabusBotlist16: 'Finalising Requirements',
-    syllabush2: 'Applied business statistics',
-    syllabusb2: '40 Hours',
-    SyllabusBotlist21: 'R programming fundamentals',
-    SyllabusBotlist22: 'Statistics',
-    SyllabusBotlist23: 'Descriptive Statistics',
-    SyllabusBotlist24: 'Sampling Techniques',
-    SyllabusBotlist25: 'Probability',
-    SyllabusBotlist26: 'Inferential Statistics',
-    syllabush3: 'Data Science & AI',
-    syllabusb3: '30 Hours',
-    SyllabusBotlist31: 'Introduction to Data Science and AI',
-    SyllabusBotlist32: 'Machine Learning Fundamentals',
-    SyllabusBotlist33: 'Natural Language Processing (NLP)',
-    SyllabusBotlist34: 'Advanced NLP Techniques',
-    SyllabusBotlist35: 'Popular ML Libraries',
-    SyllabusBotlist36: 'Bayesian optimization',
-    syllabush4: 'Deployment (AWS+Azure)',
-    syllabusb4: '6+ Classes',
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
+    SyllabusBotlist11:
+      'Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
+
+    syllabush2: 'FOUNDATION OF GENAI',
+    syllabusb2: '2.5 Months',
+    SyllabusBotlist21:
+      'Build Python, ML, DL, and NLP foundations for modern GenAI workflows.',
+
+    syllabush3: 'ADVANCED GENERATIVE AI',
+    syllabusb3: '1 Month',
+    SyllabusBotlist31:
+      'Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.',
+
+    syllabush4: 'AGENTIC AI & AUTOMATION',
+    syllabusb4: '1 Month',
     SyllabusBotlist41:
-      'Introduction to AWS and Azure Machine Learning Services',
-    SyllabusBotlist42: 'Setting up the Environment',
-    SyllabusBotlist43: 'Data Preparation and Feature Engineering',
-    SyllabusBotlist44: 'Model Training and Evaluation',
-    SyllabusBotlist45: 'Model Deployment and Management',
-    SyllabusBotlist46: 'Advanced Topics in Machine Learning on AWS and Azure',
+      'Design autonomous AI agents that plan, reason, and automate complex workflows end to end.',
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
     JobBot1:

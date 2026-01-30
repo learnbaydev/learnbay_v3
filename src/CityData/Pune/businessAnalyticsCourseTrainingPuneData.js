@@ -86,7 +86,7 @@ export const BAPuneCourseData = [
           name: 'What is the total fee for the Business Analytics Program in Pune?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The total program fee for the Business Analytics Program is INR 88,500/- inclusive of GST.',
+            text: 'The total program fee for the Business Analytics Program is INR 1,20,000/- inclusive of GST.',
           },
         },
         {
