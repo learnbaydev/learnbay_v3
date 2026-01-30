@@ -853,38 +853,25 @@ export const MLDelhiCourseData = [
       'In addition, Learnbay provides basic programming training so that you can quickly catch up if you lack coding skills. All of our modules are solely focused on the chosen field of study. All the trending Machine Learning algorithms, advanced-level probability, Numpy, Pandas, Matploitlip, big data analytics, and other tools and approaches are covered in our modules.',
     ModuleBot3:
       'The Learnbay Machine Learning course in Delhi provides advanced training in Machine Learning and Artificial Intelligence with end-to-end placement support. Our IBM Machine Learning course Training has aided many enthusiasts in developing the top Machine Learning abilities needed to work in a variety of ML sub-fields like  ',
-    syllabush1: 'Preparatory Classes (Programming + Maths)',
-    syllabusb1: '6 Hours',
-    SyllabusBotlist11: 'Anaconda Installation',
-    SyllabusBotlist12: 'Basics of Programming',
-    SyllabusBotlist13: 'Memory Management',
-    SyllabusBotlist14: 'Compiler and Interpreter',
-    SyllabusBotlist15: 'Syntax of Python',
-    SyllabusBotlist16: 'Basics of Statistics',
-    syllabush2: 'Python Programming (Basic + Advance)',
-    syllabusb2: '40 Hours',
-    SyllabusBotlist21: 'Git and GitHub',
-    SyllabusBotlist22: 'Operators + Data Types + Loops',
-    SyllabusBotlist23: 'Functions + Regular Expression',
-    SyllabusBotlist24: 'Conditional Statement',
-    SyllabusBotlist25: 'File & Exceptional Handling',
-    SyllabusBotlist26: 'Numpy, Pandas, Matplotlib, etc.',
-    syllabush3: 'Statistics and Machine Learning',
-    syllabusb3: '70 Hours',
-    SyllabusBotlist31: 'Linear Algebra, Probability',
-    SyllabusBotlist32: 'Permutation & Combination',
-    SyllabusBotlist33: 'Descriptive & Inferential Stats',
-    SyllabusBotlist34: 'Hypothesis Testing',
-    SyllabusBotlist35: 'Time Series Analysis',
-    SyllabusBotlist36: 'ML Algorithms',
-    syllabush4: 'Industrial Projects &Capstone Projects',
-    syllabusb4: '12+ Classes',
-    SyllabusBotlist41: 'Text Classification',
-    SyllabusBotlist42: 'Human Activity Recognition',
-    SyllabusBotlist43: "Forecasting Business KPI's",
-    SyllabusBotlist44: 'Credit Risk Analysis',
-    SyllabusBotlist45: 'Customer Churn Prediction',
-    SyllabusBotlist46: 'Sentiment Analysis',
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
+    SyllabusBotlist11:
+      'Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
+
+    syllabush2: 'FOUNDATION OF GENAI',
+    syllabusb2: '2.5 Months',
+    SyllabusBotlist21:
+      'Build Python, ML, DL, and NLP foundations for modern GenAI workflows.',
+
+    syllabush3: 'ADVANCED GENERATIVE AI',
+    syllabusb3: '1 Month',
+    SyllabusBotlist31:
+      'Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.',
+
+    syllabush4: 'AGENTIC AI & AUTOMATION',
+    syllabusb4: '1 Month',
+    SyllabusBotlist41:
+      'Design autonomous AI agents that plan, reason, and automate complex workflows end to end.',
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
     JobBot1:

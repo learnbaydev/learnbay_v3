@@ -836,39 +836,25 @@ export const MLBangaloreCourseData = [
       'Learnbay Machine learning course in Bangalore contains 300 hrs of hassle-free live classes from PRODUCT Based Companies experts. With 18+ comprehensively planned machine learning modules, students can easily achieve advanced industrial knowledge. Not only that, each of the modules owns such a sequence of submodules from basic to expert level so that a complete novice can also utilize the course with 100% ROI.',
     ModuleBot2:
       'Learnbay supports students to learn the basics of coding for weak programmers. Our faculties regularly update coding assignments, and we even conduct webinars and hackathons for students to learn collaboratively. Based on the current industrial trends, the industrial ML course by Learnbay has kept its focus on tools and skills like big data analytics, data structure & algorithm, NLP, time- analytics, etc.',
-    syllabush1: 'Preparatory Classes (Programming + Maths)',
-    syllabusb1: '6 Hours',
-    SyllabusBotlist11: 'Cohort Orientation',
-    SyllabusBotlist12: 'Fundamentals of Programming',
-    SyllabusBotlist13: 'Python Fundamentals',
-    SyllabusBotlist14: 'Fundamentals of Statistics',
-    SyllabusBotlist15: 'Mean, Median, Mode',
-    SyllabusBotlist16: 'Introduction to Linear Algebra',
-    syllabush2: 'Python for Data Science (Basic + Advance)',
-    syllabusb2: '40 Hours',
-    SyllabusBotlist21: 'Python Programming',
-    SyllabusBotlist22: 'Statistics and Machine Learning',
-    SyllabusBotlist23: 'Machine Learning',
-    SyllabusBotlist24: 'Naive Baye’s Model',
-    SyllabusBotlist25: 'Hierarchical Clustering',
-    SyllabusBotlist26: 'Support Vector Machine(SVM)',
-    syllabush3: 'Statistics and Machine Learning',
-    syllabusb3: '70 Hours',
-    SyllabusBotlist31: 'Linear Algebra, Probability',
-    SyllabusBotlist32: 'Permutation & Combination',
-    SyllabusBotlist33: 'Descriptive & Inferential Stats',
-    SyllabusBotlist34: 'Hypothesis Testing',
-    SyllabusBotlist35: 'Time Series Analysis',
-    SyllabusBotlist36: 'ML Algorithms',
-    syllabush4: 'Deployment (AWS+Azure)',
-    syllabusb4: '12+ Classes',
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
+    SyllabusBotlist11:
+      'Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
+
+    syllabush2: 'FOUNDATION OF GENAI',
+    syllabusb2: '2.5 Months',
+    SyllabusBotlist21:
+      'Build Python, ML, DL, and NLP foundations for modern GenAI workflows.',
+
+    syllabush3: 'ADVANCED GENERATIVE AI',
+    syllabusb3: '1 Month',
+    SyllabusBotlist31:
+      'Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.',
+
+    syllabush4: 'AGENTIC AI & AUTOMATION',
+    syllabusb4: '1 Month',
     SyllabusBotlist41:
-      'Introduction to AWS and Azure Machine Learning Services',
-    SyllabusBotlist42: 'Setting up the Environment',
-    SyllabusBotlist43: 'Data Preparation and Feature Engineering',
-    SyllabusBotlist44: 'Model Training and Evaluation',
-    SyllabusBotlist45: 'Model Deployment and Management',
-    SyllabusBotlist46: 'Advanced Topics in Machine Learning on AWS and Azure',
+      'Design autonomous AI agents that plan, reason, and automate complex workflows end to end.',
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
     JobHead1:
