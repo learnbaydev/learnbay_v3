@@ -9,7 +9,7 @@ export const CloudComputingTrainingInBangalore = [
             id: 0,
             ques: "What is the duration of the Cloud Computing Certification in Bangalore?",
             open: true,
-            ans: "You can become a certified Cloud Computing specialist or crack relevant roles in 7 months of instructor-led flexible training sessions (weekdays & weekends). ",
+            ans: "You can become a certified Cloud Computing specialist or crack relevant roles in 9 months of instructor-led flexible training sessions (weekdays & weekends). ",
           },
           {
             id: 1,
@@ -119,13 +119,13 @@ export const CloudComputingTrainingInBangalore = [
           {
             id: 0,
             ques: "How much does the Cloud Computing Certification Course in Bangalore cost?",
-            ans: `The Cloud Computing course fees in Bangalore is INR 80,000 + 18% GST.`,
+            ans: `The Cloud Computing course fees in Bangalore is INR 1,59,000 + 18% GST.`,
             open: true,
           },
           {
             id: 1,
             ques: "Are there any installment options available for program payments?",
-            ans: "Yes, we have an easy installment payment facility where you need to pay INR 5,244 per month. You can make payments through Credit card, UPI, or Internet banking.",
+            ans: "Yes, we have an easy installment payment facility with zero cost EMI. You can make payments through Credit card, UPI, or Internet banking.",
             //Check This
             open: false,
           },
@@ -209,7 +209,7 @@ export const CloudComputingTrainingInBangalore = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: `Yes. You will obtain globally accredited certifications from IBM & Microsoft once, you complete the cloud technology courses in Bangalore.`,
+            ans: `Yes. You will obtain multiple globally accredited certifications from IBM & Microsoft once you complete the cloud technology courses in Bangalore. `,
             open: true,
           },
           {
@@ -221,7 +221,7 @@ export const CloudComputingTrainingInBangalore = [
           {
             id: 2,
             ques: "What type of certificates do I receive upon course completion?",
-            ans: `Upon course completion, you will receive two-course certificates from IBM & Microsoft and a Project Certificate from IBM.`,
+            ans: `Upon course completion, you will receive multiple course certificates from IBM & Microsoft. Under microsoft you will get 3 certificates:  Azure Fundamentals, Solution Architect, and Administrator Associate. Under IBM, you will get one Gen-AI and one cloud and DevOps.`,
             open: false,
           },
           {
@@ -453,8 +453,7 @@ export const CloudComputingTrainingInBangalore = [
         Here, our alliance with <b>IBM & Microsoft</b> helps techies unlock a
         flourishing career with leading MNCs. Learners will obtain{" "}
         <b>
-          one IBM course completion certificate, one Microsoft Azure
-          certificate, and one IBM project certification
+          One Learnbay Course Completion Certification, 3 Microsoft Certifications (Azure Fundamentals, Solution Architect, Administrator Associate), one IBM Gen AI certificate, and one IBM Cloud and DevOps Certificate. 
         </b>
         . These globally accredited certifications enrich career values and
         equip experts with exciting job offers. In short, experts eager to
@@ -487,38 +486,26 @@ export const CloudComputingTrainingInBangalore = [
     list5: "Data Migration: Cloud & DevOps",
     list6: "Splunk Design, Development, and Admin",
 
-    syllabush1: "Linux Fundamentals and Introduction",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: "Introduction to Linux Operating System",
-    SyllabusBotlist12: "Command Line Interface (CLI) Essentials",
-    SyllabusBotlist13: "User and Group Management",
-    SyllabusBotlist14: "Networking Basics in Linux ",
-    SyllabusBotlist15: "Command Line Mastery",
-    SyllabusBotlist16: "System Administration Tasks",
-    syllabush2: "Python Programming Essentials",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python and Environment Setup",
-    SyllabusBotlist22: "Python Programming Foundations",
-    SyllabusBotlist23: "Data Handling and Structures",
-    SyllabusBotlist24: "Advanced Python Concepts",
-    SyllabusBotlist25: "Project Work and Practice",
-    SyllabusBotlist26: "Real-world problem-solving using Python",
-    syllabush3: "AWS Cloud Mastery",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "AWS Administration Level",
-    SyllabusBotlist32: "Transitioning to Solution Architect",
-    SyllabusBotlist33: "Exam Preparation",
-    SyllabusBotlist34: " Preparation Tips",
-    SyllabusBotlist35: "Practice Exams and Scenarios",
-    SyllabusBotlist36: "Professional Level Exam Preparation",
-    syllabush4: "Splunk Development and Admin ",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " Splunk Security Essentials",
-    SyllabusBotlist42: "Splunk Data Analysis Techniques",
-    SyllabusBotlist43: "Splunk Dashboard Customization",
-    SyllabusBotlist44: "Splunk API Integration",
-    SyllabusBotlist45: "Performance Optimization in Splunk",
-    SyllabusBotlist46: "Splunk for Cloud Services",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
     JobHead1:
