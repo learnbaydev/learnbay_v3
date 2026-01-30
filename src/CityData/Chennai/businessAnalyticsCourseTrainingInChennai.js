@@ -411,7 +411,7 @@ export const BusinessAnalyticsChennaiCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for the Business Analytics Program in Chennai?',
-            ans: `The total program fee for the Business Analytics Program is INR  90,000/- inclusive of GST.`,
+            ans: `The total program fee for the Business Analytics Program is INR  1,20,000/- inclusive of GST.`,
             open: true,
           },
           {
