@@ -475,13 +475,7 @@ export const DABangaloreCourseData = [
           {
             id: 3,
             ques: "What’s the duration of the Data Analytics Course in Bangalore?",
-            ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-        
-            Classes will be conducted on weekdays and weekend batches.
-            Weekday batch - 4.5 months
-               Monday to Friday - 2 hours/day
-            Weekend batch - 6 months
-            Saturday & Sunday - 3.5 hours/day`,
+            ans: `The Duration of the Data Analytics course in Bangalore with GenAI is 6 months. `,
             open: false,
           },
           {
@@ -564,8 +558,8 @@ export const DABangaloreCourseData = [
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 80,000/-?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 5,244/month up to 5 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Can I pay in installments for INR 1,20,000/-?",
+            ans: "You can opt for 3,6 or 12 months EMI by submitting a few documents like a 3-month salary slip, valid photo ID proofs. ",
             open: false,
           },
           {
@@ -629,7 +623,7 @@ export const DABangaloreCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion. `,
+            ans: `Yes, you will be awarded with a total of 3 certifications: IBM, Gen AI, and IIT Patna.  `,
             open: true,
           },
         ],
