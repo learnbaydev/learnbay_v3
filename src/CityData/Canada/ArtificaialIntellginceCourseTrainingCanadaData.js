@@ -864,39 +864,27 @@ export const AIcanadaCourseData = [
     ModuleBot3:
       "Our instructors have designed the modules in such a way that it's understandable to our learners. Each of our modules is entirely dedicated to the preferred domains. Topics covered in the data science and artificial intelligence course include machine learning, robotics, computer vision, and natural language understanding. You will also be familiar with popular AI and ML tools like Numpy, Pandas, Matplotlib, and MongoDB.",
     ModuleBot4:
-      'In addition, you will develop a range of AI applications using real-world datasets and practical coding exercises. After the AI course, you will be able to implement exciting projects in artificial Intelligence.',
-    syllabush1: 'Preparatory Classes (Programming + Maths)',
-    syllabusb1: '6 Hours',
-    SyllabusBotlist11: 'Cohort Orientation',
-    SyllabusBotlist12: 'Data and its impact on career opportunities',
-    SyllabusBotlist13: 'Fundamentals of programming',
-    SyllabusBotlist14: 'Python Fundamentals',
-    SyllabusBotlist15: 'Fundamentals of Statistics',
-    SyllabusBotlist16: 'Mean, Median, Mode.',
-    syllabush2: 'Statistics and Machine Learning',
-    syllabusb2: '40 Hours',
-    SyllabusBotlist21: ' Fundamentals of Math and Probability',
-    SyllabusBotlist22: ' Descriptive Statistics',
-    SyllabusBotlist23: ' Inferential Statistics',
-    SyllabusBotlist24: ' Data Preprocessing',
-    SyllabusBotlist25: 'Logistic Regression Model',
-    SyllabusBotlist26: 'K Nearest Neighbours Model',
-    syllabush3: 'Data Science Tools',
-    syllabusb3: '70 Hours',
-    SyllabusBotlist31: 'SQL',
-    SyllabusBotlist32: 'MongoDB',
-    SyllabusBotlist33: 'Tableau',
-    SyllabusBotlist34: 'PowerBI',
-    SyllabusBotlist35: 'Big Data & Spark Analytics',
-    SyllabusBotlist36: 'Time Series',
-    syllabush4: 'Artificial Intelligence Tools',
-    syllabusb4: '12+ Classes',
-    SyllabusBotlist41: 'Deep Learning Using Tensorflow',
-    SyllabusBotlist42: 'Natural Language Processing (NLP)',
-    SyllabusBotlist43: 'Computer Vision',
-    SyllabusBotlist44: 'Reinforcement Learning',
-    SyllabusBotlist45: 'Deployment (AWS+Azure)',
-    SyllabusBotlist46: 'Model Training and Evaluation',
+      "In addition, you will develop a range of AI applications using real-world datasets and practical coding exercises. After the AI course, you will be able to implement exciting projects in artificial Intelligence.",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
     JobHead1: 'What is the Job Assist Program in the Learnbay AI courses?',

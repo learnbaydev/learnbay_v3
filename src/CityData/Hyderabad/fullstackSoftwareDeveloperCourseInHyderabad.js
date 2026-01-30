@@ -667,22 +667,22 @@ export const FullStackHyderabadCourseData = [
         ],
       },
 
-      { 
-        id: 4,
-        sectionName: "Certifications",
-        data: [
-          {
-            id: 0,
-            ques: "Is there any accredited certification after course completion?",
-            ans: "Yes. Our SDE master’s course offers –",
-          list1: "One IBM Generative AI Certification",
-          list2: "Three Microsoft Azure Certifications",
-          list3: "Two AI Co-Lab certifications",
-          open: true,
-          },
+      // { 
+      //   id: 4,
+      //   sectionName: "Certifications",
+      //   data: [
+      //     {
+      //       id: 0,
+      //       ques: "Is there any accredited certification after course completion?",
+      //       ans: "Yes. Our SDE master’s course offers –",
+      //     list1: "One IBM Generative AI Certification",
+      //     list2: "Three Microsoft Azure Certifications",
+      //     list3: "Two AI Co-Lab certifications",
+      //     open: true,
+      //     },
           
-        ],
-      },
+      //   ],
+      // },
      
 
       {

@@ -488,14 +488,10 @@ export const DADelhiCourseData = [
           },
           {
             id: 3,
-            ques: 'What’s the duration of the Data Analytics Course in Delhi?',
-            ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+            ques: "What’s the duration of the Data Analytics Course in Delhi?",
+            ans: `The duration of this Data Analytics Course is about 6 months which includes live lectures, hands-on practical training on live projects, and interview preparations.
             
-                Classes will be conducted on weekdays and weekend batches.
-                Weekday batch - 4.5 months
-                   Monday to Friday - 2 hours/day
-                Weekend batch - 6 months
-                Saturday & Sunday - 3.5 hours/day`,
+                Classes will be conducted on weekdays and weekend batches.`,
             open: false,
           },
           {
@@ -518,8 +514,8 @@ export const DADelhiCourseData = [
         data: [
           {
             id: 0,
-            ques: 'What is domain specialization associated with the Learnbay machine learning certification course in Delhi?',
-            ans: 'We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices.',
+            ques: "What is domain specialization associated with the Learnbay machine learning certification course in Delhi?",
+            ans: "We offer an industry-specific data analytics course with the latest Generative AI updates. This will help you to learn the current industry best practices.",
             open: true,
           },
           {
@@ -641,8 +637,8 @@ export const DADelhiCourseData = [
         data: [
           {
             id: 0,
-            ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion. `,
+            ques: "Is there any accredited certification after course completion?",
+            ans: `Yes, you will be awarded IBM Generative AI certificate, one IBM course completion certificate, and one IIT Patna certification. `,
             open: true,
           },
         ],
@@ -724,7 +720,7 @@ export const DADelhiCourseData = [
     ProgramBot1:
       'Learnbay provides industry-endorsed online data analytics training in Delhi. It has trained over 10,000 professionals all over India, including Delhi. The data analytics training is industry-demanding curriculum-based and draws applications from everyday business problems faced by organizations. The data analytics course with placement is the ideal solution for all of those who want to learn data analytics from scratch or want to enhance their knowledge in this field.',
     ProgramBot2:
-      'The online Data analytics course in Delhi is a 4.5-months program with a weekly and 6- months program with a weekend batch facilitated by industry experts. We have developed the curriculum content keeping in mind industry expectations so that by taking this course, you can gain all-around knowledge on the subject of data analytics.',
+      "The online Data analytics course in Delhi is a 6-months program with a weekly and 6- months program with a weekend batch facilitated by industry experts. We have developed the curriculum content keeping in mind industry expectations so that by taking this course, you can gain all-around knowledge on the subject of data analytics.",
     ProgramBot3:
       'In addition to getting a thorough grounding in the field of Data Analytics, this data analytics certification course will familiarize students with real-time technologies, techniques, and best practices used extensively by data analysts working in Delhi.',
     ProgramHead4:
@@ -744,43 +740,31 @@ export const DADelhiCourseData = [
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     ModuleBot1:
-      'The modules of the IBM data analytics course are meticulously crafted to cater to the needs of various data analytics job roles in Delhi. The course is further divided into 8 modules which are supplemented with assignments, and real-time project works to facilitate experiential learning. This 4.5-months data analytics course covers important data analytics tools and techniques such as Advanced Excel, PowerBI, Time series analysis, as well as statistics and probability. Apart from this, you will also learn to create a database from scratch, design tables and queries, and analyze data using reporting apps.',
+      "The modules of the IBM data analytics course are meticulously crafted to cater to the needs of various data analytics job roles in Delhi. The course is further divided into 8 modules which are supplemented with assignments, and real-time project works to facilitate experiential learning. This 6-months data analytics course covers important data analytics tools and techniques such as Advanced Excel, PowerBI, Time series analysis, as well as statistics and probability. Apart from this, you will also learn to create a database from scratch, design tables and queries, and analyze data using reporting apps.",
     ModuleBot2:
       'In order to support our non-technical learners, we have added an extra module of programming classes in Python and R.',
     ModuleBot3:
-      'The fundamental training in data analytics course training includes:',
-    syllabush1: 'Preparatory Classes (Programming + Maths)',
-    syllabusb1: '6 Hours',
-    SyllabusBotlist11: 'Cohort Orientation',
-    SyllabusBotlist12: 'A brief introduction to tools related to data',
-    SyllabusBotlist13: ' Fundamentals of programming',
-    SyllabusBotlist14: 'Introduction to Anaconda & Jupyter notebook',
-    SyllabusBotlist15: 'Fundamentals of Statistics',
-    SyllabusBotlist16: 'Mean, Median, Mode .',
-    syllabush2: 'Python Programming (Basic + Advance)',
-    syllabusb2: '40 Hours',
-    SyllabusBotlist21: 'Python Programming Overview',
-    SyllabusBotlist22: 'Python Data Types',
-    SyllabusBotlist23: 'Data Analysis Using Numpy',
-    SyllabusBotlist24: 'Data Analysis Using Pandas',
-    SyllabusBotlist25: 'Data Visualization using Matplotlib',
-    SyllabusBotlist26: 'Functions And Modules ,Class hands-on:',
-    syllabush3: ' Statistics & Basic Machine Learning',
-    syllabusb3: '50 Hours',
-    SyllabusBotlist31: ' Statistics',
-    SyllabusBotlist32: 'Fundamentals of Math and Probability',
-    SyllabusBotlist33: 'Regression and Classification Models',
-    SyllabusBotlist34: ' Machine Learning',
-    SyllabusBotlist35: 'Introduction to Machine Learning',
-    SyllabusBotlist36: 'Encoding the Data',
-    syllabush4: 'Data Analytics Tools',
-    syllabusb4: '6+ Classes',
-    SyllabusBotlist41: ' SQL',
-    SyllabusBotlist42: 'JSON Data & CRUD',
-    SyllabusBotlist43: ' PowerBI',
-    SyllabusBotlist44: 'Big Data & Spark Analytics',
-    SyllabusBotlist45: ' Time Series',
-    SyllabusBotlist46: 'Introduction to Time Series Forecasting',
+      "The fundamental training in data analytics course training includes:",
+   syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
     JobHead1: 'Interview preparation process at Learnbay:',

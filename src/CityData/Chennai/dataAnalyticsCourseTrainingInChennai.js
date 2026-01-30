@@ -551,8 +551,8 @@ export const DataAnalyticsChennaiCourseData = [
         data: [
           {
             id: 0,
-            ques: 'What is the total fee for the Data Analytics Program in Chennai?',
-            ans: `The total program fee for the Data Analytics Program is INR 80,000/- inclusive of GST.`,
+            ques: "What is the total fee for the Data Analytics Program in Chennai?",
+            ans: `TThe total Program fee for the data analytics program in Chennai is 1,20,000/- exclusive of GST.`,
             open: true,
           },
           {
@@ -623,8 +623,8 @@ export const DataAnalyticsChennaiCourseData = [
         data: [
           {
             id: 0,
-            ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion. `,
+            ques: "Is there any accredited certification after course completion?",
+            ans: `You will receive 3 certifications, two from IBM and one from IIT Patna, upon successful completion of the data analytics course in Chennai.`,
             open: true,
           },
         ],
@@ -733,39 +733,27 @@ export const DataAnalyticsChennaiCourseData = [
     ModuleBot1:
       'Learnbay is committed to providing the best data analytics course in Chennai.  This Data Analytics course with placement has been designed to meet the ever-changing demands of the industry. This customized data analytics course in Chennai delivers basic to advanced levels of training in data analytics. Additionally, they also offer special classes of coding for non-programmers to excel at programming skills.',
     ModuleBot2:
-      'Our data analytics course training in Chennai has helped countless working professionals boost their technical skills and gain experience in multiple domains. The modules of the IBM data analytics course cover all the essential topics in data analytics tools and techniques, including data preprocessing, data exploration, statistical analysis, dashboarding, PowerBI and SQL, etc.',
-    syllabush1: 'Preparatory Classes (Programming + Maths)',
-    syllabusb1: '6 Hours',
-    SyllabusBotlist11: 'Cohort Orientation',
-    SyllabusBotlist12: 'A brief introduction to tools related to data',
-    SyllabusBotlist13: ' Fundamentals of programming',
-    SyllabusBotlist14: 'Introduction to Anaconda & Jupyter notebook',
-    SyllabusBotlist15: 'Fundamentals of Statistics',
-    SyllabusBotlist16: 'Mean, Median, Mode .',
-    syllabush2: 'Python Programming (Basic + Advance)',
-    syllabusb2: '40 Hours',
-    SyllabusBotlist21: 'Python Programming Overview',
-    SyllabusBotlist22: 'Python Data Types',
-    SyllabusBotlist23: 'Data Analysis Using Numpy',
-    SyllabusBotlist24: 'Data Analysis Using Pandas',
-    SyllabusBotlist25: 'Data Visualization using Matplotlib',
-    SyllabusBotlist26: 'Functions And Modules ,Class hands-on:',
-    syllabush3: ' Statistics & Basic Machine Learning',
-    syllabusb3: '50 Hours',
-    SyllabusBotlist31: ' Statistics',
-    SyllabusBotlist32: 'Fundamentals of Math and Probability',
-    SyllabusBotlist33: 'Regression and Classification Models',
-    SyllabusBotlist34: ' Machine Learning',
-    SyllabusBotlist35: 'Introduction to Machine Learning',
-    SyllabusBotlist36: 'Encoding the Data',
-    syllabush4: 'Data Analytics Tools',
-    syllabusb4: '6+ Classes',
-    SyllabusBotlist41: ' SQL',
-    SyllabusBotlist42: 'JSON Data & CRUD',
-    SyllabusBotlist43: ' PowerBI',
-    SyllabusBotlist44: 'Big Data & Spark Analytics',
-    SyllabusBotlist45: ' Time Series',
-    SyllabusBotlist46: 'Introduction to Time Series Forecasting',
+      "Our data analytics course training in Chennai has helped countless working professionals boost their technical skills and gain experience in multiple domains. The modules of the IBM data analytics course cover all the essential topics in data analytics tools and techniques, including data preprocessing, data exploration, statistical analysis, dashboarding, PowerBI and SQL, etc.",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
     JobBot1:
