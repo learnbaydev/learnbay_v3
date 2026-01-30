@@ -312,7 +312,7 @@ export const courseDetails = [
             tagHead: 'For Working Professionals',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf',
             titleCourse: 'Software Developer Certification',
@@ -323,7 +323,7 @@ export const courseDetails = [
             ],
             link1: '/fullstack/full-stack-software-development-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
           },
         ],
       },
@@ -774,7 +774,7 @@ export const courseDetails = [
             tagHead: 'For Working Professionals',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf',
             titleCourse: 'Software Developer Certification',
@@ -785,7 +785,7 @@ export const courseDetails = [
             ],
             link1: '/fullstack/full-stack-software-development-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
           },
         ],
       },
@@ -1283,7 +1283,7 @@ export const courseDetails = [
             tagHead: 'For Working Professionals',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf',
             titleCourse: 'Software Developer Certification',
@@ -1294,7 +1294,7 @@ export const courseDetails = [
             ],
             link1: '/fullstack/full-stack-software-development-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
           },
         ],
       },
@@ -1641,7 +1641,7 @@ export const courseDetails = [
             tagHead: 'For Working Professionals',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf',
             titleCourse: 'Software Developer Certification',
@@ -1652,7 +1652,7 @@ export const courseDetails = [
             ],
             link1: '/fullstack/full-stack-software-development-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
           },
         ],
       },
@@ -1819,7 +1819,7 @@ export const courseDetails = [
             tagHead: 'For Working Professionals',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf',
             titleCourse: 'Software Developer Certification',
@@ -1830,7 +1830,7 @@ export const courseDetails = [
             ],
             link1: '/fullstack/full-stack-software-development-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
           },
         ],
       },
@@ -2044,7 +2044,7 @@ export const courseDetails = [
             tagHead: 'For Working Professionals',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf',
             titleCourse: 'Software Developer Certification',
@@ -2055,7 +2055,7 @@ export const courseDetails = [
             ],
             link1: '/fullstack/full-stack-software-development-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
           },
         ],
       },
@@ -2476,7 +2476,7 @@ export const courseDetailsM = [
             tagHead: 'For Working Professionals',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf',
             titleCourse: 'Software Developer Certification',
@@ -2487,7 +2487,7 @@ export const courseDetailsM = [
             ],
             link1: '/fullstack/full-stack-software-development-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
           },
         ],
       },
@@ -3002,7 +3002,7 @@ export const courseDetailsM = [
             tagHead: 'For Working Professionals',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf',
             titleCourse: 'Software Developer Certification',
@@ -3013,7 +3013,7 @@ export const courseDetailsM = [
             ],
             link1: '/fullstack/full-stack-software-development-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
           },
         ],
       },
@@ -3196,7 +3196,7 @@ export const courseDetailsM = [
             tagHead: 'For Working Professionals',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf',
             titleCourse: 'Software Developer Certification',
@@ -3207,7 +3207,7 @@ export const courseDetailsM = [
             ],
             link1: '/fullstack/full-stack-software-development-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
           },
         ],
       },
@@ -3419,7 +3419,7 @@ export const courseDetailsM = [
             tagHead: 'For Working Professionals',
             tag: 'Data science',
             brochureLinks:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
             brochurePdfs:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf',
             titleCourse: 'Software Developer Certification',
@@ -3430,7 +3430,7 @@ export const courseDetailsM = [
             ],
             link1: '/fullstack/full-stack-software-development-program',
             link2:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
           },
         ],
       },

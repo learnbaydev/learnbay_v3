@@ -1,28 +1,28 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
-import LJourney from "../LJourney/LJourney";
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import LJourney from '../LJourney/LJourney';
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
 );
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const FeeSection = dynamic(() =>
-  import("../../../components/CoursePage/FeeSection/FeeSection")
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const FeeSection = dynamic(
+  () => import('../../../components/CoursePage/FeeSection/FeeSection')
 );
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const MentorsSection = dynamic(() =>
-  import("../../../components/Global/MentorsSection/MentorsSection")
+const OfferPopup = dynamic(() => import('../../Global/OfferPopup/OfferPopup'));
+const MentorsSection = dynamic(
+  () => import('../../../components/Global/MentorsSection/MentorsSection')
 );
-const SliderTab = dynamic(() =>
-  import("../../../components/Global/SliderTabs/SliderTabs")
+const SliderTab = dynamic(
+  () => import('../../../components/Global/SliderTabs/SliderTabs')
 );
-const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCallFsd")
+const PlacementCall = dynamic(
+  () => import('../../../components/Global/PlacementCall/PlacementCallFsd')
 );
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+const FAQNew = dynamic(
+  () => import('../../../components/CoursePage/FAQNew/FAQNew')
 );
 
 const FullStackSoftwareDevelopmentSecondPart = ({
@@ -34,8 +34,8 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -48,7 +48,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Full Stack Developer course") {
+            if (popupData === 'Full Stack Developer course') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -59,7 +59,8 @@ const FullStackSoftwareDevelopmentSecondPart = ({
     };
     fetchPopup();
   }, []);
-       const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf"
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf';
   return (
     <div>
       <LJourney />
@@ -68,7 +69,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
@@ -91,7 +92,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}

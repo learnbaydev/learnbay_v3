@@ -1,24 +1,24 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import LJourney from "../LJourney/LJourney";
-import NewCertificateSection from "../newCertificate/NewCertificate";
-import DSAFeeSection from "../dsaFee/DSAFeeSection";
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import LJourney from '../LJourney/LJourney';
+import NewCertificateSection from '../newCertificate/NewCertificate';
+import DSAFeeSection from '../dsaFee/DSAFeeSection';
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
 );
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
 
-const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-const PlacementCall = dynamic(() =>
-  import("../../Global/PlacementCall/PlacementCallFsd")
+const SliderTab = dynamic(() => import('../../Global/SliderTabs/SliderTabs'));
+const PlacementCall = dynamic(
+  () => import('../../Global/PlacementCall/PlacementCallFsd')
 );
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+const FAQNew = dynamic(
+  () => import('../../../components/CoursePage/FAQNew/FAQNew')
 );
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
+const Content = dynamic(
+  () => import('@/components/CoursePage/Content/content')
 );
 
 const FullStackSoftwareDevelopmentSecondPart = ({
@@ -26,8 +26,8 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   FAQNewData,
   certificateNew,
 }) => {
-
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf';
   return (
     <div>
       <LJourney />
@@ -56,16 +56,15 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         WeekendTime="08:00PM - 10:00PM"
         WeekdayTime="08:00PM - 10:00PM"
         FeeContent3="Flexible payment"
-
-         // <EMI POPUP
-         emiType="NO COST EMI"
-         duration1="18 Months"
-         totalAmount1="₹95,000"
-         monthlyPayment1="₹6,333"
-         greenDown1="Standard Intrest rate Applicable"
-         duration2="12 Months"
-         totalAmount2="₹95,000"
-         monthlyPayment2="₹9,228"
+        // <EMI POPUP
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹95,000"
+        monthlyPayment1="₹6,333"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹95,000"
+        monthlyPayment2="₹9,228"
       />
       {/* <FeeSection
         Fee="₹ 70,000"
@@ -84,7 +83,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
