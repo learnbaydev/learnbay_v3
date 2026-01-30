@@ -555,7 +555,7 @@ export const BABangaloreCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for the Business Analytics Program in Bangalore?',
-            ans: `The total program fee for the Business Analytics Program is INR  90,000/- inclusive of GST.`,
+            ans: `The total program fee for the Business Analytics Program is INR  1,20,000/- inclusive of GST.`,
             open: true,
           },
           {
