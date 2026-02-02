@@ -6782,7 +6782,7 @@ export const NewDSAData = [
           {
             id: 0,
             ques: "What is the total Fee for the Data Science and AI Master Certification Program?",
-            ans: "The total program fee for the Data Science and AI Master Certification Program with Domain Specialization is INR 1,35,000 + 18% GST.",
+            ans: "The total program fee for the Data Science and AI Master Certification Program with Domain Specialization is INR 1,20,000 + 18% GST.",
             open: true,
           },
           {

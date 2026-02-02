@@ -189,7 +189,7 @@ export const DSVietnamCourseData = [
           name: "Is there any accredited data science certification after course completion?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.",
+            text: "Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification..",
           },
         },
         {
@@ -503,22 +503,13 @@ export const DSVietnamCourseData = [
           {
             id: 0,
             ques: "What are Data Science Training courses available at Learnbay in Vietnam?",
-            linkText1: "Foundational Data Science Training Course, ",
-            linkText2: "Advance Data Science Certification Course, ",
-            linkText3:
-              "Data Science Certification Course for Managers and Leaders, ",
-            linkText4: "Data Science Training with Placement Assistance",
-            link1: "/data-science-certification-courses",
-            link2: "/advance-data-science-certification-courses",
-            link3: "/data-science-ai-for-managers",
-            link4: "/data-science-ai-masters-program",
-            link: true,
+            ans: `Data Science and GenAI Certification Program, Advance Data Science and GenAI Master program, GenAI and Agentic AI Program for Managers and Leaders are available in Vietnam.`,
             open: true,
           },
           {
             id: 1,
             ques: "What are the prerequisites for these Data Science training Courses in Vietnam?",
-            ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ans: "There are no prerequisites for this Data Science course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: false,
           },
           {
@@ -537,7 +528,7 @@ export const DSVietnamCourseData = [
           {
             id: 4,
             ques: "What’s the duration of these advanced data science courses in Vietnam?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ans: "The total duration of these courses is about 9-13 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. In the case of a non-master program, around 9 months is the timeline, while the master program is of around 13 months.",
             open: false,
           },
           {
@@ -618,17 +609,14 @@ export const DSVietnamCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Certifications courses in Vietnam?",
-            ans: `The total course fee for the 
-                    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                    Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                    Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ans: `The data science course in Vietnam by Learnbay will cost you around $1700. If you want to choose the Advance Data Science and GenAI Master Certification, then it will cost around $3500. 
+`,
             open: true,
           },
           {
             id: 1,
             ques: "Can I pay in installments for these Data Science Certification courses in Vietnam?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ans: "Yes, Installments remain available as per ongoing promotional offers. You can contact our career counselor for some customized deals.",
             open: false,
           },
           {
@@ -664,21 +652,7 @@ export const DSVietnamCourseData = [
           {
             id: 0,
             ques: "How many capstone projects will be there? ",
-            ans: `Depending on the course you choose the number of capstone projects will vary.  
-                    Foundational Data Science and AI Training Course - 1 Capstone.
-                    Advance Data Science and AI Certification Course -2 Capstones.
-                    Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-                    Data Science and AI Training with Placement Assistance- 3 Capstones.
-                    How many real-time projects/case studies will be covered in these Data Science certification courses in Vietnam?
-                    Depending on the course you choose the number of live projects will vary.  
-                    Foundational Data Science and AI Training course- 8 projects.
-                    Advance Data Science and AI Certification course-12 projects.
-                    Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-                    Data Science and AI Training with Placement Assistance- 15 projects.`,
-            linkText1: " Click here to download the list of the projects.",
-            link1:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
-            link: true,
+            ans: `Depending on the course you choose, the number of capstone projects will vary. Usually, you get multiple capstone projects. Also, you can build your own project through our BYOP feature.  Click here to download the list of the projects. `,
             open: true,
           },
           {
@@ -696,12 +670,7 @@ export const DSVietnamCourseData = [
           {
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                    Foundational Data Science and AI Training course- 1 Course Completion Certificate.
-                    Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                    Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-                    *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+            ans: `The data science course in Vietnam comes with an integrated dual Certification from IBM (one course completion and one project certificate). In case you choose the Master program, then you get an additional Microsoft certification. `,
             open: true,
           },
         ],
@@ -809,15 +778,15 @@ export const DSVietnamCourseData = [
 
     CertificationBot1:
       "IBM, an American MNC, is widely known for its next-generation AI, predictive analytics, and security offerings. IBM’s premium presence in data science elevates business growth values. Owing to IBM’s rising credibility in the tech sector, Learnbay declares its alliance.       ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    // src33:
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     CertificationBot2:
       "Learnbay offers career transition certified by IBM with job-driven gains. Our learners will be able to stand out against career races with in-demand skills and expertise. IBM’s advancement in AI and automation help Learnbay restructure the course modules as per the trend.       ",
-    CertificationBot3:
-      "However, this course has an additional certification too. Microsoft (MS), a well-known digital leader, paves the way for career upskilling with assured global-scale success. Learnbay’s collaboration with MS unlocks a proven career path with expanding earning limits.      ",
+    // CertificationBot3:
+    //   "However, this course has an additional certification too. Microsoft (MS), a well-known digital leader, paves the way for career upskilling with assured global-scale success. Learnbay’s collaboration with MS unlocks a proven career path with expanding earning limits.      ",
 
     ModuleHead1: "Listing Out the Learning Outcomes       ",
     ModuleBot1:
@@ -835,38 +804,26 @@ export const DSVietnamCourseData = [
     Modulelist7:
       "AWS & Azure Evaluation & Deployment  And Generative AI       ",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
+    syllabush1: "INDUCTION + ORIENTATION",
+    syllabusb1: "3 Days",
+    SyllabusBotlist11:
+      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+
+    syllabush2: "FOUNDATION OF GENAI",
+    syllabusb2: "2.5 Months",
+    SyllabusBotlist21:
+      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+
+    syllabush3: "ADVANCED GENERATIVE AI",
+    syllabusb3: "1 Month",
+    SyllabusBotlist31:
+      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+
+    syllabush4: "AGENTIC AI & AUTOMATION",
+    syllabusb4: "1 Month",
+    SyllabusBotlist41:
+      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
 
@@ -900,8 +857,8 @@ export const DSVietnamCourseData = [
       "Working pros eager to redefine their careers on a global scale rely on industry-specific programs with better job opportunities. Learnbay’s data science course in Vietnam presents a ‘Career Service Pro’ job assist program for you.",
     JobBot20:
       "With this eligible learners (with 70% of assessment score) can ensure 100% job and placement support. It includes –",
-    Joblist14:
-      "100% job and placement support for 3 years with prime job offers",
+    // Joblist14:
+    //   "100% job and placement support for 3 years with prime job offers",
     Joblist15: "6 mock interviews",
     Joblist16: "Resume Optimization",
     Joblist17: "LinkedIn Profile Review",
@@ -912,14 +869,14 @@ export const DSVietnamCourseData = [
     JobBot21:
       "Recent years have seen a gradual growth of data science in Vietnam. As a result, business sectors feel the transformative impacts of data science. This alters the job market outlook and fills it with prime career options. Experts from IT/non-IT domains with part-time and full-time jobs opt for upskilling. Yet, upskilling with a common certification is worthless.",
     JobBot22:
-      "Learnbay’s data science course has an alliance with IBM & MS that expands career growth limits abruptly. Its hands-on learning space equips experts with proven skills to thrive in the data science field with a bright future. With IBM & MS certificates, learners can crack their dream roles with leading MNCs.",
+      "Learnbay’s data science course has an alliance with IBM that expands career growth limits abruptly. Its hands-on learning space equips experts with proven skills to thrive in the data science field with a bright future. With IBM & MS certificates, learners can crack their dream roles with leading MNCs.",
     JobBot60:
       "A data science certificate validates the skills to face industry issues and tackle them with expertise. It increases your job selection chances with prime MNCs in Vietnam and overseas. In short, career gains with Learnbay’s certification with notable results are –",
     Joblist50: "GenAI-rich syllabus for realistic career development",
     Joblist51: "Real-time simulation projects for exclusive portfolios",
-    Joblist52: "IBM & MS certifications (with premium data science programs)",
+    Joblist52: "IBM certifications (with premium data science programs)",
     Joblist53: "Master’s degree from Woolf",
-    Joblist54: "Career Service Pro (100% job assistance)",
+    // Joblist54: "Career Service Pro (100% job assistance)",
 
     JobHead22:
       "What career options can Learnbay’s data science training in Vietnam offer?",

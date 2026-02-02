@@ -223,7 +223,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Best Online Data Science Course in South Africa          "
           firstTopPara="Foundational and Advanced Job-ready"
-          cityParaCont="Master data-driven abilities to achieve professional success with Learnbay's data science course in South Africa. Train up with our leading-edge course syllabus to confront Data-AI dominance and tackle it. Our industry alliance with IBM & Microsoft (MS) helps you upgrade and validate data literacy.           "
+          cityParaCont="Master data-driven abilities to achieve professional success with Learnbay's data science course in South Africa. Train up with our leading-edge course syllabus to confront Data-AI dominance and tackle it. Our industry alliance with IBM(MS) helps you upgrade and validate data literacy.           "
         />
         <SecondSection
           SecondSectionData={DSSouthAfricaCourseData[0].secondSection}

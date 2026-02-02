@@ -187,7 +187,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Best Online Data Science Course in Noida          "
           firstTopPara="Foundational and Advance Job-ready Program"
-          cityParaCont="Leap forward to craft a global-level data science career with incredible job offers with leading MNCs. Join Learnbay’s top-tier data science course in Noida to equip your career with Generative AI-driven skills validated by IBM & Microsoft certifications. Enroll now to gain project-based learning with ultimate career gains.           "
+          cityParaCont="Leap forward to craft a global-level data science career with incredible job offers with leading MNCs. Join Learnbay’s top-tier data science course in Noida to equip your career with Generative AI-driven skills validated by IBM certifications. Enroll now to gain project-based learning with ultimate career gains.           "
         />
         <SecondSection SecondSectionData={DSNoidaCourseData[0].secondSection} />
         <div className={styles.Realstorysec}>
@@ -195,7 +195,7 @@ export default function Home() {
         </div>
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹1,35,000"
+            Fee="₹1,20,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
@@ -218,11 +218,11 @@ export default function Home() {
             // <EMI POPUP
             emiType="NO COST EMI"
             duration1="18 Months"
-            totalAmount1="₹1,35,000"
+            totalAmount1="₹1,20,000"
             monthlyPayment1="₹8,850"
             greenDown1="Standard Intrest rate Applicable"
             duration2="12 Months"
-            totalAmount2="₹1,35,000"
+            totalAmount2="₹1,20,000"
             monthlyPayment2="₹13,275"
           />
         </div>

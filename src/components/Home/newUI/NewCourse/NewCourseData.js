@@ -2,17 +2,17 @@
 export const courses = {
   dataScienceAndAI: [
     {
-      title: "Data Science and Generative AI Master Certification Program",
-      duration: "13 months | 4 Capstone Project",
-      certification: "Project Certification from IBM",
-      description: "For Working Professional",
+      title: 'Data Science and Generative AI Master Certification Program',
+      duration: '13 months | 4 Capstone Project',
+      certification: 'Project Certification from IBM',
+      description: 'For Working Professional',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICROIBMV12026.webp",
-      link: "/datascience/data-science-and-ai-master-certification-program",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICROIBMV12026.webp',
+      link: '/datascience/data-science-and-ai-master-certification-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_Master.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_Master.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification-v1.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification-v1.pdf',
     },
     // {
     //   title: "Executive program in Data Science & AI",
@@ -37,7 +37,7 @@ export const courses = {
 
     //   link: "/datascience/artificial-intelligence-certification-course",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf",
     //   brochurePdfs:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf",
     // },
@@ -67,7 +67,7 @@ export const courses = {
 
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
     // },
 
@@ -84,17 +84,17 @@ export const courses = {
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf",
     // },
     {
-      title: "Data Analytics and Business Analytics with Generative AI",
-      duration: "9 months | 4 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Working Professional",
+      title: 'Data Analytics and Business Analytics with Generative AI',
+      duration: '9 months | 4 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Working Professional',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
-      link: "/artificial-intelligence/generative-ai-analytics-course",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp',
+      link: '/artificial-intelligence/generative-ai-analytics-course',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
     },
 
     //   {
@@ -120,7 +120,7 @@ export const courses = {
 
     //     link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
     //     brochureLinks:
-    //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
+    //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf",
     //     brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
     //   },
 
@@ -186,7 +186,7 @@ export const courses = {
 
     //   link: "/fullstack/full-stack-software-development-program",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf",
     // },
     // {
@@ -225,7 +225,7 @@ export const courses = {
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
     // },
     // {
@@ -306,7 +306,7 @@ export const courses = {
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
     //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
     //   brochurePdfs:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
     // },
@@ -332,89 +332,89 @@ export const courses = {
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
     //   link: "/fullstack/full-stack-software-development-program",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf",
     // },
   ],
 
   all: [
     {
-      title: "Advanced Data Science & GenAI Master Program ",
-      duration: "13 Months | 4 Capstone Projects",
-      certification: "Project Certification from IBM",
-      description: "Designed For Tech Professionals",
+      title: 'Advanced Data Science & GenAI Master Program ',
+      duration: '13 Months | 4 Capstone Projects',
+      certification: 'Project Certification from IBM',
+      description: 'Designed For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genainew12026.webp",
-      link: "/datascience/data-science-and-ai-master-certification-program",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genainew12026.webp',
+      link: '/datascience/data-science-and-ai-master-certification-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
     },
     {
-      title: " GenAI & Agentic AI Master Certification Program ",
-      duration: "9 Months | 4 Capstone Projects",
-      certification: "Project Certification from IBM",
-      description: "For Working Professionals",
+      title: ' GenAI & Agentic AI Master Certification Program ',
+      duration: '9 Months | 4 Capstone Projects',
+      certification: 'Project Certification from IBM',
+      description: 'For Working Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV12026.webp",
-      link: "/genai-and-agentic-ai-master-program",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV12026.webp',
+      link: '/genai-and-agentic-ai-master-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf',
     },
     {
-      title: "AI-Powered Cloud & DevOps Master Program ",
-      duration: "9 Months | 4 Capstone Projects",
-      certification: "Project Certification from IBM",
-      description: "Designed by industry experts",
+      title: 'AI-Powered Cloud & DevOps Master Program ',
+      duration: '9 Months | 4 Capstone Projects',
+      certification: 'Project Certification from IBM',
+      description: 'Designed by industry experts',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV22026.webp",
-      link: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV22026.webp',
+      link: '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf',
     },
     {
-      title: "SDE Master Program With GenAI & Agentic AI ",
-      duration: "11 Months | 4 Capstone Projects",
-      certification: "Project Certification from IBM",
-      description: "Designed For Tech Professionals",
+      title: 'SDE Master Program With GenAI & Agentic AI ',
+      duration: '11 Months | 4 Capstone Projects',
+      certification: 'Project Certification from IBM',
+      description: 'Designed For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV32026.webp",
-      link: "/artificial-intelligence/sde-master-program-genai-agentic-ai ",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV32026.webp',
+      link: '/artificial-intelligence/sde-master-program-genai-agentic-ai ',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf',
     },
     {
-      title: "GenAI & AgenticAI for Cloud & DevOps ",
-      duration: "5 Months | 2 Capstone Projects",
-      certification: "Project Certification from IBM",
-      description: "Designed For Tech Professionals",
+      title: 'GenAI & AgenticAI for Cloud & DevOps ',
+      duration: '5 Months | 2 Capstone Projects',
+      certification: 'Project Certification from IBM',
+      description: 'Designed For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV7IBM.webp",
-      link: "/genai-agentic-ai-for-cloud-devops",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV7IBM.webp',
+      link: '/genai-agentic-ai-for-cloud-devops',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf',
     },
     {
-      title: "Applied AI Practitioner Program ",
-      duration: "4 Months | 2 Capstone Projects",
-      certification: "Certification from IIT Patna",
-      description: "For Non-Programmers",
+      title: 'Applied AI Practitioner Program ',
+      duration: '4 Months | 2 Capstone Projects',
+      certification: 'Certification from IIT Patna',
+      description: 'For Non-Programmers',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IITPATNAIBM2026.webp",
-      link: "/artificial-intelligence/applied-ai-practitioner-program",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IITPATNAIBM2026.webp',
+      link: '/artificial-intelligence/applied-ai-practitioner-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/IIT_Patna_Applied_AI_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/IIT_Patna_Applied_AI_Program.pdf',
     },
     // {
     //   title: "Data Science & AI Program For Freshers",
@@ -531,7 +531,7 @@ export const courses = {
 
     //   link: "/datascience/artificial-intelligence-certification-course",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf",
     //   brochurePdfs:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf",
     // },
@@ -558,7 +558,7 @@ export const courses = {
     //   image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
     //   link: "/fullstack/full-stack-software-development",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
     //   brochurePdfs:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf",
     // },
@@ -572,7 +572,7 @@ export const courses = {
 
     //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
     //   brochurePdfs:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
     // },
@@ -587,7 +587,7 @@ export const courses = {
 
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
     // },
 
@@ -682,66 +682,66 @@ export const courses = {
 
     //   link: "/fullstack/full-stack-software-development-program",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf",
     // },
   ],
 
   masterCertification: [
     {
-      title: "GenAI & Agentic AI Master Certification Program ",
-      duration: "9 months | 4 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Working Professionals",
+      title: 'GenAI & Agentic AI Master Certification Program ',
+      duration: '9 months | 4 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Working Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV42026.webp",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV42026.webp',
 
-      link: "/genai-and-agentic-ai-master-program",
+      link: '/genai-and-agentic-ai-master-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf',
     },
 
     {
-      title: "AI-Powered Cloud and DevOps Master Program",
-      duration: "9 months | 4 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      title: 'AI-Powered Cloud and DevOps Master Program',
+      duration: '9 months | 4 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp",
-      link: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp',
+      link: '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf',
     },
     {
-      title: "SDE Master Program With GenAI & Agentic AI",
-      duration: "11 months | 4 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      title: 'SDE Master Program With GenAI & Agentic AI',
+      duration: '11 months | 4 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV32026.webp",
-      link: "/artificial-intelligence/sde-master-program-genai-agentic-ai ",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV32026.webp',
+      link: '/artificial-intelligence/sde-master-program-genai-agentic-ai ',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf',
     },
 
     {
-      title: "Advanced Data Science & GenAI Master Program",
-      duration: "13 months | 4 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      title: 'Advanced Data Science & GenAI Master Program',
+      duration: '13 months | 4 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICROIBMV12026.webp",
-      link: "/datascience/data-science-and-ai-master-certification-program ",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICROIBMV12026.webp',
+      link: '/datascience/data-science-and-ai-master-certification-program ',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
     },
 
     // Add more data science courses as needed
@@ -749,94 +749,94 @@ export const courses = {
 
   genai: [
     {
-      title: "GenAI & Agentic AI Master Certification Program ",
-      duration: "9 months | 4 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Working Professionals",
+      title: 'GenAI & Agentic AI Master Certification Program ',
+      duration: '9 months | 4 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Working Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/gennew202608.webp",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/gennew202608.webp',
 
-      link: "/genai-and-agentic-ai-master-program",
+      link: '/genai-and-agentic-ai-master-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf',
     },
 
     {
-      title: "GenAI & Agentic AI For Managers & Leaders ",
-      duration: "5 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Manager & Leaders",
+      title: 'GenAI & Agentic AI For Managers & Leaders ',
+      duration: '5 months | 2 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Manager & Leaders',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM1.webp",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM1.webp',
 
-      link: "/genai-agentic-ai-managers-leaders",
+      link: '/genai-agentic-ai-managers-leaders',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf',
     },
 
     {
-      title: "GenAI & Agentic AI For Cloud & DevOps ",
-      duration: "5 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      title: 'GenAI & Agentic AI For Cloud & DevOps ',
+      duration: '5 months | 2 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM2.webp",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM2.webp',
 
-      link: "/genai-agentic-ai-for-cloud-devops",
+      link: '/genai-agentic-ai-for-cloud-devops',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf',
     },
 
     {
-      title: "GenAI & Agentic AI For Software Developers ",
-      duration: "5 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      title: 'GenAI & Agentic AI For Software Developers ',
+      duration: '5 months | 2 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM3.webp",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM3.webp',
 
-      link: "/artificial-intelligence/genai-software-developers",
+      link: '/artificial-intelligence/genai-software-developers',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Software_Developers.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Software_Developers.pdf',
     },
 
     {
-      title: "GenAI & Agentic AI Program ",
-      duration: "5 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Non Programmers",
+      title: 'GenAI & Agentic AI Program ',
+      duration: '5 months | 2 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Non Programmers',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM4.webp",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM4.webp',
 
-      link: "/genai-agentic-ai-program",
+      link: '/genai-agentic-ai-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Program.pdf',
     },
 
     {
-      title: "Applied AI Practitioner Program ",
-      duration: "4 months | 2 capstone Projects",
-      certification: "Certification form IIT Patna",
-      description: "For Non Programmers",
+      title: 'Applied AI Practitioner Program ',
+      duration: '4 months | 2 capstone Projects',
+      certification: 'Certification form IIT Patna',
+      description: 'For Non Programmers',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IITPATNAIBM2026.webp",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IITPATNAIBM2026.webp',
 
-      link: "/artificial-intelligence/applied-ai-practitioner-program",
+      link: '/artificial-intelligence/applied-ai-practitioner-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf',
 
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/IIT_Patna_Applied_AI_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/IIT_Patna_Applied_AI_Program.pdf',
     },
 
     // {
@@ -888,7 +888,7 @@ export const courses = {
 
     //   link: "/datascience/artificial-intelligence-certification-course",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf",
     //   brochurePdfs:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf",
     // },
@@ -929,7 +929,7 @@ export const courses = {
 
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
     // },
     // {
@@ -950,45 +950,45 @@ export const courses = {
 
   dsgenai: [
     {
-      title: "Advanced Data Science & GenAI Master Program ",
-      duration: "13 Months | 4 Capstone Projects",
-      certification: "Project Certification from IBM",
-      description: "Designed For Tech Professionals",
+      title: 'Advanced Data Science & GenAI Master Program ',
+      duration: '13 Months | 4 Capstone Projects',
+      certification: 'Project Certification from IBM',
+      description: 'Designed For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICROIBMV12026.webp",
-      link: "/datascience/data-science-and-ai-master-certification-program",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICROIBMV12026.webp',
+      link: '/datascience/data-science-and-ai-master-certification-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
     },
 
     {
-      title: "Data Science & GenAI Program ",
-      duration: "9 months | 2 Capstone Project",
-      certification: "Project Certification from IBM",
-      description: "For Non Programmers",
+      title: 'Data Science & GenAI Program ',
+      duration: '9 months | 2 Capstone Project',
+      certification: 'Project Certification from IBM',
+      description: 'For Non Programmers',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM4.webp",
-      link: "/data-science-genai-program",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM4.webp',
+      link: '/data-science-genai-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf',
     },
 
     {
-      title: "Data Analytics and Business Analytics with Generative AI",
-      duration: "9 months | 4 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Working Professionals",
+      title: 'Data Analytics and Business Analytics with Generative AI',
+      duration: '9 months | 4 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Working Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IITPATNAIBM2026.webp",
-      link: "/artificial-intelligence/generative-ai-analytics-course",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IITPATNAIBM2026.webp',
+      link: '/artificial-intelligence/generative-ai-analytics-course',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
     },
   ],
 
@@ -1001,51 +1001,51 @@ export const courses = {
     //   image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
     //   link: "/fullstack/full-stack-software-development",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
     //   brochurePdfs:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf",
     // },
 
     {
-      title: "AI-Powered Cloud and DevOps Master Program",
-      duration: "9 months",
-      certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      title: 'AI-Powered Cloud and DevOps Master Program',
+      duration: '9 months',
+      certification: 'Project Certification form IBM',
+      description: 'For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp",
-      link: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp',
+      link: '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf',
     },
 
     {
-      title: "Cloud & DevOps for Network Professionals",
-      duration: "5 months",
-      certification: "Certification form Microsoft",
-      description: "For Network Professionals",
+      title: 'Cloud & DevOps for Network Professionals',
+      duration: '5 months',
+      certification: 'Certification form Microsoft',
+      description: 'For Network Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO1.webp",
-      link: "/cloud-and-devops-for-network-professionals",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO1.webp',
+      link: '/cloud-and-devops-for-network-professionals',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf',
     },
 
     {
-      title: "Cloud & DevOps for System Administrators",
-      duration: "5 months",
-      certification: "Certification form Microsoft",
-      description: "For System Administrators",
+      title: 'Cloud & DevOps for System Administrators',
+      duration: '5 months',
+      certification: 'Certification form Microsoft',
+      description: 'For System Administrators',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO2.webp",
-      link: "/cloud-and-devops-for-system-administrators",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO2.webp',
+      link: '/cloud-and-devops-for-system-administrators',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
     },
 
     // {
@@ -1063,45 +1063,45 @@ export const courses = {
     // },
 
     {
-      title: "Cloud & DevOps for IT Support & IT Operations",
-      duration: "5 months",
-      certification: "Certification form Microsoft",
-      description: "For IT Support & IT Operations",
+      title: 'Cloud & DevOps for IT Support & IT Operations',
+      duration: '5 months',
+      certification: 'Certification form Microsoft',
+      description: 'For IT Support & IT Operations',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO3.webp",
-      link: "cloud-and-devops-for-it-support-and-it-operations",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO3.webp',
+      link: 'cloud-and-devops-for-it-support-and-it-operations',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionalslink.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionalslink.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_ITS_and_ITOps_Professionals.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_ITS_and_ITOps_Professionals.pdf',
     },
 
     {
-      title: "Cloud & DevOps for Database Administrators",
-      duration: "5 months",
-      certification: " Certification form Microsoft",
-      description: "For Database Administrators",
+      title: 'Cloud & DevOps for Database Administrators',
+      duration: '5 months',
+      certification: ' Certification form Microsoft',
+      description: 'For Database Administrators',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO4.webp",
-      link: "cloud-and-devops-for-database-administrators",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO4.webp',
+      link: 'cloud-and-devops-for-database-administrators',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_DBA_Professionals.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_DBA_Professionals.pdf',
     },
 
     {
-      title: "Advanced Cloud & DevOps Program",
-      duration: "5 months",
-      certification: " Certification form Microsoft",
-      description: "For Database Administrators",
+      title: 'Advanced Cloud & DevOps Program',
+      duration: '5 months',
+      certification: ' Certification form Microsoft',
+      description: 'For Database Administrators',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO5.webp",
-      link: "/advanced-cloud-and-devops-program",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO5.webp',
+      link: '/advanced-cloud-and-devops-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced_Cloud_and_Devops_Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced_Cloud_and_Devops_Program.pdf',
     },
 
     // {
@@ -1127,7 +1127,7 @@ export const courses = {
 
     //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
     //   brochurePdfs:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
     // },
@@ -1157,51 +1157,51 @@ export const courses = {
 
     //   link: "/fullstack/full-stack-software-development-program",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf",
     // },
   ],
 
   sde: [
     {
-      title: "SDE Master Program With GenAI & Agentic AI",
-      duration: "11 months | 4 Projects",
-      certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      title: 'SDE Master Program With GenAI & Agentic AI',
+      duration: '11 months | 4 Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV32026.webp",
-      link: "/artificial-intelligence/sde-master-program-genai-agentic-ai ",
-      brochureLinks: "",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV32026.webp',
+      link: '/artificial-intelligence/sde-master-program-genai-agentic-ai ',
+      brochureLinks: '',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf',
     },
 
     {
-      title: "AI Engineering Master Program  ",
-      duration: "9 months | 4 capstone Projects",
-      certification: "Certification form IBM and Microsoft",
-      description: "For Programmers",
+      title: 'AI Engineering Master Program  ',
+      duration: '9 months | 4 capstone Projects',
+      certification: 'Certification form IBM and Microsoft',
+      description: 'For Programmers',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp',
 
-      link: "/ai-engineering-master-program",
+      link: '/ai-engineering-master-program',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf',
     },
     {
-      title: "GenAI and Agentic AI for Software Developers",
-      duration: "5 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      title: 'GenAI and Agentic AI for Software Developers',
+      duration: '5 months | 2 capstone Projects',
+      certification: 'Project Certification form IBM',
+      description: 'For Tech Professionals',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM3.webp",
-      link: "/artificial-intelligence/genai-software-developers",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM3.webp',
+      link: '/artificial-intelligence/genai-software-developers',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Software_Developers.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Software_Developers.pdf',
     },
     // {
     //   title: "GenAI & Agentic AI Master Certification Program",
@@ -1259,44 +1259,44 @@ export const courses = {
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops__.pdf",
     // },
     {
-      title: "Generative AI and Agentic AI for Software Developers",
-      duration: "4 months",
-      certification: "Get certified in GenAI from IBM",
-      description: "Designed for developers & IT pros",
-      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genai.webp",
-      link: "/artificial-intelligence/genai-software-developers",
+      title: 'Generative AI and Agentic AI for Software Developers',
+      duration: '4 months',
+      certification: 'Get certified in GenAI from IBM',
+      description: 'Designed for developers & IT pros',
+      image: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genai.webp',
+      link: '/artificial-intelligence/genai-software-developers',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Software_Developers.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Software_Developers.pdf',
     },
 
     {
-      title: "Generative AI and Agentic AI for Managers & Leaders",
-      duration: "4 months",
-      certification: "Get certified in GenAI from IBM",
-      description: "Designed for senior managers & leaders",
-      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genaisw.webp",
-      link: "/artificial-intelligence/generative-ai-for-manager",
+      title: 'Generative AI and Agentic AI for Managers & Leaders',
+      duration: '4 months',
+      certification: 'Get certified in GenAI from IBM',
+      description: 'Designed for senior managers & leaders',
+      image: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genaisw.webp',
+      link: '/artificial-intelligence/generative-ai-for-manager',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf',
     },
   ],
   masterDegree: [
     {
       title: "Master's Degree in CS: Data Science and Generative AI",
-      duration: "18 months",
-      certification: "Woolf | Globally Recognized Accredited Degree",
-      description: "For Global opportunity Seekers",
+      duration: '18 months',
+      certification: 'Woolf | Globally Recognized Accredited Degree',
+      description: 'For Global opportunity Seekers',
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/woolf+2026.webp",
-      link: "/datascience/data-science-and-ai-masters-in-cs",
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/woolf+2026.webp',
+      link: '/datascience/data-science-and-ai-masters-in-cs',
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cyber-Security-IIT.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cyber-Security-IIT.pdf',
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cyberss-Security-IITs.pdf",
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cyberss-Security-IITs.pdf',
     },
   ],
   manager: [
@@ -1317,122 +1317,122 @@ export const courses = {
 };
 
 export const masterCourse = {
-  title: "Master’s Degree in CS Data Science & Generative AI",
-  duration: "Earn a Degree Without Pausing Your Career",
-  certification: "Master Degree from Woolf",
-  description: "Project Certification from IBM",
+  title: 'Master’s Degree in CS Data Science & Generative AI',
+  duration: 'Earn a Degree Without Pausing Your Career',
+  certification: 'Master Degree from Woolf',
+  description: 'Project Certification from IBM',
   image:
-    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_card_longm.webp",
+    'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_card_longm.webp',
   mImage:
-    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_card_Mblss.webp",
-  link: "/datascience/data-science-and-ai-masters-in-cs",
+    'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_card_Mblss.webp',
+  link: '/datascience/data-science-and-ai-masters-in-cs',
   brochureLinks:
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf',
   brochurePdfs:
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf",
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf',
 };
 export const certificationCourses = [
   {
-    title: "GenAI & Agentic AI for Managers & Leaders",
+    title: 'GenAI & Agentic AI for Managers & Leaders',
     points: [
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
-        text: "4 months",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp',
+        text: '4 months',
       },
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
-        text: "Get certified in GenAI from IBM",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp',
+        text: 'Get certified in GenAI from IBM',
       },
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp",
-        text: "Designed for developers and IT pros",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp',
+        text: 'Designed for developers and IT pros',
       },
     ],
-    imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp",
+    imageSrc: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp',
     logoSrc:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-    link: "/genai-agentic-ai-managers-leaders",
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp',
+    link: '/genai-agentic-ai-managers-leaders',
     brochureLinks:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf',
     brochurePdfs:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/GenAI+Developer+Master+Certification+Program.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/GenAI+Developer+Master+Certification+Program.pdf',
   },
   {
-    title: "GenAI & Agentic AI for Cloud & Devops",
+    title: 'GenAI & Agentic AI for Cloud & Devops',
     points: [
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
-        text: "4 months",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp',
+        text: '4 months',
       },
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
-        text: "Get certified in GenAI from IBM",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp',
+        text: 'Get certified in GenAI from IBM',
       },
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp",
-        text: "Designed for Senior Managers and Leaders",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp',
+        text: 'Designed for Senior Managers and Leaders',
       },
     ],
-    link: "/genai-agentic-ai-for-cloud-devops",
+    link: '/genai-agentic-ai-for-cloud-devops',
     brochureLinks:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf',
     brochurePdfs:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
-    imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_II.webp",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf',
+    imageSrc: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_II.webp',
     logoSrc:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp',
   },
   // Add more course objects here as needed...
 ];
 
 export const certificationcloudCourses = [
   {
-    title: "Cloud & DevOps for Network Professionals",
+    title: 'Cloud & DevOps for Network Professionals',
     points: [
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
-        text: "5 months",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp',
+        text: '5 months',
       },
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
-        text: "Get certified in Cloud & DevOps from Microsoft",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp',
+        text: 'Get certified in Cloud & DevOps from Microsoft',
       },
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp",
-        text: "Designed and developed for network professionals ",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp',
+        text: 'Designed and developed for network professionals ',
       },
     ],
-    imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp",
+    imageSrc: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp',
 
-    link: "/cloud-and-devops-for-network-professionals",
+    link: '/cloud-and-devops-for-network-professionals',
     brochureLinks:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf',
     brochurePdfs:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf',
   },
 
   {
-    title: "Cloud & DevOps for System Administrators",
+    title: 'Cloud & DevOps for System Administrators',
     points: [
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
-        text: "5 months",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp',
+        text: '5 months',
       },
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
-        text: "Get certified in Cloud & DevOps from Microsoft",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp',
+        text: 'Get certified in Cloud & DevOps from Microsoft',
       },
       {
-        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp",
-        text: "Designed and developed for System Administrators ",
+        icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp',
+        text: 'Designed and developed for System Administrators ',
       },
     ],
-    imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_II.webp",
-    link: "/cloud-and-devops-for-system-administrators",
+    imageSrc: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_II.webp',
+    link: '/cloud-and-devops-for-system-administrators',
     brochureLinks:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf',
     brochurePdfs:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
   },
 ];
 

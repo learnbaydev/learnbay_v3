@@ -187,7 +187,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Best Online Data Science Course in Nagpur          "
           firstTopPara="Foundational and Advance Job-ready Program"
-          cityParaCont=" Stay ahead in your career by joining the leading data science course in Nagpur. Learn from industry experts, get hands-on experience on the latest tools, and earn certificates from IBM and Microsoft.           "
+          cityParaCont=" Stay ahead in your career by joining the leading data science course in Nagpur. Learn from industry experts, get hands-on experience on the latest tools, and earn certificates from IBM."
         />
         <SecondSection
           SecondSectionData={DSnagpurCourseData[0].secondSection}
@@ -197,7 +197,7 @@ export default function Home() {
         </div>
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹1,35,000"
+            Fee="₹1,20,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
@@ -220,11 +220,11 @@ export default function Home() {
             // <EMI POPUP
             emiType="NO COST EMI"
             duration1="18 Months"
-            totalAmount1="₹1,35,000"
+            totalAmount1="₹1,20,000"
             monthlyPayment1="₹8,850"
             greenDown1="Standard Intrest rate Applicable"
             duration2="12 Months"
-            totalAmount2="₹1,35,000"
+            totalAmount2="₹1,20,000"
             monthlyPayment2="₹13,275"
           />
         </div>

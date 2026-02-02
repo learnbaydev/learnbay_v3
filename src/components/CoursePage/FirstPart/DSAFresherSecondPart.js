@@ -1,24 +1,24 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import LJourney from "../LJourney/LJourney";
-import NewCertificateSection from "../newCertificate/NewCertificate";
-import DSAFeeSection from "../dsaFee/DSAFeeSection";
-import Certificate from "../Certificate/Certificate";
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import LJourney from '../LJourney/LJourney';
+import NewCertificateSection from '../newCertificate/NewCertificate';
+import DSAFeeSection from '../dsaFee/DSAFeeSection';
+import Certificate from '../Certificate/Certificate';
 
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
 );
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
 
-const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-const PlacementCall = dynamic(() =>
-  import("../../Global/PlacementCall/PlacementCallFsd")
+const SliderTab = dynamic(() => import('../../Global/SliderTabs/SliderTabs'));
+const PlacementCall = dynamic(
+  () => import('../../Global/PlacementCall/PlacementCallFsd')
 );
-const FAQNewDSAFresher = dynamic(() => import("../FAQNew/FAQNewDSAFresher"));
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
+const FAQNewDSAFresher = dynamic(() => import('../FAQNew/FAQNewDSAFresher'));
+const Content = dynamic(
+  () => import('@/components/CoursePage/Content/content')
 );
 
 const FullStackSoftwareDevelopmentSecondPart = ({
@@ -27,7 +27,8 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   certificateNew,
   notcall,
 }) => {
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DSA-for-Fresherss.pdf";
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DSA-for-Fresherss.pdf';
   return (
     <div>
       <LJourney />
@@ -92,7 +93,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}

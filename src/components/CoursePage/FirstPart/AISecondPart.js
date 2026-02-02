@@ -1,47 +1,48 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
-import LJourney from "../LJourney/LJourney";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const WhatsappFloat = dynamic(() =>
-  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import LJourney from '../LJourney/LJourney';
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
+const WhatsappFloat = dynamic(
+  () => import('@/components/Global/WhatappsFloat/WhatsappFloat')
 );
-const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate")
+const Certificate = dynamic(
+  () =>
+    import('../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate')
 );
-const FeeSection = dynamic(() =>
-  import("../../course/feeSection/FeeSectionCourse")
-);
-
-const MentorsSection = dynamic(() =>
-  import("../../../components/Global/MentorsSection/MentorsSection")
+const FeeSection = dynamic(
+  () => import('../../course/feeSection/FeeSectionCourse')
 );
 
-const SliderTab = dynamic(() =>
-  import("../../../components/Global/SliderTabs/SliderTabs")
+const MentorsSection = dynamic(
+  () => import('../../../components/Global/MentorsSection/MentorsSection')
 );
 
-const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCall")
+const SliderTab = dynamic(
+  () => import('../../../components/Global/SliderTabs/SliderTabs')
 );
 
-const NewProjectSection = dynamic(() =>
-  import("../../../components/Global/NewProjectSection/NewProjectSection")
+const PlacementCall = dynamic(
+  () => import('../../../components/Global/PlacementCall/PlacementCall')
 );
 
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+const NewProjectSection = dynamic(
+  () => import('../../../components/Global/NewProjectSection/NewProjectSection')
 );
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+
+const FAQNew = dynamic(
+  () => import('../../../components/CoursePage/FAQNew/FAQNew')
 );
-const Content = dynamic(() =>
-  import("../../../components/CoursePage/Content/content")
+const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
 );
-const MobileTestimonial = dynamic(() =>
-  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+const Content = dynamic(
+  () => import('../../../components/CoursePage/Content/content')
+);
+const MobileTestimonial = dynamic(
+  () => import('@/components/Home/MobileTestimonial/MobileTestimonial')
 );
 
 const SecondPart = ({
@@ -55,8 +56,8 @@ const SecondPart = ({
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -69,7 +70,7 @@ const SecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv AI and ML Certification") {
+            if (popupData === 'Adv AI and ML Certification') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -81,7 +82,7 @@ const SecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf';
   return (
     <div>
       <LJourney />
@@ -90,7 +91,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="AI & ML Program for tech professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
@@ -101,7 +102,7 @@ const SecondPart = ({
         Fee="₹ 1,20,000"
         FeeEmi="₹ 7,866/ month"
         // Hybrid Classes
-        hybridFee="₹ 1,35,000"
+        hybridFee="₹ 1,20,000"
         hybridEmi="₹ 8,850/ month"
         // EMIPOPUP
         emiType="Live online classes"
@@ -124,7 +125,7 @@ const SecondPart = ({
       <NewProjectSection
         dataScience={true}
         titleCourse="AI & ML Program for tech professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
         brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}

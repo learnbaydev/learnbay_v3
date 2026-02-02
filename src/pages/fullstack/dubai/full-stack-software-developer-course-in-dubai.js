@@ -1,40 +1,40 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { FullStackDubaiCourseData } from "../../../CityData/Dubai/fullstackSoftwareDeveloperCourseInDubai";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Navbar from "../../../components/Global/Navbar/Navbar";
-import Popup from "../../../components/Global/Popup/Popup";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import styles from "../../../styles/Home.module.css";
-const FirstSection = dynamic(() =>
-  import("../../../components/Seo/FirstSection/FirstSection")
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { FullStackDubaiCourseData } from '../../../CityData/Dubai/fullstackSoftwareDeveloperCourseInDubai';
+import Footer from '../../../components/Global/Footer/Footer';
+import Form from '../../../components/Global/Form/Form';
+import Navbar from '../../../components/Global/Navbar/Navbar';
+import Popup from '../../../components/Global/Popup/Popup';
+import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
+import styles from '../../../styles/Home.module.css';
+const FirstSection = dynamic(
+  () => import('../../../components/Seo/FirstSection/FirstSection')
 );
-const SecondSection = dynamic(() =>
-  import("../../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import('../../../components/Seo/SecondSection/SecondSection')
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
+const ProgramInfo = dynamic(
+  () => import('../../../components/Seo/ProgramInfo/ProgramInfo')
 );
-const SeventhSection = dynamic(() =>
-  import("../../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import('../../../components/Seo/SeventhSection/SeventhSection')
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
+const ProgramFee = dynamic(
+  () => import('../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
-const CityText = dynamic(() =>
-  import("../../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import('../../../components/Seo/CityText/CityText')
 );
-const CitiesLeft = dynamic(() =>
-  import("../../../components/Seo/CitiesLeft/CitiesLeft")
+const CitiesLeft = dynamic(
+  () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
-const CitiesRight = dynamic(() =>
-  import("../../../components/Seo/CitiesRight/CitiesRight")
+const CitiesRight = dynamic(
+  () => import('../../../components/Seo/CitiesRight/CitiesRight')
 );
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
+const OfferPopup = dynamic(
+  () => import('../../../components/Global/OfferPopup/OfferPopup')
 );
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -47,8 +47,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -61,7 +61,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Full Stack Developer course") {
+            if (popupData === 'Full Stack Developer course') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -73,7 +73,7 @@ export default function Home() {
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf';
   return (
     <div className={styles.container}>
       <Head>
@@ -141,7 +141,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -161,7 +161,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           brochurePdf={pdfUrl}
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstHeading="Full-Stack Software Developer Course In Dubai"
           firstTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
@@ -179,7 +179,7 @@ export default function Home() {
         /> */}
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 1,15,000"
+            Fee="₹ 1,59,000"
             FeeEmi="₹ 7,538/month"
             weekendbatch="Weekday Evening (DSA BATCHES)"
             weekdaybatch="Weekday Evening (DSA BATCHES)"
@@ -212,7 +212,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              // certificate1={true}
+               fullStackCity={true}
               // certificate2={true}
               ProgramBot1={FullStackDubaiCourseData[0].ProgramBot1}
               ProgramBot2={FullStackDubaiCourseData[0].ProgramBot2}
@@ -240,6 +240,7 @@ export default function Home() {
               DomainHead5={FullStackDubaiCourseData[0].DomainHead5}
               DomainHead6={FullStackDubaiCourseData[0].DomainHead6}
               DomainHead7={FullStackDubaiCourseData[0].DomainHead7}
+              DomainHead8={FullStackDubaiCourseData[0].DomainHead8}
               DomainBot2={FullStackDubaiCourseData[0].DomainBot2}
               DomainBot3={FullStackDubaiCourseData[0].DomainBot3}
               DomainList1={FullStackDubaiCourseData[0].DomainList1}

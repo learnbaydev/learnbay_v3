@@ -1,45 +1,46 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
-import LJourney from "../LJourney/LJourney";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const WhatsappFloat = dynamic(() =>
-  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import LJourney from '../LJourney/LJourney';
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
+const WhatsappFloat = dynamic(
+  () => import('@/components/Global/WhatappsFloat/WhatsappFloat')
 );
-const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate")
+const Certificate = dynamic(
+  () =>
+    import('../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate')
 );
-const FeeSection = dynamic(() =>
-  import("../../course/feeSection/FeeSectionCourse")
-);
-
-const MentorsSection = dynamic(() =>
-  import("../../../components/Global/MentorsSection/MentorsSection")
+const FeeSection = dynamic(
+  () => import('../../course/feeSection/FeeSectionCourse')
 );
 
-const SliderTab = dynamic(() =>
-  import("../../../components/Global/SliderTabs/SliderTabs")
+const MentorsSection = dynamic(
+  () => import('../../../components/Global/MentorsSection/MentorsSection')
 );
 
-const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCall")
+const SliderTab = dynamic(
+  () => import('../../../components/Global/SliderTabs/SliderTabs')
 );
 
-const NewProjectSection = dynamic(() =>
-  import("../../../components/Global/NewProjectSection/NewProjectSection")
+const PlacementCall = dynamic(
+  () => import('../../../components/Global/PlacementCall/PlacementCall')
 );
 
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+const NewProjectSection = dynamic(
+  () => import('../../../components/Global/NewProjectSection/NewProjectSection')
 );
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-const Content = dynamic(() => import("../../CoursePage/Content/content"));
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+
+const FAQNew = dynamic(
+  () => import('../../../components/CoursePage/FAQNew/FAQNew')
 );
-const MobileTestimonial = dynamic(() =>
-  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
+const Content = dynamic(() => import('../../CoursePage/Content/content'));
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
+);
+const MobileTestimonial = dynamic(
+  () => import('@/components/Home/MobileTestimonial/MobileTestimonial')
 );
 
 const SecondPart = ({
@@ -54,8 +55,8 @@ const SecondPart = ({
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -68,7 +69,7 @@ const SecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Business Analytics Program") {
+            if (popupData === 'Business Analytics Program') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -79,7 +80,8 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf";
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf';
   return (
     <div>
       <LJourney />
@@ -88,7 +90,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Business Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
@@ -121,7 +123,7 @@ const SecondPart = ({
       <NewProjectSection
         dataScience={true}
         titleCourse="Business Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
         brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}

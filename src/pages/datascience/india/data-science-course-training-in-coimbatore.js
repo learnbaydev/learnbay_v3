@@ -100,7 +100,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="  Enroll in Coimbatore's best Data Science course with Learnbay. Get certified by IBM & Microsoft, and gain hands-on experience with AI tools. Join now!!          "
+          content="  Enroll in Coimbatore's best Data Science course with Learnbay. Get certified by IBM , and gain hands-on experience with AI tools. Join now!!          "
         />
         <meta
           name="keywords"
@@ -179,7 +179,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Best Online Data Science Course in Coimbatore          "
           firstTopPara="Foundational and Advance Job-ready Program"
-          cityParaCont="Escalate your career success metrics via our leading-edge data science course in Coimbatore. Learn from eminent industry experts and gain hands-on learning with tools followed by global certifications from IBM & Microsoft. Join Learnbay to advance your career in indisputable data science.           "
+          cityParaCont="Escalate your career success metrics via our leading-edge data science course in Coimbatore. Learn from eminent industry experts and gain hands-on learning with tools followed by global certifications from IBM . Join Learnbay to advance your career in indisputable data science.           "
         />
         <SecondSection SecondSectionData={DSCoimbCourseData[0].secondSection} />
         <div className={styles.Realstorysec}>
@@ -187,7 +187,7 @@ export default function Home() {
         </div>
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹1,35,000"
+            Fee="₹1,20,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"

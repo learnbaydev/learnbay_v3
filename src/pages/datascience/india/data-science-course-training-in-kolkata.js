@@ -187,7 +187,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Best Online Data Science Course in Kolkata         "
           firstTopPara="Foundational and Advance Job-ready Program"
-          cityParaCont="Unleash your career aspirations with our industry-specific data science course in Kolkata. Explore a new norm of the digital world and the career growth prospects it brings via our cutting-edge Generative AI-integrated course modules. Join Learnbay to gain proven data-driven skills, followed by IBM & Microsoft certifications.           "
+          cityParaCont="Unleash your career aspirations with our industry-specific data science course in Kolkata. Explore a new norm of the digital world and the career growth prospects it brings via our cutting-edge Generative AI-integrated course modules. Join Learnbay to gain proven data-driven skills, followed by IBM certifications.           "
         />
         <SecondSection
           SecondSectionData={DSKolkotaCourseData[0].secondSection}
@@ -197,7 +197,7 @@ export default function Home() {
         </div>
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹1,35,000"
+            Fee="₹1,20,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
@@ -219,11 +219,11 @@ export default function Home() {
             // <EMI POPUP
             emiType="NO COST EMI"
             duration1="18 Months"
-            totalAmount1="₹1,35,000"
+            totalAmount1="₹1,20,000"
             monthlyPayment1="₹8,850"
             greenDown1="Standard Intrest rate Applicable"
             duration2="12 Months"
-            totalAmount2="₹1,35,000"
+            totalAmount2="₹1,20,000"
             monthlyPayment2="₹13,275"
           />
         </div>
