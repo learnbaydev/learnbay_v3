@@ -716,7 +716,7 @@ export const BAPuneCourseData = [
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
     src22:
-      'hhttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       'Learnbay has online and offline classes for Business analytics course training in Pune. Our Business Analytics course includes 200 hrs of live hassle-free classes conducted by Business analysts experts. Learnbay Provides students and working professionals with batches, even on weekends. Enrolled candidates get a one-year subscription to complete their course and master their skills as Business analysts at their own pace but through live and interactive training only. Learnbay even conducts webinars and hackathons for students, so learning becomes fun, and everyone can again enjoy these events just like their past days in universities.',
     ModuleBot2:
