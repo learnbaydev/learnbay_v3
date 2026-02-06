@@ -521,7 +521,7 @@ export const DSBangaloreCourseData = [
           {
             id: 4,
             ques: 'What’s the duration of these advanced data science courses in Bangalore?',
-            ans: 'The duration of the Data Science Course Training In Chennai is 9-13 months, including weekend and weekday batches.',
+            ans: 'The duration of the Data Science Course Training In Bangalore is 9-13 months, including weekend and weekday batches.',
             open: false,
           },
           {
