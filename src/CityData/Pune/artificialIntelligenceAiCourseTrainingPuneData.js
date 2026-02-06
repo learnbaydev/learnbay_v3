@@ -647,9 +647,7 @@ export const AIPuneCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for Learnbay AI Certifications courses in Pune?',
-            ans: `The total course fee for the 
-            Foundational Data Science and Artificial Intelligence Training Course is 1,59,000 + 18% GST.
-            Advance Data Science and  AI Certification course is 1,59,000 + 18% GST.`,
+            ans: `The total course fee for the Artificial Intelligence Training Course in Pune is 1,59,000 + 18% GST.`,
             open: true,
           },
           {

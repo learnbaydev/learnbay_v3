@@ -545,13 +545,7 @@ export const MLPuneCourseData = [
           {
             id: 3,
             ques: "What’s the duration of this  Machine Learning course in Pune?",
-            ans: `The duration of this course is about 13 Months which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
-            
-                Classes will be conducted on weekdays and weekend batches.
-                Weekday batch - 9.5 months
-                   Monday to Friday - 2 hours/day
-                Weekend batch -11 months
-                Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of the Machine Learning Course in Pune is about 13 months.`,
             open: false,
           },
           {
