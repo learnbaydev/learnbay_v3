@@ -1,82 +1,92 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from "lucide-react";
 import styles from "./PdfViewer.module.css";
+import "react-pdf/dist/Page/AnnotationLayer.css";
+import "react-pdf/dist/Page/TextLayer.css";
 
-// Using a local worker from the cdn to ensure compatibility
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+// 1. Correct Worker Configuration for Next.js
+pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 export default function PdfViewer({ fileUrl }) {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
-  const [containerWidth, setContainerWidth] = useState(0);
+  const [scale, setScale] = useState(1.0);
+  const [containerWidth, setContainerWidth] = useState(null);
+  const containerRef = useRef(null);
 
-  // This handles the responsive width so the PDF fits the container
+  // 2. Resize Observer to handle Modal opening/resizing
   useEffect(() => {
-    const updateWidth = () => {
-      const element = document.getElementById("pdf-container");
-      if (element) {
-        setContainerWidth(element.clientWidth - 40); // Subtract padding
+    const resizeObserver = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        if (entry.contentRect.width > 0) {
+          setContainerWidth(entry.contentRect.width);
+        }
       }
-    };
+    });
 
-    updateWidth();
-    window.addEventListener("resize", updateWidth);
-    return () => window.removeEventListener("resize", updateWidth);
+    if (containerRef.current) {
+      resizeObserver.observe(containerRef.current);
+    }
+
+    return () => resizeObserver.disconnect();
   }, []);
 
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
   }
 
-  function onDocumentLoadError(error) {
-    console.error("PDF Load Error:", error);
-  }
-
   return (
-    <div className={styles.mainContent}>
-      {/* Navigation Controls */}
+    <div className={styles.viewerContainer}>
+      {/* Top Bar: Controls */}
       <div className={styles.controls}>
-        <button
-          type="button"
-          className={styles.navButton}
-          disabled={pageNumber <= 1}
-          onClick={() => setPageNumber((prev) => prev - 1)}
-        >
-          <ChevronLeft size={20} />
-        </button>
+        <div className={styles.pageNav}>
+          <button
+            disabled={pageNumber <= 1}
+            onClick={() => setPageNumber((p) => p - 1)}
+          >
+            <ChevronLeft size={20} />
+          </button>
+          <span>
+            {pageNumber} / {numPages || "--"}
+          </span>
+          <button
+            disabled={pageNumber >= numPages}
+            onClick={() => setPageNumber((p) => p + 1)}
+          >
+            <ChevronRight size={20} />
+          </button>
+        </div>
 
-        <span className={styles.pageIndicator}>
-          {pageNumber} / {numPages || "--"}
-        </span>
-
-        <button
-          type="button"
-          className={styles.navButton}
-          disabled={pageNumber >= numPages}
-          onClick={() => setPageNumber((prev) => prev + 1)}
-        >
-          <ChevronRight size={20} />
-        </button>
+        <div className={styles.zoomNav}>
+          <button onClick={() => setScale((s) => Math.max(0.5, s - 0.1))}>
+            <ZoomOut size={18} />
+          </button>
+          <span>{Math.round(scale * 100)}%</span>
+          <button onClick={() => setScale((s) => Math.min(2.0, s + 0.1))}>
+            <ZoomIn size={18} />
+          </button>
+        </div>
       </div>
 
-      {/* PDF Container */}
-      <div id="pdf-container" className={styles.pdfWrapper}>
-        <Document
-          file={fileUrl}
-          onLoadSuccess={onDocumentLoadSuccess}
-          onLoadError={onDocumentLoadError}
-          loading={
-            <div className={styles.loadingState}>Loading Syllabus...</div>
-          }
-        >
-          <Page
-            pageNumber={pageNumber}
-            width={containerWidth || 600}
-            renderTextLayer={false}
-            renderAnnotationLayer={false}
-          />
-        </Document>
+      {/* PDF Render Area */}
+      <div className={styles.scrollArea} ref={containerRef}>
+        {containerWidth && (
+          <Document
+            file={fileUrl}
+            onLoadSuccess={onDocumentLoadSuccess}
+            loading={<div className={styles.loading}>Loading Syllabus...</div>}
+            error={<div className={styles.error}>Failed to load PDF.</div>}
+          >
+            <Page
+              pageNumber={pageNumber}
+              width={containerWidth || 600} // Add 600 as a fallback
+              scale={scale}
+              renderTextLayer={false}
+              renderAnnotationLayer={false}
+            />
+          </Document>
+        )}
       </div>
     </div>
   );
