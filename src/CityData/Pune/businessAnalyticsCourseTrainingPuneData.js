@@ -278,7 +278,7 @@ export const BAPuneCourseData = [
       },
       tool: {
         '@type': 'HowToTool',
-        name: 'Data science, machine learning, artificial intelligence, data analytics',
+        name: 'Data science, machine learning, artificial intelligence, ',
       },
       step: [
         {
@@ -500,8 +500,8 @@ export const BAPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: 'What is domain specialization associated with the Learnbay machine learning certification course in Pune?',
-            ans: 'We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices.',
+            ques: 'What is domain specialization associated with the Learnbay business analytics certification course in Pune?',
+            ans: 'We offer industry-specific full-stack  modules, via which you learn the respective industry’s best practices.',
             open: true,
           },
           {
@@ -524,7 +524,7 @@ export const BAPuneCourseData = [
           {
             id: 3,
             ques: 'Why is domain specialization important?',
-            ans: "After enrolling in the ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
+            ans: "After enrolling in the  with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
             open: false,
           },
           {
@@ -729,7 +729,7 @@ export const BAPuneCourseData = [
     syllabush2: 'FOUNDATION OF GENAI',
     syllabusb2: '2.5 Months',
     SyllabusBotlist21:
-      'Build Python, ML, DL, and NLP foundations for modern GenAI workflows.',
+      'Build Python, , DL, and NLP foundations for modern GenAI workflows.',
 
     syllabush3: 'ADVANCED GENERATIVE AI',
     syllabusb3: '1 Month',
@@ -750,7 +750,7 @@ export const BAPuneCourseData = [
     JobBot3:
       "Business analysts make crucial Business decisions that are critical for future business processes. These decisions taken by Business analysts improve the company's performance and productivity. However, every business proposing new strategies in systems must even analyze their business performance and process. After a student or a professional completes a Business analytics course in Pune, they get job roles such as Business analytics consultant, Junior Business Analyst, Database administrator, etc.",
     ProjectsBot1:
-      'Learnbay helps students to work hard and, at the same time, tells students to work smart on their projects with creativity, so students get ownership to complete projects and assignments. Capstone projects are critical, and Learnbay faculties help you with your projects, as it would be mentioned in your resume. These projects would make your resume look better than other candidates. The course offers 5 live data analytics projects. All of these projects are blogs to different MNCs as well as different industries. Via premium cloud lab access, students can observe, learn, and practice industrial applications of BI tools with the maximum possible level of industrial efficacy. ',
+      'Learnbay helps students to work hard and, at the same time, tells students to work smart on their projects with creativity, so students get ownership to complete projects and assignments. Capstone projects are critical, and Learnbay faculties help you with your projects, as it would be mentioned in your resume. These projects would make your resume look better than other candidates. The course offers 5 live  projects. All of these projects are blogs to different MNCs as well as different industries. Via premium cloud lab access, students can observe, learn, and practice industrial applications of BI tools with the maximum possible level of industrial efficacy. ',
     src1: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png',
     ProjectsH1: 'Amazon Customer Review Analysis',
     Projectsp1:

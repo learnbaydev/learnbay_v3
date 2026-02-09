@@ -455,8 +455,8 @@ export const DAMumbaiCourseData = [
         data: [
           {
             id: 0,
-            ques: 'What is domain specialization associated with the Learnbay machine learning certification course in Mumbai?',
-            ans: 'We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices.',
+            ques: 'What is domain specialization associated with the Learnbay data analytics certification course in Mumbai?',
+            ans: 'We offer industry-specific full-stack data analytics modules, via which you learn the respective industry’s best practices.',
             open: true,
           },
           {
@@ -479,7 +479,7 @@ export const DAMumbaiCourseData = [
           {
             id: 3,
             ques: 'Why is domain specialization important?',
-            ans: "After enrolling in the ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
+            ans: "After enrolling in the data analytics with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
             open: false,
           },
           {
@@ -701,7 +701,7 @@ export const DAMumbaiCourseData = [
     syllabush2: 'FOUNDATION OF GENAI',
     syllabusb2: '2.5 Months',
     SyllabusBotlist21:
-      'Build Python, ML, DL, and NLP foundations for modern GenAI workflows.',
+      'Build Python, data analytics, DL, and NLP foundations for modern GenAI workflows.',
 
     syllabush3: 'ADVANCED GENERATIVE AI',
     syllabusb3: '1 Month',
@@ -741,7 +741,7 @@ export const DAMumbaiCourseData = [
     alt3: 'IBM Logo',
     ProjectsH2: 'IBM HR Analytics',
     Projectsp2:
-      "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
+      "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other data analytics abilities.",
     src3: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png',
     alt4: 'Amazon Logo',
     ProjectsH3: 'Amazon Customer Review Analysis',

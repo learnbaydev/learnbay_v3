@@ -504,8 +504,8 @@ export const DAPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: 'What is domain specialization associated with the Learnbay machine learning certification course in Pune?',
-            ans: 'We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices.',
+            ques: 'What is domain specialization associated with the Learnbay data analytics certification course in Pune?',
+            ans: 'We offer industry-specific full-stack data analytics modules, via which you learn the respective industry’s best practices.',
             open: true,
           },
           {
@@ -528,7 +528,7 @@ export const DAPuneCourseData = [
           {
             id: 3,
             ques: 'Why is domain specialization important?',
-            ans: "After enrolling in the ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
+            ans: "After enrolling in the data analytics with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
             open: false,
           },
           {
@@ -893,7 +893,7 @@ export const DAPuneCourseData = [
     syllabush3: 'FOUNDATION FOR GENAI',
     syllabusb3: '1 Months',
     SyllabusBotlist31:
-      'Learn core ML, deep learning, and NLP concepts that power modern large language models.',
+      'Learn core data analytics, deep learning, and NLP concepts that power modern large language models.',
 
     syllabush4: 'ADVANCED GENERATIVE AI',
     syllabusb4: '1.5 Months',
