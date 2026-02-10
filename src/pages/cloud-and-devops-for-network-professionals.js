@@ -274,10 +274,10 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>Cloud and DevOps Engineering Masters Program - Learnbay</title>
+        <title>Cloud & DevOps training for Network Professionals - Learnbay</title>
         <meta
           name="description"
-          content="Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support."
+          content="Advance your networking career with Learnbay's cloud & DevOps training. Learn AWS, cloud security, automation, and DevOps through live classes. Enrol now!"
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -287,6 +287,7 @@ Clouds and DevOps Engineering Network professionals,
 DevOps certification for Network professionals,
 Cloud engineering for Network professionals,
 Clouds and DevOps Network professional program
+
 "
         />
 
