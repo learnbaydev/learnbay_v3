@@ -507,13 +507,13 @@ export const BABangaloreCourseData = [
           {
             id: 0,
             ques: 'What is domain specialization?',
-            ans: 'We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices.',
+            ans: 'We offer industry-specific, full-stack business analytics with Gen AI modules, through which you learn the industry’s best practices.',
             open: true,
           },
           {
             id: 1,
             ques: 'What are the available elective domain options?',
-            ans: 'Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.',
+            ans: 'HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.',
             open: false,
           },
           {
@@ -525,7 +525,7 @@ export const BABangaloreCourseData = [
           {
             id: 3,
             ques: 'Why is domain specialization important?',
-            ans: 'After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.',
+            ans: 'After enrolling in the business analytics with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.',
             open: false,
           },
           {

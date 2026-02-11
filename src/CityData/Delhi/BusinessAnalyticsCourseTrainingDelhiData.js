@@ -510,40 +510,44 @@ export const BADelhiCourseData = [
         data: [
           {
             id: 0,
-            ques: 'What are the prerequisites for the Business Analytics Training Course in Delhi?',
-            ans: `There are no prerequisites for this Business Analytics certification course in Delhi as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.`,
+            ques: 'What is domain specialization associated with the Learnbay Business Analytics certification course in Delhi?',
+            ans: `We offer industry-specific full-stack Business Analytics modules, via which you learn the respective industry’s best practices.`,
             open: true,
           },
           {
             id: 1,
-            ques: 'What if I miss a few classes due to an emergency?',
-            ans: `In case you miss a few classes, you will be provided with backup classes in other batches.
-              But if you could not attend more classes, you can opt for batch change and join the next batch.`,
+            ques: 'What are the available elective domain options?',
+            ans: `HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.`,
             open: false,
           },
           {
             id: 2,
-            ques: 'What is a Flexi Subscription in the Business Analytics Certification course in Delhi?',
-            ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+            ques: 'Which domain elective is best suited for me?',
+            ans: `You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988`,
             open: false,
           },
           {
             id: 3,
-            ques: 'What’s the duration of the Business Analytics Course in Delhi?',
-            //About Data Science
-            ans: `The duration of the Business Analytics course training in hyderabad is 8-9 months, including weekend and weekday batches.`,
+            ques: 'Why is domain specialization important?',
+            ans: `After enrolling in the Business Analytics with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.`,
             open: false,
           },
           {
             id: 4,
-            ques: 'What is the mode of Business Analytics training at Learnbay?',
-            ans: `We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
+            ques: 'Can I select multiple domain electives and do I need to pay extra charges?',
+            ans: `You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
             open: false,
           },
           {
             id: 5,
-            ques: 'How can I opt for a Hybrid mode of learning? ',
-            ans: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.',
+            ques: 'What if I don\'t have any prior experience in any domain? ',
+            ans: 'If you don\'t have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.',
+            open: false,
+          },
+          {
+            id: 6,
+            ques:'Can I change my domain electives later?',
+            ans:"Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
             open: false,
           },
         ],

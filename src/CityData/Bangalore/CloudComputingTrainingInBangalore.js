@@ -61,19 +61,19 @@ export const CloudComputingTrainingInBangalore = [
         data: [
           {
             id: 0,
-            ques: 'What is domain specialization in the professional data science certification courses provided by Learnbay in Bangalore?',
-            ans: 'We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational data science course. ',
+            ques: 'What is domain specialization in the professional cloud computing certification courses provided by Learnbay in Bangalore?',
+            ans: 'We offer industry-specific full-stack cloud computing modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational cloud computing course. ',
             open: true,
           },
           {
             id: 1,
-            ques: 'What are the available elective domain options in the different data science training courses of Learnbay in Bangalore?',
+            ques: 'What are the available elective domain options in the different cloud computing training courses of Learnbay in Bangalore?',
             ans: ' Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy',
             open: false,
           },
           {
             id: 2,
-            ques: 'Which data science specialization domain elective is best suited for me?',
+            ques: 'Which cloud computing specialization domain elective is best suited for me?',
             ans: `You can select your domain based on your prior work experience, academics, and career goals.
                 Book a slot with our industry expert for free profile review and career guidance.`,
             linkText1: ' +917795687988 ',
@@ -83,17 +83,17 @@ export const CloudComputingTrainingInBangalore = [
           },
           {
             id: 3,
-            ques: 'Why is domain specialization important in professional data science certification?',
-            ans: "After enrolling in the advanced data science courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
+            ques: 'Why is domain specialization important in professional cloud computing certification?',
+            ans: "After enrolling in the advanced cloud computing courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
             open: false,
           },
           {
             id: 4,
-            ques: 'Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?',
+            ques: 'Can I select multiple domain electives and do I need to pay extra charges in any of the eligible cloud computing courses?',
             ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals.
-                Advance Data Science and AI Certification course- Maximum 2 domains.
-                Data Science and AI Certification Course for Managers and Leaders- All domains
-                Data Science and AI Training with Placement Assistance- All domains
+                Advance cloud computing and AI Certification course- Maximum 2 domains.
+                cloud computing and AI Certification Course for Managers and Leaders- All domains
+                cloud computing and AI Training with Placement Assistance- All domains
 
                 No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
             open: false,
@@ -535,7 +535,7 @@ export const CloudComputingTrainingInBangalore = [
     JobBot2:
       'In short, today’s data-driven age heavily leans on centralized data storage with hassle-free & secure dealings. Cloud computing offers a unique method of data storage with its agile functionalities. Thus, techies join the best cloud computing training institute in Bangalore with 100% placement support. Learnbay’s job assist program supports real-time career growth with endless offers from leading tech MNCs.',
     JobBot3:
-      'Data scientists are in great demand as many corporations want to recruit data scientists, but properly skilled data scientists are scarce. It is a highly paid career with a promising future. Data science is versatile, and Data scientists have a great role in businesses. Becoming a Data scientist is a fun task that makes products and services smart and adequately effective.',
+      'Data scientists are in great demand as many corporations want to recruit data scientists, but properly skilled data scientists are scarce. It is a highly paid career with a promising future. cloud computing is versatile, and Data scientists have a great role in businesses. Becoming a Data scientist is a fun task that makes products and services smart and adequately effective.',
     JobHead2: 'Career Service PRO (100% Job Assistance)',
     JobBot3:
       'Bangalore is an emerging tech hub for many eminent MNCs and thriving startups. Gradually, the city has become tech capital with prime career growth prospects with alluring gains. On the other hand, techies with outpaced skill sets prefer upskilling with cloud computing. Thus, the demand for cloud computing training in Bangalore keeps increasing.',

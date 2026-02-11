@@ -617,12 +617,7 @@ export const DADelhiCourseData = [
             link: true,
             open: true,
           },
-          {
-            id: 1,
-            ques: ' How many real-time projects will be there?',
-            ans: `We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-            open: false,
-          },
+          
           {
             id: 2,
             ques: 'How will the project be executed?',
