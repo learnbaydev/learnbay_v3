@@ -304,7 +304,7 @@ data science and gen ai training  program
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-genai-program "
+          content="https://www.learnbay.co/data-science-genai-program"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -325,7 +325,7 @@ data science and gen ai training  program
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/data-science-genai-program "
+          content="https://www.learnbay.co/data-science-genai-program"
         />
         <meta
           name="twitter:title"
@@ -345,7 +345,7 @@ data science and gen ai training  program
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-science-genai-program "
+          href="https://www.learnbay.co/data-science-genai-program"
         />
         <script
           type="application/ld+json"
@@ -355,7 +355,7 @@ data science and gen ai training  program
   "@type": "Course",
   "name": "IBM Certified Data Science & GenAI Program  - Learnbay",
   "description": "Upskill with Learnbay's IBM-certified Data Science & GenAI Program. Learn Python, ML, NLP, RAG, and Agents through industry projects with job assistance.",
-  "url": "https://www.learnbay.co/data-science-genai-program ",
+  "url": "https://www.learnbay.co/data-science-genai-program",
   "offers": {
     "@type": "offer",
     "price": "120000",
@@ -365,7 +365,7 @@ data science and gen ai training  program
    "provider": {
         "@type": "Organization",
         "name": "Learnbay",
-        "Url": "https://www.learnbay.co/data-science-genai-program "
+        "Url": "https://www.learnbay.co/data-science-genai-program"
       },
   "coursePrerequisites": "You should know about Python, Machine Learning, & basic Deep Learning before joining the program.",
   "hasCourseInstance": [
