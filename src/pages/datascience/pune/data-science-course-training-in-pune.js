@@ -1,43 +1,43 @@
-import { DSPuneSchema } from "@/Data/Schema/DSPuneSchema";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import Realstory from "@/components/Home/Realstory/Realstory";
-import Map from "@/components/Seo/Maps/Maps";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { DSPuneCourseData } from "../../../CityData/Pune/dataScienceCourseTrainingInPune";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Popup from "../../../components/Global/Popup/Popup";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import styles from "../../../styles/Home.module.css";
+import { dataSciencePuneFaqSchema } from '@/Data/Schema/dataSciencePuneFaqSchema';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import Realstory from '@/components/Home/Realstory/Realstory';
+import Map from '@/components/Seo/Maps/Maps';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { DSPuneCourseData } from '../../../CityData/Pune/dataScienceCourseTrainingInPune';
+import Footer from '../../../components/Global/Footer/Footer';
+import Form from '../../../components/Global/Form/Form';
+import Popup from '../../../components/Global/Popup/Popup';
+import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
+import styles from '../../../styles/Home.module.css';
 const FirstSection = dynamic(
-  () => import("../../../components/Seo/FirstSection/FirstSection"),
+  () => import('../../../components/Seo/FirstSection/FirstSection')
 );
 const SecondSection = dynamic(
-  () => import("../../../components/Seo/SecondSection/SecondSection"),
+  () => import('../../../components/Seo/SecondSection/SecondSection')
 );
 const ProgramInfo = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramInfo"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramInfo')
 );
 const SeventhSection = dynamic(
-  () => import("../../../components/Seo/SeventhSection/SeventhSection"),
+  () => import('../../../components/Seo/SeventhSection/SeventhSection')
 );
 const ProgramFee = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
 const CityText = dynamic(
-  () => import("../../../components/Seo/CityText/CityText"),
+  () => import('../../../components/Seo/CityText/CityText')
 );
 const CitiesLeft = dynamic(
-  () => import("../../../components/Seo/CitiesLeft/CitiesLeft"),
+  () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
 const CitiesRight = dynamic(
-  () => import("../../../components/Seo/CitiesRight/CitiesRight"),
+  () => import('../../../components/Seo/CitiesRight/CitiesRight')
 );
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 const OfferPopup = dynamic(
-  () => import("../../../components/Global/OfferPopup/OfferPopup"),
+  () => import('../../../components/Global/OfferPopup/OfferPopup')
 );
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -50,8 +50,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -64,7 +64,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === 'Adv Data Science and AI') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -76,15 +76,15 @@ export default function Home() {
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf';
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Data Science Course Training in Pune</title>
+        <title>Best Data Science Course Training in Pune - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
+          content="Join the best Data Science Course in Pune with Learnbay. Get IBM certified training, live classes, real projects & 100% placement assistance. Enroll now!"
         />
         <meta
           name="keywords"
@@ -94,104 +94,39 @@ export default function Home() {
           property="og:url"
           content="https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Data Science Course in pune | Data Science Training in pune"
+          content="Best Data Science Course Training in Pune - Learnbay"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
+          content="Join the best Data Science Course in Pune with Learnbay. Get IBM certified training, live classes, real projects & 100% placement assistance. Enroll now!"
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Data Science Course in pune | Data Science Training in pune"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Data Science Course Training in Pune - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
+          content="Join the best Data Science Course in Pune with Learnbay. Get IBM certified training, live classes, real projects & 100% placement assistance. Enroll now!"
         />
         <meta
           name="twitter:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <link
-          rel="canonical"
-          href="https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune"
-        />
-        {/* <meta name="HandheldFriendly" content="true" /> */}
-        {/* <meta name="distribution" content="global" /> */}
-        <meta name="copyright" content="Learnbay" />
-        {/* <meta name="language" content="English" /> */}
-        {/* <meta name="rating" content="general" /> */}
-        {/* <meta name="revisit-after" content="Daily" /> */}
-        {/* <meta name="author" content="Learnbay" /> */}
-        {/* <meta name="googlebot" content="index,follow" /> */}
-        {/* <meta name="bingbot" content="index,follow" /> */}
-        {/* <meta name="expires" content="never" /> */}
-        {/* <meta name="coverage" content="Worldwide" /> */}
-        {/* <meta name="robots" content="ALL" /> */}
-        <meta
-          property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-pune"
-        />
-        <meta
-          property="og:title"
-          content="Data Science Course Training in Pune"
-        />
-        <meta
-          property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-pune"
-        />
-        <meta
-          property="og:title"
-          content="Data Science Course Pune | Data Scientist Course Pune | Learnbay"
-        />
-        <meta property="og:site_name" content="www.learnbay.co" />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:description"
-          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
-        />
-        <meta
-          property="og:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
-        />
-        <meta property="og:image:height" content="240" />
-        <meta property="og:image:width" content="360" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Data Science Course Pune | Data Scientist Course Pune | Learnbay"
-        />
-        <meta name="twitter:creator" content="@Learnbay" />
-        <meta
-          itemProp="description"
-          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
-        />
-        <meta
-          name="twitter:description"
-          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
-        />
-        <meta
-          name="twitter:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
-        ></meta>
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
@@ -200,10 +135,10 @@ export default function Home() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: ` {
-              "@context": "http://schema.org",
+            __html: `{
+  "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Learnbay - Data Analytics, Data Data Science Course in Pune",
+  "name": "Learnbay - Data science and Generative AI courses training in Pune",
   "description": "Are you searching for the best data science courses in Pune? Learnbay is providing the best online data science course training in Pune.",
   "url": "https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
@@ -217,57 +152,54 @@ export default function Home() {
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 18.801159281162093,
-    "longitude": 73.86267542806505
+    "latitude": 18.562830973846324,
+    "longitude": 73.92150074243546
   },
   "telephone": "(+91) 77956 87988",
   "email": "contacts@learnbay.co",
   "openingHoursSpecification": [
-        {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "opens": "10:00",
-        "closes": "18:00"
-      },
-       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Saturday"
-        ],
-        "opens": "10:00",
-        "closes": "15:00"
-     }
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "20:00"
+    }
   ],
-  "priceRange": "₹ 1,25,000 + 18% GST",
-  "servesCuisine": "Data Science Education",
-  "areaServed": "Bangalore",
-  "paymentAccepted": "Cash, Credit Card, Debit Card, EMI"
-  },
+  "priceRange": "₹ 1,20,000 + 18% GST",
+  "areaServed": "Pune",
+  "paymentAccepted": "Cash, Credit Card, Debit Card, EMI",
   "sameAs": [
-      "https://www.facebook.com/learnbay/",
-                "https://twitter.com/Learnbay",
-                "https://www.instagram.com/learnbayofficial/",
-                "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
-                "https://www.linkedin.com/company/learnbay/"
+    "https://www.facebook.com/learnbay/",
+    "https://twitter.com/Learnbay",
+    "https://www.instagram.com/learnbayofficial/",
+    "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
+    "https://www.linkedin.com/company/learnbay/"
   ]
-             
-              
-} `,
+}
+`,
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: ` {
-              "@context": "https://schema.org/", 
-  "@type": "Product", 
-  "name": "Learnbay - Data Analytics, Data Data Science Course in Pune",
+            __html: `{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Best Data Science Course Training in Pune - Learnbay",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "brand": {
     "@type": "Brand",
@@ -280,20 +212,50 @@ export default function Home() {
     "worstRating": "1",
     "ratingCount": "12693"
   }
-             
-              
-} `,
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Best Data Science Course Training in Pune - Learnbay",
+  "description": "Join the best Data Science Course in Pune with Learnbay. Get IBM certified training, live classes, real projects & 100% placement assistance. Enroll now!",
+  "url": "https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "sameAs": "https://www.learnbay.co/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "120000",
+    "priceCurrency": "INR",
+    "category": "Educational"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P9M",
+    "offers": {
+      "@type": "Offer",
+      "price": "120000",
+      "priceCurrency": "INR"
+    }
+  }
+}
+`,
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(DSPuneSchema),
+            __html: JSON.stringify(dataSciencePuneFaqSchema),
           }}
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
