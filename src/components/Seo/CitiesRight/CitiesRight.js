@@ -1,11 +1,11 @@
-import Image from "next/image";
-import { useState } from "react";
-import { BsClock } from "react-icons/bs";
-import { FiCheck } from "react-icons/fi";
-import Button from "../../Global/Button/Button";
-import YoutubeVideo from "../YoutubeVideo/YoutubeVideo";
-import styles from "./CitiesRight.module.css";
-import YoutubeEmbed from "../YoutubeVideo/YoutubeEmbed";
+import Image from 'next/image';
+import { useState } from 'react';
+import { BsClock } from 'react-icons/bs';
+import { FiCheck } from 'react-icons/fi';
+import Button from '../../Global/Button/Button';
+import YoutubeVideo from '../YoutubeVideo/YoutubeVideo';
+import styles from './CitiesRight.module.css';
+import YoutubeEmbed from '../YoutubeVideo/YoutubeEmbed';
 
 const CitiesRight = ({
   delhi,
@@ -497,13 +497,13 @@ const CitiesRight = ({
         {cityTextDSmumbai ? (
           <div className={styles.CitiesRightInner}>
             <p>
-              Learnbay provides an exceptional{" "}
+              Learnbay provides an exceptional{' '}
               <b>data science course in Mumbai</b> taught by renowned industry
               professionals. These trainers come from reputed MNCs, making
               Learnbay a reliable choice for those looking to learn data
               science. Both tech and non-tech applicants who want to make a
               career switch can also choose this course. Learnbay offers it
-              online as well as in hybrid mode.{" "}
+              online as well as in hybrid mode.{' '}
             </p>
             <p>
               Our courses are created by professionals having in-depth knowledge
@@ -521,7 +521,7 @@ const CitiesRight = ({
               scientists in the commercial sector.
             </p>
             <p>
-              You will receive the greatest and most reliable{" "}
+              You will receive the greatest and most reliable{' '}
               <b>online data science training in Mumbai</b> at Learnbay, which
               is created to match the expectations of the current competitive
               job market. Learnbay's <b>data science course in Mumbai</b> is a
@@ -530,11 +530,11 @@ const CitiesRight = ({
               twenty-first century.
             </p>
             <p>
-              There are many benefits to choosing{" "}
+              There are many benefits to choosing{' '}
               <b>online data scientist training in Mumbai</b>. With more data
               being produced daily, corporations largely depend on data science,
               and Mumbai is quickly becoming one of India's top job hubs. As a
-              result, Mumbai offers a variety of opportunities for{" "}
+              result, Mumbai offers a variety of opportunities for{' '}
               <b>online data science training</b>. However, when securing job
               placement, the list of reliable options becomes shorter. Moreover,
               considering the cost-effectiveness of the course, the list of
@@ -547,13 +547,13 @@ const CitiesRight = ({
               jobs, according to recent research by Analytics India Magazine.
               The survey also notes a 45% growth in demand for data scientists
               in Mumbai over the course of the previous year. These figures
-              emphasize the significance of obtaining top-notch{" "}
+              emphasize the significance of obtaining top-notch{' '}
               <b>data science training in Mumbai</b> to satisfy the rising
               demand for qualified specialists.
             </p>
             <p>
               We cover the data science course using various modules, some of
-              which are mentioned below:{" "}
+              which are mentioned below:{' '}
             </p>
             <ul>
               <li>Cohort Orientation </li>
@@ -567,9 +567,9 @@ const CitiesRight = ({
               <li>Deep Learning</li>
             </ul>
             <p>
-              The course duration of the online{" "}
+              The course duration of the online{' '}
               <b>Data Science training in Mumbai</b> is 250+ hours. Our trained
-              professionals will tutor you for almost 9 months.{" "}
+              professionals will tutor you for almost 9 months.{' '}
             </p>
             <p>
               The structured course consists of <b>4 terms.</b>
@@ -582,7 +582,7 @@ const CitiesRight = ({
               the basics of maths, programming, and data science foundation. It
               covers basic Python And R, Basic Mathematics, Essential Statistics
               for Data Science, Introduction to Anaconda, Jupyter notebook, Git
-              and GitHub for data science, and other practical materials.{" "}
+              and GitHub for data science, and other practical materials.{' '}
             </p>
             <p>
               Module 0 will teach you the basics of programming, including the
@@ -610,7 +610,7 @@ const CitiesRight = ({
               a data scientist.
             </p>
             <h2 className={styles.pHead}>
-              Term 2 - Statistics and Machine Learning{" "}
+              Term 2 - Statistics and Machine Learning{' '}
             </h2>
             <b>Module (1) - Statistics </b>
             <p>
@@ -621,7 +621,7 @@ const CitiesRight = ({
               also have the chance to complete four practice assignments
               relating to statistics to enrich your learning experience further.
               You can use your newly learned information in these practical
-              exercises, promoting experiential learning.{" "}
+              exercises, promoting experiential learning.{' '}
             </p>
             <b>Module (2) - Machine Learning </b>
             <p>
@@ -635,7 +635,7 @@ const CitiesRight = ({
               explanations and examples from the real world to help you
               understand. After finishing this subject, you'll be prepared to
               use cutting-edge machine-learning techniques to build solid models
-              and analyze difficult data sets.{" "}
+              and analyze difficult data sets.{' '}
             </p>
             <h2 className={styles.pHead}>
               <b>Term 3 - Data Science Tools</b>
@@ -671,7 +671,7 @@ const CitiesRight = ({
               <b>Module 3 - Model Training and Deployment using ( AWS GCP) </b>
             </p>
             <h2 className={styles.pHead}>
-              Premium Features of Data Science Training in Mumbai{" "}
+              Premium Features of Data Science Training in Mumbai{' '}
             </h2>
             <p>
               Some of the premium features of online data science training in
@@ -680,12 +680,12 @@ const CitiesRight = ({
             <ol type="1">
               <li>
                 <b>Live Interactive Classes:</b> Trained professionals take
-                classes in the most interactive and hassle-free way.{" "}
+                classes in the most interactive and hassle-free way.{' '}
               </li>
 
               <li>
                 <b>One-on-one Mentorship:</b> You get a mentor who helps you
-                throughout the process. You get assistance till placements.{" "}
+                throughout the process. You get assistance till placements.{' '}
               </li>
 
               <li>
@@ -696,13 +696,13 @@ const CitiesRight = ({
               <li>
                 <b>Doubt Clearance Sessions:</b> After your live classes, you
                 can take expert doubt clearance sessions to clear any
-                doubts.{" "}
+                doubts.{' '}
               </li>
 
               <li>
                 <b>Resume Building Support:</b> Our experts teach you how to
                 make a resume to get interviews in top MNCs and product-based
-                startups.{" "}
+                startups.{' '}
               </li>
 
               <li>
@@ -715,7 +715,7 @@ const CitiesRight = ({
             </ol>
             <h2 className={styles.pHead}>
               Data Science and Gen AI Master Foundation Program in Mumbai with
-              Placement Assistance{" "}
+              Placement Assistance{' '}
             </h2>
             <ul>
               <li>
@@ -726,12 +726,12 @@ const CitiesRight = ({
                 It is good for learners who belong to a non-technical
                 background. If you are a working professional looking forward to
                 switching your career, the foundation program will make it easy
-                for you.{" "}
+                for you.{' '}
               </li>
 
               <h3 className={styles.pHead}>
                 Highlights of the Data Science and Gen AI Master Program in
-                Mumbai{" "}
+                Mumbai{' '}
               </h3>
               <li>
                 This course offers an immersive and thorough learning
@@ -740,13 +740,13 @@ const CitiesRight = ({
                 sessions.
               </li>
               <li>
-                You get lifetime access to{" "}
+                You get lifetime access to{' '}
                 <b>recorded live classroom recordings</b>, allowing you to
                 review and solidify your understanding of key ideas at your own
                 speed.
               </li>
               <li>
-                Additionally, you will get to work on{" "}
+                Additionally, you will get to work on{' '}
                 <b>offline live projects</b> in the project innovation lab as
                 part of the course, giving you practical experience using data
                 science techniques to solve real-world issues.
@@ -760,7 +760,7 @@ const CitiesRight = ({
             </ul>
             <h2 className={styles.pHead}>
               Advance Data Science and AI Course in Mumbai with Placement
-              Assistance{" "}
+              Assistance{' '}
             </h2>
             <ul>
               <li>
@@ -786,7 +786,7 @@ const CitiesRight = ({
             </ul>
             <h2 className={styles.pHead}>
               Data Science and AI program for Managers and Leaders in Mumbai
-              with Placement Assistance{" "}
+              with Placement Assistance{' '}
             </h2>
             <ul>
               <li>
@@ -816,7 +816,7 @@ const CitiesRight = ({
             </ul>
             <h2 className={styles.pHead}>
               Data Science and AI Master Program in Mumbai with Placement
-              Assistance{" "}
+              Assistance{' '}
             </h2>
             <ul>
               <li>
@@ -863,7 +863,7 @@ const CitiesRight = ({
               and storage technology. Due to this development, businesses can
               process and store massive data efficiently and economically. A
               prominent trend in Mumbai has also been combining data science
-              with other industries, such as healthcare and finance.{" "}
+              with other industries, such as healthcare and finance.{' '}
             </p>
             <p>
               The demand for talented data scientists is anticipated to grow as
@@ -874,7 +874,7 @@ const CitiesRight = ({
               Best Data Science Training Institute in Mumbai
             </h2>
             <p>
-              The <b>best data science training institute in Mumbai</b> is{" "}
+              The <b>best data science training institute in Mumbai</b> is{' '}
               <a
                 href="https://www.learnbay.co/data-science-course-training-in-mumbai"
                 target="_blank"
@@ -931,7 +931,7 @@ const CitiesRight = ({
                 the price, but if you compare the benefits, certainly it's the
                 best option across Mumbai. At Learnbay, we never compromise the
                 quality of our data science certification course.
-              </li>{" "}
+              </li>{' '}
               <br />
               <li>
                 <b>Learning Flexibility:</b> With such an affordable and
@@ -944,7 +944,7 @@ const CitiesRight = ({
                 as hybrid modes of teaching. Here you can opt and use Learnbay
                 LMS on your mobile device, which will help you learn and get
                 updated with the daily course on the go.
-              </li>{" "}
+              </li>{' '}
               <br />
               <li>
                 <b>Expertise:</b> Our instructors are working professionals with
@@ -952,12 +952,12 @@ const CitiesRight = ({
                 Data Scientists, Machine Learning Engineers, AI Engineers, BI
                 Developers, Big Data Architects, and Senior Data Analysts from
                 top-class organizations.
-              </li>{" "}
+              </li>{' '}
               <br />
               <li>
                 <b>Promising Support:</b> Post-enrolment dedicated learning
                 support is the most significant thing you should look into while
-                searching for the{" "}
+                searching for the{' '}
                 <b>best data science training institute in Mumbai</b>. We
                 provide the surety of 100% job assistance. We provide the
                 maximum possible data science career support based on your
@@ -976,7 +976,7 @@ const CitiesRight = ({
               predicted to reach a startling 463 exabytes by 2032. In
               comparison, just 5 exabytes of data have been uttered by humans as
               a whole. As a result, Mumbai will see an increase in demand for
-              qualified data scientists.{" "}
+              qualified data scientists.{' '}
             </p>
             <p>
               Additionally, data science is a profitable field; in Mumbai, the
@@ -994,19 +994,19 @@ const CitiesRight = ({
                 target="_blank"
               >
                 machine learning
-              </a>{" "}
-              and{" "}
+              </a>{' '}
+              and{' '}
               <a
                 href="https://www.learnbay.co/artificial-intelligence-ai-course-training-mumbai"
                 target="_blank"
               >
                 artificial intelligence
-              </a>{" "}
+              </a>{' '}
               courses in Mumbai.
             </p>
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {cityTextDSHyderabad ? (
@@ -1056,7 +1056,7 @@ const CitiesRight = ({
             </p>
 
             <h3 className={styles.pHead}>
-              Cutting-edge Training Sessions by Eminent Industry Experts{" "}
+              Cutting-edge Training Sessions by Eminent Industry Experts{' '}
             </h3>
             <b>Module 1- Basics and Advanced Python</b>
 
@@ -1070,7 +1070,7 @@ const CitiesRight = ({
               data-driven risks.
             </p>
             <h3 className={styles.pHead}>
-              Industry-enriched Career Counselling{" "}
+              Industry-enriched Career Counselling{' '}
             </h3>
             <p>
               Learnbay’s career experts and advisors provide real-time aid to
@@ -1136,20 +1136,20 @@ const CitiesRight = ({
             </p>
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {cityTextDSPune ? (
           <div className={styles.CitiesRightInner}>
             <p>
-              The <b>Data Science Course in Kochi</b> provided by Learnbay
+              The <b>Data Science Course in Pune</b> provided by Learnbay
               promotes live training by industrial experts in Data Science. The
               online training is structured keeping in mind the local industry
               needs. With the skills and expertise gained, you can get a
               lucrative and ever-growing career in this field. Data Science,
               Artificial Intelligence, and Machine Learning are continuously
               transforming the business landscape in the 21st century, and
-              Learnbay’s <b>Data Science Training in Kochi</b> is tailored to
+              Learnbay’s <b>Data Science Training in Pune</b> is tailored to
               meet your needs. It’s good to deeply understand a subject to get a
               rewarding career.
             </p>
@@ -1170,16 +1170,16 @@ const CitiesRight = ({
             </p>
             <p>
               A data scientist uses modern tools and techniques to drive
-              meaningful information and make decisions. Learnbay’s{" "}
-              <b>Data Science Course in Kochi</b> is designed to help you learn
+              meaningful information and make decisions. Learnbay’s{' '}
+              <b>Data Science Course in Pune</b> is designed to help you learn
               about Data Science from scratch according to your domain. Research
               shows that the top skills required to become a data scientist are
               analysis, communication, statistics, deep learning, machine
               learning, and artificial Intelligence, among many others.
             </p>
             <p>
-              Our <b>Data Science course in Kochi</b> is a two to a three-year
-              subscription program. We have collaborated with IBM to provide a{" "}
+              Our <b>Data Science course in Pune</b> is a two to a three-year
+              subscription program. We have collaborated with IBM to provide a{' '}
               <b>data science certification course</b>. They are globally
               recognize. One-on-one, personalized, live doubt-clearing sessions
               with skilled MAANG data scientists make Learnbay different from
@@ -1231,7 +1231,7 @@ const CitiesRight = ({
             </ul>
             <p>
               <b>
-                The Data Scientist course in Kochi has 9 months (300+ hours)
+                The Data Scientist course in Pune has 9 months (300+ hours)
                 duration.
               </b>
             </p>
@@ -1336,20 +1336,20 @@ const CitiesRight = ({
             <p>
               <b>Module 3 - Model Training and Deployment using ( AWS GCP) </b>
               <br />
-              Note: This is a draft module. Our modules keep changing in line
-              with the current job market demand. For the latest Syllebus, check
-              the detailed Module Section for the brochure. (link to the module
-              section)
+              <b>Note:</b> This is a draft module. Our modules keep changing in
+              line with the current job market demand. For the latest Syllebus,
+              check the detailed Module Section for the brochure. (link to the
+              module section)
             </p>
             <h2 className={styles.pHead}>
-              <b>Premium Features of Data Scientist Training in Kochi</b>
+              <b>Premium Features of Data Scientist Training in Pune</b>
             </h2>
             <ol type="1">
               <li>
                 <b>Classroom Session </b>: What’s better than getting assistance
                 both in online and offline mode? Experts from MAANG and MNCs
                 help you throughout the process. You can also attend classroom
-                sessions.{" "}
+                sessions.{' '}
               </li>
               <li>
                 <b>One-on-One Dedication </b>: Every learner gets a live
@@ -1378,22 +1378,22 @@ const CitiesRight = ({
             </ol>
             <h2 className={styles.pHead}>
               <b>
-                Data Science Foundation Program in Kochi with Placement
+                Data Science Foundation Program in Pune with Placement
                 Assistance
               </b>
             </h2>
             <ul>
               <li>
                 This program is designed for beginners who want to kick-start
-                their career in Data Science.{" "}
+                their career in Data Science.{' '}
               </li>
               <li>
                 This course introduces you to Data Science and Python
-                Programming.{" "}
+                Programming.{' '}
               </li>
               <li>
                 The course also clearly explains Data Analytics vs. Business
-                Analytics vs. Big Data.{" "}
+                Analytics vs. Big Data.{' '}
               </li>
               <li>
                 You also work on hands-on projects, which will help you get
@@ -1403,7 +1403,7 @@ const CitiesRight = ({
             </ul>
 
             <h3 className={styles.pHead}>
-              Highlights of the Data Science and GenAI Program in Kochi
+              Highlights of the Data Science and GenAI Program in Pune
             </h3>
             <ul>
               <li>Consists of 200+ hours of live sessions</li>
@@ -1415,7 +1415,7 @@ const CitiesRight = ({
             </ul>
 
             <h2 className={styles.pHead}>
-              Advance Data Science and AI Program in Kochi with Placement
+              Advance Data Science and AI Program in Pune with Placement
               Assistance
             </h2>
             <ul>
@@ -1427,14 +1427,14 @@ const CitiesRight = ({
                 The experts at Learnbay will help you develop solid knowledge.
               </li>
               <li>
-                The course teaches you Deep Learning and Neural Networks.{" "}
+                The course teaches you Deep Learning and Neural Networks.{' '}
               </li>
               <li>You can choose this if you want to switch your domain. </li>
               <li>You get rigorous hours of learning .</li>
             </ul>
 
             <h3 className={styles.pHead}>
-              Highlights of Advance Data Science Course and AI Program in Kochi
+              Highlights of Advance Data Science Course and AI Program in Pune
             </h3>
 
             <ul>
@@ -1446,7 +1446,7 @@ const CitiesRight = ({
             </ul>
 
             <h2 className={styles.pHead}>
-              Data Science and AI program for Managers and Leaders in Kochi with
+              Data Science and AI program for Managers and Leaders in Pune with
               Placement Assistance
             </h2>
             <ul>
@@ -1456,7 +1456,7 @@ const CitiesRight = ({
               </li>
               <li>
                 Our industrial experts help you make a switch as a professional
-                and not a fresher.{" "}
+                and not a fresher.{' '}
               </li>
               <li>
                 The domain-specific industrial projects help you to break
@@ -1470,13 +1470,13 @@ const CitiesRight = ({
               <li>
                 Our experts make you interview-ready, and the placement cell
                 ensures you get Job-ready with interview support from FinTech
-                Startups and Top MNCs.{" "}
+                Startups and Top MNCs.{' '}
               </li>
             </ul>
 
             <h3 className={styles.pHead}>
               Highlights of Data Science and AI Program for Managers and Leaders
-              in Kochi
+              in Pune
             </h3>
             <ul>
               <li>Consists of 400+ hours of live sessions</li>
@@ -1491,13 +1491,13 @@ const CitiesRight = ({
             </ul>
 
             <h2 className={styles.pHead}>
-              Data Science and AI Master Program in Kochi with Placement
+              Data Science and AI Master Program in Pune with Placement
               Assistance
             </h2>
             <ul>
               <li>
                 This course covers all the skills a data scientist must
-                possess.{" "}
+                possess.{' '}
               </li>
               <li>
                 The MAANG and MNC experts guide the working professionals having
@@ -1506,7 +1506,7 @@ const CitiesRight = ({
               <li>The trainers have 8+ years of experience.</li>
               <li>
                 The course teaches you data structure algorithms, Business
-                Analytics, and the basics.{" "}
+                Analytics, and the basics.{' '}
               </li>
               <li>
                 To make your experience relevant, Leanbay’s Data Science Course
@@ -1514,12 +1514,12 @@ const CitiesRight = ({
               </li>
               <li>
                 The 3-year subscription gives you limitless access to learning
-                materials.{" "}
+                materials.{' '}
               </li>
               {/* <li>The course comes at just ₹1,20,000 + 18% GST. </li> */}
 
               <h3 className={styles.pHead}>
-                Highlights of Data Science and AI Master Program in Kochi
+                Highlights of Data Science and AI Master Program in Pune
               </h3>
               <li>You can opt for either a weekday or a weekend batch</li>
               <li>Consists of 500+ hours of live sessions</li>
@@ -1528,17 +1528,17 @@ const CitiesRight = ({
             </ul>
 
             <h2 className={styles.pHead}>
-              Learnbay’s Domain-Specific Data Science Course in Kochi
+              Learnbay’s Domain-Specific Data Science Course in Pune
             </h2>
             <p>Some available domains are </p>
 
             <ol type="1">
               <li>
-                <b>Data Science for Sales and Marketing Professionals:</b>{" "}
+                <b>Data Science for Sales and Marketing Professionals:</b>{' '}
                 Without domain expertise, your data science abilities are
                 useless. From inventory management to merchandising, data
                 science applies in most areas of sales and marketing. Targeting
-                valuable customers has become an easy task now.{" "}
+                valuable customers has become an easy task now.{' '}
               </li>
               <li>
                 <b>Data Science for HR:</b> Did you know you can reduce employee
@@ -1550,65 +1550,65 @@ const CitiesRight = ({
                 <b>Data Science for Healthcare Workers:</b> Data Science has
                 paved its way in the healthcare domain as well. From predicting
                 diseases early to collecting and sending real-time updates to
-                doctors, it has helped devise treatments efficiently.{" "}
+                doctors, it has helped devise treatments efficiently.{' '}
               </li>
               <li>
                 <b>Data Science in BFSI Domain:</b> Data Science in the BFSI
                 domain help in fraud detection, enhancing customer support, and
                 improving operational efficiency. A Data Science course helps
-                you gain an advantage over others in the same field.{" "}
+                you gain an advantage over others in the same field.{' '}
               </li>
               <li>
                 <b>
                   Data Science in Manufacturing, Automotive, and Telecom Domain:
-                </b>{" "}
+                </b>{' '}
                 The <b>online data science training</b> in this domain helps you
                 learn how data is collected in different manufacturing settings.
                 It also gives you a brief knowledge of the telecom sector’s
-                network performance improvement.{" "}
+                network performance improvement.{' '}
               </li>
 
               <li>
-                <b>Data Science in Oil, Gas, and Energy Domain:</b> A{" "}
+                <b>Data Science in Oil, Gas, and Energy Domain:</b> A{' '}
                 <b>data science course</b> in this domain teaches you the role
                 of analytics and data science in the energy sector and oil and
-                gas industry.{" "}
+                gas industry.{' '}
               </li>
 
               <li>
-                <b>Data Science in Media, Hospitality, and Transport Domain:</b>{" "}
+                <b>Data Science in Media, Hospitality, and Transport Domain:</b>{' '}
                 This course teaches you everything from identifying hotel issues
                 to satisfying customer needs by improving business
-                strategies.{" "}
+                strategies.{' '}
               </li>
             </ol>
 
-            <h2 className={styles.pHead}>Data Science Trends in Kochi </h2>
+            <h2 className={styles.pHead}>Data Science Trends in Pune </h2>
 
             <p>
               The experts have predicted that by 2026, the industry will have
               1105 million data scientist jobs. Both private and public sector
               firms need data scientists to function efficiently. Learnbay
               provides its learners with flexible training options. You can
-              choose online or offline training sessions to avail the{" "}
-              <b>data science course in Kochi</b>. You can also access recorded
+              choose online or offline training sessions to avail the{' '}
+              <b>data science course in Pune</b>. You can also access recorded
               lecture videos to learn anytime you want.
             </p>
 
             <h2 className={styles.pHead}>
-              Best Data Science Training Institute in Kochi
+              Best Data Science Training Institute in Pune
             </h2>
 
             <p>
-              Ever found yourself wondering about the{" "}
-              <b>Best Data Science Training Institute in Kochi</b>? Well, this
-              is the right place for you. Learnbay provides you with live
-              training at affordable prices. Want to stand out in your domain?
-              Take the course by{" "}
+              Ever found yourself wondering about the{' '}
+              <b>Best Data Science Training Institute in Pune</b>? Well, this is
+              the right place for you. Learnbay provides you with live training
+              at affordable prices. Want to stand out in your domain? Take the
+              course by{' '}
               <a
                 href="https://www.learnbay.co/data-science-course-training-in-pune"
                 target="_blank"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 Learnbay Institute
               </a>
@@ -1623,7 +1623,7 @@ const CitiesRight = ({
             </p>
 
             <h2 className={styles.pHead}>
-              Why Choose Learnbay Data Science Training Institute in Kochi?
+              Why Choose Learnbay Data Science Training Institute in Pune?
             </h2>
             <ul>
               <li>IBM Certified Capstone</li>
@@ -1641,38 +1641,38 @@ const CitiesRight = ({
             <h2 className={styles.pHead}>Did You Know? </h2>
 
             <p>
-              The average <b>data scientist salary in Kochi</b> is ₹8,20,000 per
+              The average <b>data scientist salary in Pune</b> is ₹8,20,000 per
               year? Learnbay’s <b>online data science training</b> allows you to
               break through your career in this field! <br />
               <br />
-              <b>Learnbay</b> also provides classroom mode for{" "}
+              <b>Learnbay</b> also provides classroom mode for{' '}
               <a
                 href="https://www.learnbay.co/machine-learning-course-training-in-pune"
                 target="_blank"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 machine learning
-              </a>{" "}
-              and{" "}
+              </a>{' '}
+              and{' '}
               <a
                 href="https://www.learnbay.co/artificial-intelligence-ai-course-training-pune"
                 target="_blank"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
-                artificial intelligence courses in Kochi
-              </a>{" "}
+                artificial intelligence courses in Pune
+              </a>{' '}
               and data science courses.
             </p>
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {cityTextDSDelhi ? (
           <div className={styles.CitiesRightInner}>
             <p>
               The <b>Data Scientist course in Delhi</b> is in high demand.
-              Learnbay has collaborated with IBM to provide the{" "}
+              Learnbay has collaborated with IBM to provide the{' '}
               <b>data science course</b>. Once you complete the course, you get
               globally recognized dual certification. It paves your way to
               becoming an industry-competent data scientist. Learnbay has a
@@ -1697,7 +1697,7 @@ const CitiesRight = ({
               the right knowledge to get into a good company.
             </p>
             <p>
-              To balance the learning process, we have curated the{" "}
+              To balance the learning process, we have curated the{' '}
               <b>data science training</b> so that you get practical and
               theoretical learning in a 70:30 ratio. Learnbay Institute offers
               the most cost-effective <b>Data Science course in Delhi</b>.
@@ -1717,7 +1717,7 @@ const CitiesRight = ({
             <p>
               Learnbay’s <b>Data Science course in Delhi</b> is one of the best
               choices you can make since we provide domain-specific training.
-              Even if you have a non-technical background, our online{" "}
+              Even if you have a non-technical background, our online{' '}
               <b>Data Science training</b> will help you get on the same level
               as learners with a technical background. We have a flexible lesson
               schedule for you to learn at your own pace.
@@ -1738,7 +1738,7 @@ const CitiesRight = ({
               <li>Deep Learning </li>
             </ul>
             <p>
-              The course duration of the online{" "}
+              The course duration of the online{' '}
               <b>Data Science training in Delhi</b> is 250+ hours. Our trained
               professionals will tutor you for almost 9 months.
             </p>
@@ -1799,7 +1799,7 @@ const CitiesRight = ({
               statistical thinking, and an introduction to statistics. <br />
               You will learn how to use matrices in Python, including Element
               indexing, matrix multiplication, and matrix transpose, as well as
-              data processing and exploratory data analysis, in Learnbay's{" "}
+              data processing and exploratory data analysis, in Learnbay's{' '}
               <b>data science course</b>. Beginning in week 2, the curriculum
               will also cover case studies employing statistics and
               problem-solving techniques. Learners will complete a total of 4
@@ -1863,7 +1863,7 @@ const CitiesRight = ({
               cloud lab at their convenience.
             </p>
             <p>
-              Upon completing these structured 4-Terms{" "}
+              Upon completing these structured 4-Terms{' '}
               <b>Learnbay's Data Science Training</b>, you will be confident in
               your ability to perform your "SuperHero duty" as a Data Scientist
               in leading firms.
@@ -1918,16 +1918,16 @@ const CitiesRight = ({
 
             <h2 className={styles.pHead}>
               Data Science Foundation Program in Delhi with Placement
-              Assistance{" "}
+              Assistance{' '}
             </h2>
             <p>
               Do you want to pursue a successful career in data science? To meet
-              your needs, Learnbay provides a variety of programs.{" "}
+              your needs, Learnbay provides a variety of programs.{' '}
             </p>
             <ul>
               <li>
                 The Data Science Foundation Program is appropriate for beginners
-                with a non-IT background.{" "}
+                with a non-IT background.{' '}
               </li>
               <li>
                 The program will teach you the fundamentals of Python, Anaconda,
@@ -1951,7 +1951,7 @@ const CitiesRight = ({
               <li>
                 The Advance Data Science and AI Program is a wonderful option
                 for students seeking more in-depth knowledge of data
-                science.{" "}
+                science.{' '}
               </li>
               <li>
                 This course provides in-depth training and helps you deeply
@@ -1970,7 +1970,7 @@ const CitiesRight = ({
 
             <h2 className={styles.pHead}>
               Data Science and AI program for Managers and Leaders in Delhi with
-              Placement Assistance{" "}
+              Placement Assistance{' '}
             </h2>
             <ul>
               <li>
@@ -1980,7 +1980,7 @@ const CitiesRight = ({
               </li>
               <li>
                 The course helps you with a smooth transition, and
-                domain-specific projects offer you an edge over others.{" "}
+                domain-specific projects offer you an edge over others.{' '}
               </li>
 
               <h3 className={styles.pHead}>
@@ -1998,7 +1998,7 @@ const CitiesRight = ({
 
             <h2 className={styles.pHead}>
               Data Science and AI Master Program in Delhi with Placement
-              Assistance{" "}
+              Assistance{' '}
             </h2>
 
             <ul>
@@ -2010,7 +2010,7 @@ const CitiesRight = ({
               <li>
                 This custom-fit course lets you master Data Science and AI
                 effectively and efficiently, with intensive training of 500+
-                hours.{" "}
+                hours.{' '}
               </li>
               <li>
                 With Learnbay's professional programs, you may begin your Data
@@ -2090,11 +2090,11 @@ const CitiesRight = ({
               From banking, cyber security, and financial institutions to the
               education and healthcare sectors, there is a huge scope for the
               application of data science. By 2030, the data science market
-              trends will reach a valuation of <b>USD 378.7 billion</b>.{" "}
+              trends will reach a valuation of <b>USD 378.7 billion</b>.{' '}
             </p>
 
             <p>
-              People interested in enrolling in a{" "}
+              People interested in enrolling in a{' '}
               <b>Data Science Course in Delhi</b> can choose from various
               flexible learning alternatives at Learnbay. To accommodate their
               schedules, students can attend classes on weekdays or weekends and
@@ -2105,19 +2105,19 @@ const CitiesRight = ({
               Best Data Science Training Institute in Delhi
             </h2>
             <p>
-              Learnbay is the <b>best data training institute in Delhi</b>{" "}
+              Learnbay is the <b>best data training institute in Delhi</b>{' '}
               thanks to its individualized and industry-specific courses, which
               provide students with a competitive advantage. Learnbay delivers
-              real-time, qualitative training at affordable pricing.{" "}
+              real-time, qualitative training at affordable pricing.{' '}
             </p>
             <p>
               <a
                 href="https://www.learnbay.co/"
                 target="_blank"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 Learnbay institute
-              </a>{" "}
+              </a>{' '}
               has proudly assisted over 500+ aspirants in pursuing their dream
               careers. <b>IBM</b>, being our accreditation partner, has global
               recognition. Looking forward to getting high-quality and
@@ -2129,16 +2129,16 @@ const CitiesRight = ({
             <h2 className={styles.pHead}>Did you know?</h2>
 
             <p>
-              Data science is a lucrative area because the{" "}
+              Data science is a lucrative area because the{' '}
               <b>average data scientist salary in Delhi</b> is close to INR 9.5
-              lakhs. <b>Learnbay</b> also provides classroom mode for{" "}
+              lakhs. <b>Learnbay</b> also provides classroom mode for{' '}
               <a
                 href="https://www.learnbay.co/datascience/delhi/machine-learning-course-training-in-delhi"
                 target="_blank"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 machine learning
-              </a>{" "}
+              </a>{' '}
               and artificial intelligence courses in Delhi and data science .
             </p>
             <p>
@@ -2146,13 +2146,13 @@ const CitiesRight = ({
               a data scientist to organize their data. By 2025, the generation
               of everyday data is expected to reach 463 exabytes globally. It’s
               a number that is very hard to envision. To add to the amazement,
-              humans have collectively spoken only 5 exabytes of data.{" "}
+              humans have collectively spoken only 5 exabytes of data.{' '}
             </p>
 
             {/* <YoutubeVideo/> */}
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {cityTextDSChennai ? (
@@ -2161,7 +2161,7 @@ const CitiesRight = ({
               <b>Data Science Certification from Learnbay</b>
             </h2>
             <p>
-              Step up your career with the best{" "}
+              Step up your career with the best{' '}
               <b>Data Science certification</b> from Learnbay, one of the
               leading training centres in Chennai. This training program
               perfectly blends theory, case studies, hackathons, capstone, and
@@ -2170,7 +2170,7 @@ const CitiesRight = ({
               the market. With the global certification, it stands out to
               recruiters all around the world. Post completion of the course,
               one will be awarded the IBM certification and a proud Learnbay
-              Alumni.{" "}
+              Alumni.{' '}
             </p>
             <h2 className={styles.pHead}>
               <b>What is the certification process?</b>
@@ -2188,10 +2188,10 @@ const CitiesRight = ({
               <b>Data Science Course Training In Chennai</b>
             </h2>
             <p>
-              Learnbay offers a domain-specialised{" "}
+              Learnbay offers a domain-specialised{' '}
               <a
                 href="https://www.learnbay.co/data-science-course-training-in-chennai"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
                 target="_blank"
               >
                 Data Science course in Chennai
@@ -2202,10 +2202,10 @@ const CitiesRight = ({
               Exploration, Feature Engineering, model building, Data
               Visualization and implementing the solution. Further, statistical
               Analysis, Tableau, Hadoop, Regression Modelling, Predictive
-              Analytics,{" "}
+              Analytics,{' '}
               <a
                 href="https://www.learnbay.co/machine-learning-course-training-in-chennai"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
                 target="_blank"
               >
                 Machine Learning
@@ -2215,12 +2215,12 @@ const CitiesRight = ({
               this data science training.
             </p>
             <p>
-              Learnbay is said to be the best{" "}
+              Learnbay is said to be the best{' '}
               <b>Data Science training institute in Chennai</b> which provides
               exclusive services from hands-on practical sessions to placement
               as part of the Data science training with around 1000+ students
               placed in MNCs such as Accenture, TCS, Infosys, EY, IBM, and
-              others. Learnbay delivers rigorous{" "}
+              others. Learnbay delivers rigorous{' '}
               <b>Data Science online training in Chennai</b> and is considered
               the best in the industry. The <b>data science course fee</b> at
               Learnbay institute ranges from INR 1,20,000 to INR 1,59,000,
@@ -2230,7 +2230,7 @@ const CitiesRight = ({
             {read ? (
               <>
                 <h2 className={styles.pHead}>
-                  Why Choose Learnbay For A Data Science Course In{" "}
+                  Why Choose Learnbay For A Data Science Course In{' '}
                   <b>Chennai</b>?
                 </h2>
                 <p>
@@ -2253,7 +2253,7 @@ const CitiesRight = ({
                   Most of our instructors are IIT and IIM graduates, some of
                   whom are Ph.D. professionals and experienced Data Scientists
                   with 15+ years of industry expertise. Because of our dedicated
-                  faculty, Learnbay's certification is regarded as the best{" "}
+                  faculty, Learnbay's certification is regarded as the best{' '}
                   <b>Data Science certification course</b> available in the
                   market. Learnbay provides a hybrid learning approach where
                   students can take advantage of the classrooms, instructor-led
@@ -2339,21 +2339,21 @@ const CitiesRight = ({
                   <b>Chennai</b>
                 </h2>
                 <p>
-                  Learnbay provides the best{" "}
+                  Learnbay provides the best{' '}
                   <b>Data Science certification online training in Chennai</b>,
                   along with 7+ domain electives. It also conducts live project
                   sessions at multiple project innovative centres across 7+
-                  cities. The detailed description of the{" "}
+                  cities. The detailed description of the{' '}
                   <b>Data Science courses in Chennai</b> are available in the
-                  course Syllabus.{" "}
+                  course Syllabus.{' '}
                 </p>
                 <h2 className={styles.pHead}>
                   Who Should Enrol in the Data Science Course?
                 </h2>
                 <p>
-                  These professionals might consider taking a{" "}
+                  These professionals might consider taking a{' '}
                   <b>Data Science course in Chennai</b> as the next genuine move
-                  to advance their career:{" "}
+                  to advance their career:{' '}
                 </p>
                 <ul>
                   <li>
@@ -2380,7 +2380,7 @@ const CitiesRight = ({
                   course training along with capstone+live projects. As part of
                   this program, candidates will be subjected to a complete
                   interview preparation process on Data Science and AI. The
-                  participants will also have access to a vast repository of{" "}
+                  participants will also have access to a vast repository of{' '}
                   <b>Data Science Interview questions and answers</b> to help
                   them become confident and job-ready. A dedicated Data Science
                   mentor will help with soft-skill training, resume/portfolio
@@ -2390,32 +2390,32 @@ const CitiesRight = ({
                   supervision during the interview preparation phase until the
                   candidate is placed in the desired position. In addition,
                   mentorship is provided on Linkedin profile building and
-                  insider tips for enhancing the marketability of a resume.{" "}
+                  insider tips for enhancing the marketability of a resume.{' '}
                 </p>
               </>
             ) : (
-              ""
+              ''
             )}
             <p
               style={{
-                color: "#2D9CD7",
-                fontWeight: "600",
-                textDecoration: "underline",
-                cursor: "pointer",
+                color: '#2D9CD7',
+                fontWeight: '600',
+                textDecoration: 'underline',
+                cursor: 'pointer',
               }}
               onClick={handler}
               className={styles.readP}
             >
-              {read ? "View Less..." : "View More..."}
+              {read ? 'View Less...' : 'View More...'}
             </p>
             <YoutubeEmbed embedId="1Y0JwDAuthg" />
           </div>
         ) : (
-          ""
+          ''
         )}
         {cityTextDSUSA ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               About the Prime <b> Data Science Course</b> Curated in
               Collaboration with IBM
             </h4>
@@ -2423,16 +2423,16 @@ const CitiesRight = ({
               Learnbay anticipates a favorable career switch for mid-career
               level pros from diverse fields in the US. As per the BLS report,
               employment growth for data science careers in the USA projects a
-              35.2% rise by 2032 with prime offers. Plus, our{" "}
+              35.2% rise by 2032 with prime offers. Plus, our{' '}
               <b>
                 <a
-                  style={{ color: "rgb(45, 156, 215)" }}
+                  style={{ color: 'rgb(45, 156, 215)' }}
                   href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
                   target="_blank"
                 >
                   data scientist certification program
                 </a>
-              </b>{" "}
+              </b>{' '}
               in alliance with IBM leads the career race. We believe in
               360-degree knowledge-building to reach the peak of career success
               with sought-after skills.
@@ -2463,8 +2463,8 @@ const CitiesRight = ({
               <li>Good domain knowledge with basic on-field expertise</li>
             </ul>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
-              What career gains will this <b>data science training in USA</b>{" "}
+            <h4 style={{ fontSize: '20px' }}>
+              What career gains will this <b>data science training in USA</b>{' '}
               offer in collab with IBM ?
             </h4>
             <p>
@@ -2502,11 +2502,11 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
         {cityTextMasterUSA ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Presenting Learnbay’s GenAI-rich Data Science Master Degrees
             </h4>
             <p>
@@ -2551,7 +2551,7 @@ const CitiesRight = ({
               University) and IBM project certificate empower your career. .
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Course Features Advancing to a Global-level Career
             </h4>
             <p>
@@ -2562,10 +2562,10 @@ const CitiesRight = ({
             <br />
             <ul>
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>GenAI-rich Syllabus:</i>
-                </b>{" "}
+                </b>{' '}
                 You can upgrade your skill sets as per the latest Generative AI
                 trends. Our syllabus consists of basic and practical learning
                 modules. It ensures hands-on learning of tools via live projects
@@ -2573,68 +2573,68 @@ const CitiesRight = ({
               </li>
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>Industry-specific Mentoring:</i>
-                </b>{" "}
+                </b>{' '}
                 You will get industry-focused training from renowned experts
                 across MNCs. It helps you solve business issues with tactful
-                solutions.{" "}
+                solutions.{' '}
               </li>
 
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>Career Service Pro:</i>
-                </b>{" "}
+                </b>{' '}
                 Our online <b>masters in data science USA</b> offers 100% job
                 support. Our dedicated placement cell helps you refine and
                 cultivate data literacy skills. You will get endless job support
-                here – from interview calls to resume building.{" "}
+                here – from interview calls to resume building.{' '}
               </li>
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>Effortless Immigration:</i>
-                </b>{" "}
+                </b>{' '}
                 With our master’s program, you can have hassle-free immigration
                 facilities across 60+ countries. It expands your global
-                networking limits with increased chances of career success.{" "}
+                networking limits with increased chances of career success.{' '}
               </li>
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>Globally Accredited Master’s Degree:</i>
-                </b>{" "}
+                </b>{' '}
                 You will receive a globally recognized master’s degree (Woolf
                 University) with better job prospects. This degree enriches your
                 career value similar to a master's in 60+ Western
-                countries.{" "}
+                countries.{' '}
               </li>
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>Globally Recognized IBM Project Certificate:</i>
-                </b>{" "}
+                </b>{' '}
                 Our <b>MS in data science in USA</b> offers an IBM project
                 certificate to help you join the emerging data workforce. IBM
                 certificate validates your learned skills and you can land your
-                dream job.{" "}
+                dream job.{' '}
               </li>
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {cityTextDSUK ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
-              Presenting an Industry-driven Data Science Course in UK{" "}
+            <h4 style={{ fontSize: '20px' }}>
+              Presenting an Industry-driven Data Science Course in UK{' '}
             </h4>
             <p>
               As per the Bureau of Labor Statistics report, data scientists’
@@ -2667,37 +2667,37 @@ const CitiesRight = ({
               roles in the data science field. Our best data science courses
               craft a hassle-free way for global-scale knowledge gains. We offer
               an open learning space to understand real-world business issues in
-              the UK and tackle them via live projects.{" "}
+              the UK and tackle them via live projects.{' '}
             </p>
 
             <p>
               Data science is an evolving field that ascertains a financially
               growing future for the UK. Apart from the business world, the UK’s
               job market outlook expects a rising future for working pros in
-              diverse sectors.{" "}
+              diverse sectors.{' '}
             </p>
             <p>
               A data scientist on average earns £59,431 per year in London, UK.
               With the required skill sets and experience, a Lead Data Scientist
               can expect a rise to £88,334 per year. Thus, the demand for online
-              data science programs keeps growing.{" "}
+              data science programs keeps growing.{' '}
             </p>
             <p>
               Our best data science courses offer globally recognised
               certifications from tech giants like IBM. With basic numeric
               skills and domain knowledge, anyone can enroll in our program,
-              revitalizing their careers.{" "}
+              revitalizing their careers.{' '}
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
-              Career Gains with Our Data Science Course in UK{" "}
+            <h4 style={{ fontSize: '20px' }}>
+              Career Gains with Our Data Science Course in UK{' '}
             </h4>
             <p>
               Working pros have opted for several pathways to re-establish their
               careers in proven fields in the past few years. Data science is
               pivotal for driving captivating success with global-level offers
               in your domain. Experts in the UK opt for industry-focused data
-              science courses with exclusive career gains.{" "}
+              science courses with exclusive career gains.{' '}
             </p>
             <p>Our data scientist course UK offers –</p>
             <br />
@@ -2711,14 +2711,14 @@ const CitiesRight = ({
               <li>
                 <b>Domain-specific learning:</b> Experts from various fields can
                 enroll with us to get domain-specific learning and improve the
-                prior experience.{" "}
+                prior experience.{' '}
               </li>
               <br />
               <li>
                 <b>Hands-on learning:</b> Best data science courses by Learnbay
                 offer hands-on learning gains to its learners via live projects.
                 Here, you can enrich your domain expertise with the latest data
-                trends.{" "}
+                trends.{' '}
               </li>
               <br />
               <li>
@@ -2734,12 +2734,12 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {cityTextMastergermany ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Briefing Our Master’s Degree in Data Science in Germany [In
               Alliance with IBM & Woolf]
             </h4>
@@ -2748,11 +2748,11 @@ const CitiesRight = ({
               science to drive higher yields and strategize operations. The
               majority of IT and business establishments in Germany are seeking
               proficient data scientists to distinguish themselves from their
-              competitors. Thus, upskilling via a <b>masters in data science</b>{" "}
+              competitors. Thus, upskilling via a <b>masters in data science</b>{' '}
               is vital for global-scale career growth.
             </p>
             <p>
-              Experts eager to redefine their careers opt for the{" "}
+              Experts eager to redefine their careers opt for the{' '}
               <b>best data science masters programs</b> with valuable returns.
               According to research projections, Germany's IT sector is expected
               to reach $129 billion by 2025, expanding the opportunities for
@@ -2775,7 +2775,7 @@ const CitiesRight = ({
             </p>
 
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Enlisting Features of Masters in Data Science and AI Program
             </h4>
             <br />
@@ -2800,12 +2800,12 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {cityTextDSNGR ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Introducing Learnbay’s <b> Data Science Training in Nigeria</b> in
               alliance with IBM
             </h4>
@@ -2814,7 +2814,7 @@ const CitiesRight = ({
               infinite options for career growth in data science. In the
               upcoming years, Nigeria expects a notable rise in demand for data
               scientists to make insightful progress. Thus, the enrollment rates
-              in an industry-focused{" "}
+              in an industry-focused{' '}
               <b>
                 <a
                   href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
@@ -2822,20 +2822,20 @@ const CitiesRight = ({
                 >
                   data science course
                 </a>
-              </b>{" "}
+              </b>{' '}
               in Nigeria increased.
             </p>
             <p>
               In Nigeria, Learnbay is widely known for its industry-specific
               training, supporting mid-career-level growth. Regardless of
               IT/non-IT domain, working pros join us for a swift career with
-              proven gains. Owing to the rising trend of{" "}
+              proven gains. Owing to the rising trend of{' '}
               <b>data science in Nigeria</b> , Learnbay steps forward for
               industry-driven career upskilling with assured success.
             </p>
             <p>
               Anyone can <b> learn data science in Nigeria</b> if they fulfill
-              the primary requisites. They are –{" "}
+              the primary requisites. They are –{' '}
             </p>
             <br />
 
@@ -2844,7 +2844,7 @@ const CitiesRight = ({
               <li>Primary knowledge of domain/stream.</li>
             </ul>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               In what ways does Learnbay’s collaboration with IBM help in your
               career rise?
             </h4>
@@ -2888,11 +2888,11 @@ const CitiesRight = ({
             </p>
           </div>
         ) : (
-          ""
+          ''
         )}
         {cityTextDSVM ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Overview of Learnbay’s Premium Data Science Training in Vietnam
               [In Alliance with IBM ]
             </h4>
@@ -2919,7 +2919,7 @@ const CitiesRight = ({
               prospering job roles.
             </p>
             <p>
-              The enrollment rates for <b>data science certificate programs</b>{" "}
+              The enrollment rates for <b>data science certificate programs</b>{' '}
               in Vietnam keep increasing due to industry demands. Yet, many
               experts have to drop their career switch decisions as they need
               more than the bare minimum of skills and knowledge.
@@ -2935,7 +2935,7 @@ const CitiesRight = ({
               <li>Elementary knowledge of domain disciplines.</li>
             </ul>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               How does Learnbay’s <b>data science course</b> in alliance with
               IBM uplift your career?
             </h4>
@@ -2948,8 +2948,8 @@ const CitiesRight = ({
               tactfully.
             </p>
             <p>
-              So, who is eligible for Learnbay’s{" "}
-              <b>data science certificate programs?</b>{" "}
+              So, who is eligible for Learnbay’s{' '}
+              <b>data science certificate programs?</b>{' '}
             </p>
             <br />
             <ul>
@@ -2977,8 +2977,8 @@ const CitiesRight = ({
             <p>
               Our globally recognized certificates help you build a strong
               portfolio with industry validation for your skills. Unlike generic
-              courses, Learnbay’s{" "}
-              <b style={{ color: "#0072BC" }}>
+              courses, Learnbay’s{' '}
+              <b style={{ color: '#0072BC' }}>
                 <a
                   href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
                   target="_blank"
@@ -2986,8 +2986,8 @@ const CitiesRight = ({
                   data science course
                 </a>
                 <br />
-              </b>{" "}
-              in alliance with IBM offers alluring career gains –{" "}
+              </b>{' '}
+              in alliance with IBM offers alluring career gains –{' '}
             </p>
             <br />
             <br />
@@ -3000,11 +3000,11 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
         {cityTextVI ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Tổng quan về Khóa đào tạo Khoa học Dữ liệu Cao cấp của Learnbay
               tại Việt Nam [Liên minh với IBM ]
             </h4>
@@ -3035,12 +3035,12 @@ const CitiesRight = ({
               sự nghiệp của họ và đạt được các vai trò công việc phát triển.
             </p>
             <p>
-              Tỷ lệ nhập học cho các{" "}
-              <b style={{ color: "#0072BC" }}>
+              Tỷ lệ nhập học cho các{' '}
+              <b style={{ color: '#0072BC' }}>
                 <a href="https://www.learnbay.co/" target="_blank">
                   chương trình chứng chỉ khoa học dữ liệu
                 </a>
-              </b>{" "}
+              </b>{' '}
               ở Việt Nam tiếp tục tăng do nhu cầu của ngành công nghiệp. Tuy
               nhiên, nhiều chuyên gia phải từ bỏ quyết định chuyển đổi sự nghiệp
               của họ vì họ cần nhiều hơn là kiến thức và kỹ năng tối thiểu.
@@ -3057,7 +3057,7 @@ const CitiesRight = ({
               <li>Kiến thức cơ bản về các lĩnh vực chuyên ngành.</li>
             </ul>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Làm thế nào Khóa học <b>khoa học dữ liệu của Learnbay</b> phối hợp
               với IBM nâng cao sự nghiệp của bạn?
             </h4>
@@ -3071,7 +3071,7 @@ const CitiesRight = ({
               khéo léo.
             </p>
             <p>
-              Vậy, ai được xem là phù hợp để tham gia vào các{" "}
+              Vậy, ai được xem là phù hợp để tham gia vào các{' '}
               <b>chương trình chứng chỉ khoa học dữ liệu của Learnbay?</b>
             </p>
             <br />
@@ -3102,15 +3102,15 @@ const CitiesRight = ({
             <p>
               Các chứng chỉ được công nhận toàn cầu của chúng tôi giúp bạn xây
               dựng một hồ sơ mạnh mẽ với sự chứng nhận của ngành công nghiệp cho
-              kỹ năng của bạn. Khóa học{" "}
-              <b style={{ color: "#0072BC" }}>
+              kỹ năng của bạn. Khóa học{' '}
+              <b style={{ color: '#0072BC' }}>
                 <a
                   href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
                   target="_blank"
                 >
                   khoa học dữ liệu
                 </a>
-              </b>{" "}
+              </b>{' '}
               ở Liên minh với IBM cung cấp các lợi ích sự nghiệp hấp dẫn –
             </p>
             <br />
@@ -3125,12 +3125,12 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {cityTextDSSingapore ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               About a Rewarding <b>Data Scientist Course in Singapore</b> in
               Alliance with IBM
             </h4>
@@ -3152,17 +3152,17 @@ const CitiesRight = ({
               The Asia-Pacific presence of IBM anticipates a digitally skilled
               workforce to face major risks with tactful results. Thus, our
               alliance with these two tech giants proves an industrious step
-              toward bridging skills gaps. Indeed, Learnbay’s{" "}
+              toward bridging skills gaps. Indeed, Learnbay’s{' '}
               <b>data scientist course Singapore</b> extends a fulfilling step
               for career enthusiasts by all means.
             </p>
             <p>
-              The{" "}
-              <b style={{ color: "#0072bc" }}>
+              The{' '}
+              <b style={{ color: '#0072bc' }}>
                 <a href="https://www.learnbay.co/" target="_blank">
                   data science courses
                 </a>
-              </b>{" "}
+              </b>{' '}
               offered by Learnbay provide a comprehensive learning environment
               for both Singaporeans and international students. Yet, one must
               fulfill the vital criteria set for this career upskilling and they
@@ -3175,8 +3175,8 @@ const CitiesRight = ({
               <li>Proven domain knowledge</li>
             </ul>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
-              What career benefits will Learnbay’s{" "}
+            <h4 style={{ fontSize: '20px' }}>
+              What career benefits will Learnbay’s{' '}
               <b>data science course in Singapore</b> offer in alliance with IBM
               ?
             </h4>
@@ -3215,10 +3215,10 @@ const CitiesRight = ({
             </ul>
 
             <p>
-              Learnbay also offers{" "}
+              Learnbay also offers{' '}
               <b>
                 data science courses in Singapore for international students
-              </b>{" "}
+              </b>{' '}
               eager to kick-start a thriving career. Additionally, mid-career
               level managers and leaders can enroll here to elevate their
               decisiveness. Furthermore, BFSI, HR, and Marketing experts can opt
@@ -3226,11 +3226,11 @@ const CitiesRight = ({
             </p>
           </div>
         ) : (
-          ""
+          ''
         )}
         {cityTextDSSAfrica ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Introducing Learnbay’s Data Science Online Course in South Africa
             </h4>
             <p>
@@ -3252,7 +3252,7 @@ const CitiesRight = ({
             <p>
               Experts eager for a data-driven career can join our best data
               science courses but before this, you must fulfil the requisites
-              –{" "}
+              –{' '}
             </p>
             <br />
             <ul>
@@ -3260,8 +3260,8 @@ const CitiesRight = ({
               <li>Basic domain expertise </li>
             </ul>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
-              What prime career gains do Learnbay’s{" "}
+            <h4 style={{ fontSize: '20px' }}>
+              What prime career gains do Learnbay’s{' '}
               <b>data scientist courses in South Africa</b> offer?
             </h4>
 
@@ -3269,7 +3269,7 @@ const CitiesRight = ({
               Learnbay’s best data science certification programs unlock a
               successful career path with promising growth options. Working pros
               eager to join us to drive career excellence must check their
-              eligibility here –{" "}
+              eligibility here –{' '}
             </p>
 
             <br />
@@ -3297,11 +3297,11 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
         {cityTextBangla ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Presenting Learnbay’s Data Science Certification Course in
               Bangladesh
             </h4>
@@ -3314,7 +3314,7 @@ const CitiesRight = ({
               increasing, paving the way for prime job offers.
             </p>
             <p>
-              Amidst tech-driven shifts, the demand for industry-focused{" "}
+              Amidst tech-driven shifts, the demand for industry-focused{' '}
               <b>data science training in Bangladesh</b> soars. Working pros in
               diverse domains come forward to upgrade their skill sets as per
               the current data trends. Learnbay’s premium data science courses
@@ -3329,14 +3329,14 @@ const CitiesRight = ({
             </p>
             <p>
               Working pros eager to re-establish themselves in their career
-              zones enroll in Learnbay’s{" "}
+              zones enroll in Learnbay’s{' '}
               <b>data science course in Bangladesh.</b> Our live training
               sessions by industry experts help you gain domain-specific
               knowledge. Expert feedback and 1:1 doubt-clearing sessions offer
               an in-depth learning experience.
             </p>
             <p>
-              Plus, Learnbay offers the best <b>data science certification</b>{" "}
+              Plus, Learnbay offers the best <b>data science certification</b>{' '}
               in alliance with IBM . It enriches career paths with global job
               offers and better hikes in your dream roles.
             </p>
@@ -3352,13 +3352,13 @@ const CitiesRight = ({
               <li>Basic domain skills </li>
             </ul>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
-              What career gains can you expect from Learnbay’s{" "}
+            <h4 style={{ fontSize: '20px' }}>
+              What career gains can you expect from Learnbay’s{' '}
               <b>data science certification course?</b>
             </h4>
 
             <p>
-              Learnbay is widely known for the <b>best data science courses</b>{" "}
+              Learnbay is widely known for the <b>best data science courses</b>{' '}
               available in Bangladesh. It helps working from diverse fields
               rethink their career paths and redefine them with better job
               offers. Experts interested in having an effortless career switch
@@ -3400,11 +3400,11 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
         {cityTextDhaka ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Briefing on a Trend-setting Data Science Course in Dhaka
             </h4>
             <p>
@@ -3432,7 +3432,7 @@ const CitiesRight = ({
               with excelling job roles.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What are the vital career gains that you can expect from our data
               science training institute in Dhaka?
             </h4>
@@ -3457,12 +3457,12 @@ const CitiesRight = ({
             </p>
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {cityTextDSMalaysia ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               About Data Science Course in Malaysia In Collaboration with IBM
             </h4>
             <p>
@@ -3522,14 +3522,14 @@ const CitiesRight = ({
             </p>
             <p>
               So, if you are eager to redefine your career in the data science
-              field, enroll in Learnbay’s{" "}
+              field, enroll in Learnbay’s{' '}
               <a
-                style={{ color: "#0072bc" }}
+                style={{ color: '#0072bc' }}
                 href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
                 target="_blank"
               >
                 best data science courses.
-              </a>{" "}
+              </a>{' '}
               Before that, ensure the requisites –
             </p>
             <br />
@@ -3542,14 +3542,14 @@ const CitiesRight = ({
             <p>
               <b>
                 <i>Note:</i>
-              </b>{" "}
+              </b>{' '}
               Anyone from computer science or non-technical fields can enroll in
               our course. If you have a bachelor's degree in computer science,
               management, or other fields, our data science programs are here to
-              level up your career.{" "}
+              level up your career.{' '}
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What are the prime career benefits of Learnbay’s best data science
               courses?
             </h4>
@@ -3566,7 +3566,7 @@ const CitiesRight = ({
             </p>
             <br />
             <b>
-              {" "}
+              {' '}
               <i>Prime career gains are –</i>
             </b>
 
@@ -3576,9 +3576,9 @@ const CitiesRight = ({
               <li>
                 <b>
                   <i>GenAI-rich upskilling:</i>
-                </b>{" "}
+                </b>{' '}
                 Learners get in-depth training on data science tools and trends
-                in the GenAI age.{" "}
+                in the GenAI age.{' '}
               </li>
               <br />
               <li>
@@ -3592,10 +3592,10 @@ const CitiesRight = ({
               <li>
                 <b>
                   <i>Experimental learning:</i>
-                </b>{" "}
+                </b>{' '}
                 Experts with our data science course get hands-on learning of
                 tools via live projects. It expands knowledge limits with
-                industry-focused skills.{" "}
+                industry-focused skills.{' '}
               </li>
               <br />
               <li>
@@ -3618,11 +3618,11 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
         {cityTextDSAustin ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Briefing on Broadly Designed Data Science Course Austin in
               Collaboration with IBM
             </h4>
@@ -3664,26 +3664,26 @@ const CitiesRight = ({
               University.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What are the major career gains our data science course in Austin
-              offers?{" "}
+              offers?{' '}
             </h4>
             <p>
               The field of data science professionals is a multi-faceted one
-              with an incomparably engaging future. Upskilling with our{" "}
+              with an incomparably engaging future. Upskilling with our{' '}
               <b>
-                {" "}
+                {' '}
                 <a
-                  style={{ color: "#0072bc" }}
+                  style={{ color: '#0072bc' }}
                   href="https://www.learnbay.co/data-science-courses"
                   target="_blank"
                 >
                   best data science courses
                 </a>
-              </b>{" "}
+              </b>{' '}
               helps you modernize your careers with globally trending job roles.
               Constant learning of in-demand data science skills paves the way
-              for a global-level career shift.{" "}
+              for a global-level career shift.{' '}
             </p>
             <b>
               <p>
@@ -3700,12 +3700,12 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {cityTextDSEgypt ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Presenting Industry-driven Data Science Training in Egypt
             </h4>
             <p>
@@ -3735,7 +3735,7 @@ const CitiesRight = ({
             </p>
 
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Enlisting Career Gains with Best Data Science Courses
             </h4>
             <p>
@@ -3754,12 +3754,12 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {cityTextMasterAUS ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Briefing on Learnbay’s Master in Data Science and AI Program
             </h4>
             <p>
@@ -3804,7 +3804,7 @@ const CitiesRight = ({
               Australia and overseas.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Featuring the Best Data Science Masters in Australia
             </h4>
             <p>
@@ -3818,20 +3818,20 @@ const CitiesRight = ({
             <br />
             <ul>
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>GenAI-rich Syllabus:</i>
-                </b>{" "}
+                </b>{' '}
                 Experts enrolling with us will develop GenAI-rich skills
                 (ChatGPT) to deal with complex models. You will gain in-depth
                 knowledge of data science and AI, dominating diverse sectors.
               </li>
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i> Project-based Learning:</i>
-                </b>{" "}
+                </b>{' '}
                 Experts opting for our industry training programs will get
                 hands-on learning experience. You can learn the in-demand tools
                 via live projects as per today’s industry trends.
@@ -3839,30 +3839,30 @@ const CitiesRight = ({
 
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>Mentorship from renowned experts:</i>
-                </b>{" "}
+                </b>{' '}
                 You will get industry-focused training from renowned experts who
                 deliver their real-time experience. It helps in understanding
                 real-world business operations and ways to deal with them.
               </li>
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>Advantageous Immigration:</i>
-                </b>{" "}
+                </b>{' '}
                 Our masters in data science program has 60+ country approvals,
                 paving the way for advantageous immigration. It extends your
                 professional links with better job prospects.
               </li>
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>Career Service Pro:</i>
-                </b>{" "}
+                </b>{' '}
                 Career Service Pro: Unlike other universities in Australia, our
                 master’s in data science program offers 100% job assistance.
                 With Career Service Pro, you will gain everything – from resume
@@ -3870,20 +3870,20 @@ const CitiesRight = ({
               </li>
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>Globally Accredited Master’s Degree:</i>
-                </b>{" "}
+                </b>{' '}
                 Our courses are trending in Australia as they offer a globally
                 approved degree (Woolf). With 60+ countries approved, learners
                 can revamp their careers with lucrative offers.
               </li>
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>
                   <i>IBM Project Certificate:</i>
-                </b>{" "}
+                </b>{' '}
                 Learners opting for data science masters in Australia will
                 obtain an IBM project certificate. It validates the job-ready
                 skills to help you land your dream roles.
@@ -3891,11 +3891,11 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
         {DSindia ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               About Data Science Course in India In Collaboration with IBM
             </h4>
             <p>
@@ -3911,7 +3911,7 @@ const CitiesRight = ({
               Many businesses in the country prefer data-driven insights for
               operations and decision-making. Hence, the significant job
               prospects in the data science industry have reached the zenith.
-              Thus, working pros opt for upskilling at the{" "}
+              Thus, working pros opt for upskilling at the{' '}
               <b>best institute for data science in India</b> with better job
               offers.
             </p>
@@ -3974,7 +3974,7 @@ const CitiesRight = ({
               and speed up your career.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What are the potential career benefits of Learnbay’s data
               scientist institute in India?
             </h4>
@@ -3987,7 +3987,7 @@ const CitiesRight = ({
               Meanwhile, Gen-AI upskilling in data science unlocks ways to move
               toward successful career transitions. Here, the learners can gain
               an inclusive learning space to work with the latest GenAI tools
-              (ChatGPT) with ethical practices.{" "}
+              (ChatGPT) with ethical practices.{' '}
             </p>
             <p>
               <b>Excellent career gains are –</b>
@@ -3997,18 +3997,18 @@ const CitiesRight = ({
               <li>
                 <b>GenAI-rich courses:</b> Learners get an in-depth and
                 comprehensive understanding of data science tools and trends in
-                the GenAI age.{" "}
+                the GenAI age.{' '}
               </li>
               <br />
               <li>
                 <b>Domain-specific learning:</b> We offer domain-specific data
-                science training in India to improve pre-existing skills.{" "}
+                science training in India to improve pre-existing skills.{' '}
               </li>
               <br />
               <li>
                 <b>Experimental and practical learning:</b> Experts with our
                 data science course get hands-on learning of tools via live
-                projects.{" "}
+                projects.{' '}
               </li>
               <br />
               <li>
@@ -4020,18 +4020,18 @@ const CitiesRight = ({
               <br />
               <li>
                 <b>100% job assistance:</b> Learners get 100% job and placement
-                support with end-to-end skills growth and interviews.{" "}
+                support with end-to-end skills growth and interviews.{' '}
               </li>
             </ul>
 
             <br />
           </div>
         ) : (
-          ""
+          ''
         )}
         {DSkolkota ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               About Data Scientist Course in Kolkata in Alliance with IBM
             </h4>
             <p>
@@ -4099,7 +4099,7 @@ const CitiesRight = ({
               accelerate their success metrics.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What notable career gains will you receive with Learnbay’s data
               scientist institute in Kolkata?
             </h4>
@@ -4152,11 +4152,11 @@ const CitiesRight = ({
             <br />
           </div>
         ) : (
-          ""
+          ''
         )}
         {DSBhub ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Data Science Course in Bhubaneswar In Collaboration with IBM
             </h4>
             <p>
@@ -4169,7 +4169,7 @@ const CitiesRight = ({
               science courses in Bhubaneswar.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Career opportunities and salary insights
             </h4>
             <p>
@@ -4238,7 +4238,7 @@ const CitiesRight = ({
               advance your career quickly.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Why choose our data science institute in Bhubaneswar?
             </h4>
             <p>
@@ -4291,11 +4291,11 @@ const CitiesRight = ({
             <br />
           </div>
         ) : (
-          ""
+          ''
         )}
         {DSnagpur ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               About Data Science Institute in Nagpur in Alliance with IBM
             </h4>
             <p>
@@ -4361,7 +4361,7 @@ const CitiesRight = ({
               Nagpur to cherish vital gains.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What prime career gains will you receive via Learnbay’s data
               science institute in Nagpur?
             </h4>
@@ -4415,12 +4415,12 @@ const CitiesRight = ({
             <br />
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {DSComibotre ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               About Data Science Training in Coimbatore in Alliance with IBM
             </h4>
             <p>
@@ -4477,7 +4477,7 @@ const CitiesRight = ({
               use tools in real-time and devise better ways. Our practical
               sessions equip you with 12+ live projects, and learners must
               choose one according to their domain, career goals, and
-              interests.{" "}
+              interests.{' '}
             </p>
 
             <p>
@@ -4486,7 +4486,7 @@ const CitiesRight = ({
               smooth progress. Joining our proven upskilling programs equips you
               with proven skills to accelerate your career. Learning in-demand
               data-driven tools helps experts choose the right one and improve
-              results.{" "}
+              results.{' '}
             </p>
 
             <p>
@@ -4496,7 +4496,7 @@ const CitiesRight = ({
               equips it with global-scale growth offers. Once learners finish
               their course, they will receive two certificates from IBM and.
               Similarly, successful project completion will attest an IBM
-              project certificate to your career with alluring gains.{" "}
+              project certificate to your career with alluring gains.{' '}
             </p>
             <p>
               Yet, before joining our front-age courses, you must check if you
@@ -4515,7 +4515,7 @@ const CitiesRight = ({
               values and achieve optimal gains.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What proven career-driven gains can you develop with Learnbay’s
               best data science courses in Coimbatore?
             </h4>
@@ -4567,12 +4567,12 @@ const CitiesRight = ({
             <br />
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {DSJaipur ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               About Data Science Course in Jaipur In Alliance with IBM
             </h4>
             <p>
@@ -4665,7 +4665,7 @@ const CitiesRight = ({
               and speed up your career.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What job advantages will you gain from attending Learnbay’s data
               science institute in Jaipur?
             </h4>
@@ -4680,7 +4680,7 @@ const CitiesRight = ({
               Meanwhile, Gen-AI upskilling in data science unlocks ways to move
               toward successful career shifts. Here, the learners can gain an
               inclusive learning space to work with the latest GenAI tools
-              (ChatGPT) with ethical practices.{" "}
+              (ChatGPT) with ethical practices.{' '}
             </p>
 
             <p>
@@ -4721,11 +4721,11 @@ const CitiesRight = ({
             <br />
           </div>
         ) : (
-          ""
+          ''
         )}
         {DSPatna ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               About Data Science Course in Patna In Alliance with IBM
             </h4>
             <p>
@@ -4752,8 +4752,8 @@ const CitiesRight = ({
               career opportunities.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
-              Why Choose Learnbay’s Data Science Training in Patna?{" "}
+            <h4 style={{ fontSize: '20px' }}>
+              Why Choose Learnbay’s Data Science Training in Patna?{' '}
             </h4>
             <p>
               Learnbay’s data science training in Patna fascinates people
@@ -4824,7 +4824,7 @@ const CitiesRight = ({
               related fields
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What job benefits can you expect from signing up for Learnbay’s
               data science institute in Patna?
             </h4>
@@ -4867,7 +4867,7 @@ const CitiesRight = ({
               </li>
               <br />
               <li>
-                {" "}
+                {' '}
                 <b>Global certifications:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
                 from IBM unlock promising career paths. You will get two IBM
@@ -4883,12 +4883,12 @@ const CitiesRight = ({
             <br />
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {DSMarth ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Data Science Course in Marathahalli In Alliance with IBM
             </h4>
             <p>
@@ -4900,7 +4900,7 @@ const CitiesRight = ({
               courses in Marathahalli.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Career growth options and salary insights
             </h4>
             <p>
@@ -4915,7 +4915,7 @@ const CitiesRight = ({
               Learnbay's excellent data science course in Marathahalli. Data
               experts can benefit majorly from our innovative program material.
               To remain up-to-date, we provide in-depth training in data science
-              with abundant AI-rich tools and trends.{" "}
+              with abundant AI-rich tools and trends.{' '}
             </p>
             <p>
               Our most advanced course syllabus provides invaluable aid for data
@@ -4980,7 +4980,7 @@ const CitiesRight = ({
               in other fields.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What makes our data science institute in Marathahalli the right
               choice?
             </h4>
@@ -5036,12 +5036,12 @@ const CitiesRight = ({
             <br />
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {DSNoida ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               About the Data Scientist Course in Noida in Alliance with IBM
             </h4>
             <p>
@@ -5058,7 +5058,7 @@ const CitiesRight = ({
               aspirants. The recent years have marked significant changes in
               data science, unlocking a growing future for many experts. Hence,
               experts join an industry-driven data science institute in Noida to
-              learn.{" "}
+              learn.{' '}
             </p>
 
             <p>
@@ -5078,7 +5078,7 @@ const CitiesRight = ({
               clarity over the changing tech space. We offer in-depth training
               on data science tools and trends that are useful to today’s
               tech-driven MNCs & startups. Our Generative AI-rich course
-              syllabus guides experts in gaining 360-degree knowledge.{" "}
+              syllabus guides experts in gaining 360-degree knowledge.{' '}
             </p>
 
             <p>
@@ -5087,7 +5087,7 @@ const CitiesRight = ({
               from industry experts as mentors to learn about real-world
               business issues and ways to tackle them. Our leading data
               scientist course in Noida equips you with proven skills to ace
-              prime job roles with leading MNCs.{" "}
+              prime job roles with leading MNCs.{' '}
             </p>
 
             <p>
@@ -5097,7 +5097,7 @@ const CitiesRight = ({
               gain adequate scope to learn real-time uses of data science tools
               and devise the best way to solve an issue. Also, having
               domain-specific learning via projects enriches your skills to face
-              ever-changing business dynamics.{" "}
+              ever-changing business dynamics.{' '}
             </p>
             <p>
               Generic upskilling with no validation from industry leaders can
@@ -5106,10 +5106,10 @@ const CitiesRight = ({
               leading MNCs. Our data science certification in Noida, in alliance
               with IBM , expands your growth chances and adds more value to your
               career. Here, experts will obtain course and project certificates
-              from IBM , paving the way for exciting job offers.{" "}
+              from IBM , paving the way for exciting job offers.{' '}
             </p>
             <b>
-              {" "}
+              {' '}
               <p>
                 Yet, before joining our front-age courses, you must check if you
                 are eligible –
@@ -5130,7 +5130,7 @@ const CitiesRight = ({
               career values and achieve optimal gains.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What career-specific gains can you receive with Learnbay’s data
               science training in Noida?
             </h4>
@@ -5183,11 +5183,11 @@ const CitiesRight = ({
             <br />
           </div>
         ) : (
-          ""
+          ''
         )}
         {DSIndore ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Data Science Course in Indore In Partnership with IBM
             </h4>
             <p>
@@ -5197,7 +5197,7 @@ const CitiesRight = ({
               use of data science. Thus, given the current employment situation,
               we see a rising trend in data science courses in Indore.
             </p>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               Career opportunities and salary insights
             </h4>
             <p>
@@ -5205,7 +5205,7 @@ const CitiesRight = ({
               moves. Hence, the major job prospects in the data science industry
               have peaked. Thus, working experts choose to upskill at the best
               data science institute in Indore, which offers better job
-              offers.{" "}
+              offers.{' '}
             </p>
 
             <p>
@@ -5221,42 +5221,42 @@ const CitiesRight = ({
               skills to thrive in competing sectors. So here, we are introducing
               the realistic training model with the proven results. Our best
               data science course in Indore exhibits the real-time use of
-              various learning tools, enriching career success.{" "}
+              various learning tools, enriching career success.{' '}
             </p>
 
             <p>
               Due to its rapid growth and expansion, data science offers
               abundant career rise offers. In JULY 2021, there was a notable
               rise in data science jobs in Indore, Growing at 35% to 40%
-              compared to JULY 2022.{" "}
+              compared to JULY 2022.{' '}
             </p>
 
             <p>
               Data science is an economically growing career path in Indore with
               100% placement. It is an auspicious career with excellent growth
               offers and alluring salaries, fueled by the rise of data-driven
-              creation.{" "}
+              creation.{' '}
             </p>
             <p>
               Opting for an industry-focused program that offers job support can
-              improve your career growth and prospects.{" "}
+              improve your career growth and prospects.{' '}
             </p>
             <p>
               Improving your skills with the top institute for data science
               coaching in Indore will enhance your career growth metrics. Our
               positive support for your career building ends once you land your
               ideal job role. Industry-led job aid initiatives can support
-              career growth at every step.{" "}
+              career growth at every step.{' '}
             </p>
             <p>
               In addition, the data science classes in Indore equip you with
               valuable certifications (with global recognition) from IBM .
               Enroll in our training program today and sharpen your skills and
-              abilities to attain proven career success.{" "}
+              abilities to attain proven career success.{' '}
             </p>
 
             <b>
-              {" "}
+              {' '}
               <p>
                 So, if you are interested in a data science career, consider
                 joining Learnbay's best data science courses. Before that,
@@ -5277,7 +5277,7 @@ const CitiesRight = ({
               and boost your career
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What are the reasons to choose our data science institute in
               Indore?
             </h4>
@@ -5337,11 +5337,11 @@ const CitiesRight = ({
             <br />
           </div>
         ) : (
-          ""
+          ''
         )}
         {DSKochi ? (
           <div className={styles.CitiesRightInner}>
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               About Learnbay’s Data Science Institute in Kochi
             </h4>
             <p>
@@ -5360,7 +5360,7 @@ const CitiesRight = ({
               GenAI and Agentic AI.Our data science course in Kochi paves the
               way for abstract and practical learning of the latest Gen AI-rich
               tools. We aim to help data aspirants with end-to-end career growth
-              solutions.{" "}
+              solutions.{' '}
             </p>
 
             <p>
@@ -5377,11 +5377,11 @@ const CitiesRight = ({
               your skill sets and helps you crack dream roles. Successful
               completion of coursework and projects will offer you certificates
               from IBM . Plus, experts will obtain one IBM project
-              certification, unleashing a global-scale career path.{" "}
+              certification, unleashing a global-scale career path.{' '}
             </p>
 
             <b>
-              {" "}
+              {' '}
               <p>
                 Yet, before joining our front-age courses, you must check if you
                 are eligible –
@@ -5400,7 +5400,7 @@ const CitiesRight = ({
               career values and achieve optimal gains.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>
+            <h4 style={{ fontSize: '20px' }}>
               What proven career benefits can you get with Learnbay’s data
               science course in Kochi?
             </h4>
@@ -5457,7 +5457,7 @@ const CitiesRight = ({
             <br />
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {DSABangalore ? (
@@ -5496,7 +5496,7 @@ const CitiesRight = ({
               abilities. Join our industry-paced coding classes to enrich your
               software development expertise.
             </p>
-            <h3 style={{ fontSize: "18px" }}>
+            <h3 style={{ fontSize: '18px' }}>
               Industry-paced Coding Sessions for Tech/non-tech Experts
             </h3>
             <p>
@@ -5510,9 +5510,9 @@ const CitiesRight = ({
               offer 1:1 doubt-clearing sessions to help learners clarify their
               queries and refine tech skills.
             </p>
-            <h3 style={{ fontSize: "18px" }}>
+            <h3 style={{ fontSize: '18px' }}>
               Industry-relevant Career Counselling
-            </h3>{" "}
+            </h3>{' '}
             <p>
               Today’s job market outlook aims at ever-changing career paths in
               diverse sectors in Bangalore. It inspire working pros upgrade
@@ -5524,8 +5524,8 @@ const CitiesRight = ({
               choose the right domain best suited for tech career growth and
               stability.
             </p>
-            <h3 style={{ fontSize: "18px" }}>
-              Why does Learnbay seem to be the{" "}
+            <h3 style={{ fontSize: '18px' }}>
+              Why does Learnbay seem to be the{' '}
               <b>
                 best institute for data structures and algorithms in Bangalore?
               </b>
@@ -5551,7 +5551,7 @@ const CitiesRight = ({
               a lack of time and overburdening job tasks. Hence, Learnbay’s
               flexibly designed learning schedules set the stage for smooth
               upskilling. Here, experts can upgrade their skills without
-              hampering job duties.{" "}
+              hampering job duties.{' '}
             </p>
             <p>
               Industry-driven mentorship from eminent tech experts offers
@@ -5573,29 +5573,29 @@ const CitiesRight = ({
               Bangalore. Enroll today to escalate your career success globally.
             </p>
             <p>
-              Learnbay’s{" "}
+              Learnbay’s{' '}
               <b>Data Structures and Algorithms Course in Bangalore</b> offers –
             </p>
             <ul>
               <li>
                 Industry-specific DSA training to familiarize you with core
-                concepts and practices{" "}
+                concepts and practices{' '}
               </li>
               <li>Live interactive mentorship from eminent tech experts </li>
               <li>
                 Offline 16+ real-time project handling at Bangalore’s innovation
-                labs{" "}
+                labs{' '}
               </li>
               <li>Experiential learning with 300+ coding exercises </li>
               <li>
                 3 years of flexible career support services (mock interviews &
-                resume writing){" "}
+                resume writing){' '}
               </li>
               <li>Globally acknowledged IBM certifications </li>
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
         {CyberSecurityBangalore ? (
           <div className={styles.CitiesRightInner}>
@@ -5621,7 +5621,7 @@ const CitiesRight = ({
               security course engages learners with proven skill sets to build
               defensive systems and pave the way for ethical hacking.
             </p>
-            <h3 style={{ fontSize: "18px" }}>
+            <h3 style={{ fontSize: '18px' }}>
               Industry-paced Cyber Security and Ethical Hacking Course in
               Bangalore
             </h3>
@@ -5642,7 +5642,7 @@ const CitiesRight = ({
               success.
             </p>
 
-            <h3 style={{ fontSize: "18px" }}>
+            <h3 style={{ fontSize: '18px' }}>
               Digitally-driven Career Counselling
             </h3>
             <p>
@@ -5658,7 +5658,7 @@ const CitiesRight = ({
               course in Bangalore with placement drives exciting success
               globally.
             </p>
-            <h3 style={{ fontSize: "18px" }}>
+            <h3 style={{ fontSize: '18px' }}>
               Why does Learnbay’s cyber security course in Bangalore drive
               notable success?
             </h3>
@@ -5697,7 +5697,7 @@ const CitiesRight = ({
               interviews, resume-making, LinkedIn profiling, and
               portfolio-building help. Eligible learners can join the placement
               program to prepare themselves for the trending jobs with leading
-              MNCs.{" "}
+              MNCs.{' '}
             </p>
             <p>
               Lastly, Learnbay’s cyber security certifications validate your
@@ -5705,10 +5705,10 @@ const CitiesRight = ({
               earn IBM certificates and add them to their resumes for enriched
               returns. These globally recognized certifications help you land
               promising roles, have swift promotions, and attain exciting
-              growth.{" "}
+              growth.{' '}
             </p>
             <p>
-              Enrol in Learnbay’s <b>cyber security course in Bangalore</b>{" "}
+              Enrol in Learnbay’s <b>cyber security course in Bangalore</b>{' '}
               today to gain –
             </p>
             <ul>
@@ -5726,7 +5726,7 @@ const CitiesRight = ({
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
         {CyberSecurityPune ? (
           <div className={styles.CitiesRightInner}>
@@ -5759,7 +5759,7 @@ const CitiesRight = ({
               techies can learn and practice cyber security tools via live
               projects. Join the top cyber security training institute in
               Pune—Excel in your tech career with great rewards and easy
-              promotions.{" "}
+              promotions.{' '}
             </p>
             <p>
               Our alliance with iHUB DivyaSampark and IIT Roorkee validates your
@@ -5767,9 +5767,9 @@ const CitiesRight = ({
               certificates will help you crack critical tech interviews with
               assured success. At last, our cyber security classes in Kochi
               equip you with technical and soft skills to stay at the forefront
-              of today’s digital space.{" "}
+              of today’s digital space.{' '}
             </p>
-            <h3 style={{ fontSize: "18px" }}>
+            <h3 style={{ fontSize: '18px' }}>
               Industry-specific Cyber Security Course in Kochi with Placement
             </h3>
             <p>
@@ -5789,11 +5789,11 @@ const CitiesRight = ({
               help techies evolve their careers with exciting perks. We follow
               industry happenings and evolving tech models to protect network
               systems. The learning modules integrate GenAI-rich concepts to
-              guide learners in leading diverse fields.{" "}
+              guide learners in leading diverse fields.{' '}
             </p>
-            <h3 style={{ fontSize: "18px" }}>
+            <h3 style={{ fontSize: '18px' }}>
               Industry-relevant Career Counselling
-            </h3>{" "}
+            </h3>{' '}
             <p>
               Techies prefer upskilling despite hefty cyber security course fees
               in Kochi to unleash alluring perks and rewards. We provide
@@ -5806,7 +5806,7 @@ const CitiesRight = ({
               interests, and advise proper upskilling courses. Join today to
               master front-age tools and restrict crucial threats.
             </p>
-            <h3 style={{ fontSize: "18px" }}>
+            <h3 style={{ fontSize: '18px' }}>
               Is Learnbay’s cyber security course in Kochi worth investing in?
             </h3>
             <p>
@@ -5829,14 +5829,14 @@ const CitiesRight = ({
               career-specific mentorship. Learners acquire tech-driven skills
               via live cyber security classes in Kochi. Our mentors help you
               develop skills to specify likely risks, manage network systems,
-              ensure safety, and build defensive walls.{" "}
+              ensure safety, and build defensive walls.{' '}
             </p>
             <p>
               Also, learners can add globally valued credentials to their
               careers, unleashing true growth options. Our best cyber security
               institute in Kochi offers iHUB DivyaSampark and IIT Roorkee
               certificates once you complete your learning. These certificates
-              help you grow endlessly and grab exciting offers.{" "}
+              help you grow endlessly and grab exciting offers.{' '}
             </p>
             <p>
               At last, Learnbay’s job assistance program helps you refine your
@@ -5844,11 +5844,11 @@ const CitiesRight = ({
               in Kochi with placement equips you with skills to crack critical
               job interviews effortlessly. Learnbay’s career support services
               help techies prepare for upcoming risks and make them
-              job-ready.{" "}
+              job-ready.{' '}
             </p>
           </div>
         ) : (
-          ""
+          ''
         )}
 
         {DSAPune ? (
@@ -5876,7 +5876,7 @@ const CitiesRight = ({
               experience. Mentorship from tech giants will help you grasp
               cutting-edge wisdom in DSA and thrive. Your data structures and
               algorithms classes in Kochi will help you acquire elementary and
-              practical learning.{" "}
+              practical learning.{' '}
             </p>
             <p>
               Learnbay’s endless support throughout your career switch journey
@@ -5894,7 +5894,7 @@ const CitiesRight = ({
               validating your skills and helping you grab exciting job offers
               with the leading MNCs.
             </p>
-            <h3 style={{ fontSize: "18px" }}>
+            <h3 style={{ fontSize: '18px' }}>
               Cutting-edge Data Structure Training in Kochi for IT and non-IT
               Professionals
             </h3>
@@ -5908,9 +5908,9 @@ const CitiesRight = ({
               You can become a DSA expert beyond age-old
               coder/developer/programmer roles with us.
             </p>
-            <h3 style={{ fontSize: "18px" }}>
+            <h3 style={{ fontSize: '18px' }}>
               Career-enriched Counselling Sessions
-            </h3>{" "}
+            </h3>{' '}
             <p>
               In the present ever-changing era, constant upskilling has become a
               perfect solution to overcome career redundancies and grow. Experts
@@ -5927,7 +5927,7 @@ const CitiesRight = ({
               counseling helps you choose the right path and induce better
               gains.
             </p>
-            <h3 style={{ fontSize: "18px" }}>
+            <h3 style={{ fontSize: '18px' }}>
               Why is investing in Learnbay’s <b>DSA course in Kochi</b> worth
               it?
             </h3>
@@ -5963,7 +5963,7 @@ const CitiesRight = ({
             <p>
               Also, experts can validate their skills with IBM certificates to
               escalate career growth chances. Earn these credentials and unleash
-              true growth potential on a global level.{" "}
+              true growth potential on a global level.{' '}
             </p>
             <p>
               Hence, investing in Learnbay’s <b>DSA course in Kochi</b> is worth
@@ -5981,13 +5981,13 @@ const CitiesRight = ({
               <li>Project-based learning with 300+ coding exercises </li>
               <li>
                 3 years of flexible career support services (mock interviews &
-                resume writing){" "}
+                resume writing){' '}
               </li>
               <li>Globally conceded IBM certifications </li>
             </ul>
           </div>
         ) : (
-          ""
+          ''
         )}
         {cityText ? (
           <div className={styles.CitiesRightInner}>
@@ -5997,15 +5997,15 @@ const CitiesRight = ({
               core aspects of data science, AI, and ML, which are responsible
               for transforming the business landscape. Data Science is
               undoubtedly considered the most important phenomenon for business
-              growth in the <b>21st century</b>. Indeed, a{" "}
-              <b>career in Data Science</b> is the most rewarding one.{" "}
+              growth in the <b>21st century</b>. Indeed, a{' '}
+              <b>career in Data Science</b> is the most rewarding one.{' '}
               <a
-                style={{ color: "#0072bc" }}
+                style={{ color: '#0072bc' }}
                 href="https://www.learnbay.co/data-science-courses"
                 target="_blank"
               >
                 <b>Data Science courses</b>
-              </a>{" "}
+              </a>{' '}
               are specifically created to help aspiring data scientists secure
               their careers with the Data Science foundation.
             </p>
@@ -6023,8 +6023,8 @@ const CitiesRight = ({
               with data and base all of their crucial decisions on the
               insightful information derived from it. In today’s business world,
               a competent Data Scientist is a major part of a company's
-              workforce since they draw future plans based on data. Further,{" "}
-              <b>IBM</b> has reported that there will be over{" "}
+              workforce since they draw future plans based on data. Further,{' '}
+              <b>IBM</b> has reported that there will be over{' '}
               <b>7,00,000 new job opportunities in Data Science and AI</b> in
               the upcoming years.
             </p>
@@ -6035,21 +6035,21 @@ const CitiesRight = ({
               startups are happening. It puts <b>data scientists' jobs</b> in
               high demand across various domains. Data Scientist is also a
               lucrative career with a high package in Bengaluru. As mentioned in
-              glassdoor, the average{" "}
+              glassdoor, the average{' '}
               <b>
                 salary of a Data Scientist in Bengaluru is INR 11,00,000
                 annually
               </b>
             </p>
             <p>
-              The{" "}
+              The{' '}
               <a
                 href="https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
                 target="_blank"
               >
                 Data Scientist training
-              </a>{" "}
+              </a>{' '}
               is a data science certification course offered by Learnbay in
               Bangalore. MNC experts design it as per the current industry
               requirements and to help the data science aspirants in the city
@@ -6064,7 +6064,7 @@ const CitiesRight = ({
               experience and dedicated subject matter expertise. One-on-one
               mentorship, Placement assistance including resume building
               sessions, soft skill training, mock interviews, extensive networks
-              for job opportunities, practical hands-on learning sessions with{" "}
+              for job opportunities, practical hands-on learning sessions with{' '}
               <b>capstone and 15+ real-world data science projects.</b>
             </p>
             <p>
@@ -6112,7 +6112,7 @@ const CitiesRight = ({
             </p>
             <p>
               It is the essential part of the course, with full-time dedicated
-              training sessions through Live{" "}
+              training sessions through Live{' '}
               <b>Instructor-Led Online Training</b>. This module covers the
               fundamentals of Python Programming, which is an essential tool to
               get started as a modern data scientist. Here, you will learn basic
@@ -6181,7 +6181,7 @@ const CitiesRight = ({
               cloud lab at their convenience.
             </p>
             <p>
-              Upon completing these structured 4-Terms{" "}
+              Upon completing these structured 4-Terms{' '}
               <b>Learnbay's Data Science Training</b>, you will be confident in
               your ability to perform your "SuperHero duty" as a Data Scientist
               in leading firms.
@@ -6227,7 +6227,7 @@ const CitiesRight = ({
             </p>
             <h2 className={styles.pHead}>
               Data Science Foundation Program in Bangalore with Placement
-              Assistance{" "}
+              Assistance{' '}
             </h2>
             <ol type="1">
               <li>
@@ -6268,12 +6268,12 @@ const CitiesRight = ({
             <ol type="1">
               <li>
                 The Advance data science course is designed meticulously for
-                professionals of all domains and levels of experience.{" "}
+                professionals of all domains and levels of experience.{' '}
               </li>
               <li>
                 This course covers everything from advanced data science and AI
                 tools and techniques, including visualisation, data processing,
-                EDA, feature engineering, and model deployment.{" "}
+                EDA, feature engineering, and model deployment.{' '}
               </li>
               <li>
                 The advanced data science course fees are INR 95,000, exclusive
@@ -6310,7 +6310,7 @@ const CitiesRight = ({
               </li>
               <li>
                 The course fee for this manager course is INR 105,000, exclusive
-                of GST.{" "}
+                of GST.{' '}
               </li>
             </ol>
 
@@ -6332,16 +6332,16 @@ const CitiesRight = ({
 
             <h2 className={styles.pHead}>
               Data Science and AI Master Program in Bangalore with Placement
-              Assistance{" "}
+              Assistance{' '}
             </h2>
             <ol type="1">
               <li>
                 This domain-specialized data science course is a complete boot
-                camp covering everything a data scientist must possess.{" "}
+                camp covering everything a data scientist must possess.{' '}
               </li>
               <li>
                 The duration of this master's program is 15 to 17 months,
-                depending on your preferred batch (week and weekend).{" "}
+                depending on your preferred batch (week and weekend).{' '}
               </li>
               <li>
                 After completing this course, you will become an expert data
@@ -6461,7 +6461,7 @@ const CitiesRight = ({
             </p>
 
             <p>
-              Learnbay <b>Data Science course fee in Bangalore</b> ranges from{" "}
+              Learnbay <b>Data Science course fee in Bangalore</b> ranges from{' '}
               <b>INR 1,10,000</b> to <b>INR 1,25,000</b> according to your
               preferred domain and learning choice. Refer to the site’s desired
               course page for other <b>data science course fees</b>.
@@ -6472,7 +6472,7 @@ const CitiesRight = ({
             </h2>
 
             <p>
-              Are you looking for the{" "}
+              Are you looking for the{' '}
               <b>Best Data Science Training Institute in Bangalore?</b>
             </p>
 
@@ -6489,10 +6489,10 @@ const CitiesRight = ({
               <a
                 href="https://www.learnbay.co/"
                 target="_blank"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 Learnbay Institute
-              </a>{" "}
+              </a>{' '}
               provides all-inclusive training from industry professionals to
               help you become a hero to rule the world. Thus, acquiring Learnbay
               Training is undoubtedly your best career choice.
@@ -6538,7 +6538,7 @@ const CitiesRight = ({
             <p>
               <b>Data Science courses in Bangalore</b> are the entry point to
               the best IT systems in the city; becoming a data scientist has
-              never been so easy. Sign up for{" "}
+              never been so easy. Sign up for{' '}
               <b>Data Science Online Training in Bangalore</b> to upgrade your
               skills to secure a lucrative career!
             </p>
@@ -6558,22 +6558,22 @@ const CitiesRight = ({
             </p>
 
             <p>
-              <b>Learnbay</b> also provides classroom mode for{" "}
+              <b>Learnbay</b> also provides classroom mode for{' '}
               <a
                 href="https://www.learnbay.co/machine-learning-course-training-in-bangalore"
                 target="_blank"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 machine learning
-              </a>{" "}
-              and{" "}
+              </a>{' '}
+              and{' '}
               <a
                 href="https://www.learnbay.co/artificial-intelligence-ai-course-training-bangalore"
                 target="_blank"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 artificial intelligence courses in Bangalore
-              </a>{" "}
+              </a>{' '}
               and data science courses.
             </p>
 
@@ -6652,7 +6652,7 @@ const CitiesRight = ({
             <a href={Courselink1} target="_blank">
               <h2
                 className={styles.pp}
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 {Course1}
               </h2>
@@ -6660,7 +6660,7 @@ const CitiesRight = ({
             <a href={Courselink2} target="_blank">
               <h2
                 className={styles.pp}
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 {Course2}
               </h2>
@@ -6668,7 +6668,7 @@ const CitiesRight = ({
             <a href={Courselink3} target="_blank">
               <h2
                 className={styles.pp}
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 {Course3}
               </h2>
@@ -6676,7 +6676,7 @@ const CitiesRight = ({
             <a href={Courselink4} target="_blank">
               <h2
                 className={styles.pp}
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 {Course4}
               </h2>
@@ -6684,7 +6684,7 @@ const CitiesRight = ({
             <a href={Courselink5} target="_blank">
               <h2
                 className={styles.pp}
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 {Course5}
               </h2>
@@ -6692,7 +6692,7 @@ const CitiesRight = ({
             <a href={Courselink6} target="_blank">
               <h2
                 className={styles.pp}
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 {Course6}
               </h2>
@@ -6700,7 +6700,7 @@ const CitiesRight = ({
             <a href={Courselink7} target="_blank">
               <h2
                 className={styles.pp}
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 {Course7}
               </h2>
@@ -6708,7 +6708,7 @@ const CitiesRight = ({
             <a href={Courselink8} target="_blank">
               <h2
                 className={styles.pp}
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 {Course8}
               </h2>
@@ -6719,7 +6719,7 @@ const CitiesRight = ({
             <a href={jobOutlooklink} target="_blank" rel="nofollow">
               <span
                 className={styles.pp}
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: '#2D9CD7', fontWeight: '600' }}
               >
                 {jobOutlookText}
               </span>
@@ -6770,7 +6770,7 @@ const CitiesRight = ({
           <p className={styles.pp}>{DomainBot12}</p>
           <p className={styles.pp}>{DomainBot3}</p>
           <p className={styles.pp}>{DomainMasterBot1}</p>
-          <h4 style={{ fontSize: "16px" }}>{DomainMasterh4}</h4>
+          <h4 style={{ fontSize: '16px' }}>{DomainMasterh4}</h4>
 
           {fullStackCity ? (
             <>
@@ -6781,59 +6781,58 @@ const CitiesRight = ({
               <h2 className={styles.pHead}>{DomainHead6}</h2>
               <h2 className={styles.pHead}>{DomainHead7}</h2>
               <h2 className={styles.pHead}>{DomainHead8}</h2>
-
             </>
           ) : (
             <>
-              {" "}
+              {' '}
               <ul className={styles.ulLi}>
                 <a href={Domainlink1} target="_blank">
-                  <p style={{ color: "#2D9CD7", fontWeight: "600" }}>
+                  <p style={{ color: '#2D9CD7', fontWeight: '600' }}>
                     {DomainList1}
                   </p>
                 </a>
                 <a href={Domainlink2} target="_blank">
-                  <p style={{ color: "#2D9CD7", fontWeight: "600" }}>
+                  <p style={{ color: '#2D9CD7', fontWeight: '600' }}>
                     {DomainList2}
                   </p>
                 </a>
                 <a href={Domainlink3} target="_blank">
-                  <p style={{ color: "#2D9CD7", fontWeight: "600" }}>
+                  <p style={{ color: '#2D9CD7', fontWeight: '600' }}>
                     {DomainList3}
                   </p>
                 </a>
                 <a href={Domainlink4} target="_blank">
-                  <p style={{ color: "#2D9CD7", fontWeight: "600" }}>
+                  <p style={{ color: '#2D9CD7', fontWeight: '600' }}>
                     {DomainList4}
                   </p>
                 </a>
                 <a href={Domainlink5} target="_blank">
-                  <p style={{ color: "#2D9CD7", fontWeight: "600" }}>
+                  <p style={{ color: '#2D9CD7', fontWeight: '600' }}>
                     {DomainList5}
                   </p>
                 </a>
                 <a href={Domainlink6} target="_blank">
-                  <p style={{ color: "#2D9CD7", fontWeight: "600" }}>
+                  <p style={{ color: '#2D9CD7', fontWeight: '600' }}>
                     {DomainList6}
                   </p>
                 </a>
                 <a href={Domainlink7} target="_blank">
-                  <p style={{ color: "#2D9CD7", fontWeight: "600" }}>
+                  <p style={{ color: '#2D9CD7', fontWeight: '600' }}>
                     {DomainList7}
                   </p>
                 </a>
                 <a href={Domainlink8} target="_blank">
-                  <p style={{ color: "#2D9CD7", fontWeight: "600" }}>
+                  <p style={{ color: '#2D9CD7', fontWeight: '600' }}>
                     {DomainList8}
                   </p>
                 </a>
                 <a href={Domainlink9} target="_blank">
-                  <p style={{ color: "#2D9CD7", fontWeight: "600" }}>
+                  <p style={{ color: '#2D9CD7', fontWeight: '600' }}>
                     {DomainList9}
                   </p>
                 </a>
                 <a href={Domainlink10} target="_blank">
-                  <p style={{ color: "#2D9CD7", fontWeight: "600" }}>
+                  <p style={{ color: '#2D9CD7', fontWeight: '600' }}>
                     {DomainList10}
                   </p>
                 </a>
@@ -6844,7 +6843,7 @@ const CitiesRight = ({
           <p className={styles.pp}>{DomainBot41}</p>
 
           <p className={styles.pp}>{DomainMasterBot2}</p>
-          <h4 style={{ fontSize: "16px" }}>{DomainMasterHead1}</h4>
+          <h4 style={{ fontSize: '16px' }}>{DomainMasterHead1}</h4>
           <p className={styles.pp}>{DomainMasterBot3}</p>
           {masterdomain ? (
             <>
@@ -6855,7 +6854,7 @@ const CitiesRight = ({
               </ul>
             </>
           ) : (
-            ""
+            ''
           )}
         </div>
       </div>
@@ -6873,17 +6872,17 @@ const CitiesRight = ({
             <div>
               <h2 className={styles.pHead}>{CertificationHead1}</h2>
               <p className={styles.pp}>{CertificationBot1}</p>
-              <h4 style={{ fontSize: "16px" }}>{CertificationHead29}</h4>
-              <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead1}</h4>
+              <h4 style={{ fontSize: '16px' }}>{CertificationHead29}</h4>
+              <h4 style={{ fontSize: '16px' }}>{CertificationMasterHead1}</h4>
               <p className={styles.pp}>{CertificationBot2}</p>
               <p className={styles.pp}>{CertificationmasterBot5}</p>
-              <h4 style={{ fontSize: "16px" }}>{CertificationHead30}</h4>
-              <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead2}</h4>
+              <h4 style={{ fontSize: '16px' }}>{CertificationHead30}</h4>
+              <h4 style={{ fontSize: '16px' }}>{CertificationMasterHead2}</h4>
               <p className={styles.pp}>{CertificationBot3}</p>
             </div>
             <div>
               <h2 className={styles.pHead}>{CertificationHead2}</h2>
-              <h4 style={{ fontSize: "16px" }}>{CertificationHead31}</h4>
+              <h4 style={{ fontSize: '16px' }}>{CertificationHead31}</h4>
               <p className={styles.pp}>{CertificationBot4}</p>
               {listsCertificate ? (
                 <ul className={styles.pp}>
@@ -6892,7 +6891,7 @@ const CitiesRight = ({
                   <li>{Certificationlist3}</li>
                 </ul>
               ) : null}
-              <h4 style={{ fontSize: "16px" }}>{CertificationHead32}</h4>
+              <h4 style={{ fontSize: '16px' }}>{CertificationHead32}</h4>
               <p className={styles.pp}>{CertificationBot5}</p>
               <p className={styles.pp}>{CertificationBot6}</p>
             </div>
@@ -6976,7 +6975,7 @@ const CitiesRight = ({
         <></>
       ) : (
         <>
-          {" "}
+          {' '}
           <div id="Module">
             <div className={styles.CitiesRightSpan}>
               <span>Module-Details</span>
@@ -6984,7 +6983,7 @@ const CitiesRight = ({
             <div className={styles.CitiesRightInner}>
               <p className={styles.pp}>{ModuleMasterBot1}</p>
               <h2 className={styles.pHead}>{ModuleHead1}</h2>
-              <h4 style={{ fontSize: "16px" }}>{ModuleMasterHead1}</h4>
+              <h4 style={{ fontSize: '16px' }}>{ModuleMasterHead1}</h4>
               <p className={styles.pp}>{ModuleBot1}</p>
               <p className={styles.pp}>{ModuleBot2}</p>
               <p className={styles.pp}>
@@ -7019,7 +7018,7 @@ const CitiesRight = ({
                   </ul>
                 </>
               ) : (
-                ""
+                ''
               )}
               <p className={styles.pp}>{ModuleBot46}</p>
               <p className={styles.pp}>{ModuleBot47}</p>
@@ -7027,7 +7026,7 @@ const CitiesRight = ({
 
               {MasterModulelist ? (
                 <>
-                  <h4 style={{ fontSize: "16px" }}>{ModuleMasterHead2}</h4>
+                  <h4 style={{ fontSize: '16px' }}>{ModuleMasterHead2}</h4>
                   <ul className={styles.pp}>
                     <li>{ModuleMasterlist1}</li>
                     <li>{ModuleMasterlist2}</li>
@@ -7042,14 +7041,14 @@ const CitiesRight = ({
                   <p className={styles.pp}>{ModuleMasterBot4}</p>
                 </>
               ) : (
-                ""
+                ''
               )}
               <p className={styles.pp}>{ModuleBot10}</p>
               {fullStackCity ? (
                 <></>
               ) : (
                 <>
-                  {" "}
+                  {' '}
                   {SyllabusBotlist11 && (
                     <div>
                       <p className={styles.pp}>Module Details:</p>
@@ -7153,7 +7152,7 @@ const CitiesRight = ({
           <p className={styles.pp}>{MasterJobBot1}</p>
           <p className={styles.pp}>{MasterJobBot2}</p>
           <p className={styles.pp}>{MasterJobBot3}</p>
-          <p className={styles.pp} style={{ fontWeight: "bold" }}>
+          <p className={styles.pp} style={{ fontWeight: 'bold' }}>
             <i>{MasterJobSpan1}</i>
           </p>
           <p className={styles.pp}>{JobBot1}</p>
@@ -7203,7 +7202,7 @@ const CitiesRight = ({
               <p className={styles.pp}> {JobBot18}</p>
             </>
           ) : (
-            ""
+            ''
           )}
           <p className={styles.pp}> {JobBot001}</p>
           <p className={styles.pp}> {JobBot002}</p>
@@ -7212,8 +7211,8 @@ const CitiesRight = ({
             <>
               <p className={styles.pp}> {JobBot19}</p>
 
-              <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
-                {" "}
+              <h4 style={{ fontSize: '20px', marginBottom: '20px' }}>
+                {' '}
                 {JobHead19}
               </h4>
               <p className={styles.pp}>{JobBot50} </p>
@@ -7235,28 +7234,28 @@ const CitiesRight = ({
               <p className={styles.pp}>{JobBotMasterBot4}</p>
               {/* <p className={styles.pp}>{JobBotMasterBot5}</p> */}
               <p className={styles.pp}>{JobBot40}</p>
-              <p className={styles.pp} style={{ margin: "20px" }}>
+              <p className={styles.pp} style={{ margin: '20px' }}>
                 {Jobspan}
               </p>
-              <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
-                {" "}
+              <h4 style={{ fontSize: '20px', marginBottom: '20px' }}>
+                {' '}
                 {JobHead21}
               </h4>
               <p className={styles.pp}>{JobBot41}</p>
 
-              <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
-                {" "}
+              <h4 style={{ fontSize: '20px', marginBottom: '20px' }}>
+                {' '}
                 {JobHead30}
               </h4>
               <p className={styles.pp}>{JobBot21}</p>
-              <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
-                {" "}
+              <h4 style={{ fontSize: '20px', marginBottom: '20px' }}>
+                {' '}
                 {JobHeadAustin01}
               </h4>
               <p className={styles.pp}>{JobBot22}</p>
               <p className={styles.pp}>{JobBot60}</p>
-              <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
-                {" "}
+              <h4 style={{ fontSize: '20px', marginBottom: '20px' }}>
+                {' '}
                 {JobHead23}
               </h4>
 
@@ -7264,9 +7263,9 @@ const CitiesRight = ({
               <p className={styles.pp}> </p>
               <p className={styles.pp}>{JobBot34} </p>
               <b>
-                {" "}
-                <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
-                  {" "}
+                {' '}
+                <h4 style={{ fontSize: '20px', marginBottom: '20px' }}>
+                  {' '}
                   {JobHeadIndia01}
                 </h4>
                 <i>{JobBot23}</i>
@@ -7281,9 +7280,9 @@ const CitiesRight = ({
                   {/* <li>{Joblist54}</li> */}
                 </ul>
               ) : (
-                ""
+                ''
               )}
-              <h4 style={{ fontSize: "20px" }}>{JobHead001}</h4>
+              <h4 style={{ fontSize: '20px' }}>{JobHead001}</h4>
 
               <p className={styles.pp}>{JobBotMasterBot5}</p>
               <p className={styles.pp}>{JobBotMasterBot6}</p>
@@ -7293,7 +7292,7 @@ const CitiesRight = ({
               <p className={styles.pp}>{JobBot006}</p>
 
               <br />
-              <h4 style={{ fontSize: "20px" }}>{JobHead22}</h4>
+              <h4 style={{ fontSize: '20px' }}>{JobHead22}</h4>
               <p className={styles.pp}>{JobBot37} </p>
               <p className={styles.pp}>{JobBot24} </p>
 
@@ -7324,14 +7323,14 @@ const CitiesRight = ({
               <p className={styles.pp}>{JobBot27}</p>
               <p className={styles.pp}>{JobBot28}</p>
 
-              <h4 style={{ fontSize: "20px" }}>{JobHead10}</h4>
+              <h4 style={{ fontSize: '20px' }}>{JobHead10}</h4>
               <p className={styles.pp}>{JobBot29}</p>
               <i>
                 <p className={styles.pp}>{JobBot31}</p>
               </i>
               {onlyDhaka ? (
                 <>
-                  {" "}
+                  {' '}
                   <ul>
                     <li>{ListJob1}</li>
                     <li>{ListJob2}</li>
@@ -7405,7 +7404,7 @@ const CitiesRight = ({
             </div>
           </div>
         </div>
-        <div className={styles.Projects} style={{ marginBottom: "20px" }}>
+        <div className={styles.Projects} style={{ marginBottom: '20px' }}>
           <div className={styles.ProjectsBot}>
             <div className={styles.ProjectsBotHead}>
               <div className={styles.ProjectsBotI}>
@@ -7449,7 +7448,7 @@ const CitiesRight = ({
             </>
           ) : (
             <>
-              {" "}
+              {' '}
               <a
                 href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
                 target="_blank"
@@ -7555,7 +7554,7 @@ const CitiesRight = ({
             </>
           ) : (
             <>
-              {" "}
+              {' '}
               <a href="/reviews" target="_blank">
                 <Button className={styles.btn} text="View All Reviews" />
               </a>

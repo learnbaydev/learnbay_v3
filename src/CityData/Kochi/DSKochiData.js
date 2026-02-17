@@ -400,11 +400,11 @@ export const DSKochiCourseData = [
       'Experts willing to build an absolute career path in their fields must join us for domain-specific upskilling. Anyone with at least 6 months of work experience can enrol in our courses to attain success. ',
     CertificationHead1: 'Certification Details ',
     CertificationBot1:
-      'Data Analytics is an ever-evolving field that attracts freshers and experienced pros from diverse fields. Experts willing to revamp their static careers can enroll in an industry-driven data analyst course institute in Pune with proven gains. Unlike generic courses, joining a cutting-edge course with useful credentials ensures success. Learning without divulging skills can demean career growth chances and limit your success. Hence, certifications are useful. ',
+      'Data Analytics is an ever-evolving field that attracts freshers and experienced pros from diverse fields. Experts willing to revamp their static careers can enroll in an industry-driven data analyst course institute in Kochi with proven gains. Unlike generic courses, joining a cutting-edge course with useful credentials ensures success. Learning without divulging skills can demean career growth chances and limit your success. Hence, certifications are useful. ',
     CertificationBot2:
-      'Certifications are vital in remodeling a stagnant career and validating learned skills. Employers from startups and MNCs prefer skilled data experts with proven knowledge to face the present world conditions. Experts eager to build an exciting career must enroll in data analyst classes in Pune with valuable credentials. It enriches the chances of getting selected by leading product/service-based MNCs.',
+      'Certifications are vital in remodeling a stagnant career and validating learned skills. Employers from startups and MNCs prefer skilled data experts with proven knowledge to face the present world conditions. Experts eager to build an exciting career must enroll in data analyst classes in Kochi with valuable credentials. It enriches the chances of getting selected by leading product/service-based MNCs.',
     CertificationBot3:
-      'Learnbay’s data analytics certification in Pune unlocks the door to global-level career shifts with attractive gains. Here, you will receive two IBM certifications – coursework and projects with impactful career returns. These certificates are vital in enriching career values and helping you ace prime job roles with lucrative pay.',
+      'Learnbay’s data analytics certification in Kochi unlocks the door to global-level career shifts with attractive gains. Here, you will receive two IBM certifications – coursework and projects with impactful career returns. These certificates are vital in enriching career values and helping you ace prime job roles with lucrative pay.',
     CertificationBot4: '',
     CertificationBot5: ' ',
     // src33:
@@ -416,7 +416,7 @@ export const DSKochiCourseData = [
 
     ModuleHead1: 'Module Details',
     ModuleBot1:
-      'Data analytics upskilling is crucial to stay competitive and thrive in today’s tech era. Data analysis is vital for businesses to enhance their yields and craft an exciting future. Yet, a lack of data-driven skills and analytics knowledge limits business growth. Hence, experts from diverse fields prefer upskilling regardless of data analyst course fees in Pune. Its in-depth learning modules guide you to develop abstract and practical skills with assured success. ',
+      'Data analytics upskilling is crucial to stay competitive and thrive in today’s tech era. Data analysis is vital for businesses to enhance their yields and craft an exciting future. Yet, a lack of data-driven skills and analytics knowledge limits business growth. Hence, experts from diverse fields prefer upskilling regardless of data analyst course fees in Kochi. Its in-depth learning modules guide you to develop abstract and practical skills with assured success. ',
     ModuleHead2: 'Learning Outcomes',
 
     ModuleMasterlist1: 'Basic knowledge of statistical functions',
@@ -435,9 +435,9 @@ export const DSKochiCourseData = [
     ModuleMasterlist11: 'Case studies',
     ModuleMasterlist12: 'Live projects',
     ModuleMasterBot2:
-      'Learning is inevitable to sustain in today’s emerging career complexities. Constant skill upgrades can save you from getting replaced by the latest tech creations. Joining an industry-paced data analytics training in Pune can help you enrich your tech skills. Learning is the optimal way to sharpen pre-existing skills and ensure global-scale success with minimal effort. ',
+      'Learning is inevitable to sustain in today’s emerging career complexities. Constant skill upgrades can save you from getting replaced by the latest tech creations. Joining an industry-paced data analytics training in Kochi can help you enrich your tech skills. Learning is the optimal way to sharpen pre-existing skills and ensure global-scale success with minimal effort. ',
     ModuleMasterBot3:
-      'Even busy working pros find upskilling from our institute helpful in effortless career shifts. Our learning modules with a prime data analyst course in Pune offer 360-degree knowledge-building in GenAI. Experts learn everything – from basic analytics concepts to advanced uses in real-world cases. Even non-tech experts learn coding and practical deployment of tools from scratch. If you’re worried about course modules and learning methods, consult our career experts and find the right way to upscale your future. ',
+      'Even busy working pros find upskilling from our institute helpful in effortless career shifts. Our learning modules with a prime data analyst course in Kochi offer 360-degree knowledge-building in GenAI. Experts learn everything – from basic analytics concepts to advanced uses in real-world cases. Even non-tech experts learn coding and practical deployment of tools from scratch. If you’re worried about course modules and learning methods, consult our career experts and find the right way to upscale your future. ',
     ModuleBot47: '  ',
 
     syllabush1: 'INDUCTION + ORIENTATION',
@@ -464,7 +464,7 @@ export const DSKochiCourseData = [
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
 
     JobHead1:
-      'What prime technical skills will you develop via our data analysis courses in Pune?',
+      'What prime technical skills will you develop via our data analysis courses in Kochi?',
     MasterJobBot1: '',
     Joblist1: 'Basic knowledge of programming ',
     Joblist2: 'Elementary knowledge of statistics ',
@@ -482,20 +482,20 @@ export const DSKochiCourseData = [
     Joblist14: '',
 
     JobBot001:
-      'Data analytics learning has become crucial amidst the fierce career race in today’s job market. Many startups and MNCs deal with massive data sets to reach final decisions or make a business move. This enriches the demand for high-end quality data analysis. Hence, upskilling via the best data analyst course in Pune is critical for career growth.',
+      'Data analytics learning has become crucial amidst the fierce career race in today’s job market. Many startups and MNCs deal with massive data sets to reach final decisions or make a business move. This enriches the demand for high-end quality data analysis. Hence, upskilling via the best data analyst course in Kochi is critical for career growth.',
     JobBot002:
-      'Learnbay envisions successful career shifts for working experts from diverse fields. Its best data analytics classes in Pune equip tech and non-tech pros with proven skills. Most non-tech experts gain proper technical skills to face critical job interviews and ace with 100% success. Hence, joining us will enhance your career prospects with alluring gains. ',
+      'Learnbay envisions successful career shifts for working experts from diverse fields. Its best data analytics classes in Kochi equip tech and non-tech pros with proven skills. Most non-tech experts gain proper technical skills to face critical job interviews and ace with 100% success. Hence, joining us will enhance your career prospects with alluring gains. ',
     JobHead19: 'Career Service Pro    ',
 
     JobBot20:
-      'Data analytics has become part and parcel of today’s business setting. Several startups and MNCs in Pune rely on data analytics and its factual support. Having fine data analytics skills is vital to succeed in the career race. Hence, opting for a data analyst course institute in Pune with 100% job support is useful. Unlike typical courses, learning from an institute with job support services is good. It helps to develop the required skills, refine your job search ways, and enrich your resume. ',
+      'Data analytics has become part and parcel of today’s business setting. Several startups and MNCs in Kochi rely on data analytics and its factual support. Having fine data analytics skills is vital to succeed in the career race. Hence, opting for a data analyst course institute in Kochi with 100% job support is useful. Unlike typical courses, learning from an institute with job support services is good. It helps to develop the required skills, refine your job search ways, and enrich your resume. ',
     JobBot003:
-      'Learnbay presents elite data analytics courses in Pune with placement assistance. Many working pros fail to find the right way to refine their skills and prepare for critical jobs. Hence, they must join mentors and training centers that offer in-depth career support services. Experts enrolling in our data analytics programs can avail of industry-driven career support services – from mock interviews to resume reviewing. Learners with at least 70% scores in course tasks and projects can avail of our ‘Career Service PRO’. ',
+      'Learnbay presents elite data analytics courses in Kochi with placement assistance. Many working pros fail to find the right way to refine their skills and prepare for critical jobs. Hence, they must join mentors and training centers that offer in-depth career support services. Experts enrolling in our data analytics programs can avail of industry-driven career support services – from mock interviews to resume reviewing. Learners with at least 70% scores in course tasks and projects can avail of our ‘Career Service PRO’. ',
     JobBot39: 'Career Service Pro feature offers –',
     Joblist14: 'Steady job and placement support for one year',
     Joblist15: 'One 1:1 mock interview with any of the 450+ MNCs',
     Joblist16: 'Resume building',
-    Joblist17: 'Four assured job calls from Pune-based MNCs',
+    Joblist17: 'Four assured job calls from Kochi-based MNCs',
     Joblist18: '',
 
     JobHead30: '',
@@ -513,16 +513,16 @@ export const DSKochiCourseData = [
     Joblist54: ' ',
 
     JobHead001:
-      'Is skills upgrade via our data analytics course in Pune crucial for career growth?',
+      'Is skills upgrade via our data analytics course in Kochi crucial for career growth?',
     JobBotMasterBot5:
       'Career upskilling is vital to sustain yourself in today’s ever-evolving job market. The rise of data analytics alters the career outlook for many experts from diverse domains. Owing to the rising career trends, just a graduation degree and basic domain skills are not enough to sustain yourself and thrive. Hence, learning is crucial to refine pre-existing skills and attain career-driven clarity. ',
     JobBot007:
-      'Learnbay’s online data analytics training in Pune offers everything you need to excel in today’s time. Its GenAI-inclusive course modules guide non-tech pros to ace arising data-driven careers with 100% success. Experts can showcase the merit of their domains with real-time learning via live projects. Here, experts can choose any project based on their domain expertise and practice the proven tools. Unlike common courses, joining our best data analyst course in Pune is worth investing in. ',
+      'Learnbay’s online data analytics training in Kochi offers everything you need to excel in today’s time. Its GenAI-inclusive course modules guide non-tech pros to ace arising data-driven careers with 100% success. Experts can showcase the merit of their domains with real-time learning via live projects. Here, experts can choose any project based on their domain expertise and practice the proven tools. Unlike common courses, joining our best data analyst course in Kochi is worth investing in. ',
     JobBot005:
-      'Experts joining our data analytics course in Pune will go through varied stages of job and placement programs that enrich their chances of success. Plus, you will obtain IBM course and project certificates that validate your skill sets on a global level. Hence, joining Learnbay’s cutting-edge courses is crucial for your career growth. ',
+      'Experts joining our data analytics course in Kochi will go through varied stages of job and placement programs that enrich their chances of success. Plus, you will obtain IBM course and project certificates that validate your skill sets on a global level. Hence, joining Learnbay’s cutting-edge courses is crucial for your career growth. ',
     JobBot006: ' ',
     JobHead22:
-      'What career-driven job roles can you crack with Learnbay’s data analytics training in Pune?  ',
+      'What career-driven job roles can you crack with Learnbay’s data analytics training in Kochi?  ',
     JobBot37: ' ',
 
     JobBot24: '      ',
@@ -540,18 +540,18 @@ export const DSKochiCourseData = [
     Joblist34: '',
     Joblist35: '',
     JobBot25:
-      'If you’re willing to update your career in today’s digital age, enrolling in our data analyst institute in Pune is useful. It equips you with the potential to face career hurdles and land your dream jobs. If you’re a fresher or have 3–5 years of experience, upskilling from our cutting-edge courses confirms global-level success. With us, you can crack critical jobs with alluring salary packages at any career level. Hence, join us today and fulfill your dream of seizing top-tier career options. ',
+      'If you’re willing to update your career in today’s digital age, enrolling in our data analyst institute in Kochi is useful. It equips you with the potential to face career hurdles and land your dream jobs. If you’re a fresher or have 3–5 years of experience, upskilling from our cutting-edge courses confirms global-level success. With us, you can crack critical jobs with alluring salary packages at any career level. Hence, join us today and fulfill your dream of seizing top-tier career options. ',
 
     ProjectsHead1:
       'How do Learnbay’s real-time projects support successful career shifts with alluring gains? ',
 
     ProjectsBot1:
-      ' The present digital space relies heavily on data-driven methods to do business. Several MNCs and startups in Pune prefer data-friendly functions to enrich their yields and mark global-scale success. Meanwhile, data analytics emerges as one of the thriving trends in Pune’s business landscape. Hence, upskilling becomes a one-stop solution for experts eager to redefine their careers in data analytics. ',
+      ' The present digital space relies heavily on data-driven methods to do business. Several MNCs and startups in Kochi prefer data-friendly functions to enrich their yields and mark global-scale success. Meanwhile, data analytics emerges as one of the thriving trends in Kochi’s business landscape. Hence, upskilling becomes a one-stop solution for experts eager to redefine their careers in data analytics. ',
     ProjectsBot2: '',
     ProjectsBot3:
-      'Learnbay presents industry-focused data analyst training in Pune with promising career gains. Experts willing to learn and practice trending data analytics tools and gain hands-on experience can join our training programs. Here, experts will learn data analytics via any of the 12+ real-time projects in the chosen domain.',
+      'Learnbay presents industry-focused data analyst training in Kochi with promising career gains. Experts willing to learn and practice trending data analytics tools and gain hands-on experience can join our training programs. Here, experts will learn data analytics via any of the 12+ real-time projects in the chosen domain.',
     ProjectsBot4:
-      'Our real-time projects help experts refine their prior domain skills in the leading domains. Our best data analyst course in Pune covers major domains like – BFSI, HR, Marketing, Healthcare, Supply Chain, and Manufacturing. In addition, you will receive an IBM project certificate for completing assigned projects. ',
+      'Our real-time projects help experts refine their prior domain skills in the leading domains. Our best data analyst course in Kochi covers major domains like – BFSI, HR, Marketing, Healthcare, Supply Chain, and Manufacturing. In addition, you will receive an IBM project certificate for completing assigned projects. ',
     ProjectsBot5:
       'Learnbay’s practical upskilling strategy effectively facilitates comprehensive professional growth measures globally. Plus, an IBM project certificate enriches your job portfolio and boosts career success by offering better options.',
     ProjectsBot2: 'Below are a few projects from the Learnbay alumni profiles:',
