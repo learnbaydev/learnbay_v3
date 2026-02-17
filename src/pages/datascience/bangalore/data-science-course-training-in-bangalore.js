@@ -1,45 +1,45 @@
-import { DSBangaloreSchema } from "@/Data/Schema/DSBangalore";
-import Realstory from "@/components/Home/Realstory/Realstory";
-import Map from "@/components/Seo/Maps/Maps";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { DSBangaloreCourseData } from "../../../CityData/Bangalore/DSCourseTrainingInBangalore";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Navbar from "../../../components/Global/Navbar/Navbar";
-import Popup from "../../../components/Global/Popup/Popup";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import YoutubeVideo from "../../../components/Seo/YoutubeVideo/YoutubeVideo";
-import styles from "../../../styles/Home.module.css";
-import YoutubeEmbed from "@/components/Seo/YoutubeVideo/YoutubeEmbed";
+import { dataScienceBangloreFaqSchema } from '@/Data/Schema/dataScienceBangloreFaqSchema';
+import Realstory from '@/components/Home/Realstory/Realstory';
+import Map from '@/components/Seo/Maps/Maps';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { DSBangaloreCourseData } from '../../../CityData/Bangalore/DSCourseTrainingInBangalore';
+import Footer from '../../../components/Global/Footer/Footer';
+import Form from '../../../components/Global/Form/Form';
+import Navbar from '../../../components/Global/Navbar/Navbar';
+import Popup from '../../../components/Global/Popup/Popup';
+import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
+import YoutubeVideo from '../../../components/Seo/YoutubeVideo/YoutubeVideo';
+import styles from '../../../styles/Home.module.css';
+import YoutubeEmbed from '@/components/Seo/YoutubeVideo/YoutubeEmbed';
 const FirstSection = dynamic(
-  () => import("../../../components/Seo/FirstSection/FirstSection"),
+  () => import('../../../components/Seo/FirstSection/FirstSection')
 );
 const SecondSection = dynamic(
-  () => import("../../../components/Seo/SecondSection/SecondSection"),
+  () => import('../../../components/Seo/SecondSection/SecondSection')
 );
 const ProgramInfo = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramInfo"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramInfo')
 );
 const SeventhSection = dynamic(
-  () => import("../../../components/Seo/SeventhSection/SeventhSection"),
+  () => import('../../../components/Seo/SeventhSection/SeventhSection')
 );
 const ProgramFee = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
 const CityText = dynamic(
-  () => import("../../../components/Seo/CityText/CityText"),
+  () => import('../../../components/Seo/CityText/CityText')
 );
 const CitiesLeft = dynamic(
-  () => import("../../../components/Seo/CitiesLeft/CitiesLeft"),
+  () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
 const CitiesRight = dynamic(
-  () => import("../../../components/Seo/CitiesRight/CitiesRight"),
+  () => import('../../../components/Seo/CitiesRight/CitiesRight')
 );
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 const OfferPopup = dynamic(
-  () => import("../../../components/Global/OfferPopup/OfferPopup"),
+  () => import('../../../components/Global/OfferPopup/OfferPopup')
 );
 
 export default function Home() {
@@ -53,8 +53,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -67,7 +67,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === 'Adv Data Science and AI') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -80,22 +80,22 @@ export default function Home() {
   }, []);
 
   const items = [
-    "Data Science Foundation",
-    "Python for Data Science",
-    "Statistics for Data Science",
-    "Maths for Data Science",
-    "Machine Learning",
-    "Data Preparation with Pandas",
-    "Data Visualisation with Python",
-    "Tableau Foundations for Data analysis",
-    "Big Data Foundation",
-    "Model deployment (Flask-API)",
-    "R Language Essentials",
-    "Deep Learning",
-    "SQL for Data Science",
+    'Data Science Foundation',
+    'Python for Data Science',
+    'Statistics for Data Science',
+    'Maths for Data Science',
+    'Machine Learning',
+    'Data Preparation with Pandas',
+    'Data Visualisation with Python',
+    'Tableau Foundations for Data analysis',
+    'Big Data Foundation',
+    'Model deployment (Flask-API)',
+    'R Language Essentials',
+    'Deep Learning',
+    'SQL for Data Science',
   ];
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf';
   return (
     <div className={styles.container}>
       <Head>
@@ -115,45 +115,45 @@ export default function Home() {
           rel="canonical"
           href="https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore"
         />
+
         <meta
           property="og:url"
           content="https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Data Science Course Training In Bangalore with Placement Assistance"
+          content="Best Data Science Courses Training in Bangalore - Learnbay"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Data Science Course in Bangalore. We are Advanced Data Science Course Certification Training Institute in Bangalore. Data science course will enhance your career."
+          content="Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Bangalore. Visit now"
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Data Science Course Training In Bangalore with Placement Assistance"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Data Science Course Bangalore. We are Advanced Data Science Course Certification Training Institute in Bangalore. Data science course will enhance your career."
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Data Science Courses Training in Bangalore - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Data Science Course Bangalore. We are Advanced Data Science Course Certification Training Institute in Bangalore. Data science course will enhance your career."
+          content="Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Bangalore. Visit now"
         />
         <meta
           name="twitter:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
+
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
@@ -165,8 +165,8 @@ export default function Home() {
             __html: ` {
               "@context": "http://schema.org",
               "@type": "LocalBusiness",
-              "name": "Learnbay - Data Science Course Training In Bangalore",
-              "description": "Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Banglore.",
+              "name": "Learnbay - Data Science, Data Analyst Course Training in Bangalore",
+              "description": "Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Bangalore.",
               "url": "https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore",
               "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
               "address": {
@@ -179,8 +179,8 @@ export default function Home() {
               },
               "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 12.91198279090605,
-                "longitude": 77.64117409764793
+                "latitude": 12.911826836324302,
+                "longitude": 77.64119807972756
               },
               "telephone": "(+91) 77956 87988",
               "email": "contacts@learnbay.co",
@@ -194,20 +194,19 @@ export default function Home() {
                       "Thursday",
                       "Friday"
                     ],
-                    "opens": "10:00",
-                    "closes": "18:00"
+                    "opens": "07:00",
+                    "closes": "22:30"
                   },
                    {
                     "@type": "OpeningHoursSpecification",
                     "dayOfWeek": [
                       "Saturday"
                     ],
-                    "opens": "10:00",
-                    "closes": "15:00"
+                    "opens": "07:00",
+                    "closes": "22:30"
                  }
               ],
               "priceRange": "₹ 1,20,000 + 18% GST",
-              "servesCuisine": "Data Science Education",
               "areaServed": "Bangalore",
               "paymentAccepted": "Cash, Credit Card, Debit Card, EMI"
               },
@@ -221,7 +220,41 @@ export default function Home() {
               }
              
               
-} `,
+} 
+`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Best Data Science Courses Training in Bangalore - Learnbay",
+  "description": "Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Bangalore. Visit now",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "sameAs": "https://www.learnbay.co/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "120000",
+    "priceCurrency": "INR",
+    "category": "Educational"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P9M",
+    "offers": {
+      "@type": "Offer",
+      "price": "120000",
+      "priceCurrency": "INR"
+    }
+  }
+}
+`,
           }}
         />
         <script
@@ -230,7 +263,7 @@ export default function Home() {
             __html: ` {
               "@context": "https://schema.org/", 
   "@type": "Product", 
-  "name": "Learnbay - Data Science Course Training In Bangalore",
+  "name": "Best Data Science Courses Training in Bangalore - Learnbay",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "brand": {
     "@type": "Brand",
@@ -246,19 +279,19 @@ export default function Home() {
               }
              
               
-} `,
+}
+ `,
           }}
         />
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(DSBangaloreSchema),
+            __html: JSON.stringify(dataScienceBangloreFaqSchema),
           }}
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
