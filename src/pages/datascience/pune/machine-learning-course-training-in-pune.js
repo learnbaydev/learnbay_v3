@@ -1,42 +1,42 @@
-import Navbar from "@/components/Global/Navbar/Navbar";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { MLPuneCourseData } from "../../../CityData/Pune/mlCourseTrainingInPune";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Popup from "../../../components/Global/Popup/Popup";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
-import styles from "../../../styles/Home.module.css";
+import Navbar from '@/components/Global/Navbar/Navbar';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { MLPuneCourseData } from '../../../CityData/Pune/mlCourseTrainingInPune';
+import Footer from '../../../components/Global/Footer/Footer';
+import Form from '../../../components/Global/Form/Form';
+import Popup from '../../../components/Global/Popup/Popup';
+import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
+import Testimonial from '../../../components/Seo/Testimonial/Testimonial';
+import styles from '../../../styles/Home.module.css';
 const FirstSection = dynamic(
-  () => import("../../../components/Seo/FirstSection/FirstSection"),
+  () => import('../../../components/Seo/FirstSection/FirstSection')
 );
 const SecondSection = dynamic(
-  () => import("../../../components/Seo/SecondSection/SecondSection"),
+  () => import('../../../components/Seo/SecondSection/SecondSection')
 );
 const ProgramInfo = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramInfo"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramInfo')
 );
 const SeventhSection = dynamic(
-  () => import("../../../components/Seo/SeventhSection/SeventhSection"),
+  () => import('../../../components/Seo/SeventhSection/SeventhSection')
 );
 const ProgramFee = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
 const CityText = dynamic(
-  () => import("../../../components/Seo/CityText/CityText"),
+  () => import('../../../components/Seo/CityText/CityText')
 );
 const CitiesLeft = dynamic(
-  () => import("../../../components/Seo/CitiesLeft/CitiesLeft"),
+  () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
 const CitiesRight = dynamic(
-  () => import("../../../components/Seo/CitiesRight/CitiesRight"),
+  () => import('../../../components/Seo/CitiesRight/CitiesRight')
 );
 const OfferPopup = dynamic(
-  () => import("../../../components/Global/OfferPopup/OfferPopup"),
+  () => import('../../../components/Global/OfferPopup/OfferPopup')
 );
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -49,8 +49,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -63,7 +63,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === 'Adv Data Science and AI') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -75,7 +75,7 @@ export default function Home() {
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf';
   return (
     <div className={styles.container}>
       <Head>
@@ -93,41 +93,40 @@ export default function Home() {
           property="og:url"
           content="https://www.learnbay.co/datascience/pune/machine-learning-course-training-in-pune"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Machine Learning Course in pune | Data Science Training in pune"
+          content="Machine Learning Certification Course in Pune - Learnbay"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Machine Learning Course in pune. Learnbay is Advanced Machine Learning Course Training Institute in pune. Machine Learning Course in pune will enhance your career"
+          content="Upgrade your career with Learnbay’s Machine Learning course in Pune, featuring domain specialisation, GenAI modules, and IBM certification. Join today!"
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Machine Learning Course in Chennai | Data Science Training in Chennai"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Machine Learning Course in Chennai. Learnbay is Advanced Machine Learning Course Training Institute in Chennai. Machine Learning Course in Chennai will enhance your career"
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/pune/machine-learning-course-training-in-pune"
+        />
+        <meta
+          name="twitter:title"
+          content="Machine Learning Certification Course in Pune - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Machine Learning Course in Chennai. Learnbay is Advanced Machine Learning Course Training Institute in Chennai. Machine Learning Course in Chennai will enhance your career"
+          content="Upgrade your career with Learnbay’s Machine Learning course in Pune, featuring domain specialisation, GenAI modules, and IBM certification. Join today!"
         />
         <meta
           name="twitter:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
+
         <link
           rel="canonical"
           href="https://www.learnbay.co/datascience/pune/machine-learning-course-training-in-pune"
@@ -142,7 +141,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
