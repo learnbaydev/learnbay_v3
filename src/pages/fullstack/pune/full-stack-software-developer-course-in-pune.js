@@ -92,41 +92,40 @@ export default function Home() {
           property="og:url"
           content="https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Full Stack Software Developer Course in pune | Data Science Training in pune"
+          content="Best Full Stack Developer Course in Pune with Job Assistance"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Full Stack Software Developer Course in pune. Learnbay is Advanced Full Stack Software Developer Course Training Institute in pune. Full Stack Software Developer Course in pune will enhance your career"
+          content="Join the best Full-stack Software Developer course in Pune and acquire the skills needed to excel in this field. Sign-up Now."
         />
         <meta
           property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Full Stack Software Developer Course in Chennai | Data Science Training in Chennai"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Full Stack Software Developer Course in Chennai. Learnbay is Advanced Full Stack Software Developer Course Training Institute in Chennai. Full Stack Software Developer Course in Chennai will enhance your career"
+          property="twitter:url"
+          content="https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Full Stack Developer Course in Pune with Job Assistance"
         />
         <meta
           name="twitter:description"
-          content="Full Stack Software Developer Course in Chennai. Learnbay is Advanced Full Stack Software Developer Course Training Institute in Chennai. Full Stack Software Developer Course in Chennai will enhance your career"
+          content="Join the best Full-stack Software Developer course in Pune and acquire the skills needed to excel in this field. Sign-up Now."
         />
         <meta
           name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
+
         <link
           rel="canonical"
           href="https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune"
@@ -138,6 +137,353 @@ export default function Home() {
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+            "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Learnbay - Data science and Generative AI courses training in Pune",
+  "description": "Join the best Full-stack Software Developer course in Pune and acquire the skills needed to excel in this field. Sign-up Now.",
+  "url": "https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "office no. 408, 4th floor, City Space, opposite to Fiserv, Viman Nagar",
+    "addressLocality": "Pune",
+    "addressRegion": "Maharashtra",
+    "postalCode": "411014",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.562830973846324,
+    "longitude": 73.92150074243546
+  },
+  "telephone": "(+91) 77956 87988",
+  "email": "contacts@learnbay.co",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "20:00"
+    }
+  ],
+  "priceRange": "₹ 1,59,000 + 18% GST",
+  "areaServed": "Pune",
+  "paymentAccepted": "Cash, Credit Card, Debit Card, EMI",
+  "sameAs": [
+    "https://www.facebook.com/learnbay/",
+    "https://twitter.com/Learnbay",
+    "https://www.instagram.com/learnbayofficial/",
+    "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
+    "https://www.linkedin.com/company/learnbay/"
+  ]
+}
+
+              `,
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+              "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Best Full Stack Developer Course in Pune with Job Assistance",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "1283"
+  }
+}
+
+              `,
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+             "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Best Full Stack Developer Course in Pune with Job Assistance",
+  "description": "Join the best Full-stack Software Developer course in Pune and acquire the skills needed to excel in this field. Sign-up Now.",
+  "url": "https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "sameAs": "https://www.learnbay.co/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "159000",
+    "priceCurrency": "INR",
+    "category": "Educational"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P11M",
+    "offers": {
+      "@type": "Offer",
+      "price": "159000",
+      "priceCurrency": "INR"
+    }
+  }
+}
+
+              `,
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+             "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is Learnbay’s full-stack developer course in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay's full-stack developer course is essentially the finest course in software development available in Pune. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages."
+    }
+  },{
+    "@type": "Question",
+    "name": "What types of topics will this full-stack development course cover?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). The position necessitates agility, originality, and a combination of technical programming capabilities."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a 'Flexi Subscription' in the full stack software development course in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Those who register for live online/hybrid training in the full-stack software development course are eligible for a Flexi Pass. We will get you access to all the ongoing live classes, recorded videos, and premium study materials for three years. You are free to pause, resume, and finish your study during these three years, and you are welcome to attend any class schedule/instructor whenever it is most convenient for you."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the essential skills in a software development course in pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Programming, Object Oriented Design (OOD), Software Testing and Debugging, Problem Solving, and Logical Thinking are the mandatory skills you need to master. Learnbay's full-stack development course trains learners on this topic via real-time working experience."
+    }
+  },{
+    "@type": "Question",
+    "name": "What will be the program duration for this full-stack software developer course in pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The course duration of the full-stack software developer course in pune is 7 – 8 months, including flexible training sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the mode of training for this advanced software development course at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select your preferred mode based on your needs. 1. Online Mode :- You can only participate in live, interactive classes online (no recorded video-based session is available). Project sessions will also be conducted online. 2. Hybrid Mode :- For all theoretical sessions, you must participate in live, interactive online lectures. Project-based sessions will be conducted offline."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does hybrid learning work, and what are its benefits?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. While you enter into the project modules, then you have to visit the Learnbay authorized training centers within your city. There you will be doing your project work under the direct supervision of your respective domain expert. The dedicated counselor assigned to you will help you in this regard. The following Indian cities have authorized training facilities: Bangalore, Mumbai, Chennai, Hyderabad, Delhi, Kolkata, and Pune."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I miss a few classes due to an emergency?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will be given substitute classes in other batches if you miss a few classes. But if you were unable to attend more classes, you could choose to switch batches and enroll in the next batch."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I know that the concerned full-stack software development is a perfect fit for me?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A full Stack Developer must be proficient and should own extreme interest in various code specializations, including databases, visual design, and UI/UX management, to do their jobs effectively. If you can use your coding abilities and are interested in software applications, this position is ideal for you. You can also take the help of Learnbay’s industry expert career counselor in this regard free of cost."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is Domain Specialization associated with the full-stack software developer course in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In the full-stack software developer course of Learnbay, we offer five elite domains, from which you can choose your preferred one for your respective specialization. Based on your targeted job role, you can select a specific elective. Based on your chosen domain, all the learning modules of your course will receive customization. So you will be trained with all the best practices of software development that are exclusive to your chosen domain."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are specialized domain options provided in this Program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In Pune, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is it possible to choose more than one domain in a particular full-stack software developer course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, it is possible to select more than one domain in a full-stack developer course based on someone's preferences and eligibility. +917795687988"
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I switch my domain later or in between the course, and if so, is there any extra cost involved?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. And doing so is free of cost."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I don't have any prior experience in any domain?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I know which domain suits me the best?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for a free profile review and career guidance on the full-stack developer course."
+    }
+  },{
+    "@type": "Question",
+    "name": "How much is the full-stack software developer course fee in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The course costs INR 1,59,000 plus 18% GST. Learnbay extends a pocket-friendly career switch with its flexible installment options, with a no-cost EMI for 6, 9, and 12 months."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any Installment / EMI option available for this course in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option. You can also choose an interest-free loan by submitting an Aadhar card, a Pan Card, and a 3-month salary slip."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any scholarship/discount available for these Data Science training courses available in Pune? What is Group Discount?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the refund policy for the Data Science Certification courses at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many capstone projects will be there?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Depending on the course you choose the number of capstone projects will vary. Foundational Data Science and AI Training Course - 1 Capstone. Advance Data Science and AI Certification Course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and AI Training with Placement Assistance- 3 Capstones. How many real-time projects/case studies will be covered in these Data Science certification courses in Pune? Depending on the course you choose the number of live projects will vary. Foundational Data Science and AI Training course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and AI Training with Placement Assistance- 15 projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How will the projects be executed in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any accredited data science certification after course completion?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification."
+    }
+  },{
+    "@type": "Question",
+    "name": "What's the eligibility for a job assistance Program in Learnbay Data science training courses in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get support for job assistance at Learnbay in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a job-readiness program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
+    }
+  },{
+    "@type": "Question",
+    "name": "Will I get job referrals at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
+    }
+  },{
+    "@type": "Question",
+    "name": "Until when do the students get the facility of mentorship?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our mentors will provide data science training to the students until the completion of the course."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can a Learnbay student in Pune choose to study from their desired mentor?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+    }
+  },{
+    "@type": "Question",
+    "name": "When is the job assistance provided at Learnbay and how long will I get it?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get Job referrals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  }]
+}
+
+              `,
+          }}
         />
       </Head>
       <main>
