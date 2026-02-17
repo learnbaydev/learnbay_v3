@@ -201,7 +201,7 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-             "@context": "https://schema.org",
+              "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
@@ -415,6 +415,7 @@ export default function Home() {
     }
   }]
 }
+
 
               `,
           }}

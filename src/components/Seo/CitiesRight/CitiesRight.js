@@ -593,6 +593,12 @@ const CitiesRight = ({
               those working in the non-IT Sector. Some tools covered in Module 0
               are Anaconda, Jupyter, Git, and GitHub.
             </p>
+            <p>
+              <b>Note:</b> This is a draft module. Our modules keep changing as
+              per the trending job market demand. For the latest and updated
+              Syllebus, check the brochure in the detailed Module Section. (link
+              to the module section)
+            </p>
             <h2 className={styles.pHead}>Term 1 - Python for Data Science </h2>
             <b>Module (1) - Python Programming </b>
             <p>
@@ -798,7 +804,6 @@ const CitiesRight = ({
                 of data science to make data-driven decisions effectively and
                 boost revenue growth.
               </li>
-              <li>The course fee is INR 1,10,000, excluding GST.</li>
 
               <h3 className={styles.pHead}>
                 Highlights of Data Science and AI Program for Managers and
