@@ -1,40 +1,43 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import LJourney from "../LJourney/LJourney";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import SeventhSection from '@/components/Global/SeventhSection/SeventhSection';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import LJourney from '../LJourney/LJourney';
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
 const Certificate = dynamic(
   () =>
-    import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate"),
+    import('../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate')
 );
 const FeeSection = dynamic(
-  () => import("../../course/feeSection/FeeSectionCourse"),
+  () => import('../../course/feeSection/FeeSectionCourse')
 );
 const MentorsSection = dynamic(
-  () => import("../../../components/Global/MentorsSection/MentorsSection"),
+  () => import('../../../components/Global/MentorsSection/MentorsSection')
 );
 const SliderTab = dynamic(
-  () => import("../../../components/Global/SliderTabs/SliderTabs"),
+  () => import('../../../components/Global/SliderTabs/SliderTabs')
 );
 const PlacementCall = dynamic(
-  () => import("../../../components/Global/PlacementCall/PlacementCall"),
+  () => import('../../../components/Global/PlacementCall/PlacementCall')
 );
 const NewProjectSection = dynamic(
-  () =>
-    import("../../../components/Global/NewProjectSection/NewProjectSection"),
+  () => import('../../../components/Global/NewProjectSection/NewProjectSection')
 );
 
 const FAQNew = dynamic(
-  () => import("../../../components/CoursePage/FAQNew/FAQNew"),
+  () => import('../../../components/CoursePage/FAQNew/FAQNew')
 );
 const Content = dynamic(
-  () => import("../../../components/CoursePage/Content/content"),
+  () => import('../../../components/CoursePage/Content/content')
 );
 const MobileTestimonial = dynamic(
-  () => import("../../Home/MobileTestimonial/MobileTestimonial"),
+  () => import('../../Home/MobileTestimonial/MobileTestimonial')
+);
+
+const DSAFeeSection = dynamic(
+  () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
 );
 
 const SecondPart = ({
@@ -57,7 +60,7 @@ const SecondPart = ({
   // console.log(popupData);
 
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf';
   return (
     <div>
       <LJourney />
@@ -73,12 +76,32 @@ const SecondPart = ({
       />
       <ToolsCovered />
       <Certificate data={CertificateData} />
-      <FeeSection
+      {/* <FeeSection
         Fee="₹ 1,10,000"
         FeeEmi="₹ 7,211/ month"
         // Hybrid Classes
         hybridFee="₹ 1,25,000 "
         hybridEmi="₹ 8,194/ month"
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹1,90,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
+        duration2="12 Months"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
+      /> */}
+
+      <DSAFeeSection
+        Fee="₹ 1,59,000 "
+        FeeEmi="₹ 13,250/ month"
+        // Hybrid Classes
+        hybridFee="₹ 1,55,000"
+        hybridEmi="₹ 10,161/ month"
         // EMIPOPUP
         emiType="Live online classes"
         duration1="12 Months"
