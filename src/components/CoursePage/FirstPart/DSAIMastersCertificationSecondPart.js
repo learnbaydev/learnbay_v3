@@ -11,8 +11,8 @@ const Certificate = dynamic(
   () => import('../UpdatedCertificate/UpdatedCertificate')
 );
 import BookDemo from '@/components/CoursePage/NewDSA/BookDemo/BookDemo';
-const FeeSection = dynamic(
-  () => import('../../course/feeSection/FeeSectionCourse')
+const DSAFeeSection = dynamic(
+  () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
 );
 const MentorsSection = dynamic(
   () => import('../../Global/MentorsSection/MentorsSection')
@@ -108,9 +108,9 @@ const SecondPart = ({
       />
       <HighlightsSection />
       <Certificate data={CertificateData} />
-      <FeeSection
-        Fee=" ₹ 1,59,000 "
-        // FeeEmi="₹ 9,177/ month"
+      <DSAFeeSection
+        Fee="₹ 1,59,000 "
+        FeeEmi="₹ 13,250/ month"
         // Hybrid Classes
         hybridFee="₹ 1,59,000"
         // hybridEmi="₹ 10,161/ month"

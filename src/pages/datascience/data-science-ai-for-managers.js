@@ -88,7 +88,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   "url": "https://www.learnbay.co/datascience/data-science-ai-for-managers",
   "offers": {
     "@type": "offer",
-    "price": "125000",
+    "price": "159000",
     "pricecurrency": "INR",
     "category": "Educational"
   },
@@ -105,7 +105,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       "courseWorkload": "P10W",
       "courseFee": {
         "@type": "PriceSpecification",
-        "price": "₹ 1,25,000 + 18% GST",
+        "price": "₹ 1,59,000 + 18% GST",
         "priceCurrency": "INR"
       }
     }

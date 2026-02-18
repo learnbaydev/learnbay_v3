@@ -1,9 +1,9 @@
-import { parseJSONData } from "@/Util/JsonConvertor";
-import DataAnlyticsFirstPart from "@/components/CoursePage/FirstPart/DataAnlyticsFirstPart";
-import DataAnlyticsSecondPart from "@/components/CoursePage/FirstPart/DataAnlyticsSecondPart";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { DataAnalyticsSchema } from "@/Data/Schema/DataAnalyticsSchema";
+import { parseJSONData } from '@/Util/JsonConvertor';
+import DataAnlyticsFirstPart from '@/components/CoursePage/FirstPart/DataAnlyticsFirstPart';
+import DataAnlyticsSecondPart from '@/components/CoursePage/FirstPart/DataAnlyticsSecondPart';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { DataAnalyticsSchema } from '@/Data/Schema/DataAnalyticsSchema';
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
@@ -11,13 +11,13 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
   useEffect(() => {
     const fetchData = async () => {
-      const popupResponse = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const popupResponse = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (popupResponse.status === 200) {
         const { popData } = await popupResponse.json();
         const foundPopup = popData.find((data) =>
-          data.page.includes("Adv Data Science and AI")
+          data.page.includes('Adv Data Science and AI')
         );
         if (foundPopup) {
           setPopupData(foundPopup);
@@ -28,18 +28,18 @@ function Blockchain({ DataScienceCourseDataJson }) {
     fetchData();
   }, []);
 
-  const [batchDateData, setBatchDateData] = useState("");
+  const [batchDateData, setBatchDateData] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {
       // Fetch Popup Data
-      const popupResponse = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const popupResponse = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (popupResponse.status === 200) {
         const { popData } = await popupResponse.json();
         const foundPopup = popData.find((data) =>
-          data.page.includes("Data Analytics Program")
+          data.page.includes('Data Analytics Program')
         );
         if (foundPopup) {
           setPopupData(foundPopup);
@@ -47,11 +47,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
       }
 
       // Fetch Batch Data
-      const batchResponse = await fetch("/api/BatchDetails/getBatchDetails", {
-        method: "POST",
-        body: JSON.stringify("Data Science and AI"),
+      const batchResponse = await fetch('/api/BatchDetails/getBatchDetails', {
+        method: 'POST',
+        body: JSON.stringify('Data Science and AI'),
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       });
 
@@ -139,7 +139,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
             "url": "https://www.learnbay.co/datascience/data-analytics-certification-course",
             "offers": {
               "@type": "Offer",
-              "price": 80000,
+              "price": 1,20,000,
               "priceCurrency": "INR",
               "category": "Educational"
             },
@@ -156,7 +156,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
                "courseWorkload": "P10W",
                 "courseFee": {
                   "@type": "PriceSpecification",
-                  "price": "₹ 80,000 + 18% GST",
+                  "price": "₹ 1,20,000 + 18% GST",
                   "priceCurrency": "INR"
                 }
               }
@@ -201,7 +201,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/DataAnalyticsData");
+  const data = await import('../../Data/DataAnalyticsData');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

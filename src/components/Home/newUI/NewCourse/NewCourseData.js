@@ -187,7 +187,7 @@ export const courses = {
     //   link: "/fullstack/full-stack-software-development-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf",
     // },
     // {
     //   title: "Data Science & AI for BFSI Professionals",
@@ -333,7 +333,7 @@ export const courses = {
     //   link: "/fullstack/full-stack-software-development-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf",
     // },
   ],
 
@@ -479,7 +479,7 @@ export const courses = {
     //   link: "/datascience/data-science-certification-courses",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-Foundation-Program.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf",
     // },
     // {
     //   title: "Advanced Certification Program in Generative Ai",
@@ -683,7 +683,7 @@ export const courses = {
     //   link: "/fullstack/full-stack-software-development-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf",
     // },
   ],
 
@@ -944,7 +944,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-Foundation-Program.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf",
     // },
   ],
 
@@ -1158,7 +1158,7 @@ export const courses = {
     //   link: "/fullstack/full-stack-software-development-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf",
     // },
   ],
 

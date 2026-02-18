@@ -36,6 +36,10 @@ const MobileTestimonial = dynamic(
   () => import('@/components/Home/MobileTestimonial/MobileTestimonial')
 );
 
+const DSAFeeSection = dynamic(
+  () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
+);
+
 const SecondPart = ({
   masterSyllabusMobile,
   CertificateData,
@@ -70,9 +74,9 @@ const SecondPart = ({
       />
       <ToolsCovered />
       <Certificate data={CertificateData} />
-      <FeeSection
-        Fee="₹ 1,59,000 "
-        // FeeEmi="₹ 7,866/ month"
+      {/* <FeeSection
+        Fee="₹ 1,20,000 "
+        FeeEmi="₹ 7,866/ month"
         // Hybrid Classes
         hybridFee="₹ 1,59,000"
         // hybridEmi="₹ 8,850/ month"
@@ -82,6 +86,26 @@ const SecondPart = ({
         totalAmount1="₹1,90,000"
         monthlyPayment1="₹14,094"
         greenDown1="Standard Interest Rates Applicable"
+        duration2="12 Months"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
+      /> */}
+
+      <DSAFeeSection
+        Fee="₹ 1,59,000 "
+        FeeEmi="₹ 13,250/ month"
+        // Hybrid Classes
+        hybridFee="₹ 1,55,000"
+        hybridEmi="₹ 10,161/ month"
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹1,90,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
         duration2="12 Months"
         totalAmount2="₹2,10,000"
         monthlyPayment2="₹12,455"
