@@ -441,7 +441,7 @@ export const DSinodreCourseData = [
     ModuleMasterBot3:
       'Learners work on real-time projects and case studies to achieve job competencies. This learning method enriches domain-specific skills and increases earning limits globally. Unlike generic courses, Learnbay aims to offer data experts a financially rewarding career by fostering improved mastery and enthusiasm.',
     ModuleMasterBot4:
-      'Note: Learnbay is always 10 step ahead in trending skill training. So our modules/syllebus get continuous update. Always contact our expert to get the idea about the latest modules and syllabus. ',
+      'Note: Learnbay is always 10 step ahead in trending skill training. So our modules/syllabus get continuous update. Always contact our expert to get the idea about the latest modules and syllabus. ',
     ModuleBot47: '  ',
 
     syllabush1: 'INDUCTION + ORIENTATION',

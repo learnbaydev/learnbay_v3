@@ -596,7 +596,7 @@ const CitiesRight = ({
             <p>
               <b>Note:</b> This is a draft module. Our modules keep changing as
               per the trending job market demand. For the latest and updated
-              Syllebus, check the brochure in the detailed Module Section. (link
+              Syllabus, check the brochure in the detailed Module Section. (link
               to the module section)
             </p>
             <h2 className={styles.pHead}>Term 1 - Python for Data Science </h2>
@@ -720,8 +720,8 @@ const CitiesRight = ({
               </li>
             </ol>
             <h2 className={styles.pHead}>
-              Data Science and Gen AI Master Foundation Program in Mumbai with
-              Placement Assistance{' '}
+              Data Science and Gen AI Master Program in Mumbai with Placement
+              Assistance{' '}
             </h2>
             <ul>
               <li>

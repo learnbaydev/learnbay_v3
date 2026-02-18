@@ -422,6 +422,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+          ibmOnly={true}
           FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
@@ -506,21 +507,21 @@ export default function Home() {
               DomainList3={DataScienceMumbaiCourseData[0].DomainList3}
               DomainList4={DataScienceMumbaiCourseData[0].DomainList4}
               DomainList5={DataScienceMumbaiCourseData[0].DomainList5}
-              DomainList6={DataScienceMumbaiCourseData[0].DomainList6}
-              DomainList7={DataScienceMumbaiCourseData[0].DomainList7}
-              DomainList8={DataScienceMumbaiCourseData[0].DomainList8}
-              DomainList9={DataScienceMumbaiCourseData[0].DomainList9}
-              DomainList10={DataScienceMumbaiCourseData[0].DomainList10}
+              DomainList6={DataScienceMumbaiCourseData[0].DomainList1}
+              DomainList7={DataScienceMumbaiCourseData[0].DomainList1}
+              DomainList8={DataScienceMumbaiCourseData[0].DomainList1}
+              DomainList9={DataScienceMumbaiCourseData[0].DomainList1}
+              DomainList10={DataScienceMumbaiCourseData[0].DomainList1}
               Domainlink1={DataScienceMumbaiCourseData[0].Domainlink1}
               Domainlink2={DataScienceMumbaiCourseData[0].Domainlink2}
               Domainlink3={DataScienceMumbaiCourseData[0].Domainlink3}
               Domainlink4={DataScienceMumbaiCourseData[0].Domainlink4}
               Domainlink5={DataScienceMumbaiCourseData[0].Domainlink5}
-              Domainlink6={DataScienceMumbaiCourseData[0].Domainlink6}
-              Domainlink7={DataScienceMumbaiCourseData[0].Domainlink7}
-              Domainlink8={DataScienceMumbaiCourseData[0].Domainlink8}
-              Domainlink9={DataScienceMumbaiCourseData[0].Domainlink9}
-              Domainlink10={DataScienceMumbaiCourseData[0].Domainlink10}
+              Domainlink6={DataScienceMumbaiCourseData[0].Domainlink1}
+              Domainlink7={DataScienceMumbaiCourseData[0].Domainlink1}
+              Domainlink8={DataScienceMumbaiCourseData[0].Domainlink1}
+              Domainlink9={DataScienceMumbaiCourseData[0].Domainlink1}
+              Domainlink10={DataScienceMumbaiCourseData[0].Domainlink1}
               CertificationBot1={
                 DataScienceMumbaiCourseData[0].CertificationBot1
               }
@@ -553,7 +554,7 @@ export default function Home() {
               }
               src={DataScienceMumbaiCourseData[0].src}
               src22={DataScienceMumbaiCourseData[0].src22}
-              src33={DataScienceMumbaiCourseData[0].src33}
+              // src33={DataScienceMumbaiCourseData[0].src33}
               ModuleHead1={DataScienceMumbaiCourseData[0].ModuleHead1}
               ModuleBot1={DataScienceMumbaiCourseData[0].ModuleBot1}
               ModuleBot2={DataScienceMumbaiCourseData[0].ModuleBot2}
@@ -576,19 +577,19 @@ export default function Home() {
                 DataScienceMumbaiCourseData[0].SyllabusBotlist11
               }
               SyllabusBotlist12={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist12
+                DataScienceMumbaiCourseData[0].SyllabusBotlist11
               }
               SyllabusBotlist13={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist13
+                DataScienceMumbaiCourseData[0].SyllabusBotlist11
               }
               SyllabusBotlist14={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist14
+                DataScienceMumbaiCourseData[0].SyllabusBotlist11
               }
               SyllabusBotlist15={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist15
+                DataScienceMumbaiCourseData[0].SyllabusBotlist11
               }
               SyllabusBotlist16={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist16
+                DataScienceMumbaiCourseData[0].SyllabusBotlist11
               }
               syllabush2={DataScienceMumbaiCourseData[0].syllabush2}
               syllabusb2={DataScienceMumbaiCourseData[0].syllabusb2}
@@ -596,19 +597,19 @@ export default function Home() {
                 DataScienceMumbaiCourseData[0].SyllabusBotlist21
               }
               SyllabusBotlist22={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist22
+                DataScienceMumbaiCourseData[0].SyllabusBotlist21
               }
               SyllabusBotlist23={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist23
+                DataScienceMumbaiCourseData[0].SyllabusBotlist21
               }
               SyllabusBotlist24={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist24
+                DataScienceMumbaiCourseData[0].SyllabusBotlist21
               }
               SyllabusBotlist25={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist25
+                DataScienceMumbaiCourseData[0].SyllabusBotlist21
               }
               SyllabusBotlist26={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist26
+                DataScienceMumbaiCourseData[0].SyllabusBotlist21
               }
               syllabush3={DataScienceMumbaiCourseData[0].syllabush3}
               syllabusb3={DataScienceMumbaiCourseData[0].syllabusb3}
@@ -616,19 +617,19 @@ export default function Home() {
                 DataScienceMumbaiCourseData[0].SyllabusBotlist31
               }
               SyllabusBotlist32={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist32
+                DataScienceMumbaiCourseData[0].SyllabusBotlist21
               }
               SyllabusBotlist33={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist33
+                DataScienceMumbaiCourseData[0].SyllabusBotlist31
               }
               SyllabusBotlist34={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist34
+                DataScienceMumbaiCourseData[0].SyllabusBotlist31
               }
               SyllabusBotlist35={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist35
+                DataScienceMumbaiCourseData[0].SyllabusBotlist31
               }
               SyllabusBotlist36={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist36
+                DataScienceMumbaiCourseData[0].SyllabusBotlist31
               }
               syllabush4={DataScienceMumbaiCourseData[0].syllabush4}
               syllabusb4={DataScienceMumbaiCourseData[0].syllabusb4}
@@ -636,32 +637,32 @@ export default function Home() {
                 DataScienceMumbaiCourseData[0].SyllabusBotlist41
               }
               SyllabusBotlist42={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist42
+                DataScienceMumbaiCourseData[0].SyllabusBotlist21
               }
               SyllabusBotlist43={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist43
+                DataScienceMumbaiCourseData[0].SyllabusBotlist31
               }
               SyllabusBotlist44={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist44
+                DataScienceMumbaiCourseData[0].SyllabusBotlist41
               }
               SyllabusBotlist45={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist45
+                DataScienceMumbaiCourseData[0].SyllabusBotlist41
               }
               SyllabusBotlist46={
-                DataScienceMumbaiCourseData[0].SyllabusBotlist46
+                DataScienceMumbaiCourseData[0].SyllabusBotlist41
               }
               syllabussrc={DataScienceMumbaiCourseData[0].syllabussrc}
               JobHead1={DataScienceMumbaiCourseData[0].JobHead1}
               JobBot1={DataScienceMumbaiCourseData[0].JobBot1}
               JobBot2={DataScienceMumbaiCourseData[0].JobBot2}
-              JobBot5={DataScienceMumbaiCourseData[0].JobBot5}
+              JobBot5={DataScienceMumbaiCourseData[0].JobBot1}
               JobHead2={DataScienceMumbaiCourseData[0].JobHead2}
               JobHead3={DataScienceMumbaiCourseData[0].JobHead3}
               JobBot3={DataScienceMumbaiCourseData[0].JobBot3}
               JobBot4={DataScienceMumbaiCourseData[0].JobBot4}
-              JobBot6={DataScienceMumbaiCourseData[0].JobBot6}
+              JobBot6={DataScienceMumbaiCourseData[0].JobBot1}
               JobBot7={DataScienceMumbaiCourseData[0].JobBot7}
-              JobBot8={DataScienceMumbaiCourseData[0].JobBot8}
+              JobBot8={DataScienceMumbaiCourseData[0].JobBot1}
               ProjectsHead1={DataScienceMumbaiCourseData[0].ProjectsHead1}
               ProjectsHead3={DataScienceMumbaiCourseData[0].ProjectsHead3}
               ProjectsBot1={DataScienceMumbaiCourseData[0].ProjectsBot1}
