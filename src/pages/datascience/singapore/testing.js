@@ -105,7 +105,7 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSectionCopy
-            Fee="₹85,000"
+            Fee="₹ 1,59,000"
             FeeEmi="₹5,572/month"
             weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
@@ -128,11 +128,11 @@ export default function Home() {
             // EMI POPUPDATA
             emiType="NO COST EMI"
             duration1="18 Months"
-            totalAmount1="₹85,000"
+            totalAmount1="₹ 1,59,000"
             monthlyPayment1="₹5,572"
             greenDown1="Standard Intrest rate Applicable"
             duration2="12 Months"
-            totalAmount2="₹85,000"
+            totalAmount2="₹ 1,59,000"
             monthlyPayment2="₹8,358"
           />
         </div>

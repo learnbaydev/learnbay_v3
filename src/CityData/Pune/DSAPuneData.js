@@ -206,7 +206,7 @@ export const DSAPuneData = [
           {
             id: 0,
             ques: 'What is the course fee for the Data Structures Algorithms and System Design Program?',
-            ans: `The data structures and algorithms course in Pune costs INR 82,000 (including taxes). The working professionals willing to enroll in the course can visit the Learnbay website or schedule a call with our counselor for more details. To know more about the course, contact us at +91 7795687988.  `,
+            ans: `The data structures and algorithms course in Pune costs INR 1,59,000 (including taxes). The working professionals willing to enroll in the course can visit the Learnbay website or schedule a call with our counselor for more details. To know more about the course, contact us at +91 7795687988.  `,
             open: true,
           },
           {

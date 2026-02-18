@@ -1,40 +1,39 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import LJourney from "../LJourney/LJourney";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import SeventhSection from '@/components/Global/SeventhSection/SeventhSection';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import LJourney from '../LJourney/LJourney';
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
 const Certificate = dynamic(
   () =>
-    import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate"),
+    import('../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate')
 );
 const FeeSection = dynamic(
-  () => import("../../course/feeSection/FeeSectionCourse"),
+  () => import('../../course/feeSection/FeeSectionCourse')
 );
 const MentorsSection = dynamic(
-  () => import("../../../components/Global/MentorsSection/MentorsSection"),
+  () => import('../../../components/Global/MentorsSection/MentorsSection')
 );
 const SliderTab = dynamic(
-  () => import("../../../components/Global/SliderTabs/SliderTabs"),
+  () => import('../../../components/Global/SliderTabs/SliderTabs')
 );
 const PlacementCall = dynamic(
-  () => import("../../../components/Global/PlacementCall/PlacementCall"),
+  () => import('../../../components/Global/PlacementCall/PlacementCall')
 );
 const NewProjectSection = dynamic(
-  () =>
-    import("../../../components/Global/NewProjectSection/NewProjectSection"),
+  () => import('../../../components/Global/NewProjectSection/NewProjectSection')
 );
 
 const FAQNew = dynamic(
-  () => import("../../../components/CoursePage/FAQNew/FAQNew"),
+  () => import('../../../components/CoursePage/FAQNew/FAQNew')
 );
 const Content = dynamic(
-  () => import("../../../components/CoursePage/Content/content"),
+  () => import('../../../components/CoursePage/Content/content')
 );
 const MobileTestimonial = dynamic(
-  () => import("@/components/Home/MobileTestimonial/MobileTestimonial"),
+  () => import('@/components/Home/MobileTestimonial/MobileTestimonial')
 );
 
 const SecondPart = ({
@@ -72,11 +71,11 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 1,20,000 "
-        FeeEmi="₹ 7,866/ month"
+        Fee="₹ 1,59,000 "
+        // FeeEmi="₹ 7,866/ month"
         // Hybrid Classes
-        hybridFee="₹ 1,20,000"
-        hybridEmi="₹ 8,850/ month"
+        hybridFee="₹ 1,59,000"
+        // hybridEmi="₹ 8,850/ month"
         // EMIPOPUP
         emiType="NO COST EMI"
         duration1="12 Months"

@@ -1,8 +1,8 @@
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import { useEffect, useState } from "react";
-import BFSIFirstPart from "@/components/CoursePage/FirstPart/BFSIFirstPart";
-import BFSISecondPart from "@/components/CoursePage/FirstPart/BFSISecondPart";
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import { useEffect, useState } from 'react';
+import BFSIFirstPart from '@/components/CoursePage/FirstPart/BFSIFirstPart';
+import BFSISecondPart from '@/components/CoursePage/FirstPart/BFSISecondPart';
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -11,13 +11,13 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
   useEffect(() => {
     const fetchData = async () => {
-      const popupResponse = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const popupResponse = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (popupResponse.status === 200) {
         const { popData } = await popupResponse.json();
         const foundPopup = popData.find((data) =>
-          data.page.includes("Business Analytics Program")
+          data.page.includes('Business Analytics Program')
         );
         if (foundPopup) {
           setPopupData(foundPopup);
@@ -136,7 +136,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
             "url": "https://www.learnbay.co/datascience/data-science-for-bfsi-professional",
             "offers": {
               "@type": "Offer",
-              "price": 90000,
+              "price": 159000,
               "priceCurrency": "INR",
               "category": "Educational"
             },
@@ -153,7 +153,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
                 "courseWorkload": "P10W",
                 "courseFee": {
                   "@type": "PriceSpecification",
-                  "price": "₹ 90,000 + 18% GST",
+                  "price": "₹ 1,59,000 + 18% GST",
                   "priceCurrency": "INR"
                 }
               }
@@ -193,7 +193,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/BFSIAnalyticsData");
+  const data = await import('../../Data/BFSIAnalyticsData');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

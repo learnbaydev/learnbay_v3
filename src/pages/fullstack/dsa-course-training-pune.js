@@ -1,40 +1,40 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { DSAPuneData } from "../../CityData/Pune/DSAPuneData";
-import Footer from "../../components/Global/Footer/Footer";
-import Form from "../../components/Global/Form/Form";
-import Navbar from "../../components/Global/Navbar/Navbar";
-import Popup from "../../components/Global/Popup/Popup";
-import FeeSection from "../../components/Seo/FeeSection/FeeSection";
-import styles from "../../styles/Home.module.css";
-const FirstSection = dynamic(() =>
-  import("../../components/Seo/FirstSection/FirstSection")
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { DSAPuneData } from '../../CityData/Pune/DSAPuneData';
+import Footer from '../../components/Global/Footer/Footer';
+import Form from '../../components/Global/Form/Form';
+import Navbar from '../../components/Global/Navbar/Navbar';
+import Popup from '../../components/Global/Popup/Popup';
+import FeeSection from '../../components/Seo/FeeSection/FeeSection';
+import styles from '../../styles/Home.module.css';
+const FirstSection = dynamic(
+  () => import('../../components/Seo/FirstSection/FirstSection')
 );
-const SecondSection = dynamic(() =>
-  import("../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import('../../components/Seo/SecondSection/SecondSection')
 );
-const ProgramInfo = dynamic(() =>
-  import("../../components/Seo/ProgramInfo/ProgramInfo")
+const ProgramInfo = dynamic(
+  () => import('../../components/Seo/ProgramInfo/ProgramInfo')
 );
-const SeventhSection = dynamic(() =>
-  import("../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import('../../components/Seo/SeventhSection/SeventhSection')
 );
-const ProgramFee = dynamic(() =>
-  import("../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
+const ProgramFee = dynamic(
+  () => import('../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
-const CityText = dynamic(() =>
-  import("../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import('../../components/Seo/CityText/CityText')
 );
-const CitiesLeft = dynamic(() =>
-  import("../../components/Seo/CitiesLeft/CitiesLeft")
+const CitiesLeft = dynamic(
+  () => import('../../components/Seo/CitiesLeft/CitiesLeft')
 );
-const CitiesRight = dynamic(() =>
-  import("../../components/Seo/CitiesRight/CitiesRight")
+const CitiesRight = dynamic(
+  () => import('../../components/Seo/CitiesRight/CitiesRight')
 );
-const FAQNew = dynamic(() => import("../../components/Seo/FAQNew/FAQNew"));
-const OfferPopup = dynamic(() =>
-  import("../../components/Global/OfferPopup/OfferPopup")
+const FAQNew = dynamic(() => import('../../components/Seo/FAQNew/FAQNew'));
+const OfferPopup = dynamic(
+  () => import('../../components/Global/OfferPopup/OfferPopup')
 );
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -47,8 +47,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -61,7 +61,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Full Stack Developer course") {
+            if (popupData === 'Full Stack Developer course') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -74,12 +74,12 @@ export default function Home() {
   }, []);
 
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf';
   return (
     <div className={styles.container}>
       <Head>
         <title>
-          Data Structures & Algorithms Course | DSA Training in Pune{" "}
+          Data Structures & Algorithms Course | DSA Training in Pune{' '}
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -144,7 +144,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -179,7 +179,7 @@ export default function Home() {
         /> */}
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹95,000"
+            Fee="₹1,59,000"
             FeeEmi="₹6,228/month"
             weekendbatch="Weekday Evening (DSA BATCHES)"
             weekdaybatch="Weekday Evening (DSA BATCHES)"
@@ -202,11 +202,11 @@ export default function Home() {
             // <EMI POPUP
             emiType="NO COST EMI"
             duration1="18 Months"
-            totalAmount1="₹70,000"
+            totalAmount1="₹1,59,000"
             monthlyPayment1="₹6,228"
             greenDown1="Standard Intrest rate Applicable"
             duration2="12 Months"
-            totalAmount2="₹70,000"
+            totalAmount2="₹1,59,000"
             monthlyPayment2="₹9,342"
           />
         </div>

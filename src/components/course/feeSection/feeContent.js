@@ -1,10 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
-import Image from "next/image";
-import dynamic from "next/dynamic";
-const Button = dynamic(() => import("@/components/Global/Button/Button"));
-import styles from "./feeSection.module.css";
-import Emipopup from "@/components/CoursePage/EMIPopup/Emipopup";
-import Modal from "react-modal";
+import React, { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
+const Button = dynamic(() => import('@/components/Global/Button/Button'));
+import styles from './feeSection.module.css';
+import Emipopup from '@/components/CoursePage/EMIPopup/Emipopup';
+import Modal from 'react-modal';
 
 const FeeContent = ({
   Fee,
@@ -28,7 +28,7 @@ const FeeContent = ({
   const sentinelRef = useRef(null);
 
   useEffect(() => {
-    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -206,7 +206,7 @@ const FeeContent = ({
                   quality={40}
                 />
                 <p className={styles.iconContent}>
-                  Offline Classroom Capstone projects in{" "}
+                  Offline Classroom Capstone projects in{' '}
                   <span>
                     Pune, Delhi, Bangalore, Chennai, Hyderabad, Mumbai and
                     Kolkata
@@ -224,7 +224,7 @@ const FeeContent = ({
                   </h4>
                 </div>
                 <p>Pay in easy EMIs starting as low as</p>
-                <h4 style={{ color: "#0072BC" }}>{hybridEmi}</h4>
+                <h4 style={{ color: '#0072BC' }}>{hybridEmi}</h4>
 
                 <div className={styles.emiButtonBlue} onClick={popupShow}>
                   <Button text="Check EMI Options" />

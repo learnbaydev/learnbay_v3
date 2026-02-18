@@ -1,38 +1,38 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
-import LJourney from "../LJourney/LJourney";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const WhatsappFloat = dynamic(() =>
-  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import LJourney from '../LJourney/LJourney';
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
+const WhatsappFloat = dynamic(
+  () => import('@/components/Global/WhatappsFloat/WhatsappFloat')
 );
-const Certificate = dynamic(() => import("../Certificate/Certificate"));
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
+const Certificate = dynamic(() => import('../Certificate/Certificate'));
+const OfferPopup = dynamic(() => import('../../Global/OfferPopup/OfferPopup'));
+const FeeSection = dynamic(() => import('../FeeSection/FeeSection'));
 
-const MentorsSection = dynamic(() =>
-  import("../../Global/MentorsSection/MentorsSection")
-);
-
-const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-
-const PlacementCall = dynamic(() =>
-  import("../../Global/PlacementCall/PlacementCall")
-);
-const MobileTestimonial = dynamic(() =>
-  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+const MentorsSection = dynamic(
+  () => import('../../Global/MentorsSection/MentorsSection')
 );
 
-const NewProjectSection = dynamic(() =>
-  import("../../Global/NewProjectSection/NewProjectSection")
+const SliderTab = dynamic(() => import('../../Global/SliderTabs/SliderTabs'));
+
+const PlacementCall = dynamic(
+  () => import('../../Global/PlacementCall/PlacementCall')
+);
+const MobileTestimonial = dynamic(
+  () => import('@/components/Home/MobileTestimonial/MobileTestimonial')
 );
 
-const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-const Content = dynamic(() => import("../Content/content"));
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+const NewProjectSection = dynamic(
+  () => import('../../Global/NewProjectSection/NewProjectSection')
+);
+
+const FAQNew = dynamic(() => import('../FAQNew/FAQNewDomain'));
+const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
+const Content = dynamic(() => import('../Content/content'));
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
 );
 
 const SecondPart = ({
@@ -46,8 +46,8 @@ const SecondPart = ({
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -60,7 +60,7 @@ const SecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Business Analytics Program") {
+            if (popupData === 'Business Analytics Program') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -71,7 +71,8 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/marketing-analytics.pdf";
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/marketing-analytics.pdf';
   return (
     <div>
       <LJourney />
@@ -88,7 +89,7 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 80,000"
+        Fee="₹ 1,20,000"
         FeeEmi="₹ 5,244/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
@@ -111,11 +112,11 @@ const SecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹80,000"
+        totalAmount1="₹1,20,000"
         monthlyPayment1="₹5,244"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹80,000"
+        totalAmount2="₹1,20,000"
         monthlyPayment2="₹7,867"
       />
       <MentorsSection />

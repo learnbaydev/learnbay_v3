@@ -1,24 +1,20 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
 
-import LJourney from "../LJourney/LJourney";
-import DSAFeeSection from "../dsaFee/DSAFeeSection";
-import NewTools from "../newTools/NewTools";
-import GenAIProject from "../genAiProject/GenAIProject";
-import FAQNew from "../FAQNew/FAQNewDomain";
-const Certificate= dynamic(() =>
-import("../Certificate/Certificate")
-)
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+import LJourney from '../LJourney/LJourney';
+import DSAFeeSection from '../dsaFee/DSAFeeSection';
+import NewTools from '../newTools/NewTools';
+import GenAIProject from '../genAiProject/GenAIProject';
+import FAQNew from '../FAQNew/FAQNewDomain';
+const Certificate = dynamic(() => import('../Certificate/Certificate'));
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
 );
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
 
-const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-
-
+const SliderTab = dynamic(() => import('../../Global/SliderTabs/SliderTabs'));
 
 const GenAiMLeadersSecondPartIBM = ({
   masterSyllabusMobile,
@@ -27,14 +23,13 @@ const GenAiMLeadersSecondPartIBM = ({
   CertificateData,
   genAiData,
 }) => {
-
   // console.log(popupData);
 
-  const pdfUrl = "/Brochure/IBM-GenAI-Managers.pdf";
+  const pdfUrl = '/Brochure/IBM-GenAI-Managers.pdf';
   return (
     <div>
       <LJourney />
-      <NewTools toolsData={toolsData}/>
+      <NewTools toolsData={toolsData} />
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
@@ -49,7 +44,7 @@ const GenAiMLeadersSecondPartIBM = ({
         genAIIIT={true}
       />
 
-{/* <Certificate data={CertificateData}      singlecertificate={true}/> */}
+      {/* <Certificate data={CertificateData}      singlecertificate={true}/> */}
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection
@@ -64,16 +59,15 @@ const GenAiMLeadersSecondPartIBM = ({
         WeekendTime="08:00PM - 10:00PM"
         WeekdayTime="08:00PM - 10:00PM"
         FeeContent3="Flexible payment"
-
-         // <EMI POPUP
-         emiType="NO COST EMI"
-         duration1="18 Months"
-         totalAmount1="₹90,000"
-         monthlyPayment1=" ₹5,900"
-         greenDown1="Standard Intrest rate Applicable"
-         duration2="12 Months"
-         totalAmount2="₹90,000"
-         monthlyPayment2=" ₹8,850"
+        // <EMI POPUP
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹90,000"
+        monthlyPayment1=" ₹5,900"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹90,000"
+        monthlyPayment2=" ₹8,850"
       />
       {/* <FeeSection
         Fee="₹ 70,000"
@@ -110,7 +104,7 @@ const GenAiMLeadersSecondPartIBM = ({
       <SliderTab />
       {/* <PlacementCall /> */}
 
-      <GenAIProject genAiData ={genAiData } GENAIMAN={true} Duration={true}/>
+      <GenAIProject genAiData={genAiData} GENAIMAN={true} Duration={true} />
       {/* <FAQNew FAQNewData={FAQNewData} /> */}
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}
       <SeventhSection />

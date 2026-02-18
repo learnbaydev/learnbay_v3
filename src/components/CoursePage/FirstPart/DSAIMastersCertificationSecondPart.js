@@ -1,36 +1,36 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
-import LJourney from "../LJourney/LJourney";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const Certificate = dynamic(() =>
-  import("../UpdatedCertificate/UpdatedCertificate")
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import SeventhSection from '@/components/Global/SeventhSection/SeventhSection';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import LJourney from '../LJourney/LJourney';
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
+const Certificate = dynamic(
+  () => import('../UpdatedCertificate/UpdatedCertificate')
 );
-import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
-const FeeSection = dynamic(() =>
-  import("../../course/feeSection/FeeSectionCourse")
+import BookDemo from '@/components/CoursePage/NewDSA/BookDemo/BookDemo';
+const FeeSection = dynamic(
+  () => import('../../course/feeSection/FeeSectionCourse')
 );
-const MentorsSection = dynamic(() =>
-  import("../../Global/MentorsSection/MentorsSection")
+const MentorsSection = dynamic(
+  () => import('../../Global/MentorsSection/MentorsSection')
 );
-const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-const PlacementCall = dynamic(() =>
-  import("../../Global/PlacementCall/PlacementCall")
+const SliderTab = dynamic(() => import('../../Global/SliderTabs/SliderTabs'));
+const PlacementCall = dynamic(
+  () => import('../../Global/PlacementCall/PlacementCall')
 );
-const NewProjectSection = dynamic(() =>
-  import("../../Global/NewProjectSection/NewProjectSection")
+const NewProjectSection = dynamic(
+  () => import('../../Global/NewProjectSection/NewProjectSection')
 );
 
-import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
-const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
-const Content = dynamic(() => import("../Content/content"));
+import HighlightsSection from '@/components/CoursePage/newUICourse/Support/HighlightsSection';
+const FAQNew = dynamic(() => import('../FAQNew/FAQNew'));
+const Content = dynamic(() => import('../Content/content'));
 
-const MobileTestimonial = dynamic(() =>
-  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+const MobileTestimonial = dynamic(
+  () => import('@/components/Home/MobileTestimonial/MobileTestimonial')
 );
 
 const SecondPart = ({
@@ -57,8 +57,8 @@ const SecondPart = ({
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -71,7 +71,7 @@ const SecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === 'Adv Data Science and AI') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -83,7 +83,7 @@ const SecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification-v1.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification-v1.pdf';
   return (
     <div>
       <LJourney />
@@ -109,11 +109,11 @@ const SecondPart = ({
       <HighlightsSection />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 1,40,000 "
-        FeeEmi="₹ 9,177/ month"
+        Fee=" ₹ 1,59,000 "
+        // FeeEmi="₹ 9,177/ month"
         // Hybrid Classes
-        hybridFee="₹ 1,55,000"
-        hybridEmi="₹ 10,161/ month"
+        hybridFee="₹ 1,59,000"
+        // hybridEmi="₹ 10,161/ month"
         // EMIPOPUP
         emiType="Live online classes"
         duration1="12 Months"
