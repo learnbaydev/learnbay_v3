@@ -267,6 +267,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
+          ibmOnly={true}
           FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"

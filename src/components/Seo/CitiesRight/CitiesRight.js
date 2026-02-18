@@ -1342,7 +1342,7 @@ const CitiesRight = ({
               <b>Module 3 - Model Training and Deployment using ( AWS GCP) </b>
               <br />
               <b>Note:</b> This is a draft module. Our modules keep changing in
-              line with the current job market demand. For the latest Syllebus,
+              line with the current job market demand. For the latest Syllabus,
               check the detailed Module Section for the brochure. (link to the
               module section)
             </p>

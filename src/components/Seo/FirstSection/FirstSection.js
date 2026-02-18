@@ -240,16 +240,17 @@
 // }
 
 // export default React.memo(FirstSection);
-import React, { Suspense, lazy, useRef, useState } from "react";
-import { FaPlay } from "react-icons/fa";
-import styles from "./FirstSection.module.css";
-import Image from "next/image";
-import dynamic from "next/dynamic";
 
-const Form = lazy(() => import("../../Global/Form/Form"));
-const Button = dynamic(() => import("../../Global/Button/Button"));
-const VideoPopup = dynamic(() => import("../../Seo/VideoPopup/VideoPopup"));
-const Popup = dynamic(() => import("../../Global/Popup/Popup"));
+import React, { Suspense, lazy, useRef, useState } from 'react';
+import { FaPlay } from 'react-icons/fa';
+import styles from './FirstSection.module.css';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
+
+const Form = lazy(() => import('../../Global/Form/Form'));
+const Button = dynamic(() => import('../../Global/Button/Button'));
+const VideoPopup = dynamic(() => import('../../Seo/VideoPopup/VideoPopup'));
+const Popup = dynamic(() => import('../../Global/Popup/Popup'));
 
 function FirstSection({
   dataScience,
@@ -314,9 +315,9 @@ function FirstSection({
           priority
           alt="Woolf University"
           style={{
-            backgroundColor: "white",
-            padding: "8px",
-            borderRadius: "4px",
+            backgroundColor: 'white',
+            padding: '8px',
+            borderRadius: '4px',
           }}
         />
       );
@@ -327,8 +328,8 @@ function FirstSection({
       <Image
         src={
           isMobile
-            ? "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
-            : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DABAImage2026.webp"
+            ? 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp'
+            : 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DABAImage2026.webp'
         }
         width={isMobile ? 283 : 266}
         height={48}
@@ -351,7 +352,7 @@ function FirstSection({
           <div className="leftPopup">
             <div
               className="whiteP"
-              style={{ width: "340px", height: "400px" }}
+              style={{ width: '340px', height: '400px' }}
             ></div>
           </div>
           <div className="RightPopup">
@@ -378,7 +379,7 @@ function FirstSection({
           <p className={styles.ptopC}>{firstTopPara}</p>
 
           <h1 className={styles.h1}>
-            {firstHeading}{" "}
+            {firstHeading}{' '}
             <span className={styles.h1Span}>{firstToparaImg}</span>
           </h1>
 
