@@ -1,60 +1,61 @@
-import React from "react";
-import Head from "next/head";
-import dynamic from "next/dynamic";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import DSAHeader from "@/components/CoursePage/NewDSA/Header/NewDSAHeader";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
-const ProgramSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProgramSection/ProgramSection")
+import React from 'react';
+import Head from 'next/head';
+import dynamic from 'next/dynamic';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import DSAHeader from '@/components/CoursePage/NewDSA/Header/NewDSAHeader';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import BookDemo from '@/components/CoursePage/NewDSA/BookDemo/BookDemo';
+const ProgramSection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/ProgramSection/ProgramSection')
 );
-const DSAPractical = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
+const DSAPractical = dynamic(
+  () => import('@/components/CoursePage/NewDSA/Practical/DSAPractical')
 );
-const AnimationDSA = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/DSAAnimationNew/DSAAnimationNew")
+const AnimationDSA = dynamic(
+  () => import('@/components/CoursePage/NewDSA/DSAAnimationNew/DSAAnimationNew')
 );
-const JobReadySection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
+const JobReadySection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/JobReadySection/JobReadySection')
 );
-const DSASyllabus = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus")
+const DSASyllabus = dynamic(
+  () => import('@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus')
 );
-const NewCertificateSection = dynamic(() =>
-  import("@/components/CoursePage/newCertificate/NewCertificate")
+const NewCertificateSection = dynamic(
+  () => import('@/components/CoursePage/newCertificate/NewCertificate')
 );
-const DSAFeeSection = dynamic(() =>
-  import("@/components/CoursePage/dsaFee/DSAFeeSection")
+const DSAFeeSection = dynamic(
+  () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
 );
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-const NewSevenSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
+const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+const NewSevenSection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection')
 );
-const MentorsSection = dynamic(() =>
-  import("@/components/course/MentorsSection/MentorsSection")
+const MentorsSection = dynamic(
+  () => import('@/components/course/MentorsSection/MentorsSection')
 );
-const DSAProjectSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProjectSection/DSAProjectSection")
+const DSAProjectSection = dynamic(
+  () =>
+    import('@/components/CoursePage/NewDSA/ProjectSection/DSAProjectSection')
 );
-const ReviewSlider = dynamic(() =>
-  import("@/components/Home/newUI/reviewSlider/reviewSlider")
+const ReviewSlider = dynamic(
+  () => import('@/components/Home/newUI/reviewSlider/reviewSlider')
 );
-import Certificate from "@/components/CoursePage/Certificate/Certificate";
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
+import Certificate from '@/components/CoursePage/Certificate/Certificate';
+const Content = dynamic(
+  () => import('@/components/CoursePage/Content/content')
 );
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import FAQNew from '@/components/CoursePage/FAQNew/FAQNew';
 import {
   getDSABookingLaterDate,
   getDSABookingSoonDate,
-} from "@/Util/getDSABatchData";
+} from '@/Util/getDSABatchData';
 
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf';
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -217,7 +218,7 @@ It’s an opportunity to understand the :"
 
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 1,23,900"
+          Fee="₹1,59,000"
           FeeEmi="₹ 8,122/month"
           weekendbatch="Weekend Morning (DSA BATCHES)"
           weekdaybatch="Weekend Morning (DSA BATCHES)"
@@ -231,11 +232,11 @@ It’s an opportunity to understand the :"
           // <EMI POPUP
           emiType="NO COST EMI"
           duration1="18 Months"
-          totalAmount1="₹1,23,900"
+          totalAmount1="₹ 1,59,000"
           monthlyPayment1="₹8,122"
           greenDown1="Standard Intrest rate Applicable"
           duration2="12 Months"
-          totalAmount2="₹1,23,900"
+          totalAmount2="₹1,59,000"
           monthlyPayment2="₹12,183"
           dataScienceCounselling={true}
           iitGuwatiGen={true}
@@ -272,7 +273,7 @@ It’s an opportunity to understand the :"
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/NewDSAData");
+  const module = await import('../../Data/NewDSAData');
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

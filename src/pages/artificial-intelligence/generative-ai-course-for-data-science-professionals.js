@@ -1,9 +1,9 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
 
-import GenAiMLeadersFirstPart from "@/components/CoursePage/FirstPart/GenAiMLeadersFirstPart";
-import GenAiMLeadersSecondPart from "@/components/CoursePage/FirstPart/GenAiMLeadersSecondPart";
+import GenAiMLeadersFirstPart from '@/components/CoursePage/FirstPart/GenAiMLeadersFirstPart';
+import GenAiMLeadersSecondPart from '@/components/CoursePage/FirstPart/GenAiMLeadersSecondPart';
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -69,87 +69,85 @@ function Blockchain({ DataScienceCourseDataJson }) {
           name="twitter:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
         />
-<script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "http://schema.org",
-            "@type": "Course",
-            "name": "GenAI Certification For Managers & Tech Leaders",
-            "description":
-              "Master Advanced Gen AI with Learnbay. Enhance leadership skills and make impactful AI-driven decisions. Enroll now and lead with AI.",
-            "url":
-              "https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-data-science-professionals",
-            "offers": {
-              "@type": "Offer",
-              "price": 95000,
-              "priceCurrency": "INR",
-              "category": "Educational"
-            },
-            "provider": {
-              "@type": "Organization",
-              "name": "Learnbay",
-              "url": "https://www.learnbay.co/"
-            },
-            "coursePrerequisites":
-              "You should have knowledge of Python, Machine Learning, and basic Deep Learning. If you don’t have these skills, you can first complete our foundation program before joining this course.",
-            "hasCourseInstance": [
-              {
-                "@type": "CourseInstance",
-                "courseMode": "Online",
-                "courseWorkload": "P13W",
-                "courseFee": {
-                  "@type": "PriceSpecification",
-                  "price": 95000,
-                  "priceCurrency": "INR"
-                }
-              }
-            ]
-          })
-        }}
-      />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'http://schema.org',
+              '@type': 'Course',
+              name: 'GenAI Certification For Managers & Tech Leaders',
+              description:
+                'Master Advanced Gen AI with Learnbay. Enhance leadership skills and make impactful AI-driven decisions. Enroll now and lead with AI.',
+              url: 'https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-data-science-professionals',
+              offers: {
+                '@type': 'Offer',
+                price: 120000,
+                priceCurrency: 'INR',
+                category: 'Educational',
+              },
+              provider: {
+                '@type': 'Organization',
+                name: 'Learnbay',
+                url: 'https://www.learnbay.co/',
+              },
+              coursePrerequisites:
+                'You should have knowledge of Python, Machine Learning, and basic Deep Learning. If you don’t have these skills, you can first complete our foundation program before joining this course.',
+              hasCourseInstance: [
+                {
+                  '@type': 'CourseInstance',
+                  courseMode: 'Online',
+                  courseWorkload: 'P13W',
+                  courseFee: {
+                    '@type': 'PriceSpecification',
+                    price: 120000,
+                    priceCurrency: 'INR',
+                  },
+                },
+              ],
+            }),
+          }}
+        />
 
-      {/* Organization Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "url": "https://www.learnbay.co/",
-            "sameAs": [
-              "https://www.facebook.com/learnbay/",
-              "https://twitter.com/Learnbay",
-              "https://www.instagram.com/learnbayofficial/",
-              "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
-              "https://www.linkedin.com/company/learnbay/"
-            ],
-            "logo":
-              "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
-            "name": "Learnbay",
-            "description":
-              "Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress":
-                "1090, 1st floor, 18th cross road, HSR layout sector 3",
-              "addressLocality": "Bangalore",
-              "addressRegion": "Karnataka",
-              "postalCode": "560102",
-              "addressCountry": "IN"
-            },
-            "numberOfEmployees": {
-              "@type": "QuantitativeValue",
-              "value": 265
-            },
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "email": "contacts@learnbay.co",
-              "telephone": "(+91) 77956 87988"
-            }
-          })
-        }}
-      />
+        {/* Organization Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              url: 'https://www.learnbay.co/',
+              sameAs: [
+                'https://www.facebook.com/learnbay/',
+                'https://twitter.com/Learnbay',
+                'https://www.instagram.com/learnbayofficial/',
+                'https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA',
+                'https://www.linkedin.com/company/learnbay/',
+              ],
+              logo: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png',
+              name: 'Learnbay',
+              description:
+                "Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!",
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress:
+                  '1090, 1st floor, 18th cross road, HSR layout sector 3',
+                addressLocality: 'Bangalore',
+                addressRegion: 'Karnataka',
+                postalCode: '560102',
+                addressCountry: 'IN',
+              },
+              numberOfEmployees: {
+                '@type': 'QuantitativeValue',
+                value: 265,
+              },
+              contactPoint: {
+                '@type': 'ContactPoint',
+                email: 'contacts@learnbay.co',
+                telephone: '(+91) 77956 87988',
+              },
+            }),
+          }}
+        />
         {/* <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
@@ -231,7 +229,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/generativeManagersLeaderscourseData");
+  const data = await import('../../Data/generativeManagersLeaderscourseData');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

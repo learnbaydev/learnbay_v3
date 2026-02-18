@@ -1,9 +1,9 @@
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
 
-import Navbar from "@/components/Global/Navbar/Navbar";
-import AwsFirstPart from "@/components/CoursePage/FirstPart/AwsFirstPart";
-import AwsSecondPart from "@/components/CoursePage/FirstPart/AwsSecondPart";
+import Navbar from '@/components/Global/Navbar/Navbar';
+import AwsFirstPart from '@/components/CoursePage/FirstPart/AwsFirstPart';
+import AwsSecondPart from '@/components/CoursePage/FirstPart/AwsSecondPart';
 
 function Blockchain({ AwsAndDevOpsCourseDataJson }) {
   const AwsAndDevOpsCourseData = parseJSONData(AwsAndDevOpsCourseDataJson);
@@ -64,7 +64,7 @@ function Blockchain({ AwsAndDevOpsCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/AwsCloudDevOpsdata");
+  const data = await import('../../Data/AwsCloudDevOpsdata');
   function getAwsAndDevOpsCourseDataJSON(AwsAndDevOpsCourseData) {
     return JSON.stringify(AwsAndDevOpsCourseData);
   }

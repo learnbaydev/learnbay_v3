@@ -1,6 +1,6 @@
 // Button.js
 
-import React from "react";
+import React from 'react';
 
 const Button = ({
   text,
@@ -24,30 +24,30 @@ const Button = ({
         newButton
           ? `glassEffect ${
               grayButton
-                ? "grayButton"
+                ? 'grayButton'
                 : newBlueButton
-                ? "newBlueButton"
-                : "button"
+                  ? 'newBlueButton'
+                  : 'button'
             }`
           : ButtonWhiteBg
-          ? "ButtonWhiteBg"
-          : whiteBgButton
-          ? "whiteBgButton"
-          : nobannerButton
-          ? "nobannerButton"
-          : bannerButton
-          ? "bannerButton"
-          : outline
-          ? "outLineBtn"
-          : greenButton
-          ? "greenButton"
-          : OrangeButton
-          ? "OrangeButton"
-          : blackButton
-          ? "blackButton"
-          : "button"
+            ? 'ButtonWhiteBg'
+            : whiteBgButton
+              ? 'whiteBgButton'
+              : nobannerButton
+                ? 'nobannerButton'
+                : bannerButton
+                  ? 'bannerButton'
+                  : outline
+                    ? 'outLineBtn'
+                    : greenButton
+                      ? 'greenButton'
+                      : OrangeButton
+                        ? 'OrangeButton'
+                        : blackButton
+                          ? 'blackButton'
+                          : 'button'
       }
-      style={invert ? { flexFlow: "row-reverse" } : { flexFlow: "row" }}
+      style={invert ? { flexFlow: 'row-reverse' } : { flexFlow: 'row' }}
     >
       {text}
       {passIcon}

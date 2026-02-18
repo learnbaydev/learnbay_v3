@@ -1,9 +1,9 @@
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import FirstPart from "@/components/CoursePage/FirstPart/DSAIMastersCertificationFirstPart";
-import SecondPart from "@/components/CoursePage/FirstPart/DSAIMastersCertificationSecondPart";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import FirstPart from '@/components/CoursePage/FirstPart/DSAIMastersCertificationFirstPart';
+import SecondPart from '@/components/CoursePage/FirstPart/DSAIMastersCertificationSecondPart';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import { MasterAI } from '@/Data/Schema/DataScienceAndAIMasterSchema';
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -145,7 +145,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/DSMasterCertificationCourse");
+  const data = await import('../../Data/DSMasterCertificationCourse');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

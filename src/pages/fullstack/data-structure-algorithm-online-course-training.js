@@ -1,11 +1,11 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import DSAFresherSecondPart from "@/components/CoursePage/FirstPart/DSAFresherSecondPart";
-import DSAFresherFirstPart from "@/components/CoursePage/FirstPart/DSAFresherFirstPart";
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import DSAFresherSecondPart from '@/components/CoursePage/FirstPart/DSAFresherSecondPart';
+import DSAFresherFirstPart from '@/components/CoursePage/FirstPart/DSAFresherFirstPart';
 
-const OfferPopup = dynamic(() =>
-  import("../../components/Global/OfferPopup/OfferPopup")
+const OfferPopup = dynamic(
+  () => import('../../components/Global/OfferPopup/OfferPopup')
 );
 
 function Blockchain({ DataScienceCourseDataJson }) {
@@ -84,7 +84,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       "url": "https://www.learnbay.co/fullstack/data-structure-algorithm-online-course-training",
       "offers": {
         "@type": "Offer",
-        "price": 45000,
+        "price": 159000,
         "priceCurrency": "INR",
         "category": "Educational"
       },
@@ -101,7 +101,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           "courseWorkload": "P10W",
           "courseFee": {
             "@type": "PriceSpecification",
-            "price": "₹ 45,000 + 18% GST",
+            "price": "₹1,59,000+ 18% GST",
             "priceCurrency": "INR"
           }
         }
@@ -138,7 +138,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/DSAFreshersData");
+  const data = await import('../../Data/DSAFreshersData');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }
