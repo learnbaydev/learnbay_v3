@@ -44,7 +44,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       "url": "https://www.learnbay.co/fullstack/full-stack-software-development-program",
       "offers": {
         "@type": "Offer",
-        "price": 115000,
+        "price": 1,59,000,
         "priceCurrency": "INR",
         "category": "Educational"
       },
@@ -61,7 +61,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           "courseWorkload": "P10W",
           "courseFee": {
             "@type": "PriceSpecification",
-            "price": "₹ 1,15,000 + 18% GST",
+            "price": "₹ 1,59,000 + 18% GST",
             "priceCurrency": "INR"
           }
         }

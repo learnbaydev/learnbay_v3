@@ -60,7 +60,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf';
   return (
     <div>
       <LJourney />
@@ -76,7 +76,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
       />
       {/* <Certificate data={FSSPDataScienceCourseData[0].Certificate} /> */}
       <FeeSection
-        Fee="₹ 1,15,000"
+        Fee="₹ 1,59,000"
         FeeEmi="₹ 7,538/month"
         weekendbatch="Weekday Evening (DSA BATCHES)"
         weekdaybatch="Weekday Evening (DSA BATCHES)"

@@ -78,7 +78,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
     },
   };
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf';
   return (
     <div>
       <Navbar

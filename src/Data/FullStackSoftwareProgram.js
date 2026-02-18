@@ -813,7 +813,7 @@ export const FSSPDataScienceCourseData = [
           {
             id: 0,
             ques: "What is the total fee for the Software Development Master Program with Domain Specialization?",
-            ans: "The total program fee for this course is ,  INR  1,15,000 + 18% GST",
+            ans: "The total program fee for this course is ,  INR  1,59,000 + 18% GST",
 
             open: true,
           },
