@@ -106,7 +106,7 @@ const SecondPart = ({
         singlecertificate={true}
       />
       <FeeSection
-        Fee="₹85,000"
+        Fee="₹1,20,000"
         FeeEmi="₹5,572/month"
         weekdaybatch="Weekend Batch"
         weekendbatch="Weekday Batch"
