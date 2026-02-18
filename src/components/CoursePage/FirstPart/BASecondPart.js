@@ -11,8 +11,8 @@ const Certificate = dynamic(
   () =>
     import('../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate')
 );
-const FeeSection = dynamic(
-  () => import('../../course/feeSection/FeeSectionCourse')
+const DSAFeeSection = dynamic(
+  () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
 );
 
 const MentorsSection = dynamic(
@@ -97,16 +97,16 @@ const SecondPart = ({
       />
       <ToolsCovered toolsdynamic={toolsdynamic} />
       <Certificate data={CertificateData} />
-      <FeeSection
-        Fee="₹ 95,000"
-        FeeEmi="₹ 5,277/ month"
+      <DSAFeeSection
+        Fee="₹ 1,20,000 "
+        FeeEmi="₹ 13,250/ month"
         // Hybrid Classes
-        hybridFee="₹ 1,05,000"
-        hybridEmi="₹ 5,833/ month"
+        hybridFee="₹ 1,55,000"
+        hybridEmi="₹ 10,161/ month"
         // EMIPOPUP
         emiType="Live online classes"
         duration1="12 Months"
-        totalAmount1="₹ 95,000"
+        totalAmount1="₹1,90,000"
         monthlyPayment1="₹14,094"
         greenDown1="Hybrid Classes"
         duration2="12 Months"
