@@ -114,7 +114,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
             "url": "https://www.learnbay.co/datascience/business-analytics-certification-course",
             "offers": {
               "@type": "Offer",
-              "price": 90000,
+              "price": 120000,
               "priceCurrency": "INR",
               "category": "Educational"
             },
@@ -131,7 +131,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
                 "courseWorkload": "P10W",
                 "courseFee": {
                   "@type": "PriceSpecification",
-                  "price": "₹ 90,000 + 18% GST",
+                  "price": "₹ 1,20,000 + 18% GST",
                   "priceCurrency": "INR"
                 }
               }
