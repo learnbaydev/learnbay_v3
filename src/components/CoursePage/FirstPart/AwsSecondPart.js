@@ -1,35 +1,35 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
-import LJourney from "../LJourney/LJourney";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import SeventhSection from '@/components/Global/SeventhSection/SeventhSection';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import LJourney from '../LJourney/LJourney';
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
 
-import Certificate from "../Certificate/Certificate";
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() =>
-  import("../../../components/CoursePage/FeeSection/FeeSection")
+import Certificate from '../Certificate/Certificate';
+const OfferPopup = dynamic(() => import('../../Global/OfferPopup/OfferPopup'));
+const FeeSection = dynamic(
+  () => import('../../../components/CoursePage/FeeSection/FeeSection')
 );
-const MentorsSection = dynamic(() =>
-  import("../../../components/Global/MentorsSection/MentorsSection")
+const MentorsSection = dynamic(
+  () => import('../../../components/Global/MentorsSection/MentorsSection')
 );
-const SliderTab = dynamic(() =>
-  import("../../../components/Global/SliderTabs/SliderTabs")
+const SliderTab = dynamic(
+  () => import('../../../components/Global/SliderTabs/SliderTabs')
 );
-const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCall")
+const PlacementCall = dynamic(
+  () => import('../../../components/Global/PlacementCall/PlacementCall')
 );
-const DevOpsProject = dynamic(() =>
-  import("../DevOps/DevOpsProject/DevOpsProject")
+const DevOpsProject = dynamic(
+  () => import('../DevOps/DevOpsProject/DevOpsProject')
 );
 
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNewDomain")
+const FAQNew = dynamic(
+  () => import('../../../components/CoursePage/FAQNew/FAQNewDomain')
 );
-const Content = dynamic(() => import("../Content/content"));
+const Content = dynamic(() => import('../Content/content'));
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -47,8 +47,8 @@ const SecondPart = ({
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -63,7 +63,7 @@ const SecondPart = ({
             // console.log(popData);
             if (
               popupData ===
-              "Advance Cloud Computing & DevOps Certification Program"
+              'Advance Cloud Computing & DevOps Certification Program'
             ) {
               setPopupData(data);
               // console.log(popupData);
@@ -76,9 +76,9 @@ const SecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf';
   return (
-    <div style={{ marginTop: "50px" }}>
+    <div style={{ marginTop: '50px' }}>
       <LJourney />
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
@@ -100,7 +100,7 @@ const SecondPart = ({
       <FeeSection
         devopfee={devopfee}
         adsHide={adsHide}
-        Fee=" ₹ 50,000"
+        Fee=" ₹ 1,59,000"
         FeeEmi="₹ 3,277/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
@@ -123,17 +123,17 @@ const SecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹ 50,000"
+        totalAmount1="₹ 1,59,000"
         monthlyPayment1="₹ 3,277"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹ 50,000"
+        totalAmount2="₹ 1,59,000"
         monthlyPayment2="₹ 4,916"
       />
 
       <MentorsSection />
       <SliderTab WithoutService={true} />
-      {adsHide ? "" : <PlacementCall devops={devops} />}
+      {adsHide ? '' : <PlacementCall devops={devops} />}
 
       <DevOpsProject
         CloudAWs={true}
@@ -144,9 +144,9 @@ const SecondPart = ({
         // interstedInHide={true}
       />
 
-      {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
+      {adsHide ? '' : <FAQNew FAQNewData={FAQNewData} />}
       <SeventhSection />
-      {adsHide ? "" : <Footer />}
+      {adsHide ? '' : <Footer />}
       <BottomBar
         dataScienceCounselling={true}
         // interstedInHide={true}

@@ -1,26 +1,26 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
 
-import LJourney from "../LJourney/LJourney";
-import DSAFeeSection from "../dsaFee/DSAFeeSection";
-import NewTools from "../newTools/NewTools";
-import GenAIProject from "../genAiProject/GenAIProject";
-import FAQNew from "../FAQNew/FAQNewDomain";
-const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/Certificate/Certificate")
+import LJourney from '../LJourney/LJourney';
+import DSAFeeSection from '../dsaFee/DSAFeeSection';
+import NewTools from '../newTools/NewTools';
+import GenAIProject from '../genAiProject/GenAIProject';
+import FAQNew from '../FAQNew/FAQNewDomain';
+const Certificate = dynamic(
+  () => import('../../../components/CoursePage/Certificate/Certificate')
 );
-const Content = dynamic(() =>
-  import("../../../components/CoursePage/Content/content")
+const Content = dynamic(
+  () => import('../../../components/CoursePage/Content/content')
 );
 
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
 );
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
 
-const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
+const SliderTab = dynamic(() => import('../../Global/SliderTabs/SliderTabs'));
 
 const GenAiMLeadersSecondPart = ({
   masterSyllabusMobile,
@@ -33,7 +33,7 @@ const GenAiMLeadersSecondPart = ({
   // console.log(popupData);
 
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Certification_for_Managers_and_Tech+Leaders.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Certification_for_Managers_and_Tech+Leaders.pdf';
   return (
     <div>
       <LJourney />
@@ -56,7 +56,7 @@ const GenAiMLeadersSecondPart = ({
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection
-        Fee="₹ 1,25,000"
+        Fee="₹ 1,20,000"
         FeeEmi="₹ 10,416/month"
         weekendbatch="Weekday Evening"
         weekdaybatch="Weekday Evening "
@@ -70,11 +70,11 @@ const GenAiMLeadersSecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹90,000"
+        totalAmount1="₹1,20,000"
         monthlyPayment1=" ₹5,900"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹90,000"
+        totalAmount2="₹1,20,000"
         monthlyPayment2=" ₹8,850"
         dataScienceCounselling={true}
         iitGuwatiGen={true}

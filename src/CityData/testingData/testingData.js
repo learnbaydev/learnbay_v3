@@ -218,12 +218,12 @@ export const TestingCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for the Data Analytics Program in Bangalore?',
-            ans: `The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.`,
+            ans: `The total program fee for the Data Analytics Program is INR 1,59,000/- inclusive of GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: 'Can I pay in installments for INR 80,000/-?',
+            ques: 'Can I pay in installments for INR 1,59,000/-?',
             ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 5,244/month up to 5 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
             open: false,
           },
@@ -615,25 +615,25 @@ export const TestingCourseData = [
     ModuleBot6:
       'In addition, we offer a bonus module that exclusively deals with Generative AI tools and future trends. Students of our data analyst course will receive training for NLP, ChatGPT, and Dall-E.     ',
 
-    syllabush1: "INDUCTION + ORIENTATION",
-    syllabusb1: "3 Days",
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
     SyllabusBotlist11:
-      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+      'Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
 
-    syllabush2: "FOUNDATION OF GENAI",
-    syllabusb2: "2.5 Months",
+    syllabush2: 'FOUNDATION OF GENAI',
+    syllabusb2: '2.5 Months',
     SyllabusBotlist21:
-      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+      'Build Python, ML, DL, and NLP foundations for modern GenAI workflows.',
 
-    syllabush3: "ADVANCED GENERATIVE AI",
-    syllabusb3: "1 Month",
+    syllabush3: 'ADVANCED GENERATIVE AI',
+    syllabusb3: '1 Month',
     SyllabusBotlist31:
-      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+      'Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.',
 
-    syllabush4: "AGENTIC AI & AUTOMATION",
-    syllabusb4: "1 Month",
+    syllabush4: 'AGENTIC AI & AUTOMATION',
+    syllabusb4: '1 Month',
     SyllabusBotlist41:
-      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+      'Design autonomous AI agents that plan, reason, and automate complex workflows end to end.',
 
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',

@@ -1,8 +1,8 @@
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import FirstPart from "@/components/CoursePage/FirstPart/FreshersFirstPart";
-import SecondPart from "@/components/CoursePage/FirstPart/FreshersSecondPart";
-import Navbar from "@/components/Global/Navbar/Navbar";
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import FirstPart from '@/components/CoursePage/FirstPart/FreshersFirstPart';
+import SecondPart from '@/components/CoursePage/FirstPart/FreshersSecondPart';
+import Navbar from '@/components/Global/Navbar/Navbar';
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -79,7 +79,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   "url": "https://www.learnbay.co/datascience/advance-data-science-certification-courses",
   "offers": {
     "@type": "offer",
-    "price": "125000",
+    "price": "120000",
     "pricecurrency": "INR",
     "category": "Educational"
   },
@@ -96,7 +96,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       "courseWorkload": "P10W",
       "courseFee": {
         "@type": "PriceSpecification",
-        "price": "₹ 1,25,000 + 18% GST",
+        "price": "₹ 1,20,000 + 18% GST",
         "priceCurrency": "INR"
       }
     }
@@ -136,7 +136,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/FreshersDataScienceCourse");
+  const data = await import('../../Data/FreshersDataScienceCourse');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

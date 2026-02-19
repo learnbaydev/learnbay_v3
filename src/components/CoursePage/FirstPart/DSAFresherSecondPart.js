@@ -52,7 +52,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
 
       <DSAFeeSection
         isDSAFresher={true}
-        Fee="₹ 45,000"
+        Fee="₹ 1,59,000"
         FeeEmi="₹ 4,425/month"
         weekendbatch="Weekend Morning (DSA BATCHES)"
         weekdaybatch="Weekend Morning (DSA BATCHES)"
@@ -66,11 +66,11 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹45,000"
+        totalAmount1="₹1,59,000"
         monthlyPayment1="₹2,950"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹45,000"
+        totalAmount2="₹1,59,000"
         monthlyPayment2="₹4,425"
         dataScienceCounselling={true}
         iitGuwatiGen={true}

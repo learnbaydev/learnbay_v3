@@ -560,7 +560,7 @@ export const BAnalystPuneCourseData = [
           {
             id: 0,
             ques: 'How much does the Business Analyst Course in Pune cost?',
-            ans: `The business analyst course fees in Pune is INR 95,000 + 18% GST. `,
+            ans: `The business analyst course fees in Pune is INR 1,20,000 + 18% GST. `,
             open: true,
           },
           {

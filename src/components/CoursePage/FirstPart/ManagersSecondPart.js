@@ -78,8 +78,8 @@ const SecondPart = ({
         Fee="₹ 1,20,000 "
         FeeEmi="₹ 7,866/ month"
         // Hybrid Classes
-        hybridFee="₹ 1,20,000"
-        hybridEmi="₹ 8,850/ month"
+        hybridFee="₹ 1,59,000"
+        // hybridEmi="₹ 8,850/ month"
         // EMIPOPUP
         emiType="NO COST EMI"
         duration1="12 Months"
