@@ -124,6 +124,8 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
     },
   };
 
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced_Cloud_and_Devops_Program.pdf';
   return (
     <>
       <FirstSection
@@ -133,7 +135,8 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         dataScience={true}
         titleCourse="Advanced Cloud Computing & DevOps Certification Program"
         cityParaCont="Accelerate technical skills and success limits in today’s tech landscape. Enroll in Learnbay’s cloud computing certification course today to ascertain global success. Upskill via industry-driven courses and land your dream roles in the emerging tech world via IBM & Microsoft Certifications.           "
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Advanced_Cloud_and_Devops_Program.pdf"
+        brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
         firstToparaImg=" Course Online "
         firstHeading="Best Cloud Computing Certification        "
@@ -157,7 +160,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         <SecondNavbar
           // interstedInHide={true}
           dataScience={true}
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Advanced_Cloud_and_Devops_Program.pdf"
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
         />
       )}
@@ -188,7 +191,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           dataScience={true}
           // interstedInHide={true}
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Advanced_Cloud_and_Devops_Program.pdf"
         />
       )}
     </>

@@ -1,26 +1,26 @@
-import React from "react";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import Header from "@/components/CoursePage/NewCyberECCouncil/NewCyberECCouncilHeader";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import ProgramSection from "@/components/CoursePage/NewDSA/ProgramSection/ProgramSection";
-import NewCyberSecurityECCouncilPractical from "@/components/CoursePage/NewDSA/Practical/NewCyberSecurityECCouncilPractical";
-import AnimationGEN from "@/components/Home/whyChooseSection/AnimationGEN";
-import JobReadySection from "@/components/CoursePage/NewDSA/JobReadySection/JobReadySection";
-import NewCyberECCouncilCertificate from "@/components/CoursePage/NewCyberECCouncil/NewCyberECCouncilCertificate/NewCyberECCouncilCertificate";
-import DSAFeeSection from "@/components/CoursePage/dsaFee/DSAFeeSection";
-import ReviewSlider from "@/components/Home/newUI/reviewSlider/reviewSlider";
-import DSASyllabus from "@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus";
-import NewCyberECCouncilProject from "@/components/CoursePage/NewDSA/ProjectSection/NewCyberECCouncilProject";
-import MentorsSection from "@/components/course/MentorsSection/MentorsSection";
-import Footer from "@/components/Global/Footer/Footer";
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import FAQNew from "@/components/CoursePage/FAQNew/FAQNewDomain";
-import NewSevenSection from "@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection";
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
+import React from 'react';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import Header from '@/components/CoursePage/NewCyberECCouncil/NewCyberECCouncilHeader';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import ProgramSection from '@/components/CoursePage/NewDSA/ProgramSection/ProgramSection';
+import NewCyberSecurityECCouncilPractical from '@/components/CoursePage/NewDSA/Practical/NewCyberSecurityECCouncilPractical';
+import AnimationGEN from '@/components/Home/whyChooseSection/AnimationGEN';
+import JobReadySection from '@/components/CoursePage/NewDSA/JobReadySection/JobReadySection';
+import NewCyberECCouncilCertificate from '@/components/CoursePage/NewCyberECCouncil/NewCyberECCouncilCertificate/NewCyberECCouncilCertificate';
+import DSAFeeSection from '@/components/CoursePage/dsaFee/DSAFeeSection';
+import ReviewSlider from '@/components/Home/newUI/reviewSlider/reviewSlider';
+import DSASyllabus from '@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus';
+import NewCyberECCouncilProject from '@/components/CoursePage/NewDSA/ProjectSection/NewCyberECCouncilProject';
+import MentorsSection from '@/components/course/MentorsSection/MentorsSection';
+import Footer from '@/components/Global/Footer/Footer';
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import FAQNew from '@/components/CoursePage/FAQNew/FAQNewDomain';
+import NewSevenSection from '@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection';
+const Content = dynamic(
+  () => import('@/components/CoursePage/Content/content')
 );
 
 const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
@@ -28,7 +28,8 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
     NewCyberSecurityECCouncilDataJson
   );
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-Cyber-security.pdf";
+  // const pdfUrl =
+  //   'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-Cyber-security.pdf';
   return (
     <>
       <Head>
@@ -173,8 +174,8 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
           dataScience={true}
           dataScienceCounselling={true}
           titleCourse="Advance Certification in Cyber Security & Ethical Hacking"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance-Cyber-security.pdf"
-          brochurePdf={pdfUrl}
+          // brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance-Cyber-security.pdf"
+          // brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <ProgramSection
@@ -194,8 +195,8 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Advance Certification in Cyber Security & Ethical Hacking"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance-Cyber-security.pdf"
-          brochurePdf={pdfUrl}
+          // brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance-Cyber-security.pdf"
+          // brochurePdf={pdfUrl}
           downloadBrochure={true}
         />
         <NewCyberECCouncilCertificate
@@ -224,8 +225,8 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
           totalAmount2="₹70,000"
           monthlyPayment2="₹6,883"
           dataScienceCounselling={true}
-        iitGuwatiGen={true}
-        interstedInHide={true}
+          iitGuwatiGen={true}
+          interstedInHide={true}
         />
         <ReviewSlider />
         <MentorsSection />
@@ -255,11 +256,12 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
 export default CyberSecurityECCouncil;
 
 export async function getStaticProps() {
-  const module = await import("../Data/NewCyberSecurityECCouncilData");
+  const module = await import('../Data/NewCyberSecurityECCouncilData');
   const data = module.default;
 
-  const NewCyberSecurityECCouncilDataJson = JSON.stringify(data, (key, value) =>
-    value === undefined ? null : value
+  const NewCyberSecurityECCouncilDataJson = JSON.stringify(
+    data,
+    (key, value) => (value === undefined ? null : value)
   );
 
   return { props: { NewCyberSecurityECCouncilDataJson } };

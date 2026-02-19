@@ -1,24 +1,24 @@
-import React from "react";
-import dynamic from "next/dynamic";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import FirstSection from "../FirstSection/FirstSection";
-import PSummary from "../pSummary/PSummary";
-import AnimationDSAFresher from "@/components/Home/whyChooseSection/AnimationDSAFresher";
-const FullStackSecondSection = dynamic(() =>
-  import("../FullStackSecondSection/FullStackSecondSection")
+import React from 'react';
+import dynamic from 'next/dynamic';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import FirstSection from '../FirstSection/FirstSection';
+import PSummary from '../pSummary/PSummary';
+import AnimationDSAFresher from '@/components/Home/whyChooseSection/AnimationDSAFresher';
+const FullStackSecondSection = dynamic(
+  () => import('../FullStackSecondSection/FullStackSecondSection')
 );
-const TrainerSection = dynamic(() =>
-  import("../../Global/TrainerSection/TrainerSection")
+const TrainerSection = dynamic(
+  () => import('../../Global/TrainerSection/TrainerSection')
 );
-const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
+const WhoIsProgram = dynamic(() => import('../WhoIsProgram/WhoIsProgram'));
 
-const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
-const ContactConsellor = dynamic(() =>
-  import("../ContactCounsellor/ContactCounsellor")
+const GetHire = dynamic(() => import('../../Home/GetHire/GetHire'));
+const ContactConsellor = dynamic(
+  () => import('../ContactCounsellor/ContactCounsellor')
 );
 
-const JobAbroad = dynamic(() =>
-  import("../../MastersCourse/JobAbroad/JobAbroad")
+const JobAbroad = dynamic(
+  () => import('../../MastersCourse/JobAbroad/JobAbroad')
 );
 
 const FullStackSoftwareDevelopmentFirstPart = ({
@@ -27,43 +27,44 @@ const FullStackSoftwareDevelopmentFirstPart = ({
   hideduration,
 }) => {
   const JobData = {
-    title: "Build your foundation for a Bright Tech Future!",
+    title: 'Build your foundation for a Bright Tech Future!',
     points: [
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp",
-        imgAlt: "image",
-        title: "Placement Prep For Top MNCs",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp',
+        imgAlt: 'image',
+        title: 'Placement Prep For Top MNCs',
         description:
-          "Improve Your Problem-Solving Skills with DSA & Aim for Top Tech Companies.",
+          'Improve Your Problem-Solving Skills with DSA & Aim for Top Tech Companies.',
       },
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp",
-        imgAlt: "image",
-        title: "Live Interactive Sessions",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp',
+        imgAlt: 'image',
+        title: 'Live Interactive Sessions',
         description:
-          "Hands-on coding sessions and Companywise Interview Preparation.",
+          'Hands-on coding sessions and Companywise Interview Preparation.',
       },
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp",
-        imgAlt: "image",
-        title: "Instructors from MAANG",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp',
+        imgAlt: 'image',
+        title: 'Instructors from MAANG',
         description:
-          "Learn from professionals with extensive teaching experience.",
+          'Learn from professionals with extensive teaching experience.',
       },
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa-job-lefts.webp",
+      src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa-job-lefts.webp',
       width: 360,
       height: 350,
       priority: true,
       quality: 80,
-      alt: "Banner Image 1 Alt",
+      alt: 'Banner Image 1 Alt',
     },
   };
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DSA-for-Fresherss.pdf";
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf';
   return (
     <div>
       <Navbar
@@ -76,7 +77,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({
         dataScience={true}
         titleCourse="DSA Course with Placement Prep. {2025}"
         cityParaCont="For Freshers & Students"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA+for+Freshers.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
         firstToparaImg="With Placement Prep"
@@ -114,7 +115,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({
       <ContactConsellor
         GenAi={true}
         titleCourse="DSA Course with Placement Prep. {2025}"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA+for+Freshers.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}

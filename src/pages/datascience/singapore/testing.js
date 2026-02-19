@@ -32,7 +32,7 @@ const Footer = dynamic(
 const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 export default function Home() {
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf';
   return (
     <div className={styles.container}>
       <Head>
@@ -87,7 +87,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Analytics Program"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
           brochurePdf={pdfUrl}
           idss="y_0IdhFKJKM"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/data+analytics+header+image.webp"
@@ -123,7 +123,7 @@ export default function Home() {
             interstedInHide={true}
             dataScience={true}
             titleCourse="Data Analytics Certification Program"
-            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
             brochurePdf={pdfUrl}
             // EMI POPUPDATA
             emiType="NO COST EMI"

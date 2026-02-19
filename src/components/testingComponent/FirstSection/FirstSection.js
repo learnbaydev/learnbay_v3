@@ -1,16 +1,16 @@
-import React, { Suspense, useState, useCallback } from "react";
-import { FaPlay } from "react-icons/fa";
-import styles from "./FirstSection.module.css";
-import Image from "next/image";
-import dynamic from "next/dynamic";
+import React, { Suspense, useState, useCallback } from 'react';
+import { FaPlay } from 'react-icons/fa';
+import styles from './FirstSection.module.css';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
 
 // Lazy Load Components
-const Form = dynamic(() => import("../../Global/Form/Form"), {
+const Form = dynamic(() => import('../../Global/Form/Form'), {
   suspense: true,
 });
-const Button = dynamic(() => import("../../Global/Button/Button"));
-const VideoPopup = dynamic(() => import("../../Seo/VideoPopup/VideoPopup"));
-const Popup = dynamic(() => import("../../Global/Popup/Popup"));
+const Button = dynamic(() => import('../../Global/Button/Button'));
+const VideoPopup = dynamic(() => import('../../Seo/VideoPopup/VideoPopup'));
+const Popup = dynamic(() => import('../../Global/Popup/Popup'));
 
 function FirstSectionCopy({
   dataScience,
@@ -48,7 +48,7 @@ function FirstSectionCopy({
           <div className="leftPopup">
             <div
               className="whiteP"
-              style={{ width: "340px", height: "400px" }}
+              style={{ width: '340px', height: '400px' }}
             ></div>
           </div>
           <div className="RightPopup">
@@ -75,7 +75,7 @@ function FirstSectionCopy({
         <div className={styles.FirstLeft}>
           <p className={styles.ptopC}>{firstTopPara}</p>
           <h1 className={styles.h1}>
-            {firstHeading}{" "}
+            {firstHeading}{' '}
             <span className={styles.h1Span}>{firstToparaImg}</span>
           </h1>
           <p className={styles.ptopCiity}>{cityParaCont}</p>
