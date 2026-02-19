@@ -1,7 +1,7 @@
-import { useState } from "react";
-import HeroSectionContent from "./HeroSectionContent";
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
+import { useState } from 'react';
+import HeroSectionContent from './HeroSectionContent';
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
+import VideoPopup from '@/components/Global/VideoPopup/VideoPopup';
 
 const HeroSection = ({
   brochureLink,
@@ -16,9 +16,8 @@ const HeroSection = ({
   downloadBrochure,
   dataScienceGeneric,
   spanTag,
-  thumbnailurl
+  thumbnailurl,
 }) => {
-
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
   return (
@@ -36,8 +35,8 @@ const HeroSection = ({
       />
       <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
       <HeroSectionContent
-      thumbnailurl={thumbnailurl}
-      spanTag={spanTag}
+        thumbnailurl={thumbnailurl}
+        spanTag={spanTag}
         setPopups={setPopups}
         setVideo={setVideo}
         videoId={videoId}

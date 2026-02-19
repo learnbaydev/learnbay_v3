@@ -128,7 +128,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
   };
 
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf';
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />

@@ -1,10 +1,10 @@
-import { parseJSONData } from "@/Util/JsonConvertor";
-import dynamic from "next/dynamic";
-import Head from "next/head";
+import { parseJSONData } from '@/Util/JsonConvertor';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
 
-import AdaProgramFirst from "@/components/CoursePage/FirstPart/AdaProgramFirstPart";
-const AdaProgramSecondPart = dynamic(() =>
-  import("@/components/CoursePage/FirstPart/AdaProgramSecondPart")
+import AdaProgramFirst from '@/components/CoursePage/FirstPart/AdaProgramFirstPart';
+const AdaProgramSecondPart = dynamic(
+  () => import('@/components/CoursePage/FirstPart/AdaProgramSecondPart')
 );
 
 const Blockchain = ({ DataScienceCourseDataJson }) => {
@@ -38,6 +38,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
           formbtn={true}
           TestimonialData={DataScienceCourseData.ADAProgram[0].testimonial}
         />
+
         <AdaProgramSecondPart
           masterSyllabusMobile={
             DataScienceCourseData.ADAProgram[0].masterSyllabusMobile
@@ -46,7 +47,6 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
           projectSection={DataScienceCourseData.ADAProgram[0].projectSection}
           FAQNewData={DataScienceCourseData.ADAProgram[0].faq}
         />
-
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </>
@@ -54,7 +54,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
 };
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/AdvanceDataAnalyticsProgramData");
+  const data = await import('../../Data/AdvanceDataAnalyticsProgramData');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

@@ -1,10 +1,10 @@
-import { parseJSONData } from "@/Util/JsonConvertor";
-import dynamic from "next/dynamic";
-import Head from "next/head";
+import { parseJSONData } from '@/Util/JsonConvertor';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
 
-import ExecutiveFirstPart from "@/components/CoursePage/FirstPart/ExecutiveFirstPart";
-const ExecutiveSecondPart = dynamic(() =>
-  import("@/components/CoursePage/FirstPart/ExecutiveSecondPart")
+import ExecutiveFirstPart from '@/components/CoursePage/FirstPart/ExecutiveFirstPart';
+const ExecutiveSecondPart = dynamic(
+  () => import('@/components/CoursePage/FirstPart/ExecutiveSecondPart')
 );
 
 const Blockchain = ({ DataScienceCourseDataJson }) => {
@@ -78,6 +78,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
           TestimonialData={
             DataScienceCourseData.ExcutiveProgramAIDS[0].testimonial
           }
+          hideIITGuwahati={true}
         />
         <ExecutiveSecondPart
           masterSyllabusMobile={
@@ -99,7 +100,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
 };
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/ExecutiveProgramData");
+  const data = await import('../../Data/ExecutiveProgramData');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

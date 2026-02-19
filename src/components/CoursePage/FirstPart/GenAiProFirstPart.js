@@ -1,67 +1,67 @@
-import React from "react";
-import dynamic from "next/dynamic";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import FirstSection from "../FirstSection/FirstSection";
-import PSummary from "../pSummary/PSummary";
-import AnimationGEN from "@/components/Home/whyChooseSection/AnimationGEN";
-import GenAiFirstSection from "../FirstSection/GenAiFirstSection";
-const FullStackSecondSection = dynamic(() =>
-  import("../FullStackSecondSection/FullStackSecondSection")
+import React from 'react';
+import dynamic from 'next/dynamic';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import FirstSection from '../FirstSection/FirstSection';
+import PSummary from '../pSummary/PSummary';
+import AnimationGEN from '@/components/Home/whyChooseSection/AnimationGEN';
+import GenAiFirstSection from '../FirstSection/GenAiFirstSection';
+const FullStackSecondSection = dynamic(
+  () => import('../FullStackSecondSection/FullStackSecondSection')
 );
-const TrainerSection = dynamic(() =>
-  import("../../Global/TrainerSection/TrainerSection")
+const TrainerSection = dynamic(
+  () => import('../../Global/TrainerSection/TrainerSection')
 );
-const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
+const WhoIsProgram = dynamic(() => import('../WhoIsProgram/WhoIsProgram'));
 
-const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
-const ContactConsellor = dynamic(() =>
-  import("../ContactCounsellor/ContactCounsellor")
+const GetHire = dynamic(() => import('../../Home/GetHire/GetHire'));
+const ContactConsellor = dynamic(
+  () => import('../ContactCounsellor/ContactCounsellor')
 );
 
-const JobAbroad = dynamic(() =>
-  import("../../MastersCourse/JobAbroad/JobAbroad")
+const JobAbroad = dynamic(
+  () => import('../../MastersCourse/JobAbroad/JobAbroad')
 );
 
 const GenAiProFirstPart = ({ summaryData, whyChooseData }) => {
   const JobData = {
-    title: "Program outcome: What’s in it for you?",
+    title: 'Program outcome: What’s in it for you?',
     points: [
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp",
-        imgAlt: "image",
-        title: "Master GenAI Tools + Frameworks",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp',
+        imgAlt: 'image',
+        title: 'Master GenAI Tools + Frameworks',
         description:
-          "Learn OpenAI APIs, LangChain, Hugging Face, and more to build intelligent applications effortlessly.",
+          'Learn OpenAI APIs, LangChain, Hugging Face, and more to build intelligent applications effortlessly.',
       },
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp",
-        imgAlt: "image",
-        title: "Real-World GenAI Project Portfolio",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp',
+        imgAlt: 'image',
+        title: 'Real-World GenAI Project Portfolio',
         description:
-          "Work on live projects like chatbot creation, workflow automation, and RAG-powered assistants to showcase your expertise.",
+          'Work on live projects like chatbot creation, workflow automation, and RAG-powered assistants to showcase your expertise.',
       },
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp",
-        imgAlt: "image",
-        title: "Higher Earning Potential",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp',
+        imgAlt: 'image',
+        title: 'Higher Earning Potential',
         description:
-          "Leverage advanced GenAI knowledge to drive business success, enhancing career prospects and salary growth.",
+          'Leverage advanced GenAI knowledge to drive business success, enhancing career prospects and salary growth.',
       },
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genAI_DEV+(1).webp  ",
+      src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genAI_DEV+(1).webp  ',
       width: 350,
       height: 350,
       priority: true,
       quality: 80,
-      alt: "Banner Image 1 Alt",
+      alt: 'Banner Image 1 Alt',
     },
   };
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Developer_Program_For_Professionals.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Developer_Program_For_Professionals.pdf';
   return (
     <div>
       <Navbar
@@ -88,7 +88,7 @@ const GenAiProFirstPart = ({ summaryData, whyChooseData }) => {
         IIT={true}
         fresher={true}
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/iitGen_twos.webp"
-        highlightedWords={["GenAI", "Developer"]}
+        highlightedWords={['GenAI', 'Developer']}
         compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
         logoWidth={180}
         logoHeight={50}

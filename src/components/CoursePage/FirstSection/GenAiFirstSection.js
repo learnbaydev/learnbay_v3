@@ -1,12 +1,12 @@
-import Image from "next/image";
-import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
-import { FaCheck, FaYoutube } from "react-icons/fa";
-import Button from "../../Global/Button/Button";
-import Form from "../../Global/Form/Form";
-import styles from "./FirstSection.module.css";
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
+import Image from 'next/image';
+import Link from 'next/link';
+import { useEffect, useRef, useState } from 'react';
+import { FaCheck, FaYoutube } from 'react-icons/fa';
+import Button from '../../Global/Button/Button';
+import Form from '../../Global/Form/Form';
+import styles from './FirstSection.module.css';
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
+import VideoPopup from '@/components/Global/VideoPopup/VideoPopup';
 
 // const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
@@ -47,17 +47,17 @@ const GenAiFirstSection = ({
   cyberTitleSpan,
 }) => {
   const texts = [
-    "Job-ready with interview support",
-    "1:1 Doubt Session",
-    "IBM Project Certification",
-    "Designed for Professionals",
+    'Job-ready with interview support',
+    '1:1 Doubt Session',
+    'IBM Project Certification',
+    'Designed for Professionals',
   ];
 
   const textfresher = [
-    "Job-ready with interview support",
-    "1:1 Doubt Session",
-    "6 Months Internship Certificate",
-    "Final Year Project Assistance",
+    'Job-ready with interview support',
+    '1:1 Doubt Session',
+    '6 Months Internship Certificate',
+    'Final Year Project Assistance',
   ];
 
   const [popups, setPopups] = useState(false);
@@ -81,8 +81,8 @@ const GenAiFirstSection = ({
       const threshold = 300;
       const scrollY = window.scrollY;
 
-      const scrollDirection = scrollY > lastScrollTop ? "down" : "up";
-      const isScrollingUp = scrollDirection === "up";
+      const scrollDirection = scrollY > lastScrollTop ? 'down' : 'up';
+      const isScrollingUp = scrollDirection === 'up';
       const isBeyondThreshold = scrollY <= threshold;
 
       setShowThumbnail(
@@ -91,10 +91,10 @@ const GenAiFirstSection = ({
       setLastScrollTop(scrollY);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, [lastScrollTop]);
 
@@ -111,16 +111,16 @@ const GenAiFirstSection = ({
     }
   };
 
-  const words = firstHeading.split(" ");
+  const words = firstHeading.split(' ');
   return (
     <>
       <div
         className={styles.First}
         style={{
           backgroundImage: `url(${encodeURI(backgroundImage)})`, // Encodes special characters in the URL
-          backgroundSize: "cover", // Ensures the image covers the entire div
-          backgroundPosition: "center", // Centers the image
-          backgroundRepeat: "no-repeat", // Prevents tiling
+          backgroundSize: 'cover', // Ensures the image covers the entire div
+          backgroundPosition: 'center', // Centers the image
+          backgroundRepeat: 'no-repeat', // Prevents tiling
         }}
       >
         <PopupContent
@@ -150,11 +150,11 @@ const GenAiFirstSection = ({
                 if (highlightedWords.includes(word)) {
                   return (
                     <span key={index} className={styles.highlightedWord}>
-                      {word}{" "}
+                      {word}{' '}
                     </span>
                   );
                 }
-                return word + " "; // Join words with space
+                return word + ' '; // Join words with space
               })}
               <span className={styles.h1Spanblue}>{firstToparaImg}</span>
             </h1>
@@ -174,13 +174,13 @@ const GenAiFirstSection = ({
             <p className={styles.ptopCiity}>{cityParaCont}</p>
           )}
           {mobile ? (
-            ""
+            ''
           ) : (
             <>
               {cyber ? (
                 <div className={styles.iHubdiv}>
-                  {" "}
-                  <p className={styles.ptop}>In Collaboration With</p>{" "}
+                  {' '}
+                  <p className={styles.ptop}>In Collaboration With</p>{' '}
                   <Image
                     src={compLogo}
                     width={logoWidth}
@@ -194,13 +194,13 @@ const GenAiFirstSection = ({
                   <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
                     {noLogoDemo ? null : (
                       <>
-                        {" "}
+                        {' '}
                         {IIT ? (
                           <>
-                            {" "}
+                            {' '}
                             <p className={styles.ptop}>
                               In Collaboration With
-                            </p>{" "}
+                            </p>{' '}
                             <Image
                               src={compLogo}
                               width={logoWidth}
@@ -211,7 +211,7 @@ const GenAiFirstSection = ({
                           </>
                         ) : (
                           <>
-                            {" "}
+                            {' '}
                             <>
                               <p className={styles.ptop}>
                                 Degree & Certification(s)
@@ -227,7 +227,7 @@ const GenAiFirstSection = ({
                               </div>
                             </>
                             <>
-                              {" "}
+                              {' '}
                               <p className={styles.ptop}>
                                 In Collaboration With
                               </p>
@@ -260,9 +260,9 @@ const GenAiFirstSection = ({
               )}
 
               <>
-                {" "}
+                {' '}
                 {cyber ? (
-                  ""
+                  ''
                 ) : (
                   <>
                     {fresher ? (
@@ -346,7 +346,7 @@ const GenAiFirstSection = ({
                     <div onClick={popupShow}>
                       <Button text="DOWNLOAD BROCHURE" />
                     </div>
-                    {softwareBtnHide ? "" : ""}
+                    {softwareBtnHide ? '' : ''}
                   </div>
                 </>
               ) : (
@@ -355,7 +355,7 @@ const GenAiFirstSection = ({
                     <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
                   </div>
                   {softwareBtnHide ? (
-                    ""
+                    ''
                   ) : (
                     <div onClick={videoShow} className={styles.FaPlay}>
                       INTRO VIDEO <FaYoutube className={styles.IconYou} />
@@ -371,15 +371,15 @@ const GenAiFirstSection = ({
           <div className={styles.form}>
             {isGuwahati ? (
               <>
-                {" "}
+                {' '}
                 <h4>
-                  Interested in{" "}
-                  <span style={{ color: "#FE7A36" }}> Degree?</span>
+                  Interested in{' '}
+                  <span style={{ color: '#FE7A36' }}> Degree?</span>
                 </h4>
               </>
             ) : (
               <>
-                {" "}
+                {' '}
                 <p className={styles.p}>Free Career Counselling</p>
               </>
             )}
@@ -411,7 +411,7 @@ const GenAiFirstSection = ({
             <div className={styles.Mobile}>
               {cyber ? (
                 <>
-                  <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
+                  <p className={styles.ptoptwo}>In Collaboration With</p>{' '}
                   <div className={styles.ImageBlock}>
                     <Image
                       src={compLogo}
@@ -424,17 +424,17 @@ const GenAiFirstSection = ({
                 </>
               ) : (
                 <>
-                  {" "}
+                  {' '}
                   {noLogoDemo ? (
-                    ""
+                    ''
                   ) : (
                     <>
-                      {" "}
+                      {' '}
                       {IIT ? (
                         <>
                           <p className={styles.ptoptwo}>
                             In Collaboration With
-                          </p>{" "}
+                          </p>{' '}
                           <div className={styles.ImageBlock}>
                             <Image
                               src={compLogo}
@@ -475,29 +475,29 @@ const GenAiFirstSection = ({
                   <div className={styles.divone}>
                     <span>
                       <FaCheck />
-                    </span>{" "}
+                    </span>{' '}
                     Campus Immersion
                   </div>
                   <div className={styles.divone}>
                     <span>
                       <FaCheck />
-                    </span>{" "}
+                    </span>{' '}
                     Industry Certification
                   </div>
                 </div>
               ) : (
-                ""
+                ''
               )}
 
               {isGuwahati ? (
                 <>
-                  {" "}
+                  {' '}
                   <div className={styles.btnImage2}>
                     <div onClick={popupShow}>
                       <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
                     </div>
                     {softwareBtnHide ? (
-                      ""
+                      ''
                     ) : (
                       <Link href="/master-application">
                         <div>
@@ -512,13 +512,13 @@ const GenAiFirstSection = ({
                 </>
               ) : (
                 <>
-                  {" "}
+                  {' '}
                   <div className={styles.btnImageMobile}>
                     <div onClick={popupShow}>
                       <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
                     </div>
                     {softwareBtnHide ? (
-                      ""
+                      ''
                     ) : (
                       <div onClick={videoShow} className={styles.FaPlay}>
                         INTRO VIDEO <FaYoutube className={styles.IconYou} />
@@ -557,10 +557,10 @@ const GenAiFirstSection = ({
                   </div>
                 )} */}
               </div>
-            </div>{" "}
+            </div>{' '}
           </>
         ) : (
-          ""
+          ''
         )}
       </div>
     </>

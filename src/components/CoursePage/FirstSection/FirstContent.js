@@ -1,11 +1,11 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
-import { FaCheck, FaYoutube } from "react-icons/fa";
-import Button from "../../Global/Button/Button";
-import Form from "../../Global/Form/Form";
-import styles from "./FirstSection.module.css";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useEffect, useRef, useState } from 'react';
+import { FaCheck, FaYoutube } from 'react-icons/fa';
+import Button from '../../Global/Button/Button';
+import Form from '../../Global/Form/Form';
+import styles from './FirstSection.module.css';
 
 // const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
@@ -40,19 +40,20 @@ const FirstContent = ({
   microsoftOnly,
   DSAFresherHeadContent,
   DABAOnly,
+  hideIITGuwahati,
 }) => {
   const texts = [
-    "Job-ready with interview support",
-    "1:1 Doubt Session",
-    "IBM Project Certification",
-    "Designed for Professionals",
+    'Job-ready with interview support',
+    '1:1 Doubt Session',
+    'IBM Project Certification',
+    'Designed for Professionals',
   ];
 
   const textfresher = [
-    "Job-ready with interview support",
-    "1:1 Doubt Session",
-    "6 Months Internship Certificate",
-    "Final Year Project Assistance",
+    'Job-ready with interview support',
+    '1:1 Doubt Session',
+    '6 Months Internship Certificate',
+    'Final Year Project Assistance',
   ];
 
   const [mobile, setMobile] = useState(false);
@@ -74,8 +75,8 @@ const FirstContent = ({
       const threshold = 300;
       const scrollY = window.scrollY;
 
-      const scrollDirection = scrollY > lastScrollTop ? "down" : "up";
-      const isScrollingUp = scrollDirection === "up";
+      const scrollDirection = scrollY > lastScrollTop ? 'down' : 'up';
+      const isScrollingUp = scrollDirection === 'up';
       const isBeyondThreshold = scrollY <= threshold;
 
       setShowThumbnail(
@@ -84,10 +85,10 @@ const FirstContent = ({
       setLastScrollTop(scrollY);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, [lastScrollTop]);
 
@@ -110,8 +111,8 @@ const FirstContent = ({
 `;
   const containerStyle = {
     backgroundImage: `url(${backgroundImage})`, // Apply backgroundImage as background image style
-    backgroundSize: "cover",
-    backgroundPosition: "center",
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
   };
   // const youtubeVideoUrl = `https://www.youtube.com/watch?v=${videoId}`;
 
@@ -123,25 +124,25 @@ const FirstContent = ({
         style={backgorunimg ? containerStyle : { backgroundImage }}
       >
         <div className={styles.FirstLeft}>
-          {topHide ? "" : <p className={styles.ptopC}>{firstTopPara}</p>}
+          {topHide ? '' : <p className={styles.ptopC}>{firstTopPara}</p>}
           {DSA ? (
             <h1 className={`${styles.h1} ${styles.DsaH1}`}>
-              {firstHeading}{" "}
+              {firstHeading}{' '}
               <span className={styles.DsaSpan}>{firstToparaImg}</span>
             </h1>
           ) : (
             <h1
               className={`${styles.h1} ${
-                isSpecialPage ? styles.specialPageH1 : ""
+                isSpecialPage ? styles.specialPageH1 : ''
               }`}
             >
-              {firstHeading}{" "}
+              {firstHeading}{' '}
               <span className={styles.h1Span}>{firstToparaImg}</span>
             </h1>
           )}
           {DSA ? (
             <p className={`${styles.ptopCiity} ${styles.ptopGen}`}>
-              {cityParaCont.split("Gen-AI").map((part, index, arr) => (
+              {cityParaCont.split('Gen-AI').map((part, index, arr) => (
                 <React.Fragment key={index}>
                   {part}
                   {index < arr.length - 1 && (
@@ -154,7 +155,7 @@ const FirstContent = ({
             <p className={styles.ptopCiity}>{cityParaCont}</p>
           )}
           {mobile ? (
-            ""
+            ''
           ) : (
             <>
               {microsoftOnly ? (
@@ -208,8 +209,8 @@ const FirstContent = ({
                 <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
                   {IIT ? (
                     <>
-                      {" "}
-                      <p className={styles.ptop}>In Collaboration With</p>{" "}
+                      {' '}
+                      <p className={styles.ptop}>In Collaboration With</p>{' '}
                       <Image
                         src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
                         width={180}
@@ -220,7 +221,7 @@ const FirstContent = ({
                     </>
                   ) : (
                     <>
-                      {" "}
+                      {' '}
                       {DSWolf ? (
                         <>
                           <p className={styles.ptop}>
@@ -238,7 +239,7 @@ const FirstContent = ({
                         </>
                       ) : (
                         <>
-                          {" "}
+                          {' '}
                           <p className={styles.ptop}>In Collaboration With</p>
                           <div className={styles.ImageBlock}>
                             {ibmOnly ? (
@@ -280,25 +281,25 @@ const FirstContent = ({
                     <div className={styles.divone}>
                       <span>
                         <FaCheck />
-                      </span>{" "}
+                      </span>{' '}
                       Campus Immersion
                     </div>
                     <div className={styles.divone}>
                       <span>
                         <FaCheck />
-                      </span>{" "}
+                      </span>{' '}
                       Industry Certification
                     </div>
                   </div>
                 </>
               ) : (
                 <>
-                  {" "}
+                  {' '}
                   {DSA ? (
-                    ""
+                    ''
                   ) : (
                     <>
-                      {" "}
+                      {' '}
                       {fresher ? (
                         <div className={styles.animationTextWrap}>
                           <span className={styles.animationText}>
@@ -378,11 +379,13 @@ const FirstContent = ({
               {isGuwahati ? (
                 <>
                   <div className={styles.btnImage2}>
-                    <div onClick={popupShow}>
-                      <Button text="DOWNLOAD BROCHURE" />
-                    </div>
+                    {!hideIITGuwahati && (
+                      <div onClick={popupShow}>
+                        <Button text="DOWNLOAD BROCHURE" />
+                      </div>
+                    )}
                     {softwareBtnHide ? (
-                      ""
+                      ''
                     ) : (
                       <Link href="/master-application">
                         <div className={styles.btnImage}>
@@ -401,7 +404,7 @@ const FirstContent = ({
                     <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
                   </div>
                   {softwareBtnHide ? (
-                    ""
+                    ''
                   ) : (
                     <div onClick={videoShow} className={styles.FaPlay}>
                       INTRO VIDEO <FaYoutube className={styles.IconYou} />
@@ -417,15 +420,15 @@ const FirstContent = ({
           <div className={styles.form}>
             {isGuwahati ? (
               <>
-                {" "}
+                {' '}
                 <h4>
-                  Interested in{" "}
-                  <span style={{ color: "#FE7A36" }}> Degree?</span>
+                  Interested in{' '}
+                  <span style={{ color: '#FE7A36' }}> Degree?</span>
                 </h4>
               </>
             ) : (
               <>
-                {" "}
+                {' '}
                 <p className={styles.p}>Free Career Counselling</p>
               </>
             )}
@@ -506,10 +509,10 @@ const FirstContent = ({
                 </div>
               ) : (
                 <>
-                  {" "}
+                  {' '}
                   {IIT ? (
                     <>
-                      <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
+                      <p className={styles.ptoptwo}>In Collaboration With</p>{' '}
                       <div className={styles.ImageBlock}>
                         <Image
                           src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
@@ -523,7 +526,7 @@ const FirstContent = ({
                     </>
                   ) : (
                     <>
-                      {" "}
+                      {' '}
                       {DSWolf ? (
                         <>
                           <p className={styles.ptop}>
@@ -541,7 +544,7 @@ const FirstContent = ({
                         </>
                       ) : (
                         <>
-                          {" "}
+                          {' '}
                           <p className={styles.ptop}>In Collaboration With</p>
                         </>
                       )}
@@ -573,29 +576,29 @@ const FirstContent = ({
                   <div className={styles.divone}>
                     <span>
                       <FaCheck />
-                    </span>{" "}
+                    </span>{' '}
                     Campus Immersion
                   </div>
                   <div className={styles.divone}>
                     <span>
                       <FaCheck />
-                    </span>{" "}
+                    </span>{' '}
                     Industry Certification
                   </div>
                 </div>
               ) : (
-                ""
+                ''
               )}
 
               {isGuwahati ? (
                 <>
-                  {" "}
+                  {' '}
                   <div className={styles.btnImage2}>
                     <div onClick={popupShow}>
                       <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
                     </div>
                     {softwareBtnHide ? (
-                      ""
+                      ''
                     ) : (
                       <Link href="/master-application">
                         <div>
@@ -610,13 +613,13 @@ const FirstContent = ({
                 </>
               ) : (
                 <>
-                  {" "}
+                  {' '}
                   <div className={styles.btnImageMobile}>
                     <div onClick={popupShow}>
                       <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
                     </div>
                     {softwareBtnHide ? (
-                      ""
+                      ''
                     ) : (
                       <div onClick={videoShow} className={styles.FaPlay}>
                         INTRO VIDEO <FaYoutube className={styles.IconYou} />
@@ -655,10 +658,10 @@ const FirstContent = ({
                   </div>
                 )} */}
               </div>
-            </div>{" "}
+            </div>{' '}
           </>
         ) : (
-          ""
+          ''
         )}
       </div>
     </>

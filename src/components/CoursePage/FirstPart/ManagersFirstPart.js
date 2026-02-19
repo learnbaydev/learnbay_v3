@@ -150,7 +150,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
         cityParaCont="Empowering Leaders with AI & Data Science Expertise"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
         firstToparaImg="For Managers & Leaders"
         firstHeading="Data Science & Generative AI Certification Program"
@@ -158,7 +158,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="rZVkXvgW9gk"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/managers+and+leaders-min.webp"
         videoId="osYNvuuI1_8"
-        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf"
+        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf"
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
@@ -170,8 +170,8 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf"
-        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
+        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf"
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
       />
       <WhoProgram

@@ -1,7 +1,7 @@
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
-import React, { useState } from "react";
-import FirstContent from "./FirstContent";
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
+import VideoPopup from '@/components/Global/VideoPopup/VideoPopup';
+import React, { useState } from 'react';
+import FirstContent from './FirstContent';
 
 function FirstSection({
   dataScience,
@@ -40,6 +40,7 @@ function FirstSection({
   DSA,
   courseId,
   DABAOnly,
+  hideIITGuwahati,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -94,6 +95,7 @@ function FirstSection({
         DSA={DSA}
         DSAFresherHeadContent={DSAFresherHeadContent}
         DABAOnly={DABAOnly}
+        hideIITGuwahati={hideIITGuwahati}
       />
     </>
   );
