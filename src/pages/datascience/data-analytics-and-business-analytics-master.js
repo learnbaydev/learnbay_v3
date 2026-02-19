@@ -1,69 +1,69 @@
-import React from "react";
-import Head from "next/head";
-import dynamic from "next/dynamic";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import DSAHeader from "@/components/CoursePage/NewDSA/Header/NewDSAHeader";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
-const ProgramSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProgramSection/ProgramSection")
+import React from 'react';
+import Head from 'next/head';
+import dynamic from 'next/dynamic';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import DSAHeader from '@/components/CoursePage/NewDSA/Header/NewDSAHeader';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import BookDemo from '@/components/CoursePage/NewDSA/BookDemo/BookDemo';
+const ProgramSection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/ProgramSection/ProgramSection')
 );
-const DSAPractical = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
+const DSAPractical = dynamic(
+  () => import('@/components/CoursePage/NewDSA/Practical/DSAPractical')
 );
-const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whylblimited")
+const AnimationNew = dynamic(
+  () => import('@/components/Home/whyChooseSection/whylblimited')
 );
-const Other = dynamic(() =>
-  import("@/components/Home/newUI/OtherVS_updated/Other")
+const Other = dynamic(
+  () => import('@/components/Home/newUI/OtherVS_updated/Other')
 );
-const JobReadySection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
+const JobReadySection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/JobReadySection/JobReadySection')
 );
-const DSASyllabus = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus")
+const DSASyllabus = dynamic(
+  () => import('@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus')
 );
-const NewCertificateSection = dynamic(() =>
-  import("@/components/CoursePage/newCertificate/NewCertificate")
+const NewCertificateSection = dynamic(
+  () => import('@/components/CoursePage/newCertificate/NewCertificate')
 );
-const DSAFeeSection = dynamic(() =>
-  import("@/components/CoursePage/dsaFee/DSAFeeSection")
+const DSAFeeSection = dynamic(
+  () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
 );
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-const NewSevenSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
+const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+const NewSevenSection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection')
 );
-const MentorsSection = dynamic(() =>
-  import("@/components/course/MentorsSection/MentorsSection")
+const MentorsSection = dynamic(
+  () => import('@/components/course/MentorsSection/MentorsSection')
 );
-const DSAProjectSection = dynamic(() =>
-  import("../../components/CoursePage/NewDSA/ProjectSection/daba")
+const DSAProjectSection = dynamic(
+  () => import('../../components/CoursePage/NewDSA/ProjectSection/daba')
 );
-const ReviewSlider = dynamic(() =>
-  import("@/components/Home/newUI/reviewSlider/reviewSlider")
+const ReviewSlider = dynamic(
+  () => import('@/components/Home/newUI/reviewSlider/reviewSlider')
 );
-import Certificate from "@/components/CoursePage/Certificate/Certificate";
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
+import Certificate from '@/components/CoursePage/Certificate/Certificate';
+const Content = dynamic(
+  () => import('@/components/CoursePage/Content/content')
 );
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import FAQNew from '@/components/CoursePage/FAQNew/FAQNew';
 import {
   getDSABookingLaterDate,
   getDSABookingSoonDate,
-} from "@/Util/getDSABatchData";
-import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";
-import Newheader from "@/components/CoursePage/newHeader/newHeader";
-import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
-import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
-import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
-import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
+} from '@/Util/getDSABatchData';
+import AlumniCompanies from '@/components/CoursePage/newUICourse/AlumniCompanies';
+import LearningToPlacement from '@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement';
+import Newheader from '@/components/CoursePage/newHeader/newHeader';
+import { MasterAI } from '@/Data/Schema/DataScienceAndAIMasterSchema';
+import FeeSection from '@/components/course/feeSection/FeeSectionCourse';
+import UpdatedCertificate from '@/components/CoursePage/UpdatedCertificate/UpdatedCertificate';
+import HighlightsSection from '@/components/CoursePage/newUICourse/Support/HighlightsSection';
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program_download.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program_download.pdf';
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -155,7 +155,7 @@ data and business analytics master certification"
   "url": "https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master",
   "offers": {
     "@type": "offer",
-    "price": "159000",
+    "price": "120000",
     "pricecurrency": "INR",
     "category": "Educational"
   },
@@ -172,7 +172,7 @@ data and business analytics master certification"
       "courseWorkload": "P9M",
       "courseFee": {
         "@type": "PriceSpecification",
-        "price": "₹ 1,59,000 + 18% GST",
+        "price": "₹ 1,20,000 + 18% GST",
         "priceCurrency": "INR"
       }
     }
@@ -259,7 +259,7 @@ data and business analytics master certification"
 
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 1,59,000 "
+          Fee="₹ 1,20,000 "
           FeeEmi="₹ 13,250/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"
@@ -284,10 +284,10 @@ data and business analytics master certification"
           Admission="Admission Process"
           Content="Our 3-step admission process clearly guides you through checking your eligibility, selecting the right course via expert counselling, and smoothly completing your enrollment. It's designed for simplicity and clarity."
           highlight={[
-            "3-step admission process",
-            "eligibility",
-            "counselling",
-            "enrollment",
+            '3-step admission process',
+            'eligibility',
+            'counselling',
+            'enrollment',
           ]}
           first="Evaluation Call"
           second="Screening Call"
@@ -317,7 +317,7 @@ data and business analytics master certification"
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/datasbadata");
+  const module = await import('../../Data/datasbadata');
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>
