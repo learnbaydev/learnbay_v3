@@ -45,6 +45,7 @@ const GenAiFirstSection = ({
   noLogoDemo,
   cyberTitle,
   cyberTitleSpan,
+  hideIITGuwahati,
 }) => {
   const texts = [
     'Job-ready with interview support',

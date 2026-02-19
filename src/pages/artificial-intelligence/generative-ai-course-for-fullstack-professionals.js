@@ -1,47 +1,47 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import GenAiProFirstPart from "@/components/CoursePage/FirstPart/GenAiProFirstPart";
-import GenAiProSecondPart from "@/components/CoursePage/FirstPart/GenAiProSecondPart";
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import GenAiProFirstPart from '@/components/CoursePage/FirstPart/pGenAiProFirstPart';
+import GenAiProSecondPart from '@/components/CoursePage/FirstPart/GenAiProSecondPart';
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
   const JobData = {
-    title: "Decode Your Tech Carer Path to Competitive Success",
+    title: 'Decode Your Tech Carer Path to Competitive Success',
     points: [
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "image",
-        title: "Transform with Coding Expertise",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp',
+        imgAlt: 'image',
+        title: 'Transform with Coding Expertise',
         description:
-          "Build a highly desired software developer/engineer role with our multifaceted training.",
+          'Build a highly desired software developer/engineer role with our multifaceted training.',
       },
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "image",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp',
+        imgAlt: 'image',
         title:
-          "Learn and Practice with Real-time coding projects in an industry-leading setup",
+          'Learn and Practice with Real-time coding projects in an industry-leading setup',
         description:
-          "Exhibit real-time coding mastery to tackle algorithmic ordeals.",
+          'Exhibit real-time coding mastery to tackle algorithmic ordeals.',
       },
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "image",
-        title: "From Novice to Specialist",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp',
+        imgAlt: 'image',
+        title: 'From Novice to Specialist',
         description:
-          "Master, from basics to advanced DSA concepts to specify your reign in the tech field. ",
+          'Master, from basics to advanced DSA concepts to specify your reign in the tech field. ',
       },
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
+      src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp',
       width: 500,
       height: 400,
       priority: true,
       quality: 80,
-      alt: "Banner Image 1 Alt",
+      alt: 'Banner Image 1 Alt',
     },
   };
   return (
@@ -110,34 +110,34 @@ function Blockchain({ DataScienceCourseDataJson }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "http://schema.org",
-              "@type": "Course",
-              name: "GenAI Developer Certification for Professionals",
+              '@context': 'http://schema.org',
+              '@type': 'Course',
+              name: 'GenAI Developer Certification for Professionals',
               description:
-                "Join Learnbay’s Advanced Gen AI Developer Course. Build AI solutions, gain hands-on experience, and advance your career in AI. Enroll today.",
-              url: "https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-fullstack-professional",
+                'Join Learnbay’s Advanced Gen AI Developer Course. Build AI solutions, gain hands-on experience, and advance your career in AI. Enroll today.',
+              url: 'https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-fullstack-professional',
               offers: {
-                "@type": "Offer",
+                '@type': 'Offer',
                 price: 95000,
-                priceCurrency: "INR",
-                category: "Educational",
+                priceCurrency: 'INR',
+                category: 'Educational',
               },
               provider: {
-                "@type": "Organization",
-                name: "Learnbay",
-                url: "https://www.learnbay.co/",
+                '@type': 'Organization',
+                name: 'Learnbay',
+                url: 'https://www.learnbay.co/',
               },
               coursePrerequisites:
-                "You should have knowledge of Python, Machine Learning, & basic Deep Learning. If you don’t have these skills, you can first complete our foundation program before joining this course.",
+                'You should have knowledge of Python, Machine Learning, & basic Deep Learning. If you don’t have these skills, you can first complete our foundation program before joining this course.',
               hasCourseInstance: [
                 {
-                  "@type": "CourseInstance",
-                  courseMode: "Online",
-                  courseWorkload: "P13W",
+                  '@type': 'CourseInstance',
+                  courseMode: 'Online',
+                  courseWorkload: 'P13W',
                   courseFee: {
-                    "@type": "PriceSpecification",
+                    '@type': 'PriceSpecification',
                     price: 95000,
-                    priceCurrency: "INR",
+                    priceCurrency: 'INR',
                   },
                 },
               ],
@@ -215,7 +215,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/generativeAiProcourseData");
+  const data = await import('../../Data/generativeAiProcourseData');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

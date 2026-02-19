@@ -636,7 +636,7 @@ export const TestingCourseData = [
       'Design autonomous AI agents that plan, reason, and automate complex workflows end to end.',
 
     syllabussrc:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
 
     JobHead1:
       'What does the Data Analytics Job Assistance Program by Learnbay in Bangalore include?',
