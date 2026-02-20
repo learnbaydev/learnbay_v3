@@ -29,6 +29,7 @@ const GenAiMLeadersSecondPart = ({
   CertificateData,
   genAiData,
   GenAIManagers,
+  hideDownloadButton,
 }) => {
   // console.log(popupData);
 
@@ -50,6 +51,7 @@ const GenAiMLeadersSecondPart = ({
         // onlyGENAIPage={true}
         GenAIMangersOnly={true}
         genAIIIT={true}
+        hideDownloadButton={true}
       />
 
       <Certificate data={CertificateData} noTabs={true} />

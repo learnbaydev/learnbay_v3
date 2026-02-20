@@ -1,64 +1,64 @@
-import React from "react";
-import dynamic from "next/dynamic";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import PSummary from "../pSummary/PSummary";
-import AnimationGEN from "@/components/Home/whyChooseSection/AnimationGEN";
-import GenAiFirstSection from "../FirstSection/GenAiFirstSection";
+import React from 'react';
+import dynamic from 'next/dynamic';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import PSummary from '../pSummary/PSummary';
+import AnimationGEN from '@/components/Home/whyChooseSection/AnimationGEN';
+import GenAiFirstSection from '../FirstSection/GenAiFirstSection';
 
-const TrainerSection = dynamic(() =>
-  import("../../Global/TrainerSection/TrainerSection")
+const TrainerSection = dynamic(
+  () => import('../../Global/TrainerSection/TrainerSection')
 );
-const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
+const WhoIsProgram = dynamic(() => import('../WhoIsProgram/WhoIsProgram'));
 
-const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
-const ContactConsellor = dynamic(() =>
-  import("../ContactCounsellor/ContactCounsellor")
+const GetHire = dynamic(() => import('../../Home/GetHire/GetHire'));
+const ContactConsellor = dynamic(
+  () => import('../ContactCounsellor/ContactCounsellor')
 );
 
-const JobAbroad = dynamic(() =>
-  import("../../MastersCourse/JobAbroad/JobAbroad")
+const JobAbroad = dynamic(
+  () => import('../../MastersCourse/JobAbroad/JobAbroad')
 );
 
 const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
   const JobData = {
-    title: "Program outcome: What’s in it for you?",
+    title: 'Program outcome: What’s in it for you?',
     points: [
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp",
-        imgAlt: "image",
-        title: "Master GenAI For Business Transformation",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp',
+        imgAlt: 'image',
+        title: 'Master GenAI For Business Transformation',
         description:
-          "Learn to harness cutting-edge GenAI tools to solve real-world challenges and lead your organization into the future",
+          'Learn to harness cutting-edge GenAI tools to solve real-world challenges and lead your organization into the future',
       },
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp",
-        imgAlt: "image",
-        title: "Real-World GenAI Project Portfolio",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp',
+        imgAlt: 'image',
+        title: 'Real-World GenAI Project Portfolio',
         description:
-          "Work on live projects like chatbot creation, workflow automation, and RAG-powered assistants to showcase your expertise.",
+          'Work on live projects like chatbot creation, workflow automation, and RAG-powered assistants to showcase your expertise.',
       },
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp",
-        imgAlt: "image",
-        title: "Accelerate Your Career Growth",
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp',
+        imgAlt: 'image',
+        title: 'Accelerate Your Career Growth',
         description:
-          "Leverage advanced GenAI knowledge to drive business success, enhancing career prospects and salary growth.",
+          'Leverage advanced GenAI knowledge to drive business success, enhancing career prospects and salary growth.',
       },
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/left_job_GEN+(1).webp",
+      src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/left_job_GEN+(1).webp',
       width: 350,
       height: 350,
       priority: true,
       quality: 80,
-      alt: "Banner Image 1 Alt",
+      alt: 'Banner Image 1 Alt',
     },
   };
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Certification_for_Managers_and_Tech+Leaders.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Certification_for_Managers_and_Tech+Leaders.pdf';
   return (
     <div>
       <Navbar
@@ -76,7 +76,7 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
         firstToparaImg=""
-        highlightedWords={["GenAI", "Certification"]}
+        highlightedWords={['GenAI', 'Certification']}
         GEnAi={true}
         firstHeading="GenAI Certification For Managers & Tech Leaders"
         firstTopPara="Curriculum Inclusive of Gen-AI"
@@ -88,6 +88,7 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
         logoWidth={180}
         logoHeight={50}
         IIT={true}
+        hideIITGuwahati={true}
         fresher={true}
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/iitGen_ones.webp"
       />
