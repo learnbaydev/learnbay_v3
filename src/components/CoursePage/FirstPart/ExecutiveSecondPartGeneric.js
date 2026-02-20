@@ -37,6 +37,7 @@ const ExecutiveSecondPart = ({ sections, FAQNewData }) => {
         sections={sections}
         interstedInHide={true}
         brochurePdf={pdfUrl}
+        hidedownloadBrochure={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
       />
       <ToolsSection />

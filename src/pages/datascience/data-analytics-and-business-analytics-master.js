@@ -236,7 +236,7 @@ data and business analytics master certification"
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
           brochurePdf={pdfUrl}
         />
         <Other />
@@ -245,7 +245,7 @@ data and business analytics master certification"
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         />

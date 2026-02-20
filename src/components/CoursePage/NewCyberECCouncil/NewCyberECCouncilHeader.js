@@ -1,10 +1,10 @@
-import { Suspense, memo, useCallback, useState } from "react";
-import Image from "next/image";
-import styles from "./NewCyberECCouncilHeader.module.css";
-import dynamic from "next/dynamic";
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import Button from "@/components/Global/Button/Button";
-import Form from "@/components/Global/Form/Form";
+import { Suspense, memo, useCallback, useState } from 'react';
+import Image from 'next/image';
+import styles from './NewCyberECCouncilHeader.module.css';
+import dynamic from 'next/dynamic';
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
+import Button from '@/components/Global/Button/Button';
+import Form from '@/components/Global/Form/Form';
 
 const Header = memo(
   ({
@@ -36,6 +36,8 @@ const Header = memo(
     titleCourse,
     brochureLink,
     brochurePdf,
+    hidedownloadBrochure,
+    hidedownloadbutton,
   }) => {
     const [popups, setPopups] = useState(false);
     const [applyCounselingPopup, setApplyCounselingPopup] = useState(false);
@@ -52,20 +54,20 @@ const Header = memo(
 
     const backgroundImageContainerStyle = {
       backgroundImage: `url(${backgroundImg})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
     };
 
     return (
       <section className={styles.mainBg}>
         <div className={styles.containerWrapper}>
           <PopupContent
-            popups={popups?popups:applyCounselingPopup}
-            setPopups={popups?setPopups:setApplyCounselingPopup}
-            heading={popups ? "Download Syllabus" : "Apply For Counselling"}
+            popups={popups ? popups : applyCounselingPopup}
+            setPopups={popups ? setPopups : setApplyCounselingPopup}
+            heading={popups ? 'Download Syllabus' : 'Apply For Counselling'}
             downloadBrochure={popups ? true : false}
-            dataScience={popups?true:false}
-            dataScienceCounselling={applyCounselingPopup?true:false}
+            dataScience={popups ? true : false}
+            dataScienceCounselling={applyCounselingPopup ? true : false}
             interstedInHide={interstedInHide}
             upSkillingHide={true}
             titleCourse={titleCourse}
@@ -101,7 +103,7 @@ const Header = memo(
                         isCyberSecurity ? styles.cyberSpan : styles.span
                       }
                     >
-                      {" "}
+                      {' '}
                       {orgTitle}
                     </span>
                   </h1>
@@ -145,28 +147,53 @@ const Header = memo(
                   </div>
                   <div className={styles.btnDiv}>
                     <div onClick={applyCounselingShow} className={styles.btn}>
-                      <Button text="Apply for Counseling"  newButton={true} grayButton={true}/>
+                      <Button
+                        text="Apply for Counseling"
+                        newButton={true}
+                        grayButton={true}
+                      />
                     </div>
-                    <div onClick={popupShow} className={styles.btn}>
-                      <Button text="Download Syllabus" newButton={true} newBlueButton={true}/>
-                    </div>
+                    {!hidedownloadBrochure && (
+                      <div onClick={popupShow} className={styles.btn}>
+                        <Button
+                          text="Download Syllabus"
+                          newButton={true}
+                          newBlueButton={true}
+                        />
+                      </div>
+                    )}
                   </div>
 
                   <div className={styles.btnDivM}>
-                    <div onClick={applyCounselingShow} className={styles.cyberECCouncilGrayBtn}>
-                      <Button text="Apply for Counseling" newButton={true} grayButton={true}/>
+                    <div
+                      onClick={applyCounselingShow}
+                      className={styles.cyberECCouncilGrayBtn}
+                    >
+                      <Button
+                        text="Apply for Counseling"
+                        newButton={true}
+                        grayButton={true}
+                      />
                     </div>
-                    <div onClick={popupShow} className={styles.cyberECCouncilNewBlueBtn}>
-                      <Button text="Download Syllabus" 
-                      newButton={true} newBlueButton={true}/>
-                    </div>
+                    {!hidedownloadbutton && (
+                      <div
+                        onClick={popupShow}
+                        className={styles.cyberECCouncilNewBlueBtn}
+                      >
+                        <Button
+                          text="Download Syllabus"
+                          newButton={true}
+                          newBlueButton={true}
+                        />
+                      </div>
+                    )}
                   </div>
                 </div>
 
                 <Suspense fallback={<div>Loading Form...</div>}>
                   <div className={styles.formdiv}>
                     <h3>
-                      Check Your{" "}
+                      Check Your{' '}
                       <span
                         className={
                           isCyberSecurity ? styles.cyberSpan : styles.span
@@ -175,7 +202,10 @@ const Header = memo(
                         Eligibility
                       </span>
                     </h3>
-                    <Form interstedInHide={interstedInHide} dataScienceCounselling={true}/>
+                    <Form
+                      interstedInHide={interstedInHide}
+                      dataScienceCounselling={true}
+                    />
                   </div>
                 </Suspense>
               </div>

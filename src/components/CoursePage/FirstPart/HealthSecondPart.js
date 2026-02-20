@@ -75,7 +75,7 @@ const SecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf';
   return (
     <div>
       <LJourney />
@@ -84,7 +84,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Data Science & AI for Healthcare Professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
@@ -109,7 +109,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         interstedInHide={true}
         titleCourse="Data Science & AI for Healthcare Professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         // EMI POPUPDATA

@@ -74,7 +74,7 @@ export default function Home() {
   }, []);
 
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf';
   return (
     <div className={styles.container}>
       <Head>
@@ -161,7 +161,7 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" Accelerate a rewarding tech career with new-age knowledge and coding expertise via our DSA course in Pune. Join us to effortlessly crack top product-based interviews and craft a lucrative career in DSA. Also, earn globally recognized IBM & Microsoft credentials to exhibit your potential in the present tech age. "
           titleCourse="Full-Stack Software Developer Course In Bangalore To Achieve Your Dream Job"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstHeading="Best Data Structures and Algorithms Training in Pune"
           firstToparaImg=""
@@ -197,7 +197,7 @@ export default function Home() {
             interstedInHide={true}
             dataScience={true}
             titleCourse="Advanced Data Science and AI Program with domain specialization"
-            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
             brochurePdf={pdfUrl}
             // <EMI POPUP
             emiType="NO COST EMI"

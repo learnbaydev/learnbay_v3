@@ -76,7 +76,7 @@ const SecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf';
   return (
     <div style={{ marginTop: '50px' }}>
       <LJourney />
@@ -86,7 +86,7 @@ const SecondPart = ({
         dataScience={true}
         // interstedInHide={interstedInHide}
         titleCourse="Certificate in AWS Cloud Computing & Devops"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
       />
@@ -118,7 +118,7 @@ const SecondPart = ({
         // interstedInHide={interstedInHide}
         dataScience={true}
         titleCourse="Certificate in AWS Cloud Computing & Devops"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf"
         brochurePdf={pdfUrl}
         // <EMI POPUP
         emiType="NO COST EMI"
@@ -138,7 +138,7 @@ const SecondPart = ({
       <DevOpsProject
         CloudAWs={true}
         titleCourse="Certificate in AWS Cloud Computing & Devops"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         // interstedInHide={true}

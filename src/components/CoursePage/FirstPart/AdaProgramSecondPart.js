@@ -1,45 +1,45 @@
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
-import BottomBar from "../../Global/BottomBar/BottomBar";
-import LJourney from "../LJourney/LJourney";
-const GetHire = dynamic(() => import("../../MastersCourse/GetHire/GetHire"));
-const ContactCounsellor = dynamic(() =>
-  import("../ContactCounsellor/ContactCounsellor")
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import BottomBar from '../../Global/BottomBar/BottomBar';
+import LJourney from '../LJourney/LJourney';
+const GetHire = dynamic(() => import('../../MastersCourse/GetHire/GetHire'));
+const ContactCounsellor = dynamic(
+  () => import('../ContactCounsellor/ContactCounsellor')
 );
-const SyllabusNew = dynamic(() =>
-  import("../../CoursePage/Syllabus/MasterSyllabus")
+const SyllabusNew = dynamic(
+  () => import('../../CoursePage/Syllabus/MasterSyllabus')
 );
-const ToolsCovered = dynamic(() =>
-  import("../../CoursePage/ToolsCovered/ToolsCovered")
+const ToolsCovered = dynamic(
+  () => import('../../CoursePage/ToolsCovered/ToolsCovered')
 );
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const Certificate = dynamic(() =>
-  import("../../MastersCourse/Certificate/Certificate")
+const OfferPopup = dynamic(() => import('../../Global/OfferPopup/OfferPopup'));
+const Certificate = dynamic(
+  () => import('../../MastersCourse/Certificate/Certificate')
 );
-const FeeSection = dynamic(() =>
-  import("../../CoursePage/FeeSection/FeeSection")
+const FeeSection = dynamic(
+  () => import('../../CoursePage/FeeSection/FeeSection')
 );
-const MentorsSection = dynamic(() =>
-  import("../../Global/MentorsSection/MentorsSection")
+const MentorsSection = dynamic(
+  () => import('../../Global/MentorsSection/MentorsSection')
 );
-const SliderTabs = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-const PlacementCall = dynamic(() =>
-  import("../../Global/PlacementCall/PlacementCall")
+const SliderTabs = dynamic(() => import('../../Global/SliderTabs/SliderTabs'));
+const PlacementCall = dynamic(
+  () => import('../../Global/PlacementCall/PlacementCall')
 );
-const NewProjectSection = dynamic(() =>
-  import("../../Global/NewProjectSection/NewProjectSection")
-);
-
-const SeventhSection = dynamic(() =>
-  import("../../Global/SeventhSection/SeventhSection")
-);
-const MobileTestimonial = dynamic(() =>
-  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+const NewProjectSection = dynamic(
+  () => import('../../Global/NewProjectSection/NewProjectSection')
 );
 
-const Footer = dynamic(() => import("../../Global/Footer/Footer"));
-const FAQNew = dynamic(() => import("../../CoursePage/FAQNew/FAQNewDomain"));
+const SeventhSection = dynamic(
+  () => import('../../Global/SeventhSection/SeventhSection')
+);
+const MobileTestimonial = dynamic(
+  () => import('@/components/Home/MobileTestimonial/MobileTestimonial')
+);
+
+const Footer = dynamic(() => import('../../Global/Footer/Footer'));
+const FAQNew = dynamic(() => import('../../CoursePage/FAQNew/FAQNewDomain'));
 
 const ExecutiveSecondPart = ({
   CertificateData,
@@ -47,14 +47,15 @@ const ExecutiveSecondPart = ({
   projectSection,
   FAQNewData,
   noGuwahatiimg,
+  hideDownloadButton,
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -67,7 +68,7 @@ const ExecutiveSecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Master in Cs") {
+            if (popupData === 'Master in Cs') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -78,7 +79,8 @@ const ExecutiveSecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Iit-Data-Analytics-Certifications.pdf";
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Iit-Data-Analytics-Certifications.pdf';
   return (
     <>
       <GetHire />
@@ -94,6 +96,7 @@ const ExecutiveSecondPart = ({
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf"
         brochurePdf={pdfUrl}
         isGuwahati={true}
+        hideDownloadButton={true}
       />
       <ToolsCovered
         deskImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Tools-Logo.png"

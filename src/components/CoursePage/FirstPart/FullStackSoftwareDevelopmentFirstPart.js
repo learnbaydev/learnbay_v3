@@ -129,7 +129,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
       <GetHire />
       <ContactConsellor
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
+        brochureLink="hhttps://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}

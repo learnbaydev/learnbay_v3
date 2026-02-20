@@ -131,7 +131,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         titleCourse="Data Science Foundation Program"
         cityParaCont="Gain work experience of data scientist with real projects"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
+        brochureLink="hhttps://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
         firstToparaImg="Foundation Program"
@@ -156,7 +156,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         hideProjectLab={true}
         interstedInHide={true}
         dataScience={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         brochurePdf={pdfUrl}
         titleCourse="Data Science Foundation Program"
       />

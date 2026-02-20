@@ -68,8 +68,8 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf"
-        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
+        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf"
         buttonHide={true}
       />
       <ToolsCovered />
@@ -122,8 +122,8 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf"
-        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
+        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf"
         projectSection={projectSection}
       />
 

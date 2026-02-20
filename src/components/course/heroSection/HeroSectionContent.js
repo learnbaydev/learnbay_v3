@@ -1,8 +1,13 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image'; // Import Next.js Image component
 import styles from './HeroSection.module.css';
 
-function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
+function HeroSectionContent({
+  setPopups,
+  spanTag,
+  thumbnailurl,
+  hidedownloadbroucher,
+}) {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [showThumbnail, setShowThumbnail] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
@@ -12,7 +17,10 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
   const handleVideoPlay = ({}) => {
     if (isVideoPlaying) {
       if (iframeRef.current && iframeRef.current.contentWindow) {
-        iframeRef.current.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+        iframeRef.current.contentWindow.postMessage(
+          '{"event":"command","func":"pauseVideo","args":""}',
+          '*'
+        );
       }
       setIsVideoPlaying(false);
     } else {
@@ -24,32 +32,37 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 641) {
-      setMobile(true);
+      // setMobile(true); - setMobile is not defined
     }
 
     const handleScroll = () => {
       const threshold = 300;
       const scrollY = window.scrollY;
-      const scrollDirection = scrollY > lastScrollTop ? "down" : "up";
-      const isScrollingUp = scrollDirection === "up";
+      const scrollDirection = scrollY > lastScrollTop ? 'down' : 'up';
+      const isScrollingUp = scrollDirection === 'up';
       const isBeyondThreshold = scrollY <= threshold;
 
-      if (!isScrollingUp && iframeRef.current && iframeRef.current.contentWindow) {
-        iframeRef.current.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+      if (
+        !isScrollingUp &&
+        iframeRef.current &&
+        iframeRef.current.contentWindow
+      ) {
+        iframeRef.current.contentWindow.postMessage(
+          '{"event":"command","func":"pauseVideo","args":""}',
+          '*'
+        );
         setIsVideoPlaying(false);
       }
 
-      setShowThumbnail(
-        isBeyondThreshold || (isScrollingUp && !isVideoPlaying)
-      );
+      setShowThumbnail(isBeyondThreshold || (isScrollingUp && !isVideoPlaying));
 
       setLastScrollTop(scrollY);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, [lastScrollTop, isVideoPlaying]);
 
@@ -57,7 +70,7 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
     setPopups(true);
   };
 
-  return ( 
+  return (
     <section className={styles.mainBg}>
       <div className={styles.container}>
         <div className="containerWidth">
@@ -76,7 +89,7 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
                     width={59}
                     height={72}
                     loading="lazy"
-                    placeholder="blur" 
+                    placeholder="blur"
                     blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
                   />
                   <p>Curriculum Inclusive of Gen-AI</p>
@@ -95,8 +108,14 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
                 </div>
               </div>
               <div className={styles.btnDiv}>
-                <div className={styles.outlineButton} onClick={popupShow}>DOWNLOAD SYLLABUS</div>
-                <div className={styles.orangeButton } onClick={popupShow}>START MY APPLICATION</div>
+                {!hidedownloadbroucher && (
+                  <div className={styles.outlineButton} onClick={popupShow}>
+                    DOWNLOAD SYLLABUS
+                  </div>
+                )}
+                <div className={styles.orangeButton} onClick={popupShow}>
+                  START MY APPLICATION
+                </div>
               </div>
             </div>
             <div className={styles.secondSection} onClick={handleVideoPlay}>
@@ -113,7 +132,8 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
                       placeholder="blur"
                       blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/first_yt_thumb.webp"
                     />
-                    <div className={styles.playButton} /> {/* Add a play button overlay */}
+                    <div className={styles.playButton} />{' '}
+                    {/* Add a play button overlay */}
                   </div>
                 ) : (
                   <iframe

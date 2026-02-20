@@ -26,7 +26,7 @@ const UpskillingSection = dynamic(
 
 const ExecutiveSecondPart = ({ sections, FAQNewData }) => {
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Managers-Tech-Leaders-iits.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf';
   return (
     <>
       <ReviewSlider showRealStories={true} />
@@ -37,7 +37,7 @@ const ExecutiveSecondPart = ({ sections, FAQNewData }) => {
         sections={sections}
         interstedInHide={true}
         brochurePdf={pdfUrl}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
       />
       <ToolsSection />
       <CertificateSection />

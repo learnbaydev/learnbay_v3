@@ -72,7 +72,7 @@ const SecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/marketing-analytics.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf';
   return (
     <div>
       <LJourney />
@@ -81,7 +81,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Marketing Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
@@ -106,7 +106,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         interstedInHide={true}
         titleCourse="Marketing Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
+        brochureLink="hhttps://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         // <EMI POPUP
@@ -126,7 +126,7 @@ const SecondPart = ({
       <NewProjectSection
         dataScience={true}
         titleCourse="Marketing Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
         brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}

@@ -58,7 +58,7 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
     },
   };
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf';
   return (
     <div>
       <Navbar

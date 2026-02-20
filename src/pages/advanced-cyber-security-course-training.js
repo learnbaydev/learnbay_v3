@@ -166,7 +166,7 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
           TrainingBotFormat={
             NewCyberSecurityECCouncilData[0].header[0].TrainingBotFormat
           }
-          downloadBrochure={true}
+          hidedownloadBrochure={true}
           backgroundImg={
             NewCyberSecurityECCouncilData[0].header[0].backgroundImg
           }
@@ -197,7 +197,7 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
           titleCourse="Advance Certification in Cyber Security & Ethical Hacking"
           // brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance-Cyber-security.pdf"
           // brochurePdf={pdfUrl}
-          downloadBrochure={true}
+          hidedownloadbutton={true}
         />
         <NewCyberECCouncilCertificate
           certificateData={NewCyberSecurityECCouncilData[0].certificateNew}

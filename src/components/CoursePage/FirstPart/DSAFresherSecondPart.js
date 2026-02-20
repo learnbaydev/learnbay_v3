@@ -28,7 +28,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   notcall,
 }) => {
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DSA-for-Fresherss.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf';
   return (
     <div>
       <LJourney />
@@ -37,7 +37,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA+for+Freshers.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}

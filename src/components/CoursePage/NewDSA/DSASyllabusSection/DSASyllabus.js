@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import React, { useState, memo, useCallback, useEffect } from "react";
-import styles from "./DSASyllabus.module.css";
-import Image from "next/image";
-import dynamic from "next/dynamic";
+import React, { useState, memo, useCallback, useEffect } from 'react';
+import styles from './DSASyllabus.module.css';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
 
-import Popup from "@/components/Global/Popup/Popup";
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import ToolsCovered from "../../ToolsCovered/ToolsCovered";
+import Popup from '@/components/Global/Popup/Popup';
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
+import ToolsCovered from '../../ToolsCovered/ToolsCovered';
 // const PopupContent = dynamic(() => import("../../global/popup/PopupContent"), {
 //   ssr: false,
 //   loading: () => <p>Loading EMI options...</p>,
@@ -18,6 +18,7 @@ const SyllabusSection = ({
   brochurePdf,
   downloadBrochure,
   titleCourse,
+  hidedownloadbutton,
 }) => {
   const [popups, setPopups] = useState(false);
   const [applyCounselingPopup, setApplyCounselingPopup] = useState(false);
@@ -25,8 +26,8 @@ const SyllabusSection = ({
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth);
     handleResize(); // Set initial value
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   const popupShow = useCallback(() => {
@@ -69,7 +70,7 @@ const SyllabusSection = ({
         <PopupContent
           popups={popups ? popups : applyCounselingPopup}
           setPopups={popups ? setPopups : setApplyCounselingPopup}
-          heading={popups ? "Download Syllabus" : "Apply For Counselling"}
+          heading={popups ? 'Download Syllabus' : 'Apply For Counselling'}
           downloadBrochure={popups ? downloadBrochure : false}
           brochureLink={brochureLink}
           brochurePdf={brochurePdf}
@@ -120,7 +121,7 @@ const SyllabusSection = ({
                       <p className={styles.pline}>
                         {section.contentModule && (
                           <span className={styles.org}>
-                            {section.contentModule}:{" "}
+                            {section.contentModule}:{' '}
                           </span>
                         )}
                         {section.contentDescription}
@@ -168,19 +169,21 @@ const SyllabusSection = ({
             />
             Start Your Application
           </div>
-          <div className={styles.btntwo} onClick={popupShow}>
-            <div className={styles.pdficon}>
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/pdF_icon+(1).webp"
-                width={30}
-                height={30}
-                loading="lazy"
-                alt="PDF Download"
-                quality={40}
-              />
+          {!hidedownloadbutton && (
+            <div className={styles.btntwo} onClick={popupShow}>
+              <div className={styles.pdficon}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/pdF_icon+(1).webp"
+                  width={30}
+                  height={30}
+                  loading="lazy"
+                  alt="PDF Download"
+                  quality={40}
+                />
+              </div>
+              Download Brochure
             </div>
-            Download Brochure
-          </div>
+          )}
         </div>
         {/* <ToolsCovered /> */}
       </div>

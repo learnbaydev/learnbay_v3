@@ -153,7 +153,7 @@ const ExecutiveFirstPart = ({
         isGuwahati={true}
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/iit-background.webp"
         IIT={true}
-        hideIITGuwahati={hideIITGuwahati}
+        hideIITGuwahati={true}
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />

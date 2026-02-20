@@ -38,6 +38,7 @@ const ExecutiveFirstPartGeneric = () => {
         interstedInHide={true}
         dataScienceCounselling={true}
         dataScience={true}
+        hidedownloadbroucher={true}
         // brochurePdf={pdfUrl}
         // brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
       />

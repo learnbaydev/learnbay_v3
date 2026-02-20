@@ -1,29 +1,30 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import LJourney from "../LJourney/LJourney";
-import NewCertificateSection from "../newCertificate/NewCertificate";
-import DSAFeeSection from "../dsaFee/DSAFeeSection";
-import NewTools from "../newTools/NewTools";
-import GenAIProject from "../genAiProject/GenAIProject";
-const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate")
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import LJourney from '../LJourney/LJourney';
+import NewCertificateSection from '../newCertificate/NewCertificate';
+import DSAFeeSection from '../dsaFee/DSAFeeSection';
+import NewTools from '../newTools/NewTools';
+import GenAIProject from '../genAiProject/GenAIProject';
+const Certificate = dynamic(
+  () =>
+    import('../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate')
 );
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
 );
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const MentorsSection = dynamic(() =>
-  import("../../Global/MentorsSection/MentorsSection")
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const MentorsSection = dynamic(
+  () => import('../../Global/MentorsSection/MentorsSection')
 );
-const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-const PlacementCall = dynamic(() =>
-  import("../../Global/PlacementCall/PlacementCallFsd")
+const SliderTab = dynamic(() => import('../../Global/SliderTabs/SliderTabs'));
+const PlacementCall = dynamic(
+  () => import('../../Global/PlacementCall/PlacementCallFsd')
 );
-const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
+const FAQNew = dynamic(() => import('../FAQNew/FAQNew'));
+const Content = dynamic(
+  () => import('@/components/CoursePage/Content/content')
 );
 
 const IITCloudDevopsSecondPart = ({
@@ -36,7 +37,7 @@ const IITCloudDevopsSecondPart = ({
   // console.log(popupData);
 
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops__.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops__.pdf';
   return (
     <div>
       <LJourney />
@@ -52,6 +53,8 @@ const IITCloudDevopsSecondPart = ({
         interstedInHide={true}
         onlyGENAIPage={true}
         IITGenCloudonly={true}
+        hideDownloadButton={true}
+
         // genAIIIT={true}
       />
 

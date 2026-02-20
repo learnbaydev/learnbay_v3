@@ -79,7 +79,7 @@ const SecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-For-Freshers.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf';
   return (
     <div>
       <LJourney />
@@ -89,7 +89,7 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Freshers"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
       />
@@ -119,7 +119,7 @@ const SecondPart = ({
         interstedInHide={true}
         dataScience={true}
         titleCourse="Data Science & AI Certification Program For Freshers"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         brochurePdf={pdfUrl}
         // <EMI POPUP
         emiType="NO COST EMI"
@@ -140,7 +140,7 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Freshers"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         brochurePdf={pdfUrl}
         projectSection={projectSection}
       />

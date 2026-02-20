@@ -248,7 +248,7 @@ It’s an opportunity to understand the :"
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
           brochurePdf={pdfUrl}
         />
         <FAQNew FAQNewData={NewDSAData[0].faq} background={true} />

@@ -89,6 +89,7 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
         compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
         logoWidth={180}
         logoHeight={50}
+        hideIITGuwahati={true}
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}

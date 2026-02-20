@@ -1,8 +1,8 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import IITCloudDevopsFirstPart from "@/components/CoursePage/FirstPart/IITCloudDevopsFirstPart";
-import IITCloudDevopsSecondPart from "@/components/CoursePage/FirstPart/IITCloudDevopsSecondPart";
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import IITCloudDevopsFirstPart from '@/components/CoursePage/FirstPart/IITCloudDevopsFirstPart';
+import IITCloudDevopsSecondPart from '@/components/CoursePage/FirstPart/IITCloudDevopsSecondPart';
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -156,7 +156,7 @@ cloud training
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/IITCloudDevopsData");
+  const data = await import('../../Data/IITCloudDevopsData');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

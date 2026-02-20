@@ -127,7 +127,7 @@ const DataAnlyticsFirstPart = ({
     },
   };
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf';
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
