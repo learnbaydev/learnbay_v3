@@ -91,6 +91,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
             DataScienceCourseData.ExcutiveProgramAIDS[0].projectSection
           }
           FAQNewData={DataScienceCourseData.ExcutiveProgramAIDS[0].faq}
+          hideDownloadButton={true}
         />
 
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}

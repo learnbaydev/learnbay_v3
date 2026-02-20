@@ -1,23 +1,23 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
 
-import LJourney from "../LJourney/LJourney";
-import DSAFeeSection from "../dsaFee/DSAFeeSection";
-import NewTools from "../newTools/NewTools";
-import GenAIProject from "../genAiProject/GenAIProject";
-import FAQNew from "../FAQNew/FAQNewDomain";
-import Content from "../../../components/CoursePage/Content/content";
-const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/Certificate/Certificate")
+import LJourney from '../LJourney/LJourney';
+import DSAFeeSection from '../dsaFee/DSAFeeSection';
+import NewTools from '../newTools/NewTools';
+import GenAIProject from '../genAiProject/GenAIProject';
+import FAQNew from '../FAQNew/FAQNewDomain';
+import Content from '../../../components/CoursePage/Content/content';
+const Certificate = dynamic(
+  () => import('../../../components/CoursePage/Certificate/Certificate')
 );
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
 );
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
 
-const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
+const SliderTab = dynamic(() => import('../../Global/SliderTabs/SliderTabs'));
 
 const GenAiProSecondPart = ({
   masterSyllabusMobile,
@@ -25,11 +25,12 @@ const GenAiProSecondPart = ({
   CertificateData,
   genAiData,
   FAQNewData,
+  hideDownloadButton,
 }) => {
   // console.log(popupData);
 
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Developer_Program_For_Professionals.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Developer_Program_For_Professionals.pdf';
   return (
     <div>
       <LJourney />
@@ -45,6 +46,7 @@ const GenAiProSecondPart = ({
         buttonHide={true}
         interstedInHide={true}
         genAIIIT={true}
+        hideDownloadButton={hideDownloadButton}
       />
 
       <Certificate data={CertificateData} noTabs={true} />

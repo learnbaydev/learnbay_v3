@@ -1,9 +1,9 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
 
-import GenAiMLeadersFirstPartIBM from "@/components/CoursePage/FirstPart/GenAiMLeadersFirstPartIBM";
-import GenAiMLeadersSecondPartIBM from "@/components/CoursePage/FirstPart/GenAiMLeadersSecondPartIBM";
+import GenAiMLeadersFirstPartIBM from '@/components/CoursePage/FirstPart/GenAiMLeadersFirstPartIBM';
+import GenAiMLeadersSecondPartIBM from '@/components/CoursePage/FirstPart/GenAiMLeadersSecondPartIBM';
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -134,7 +134,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
             DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0].toolsData
           }
           CertificateData={
-            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0].Certificate
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
+              .Certificate
           }
           certificateNew={
             DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
@@ -146,6 +147,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           FAQNewData={
             DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0].faq
           }
+          hideIITGuwahati={true}
         />
       </main>
     </>
@@ -153,7 +155,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/generativeManagersLeaderscourseDataIBM");
+  const data =
+    await import('../../Data/generativeManagersLeaderscourseDataIBM');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

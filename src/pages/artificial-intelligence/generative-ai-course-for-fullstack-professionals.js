@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import { parseJSONData } from '@/Util/JsonConvertor';
-import GenAiProFirstPart from '@/components/CoursePage/FirstPart/pGenAiProFirstPart';
+import GenAiProFirstPart from '@/components/CoursePage/FirstPart/GenAiProFirstPart';
 import GenAiProSecondPart from '@/components/CoursePage/FirstPart/GenAiProSecondPart';
 
 function Blockchain({ DataScienceCourseDataJson }) {
@@ -208,6 +208,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           }
           genAiData={DataScienceCourseData.GENAIPROCourseData[0].genAiData}
           FAQNewData={DataScienceCourseData.GENAIPROCourseData[0].faq}
+          hideDownloadButton={true}
         />
       </main>
     </>

@@ -352,9 +352,11 @@ const GenAiFirstSection = ({
                 </>
               ) : (
                 <div className={styles.btnImage}>
-                  <div onClick={popupShow}>
-                    <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
-                  </div>
+                  {!hideIITGuwahati && (
+                    <div onClick={popupShow}>
+                      <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
+                    </div>
+                  )}
                   {softwareBtnHide ? (
                     ''
                   ) : (

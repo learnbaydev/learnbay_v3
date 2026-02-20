@@ -1,12 +1,12 @@
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import Link from "next/link";
-import { useState } from "react";
-import { FaRegUser } from "react-icons/fa";
-import Button from "../../Global/Button/Button";
-import Form from "../../Global/Form/Form";
-import NewSyllabusMap from "./NewSyllabusMap";
-import styles from "./Syllabus.module.css";
-import NewSyllabusMangersGenAiMap from "./NewSyllabusMapMangersGenAI";
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
+import Link from 'next/link';
+import { useState } from 'react';
+import { FaRegUser } from 'react-icons/fa';
+import Button from '../../Global/Button/Button';
+import Form from '../../Global/Form/Form';
+import NewSyllabusMap from './NewSyllabusMap';
+import styles from './Syllabus.module.css';
+import NewSyllabusMangersGenAiMap from './NewSyllabusMapMangersGenAI';
 
 function SyllabusNew({
   masterSyllabusMobile,
@@ -23,6 +23,8 @@ function SyllabusNew({
   onlyGENAIPage,
   GenAIMangersOnly,
   genAIIIT,
+  hideDownloadButton,
+  hideIITGuwahati,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -72,22 +74,22 @@ function SyllabusNew({
             <div className={styles.formWrapper}>
               <div className={styles.boxDiv}>
                 <div className={styles.formBox}>
-                  {" "}
+                  {' '}
                   <FaRegUser className={styles.iconUser} /> 7,568 people filled
                 </div>
               </div>
 
               {MastersContent ? (
                 <p className={styles.p}>
-                  Interested in{" "}
+                  Interested in{' '}
                   {isGuwahati ? (
                     <>
-                      {" "}
+                      {' '}
                       <span>Degree?</span>
                     </>
                   ) : (
                     <>
-                      {" "}
+                      {' '}
                       <span>Master’s Degree?</span>
                     </>
                   )}
@@ -112,7 +114,7 @@ function SyllabusNew({
         </section>
         <div className={styles.buttonDiv}>
           {buttonHide ? (
-            ""
+            ''
           ) : (
             <Link href="/master-application">
               <div>
@@ -124,13 +126,16 @@ function SyllabusNew({
               </div>
             </Link>
           )}
-          <div onClick={popupShow}>
-            <Button
-              nobannerButton={true}
-              text="DOWNLOAD SYLLABUS"
-              // passIcon={<FaDownload style={{ marginLeft: "10px" }} />}
-            />
-          </div>
+          {!hideDownloadButton && (
+            <div onClick={popupShow}>
+              <Button
+                nobannerButton={true}
+                text="DOWNLOAD SYLLABUS"
+                // passIcon={<FaDownload style={{ marginLeft: "10px" }} />}
+              />
+              {console.log({ hideDownloadButton })}
+            </div>
+          )}
         </div>
         {genAIIIT ? (
           <p className={styles.coursePReq}>

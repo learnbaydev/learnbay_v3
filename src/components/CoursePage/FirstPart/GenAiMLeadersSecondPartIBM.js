@@ -22,6 +22,7 @@ const GenAiMLeadersSecondPartIBM = ({
   toolsData,
   CertificateData,
   genAiData,
+  hideIITGuwahati,
 }) => {
   // console.log(popupData);
 
@@ -35,13 +36,14 @@ const GenAiMLeadersSecondPartIBM = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse=""
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Managers.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
         // onlyGENAIPage={true}
         GenAIMangersOnly={true}
         genAIIIT={true}
+        hideDownloadButton={true}
       />
 
       {/* <Certificate data={CertificateData}      singlecertificate={true}/> */}

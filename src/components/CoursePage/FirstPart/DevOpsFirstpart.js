@@ -145,7 +145,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         dataScience={true}
         titleCourse="Advanced Cloud Computing & DevOps Certification Program"
         cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced_Cloud_and_Devops_Program.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
         firstToparaImg=" Certification Program"
@@ -170,7 +170,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         <SecondNavbar
           // interstedInHide={true}
           dataScience={true}
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf"
+          brochureLink="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
           brochurePdf={pdfUrl}
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
         />
@@ -202,7 +202,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           dataScience={true}
           // interstedInHide={true}
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Advanced_Cloud_and_Devops_Program.pdf"
           brochurePdf={pdfUrl}
         />
       )}
