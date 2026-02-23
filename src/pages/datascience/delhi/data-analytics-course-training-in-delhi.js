@@ -151,7 +151,7 @@ export default function Home() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `{ 
+            __html: `{
               "@context": "http://schema.org",
               "@type": "LocalBusiness",
               "name": "Learnbay - Data Analytics, Data Science Course Training in Delhi",
@@ -209,15 +209,15 @@ export default function Home() {
               }
              
               
-}
- }`,
+} 
+  }`,
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{ 
-                          "@context": "https://schema.org/", 
+               "@context": "https://schema.org/", 
   "@type": "Product", 
   "name": "Data Analytics Certification Course in Delhi - Learnbay",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
@@ -235,7 +235,7 @@ export default function Home() {
               }
              
               
-} 
+}
  }`,
           }}
         />
@@ -243,7 +243,8 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{ 
-              "@context": "https://schema.org",
+            {
+  "@context": "https://schema.org",
   "@type": "Course",
   "name": "Data Analytics Certification Course in Delhi - Learnbay",
   "description": "Learnbay offers the best data analytics training in Delhi with placement assistance and get certified from IBM. Enroll Now.",
