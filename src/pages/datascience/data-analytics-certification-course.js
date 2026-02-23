@@ -139,7 +139,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
             "url": "https://www.learnbay.co/datascience/data-analytics-certification-course",
             "offers": {
               "@type": "Offer",
-              "price": 1,20,000,
+              "price": 120000,
               "priceCurrency": "INR",
               "category": "Educational"
             },

@@ -1,11 +1,11 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import FullStackSoftwareDevelopmentFirstPart from "@/components/CoursePage/FirstPart/FullStackSoftwareDevelopmentFirstPart";
-import FullStackSoftwareDevelopmentSecondPart from "@/components/CoursePage/FirstPart/FullStackSoftwareDevelopmentSecondPart";
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import FullStackSoftwareDevelopmentFirstPart from '@/components/CoursePage/FirstPart/FullStackSoftwareDevelopmentFirstPart';
+import FullStackSoftwareDevelopmentSecondPart from '@/components/CoursePage/FirstPart/FullStackSoftwareDevelopmentSecondPart';
 
-const OfferPopup = dynamic(() =>
-  import("../../components/Global/OfferPopup/OfferPopup")
+const OfferPopup = dynamic(
+  () => import('../../components/Global/OfferPopup/OfferPopup')
 );
 
 function Blockchain({ DataScienceCourseDataJson }) {
@@ -44,7 +44,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       "url": "https://www.learnbay.co/fullstack/full-stack-software-development-program",
       "offers": {
         "@type": "Offer",
-        "price": 1,59,000,
+        "price": 159000,
         "priceCurrency": "INR",
         "category": "Educational"
       },
@@ -90,7 +90,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/FullStackSoftwareProgram");
+  const data = await import('../../Data/FullStackSoftwareProgram');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }
