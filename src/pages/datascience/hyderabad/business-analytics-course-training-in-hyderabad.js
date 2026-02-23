@@ -79,12 +79,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Business Analyst Course in Hyderabad with IBM Certification
+          Business Analyst Course in Hyderabad [2026] | IBM Certification
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll Learnbay's Business Analytics Training in Hyderabad and gain live project experience, IBM certification, and placement assistance."
+          content="Best Business Analytics Training in Hyderabad in 2026 by Learnbay. Learn GenAI, earn IBM & IIT Patna dual certification, and assured placement assistance. "
         />
         <meta
           name="keywords"
@@ -94,36 +94,34 @@ export default function Home() {
           property="og:url"
           content="https://www.learnbay.co/datascience/hyderabad/business-analytics-course-training-in-hyderabad"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Business Analytics Course in Hyderabad | Data Science Training in Hyderabad"
+          content="Business Analyst Course in Hyderabad [2026] | IBM Certification"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Business Analytics Course in Chennai. Learnbay is Advanced Business Analytics Course Training Institute in Hyderabad. Business Analytics Course in Hyderabad will enhance your career"
+          content="Best Business Analytics Training in Hyderabad in 2026 by Learnbay. Learn GenAI, earn IBM & IIT Patna dual certification, and assured placement assistance."
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Business Analytics Course in Hyderabad | Data Science Training in Hyderabad"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Business Analytics Course in Hyderabad. Learnbay is Advanced Business Analytics Course Training Institute in Hyderabad. Business Analytics Course in Hyderabad will enhance your career"
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/hyderabad/business-analytics-course-training-in-hyderabad"
+        />
+        <meta
+          name="twitter:title"
+          content="Business Analyst Course in Hyderabad [2026] | IBM Certification"
         />
         <meta
           name="twitter:description"
-          content="Business Analytics Course in Hyderabad. Learnbay is Advanced Business Analytics Course Training Institute in Hyderabad. Business Analytics Course in Hyderabad will enhance your career"
+          content="Best Business Analytics Training in Hyderabad in 2026 by Learnbay. Learn GenAI, earn IBM & IIT Patna dual certification, and assured placement assistance."
         />
         <meta
           name="twitter:image"
@@ -142,6 +140,30 @@ export default function Home() {
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{  }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{  }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{  }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{  }`,
+          }}
         />
       </Head>
       <main>

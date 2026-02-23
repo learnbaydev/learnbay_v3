@@ -78,11 +78,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Machine Learning Course Chennai with Placement - Learnbay</title>
+        <title>
+          Machine Learning Course in Chennai | IBM Certified | Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Join-us The Learnbay's Extensive Machine Learning Training Course in Chennai. Get mentored by top industry experts, multiple batches available. Enroll Now."
+          content="Best Machine Learning course in Chennai with IBM & Microsoft certification. Master GenAI, MLOps & Agentic ML. Get 100% job assist & 15+ MNC projects. Enroll now "
         />
         <meta
           name="keywords"
@@ -92,36 +94,34 @@ export default function Home() {
           property="og:url"
           content="https://www.learnbay.co/datascience/chennai/machine-learning-course-training-in-chennai"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Machine Learning Course Chennai with Placement - Learnbay"
+          content="Machine Learning Course in Chennai | IBM Certified | Learnbay"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Join-us The Learnbay's Extensive Machine Learning Training Course in Chennai. Get mentored by top industry experts, multiple batches available. Enroll Now."
+          content="Best Machine Learning course in Chennai with IBM & Microsoft certification. Master GenAI, MLOps & Agentic ML. Get 100% job assist & 15+ MNC projects. Enroll now "
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Machine Learning Course Chennai with Placement - Learnbay"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="machine Learning Course in Chennai. Learnbay is Advanced machine Learning Course Training Institute in Chennai. machine Learning Course in Chennai will enhance your career"
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/chennai/machine-learning-course-training-in-chennai"
+        />
+        <meta
+          name="twitter:title"
+          content="Machine Learning Course in Chennai | IBM Certified | Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Join-us The Learnbay's Extensive Machine Learning Training Course in Chennai. Get mentored by top industry experts, multiple batches available. Enroll Now."
+          content="Best Machine Learning course in Chennai with IBM & Microsoft certification. Master GenAI, MLOps & Agentic ML. Get 100% job assist & 15+ MNC projects. Enroll now "
         />
         <meta
           name="twitter:image"
@@ -138,6 +138,72 @@ export default function Home() {
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Best Data Science Course Training in Pune - Learnbay",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "715"
+  }
+}
+
+             }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
+             "@context": "http://schema.org",
+      "@type": "Course",
+      "name": "Machine Learning Course in Chennai | IBM Certified | Learnbay",
+      "description": "Best Machine Learning course in Chennai with IBM & Microsoft certification. Master GenAI, MLOps & Agentic ML. Get 100% job assist & 15+ MNC projects. Enroll now",
+      "url": "https://www.learnbay.co/datascience/chennai/machine-learning-course-training-in-chennai",
+      "offers": {
+        "@type": "offer",
+        "price": "159000",
+        "pricecurrency": "INR",
+        "category": "Educational"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Learnbay",
+        "Url": "https://www.learnbay.co/"
+      },
+      "coursePrerequisites": "You should know about basic python before joining the program.",
+      "hasCourseInstance": [
+        {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "courseWorkload": "P13M",
+          "courseFee": {
+            "@type": "PriceSpecification",
+            "price": "₹ 1,59,000 + 18% GST",
+            "priceCurrency": "INR"
+          }
+        }
+      ]
+    }
+ }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{  }`,
+          }}
         />
       </Head>
       <main>

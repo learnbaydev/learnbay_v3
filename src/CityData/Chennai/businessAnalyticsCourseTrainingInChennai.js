@@ -1,164 +1,164 @@
 export const BusinessAnalyticsChennaiCourseData = [
   {
-    script1: {
-      '@context': 'https://schema.org',
-      '@type': 'NewsArticle',
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': 'https://www.learnbay.co/',
-      },
-      headline: 'Machine Learning Course Training In Chennai',
-      description:
-        'Machine learning course in Chennai. Learnbay is Advanced Machine Learning Course Training Institute in Chennai. Machine Learning course in Chennai will enhance your career',
-      image:
-        'https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg',
-      author: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co/',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png',
-        },
-      },
-      datePublished: '2021-10-01',
-      dateModified: '2022-04-21',
-    },
-    script2: {
-      '@context': 'https://schema.org',
-      '@type': 'NewsArticle',
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': 'https://www.learnbay.co/',
-      },
-      headline: 'Business Analytics Course Training In Chennai',
-      description:
-        'Business Analytics Course in Chennai. Learnbay is Advanced Business Analytics Course Training Institute in Chennai. Business Analytics course in Chennai will enhance your career',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      author: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co/',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-        },
-      },
-      datePublished: '2021-10-01',
-      dateModified: '2022-04-21',
-    },
-    script3: {
-      '@context': 'http://schema.org',
-      '@type': 'EducationEvent',
-      name: 'Business analytics Course Training In Chennai',
-      description:
-        'Learnbay offers a Business analytics  course in chennai, the most comprehensive Business analytics  course in the market, covering the complete Data Science lifecycle.',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-      performer: 'Learnbay',
-      offers: {
-        '@type': 'AggregateOffer',
-        lowPrice: '39999',
-        highPrice: '110000',
-        url: 'https://www.learnbay.co/',
-        availability: 'https://schema.org/InStock',
-        price: '1,00,000',
-        priceCurrency: 'INR',
-        validFrom: '2022-05-01',
-      },
-      startDate: '2022-05-01',
-      endDate: '2022-10-31',
-      url: 'https://www.learnbay.co/',
-      duration: '80',
-      eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
-      eventStatus: 'http://schema.org/EventScheduled',
-      location: [
-        {
-          '@type': 'VirtualLocation',
-          url: 'https://www.learnbay.co/',
-        },
-        {
-          '@type': 'Place',
-          name: 'Learnbay - Data Science, Machine Learning Course Training In Chennai',
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress:
-              ' #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)',
-            addressLocality: 'HSR Sector 3',
-            postalCode: '560102',
-            addressCountry: 'Bengaluru, Karnataka,INDIA',
-          },
-          geo: {
-            '@type': 'GeoCoordinates',
-            latitude: '12.911762714349765,',
-            longitude: '77.64127379352328',
-          },
-        },
-      ],
-      organizer: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co',
-      },
-    },
-    script4: {
-      '@context': 'https://schema.org/',
-      '@type': 'HowTo',
-      name: 'How to apply for data science course?',
-      description:
-        'You just have to follow 3 easy steps to enroll in our advanced data science course',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      totalTime: 'PT6M',
-      estimatedCost: {
-        '@type': 'MonetaryAmount',
-        currency: 'INR',
-        value: '6',
-      },
-      supply: {
-        '@type': 'HowToSupply',
-        name: 'We provide business analytics course training in chennai',
-      },
-      tool: {
-        '@type': 'HowToTool',
-        name: 'Data science, machine learning, artificial intelligence, data analytics',
-      },
-      step: [
-        {
-          '@type': 'HowToStep',
-          text: 'Visit our website and fill the enquiry form',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Fill Enquiry Form',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Talk to our experts for career counseling',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png',
-          name: 'Talk to Expert',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Get enrollment in our data science course',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Get enrollment',
-          url: 'https://www.learnbay.co/',
-        },
-      ],
-    },
+    // script1: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'NewsArticle',
+    //   mainEntityOfPage: {
+    //     '@type': 'WebPage',
+    //     '@id': 'https://www.learnbay.co/',
+    //   },
+    //   headline: 'Machine Learning Course Training In Chennai',
+    //   description:
+    //     'Machine learning course in Chennai. Learnbay is Advanced Machine Learning Course Training Institute in Chennai. Machine Learning course in Chennai will enhance your career',
+    //   image:
+    //     'https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg',
+    //   author: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co/',
+    //   },
+    //   publisher: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     logo: {
+    //       '@type': 'ImageObject',
+    //       url: 'https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png',
+    //     },
+    //   },
+    //   datePublished: '2021-10-01',
+    //   dateModified: '2022-04-21',
+    // },
+    // script2: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'NewsArticle',
+    //   mainEntityOfPage: {
+    //     '@type': 'WebPage',
+    //     '@id': 'https://www.learnbay.co/',
+    //   },
+    //   headline: 'Business Analytics Course Training In Chennai',
+    //   description:
+    //     'Business Analytics Course in Chennai. Learnbay is Advanced Business Analytics Course Training Institute in Chennai. Business Analytics course in Chennai will enhance your career',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   author: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co/',
+    //   },
+    //   publisher: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     logo: {
+    //       '@type': 'ImageObject',
+    //       url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //     },
+    //   },
+    //   datePublished: '2021-10-01',
+    //   dateModified: '2022-04-21',
+    // },
+    // script3: {
+    //   '@context': 'http://schema.org',
+    //   '@type': 'EducationEvent',
+    //   name: 'Business analytics Course Training In Chennai',
+    //   description:
+    //     'Learnbay offers a Business analytics  course in chennai, the most comprehensive Business analytics  course in the market, covering the complete Data Science lifecycle.',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //   performer: 'Learnbay',
+    //   offers: {
+    //     '@type': 'AggregateOffer',
+    //     lowPrice: '39999',
+    //     highPrice: '110000',
+    //     url: 'https://www.learnbay.co/',
+    //     availability: 'https://schema.org/InStock',
+    //     price: '1,00,000',
+    //     priceCurrency: 'INR',
+    //     validFrom: '2022-05-01',
+    //   },
+    //   startDate: '2022-05-01',
+    //   endDate: '2022-10-31',
+    //   url: 'https://www.learnbay.co/',
+    //   duration: '80',
+    //   eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
+    //   eventStatus: 'http://schema.org/EventScheduled',
+    //   location: [
+    //     {
+    //       '@type': 'VirtualLocation',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //     {
+    //       '@type': 'Place',
+    //       name: 'Learnbay - Data Science, Machine Learning Course Training In Chennai',
+    //       address: {
+    //         '@type': 'PostalAddress',
+    //         streetAddress:
+    //           ' #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)',
+    //         addressLocality: 'HSR Sector 3',
+    //         postalCode: '560102',
+    //         addressCountry: 'Bengaluru, Karnataka,INDIA',
+    //       },
+    //       geo: {
+    //         '@type': 'GeoCoordinates',
+    //         latitude: '12.911762714349765,',
+    //         longitude: '77.64127379352328',
+    //       },
+    //     },
+    //   ],
+    //   organizer: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co',
+    //   },
+    // },
+    // script4: {
+    //   '@context': 'https://schema.org/',
+    //   '@type': 'HowTo',
+    //   name: 'How to apply for data science course?',
+    //   description:
+    //     'You just have to follow 3 easy steps to enroll in our advanced data science course',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   totalTime: 'PT6M',
+    //   estimatedCost: {
+    //     '@type': 'MonetaryAmount',
+    //     currency: 'INR',
+    //     value: '6',
+    //   },
+    //   supply: {
+    //     '@type': 'HowToSupply',
+    //     name: 'We provide business analytics course training in chennai',
+    //   },
+    //   tool: {
+    //     '@type': 'HowToTool',
+    //     name: 'Data science, machine learning, artificial intelligence, data analytics',
+    //   },
+    //   step: [
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Visit our website and fill the enquiry form',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Fill Enquiry Form',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Talk to our experts for career counseling',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png',
+    //       name: 'Talk to Expert',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Get enrollment in our data science course',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Get enrollment',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //   ],
+    // },
 
     secondSection: [
       {
