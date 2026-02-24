@@ -1,7 +1,11 @@
-import { BsClock } from "react-icons/bs";
-import { FiCheck } from "react-icons/fi";
-import Button from "../../Global/Button/Button";
-import styles from "./CitiesRight.module.css";
+import React, { useState, Suspense, lazy } from 'react';
+import { BsClock } from 'react-icons/bs';
+import { FiCheck } from 'react-icons/fi';
+import Button from '../../Global/Button/Button';
+import styles from './CitiesRight.module.css';
+const Form = lazy(() => import('../../Global/Form/Form'));
+const Popup = dynamic(() => import('../../Global/Popup/Popup'));
+import dynamic from 'next/dynamic';
 
 const CitiesRight = ({
   ProgramHead1,
@@ -35,7 +39,7 @@ const CitiesRight = ({
   CertificationBot2,
   CertificationBot3,
   src,
-
+  src33,
   src44,
   syllabussrc,
   ModuleHead1,
@@ -150,7 +154,7 @@ const CitiesRight = ({
   cityTextDAbangalore,
   cityTextDAhyderabad,
   src22,
-  src33,
+
   cityTextDAPune,
   cityTextJDAPune,
   chennai,
@@ -284,31 +288,59 @@ const CitiesRight = ({
   cityTextCloudPune,
   ulModule,
 }) => {
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => setPopups(true);
   const tableStyle = {
-    width: "100%",
-    borderCollapse: "collapse",
-    marginBottom: "20px",
-    marginTop: "20px",
+    width: '100%',
+    borderCollapse: 'collapse',
+    marginBottom: '20px',
+    marginTop: '20px',
   };
 
   const thStyle = {
-    border: "1px solid #ddd",
-    padding: "8px",
-    backgroundColor: "#f2f2f2",
-    textAlign: "center",
+    border: '1px solid #ddd',
+    padding: '8px',
+    backgroundColor: '#f2f2f2',
+    textAlign: 'center',
   };
 
   const tdStyle = {
-    border: "1px solid #ddd",
-    padding: "8px",
-    textAlign: "center",
+    border: '1px solid #ddd',
+    padding: '8px',
+    textAlign: 'center',
   };
 
   const headerRowStyle = {
-    backgroundColor: "#f2f2f2",
+    backgroundColor: '#f2f2f2',
   };
   return (
     <section className={styles.CitiesRightHead}>
+      <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        downloadBrochure
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: '340px', height: '400px' }}
+          ></div>
+        </div>
+
+        <div className="RightPopup">
+          <h5>Download Syllabus</h5>
+
+          <Suspense fallback={<div>Loading...</div>}>
+            <Form
+              downloadBrochure
+              brochureLink={syllabussrc}
+              brochurePdf={syllabussrc}
+              titleCourse="Business Analytics Course"
+            />
+          </Suspense>
+        </div>
+      </Popup>
       <div id="Program">
         <div className={styles.CitiesRightSpan}>
           <span>About The Program</span>
@@ -316,7 +348,7 @@ const CitiesRight = ({
         {}
         {DAnalyst ? (
           <>
-            <div style={{ marginBottom: "40px" }}>
+            <div style={{ marginBottom: '40px' }}>
               <p className={styles.pp}>{ProgramBot1}</p>
               <p className={styles.pp}>{ProgramBot2}</p>
               <p className={styles.pp}>{ProgramBot3}</p>
@@ -497,10 +529,10 @@ const CitiesRight = ({
 
               <ul
                 style={{
-                  listStyleType: "lower-alpha",
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "20px",
+                  listStyleType: 'lower-alpha',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '20px',
                 }}
               >
                 <li>{list6}</li>
@@ -524,10 +556,10 @@ const CitiesRight = ({
               <i>{ProgramSpan4}</i>
               <ul
                 style={{
-                  listStyleType: "decimal",
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "20px",
+                  listStyleType: 'decimal',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '20px',
                 }}
               >
                 <li>{list13}</li>
@@ -540,63 +572,63 @@ const CitiesRight = ({
                 <i>{ProgramSpan2}</i>
               </p>
               <i>
-                {" "}
+                {' '}
                 <b>
                   <li>{list17}</li>
                 </b>
               </i>
 
               <i>
-                {" "}
+                {' '}
                 <p className={styles.pp}>{ProgramBot14}</p>
               </i>
 
               <i>
-                {" "}
+                {' '}
                 <b>
                   <li>{list18}</li>
                 </b>
               </i>
               <i>
-                {" "}
+                {' '}
                 <p className={styles.pp}>{ProgramBot15}</p>
               </i>
 
               <i>
-                {" "}
+                {' '}
                 <b>
                   <li>{list19}</li>
                 </b>
               </i>
               <i>
-                {" "}
+                {' '}
                 <p className={styles.pp}>{ProgramBot16}</p>
               </i>
 
               <i>
-                {" "}
+                {' '}
                 <b>
                   <li>{list20}</li>
                 </b>
               </i>
               <i>
-                {" "}
+                {' '}
                 <p className={styles.pp}>{ProgramBot17}</p>
               </i>
 
               <i>
-                {" "}
+                {' '}
                 <b>
                   <li>{list21}</li>
                 </b>
               </i>
               <i>
-                {" "}
+                {' '}
                 <p className={styles.pp}>{ProgramBot18}</p>
               </i>
 
               <i>
-                {" "}
+                {' '}
                 <p className={styles.pp}>{ProgramBot19}</p>
               </i>
               <p className={styles.pp}>{ProgramBot20}</p>
@@ -607,9 +639,9 @@ const CitiesRight = ({
           </>
         ) : (
           <>
-            {" "}
+            {' '}
             {bAnalystAbout ? (
-              <div style={{ marginBottom: "40px" }}>
+              <div style={{ marginBottom: '40px' }}>
                 <p className={styles.pp}>{ProgramBot1}</p>
                 <p className={styles.pp}>{ProgramBot2}</p>
                 <p className={styles.pp}>{ProgramBot3}</p>
@@ -760,10 +792,10 @@ const CitiesRight = ({
                 <p className={styles.pp}>{ProgramBot9}</p>
                 <ul
                   style={{
-                    listStyleType: "lower-alpha",
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: "20px",
+                    listStyleType: 'lower-alpha',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '20px',
                   }}
                 >
                   <li>{list6}</li>
@@ -784,10 +816,10 @@ const CitiesRight = ({
                 </p>
                 <ul
                   style={{
-                    listStyleType: "decimal",
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: "20px",
+                    listStyleType: 'decimal',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '20px',
                   }}
                 >
                   <li>{list13}</li>
@@ -800,69 +832,69 @@ const CitiesRight = ({
                   <i>{ProgramSpan2}</i>
                 </p>
                 <i>
-                  {" "}
+                  {' '}
                   <b>
                     <li>{list17}</li>
                   </b>
                 </i>
 
                 <i>
-                  {" "}
+                  {' '}
                   <p className={styles.pp}>{ProgramBot14}</p>
                 </i>
 
                 <i>
-                  {" "}
+                  {' '}
                   <b>
                     <li>{list18}</li>
                   </b>
                 </i>
                 <i>
-                  {" "}
+                  {' '}
                   <p className={styles.pp}>{ProgramBot15}</p>
                 </i>
 
                 <i>
-                  {" "}
+                  {' '}
                   <b>
                     <li>{list19}</li>
                   </b>
                 </i>
                 <i>
-                  {" "}
+                  {' '}
                   <p className={styles.pp}>{ProgramBot16}</p>
                 </i>
 
                 <i>
-                  {" "}
+                  {' '}
                   <b>
                     <li>{list20}</li>
                   </b>
                 </i>
                 <i>
-                  {" "}
+                  {' '}
                   <p className={styles.pp}>{ProgramBot17}</p>
                 </i>
 
                 <i>
-                  {" "}
+                  {' '}
                   <b>
                     <li>{list21}</li>
                   </b>
                 </i>
                 <i>
-                  {" "}
+                  {' '}
                   <p className={styles.pp}>{ProgramBot18}</p>
                 </i>
 
                 <i>
-                  {" "}
+                  {' '}
                   <b>
                     <li>{list22}</li>
                   </b>
                 </i>
                 <i>
-                  {" "}
+                  {' '}
                   <p className={styles.pp}>{ProgramBot19}</p>
                 </i>
                 <p className={styles.pp}>{ProgramBot20}</p>
@@ -871,13 +903,13 @@ const CitiesRight = ({
               </div>
             ) : (
               <>
-                {" "}
+                {' '}
                 {cityTextDAhyderabad ? (
                   <div className={styles.CitiesRightInner}>
                     <p>
                       Learnbay's <b>data analytics course in Hyderabad</b> might
                       be exactly what you need if you wish to pursue a career as
-                      a data analyst.{" "}
+                      a data analyst.{' '}
                       <b>
                         As the best data analytics training institute in
                         Hyderabad
@@ -888,7 +920,7 @@ const CitiesRight = ({
                     </p>
 
                     <p>
-                      Learnbay aims to provide specialized{" "}
+                      Learnbay aims to provide specialized{' '}
                       <b>online data analytics training</b> that gives learners
                       the knowledge and skills necessary to succeed in their
                       careers as data analysts. The institute handles everything
@@ -896,7 +928,7 @@ const CitiesRight = ({
                       through live data analytics projects to interview
                       preparation for top-tier MNCs. Renowned industry
                       professionals lead our one-on-one doubt-clearing sessions.
-                      Learnbay delivers immersive <b>data analytics training</b>{" "}
+                      Learnbay delivers immersive <b>data analytics training</b>{' '}
                       that sets it apart as a one-stop resource for anyone
                       looking to become a professional job-ready data analyst.
                     </p>
@@ -915,7 +947,7 @@ const CitiesRight = ({
                     </p>
 
                     <p>
-                      By enrolling in Learnbay's{" "}
+                      By enrolling in Learnbay's{' '}
                       <b>data analytics course in Hyderabad</b>, you'll
                       thoroughly understand the fundamental ideas and real-world
                       uses of data analytics. Throughout the course, you will
@@ -937,16 +969,16 @@ const CitiesRight = ({
                       help of these projects, learners learn to apply their
                       knowledge and skills to solve complex problems businesses
                       and organizations face. It gives them a competitive edge
-                      in the job market.{" "}
+                      in the job market.{' '}
                     </p>
 
                     <p>
                       Furthermore, Learnbay has a strong industry connection. It
                       ensures that learners are exposed to the latest trends and
-                      practices in data analytics.{" "}
+                      practices in data analytics.{' '}
                       <b>Data analytics training</b> makes them more valuable to
                       potential employers. With its flexible online format, job
-                      placement support, and practical training, our{" "}
+                      placement support, and practical training, our{' '}
                       <b>data analytics course in Hyderabad</b> is the ideal
                       choice for anyone looking to build a successful career in
                       data analytics.
@@ -972,7 +1004,7 @@ const CitiesRight = ({
                     <p>
                       The course duration of the online Data Analytics training
                       in Hyderabad is 180+ hours. Our trained professionals will
-                      tutor you for almost 9 months.{" "}
+                      tutor you for almost 9 months.{' '}
                     </p>
                     <p>The structured course consists of 4 terms. </p>
 
@@ -988,7 +1020,7 @@ const CitiesRight = ({
                       decision-making, the scope of data in research and
                       development, the fundamentals of programming and
                       statistics, including an introduction to Linear
-                      Algebra.{" "}
+                      Algebra.{' '}
                     </p>
 
                     <h2>Term 1: Python Programming</h2>
@@ -1001,7 +1033,7 @@ const CitiesRight = ({
                       Regular Expression. An introduction to NumPy, Array
                       Creation, Printing Arrays, introduction to Pandas, and
                       indexing data frames are a few other topics that will be
-                      covered in this module.{" "}
+                      covered in this module.{' '}
                     </p>
 
                     <h2>Term 2: Statistics and Machine Learning </h2>
@@ -1028,7 +1060,7 @@ const CitiesRight = ({
                       learning techniques covered in this subject include
                       support vector machines, principal component analysis
                       (PCA), clustering, K-nearest neighbours (KNN) models, and
-                      regression and classification models. (SVM).{" "}
+                      regression and classification models. (SVM).{' '}
                     </p>
                     <p>
                       Your instructor will walk you through each of these
@@ -1036,7 +1068,7 @@ const CitiesRight = ({
                       from the real world to help you understand. After
                       finishing this subject, you'll be prepared to use
                       cutting-edge machine-learning techniques to build solid
-                      models and analyze complex data sets.{" "}
+                      models and analyze complex data sets.{' '}
                     </p>
 
                     <h2>Term 3: Data Analytics Tools </h2>
@@ -1086,12 +1118,12 @@ const CitiesRight = ({
 
                     <h2>
                       Why Should You Choose Learnbay’s Data Analytics Course in
-                      Hyderabad?{" "}
+                      Hyderabad?{' '}
                     </h2>
                     <p>
                       Learnbay offers the best data analytics online training.
                       Below mentioned are a few key reasons why you should
-                      choose us.{" "}
+                      choose us.{' '}
                     </p>
 
                     <ol type="1">
@@ -1110,7 +1142,7 @@ const CitiesRight = ({
                       </li>
 
                       <li>
-                        <b>Sessions guided by experienced data analysts:</b>{" "}
+                        <b>Sessions guided by experienced data analysts:</b>{' '}
                         Learnbay's instructors are skilled data analysts with
                         years of experience working in the sector, providing
                         students with an insightful understanding of practical
@@ -1141,7 +1173,7 @@ const CitiesRight = ({
                       these technologies to analyze massive volumes of data
                       rapidly and correctly, giving them access to insightful
                       information about consumer behaviour, market trends, and
-                      corporate operations.{" "}
+                      corporate operations.{' '}
                     </p>
 
                     <p>
@@ -1170,14 +1202,14 @@ const CitiesRight = ({
 
                     <h2>Best Data Analytics Training Institute in Hyderabad</h2>
                     <p>
-                      Learnbay is considered the{" "}
+                      Learnbay is considered the{' '}
                       <b>best data analytics institute in Hyderabad</b>.
                       Learnbay has established a reputation for turning out
                       highly trained data professionals by emphasizing training
                       that applies to the business. The institute provides a
                       wide range of data analytics courses, including big data
                       analytics, artificial intelligence, machine learning, and
-                      data science.{" "}
+                      data science.{' '}
                     </p>
 
                     <p>
@@ -1197,7 +1229,7 @@ const CitiesRight = ({
 
                     <p>
                       Data Analytics is a lucrative career option for people
-                      interested in the profession because the{" "}
+                      interested in the profession because the{' '}
                       <b>average data analyst salary in Hyderabad</b> is INR 6
                       lakhs.
                     </p>
@@ -1216,7 +1248,7 @@ const CitiesRight = ({
                     <p>
                       The demand for knowledgeable experts in the industry is
                       increasing as businesses in Hyderabad rely more heavily on
-                      data analytics. Learnbay offers the{" "}
+                      data analytics. Learnbay offers the{' '}
                       <b>best data analytics training in Hyderabad</b> to meet
                       the growing demand for skilled professionals.
                     </p>
@@ -1231,20 +1263,20 @@ const CitiesRight = ({
                     </p>
 
                     <p>
-                      {" "}
-                      Learnbay also provides offline project sessions for{" "}
+                      {' '}
+                      Learnbay also provides offline project sessions for{' '}
                       <a
                         href="https://www.learnbay.co/machine-learning-course-training-in-hyderabad"
                         target="_blank"
-                        style={{ color: "#2D9CD7", fontWeight: "600" }}
+                        style={{ color: '#2D9CD7', fontWeight: '600' }}
                       >
                         machine learning
-                      </a>{" "}
-                      and{" "}
+                      </a>{' '}
+                      and{' '}
                       <a
                         href="https://www.learnbay.co/artificial-intelligence-ai-course-training-hyderabad"
                         target="_blank"
-                        style={{ color: "#2D9CD7", fontWeight: "600" }}
+                        style={{ color: '#2D9CD7', fontWeight: '600' }}
                       >
                         artificial intelligence courses in Hyderabad
                       </a>
@@ -1252,7 +1284,7 @@ const CitiesRight = ({
                     </p>
                   </div>
                 ) : (
-                  ""
+                  ''
                 )}
                 {cityTextDAPune ? (
                   <div className={styles.CitiesRightInner}>
@@ -1299,7 +1331,7 @@ const CitiesRight = ({
                     {ulModule && (
                       <>
                         {cityTextDevopsBangalore && (
-                          <ul style={{ marginLeft: "15px" }}>
+                          <ul style={{ marginLeft: '15px' }}>
                             {list10 && <li>{list10}</li>}
                             {list11 && <li>{list11}</li>}
                             {list12 && <li>{list12}</li>}
@@ -1328,7 +1360,7 @@ const CitiesRight = ({
                       data-driven operations keep increasing across global
                       companies. Looking forward to such changes, many startups
                       and MNCs from diverse sectors rethink hiring practices.
-                      Thus, upskilling from an industry-driven{" "}
+                      Thus, upskilling from an industry-driven{' '}
                       <b>cloud computing course in Bangalore</b> is useful for
                       techies.
                     </p>
@@ -1345,7 +1377,7 @@ const CitiesRight = ({
                       Learnbay anticipates an evolved future for techies or
                       experts eager to modernize their careers in cloud
                       computing. Owing to the current tech trends, we present a
-                      thoroughly designed{" "}
+                      thoroughly designed{' '}
                       <b>cloud computing course in Bangalore</b>. The course
                       follows the expectations of top-notch tech MNCs. In
                       addition, mentorship from eminent experts guides learners
@@ -1356,19 +1388,19 @@ const CitiesRight = ({
                       fortify their existing skills and use their efficacy in
                       solving real-world issues. Experts will enhance their
                       skills via 10+ real-time projects under the advice of
-                      adept faculties. Our{" "}
+                      adept faculties. Our{' '}
                       <b>cloud computing institute in Bangalore</b> offers 24/7
                       training with live projects to help you ace the trending
-                      roles and prove your skills.{" "}
+                      roles and prove your skills.{' '}
                     </p>
                     <p className={styles.pp}>
-                      Learnbay’s{" "}
+                      Learnbay’s{' '}
                       <b>cloud computing certification in Bangalore</b> presents
                       its successful alliance with <b>IBM & Microsoft</b>. Here,
                       learners obtain course completion and project certificates
                       from IBM & Microsoft that validate their skills on a
                       global scale. It enriches career values with fortunate
-                      offers and alluring hikes in dream roles.{" "}
+                      offers and alluring hikes in dream roles.{' '}
                     </p>
 
                     <h2 className={styles.pHead}>
@@ -1387,13 +1419,13 @@ const CitiesRight = ({
                     </p>
 
                     <p className={styles.pp}>
-                      Upskilling with Learnbay’s{" "}
+                      Upskilling with Learnbay’s{' '}
                       <b>cloud computing institute in Bangalore</b> expands
-                      career growth scopes and success metrics.{" "}
+                      career growth scopes and success metrics.{' '}
                       <b>Major offerings are –</b>
                     </p>
 
-                    <ul style={{ marginLeft: "40px" }}>
+                    <ul style={{ marginLeft: '40px' }}>
                       <li>
                         Exclusively designed learning modules to crack leading
                         interviews
@@ -1417,7 +1449,7 @@ const CitiesRight = ({
                       techies. Indeed, the demand surge for cloud computing
                       experts is here and there. Most leading tech firms prefer
                       hiring techies with cloud mastery to offer seamless data
-                      solutions. Hence, learning via the{" "}
+                      solutions. Hence, learning via the{' '}
                       <b>best cloud computing courses in Pune</b> has become
                       crucial for techies.
                     </p>
@@ -1428,13 +1460,13 @@ const CitiesRight = ({
                       toward cloud-based solutions lifting business growth in
                       Pune. In the interim, local, national, and global search
                       for skilled cloud experts to bolster the digital sight.
-                      Hence, upskilling from the{" "}
+                      Hence, upskilling from the{' '}
                       <b>best institute for cloud computing in Pune</b> has
                       become vital.
                     </p>
                     <p className={styles.pp}>
                       Today’s ever-evolving digital space inspires techies for
-                      constant skill upgrades. Hence, demand for pursuing a{" "}
+                      constant skill upgrades. Hence, demand for pursuing a{' '}
                       <b>cloud computing course in Pune</b> keeps growing. The
                       spurring tech creations call for reliable and secure
                       practices driving exciting gains. Hence, techies master
@@ -1444,7 +1476,7 @@ const CitiesRight = ({
                     <p className={styles.pp}>
                       Learnbay envisions a world of tech experts with cloud
                       mastery and the power to face cut-throat competition. Its
-                      industry-driven{" "}
+                      industry-driven{' '}
                       <b>Cloud Computing Certification Program</b> lures techies
                       to rethink their career paths. Learnbay aligns its career
                       rise visions with industries looking for tech experts in
@@ -1453,15 +1485,15 @@ const CitiesRight = ({
                     <p className={styles.pp}>
                       Our comprehensively curated course modules help techies
                       overcome their stagnancies and acquire proven skills to
-                      conquer success. We pose as the{" "}
-                      <b>best institute for cloud computing in Pune</b>{" "}
+                      conquer success. We pose as the{' '}
+                      <b>best institute for cloud computing in Pune</b>{' '}
                       certifying you to rise beyond tech creations. Our course
                       modules are regularly revised as per the latest trends to
                       bridge the potential skill gaps.
                     </p>
 
                     <p className={styles.pp}>
-                      We are the first choice of many techies for our fortunate{" "}
+                      We are the first choice of many techies for our fortunate{' '}
                       <b>cloud computing classes in Pune</b>. Mentorship from
                       eminent tech experts guides techies in forging
                       digital-friendly skills and thriving globally. Learning
@@ -1479,7 +1511,7 @@ const CitiesRight = ({
                     </p>
 
                     <p className={styles.pp}>
-                      Upskilling via the{" "}
+                      Upskilling via the{' '}
                       <b>best cloud computing courses in Pune</b> unlocks
                       inspiring growth and success. We believe career assistance
                       services are crucial for a tech expert to dive deeper into
@@ -1492,11 +1524,11 @@ const CitiesRight = ({
 
                     <p className={styles.pp}>
                       Learning is partially justified if your skills remain
-                      underrated or invalid. Many techies join us regardless of{" "}
+                      underrated or invalid. Many techies join us regardless of{' '}
                       <b>cloud computing course in Pune fees</b> for valuable
                       credentials. Our industry alliance with IBM & Microsoft
                       escalates your career growth limits with alluring returns.
-                      Techies can endorse their skills with{" "}
+                      Techies can endorse their skills with{' '}
                       <b>IBM & Microsoft certifications</b> unlocking
                       global-level careers.
                     </p>
@@ -1509,7 +1541,7 @@ const CitiesRight = ({
                     <p className={styles.pp}>
                       The explosive growth of cloud computing changes the career
                       dynamics for tech experts from diverse fields. Hence,
-                      constant skill upgrades via an industry-paced{" "}
+                      constant skill upgrades via an industry-paced{' '}
                       <b>cloud computing training institute in Pune</b> are
                       becoming trendsetters. If you’re keen to contemporize your
                       abilities and rebuild your career, join Learnbay’s cloud
@@ -1520,7 +1552,7 @@ const CitiesRight = ({
                       <b>Major offerings are –</b>
                     </p>
 
-                    <ul style={{ marginLeft: "40px" }}>
+                    <ul style={{ marginLeft: '40px' }}>
                       <li>
                         Exclusively planned learning modules to crack leading
                         jobs
@@ -1554,9 +1586,9 @@ const CitiesRight = ({
           <p className={styles.pp}>{CertificationBot3}</p>
           <p className={styles.pp}>{CertificationBot4}</p>
           {cityTextCloudPune ? (
-            <ul style={{ marginLeft: "40px", marginBottom: "40px" }}>
+            <ul style={{ marginLeft: '40px', marginBottom: '40px' }}>
               <li>Advance Data Science & AI Program</li>
-              <li style={{ color: "#0072bc" }}>
+              <li style={{ color: '#0072bc' }}>
                 <a
                   href="https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati"
                   target="_blank"
@@ -1565,7 +1597,7 @@ const CitiesRight = ({
                 </a>
               </li>
               <li>Advance AI & ML Certification Program</li>
-              <li style={{ color: "#0072bc" }}>
+              <li style={{ color: '#0072bc' }}>
                 <a
                   href="https://www.learnbay.co/datascience/data-analytics-certification-course"
                   target="_blank"
@@ -1573,7 +1605,7 @@ const CitiesRight = ({
                   Data Analytics Certification Program
                 </a>
               </li>
-              <li style={{ color: "#0072bc" }}>
+              <li style={{ color: '#0072bc' }}>
                 <a
                   href="https://www.learnbay.co/datascience/advance-data-analytics-program-iit-guwahati"
                   target="_blank"
@@ -1581,7 +1613,7 @@ const CitiesRight = ({
                   Advance Data Analytics Certification from IIT Guwahati
                 </a>
               </li>
-              <li style={{ color: "#0072bc" }}>
+              <li style={{ color: '#0072bc' }}>
                 <a
                   href="https://www.learnbay.co/datascience/business-analytics-certification-course"
                   target="_blank"
@@ -1591,11 +1623,12 @@ const CitiesRight = ({
               </li>
             </ul>
           ) : (
-            ""
+            ''
           )}
           <div className={styles.certNew}>
             <img src={src}></img>
             <img src={src22}></img>
+            <img src={src33}></img>
             <img src={src44}></img>
           </div>
         </div>
@@ -1776,7 +1809,7 @@ const CitiesRight = ({
             <p className={styles.pp}>{ModuleBot4}</p>
             {ulModule ? (
               <>
-                <ul style={{ marginLeft: "40px" }}>
+                <ul style={{ marginLeft: '40px' }}>
                   <li>{list1}</li>
                   <li>{list2}</li>
                   <li>{list3}</li>
@@ -1874,10 +1907,14 @@ const CitiesRight = ({
             </div>
           </div>
         )}
-        <div className={styles.Button}>
+        {/* <div className={styles.Button}>
           <a href={syllabussrc} target="_blank">
             <Button className={styles.btn} text="View Detailed Syllabus" />
           </a>
+          
+        </div> */}
+        <div onClick={popupShow}>
+          <Button className={styles.btn} text="View Detailed Syllabus" />
         </div>
       </div>
       <div id="Job">
@@ -2017,61 +2054,61 @@ const CitiesRight = ({
                           <p className={styles.pp}>{JobBot11}</p>
                           <ul
                             style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              gap: "20px",
-                              marginBottom: "20px",
+                              display: 'flex',
+                              flexDirection: 'column',
+                              gap: '20px',
+                              marginBottom: '20px',
                             }}
                           >
                             <li>{listJob1}</li>
-                            <li style={{ listStyle: "none" }}>{listJob2}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob2}</li>
 
                             <li>{listJob3}</li>
                           </ul>
 
                           <ul
                             style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              gap: "20px",
-                              marginBottom: "20px",
+                              display: 'flex',
+                              flexDirection: 'column',
+                              gap: '20px',
+                              marginBottom: '20px',
                             }}
                           >
-                            <li style={{ listStyle: "none" }}>{listJob4}</li>
-                            <li style={{ listStyle: "none" }}>{listJob5}</li>
-                            <li style={{ listStyle: "none" }}>{listJob6}</li>
-                            <li style={{ listStyle: "none" }}>{listJob7}</li>
-                            <li style={{ listStyle: "none" }}>{listJob8}</li>
-                            <li style={{ listStyle: "none" }}>{listJob9}</li>
-                            <li style={{ listStyle: "none" }}>{listJob10}</li>
-                            <li style={{ listStyle: "none" }}>{listJob11}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob4}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob5}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob6}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob7}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob8}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob9}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob10}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob11}</li>
                           </ul>
 
                           <ul
                             style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              gap: "20px",
+                              display: 'flex',
+                              flexDirection: 'column',
+                              gap: '20px',
                             }}
                           >
                             <li>{listJob12}</li>
-                            <li style={{ listStyle: "none" }}>{listJob13}</li>
-                            <li style={{ listStyle: "none" }}>{listJob14}</li>
-                            <li style={{ listStyle: "none" }}>{listJob15}</li>
-                            <li style={{ listStyle: "none" }}>{listJob16}</li>
-                            <li style={{ listStyle: "none" }}>{listJob17}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob13}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob14}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob15}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob16}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob17}</li>
                           </ul>
 
                           <ul
-                            style={{ display: "flex", flexDirection: "column" }}
+                            style={{ display: 'flex', flexDirection: 'column' }}
                           >
                             <li>{listJob18}</li>
-                            <li style={{ listStyle: "none" }}>{listJob19}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob19}</li>
 
-                            <li style={{ listStyle: "none" }}>{listJob20}</li>
-                            <li style={{ listStyle: "none" }}>{listJob21}</li>
-                            <li style={{ listStyle: "none" }}>{listJob22}</li>
-                            <li style={{ listStyle: "none" }}>{listJob23}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob20}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob21}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob22}</li>
+                            <li style={{ listStyle: 'none' }}>{listJob23}</li>
                           </ul>
 
                           <p className={styles.pp}>{JobBot19}</p>
@@ -2080,7 +2117,7 @@ const CitiesRight = ({
                       </>
                     ) : (
                       <>
-                        {" "}
+                        {' '}
                         {bAnalystAbout ? (
                           <div className={styles.CitiesRightInner}>
                             <h3 className={styles.pHead}>{JobHead2}</h3>
@@ -2149,54 +2186,54 @@ const CitiesRight = ({
                             <p className={styles.pp}>{JobBot8}</p>
                             <ul
                               style={{
-                                display: "flex",
-                                flexDirection: "column",
-                                gap: "20px",
-                                marginBottom: "20px",
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '20px',
+                                marginBottom: '20px',
                               }}
                             >
                               <li>{listJob1}</li>
-                              <li style={{ listStyle: "none" }}>{listJob2}</li>
-                              <li style={{ listStyle: "none" }}>{listJob3}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob2}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob3}</li>
                             </ul>
 
                             <ul
                               style={{
-                                display: "flex",
-                                flexDirection: "column",
-                                gap: "20px",
-                                marginBottom: "20px",
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '20px',
+                                marginBottom: '20px',
                               }}
                             >
                               <li>{listJob4}</li>
-                              <li style={{ listStyle: "none" }}>{listJob5}</li>
-                              <li style={{ listStyle: "none" }}>{listJob6}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob5}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob6}</li>
                             </ul>
                             <ul
                               style={{
-                                display: "flex",
-                                flexDirection: "column",
-                                gap: "20px",
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '20px',
                               }}
                             >
                               <li>{listJob7}</li>
-                              <li style={{ listStyle: "none" }}>{listJob8}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob8}</li>
                               <li>{listJob9}</li>
-                              <li style={{ listStyle: "none" }}>{listJob10}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob10}</li>
                               <li>{listJob11}</li>
-                              <li style={{ listStyle: "none" }}>{listJob12}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob12}</li>
                               <li>{listJob13}</li>
-                              <li style={{ listStyle: "none" }}>{listJob14}</li>
-                              <li style={{ listStyle: "none" }}>{listJob15}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob14}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob15}</li>
                             </ul>
 
                             <p className={styles.pp}>{JobBot9}</p>
                             <h3 className={styles.pHead}>{JobHead4}</h3>
                             <ul
                               style={{
-                                display: "flex",
-                                flexDirection: "column",
-                                gap: "20px",
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '20px',
                               }}
                             >
                               <li>{listJob16}</li>
@@ -2231,36 +2268,36 @@ const CitiesRight = ({
                             <p className={styles.pp}>{JobBot17}</p>
                             <ul
                               style={{
-                                display: "flex",
-                                flexDirection: "column",
-                                gap: "20px",
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '20px',
                               }}
                             >
                               <li>{listJob22}</li>
-                              <li style={{ listStyle: "none" }}>{listJob23}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob23}</li>
                               <li>{listJob24}</li>
-                              <li style={{ listStyle: "none" }}>{listJob25}</li>
-                              <li style={{ listStyle: "none" }}>{listJob26}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob25}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob26}</li>
                               <li>{listJob27}</li>
-                              <li style={{ listStyle: "none" }}>{listJob28}</li>
-                              <li style={{ listStyle: "none" }}>{listJob29}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob28}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob29}</li>
                               <li>{listJob30}</li>
 
-                              <li style={{ listStyle: "none" }}>{listJob31}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob31}</li>
                               <li>{listJob32}</li>
-                              <li style={{ listStyle: "none" }}>{listJob33}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob33}</li>
                               <li>{listJob34}</li>
-                              <li style={{ listStyle: "none" }}>{listJob35}</li>
-                              <li style={{ listStyle: "none" }}>{listJob36}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob35}</li>
+                              <li style={{ listStyle: 'none' }}>{listJob36}</li>
                             </ul>
                             <h3 className={styles.pHead}>{JobHead7}</h3>
                             <p className={styles.pp}>{JobBot18}</p>
                             <ul
                               style={{
-                                listStyleType: "decimal",
-                                display: "flex",
-                                flexDirection: "column",
-                                gap: "20px",
+                                listStyleType: 'decimal',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '20px',
                               }}
                             >
                               <li>{listJob37}</li>
@@ -2391,54 +2428,54 @@ const CitiesRight = ({
                         <p className={styles.pp}>{JobBot48}</p>
                         <ul
                           style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            gap: "20px",
-                            marginBottom: "20px",
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '20px',
+                            marginBottom: '20px',
                           }}
                         >
                           <li>{listJob1}</li>
-                          <li style={{ listStyle: "none" }}>{listJob2}</li>
-                          <li style={{ listStyle: "none" }}>{listJob3}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob2}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob3}</li>
                         </ul>
 
                         <ul
                           style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            gap: "20px",
-                            marginBottom: "20px",
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '20px',
+                            marginBottom: '20px',
                           }}
                         >
                           <li>{listJob4}</li>
-                          <li style={{ listStyle: "none" }}>{listJob5}</li>
-                          <li style={{ listStyle: "none" }}>{listJob6}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob5}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob6}</li>
                         </ul>
                         <ul
                           style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            gap: "20px",
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '20px',
                           }}
                         >
                           <li>{listJob7}</li>
-                          <li style={{ listStyle: "none" }}>{listJob8}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob8}</li>
                           <li>{listJob9}</li>
-                          <li style={{ listStyle: "none" }}>{listJob10}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob10}</li>
                           <li>{listJob11}</li>
-                          <li style={{ listStyle: "none" }}>{listJob12}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob12}</li>
                           <li>{listJob13}</li>
-                          <li style={{ listStyle: "none" }}>{listJob14}</li>
-                          <li style={{ listStyle: "none" }}>{listJob15}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob14}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob15}</li>
                         </ul>
 
                         <p className={styles.pp}>{JobBot9}</p>
                         <h3 className={styles.pHead}>{JobHead4}</h3>
                         <ul
                           style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            gap: "20px",
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '20px',
                           }}
                         >
                           <li>{listJob16}</li>
@@ -2473,36 +2510,36 @@ const CitiesRight = ({
                         <p className={styles.pp}>{JobBot17}</p>
                         <ul
                           style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            gap: "20px",
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '20px',
                           }}
                         >
                           <li>{listJob22}</li>
-                          <li style={{ listStyle: "none" }}>{listJob23}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob23}</li>
                           <li>{listJob24}</li>
-                          <li style={{ listStyle: "none" }}>{listJob25}</li>
-                          <li style={{ listStyle: "none" }}>{listJob26}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob25}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob26}</li>
                           <li>{listJob27}</li>
-                          <li style={{ listStyle: "none" }}>{listJob28}</li>
-                          <li style={{ listStyle: "none" }}>{listJob29}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob28}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob29}</li>
                           <li>{listJob30}</li>
 
-                          <li style={{ listStyle: "none" }}>{listJob31}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob31}</li>
                           <li>{listJob32}</li>
-                          <li style={{ listStyle: "none" }}>{listJob33}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob33}</li>
                           <li>{listJob34}</li>
-                          <li style={{ listStyle: "none" }}>{listJob35}</li>
-                          <li style={{ listStyle: "none" }}>{listJob36}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob35}</li>
+                          <li style={{ listStyle: 'none' }}>{listJob36}</li>
                         </ul>
                         <h3 className={styles.pHead}>{JobHead7}</h3>
                         <p className={styles.pp}>{JobBot18}</p>
                         <ul
                           style={{
-                            listStyleType: "decimal",
-                            display: "flex",
-                            flexDirection: "column",
-                            gap: "20px",
+                            listStyleType: 'decimal',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '20px',
                           }}
                         >
                           <li>{listJob37}</li>
@@ -2558,10 +2595,10 @@ const CitiesRight = ({
                                 <h3 className={styles.pHead}>{JobHead4}</h3>
                                 <ul
                                   style={{
-                                    listStyleType: "decimal",
-                                    display: "flex",
-                                    flexDirection: "column",
-                                    gap: "20px",
+                                    listStyleType: 'decimal',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    gap: '20px',
                                   }}
                                 >
                                   <li>{JobList1}</li>
@@ -2573,10 +2610,10 @@ const CitiesRight = ({
 
                                 <ul
                                   style={{
-                                    listStyleType: "decimal",
-                                    display: "flex",
-                                    flexDirection: "column",
-                                    gap: "20px",
+                                    listStyleType: 'decimal',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    gap: '20px',
                                   }}
                                 >
                                   <h3 className={styles.pHead}>{JobHead6}</h3>
@@ -2601,7 +2638,7 @@ const CitiesRight = ({
                                 </ul>
                               </>
                             ) : (
-                              ""
+                              ''
                             )}
                           </div>
                         )}
@@ -2617,14 +2654,14 @@ const CitiesRight = ({
       <div id="Projects">
         {bAnalystAbout ? (
           <>
-            {" "}
+            {' '}
             <div className={styles.CitiesRightSpan}>
               <span>Conclusion</span>
             </div>
           </>
         ) : (
           <>
-            {" "}
+            {' '}
             <div className={styles.CitiesRightSpan}>
               <span>Know Our Projects</span>
             </div>
@@ -2653,7 +2690,7 @@ const CitiesRight = ({
               <div className={styles.ProjectsBotI}>
                 <img
                   src={src1}
-                  style={{ height: "60px", width: "auto" }}
+                  style={{ height: '60px', width: 'auto' }}
                   alt={alt2}
                 ></img>
                 <p className={styles.ppp}>{ProjectsH1}</p>
@@ -2666,7 +2703,7 @@ const CitiesRight = ({
               <div className={styles.ProjectsBotI}>
                 <img
                   src={src2}
-                  style={{ height: "60px", width: "auto" }}
+                  style={{ height: '60px', width: 'auto' }}
                   alt={alt3}
                 ></img>
                 <p className={styles.ppp}>{ProjectsH2}</p>
@@ -2675,13 +2712,13 @@ const CitiesRight = ({
             </div>
           </div>
         </div>
-        <div className={styles.Projects} style={{ marginBottom: "20px" }}>
+        <div className={styles.Projects} style={{ marginBottom: '20px' }}>
           <div className={styles.ProjectsBot}>
             <div className={styles.ProjectsBotHead}>
               <div className={styles.ProjectsBotI}>
                 <img
                   src={src3}
-                  style={{ height: "60px", width: "auto" }}
+                  style={{ height: '60px', width: 'auto' }}
                   alt={alt4}
                 ></img>
                 <p className={styles.ppp}>{ProjectsH3}</p>
@@ -2694,7 +2731,7 @@ const CitiesRight = ({
               <div className={styles.ProjectsBotI}>
                 <img
                   src={src4}
-                  style={{ height: "60px", width: "auto" }}
+                  style={{ height: '60px', width: 'auto' }}
                   alt={alt5}
                 ></img>
                 <p className={styles.ppp}>{ProjectsH4}</p>
@@ -2721,24 +2758,24 @@ const CitiesRight = ({
         </div>
         <div className={styles.Alumni}>
           <div className={styles.AlumniBot}>
-            <img src={Asrc1} style={{ width: "100px" }} alt={alt6}></img>
+            <img src={Asrc1} style={{ width: '100px' }} alt={alt6}></img>
             <p className={styles.ppa}>{AlumniH1}</p>
             <p className={styles.pp}>{Alumnip1}</p>
           </div>
           <div className={styles.AlumniBot}>
-            <img src={Asrc2} style={{ width: "100px" }} alt={alt7}></img>
+            <img src={Asrc2} style={{ width: '100px' }} alt={alt7}></img>
             <p className={styles.ppa}>{AlumniH2}</p>
             <p className={styles.pp}>{Alumnip2}</p>
           </div>
         </div>
         <div className={styles.Alumni1}>
           <div className={styles.AlumniBot}>
-            <img src={Asrc3} style={{ width: "100px" }} alt={alt8}></img>
+            <img src={Asrc3} style={{ width: '100px' }} alt={alt8}></img>
             <p className={styles.ppa}>{AlumniH3}</p>
             <p className={styles.pp}>{Alumnip3}</p>
           </div>
           <div className={styles.AlumniBot}>
-            <img src={Asrc4} style={{ width: "100px" }} alt={alt9}></img>
+            <img src={Asrc4} style={{ width: '100px' }} alt={alt9}></img>
             <p className={styles.ppa}>{AlumniH4}</p>
             <p className={styles.pp}>{Alumnip4}</p>
           </div>

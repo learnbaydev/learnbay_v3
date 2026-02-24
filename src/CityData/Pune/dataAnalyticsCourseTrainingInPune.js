@@ -564,7 +564,7 @@ export const DAPuneCourseData = [
           },
           {
             id: 1,
-            ques: 'Can I pay in installments for INR 1,20,000 + 18% GST-?',
+            ques: 'Can I pay in installments for INR 1,20,000 + 18% GST?',
             ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option . You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
             open: false,
           },
@@ -870,7 +870,7 @@ export const DAPuneCourseData = [
 
     src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
-
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:

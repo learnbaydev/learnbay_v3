@@ -609,6 +609,7 @@ export default function Home() {
               CertificationBot2={DAPuneCourseData[0].CertificationBot2}
               src={DAPuneCourseData[0].src}
               src22={DAPuneCourseData[0].src22}
+              src33={DAPuneCourseData[0].src33}
               src44={DAPuneCourseData[0].src44}
               ModuleHead1={DAPuneCourseData[0].ModuleHead1}
               ModuleBot1={DAPuneCourseData[0].ModuleBot1}
