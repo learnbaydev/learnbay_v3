@@ -500,8 +500,8 @@ export const BAPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: 'What is domain specialization associated with the Learnbay business analytics certification course in Pune?',
-            ans: 'We offer industry-specific full-stack  modules, via which you learn the respective industry’s best practices.',
+            ques: 'What is domain specialization associated with the Learnbay business analytics course in Pune?',
+            ans: 'We offer industry-specific full-stack business analytics with gen AI modules that teach you the best practices of the respective industry.',
             open: true,
           },
           {
@@ -524,7 +524,7 @@ export const BAPuneCourseData = [
           {
             id: 3,
             ques: 'Why is domain specialization important?',
-            ans: "After enrolling in the  with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
+            ans: "After enrolling in the business analytics course with domain specialisation course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
             open: false,
           },
           {

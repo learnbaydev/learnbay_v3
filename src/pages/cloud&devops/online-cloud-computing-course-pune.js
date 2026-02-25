@@ -550,6 +550,7 @@ export default function Home() {
               src={CloudComputingTrainingInPune[0].src}
               src22={CloudComputingTrainingInPune[0].src22}
               src33={CloudComputingTrainingInPune[0].src33}
+              src44={CloudComputingTrainingInPune[0].src44}
               ModuleHead1={CloudComputingTrainingInPune[0].ModuleHead1}
               ModuleBot1={CloudComputingTrainingInPune[0].ModuleBot1}
               ModuleBot2={CloudComputingTrainingInPune[0].ModuleBot2}

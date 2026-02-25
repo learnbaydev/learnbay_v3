@@ -622,7 +622,7 @@ export const MLPuneCourseData = [
           {
             id: 0,
             ques: 'What is the total Fee for this machine learning course in Pune?',
-            ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000+18% GST- Inclusive of GST.`,
+            ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000+18% GST.`,
             open: true,
           },
           {

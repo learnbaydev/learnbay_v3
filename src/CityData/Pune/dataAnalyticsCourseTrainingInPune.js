@@ -711,7 +711,8 @@ export const DAPuneCourseData = [
 
     ProgramHead1: (
       <span>
-        Add alliance with IBM and IIT Patna, and the GEN AI Certificate{' '}
+        About Learnbay’s Data Analyst Course in Pune [in alliance with IBM and
+        IIT Patna]{' '}
       </span>
     ),
     ProgramBot1: (

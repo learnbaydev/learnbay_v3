@@ -40,7 +40,7 @@ const CitiesRight = ({
   CertificationBot3,
   src,
   src33,
-  src44,
+
   syllabussrc,
   ModuleHead1,
   ModuleHead2,
@@ -154,6 +154,7 @@ const CitiesRight = ({
   cityTextDAbangalore,
   cityTextDAhyderabad,
   src22,
+  src44,
 
   cityTextDAPune,
   cityTextJDAPune,

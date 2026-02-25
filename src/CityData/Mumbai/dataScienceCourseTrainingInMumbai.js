@@ -497,7 +497,7 @@ export const DataScienceMumbaiCourseData = [
           {
             id: 4,
             ques: 'What’s the duration of these advanced data science courses in Mumbai?',
-            ans: 'The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months',
+            ans: 'The duration of these courses varies from 9 to 13 months. ',
             open: false,
           },
           {
@@ -1411,6 +1411,7 @@ export const DataScienceMumbaiCourseData = [
     CertificationHead3: 'Are certifications in data science worthwhile?',
     CertificationBot7:
       'The answer is yes if you pursue the right course. Having a data science certification gives you an advantage over other applicants during interviews and enables you to highlight your skills in various data science technologies.',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',

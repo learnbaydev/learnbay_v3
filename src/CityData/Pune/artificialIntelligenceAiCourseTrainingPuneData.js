@@ -564,7 +564,7 @@ export const AIPuneCourseData = [
           {
             id: 4,
             ques: 'What’s the duration of these advanced AI in Pune?',
-            ans: `The duration should be 13 months, including weekends and weekday batches.`,
+            ans: `The duration of this AI course in Pune is around 13 months. However, it might differ based on weekend or weekdays batches you choose. `,
             open: false,
           },
           {

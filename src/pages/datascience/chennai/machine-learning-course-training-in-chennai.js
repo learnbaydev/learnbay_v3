@@ -202,7 +202,208 @@ export default function Home() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `{  }`,
+            __html: `{ 
+              "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What are the prerequisites for the Machine Learning course with Domain Specialization in Chennai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Basic programming & mathematics knowledge is enough. However, for strengthening your programming skills we offer additional sessions to the interested candidates."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I miss a few classes due to an emergency?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a Flexi Subscription in the Machine learning certification course of Learnbay in Chennai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Machine learning training course in Chennai with GenAI comes with 3 years of flexi subscriptions. So that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
+    }
+  },{
+    "@type": "Question",
+    "name": "What’s the duration of this GenAI infused machine learning training course in Chennai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The duration of this machine learning course in Mumbai is 13 months"
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the mode of Data Science Course In Chennai at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I opt for a Hybrid mode of learning?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I opt for a hybrid mode of learning in IBM machine learning training courses in Chennai, at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is domain specialization in the professional machine learning certification courses provided by Learnbay in Chennai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer industry-specific machine learning modules with generative AI, via which you learn the respective industry’s best practices."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the available elective domain options within the machine learning courses of Learnbay in Chennai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer machine learning with GenAI specializations in domain like  BFSI, Retail, manufacturing, Healthcare, SDE, Managers,  and Supply Chain."
+    }
+  },{
+    "@type": "Question",
+    "name": "Which machine learning specialization domain elective is best suited for me?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988"
+    }
+  },{
+    "@type": "Question",
+    "name": "Why is domain specialization important in professional machine learning certification?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "After enrolling in the machine learning courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I select multiple domain electives and do I need to pay extra charges",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select multiple domains but there might be a certain limit based on your chosen course and existing experience."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I don't have any prior experience in any domain?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I change my domain electives later?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the total Fee for this machine learning course in Chennai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The course fee for the  Gen AI and machine learning course in Chennai is 1,59,000 INR, exclusive of GST."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I pay in installments for 1,59,000/-?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can pay in instalments using a credit card with a no-cost EMI option for up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any scholarship available for the Machine Learning certification? What is Group Discount?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the refund policy for this Machine Learning training course at Learnbay in Chennai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many capstone machine learning projects will be there?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many real-time projects will be there?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There will be a total of 60+ real-time projects in machine learning from different domains. Click here to download the list of the projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How will the project be executed?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any accredited certification after this machine learning course completion in Chennai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It offers 4 Certifications: 3 IBM certifications and 1 Microsoft Certification."
+    }
+  },{
+    "@type": "Question",
+    "name": "What's the eligibility for a job assistance program at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get support for job assistance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a job-readiness program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Job readiness programs help you prepare for interviews which include: Resume Preparation sessions Preparing projects for a strong portfolio Interview guidance and prep sessions 1:1 Mock interviews based on targeted companies and roles"
+    }
+  },{
+    "@type": "Question",
+    "name": "Will I get job referrals at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies."
+    }
+  },{
+    "@type": "Question",
+    "name": "Until when will the Learnbay students in Chennai get the facility of mentorship?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our Mentors will provide ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can a Learnbay student in Chennai choose to study from their desired mentor?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+    }
+  }]
+}
+ }`,
           }}
         />
       </Head>
@@ -233,6 +434,7 @@ export default function Home() {
           firstTopPara="Machine Learning Course For Experienced Tech Professionals"
           firstToparaImg="Training In Chennai"
           idss="YWxTtvb3x-U"
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={MachineLearningChennaiCourseData[0].secondSection}
