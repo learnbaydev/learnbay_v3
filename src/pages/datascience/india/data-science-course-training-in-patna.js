@@ -1,43 +1,43 @@
-import { DSBangaloreSchema } from "@/Data/Schema/DSBangalore";
-import Realstory from "@/components/Home/Realstory/Realstory";
-import Map from "@/components/Seo/Maps/Maps";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { DSPatnaCourseData } from "../../../CityData/Patna/dsCourseTrainingPatnaData";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Navbar from "../../../components/Global/Navbar/Navbar";
-import Popup from "../../../components/Global/Popup/Popup";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import styles from "../../../styles/Home.module.css";
+import { DSBangaloreSchema } from '@/Data/Schema/DSBangalore';
+import Realstory from '@/components/Home/Realstory/Realstory';
+import Map from '@/components/Seo/Maps/Maps';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { DSPatnaCourseData } from '../../../CityData/Patna/dsCourseTrainingPatnaData';
+import Footer from '../../../components/Global/Footer/Footer';
+import Form from '../../../components/Global/Form/Form';
+import Navbar from '../../../components/Global/Navbar/Navbar';
+import Popup from '../../../components/Global/Popup/Popup';
+import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
+import styles from '../../../styles/Home.module.css';
 const FirstSection = dynamic(
-  () => import("../../../components/Seo/FirstSection/FirstSection"),
+  () => import('../../../components/Seo/FirstSection/FirstSection')
 );
 const SecondSection = dynamic(
-  () => import("../../../components/Seo/SecondSection/SecondSection"),
+  () => import('../../../components/Seo/SecondSection/SecondSection')
 );
 const ProgramInfo = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramInfo"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramInfo')
 );
 const SeventhSection = dynamic(
-  () => import("../../../components/Seo/SeventhSection/SeventhSection"),
+  () => import('../../../components/Seo/SeventhSection/SeventhSection')
 );
 const ProgramFee = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
 const CityText = dynamic(
-  () => import("../../../components/Seo/CityText/CityText"),
+  () => import('../../../components/Seo/CityText/CityText')
 );
 const CitiesLeft = dynamic(
-  () => import("../../../components/Seo/CitiesLeft/CitiesLeft"),
+  () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
 const CitiesRight = dynamic(
-  () => import("../../../components/Seo/CitiesRight/CitiesRight"),
+  () => import('../../../components/Seo/CitiesRight/CitiesRight')
 );
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 const OfferPopup = dynamic(
-  () => import("../../../components/Global/OfferPopup/OfferPopup"),
+  () => import('../../../components/Global/OfferPopup/OfferPopup')
 );
 
 export default function Home() {
@@ -51,8 +51,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -65,7 +65,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === 'Adv Data Science and AI') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -77,31 +77,31 @@ export default function Home() {
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf';
 
   const items = [
-    "Data Science Foundation",
-    "Python for Data Science",
-    "Statistics for Data Science",
-    "Maths for Data Science",
-    "Machine Learning",
-    "Data Preparation with Pandas",
-    "Data Visualisation with Python",
-    "Tableau Foundations for Data analysis",
-    "Big Data Foundation",
-    "Model deployment (Flask-API)",
-    "R Language Essentials",
-    "Deep Learning",
-    "SQL for Data Science",
+    'Data Science Foundation',
+    'Python for Data Science',
+    'Statistics for Data Science',
+    'Maths for Data Science',
+    'Machine Learning',
+    'Data Preparation with Pandas',
+    'Data Visualisation with Python',
+    'Tableau Foundations for Data analysis',
+    'Big Data Foundation',
+    'Model deployment (Flask-API)',
+    'R Language Essentials',
+    'Deep Learning',
+    'SQL for Data Science',
   ];
   return (
     <div className={styles.container}>
       <Head>
-        <title>Top Data Science Training Course in Patna - Learnbay</title>
+        <title>Best Data Science Course in Patna |100% Placement Support</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="  Join the best Data Science course in Patna with Learnbay. Get certified by IBM & Microsoft, gain hands-on experience with AI tools. Enroll now!        "
+          content="Learnbay is providing  the best Data Science Training in Patna IBM GenAI Certification, Bring Your Own Project feature & dedicated job assist. Enrol today!"
         />
         <meta
           name="keywords"
@@ -115,40 +115,38 @@ export default function Home() {
           property="og:url"
           content="https://www.learnbay.co/datascience/india/data-science-course-training-in-patna"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Top Data Science Training Course in Patna - Learnbay"
+          content="Best Data Science Course in Patna |100% Placement Support"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content=" Join the best Data Science course in Patna with Learnbay. Get certified by IBM & Microsoft, gain hands-on experience with AI tools. Enroll now!        "
+          content="Learnbay is providing  the best Data Science Training in Patna IBM GenAI Certification, Bring Your Own Project feature & dedicated job assist. Enrol today!"
         />
         <meta
           property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Top Data Science Training Course in Patna - Learnbay"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Best Data Science Courses in patna. Learnbay is the Best Data Scientist Certification Course Training Institute in patna with 100% Placement assistance and offers an advanced data scientist training in patna."
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/india/data-science-course-training-in-patna"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Data Science Course in Patna |100% Placement Support"
         />
         <meta
           name="twitter:description"
-          content=" Join the best Data Science course in Patna with Learnbay. Get certified by IBM & Microsoft, gain hands-on experience with AI tools. Enroll now!        "
+          content="Learnbay is providing  the best Data Science Training in Patna IBM GenAI Certification, Bring Your Own Project feature & dedicated job assist. Enrol today!"
         />
         <meta
           name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <link
           rel="icon"
@@ -158,12 +156,255 @@ export default function Home() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(DSBangaloreSchema),
+            __html: `{
+             "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Best Data Science Course in Patna |100% Placement Support",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "2405"
+  }
+}
+  }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
+             "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Best Data Science Course in Patna |100% Placement Support",
+  "description": "Learnbay is providing  the best Data Science Training in Patna IBM GenAI Certification, Bring Your Own Project feature & dedicated job assist. Enrol today!",
+  "url": "https://www.learnbay.co/datascience/india/data-science-course-training-in-patna",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "sameAs": "https://www.learnbay.co/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "120000",
+    "priceCurrency": "INR",
+    "category": "Educational"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P9M",
+    "offers": {
+      "@type": "Offer",
+      "price": "120000",
+      "priceCurrency": "INR"
+    }
+  }
+}
+ }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+              "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How long does the data science course in Patna typically take to complete?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The duration of the data science and Gen AI course is 9-13 months."
+    }
+  },{
+    "@type": "Question",
+    "name": "What topics are covered in the curriculum of the data science course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Programming languages
+Python programming basics
+Statistics and Machine Learning
+Industry projects and capstone projects
+Generative AI concepts"
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I attend classes online, or is it only available in a physical classroom?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Patna with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer flexibility in scheduling for working professionals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here and can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs in Patna."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I decide which domain elective best fits my career goals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you are confused about which domain elective to choose for the best career transition, reach out to Learnbay’s career consultants at +91 7795687988. A career counselor will have a 1:1 discussion with you before enrolling and guide you through current industry trends."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are the domain electives updated to reflect industry trends?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, domain electives and associated projects are updated according to industry trends. Domain electives are inspired by the sectors that are trending with attractive job offers for data scientists and have been thriving in recent years."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the domain electives offered in the data science course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay’s data science course offers 6 domain electives, and you can choose anyone from them to continue upskilling. Electives are –
+BFSI
+Healthcare
+Manufacturing
+Supply chain, E-commerce, & Retail
+Marketing
+HR"
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the cost of the data science course, and are there any installment options?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST"
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer any scholarships, discounts, or financial assistance programs?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers flexible financing options for paying data science course fees in Patna. You can opt for no-cost EMI, installments, or interest-free loans to pay the fee within 12 months. We also occasionally offer a 15%—20% discount for early birds. Yet, a group discount is available for learners who join with one or more friends.
+Group of 2: 5% extra discount
+Group of 3: 8% additional discount
+Group of 4+: Max 10% discount"
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there a refund policy if I need to withdraw from the course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners opting for the data science course at Learnbay are advised to go through its Refund/Cancellation Policy before Refund/Cancellation Policy enrolling. The policy mentions that learners can withdraw their data science fees in Patna."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a capstone project, and how does it work?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A capstone project is a way of evaluating the practical learning and expertise of professionals with real-world cases. A capstone project is developed on a specific topic, subject, or field to assess a learner’s ability to tackle the issues in real time. These projects are generally group projects where learners work on specific tasks under a mentor’s supervision."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are real-time projects included in the course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, this course consists of 10 – 12+ real-time projects to refine the existing skill sets of learners. Based on the expertise and domain elective, a learner is assigned real-time projects to practice with learned data science tools and trends."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I choose my capstone project?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can. After enrolling, learners can choose their desired domain electives and continue upskilling. They can also choose their own capstone project as per their domain electives. Then, they are assigned their project group and mentor to guide them through the learning process."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is the certification internationally recognized?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certifications."
+    }
+  },{
+    "@type": "Question",
+    "name": "What's the eligibility for a job assistance Program in Learnbay Data science training courses in India?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get support for job assistance at Learnbay in India?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a job-readiness program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
+    }
+  },{
+    "@type": "Question",
+    "name": "Will I get job referrals at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
+    }
+  },{
+    "@type": "Question",
+    "name": "Until when do the students get the facility of mentorship?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our mentors will provide data science training to the students until the completion of the course."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can a Learnbay student in India choose to study from their desired mentor?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I get technical support during the course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay is available 24/7 to provide uninterrupted technical assistance. You can call the helpline number to reach the desired service providers to help you with any technical issues (login, sessions, projects, chat, or course materials) with the course training platform or Learnbay application."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there a discussion forum or community for students?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners will get access to a customized ‘Learnbay App’ where batch-wise students are added along with their mentors. They can directly reach out to their mentors to resolve queries (related to coursework, projects, & placement) in case of need and discuss doubts with peers."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I miss a class or must catch up on a topic?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers live-instructor-led training sessions that are also recorded for future use. If you miss a class, you can access pre-recorded sessions to go through what you have learned. If you wish to catch up on a topic or clarify doubts, our mentors are available 24/7 on call/chat. Apart from this, you can request batch/timing changes if you find it difficult to manage your class timings and miss them."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I contact your support team for non-technical issues?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay is available 24/7 to support its learners. For non-technical issues, you can contact our team or learning consultant directly at +91 7795687988 and get your queries resolved shortly."
+    }
+  }]
+}
+  }`,
           }}
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
