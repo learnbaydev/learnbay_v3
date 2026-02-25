@@ -1914,7 +1914,15 @@ const CitiesRight = ({
           </a>
           
         </div> */}
-        <div onClick={popupShow}>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            padding: '10px',
+          }}
+          onClick={popupShow}
+        >
           <Button className={styles.btn} text="View Detailed Syllabus" />
         </div>
       </div>
