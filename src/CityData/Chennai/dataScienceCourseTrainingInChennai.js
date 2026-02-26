@@ -523,7 +523,7 @@ export const DataScienceChennaiCourseData = [
           {
             id: 4,
             ques: 'What’s the duration of these advanced data science courses in Chennai?',
-            ans: 'The duration of the Data Science Course Training In Chennai is 9-13 months, including weekend and weekday batches.s',
+            ans: 'The duration of the Data Science Course Training In Chennai is 9-13 months, including weekend and weekday batches.',
             open: false,
           },
           {
@@ -793,9 +793,9 @@ export const DataScienceChennaiCourseData = [
       'To learn more about micro-skill certificates, please refer to the respective course syllabus.',
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
-    src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
+    // src22:
+    //   'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     ModuleHead1:
       'Learn the most in-demand skills used by data scientists in Chennai',
     ModuleBot1:

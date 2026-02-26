@@ -476,7 +476,7 @@ export const BAMumbaiCourseData = [
             id: 3,
             ques: 'What’s the duration of the Business Analytics Course in Mumbai?',
             //About Data Science
-            ans: `The duration of the Business Analytics course training in hyderabad is 8-9 months, including weekend and weekday batches.`,
+            ans: `The duration of the business analytics course in Mumbai is 6 months. `,
             open: false,
           },
           {
@@ -518,7 +518,7 @@ export const BAMumbaiCourseData = [
           {
             id: 3,
             ques: 'Why is domain specialization important?',
-            ans: 'After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.',
+            ans: 'After enrolling in the business analytics with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge, which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.',
             open: false,
           },
           {
@@ -715,9 +715,9 @@ export const BAMumbaiCourseData = [
       'The industrial collaboration of IBM backs up the industrial business analytics training that we provide at Learnbay in Mumbai. So on the successful completion of the 5 -month data analytics learning session along with all of the live projects and assignments, you get IBM Business analytics certification. Due to the IBM certification batches to your portfolio, the chances of getting noticed by top recruiters get geared up by 110%. This also makes Learnbay best for the data analytics courses in Mumbai.',
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
 
     ModuleHead1:
       'How do Learnbay business analytics modules ensure a lucrative BI analyst career in Mumbai?',

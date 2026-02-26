@@ -405,23 +405,69 @@ export const BusinessAnalyticsChennaiCourseData = [
       },
 
       {
+        id: 8,
+        sectionName: 'Domain Electives',
+        data: [
+          {
+            id: 0,
+            ques: 'What is domain specialization?',
+            ans: `Here at Learnbay, you get industry-specific full-stack business analytics with Gen AI modules, via which you learn the respective industry’s best practices.`,
+            open: true,
+          },
+          {
+            id: 1,
+            ques: 'What are the available elective domain options?',
+            ans: `HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.`,
+            open: false,
+          },
+          {
+            id: 2,
+            ques: 'Which domain elective is best suited for me?',
+            ans: `It’s always best to choose your domain elective that enriches your current experience. This strategy ensures your career upgradation instead of a fresh start. However, in case you want to switch your domain due to personal or any other reason, it’s always recommended to have personalized counselling from our career experts.`,
+            open: false,
+          },
+          {
+            id: 3,
+            ques: 'Why is domain specialization important?',
+            //About Data Science
+            ans: `After enrolling in the business analytics with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.`,
+            open: false,
+          },
+          {
+            id: 4,
+            ques: 'Can I select multiple domain electives and do I need to pay extra charges?',
+            ans: `You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
+            open: false,
+          },
+          {
+            id: 5,
+            ques: 'What if I don’t have any prior experience in any domain?',
+            ans: 'If you don’t have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.',
+            open: false,
+          },
+          {
+            id: 6,
+            ques: 'Can I change my domain electives later?',
+            ans: 'Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.',
+            open: false,
+          },
+        ],
+      },
+      {
         id: 2,
         sectionName: 'Payments and Scholarships',
         data: [
           {
             id: 0,
             ques: 'What is the total fee for the Business Analytics Program in Chennai?',
-            ans: `The total program fee for the Business Analytics Program is INR  1,20,000/- inclusive of GST.`,
+            ans: `The total program fee for the Business Analytics Program in Chennai is INR 1,20,000/- exclusive of GST.`,
             open: true,
           },
           {
             id: 1,
             ques: 'Can I pay in installments for INR 1,20,000/-?',
-            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR  5,900/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
-            linkText1:
-              ' Please check with our sales team to know more +917795687988 ',
-            link1: 'tel:+917795687988',
-            link: true,
+            ans: 'Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip. ',
+
             open: false,
           },
           {
@@ -481,7 +527,8 @@ export const BusinessAnalyticsChennaiCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion.`,
+            ans: `Upon successful completion of the Business Analytics Course in Chennai, you will receive 3 certifications, two from IBM and one from IIT Patna.
+`,
             open: true,
           },
         ],

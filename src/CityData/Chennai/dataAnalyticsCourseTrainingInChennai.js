@@ -467,13 +467,7 @@ export const DataAnalyticsChennaiCourseData = [
           {
             id: 3,
             ques: 'What’s the duration of the Data Analytics Course in Chennai?',
-            ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-          
-              Classes will be conducted on weekdays and weekend batches.
-              Weekday batch - 4.5 months
-                 Monday to Friday - 2 hours/day
-              Weekend batch - 6 months
-              Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of the data analytics course in Chennai is 6 months`,
             open: false,
           },
           {
@@ -520,7 +514,7 @@ export const DataAnalyticsChennaiCourseData = [
           {
             id: 3,
             ques: 'Why is domain specialization important?',
-            ans: "After enrolling in the data analytics course with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
+            ans: "After enrolling in the data analytics with domain specialisation course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
             open: false,
           },
           {
@@ -552,13 +546,13 @@ export const DataAnalyticsChennaiCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for the Data Analytics Program in Chennai?',
-            ans: `TThe total Program fee for the data analytics program in Chennai is 1,20,000/- exclusive of GST.`,
+            ans: `The total Program fee for the data analytics program in Chennai is 1,20,000/- exclusive of GST.`,
             open: true,
           },
           {
             id: 1,
             ques: 'Can I pay in installments for INR 1,20,000/-?',
-            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 5,244/month up to 5  months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
+            ans: 'Yes, you can pay in instalments using a credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip. ',
             open: false,
           },
           {
@@ -724,11 +718,12 @@ export const DataAnalyticsChennaiCourseData = [
     CertificationHead1: 'IBM Data Analytics Certification in Learnbay',
     CertificationBot1:
       'We have already achieved the IBM collaboration for our data analytics industrial program in Chennai. The course offers IBM Data Analytics Course Completion certification at the end of the training. ',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     CertificationBot2:
       'This IBM data analytics course will certainly strengthen your resume to make you stand out from the crowd and get noticed by the recruiters.  Also, We have collaborated with global tech companies in order to showcase the talents of our data analytics students.',
-    src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+    src22: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleHead1: 'What does the IBM data analytics course in Chennai include? ',
     ModuleBot1:
       'Learnbay is committed to providing the best data analytics course in Chennai.  This Data Analytics course with placement has been designed to meet the ever-changing demands of the industry. This customized data analytics course in Chennai delivers basic to advanced levels of training in data analytics. Additionally, they also offer special classes of coding for non-programmers to excel at programming skills.',
