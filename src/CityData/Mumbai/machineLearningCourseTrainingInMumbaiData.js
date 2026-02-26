@@ -835,7 +835,7 @@ export const MLMumbaiCourseData = [
     CertificationHead1: 'One Course but Multiple ML skill Certification',
     CertificationBot1:
       "Our machine learning training program in Mumbai has an end-to-end collaboration with IBM. The course is powered by six separate IBM certifications. Along with the most featured ‘Advance AI and ML Course Completion Certification’ and ‘Machine Learning project Certification,' you get four more micro ML skill Certificates- all issued by IBM.",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     ModuleHead1:
       'How do Learnbay Machine Learning Course modules become highly industry competent?',
     ModuleBot1:

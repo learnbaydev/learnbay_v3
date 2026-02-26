@@ -426,13 +426,7 @@ export const DAMumbaiCourseData = [
           {
             id: 3,
             ques: 'What’s the duration of the Data Analytics Course in Mumbai?',
-            ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-        
-            Classes will be conducted on weekdays and weekend batches.
-            Weekday batch - 4.5 months
-               Monday to Friday - 2 hours/day
-            Weekend batch - 6 months
-            Saturday & Sunday - 3.5 hours/day`,
+            ans: `TThe duration of the data analytics course in Mumbai is 6 months. `,
             open: false,
           },
           {
@@ -456,7 +450,7 @@ export const DAMumbaiCourseData = [
           {
             id: 0,
             ques: 'What is domain specialization associated with the Learnbay data analytics certification course in Mumbai?',
-            ans: 'We offer industry-specific full-stack data analytics modules, via which you learn the respective industry’s best practices.',
+            ans: 'We offer industry-specific full-stack data analytics with Gen AI modules, via which you learn the respective industry’s best practices.',
             open: true,
           },
           {
@@ -510,7 +504,7 @@ export const DAMumbaiCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for the Data Analytics Program in Mumbai?',
-            ans: `The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.`,
+            ans: `The total Program fee for data analytics program is 1,20,000/- exclusive of GST. `,
             open: true,
           },
           {
