@@ -564,7 +564,7 @@ export const MachineLearningChennaiCourseData = [
           {
             id: 4,
             ques: 'What’s the duration of this GenAI infused machine learning training course in Chennai?',
-            ans: 'The duration of this machine learning course in Mumbai is 13 months',
+            ans: 'The duration of this machine learning course in Mumbai is 13 months.',
             open: false,
           },
           {

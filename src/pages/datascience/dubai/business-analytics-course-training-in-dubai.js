@@ -429,6 +429,7 @@ export default function Home() {
           firstHeading="Business Analytics Course Training in Dubai"
           firstTopPara="Industrial program for working professionals"
           cityParaCont="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future."
+          iitptnaandms={true}
         />
         <SecondSection SecondSectionData={BADubaiCourseData[0].secondSection} />
         <Testimonial

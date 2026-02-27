@@ -559,7 +559,7 @@ export const DADubaiCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for the Data Analytics Program in Dubai?',
-            ans: `The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.`,
+            ans: `The total course fee for the data analytics program in Dubai is 1,20,000/- exclusive of GST.`,
             open: true,
           },
           {
@@ -724,9 +724,10 @@ export const DADubaiCourseData = [
     CertificationHead1: 'IBM Data Analytics Certification by Learnbay',
     CertificationBot1:
       "At the end of the data analytics course, students will be issued a course completion certificate directly by IBM. And of course, they must complete all of the modules along with practical assignments, assessments, and projects to be awarded this IBM certificate. Following this, they will be furnished with a job assistance program. We have also partnered with global IT companies in Dubai to promote our data analytics students' skills.",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
-    src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
+    src22: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       'The modules of the data analytics course in Dubai consist of 180+ hours of live classes led by experts. Our instructors cover all the steps, from understanding the problem statement to the final solution. The course covers a variety of data analytics tools, including PowerBI, advanced Excel, MongoDB, Tableau, and Spark analytics.',
     ModuleBot2:

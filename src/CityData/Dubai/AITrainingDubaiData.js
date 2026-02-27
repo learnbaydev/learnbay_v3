@@ -736,13 +736,7 @@ export const AIDubaiCourseData = [
           {
             id: 3,
             ques: 'What is a Flexi Subscription in these advanced artificial intelligence courses in Dubai?',
-            ans: `Those who enroll for AI live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.
-            Flexi Subscription Time-line:
-            Foundational data science and  Artificial Intelligence Training Course- 1 Year
-            Advanced data science and  AI Certification Course- 3 Years
-            Machine learning and AI Certification- 3 Years
-            Data Science and AI Certification Course for Managers and Leaders- 3 Years 
-            Data Science and Artificial Intelligence Training with Placement Assistance - 3-years`,
+            ans: `Once you enroll for the online AI certification course in Dubai with Gen AI, you become eligible for 3 years complimentary flexi subscription. Using this subscription you can change your batches, ask for multiple repeats of your session from different trainers as per your requirement. Also, you can access the recordings of all of the attended live classes for the next 3 years. `,
             open: false,
           },
           {
@@ -772,7 +766,7 @@ export const AIDubaiCourseData = [
           {
             id: 0,
             ques: 'What is domain specialization in the professional AI certification courses provided by Learnbay in Dubai?',
-            ans: 'We offer industry specific domain-specialised modules to target most of the working professionals. Such domain specialization helps experience professionals to switch to the trending AI domain successfully, No need to restart from zero. Currently we have domain specializations of Data Science & GenAI for BFSI, Data Science & GenAI for Retail, Data Science & GenAI for Manufacturing, Data Science & GenAI for Healthcare, Data Science & GenAI for SDE, Data Science & GenAI for Managers, Data Science & GenAI for Supply Chain. ',
+            ans: 'We offer industry specific domain-specialised modules to target most of the working professionals. Such domain specialization helps experienced professionals to switch to the trending AI domain successfully, No need to restart from zero. Currently we have domain specializations of Data Science & GenAI for BFSI, Data Science & GenAI for Retail, Data Science & GenAI for Manufacturing, Data Science & GenAI for Healthcare, Data Science & GenAI for SDE, Data Science & GenAI for Managers, Data Science & GenAI for Supply Chain. ',
             open: true,
           },
           {
@@ -800,13 +794,7 @@ export const AIDubaiCourseData = [
           {
             id: 4,
             ques: 'Can I select multiple domain electives and do I need to pay extra charges in any of the eligible AI certification courses?',
-            ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
-            Advance Data Science and AI Certification course- Maximum 2 domains. 
-            Data Science and AI Certification Course for Managers and Leaders- All domains 
-            Data Science and Artificial Intelligence Training with Placement Assistance- All domains
-            Machine learning and AI Certification- maximum 4 domains
-             
-            No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
+            ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
             open: false,
           },
           {
@@ -873,27 +861,13 @@ export const AIDubaiCourseData = [
             id: 0,
             ques: 'How many capstone projects will be there? ',
             //Check This Question
-            ans: `Depending on the course you choose the number of capstone projects will vary.  
-            Foundational Artificial Intelligence Training Course - 1 Capstone.
-            Advance Data Science and AI Certification course  -2 Capstones.
-            Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-            Data Science and Artificial Intelligence Training with Placement Assistance- 3 Capstones.
-            Machine learning and AI Certification- 2 Capstones.`,
+            ans: `Depending on the course you choose the number of capstone projects will vary. On average, you get a total 2 domain elective capstone projects. Also we have the Bring Your Own Business Problem (BYOP) feature. More over we have AI Co-lab access for real start up and enterprise grade projects. `,
             open: true,
           },
           {
             id: 1,
             ques: ' How many real-time projects/case studies will be covered in these artificial intelligence certification courses in Dubai?',
-            ans: `Depending on the course you choose the number of live projects will vary.  
-            Foundational Data Science and Artificial Intelligence Training Course- 8 projects.
-            Advance Data Science and AI Certification course-12 projects.
-            Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-            Data Science and Artificial Intelligence Training with Placement Assistance- 15 projects.
-            Machine learning and AI Certification- 15 projects.`,
-            linkText1: ' Click here to download the list of the projects.',
-            link1:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf',
-            link: true,
+            ans: `The AI course in Dubai offers 60+ hands-on projects from different industries and Gen AI infused problem solving experiences. `,
             open: false,
           },
           {
@@ -932,18 +906,18 @@ export const AIDubaiCourseData = [
           },
           {
             id: 1,
-            ques: 'How long will I get support for job assistance at Learnbay in Dubai?',
-            ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.
-            What is a job-readiness program?
-            The Job readiness program helps you prepare for interviews which include:
-            Resume preparation sessions, 
-            Preparing projects for a strong portfolio, 
-            Interview guidance and prep sessions, 
-            1:1 Mock interviews based on targeted companies and roles.`,
+            ques: 'What is a job-readiness program?',
+            ans: `The Job readiness program helps you prepare for interviews which include: ATS- friendly resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles.`,
             open: false,
           },
           {
             id: 2,
+            ques: 'How long will I get support for job assistance at Learnbay in Dubai?',
+            ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 3 year. `,
+            open: false,
+          },
+          {
+            id: 3,
             ques: 'Will I get job referrals at Learnbay?',
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.`,
             open: false,
@@ -1002,11 +976,11 @@ export const AIDubaiCourseData = [
       'Additionally, you can even get a placement assistance in specific artificial intelligence certification programs.',
     ProgramBot5:
       'Available Artificial Intelligence Certification Courses by Learnbay in Dubai:',
-    Courselink1: '/data-science-certification-courses',
-    Courselink2: '/advance-data-science-certification-courses',
-    Courselink3: '/artificial-intelligence-certification-course',
-    Courselink4: '/data-science-ai-for-managers',
-    Courselink5: '/data-science-ai-masters-program',
+    Courselink1: '/Advanced Data Science & GenAI Master Certification Program',
+    Courselink2: '/GenAI & Agentic AI Master Program',
+    Courselink3: '/Applied AI Practitioner Program | IIT Patna',
+    Courselink4: '/AI-Powered Cloud And DevOps Engineering Course',
+    Courselink5: '/AI Engineering Master Certification Program',
     Course1:
       'Data Science and AI Foundation Program with industry-specific training',
     Course2: 'Advanced Data Science and AI Program with domain specialization',
@@ -1038,10 +1012,11 @@ export const AIDubaiCourseData = [
       'The artificial intelligence course in Dubai provides students with a course completion IBM certificate. Apart from that, as you proceed through the modules, you will be issued extra IBM certificates for completing multiple Micro AI skills such as ML with Python, Deep Learning fundamentals, and so forth. Lastly, once you complete the capstone project, you will get an IBM project experience certification.',
     CertificationBot2:
       'As per your selected course, you will get around 1 to 8  certificates - all issued by IBM. This credential on your CV will make you a leap ahead of other applicants.',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       "Learnbay strives to provide the best Artificial Intelligence training possible for all AI enthusiasts in Dubai. Learnbay's artificial intelligence course comprises 400+ hours of interactive classes led by PRODUCT Based Companies experts. On the other hand, The foundational and advanced data science and AI also consists of 200+ hours of sessions. Each of our modules is completely focused on the chosen fields. The IBM artificial intelligence course covers the most popular AI and ML tools and concepts as well as advanced probability and Numpy, Deep Learning, and MongoDB.",

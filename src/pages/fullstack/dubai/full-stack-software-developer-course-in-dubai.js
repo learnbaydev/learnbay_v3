@@ -490,6 +490,7 @@ Automation with Agentic AI, GenAI & Agentic AI for Product Managers"
           firstTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
           firstToparaImg=" To Achieve Your Dream Job"
           idss="YWxTtvb3x-U"
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={FullStackDubaiCourseData[0].secondSection}

@@ -436,6 +436,7 @@ export default function Home() {
           firstHeading="Data Analytics Course"
           firstTopPara="Industry-ready Data analytics program"
           cityParaCont="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
+          iitptnaandms={true}
         />
         <SecondSection SecondSectionData={DADubaiCourseData[0].secondSection} />
         <Testimonial
@@ -541,6 +542,7 @@ export default function Home() {
               CertificationBot1={DADubaiCourseData[0].CertificationBot1}
               src={DADubaiCourseData[0].src}
               src22={DADubaiCourseData[0].src22}
+              src33={DADubaiCourseData[0].src33}
               ModuleBot1={DADubaiCourseData[0].ModuleBot1}
               ModuleBot2={DADubaiCourseData[0].ModuleBot2}
               ModuleBot3={DADubaiCourseData[0].ModuleBot3}

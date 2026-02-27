@@ -469,6 +469,7 @@ export default function Home() {
           firstHeading="Artificial Intelligence (AI) Course Training in Dubai"
           firstTopPara="Job-oriented Data Science Training for working professionals"
           cityParaCont=" Become a successful data science manager/leader within 11 to 13  months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects."
+          ibmandms={true}
         />
         <SecondSection SecondSectionData={AIDubaiCourseData[0].secondSection} />
         <Testimonial
@@ -564,6 +565,7 @@ export default function Home() {
               src={AIDubaiCourseData[0].src}
               src22={AIDubaiCourseData[0].src22}
               src33={AIDubaiCourseData[0].src33}
+              src44={AIDubaiCourseData[0].src44}
               ModuleBot1={AIDubaiCourseData[0].ModuleBot1}
               ModuleBot2={AIDubaiCourseData[0].ModuleBot2}
               ModuleBot3={AIDubaiCourseData[0].ModuleBot3}

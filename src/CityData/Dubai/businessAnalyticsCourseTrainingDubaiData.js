@@ -476,7 +476,7 @@ export const BADubaiCourseData = [
             id: 3,
             ques: 'What’s the duration of the Business Analytics Course in Dubai?',
             //About Data Science
-            ans: `The duration of the Business Analytics course training in hyderabad is 8-9 months, including weekend and weekday batches.`,
+            ans: `The duration of the business analytics course in Dubai is 6 months.`,
             open: false,
           },
           {
@@ -518,7 +518,7 @@ export const BADubaiCourseData = [
           {
             id: 3,
             ques: 'Why is domain specialization important?',
-            ans: 'After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.',
+            ans: 'After enrolling in the Business Analytics  Course with Gen AI in Dubai,  one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.',
             open: false,
           },
           {
@@ -548,17 +548,13 @@ export const BADubaiCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for the Business Analytics Program in Dubai?',
-            ans: `The total program fee for the Business Analytics Program is INR  1,20,000/- inclusive of GST.`,
+            ans: `The total program fee for the Business Analytics Program is INR  1,20,000/- exclusive of GST.`,
             open: true,
           },
           {
             id: 1,
             ques: 'Can I pay in installments for INR 1,20,000/-?',
-            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
-            linkText1:
-              'Please check with our sales team to know more +917795687988 ',
-            link1: 'tel:+917795687988',
-            link: true,
+            ans: `Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip.`,
             open: false,
           },
           {
@@ -617,7 +613,7 @@ export const BADubaiCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion.`,
+            ans: `Upon successful completion of the Business Analytics Course in Dubai, you will receive 3 certifications, including two from IBM and one from IIT Patna.`,
             open: true,
           },
         ],
@@ -699,7 +695,7 @@ export const BADubaiCourseData = [
     ProgramHead1:
       'What is the Business Analytics training Program co-powered by IBM?',
     ProgramBot1:
-      'With the aim of providing real-world business-oriented training to aspirants, Learnbay institute has launched a business analytics course in Dubai. The course is designed to expose the students to a range of different business analytics concepts and develop hands-on skills related to various aspects of the business. This 5 months  IBM business analytics course is intended for professionals and individuals who want to gain a solid understanding of how to use information and statistics to make better business decisions.',
+      'With the aim of providing real-world business-oriented training to aspirants, Learnbay institute has launched a business analytics course in Dubai. The course is designed to expose the students to a range of different business analytics concepts and develop hands-on skills related to various aspects of the business. This 5 to 6 months  IBM business analytics course is intended for professionals and individuals who want to gain a solid understanding of how to use information and statistics to make better business decisions.',
     ProgramHead3:
       'What are the benefits of the business analytics course in Dubai?',
     ProgramBot3:
@@ -712,11 +708,10 @@ export const BADubaiCourseData = [
       'On successful completion of our 5-months business analytics course training, along with assessments and projects, you will receive IBM Certificates. To pass the certification process, you must complete all the assignments, case studies, and projects within due dates.',
     CertificationBot2:
       'As a result of your IBM accreditation, Employers will notice your credentials and consider you for several opportunities in Dubai firms.',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       'The business Analytics course in Dubai provides a career-focused and practical approach to the subject that covers a wide range of industry topics, including data science, business intelligence, Data mining, Data warehouse, Python, and communications.',
     ModuleBot2:
