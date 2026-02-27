@@ -1685,7 +1685,7 @@ const CitiesRight = ({
               provided keeping in mind your domain and industry requirements.
             </p>
             <p>
-              Research in 2022 found that quintillions of data are produced
+              Recent research found that quintillions of data are produced
               yearly, and Data Science comes to the rescue when managing huge
               amounts of data. No matter which sector, every company produces
               vast amounts of data daily, which is difficult to manage without

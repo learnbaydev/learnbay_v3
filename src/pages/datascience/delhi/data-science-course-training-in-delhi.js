@@ -475,6 +475,7 @@ export default function Home() {
           firstHeading="Data Science Course in Delhi"
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Enhance your Data Science career with our comprehensive Data Science course in Delhi with IBM Certification. Our advanced Data Science training in Delhi will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
+          ibmOnly={true}
         />
         <SecondSection SecondSectionData={DSDelhiCourseData[0].secondSection} />
         <Testimonial

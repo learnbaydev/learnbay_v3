@@ -511,7 +511,7 @@ export const DSDelhiCourseData = [
           {
             id: 0,
             ques: 'What are Data Science Training courses available at Learnbay in Delhi?',
-            ans: 'Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance',
+            ans: 'Gen AI and Data Science Training Course, Advanced GenAI Master Data Science Certification Course, Gen Ai and Data Science Certification Course for Managers and Leaders. All Data Science Training with Placement Assistance.',
             open: true,
           },
           {
@@ -546,7 +546,7 @@ export const DSDelhiCourseData = [
           {
             id: 4,
             ques: 'What’s the duration of these advanced data science courses in Delhi?',
-            ans: 'The duration of the Data Science Course Training In Chennai is 9-13 months, including weekend and weekday batches.',
+            ans: 'The data science course duration varies from course to course. Usually basic to master course varies between 9 months and 13 months. ',
             open: false,
           },
           {
@@ -627,13 +627,13 @@ export const DSDelhiCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for Data Science Certifications courses in Delhi?',
-            ans: ` The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST.`,
+            ans: `The total course fee for the Data Science and Gen AI Training course is 1,20,000/- exclusive of GST. Advance Data Science and Gen AI Certification course is 1,20,000/- exclusive of GST. `,
             open: true,
           },
           {
             id: 1,
             ques: 'Can I pay in installments for these Data Science Certification courses in Delhi?',
-            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
+            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
             open: false,
           },
           {
@@ -701,7 +701,8 @@ export const DSDelhiCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited data science certification after course completion?',
-            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification.`,
+            ans: `Yes, you will receive two professional certificates in data science, one is for Data science and Gen AI course completion and the second one for the project work. 
+`,
             open: true,
           },
         ],
@@ -810,9 +811,9 @@ export const DSDelhiCourseData = [
       'For more details about the certification, you can read our syllabus',
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       "Throughout your Data scientist career in Delhi, the two most important programming languages will be Python and R. The most important module, however, will be 'STATISTICS.' Aside from that, you must master modules such as 'MACHINE LEARNING,' 'TIME SERIES,' 'POWER-BI,' 'ADVANCE EXCEL,' 'TABLEAU,' 'BIG DATA,' 'MONGO DB,' 'SPARK ANALYTICS,' and 'SQL' to acquire the industrial competency.'",
     ModuleBot2:
