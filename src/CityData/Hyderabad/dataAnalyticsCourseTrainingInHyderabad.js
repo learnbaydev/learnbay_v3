@@ -485,7 +485,7 @@ export const DataAnalyticsHyderabadCourseData = [
           {
             id: 3,
             ques: 'What’s the duration of the Data Analytics Course in Hyderabad?',
-            ans: `The duration of the Data Analytics course training in Pune is 8-9 months, including weekend and weekday batches.`,
+            ans: `The duration of the Data Analytics Course Training in Hyderabad is around 6 months, including weekend and weekday batches. `,
             open: false,
           },
           {
@@ -568,9 +568,6 @@ export const DataAnalyticsHyderabadCourseData = [
             id: 1,
             ques: 'Can I pay in installments for INR 1,20,000/-?',
             ans: 'Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip.',
-            linkText1:
-              'Please check with our sales team to know more +917795687988 ',
-            link1: 'tel:+917795687988',
             link: true,
 
             open: false,
@@ -634,7 +631,7 @@ export const DataAnalyticsHyderabadCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded iit Patna and Gen AI certification on successful course completion. `,
+            ans: `Yes, you will be awarded IIT Patna and Gen AI certification on successful course completion. `,
             open: true,
           },
         ],
@@ -720,9 +717,11 @@ export const DataAnalyticsHyderabadCourseData = [
       'In Hyderabad, we already have IBM on board with our data analytics industrial initiative. After the course, students will receive an IBM Data Analytics Course Completion certificate.',
     CertificationBot2:
       "Learnbay IBM Data analytics training will certainly boost your resume, allowing you to stand out from the pack and attract recruiters' attention.",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
-    src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
+    src22: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src44:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       "Learnbay is dedicated to providing the most comprehensive data analytics training in Hyderabad. This Data Analytics Program with placement is tailored to satisfy the industry's ever-changing objectives. Our customized data analytics course in Hyderabad provides basic to advanced data analytics training. We also provide special coding classes for non-programmers who want to strengthen their programming skills.",
     ModuleBot2:

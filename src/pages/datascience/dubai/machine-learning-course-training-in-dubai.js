@@ -453,6 +453,7 @@ export default function Home() {
           firstHeading="Machine Learning (ML) Course Training in Dubai"
           firstTopPara="Job-oriented Data Science Training for working professionals"
           cityParaCont=" Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+          ibmandms={true}
         />
         <SecondSection SecondSectionData={MLDubaiCourseData[0].secondSection} />
         <Testimonial
@@ -544,8 +545,9 @@ export default function Home() {
               Domainlink10={MLDubaiCourseData[0].Domainlink10}
               CertificationBot1={MLDubaiCourseData[0].CertificationBot1}
               src={MLDubaiCourseData[0].src}
-              // src22={MLDubaiCourseData[0].src22}
-              // src33={MLDubaiCourseData[0].src33}
+              src22={MLDubaiCourseData[0].src22}
+              src33={MLDubaiCourseData[0].src33}
+              src44={MLDubaiCourseData[0].src44}
               ModuleBot1={MLDubaiCourseData[0].ModuleBot1}
               ModuleBot2={MLDubaiCourseData[0].ModuleBot2}
               syllabush1={MLDubaiCourseData[0].syllabush1}

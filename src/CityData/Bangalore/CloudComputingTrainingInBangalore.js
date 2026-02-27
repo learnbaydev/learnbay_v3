@@ -126,7 +126,6 @@ export const CloudComputingTrainingInBangalore = [
             id: 1,
             ques: 'Are there any installment options available for program payments?',
             ans: 'Yes, we have an easy installment payment facility with zero cost EMI. You can make payments through Credit card, UPI, or Internet banking.',
-            //Check This
             open: false,
           },
           {
@@ -465,10 +464,10 @@ export const CloudComputingTrainingInBangalore = [
       </span>
     ),
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleHead1: 'Learning Outcomes',
     ModuleBot1:
       'Bangalore’s tech changeovers alter job market dynamics for every expert. The growing preference for seamless data storage options brings cloud computing into the spotlight. Thus, updating suitable skills via cutting-edge training programs is useful.',

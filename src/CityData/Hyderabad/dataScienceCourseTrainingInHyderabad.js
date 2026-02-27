@@ -514,15 +514,7 @@ export const DataScienceHyderabadCourseData = [
           {
             id: 0,
             ques: 'What are Data Science Training courses available at Learnbay in Hyderabad?',
-            linkText1: 'Foundational Data Science Training Course, ',
-            linkText2: 'Advance Data Science Certification Course, ',
-            linkText3:
-              'Data Science Certification Course for Managers and Leaders, ',
-            linkText4: 'Data Science Training with Placement Assistance',
-            link1: '/data-science-certification-courses',
-            link2: '/advance-data-science-certification-courses',
-            link3: '/data-science-ai-for-managers',
-            link4: '/data-science-ai-masters-program',
+            ans: 'Data Science and GenAI Certification Program, Advance Data Science and GenAI Master program, GenAI and Agentic AI Program for Managers and Leaders are available in Hyderabad. ',
             link: true,
             open: true,
           },
@@ -548,7 +540,7 @@ export const DataScienceHyderabadCourseData = [
           {
             id: 4,
             ques: 'What’s the duration of these advanced data science courses in Hyderabad?',
-            ans: 'The duration of the Data Science Course Training In Chennai is 9-13 months, including weekend and weekday batches.',
+            ans: 'The duration of the data science and Gen AI course is 9-13 months. Classes will be conducted on weekdays and weekend batches. In the case of a non-master program, around 9 months is the timeline, while the master program is of around 13 months.',
             open: false,
           },
           {
@@ -631,7 +623,7 @@ export const DataScienceHyderabadCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for Data Science Certifications courses in Hyderabad?',
-            ans: ` The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST.`,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST. `,
             open: true,
           },
           //check this same <Please check with our sales team to know more>
@@ -709,7 +701,8 @@ export const DataScienceHyderabadCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited data science certification after course completion?',
-            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification.`,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master's Programs, there will also be additional IBM certification.
+`,
             open: true,
           },
         ],
@@ -833,9 +826,9 @@ export const DataScienceHyderabadCourseData = [
     Certificationlist3: 'One IBM project certificate',
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       'Data science learning has become a proven growth metric for experts keen to join leading data-driven firms. Yet, joining a typical data science training institute in Hyderabad can demean your growth motive. Hence, Learnbay presents a structured training program with data-enriched modules. ',
     ModuleBot2:
@@ -868,7 +861,7 @@ export const DataScienceHyderabadCourseData = [
       'Hyderabad’s job market outlook reflects a constantly changing space for working experts to acquire proven skills and grow. Its established tech space accepts skilled experts with the talent to face data-driven intricacies. Hence, experts prefer learning despite costly data science course fees in Hyderabad. Yet, joining a course with 100% job support is worth investing in for experts with stagnant salaries and positions. ',
     JobBot2:
       'Learnbay is the best data science institute in Hyderabad with career-driven offerings. Its approach toward hassle-free career-building equips learners with mastery to handle tough cases and become the right fit for a firm. Experts from diverse fields can build front-age skills and justify innate demands. Our career support services enrich your worth to land lucrative roles. ',
-    JobHead2: 'Career Services PRO',
+    JobHead2: 'Career Services Assistance',
     JobBot3:
       'Learnbay presents leading-edge career support services, helping experts stay ahead of the race. Our inclusively curated career support program helps you to gain proven mastery to build job-ready skills and crack critical interviews. Our career-rich data science training in Hyderabad lends eternal support to land the best job roles. ',
     JobBot4:

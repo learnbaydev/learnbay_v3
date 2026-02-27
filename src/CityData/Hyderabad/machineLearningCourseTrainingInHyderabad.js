@@ -546,13 +546,7 @@ export const MachineLearningHyderabadCourseData = [
           {
             id: 3,
             ques: 'What’s the duration of this  Machine Learning course in Hyderabad?',
-            ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
-
-    Classes will be conducted on weekdays and weekend batches.
-    Weekday batch - 9.5 months
-       Monday to Friday - 2 hours/day
-    Weekend batch -11 months
-    Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of the machine learning course in Hyderabad is 13 months. However, it might vary based on the weekend or weekday batch you choose. `,
             open: false,
           },
           {
@@ -638,7 +632,7 @@ export const MachineLearningHyderabadCourseData = [
           {
             id: 1,
             ques: 'Can I pay in installments for 1,59,000/-?',
-            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
+            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
             open: false,
           },
           {
@@ -703,7 +697,7 @@ export const MachineLearningHyderabadCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after this machine learning course completion in Hyderabad?',
-            ans: `Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.`,
+            ans: `Yes, you will be awarded gen AI and microsoft certification on successful course completion of the Artificial Intelligence and AI Course.`,
             open: true,
           },
           {
@@ -851,11 +845,10 @@ export const MachineLearningHyderabadCourseData = [
       'Students receive 6 IBM certificates by completing Machine Learning course training in Hyderabad.',
     CertificationBot2:
       'You will receive different machine learning competence certificates from IBM upon completion of the course for technologies and skills such as Deep Learning, Tensorflow, machine learning with Python, capstone project certifications, etc. But completing two new capstone projects helps you to earn the IBM ML project experience certification, the most notable achievement to be looked for in your resume and portfolio.',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Azure+AI+Fundamentals.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     ModuleBot1:
       "Learnbay's Machine Learning course in Hyderabad includes 300 hours of hassle-free live classes with PRODUCT Based Companies experts. Students can quickly gain advanced industry expertise with the help of 18+ well-planned machine learning modules. Not only that, but each of the modules has a succession of submodules ranging from basic to advanced, allowing everyone, even a total novice of ML, to benefit from the course.",
     ModuleBot2:

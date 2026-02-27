@@ -595,6 +595,7 @@ export default function Home() {
               src={DataScienceCourseData[0].src}
               src22={DataScienceCourseData[0].src22}
               src33={DataScienceCourseData[0].src33}
+              src44={DataScienceCourseData[0].src44}
               ModuleBot1={DataScienceCourseData[0].ModuleBot1}
               ModuleBot2={DataScienceCourseData[0].ModuleBot2}
               syllabush1={DataScienceCourseData[0].syllabush1}

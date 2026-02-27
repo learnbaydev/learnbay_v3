@@ -869,8 +869,9 @@ Two AI Co-Lab Project Certificates
     CertificationBot2:
       "By partnering with IBM and a series of MNCs as well as startups, Learnbay has attained a significant milestone. Having this IBM certification on your resume will surely help you land a high-paying artificial intelligence job at one of the world's renowned corporations. Over 10,000 students have finished our Artificial Intelligence course, allowing them to pursue rewarding AI and machine learning professions across Hyderabad.",
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:

@@ -495,6 +495,7 @@ export default function Home() {
           firstToparaImg="Training In Pune"
           firstTopPara="Industry-Curated & IBM Certified Professionals ML Training"
           cityParaCont=" Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+          ibmandms={true}
         />
         <SecondSection SecondSectionData={MLPuneCourseData[0].secondSection} />
         <Testimonial

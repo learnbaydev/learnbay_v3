@@ -531,13 +531,13 @@ export const DSDubaiCourseData = [
           {
             id: 3,
             ques: 'What is a Flexi Subscription in these advanced data science courses in Dubai?',
-            ans: 'Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.',
+            ans: 'If you enrol for data science course training in Dubai with Gen AI or the Advance Data science and Gen AI Course in Dubai, you get 3 years of flexi subscriptions. This is without any additional cost. ',
             open: false,
           },
           {
             id: 4,
             ques: 'What’s the duration of these advanced data science courses in Dubai?',
-            ans: 'The duration of the Data Science Course Training In Chennai is 9-13 months, including weekend and weekday batches.',
+            ans: 'The duration of the Data Science Course in Dubai is 9-13 months, including weekend and weekday batches.',
             open: false,
           },
           {
@@ -548,7 +548,7 @@ export const DSDubaiCourseData = [
           },
           {
             id: 6,
-            ques: 'How can I opt for a Hybrid mode of learning in IBM data science training courses in Dubai, At Learnbay? ',
+            ques: 'How can I opt for a Hybrid mode of learning in IBM data science training courses in Dubai, at Learnbay? ',
             ans: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ',
             open: false,
           },
@@ -619,7 +619,7 @@ export const DSDubaiCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for Data Science Certifications courses in Dubai?',
-            ans: ` The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST.`,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST.`,
             open: true,
           },
           {
@@ -824,9 +824,9 @@ export const DSDubaiCourseData = [
       'In addition, you will receive an IBM project certificate upon completion of capstone projects which you can add to your portfolio. It assists in grabbing genuine and interesting job roles. To learn more about micro-skills certificates, refer to the respective course syllabus.',
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleHead1: 'Coding classes:',
     ModuleBot1:
       'Learnbay supports learners from all backgrounds. For this reason, we have integrated module 0 of programming classes in all of our data science courses in Dubai.',

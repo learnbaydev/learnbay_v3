@@ -500,7 +500,8 @@ export default function Home() {
           firstToparaImg="For Professionals"
           firstHeading="Data Analytics Course Training in Pune"
           firstTopPara="Industrial Training Program for Early-professionals"
-          cityParaCont="Gain inarguable eminence to sustain in today’s digital world via Learnbay’s data analytics course in Pune. Join our practical, accessible, and Generative AI-rich courses to build a globally recognized career. Our industry alliance with IBM (course & project certifications) and 450+ MNCs ensures an invincible career path.           "
+          cityParaCont="Gain inarguable eminence to sustain in today’s digital world via Learnbay’s data analytics course in Pune. Join our practical, accessible, and Generative AI-rich courses to build a globally recognized career. Our industry alliance with IBM (course & project certifications) and 450+ MNCs ensures an invincible career path.      "
+          iitptnaandms={true}
         />
         <SecondSection SecondSectionData={DAPuneCourseData[0].secondSection} />
         <Testimonial

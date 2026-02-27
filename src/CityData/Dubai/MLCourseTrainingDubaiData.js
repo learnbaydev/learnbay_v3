@@ -826,7 +826,12 @@ export const MLDubaiCourseData = [
     CertificationHead1: 'Multiple IBM Certifications',
     CertificationBot1:
       'The machine learning course in Dubai has an end-to-end collaboration with IBM. This machine learning course provides a total of 6 certificates for completing multiple ML skills, issued directly by IBM. Along with the machine learning course completion certificate and project certificate, you will get four additional certificates for different ML skills.',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Advanced-AI-ML.jpeg',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
+    src22:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
       'The machine learning course in Dubai comprises 15+ modules that cover all the latest ML tools and techniques. The modules are planned progressively from basic to advanced so that even a newbie can start learning with more efficacy. ',
     ModuleBot2:

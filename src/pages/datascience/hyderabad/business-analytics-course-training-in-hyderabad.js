@@ -384,6 +384,7 @@ export default function Home() {
           firstToparaImg="For Non-tech Professionals"
           firstTopPara="IBM Certified Business Analytics Course for Early Professionals"
           idss="CHut_wm-P2s"
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={

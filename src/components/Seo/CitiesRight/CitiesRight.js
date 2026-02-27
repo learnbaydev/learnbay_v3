@@ -1061,7 +1061,7 @@ const CitiesRight = ({
             <h3 className={styles.pHead}>
               Cutting-edge Training Sessions by Eminent Industry Experts{' '}
             </h3>
-            <b>Module 1- Basics and Advanced Python</b>
+            {/* <b>Module 1- Basics and Advanced Python</b> */}
 
             <p>
               Learnbay’s leading-edge training sessions are famous among working
@@ -6887,7 +6887,7 @@ const CitiesRight = ({
               {listsCertificate ? (
                 <ul className={styles.pp}>
                   <li>{Certificationlist1}</li>
-                  <li>{Certificationlist2}</li>
+                  {/* <li>{Certificationlist2}</li> */}
                   <li>{Certificationlist3}</li>
                 </ul>
               ) : null}

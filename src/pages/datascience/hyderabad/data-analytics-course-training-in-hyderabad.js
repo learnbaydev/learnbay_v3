@@ -532,6 +532,8 @@ export default function Home() {
               }
               src={DataAnalyticsHyderabadCourseData[0].src}
               src22={DataAnalyticsHyderabadCourseData[0].src22}
+              src33={DataAnalyticsHyderabadCourseData[0].src33}
+              src44={DataAnalyticsHyderabadCourseData[0].src44}
               ModuleHead1={DataAnalyticsHyderabadCourseData[0].ModuleHead1}
               ModuleBot1={DataAnalyticsHyderabadCourseData[0].ModuleBot1}
               ModuleBot2={DataAnalyticsHyderabadCourseData[0].ModuleBot2}

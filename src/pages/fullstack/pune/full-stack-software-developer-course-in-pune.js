@@ -259,7 +259,128 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{ 
-              "@context": "https://schema.org",
+               "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Learnbay - Data science and Generative AI courses training in Pune",
+  "description": "Join the best Full-stack Software Developer course in Pune and acquire the skills needed to excel in this field. Sign-up Now.",
+  "url": "https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "office no. 408, 4th floor, City Space, opposite to Fiserv, Viman Nagar",
+    "addressLocality": "Pune",
+    "addressRegion": "Maharashtra",
+    "postalCode": "411014",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.562830973846324,
+    "longitude": 73.92150074243546
+  },
+  "telephone": "(+91) 77956 87988",
+  "email": "contacts@learnbay.co",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "20:00"
+    }
+  ],
+  "priceRange": "₹ 1,59,000 + 18% GST",
+  "areaServed": "Pune",
+  "paymentAccepted": "Cash, Credit Card, Debit Card, EMI",
+  "sameAs": [
+    "https://www.facebook.com/learnbay/",
+    "https://twitter.com/Learnbay",
+    "https://www.instagram.com/learnbayofficial/",
+    "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
+    "https://www.linkedin.com/company/learnbay/"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Best Full Stack Developer Course in Pune with Job Assistance",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "1283"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Best Full Stack Developer Course in Pune with Job Assistance",
+  "description": "Join the best Full-stack Software Developer course in Pune and acquire the skills needed to excel in this field. Sign-up Now.",
+  "url": "https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "sameAs": "https://www.learnbay.co/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "159000",
+    "priceCurrency": "INR",
+    "category": "Educational"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P11M",
+    "offers": {
+      "@type": "Offer",
+      "price": "159000",
+      "priceCurrency": "INR"
+    }
+  }
+}
+</script>
+
+
+
+
+FAQ Schema:
+Replace the existing FAQ Schema code with the new one.
+
+Rich Result Test:
+https://search.google.com/test/rich-results/result?id=ZKHw-qgJec2jHHHQJ1r1Xg 
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
@@ -371,7 +492,7 @@ export default function Home() {
     "name": "How much is the full-stack software developer course fee in Pune?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The course costs INR 1,59,000 plus 18% GST. Learnbay extends a pocket-friendly career switch with its flexible installment options, with a no-cost EMI for 6, 9, and 12 months."
+      "text": "The total cost of a full-stack software development course in Pune with agentic AI is INR 1,59,000 plus 18% GST."
     }
   },{
     "@type": "Question",
@@ -382,100 +503,140 @@ export default function Home() {
     }
   },{
     "@type": "Question",
-    "name": "Is there any scholarship/discount available for these Data Science training courses available in Pune? What is Group Discount?",
+    "name": "Does the Full stack software development Program include any scholarships or discounts? What are Group Discounts?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
+      "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount: Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2: 8% extra discount: Group of 3: Max 10% discount: Groupe of 4+"
     }
   },{
     "@type": "Question",
-    "name": "What is the refund policy for the Data Science Certification courses at Learnbay?",
+    "name": "Will It be required to pay any additional fees for EMI transactions? Is there a refund or rescheduling policy for this Program?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
-    }
-  },{
-    "@type": "Question",
-    "name": "How many capstone projects will be there?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Depending on the course you choose the number of capstone projects will vary. Foundational Data Science and AI Training Course - 1 Capstone. Advance Data Science and AI Certification Course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and AI Training with Placement Assistance- 3 Capstones. How many real-time projects/case studies will be covered in these Data Science certification courses in Pune? Depending on the course you choose the number of live projects will vary. Foundational Data Science and AI Training course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and AI Training with Placement Assistance- 15 projects."
-    }
-  },{
-    "@type": "Question",
-    "name": "How will the projects be executed in Pune?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
+      "text": "There are no additional fees from Learnbay for any EMI transactions, and it is completely dependent on the banking and finance company norms. Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
     }
   },{
     "@type": "Question",
     "name": "Is there any accredited certification after course completion?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes. Our SDE master’s course offers –
-One IBM Generative AI certification, 
-three Microsoft Azure certifications, 
-two AI Co-Lab certifications."
+      "text": "Yes. Our SDE master’s course offers one IBM Generative AI certification, three Microsoft Azure certifications, and two AI Co-Lab certifications."
     }
   },{
     "@type": "Question",
-    "name": "What's the eligibility for a job assistance Program in Learnbay Data science training courses in Pune?",
+    "name": "What is a job assistance program?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+      "text": "Learnbay's Job assistance program assists you in obtaining job offers from major MNCs. The Program guides you through the resume-building and project portfolio preparation process. Here you get mock interviews with extensive learning support based on targeted companies and roles. All the mock interviews are conducted by highly experienced software developers."
     }
   },{
     "@type": "Question",
-    "name": "How long will I get support for job assistance at Learnbay in Pune?",
+    "name": "Is there any job assistance provided with this full-stack software developer course?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
+      "text": "You should have completed the course with: A minimum score of 70% in assessments. You should have completed the assignments and case studies, Worked, and successfully completed the minimum recommended number of real-time projects."
     }
   },{
     "@type": "Question",
-    "name": "What is a job-readiness program?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "The Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
-    }
-  },{
-    "@type": "Question",
-    "name": "Will I get job referrals at Learnbay?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
-    }
-  },{
-    "@type": "Question",
-    "name": "Until when do the students get the facility of mentorship?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Our mentors will provide data science training to the students until the completion of the course."
-    }
-  },{
-    "@type": "Question",
-    "name": "Can a Learnbay student in Pune choose to study from their desired mentor?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
-    }
-  },{
-    "@type": "Question",
-    "name": "When is the job assistance provided at Learnbay and how long will I get it?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
-    }
-  },{
-    "@type": "Question",
-    "name": "How long will I get Job referrals?",
+    "name": "What is the duration of the job assistance?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
     }
+  },{
+    "@type": "Question",
+    "name": "Can a student change mentors based on specific interests after enrolment?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every batch at Learnbay has a specific mentor, but if a student is unhappy with the way their mentor teaches, they can bring it up with a dedicated contact point, who will address the problem by finding new mentors or by changing the batch."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any option for 1-on-1 learning?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay Provides students with 1-on-1 doubt-clearing sessions. If a person has a specific question and wants to understand certain crucial topics, he or she might certainly benefit from such a session."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long do students get access to mentor support?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our Mentors will provide advanced software development training and career insights/guidance to the students until the completion of the course, depending on the specialization. Post-course- completion also students can reach out to specialized mentors for project and placement purposes."
+    }
+  },{
+    "@type": "Question",
+    "name": "Does Learnbay provide webinars and hackathons in full-stack development courses in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers a full-stack development course that includes webinars and hackathons. Students can enhance their knowledge further by enrolling in webinars and hackathons led by industry experts."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I receive job referrals after completing a full-stack development course in pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In full-stack software development, you’ll be provided with job referrals after the completion of the course for a period of 1 year."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I still apply for a full stack developer course even though I do not hold a Bachelor of Technology or Bachelor of Engineering degree?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A person with basic computation and mathematical knowledge is also eligible to participate in this course; a BE or Btech degree is not essential to be part of a Full stack software developer course. Only you have to own the passion for coding."
+    }
+  },{
+    "@type": "Question",
+    "name": "I have no prior experience with coding; will this full-stack software developer course be beneficial to me?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers specialized sessions for beginners who have no prior expertise with computer programming. So, this is not a concern; only you should have the aptitude to master coding. We will support you from scratch."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the prerequisites for the Full-stack Software Development Program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Nothing but basic coding knowledge is required to start with this course."
+    }
+  },{
+    "@type": "Question",
+    "name": "I am a working professional; will the course interfere with my professional life?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay delivers weekend batches and weekday evening batches with specific time slots for working professionals, allowing them to choose the timings in a manner that does not interfere with their professional lives."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the documents required to enroll in the full-stack developer program in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The admissions procedure is conducted online and personalized to your educational and career background. Only a few academic documents are required for the application procedure."
+    }
+  },{
+    "@type": "Question",
+    "name": "What does a full-stack developer do?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The term Full-Stack developer refers to a person proficient in both the front-end and back-end of software development. They create and keep up-and-running fully-fledged systems with databases or servers."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the average full-stack software developer salary in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The average package of full stack software developers ranges averagely around 6 LPA to 12 LPA depending on the company norms and interview aspects. Based on experience, it can reach up to 30 LPA while switching careers."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is a full-stack developer a software engineer?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The goal of Software engineers and full stack developers are quite the same. Both work with similar client project goals but via different sub-direction. Full stack developers are often in leadership roles. Software engineers, however, may be under the guidance of full-stack developers and can use their expertise to create specific features for projects."
+    }
   }]
 }
+
  }`,
           }}
         />

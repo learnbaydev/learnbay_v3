@@ -439,6 +439,7 @@ export default function Home() {
           firstHeading="Artificial Intelligence(Ai) Course"
           firstToparaImg="Training In Hyderabad"
           firstTopPara="Become an AI Expert in Product-based MNC"
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={AIHyderabadCourseData[0].secondSection}
@@ -540,6 +541,7 @@ export default function Home() {
               src={AIHyderabadCourseData[0].src}
               src22={AIHyderabadCourseData[0].src22}
               src33={AIHyderabadCourseData[0].src33}
+              src44={AIHyderabadCourseData[0].src44}
               alt2={AIHyderabadCourseData[0].alt2}
               alt3={AIHyderabadCourseData[0].alt3}
               alt4={AIHyderabadCourseData[0].alt4}

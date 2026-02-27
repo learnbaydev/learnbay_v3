@@ -477,13 +477,7 @@ export const BABangaloreCourseData = [
             id: 3,
             ques: 'What’s the duration of the Business Analytics Program in Bangalore?',
             //About Data Science
-            ans: `The duration of this Business Analytics Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-        
-            Classes will be conducted on weekdays and weekend batches.
-            Weekday batch - 5 months
-               Monday to Friday - 2 hours/day
-            Weekend batch - 6.5 months
-            Saturday & Sunday - 3.5 hours/day`,
+            ans: `The Duration of the business analytics course in Bangalore, with the Gen AI course, is a total of 6 months. `,
             open: false,
           },
           {
@@ -561,10 +555,7 @@ export const BABangaloreCourseData = [
           {
             id: 1,
             ques: 'Can I pay in installments for INR 1,20,000/-?',
-            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 5,900/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
-            linkText1:
-              'Please check with our sales team to know more +917795687988 ',
-            link1: 'tel:+917795687988',
+            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 12 months. You can also choose an interest-free loan with proper Aadhar and other documents verification. Please check with our sales team to know more. ',
             link: true,
             open: false,
           },
@@ -623,7 +614,7 @@ export const BABangaloreCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion.`,
+            ans: `Yes, you will be awarded IBM and IIT Patna-accredited Business Analytics Certificate on successful course completion. `,
             open: true,
           },
         ],
@@ -713,11 +704,10 @@ export const BABangaloreCourseData = [
       'Learnbay Business Analytics course training is powered by IBM certificates',
     CertificationBot1:
       'Learnbay is a pioneer in training Business analytics at the current industry standard and gives out an IBM certificate on course completion. IBM certificates in your resume would make recruiters shortlist your profile with greater interest. Learnbay has created a milestone by partnering with IBM for Business Analytics training in Bangalore.',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       'Learnbay conducts online and offline classes for Business Analytics course training in Bangalore. The Business Analytics course consists of 200 hrs live and uninterrupted classes from Business Analyst experts. Learnbay has batches even on weekends for professionals to learn Business Analytics. Students learning Business analytics get a one-year subscription for completing training at their own comfort and pace of learning. Our faculties encourage students to take initiative in webinars. Learnbay even conducts webinars so that students have fun while they learn.',
     ModuleBot2:

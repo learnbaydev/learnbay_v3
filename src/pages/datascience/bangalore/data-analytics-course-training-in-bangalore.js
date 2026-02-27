@@ -611,6 +611,7 @@ export default function Home() {
               CertificationBot2={DABangaloreCourseData[0].CertificationBot2}
               src={DABangaloreCourseData[0].src}
               src22={DABangaloreCourseData[0].src22}
+              src33={DABangaloreCourseData[0].src33}
               ModuleHead1={DABangaloreCourseData[0].ModuleHead1}
               ModuleBot1={DABangaloreCourseData[0].ModuleBot1}
               ModuleBot2={DABangaloreCourseData[0].ModuleBot2}

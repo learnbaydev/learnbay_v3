@@ -626,7 +626,7 @@ export const DataSciencecanadaCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for Data Science Certifications courses in Canada?',
-            ans: ` The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST.`,
+            ans: `The total course fees depend on which particular course you choose from the data science and agentic AI categories. Usually, the course price varies from 1,20,000 to 1,59,000 INR, exclusive of GST.`,
             open: true,
           },
           {
@@ -701,7 +701,7 @@ export const DataSciencecanadaCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited data science certification after course completion?',
-            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification, the Gen AI Certification from IBM, and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification.`,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM, the Gen AI Certification from IBM, and the Capstone Project Certification. For some advanced and Master Programs, there will also be additional IBM certifications.`,
             open: true,
           },
         ],
@@ -833,7 +833,7 @@ export const DataSciencecanadaCourseData = [
       'You can earn 1 to 8 certificates depending on your course. To learn more about micro-skills certificates, refer to the respective course syllabus.',
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    // src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     ModuleHead1:

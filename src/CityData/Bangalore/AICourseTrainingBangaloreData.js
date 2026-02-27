@@ -871,14 +871,15 @@ export const DataScienceCourseData = [
     CertificationBot1:
       'Learnbay Provides students with an IBM AI course completion certificate. This IBM-certified program helps you to be at the top of other profiles. The artificial intelligence course completion certificate by IBM ensures you are recognized as a skilled Artificial intelligence professional. Not only that, as you process with the modules, you get micro AI certifications by IBM like machine learning with python, Deep Learning with TensorFlow, and so on. As per your chosen course, you achieve 1 to 8 number micro certificates from IBM. Even once you complete the project, IBM issues a project experience certificate in AI too.',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
-    src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
+    src22:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
       'Learnbay artificial intelligence and ML training in Bangalore include 400 hrs of uninterrupted live classes conducted by MAANG experts. The foundational and advanced program also consists of  200+ sessions. The most impressive information is that all of these classes are completely live and interactive only. Students can attend multiple sessions of classes and instructors. Learnbay Provides 1- 3 years of flexi membership on artificial intelligence training so that students can learn at ease and in comfort from their devices. Students get to talk to mentors and guides with 1-1 live sessions to clear all their doubts. Our LMS is always updated with the latest version of courses and is altered according to the industry demands and standards. Here you get crisp industry-curated training on R, NLP, artificial neural networks, and so on.',
     ModuleBot2:
-      "Learnbay provides special basic coding classes and regular updates of coding assignments. Students can participate in Learnbay's exclusive hackathons and webinars.\n                                                                      Note: This is a draft module. Our modules keep changing as per the trending job market demand. For the latest and updated Syllabus, check the brochure in the detailed Module Section. (link to the module section)",
+      "Learnbay provides special basic coding classes and regular updates of coding assignments. Students can participate in Learnbay's exclusive hackathons and webinars.\n                                                             Note: This is a draft module. Our modules keep changing as per the trending job market demand. For the latest and updated Syllabus, check the brochure in the detailed Module Section. (link to the module section)",
 
     syllabush1: 'INDUCTION + ORIENTATION',
     syllabusb1: '3 Days',

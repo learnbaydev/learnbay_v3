@@ -619,9 +619,7 @@ export const FullStackChennaiCourseData = [
           {
             id: 1,
             ques: 'Is there any Installment / EMI option available for this course in Chennai?',
-            ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹7,538/month up to 18 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
-            linkText1: '@ +917795687988',
-            link1: 'tel:+917795687988',
+            ans: 'Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip.',
             open: false,
           },
           {

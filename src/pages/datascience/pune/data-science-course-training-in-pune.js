@@ -470,6 +470,7 @@ export default function Home() {
           firstHeading="Best Data Science Courses in Pune"
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont=" Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited training from the best Data Science courses in Pune. This course will help you to capitalize on your domain expertise by utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          ibmOnly={true}
         />
         <SecondSection SecondSectionData={DSPuneCourseData[0].secondSection} />
         <Realstory />

@@ -437,6 +437,7 @@ And no, you need not to pay any extra charges for domain electives."
           firstToparaImg="Enroll Now"
           firstHeading="Data Science Course in Dubai - "
           firstTopPara="Foundational and Advance Job-ready Program"
+          ibmOnly={true}
         />
         <SecondSection SecondSectionData={DSDubaiCourseData[0].secondSection} />
         <Testimonial

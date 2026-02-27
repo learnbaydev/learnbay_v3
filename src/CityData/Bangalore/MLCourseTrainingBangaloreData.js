@@ -531,13 +531,7 @@ export const MLBangaloreCourseData = [
           {
             id: 3,
             ques: 'What’s the duration of this  Machine Learning course in Bangalore?',
-            ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
-        
-            Classes will be conducted on weekdays and weekend batches.
-            Weekday batch - 9.5 months
-               Monday to Friday - 2 hours/day
-            Weekend batch -11 months
-            Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of this gen AI-associated machine learning course in Bangalore is 13 months. `,
             open: false,
           },
           {
@@ -621,7 +615,7 @@ export const MLBangaloreCourseData = [
           {
             id: 1,
             ques: 'Can I pay in installments for 1,59,000/-?',
-            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,539/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
+            ans: 'Yes, you can pay the installment using a credit card with zero cost EMI, in 3, 6, or 12 months. However, you need to submit 3 months payslip and other KYC documents. Please contact the sales team for more details.',
             open: false,
           },
           {
@@ -684,7 +678,7 @@ export const MLBangaloreCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after this machine learning course completion in Bangalore?',
-            ans: `Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.`,
+            ans: `Yes, you will get a total of four certificates: one IBM Course Completion Certification, one IBM Project Certificate, one Gen-AI certificate from IBM, and a Microsoft certificate. `,
             open: true,
           },
           {
@@ -828,10 +822,10 @@ export const MLBangaloreCourseData = [
     CertificationBot1:
       'On the course completion, you get separate machine learning skill certificates from tech giant IBM for tools and skills like Deep Learning, Tensorflow, machine learning with python, capstone project certifications, etc. But the most significant achievement becomes the IBM ML project experience certification by completing two fresh capstone projects.',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Azure+AI+Fundamentals.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     ModuleBot1:
       'Learnbay Machine learning course in Bangalore contains 300 hrs of hassle-free live classes from PRODUCT Based Companies experts. With 18+ comprehensively planned machine learning modules, students can easily achieve advanced industrial knowledge. Not only that, each of the modules owns such a sequence of submodules from basic to expert level so that a complete novice can also utilize the course with 100% ROI.',
     ModuleBot2:
