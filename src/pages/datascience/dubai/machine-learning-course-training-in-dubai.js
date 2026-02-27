@@ -501,7 +501,6 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              certificate1={true}
               ProgramBot1={MLDubaiCourseData[0].ProgramBot1}
               ProgramHead3={MLDubaiCourseData[0].ProgramHead3}
               ProgramBot3={MLDubaiCourseData[0].ProgramBot3}

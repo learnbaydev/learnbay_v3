@@ -494,7 +494,6 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              certificate1={true}
               ProgramBot1={MLMumbaiCourseData[0].ProgramBot1}
               ProgramHead3={MLMumbaiCourseData[0].ProgramHead3}
               ProgramBot3={MLMumbaiCourseData[0].ProgramBot3}

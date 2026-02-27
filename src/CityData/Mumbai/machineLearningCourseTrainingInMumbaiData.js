@@ -634,7 +634,7 @@ export const MLMumbaiCourseData = [
           },
           {
             id: 2,
-            ques: ' Is there any scholarship/discount available for these Data Science training courses available in Mumbai? What is Group Discount?',
+            ques: ' Is there any scholarship/discount available for these Machine Learning training courses available in Mumbai? What is Group Discount?',
             ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
     Please check our websites or contact our sales team to know more about the applicable discounts.
     
@@ -835,7 +835,11 @@ export const MLMumbaiCourseData = [
     CertificationHead1: 'One Course but Multiple ML skill Certification',
     CertificationBot1:
       "Our machine learning training program in Mumbai has an end-to-end collaboration with IBM. The course is powered by six separate IBM certifications. Along with the most featured ‘Advance AI and ML Course Completion Certification’ and ‘Machine Learning project Certification,' you get four more micro ML skill Certificates- all issued by IBM.",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
+    src22:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleHead1:
       'How do Learnbay Machine Learning Course modules become highly industry competent?',
     ModuleBot1:
