@@ -467,7 +467,7 @@ export const DataAnalyticsChennaiCourseData = [
           {
             id: 3,
             ques: 'What’s the duration of the Data Analytics Course in Chennai?',
-            ans: `The duration of the data analytics course in Chennai is 6 months`,
+            ans: `The duration of the data analytics course in Chennai is 6 months.`,
             open: false,
           },
           {
