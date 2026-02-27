@@ -355,7 +355,7 @@ export default function Home() {
     "name": "What is the total Fee for this machine learning course in Pune?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000+18% GST- Inclusive of GST."
+      "text": "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000+18% GST."
     }
   },{
     "@type": "Question",

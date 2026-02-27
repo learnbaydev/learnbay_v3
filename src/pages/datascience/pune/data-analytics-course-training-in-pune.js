@@ -410,7 +410,7 @@ export default function Home() {
     "name": "Is there any accredited certification after course completion?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, you will be awarded Gen AI and IIT Patna accredited Data Analytics Certificate on successful course completion."
+      "text": "Yes, you will be awarded IBM Gen AI and IIT Patna accredited Data Analytics Certificate on successful course completion."
     }
   },{
     "@type": "Question",

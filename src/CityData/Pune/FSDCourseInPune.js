@@ -220,8 +220,7 @@ export const FSDPuneCourseData = [
           {
             id: 0,
             ques: 'How much is the full-stack software developer course fee in Pune?',
-            ans: `The course costs INR 1,59,000 plus 18% GST.
-`,
+            ans: `The total cost of a full-stack software development course in Pune with agentic AI is INR 1,59,000  plus 18% GST.`,
             open: true,
           },
           {
@@ -282,9 +281,9 @@ export const FSDPuneCourseData = [
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
             ans: `Yes. Our SDE master’s course offers –
-One IBM Generative AI Certification
-Three Microsoft Azure Certifications
-Two AI Co-Lab certifications
+One IBM Generative AI certification, 
+three Microsoft Azure certifications, 
+two AI Co-Lab certifications.
 `,
             open: true,
           },
@@ -475,7 +474,7 @@ Two AI Co-Lab certifications
     JobBot1:
       "Learnbay's full-stack developer course with placement assists students in Pune with resume building, so your profile shows the right skills during the interview. Learnbay dedicatedly helps our students even after course completion because we know that resume building and job referrals are as important as completing the course.",
     JobHead2:
-      "'Replace the highlighted line with ‘Unlock job-driven skills with the best Full-Stack Software Developer Course in Pune.'",
+      'Unlock job-driven skills with the best Full-Stack Software Developer Course in Pune.',
     JobBot3:
       'Already mentioned, Learnbay full-stack developer course in Pune is a specialized domain course. Hence, learners from Learnbay always remain ten steps ahead of the generic crowd of job seekers. Our dedicated student support team helps candidates with job referrals, so alumni are recruited to top organizations. In fact, here, you get amazing assured career assistance.',
     ProjectsBot1:

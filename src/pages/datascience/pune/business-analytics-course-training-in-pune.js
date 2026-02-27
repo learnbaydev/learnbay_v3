@@ -359,7 +359,7 @@ export default function Home() {
     "name": "What is the total fee for the Business Analytics Program in Pune?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The total program fee for the Business Analytics Program is INR 1,20,000 + 18% GST inclusive of GST."
+      "text": "The total program fee for the Business Analytics Program is INR 1,20,000 + 18% GST."
     }
   },{
     "@type": "Question",

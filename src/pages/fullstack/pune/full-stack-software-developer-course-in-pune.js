@@ -410,10 +410,13 @@ export default function Home() {
     }
   },{
     "@type": "Question",
-    "name": "Is there any accredited data science certification after course completion?",
+    "name": "Is there any accredited certification after course completion?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM Certification and the Capstone Project Certification. For a few advanced and Master Programs, there will also be additional IBM certification."
+      "text": "Yes. Our SDE master’s course offers –
+One IBM Generative AI certification, 
+three Microsoft Azure certifications, 
+two AI Co-Lab certifications."
     }
   },{
     "@type": "Question",

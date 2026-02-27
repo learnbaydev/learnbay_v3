@@ -629,7 +629,7 @@ export const DAPuneCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded Gen AI and IIT Patna accredited Data Analytics Certificate on successful course completion. `,
+            ans: `Yes, you will be awarded IBM Gen AI and IIT Patna accredited Data Analytics Certificate on successful course completion. `,
             open: true,
           },
         ],
