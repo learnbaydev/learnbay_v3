@@ -445,6 +445,7 @@ export default function Home() {
           firstHeading="Machine Learning Course Training in Mumbai "
           firstTopPara="Industrial project-based job-oriented training"
           idss="YWxTtvb3x-U"
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={MLMumbaiCourseData[0].secondSection}

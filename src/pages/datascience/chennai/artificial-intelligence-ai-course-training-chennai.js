@@ -437,6 +437,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Business-Analytics-Masters-Header.png"
           firstHeading="Artificial Intelligence(Ai) Course Training In chennai"
           firstTopPara="Industry-curated Training With Domain Specialization"
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={AIChennaiCourseData[0].secondSection}

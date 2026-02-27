@@ -433,6 +433,7 @@ export default function Home() {
           firstTopPara="Professional Business Analytics Program"
           firstToparaImg="Training In Chennai"
           idss="CHut_wm-P2s"
+          iitptnaandms={true}
         />
         <SecondSection
           SecondSectionData={

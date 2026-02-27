@@ -232,7 +232,7 @@ export default function Home() {
     "name": "What’s the duration of these advanced data science courses in Canada?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The duration of the Data Science Course Training In Chennai is 9-13 months, including weekend and weekday batches."
+      "text": "The duration of the Data Science Course Training In Canada is 9-13 months, including weekend and weekday batches."
     }
   },{
     "@type": "Question",
@@ -435,6 +435,7 @@ export default function Home() {
           firstHeading="Data Science Course in Canada"
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Enhance your Data Science career with our comprehensive Data Science course in Canada with IBM Certification. Our advanced Data Science training in Canada will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DataSciencecanadaCourseData[0].secondSection}

@@ -437,6 +437,7 @@ export default function Home() {
           firstToparaImg=" - Enroll Now"
           firstHeading="Data Science Course in Mumbai"
           firstTopPara="Foundational and Advance Job-ready Program"
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DataScienceMumbaiCourseData[0].secondSection}

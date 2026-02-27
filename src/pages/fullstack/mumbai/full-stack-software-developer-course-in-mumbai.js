@@ -504,6 +504,7 @@ export default function Home() {
           firstHeading="Full-Stack Software Developer Course In Mumbai"
           firstTopPara="Specialization over generalization"
           idss="YWxTtvb3x-U"
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={FullStackMumbaiCourseData[0].secondSection}

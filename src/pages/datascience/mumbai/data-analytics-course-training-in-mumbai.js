@@ -434,6 +434,7 @@ export default function Home() {
           firstHeading="Data Analytics Course Training in Mumbai"
           firstTopPara="In Collaboration with IBM"
           cityParaCont="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
+          iitptnaandms={true}
         />
         <SecondSection
           SecondSectionData={DAMumbaiCourseData[0].secondSection}

@@ -673,6 +673,7 @@ https://search.google.com/test/rich-results/result?id=ZKHw-qgJec2jHHHQJ1r1Xg
           firstHeading="Full-Stack Software Developer Course In Pune "
           firstTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
           cityParaCont="Enroll in the best Job-ready full-stack software development course in Pune. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve."
+          ibmandms={true}
         />
         <SecondSection SecondSectionData={FSDPuneCourseData[0].secondSection} />
         {/* <Testimonial

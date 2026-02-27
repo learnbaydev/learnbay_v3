@@ -449,6 +449,7 @@ export default function Home() {
           firstHeading="Data Analytics Course in Canada "
           firstTopPara="A Fast Track Career Upgradation Training Program For Early Professionals"
           cityParaCont="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
+          iitptnaandms={true}
         />
         <SecondSection
           SecondSectionData={DAcanadaCourseData[0].secondSection}

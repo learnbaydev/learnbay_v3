@@ -433,6 +433,7 @@ export default function Home() {
           firstHeading="Data Analytics Course Training in Chennai "
           firstTopPara="Industrial Program For Early Pros"
           idss="y_0IdhFKJKM"
+          iitptnaandms={true}
         />
         <SecondSection
           SecondSectionData={DataAnalyticsChennaiCourseData[0].secondSection}

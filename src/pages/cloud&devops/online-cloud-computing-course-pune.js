@@ -492,6 +492,7 @@ export default function Home() {
           firstHeading="Best Online Cloud Computing Course in Pune"
           firstTopPara="Expand beyond technology"
           cityParaCont="Explore our all-inclusive cloud computing course in Pune and exalt your skills to build a modern tech career. Learnbay’s ‘Cloud Computing Certification Program’ in Pune is here to help you target your dream roles and attain success. Join us to boost your tech-driven skills and earn IBM & Microsoft credentials to build a globally recognized career."
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={CloudComputingTrainingInPune[0].secondSection}
