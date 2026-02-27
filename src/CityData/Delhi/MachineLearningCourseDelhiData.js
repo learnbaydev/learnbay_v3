@@ -561,13 +561,7 @@ export const MLDelhiCourseData = [
           {
             id: 3,
             ques: 'What’s the duration of this  Machine Learning course in Delhi?',
-            ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
-            
-                Classes will be conducted on weekdays and weekend batches.
-                Weekday batch - 9.5 months
-                   Monday to Friday - 2 hours/day
-                Weekend batch -11 months
-                Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of this course is about 13 months, which includes live lectures, hands-on training through a live project, and AI-Colab. This machine learning course with Gen AI also offers BYOP (Build Your Own Project). `,
             open: false,
           },
           {
@@ -591,7 +585,7 @@ export const MLDelhiCourseData = [
           {
             id: 0,
             ques: 'What is domain specialization associated with the Learnbay machine learning certification course in Delhi?',
-            ans: 'We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices.',
+            ans: 'We offer industry-specific ML modules as part of an advanced Generative AI and Artificial Intelligence course. Via this, you can learn the respective industry’s trending machine learning best practices.  ',
             open: true,
           },
           {
@@ -714,18 +708,13 @@ export const MLDelhiCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after this machine learning course completion in Delhi?',
-            ans: `Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.`,
+            ans: `Yes, you will be awarded 4 separate Microsoft, Learnbay, and IBM-accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.`,
             open: true,
           },
           {
             id: 1,
             ques: 'What categories of certifications might I expect to receive?',
-            ans: `Deep Learning Fundamentals
-                Deep Learning with TensorFlow
-                Machine Learning with Python
-                Accelerating Deep Learning with GPUs
-                Advance AI & ML Certificate (final)
-                Capstone Project Certificate by IBM`,
+            ans: `Course completion Certificate from IBM, Microsoft Collaborative Certification in Azure, Project Certificate, and IBM Gen AI certificate. `,
             open: true,
           },
         ],
@@ -844,9 +833,12 @@ export const MLDelhiCourseData = [
       "In collaboration with IBM, we provide a course completion certificate upon completing Learnbay's professional Machine Learning training course in Delhi. Interestingly, after finishing several modules of Artificial Intelligence and Machine Learning courses, students will receive six additional IBM credentials. The IBM Machine Learning Project Experience Certificate is the most important of all six certificates. These are undeniably valuable additions to your resume.",
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
       'Learnbay is a great place for students to pursue Machine Learning course training in Delhi. Programming and Machine Learning technologies and advanced statistical applications are the core topics of this training in Delhi. Each of these modules contains a variety of domain-based case studies and advanced Machine Learning-related assignments.',
     ModuleBot2:

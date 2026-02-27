@@ -462,7 +462,7 @@ export const BADelhiCourseData = [
           {
             id: 0,
             ques: 'What are the prerequisites for the Data Analytics Training Course in Delhi?',
-            ans: `There are no prerequisites for this Data Analytics certification course in Delhi as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.`,
+            ans: `There are no prerequisites for this data analytics certification course in Delhi as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.`,
             open: true,
           },
           {
@@ -482,18 +482,13 @@ export const BADelhiCourseData = [
             id: 3,
             ques: 'What’s the duration of the Data Analytics Course in Delhi?',
             ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-            
-                Classes will be conducted on weekdays and weekend batches.
-                Weekday batch - 4.5 months
-                   Monday to Friday - 2 hours/day
-                Weekend batch - 6 months
-                Saturday & Sunday - 3.5 hours/day`,
+                Classes will be conducted on weekdays and weekend batches.`,
             open: false,
           },
           {
             id: 4,
-            ques: 'What is the mode of Data Analytics training at Learnbay, Delhi?',
-            ans: `We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
+            ques: 'What is the mode of Business Analytics training at Learnbay, Delhi?',
+            ans: `We provide both classroom and online business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
             open: false,
           },
           {
@@ -504,9 +499,10 @@ export const BADelhiCourseData = [
           },
         ],
       },
+
       {
         id: 1,
-        sectionName: 'Domain Electives',
+        sectionName: 'Domain Related',
         data: [
           {
             id: 0,
@@ -540,18 +536,65 @@ export const BADelhiCourseData = [
           },
           {
             id: 5,
-            ques: "What if I don't have any prior experience in any domain? ",
-            ans: "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
+            ques: 'What if I dont have any prior experience in any domain?',
+            ans: `If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.`,
             open: false,
           },
           {
             id: 6,
             ques: 'Can I change my domain electives later?',
-            ans: 'Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.',
-            open: false,
+            ans: `Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.`,
           },
         ],
       },
+      // {
+      //   id: 1,
+      //   sectionName: 'Domain Electives',
+      //   data: [
+      //     {
+      //       id: 0,
+      //       ques: 'What is domain specialization associated with the Learnbay Business Analytics certification course in Delhi?',
+      //       ans: `We offer industry-specific full-stack Business Analytics modules, via which you learn the respective industry’s best practices.`,
+      //       open: true,
+      //     },
+      //     {
+      //       id: 1,
+      //       ques: 'What are the available elective domain options?',
+      //       ans: `HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.`,
+      //       open: false,
+      //     },
+      //     {
+      //       id: 2,
+      //       ques: 'Which domain elective is best suited for me?',
+      //       ans: `You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988`,
+      //       open: false,
+      //     },
+      //     {
+      //       id: 3,
+      //       ques: 'Why is domain specialization important?',
+      //       ans: `After enrolling in the Business Analytics with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.`,
+      //       open: false,
+      //     },
+      //     {
+      //       id: 4,
+      //       ques: 'Can I select multiple domain electives and do I need to pay extra charges?',
+      //       ans: `You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
+      //       open: false,
+      //     },
+      //     {
+      //       id: 5,
+      //       ques: "What if I don't have any prior experience in any domain? ",
+      //       ans: "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
+      //       open: false,
+      //     },
+      //     {
+      //       id: 6,
+      //       ques: 'Can I change my domain electives later?',
+      //       ans: 'Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.',
+      //       open: false,
+      //     },
+      //   ],
+      // },
       {
         id: 2,
         sectionName: 'Payments and Scholarships',
@@ -630,7 +673,7 @@ export const BADelhiCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion.`,
+            ans: `Yes, you will be awarded IBM and Patna-accredited Certifications. `,
             open: true,
           },
         ],
@@ -724,11 +767,10 @@ export const BADelhiCourseData = [
     CertificationHead1: 'Certification process at Learnbay',
     CertificationBot2:
       'After the completion of the Business analytics course with placement, students will be awarded an IBM Certification. To be eligible for this certification, students must successfully complete all business analytics course modules, assessments, assignments, real-time projects as well as the final IBM Exams. Possessing this certificate will undoubtedly boost your portfolio and make you stand out in the business analytics job market.',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       'The business analytics course in Delhi comprises 200+ hours of live classes taught by PRODUCT Based Companies experts. The course modules are designed in such a way that they not only make you aware of various analytical techniques but also help you understand their application scenarios and how they can be effectively woven into daily work practices.',
     ModuleBot2:

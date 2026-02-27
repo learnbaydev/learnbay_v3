@@ -508,6 +508,7 @@ export default function Home() {
           firstHeading="Data Analytics Course Training In Delhi"
           firstTopPara="Fast track IBM Certified Data Analytics Course for early pros."
           cityParaCont="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
+          iitptnaandms={true}
         />
         <SecondSection SecondSectionData={DADelhiCourseData[0].secondSection} />
         <Testimonial

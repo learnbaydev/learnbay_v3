@@ -507,6 +507,7 @@ export default function Home() {
           firstHeading="Business Analytics Course "
           firstTopPara="Industry-oriented business analytics program co-developed by IBM"
           cityParaCont="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
+          ibmOnly={true}
         />
         <SecondSection SecondSectionData={BADelhiCourseData[0].secondSection} />
         <Testimonial

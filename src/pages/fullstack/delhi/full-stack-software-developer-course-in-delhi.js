@@ -517,6 +517,7 @@ export default function Home() {
           firstHeading="Full-Stack Software Developer Course In Delhi"
           firstTopPara="Job-oriented Data Science Training for working professionals"
           cityParaCont="Enroll in the best Job-ready full-stack software development course in Delhi. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
+          ibmandms={true}
         />
         <SecondSection SecondSectionData={FSDelhiCourseData[0].secondSection} />
         {/* <Testimonial

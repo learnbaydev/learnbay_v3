@@ -526,6 +526,7 @@ export default function Home() {
           firstHeading="Machine Learning Course Training In Delhi"
           firstTopPara="Job-Ready Machine Learning Training with Domain Specialization"
           cityParaCont="Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
+          ibmandms={true}
         />
         <SecondSection SecondSectionData={MLDelhiCourseData[0].secondSection} />
         <Testimonial

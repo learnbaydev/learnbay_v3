@@ -473,13 +473,14 @@ export const FSDelhiCourseData = [
           {
             id: 0,
             ques: 'What is Learnbay’s full-stack developer course in Delhi?',
-            ans: 'Learnbay’s full-stack developer course is essentially the finest course in software development with GenAI in Delhi.. Here the learners are trained with a hands-on method to develop software applications using a selection of the most in-demand programming languages.',
+            ans: 'Learnbay’s full-stack developer course is essentially the finest course in software development with GenAI in Delhi. ',
             open: true,
           },
           {
             id: 1,
             ques: 'What types of topics will this full-stack development course cover?',
             ans: 'It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., Gen AI associated software development tools and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.',
+
             open: false,
           },
           {
@@ -582,7 +583,7 @@ export const FSDelhiCourseData = [
           {
             id: 0,
             ques: 'How much is the full-stack software developer course fee in Delhi?',
-            ans: `The total cost of the full-stack software development course in Delhi is INR Rs.1,59,000 /- +18% GST .`,
+            ans: `The total cost of the full-stack software development course in Delhi is INR Rs.1,20,000  /- +18% GST .`,
             open: true,
           },
           {

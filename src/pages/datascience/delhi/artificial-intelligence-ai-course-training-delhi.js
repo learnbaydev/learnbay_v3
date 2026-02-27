@@ -520,6 +520,7 @@ export default function Home() {
           firstHeading="Artificial Intelligence (AI) Training in Delhi"
           firstTopPara="Becomes an AI Expertise In Product Based MNCs"
           cityParaCont="Become a successful data science manager/leader within 11 to 13  months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
+          ibmandms={true}
         />
         <SecondSection SecondSectionData={AIelhiCourseData[0].secondSection} />
         <Testimonial
@@ -617,6 +618,7 @@ export default function Home() {
               src={AIelhiCourseData[0].src}
               src22={AIelhiCourseData[0].src22}
               src33={AIelhiCourseData[0].src33}
+              src44={AIelhiCourseData[0].src44}
               ModuleBot1={AIelhiCourseData[0].ModuleBot1}
               ModuleBot2={AIelhiCourseData[0].ModuleBot2}
               ModuleBot3={AIelhiCourseData[0].ModuleBot3}
