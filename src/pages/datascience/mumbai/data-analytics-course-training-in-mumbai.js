@@ -78,9 +78,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Data Analytics Course in Mumbai | IBM Certified - Learnbay
-        </title>
+        <title>Data Analytics Course in Mumbai | IIT Patna Certified</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -545,6 +543,7 @@ export default function Home() {
               CertificationBot2={DAMumbaiCourseData[0].CertificationBot2}
               src={DAMumbaiCourseData[0].src}
               src22={DAMumbaiCourseData[0].src22}
+              src33={DAMumbaiCourseData[0].src33}
               ModuleHead1={DAMumbaiCourseData[0].ModuleHead1}
               ModuleHead4={DAMumbaiCourseData[0].ModuleHead4}
               ModuleBot1={DAMumbaiCourseData[0].ModuleBot1}
