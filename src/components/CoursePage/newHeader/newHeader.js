@@ -1,9 +1,9 @@
-import React, { useCallback, useEffect, useState } from "react";
-import styles from "./NewDSAHeader.module.css";
-import Image from "next/image";
-import Button from "@/components/Global/Button/Button";
-import dynamic from "next/dynamic";
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
+import React, { useCallback, useEffect, useState } from 'react';
+import styles from './NewDSAHeader.module.css';
+import Image from 'next/image';
+import Button from '@/components/Global/Button/Button';
+import dynamic from 'next/dynamic';
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
 
 const Newheader = ({
   violet,
@@ -53,10 +53,6 @@ const Newheader = ({
     setRequestDemoPopup(true);
   }, []);
 
-  useEffect(() => {
-    // console.log(brochurePdf);
-  }, []);
-
   return (
     <section className={violet ? styles.violetContainer : styles.mainContainer}>
       <div className={styles.contentWrapper}>
@@ -94,8 +90,8 @@ const Newheader = ({
                         key={index}
                         style={{
                           background: part.gradient,
-                          WebkitBackgroundClip: "text",
-                          WebkitTextFillColor: "transparent",
+                          WebkitBackgroundClip: 'text',
+                          WebkitTextFillColor: 'transparent',
                         }}
                       >
                         {part.text}
@@ -111,7 +107,7 @@ const Newheader = ({
                   }
                 }
                 return (
-                  <span key={index} style={{ color: "#fff" }}>
+                  <span key={index} style={{ color: '#fff' }}>
                     {part.text}
                   </span>
                 );

@@ -1,15 +1,15 @@
-import jsCookie from "js-cookie";
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
-import PhoneInput from "react-phone-input-2";
-import "react-phone-input-2/lib/style.css";
-import styles from "./FormInline.module.css";
+import jsCookie from 'js-cookie';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
+import styles from './FormInline.module.css';
 import {
   getEndPoint,
   getFormFields,
   getValidation,
   redirectionThankYou,
-} from "../Form/formFunction";
+} from '../Form/formFunction';
 const Form = ({
   popup,
   setTrigger,
@@ -33,38 +33,38 @@ const Form = ({
 }) => {
   const router = useRouter();
   const [formFields, setFormFields] = useState(
-    getFormFields(radio, google, referrals, Domain, interstedInHide),
+    getFormFields(radio, google, referrals, Domain, interstedInHide)
   );
   const [formField, setFormField] = useState(
-    getFormFields(radio, google, referrals, interstedInHide),
+    getFormFields(radio, google, referrals, interstedInHide)
   );
 
   const [value, setValue] = useState();
   const [error, setError] = useState();
-  const [alertMSG, setAlertMSG] = useState("");
+  const [alertMSG, setAlertMSG] = useState('');
   const [toggle, setToggle] = useState(true);
   const [query, setQuery] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    upskillPlanning: "",
-    upskillingObjective: "",
-    platform: "",
-    workExperience: "",
-    Brief: "",
-    dateTime: "",
-    WAdropdown: "",
-    currentOrganization: "",
-    currentDesignation: "",
-    interstedIn: "",
+    name: '',
+    email: '',
+    phone: '',
+    upskillPlanning: '',
+    upskillingObjective: '',
+    platform: '',
+    workExperience: '',
+    Brief: '',
+    dateTime: '',
+    WAdropdown: '',
+    currentOrganization: '',
+    currentDesignation: '',
+    interstedIn: '',
     url: router.asPath,
-    Domain: "",
+    Domain: '',
   });
   const [submitting, setSubmitting] = useState(false); // State to track form submission
 
   useEffect(() => {
     setQuery({ ...query, phone: value });
-    jsCookie.set("CARD", query.email, { expires: 14, secure: true });
+    jsCookie.set('CARD', query.email, { expires: 14, secure: true });
   }, [value]);
 
   useEffect(() => {
@@ -73,7 +73,7 @@ const Form = ({
       const phoneWithPlus = `+${formattedPhone}`;
       setQuery({ ...query, phone: phoneWithPlus });
 
-      jsCookie.set("CARDPHONE", phoneWithPlus, { expires: 14, secure: true });
+      jsCookie.set('CARDPHONE', phoneWithPlus, { expires: 14, secure: true });
     }
   }, [value]);
 
@@ -86,12 +86,12 @@ const Form = ({
     }));
   };
 
-  let btnText = "Apply For Counselling";
+  let btnText = 'Apply For Counselling';
   if (event) {
-    btnText = "Register Now";
+    btnText = 'Register Now';
   }
   if (learning) {
-    btnText = "Download Resources";
+    btnText = 'Download Resources';
   }
   const formSubmit = async (e) => {
     e.preventDefault();
@@ -103,11 +103,11 @@ const Form = ({
 
     try {
       const locationData = await fetchLocation();
-      formData.append("country", locationData.country);
-      formData.append("city", locationData.city);
-      formData.append("region", locationData.region);
+      formData.append('country', locationData.country);
+      formData.append('city', locationData.city);
+      formData.append('region', locationData.region);
     } catch (error) {
-      console.error("Error fetching location:", error.message);
+      console.error('Error fetching location:', error.message);
     }
 
     try {
@@ -118,7 +118,7 @@ const Form = ({
         event,
         dataScience,
         dataScienceGeneric,
-        dataScienceCounselling,
+        dataScienceCounselling
       );
 
       setError(getValidation(radio, Domain, interstedInHide, query));
@@ -126,27 +126,27 @@ const Form = ({
 
       if (!validation) {
         const sendData = await fetch(endPoint, {
-          method: "POST",
+          method: 'POST',
           body: formData,
         });
 
         setQuery({
-          name: "",
-          email: "",
-          phone: "",
-          upskillPlanning: "",
-          upskillingObjective: "",
-          jobDescription: "",
-          platform: "",
-          workExperience: "",
-          dateTime: "",
-          WAdropdown: "",
-          currentOrganization: "",
-          currentDesignation: "",
-          interstedIn: "",
-          country: "",
-          region: "",
-          city: "",
+          name: '',
+          email: '',
+          phone: '',
+          upskillPlanning: '',
+          upskillingObjective: '',
+          jobDescription: '',
+          platform: '',
+          workExperience: '',
+          dateTime: '',
+          WAdropdown: '',
+          currentOrganization: '',
+          currentDesignation: '',
+          interstedIn: '',
+          country: '',
+          region: '',
+          city: '',
           url: router.asPath,
         });
 
@@ -155,20 +155,20 @@ const Form = ({
         }
 
         if (sendData.status === 200) {
-          sessionStorage.setItem("pending_syllabus", courseId);
+          sessionStorage.setItem('pending_syllabus', courseId);
           const cloudAndDevopsCouserIds = [
-            "cloud-devops-master",
-            "adv-cloud-devops",
-            "cloud-db-admin",
-            "cloud-it-support",
-            "cloud-sys-admin",
-            "cloud-network-pro",
+            'cloud-devops-master',
+            'adv-cloud-devops',
+            'cloud-db-admin',
+            'cloud-it-support',
+            'cloud-sys-admin',
+            'cloud-network-pro',
           ];
 
           // 1. Determine which thank you page to use
           const thankYouPath = cloudAndDevopsCouserIds.includes(courseId)
-            ? "/Thank-you-cloud"
-            : "/Thank-you";
+            ? '/Thank-you-cloud'
+            : '/Thank-you';
           router.push(
             pushPath,
             dataScience
@@ -181,39 +181,38 @@ const Form = ({
                 }
               : {
                   pathname: pushPath,
-                },
+                }
           );
         }
       }
       setSubmitting(false); // Set submitting state to false after form submission
     } catch (error) {
-      console.error("Error submitting form:", error.message);
+      console.error('Error submitting form:', error.message);
     }
   };
 
   const fetchLocation = async () => {
     try {
       const response = await fetch(
-        "https://ipinfo.io/json?token=bc89c2010abac0",
+        'https://ipinfo.io/json?token=bc89c2010abac0'
       );
       if (!response.ok) {
         throw new Error(
-          `Failed to fetch location: ${response.status} ${response.statusText}`,
+          `Failed to fetch location: ${response.status} ${response.statusText}`
         );
       }
       const data = await response.json();
-      console.log("API Response:", data);
       const { country, region, city } = data;
       // If city is not available, provide a default value or placeholder
-      const finalCity = city ? city : "Unknown";
+      const finalCity = city ? city : 'Unknown';
       return { country, region, city: finalCity };
     } catch (error) {
-      console.error("Error fetching location:", error.message);
+      console.error('Error fetching location:', error.message);
       // If there's an error fetching location data, return default or placeholder values
       return {
-        country: "Country Undefined",
-        region: "Region Undefined",
-        city: "City Undefined",
+        country: 'Country Undefined',
+        region: 'Region Undefined',
+        city: 'City Undefined',
       };
     }
   };
@@ -232,7 +231,7 @@ const Form = ({
                           <span className={styles.spanLabel}>*</span>
                         )}
                       </label>
-                      {field.type === "phone" ? (
+                      {field.type === 'phone' ? (
                         <PhoneInput
                           inputStyle={field.inputStyle}
                           containerStyle={field.containerStyle}
@@ -244,7 +243,7 @@ const Form = ({
                           onChange={(phone) => setValue(phone)}
                           required={field.required}
                         />
-                      ) : field.type === "select" ? (
+                      ) : field.type === 'select' ? (
                         <select
                           name={field.name}
                           required={field.required}
@@ -274,7 +273,7 @@ const Form = ({
                         />
                       )}
                     </div>
-                  ),
+                  )
               )
             : formFields.map(
                 (field) =>
@@ -286,7 +285,7 @@ const Form = ({
                           <span className={styles.spanLabel}>*</span>
                         )}
                       </label>
-                      {field.type === "phone" ? (
+                      {field.type === 'phone' ? (
                         <PhoneInput
                           inputStyle={field.inputStyle}
                           containerStyle={field.containerStyle}
@@ -298,7 +297,7 @@ const Form = ({
                           onChange={(phone) => setValue(phone)}
                           required={field.required}
                         />
-                      ) : field.type === "select" ? (
+                      ) : field.type === 'select' ? (
                         <select
                           name={field.name}
                           required={field.required}
@@ -328,7 +327,7 @@ const Form = ({
                         />
                       )}
                     </div>
-                  ),
+                  )
               )}
           <input name="country" value={query.country} type="hidden" />
           <input name="region" value={query.region} type="hidden" />
@@ -344,7 +343,7 @@ const Form = ({
             <input type="hidden" id="url" name="url" value={router.asPath} />
           )}
           <div className={styles.optMsg}>
-            {toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}
+            {toggle ? '' : <p className={styles.alert}>{alertMSG}</p>}
           </div>
           {syllabus ? (
             <div className={styles.bottomWrap}>
@@ -358,9 +357,9 @@ const Form = ({
                 disabled={submitting}
               >
                 {submitting
-                  ? "Submitting..."
+                  ? 'Submitting...'
                   : downloadBrochure
-                    ? "Download Now"
+                    ? 'Download Now'
                     : btnText}
               </button>
             </div>
@@ -376,9 +375,9 @@ const Form = ({
                 disabled={submitting}
               >
                 {submitting
-                  ? "Submitting..."
+                  ? 'Submitting...'
                   : downloadBrochure
-                    ? "Download Now"
+                    ? 'Download Now'
                     : btnText}
               </button>
             </>

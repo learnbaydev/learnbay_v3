@@ -83,7 +83,6 @@ function FAQNew({ FAQNewData, bAnalystAbout }) {
             return isActive ? (
               <div className={styles.gridPanel} key={index}>
                 <FAQ FaqData={data} />
-                {console.log('===>', data)}
               </div>
             ) : (
               ''

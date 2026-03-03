@@ -1,307 +1,306 @@
-import React from "react";
-import Head from "next/head";
-import dynamic from "next/dynamic";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import DSAHeader from "@/components/CoursePage/NewDSA/Header/NewDSAHeader";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
-const ProgramSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProgramSection/ProgramSection")
+import React from 'react';
+import Head from 'next/head';
+import dynamic from 'next/dynamic';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import DSAHeader from '@/components/CoursePage/NewDSA/Header/NewDSAHeader';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import BookDemo from '@/components/CoursePage/NewDSA/BookDemo/BookDemo';
+const ProgramSection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/ProgramSection/ProgramSection')
 );
-const DSAPractical = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
+const DSAPractical = dynamic(
+  () => import('@/components/CoursePage/NewDSA/Practical/DSAPractical')
 );
-const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/Whylb")
+const AnimationNew = dynamic(
+  () => import('@/components/Home/whyChooseSection/Whylb')
 );
-const Other = dynamic(() =>
-  import("@/components/Home/newUI/OtherVS_updated/Other")
+const Other = dynamic(
+  () => import('@/components/Home/newUI/OtherVS_updated/Other')
 );
-const JobReadySection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
+const JobReadySection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/JobReadySection/JobReadySection')
 );
-const DSASyllabus = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus")
+const DSASyllabus = dynamic(
+  () => import('@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus')
 );
-const NewCertificateSection = dynamic(() =>
-  import("@/components/CoursePage/newCertificate/NewCertificate")
+const NewCertificateSection = dynamic(
+  () => import('@/components/CoursePage/newCertificate/NewCertificate')
 );
-const DSAFeeSection = dynamic(() =>
-  import("@/components/CoursePage/dsaFee/DSAFeeSection")
+const DSAFeeSection = dynamic(
+  () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
 );
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-const NewSevenSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
+const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+const NewSevenSection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection')
 );
-const MentorsSection = dynamic(() =>
-  import("@/components/course/MentorsSection/MentorsSection")
+const MentorsSection = dynamic(
+  () => import('@/components/course/MentorsSection/MentorsSection')
 );
-const DSAProjectSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProjectSection/DSAProjectSection")
+const DSAProjectSection = dynamic(
+  () =>
+    import('@/components/CoursePage/NewDSA/ProjectSection/DSAProjectSection')
 );
-const ReviewSlider = dynamic(() =>
-  import("@/components/Home/newUI/reviewSlider/reviewSlider")
+const ReviewSlider = dynamic(
+  () => import('@/components/Home/newUI/reviewSlider/reviewSlider')
 );
-import Certificate from "@/components/CoursePage/Certificate/Certificate";
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
+import Certificate from '@/components/CoursePage/Certificate/Certificate';
+const Content = dynamic(
+  () => import('@/components/CoursePage/Content/content')
 );
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import FAQ from '@/components/AppliedAIPractitionerProgram/FAQs/FAQ';
 import {
   getDSABookingLaterDate,
   getDSABookingSoonDate,
-} from "@/Util/getDSABatchData";
-import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";
-import Newheader from "@/components/CoursePage/newHeader/newHeader";
-import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
-import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
-import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
-import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
-import ToolsCovered from "@/components/CoursePage/ToolsCovered/ToolsCovered";
-const SyllabusNew = dynamic(() =>
-  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
+} from '@/Util/getDSABatchData';
+import AlumniCompanies from '@/components/CoursePage/newUICourse/AlumniCompanies';
+import LearningToPlacement from '@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement';
+import Newheader from '@/components/CoursePage/newHeader/newHeader';
+import { MasterAI } from '@/Data/Schema/DataScienceAndAIMasterSchema';
+import FeeSection from '@/components/course/feeSection/FeeSectionCourse';
+import UpdatedCertificate from '@/components/CoursePage/UpdatedCertificate/UpdatedCertificate';
+import HighlightsSection from '@/components/CoursePage/newUICourse/Support/HighlightsSection';
+import ToolsCovered from '@/components/CoursePage/ToolsCovered/ToolsCovered';
+const SyllabusNew = dynamic(
+  () => import('@/components/CoursePage/Syllabus/MasterSyllabus2025')
 );
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf';
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
-  // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
-  // console.log(getDSABookingLaterDate(new Date('2023-03-24')));
   const faqNewData = [
     {
       id: 0,
-      sectionName: "Course-Related",
+      sectionName: 'Course-Related',
       data: [
         {
           id: 0,
           ques: "Can I do a Master's in Data Science and GenAI at Learnbay?",
-          ans: "Yes, IT and non-IT working professionals with a minimum of 1 year of experience in any domain can pursue this course. Also, learners with no programming skills can join this Generative AI course.",
+          ans: 'Yes, IT and non-IT working professionals with a minimum of 1 year of experience in any domain can pursue this course. Also, learners with no programming skills can join this Generative AI course.',
           open: true,
-          note: "Freshers and students cannot pursue this data science certification. However, interested learners can join our data science and AI program for freshers.",
+          note: 'Freshers and students cannot pursue this data science certification. However, interested learners can join our data science and AI program for freshers.',
         },
         {
           id: 1,
-          ques: "Can I pursue a Generative AI course while having a full-time job or from a different time zone?",
-          ans: "Working professionals can pursue a data science and Gen AI course while continuing their full-time job or being in a different time zone. We offer hybrid learning and 100% live online classes to help you have hassle-free learning.",
+          ques: 'Can I pursue a Generative AI course while having a full-time job or from a different time zone?',
+          ans: 'Working professionals can pursue a data science and Gen AI course while continuing their full-time job or being in a different time zone. We offer hybrid learning and 100% live online classes to help you have hassle-free learning.',
           open: false,
         },
         {
           id: 2,
-          ques: "Are there any hands-on labs or practical tasks in the Gen AI course modules?",
-          ans: "Yes. We believe in project-based learning. You will work on live projects to tackle real-time GenAI challenges faced by startups. You can have an AI Co-Lab experience to work on real-time cases and gain proven skills with 1:1 guidance.",
+          ques: 'Are there any hands-on labs or practical tasks in the Gen AI course modules?',
+          ans: 'Yes. We believe in project-based learning. You will work on live projects to tackle real-time GenAI challenges faced by startups. You can have an AI Co-Lab experience to work on real-time cases and gain proven skills with 1:1 guidance.',
           open: false,
         },
         {
           id: 3,
-          ques: "Does Learnbay Provide the Best Data Science Course for Working Professionals?",
-          ans: "Yes. Pursuing a data science and AI master certification is worth investing in at Learnbay. It empowers you to unleash potential benefits and tackle industry-driven GenAI challenges (at AI Co-Lab) with emerging GenAI models and Agentic systems.",
+          ques: 'Does Learnbay Provide the Best Data Science Course for Working Professionals?',
+          ans: 'Yes. Pursuing a data science and AI master certification is worth investing in at Learnbay. It empowers you to unleash potential benefits and tackle industry-driven GenAI challenges (at AI Co-Lab) with emerging GenAI models and Agentic systems.',
           open: false,
         },
         {
           id: 4,
-          ques: "What is the duration of a Generative AI Certification for Engineers or non-tech experts?",
-          ans: "The data science and GenAI master certification course comes with a duration of 13 months (including weekday and weekend classes).",
+          ques: 'What is the duration of a Generative AI Certification for Engineers or non-tech experts?',
+          ans: 'The data science and GenAI master certification course comes with a duration of 13 months (including weekday and weekend classes).',
           open: false,
         },
         {
           id: 5,
-          ques: "What are the extra benefits delivered via this data science and GenAI master certification program?",
+          ques: 'What are the extra benefits delivered via this data science and GenAI master certification program?',
           ans: "Learners joining our Master's in Data Science and GenAI program receive several perks:",
           open: false,
           list1:
-            "Mastering industry-specific GenAI tools (AutoGPT, LangChain, etc.)",
-          list2: "GenAI and Agentic AI Projects at AI Co-Lab",
-          list3: "3-year Flexi pass",
-          list4: "IBM & Microsoft certifications (Course, projects, and GenAI)",
-          list5: "AI Startup Project Certification (2 AI Co-Lab certificates)",
-          list6: "Dedicated placement support",
+            'Mastering industry-specific GenAI tools (AutoGPT, LangChain, etc.)',
+          list2: 'GenAI and Agentic AI Projects at AI Co-Lab',
+          list3: '3-year Flexi pass',
+          list4: 'IBM & Microsoft certifications (Course, projects, and GenAI)',
+          list5: 'AI Startup Project Certification (2 AI Co-Lab certificates)',
+          list6: 'Dedicated placement support',
         },
       ],
     },
     {
       id: 1,
-      sectionName: "Domain Specialization",
+      sectionName: 'Domain Specialization',
       data: [
         {
           id: 0,
-          ques: "What is domain specialization?",
-          ans: "Domain specialization refers to the process of gaining field expertise in a specific subject or area of interest related to one industry. This learning is vital for experts who want to retain their careers with enriched benefits like hikes and promotions.",
+          ques: 'What is domain specialization?',
+          ans: 'Domain specialization refers to the process of gaining field expertise in a specific subject or area of interest related to one industry. This learning is vital for experts who want to retain their careers with enriched benefits like hikes and promotions.',
           open: true,
         },
         {
           id: 1,
-          ques: "What are the available elective domain options?",
-          ans: "You can choose any two domain electives for upskilling and project work. The available domains are:",
+          ques: 'What are the available elective domain options?',
+          ans: 'You can choose any two domain electives for upskilling and project work. The available domains are:',
           open: false,
-          list1: "BFSI",
-          list2: "Healthcare",
-          list3: "Retail",
-          list4: "Managers",
-          list5: "SDE",
-          list6: "Manufacturing",
+          list1: 'BFSI',
+          list2: 'Healthcare',
+          list3: 'Retail',
+          list4: 'Managers',
+          list5: 'SDE',
+          list6: 'Manufacturing',
         },
       ],
     },
     {
       id: 2,
-      sectionName: "Payments and Scholarships",
+      sectionName: 'Payments and Scholarships',
       data: [
         {
           id: 0,
-          ques: "What is the cost of this IBM and Microsoft Certified Data Science Program?",
-          ans: "The Generative AI and data science certification course costs ₹1,59,000 + 18% GST.",
+          ques: 'What is the cost of this IBM and Microsoft Certified Data Science Program?',
+          ans: 'The Generative AI and data science certification course costs ₹1,59,000 + 18% GST.',
           open: true,
         },
         {
           id: 1,
-          ques: "Can I pay in installments for the Generative AI Course?",
-          ans: "Yes, we offer easy financing options including a no-cost EMI. You can pay INR 13,250/month. Learners can choose ideal EMI plans of 6, 9, and 12 months.",
+          ques: 'Can I pay in installments for the Generative AI Course?',
+          ans: 'Yes, we offer easy financing options including a no-cost EMI. You can pay INR 13,250/month. Learners can choose ideal EMI plans of 6, 9, and 12 months.',
           open: false,
         },
         {
           id: 2,
-          ques: "What is the refund policy for the online master’s in data science and AI program at Learnbay?",
-          ans: "Experts joining our Generative AI course can cancel anytime for a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy.",
+          ques: 'What is the refund policy for the online master’s in data science and AI program at Learnbay?',
+          ans: 'Experts joining our Generative AI course can cancel anytime for a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy.',
           open: false,
         },
       ],
     },
     {
       id: 3,
-      sectionName: "Capstone and Real-time Projects",
+      sectionName: 'Capstone and Real-time Projects',
       data: [
         {
           id: 0,
-          ques: "How many real-time projects will there be?",
-          ans: "Our best data science course for working professionals includes 12+ executive-level real-time industry projects to expand your knowledge base.",
+          ques: 'How many real-time projects will there be?',
+          ans: 'Our best data science course for working professionals includes 12+ executive-level real-time industry projects to expand your knowledge base.',
           open: true,
         },
         {
           id: 1,
-          ques: "Are there opportunities to work on real industry projects?",
-          ans: "Yes. You will work on real-time AI startup problems and co-create GenAI solutions at AI Co-Lab.",
+          ques: 'Are there opportunities to work on real industry projects?',
+          ans: 'Yes. You will work on real-time AI startup problems and co-create GenAI solutions at AI Co-Lab.',
           open: false,
         },
         {
           id: 2,
-          ques: "What is an AI Co-Lab Experience?",
-          ans: "Professionals work on real-world startup problems under a mentor’s guidance. This allows you to tackle GenAI and Agentic AI-driven challenges and co-create with emerging AI startups.",
+          ques: 'What is an AI Co-Lab Experience?',
+          ans: 'Professionals work on real-world startup problems under a mentor’s guidance. This allows you to tackle GenAI and Agentic AI-driven challenges and co-create with emerging AI startups.',
           open: false,
         },
         {
           id: 3,
-          ques: "Can I choose my capstone project, or are projects assigned?",
-          ans: "You can choose projects best suited to your career goals, domain, and expertise. You will work closely with AI startups and industry mentors.",
+          ques: 'Can I choose my capstone project, or are projects assigned?',
+          ans: 'You can choose projects best suited to your career goals, domain, and expertise. You will work closely with AI startups and industry mentors.',
           open: false,
         },
       ],
     },
     {
       id: 4,
-      sectionName: "Certifications",
+      sectionName: 'Certifications',
       data: [
         {
           id: 0,
-          ques: "Is there any accredited certification after course completion?",
-          ans: "Yes. Working professionals will receive globally accredited certifications from IBM, Microsoft, and real AI startups. You will earn:",
+          ques: 'Is there any accredited certification after course completion?',
+          ans: 'Yes. Working professionals will receive globally accredited certifications from IBM, Microsoft, and real AI startups. You will earn:',
           open: true,
-          list1: "One IBM course completion, Generative AI Certificate",
-          list2: "Three Microsoft Azure AI Fundamentals",
-          list3: "Two AI Co-Lab Project Certificates",
+          list1: 'One IBM course completion, Generative AI Certificate',
+          list2: 'Three Microsoft Azure AI Fundamentals',
+          list3: 'Two AI Co-Lab Project Certificates',
         },
         {
           id: 1,
-          ques: "How will an AI Startup project certification help my career grow?",
-          ans: "Handling real-time challenges with emerging AI startups showcases your practical expertise to potential employers.",
+          ques: 'How will an AI Startup project certification help my career grow?',
+          ans: 'Handling real-time challenges with emerging AI startups showcases your practical expertise to potential employers.',
           open: false,
         },
         {
           id: 2,
-          ques: "How do I receive my certificate, and is it a digital or printed certificate?",
-          ans: "Eligible learners with at least 70% scores in tasks and projects will receive digital certificates within 7 days of application.",
+          ques: 'How do I receive my certificate, and is it a digital or printed certificate?',
+          ans: 'Eligible learners with at least 70% scores in tasks and projects will receive digital certificates within 7 days of application.',
           open: false,
         },
       ],
     },
     {
       id: 5,
-      sectionName: "Job Assistance",
+      sectionName: 'Job Assistance',
       data: [
         {
           id: 0,
-          ques: "What’s the eligibility for a job assistance program at Learnbay?",
-          ans: "Learners must score a minimum of 70% in course tasks and projects to be eligible for the job assistance program.",
+          ques: 'What’s the eligibility for a job assistance program at Learnbay?',
+          ans: 'Learners must score a minimum of 70% in course tasks and projects to be eligible for the job assistance program.',
           open: true,
         },
         {
           id: 1,
-          ques: "How many interview calls will I get at Learnbay?",
-          ans: "Learners will get unlimited interview calls from top-trending 350+ industry partners.",
+          ques: 'How many interview calls will I get at Learnbay?',
+          ans: 'Learners will get unlimited interview calls from top-trending 350+ industry partners.',
           open: false,
         },
         {
           id: 2,
-          ques: "Can I opt for the placement assistance at Learnbay?",
-          ans: "Yes, eligible learners receive resume optimization, 1:1 mock interview sessions, and job referrals from top-tier MNCs.",
+          ques: 'Can I opt for the placement assistance at Learnbay?',
+          ans: 'Yes, eligible learners receive resume optimization, 1:1 mock interview sessions, and job referrals from top-tier MNCs.',
           open: false,
         },
         {
           id: 3,
-          ques: "Do you offer job assistance services after course completion?",
-          ans: "Yes. We offer mock interviews, resume optimization, and career counseling. You also get a 3-year flexi subscription for unlimited resource access until you land a job.",
+          ques: 'Do you offer job assistance services after course completion?',
+          ans: 'Yes. We offer mock interviews, resume optimization, and career counseling. You also get a 3-year flexi subscription for unlimited resource access until you land a job.',
           open: false,
         },
       ],
     },
     {
       id: 6,
-      sectionName: "Mentorships",
+      sectionName: 'Mentorships',
       data: [
         {
           id: 0,
-          ques: "When will the learners get the mentorship facility?",
-          ans: "Mentorship is available until course completion. Afterward, you can reach out for doubt-clearing, career assistance, and AI startup project support.",
+          ques: 'When will the learners get the mentorship facility?',
+          ans: 'Mentorship is available until course completion. Afterward, you can reach out for doubt-clearing, career assistance, and AI startup project support.',
           open: true,
         },
         {
           id: 1,
-          ques: "Can a Learnbay student choose to study with their desired mentor?",
-          ans: "Yes. If a learner finds a mentor unfit or faces discomfort, they can request a change.",
+          ques: 'Can a Learnbay student choose to study with their desired mentor?',
+          ans: 'Yes. If a learner finds a mentor unfit or faces discomfort, they can request a change.',
           open: false,
         },
         {
           id: 2,
-          ques: "Are mentors available for one-on-one or group sessions?",
-          ans: "Yes. Learners get 1:1 sessions for live learning, AI Co-Lab projects, doubt-clearing, and mock interviews.",
+          ques: 'Are mentors available for one-on-one or group sessions?',
+          ans: 'Yes. Learners get 1:1 sessions for live learning, AI Co-Lab projects, doubt-clearing, and mock interviews.',
           open: false,
         },
       ],
     },
     {
       id: 7,
-      sectionName: "Support",
+      sectionName: 'Support',
       data: [
         {
           id: 0,
-          ques: "How can I contact technical support if I face any problems?",
-          ans: "You get 24x7 technical support for issues related to login, sessions, projects, or course materials.",
+          ques: 'How can I contact technical support if I face any problems?',
+          ans: 'You get 24x7 technical support for issues related to login, sessions, projects, or course materials.',
           open: true,
         },
         {
           id: 1,
-          ques: "Is there a discussion forum or community for learners?",
-          ans: "Yes, learners get a personalized app to reach mentors directly and discuss doubts with peers.",
+          ques: 'Is there a discussion forum or community for learners?',
+          ans: 'Yes, learners get a personalized app to reach mentors directly and discuss doubts with peers.',
           open: false,
         },
         {
           id: 2,
-          ques: "How long will I get job referrals?",
-          ans: "A learner can avail themselves of continuous job referrals across 350+ industry partners after course completion.",
+          ques: 'How long will I get job referrals?',
+          ans: 'A learner can avail themselves of continuous job referrals across 350+ industry partners after course completion.',
           open: false,
         },
       ],
@@ -676,7 +675,7 @@ const NewDSA = ({ DSADataJson }) => {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
-          courseId={"ads-genai-master"}
+          courseId={'ads-genai-master'}
         />
         <AlumniCompanies
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
@@ -756,10 +755,10 @@ const NewDSA = ({ DSADataJson }) => {
           Admission="Admission Process"
           Content="Our 3-step admission process clearly guides you through checking your eligibility, selecting the right course via expert counselling, and smoothly completing your enrollment. It's designed for simplicity and clarity."
           highlight={[
-            "3-step admission process",
-            "eligibility",
-            "counselling",
-            "enrollment",
+            '3-step admission process',
+            'eligibility',
+            'counselling',
+            'enrollment',
           ]}
           first="Evaluation Call"
           second="Screening Call"
@@ -790,7 +789,7 @@ const NewDSA = ({ DSADataJson }) => {
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/NewDataScienceOneData");
+  const module = await import('../../Data/NewDataScienceOneData');
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>
