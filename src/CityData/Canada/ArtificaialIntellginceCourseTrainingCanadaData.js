@@ -852,11 +852,12 @@ export const AIcanadaCourseData = [
       'Learnbay’s artificial intelligence courses include not one but multiple IBM certifications on completing distinct modules. You will receive 1 to 8 certificates depending on the course you select. (Refer to the respective course section for more information).',
     CertificationBot2:
       "Additionally, you'll be issued an IBM project experience certificate upon completing your capstone projects. Our strong partnership with IBM and MNCs has helped countless students in propelling their careers in Artificial Intelligence and machine learning.",
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleHead1: 'Programming Classes:',
     ModuleBot1:
       "We’ve added Module 0 of python programming classes specialized for non-technical learners. All of our AI courses are open to non-coders. You'll go from being a complete novice to an expert in Artificial Intelligence with this course.",
@@ -891,7 +892,7 @@ export const AIcanadaCourseData = [
     JobBot1:
       'Learnbay career coaches help students in developing impressive portfolios as well as refer their profiles to other renowned companies. They ensure you get interviews in top Canadian firms. Besides this, you’ll also be provided with multiple mock interviews for AI and ML positions to help you in facing real-world interviews.',
     JobBot2:
-      'In our Placement Assistance program, you will receive a full refund of your AI course fee in case you are unable to find a relevant job within 6 to 7 months after the course completion.',
+      'In our Placement Assistance program, you will receive a full refund of your AI course fee in case you are unable to find a relevant job within 13 months after the course completion.',
     JobHead2: 'Scope of  Artificial Intelligence in Canada:',
     JobBot3:
       "An Artificial Intelligence (AI) field of computer science is concerned with creating machines that are capable of performing certain human-like tasks. It is replacing humans' grunt work, saving big businesses billions of dollars each year. Contrarily, many Canadian IT firms are built on AI and ML. Artificial Intelligence appears to have an endless capacity for improving and simplifying jobs performed by humans, such as speech recognition and business management processing. And it's only becoming smarter, faster, and better.",

@@ -628,6 +628,7 @@ export default function Home() {
               src={MLcanadaCourseData[0].src}
               src22={MLcanadaCourseData[0].src22}
               src33={MLcanadaCourseData[0].src33}
+              src44={MLcanadaCourseData[0].src44}
               ModuleHead1={MLcanadaCourseData[0].ModuleHead1}
               ModuleBot1={MLcanadaCourseData[0].ModuleBot1}
               ModuleBot2={MLcanadaCourseData[0].ModuleBot2}

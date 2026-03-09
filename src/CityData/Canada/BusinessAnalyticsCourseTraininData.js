@@ -475,7 +475,7 @@ export const BAcanadaCourseData = [
             id: 3,
             ques: 'What’s the duration of the Business Analytics Course in Canada?',
             //About Data Science
-            ans: `The duration of the Business Analytics course training in hyderabad is 8-9 months, including weekend and weekday batches.`,
+            ans: `The Duration of the business analytics course in Canada is 6 months`,
             open: false,
           },
           {
@@ -499,18 +499,13 @@ export const BAcanadaCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for the Business Analytics Program in Canada?',
-            ans: `The total program fee for the Business Analytics Program is INR  1,20,000/- inclusive of GST.`,
+            ans: `The total program fee for the Business Analytics Program in Canada is INR 1,20,000/- exclusive of GST.`,
             open: true,
           },
           {
             id: 1,
             ques: 'Can I pay in installments for INR 1,20,000/-?',
-            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
-            linkText1:
-              ' Please check with our sales team to know more +917795687988 ',
-            link1: 'tel:+917795687988',
-            link: true,
-            open: false,
+            ans: 'Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip. ',
           },
           {
             id: 2,
@@ -567,7 +562,7 @@ export const BAcanadaCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion.`,
+            ans: `Upon successful completion of the Business Analytics Course in Canada, you will receive 3 certifications, two from IBM and one from IIT Patna.`,
             open: true,
           },
         ],
@@ -673,11 +668,12 @@ export const BAcanadaCourseData = [
       'Learnbay has established partnerships for all its data science and business analytics courses. Students will be issued an IBM certificate on successful completion of the business analytics course with placement. To pass the certification process, it is important to pay close attention and complete all assignments and case studies on time.',
     CertificationBot2:
       'As a result, employers in Canada will notice your IBM accreditation and consider you for open positions in business analytics jobs. We also have partnered with major tech giants in order to promote the talents of our business analytics students.',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleHead1:
       'What is the syllabus for this business analytics training course?',
     ModuleHead2: 'Support for non-programmers:',

@@ -824,10 +824,11 @@ export const MLcanadaCourseData = [
     CertificationBot1:
       'Learnbay has made a collaboration with IBM to provide students with all-inclusive machine learning modules. After finishing the professional machine learning course, you will be provided the course completion IBM certificate. Overall, you will receive 6 certificates for successfully completing different modules of artificial intelligence and machine learning courses. The IBM project experience certificate is the most crucial one, which will give weight to your portfolio and get you shortlisted instantly.',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
       'Learnbay’s IBM machine learning course provides a comprehensive journey in Machine Learning and artificial intelligence. It covers topics such as regression algorithms, decision tree methods, and clustering techniques. Our artificial intelligence and machine learning course gives an equal emphasis to theoretical foundations and practical applications of these algorithms so that you can understand the mechanics behind each method & algorithm. The Machine Learning course in Canada is a 13 months training program that covers the essential foundational material of intelligent systems from an interdisciplinary perspective and provides exposure to real-world machine learning applications.',
     ModuleHead2: 'Module 0 : ',

@@ -701,7 +701,7 @@ export const DataSciencecanadaCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited data science certification after course completion?',
-            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM, the Gen AI Certification from IBM, and the Capstone Project Certification. For some advanced and Master Programs, there will also be additional IBM certifications.`,
+            ans: `Yes, you will receive 3 to 4 certifications: the Course Completion Certification from IBM, the Gen AI Certification from IBM, and the Capstone Project Certification. For some advanced and Master Programs, there will also be additional IBM certifications. `,
             open: true,
           },
         ],
@@ -833,9 +833,9 @@ export const DataSciencecanadaCourseData = [
       'You can earn 1 to 8 certificates depending on your course. To learn more about micro-skills certificates, refer to the respective course syllabus.',
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    // src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     ModuleHead1:
       'What does the module of the Learnbay data science course in Canada include?',
     ModuleBot1:
