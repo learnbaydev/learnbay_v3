@@ -434,7 +434,7 @@ export default function Home() {
           firstTopPara="Machine Learning Course For Experienced Tech Professionals"
           firstToparaImg="Training In Chennai"
           idss="YWxTtvb3x-U"
-          ibmOnly={true}
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={MachineLearningChennaiCourseData[0].secondSection}
