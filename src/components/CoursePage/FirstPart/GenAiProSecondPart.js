@@ -27,8 +27,6 @@ const GenAiProSecondPart = ({
   FAQNewData,
   hideDownloadButton,
 }) => {
-  // console.log(popupData);
-
   const pdfUrl =
     'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Developer_Program_For_Professionals.pdf';
   return (

@@ -51,7 +51,6 @@ function FAQNew({ FAQNewData, bAnalystAbout }) {
         <div className={styles.courses}>
           <div className={styles.listPanel}>
             {FAQNewData.map((data, index) => {
-              console.log({ data });
               return (
                 <span
                   onClick={() => {
@@ -79,11 +78,10 @@ function FAQNew({ FAQNewData, bAnalystAbout }) {
             const isActive = dataLoop.find(
               (item) => item.title === sectionName
             )?.value;
-            console.log('isActive', isActive);
+
             return isActive ? (
               <div className={styles.gridPanel} key={index}>
                 <FAQ FaqData={data} />
-                {console.log('===>', data)}
               </div>
             ) : (
               ''

@@ -1,8 +1,8 @@
-import { useCallback, useEffect, useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import styles from "./Popup.module.css";
-import PopupContent from "../Global/PopupContent/PopupContent";
+import { useCallback, useEffect, useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import styles from './Popup.module.css';
+import PopupContent from '../Global/PopupContent/PopupContent';
 
 const Popup = ({ message, onClose }) => {
   return (
@@ -117,7 +117,7 @@ const PopupNew = ({ message, onClose }) => {
           <div className={styles.gradientDiv}>
             <div className={styles.wrapper}>
               <p className={styles.newbatch}>
-                Learn GenAI from Industry Mentors{" "}
+                Learn GenAI from Industry Mentors{' '}
               </p>
               {/* <p className={styles.orange}>
                 <p className={styles.violet}> - </p> Up to{" "}
@@ -219,15 +219,14 @@ const PopupWrapper = () => {
 
   useEffect(() => {
     // Check if the popup has already been shown for the session
-    const hasSeenPopup = sessionStorage.getItem("hasSeenPopup");
+    const hasSeenPopup = sessionStorage.getItem('hasSeenPopup');
 
     if (!hasSeenPopup) {
       // Show the popup if the user hasn't seen it yet during this session
       setPopupVisible(true);
 
       // Set a flag in sessionStorage to mark that the user has seen the popup
-      sessionStorage.setItem("hasSeenPopup", "true");
-      console.log(`User has seen the popup: ${!hasSeenPopup}`);
+      sessionStorage.setItem('hasSeenPopup', 'true');
     }
   }, []);
 

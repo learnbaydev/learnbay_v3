@@ -46,19 +46,6 @@ const SecondPart = ({
   projectSection,
   FAQNewData,
 }) => {
-  // const emiPopupProps = {
-  //   emiType: 'No Cost EMI',
-  //   duration1: '18 months',
-  //   totalAmount1: '₹2,50,000',
-  //   monthlyPayment1: '₹16,389',
-  //   greenDown1: 'Standard Interest Rates Applicable',
-  //   duration2: '24 months',
-  //   totalAmount2: '₹2,50,000',
-  //   monthlyPayment2: '₹12,292',
-  //   greenDown2: 'Another Green Down Text',
-  // };
-  // console.log(popupData);
-
   const pdfUrl =
     'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf';
   return (

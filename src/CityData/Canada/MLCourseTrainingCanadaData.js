@@ -549,8 +549,8 @@ export const MLcanadaCourseData = [
             ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
         
             Classes will be conducted on weekdays and weekend batches.
-            Weekday batch - 9.5 months
-               Monday to Friday - 2 hours/day
+            Weekday batch - 13 months
+            Monday to Friday - 2 hours/day
             Weekend batch -11 months
             Saturday & Sunday - 3.5 hours/day`,
             open: false,
@@ -798,7 +798,7 @@ export const MLcanadaCourseData = [
     ProgramBot3:
       'Our Machine learning course, co-powered by IBM, is taught by PRODUCT Based Companies machine learning experts via live interactive sessions. They are always available to solve your queries with highly personalized attention. Students will learn about real-world machine learning algorithms and walk away with ML projects that they can implement on their own.',
     ProgramBot31:
-      "Learnbay has designed this course along with the industry's leading professionals, who assisted us in developing a program that's understandable to all. Our experts have also compiled a collection of AI and ML tools along with practical examples based on the latest developments in machine learning. This 9.5-month machine learning course is both flexible and affordable for everyone.",
+      "Learnbay has designed this course along with the industry's leading professionals, who assisted us in developing a program that's understandable to all. Our experts have also compiled a collection of AI and ML tools along with practical examples based on the latest developments in machine learning. This 13 months machine learning course is both flexible and affordable for everyone.",
     ProgramBot32:
       'Learn more about Artificial Intelligence and Machine Learning Training Program by Learnbay in Canada.',
     DomainHead1: 'Why Domain Specialization?',
@@ -829,7 +829,7 @@ export const MLcanadaCourseData = [
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     ModuleBot1:
-      'Learnbay’s IBM machine learning course provides a comprehensive journey in Machine Learning and artificial intelligence. It covers topics such as regression algorithms, decision tree methods, and clustering techniques. Our artificial intelligence and machine learning course gives an equal emphasis to theoretical foundations and practical applications of these algorithms so that you can understand the mechanics behind each method & algorithm. The Machine Learning course in Canada is a 9.5-month training program that covers the essential foundational material of intelligent systems from an interdisciplinary perspective and provides exposure to real-world machine learning applications.',
+      'Learnbay’s IBM machine learning course provides a comprehensive journey in Machine Learning and artificial intelligence. It covers topics such as regression algorithms, decision tree methods, and clustering techniques. Our artificial intelligence and machine learning course gives an equal emphasis to theoretical foundations and practical applications of these algorithms so that you can understand the mechanics behind each method & algorithm. The Machine Learning course in Canada is a 13 months training program that covers the essential foundational material of intelligent systems from an interdisciplinary perspective and provides exposure to real-world machine learning applications.',
     ModuleHead2: 'Module 0 : ',
     ModuleBot3:
       'Programming is the basic skill you need in the machine learning field. Students are expected to have some familiarity with the Basics of Programming. As a result, we have launched Module 0 in our IBM machine learning course for non-coders. Students will be given special access to programming classes in order to keep pace with the need of each and every course. Apart from that, we arrange exclusive hackathons so that student can self-assess their growing coding abilities and improve the same accordingly.',

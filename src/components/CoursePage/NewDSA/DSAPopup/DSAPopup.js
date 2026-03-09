@@ -1,9 +1,9 @@
-"use client";
-import { useCallback, useEffect, useState } from "react";
-import Image from "next/image";
-import styles from "./DSAPopup.module.css";
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import { getDSABookingSoonDate } from "@/Util/getDSABatchData";
+'use client';
+import { useCallback, useEffect, useState } from 'react';
+import Image from 'next/image';
+import styles from './DSAPopup.module.css';
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
+import { getDSABookingSoonDate } from '@/Util/getDSABatchData';
 
 const DSAPopup = ({ message, onClose }) => {
   const [popups, setPopups] = useState(false);
@@ -14,21 +14,19 @@ const DSAPopup = ({ message, onClose }) => {
   const leftPoints = [
     {
       id: 1,
-      title: "Course Structure",
+      title: 'Course Structure',
     },
     {
       id: 2,
-      title: "Mentor guidance",
+      title: 'Mentor guidance',
     },
     {
       id: 3,
-      title: "Scholarship Opportunity",
+      title: 'Scholarship Opportunity',
     },
   ];
 
   const bookingDate = getDSABookingSoonDate();
-  //testing
-  // console.log(getDSABookingSoonDate(new Date("2023-03-24")));
 
   return (
     <div className={styles.popupOverlay}>
@@ -129,12 +127,12 @@ const DSAPopupWrapper = () => {
   const [isPopupVisible, setPopupVisible] = useState(false);
 
   useEffect(() => {
-    if (!sessionStorage.getItem("hasSeenPopup")) {
+    if (!sessionStorage.getItem('hasSeenPopup')) {
       // Show the popup if the user hasn't seen it yet during this session
       setPopupVisible(true);
 
       // Set a flag in sessionStorage to mark that the user has seen the popup
-      sessionStorage.setItem("hasSeenPopup", "true");
+      sessionStorage.setItem('hasSeenPopup', 'true');
     }
   }, []);
 

@@ -78,15 +78,15 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Business Analyst Certification Course in Mumbai</title>
+        <title>Business Analytics Course Training in Mumbai - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll now in Learnbay's Business Analyst Program in Mumbai For Top-notch Training, Live Projects, IBM Certification and Best Career Placement Assistance."
+          content="Master Business Analytics in Mumbai with Learnbay. Get IBM & IIT Patna certification. 200+ hours of training in GenAI-infused modules. Designed for working pros"
         />
         <meta
           name="keywords"
-          content="Enroll now in Learnbay's Business Analyst Program in Mumbai For Top-notch Training, Live Projects, IBM Certification and Best Career Placement Assistance."
+          content="business analytics course in Mumbai, business analyst training in Mumbai, business analytics certification Mumbai, best business analytics institute in Mumbai, business analytics course with placement Mumbai, IBM certified business analytics course"
         />
         <meta
           property="og:url"

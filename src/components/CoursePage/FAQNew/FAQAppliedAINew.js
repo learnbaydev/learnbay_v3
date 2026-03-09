@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import styles from "./FAQNew.module.css";
-import FAQ from "../FAQNew/FAQApplied1";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
-import { Autoplay, Navigation } from "swiper";
+import React, { useState } from 'react';
+import styles from './FAQNew.module.css';
+import FAQ from '../FAQNew/FAQApplied1';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+import { Autoplay, Navigation } from 'swiper';
 
 function FAQAppliedAINew({
   background,
@@ -16,20 +16,17 @@ function FAQAppliedAINew({
 }) {
   // const [mobile, setMobile] = useState(false);
   const [dataLoop, setDataLoop] = useState([
-    { title: "Course Related", value: true },
-    { title: "Domain Electives", value: false },
-    { title: "Payments and Scholarships", value: false },
-    { title: "PROJECTS & AI Co-Lab ", value: false },
-    { title: "Certifications", value: false },
-    { title: "Job Assistance", value: false },
-    { title: "Mentorship", value: false },
-    { title: "Support", value: false },
+    { title: 'Course Related', value: true },
+    { title: 'Domain Electives', value: false },
+    { title: 'Payments and Scholarships', value: false },
+    { title: 'PROJECTS & AI Co-Lab ', value: false },
+    { title: 'Certifications', value: false },
+    { title: 'Job Assistance', value: false },
+    { title: 'Mentorship', value: false },
+    { title: 'Support', value: false },
     // { title: "Eligiblity Criteria", value: false },
     // { title: "Generic Queries", value: false },
   ]);
-  {
-    console.log({ faq1 });
-  }
   const menuChange = (title, index) => {
     if (title === dataLoop[index].title) {
       setDataLoop([...dataLoop], (dataLoop[index].value = true));
@@ -47,14 +44,14 @@ function FAQAppliedAINew({
     <div className={styles.course} id="faqs">
       {toolsdynamic ? (
         <>
-          {" "}
+          {' '}
           <h4 className={styles.infop}>Applied AI Practitioner Course FAQs</h4>
         </>
       ) : DSAFresherFAQT ? (
         <h4 className={styles.infop}>FAQs for DSA Course [Freshers]</h4>
       ) : (
         <>
-          {" "}
+          {' '}
           <h4 className={styles.infop}>FAQs</h4>
         </>
       )}
@@ -75,9 +72,9 @@ function FAQAppliedAINew({
                   style={
                     dataLoop[data.id].value
                       ? {
-                          background: "white",
-                          color: "#000",
-                          borderLeft: "4px solid #2D9CD7",
+                          background: 'white',
+                          color: '#000',
+                          borderLeft: '4px solid #2D9CD7',
                         }
                       : {}
                   }
@@ -95,7 +92,7 @@ function FAQAppliedAINew({
                 <FAQ FAQNewAIData={data} />
               </div>
             ) : (
-              ""
+              ''
             );
           })}
         </div>
@@ -108,11 +105,11 @@ function FAQAppliedAINew({
             grabCursor={true}
             navigation={true}
             style={{
-              paddingLeft: "5px",
-              paddingRight: "5px",
-              overflow: "hidden",
-              "--swiper-navigation-color": "#0072BC",
-              "--swiper-navigation-size": "20px",
+              paddingLeft: '5px',
+              paddingRight: '5px',
+              overflow: 'hidden',
+              '--swiper-navigation-color': '#0072BC',
+              '--swiper-navigation-size': '20px',
             }}
             modules={[Autoplay, Navigation]}
             className="mySwiper"
@@ -127,19 +124,19 @@ function FAQAppliedAINew({
                     style={
                       dataLoop[index].value
                         ? {
-                            background: "#E1F1F566",
-                            color: "#0072BC",
-                            textAlign: "center",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
+                            background: '#E1F1F566',
+                            color: '#0072BC',
+                            textAlign: 'center',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
                           }
                         : {
-                            background: "none",
-                            textAlign: "center",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
+                            background: 'none',
+                            textAlign: 'center',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
                           }
                     }
                   >
@@ -157,7 +154,7 @@ function FAQAppliedAINew({
               <FAQ FAQNewAIData={data} />
             </div>
           ) : (
-            ""
+            ''
           );
         })}
       </div>

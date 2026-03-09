@@ -31,8 +31,6 @@ const GenAiMLeadersSecondPart = ({
   GenAIManagers,
   hideDownloadButton,
 }) => {
-  // console.log(popupData);
-
   const pdfUrl =
     'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Certification_for_Managers_and_Tech+Leaders.pdf';
   return (

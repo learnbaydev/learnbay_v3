@@ -128,7 +128,6 @@ export default function Home() {
   ];
 
   const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
-  // console.log(popupData);
 
   return (
     <>

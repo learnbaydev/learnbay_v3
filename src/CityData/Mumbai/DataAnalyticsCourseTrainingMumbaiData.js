@@ -426,7 +426,7 @@ export const DAMumbaiCourseData = [
           {
             id: 3,
             ques: 'What’s the duration of the Data Analytics Course in Mumbai?',
-            ans: `TThe duration of the data analytics course in Mumbai is 6 months. `,
+            ans: `The duration of the data analytics course in Mumbai is 6 months. `,
             open: false,
           },
           {
@@ -574,7 +574,7 @@ export const DAMumbaiCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion. `,
+            ans: `You will receive 3 certifications, two from IBM and one from IIT Patna.`,
             open: true,
           },
         ],
@@ -675,8 +675,9 @@ export const DAMumbaiCourseData = [
     CertificationBot2:
       'Due to the presence of the IBM Data Analytics Certificate in your Linkedin and other online job profiles, your profile becomes tagged for top-tire data analytics job profiles in Mumbai.',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleHead1:
       'What do you get under the Learnbay Data Analytics program in Mumbai?',
     ModuleHead4: 'Special Programming Classes',

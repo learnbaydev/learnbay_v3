@@ -43,27 +43,21 @@ export default function Home() {
     setPopups(true);
   };
   const [popupData, setPopupData] = useState([]);
-  // console.log(popupData);
   useEffect(() => {
-    // console.log("inside UseEFFect");
     const fetchPopup = async () => {
       const data = await fetch('/api/Popup/popupGenerate', {
         method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
-        // console.log(popData, "get data");
         if (popData == []) {
           setPopupData([]);
         }
 
         popData.map((data, i) => {
-          // console.log(data);
           data.page.map((popupData, i) => {
-            // console.log(popData);
             if (popupData === 'Full Stack Developer course') {
               setPopupData(data);
-              // console.log(popupData);
               return;
             }
           });

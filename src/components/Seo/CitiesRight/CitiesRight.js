@@ -6585,7 +6585,6 @@ const CitiesRight = ({
             <h2 className={styles.pHead}>{ProgramHead2}</h2>
             <p className={styles.pp}>{ProgramBot1}</p>
             <p className={styles.pp}>{ProgramBot2}</p>
-
             <h2 className={styles.pHead}>{ProgramHead3}</h2>
             <p className={styles.pp}>{ProgramBot3}</p>
             <p className={styles.pp}>{ProgramBot31}</p>
@@ -6602,9 +6601,7 @@ const CitiesRight = ({
             <p className={styles.pp}>{ProgramBot51}</p>
             <h2 className={styles.pHead}>{ProgramHead6}</h2>
             <p className={styles.pp}>{ProgramBot6}</p>
-
             <div className={styles.pp}>{listitem1}</div>
-
             <div className={styles.pp}>{ProgramBot7}</div>
             <div className={styles.pp}>{Programvideo}</div>
             {/* <div className={styles.pp}>{GoogleMaps}</div> */}

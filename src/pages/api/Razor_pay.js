@@ -1,10 +1,10 @@
 //razorpay.js
 import Razorpay from 'razorpay';
-import shortid from "shortid";
+import shortid from 'shortid';
 
 export default async function handler(req, res) {
   const { totalPrice } = req.body;
-  if (req.method === "POST") {
+  if (req.method === 'POST') {
     const razorpay = new Razorpay({
       key_id: process.env.RAZORPAY_KEY,
       key_secret: process.env.RAZORPAY_SECRET,
@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
     const payment_capture = 1;
     const amount = parseInt(totalPrice);
-    const currency = "INR";
+    const currency = 'INR';
     const options = {
       amount: (amount * 100).toString(),
       currency,
@@ -28,7 +28,6 @@ export default async function handler(req, res) {
         amount: response.amount,
       });
     } catch (err) {
-      //console.log(err);
       res.status(400).json(err);
     }
   } else {
