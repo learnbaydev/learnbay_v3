@@ -1,9 +1,9 @@
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
 
-import Navbar from "@/components/Global/Navbar/Navbar";
-import DSCourseFirstPart from "@/components/CoursePage/FirstPart/DSCourseFirstPart";
-import DSCourseSecondPart from "@/components/CoursePage/FirstPart/DSCourseSecondPart";
+import Navbar from '@/components/Global/Navbar/Navbar';
+import DSCourseFirstPart from '@/components/CoursePage/FirstPart/DSCourseFirstPart';
+import DSCourseSecondPart from '@/components/CoursePage/FirstPart/DSCourseSecondPart';
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -11,7 +11,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best Data Science Courses with Certification [2025] </title>
+        <title>Best Data Science Courses with Certification [2026] </title>
         <meta
           name="description"
           content="Enroll in the best data science courses to elevate your skills. Select from foundation to advanced courses according to your career requirement. Join Now!!"
@@ -61,7 +61,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../Data/DataScinceCourseOnly");
+  const data = await import('../Data/DataScinceCourseOnly');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }
