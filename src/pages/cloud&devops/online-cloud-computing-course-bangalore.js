@@ -146,6 +146,7 @@ export default function Home() {
           firstHeading="Best Online Cloud Computing Course in Bangalore"
           firstTopPara="Expand beyond technology"
           cityParaCont="Assemble an ambitious career and certify your tech-driven skills with an industry-specific cloud computing course in Bangalore. Learnbay’s ‘Cloud & DevOps Certification Program’ is here to lift your coding efficiency with better gains. Join us today to modernize your tech career with IBM & Microsoft certifications."
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={CloudComputingTrainingInBangalore[0].secondSection}

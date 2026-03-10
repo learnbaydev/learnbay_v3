@@ -391,6 +391,7 @@ function FirstSection({
           {/* DESKTOP COLLAB */}
           <div className={styles.Desktop}>
             <p className={styles.ptop}>In Collaboration With</p>
+
             <div className={styles.ImageBlock}>{renderCollabImage(false)}</div>
           </div>
 

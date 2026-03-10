@@ -523,6 +523,7 @@ Interview Preparation"
           firstHeading="  Master’s Degree Program in Data Science and AI          "
           firstTopPara="Learnbay Excelvarsity          "
           cityParaCont="Drive global-level career excellence with our data science master’s degree in USA. Delve deeper into data-driven insights with Learnbay’s Excelvarsity. Our GenAI-enrich syllabus supports 360-degree career building with prime job offers. Our collaboration with Woolf (Master’s degree) and IBM (Project certification) unlocks potential offers.           "
+          woolfOnly={true}
         />
         <SecondSection
           SecondSectionData={masterdegreeUSACourseData[0].secondSection}

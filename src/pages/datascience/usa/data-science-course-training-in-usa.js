@@ -430,6 +430,7 @@ export default function Home() {
           firstHeading="Best Data Science Courses in USA          "
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Escalate your data science career with our premium training programs in the USA. Our comprehensively engineered courses will help you acquire marketable data science skills with validation from IBM . Get ready to equip yourself with job-oriented expertise via an AI and Data Science course in USA.           "
+          ibmOnly={true}
         />
         <SecondSection SecondSectionData={DSUSACourseData[0].secondSection} />
         {/* <Testimonial

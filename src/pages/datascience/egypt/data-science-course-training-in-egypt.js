@@ -427,6 +427,7 @@ export default function Home() {
           firstHeading="Best Online Data Science Course in Egypt "
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Enrich your career with essential data science skills to thrive and competitive success. Join Learnbay’s data science course in Egypt to dive deeper into the digital world. Join our GenAI-rich courses with IBM certifications to re-energize your careers with premium job offers.           "
+          ibmOnly={true}
         />
         <SecondSection SecondSectionData={DSEgyptCourseData[0].secondSection} />
         <Realstory />

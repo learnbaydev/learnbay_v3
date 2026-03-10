@@ -429,6 +429,7 @@ Group of 4+: Max 10% discount"
           firstHeading="Best Online Data Science Course in Nagpur          "
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont=" Stay ahead in your career by joining the leading data science course in Nagpur. Learn from industry experts, get hands-on experience on the latest tools, and earn certificates from IBM."
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DSnagpurCourseData[0].secondSection}

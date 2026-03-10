@@ -416,6 +416,7 @@ export default function Home() {
           firstHeading="Best Data Science Courses in Nigeria"
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Get into the world of digital complexities with the ease of data-driven insights. Enroll in Learnbay’s data science course in Nigeria to kick-start an assured career transition. Join us today to unlock untapped career horizons in data science and gain attractive perks.           "
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DSNigeriaCourseData[0].secondSection}

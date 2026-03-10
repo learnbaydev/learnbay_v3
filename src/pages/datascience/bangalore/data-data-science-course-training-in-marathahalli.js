@@ -426,6 +426,7 @@ HR"
           firstHeading="Learnbay’s Best Data Science Course in Marathahalli          "
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Master digital-friendly skills to propel global-scale success via Learnbay’s data science course in Marathahalli. Join us today to craft an invincible career path in data science via our Generative AI-enriched modules, real-time projects, and global certifications (IBM).           "
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={DSMarathCourseData[0].secondSection}

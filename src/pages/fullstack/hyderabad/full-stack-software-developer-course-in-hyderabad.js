@@ -478,6 +478,7 @@ export default function Home() {
           firstToparaImg=" To Achieve Your Dream Job"
           firstTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
           idss="YWxTtvb3x-U"
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={FullStackHyderabadCourseData[0].secondSection}

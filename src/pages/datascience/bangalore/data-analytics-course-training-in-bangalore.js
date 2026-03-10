@@ -502,6 +502,7 @@ export default function Home() {
           firstHeading="Online Data Analytics"
           firstTopPara="IBM Certified Industry-paced Training"
           cityParaCont="Escalate career success metrics in today’s digital era via an industry-paced training program in Bangalore. Learnbay’s data analytics course in Bangalore will provide you with valuable and timeless data skills. Our data analytics institute in Bangalore offers a program ideal for non-tech professionals. Plus, our alliance with IBM & Microsoft is here to equip you with exciting career gains.           "
+          iitptnaandms={true}
         />
         <SecondSection
           SecondSectionData={DABangaloreCourseData[0].secondSection}

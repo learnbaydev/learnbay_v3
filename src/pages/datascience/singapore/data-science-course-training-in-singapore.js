@@ -221,6 +221,7 @@ export default function Home() {
           firstHeading="Best Online Data Science Course in Singapore       "
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Demonstrate your expertise in real-world business projects via our industry-centric data science training in Singapore. Our custom-fit course syllabus with structured modules helps you gain in-demand skills. Get ready and lock your seat with us to unleash your career potential on a global scale.           "
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DSSingaporeCourseData[0].secondSection}

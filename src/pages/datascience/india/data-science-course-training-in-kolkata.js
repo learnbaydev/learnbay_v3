@@ -427,6 +427,7 @@ HR"
           firstHeading="Best Online Data Science Course in Kolkata         "
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Unleash your career aspirations with our industry-specific data science course in Kolkata. Explore a new norm of the digital world and the career growth prospects it brings via our cutting-edge Generative AI-integrated course modules. Join Learnbay to gain proven data-driven skills, followed by IBM certifications.           "
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DSKolkotaCourseData[0].secondSection}

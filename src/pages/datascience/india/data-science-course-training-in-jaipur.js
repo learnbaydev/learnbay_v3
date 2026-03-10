@@ -437,6 +437,7 @@ Group of 4+: Max 10% discount"
           firstHeading="Best Online Data Science Course in Jaipur          "
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Elevate your career with Learnbay’s top-rated online data science training in Jaipur. Our GenAI AI-rich course modules equip you with real-time skills via leading-edge training, live projects, and industry-valued certifications.          "
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DSJaipurCourseData[0].secondSection}

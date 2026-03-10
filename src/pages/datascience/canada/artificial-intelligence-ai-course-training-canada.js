@@ -455,6 +455,7 @@ export default function Home() {
           firstHeading="Artificial Intelligence(Ai) Course Training In Canada"
           firstTopPara="Job-Assured Artificial Intelligence Training  Program"
           cityParaCont="Become a successful data science manager/leader within 11 to 13 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={AIcanadaCourseData[0].secondSection}

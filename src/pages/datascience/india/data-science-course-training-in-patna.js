@@ -431,6 +431,7 @@ Group of 4+: Max 10% discount"
           cityParaCont="Boost your career with Learnbay’s highly acclaimed online data science training in Patna. Our GenAI AI-rich course modules will empower you with real-time skills through advanced training, live projects, and industry-valued certifications.
 
           "
+          ibmOnly={true}
         />
         <SecondSection SecondSectionData={DSPatnaCourseData[0].secondSection} />
         <div className={styles.Realstorysec}>

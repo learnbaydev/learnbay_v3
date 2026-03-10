@@ -428,6 +428,7 @@ export default function Home() {
           firstHeading="Best Online Data Science Course in UK           "
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Learn insightful uses of data science in real-world business problems and gain in-depth knowledge of trending tools. Learnbay’s data science course in UK presents an open learning setup to escalate your career limitlessly. Validate your skills with a GenAI-rich syllabus and global certifications.           "
+          ibmOnly={true}
         />
         <SecondSection SecondSectionData={DSUKCourseData[0].secondSection} />
         {/* <Testimonial

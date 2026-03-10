@@ -429,6 +429,7 @@ export default function Home() {
           firstTopPara="First-Track Industrial Training For Early Professionals"
           firstToparaImg="For Professionals"
           idss="y_0IdhFKJKM"
+          iitptnaandms={true}
         />
         <SecondSection
           SecondSectionData={DataAnalyticsHyderabadCourseData[0].secondSection}

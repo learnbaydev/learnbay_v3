@@ -431,6 +431,7 @@ Group of 4+: Max 10% discount"
           firstHeading="Best Online Data Science Course in Kochi          "
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont=" Accelerate your career success metrics via upskilling with Learnbay’s all-inclusive data science course in Kochi. Enrol in our training programs to learn and practice Generative AI-rich tools, followed by 12+ real-time projects. Plus, propel global-scale success via IBM  certifications with proven gains.           "
+          ibmOnly={true}
         />
         <SecondSection SecondSectionData={DSKochiCourseData[0].secondSection} />
         <div className={styles.Realstorysec}>

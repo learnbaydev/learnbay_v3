@@ -216,6 +216,7 @@ export default function Home() {
           firstHeading="Các khóa học về khoa học dữ liệu tốt nhất tại Việt Nam"
           firstTopPara="Sẵn sàng cho công việc cơ bản và nâng cao"
           cityParaCont="Bắt tay vào hành trình nâng cao kỹ năng với tốc độ phát triển nghề nghiệp khoa học dữ liệu nhanh chóng tại Việt Nam. Khóa học khoa học dữ liệu của Learnbay tại Việt Nam cung cấp giáo trình giàu trí tuệ nhân tạo Gen AI cho quá trình chuyển đổi nghề nghiệp tiên tiến. Hãy đăng ký ngay hôm nay để trau dồi kỹ năng của bạn đồng bộ với sự thay đổi kỹ thuật số hiện tại."
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DSVietnamCourseData[0].secondSection}

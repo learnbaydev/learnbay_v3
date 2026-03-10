@@ -405,6 +405,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Data Science Course in Hyderabad"
           firstTopPara="Foundational and Advance Job-ready Program"
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DataScienceHyderabadCourseData[0].secondSection}

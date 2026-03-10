@@ -425,6 +425,7 @@ HR"
           firstHeading="Best Online Data Science Course in Noida          "
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Leap forward to craft a global-level data science career with incredible job offers with leading MNCs. Join Learnbay’s top-tier data science course in Noida to equip your career with Generative AI-driven skills validated by IBM certifications. Enroll now to gain project-based learning with ultimate career gains.           "
+          ibmOnly={true}
         />
         <SecondSection SecondSectionData={DSNoidaCourseData[0].secondSection} />
         <div className={styles.Realstorysec}>

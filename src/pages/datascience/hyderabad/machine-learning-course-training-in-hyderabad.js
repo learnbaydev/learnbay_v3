@@ -449,6 +449,7 @@ export default function Home() {
           firstToparaImg="Training In Hyderabad"
           firstTopPara="Machine Learning Course For Experienced Tech Professionals"
           idss="YWxTtvb3x-U"
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={

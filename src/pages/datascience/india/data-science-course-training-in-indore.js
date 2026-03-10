@@ -428,6 +428,7 @@ HR"
           firstHeading="Data Science Course in Indore          "
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Gain global-scale excellence via Learnbay's broadly designed data science course in Indore. Enroll today to equip yourself with proven data-driven skills via real-time learning. Also, receive global certifications from IBM to accelerate your career growth prospects in today's tech age.          "
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DSinodreCourseData[0].secondSection}

@@ -517,6 +517,7 @@ export default function Home() {
           firstHeading="Full-Stack Software Developer Course In Canada"
           firstTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
           cityParaCont="Enroll in the best Job-ready full-stack software development course in Canada. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve. "
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={FScanadaCourseData[0].secondSection}

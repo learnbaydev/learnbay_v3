@@ -497,6 +497,7 @@ export default function Home() {
           firstHeading="Business Analytics Course"
           firstTopPara="Job-ready Business Analytics Program with Live Industrial Projects"
           cityParaCont="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future."
+          iitptnaandms={true}
         />
         <SecondSection
           SecondSectionData={BABangaloreCourseData[0].secondSection}

@@ -426,6 +426,7 @@ HR"
           firstHeading="Best Online Data Science Course in Coimbatore          "
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Escalate your career success metrics via our leading-edge data science course in Coimbatore. Learn from eminent industry experts and gain hands-on learning with tools followed by global certifications from IBM . Join Learnbay to advance your career in indisputable data science.           "
+          ibmOnly={true}
         />
         <SecondSection SecondSectionData={DSCoimbCourseData[0].secondSection} />
         <div className={styles.Realstorysec}>

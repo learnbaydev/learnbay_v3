@@ -524,6 +524,7 @@ export default function Home() {
           firstHeading="Best Data Science Courses in Bangalore"
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Enhance your Data Science career with the best Data Science courses in Bangalore with IBM Certification. Our advanced Data Science training will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DSBangaloreCourseData[0].secondSection}
