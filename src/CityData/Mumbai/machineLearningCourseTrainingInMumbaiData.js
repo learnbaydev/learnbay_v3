@@ -834,6 +834,7 @@ export const MLMumbaiCourseData = [
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleHead1:
       'How do Learnbay Machine Learning Course modules become highly industry competent?',
     ModuleBot1:
