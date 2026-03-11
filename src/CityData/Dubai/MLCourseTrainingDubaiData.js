@@ -826,7 +826,7 @@ export const MLDubaiCourseData = [
     CertificationHead1: 'Multiple IBM Certifications',
     CertificationBot1:
       'The machine learning course in Dubai has an end-to-end collaboration with IBM. This machine learning course provides a total of 6 certificates for completing multiple ML skills, issued directly by IBM. Along with the machine learning course completion certificate and project certificate, you will get four additional certificates for different ML skills.',
-    src: 'hhttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src33:
