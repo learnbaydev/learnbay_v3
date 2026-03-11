@@ -409,7 +409,7 @@ export const DSVietnamCourseData = [
     CertificationBot1:
       'IBM, một tập đoàn Mỹ nổi tiếng với các sản phẩm trí tuệ nhân tạo thế hệ tiếp theo, dự báo phân tích và các dịch vụ bảo mật. Sự hiện diện hàng đầu của IBM trong lĩnh vực khoa học dữ liệu nâng cao giá trị phát triển kinh doanh. Do sự tăng đáng kể của sự uy tín của IBM trong ngành công nghệ, Learnbay tuyên bố sự liên minh của mình.',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',

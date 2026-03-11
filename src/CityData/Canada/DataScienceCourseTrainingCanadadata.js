@@ -832,7 +832,7 @@ export const DataSciencecanadaCourseData = [
     CertificationBot2:
       'You can earn 1 to 8 certificates depending on your course. To learn more about micro-skills certificates, refer to the respective course syllabus.',
     // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',

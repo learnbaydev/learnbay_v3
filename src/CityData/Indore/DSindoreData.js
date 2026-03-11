@@ -411,7 +411,7 @@ export const DSinodreCourseData = [
     CertificationBot5:
       'This certification states unique skill sets to help you stand out in the career race. When applying for top jobs, your professional credibility increases your power. Top high-profile MNCs are hiring data scientists as demand for data expertise increases globally.',
     // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',

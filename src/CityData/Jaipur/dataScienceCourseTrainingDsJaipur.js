@@ -409,7 +409,7 @@ export const DSJaipurCourseData = [
       'Obtaining a certificate accreditation allows you to develop skills aligned with current industry trends, enhancing the visibility of your resume on several job platforms. Major MNCs prioritize certificates that offer global visibility and help individuals distinguish themselves. This credential states specific skill sets that can set you apart in your dream job. Enhanced career reputation boosts your career impact and attracts top job offers.',
     CertificationBot5: '  ',
     // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',

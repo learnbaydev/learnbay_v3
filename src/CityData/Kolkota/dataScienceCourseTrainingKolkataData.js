@@ -406,7 +406,7 @@ export const DSKolkotaCourseData = [
       'Our alliance with top-notch industry leaders IBM unleashes an exciting way toward a definite career shift. Experts enrolling in our data science course in Kolkata will receive course completion and project certifications from IBM. Learning with our data scientist course in Kolkata unleashes a competitive career path with excellent growth options in your desirable field. Attesting these globally recognized certifications validates your skills and enriches your career.         ',
     CertificationBot4: '  ',
     // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',

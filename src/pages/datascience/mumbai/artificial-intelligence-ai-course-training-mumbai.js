@@ -542,6 +542,7 @@ export default function Home() {
               src={AIMumbaiCourseData[0].src}
               src22={AIMumbaiCourseData[0].src22}
               src33={AIMumbaiCourseData[0].src33}
+              src44={AIMumbaiCourseData[0].src44}
               ModuleBot1={AIMumbaiCourseData[0].ModuleBot1}
               ModuleBot2={AIMumbaiCourseData[0].ModuleBot2}
               ModuleHead1={AIMumbaiCourseData[0].ModuleHead1}

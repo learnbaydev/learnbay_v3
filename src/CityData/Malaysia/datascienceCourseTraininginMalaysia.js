@@ -440,7 +440,7 @@ export const DSMalaysiaCourseData = [
     CertificationBot1:
       'With every passing time, the business outlook keeps changing due to constant tech shifts globally. Firms from diverse fields take up many ways to cope with changes and easily tackle the odds. Thus, data literacy skills dominate the current global job market. Certifications are proven ways to cut down hurdles and thrive against rivals.         ',
     // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',

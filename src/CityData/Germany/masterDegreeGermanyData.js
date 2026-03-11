@@ -449,7 +449,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
     CertificationBot1:
       'Experts, enrolling in an MS in data science in Germany support global-level career-building with attractive gains. Successful completion of a master’s course will equip you with global certification and a degree.         ',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',

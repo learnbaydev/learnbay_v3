@@ -827,7 +827,7 @@ export const MLPuneCourseData = [
     CertificationBot2:
       'The students who completed the course and the projects get separate certificates for gaining different Machine Learning skills like Deep Learning, Machine Learning with Python, Tensorflow, capstone project certificates, and many more. The most important is IBM Machine Learning project completion certificates for two new capstone projects.',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
