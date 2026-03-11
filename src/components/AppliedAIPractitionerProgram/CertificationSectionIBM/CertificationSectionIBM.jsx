@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import React from "react";
-import Image from "next/image";
-import styles from "./CertificationSectionIBM.module.css";
+import React from 'react';
+import Image from 'next/image';
+import styles from './CertificationSectionIBM.module.css';
 
 export default function CertificationsSectionIBM() {
   return (
@@ -25,8 +25,8 @@ export default function CertificationsSectionIBM() {
           </div>
 
           <p className={styles.bodyText}>
-            Earn an industry-recognized{" "}
-            <span className={styles.highlightPrimary}>IBM Certification</span>{" "}
+            Earn an industry-recognized{' '}
+            <span className={styles.highlightPrimary}>IBM Certification</span>{' '}
             validating your expertise in enterprise-grade Data Science adn AI
             systems.
           </p>
@@ -35,7 +35,7 @@ export default function CertificationsSectionIBM() {
           <div className={styles.certificateFrame}>
             {/* Dummy image – replace with your actual certificate */}
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png"
+              src="ttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp"
               alt="Sample IIT Patna certificate"
               fill
               className={styles.certificateImage}

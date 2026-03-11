@@ -713,7 +713,7 @@ export const BAPuneCourseData = [
     CertificationBot2:
       'Learnbay is a one-stop solution for professional training in  Business analytics skills and tools. Our students in Pune receive IBM certificates for course completion. IBM certificates for Business analytics in a resume or portfolio add an extra mark and high skill to their profile. Learnbay Business analytics course training in Pune would make recruiters mark your profile with extra importance.',
     src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src: 'ttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:

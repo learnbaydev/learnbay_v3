@@ -626,7 +626,7 @@ export const BusinessAnalyticsChennaiCourseData = [
       "Having this credential on one's resume can help one land a job as a business analyst in the top paid MNC job profiles. Over the past 3 years, more than 10,000 candidates have been trained in a variety of Learnbay courses, and have secured rewarding careers in top startups and PRODUCT Based Companies companies. ",
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src: 'ttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     ModuleHead1: 'What will you learn in our IBM business analytics course?',
