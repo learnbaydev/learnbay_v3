@@ -1411,9 +1411,9 @@ export const DataScienceMumbaiCourseData = [
     CertificationHead3: 'Are certifications in data science worthwhile?',
     CertificationBot7:
       'The answer is yes if you pursue the right course. Having a data science certification gives you an advantage over other applicants during interviews and enables you to highlight your skills in various data science technologies.',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
+    // src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    // src33:
+    //   'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
