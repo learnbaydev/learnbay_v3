@@ -586,6 +586,7 @@ export default function Home() {
               src={AIPuneCourseData[0].src}
               src22={AIPuneCourseData[0].src22}
               src33={AIPuneCourseData[0].src33}
+              src44={AIPuneCourseData[0].src44}
               ModuleBot1={AIPuneCourseData[0].ModuleBot1}
               ModuleBot2={AIPuneCourseData[0].ModuleBot2}
               syllabush1={AIPuneCourseData[0].syllabush1}
