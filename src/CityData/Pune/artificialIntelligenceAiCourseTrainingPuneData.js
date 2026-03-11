@@ -859,6 +859,7 @@ Two AI Co-Lab Project Certificates
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
       'Learnbay Artificial intelligence training in Pune consists of 400hrs of hassle-free classes led by PRODUCT Based Companies experts. Our foundational and advanced program has around 200+ classes. Here you get 18+ AI modules and tools.',
     ModuleBot2:
