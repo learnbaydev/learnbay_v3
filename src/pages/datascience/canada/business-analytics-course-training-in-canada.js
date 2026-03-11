@@ -209,7 +209,7 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-            "@context": "https://schema.org",
+  "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
@@ -237,7 +237,7 @@ export default function Home() {
     "name": "What’s the duration of the Business Analytics Course in Canada?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The duration of the Business Analytics course training in hyderabad is 8-9 months, including weekend and weekday batches."
+      "text": "The Duration of the business analytics course in Canada is 6 months."
     }
   },{
     "@type": "Question",
@@ -258,14 +258,14 @@ export default function Home() {
     "name": "What is the total fee for the Business Analytics Program in Canada?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The total program fee for the Business Analytics Program is INR 1,20,000/- inclusive of GST."
+      "text": "The total program fee for the Business Analytics Program in Canada is INR 1,20,000/- exclusive of GST."
     }
   },{
     "@type": "Question",
     "name": "Can I pay in installments for INR 1,20,000/-?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more +917795687988"
+      "text": "Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip."
     }
   },{
     "@type": "Question",
@@ -300,7 +300,8 @@ export default function Home() {
     "name": "Is there any accredited certification after course completion?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion."
+      "text": "Upon successful completion of the Business Analytics Course in Canada, you will receive 3 certifications, two from IBM and one from IIT Patna.
+"
     }
   },{
     "@type": "Question",
@@ -360,7 +361,7 @@ export default function Home() {
     }
   }]
 }
-  }`,
+`,
           }}
         />
       </Head>

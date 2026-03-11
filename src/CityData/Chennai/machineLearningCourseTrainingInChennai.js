@@ -690,7 +690,11 @@ export const MachineLearningChennaiCourseData = [
           {
             id: 1,
             ques: ' How many real-time projects will be there?',
-            ans: `There will be a total of 60+ real-time projects in machine learning from different domains. Click here to download the list of the projects.`,
+            ans: `There will be a total of 60+ real-time projects in machine learning from different domains.`,
+            linkText1: ' Click here to download the list of the projects.',
+            link1:
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf',
+            link: true,
             open: true,
           },
           {
