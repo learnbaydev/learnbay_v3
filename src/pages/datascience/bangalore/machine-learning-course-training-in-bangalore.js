@@ -604,6 +604,7 @@ export default function Home() {
               src={MLBangaloreCourseData[0].src}
               src22={MLBangaloreCourseData[0].src22}
               src33={MLBangaloreCourseData[0].src33}
+              src44={MLBangaloreCourseData[0].src44}
               ModuleBot1={MLBangaloreCourseData[0].ModuleBot1}
               ModuleBot2={MLBangaloreCourseData[0].ModuleBot2}
               syllabush1={MLBangaloreCourseData[0].syllabush1}
