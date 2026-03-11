@@ -822,10 +822,11 @@ export const MLBangaloreCourseData = [
     CertificationBot1:
       'On the course completion, you get separate machine learning skill certificates from tech giant IBM for tools and skills like Deep Learning, Tensorflow, machine learning with python, capstone project certifications, etc. But the most significant achievement becomes the IBM ML project experience certification by completing two fresh capstone projects.',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       'Learnbay Machine learning course in Bangalore contains 300 hrs of hassle-free live classes from PRODUCT Based Companies experts. With 18+ comprehensively planned machine learning modules, students can easily achieve advanced industrial knowledge. Not only that, each of the modules owns such a sequence of submodules from basic to expert level so that a complete novice can also utilize the course with 100% ROI.',
     ModuleBot2:
