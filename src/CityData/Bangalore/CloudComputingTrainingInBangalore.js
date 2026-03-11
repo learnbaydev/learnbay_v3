@@ -463,11 +463,12 @@ export const CloudComputingTrainingInBangalore = [
         certificates to their careers.
       </span>
     ),
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
+    src44:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud%26devops.webp',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/cloud_cert.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/solution_arch.webp',
     ModuleHead1: 'Learning Outcomes',
     ModuleBot1:
       'Bangalore’s tech changeovers alter job market dynamics for every expert. The growing preference for seamless data storage options brings cloud computing into the spotlight. Thus, updating suitable skills via cutting-edge training programs is useful.',

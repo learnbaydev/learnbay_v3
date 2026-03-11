@@ -467,12 +467,12 @@ export const CloudComputingTrainingInPune = [
         non-tech experts:
       </span>
     ),
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud%26devops.webp',
+    src44:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud%26devops.webp',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/cloud_cert.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/solution_arch.webp',
     ModuleHead1: 'Learning Outcomes',
     ModuleBot1:
       'Pune’s tech space keeps growing, luring techies for regular skill upgrades. Cloud-driven practices help firms have agile data solutions and secure their info from external sources. Hence, upskilling from the right program is the best way to treasure career success in the cloud field. ',
