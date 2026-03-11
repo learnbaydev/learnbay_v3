@@ -824,7 +824,7 @@ export const DSDubaiCourseData = [
       'In addition, you will receive an IBM project certificate upon completion of capstone projects which you can add to your portfolio. It assists in grabbing genuine and interesting job roles. To learn more about micro-skills certificates, refer to the respective course syllabus.',
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleHead1: 'Coding classes:',

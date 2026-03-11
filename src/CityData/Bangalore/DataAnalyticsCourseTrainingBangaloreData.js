@@ -934,7 +934,7 @@ export const DABangaloreCourseData = [
     CertificationBot3:
       'Participants can apply for top-tier companies from different verticals with the help of IBM certifications. Earning an IBM certification will pave the way for your abroad opportunities as well.       ',
 
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',

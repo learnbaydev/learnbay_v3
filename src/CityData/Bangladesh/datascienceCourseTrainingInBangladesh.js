@@ -429,7 +429,7 @@ export const DSBangladeshCourseData = [
       'Learnbay’s data science certification course in Bangladesh supports career upskilling in alliance with IBM & MS. Two eminent global digital leaders (IBM & MS) envision a hassle-free career shift with alluring job offers.         ',
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     CertificationBot2:

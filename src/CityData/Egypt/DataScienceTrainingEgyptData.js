@@ -436,7 +436,7 @@ export const DSEgyptCourseData = [
       'Certifications are useful to validate your skills and bring you global recognition. Learners enrolling in our data science courses in Egypt will receive globally recognized certifications from IBM .        ',
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     CertificationBot2:

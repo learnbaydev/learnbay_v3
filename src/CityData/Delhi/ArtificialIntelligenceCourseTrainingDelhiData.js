@@ -848,7 +848,7 @@ export const AIelhiCourseData = [
       "Learnbay has reached a key milestone by partnering with IBM and Learners working at 350+ MNCs and startups. With Learnbay IBM certification on your resume, you'll be well on your way to land on a high-paying Artificial Intelligence job at one of the world's most prestigious companies. Over 10,000 students have completed our Artificial Intelligence course, allowing themselves to work in high-paying Artificial Intelligence and Machine Learning jobs all over Delhi.",
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',

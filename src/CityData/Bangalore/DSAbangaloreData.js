@@ -402,7 +402,7 @@ export const DSABangaloreCourseData = [
       'Tech and non-tech experts opting for an industry-specific DSA course in Bangalore will obtain IBM & Microsoft certifications for course and project work. These globally accredited certifications help experts validate their skills and excel exponentially. Also, experts with these useful credentials can land promising jobs with the leading MNCs.',
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
 

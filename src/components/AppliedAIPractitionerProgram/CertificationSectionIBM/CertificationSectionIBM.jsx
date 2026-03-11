@@ -35,7 +35,7 @@ export default function CertificationsSectionIBM() {
           <div className={styles.certificateFrame}>
             {/* Dummy image – replace with your actual certificate */}
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp"
               alt="Sample IIT Patna certificate"
               fill
               className={styles.certificateImage}
