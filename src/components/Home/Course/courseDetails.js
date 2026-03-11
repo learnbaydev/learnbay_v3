@@ -181,7 +181,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Data Analytics Certification Program',
             para: [
               '5 months | 1 capstone projects',
@@ -643,7 +643,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Data Analytics Certification Program',
             para: [
               '5 months | 1 capstone projects',
@@ -755,7 +755,7 @@ export const courseDetails = [
           //   brochureLinks:
           //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           //   brochurePdfs:
-          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
           //   titleCourse: "Advance Data Analytics Program Data Science & AI",
           //   para: [
           //     "6 months | 4 capstone projects",
@@ -1152,7 +1152,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Data Analytics Certification Program',
             para: [
               '5 months | 1 capstone projects',
@@ -1264,7 +1264,7 @@ export const courseDetails = [
           //   brochureLinks:
           //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           //   brochurePdfs:
-          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
           //   titleCourse: "Advance Data Analytics Program Data Science & AI",
           //   para: [
           //     "6 months | 4 capstone projects",
@@ -1510,7 +1510,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Data Analytics Certification Program',
             para: [
               '5 months | 1 capstone projects',
@@ -1622,7 +1622,7 @@ export const courseDetails = [
           //   brochureLinks:
           //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           //   brochurePdfs:
-          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
           //   titleCourse: "Advance Data Analytics Program Data Science & AI",
           //   para: [
           //     "6 months | 4 capstone projects",
@@ -1913,7 +1913,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Data Analytics Certification Program',
             para: [
               '5 months | 1 capstone projects',
@@ -2025,7 +2025,7 @@ export const courseDetails = [
           //   brochureLinks:
           //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           //   brochurePdfs:
-          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
           //   titleCourse: "Advance Data Analytics Program Data Science & AI",
           //   para: [
           //     "6 months | 4 capstone projects",
@@ -2345,7 +2345,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Data Analytics Certification Program',
             para: [
               '5 months | 1 capstone projects',
@@ -2457,7 +2457,7 @@ export const courseDetailsM = [
           //   brochureLinks:
           //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           //   brochurePdfs:
-          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
           //   titleCourse: "Advance Data Analytics Program Data Science & AI",
           //   para: [
           //     "6 months | 4 capstone projects",
@@ -2871,7 +2871,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Data Analytics Certification Program',
             para: [
               '5 months | 1 capstone projects',
@@ -2983,7 +2983,7 @@ export const courseDetailsM = [
           //   brochureLinks:
           //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           //   brochurePdfs:
-          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
           //   titleCourse: "Advance Data Analytics Program Data Science & AI",
           //   para: [
           //     "6 months | 4 capstone projects",
@@ -3288,7 +3288,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Data Analytics Certification Program',
             para: [
               '5 months | 1 capstone projects',
@@ -3400,7 +3400,7 @@ export const courseDetailsM = [
           //   brochureLinks:
           //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           //   brochurePdfs:
-          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+          //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
           //   titleCourse: "Advance Data Analytics Program Data Science & AI",
           //   para: [
           //     "6 months | 4 capstone projects",

@@ -68,7 +68,7 @@ export const courses = {
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
 
     // {
@@ -226,7 +226,7 @@ export const courses = {
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
     // {
     //   title:
@@ -466,7 +466,7 @@ export const courses = {
     //   link: "/datascience/advance-data-analytics-program-iit-guwahati",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
     // {
     //   title: "Data Science Foundation Program ",
@@ -588,7 +588,7 @@ export const courses = {
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
 
     // {
@@ -930,7 +930,7 @@ export const courses = {
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
     // {
     //   title: "Data Science Foundation Program ",
