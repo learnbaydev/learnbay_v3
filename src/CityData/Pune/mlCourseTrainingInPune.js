@@ -858,7 +858,7 @@ export const MLPuneCourseData = [
       'Design autonomous AI agents that plan, reason, and automate complex workflows end to end.',
 
     syllabussrc:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
     JobHead1:
       'How does Learnbay train students to crack the interviews for Machine Learning MNC jobs in Pune?',
     JobBot1:

@@ -6,6 +6,7 @@ import Button from '../../Global/Button/Button';
 import YoutubeVideo from '../YoutubeVideo/YoutubeVideo';
 import styles from './CitiesRight.module.css';
 import YoutubeEmbed from '../YoutubeVideo/YoutubeEmbed';
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
 
 const CitiesRight = ({
   delhi,
@@ -485,6 +486,11 @@ const CitiesRight = ({
   const handler = () => {
     setRead(!read);
   };
+  const [popups, setPopups] = useState(false);
+
+  const popupShow = () => {
+    setPopups(true);
+  };
 
   return (
     <section className={styles.CitiesRightHead}>
@@ -493,6 +499,18 @@ const CitiesRight = ({
           <span>About The Program</span>
         </div>
         {/* {cityTextDAbangalore ? ("") : ("")} */}
+        <PopupContent
+          dataScience={true}
+          downloadBrochure
+          titleCourse={'new course'}
+          brochureLink={syllabussrc}
+          brochurePdf={syllabussrc}
+          // interstedInHide={interstedInHide}
+          upSkillingHide={true}
+          popups={popups}
+          setPopups={setPopups}
+          heading="Download Syllabus"
+        />
 
         {cityTextDSmumbai ? (
           <div className={styles.CitiesRightInner}>
@@ -7130,10 +7148,10 @@ const CitiesRight = ({
                 </>
               )}
             </div>
-            <div className={styles.Button}>
-              <a href={syllabussrc} target="_blank">
-                <Button className={styles.btn} text="View Detailed Syllabus" />
-              </a>
+            <div className={styles.Button} onClick={popupShow}>
+              {/* <a href={syllabussrc} target="_blank"> */}
+              <Button className={styles.btn} text="View Detailed Syllabus" />
+              {/* </a> */}
             </div>
           </div>
         </>

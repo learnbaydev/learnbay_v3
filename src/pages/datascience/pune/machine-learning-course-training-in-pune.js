@@ -487,7 +487,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Machine Learning Course Training In Pune"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
           brochurePdf={pdfUrl}
           idss="Jn2puEQC8yk"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/ML.png"
@@ -522,7 +522,7 @@ export default function Home() {
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
             titleCourse="AI & ML Program for tech professionals"
-            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
             interstedInHide={true}
             // <EMI POPUP
             emiType="NO COST EMI"

@@ -160,7 +160,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Business Analytics Master Certification Program',
             para: [
               '7 months | 4 capstone projects',
@@ -622,7 +622,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Business Analytics Master Certification Program',
             para: [
               '7 months | 4 capstone projects',
@@ -951,7 +951,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Business Analytics Master Certification Program',
             para: [
               '7 months | 4 capstone projects',
@@ -1489,7 +1489,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Business Analytics Master Certification Program',
             para: [
               '7 months | 4 capstone projects',
@@ -1892,7 +1892,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Business Analytics Master Certification Program',
             para: [
               '7 months | 4 capstone projects',
@@ -2324,7 +2324,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Business Analytics Master Certification Program',
             para: [
               '7 months | 4 capstone projects',
@@ -2669,7 +2669,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Business Analytics Master Certification Program',
             para: [
               '7 months | 4 capstone projects',
@@ -2850,7 +2850,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Business Analytics Master Certification Program',
             para: [
               '7 months | 4 capstone projects',
@@ -3267,7 +3267,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf',
             titleCourse: 'Business Analytics Master Certification Program',
             para: [
               '7 months | 4 capstone projects',
