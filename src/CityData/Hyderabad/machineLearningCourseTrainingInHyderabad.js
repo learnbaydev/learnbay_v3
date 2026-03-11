@@ -845,10 +845,12 @@ export const MachineLearningHyderabadCourseData = [
       'Students receive 6 IBM certificates by completing Machine Learning course training in Hyderabad.',
     CertificationBot2:
       'You will receive different machine learning competence certificates from IBM upon completion of the course for technologies and skills such as Deep Learning, Tensorflow, machine learning with Python, capstone project certifications, etc. But completing two new capstone projects helps you to earn the IBM ML project experience certification, the most notable achievement to be looked for in your resume and portfolio.',
-    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       "Learnbay's Machine Learning course in Hyderabad includes 300 hours of hassle-free live classes with PRODUCT Based Companies experts. Students can quickly gain advanced industry expertise with the help of 18+ well-planned machine learning modules. Not only that, but each of the modules has a succession of submodules ranging from basic to advanced, allowing everyone, even a total novice of ML, to benefit from the course.",
     ModuleBot2:

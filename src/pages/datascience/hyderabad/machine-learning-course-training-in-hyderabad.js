@@ -547,6 +547,7 @@ export default function Home() {
               src={MachineLearningHyderabadCourseData[0].src}
               src22={MachineLearningHyderabadCourseData[0].src22}
               src33={MachineLearningHyderabadCourseData[0].src33}
+              src44={MachineLearningHyderabadCourseData[0].src44}
               alt2={MachineLearningHyderabadCourseData[0].alt2}
               alt3={MachineLearningHyderabadCourseData[0].alt3}
               alt4={MachineLearningHyderabadCourseData[0].alt4}

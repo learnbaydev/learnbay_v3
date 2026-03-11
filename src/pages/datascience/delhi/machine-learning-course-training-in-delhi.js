@@ -629,6 +629,7 @@ export default function Home() {
               src={MLDelhiCourseData[0].src}
               src22={MLDelhiCourseData[0].src22}
               src33={MLDelhiCourseData[0].src33}
+              src44={MLDelhiCourseData[0].src44}
               ModuleHead1={MLDelhiCourseData[0].ModuleHead1}
               ModuleBot1={MLDelhiCourseData[0].ModuleBot1}
               ModuleBot2={MLDelhiCourseData[0].ModuleBot2}
