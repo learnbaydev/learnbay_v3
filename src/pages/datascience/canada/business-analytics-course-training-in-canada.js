@@ -209,7 +209,8 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-  "@context": "https://schema.org",
+ 
+    "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
@@ -360,6 +361,8 @@ export default function Home() {
       "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
     }
   }]
+}
+
 }
 `,
           }}
