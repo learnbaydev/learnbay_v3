@@ -540,6 +540,7 @@ export default function Home() {
               src={MLMumbaiCourseData[0].src}
               src22={MLMumbaiCourseData[0].src22}
               src33={MLMumbaiCourseData[0].src33}
+              src44={MLMumbaiCourseData[0].src44}
               ModuleBot1={MLMumbaiCourseData[0].ModuleBot1}
               ModuleBot2={MLMumbaiCourseData[0].ModuleBot2}
               syllabush1={MLMumbaiCourseData[0].syllabush1}
