@@ -202,6 +202,7 @@ export default function Home() {
               src={CloudComputingTrainingInBangalore[0].src}
               src22={CloudComputingTrainingInBangalore[0].src22}
               src33={CloudComputingTrainingInBangalore[0].src33}
+              src44={CloudComputingTrainingInBangalore[0].src44}
               ModuleHead1={CloudComputingTrainingInBangalore[0].ModuleHead1}
               ModuleBot1={CloudComputingTrainingInBangalore[0].ModuleBot1}
               ModuleBot2={CloudComputingTrainingInBangalore[0].ModuleBot2}
