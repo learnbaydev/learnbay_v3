@@ -65,7 +65,7 @@ import FullStackSecondSection from '@/components/CoursePage/FullStackSecondSecti
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf';
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
