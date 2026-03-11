@@ -525,6 +525,7 @@ export default function Home() {
               src={BADubaiCourseData[0].src}
               src22={BADubaiCourseData[0].src22}
               src33={BADubaiCourseData[0].src33}
+              src44={BADubaiCourseData[0].src44}
               ModuleBot1={BADubaiCourseData[0].ModuleBot1}
               ModuleBot2={BADubaiCourseData[0].ModuleBot2}
               ModuleBot3={BADubaiCourseData[0].ModuleBot3}

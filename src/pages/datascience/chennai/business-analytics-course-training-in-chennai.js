@@ -538,6 +538,7 @@ export default function Home() {
               src={BusinessAnalyticsChennaiCourseData[0].src}
               src22={BusinessAnalyticsChennaiCourseData[0].src22}
               src33={BusinessAnalyticsChennaiCourseData[0].src33}
+              src44={BusinessAnalyticsChennaiCourseData[0].src44}
               ModuleHead1={BusinessAnalyticsChennaiCourseData[0].ModuleHead1}
               ModuleHead2={BusinessAnalyticsChennaiCourseData[0].ModuleHead2}
               ModuleBot3={BusinessAnalyticsChennaiCourseData[0].ModuleBot3}

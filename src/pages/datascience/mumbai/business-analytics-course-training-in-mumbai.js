@@ -529,6 +529,7 @@ export default function Home() {
               src={BAMumbaiCourseData[0].src}
               src22={BAMumbaiCourseData[0].src22}
               src33={BAMumbaiCourseData[0].src33}
+              src44={BAMumbaiCourseData[0].src44}
               ModuleHead1={BAMumbaiCourseData[0].ModuleHead1}
               ModuleBot1={BAMumbaiCourseData[0].ModuleBot1}
               ModuleBot2={BAMumbaiCourseData[0].ModuleBot2}

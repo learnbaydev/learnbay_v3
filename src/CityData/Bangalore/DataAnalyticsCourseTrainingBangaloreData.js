@@ -934,10 +934,12 @@ export const DABangaloreCourseData = [
     CertificationBot3:
       'Participants can apply for top-tier companies from different verticals with the help of IBM certifications. Earning an IBM certification will pave the way for your abroad opportunities as well.       ',
 
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
-    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
-    src22:
+    src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
+    src22:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
       'Learnbay develops its data analytics course in Bangalore according to current industry trends and demands. Participants will get hands-on training for in-demand tools and our course curriculum is market-driven, specially designed by industry experts. The following is an overview of our data analytics program curriculum.    ',
     ModuleBot2:

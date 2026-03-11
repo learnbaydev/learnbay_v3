@@ -610,6 +610,7 @@ export default function Home() {
               src={BADelhiCourseData[0].src}
               src22={BADelhiCourseData[0].src22}
               src33={BADelhiCourseData[0].src33}
+              src44={BADelhiCourseData[0].src44}
               ModuleHead1={BADelhiCourseData[0].ModuleHead1}
               ModuleBot1={BADelhiCourseData[0].ModuleBot1}
               ModuleBot2={BADelhiCourseData[0].ModuleBot2}

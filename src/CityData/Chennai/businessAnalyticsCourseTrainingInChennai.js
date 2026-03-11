@@ -625,10 +625,11 @@ export const BusinessAnalyticsChennaiCourseData = [
     CertificationBot2:
       "Having this credential on one's resume can help one land a job as a business analyst in the top paid MNC job profiles. Over the past 3 years, more than 10,000 candidates have been trained in a variety of Learnbay courses, and have secured rewarding careers in top startups and PRODUCT Based Companies companies. ",
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleHead1: 'What will you learn in our IBM business analytics course?',
     ModuleHead2: 'Programming classes:',
     ModuleBot3:

@@ -495,6 +495,7 @@ export default function Home() {
               src={BAcanadaCourseData[0].src}
               src22={BAcanadaCourseData[0].src22}
               src33={BAcanadaCourseData[0].src33}
+              src44={BAcanadaCourseData[0].src44}
               ModuleHead1={BAcanadaCourseData[0].ModuleHead1}
               ModuleBot1={BAcanadaCourseData[0].ModuleBot1}
               ModuleBot2={BAcanadaCourseData[0].ModuleBot2}

@@ -713,10 +713,12 @@ export const BAMumbaiCourseData = [
     CertificationHead1: 'IBM Business Analytics Course in Mumbai',
     CertificationBot1:
       'The industrial collaboration of IBM backs up the industrial business analytics training that we provide at Learnbay in Mumbai. So on the successful completion of the 5 -month data analytics learning session along with all of the live projects and assignments, you get IBM Business analytics certification. Due to the IBM certification batches to your portfolio, the chances of getting noticed by top recruiters get geared up by 110%. This also makes Learnbay best for the data analytics courses in Mumbai.',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
-    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
-    src22:
+    src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
+    src22:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
 
     ModuleHead1:
       'How do Learnbay business analytics modules ensure a lucrative BI analyst career in Mumbai?',

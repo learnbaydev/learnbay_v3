@@ -587,6 +587,7 @@ export default function Home() {
               src={BAPuneCourseData[0].src}
               src22={BAPuneCourseData[0].src22}
               src33={BAPuneCourseData[0].src33}
+              src44={BAPuneCourseData[0].src44}
               ModuleBot1={BAPuneCourseData[0].ModuleBot1}
               ModuleBot2={BAPuneCourseData[0].ModuleBot2}
               syllabush1={BAPuneCourseData[0].syllabush1}
