@@ -530,6 +530,7 @@ export default function Home() {
               src={MachineLearningChennaiCourseData[0].src}
               src22={MachineLearningChennaiCourseData[0].src22}
               src33={MachineLearningChennaiCourseData[0].src33}
+              src44={MachineLearningChennaiCourseData[0].src44}
               ModuleHead1={MachineLearningChennaiCourseData[0].ModuleHead1}
               ModuleBot1={MachineLearningChennaiCourseData[0].ModuleBot1}
               ModuleBot2={MachineLearningChennaiCourseData[0].ModuleBot2}

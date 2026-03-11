@@ -542,6 +542,7 @@ export default function Home() {
               src={DataSciencecanadaCourseData[0].src}
               src22={DataSciencecanadaCourseData[0].src22}
               src33={DataSciencecanadaCourseData[0].src33}
+              src44={DataSciencecanadaCourseData[0].src44}
               ModuleHead1={DataSciencecanadaCourseData[0].ModuleHead1}
               ModuleBot1={DataSciencecanadaCourseData[0].ModuleBot1}
               ModuleBot2={DataSciencecanadaCourseData[0].ModuleBot2}
