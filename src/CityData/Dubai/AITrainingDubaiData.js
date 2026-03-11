@@ -1013,13 +1013,11 @@ export const AIDubaiCourseData = [
     CertificationBot2:
       'As per your selected course, you will get around 1 to 8  certificates - all issued by IBM. This credential on your CV will make you a leap ahead of other applicants.',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-    src44:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
       "Learnbay strives to provide the best Artificial Intelligence training possible for all AI enthusiasts in Dubai. Learnbay's artificial intelligence course comprises 400+ hours of interactive classes led by PRODUCT Based Companies experts. On the other hand, The foundational and advanced data science and AI also consists of 200+ hours of sessions. Each of our modules is completely focused on the chosen fields. The IBM artificial intelligence course covers the most popular AI and ML tools and concepts as well as advanced probability and Numpy, Deep Learning, and MongoDB.",
     ModuleBot2:

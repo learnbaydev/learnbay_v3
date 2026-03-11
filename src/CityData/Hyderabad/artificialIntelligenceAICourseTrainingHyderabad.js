@@ -869,11 +869,11 @@ Two AI Co-Lab Project Certificates
     CertificationBot2:
       "By partnering with IBM and a series of MNCs as well as startups, Learnbay has attained a significant milestone. Having this IBM certification on your resume will surely help you land a high-paying artificial intelligence job at one of the world's renowned corporations. Over 10,000 students have finished our Artificial Intelligence course, allowing them to pursue rewarding AI and machine learning professions across Hyderabad.",
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
       "At Learnbay, we're committed to providing the highest-quality modules to prospective students. As a result, we've created different IBM artificial intelligence courses to keep up with the market's ever-changing needs. Our artificial intelligence training courses in Hyderabad come with variable learning modules based on the aspirant’s current career stages, earlier educational ground, and future career goals. The most advanced ML and AI certification courses for tech professionals consist of 400 hours long modules, whereas our Foundation and Advanced Data Science and AI courses are 200+ hours long. All include live interactive sessions. Students can attend many sessions with different teachers during the training in all of our courses. Learnbay also offers a 1 to 3-year Flexi membership that allows students to learn at their own pace.",
     ModuleBot2:

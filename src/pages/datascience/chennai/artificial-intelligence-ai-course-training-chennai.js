@@ -544,6 +544,7 @@ export default function Home() {
               src={AIChennaiCourseData[0].src}
               src22={AIChennaiCourseData[0].src22}
               src33={AIChennaiCourseData[0].src33}
+              src44={AIChennaiCourseData[0].src44}
               alt2={AIChennaiCourseData[0].alt2}
               alt3={AIChennaiCourseData[0].alt3}
               alt4={AIChennaiCourseData[0].alt4}

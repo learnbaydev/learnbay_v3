@@ -863,10 +863,11 @@ export const AIChennaiCourseData = [
     CertificationBot2:
       'Learnbay has reached a key milestone by collaborating with IBM and MNCs. Possessing this IBM certification on your resume will undoubtedly help you secure a high-paying career in artificial intelligence at one of the leading MNCs. Over 10,000 aspirants have completed our artificial intelligence and data science course, paving the way for them to pursue rewarding careers in AI and ML across Chennai.',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
       "At Learnbay, we are dedicated to delivering the best quality modules for aspiring learners. For this reason, we've developed an IBM artificial intelligence course to keep pace with the ever-evolving needs of the market. The artificial intelligence course in Chennai comprises 400 hours of sessions whereas our Foundation and advanced data science course have 200+ hours of live interactive sessions. In all of our courses, students can attend multiple sessions with different instructors during the training. Additionally, Learnbay offers a 1 to 3-years Flexi subscription allowing students to learn at their own convenience.",
     ModuleBot2:

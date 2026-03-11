@@ -853,13 +853,11 @@ export const AIcanadaCourseData = [
     CertificationBot2:
       "Additionally, you'll be issued an IBM project experience certificate upon completing your capstone projects. Our strong partnership with IBM and MNCs has helped countless students in propelling their careers in Artificial Intelligence and machine learning.",
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-    src44:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleHead1: 'Programming Classes:',
     ModuleBot1:
       "We’ve added Module 0 of python programming classes specialized for non-technical learners. All of our AI courses are open to non-coders. You'll go from being a complete novice to an expert in Artificial Intelligence with this course.",

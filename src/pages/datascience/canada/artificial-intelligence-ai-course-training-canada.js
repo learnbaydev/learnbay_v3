@@ -559,6 +559,7 @@ export default function Home() {
               src={AIcanadaCourseData[0].src}
               src22={AIcanadaCourseData[0].src22}
               src33={AIcanadaCourseData[0].src33}
+              src44={AIcanadaCourseData[0].src44}
               ModuleHead1={AIcanadaCourseData[0].ModuleHead1}
               ModuleBot1={AIcanadaCourseData[0].ModuleBot1}
               ModuleBot2={AIcanadaCourseData[0].ModuleBot2}
