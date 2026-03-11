@@ -732,8 +732,8 @@ export const DADelhiCourseData = [
     CertificationBot2:
       'This credential will make you a qualified candidate for data analyst jobs in Delhi.',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
-    src22: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
-    src33:
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
+    src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       'The modules of the IBM data analytics course are meticulously crafted to cater to the needs of various data analytics job roles in Delhi. The course is further divided into 8 modules which are supplemented with assignments, and real-time project works to facilitate experiential learning. This 6-months data analytics course covers important data analytics tools and techniques such as Advanced Excel, PowerBI, Time series analysis, as well as statistics and probability. Apart from this, you will also learn to create a database from scratch, design tables and queries, and analyze data using reporting apps.',
