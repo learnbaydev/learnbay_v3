@@ -797,9 +797,9 @@ export const DAcanadaCourseData = [
     Projectsp1:
       'Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src2: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png',
     alt2: 'IBM logo',
 
