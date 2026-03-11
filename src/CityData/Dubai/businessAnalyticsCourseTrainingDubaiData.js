@@ -708,7 +708,9 @@ export const BADubaiCourseData = [
       'On successful completion of our 5-months business analytics course training, along with assessments and projects, you will receive IBM Certificates. To pass the certification process, you must complete all the assignments, case studies, and projects within due dates.',
     CertificationBot2:
       'As a result of your IBM accreditation, Employers will notice your credentials and consider you for several opportunities in Dubai firms.',
-    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',

@@ -676,9 +676,10 @@ export const BusinessAnalyticsHyderabadCourseData = [
       'With this certificate on the resume, one can obtain a position as a business analyst in one of the highest-paying MNC job profiles. Over 10,000 individuals have completed Learnbay courses in the last three years, followed by landing rewarding jobs at leading startups and Top MNCs.',
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       'The 200-hour business analytics training in Hyderabad includes live interactive classes from PRODUCT Based Companies professionals. Students can also talk to mentors one-on-one about their concerns in the discussion forum and via scheduled meetings.',
     ModuleBot2:
