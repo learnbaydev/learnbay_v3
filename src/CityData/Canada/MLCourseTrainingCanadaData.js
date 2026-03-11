@@ -834,38 +834,26 @@ export const MLcanadaCourseData = [
     ModuleHead2: 'Module 0 : ',
     ModuleBot3:
       'Programming is the basic skill you need in the machine learning field. Students are expected to have some familiarity with the Basics of Programming. As a result, we have launched Module 0 in our IBM machine learning course for non-coders. Students will be given special access to programming classes in order to keep pace with the need of each and every course. Apart from that, we arrange exclusive hackathons so that student can self-assess their growing coding abilities and improve the same accordingly.',
-    syllabush1: 'Preparatory Classes (Programming + Maths)',
-    syllabusb1: '6 Hours',
-    SyllabusBotlist11: 'Anaconda Installation',
-    SyllabusBotlist12: 'Basics of Programming',
-    SyllabusBotlist13: 'Memory Management',
-    SyllabusBotlist14: 'Compiler and Interpreter',
-    SyllabusBotlist15: 'Syntax of Python',
-    SyllabusBotlist16: 'Basics of Statistics',
-    syllabush2: 'Python Programming (Basic + Advance)',
-    syllabusb2: '40 Hours',
-    SyllabusBotlist21: 'Git and GitHub',
-    SyllabusBotlist22: 'Operators + Data Types + Loops',
-    SyllabusBotlist23: 'Functions + Regular Expression',
-    SyllabusBotlist24: 'Conditional Statement',
-    SyllabusBotlist25: 'File & Exceptional Handling',
-    SyllabusBotlist26: 'Numpy, Pandas, Matplotlib, etc.',
-    syllabush3: 'Statistics and Machine Learning',
-    syllabusb3: '70 Hours',
-    SyllabusBotlist31: 'Linear Algebra, Probability',
-    SyllabusBotlist32: 'Permutation & Combination',
-    SyllabusBotlist33: 'Descriptive & Inferential Stats',
-    SyllabusBotlist34: 'Hypothesis Testing',
-    SyllabusBotlist35: 'Time Series Analysis',
-    SyllabusBotlist36: 'ML Algorithms',
-    syllabush4: 'Industrial Projects & Capstone Projects',
-    syllabusb4: '12+ Classes',
-    SyllabusBotlist41: 'Text Classification',
-    SyllabusBotlist42: 'Human Activity Recognition',
-    SyllabusBotlist43: "Forecasting Business KPI's",
-    SyllabusBotlist44: 'Credit Risk Analysis',
-    SyllabusBotlist45: 'Customer Churn Prediction',
-    SyllabusBotlist46: 'Sentiment Analysis',
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
+    SyllabusBotlist11:
+      ' Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
+
+    syllabush2: 'PYTHON FOR GENAI',
+    syllabusb2: '1 Months',
+    SyllabusBotlist21:
+      'Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.',
+
+    syllabush3: 'FOUNDATION FOR GENAI',
+    syllabusb3: '1 Months',
+    SyllabusBotlist31:
+      'Learn core ML, deep learning, and NLP concepts that power modern large language models.',
+
+    syllabush4: 'ADVANCED GENERATIVE AI',
+    syllabusb4: '1.5 Months',
+    SyllabusBotlist41:
+      'Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.',
+
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
     JobHead1:
