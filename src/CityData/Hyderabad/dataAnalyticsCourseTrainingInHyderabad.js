@@ -718,9 +718,8 @@ export const DataAnalyticsHyderabadCourseData = [
     CertificationBot2:
       "Learnbay IBM Data analytics training will certainly boost your resume, allowing you to stand out from the pack and attract recruiters' attention.",
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
-    src22: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
-    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
-    src44:
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
+    src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       "Learnbay is dedicated to providing the most comprehensive data analytics training in Hyderabad. This Data Analytics Program with placement is tailored to satisfy the industry's ever-changing objectives. Our customized data analytics course in Hyderabad provides basic to advanced data analytics training. We also provide special coding classes for non-programmers who want to strengthen their programming skills.",
