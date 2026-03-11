@@ -116,7 +116,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
             titleCourse: 'Advanced AI and ML Certification Program',
             para: [
               '9 months | 2 capstone projects',
@@ -578,7 +578,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
             titleCourse: 'Advanced AI and ML Certification Program',
             para: [
               '9 months | 2 capstone projects',
@@ -908,7 +908,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
             titleCourse: 'Advanced AI and ML Certification Program',
             para: [
               '9 months | 2 capstone projects',
@@ -1089,7 +1089,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
             titleCourse: 'Advanced AI and ML Certification Program',
             para: [
               '9 months | 2 capstone projects',
@@ -1446,7 +1446,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
             titleCourse: 'Advanced AI and ML Certification Program',
             para: [
               '9 months | 2 capstone projects',
@@ -1848,7 +1848,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
             titleCourse: 'Advanced AI and ML Certification Program',
             para: [
               '9 months | 2 capstone projects',
@@ -2280,7 +2280,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
             titleCourse: 'Advanced AI and ML Certification Program',
             para: [
               '9 months | 2 capstone projects',
@@ -2626,7 +2626,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
             titleCourse: 'Advanced AI and ML Certification Program',
             para: [
               '9 months | 2 capstone projects',
@@ -2807,7 +2807,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
             titleCourse: 'Advanced AI and ML Certification Program',
             para: [
               '9 months | 2 capstone projects',
@@ -3225,7 +3225,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf',
             titleCourse: 'Advanced AI and ML Certification Program',
             para: [
               '9 months | 2 capstone projects',
