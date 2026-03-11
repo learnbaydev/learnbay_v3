@@ -674,8 +674,7 @@ export const BAcanadaCourseData = [
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-    src44:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+
     ModuleHead1:
       'What is the syllabus for this business analytics training course?',
     ModuleHead2: 'Support for non-programmers:',
