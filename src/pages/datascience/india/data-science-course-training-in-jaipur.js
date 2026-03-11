@@ -78,7 +78,7 @@ export default function Home() {
   }, []);
 
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf';
 
   const items = [
     'Data Science Foundation',

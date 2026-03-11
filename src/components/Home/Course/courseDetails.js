@@ -204,7 +204,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf',
             titleCourse: 'Advance Data Science and AI Certification',
             para: [
               '7 months | 2 capstone projects',
@@ -666,7 +666,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf',
             titleCourse: 'Advance Data Science and AI Certification',
             para: [
               '7 months | 2 capstone projects',
@@ -994,7 +994,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf',
             titleCourse: 'Advance Data Science and AI Certification',
             para: [
               '7 months | 2 capstone projects',
@@ -1175,7 +1175,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf',
             titleCourse: 'Advance Data Science and AI Certification',
             para: [
               '7 months | 2 capstone projects',
@@ -1533,7 +1533,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf',
             titleCourse: 'Advance Data Science and AI Certification',
             para: [
               '7 months | 2 capstone projects',
@@ -1936,7 +1936,7 @@ export const courseDetails = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf',
             titleCourse: 'Advance Data Science and AI Certification',
             para: [
               '7 months | 2 capstone projects',
@@ -2368,7 +2368,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf',
             titleCourse: 'Advance Data Science and AI Certification',
             para: [
               '7 months | 2 capstone projects',
@@ -2712,7 +2712,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf',
             titleCourse: 'Advance Data Science and AI Certification',
             para: [
               '7 months | 2 capstone projects',
@@ -2894,7 +2894,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf',
             titleCourse: 'Advance Data Science and AI Certification',
             para: [
               '7 months | 2 capstone projects',
@@ -3311,7 +3311,7 @@ export const courseDetailsM = [
             brochureLinks:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
             brochurePdfs:
-              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf',
+              'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf',
             titleCourse: 'Advance Data Science and AI Certification',
             para: [
               '7 months | 2 capstone projects',
