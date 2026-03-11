@@ -669,7 +669,7 @@ export const BAcanadaCourseData = [
     CertificationBot2:
       'As a result, employers in Canada will notice your IBM accreditation and consider you for open positions in business analytics jobs. We also have partnered with major tech giants in order to promote the talents of our business analytics students.',
     src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src44:

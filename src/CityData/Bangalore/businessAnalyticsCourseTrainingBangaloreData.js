@@ -705,7 +705,7 @@ export const BABangaloreCourseData = [
     CertificationBot1:
       'Learnbay is a pioneer in training Business analytics at the current industry standard and gives out an IBM certificate on course completion. IBM certificates in your resume would make recruiters shortlist your profile with greater interest. Learnbay has created a milestone by partnering with IBM for Business Analytics training in Bangalore.',
     src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:

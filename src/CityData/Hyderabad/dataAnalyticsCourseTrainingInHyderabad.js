@@ -717,7 +717,7 @@ export const DataAnalyticsHyderabadCourseData = [
       'In Hyderabad, we already have IBM on board with our data analytics industrial initiative. After the course, students will receive an IBM Data Analytics Course Completion certificate.',
     CertificationBot2:
       "Learnbay IBM Data analytics training will certainly boost your resume, allowing you to stand out from the pack and attract recruiters' attention.",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
     src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src44:
