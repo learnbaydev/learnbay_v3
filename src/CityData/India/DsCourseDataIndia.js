@@ -461,7 +461,7 @@ export const DSIndiaCourseData = [
       "MS certificate accreditation helps you earn skill sets according to the latest trends, increasing your resume's visibility across various job portals. Top MNCs mostly prefer valuable certificates that can give you global exposure and make you stand out. This certification states unique skill sets to help you stand out in the career race. Increased career credibility enhances your career power with prime job calls.         ",
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'ttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     ModuleMasterBot1:

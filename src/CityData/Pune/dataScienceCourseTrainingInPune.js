@@ -801,7 +801,7 @@ export const DSPuneCourseData = [
       'Students earn IBM Data Science Certification at the end of the course. Even the Advance program, Managers program consists of 6-8 separate IBM certificates on different sub-module completion. Even in these two courses, you get a data science project completion certificate issued by IBM.',
     // src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
     // src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
-    src: 'ttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:

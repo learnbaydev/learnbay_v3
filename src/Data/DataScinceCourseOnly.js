@@ -273,7 +273,7 @@ export const DataScienceCourseData = [
       'Data science is an ever-evolving field with infinite growth scopes. Working pros with stagnant skills must upgrade their skills to thrive. Yet, upskilling from a common course with generic validations can degrade career values. Unlike standard courses, our data science courses offer globally recognized certificates with valuable returns.         ',
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'ttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
 

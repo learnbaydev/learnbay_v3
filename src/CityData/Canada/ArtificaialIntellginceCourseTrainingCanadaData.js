@@ -853,7 +853,7 @@ export const AIcanadaCourseData = [
     CertificationBot2:
       "Additionally, you'll be issued an IBM project experience certificate upon completing your capstone projects. Our strong partnership with IBM and MNCs has helped countless students in propelling their careers in Artificial Intelligence and machine learning.",
     src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'hhttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src44:

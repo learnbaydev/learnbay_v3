@@ -393,7 +393,7 @@ export const CuberSecurityBangaloreCourseData = [
       'Certifications are vital for working experts to build a well-recognized career with complete validation. Hence, the demand for a cyber security certification course keeps increasing. Certificates validate your skills and help you advance your career at a global level with promising perks. These credentials enhance career values, expand earning limits, and lift your career for a competitive edge. ',
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'ttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
 

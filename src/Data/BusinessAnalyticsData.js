@@ -198,7 +198,7 @@ export const BADataScienceCourseData = [
       {
         id: 1,
         topnav: 'IBM',
-        img: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+        img: 'hhttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
         width: 300,
         height: 280,
         title: 'Course Completion Certificate from IBM',

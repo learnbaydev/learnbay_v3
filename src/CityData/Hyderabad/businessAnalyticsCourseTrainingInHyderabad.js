@@ -676,7 +676,7 @@ export const BusinessAnalyticsHyderabadCourseData = [
       'With this certificate on the resume, one can obtain a position as a business analyst in one of the highest-paying MNC job profiles. Over 10,000 individuals have completed Learnbay courses in the last three years, followed by landing rewarding jobs at leading startups and Top MNCs.',
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'ttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     ModuleBot1:

@@ -833,7 +833,7 @@ export const MLDelhiCourseData = [
       "In collaboration with IBM, we provide a course completion certificate upon completing Learnbay's professional Machine Learning training course in Delhi. Interestingly, after finishing several modules of Artificial Intelligence and Machine Learning courses, students will receive six additional IBM credentials. The IBM Machine Learning Project Experience Certificate is the most important of all six certificates. These are undeniably valuable additions to your resume.",
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'hhttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src33:

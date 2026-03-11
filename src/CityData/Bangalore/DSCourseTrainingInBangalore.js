@@ -789,7 +789,7 @@ export const DSBangaloreCourseData = [
       'Learnbay Data science classes in Bangalore provide IBM project experience certification and multiple IBM Data science certificates on completion of different modules.  Based on the course you choose, you get the chance of achieving 6 to 8 certifications. And the best part is that all of them are from IBM. Each of these micro-skills certificates globally authorizes your different data science skills and tools expertise.',
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: 'ttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     ModuleHead1:

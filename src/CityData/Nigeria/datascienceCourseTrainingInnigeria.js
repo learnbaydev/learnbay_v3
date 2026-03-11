@@ -448,7 +448,7 @@ export const DSNigeriaCourseData = [
       'Learnbay’s alliance with two tech giants – IBM , uplifts the chances of a successful career rise. A global digital leader, IBM is known for its insightful offerings in predictive modeling, ML, AI, and automation.  Learnbay’s IBM data science certification in Nigeria validates your skills on a global scale with alluring job opportunities.',
     // src33:
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: 'ttps://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     CertificationBot2:
