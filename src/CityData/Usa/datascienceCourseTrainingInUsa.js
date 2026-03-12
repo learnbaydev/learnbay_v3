@@ -424,8 +424,8 @@ export const DSUSACourseData = [
     CertificationBot1:
       'IBM is one of the top-notch tech giants in the world with proven predictive analytics and machine learning solutions. Its unstoppable support to businesses with insightful solutions assures success.',
     // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     CertificationBot2:

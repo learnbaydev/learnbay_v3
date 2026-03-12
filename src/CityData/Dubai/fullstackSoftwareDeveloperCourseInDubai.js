@@ -116,7 +116,7 @@ export const FullStackDubaiCourseData = [
           {
             id: 1,
             ques: 'What types of topics will this full-stack development course cover?',
-            ans: 'It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). The position necessitates agility, originality, and a combination of technical programming capabilities.',
+            ans: 'It includes front-end and back-end development skills, covering a variety of responsibilities in the development and maintenance of digital entities (e.g., software and apps). Moreover, it offers comprehensive training in GenAI and System.The position necessitates agility, originality, and a combination of technical programming capabilities.',
             open: false,
           },
           {
@@ -133,8 +133,8 @@ export const FullStackDubaiCourseData = [
           },
           {
             id: 4,
-            ques: "What will be the program duration for this full-stack software developer course in Dubai?",
-            ans: "The duration of this software development course with Agentic AI in Dubai is 11 months.",
+            ques: 'What will be the program duration for this full-stack software developer course in Dubai?',
+            ans: 'The duration of this software development course with Agentic AI in Dubai is 11 months.',
             open: false,
           },
           {
@@ -180,7 +180,7 @@ export const FullStackDubaiCourseData = [
           {
             id: 1,
             ques: 'What are specialized domain options provided in this Program?',
-            ans: 'In Dubai, Learnbay’s Full stack software development course provides domains such as Full Stack, Product Engineer/Manager, Data Science & AI, Web 3.0 Developer, and DevOps & Clouds.',
+            ans: 'In Dubai, Learnbay’s Full stack software development course provides domains such as GenAI for Software Development & SDE Roles, AI for Cloud, DevOps & LLM Infrastructure, AI Powered Backend Engineering for AI Systems, Distributed Systems & Microservices for AI',
             open: false,
           },
           {
@@ -219,14 +219,14 @@ export const FullStackDubaiCourseData = [
         data: [
           {
             id: 0,
-            ques: "How much is the full-stack software developer course fee in Dubai?",
+            ques: 'How much is the full-stack software developer course fee in Dubai?',
             ans: `The total cost of a full-stack software development course in Dubai with agentic AI is 1,59,000 INR, excluding tax.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Is there any Installment / EMI option available for this course in Dubai?",
-            ans: "Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip.",
+            ques: 'Is there any Installment / EMI option available for this course in Dubai?',
+            ans: 'Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip.',
             open: false,
           },
           {
@@ -438,15 +438,14 @@ export const FullStackDubaiCourseData = [
     DomainBot1:
       "Nowadays, most organizations look for candidates with domain knowledge and experience, and this is why domain specialization is so important. Learnbay's full-stack developer course is a specialized domain course for students to excel in their particular domain. Actually, this is the success key of Learnbay’s full-stack development course in Dubai.",
     DomainHead2:
-      "There are six elite domains in the Full-stack development course:-",
-    DomainHead3: "a. GenAI for Software Development and SDE Roles",
-    DomainHead4: "b. AI-Powered Backend Engineering for AI Systems",
-    DomainHead5: "c. AI for Cloud, DevOps, and LLM Infrastructure",
-    DomainHead6: "d. Distributed Systems & Microservices for AI Applications",
-    DomainHead7: "e. Multi-Agent Systems & Workflow Automation with Agentic AI",
-    DomainHead8: "f. GenAI & Agentic AI for Product Managers",
+      'There are six elite domains in the Full-stack development course:-',
+    DomainHead3: 'a. GenAI for Software Development and SDE Roles',
+    DomainHead4: 'b. AI-Powered Backend Engineering for AI Systems',
+    DomainHead5: 'c. AI for Cloud, DevOps, and LLM Infrastructure',
+    DomainHead6: 'd. Distributed Systems & Microservices for AI Applications',
+    DomainHead7: 'e. Multi-Agent Systems & Workflow Automation with Agentic AI',
+    DomainHead8: 'f. GenAI & Agentic AI for Product Managers',
 
-  
     ModuleBot1:
       'Our full-stack developer course is conducted by experts and IT professionals who are experienced full-stack software developers and working in top-notch MNCs/ PRODUCT Based Companies for more than 8 years. They keep doing extensive research and accordingly design the respective full-stack course modules.',
     ModuleBot2: 'Become a professional MEAN and MERN stack developer.',

@@ -1,41 +1,41 @@
-import Navbar from "@/components/Global/Navbar/Navbar";
-import Realstory from "@/components/Home/Realstory/Realstory";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { DSBangladeshCourseData } from "../../../CityData/Bangladesh/datascienceCourseTrainingInBangladesh";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Popup from "../../../components/Global/Popup/Popup";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import styles from "../../../styles/Home.module.css";
+import Navbar from '@/components/Global/Navbar/Navbar';
+import Realstory from '@/components/Home/Realstory/Realstory';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { DSBangladeshCourseData } from '../../../CityData/Bangladesh/datascienceCourseTrainingInBangladesh';
+import Footer from '../../../components/Global/Footer/Footer';
+import Form from '../../../components/Global/Form/Form';
+import Popup from '../../../components/Global/Popup/Popup';
+import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
+import styles from '../../../styles/Home.module.css';
 const FirstSection = dynamic(
-  () => import("../../../components/Seo/FirstSection/FirstSection"),
+  () => import('../../../components/Seo/FirstSection/FirstSection')
 );
 const SecondSection = dynamic(
-  () => import("../../../components/Seo/SecondSection/SecondSection"),
+  () => import('../../../components/Seo/SecondSection/SecondSection')
 );
 const ProgramInfo = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramInfo"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramInfo')
 );
 const SeventhSection = dynamic(
-  () => import("../../../components/Seo/SeventhSection/SeventhSection"),
+  () => import('../../../components/Seo/SeventhSection/SeventhSection')
 );
 const ProgramFee = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
 // const CityText = dynamic(() =>
 //   import("../../../components/Seo/CityText/CityText")
 // );
 const CitiesLeft = dynamic(
-  () => import("../../../components/Seo/CitiesLeft/CitiesLeft"),
+  () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
 const CitiesRight = dynamic(
-  () => import("../../../components/Seo/CitiesRight/CitiesRight"),
+  () => import('../../../components/Seo/CitiesRight/CitiesRight')
 );
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 const OfferPopup = dynamic(
-  () => import("../../../components/Global/OfferPopup/OfferPopup"),
+  () => import('../../../components/Global/OfferPopup/OfferPopup')
 );
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -48,8 +48,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -62,7 +62,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === 'Adv Data Science and AI') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -74,7 +74,7 @@ export default function Home() {
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf';
   return (
     <div className={styles.container}>
       <Head>
@@ -200,7 +200,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -225,6 +225,7 @@ export default function Home() {
           firstHeading="Best Online Data Science Course in Bangladesh          "
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Drive yourself towards multi-faceted career excellence with Learnbay’s industry-driven data science course in Bangladesh. Engage in Learnbay’s comprehensively curated GenAI-rich course syllabus to ace global job interviews. Our gainful alliance with IBM (MS) supports insightful upskilling with data-driven tools.           "
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DSBangladeshCourseData[0].secondSection}

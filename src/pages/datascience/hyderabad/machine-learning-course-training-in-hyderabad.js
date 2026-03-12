@@ -74,50 +74,51 @@ export default function Home() {
     fetchPopup();
   }, []);
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf';
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Machine Learning Course in Hyderabad - Learnbay</title>
+        <title>
+          Best Machine Learning Course in Hyderabad with GenAI | Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay offers the Best Machine Learning Training program in Hyderabad with the highly-skilled industry experts and mentors. Enroll Now."
+          content="Learnbay offers the Best Machine Learning Training program in Hyderabad with the highly-skilled trainers, IBM, MS Certificates, 15+ projects. Enroll Now."
         />
         <meta
           property="og:url"
           content="https://www.learnbay.co/datascience/hyderabad/machine-learning-course-training-in-hyderabad"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Best Machine Learning Course in Hyderabad - Learnbay"
+          content="Best Machine Learning Course in Hyderabad with GenAI | Learnbay
+"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Learnbay offers the Best Machine Learning Training program in Hyderabad with the highly-skilled industry experts and mentors. Enroll Now."
+          content="Learnbay offers the Best Machine Learning Training program in Hyderabad with the highly-skilled trainers, IBM, MS Certificates, 15+ projects. Enroll Now."
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Best Machine Learning Course in Hyderabad - Learnbay"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Machine Learning Course in Hyderabad. Learnbay is Advanced Machine Learning Course Training Institute in Hyderabad. Machine Learning Course in Hyderabad will enhance your career"
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/hyderabad/machine-learning-course-training-in-hyderabad"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Machine Learning Course in Hyderabad with GenAI | Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Learnbay offers the Best Machine Learning Training program in Hyderabad with the highly-skilled industry experts and mentors. Enroll Now."
+          content="Learnbay offers the Best Machine Learning Training program in Hyderabad with the highly-skilled trainers, IBM, MS Certificates, 15+ projects. Enroll Now."
         />
         <meta
           name="twitter:image"
@@ -138,6 +139,287 @@ export default function Home() {
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
+              "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Best Machine Learning Course in Hyderabad with GenAI | Learnbay",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "1104"
+  }
+}
+ }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+              "@context": "http://schema.org",
+      "@type": "Course",
+      "name": "Best Machine Learning Course in Hyderabad with GenAI | Learnbay",
+      "description": "Learnbay offers the Best Machine Learning Training program in Hyderabad with the highly-skilled trainers, IBM, MS Certificates, 15+ projects. Enroll Now.",
+      "url": "https://www.learnbay.co/datascience/hyderabad/machine-learning-course-training-in-hyderabad",
+      "offers": {
+        "@type": "offer",
+        "price": "159000",
+        "pricecurrency": "INR",
+        "category": "Educational"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Learnbay",
+        "Url": "https://www.learnbay.co/"
+      },
+      "coursePrerequisites": "You should know about basic python before joining the program.",
+      "hasCourseInstance": [
+        {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "courseWorkload": "P13M",
+          "courseFee": {
+            "@type": "PriceSpecification",
+            "price": "₹ 1,59,000 + 18% GST",
+            "priceCurrency": "INR"
+          }
+        }
+      ]
+    }
+  }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
+              "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What are the prerequisites for the Machine Learning course with Domain Specialization in Hyderabad?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Basic programming & mathematics knowledge is enough. For strengthening your programming skills we provide special programming classes. We teach required statistics from a very basic level."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I miss a few classes due to an emergency?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a Flexi Subscription in the Machine learning certification course of Learnbay in Hyderabad?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Those who enroll for machine learning live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
+    }
+  },{
+    "@type": "Question",
+    "name": "What’s the duration of this Machine Learning course in Hyderabad?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The duration of the machine learning course in Hyderabad is 13 months. However, it might vary based on the weekend or weekday batch you choose."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the mode of ML training at Learnbay, in Hyderabad?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide both classroom and online machine learning training modes. Based on your requirement, you can choose your preferred mode."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I opt for a Hybrid mode of learning?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is domain specialization associated with the Learnbay machine learning certification course in Hyderabad?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the available elective domain options?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc."
+    }
+  },{
+    "@type": "Question",
+    "name": "Which domain elective is best suited for me?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988"
+    }
+  },{
+    "@type": "Question",
+    "name": "Why is domain specialization important?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "After enrolling in the ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I select multiple domain electives and do I need to pay extra charges?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I don't have any prior experience in any domain?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I change my domain electives later?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the total Fee for this machine learning course in Hyderabad?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000/- Inclusive of GST."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I pay in installments for 1,59,000/-?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any scholarship available for the Machine Learning certification? What is Group Discount?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the refund policy for this Machine Learning training course at Learnbay in Hyderabad?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many capstone machine learning projects will be there?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many real-time projects will be there?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on. Click here to download the list of the projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How will the be executed?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any accredited certification after this machine learning course completion in Hyderabad?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course."
+    }
+  },{
+    "@type": "Question",
+    "name": "What categories of certifications might I expect to receive?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Deep Learning Fundamentals Deep Learning with TensorFlow Machine Learning with Python Accelerating Deep Learning with GPUs Advance AI & ML Certificate (final) Capstone Project Certificate by IBM"
+    }
+  },{
+    "@type": "Question",
+    "name": "What's the eligibility for a job assistance program at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get support for job assistance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a job-readiness program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Job readiness programs help you prepare for interviews which include: Resume Preparation sessions Preparing projects for a strong portfolio Interview guidance and prep sessions 1:1 Mock interviews based on targeted companies and roles"
+    }
+  },{
+    "@type": "Question",
+    "name": "Will I get job referrals at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies."
+    }
+  },{
+    "@type": "Question",
+    "name": "Until when will the Learnbay students in Hyderabad get the facility of mentorship?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our Mentors will provide ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can a Learnbay student in Hyderabad choose to study from their desired mentor?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+    }
+  },{
+    "@type": "Question",
+    "name": "When is the job assistance provided and for how long I will get the service?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get Job referrals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  }]
+}
+ }`,
+          }}
         />
       </Head>
       <main>
@@ -167,6 +449,7 @@ export default function Home() {
           firstToparaImg="Training In Hyderabad"
           firstTopPara="Machine Learning Course For Experienced Tech Professionals"
           idss="YWxTtvb3x-U"
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={
@@ -264,6 +547,7 @@ export default function Home() {
               src={MachineLearningHyderabadCourseData[0].src}
               src22={MachineLearningHyderabadCourseData[0].src22}
               src33={MachineLearningHyderabadCourseData[0].src33}
+              src44={MachineLearningHyderabadCourseData[0].src44}
               alt2={MachineLearningHyderabadCourseData[0].alt2}
               alt3={MachineLearningHyderabadCourseData[0].alt3}
               alt4={MachineLearningHyderabadCourseData[0].alt4}

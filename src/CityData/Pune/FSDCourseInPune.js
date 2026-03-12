@@ -134,7 +134,7 @@ export const FSDPuneCourseData = [
           {
             id: 4,
             ques: 'What will be the program duration for this full-stack software developer course in pune?',
-            ans: 'This full-stack software developer course is about 8 to 9  months (300 hours), including live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on Weekdays and Weekend Batches. Weekday batch - 8 months (Monday to Friday - 2 hours/day). Weekend batch - 9 months (Saturday & Sunday - 3.5 hours/day) After the completion of term 1, you can start working on real-time projects and attend job interviews.',
+            ans: 'The course duration of the full-stack software developer course in pune is 7 – 8 months, including flexible training sessions.',
             open: false,
           },
           {
@@ -220,15 +220,13 @@ export const FSDPuneCourseData = [
           {
             id: 0,
             ques: 'How much is the full-stack software developer course fee in Pune?',
-            ans: `The course costs INR 1,59,000 plus 18% GST. Learnbay extends a pocket-friendly career switch with its flexible installment options, with a no-cost EMI for 6, 9, and 12 months.`,
+            ans: `The total cost of a full-stack software development course in Pune with agentic AI is INR 1,59,000  plus 18% GST.`,
             open: true,
           },
           {
             id: 1,
             ques: 'Is there any Installment / EMI option available for this course in Pune?',
-            ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹10,816/month up to 12 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
-            linkText1: '@ +917795687988',
-            link1: 'tel:+917795687988',
+            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option. You can also choose an interest-free loan by submitting an Aadhar card, a Pan Card, and a 3-month salary slip.',
             open: false,
           },
           {
@@ -282,7 +280,11 @@ export const FSDPuneCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion. `,
+            ans: `Yes. Our SDE master’s course offers –
+One IBM Generative AI certification, 
+three Microsoft Azure certifications, 
+two AI Co-Lab certifications.
+`,
             open: true,
           },
         ],
@@ -472,7 +474,7 @@ export const FSDPuneCourseData = [
     JobBot1:
       "Learnbay's full-stack developer course with placement assists students in Pune with resume building, so your profile shows the right skills during the interview. Learnbay dedicatedly helps our students even after course completion because we know that resume building and job referrals are as important as completing the course.",
     JobHead2:
-      "'mock interview sessions, preparing Learnbay alumni for their dream interviews.'",
+      'Unlock job-driven skills with the best Full-Stack Software Developer Course in Pune.',
     JobBot3:
       'Already mentioned, Learnbay full-stack developer course in Pune is a specialized domain course. Hence, learners from Learnbay always remain ten steps ahead of the generic crowd of job seekers. Our dedicated student support team helps candidates with job referrals, so alumni are recruited to top organizations. In fact, here, you get amazing assured career assistance.',
     ProjectsBot1:

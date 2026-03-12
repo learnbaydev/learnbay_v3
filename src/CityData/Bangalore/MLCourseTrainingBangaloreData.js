@@ -1,368 +1,368 @@
 export const MLBangaloreCourseData = [
   {
-    script1: {
-      '@context': 'https://schema.org/',
-      '@type': 'HowTo',
-      name: 'How to apply for data science course?',
-      description:
-        'You just have to follow 3 easy steps to enroll in our advanced data science course',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      totalTime: 'PT6M',
-      estimatedCost: {
-        '@type': 'MonetaryAmount',
-        currency: 'INR',
-        value: '6',
-      },
-      supply: {
-        '@type': 'HowToSupply',
-        name: 'We provide machine learning course training in bangalore',
-      },
-      tool: {
-        '@type': 'HowToTool',
-        name: 'Data science, machine learning, artificial intelligence, data analytics',
-      },
-      step: [
-        {
-          '@type': 'HowToStep',
-          text: 'Visit our website and fill the enquiry form',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Fill Enquiry Form',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Talk to our experts for career counseling',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png',
-          name: 'Talk to Expert',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Get enrollment in our data science course',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Get enrollment',
-          url: 'https://www.learnbay.co/',
-        },
-      ],
-    },
-    script2: {
-      '@context': 'https://schema.org',
-      '@type': 'NewsArticle',
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': 'https://www.learnbay.co/',
-      },
-      headline: 'Machine Learning Course Training In Bangalore',
-      description:
-        'Machine learning course in Bangalore. Learnbay is Advanced Machine Learning Course Training Institute in Bangalore. Machine Learning course in Bangalore will enhance your career',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      author: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co/',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-        },
-      },
-      datePublished: '2021-10-01',
-      dateModified: '2022-04-21',
-    },
-    script3: {
-      '@context': 'https://schema.org',
+    // script1: {
+    //   '@context': 'https://schema.org/',
+    //   '@type': 'HowTo',
+    //   name: 'How to apply for data science course?',
+    //   description:
+    //     'You just have to follow 3 easy steps to enroll in our advanced data science course',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   totalTime: 'PT6M',
+    //   estimatedCost: {
+    //     '@type': 'MonetaryAmount',
+    //     currency: 'INR',
+    //     value: '6',
+    //   },
+    //   supply: {
+    //     '@type': 'HowToSupply',
+    //     name: 'We provide machine learning course training in bangalore',
+    //   },
+    //   tool: {
+    //     '@type': 'HowToTool',
+    //     name: 'Data science, machine learning, artificial intelligence, data analytics',
+    //   },
+    //   step: [
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Visit our website and fill the enquiry form',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Fill Enquiry Form',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Talk to our experts for career counseling',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png',
+    //       name: 'Talk to Expert',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Get enrollment in our data science course',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Get enrollment',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //   ],
+    // },
+    // script2: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'NewsArticle',
+    //   mainEntityOfPage: {
+    //     '@type': 'WebPage',
+    //     '@id': 'https://www.learnbay.co/',
+    //   },
+    //   headline: 'Machine Learning Course Training In Bangalore',
+    //   description:
+    //     'Machine learning course in Bangalore. Learnbay is Advanced Machine Learning Course Training Institute in Bangalore. Machine Learning course in Bangalore will enhance your career',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   author: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co/',
+    //   },
+    //   publisher: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     logo: {
+    //       '@type': 'ImageObject',
+    //       url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //     },
+    //   },
+    //   datePublished: '2021-10-01',
+    //   dateModified: '2022-04-21',
+    // },
+    // script3: {
+    //   '@context': 'https://schema.org',
 
-      '@type': 'FAQPage',
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'What are the prerequisites for the Machine Learning course with Domain Specialization in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Basic programming & mathematics knowledge is enough. For strengthening your programming skills we provide special programming classes. We teach required statistics from a very basic level.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What if I miss a few classes due to an emergency?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is a Flexi Subscription in the Machine learning certification course of Learnbay in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Those who enroll for machine learning live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What’s the duration of this Machine Learning course in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate. Classes will be conducted on weekdays and weekend batches. Weekday batch - 9.5 months Monday to Friday - 2 hours/day Weekend batch -11 months Saturday & Sunday - 3.5 hours/day',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the mode of ML training at Learnbay, in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We provide both classroom and online machine learning training modes. Based on your requirement, you can choose your preferred mode.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is domain specialization associated with the Learnbay machine learning certification course in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What are the available elective domain options?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Which domain elective is best suited for me?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Why is domain specialization important?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: "After enrolling in the ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can I select multiple domain electives and do I need to pay extra charges?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: "What if I don't have any prior experience in any domain?",
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can I change my domain electives later?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the total Fee for this machine learning course in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000/- Inclusive of GST.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can I pay in installments for 1,59,000/-?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is there any scholarship available for the Machine Learning certification? What is Group Discount?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the refund policy for this Machine Learning training course at Learnbay in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many capstone machine learning projects will be there?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training..',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many real-time projects will be there?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on. Click here to download the list of the projects.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is there any accredited certification after this machine learning course completion in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What categories of certifications might I expect to receive?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Deep Learning Fundamentals Deep Learning with TensorFlow Machine Learning with Python Accelerating Deep Learning with GPUs Advance AI & ML Certificate (final) Capstone Project Certificate by IBM',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: "What's the eligibility for a job assistance program at Learnbay?",
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How long will I get support for job assistance?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is a job-readiness program?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Job readiness programs help you prepare for interviews which include: Resume Preparation sessions Preparing projects for a strong portfolio Interview guidance and prep sessions 1:1 Mock interviews based on targeted companies and roles',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Will I get job referrals at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Until when will the Learnbay students in Bangalore get the facility of mentorship?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Our Mentors will provide ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can a Learnbay student in Pune choose to study from their desired mentor?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'When is the job assistance provided and for how long I will get the service?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How long will I get Job referrals?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
-          },
-        },
-      ],
-    },
-    script4: {
-      '@context': 'http://schema.org',
-      '@type': 'EducationEvent',
-      name: 'Machine Learning Course Training In Bangalore',
-      description:
-        'Machine learning course in Bangalore. Learnbay is Advanced Machine Learning Course Training Institute in Bangalore. Machine Learning course in Bangalore will enhance your career',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-      performer: 'Learnbay',
-      offers: {
-        '@type': 'AggregateOffer',
-        lowPrice: '39999',
-        highPrice: '110000',
-        url: 'https://www.learnbay.co/',
-        availability: 'https://schema.org/InStock',
-        price: '39999',
-        priceCurrency: 'INR',
-        validFrom: '2022-05-01',
-      },
-      startDate: '2022-05-01',
-      endDate: '2022-08-31',
-      url: 'https://www.learnbay.co/',
-      duration: '80',
-      eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
-      eventStatus: 'http://schema.org/EventScheduled',
-      location: [
-        {
-          '@type': 'VirtualLocation',
-          url: 'https://www.learnbay.co/',
-        },
-        {
-          '@type': 'Place',
-          name: 'Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Bangalore',
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress:
-              '#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)',
+    //   '@type': 'FAQPage',
+    //   mainEntity: [
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What are the prerequisites for the Machine Learning course with Domain Specialization in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Basic programming & mathematics knowledge is enough. For strengthening your programming skills we provide special programming classes. We teach required statistics from a very basic level.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What if I miss a few classes due to an emergency?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is a Flexi Subscription in the Machine learning certification course of Learnbay in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Those who enroll for machine learning live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What’s the duration of this Machine Learning course in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate. Classes will be conducted on weekdays and weekend batches. Weekday batch - 9.5 months Monday to Friday - 2 hours/day Weekend batch -11 months Saturday & Sunday - 3.5 hours/day',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the mode of ML training at Learnbay, in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We provide both classroom and online machine learning training modes. Based on your requirement, you can choose your preferred mode.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is domain specialization associated with the Learnbay machine learning certification course in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What are the available elective domain options?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Which domain elective is best suited for me?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Why is domain specialization important?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: "After enrolling in the ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can I select multiple domain electives and do I need to pay extra charges?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: "What if I don't have any prior experience in any domain?",
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can I change my domain electives later?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the total Fee for this machine learning course in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000/- Inclusive of GST.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can I pay in installments for 1,59,000/-?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Is there any scholarship available for the Machine Learning certification? What is Group Discount?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the refund policy for this Machine Learning training course at Learnbay in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How many capstone machine learning projects will be there?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training..',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How many real-time projects will be there?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on. Click here to download the list of the projects.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Is there any accredited certification after this machine learning course completion in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What categories of certifications might I expect to receive?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Deep Learning Fundamentals Deep Learning with TensorFlow Machine Learning with Python Accelerating Deep Learning with GPUs Advance AI & ML Certificate (final) Capstone Project Certificate by IBM',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: "What's the eligibility for a job assistance program at Learnbay?",
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How long will I get support for job assistance?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is a job-readiness program?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Job readiness programs help you prepare for interviews which include: Resume Preparation sessions Preparing projects for a strong portfolio Interview guidance and prep sessions 1:1 Mock interviews based on targeted companies and roles',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Will I get job referrals at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Until when will the Learnbay students in Bangalore get the facility of mentorship?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Our Mentors will provide ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can a Learnbay student in Pune choose to study from their desired mentor?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'When is the job assistance provided and for how long I will get the service?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How long will I get Job referrals?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
+    //       },
+    //     },
+    //   ],
+    // },
+    // script4: {
+    //   '@context': 'http://schema.org',
+    //   '@type': 'EducationEvent',
+    //   name: 'Machine Learning Course Training In Bangalore',
+    //   description:
+    //     'Machine learning course in Bangalore. Learnbay is Advanced Machine Learning Course Training Institute in Bangalore. Machine Learning course in Bangalore will enhance your career',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //   performer: 'Learnbay',
+    //   offers: {
+    //     '@type': 'AggregateOffer',
+    //     lowPrice: '39999',
+    //     highPrice: '110000',
+    //     url: 'https://www.learnbay.co/',
+    //     availability: 'https://schema.org/InStock',
+    //     price: '39999',
+    //     priceCurrency: 'INR',
+    //     validFrom: '2022-05-01',
+    //   },
+    //   startDate: '2022-05-01',
+    //   endDate: '2022-08-31',
+    //   url: 'https://www.learnbay.co/',
+    //   duration: '80',
+    //   eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
+    //   eventStatus: 'http://schema.org/EventScheduled',
+    //   location: [
+    //     {
+    //       '@type': 'VirtualLocation',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //     {
+    //       '@type': 'Place',
+    //       name: 'Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Bangalore',
+    //       address: {
+    //         '@type': 'PostalAddress',
+    //         streetAddress:
+    //           '#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)',
 
-            addressLocality: 'HSR Sector 3',
-            postalCode: '560102',
-            addressCountry: 'Bengaluru, Karnataka,INDIA',
-          },
-          geo: {
-            '@type': 'GeoCoordinates',
-            latitude: '12.914745887585838',
-            longitude: '77.64087553886982',
-          },
-        },
-      ],
-      organizer: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co',
-      },
-    },
+    //         addressLocality: 'HSR Sector 3',
+    //         postalCode: '560102',
+    //         addressCountry: 'Bengaluru, Karnataka,INDIA',
+    //       },
+    //       geo: {
+    //         '@type': 'GeoCoordinates',
+    //         latitude: '12.914745887585838',
+    //         longitude: '77.64087553886982',
+    //       },
+    //     },
+    //   ],
+    //   organizer: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co',
+    //   },
+    // },
     secondSection: [
       {
         id: 1,
@@ -531,13 +531,7 @@ export const MLBangaloreCourseData = [
           {
             id: 3,
             ques: 'What’s the duration of this  Machine Learning course in Bangalore?',
-            ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
-        
-            Classes will be conducted on weekdays and weekend batches.
-            Weekday batch - 9.5 months
-               Monday to Friday - 2 hours/day
-            Weekend batch -11 months
-            Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of this gen AI-associated machine learning course in Bangalore is 13 months. `,
             open: false,
           },
           {
@@ -621,7 +615,7 @@ export const MLBangaloreCourseData = [
           {
             id: 1,
             ques: 'Can I pay in installments for 1,59,000/-?',
-            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,539/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
+            ans: 'Yes, you can pay the installment using a credit card with zero cost EMI, in 3, 6, or 12 months. However, you need to submit 3 months payslip and other KYC documents. Please contact the sales team for more details.',
             open: false,
           },
           {
@@ -684,7 +678,7 @@ export const MLBangaloreCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after this machine learning course completion in Bangalore?',
-            ans: `Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.`,
+            ans: `Yes, you will get a total of four certificates: one IBM Course Completion Certification, one IBM Project Certificate, one Gen-AI certificate from IBM, and a Microsoft certificate. `,
             open: true,
           },
           {
@@ -828,10 +822,11 @@ export const MLBangaloreCourseData = [
     CertificationBot1:
       'On the course completion, you get separate machine learning skill certificates from tech giant IBM for tools and skills like Deep Learning, Tensorflow, machine learning with python, capstone project certifications, etc. But the most significant achievement becomes the IBM ML project experience certification by completing two fresh capstone projects.',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Azure+AI+Fundamentals.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       'Learnbay Machine learning course in Bangalore contains 300 hrs of hassle-free live classes from PRODUCT Based Companies experts. With 18+ comprehensively planned machine learning modules, students can easily achieve advanced industrial knowledge. Not only that, each of the modules owns such a sequence of submodules from basic to expert level so that a complete novice can also utilize the course with 100% ROI.',
     ModuleBot2:

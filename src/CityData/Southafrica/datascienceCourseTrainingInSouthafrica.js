@@ -424,8 +424,8 @@ export const DSSouthAfricaCourseData = [
     CertificationBot1:
       'Learnbay’s data scientist courses in South Africa offer globally recognized certifications in alliance with IBM . Our tie-up with IBM, a global digital leader, ensures your skill upgrades with in-demand tools. With IBM course and project certifications, learners can crack demanding job roles across MNCs.       ',
     // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     CertificationBot2:

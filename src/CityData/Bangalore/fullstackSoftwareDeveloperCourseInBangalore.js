@@ -444,6 +444,8 @@ export const FullStackBangaloreCourseData = [
     DomainHead5: 'c. Data science and AI',
     DomainHead6: 'd. Web 3.0 developer',
     DomainHead7: 'e. DevOps and clouds',
+    DomainHead8:
+      'Note: Our courses always follow the contemporary job market skill demands, so our modules and courses are always updated. Please check the brochure in the module section to get the current syllabus.',
     ModuleBot1:
       "Learnbay trainers are professional full-stack developers who have designed full-stack course curricula as per Bangalore's needs and organizational requirements.",
     ModuleHead2: 'Become a professional MEAN and MERN stack developer.',

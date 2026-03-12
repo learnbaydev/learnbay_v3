@@ -1,326 +1,326 @@
 export const DADelhiCourseData = [
   {
-    script1: {
-      '@context': 'https://schema.org',
-      '@type': 'NewsArticle',
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': 'https://www.learnbay.co/',
-      },
-      headline: 'Data Analytics Course Training in Delhi',
-      description:
-        'Data Analytics Course in Delhi. Learnbay is Advanced Data Analytics Course Training Institute in Delhi. Data Analytics course in Delhi will enhance your career',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      author: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co/',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-        },
-      },
-      datePublished: '2021-10-01',
-      dateModified: '2022-04-21',
-    },
-    script2: {
-      '@context': 'https://schema.org',
-      '@type': 'FAQPage',
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'What are the prerequisites for the Data Analytics Training Course in Delhi?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'There are no prerequisites for this Data Analytics certification course in Delhi as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What if I miss a few classes due to an emergency?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is a Flexi Subscription in the Data Analytics Certification Program in Delhi?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What’s the duration of the Data Analytics Course in Delhi?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the mode of Data Analytics training at Learnbay, Delhi?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How can I opt for a Hybrid mode of learning in Delhi?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the total fee for the Data Analytics Program in Delhi?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can I pay in installments for INR 1,20,000/-?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is there any scholarship/discount available for the Data Analytics Certification in Delhi? What is Group Discount?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the refund policy for the Data Analytics Course at Learnbay?.',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many real-time projects/case studies will be there?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc. ',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many real-time projects will be there?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How will the project be executed?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is there any accredited certification after course completion?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: "What's the eligibility for a job assistance program in Learnbay?",
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many interview calls will I get at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is a job-readiness program?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the refund policy for the Data Science Certification courses at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Will I get job referrals at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Until when will the students get the facility of mentorship?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Our mentors will provide data science training to the students until the completion of the course.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can a Learnbay student choose to study from their desired mentor?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'When is the job assistance provided at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How long will I get Job referrals?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
-          },
-        },
-      ],
-    },
-    script3: {
-      '@context': 'http://schema.org',
-      '@type': 'EducationEvent',
-      name: 'Data Analytics Course Training in Delhi',
-      description:
-        'Data Analytics Course in Delhi. Learnbay is Advanced Data Analytics Course Training Institute in Delhi. Data Analytics course in Delhi will enhance your career',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-      performer: 'Learnbay',
-      offers: {
-        '@type': 'AggregateOffer',
-        lowPrice: '39999',
-        highPrice: '110000',
-        url: 'https://www.learnbay.co/',
-        availability: 'https://schema.org/InStock',
-        price: '39999',
-        priceCurrency: 'INR',
-        validFrom: '2022-05-01',
-      },
-      startDate: '2022-05-01',
-      endDate: '2022-08-31',
-      url: 'https://www.learnbay.co/',
-      duration: '80',
-      eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
-      eventStatus: 'http://schema.org/EventScheduled',
-      location: [
-        {
-          '@type': 'VirtualLocation',
-          url: 'https://www.learnbay.co/',
-        },
-        {
-          '@type': 'Place',
-          name: 'Learnbay - Data Science, Data Analytics Course Training in Delhi',
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress:
-              ' #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)',
-            addressLocality: 'HSR Sector 3',
-            postalCode: '560102',
-            addressCountry: 'Bengaluru, Karnataka,INDIA',
-          },
-          geo: {
-            '@type': 'GeoCoordinates',
-            latitude: '12.911762714349765,',
-            longitude: '77.64127379352328',
-          },
-        },
-      ],
-      organizer: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co',
-      },
-    },
-    script4: {
-      '@context': 'https://schema.org/',
-      '@type': 'HowTo',
-      name: 'How to apply for data science course?',
-      description:
-        'You just have to follow 3 easy steps to enroll in our advanced data science course',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      totalTime: 'PT6M',
-      estimatedCost: {
-        '@type': 'MonetaryAmount',
-        currency: 'INR',
-        value: '6',
-      },
-      supply: {
-        '@type': 'HowToSupply',
-        name: 'We provide Advanced data science course in Delhi, Bangalore, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai',
-      },
-      tool: {
-        '@type': 'HowToTool',
-        name: 'Data science, machine learning, artificial intelligence, data analytics',
-      },
-      step: [
-        {
-          '@type': 'HowToStep',
-          text: 'Visit our website and fill the enquiry form',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Fill Enquiry Form',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Talk to our experts for career counseling',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png',
-          name: 'Talk to Expert',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Get enrollment in our data science course',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Get enrollment',
-          url: 'https://www.learnbay.co/',
-        },
-      ],
-    },
+    // script1: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'NewsArticle',
+    //   mainEntityOfPage: {
+    //     '@type': 'WebPage',
+    //     '@id': 'https://www.learnbay.co/',
+    //   },
+    //   headline: 'Data Analytics Course Training in Delhi',
+    //   description:
+    //     'Data Analytics Course in Delhi. Learnbay is Advanced Data Analytics Course Training Institute in Delhi. Data Analytics course in Delhi will enhance your career',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   author: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co/',
+    //   },
+    //   publisher: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     logo: {
+    //       '@type': 'ImageObject',
+    //       url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //     },
+    //   },
+    //   datePublished: '2021-10-01',
+    //   dateModified: '2022-04-21',
+    // },
+    // script2: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'FAQPage',
+    //   mainEntity: [
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What are the prerequisites for the Data Analytics Training Course in Delhi?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'There are no prerequisites for this Data Analytics certification course in Delhi as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What if I miss a few classes due to an emergency?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is a Flexi Subscription in the Data Analytics Certification Program in Delhi?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What’s the duration of the Data Analytics Course in Delhi?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the mode of Data Analytics training at Learnbay, Delhi?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How can I opt for a Hybrid mode of learning in Delhi?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the total fee for the Data Analytics Program in Delhi?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can I pay in installments for INR 1,20,000/-?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Is there any scholarship/discount available for the Data Analytics Certification in Delhi? What is Group Discount?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the refund policy for the Data Analytics Course at Learnbay?.',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How many real-time projects/case studies will be there?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc. ',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How many real-time projects will be there?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How will the project be executed?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Is there any accredited certification after course completion?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: "What's the eligibility for a job assistance program in Learnbay?",
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How many interview calls will I get at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is a job-readiness program?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the refund policy for the Data Science Certification courses at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Will I get job referrals at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Until when will the students get the facility of mentorship?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Our mentors will provide data science training to the students until the completion of the course.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can a Learnbay student choose to study from their desired mentor?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'When is the job assistance provided at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How long will I get Job referrals?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
+    //       },
+    //     },
+    //   ],
+    // },
+    // script3: {
+    //   '@context': 'http://schema.org',
+    //   '@type': 'EducationEvent',
+    //   name: 'Data Analytics Course Training in Delhi',
+    //   description:
+    //     'Data Analytics Course in Delhi. Learnbay is Advanced Data Analytics Course Training Institute in Delhi. Data Analytics course in Delhi will enhance your career',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //   performer: 'Learnbay',
+    //   offers: {
+    //     '@type': 'AggregateOffer',
+    //     lowPrice: '39999',
+    //     highPrice: '110000',
+    //     url: 'https://www.learnbay.co/',
+    //     availability: 'https://schema.org/InStock',
+    //     price: '39999',
+    //     priceCurrency: 'INR',
+    //     validFrom: '2022-05-01',
+    //   },
+    //   startDate: '2022-05-01',
+    //   endDate: '2022-08-31',
+    //   url: 'https://www.learnbay.co/',
+    //   duration: '80',
+    //   eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
+    //   eventStatus: 'http://schema.org/EventScheduled',
+    //   location: [
+    //     {
+    //       '@type': 'VirtualLocation',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //     {
+    //       '@type': 'Place',
+    //       name: 'Learnbay - Data Science, Data Analytics Course Training in Delhi',
+    //       address: {
+    //         '@type': 'PostalAddress',
+    //         streetAddress:
+    //           ' #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)',
+    //         addressLocality: 'HSR Sector 3',
+    //         postalCode: '560102',
+    //         addressCountry: 'Bengaluru, Karnataka,INDIA',
+    //       },
+    //       geo: {
+    //         '@type': 'GeoCoordinates',
+    //         latitude: '12.911762714349765,',
+    //         longitude: '77.64127379352328',
+    //       },
+    //     },
+    //   ],
+    //   organizer: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co',
+    //   },
+    // },
+    // script4: {
+    //   '@context': 'https://schema.org/',
+    //   '@type': 'HowTo',
+    //   name: 'How to apply for data science course?',
+    //   description:
+    //     'You just have to follow 3 easy steps to enroll in our advanced data science course',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   totalTime: 'PT6M',
+    //   estimatedCost: {
+    //     '@type': 'MonetaryAmount',
+    //     currency: 'INR',
+    //     value: '6',
+    //   },
+    //   supply: {
+    //     '@type': 'HowToSupply',
+    //     name: 'We provide Advanced data science course in Delhi, Bangalore, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai',
+    //   },
+    //   tool: {
+    //     '@type': 'HowToTool',
+    //     name: 'Data science, machine learning, artificial intelligence, data analytics',
+    //   },
+    //   step: [
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Visit our website and fill the enquiry form',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Fill Enquiry Form',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Talk to our experts for career counseling',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png',
+    //       name: 'Talk to Expert',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Get enrollment in our data science course',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Get enrollment',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //   ],
+    // },
     secondSection: [
       {
         id: 1,
@@ -488,7 +488,7 @@ export const DADelhiCourseData = [
           },
           {
             id: 3,
-            ques: "What’s the duration of the Data Analytics Course in Delhi?",
+            ques: 'What’s the duration of the Data Analytics Course in Delhi?',
             ans: `The duration of this Data Analytics Course is about 6 months which includes live lectures, hands-on practical training on live projects, and interview preparations.
             
                 Classes will be conducted on weekdays and weekend batches.`,
@@ -514,8 +514,8 @@ export const DADelhiCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is domain specialization associated with the Learnbay machine learning certification course in Delhi?",
-            ans: "We offer an industry-specific data analytics course with the latest Generative AI updates. This will help you to learn the current industry best practices.",
+            ques: 'What is domain specialization associated with the Learnbay machine learning certification course in Delhi?',
+            ans: 'We offer an industry-specific data analytics course with the latest Generative AI updates. This will help you to learn the current industry best practices.',
             open: true,
           },
           {
@@ -617,7 +617,7 @@ export const DADelhiCourseData = [
             link: true,
             open: true,
           },
-          
+
           {
             id: 2,
             ques: 'How will the project be executed?',
@@ -632,7 +632,7 @@ export const DADelhiCourseData = [
         data: [
           {
             id: 0,
-            ques: "Is there any accredited certification after course completion?",
+            ques: 'Is there any accredited certification after course completion?',
             ans: `Yes, you will be awarded IBM Generative AI certificate, one IBM course completion certificate, and one IIT Patna certification. `,
             open: true,
           },
@@ -715,7 +715,7 @@ export const DADelhiCourseData = [
     ProgramBot1:
       'Learnbay provides industry-endorsed online data analytics training in Delhi. It has trained over 10,000 professionals all over India, including Delhi. The data analytics training is industry-demanding curriculum-based and draws applications from everyday business problems faced by organizations. The data analytics course with placement is the ideal solution for all of those who want to learn data analytics from scratch or want to enhance their knowledge in this field.',
     ProgramBot2:
-      "The online Data analytics course in Delhi is a 6-months program with a weekly and 6- months program with a weekend batch facilitated by industry experts. We have developed the curriculum content keeping in mind industry expectations so that by taking this course, you can gain all-around knowledge on the subject of data analytics.",
+      'The online Data analytics course in Delhi is a 6-months program with a weekly and 6- months program with a weekend batch facilitated by industry experts. We have developed the curriculum content keeping in mind industry expectations so that by taking this course, you can gain all-around knowledge on the subject of data analytics.',
     ProgramBot3:
       'In addition to getting a thorough grounding in the field of Data Analytics, this data analytics certification course will familiarize students with real-time technologies, techniques, and best practices used extensively by data analysts working in Delhi.',
     ProgramHead4:
@@ -731,34 +731,37 @@ export const DADelhiCourseData = [
       'Learnbay has developed a data analytics course in partnership with a renowned organization, IBM. Students will receive an IBM certificate upon completion of the data analytics course in Delhi. To earn this certification, students must successfully complete all modules, assessments, assignments, and projects. Following successful completion of the IBM exam, you will be eligible for IBM certification.',
     CertificationBot2:
       'This credential will make you a qualified candidate for data analyst jobs in Delhi.',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
-      "The modules of the IBM data analytics course are meticulously crafted to cater to the needs of various data analytics job roles in Delhi. The course is further divided into 8 modules which are supplemented with assignments, and real-time project works to facilitate experiential learning. This 6-months data analytics course covers important data analytics tools and techniques such as Advanced Excel, PowerBI, Time series analysis, as well as statistics and probability. Apart from this, you will also learn to create a database from scratch, design tables and queries, and analyze data using reporting apps.",
+      'The modules of the IBM data analytics course are meticulously crafted to cater to the needs of various data analytics job roles in Delhi. The course is further divided into 8 modules which are supplemented with assignments, and real-time project works to facilitate experiential learning. This 6-months data analytics course covers important data analytics tools and techniques such as Advanced Excel, PowerBI, Time series analysis, as well as statistics and probability. Apart from this, you will also learn to create a database from scratch, design tables and queries, and analyze data using reporting apps.',
     ModuleBot2:
       'In order to support our non-technical learners, we have added an extra module of programming classes in Python and R.',
     ModuleBot3:
-      "The fundamental training in data analytics course training includes:",
-   syllabush1: "INDUCTION + ORIENTATION",
-    syllabusb1: "3 Days",
+      'The fundamental training in data analytics course training includes:',
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
     SyllabusBotlist11:
-      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+      'Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
 
-    syllabush2: "FOUNDATION OF GENAI",
-    syllabusb2: "2.5 Months",
+    syllabush2: 'FOUNDATION OF GENAI',
+    syllabusb2: '2.5 Months',
     SyllabusBotlist21:
-      "Build Python, ML, DL, and NLP foundations for modern GenAI workflows.",
+      'Build Python, ML, DL, and NLP foundations for modern GenAI workflows.',
 
-    syllabush3: "ADVANCED GENERATIVE AI",
-    syllabusb3: "1 Month",
+    syllabush3: 'ADVANCED GENERATIVE AI',
+    syllabusb3: '1 Month',
     SyllabusBotlist31:
-      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+      'Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.',
 
-    syllabush4: "AGENTIC AI & AUTOMATION",
-    syllabusb4: "1 Month",
+    syllabush4: 'AGENTIC AI & AUTOMATION',
+    syllabusb4: '1 Month',
     SyllabusBotlist41:
-      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+      'Design autonomous AI agents that plan, reason, and automate complex workflows end to end.',
 
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',

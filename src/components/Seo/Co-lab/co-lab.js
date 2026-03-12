@@ -1,7 +1,7 @@
-import React, { useCallback, useEffect, useState } from "react";
-import styles from "./AICoLabExperience.module.css";
-import Image from "next/image";
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
+import React, { useCallback, useEffect, useState } from 'react';
+import styles from './AICoLabExperience.module.css';
+import Image from 'next/image';
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
 
 const AICoLabExperience = ({
   interstedInHide,
@@ -21,9 +21,6 @@ const AICoLabExperience = ({
     setRequestDemoPopup(true);
   }, []);
 
-  useEffect(() => {
-    // console.log(brochurePdf);
-  }, []);
   return (
     <section className={styles.aiCoLabSection}>
       <PopupContent
@@ -76,17 +73,17 @@ const AICoLabExperience = ({
 
               {/* Description Text */}
               <p className={styles.description}>
-                Work on live case studies and problem statements{" "}
+                Work on live case studies and problem statements{' '}
                 <span className={styles.hideOnMobile}>
                   <br />
-                </span>{" "}
+                </span>{' '}
                 from <span className={styles.highlight}>30+ companies</span> AI
                 startups
               </p>
 
               {/* Certificate Text */}
               <p className={styles.certificateText}>
-                <span className={styles.boldText}>Earn dual certificate</span>{" "}
+                <span className={styles.boldText}>Earn dual certificate</span>{' '}
                 that proves industry experience
               </p>
 
@@ -102,9 +99,9 @@ const AICoLabExperience = ({
                   className={styles.secondaryButton}
                   onClick={() =>
                     window.open(
-                      "https://www.youtube.com/playlist?list=PLl1gyDCKkiQRVRI-K7zwbtCwn6zj3nzkC",
-                      "_blank",
-                      "noopener,noreferrer"
+                      'https://www.youtube.com/playlist?list=PLl1gyDCKkiQRVRI-K7zwbtCwn6zj3nzkC',
+                      '_blank',
+                      'noopener,noreferrer'
                     )
                   }
                 >

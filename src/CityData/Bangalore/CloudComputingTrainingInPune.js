@@ -55,63 +55,63 @@ export const CloudComputingTrainingInPune = [
           },
         ],
       },
-      {
-        id: 1,
-        sectionName: 'Domain Electives',
-        data: [
-          {
-            id: 0,
-            ques: 'What is domain specialization in the professional data science certification courses provided by Learnbay in Bangalore?',
-            ans: 'We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational data science course. ',
-            open: true,
-          },
-          {
-            id: 1,
-            ques: 'What are the available elective domain options in the different data science training courses of Learnbay in Bangalore?',
-            ans: ' Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy',
-            open: false,
-          },
-          {
-            id: 2,
-            ques: 'Which data science specialization domain elective is best suited for me?',
-            ans: `You can select your domain based on your prior work experience, academics, and career goals.
-                Book a slot with our industry expert for free profile review and career guidance.`,
-            linkText1: ' +917795687988 ',
-            link1: 'tel:+917795687988',
-            link: true,
-            open: false,
-          },
-          {
-            id: 3,
-            ques: 'Why is domain specialization important in professional data science certification?',
-            ans: "After enrolling in the advanced data science courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
-            open: false,
-          },
-          {
-            id: 4,
-            ques: 'Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?',
-            ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals.
-                Advance Data Science and AI Certification course- Maximum 2 domains.
-                Data Science and AI Certification Course for Managers and Leaders- All domains
-                Data Science and AI Training with Placement Assistance- All domains
+      // {
+      //   id: 1,
+      //   sectionName: 'Domain Electives',
+      //   data: [
+      //     {
+      //       id: 0,
+      //       ques: 'What is domain specialization in the professional data science certification courses provided by Learnbay in Bangalore?',
+      //       ans: 'We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational data science course. ',
+      //       open: true,
+      //     },
+      //     {
+      //       id: 1,
+      //       ques: 'What are the available elective domain options in the different data science training courses of Learnbay in Bangalore?',
+      //       ans: ' Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy',
+      //       open: false,
+      //     },
+      //     {
+      //       id: 2,
+      //       ques: 'Which data science specialization domain elective is best suited for me?',
+      //       ans: `You can select your domain based on your prior work experience, academics, and career goals.
+      //           Book a slot with our industry expert for free profile review and career guidance.`,
+      //       linkText1: ' +917795687988 ',
+      //       link1: 'tel:+917795687988',
+      //       link: true,
+      //       open: false,
+      //     },
+      //     {
+      //       id: 3,
+      //       ques: 'Why is domain specialization important in professional data science certification?',
+      //       ans: "After enrolling in the advanced data science courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
+      //       open: false,
+      //     },
+      //     {
+      //       id: 4,
+      //       ques: 'Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?',
+      //       ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals.
+      //           Advance Data Science and AI Certification course- Maximum 2 domains.
+      //           Data Science and AI Certification Course for Managers and Leaders- All domains
+      //           Data Science and AI Training with Placement Assistance- All domains
 
-                No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
-            open: false,
-          },
-          {
-            id: 5,
-            ques: "What if I don't have any prior experience in any domain?",
-            ans: " If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
-            open: false,
-          },
-          {
-            id: 6,
-            ques: 'Can I change my domain electives later?',
-            ans: 'Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.',
-            open: false,
-          },
-        ],
-      },
+      //           No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
+      //       open: false,
+      //     },
+      //     {
+      //       id: 5,
+      //       ques: "What if I don't have any prior experience in any domain?",
+      //       ans: " If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
+      //       open: false,
+      //     },
+      //     {
+      //       id: 6,
+      //       ques: 'Can I change my domain electives later?',
+      //       ans: 'Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.',
+      //       open: false,
+      //     },
+      //   ],
+      // },
       {
         id: 2,
         sectionName: 'Payments and Scholarships',
@@ -125,7 +125,7 @@ export const CloudComputingTrainingInPune = [
           {
             id: 1,
             ques: 'Are there any installment options available for program payments?',
-            ans: 'Techies can opt for hassle-free installment payments with INR 5,244 per month. Learners can select their preferred payment options (Credit card, UPI, or Internet banking) for a hassle-free learning experience.',
+            ans: 'Yes, you can pay for the course with a credit card. Other payment options, such as UPI or Internet banking, are also available.',
             //Check This
             open: false,
           },
@@ -166,8 +166,7 @@ export const CloudComputingTrainingInPune = [
             ques: 'Is there a refund/cancellation policy if I need to withdraw from the course?',
             ans: `Anyone willing to withdraw from the course for valid reasons can follow the procedure mentioned in `,
             linkText1: 'Learnbay’s Refund/Cancellation Policy',
-            link1: '/refund-cancellation-policy',
-            ansAfter: 'Learnbay’s Refund/Cancellation Policy.',
+
             link: true,
             open: false,
           },
@@ -468,11 +467,12 @@ export const CloudComputingTrainingInPune = [
         non-tech experts:
       </span>
     ),
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src44:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud%26devops.webp',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/cloud_cert.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/solution_arch.webp',
     ModuleHead1: 'Learning Outcomes',
     ModuleBot1:
       'Pune’s tech space keeps growing, luring techies for regular skill upgrades. Cloud-driven practices help firms have agile data solutions and secure their info from external sources. Hence, upskilling from the right program is the best way to treasure career success in the cloud field. ',

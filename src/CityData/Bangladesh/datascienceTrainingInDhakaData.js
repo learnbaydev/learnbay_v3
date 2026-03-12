@@ -436,8 +436,8 @@ export const DSDhakaCourseData = [
     CertificationBot1:
       'Data science is a rewarding career with boundless growth options for working pros from diverse backgrounds. Today’s digital space in Dhaka accommodates experts with updated data-driven skills and knowledge. Thus, upskilling via an industry-paced data science course in Dhaka has become essential to accomplishing success.         ',
     // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
     CertificationBot2:

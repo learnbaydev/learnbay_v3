@@ -1,262 +1,262 @@
 export const DAMumbaiCourseData = [
   {
-    script1: {
-      '@context': 'https://schema.org',
-      '@type': 'NewsArticle',
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': 'https://www.learnbay.co/',
-      },
-      headline: 'Data Analytics Training Course in Mumbai',
-      description:
-        'Data Analytics Course in Mumbai. Learnbay is Advanced Data Analytics Course Training Institute in Mumbai. Data Analytics course in Mumbai will enhance your career',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      author: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co/',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-        },
-      },
-      datePublished: '2021-10-01',
-      dateModified: '2022-04-21',
-    },
-    script2: {
-      '@context': 'https://schema.org',
-      '@type': 'FAQPage',
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'What are the prerequisites for the Data Analytics Training Course in Mumbai?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'What are the prerequisites for the Data Analytics Training Course in Mumbai?',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What if I miss a few classes due to an emergency?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is a Flexi Subscription in the Data Analytics Certification Program in Mumbai?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What’s the duration of the Data Analytics Course in Mumbai?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the mode of Data Analytics training at Learnbay, Mumbai?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How can I opt for a Hybrid mode of learning in Mumbai?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the total fee for the Data Analytics Program in Mumbai?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can I pay in installments for INR 1,20,000/-?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip. Please check with our sales team to know more +917795687988',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is there any scholarship/discount available for the Data Analytics Certification in Mumbai? What is Group Discount?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the refund policy for the Data Analytics Course at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Candidates are advised to read Refund/Cancellation policy before enrolling in the program.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many real-time projects/case studies will be there?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc. Click here to download the list of the projects.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How will the project be executed?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is there any accredited certification after course completion?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: "What's the eligibility for a job assistance program in Learnbay?",
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many interview calls will I get at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is a job-readiness program?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Will I get job referrals at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Until when will the students get the facility of mentorship?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Our mentors will provide data science training to the students until the completion of the course.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can a Learnbay student choose to study from their desired mentor?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'When is the job assistance provided at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How long will I get Job referrals?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
-          },
-        },
-      ],
-    },
-    script3: {
-      '@context': 'http://schema.org',
-      '@type': 'EducationEvent',
-      name: 'Data Analytics Course Training in Bangalore',
-      description:
-        'Data Analytics Course in Bangalore. Learnbay is Advanced Data Analytics Course Training Institute in Bangalore. Data Analytics course in Bangalore will enhance your career',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-      performer: 'Learnbay',
-      offers: {
-        '@type': 'AggregateOffer',
-        lowPrice: '39999',
-        highPrice: '110000',
-        url: 'https://www.learnbay.co/',
-        availability: 'https://schema.org/InStock',
-        price: '39999',
-        priceCurrency: 'INR',
-        validFrom: '2022-05-01',
-      },
-      startDate: '2022-05-01',
-      endDate: '2022-08-31',
-      url: 'https://www.learnbay.co/',
-      duration: '80',
-      eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
-      eventStatus: 'http://schema.org/EventScheduled',
-      location: [
-        {
-          '@type': 'VirtualLocation',
-          url: 'https://www.learnbay.co/',
-        },
-        {
-          '@type': 'Place',
-          name: 'Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Bangalore',
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress:
-              '#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)',
+    // script1: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'NewsArticle',
+    //   mainEntityOfPage: {
+    //     '@type': 'WebPage',
+    //     '@id': 'https://www.learnbay.co/',
+    //   },
+    //   headline: 'Data Analytics Training Course in Mumbai',
+    //   description:
+    //     'Data Analytics Course in Mumbai. Learnbay is Advanced Data Analytics Course Training Institute in Mumbai. Data Analytics course in Mumbai will enhance your career',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   author: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co/',
+    //   },
+    //   publisher: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     logo: {
+    //       '@type': 'ImageObject',
+    //       url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //     },
+    //   },
+    //   datePublished: '2021-10-01',
+    //   dateModified: '2022-04-21',
+    // },
+    // script2: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'FAQPage',
+    //   mainEntity: [
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What are the prerequisites for the Data Analytics Training Course in Mumbai?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'What are the prerequisites for the Data Analytics Training Course in Mumbai?',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What if I miss a few classes due to an emergency?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is a Flexi Subscription in the Data Analytics Certification Program in Mumbai?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What’s the duration of the Data Analytics Course in Mumbai?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the mode of Data Analytics training at Learnbay, Mumbai?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How can I opt for a Hybrid mode of learning in Mumbai?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the total fee for the Data Analytics Program in Mumbai?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can I pay in installments for INR 1,20,000/-?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip. Please check with our sales team to know more +917795687988',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Is there any scholarship/discount available for the Data Analytics Certification in Mumbai? What is Group Discount?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the refund policy for the Data Analytics Course at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Candidates are advised to read Refund/Cancellation policy before enrolling in the program.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How many real-time projects/case studies will be there?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc. Click here to download the list of the projects.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How will the project be executed?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Is there any accredited certification after course completion?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: "What's the eligibility for a job assistance program in Learnbay?",
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How many interview calls will I get at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is a job-readiness program?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Will I get job referrals at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Until when will the students get the facility of mentorship?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Our mentors will provide data science training to the students until the completion of the course.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can a Learnbay student choose to study from their desired mentor?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'When is the job assistance provided at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How long will I get Job referrals?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
+    //       },
+    //     },
+    //   ],
+    // },
+    // script3: {
+    //   '@context': 'http://schema.org',
+    //   '@type': 'EducationEvent',
+    //   name: 'Data Analytics Course Training in Bangalore',
+    //   description:
+    //     'Data Analytics Course in Bangalore. Learnbay is Advanced Data Analytics Course Training Institute in Bangalore. Data Analytics course in Bangalore will enhance your career',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //   performer: 'Learnbay',
+    //   offers: {
+    //     '@type': 'AggregateOffer',
+    //     lowPrice: '39999',
+    //     highPrice: '110000',
+    //     url: 'https://www.learnbay.co/',
+    //     availability: 'https://schema.org/InStock',
+    //     price: '39999',
+    //     priceCurrency: 'INR',
+    //     validFrom: '2022-05-01',
+    //   },
+    //   startDate: '2022-05-01',
+    //   endDate: '2022-08-31',
+    //   url: 'https://www.learnbay.co/',
+    //   duration: '80',
+    //   eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
+    //   eventStatus: 'http://schema.org/EventScheduled',
+    //   location: [
+    //     {
+    //       '@type': 'VirtualLocation',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //     {
+    //       '@type': 'Place',
+    //       name: 'Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Bangalore',
+    //       address: {
+    //         '@type': 'PostalAddress',
+    //         streetAddress:
+    //           '#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)',
 
-            addressLocality: 'HSR Sector 3',
-            postalCode: '560102',
-            addressCountry: 'Bengaluru, Karnataka,INDIA',
-          },
-          geo: {
-            '@type': 'GeoCoordinates',
-            latitude: '12.914745887585838',
-            longitude: '77.64087553886982',
-          },
-        },
-      ],
-      organizer: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co',
-      },
-    },
+    //         addressLocality: 'HSR Sector 3',
+    //         postalCode: '560102',
+    //         addressCountry: 'Bengaluru, Karnataka,INDIA',
+    //       },
+    //       geo: {
+    //         '@type': 'GeoCoordinates',
+    //         latitude: '12.914745887585838',
+    //         longitude: '77.64087553886982',
+    //       },
+    //     },
+    //   ],
+    //   organizer: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co',
+    //   },
+    // },
 
     secondSection: [
       {
@@ -426,13 +426,7 @@ export const DAMumbaiCourseData = [
           {
             id: 3,
             ques: 'What’s the duration of the Data Analytics Course in Mumbai?',
-            ans: `The duration of this Data Analytics Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-        
-            Classes will be conducted on weekdays and weekend batches.
-            Weekday batch - 4.5 months
-               Monday to Friday - 2 hours/day
-            Weekend batch - 6 months
-            Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of the data analytics course in Mumbai is 6 months. `,
             open: false,
           },
           {
@@ -456,7 +450,7 @@ export const DAMumbaiCourseData = [
           {
             id: 0,
             ques: 'What is domain specialization associated with the Learnbay data analytics certification course in Mumbai?',
-            ans: 'We offer industry-specific full-stack data analytics modules, via which you learn the respective industry’s best practices.',
+            ans: 'We offer industry-specific full-stack data analytics with Gen AI modules, via which you learn the respective industry’s best practices.',
             open: true,
           },
           {
@@ -510,7 +504,7 @@ export const DAMumbaiCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for the Data Analytics Program in Mumbai?',
-            ans: `The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.`,
+            ans: `The total Program fee for data analytics program is 1,20,000/- exclusive of GST. `,
             open: true,
           },
           {
@@ -580,7 +574,7 @@ export const DAMumbaiCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion. `,
+            ans: `You will receive 3 certifications, two from IBM and one from IIT Patna.`,
             open: true,
           },
         ],
@@ -680,9 +674,12 @@ export const DAMumbaiCourseData = [
       "IBM has recognized our data analytics industrial program in Mumbai. We've also partnered with international IT companies to offer our students a better placement assistance experience. ",
     CertificationBot2:
       'Due to the presence of the IBM Data Analytics Certificate in your Linkedin and other online job profiles, your profile becomes tagged for top-tire data analytics job profiles in Mumbai.',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleHead1:
       'What do you get under the Learnbay Data Analytics program in Mumbai?',
     ModuleHead4: 'Special Programming Classes',

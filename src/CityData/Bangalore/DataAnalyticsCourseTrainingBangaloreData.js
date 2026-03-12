@@ -1,312 +1,312 @@
 export const DABangaloreCourseData = [
   {
-    script1: {
-      '@context': 'https://schema.org',
-      '@type': 'NewsArticle',
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': 'https://www.learnbay.co/',
-      },
-      headline: 'Data Analytics Course Training in Bangalore',
-      description:
-        'Data Analytics Course in Bangalore. Learnbay is Advanced Data Analytics Course Training Institute in Bangalore. Data Analytics course in Bangalore will enhance your career',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      author: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co/',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-        },
-      },
-      datePublished: '2021-10-01',
-      dateModified: '2022-04-21',
-    },
-    script2: {
-      '@context': 'https://schema.org',
+    // script1: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'NewsArticle',
+    //   mainEntityOfPage: {
+    //     '@type': 'WebPage',
+    //     '@id': 'https://www.learnbay.co/',
+    //   },
+    //   headline: 'Data Analytics Course Training in Bangalore',
+    //   description:
+    //     'Data Analytics Course in Bangalore. Learnbay is Advanced Data Analytics Course Training Institute in Bangalore. Data Analytics course in Bangalore will enhance your career',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   author: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co/',
+    //   },
+    //   publisher: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     logo: {
+    //       '@type': 'ImageObject',
+    //       url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //     },
+    //   },
+    //   datePublished: '2021-10-01',
+    //   dateModified: '2022-04-21',
+    // },
+    // script2: {
+    //   '@context': 'https://schema.org',
 
-      '@type': 'FAQPage',
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'What are the prerequisites for the Data Analytics Training Course in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'There are no prerequisites for this Data Analytics certification course in Bangalore as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What if I miss a few classes due to an emergency?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is a Flexi Subscription in the Data Analytics Certification Program in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What’s the duration of the Data Analytics Program in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the mode of data science training at Learnbay, Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How can I opt for a Hybrid mode of learning in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the total fee for the Data Analytics Program in Bangalore?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can I pay in installments for INR 1,20,000/-?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is there any scholarship/discount available for the Data Analytics Certification in Bangalore? What is Group Discount?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the refund policy for the Data Analytics Course at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many real-time projects/case studies will be there?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How will the project be executed?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is there any accredited certification after course completion?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: "What's the eligibility for a job assistance program in Learnbay?",
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many interview calls will I get at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is a job-readiness program?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Will I get job referrals at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Until when will the students get the facility of mentorship?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Our mentors will provide data science training to the students until the completion of the course.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can a Learnbay student choose to study from their desired mentor?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'When is the job assistance provided at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How long will I get Job referrals?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
-          },
-        },
-      ],
-    },
-    script3: {
-      '@context': 'http://schema.org',
-      '@type': 'EducationEvent',
-      name: 'Data Analytics Course Training in Bangalore',
-      description:
-        'Data Analytics Course in Bangalore. Learnbay is Advanced Data Analytics Course Training Institute in Bangalore. Data Analytics course in Bangalore will enhance your career',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-      performer: 'Learnbay',
-      offers: {
-        '@type': 'AggregateOffer',
-        lowPrice: '39999',
-        highPrice: '110000',
-        url: 'https://www.learnbay.co/',
-        availability: 'https://schema.org/InStock',
-        price: '39999',
-        priceCurrency: 'INR',
-        validFrom: '2022-05-01',
-      },
-      startDate: '2022-05-01',
-      endDate: '2022-08-31',
-      url: 'https://www.learnbay.co/',
-      duration: '80',
-      eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
-      eventStatus: 'http://schema.org/EventScheduled',
-      location: [
-        {
-          '@type': 'VirtualLocation',
-          url: 'https://www.learnbay.co/',
-        },
-        {
-          '@type': 'Place',
-          name: 'Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Bangalore',
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress:
-              '#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)',
+    //   '@type': 'FAQPage',
+    //   mainEntity: [
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What are the prerequisites for the Data Analytics Training Course in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'There are no prerequisites for this Data Analytics certification course in Bangalore as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What if I miss a few classes due to an emergency?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is a Flexi Subscription in the Data Analytics Certification Program in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What’s the duration of the Data Analytics Program in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'The duration of this Data Science Course is about 6 months ( 180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 4.5 months Monday to Friday - 2 hours/day Weekend batch - 6 months Saturday & Sunday - 3.5 hours/day',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the mode of data science training at Learnbay, Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How can I opt for a Hybrid mode of learning in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the total fee for the Data Analytics Program in Bangalore?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can I pay in installments for INR 1,20,000/-?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes you, can pay in instalments using credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN car, and 3-month salary slip.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Is there any scholarship/discount available for the Data Analytics Certification in Bangalore? What is Group Discount?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the refund policy for the Data Analytics Course at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How many real-time projects/case studies will be there?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How will the project be executed?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Is there any accredited certification after course completion?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, you will be awarded IBM accredited Data Analytics Certificate on successful course completion.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: "What's the eligibility for a job assistance program in Learnbay?",
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How many interview calls will I get at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is a job-readiness program?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Will I get job referrals at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Until when will the students get the facility of mentorship?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Our mentors will provide data science training to the students until the completion of the course.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can a Learnbay student choose to study from their desired mentor?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'When is the job assistance provided at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How long will I get Job referrals?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
+    //       },
+    //     },
+    //   ],
+    // },
+    // script3: {
+    //   '@context': 'http://schema.org',
+    //   '@type': 'EducationEvent',
+    //   name: 'Data Analytics Course Training in Bangalore',
+    //   description:
+    //     'Data Analytics Course in Bangalore. Learnbay is Advanced Data Analytics Course Training Institute in Bangalore. Data Analytics course in Bangalore will enhance your career',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //   performer: 'Learnbay',
+    //   offers: {
+    //     '@type': 'AggregateOffer',
+    //     lowPrice: '39999',
+    //     highPrice: '110000',
+    //     url: 'https://www.learnbay.co/',
+    //     availability: 'https://schema.org/InStock',
+    //     price: '39999',
+    //     priceCurrency: 'INR',
+    //     validFrom: '2022-05-01',
+    //   },
+    //   startDate: '2022-05-01',
+    //   endDate: '2022-08-31',
+    //   url: 'https://www.learnbay.co/',
+    //   duration: '80',
+    //   eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
+    //   eventStatus: 'http://schema.org/EventScheduled',
+    //   location: [
+    //     {
+    //       '@type': 'VirtualLocation',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //     {
+    //       '@type': 'Place',
+    //       name: 'Learnbay - Artificial Intelligence(Ai), Artificial Intelligence(Ai) Course Training in Bangalore',
+    //       address: {
+    //         '@type': 'PostalAddress',
+    //         streetAddress:
+    //           '#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)',
 
-            addressLocality: 'HSR Sector 3',
-            postalCode: '560102',
-            addressCountry: 'Bengaluru, Karnataka,INDIA',
-          },
-          geo: {
-            '@type': 'GeoCoordinates',
-            latitude: '12.914745887585838',
-            longitude: '77.64087553886982',
-          },
-        },
-      ],
-      organizer: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co',
-      },
-    },
-    script4: {
-      '@context': 'https://schema.org/',
-      '@type': 'HowTo',
-      name: 'How to apply for data science course?',
-      description:
-        'You just have to follow 3 easy steps to enroll in our advanced data science course',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      totalTime: 'PT6M',
-      estimatedCost: {
-        '@type': 'MonetaryAmount',
-        currency: 'INR',
-        value: '6',
-      },
-      supply: {
-        '@type': 'HowToSupply',
-        name: 'We provide data analytics course training in bangalore',
-      },
-      tool: {
-        '@type': 'HowToTool',
-        name: 'Data science, machine learning, artificial intelligence, data analytics',
-      },
-      step: [
-        {
-          '@type': 'HowToStep',
-          text: 'Visit our website and fill the enquiry form',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Fill Enquiry Form',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Talk to our experts for career counseling',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/data-science-ai-for-managers.webp',
-          name: 'Talk to Expert',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Get enrollment in our data science course',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Get enrollment',
-          url: 'https://www.learnbay.co/',
-        },
-      ],
-    },
+    //         addressLocality: 'HSR Sector 3',
+    //         postalCode: '560102',
+    //         addressCountry: 'Bengaluru, Karnataka,INDIA',
+    //       },
+    //       geo: {
+    //         '@type': 'GeoCoordinates',
+    //         latitude: '12.914745887585838',
+    //         longitude: '77.64087553886982',
+    //       },
+    //     },
+    //   ],
+    //   organizer: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co',
+    //   },
+    // },
+    // script4: {
+    //   '@context': 'https://schema.org/',
+    //   '@type': 'HowTo',
+    //   name: 'How to apply for data science course?',
+    //   description:
+    //     'You just have to follow 3 easy steps to enroll in our advanced data science course',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   totalTime: 'PT6M',
+    //   estimatedCost: {
+    //     '@type': 'MonetaryAmount',
+    //     currency: 'INR',
+    //     value: '6',
+    //   },
+    //   supply: {
+    //     '@type': 'HowToSupply',
+    //     name: 'We provide data analytics course training in bangalore',
+    //   },
+    //   tool: {
+    //     '@type': 'HowToTool',
+    //     name: 'Data science, machine learning, artificial intelligence, data analytics',
+    //   },
+    //   step: [
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Visit our website and fill the enquiry form',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Fill Enquiry Form',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Talk to our experts for career counseling',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/data-science-ai-for-managers.webp',
+    //       name: 'Talk to Expert',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Get enrollment in our data science course',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Get enrollment',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //   ],
+    // },
     secondSection: [
       {
         id: 1,
@@ -474,7 +474,7 @@ export const DABangaloreCourseData = [
           },
           {
             id: 3,
-            ques: "What’s the duration of the Data Analytics Course in Bangalore?",
+            ques: 'What’s the duration of the Data Analytics Course in Bangalore?',
             ans: `The Duration of the Data Analytics course in Bangalore with GenAI is 6 months. `,
             open: false,
           },
@@ -558,8 +558,8 @@ export const DABangaloreCourseData = [
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 1,20,000/-?",
-            ans: "You can opt for 3,6 or 12 months EMI by submitting a few documents like a 3-month salary slip, valid photo ID proofs. ",
+            ques: 'Can I pay in installments for INR 1,20,000/-?',
+            ans: 'You can opt for 3,6 or 12 months EMI by submitting a few documents like a 3-month salary slip, valid photo ID proofs. ',
             open: false,
           },
           {
@@ -622,7 +622,7 @@ export const DABangaloreCourseData = [
         data: [
           {
             id: 0,
-            ques: "Is there any accredited certification after course completion?",
+            ques: 'Is there any accredited certification after course completion?',
             ans: `Yes, you will be awarded with a total of 3 certifications: IBM, Gen AI, and IIT Patna.  `,
             open: true,
           },
@@ -934,9 +934,12 @@ export const DABangaloreCourseData = [
     CertificationBot3:
       'Participants can apply for top-tier companies from different verticals with the help of IBM certifications. Earning an IBM certification will pave the way for your abroad opportunities as well.       ',
 
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
       'Learnbay develops its data analytics course in Bangalore according to current industry trends and demands. Participants will get hands-on training for in-demand tools and our course curriculum is market-driven, specially designed by industry experts. The following is an overview of our data analytics program curriculum.    ',
     ModuleBot2:
@@ -950,25 +953,25 @@ export const DABangaloreCourseData = [
     ModuleBot6:
       'In addition, we offer a bonus module that exclusively deals with Generative AI tools and future trends. Students of our data analyst course will receive training for NLP, ChatGPT, and Dall-E.     ',
 
-    syllabush1: "INDUCTION + ORIENTATION",
-    syllabusb1: "3 Days",
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
     SyllabusBotlist11:
-      "Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.",
+      'Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
 
-    syllabush2: "FOUNDATION OF GENAI",
-    syllabusb2: "2.5 Months",
+    syllabush2: 'FOUNDATION OF GENAI',
+    syllabusb2: '2.5 Months',
     SyllabusBotlist21:
-      "Build Python, data analytics course, DL, and NLP foundations for modern GenAI workflows.",
+      'Build Python, data analytics course, DL, and NLP foundations for modern GenAI workflows.',
 
-    syllabush3: "ADVANCED GENERATIVE AI",
-    syllabusb3: "1 Month",
+    syllabush3: 'ADVANCED GENERATIVE AI',
+    syllabusb3: '1 Month',
     SyllabusBotlist31:
-      "Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.",
+      'Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.',
 
-    syllabush4: "AGENTIC AI & AUTOMATION",
-    syllabusb4: "1 Month",
+    syllabush4: 'AGENTIC AI & AUTOMATION',
+    syllabusb4: '1 Month',
     SyllabusBotlist41:
-      "Design autonomous AI agents that plan, reason, and automate complex workflows end to end.",
+      'Design autonomous AI agents that plan, reason, and automate complex workflows end to end.',
 
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',

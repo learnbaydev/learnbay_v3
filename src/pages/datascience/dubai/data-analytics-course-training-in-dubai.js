@@ -74,17 +74,16 @@ export default function Home() {
     fetchPopup();
   }, []);
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf';
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Best IBM Certified Data Analytics Course in Dubai - Learnbay
-        </title>
+        <title>Data Analytics Certification Course in Dubai with Gen AI</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Advance your career with Learnbay's Data Analytics Course in Dubai. Gain expert guidance and acquire practical skills to become job-ready. Enroll Now!"
+          content="Advance your career with Learnbay's Data Analytics training in Dubai. Gain expert guidance, IBM certificate, live industry projects & 100% job assist.
+"
         />
         <meta
           name="keywords"
@@ -94,40 +93,38 @@ export default function Home() {
           property="og:url"
           content="https://www.learnbay.co/datascience/dubai/data-analytics-course-training-in-dubai"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Best IBM Certified Data Analytics Course in Dubai - Learnbay"
+          content="Data Analytics Certification Course in Dubai with Gen AI"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Advance your career with Learnbay's Data Analytics Course in Dubai. Gain expert guidance and acquire practical skills to become job-ready. Enroll Now!"
+          content="Advance your career with Learnbay's Data Analytics training in Dubai. Gain expert guidance, IBM certificate, live industry projects & 100% job assist."
         />
         <meta
           property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Best IBM Certified Data Analytics Course in Dubai - Learnbay"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Data Analytics Courese in Dubai. Learnbay is Advanced Data Analytics Courese Training Institute in Dubai. Data Analytics Courese in Dubai will enhance your career"
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/dubai/data-analytics-course-training-in-dubai"
+        />
+        <meta
+          name="twitter:title"
+          content="Data Analytics Certification Course in Dubai with Gen AI"
         />
         <meta
           name="twitter:description"
-          content="Advance your career with Learnbay's Data Analytics Course in Dubai. Gain expert guidance and acquire practical skills to become job-ready. Enroll Now!"
+          content="Advance your career with Learnbay's Data Analytics training in Dubai. Gain expert guidance, IBM certificate, live industry projects & 100% job assist."
         />
         <meta
           name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <link
           rel="canonical"
@@ -140,6 +137,276 @@ export default function Home() {
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
+              "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Data Analytics Certification Course in Dubai with Gen AI",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "2104"
+  }
+}
+ }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+              "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Data Analytics Certification Course in Dubai with Gen AI",
+  "description": "Advance your career with Learnbay's Data Analytics training in Dubai. Gain expert guidance, IBM certificate, live industry projects & 100% job assist.",
+  "url": "https://www.learnbay.co/datascience/dubai/data-analytics-course-training-in-dubai",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "sameAs": "https://www.learnbay.co/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "120000",
+    "priceCurrency": "INR",
+    "category": "Educational"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P6M",
+    "offers": {
+      "@type": "Offer",
+      "price": "120000",
+      "priceCurrency": "INR"
+    }
+  }
+}
+  }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{   "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What are the prerequisites for the Data Analytics Training Course in Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There are no prerequisites for this Data Analytics certification course in Dubai as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I miss a few classes due to an emergency?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a Flexi Subscription in the Data Analytics Certification Program in Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
+    }
+  },{
+    "@type": "Question",
+    "name": "What’s the duration of the Data Analytics Course in Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The duration of the data analytics course in Dubai is 6 months."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the mode of Data Analytics training at Learnbay, Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I opt for a Hybrid mode of learning in Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is domain specialization associated with the Learnbay machine learning certification course in Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the available elective domain options?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc."
+    }
+  },{
+    "@type": "Question",
+    "name": "Which domain elective is best suited for me?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988"
+    }
+  },{
+    "@type": "Question",
+    "name": "Why is domain specialization important?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "After enrolling in the ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I select multiple domain electives and do I need to pay extra charges?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I don't have any prior experience in any domain?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I change my domain electives later?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the total fee for the Data Analytics Program in Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The total program fee for the Data Analytics Program is INR 1,20,000/- inclusive of GST."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I pay in installments for INR 1,20,000/-?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can pay in instalments using a credit card with a no-cost EMI option for upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any scholarship/discount available for the Data Analytics Certification in Dubai? What is Group Discount?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the refund policy for the Data Analytics Course at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many real-time projects/case studies will be there?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc. Click here to download the list of the projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many real-time projects will be there?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc."
+    }
+  },{
+    "@type": "Question",
+    "name": "How will the project be executed?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any accredited certification after course completion?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Upon successful completion of the data analytics course in Dubai, you will receive 3 certifications, two from IBM and one from IIT Patna."
+    }
+  },{
+    "@type": "Question",
+    "name": "What's the eligibility for a job assistance program in Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many interview calls will I get at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a job-readiness program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
+    }
+  },{
+    "@type": "Question",
+    "name": "Will I get job referrals at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
+    }
+  },{
+    "@type": "Question",
+    "name": "Until when will the students get the facility of mentorship?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our mentors will provide data science training to the students until the completion of the course."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can a Learnbay student choose to study from their desired mentor?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+    }
+  },{
+    "@type": "Question",
+    "name": "When is the job assistance provided at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get Job referrals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  }]
+}
+ }`,
+          }}
         />
       </Head>
       <main>
@@ -169,6 +436,7 @@ export default function Home() {
           firstHeading="Data Analytics Course"
           firstTopPara="Industry-ready Data analytics program"
           cityParaCont="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
+          iitptnaandms={true}
         />
         <SecondSection SecondSectionData={DADubaiCourseData[0].secondSection} />
         <Testimonial
@@ -274,6 +542,7 @@ export default function Home() {
               CertificationBot1={DADubaiCourseData[0].CertificationBot1}
               src={DADubaiCourseData[0].src}
               src22={DADubaiCourseData[0].src22}
+              src33={DADubaiCourseData[0].src33}
               ModuleBot1={DADubaiCourseData[0].ModuleBot1}
               ModuleBot2={DADubaiCourseData[0].ModuleBot2}
               ModuleBot3={DADubaiCourseData[0].ModuleBot3}

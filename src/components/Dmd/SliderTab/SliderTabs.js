@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import "swiper/css";
-import "swiper/css/pagination";
-import styles from "./SliderTab.module.css";
-import Image from "next/image";
-import { BiDownArrowAlt, BiUpArrowAlt } from "react-icons/bi";
+import React, { useState, useEffect } from 'react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import styles from './SliderTab.module.css';
+import Image from 'next/image';
+import { BiDownArrowAlt, BiUpArrowAlt } from 'react-icons/bi';
 
 const SliderTabs = () => {
   const [viewAll, setViewAll] = useState(false);
@@ -58,7 +58,7 @@ const SliderTabs = () => {
             className={oneYear ? styles.ActiveSpan : styles.span}
           >
             BFSI
-            {mobile ? oneYear ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? oneYear ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ''}
           </span>
           {oneYear ? (
             <div className={styles.gridPanel}>
@@ -91,7 +91,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           <span
             onClick={() => {
@@ -107,7 +107,7 @@ const SliderTabs = () => {
             className={nonTech ? styles.ActiveSpan : styles.span}
           >
             Sales, Marketing & HR
-            {mobile ? nonTech ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? nonTech ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ''}
           </span>
           {nonTech ? (
             <div className={styles.gridPanel}>
@@ -139,7 +139,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           <span
             onClick={() => {
@@ -155,7 +155,7 @@ const SliderTabs = () => {
             className={Stack ? styles.ActiveSpan : styles.span}
           >
             Healthcare
-            {mobile ? Stack ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? Stack ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ''}
           </span>
           {Stack ? (
             <div className={styles.gridPanel}>
@@ -179,7 +179,7 @@ const SliderTabs = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.right} style={{ paddingBottom: "40px" }}>
+              <div className={styles.right} style={{ paddingBottom: '40px' }}>
                 <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Health-min.webp"
                   width="351"
@@ -189,7 +189,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           <span
             onClick={() => {
@@ -201,13 +201,11 @@ const SliderTabs = () => {
               setOil(false);
 
               setRetail(true);
-
-              console.log(Retail);
             }}
             className={Retail ? styles.ActiveSpan : styles.span}
           >
             Retail & E-commerce
-            {mobile ? Retail ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? Retail ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ''}
           </span>
           {Retail ? (
             <div className={styles.gridPanel}>
@@ -243,7 +241,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           <span
             onClick={() => {
@@ -259,7 +257,7 @@ const SliderTabs = () => {
             className={Guarantee ? styles.ActiveSpan : styles.span}
           >
             Media and Hospitality
-            {mobile ? Guarantee ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? Guarantee ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ''}
           </span>
           {Guarantee ? (
             <div className={styles.gridPanel}>
@@ -293,7 +291,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           <span
             onClick={() => {
@@ -309,7 +307,7 @@ const SliderTabs = () => {
             className={viewAll ? styles.ActiveSpan : styles.span}
           >
             Manufacturing
-            {mobile ? viewAll ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? viewAll ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ''}
           </span>
           {viewAll ? (
             <div className={styles.gridPanel}>
@@ -346,7 +344,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           <span
             onClick={() => {
@@ -362,7 +360,7 @@ const SliderTabs = () => {
             className={Oil ? styles.ActiveSpan : styles.span}
           >
             Energy, Oil & Gas
-            {mobile ? Oil ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? Oil ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ''}
           </span>
           {Oil ? (
             <div className={styles.gridPanel}>
@@ -399,7 +397,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
         </div>
         <div className={styles.middlePanel}>
@@ -435,7 +433,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           {nonTech ? (
             <div className={styles.gridPanel}>
@@ -468,7 +466,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           {Guarantee ? (
             <div className={styles.gridPanel}>
@@ -503,7 +501,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           {Stack ? (
             <div className={styles.gridPanel}>
@@ -527,7 +525,7 @@ const SliderTabs = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.right} style={{ paddingBottom: "40px" }}>
+              <div className={styles.right} style={{ paddingBottom: '40px' }}>
                 <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Health-min.webp"
                   width="450"
@@ -538,7 +536,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           {viewAll ? (
             <div className={styles.gridPanel}>
@@ -573,7 +571,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           {Retail ? (
             <div className={styles.gridPanel}>
@@ -608,7 +606,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
           {Oil ? (
             <div className={styles.gridPanel}>
@@ -643,7 +641,7 @@ const SliderTabs = () => {
               </div>
             </div>
           ) : (
-            ""
+            ''
           )}
         </div>
       </div>

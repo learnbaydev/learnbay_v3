@@ -1,383 +1,383 @@
 export const MLcanadaCourseData = [
   {
-    script1: {
-      '@context': 'https://schema.org/',
-      '@type': 'HowTo',
-      name: 'How to apply for data science course?',
-      description:
-        'You just have to follow 3 easy steps to enroll in our advanced data science course',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      totalTime: 'PT6M',
-      estimatedCost: {
-        '@type': 'MonetaryAmount',
-        currency: 'INR',
-        value: '6',
-      },
-      supply: {
-        '@type': 'HowToSupply',
-        name: 'We provide Advanced data science course in Canada, Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Dubai',
-      },
-      tool: {
-        '@type': 'HowToTool',
-        name: 'Data science, machine learning, artificial intelligence, data analytics',
-      },
-      step: [
-        {
-          '@type': 'HowToStep',
-          text: 'Visit our website and fill the enquiry form',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Fill Enquiry Form',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Talk to our experts for career counseling',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png',
-          name: 'Talk to Expert',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Get enrollment in our data science course',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Get enrollment',
-          url: 'https://www.learnbay.co/',
-        },
-      ],
-    },
-    script2: {
-      '@context': 'https://schema.org',
-      '@type': 'NewsArticle',
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': 'https://www.learnbay.co/',
-      },
-      headline: 'machine-learning-course-training-in-canada',
-      description:
-        'Machine learning course in Canada. Learnbay is Advanced Machine Learning Course Training Institute in Canada. Machine Learning course in Canada will enhance your career',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      author: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co/',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-        },
-      },
-      datePublished: '2021-10-01',
-      dateModified: '2022-04-21',
-    },
-    script3: {
-      '@context': 'https://schema.org',
-      '@type': 'FAQPage',
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'What are the prerequisites for the Machine Learning course with Domain Specialization in Canada?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Basic programming & mathematics knowledge is enough. For strengthening your programming skills we provide special programming classes. We teach required statistics from a very basic level.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What if I miss a few classes due to an emergency?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is a Flexi Subscription in the Machine learning certification course of Learnbay in Canada?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: ' Those who enroll for machine learning live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What’s the duration of this Machine Learning course in Canada?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: ' The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate. Classes will be conducted on weekdays and weekend batches. Weekday batch - 9.5 months Monday to Friday - 2 hours/day Weekend batch -11 months Saturday & Sunday - 3.5 hours/day.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the mode of ML training at Learnbay, in Canada?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We provide both classroom and online machine learning training modes. Based on your requirement, you can choose your preferred mode.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How can I opt for a Hybrid mode of learning?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. Note: This 100% job assistance policy is only specific to “100% job assistance | Data Science & AI Certification Course”',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is domain specialization associated with the Learnbay machine learning certification course in Canada?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What are the available elective domain options?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Which domain elective is best suited for me?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Why is domain specialization important?.',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: "After enrolling in the ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can I select multiple domain electives and do I need to pay extra charges?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: "What if I don't have any prior experience in any domain?",
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: " If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can I change my domain electives later?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the total Fee for this machine learning course in Canada?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000/- Inclusive of GST.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can I pay in installments for 1,59,000/-?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is there any scholarship available for the Machine Learning certification? What is Group Discount?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the refund policy for this Machine Learning training course at Learnbay in Canada?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many capstone machine learning projects will be there?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many real-time projects will be there?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on. Click here to download the list of the projects.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How will the project be executed?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is there any accredited certification after this machine learning course completion in Canada?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What categories of certifications might I expect to receive?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Deep Learning Fundamentals Deep Learning with TensorFlow Machine Learning with Python Accelerating Deep Learning with GPUs Advance AI & ML Certificate (final) Capstone Project Certificate by IBM.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: "What's the eligibility for a job assistance program at Learnbay?",
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How long will I get support for job assistance?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is a job-readiness program?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Job readiness programs help you prepare for interviews which include: Resume Preparation sessions Preparing projects for a strong portfolio Interview guidance and prep sessions 1:1 Mock interviews based on targeted companies and roles.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Will I get job referrals at Learnbay?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Until when will the Learnbay students in Canada get the facility of mentorship?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Our Mentors will provide ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can a Learnbay student in Canada choose to study from their desired mentor?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'When is the job assistance provided and for how long I will get the service?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How long will I get Job referrals?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
-          },
-        },
-      ],
-    },
-    script4: {
-      '@context': 'http://schema.org',
-      '@type': 'EducationEvent',
-      name: 'Machine learning Course Training in Bangalore',
-      description:
-        'Learnbay offers a Machine learning course in canada, the most comprehensive Machine learning course in the market, covering the complete Data Science lifecycle.',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-      performer: 'Learnbay',
-      offers: {
-        '@type': 'AggregateOffer',
-        lowPrice: '39999',
-        highPrice: '110000',
-        url: 'https://www.learnbay.co/',
-        availability: 'https://schema.org/InStock',
-        price: '95000',
-        priceCurrency: 'INR',
-        validFrom: '2022-05-01',
-      },
-      startDate: '2022-05-01',
-      endDate: '2022-11-31',
-      url: 'https://www.learnbay.co/',
-      duration: '80',
-      eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
-      eventStatus: 'http://schema.org/EventScheduled',
-      location: [
-        {
-          '@type': 'VirtualLocation',
-          url: 'https://www.learnbay.co/',
-        },
-        {
-          '@type': 'Place',
-          name: 'Learnbay - Data Science, machine learning course training in canada',
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress:
-              '#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)',
+    // script1: {
+    //   '@context': 'https://schema.org/',
+    //   '@type': 'HowTo',
+    //   name: 'How to apply for data science course?',
+    //   description:
+    //     'You just have to follow 3 easy steps to enroll in our advanced data science course',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   totalTime: 'PT6M',
+    //   estimatedCost: {
+    //     '@type': 'MonetaryAmount',
+    //     currency: 'INR',
+    //     value: '6',
+    //   },
+    //   supply: {
+    //     '@type': 'HowToSupply',
+    //     name: 'We provide Advanced data science course in Canada, Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Dubai',
+    //   },
+    //   tool: {
+    //     '@type': 'HowToTool',
+    //     name: 'Data science, machine learning, artificial intelligence, data analytics',
+    //   },
+    //   step: [
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Visit our website and fill the enquiry form',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Fill Enquiry Form',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Talk to our experts for career counseling',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png',
+    //       name: 'Talk to Expert',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Get enrollment in our data science course',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Get enrollment',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //   ],
+    // },
+    // script2: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'NewsArticle',
+    //   mainEntityOfPage: {
+    //     '@type': 'WebPage',
+    //     '@id': 'https://www.learnbay.co/',
+    //   },
+    //   headline: 'machine-learning-course-training-in-canada',
+    //   description:
+    //     'Machine learning course in Canada. Learnbay is Advanced Machine Learning Course Training Institute in Canada. Machine Learning course in Canada will enhance your career',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   author: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co/',
+    //   },
+    //   publisher: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     logo: {
+    //       '@type': 'ImageObject',
+    //       url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //     },
+    //   },
+    //   datePublished: '2021-10-01',
+    //   dateModified: '2022-04-21',
+    // },
+    // script3: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'FAQPage',
+    //   mainEntity: [
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What are the prerequisites for the Machine Learning course with Domain Specialization in Canada?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Basic programming & mathematics knowledge is enough. For strengthening your programming skills we provide special programming classes. We teach required statistics from a very basic level.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What if I miss a few classes due to an emergency?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is a Flexi Subscription in the Machine learning certification course of Learnbay in Canada?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: ' Those who enroll for machine learning live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What’s the duration of this Machine Learning course in Canada?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: ' The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate. Classes will be conducted on weekdays and weekend batches. Weekday batch - 9.5 months Monday to Friday - 2 hours/day Weekend batch -11 months Saturday & Sunday - 3.5 hours/day.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the mode of ML training at Learnbay, in Canada?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We provide both classroom and online machine learning training modes. Based on your requirement, you can choose your preferred mode.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How can I opt for a Hybrid mode of learning?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. Note: This 100% job assistance policy is only specific to “100% job assistance | Data Science & AI Certification Course”',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is domain specialization associated with the Learnbay machine learning certification course in Canada?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We offer industry-specific full-stack ML modules, via which you learn the respective industry’s best practices.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What are the available elective domain options?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Which domain elective is best suited for me?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Why is domain specialization important?.',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: "After enrolling in the ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can I select multiple domain electives and do I need to pay extra charges?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: "What if I don't have any prior experience in any domain?",
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: " If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can I change my domain electives later?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the total Fee for this machine learning course in Canada?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,59,000/- Inclusive of GST.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can I pay in installments for 1,59,000/-?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Is there any scholarship available for the Machine Learning certification? What is Group Discount?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is the refund policy for this Machine Learning training course at Learnbay in Canada?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How many capstone machine learning projects will be there?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'In this course, you’ll be required to work on 2 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How many real-time projects will be there?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'We have a set of 15 Real-time projects from multiple domains such as HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, AdvancedData Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc. Based on your interest you can choose your project to work on. Click here to download the list of the projects.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How will the project be executed?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Is there any accredited certification after this machine learning course completion in Canada?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion of the Artificial Intelligence and AI Course.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What categories of certifications might I expect to receive?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Deep Learning Fundamentals Deep Learning with TensorFlow Machine Learning with Python Accelerating Deep Learning with GPUs Advance AI & ML Certificate (final) Capstone Project Certificate by IBM.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: "What's the eligibility for a job assistance program at Learnbay?",
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How long will I get support for job assistance?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'What is a job-readiness program?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Job readiness programs help you prepare for interviews which include: Resume Preparation sessions Preparing projects for a strong portfolio Interview guidance and prep sessions 1:1 Mock interviews based on targeted companies and roles.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Will I get job referrals at Learnbay?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Until when will the Learnbay students in Canada get the facility of mentorship?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Our Mentors will provide ML training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to special mentors for project and placement purposes.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'Can a Learnbay student in Canada choose to study from their desired mentor?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'When is the job assistance provided and for how long I will get the service?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.',
+    //       },
+    //     },
+    //     {
+    //       '@type': 'Question',
+    //       name: 'How long will I get Job referrals?',
+    //       acceptedAnswer: {
+    //         '@type': 'Answer',
+    //         text: 'You’ll be provided with job assistance after the completion of the course for a period of 1 year.',
+    //       },
+    //     },
+    //   ],
+    // },
+    // script4: {
+    //   '@context': 'http://schema.org',
+    //   '@type': 'EducationEvent',
+    //   name: 'Machine learning Course Training in Bangalore',
+    //   description:
+    //     'Learnbay offers a Machine learning course in canada, the most comprehensive Machine learning course in the market, covering the complete Data Science lifecycle.',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //   performer: 'Learnbay',
+    //   offers: {
+    //     '@type': 'AggregateOffer',
+    //     lowPrice: '39999',
+    //     highPrice: '110000',
+    //     url: 'https://www.learnbay.co/',
+    //     availability: 'https://schema.org/InStock',
+    //     price: '95000',
+    //     priceCurrency: 'INR',
+    //     validFrom: '2022-05-01',
+    //   },
+    //   startDate: '2022-05-01',
+    //   endDate: '2022-11-31',
+    //   url: 'https://www.learnbay.co/',
+    //   duration: '80',
+    //   eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
+    //   eventStatus: 'http://schema.org/EventScheduled',
+    //   location: [
+    //     {
+    //       '@type': 'VirtualLocation',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //     {
+    //       '@type': 'Place',
+    //       name: 'Learnbay - Data Science, machine learning course training in canada',
+    //       address: {
+    //         '@type': 'PostalAddress',
+    //         streetAddress:
+    //           '#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)',
 
-            addressLocality: 'HSR Sector 3',
-            postalCode: '560102',
-            addressCountry: 'Bengaluru, Karnataka,INDIA',
-          },
-          geo: {
-            '@type': 'GeoCoordinates',
-            latitude: '12.914745887585838',
-            longitude: '77.64087553886982',
-          },
-        },
-      ],
-      organizer: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co',
-      },
-    },
+    //         addressLocality: 'HSR Sector 3',
+    //         postalCode: '560102',
+    //         addressCountry: 'Bengaluru, Karnataka,INDIA',
+    //       },
+    //       geo: {
+    //         '@type': 'GeoCoordinates',
+    //         latitude: '12.914745887585838',
+    //         longitude: '77.64087553886982',
+    //       },
+    //     },
+    //   ],
+    //   organizer: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co',
+    //   },
+    // },
     secondSection: [
       {
         id: 1,
@@ -546,13 +546,7 @@ export const MLcanadaCourseData = [
           {
             id: 3,
             ques: 'What’s the duration of this  Machine Learning course in Canada?',
-            ans: `The duration of this course is about 11 months (300 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
-        
-            Classes will be conducted on weekdays and weekend batches.
-            Weekday batch - 9.5 months
-               Monday to Friday - 2 hours/day
-            Weekend batch -11 months
-            Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of this machine learning course in Canada is 13 months.`,
             open: false,
           },
           {
@@ -798,7 +792,7 @@ export const MLcanadaCourseData = [
     ProgramBot3:
       'Our Machine learning course, co-powered by IBM, is taught by PRODUCT Based Companies machine learning experts via live interactive sessions. They are always available to solve your queries with highly personalized attention. Students will learn about real-world machine learning algorithms and walk away with ML projects that they can implement on their own.',
     ProgramBot31:
-      "Learnbay has designed this course along with the industry's leading professionals, who assisted us in developing a program that's understandable to all. Our experts have also compiled a collection of AI and ML tools along with practical examples based on the latest developments in machine learning. This 9.5-month machine learning course is both flexible and affordable for everyone.",
+      "Learnbay has designed this course along with the industry's leading professionals, who assisted us in developing a program that's understandable to all. Our experts have also compiled a collection of AI and ML tools along with practical examples based on the latest developments in machine learning. This 13 months machine learning course is both flexible and affordable for everyone.",
     ProgramBot32:
       'Learn more about Artificial Intelligence and Machine Learning Training Program by Learnbay in Canada.',
     DomainHead1: 'Why Domain Specialization?',
@@ -824,47 +818,36 @@ export const MLcanadaCourseData = [
     CertificationBot1:
       'Learnbay has made a collaboration with IBM to provide students with all-inclusive machine learning modules. After finishing the professional machine learning course, you will be provided the course completion IBM certificate. Overall, you will receive 6 certificates for successfully completing different modules of artificial intelligence and machine learning courses. The IBM project experience certificate is the most crucial one, which will give weight to your portfolio and get you shortlisted instantly.',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleBot1:
-      'Learnbay’s IBM machine learning course provides a comprehensive journey in Machine Learning and artificial intelligence. It covers topics such as regression algorithms, decision tree methods, and clustering techniques. Our artificial intelligence and machine learning course gives an equal emphasis to theoretical foundations and practical applications of these algorithms so that you can understand the mechanics behind each method & algorithm. The Machine Learning course in Canada is a 9.5-month training program that covers the essential foundational material of intelligent systems from an interdisciplinary perspective and provides exposure to real-world machine learning applications.',
+      'Learnbay’s IBM machine learning course provides a comprehensive journey in Machine Learning and artificial intelligence. It covers topics such as regression algorithms, decision tree methods, and clustering techniques. Our artificial intelligence and machine learning course gives an equal emphasis to theoretical foundations and practical applications of these algorithms so that you can understand the mechanics behind each method & algorithm. The Machine Learning course in Canada is a 13 months training program that covers the essential foundational material of intelligent systems from an interdisciplinary perspective and provides exposure to real-world machine learning applications.',
     ModuleHead2: 'Module 0 : ',
     ModuleBot3:
       'Programming is the basic skill you need in the machine learning field. Students are expected to have some familiarity with the Basics of Programming. As a result, we have launched Module 0 in our IBM machine learning course for non-coders. Students will be given special access to programming classes in order to keep pace with the need of each and every course. Apart from that, we arrange exclusive hackathons so that student can self-assess their growing coding abilities and improve the same accordingly.',
-    syllabush1: 'Preparatory Classes (Programming + Maths)',
-    syllabusb1: '6 Hours',
-    SyllabusBotlist11: 'Anaconda Installation',
-    SyllabusBotlist12: 'Basics of Programming',
-    SyllabusBotlist13: 'Memory Management',
-    SyllabusBotlist14: 'Compiler and Interpreter',
-    SyllabusBotlist15: 'Syntax of Python',
-    SyllabusBotlist16: 'Basics of Statistics',
-    syllabush2: 'Python Programming (Basic + Advance)',
-    syllabusb2: '40 Hours',
-    SyllabusBotlist21: 'Git and GitHub',
-    SyllabusBotlist22: 'Operators + Data Types + Loops',
-    SyllabusBotlist23: 'Functions + Regular Expression',
-    SyllabusBotlist24: 'Conditional Statement',
-    SyllabusBotlist25: 'File & Exceptional Handling',
-    SyllabusBotlist26: 'Numpy, Pandas, Matplotlib, etc.',
-    syllabush3: 'Statistics and Machine Learning',
-    syllabusb3: '70 Hours',
-    SyllabusBotlist31: 'Linear Algebra, Probability',
-    SyllabusBotlist32: 'Permutation & Combination',
-    SyllabusBotlist33: 'Descriptive & Inferential Stats',
-    SyllabusBotlist34: 'Hypothesis Testing',
-    SyllabusBotlist35: 'Time Series Analysis',
-    SyllabusBotlist36: 'ML Algorithms',
-    syllabush4: 'Industrial Projects & Capstone Projects',
-    syllabusb4: '12+ Classes',
-    SyllabusBotlist41: 'Text Classification',
-    SyllabusBotlist42: 'Human Activity Recognition',
-    SyllabusBotlist43: "Forecasting Business KPI's",
-    SyllabusBotlist44: 'Credit Risk Analysis',
-    SyllabusBotlist45: 'Customer Churn Prediction',
-    SyllabusBotlist46: 'Sentiment Analysis',
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
+    SyllabusBotlist11:
+      ' Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
+
+    syllabush2: 'PYTHON FOR GENAI',
+    syllabusb2: '1 Months',
+    SyllabusBotlist21:
+      'Build a strong Python foundation tailored for developing, integrating, and controlling GenAI workflows.',
+
+    syllabush3: 'FOUNDATION FOR GENAI',
+    syllabusb3: '1 Months',
+    SyllabusBotlist31:
+      'Learn core ML, deep learning, and NLP concepts that power modern large language models.',
+
+    syllabush4: 'ADVANCED GENERATIVE AI',
+    syllabusb4: '1.5 Months',
+    SyllabusBotlist41:
+      'Design, build, and optimize LLM-based applications using prompts, embeddings, RAG, and fine-tuning.',
+
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
     JobHead1:

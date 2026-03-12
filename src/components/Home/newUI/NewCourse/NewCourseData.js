@@ -39,7 +39,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf",
     // },
 
     // {
@@ -68,7 +68,7 @@ export const courses = {
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
 
     // {
@@ -81,7 +81,7 @@ export const courses = {
     //   link: "/datascience/business-analytics-certification-course",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
     {
       title: 'Data Analytics and Business Analytics with Generative AI',
@@ -226,7 +226,7 @@ export const courses = {
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
     // {
     //   title:
@@ -466,7 +466,7 @@ export const courses = {
     //   link: "/datascience/advance-data-analytics-program-iit-guwahati",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
     // {
     //   title: "Data Science Foundation Program ",
@@ -533,7 +533,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf",
     // },
 
     // {
@@ -560,7 +560,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf",
     // },
     // {
     //   title: "Cloud Computing & DevOps Certification Program",
@@ -588,7 +588,7 @@ export const courses = {
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
 
     // {
@@ -628,7 +628,7 @@ export const courses = {
     //   link: "/datascience/business-analytics-certification-course",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
     // {
     //   title: "Data Analytics and Business Analytics with Generative AI",
@@ -862,7 +862,7 @@ export const courses = {
     //   link: "/datascience/business-analytics-certification-course",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
     // {
     //   title: "Data Analytics and Business Analytics with Generative AI",
@@ -890,7 +890,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf",
     // },
 
     // {
@@ -904,7 +904,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Advance_DSAI.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf",
     // },
     // {
     //   title: "Data Science & AI Program For Freshers",
@@ -930,7 +930,7 @@ export const courses = {
     //   link: "/datascience/data-analytics-certification-course",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf",
     // },
     // {
     //   title: "Data Science Foundation Program ",
@@ -1003,7 +1003,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf",
     // },
 
     {

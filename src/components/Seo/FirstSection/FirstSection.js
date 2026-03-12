@@ -240,16 +240,17 @@
 // }
 
 // export default React.memo(FirstSection);
-import React, { Suspense, lazy, useRef, useState } from "react";
-import { FaPlay } from "react-icons/fa";
-import styles from "./FirstSection.module.css";
-import Image from "next/image";
-import dynamic from "next/dynamic";
 
-const Form = lazy(() => import("../../Global/Form/Form"));
-const Button = dynamic(() => import("../../Global/Button/Button"));
-const VideoPopup = dynamic(() => import("../../Seo/VideoPopup/VideoPopup"));
-const Popup = dynamic(() => import("../../Global/Popup/Popup"));
+import React, { Suspense, lazy, useRef, useState } from 'react';
+import { FaPlay } from 'react-icons/fa';
+import styles from './FirstSection.module.css';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
+
+const Form = lazy(() => import('../../Global/Form/Form'));
+const Button = dynamic(() => import('../../Global/Button/Button'));
+const VideoPopup = dynamic(() => import('../../Seo/VideoPopup/VideoPopup'));
+const Popup = dynamic(() => import('../../Global/Popup/Popup'));
 
 function FirstSection({
   dataScience,
@@ -268,6 +269,8 @@ function FirstSection({
   cityParaCont,
   interstedInHide,
   brochurePdf,
+  ibmandms,
+  iitptnaandms,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -281,61 +284,52 @@ function FirstSection({
      COLLAB IMAGE RENDER FUNCTION
   ----------------------------------*/
   const renderCollabImage = (isMobile = false) => {
+    let imageProps = null;
+
     if (microsSoftOnly) {
-      return (
-        <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micrososfttss.webp"
-          width={isMobile ? 190 : 150}
-          height={isMobile ? 40 : 30}
-          priority
-          alt="Microsoft Collaboration"
-        />
-      );
+      imageProps = {
+        src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micrososfttss.webp',
+        width: isMobile ? 190 : 150,
+        height: isMobile ? 40 : 30,
+        alt: 'Microsoft Collaboration',
+        priority: true,
+      };
+    } else if (ibmOnly) {
+      imageProps = {
+        src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png',
+        width: 127,
+        height: 51,
+        alt: 'IBM Collaboration',
+      };
+    } else if (woolfOnly) {
+      imageProps = {
+        src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/woolf_logo.webp',
+        width: 230,
+        height: 50,
+        alt: 'Woolf University',
+        priority: true,
+      };
+    } else if (ibmandms) {
+      imageProps = {
+        src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp',
+        width: 230,
+        height: 50,
+        alt: 'IBM & Microsoft Collaboration',
+        priority: true,
+      };
+    } else if (iitptnaandms) {
+      imageProps = {
+        src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DABAImage2026.webp',
+        width: 230,
+        height: 50,
+        alt: 'IIT Patna & Microsoft Collaboration',
+        priority: true,
+      };
     }
 
-    if (ibmOnly) {
-      return (
-        <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png"
-          width={127}
-          height={51}
-          loading="lazy"
-          alt="IBM Collaboration"
-        />
-      );
-    }
+    if (!imageProps) return null;
 
-    if (woolfOnly) {
-      return (
-        <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/woolf_logo.webp"
-          width={230}
-          height={50}
-          priority
-          alt="Woolf University"
-          style={{
-            backgroundColor: "white",
-            padding: "8px",
-            borderRadius: "4px",
-          }}
-        />
-      );
-    }
-
-    // DEFAULT IMAGE
-    return (
-      <Image
-        src={
-          isMobile
-            ? "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
-            : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DABAImage2026.webp"
-        }
-        width={isMobile ? 283 : 266}
-        height={48}
-        loading="lazy"
-        alt="IBM & Microsoft Collaboration"
-      />
-    );
+    return <Image {...imageProps} />;
   };
 
   return (
@@ -351,7 +345,7 @@ function FirstSection({
           <div className="leftPopup">
             <div
               className="whiteP"
-              style={{ width: "340px", height: "400px" }}
+              style={{ width: '340px', height: '400px' }}
             ></div>
           </div>
           <div className="RightPopup">
@@ -378,7 +372,7 @@ function FirstSection({
           <p className={styles.ptopC}>{firstTopPara}</p>
 
           <h1 className={styles.h1}>
-            {firstHeading}{" "}
+            {firstHeading}{' '}
             <span className={styles.h1Span}>{firstToparaImg}</span>
           </h1>
 
@@ -397,6 +391,7 @@ function FirstSection({
           {/* DESKTOP COLLAB */}
           <div className={styles.Desktop}>
             <p className={styles.ptop}>In Collaboration With</p>
+
             <div className={styles.ImageBlock}>{renderCollabImage(false)}</div>
           </div>
 

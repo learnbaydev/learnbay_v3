@@ -133,7 +133,6 @@ function SyllabusNew({
                 text="DOWNLOAD SYLLABUS"
                 // passIcon={<FaDownload style={{ marginLeft: "10px" }} />}
               />
-              {console.log({ hideDownloadButton })}
             </div>
           )}
         </div>

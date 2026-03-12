@@ -37,11 +37,23 @@
   margin: 10px 0px;
 }
 
-.pp span ul li{ margin-left: 20px;}
-.pp span ol li{ margin-left: 20px;}
+.pp span ul li {
+  margin-left: 20px;
+}
+.pp span ol li {
+  margin-left: 20px;
+}
 
-.pp span h2{ font-size: 22px !important;margin-bottom: 10px;margin-top: 10px;}
-.pp span h3{ font-size: 21px !important;margin-bottom: 10px;margin-top: 10px;}
+.pp span h2 {
+  font-size: 22px !important;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.pp span h3 {
+  font-size: 21px !important;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 .ppa {
   font-size: 18px;
   font-weight: 500;
@@ -276,7 +288,6 @@
 .Button button {
   margin: auto;
 }
-
 
 @media (max-width: 650px) {
   .SyllabusBot {

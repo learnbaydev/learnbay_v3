@@ -91,112 +91,357 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/Germany/masters-degree-in-data-science-in-Germany"
+          content="https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Master data Science Course in germany | Data Science Training in germany"
+          content="Master’s Degree in Data Science in Germany – Learnbay"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in germany. Learnbay is Advanced Data Science Course Training Institute in germany. Data science course in germany will enhance your career"
+          content="Prepare for a successful career in data science with Learnbay's Master’s Degree program in Germany. Gain practical skills and hands-on experience. Enroll now!"
         />
         <meta
           property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Data Science Course in germany | Data Science Training in germany"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Data science course in germany. Learnbay is Advanced Data Science Course Training Institute in germany. Data science course in germany will enhance your career"
-        />
-        <meta
-          name="twitter:description"
-          content="Data science course in germany. Learnbay is Advanced Data Science Course Training Institute in germany. Data science course in germany will enhance your career"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
-        />
-        <link
-          rel="canonical"
-          href="https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany"
-        />
-        {/* <meta name="HandheldFriendly" content="true" /> */}
-        {/* <meta name="distribution" content="global" /> */}
-        <meta name="copyright" content="Learnbay" />
-        {/* <meta name="language" content="English" /> */}
-        {/* <meta name="rating" content="general" /> */}
-        {/* <meta name="revisit-after" content="Daily" /> */}
-        {/* <meta name="author" content="Learnbay" /> */}
-        {/* <meta name="googlebot" content="index,follow" /> */}
-        {/* <meta name="bingbot" content="index,follow" /> */}
-        {/* <meta name="expires" content="never" /> */}
-        {/* <meta name="coverage" content="Worldwide" /> */}
-        {/* <meta name="robots" content="ALL" /> */}
-        <meta
-          property="og:url"
+          property="twitter:url"
           content="https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany"
         />
         <meta
-          property="og:title"
-          content="Data Science Course Training in germany"
-        />
-        <meta
-          property="og:url"
-          content="https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany"
-        />
-        <meta
-          property="og:title"
-          content="Data Science Course germany | Data Scientist Course germany | Learnbay"
-        />
-        <meta property="og:site_name" content="www.learnbay.co" />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:description"
-          content="Enroll for Data Science Course and Certification Training in Germany from Learnbay in association with IBM. This Data Scientist course in Germany will give you hands-on experience with technologies and job assistance.
-"
-        />
-        <meta
-          property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
-        />
-        <meta property="og:image:height" content="240" />
-        <meta property="og:image:width" content="360" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Learnbay" />
-        <meta
           name="twitter:title"
-          content="Data Science Course Germany | Data Scientist Course Germany | Learnbay"
-        />
-        <meta name="twitter:creator" content="@Learnbay" />
-        <meta
-          itemProp="description"
-          content="Enroll for Data Science Course and Certification Training in Germany from Learnbay in association with IBM. This Data Scientist course in Germany will give you hands-on experience with technologies and job assistance.
-"
+          content="Master’s Degree in Data Science in Germany – Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Enroll for Data Science Course and Certification Training in Germany from Learnbay in association with IBM. This Data Scientist course in Germany will give you hands-on experience with technologies and job assistance.
-"
+          content="Prepare for a successful career in data science with Learnbay's Master’s Degree program in Germany. Gain practical skills and hands-on experience. Enroll now!"
         />
         <meta
           name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
-        ></meta>
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
+        />
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
+                   "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Master’s Degree in Data Science in Germany – Learnbay",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "1893"
+  }
+              }     
+} 
+ }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
+              "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Master’s Degree in Data Science in Germany – Learnbay",
+  "description": "Prepare for a successful career in data science with Learnbay's Master’s Degree program in Germany. Gain practical skills and hands-on experience. Enroll now!",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "sameAs": "https://www.learnbay.co/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "3000",
+    "priceCurrency": "EUR",
+    "category": "Educational"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P18M",
+    "offers": {
+      "@type": "Offer",
+      "price": "3000",
+      "priceCurrency": "EUR"
+    }
+  }
+}
+ }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
+              "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is the curriculum structure of the Master's in Data Science program in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The curriculum structure of the Master's in Data Science program in Germany represents Generative Al-rich modules for 360-degree learning. It follows the latest data science and Agentic AI trends prevailing in Germany leveraging businesses operating there.\nThe curriculum includes seven learning modules, and they are\nLl - Cohort Orientation with Programming\nL2 - Basic & Advanced Python Programming\nL3 - Statistics & Machine Learning\nL4 - Data Science Tools\nL5 - Al Tools\nL6 - Deployment"
+    }
+  },{
+    "@type": "Question",
+    "name": "How are the courses structured? Are they more theoretical or practical in nature? ",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The courses are structured following the current happenings in the data science industry in Germany. The courses are crafted with specific attention to both theoretical and practical learning concepts. Learners enrolling for the master's in data science program will gain a comprehensive learning of theoretical concepts followed by projects. It focuses on real-time learning of tools via live projects and case studies associated with every learning term. Here you get the scope of Bringing your own business problems (BYOP) too."
+    }
+  },{
+    "@type": "Question",
+    "name": "What specific topics and skills are covered in the program's coursework for a master's degree in data science? ",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer a master's degree program in data science with a GenAl-inclusive course curriculum. Tech and non-tech experts will learn everything about Python programming from scratch. Some specific topics include ML models, deep learning, data structures, GenAl-rich tools, AWS & Azure deployment, and visualization. Experts enrolling in our master's program will gain proven data-driven skills to thrive globally."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are any elective courses available to tailor the program to my interests in the data science master's program in Germany? ",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Data science master's programs in  Germany are specifically designed to meet the competitive requirements of the leading industries. Domain-based specializations are available to leverage your efficaciousness with assured success. Here, you can find your coursework and projects per your specialization interests covering prime domains. Such domains are - BFSI, HR, Marketing, Manufacturing, Healthcare, and Supply Chain."
+    }
+  },{
+    "@type": "Question",
+    "name": "How are the classes delivered? Are they in-person, online, or a combination of both for an MS in Data Science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Data science masters programs in Germany conduct online training sessions to help learners gain adequate abstract and practical knowledge. Experts joining our MS in Data Science in the Germany program can balance their hectic plans with our flexible online learning sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the available elective domain options in the different data science training courses of Learnbay in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In the Master Degree course provided by Learnbay in Germany, available domain specializations are: Retail, E-Commerce, & Supply Chain, Healthcare, BFSI; Manufacturing, BFSI, Managers and Leaders. However we update our domain specialisation as per market job market skill demand and ever changing trends.Contact our course experts for latest available domain specializations and modules."
+    }
+  },{
+    "@type": "Question",
+    "name": "Which data science specialization domain elective is best suited for me?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988"
+    }
+  },{
+    "@type": "Question",
+    "name": "Why is domain specialization important in professional data science certification?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "After enrolling in the advanced data science courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. Check with our career support expert for more details."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I don't have any prior experience in any domain?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I change my domain electives later?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration. Check with our course expert for any kind of terms and conditions."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the fees for the Master's in Data Science program, and are there any additional costs for data science master's programs in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Master's in Data Science program costs €3000. Apart from the course fees, there are no additional costs for data science master's programs in Germany."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer any scholarships or financial aid for students pursuing a master's degree in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers scholarships to eligible learners opting for a master's degree in data science in Germany after reviewing their profiles. Eligible learners will receive up to a 25% scholarship for the master's course."
+    }
+  },{
+    "@type": "Question",
+    "name": "What payment options are available for the data science masters programs in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners enrolling in data science masters programs in Germany will have two options for one-time payment for the course: Internet banking and credit/Debit card."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are any discounts available for early enrollment or paying the tuition upfront for a master's in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer early bird discounts of 15%-20% for learners enrolling in a master's in data science in Germany. Yet, a group discount is available for learners who join with one or more friends.\nGroup of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Max 10% discount"
+    }
+  },{
+    "@type": "Question",
+    "name": "Could you provide more information about the capstone project or real-time projects included in the program for MS in Data Science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners joining the MS in data science course in Germany will gain exclusive learning scope via capstone projects. Here, learners can choose one domain specialization per their career interests and work on three capstone projects. The projects will relate to the leading industries - BFSI, Healthcare, HR, Marketing, Supply Chain, and Manufacturing. At last, learners in Germany will receive one Capstone Project Certificate from Renowned Industry with alluring career gains."
+    }
+  },{
+    "@type": "Question",
+    "name": "How are capstone projects assigned, and what level of guidance and support can students expect during the project for a master's degree in data science?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners joining us for a master's degree in data science in Germany will gain uninterrupted learning assistance from respective mentors. We offer project-based learning scope via capstone projects in diversified domains. Learners can choose their projects based on domain specialization and industry trends. Our esteemed mentors are available 24/7 for end-to-end support during coursework and capstone projects. 1:1 doubt-clearing sessions are also available to resolve project-related queries."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there opportunities for students to work on industry projects or collaborate with companies as part of their studies for data science master's programs in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, learners enrolling in data science master's programs in Germany can gain industry-specific experience via projects. Our collaboration with leading MNCs helps learners gain adequate exposure to real-world businesses. Our master's programs offer domain-specific learning platforms with proven industry projects. Here, you will get an exclusive scope to refine prior domain knowledge and excel in your role."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can students choose their projects, or are they assigned by the faculty for a master's degree in data science?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Once you enroll in the master's degree in data science, you can choose your domain. Learners opting for the master's degree program can choose their projects as per their domain specialization and career interests. Learners go through group project work under the guidance of renowned faculties or mentors."
+    }
+  },{
+    "@type": "Question",
+    "name": "What type of certification or degree will I receive upon completing the Master's in Data Science program in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners enrolling in a master's in data science program in Germany will get a globally accredited degree from Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is the certification recognized internationally, and what is its value in the job market for data science masters programs in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, the certification is globally recognized (60+ countries recognize it), enriching your career and validating the learned skills for better job prospects. Anyone pursuing data science masters programs in Germany must obtain this certification for an effortless career transition. Learners with globally valued certifications attain a competitive advantage with compelling offers from top-tier companies in Germany. Certifications set a benchmark for exclusive competence to crack expanded career growth prospects throughout the country and overseas."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there any additional certifications or credentials",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Students can earn alongside the Master's degree in data science masters programs. Learners will receive course completion and project certifications from IBM & Microsoft alongside the master's degree in data science masters programs."
+    }
+  },{
+    "@type": "Question",
+    "name": "What kind of career support services do you offer to students and alumni of master's in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners joining the master's in data science in Germany will receive 100% job and placement assistance guided by esteemed mentors. Here, we offer Career Service Acceleration service that successfully empowers learners to face and crack top-notch job offers. The career support services include - Three years of uninterrupted job assistance with premium offers Six 1:1 mock interviews with the leading MNCs in the Germnay & overseas 1:1 doubt-clearing (coursework & projects) Resume review & ATS optimization LinkedIn profile review"
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you have partnerships with companies or industry connections that help students secure internships or job placements for MS in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we have a leading MNCs & unicorn startupship with 450+ leading companies in Germany and overseas that assist career transitions with premium placements and internships."
+    }
+  },{
+    "@type": "Question",
+    "name": "How successful are graduates from your program in finding employment in the Data Science field for a master's in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners enrolling in a master's in data science in Germany witness a notable career transformation with attractive hikes and swift job promotions. Graduates from this program gain a competitive advantage by overcoming career stagnancies. These graduates hold hands-on experience with the latest tools and techniques that enhance their chances of getting selected for leading career roles."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide resume assistance, interview preparation, or networking opportunities to help students transition into the workforce for data science masters programs in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, eligible learners enrolling in data science masters programs in Germany will have successful career transitions with hassle-free assistance and opportunities. Such assistance includes resume review, interview preparation sessions, professional networking, and many more. Such services help learners transition their careers into prominent roles with alluring hikes and promotions."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do students have access to mentors or advisors throughout the program for a master's in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, learners have direct access to their mentors throughout the program for a master's in data science in Germany. They can reach out to their mentors in case of any course or project- related queries."
+    }
+  },{
+    "@type": "Question",
+    "name": "What qualifications and experience do the mentors have in Data Science and Al for data science masters programs in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Mentors assigned for data science masters programs in Germany hold at least seven years of work experience in a similar field from any domain/discipline. Their real-time exposure to business scenarios and decisiveness help learners land their dream roles."
+    }
+  },{
+    "@type": "Question",
+    "name": "How are mentors assigned to students, and what level of interaction can students expect for MS in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We have a group of renowned industry experts in the role of mentors for MS in data science in Germany. These mentors are assigned to individual learning batches as per relevant skills and experience. Learners can expect direct interaction with their mentors during training sessions. Apart from training classes, you can also contact mentors for doubt clearing or certain queries via phone call or chat."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there opportunities for one-on-one mentorship sessions or group mentorship activities for master's in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Experts enrolling in our master's in data science in Germany will receive exclusive mentorship from industry experts. Here, you will get group mentorship activities during learning sessions and 1:1 mentorship for doubt-clearing & project tasks. However, in special cases, you can avail of 1:1 mentorship sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does mentorship contribute to students' academic and professional growth during the program for MS in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Mentorship is pivotal in enhancing a learner's academic and professional performance in the data science field. Experts joining us for MS in data science in Germany will gain live instructor-led training sessions from industry experts as mentors. Learning directly from eminent mentors helps learners see through the changing industry dynamics and improve their performance. Mentorship helps learners gain a 360-degree knowledge- building advantage, refining academic skills. Plus, mentorship enables learners to attain professional growth through hikes, promotions, and job offers."
+    }
+  },{
+    "@type": "Question",
+    "name": "What academic support services are available to students, such as tutoring or study groups, for master's in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners enrolling in master's in data science in the Germany can avail of dedicated mentorship from industry experts. You will gain uninterrupted training sessions from respective mentors with 24*7 assistance. Some exclusive academic support services will be - Live instructor-led training sessions Dedicated mentorship with 1:1 doubt-clearance Hassle-free contact with mentors after classes Learning materials Course tasks and projects handling support Career assistance"
+    }
+  },{
+    "@type": "Question",
+    "name": "How responsive are the faculty and support staff to student inquiries and concerns for MS in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners enrolling in MS in data science in Germany will get hassle- free training sessions with complete support from faculties and associated staff. In case of certain inquiries and concerns, you can contact your mentor 24/7 via the Learnbay app. You can contact them via phone or chat regarding coursework or project- related doubts. So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is technical support available for students encountering issues with online learning platforms or software used in the program for master's in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Learnbay has a centralized technical support system to help learners with related issues during the master's in data science in Germany. The Learnbay app is available 24/7 to help you out with all kinds of issues. In case you face technical issues during login, logout, training sessions, attendance, or any other time, our dedicated experts are there to help with the best possible solutions."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does the program foster community and peer support among students, especially in online learning environments for master's in data science in Germany?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay utilizes several strategies to foster a sense of community and peer support among students pursuing a master's in data science in Germany. It includes - Collaborative learning platforms with discussion forums Dedicated mentorship followed by 1:1 doubt-clearing sessions Project-based learning via projects Soft skills training ATS- Resume optimization Interview Preparation"
+    }
+  }]
+}
+ }`,
+          }}
         />
       </Head>
       <main>

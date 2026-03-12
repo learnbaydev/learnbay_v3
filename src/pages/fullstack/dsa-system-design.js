@@ -59,8 +59,6 @@ const NewDSA = ({ DSADataJson }) => {
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
-  // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
-  // console.log(getDSABookingLaterDate(new Date('2023-03-24')));
 
   return (
     <>

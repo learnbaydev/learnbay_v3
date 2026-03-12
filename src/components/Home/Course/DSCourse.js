@@ -1,19 +1,19 @@
-import Image from "next/image";
-import React, { useEffect, useState } from "react";
-import { Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image';
+import React, { useEffect, useState } from 'react';
+import { Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 // import styles from "./Course.module.css";
-import dynamic from "next/dynamic";
-import { BiTimeFive } from "react-icons/bi";
-import { BsCheckLg } from "react-icons/bs";
-import { FaDownload } from "react-icons/fa";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import styles from "./CourseDmd.module.css";
-import { courseDetails, courseDetailsM } from "./DSCourseDetails";
-const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
-const Form = dynamic(() => import("@/components/Global/Form/Form"));
+import dynamic from 'next/dynamic';
+import { BiTimeFive } from 'react-icons/bi';
+import { BsCheckLg } from 'react-icons/bs';
+import { FaDownload } from 'react-icons/fa';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+import styles from './CourseDmd.module.css';
+import { courseDetails, courseDetailsM } from './DSCourseDetails';
+const Popup = dynamic(() => import('@/components/Global/Popup/Popup'));
+const Form = dynamic(() => import('@/components/Global/Form/Form'));
 
 const Course = ({
   dataScience,
@@ -31,11 +31,11 @@ const Course = ({
   const [popups, setPopups] = useState(false);
 
   const [CourseLoop, setCourseLoop] = useState([
-    { title: "Domain Courses", value: true },
-    { title: "Data Science", value: false },
+    { title: 'Domain Courses', value: true },
+    { title: 'Data Science', value: false },
     { title: "Master's Degree", value: false },
-    { title: "Cloud & DevOps", value: false },
-    { title: "Popular", value: false },
+    { title: 'Cloud & DevOps', value: false },
+    { title: 'Popular', value: false },
   ]);
 
   const menuChange = (title, index) => {
@@ -61,7 +61,6 @@ const Course = ({
     let width = window.innerWidth;
     if (width < 481) {
       setCourseArray(courseDetailsM);
-      console.log("inside", courseDetailsM);
     }
   }, [courseArray]);
   useEffect(() => {
@@ -70,7 +69,6 @@ const Course = ({
       setValue(1.4);
       setMobile(true);
       setCourseArray(courseDetailsM);
-      console.log("inside", courseDetailsM);
     }
     if (width < 600) {
       setValue(1.1);
@@ -102,7 +100,7 @@ const Course = ({
         <div className="leftPopup">
           <div
             className="whiteP"
-            style={{ width: "340px", height: "400px" }}
+            style={{ width: '340px', height: '400px' }}
           ></div>
         </div>
         <div className="RightPopup">
@@ -135,7 +133,7 @@ const Course = ({
                     <div key={index} className={styles.divBox}>
                       <div
                         className={styles.viewAll}
-                        style={{ display: "block", textAlign: "center" }}
+                        style={{ display: 'block', textAlign: 'center' }}
                       >
                         <h5 className={styles.h5font}>
                           {courseDetail.courseName}
@@ -218,10 +216,10 @@ const Course = ({
                                       <div
                                         className={styles.headWrapper}
                                         style={
-                                          title === "Master in CS:" ||
-                                          title === "Advance Certification"
-                                            ? { marginTop: "0px" }
-                                            : { marginTop: "0px" }
+                                          title === 'Master in CS:' ||
+                                          title === 'Advance Certification'
+                                            ? { marginTop: '0px' }
+                                            : { marginTop: '0px' }
                                         }
                                       >
                                         <h6
@@ -249,13 +247,13 @@ const Course = ({
                                       <div
                                         className={styles.contButton}
                                         style={{
-                                          borderRadius: "8px 8px 8px 8px",
-                                          cursor: "pointer",
+                                          borderRadius: '8px 8px 8px 8px',
+                                          cursor: 'pointer',
 
                                           // marginTop: "-12px",
-                                          zIndex: "0",
+                                          zIndex: '0',
                                           boxShadow:
-                                            "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
+                                            'rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px',
                                         }}
                                       >
                                         <div className={styles.contentBox}>
@@ -297,7 +295,7 @@ const Course = ({
                                                 {para[2]}
                                               </p>
                                             ) : (
-                                              ""
+                                              ''
                                             )}
                                           </div>
                                           <hr className={styles.hr1} />
@@ -313,17 +311,17 @@ const Course = ({
                                             <button
                                               className="outLineBtn1"
                                               style={{
-                                                color: "#fff",
-                                                background: "#fff",
-                                                cursor: "pointer",
-                                                borderRadius: "7.101px",
-                                                background: "#282828",
+                                                color: '#fff',
+                                                background: '#fff',
+                                                cursor: 'pointer',
+                                                borderRadius: '7.101px',
+                                                background: '#282828',
                                               }}
                                             >
                                               Syllabus
                                               <FaDownload
                                                 className="bIcon"
-                                                style={{ color: "#fff" }}
+                                                style={{ color: '#fff' }}
                                               />
                                             </button>
                                           </a>
@@ -344,9 +342,9 @@ const Course = ({
                                                 }
                                                 style={{
                                                   borderRadius:
-                                                    "8px 8px 8px 8px",
-                                                  cursor: "pointer",
-                                                  border: "1px solid #282828",
+                                                    '8px 8px 8px 8px',
+                                                  cursor: 'pointer',
+                                                  border: '1px solid #282828',
                                                 }}
                                               >
                                                 View Details
@@ -368,9 +366,9 @@ const Course = ({
                                                 }
                                                 style={{
                                                   borderRadius:
-                                                    "8px 8px 8px 8px",
-                                                  cursor: "pointer",
-                                                  border: "1px solid #282828",
+                                                    '8px 8px 8px 8px',
+                                                  cursor: 'pointer',
+                                                  border: '1px solid #282828',
                                                 }}
                                               >
                                                 View Details
@@ -395,7 +393,7 @@ const Course = ({
                 })}
               </div>
             ) : (
-              ""
+              ''
             );
           })}
         </div>

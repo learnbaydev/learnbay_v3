@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-import styles from "./Accordion.module.css"; // Import your CSS module
-import { MdArrowDropDown } from "react-icons/md";
-import Image from "next/image";
-import Link from "next/link";
+import React, { useState } from 'react';
+import styles from './Accordion.module.css'; // Import your CSS module
+import { MdArrowDropDown } from 'react-icons/md';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const accordionData = [
     {
-      leftSideHeadline: "About The Program",
-      title: "About The Program",
+      leftSideHeadline: 'About The Program',
+      title: 'About The Program',
       content: (
         <>
-          <h4 style={{ fontSize: "20px" }}>
+          <h4 style={{ fontSize: '20px' }}>
             Presenting Learner-centric Data Science Training Programs with
             Globally Recognized Certifications
           </h4>
@@ -46,7 +46,7 @@ const Accordion = () => {
           </p>
           <p>
             Yet, generic course modules with less realistic touch limit career
-            progress somewhat. Unlike standard courses, our{" "}
+            progress somewhat. Unlike standard courses, our{' '}
             <b>data science course syllabus</b> crafts a definite career with
             proven skills.
           </p>
@@ -66,9 +66,9 @@ const Accordion = () => {
             </b>
           </p>
           <br />
-          <ul style={{ marginLeft: "20px" }}>
+          <ul style={{ marginLeft: '20px' }}>
             <a
-              style={{ color: "#2D9CD7", fontWeight: "600" }}
+              style={{ color: '#2D9CD7', fontWeight: '600' }}
               href="https://www.learnbay.co/datascience/data-science-certification-courses"
               target="_blank"
             >
@@ -76,16 +76,16 @@ const Accordion = () => {
             </a>
             <br />
             <a
-              style={{ color: "#2D9CD7", fontWeight: "600" }}
+              style={{ color: '#2D9CD7', fontWeight: '600' }}
               href="https://www.learnbay.co/datascience/data-science-ai-for-freshers"
               target="_blank"
             >
-              {" "}
+              {' '}
               <li>Data Science and AI Program for Freshers </li>
             </a>
             <br />
             <a
-              style={{ color: "#2D9CD7", fontWeight: "600" }}
+              style={{ color: '#2D9CD7', fontWeight: '600' }}
               href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
               target="_blank"
             >
@@ -93,7 +93,7 @@ const Accordion = () => {
             </a>
             <br />
             <a
-              style={{ color: "#2D9CD7", fontWeight: "600" }}
+              style={{ color: '#2D9CD7', fontWeight: '600' }}
               href="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
               target="_blank"
             >
@@ -101,7 +101,7 @@ const Accordion = () => {
             </a>
             <br />
             <a
-              style={{ color: "#2D9CD7", fontWeight: "600" }}
+              style={{ color: '#2D9CD7', fontWeight: '600' }}
               href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
               target="_blank"
             >
@@ -111,7 +111,7 @@ const Accordion = () => {
           </ul>
           <br />
 
-          <h4 style={{ fontSize: "20px" }}>
+          <h4 style={{ fontSize: '20px' }}>
             Best Data Science Courses Online in 2024
           </h4>
           <br />
@@ -139,7 +139,7 @@ const Accordion = () => {
             <p>Highlights of the Data Science Foundation Program</p>
           </b>
           <br />
-          <ul style={{ marginLeft: "20px" }}>
+          <ul style={{ marginLeft: '20px' }}>
             <li>Hybrid learning with affordable fees</li>
             <li>An in-detailed learning of data science tools and trends</li>
             <li>
@@ -158,7 +158,7 @@ const Accordion = () => {
             <b>Highlights of the Data Science and AI Program for Freshers</b>
           </p>
           <br />
-          <ul style={{ marginLeft: "20px" }}>
+          <ul style={{ marginLeft: '20px' }}>
             <li>Hybrid learning with affordable fees</li>
             <li>1 MS (Microsoft) Certification</li>
 
@@ -179,7 +179,7 @@ const Accordion = () => {
             <b>Highlights of Advanced Data Science and AI Certification</b>
           </p>
           <br />
-          <ul style={{ marginLeft: "20px" }}>
+          <ul style={{ marginLeft: '20px' }}>
             <li>Hybrid learning with a flexible fee structure</li>
             <li>GenAI-inclusive course syllabus</li>
             <li>Project Innovation Labs (12+ Real-time projects)</li>
@@ -197,7 +197,7 @@ const Accordion = () => {
             </b>
           </p>
           <br />
-          <ul style={{ marginLeft: "20px" }}>
+          <ul style={{ marginLeft: '20px' }}>
             <li>Hybrid training sessions with a flexible fee structure</li>
             <li>GenAI-rich course modules (AI & Data Science)</li>
             <li>Domain-specific training</li>
@@ -213,7 +213,7 @@ const Accordion = () => {
             <b>Highlights of a Master’s Degree in CS: Data Science and AI</b>
           </p>
           <br />
-          <ul style={{ marginLeft: "20px" }}>
+          <ul style={{ marginLeft: '20px' }}>
             <li>Hybrid training sessions from renowned experts</li>
             <li>GenAI-rich course modules (AI & Data Science)</li>
             <li>Domain-specific training </li>
@@ -234,7 +234,7 @@ const Accordion = () => {
             on the right data science course.
           </p>
           <br />
-          <h4 style={{ fontSize: "20px" }}>
+          <h4 style={{ fontSize: '20px' }}>
             Locate Our <b>Data Science Courses</b> Across the Globe!!
           </h4>
           <p>
@@ -265,8 +265,8 @@ const Accordion = () => {
       ),
     },
     {
-      leftSideHeadline: "Domain Specialization      ",
-      title: "Domain Specialization      ",
+      leftSideHeadline: 'Domain Specialization      ',
+      title: 'Domain Specialization      ',
       content: (
         <>
           <p>
@@ -274,7 +274,7 @@ const Accordion = () => {
             for optimal solutions. Data science has become the main force
             driving higher profits and helping firms retain themselves. Thus,
             domain knowledge is vital for experts, as it helps them solve issues
-            with proven insights.{" "}
+            with proven insights.{' '}
           </p>
           <p>
             Our leading-edge data science course institute offers
@@ -283,7 +283,7 @@ const Accordion = () => {
             methods. Learnbay’s best data science courses follow the trending
             domains to align them for upskilling. Such domain electives are –
           </p>
-          <ul style={{ marginLeft: "20px" }}>
+          <ul style={{ marginLeft: '20px' }}>
             <li>BFSI</li>
             <br />
             <li>Healthcare</li>
@@ -306,14 +306,14 @@ const Accordion = () => {
             two domain specializations. Here, learners must select any one
             domain specialization as per their interests. In short, experts must
             opt for one domain specialization in their preferred elective to
-            continue upskilling.{" "}
+            continue upskilling.{' '}
           </p>
         </>
       ),
     },
     {
-      leftSideHeadline: "Degree and Certification Details       ",
-      title: "Degree and Certification Details       ",
+      leftSideHeadline: 'Degree and Certification Details       ',
+      title: 'Degree and Certification Details       ',
       content: (
         <>
           <p>
@@ -322,10 +322,10 @@ const Accordion = () => {
             thrive. Yet, upskilling from a common course with generic
             validations can degrade career values. Unlike standard courses, our
             data science courses offer globally recognized certificates with
-            valuable returns.{" "}
+            valuable returns.{' '}
           </p>
 
-          <h4 style={{ fontSize: "20px" }}>
+          <h4 style={{ fontSize: '20px' }}>
             IBM Course Completion Certificate
           </h4>
           <p>
@@ -346,13 +346,13 @@ const Accordion = () => {
             loading="lazy"
           />
           <br />
-          <h4 style={{ fontSize: "20px" }}>Microsoft Certificate </h4>
+          <h4 style={{ fontSize: '20px' }}>Microsoft Certificate </h4>
           <p>
             Our successful alliance with Microsoft expands your career growth
             horizons with limitless offers. Regardless of data science course
             fees, experts opt for our programs for globally valued industry
             certifications. You will obtain one MS certificate to leverage your
-            earning limits.{" "}
+            earning limits.{' '}
           </p>
           <br />
           <Image
@@ -364,9 +364,9 @@ const Accordion = () => {
           />
           <br />
           <br />
-          <h4 style={{ fontSize: "20px" }}>IBM Project Certificate</h4>
+          <h4 style={{ fontSize: '20px' }}>IBM Project Certificate</h4>
           <p>
-            {" "}
+            {' '}
             Our alliance with tech giant IBM unlocks successive ways to
             establish a global-level career with better hikes. Learners will
             obtain an IBM project certificate once they complete the course. It
@@ -383,7 +383,7 @@ const Accordion = () => {
           />
           <br />
           <br />
-          <h4 style={{ fontSize: "20px" }}>Master’s Degree from Woolf</h4>
+          <h4 style={{ fontSize: '20px' }}>Master’s Degree from Woolf</h4>
 
           <p>
             Apart from foundational and certification courses, we have expertise
@@ -392,7 +392,7 @@ const Accordion = () => {
             global offers. Experts joining our master’s program will obtain a
             degree from Woolf. Learners can step into highly-paying careers with
             their master’s degree. Our master’s degree has impactful recognition
-            across 60+ Western countries.{" "}
+            across 60+ Western countries.{' '}
           </p>
           <br />
           <Image
@@ -407,8 +407,8 @@ const Accordion = () => {
       ),
     },
     {
-      leftSideHeadline: "Job Assist Program ",
-      title: "Job Assist Program ",
+      leftSideHeadline: 'Job Assist Program ',
+      title: 'Job Assist Program ',
       content: (
         <>
           <p>
@@ -421,12 +421,12 @@ const Accordion = () => {
 
           <p>
             <b>
-              {" "}
+              {' '}
               By the end of our data science training, you will have expertise
               in –
             </b>
           </p>
-          <ul style={{ marginLeft: "20px" }}>
+          <ul style={{ marginLeft: '20px' }}>
             <li>Introduction to data science to industry cases </li>
             <li>Insightful data analysis</li>
             <li>Decision-making techniques</li>
@@ -442,10 +442,10 @@ const Accordion = () => {
             <li>GenAI trends (ChatGPT)</li>
           </ul>
           <br />
-          <h4 style={{ fontSize: "20px" }}>Career Service PRO</h4>
+          <h4 style={{ fontSize: '20px' }}>Career Service PRO</h4>
           <p>
             Experts eager to re-establish their careers with premium gains must
-            enroll in the best{" "}
+            enroll in the best{' '}
             <b>data science course with placement support.</b> We envision a
             successful career change with alluring growth offers. Apart from
             tech skills, our job assist program focuses on soft and behavioral
@@ -457,9 +457,9 @@ const Accordion = () => {
             <i>Vital career gains via our Career Service PRO are –</i>
           </p>
 
-          <ul style={{ marginLeft: "20px" }}>
+          <ul style={{ marginLeft: '20px' }}>
             <li>
-              1:1 doubt-clearing with mentors (Course and Project-related){" "}
+              1:1 doubt-clearing with mentors (Course and Project-related){' '}
             </li>
             <li>
               Six 1:1 mock interviews (350+ leading MNCs & unicorn startups)
@@ -474,14 +474,14 @@ const Accordion = () => {
             career shifts. A data science course with placement support unlocks
             true career potential for experts with stagnancy. With our programs,
             you can unlock alluring job roles of data scientists, data analysts,
-            data engineers, etc.{" "}
+            data engineers, etc.{' '}
           </p>
         </>
       ),
     },
     {
-      leftSideHeadline: "Know Your Projects ",
-      title: "Know Your Projects ",
+      leftSideHeadline: 'Know Your Projects ',
+      title: 'Know Your Projects ',
       content: (
         <>
           <p>
@@ -502,7 +502,7 @@ const Accordion = () => {
           <p>
             <i>
               <b>Note:</b>
-            </i>{" "}
+            </i>{' '}
             If you opt for our master’s data science online course, you will
             have three capstone projects in each domain specialization.
           </p>
@@ -511,7 +511,7 @@ const Accordion = () => {
             Industry experts help our learners gain real-time knowledge of
             business cases and apply the right methods to reach solutions. Our
             experimental <b>data science training</b> enriches your skills as
-            per the latest trends.{" "}
+            per the latest trends.{' '}
           </p>
           <p>
             Our data science projects cover trending topics related to data
@@ -535,7 +535,7 @@ const Accordion = () => {
               </div>
               <div>
                 <p>
-                  {" "}
+                  {' '}
                   Samsung will launch a new healthcare app soon. The key goal of
                   this app is accurate human activity tracking and providing
                   relevant health-related recommendations. Continuous analysis
@@ -557,7 +557,7 @@ const Accordion = () => {
               </div>
               <div>
                 <p>
-                  {" "}
+                  {' '}
                   IBM intends to boost its HR department by identifying
                   employees' masked inconsistency. They need models to identify
                   the graphical variations in their 14000+ employees'
@@ -584,7 +584,7 @@ const Accordion = () => {
               </div>
               <div>
                 <p>
-                  {" "}
+                  {' '}
                   Amazon has made a goal to identify the most successful
                   consumer electronic products. For these, they require live
                   customer review analysis. You can participate in the assisting
@@ -608,7 +608,7 @@ const Accordion = () => {
               </div>
               <div>
                 <p>
-                  {" "}
+                  {' '}
                   BMW allows existing customers to sell used cars but many
                   competitors are now offering better resale values. A data
                   science-powered statistical app from BMW will provide the best
@@ -625,22 +625,22 @@ const Accordion = () => {
           >
             <div
               style={{
-                display: "flex",
-                justifyContent: "center",
-                alignContent: "center",
-                alignItems: "center",
-                cursor: "pointer",
+                display: 'flex',
+                justifyContent: 'center',
+                alignContent: 'center',
+                alignItems: 'center',
+                cursor: 'pointer',
               }}
             >
               <button
                 style={{
-                  fontSize: "12px",
-                  padding: "10px 16px",
-                  background: "#0072bc",
-                  border: "none",
-                  color: "#fff",
-                  borderRadius: "6px",
-                  cursor: "pointer",
+                  fontSize: '12px',
+                  padding: '10px 16px',
+                  background: '#0072bc',
+                  border: 'none',
+                  color: '#fff',
+                  borderRadius: '6px',
+                  cursor: 'pointer',
                 }}
               >
                 View All Projects

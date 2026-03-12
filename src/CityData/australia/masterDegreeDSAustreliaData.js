@@ -447,7 +447,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
     CertificationBot1:
       'The current job market outlook of data science is changing rapidly, highlighting the promising job roles in leading MNCs. Employers in Australia search for skillful data experts who can deal with complex data sets. Learnbay’s globally recognized IBM project certificate and a master’s degree unlock true potential.         ',
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',

@@ -1,41 +1,41 @@
-import Navbar from "@/components/Global/Navbar/Navbar";
-import Realstory from "@/components/Home/Realstory/Realstory";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { DSSingaporeCourseData } from "../../../CityData/Singapore/datascienceCourseTrainingInSingapore";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Popup from "../../../components/Global/Popup/Popup";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import styles from "../../../styles/Home.module.css";
+import Navbar from '@/components/Global/Navbar/Navbar';
+import Realstory from '@/components/Home/Realstory/Realstory';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { DSSingaporeCourseData } from '../../../CityData/Singapore/datascienceCourseTrainingInSingapore';
+import Footer from '../../../components/Global/Footer/Footer';
+import Form from '../../../components/Global/Form/Form';
+import Popup from '../../../components/Global/Popup/Popup';
+import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
+import styles from '../../../styles/Home.module.css';
 const FirstSection = dynamic(
-  () => import("../../../components/Seo/FirstSection/FirstSection"),
+  () => import('../../../components/Seo/FirstSection/FirstSection')
 );
 const SecondSection = dynamic(
-  () => import("../../../components/Seo/SecondSection/SecondSection"),
+  () => import('../../../components/Seo/SecondSection/SecondSection')
 );
 const ProgramInfo = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramInfo"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramInfo')
 );
 const SeventhSection = dynamic(
-  () => import("../../../components/Seo/SeventhSection/SeventhSection"),
+  () => import('../../../components/Seo/SeventhSection/SeventhSection')
 );
 const ProgramFee = dynamic(
-  () => import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee"),
+  () => import('../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
 // const CityText = dynamic(() =>
 //   import("../../../components/Seo/CityText/CityText")
 // );
 const CitiesLeft = dynamic(
-  () => import("../../../components/Seo/CitiesLeft/CitiesLeft"),
+  () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
 const CitiesRight = dynamic(
-  () => import("../../../components/Seo/CitiesRight/CitiesRight"),
+  () => import('../../../components/Seo/CitiesRight/CitiesRight')
 );
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 const OfferPopup = dynamic(
-  () => import("../../../components/Global/OfferPopup/OfferPopup"),
+  () => import('../../../components/Global/OfferPopup/OfferPopup')
 );
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -48,8 +48,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -62,7 +62,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === 'Adv Data Science and AI') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -74,15 +74,17 @@ export default function Home() {
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Program.pdf';
   return (
     <div className={styles.container}>
       <Head>
-        <title>Top Data Science Course Training in Singapore | Learnbay</title>
+        <title>
+          Best Online Data Science Course in USA with GenAI | Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Empower your career with Learnbay's premier data science course training in Singapore. Acquire prestigious IBM Certifications. Enroll now!"
+          content="Join Learnbay's data science course training in Singapore with latest GenAI Module. Get IBM Certified, experience  AI Co-lab, and bring your own project. "
         />
         <meta
           name="keywords"
@@ -90,115 +92,111 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/singapore/data-science-course-training-in-singapore"
+          content="https://www.learnbay.co/datascience/usa/data-science-course-training-in-usa"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Data Science Course in singapore | Data Science Training in singapore"
+          content="Best Online Data Science Course in USA with GenAI | Learnbay"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in singapore. Learnbay is Advanced Data Science Course Training Institute in singapore. Data science course in singapore will enhance your career"
+          content="Explore the Top online data science program in USA with Learnbay. Get IBM GenAI certified, Real-world projects, expert-led training. Enroll now!"
         />
         <meta
           property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Data Science Course in Chennai | Data Science Training in Chennai"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/usa/data-science-course-training-in-usa"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Online Data Science Course in USA with GenAI | Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content="Explore the Top online data science program in USA with Learnbay. Get IBM GenAI certified, Real-world projects, expert-led training. Enroll now!"
         />
         <meta
           name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <link
-          rel="canonical"
-          href="https://www.learnbay.co/datascience/singapore/data-science-course-training-in-singapore"
-        />
-        {/* <meta name="HandheldFriendly" content="true" /> */}
-        {/* <meta name="distribution" content="global" /> */}
-        <meta name="copyright" content="Learnbay" />
-        {/* <meta name="language" content="English" /> */}
-        {/* <meta name="rating" content="general" /> */}
-        {/* <meta name="revisit-after" content="Daily" /> */}
-        {/* <meta name="author" content="Learnbay" /> */}
-        {/* <meta name="googlebot" content="index,follow" /> */}
-        {/* <meta name="bingbot" content="index,follow" /> */}
-        {/* <meta name="expires" content="never" /> */}
-        {/* <meta name="coverage" content="Worldwide" /> */}
-        {/* <meta name="robots" content="ALL" /> */}
-        <meta
-          property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-singapore"
-        />
-        <meta
-          property="og:title"
-          content="Data Science Course Training in singapore"
-        />
-        <meta
-          property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-singapore"
-        />
-        <meta
-          property="og:title"
-          content="Data Science Course singapore | Data Scientist Course singapore | Learnbay"
-        />
-        <meta property="og:site_name" content="www.learnbay.co" />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:description"
-          content="Enroll for Data Science Course and Certification Training in singapore from Learnbay in association with IBM. This Data Scientist course in singapore will give you hands-on experience with technologies and job assistance.
-"
-        />
-        <meta
-          property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
-        />
-        <meta property="og:image:height" content="240" />
-        <meta property="og:image:width" content="360" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content=" Best Data Science Course Training in singapore - Learnbay"
-        />
-        <meta name="twitter:creator" content="@Learnbay" />
-        <meta
-          itemProp="description"
-          content=" Enroll in Learnbay’s top-notch data science course training in singapore. Experience hands-on learning with live projects and become industry-ready."
-        />
-        <meta
-          name="twitter:description"
-          content="Enroll for Data Science Course and Certification Training in Singapore from Learnbay in association with IBM. This Data Scientist course in Singapore will give you hands-on experience with technologies and job assistance.
-"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
-        ></meta>
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
+              "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Best Online Data Science Course in USA with GenAI | Learnbay",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "1590"
+  }
+}
+ }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
+              "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Best Online Data Science Course in USA with GenAI | Learnbay",
+  "description": "Explore the Top online data science program in USA with Learnbay. Get IBM GenAI certified, Real-world projects, expert-led training. Enroll now!",
+  "url": "https://www.learnbay.co/datascience/usa/data-science-course-training-in-usa",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "sameAs": "https://www.learnbay.co/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "1700",
+    "priceCurrency": "USD",
+    "category": "Educational"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P9M",
+    "offers": {
+      "@type": "Offer",
+      "price": "1700",
+      "priceCurrency": "USD"
+    }
+  }
+}
+ }`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{  }`,
+          }}
+        />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -223,6 +221,7 @@ export default function Home() {
           firstHeading="Best Online Data Science Course in Singapore       "
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Demonstrate your expertise in real-world business projects via our industry-centric data science training in Singapore. Our custom-fit course syllabus with structured modules helps you gain in-demand skills. Get ready and lock your seat with us to unleash your career potential on a global scale.           "
+          ibmOnly={true}
         />
         <SecondSection
           SecondSectionData={DSSingaporeCourseData[0].secondSection}

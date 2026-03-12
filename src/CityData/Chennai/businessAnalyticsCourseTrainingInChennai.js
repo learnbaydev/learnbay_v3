@@ -1,164 +1,164 @@
 export const BusinessAnalyticsChennaiCourseData = [
   {
-    script1: {
-      '@context': 'https://schema.org',
-      '@type': 'NewsArticle',
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': 'https://www.learnbay.co/',
-      },
-      headline: 'Machine Learning Course Training In Chennai',
-      description:
-        'Machine learning course in Chennai. Learnbay is Advanced Machine Learning Course Training Institute in Chennai. Machine Learning course in Chennai will enhance your career',
-      image:
-        'https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg',
-      author: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co/',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png',
-        },
-      },
-      datePublished: '2021-10-01',
-      dateModified: '2022-04-21',
-    },
-    script2: {
-      '@context': 'https://schema.org',
-      '@type': 'NewsArticle',
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': 'https://www.learnbay.co/',
-      },
-      headline: 'Business Analytics Course Training In Chennai',
-      description:
-        'Business Analytics Course in Chennai. Learnbay is Advanced Business Analytics Course Training Institute in Chennai. Business Analytics course in Chennai will enhance your career',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      author: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co/',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-        },
-      },
-      datePublished: '2021-10-01',
-      dateModified: '2022-04-21',
-    },
-    script3: {
-      '@context': 'http://schema.org',
-      '@type': 'EducationEvent',
-      name: 'Business analytics Course Training In Chennai',
-      description:
-        'Learnbay offers a Business analytics  course in chennai, the most comprehensive Business analytics  course in the market, covering the complete Data Science lifecycle.',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
-      performer: 'Learnbay',
-      offers: {
-        '@type': 'AggregateOffer',
-        lowPrice: '39999',
-        highPrice: '110000',
-        url: 'https://www.learnbay.co/',
-        availability: 'https://schema.org/InStock',
-        price: '1,00,000',
-        priceCurrency: 'INR',
-        validFrom: '2022-05-01',
-      },
-      startDate: '2022-05-01',
-      endDate: '2022-10-31',
-      url: 'https://www.learnbay.co/',
-      duration: '80',
-      eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
-      eventStatus: 'http://schema.org/EventScheduled',
-      location: [
-        {
-          '@type': 'VirtualLocation',
-          url: 'https://www.learnbay.co/',
-        },
-        {
-          '@type': 'Place',
-          name: 'Learnbay - Data Science, Machine Learning Course Training In Chennai',
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress:
-              ' #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)',
-            addressLocality: 'HSR Sector 3',
-            postalCode: '560102',
-            addressCountry: 'Bengaluru, Karnataka,INDIA',
-          },
-          geo: {
-            '@type': 'GeoCoordinates',
-            latitude: '12.911762714349765,',
-            longitude: '77.64127379352328',
-          },
-        },
-      ],
-      organizer: {
-        '@type': 'Organization',
-        name: 'Learnbay',
-        url: 'https://www.learnbay.co',
-      },
-    },
-    script4: {
-      '@context': 'https://schema.org/',
-      '@type': 'HowTo',
-      name: 'How to apply for data science course?',
-      description:
-        'You just have to follow 3 easy steps to enroll in our advanced data science course',
-      image:
-        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-      totalTime: 'PT6M',
-      estimatedCost: {
-        '@type': 'MonetaryAmount',
-        currency: 'INR',
-        value: '6',
-      },
-      supply: {
-        '@type': 'HowToSupply',
-        name: 'We provide business analytics course training in chennai',
-      },
-      tool: {
-        '@type': 'HowToTool',
-        name: 'Data science, machine learning, artificial intelligence, data analytics',
-      },
-      step: [
-        {
-          '@type': 'HowToStep',
-          text: 'Visit our website and fill the enquiry form',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Fill Enquiry Form',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Talk to our experts for career counseling',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png',
-          name: 'Talk to Expert',
-          url: 'https://www.learnbay.co/data-science-course/',
-        },
-        {
-          '@type': 'HowToStep',
-          text: 'Get enrollment in our data science course',
-          image:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
-          name: 'Get enrollment',
-          url: 'https://www.learnbay.co/',
-        },
-      ],
-    },
+    // script1: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'NewsArticle',
+    //   mainEntityOfPage: {
+    //     '@type': 'WebPage',
+    //     '@id': 'https://www.learnbay.co/',
+    //   },
+    //   headline: 'Machine Learning Course Training In Chennai',
+    //   description:
+    //     'Machine learning course in Chennai. Learnbay is Advanced Machine Learning Course Training Institute in Chennai. Machine Learning course in Chennai will enhance your career',
+    //   image:
+    //     'https://www.learnbay.co/data-science-course/wp-content/uploads/2019/02/Add-a-heading-1-600x486.jpg',
+    //   author: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co/',
+    //   },
+    //   publisher: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     logo: {
+    //       '@type': 'ImageObject',
+    //       url: 'https://www.learnbay.co/data-science-course/wp-content/uploads/2020/11/logo-dark.png',
+    //     },
+    //   },
+    //   datePublished: '2021-10-01',
+    //   dateModified: '2022-04-21',
+    // },
+    // script2: {
+    //   '@context': 'https://schema.org',
+    //   '@type': 'NewsArticle',
+    //   mainEntityOfPage: {
+    //     '@type': 'WebPage',
+    //     '@id': 'https://www.learnbay.co/',
+    //   },
+    //   headline: 'Business Analytics Course Training In Chennai',
+    //   description:
+    //     'Business Analytics Course in Chennai. Learnbay is Advanced Business Analytics Course Training Institute in Chennai. Business Analytics course in Chennai will enhance your career',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   author: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co/',
+    //   },
+    //   publisher: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     logo: {
+    //       '@type': 'ImageObject',
+    //       url: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //     },
+    //   },
+    //   datePublished: '2021-10-01',
+    //   dateModified: '2022-04-21',
+    // },
+    // script3: {
+    //   '@context': 'http://schema.org',
+    //   '@type': 'EducationEvent',
+    //   name: 'Business analytics Course Training In Chennai',
+    //   description:
+    //     'Learnbay offers a Business analytics  course in chennai, the most comprehensive Business analytics  course in the market, covering the complete Data Science lifecycle.',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png',
+    //   performer: 'Learnbay',
+    //   offers: {
+    //     '@type': 'AggregateOffer',
+    //     lowPrice: '39999',
+    //     highPrice: '110000',
+    //     url: 'https://www.learnbay.co/',
+    //     availability: 'https://schema.org/InStock',
+    //     price: '1,00,000',
+    //     priceCurrency: 'INR',
+    //     validFrom: '2022-05-01',
+    //   },
+    //   startDate: '2022-05-01',
+    //   endDate: '2022-10-31',
+    //   url: 'https://www.learnbay.co/',
+    //   duration: '80',
+    //   eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
+    //   eventStatus: 'http://schema.org/EventScheduled',
+    //   location: [
+    //     {
+    //       '@type': 'VirtualLocation',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //     {
+    //       '@type': 'Place',
+    //       name: 'Learnbay - Data Science, Machine Learning Course Training In Chennai',
+    //       address: {
+    //         '@type': 'PostalAddress',
+    //         streetAddress:
+    //           ' #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Bangalore - 560102 (Above Sangam Sweets)',
+    //         addressLocality: 'HSR Sector 3',
+    //         postalCode: '560102',
+    //         addressCountry: 'Bengaluru, Karnataka,INDIA',
+    //       },
+    //       geo: {
+    //         '@type': 'GeoCoordinates',
+    //         latitude: '12.911762714349765,',
+    //         longitude: '77.64127379352328',
+    //       },
+    //     },
+    //   ],
+    //   organizer: {
+    //     '@type': 'Organization',
+    //     name: 'Learnbay',
+    //     url: 'https://www.learnbay.co',
+    //   },
+    // },
+    // script4: {
+    //   '@context': 'https://schema.org/',
+    //   '@type': 'HowTo',
+    //   name: 'How to apply for data science course?',
+    //   description:
+    //     'You just have to follow 3 easy steps to enroll in our advanced data science course',
+    //   image:
+    //     'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //   totalTime: 'PT6M',
+    //   estimatedCost: {
+    //     '@type': 'MonetaryAmount',
+    //     currency: 'INR',
+    //     value: '6',
+    //   },
+    //   supply: {
+    //     '@type': 'HowToSupply',
+    //     name: 'We provide business analytics course training in chennai',
+    //   },
+    //   tool: {
+    //     '@type': 'HowToTool',
+    //     name: 'Data science, machine learning, artificial intelligence, data analytics',
+    //   },
+    //   step: [
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Visit our website and fill the enquiry form',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Fill Enquiry Form',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Talk to our experts for career counseling',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png',
+    //       name: 'Talk to Expert',
+    //       url: 'https://www.learnbay.co/data-science-course/',
+    //     },
+    //     {
+    //       '@type': 'HowToStep',
+    //       text: 'Get enrollment in our data science course',
+    //       image:
+    //         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp',
+    //       name: 'Get enrollment',
+    //       url: 'https://www.learnbay.co/',
+    //     },
+    //   ],
+    // },
 
     secondSection: [
       {
@@ -329,13 +329,7 @@ export const BusinessAnalyticsChennaiCourseData = [
             id: 3,
             ques: 'What’s the duration of the Business Analytics Program in Chennai?',
             //About Data Science
-            ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-          
-              Classes will be conducted on weekdays and weekend batches.
-              Weekday batch - 5 months
-                 Monday to Friday - 2 hours/day
-              Weekend batch - 6.5 months
-              Saturday & Sunday - 3.5 hours/day`,
+            ans: `The duration of business analytics course in chennai is 6 months.`,
             open: false,
           },
           {
@@ -353,57 +347,106 @@ export const BusinessAnalyticsChennaiCourseData = [
         ],
       },
 
+      //             {
+      //               id: 1,
+      //               sectionName: 'Domain Related',
+      //               data: [
+      //                 {
+      //                   id: 0,
+      //                   ques: 'What are the prerequisites for the Business Analytics Training Course in Chennai?',
+      //                   ans: `There are no prerequisites for this Business Analytics certification course in Chennai as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.`,
+      //                   open: true,
+      //                 },
+      //                 {
+      //                   id: 1,
+      //                   ques: 'What if I miss a few classes due to an emergency?',
+      //                   ans: `In case you miss a few classes, you will be provided with backup classes in other batches.
+      //                     But if you could not attend more classes, you can opt for batch change and join the next batch.`,
+      //                   open: false,
+      //                 },
+      //                 {
+      //                   id: 2,
+      //                   ques: 'What is a Flexi Subscription in the Business Analytics Certification course in Chennai?',
+      //                   ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+      //                   open: false,
+      //                 },
+      //                 {
+      //                   id: 3,
+      //                   ques: 'What’s the duration of the Business Analytics Program in Chennai?',
+      //                   //About Data Science
+      //                   ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
+
+      //                     Classes will be conducted on weekdays and weekend batches.
+      //                     Weekday batch - 5 months
+      //                       Monday to Friday - 2 hours/day
+      //                     Weekend batch - 6.5 months
+      //                     Saturday & Sunday - 3.5 hours/day`,
+      //       open: false,
+      //     },
+      //     {
+      //       id: 4,
+      //       ques: 'What is the mode of Business Analytics training at Learnbay?',
+      //       ans: `We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
+      //       open: false,
+      //     },
+      //     {
+      //       id: 5,
+      //       ques: 'How can I opt for a Hybrid mode of learning? ',
+      //       ans: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.',
+      //       open: false,
+      //     },
+      //   ],
+      // },
+
       {
-        id: 1,
-        sectionName: 'Domain Related',
+        id: 8,
+        sectionName: 'Domain Electives',
         data: [
           {
             id: 0,
-            ques: 'What are the prerequisites for the Business Analytics Training Course in Chennai?',
-            ans: `There are no prerequisites for this Business Analytics certification course in Chennai as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.`,
+            ques: 'What is domain specialization?',
+            ans: `Here at Learnbay, you get industry-specific full-stack business analytics with Gen AI modules, via which you learn the respective industry’s best practices.`,
             open: true,
           },
           {
             id: 1,
-            ques: 'What if I miss a few classes due to an emergency?',
-            ans: `In case you miss a few classes, you will be provided with backup classes in other batches.
-              But if you could not attend more classes, you can opt for batch change and join the next batch.`,
+            ques: 'What are the available elective domain options?',
+            ans: `HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.`,
             open: false,
           },
           {
             id: 2,
-            ques: 'What is a Flexi Subscription in the Business Analytics Certification course in Chennai?',
-            ans: `Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+            ques: 'Which domain elective is best suited for me?',
+            ans: `It’s always best to choose your domain elective that enriches your current experience. This strategy ensures your career upgradation instead of a fresh start. However, in case you want to switch your domain due to personal or any other reason, it’s always recommended to have personalized counselling from our career experts.`,
             open: false,
           },
           {
             id: 3,
-            ques: 'What’s the duration of the Business Analytics Program in Chennai?',
+            ques: 'Why is domain specialization important?',
             //About Data Science
-            ans: `The duration of this Data Science Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-          
-              Classes will be conducted on weekdays and weekend batches.
-              Weekday batch - 5 months
-                 Monday to Friday - 2 hours/day
-              Weekend batch - 6.5 months
-              Saturday & Sunday - 3.5 hours/day`,
+            ans: `After enrolling in the business analytics with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.`,
             open: false,
           },
           {
             id: 4,
-            ques: 'What is the mode of Business Analytics training at Learnbay?',
-            ans: `We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode.`,
+            ques: 'Can I select multiple domain electives and do I need to pay extra charges?',
+            ans: `You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
             open: false,
           },
           {
             id: 5,
-            ques: 'How can I opt for a Hybrid mode of learning? ',
-            ans: 'Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.',
+            ques: 'What if I don’t have any prior experience in any domain?',
+            ans: 'If you don’t have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.',
+            open: false,
+          },
+          {
+            id: 6,
+            ques: 'Can I change my domain electives later?',
+            ans: 'Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.',
             open: false,
           },
         ],
       },
-
       {
         id: 2,
         sectionName: 'Payments and Scholarships',
@@ -411,17 +454,14 @@ export const BusinessAnalyticsChennaiCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for the Business Analytics Program in Chennai?',
-            ans: `The total program fee for the Business Analytics Program is INR  1,20,000/- inclusive of GST.`,
+            ans: `The total program fee for the Business Analytics Program in Chennai is INR 1,20,000/- exclusive of GST.`,
             open: true,
           },
           {
             id: 1,
             ques: 'Can I pay in installments for INR 1,20,000/-?',
-            ans: 'Yes, you can pay the installments using a credit card with a no-cost EMI option for INR  5,900/month up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.',
-            linkText1:
-              ' Please check with our sales team to know more +917795687988 ',
-            link1: 'tel:+917795687988',
-            link: true,
+            ans: 'Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip. ',
+
             open: false,
           },
           {
@@ -481,7 +521,8 @@ export const BusinessAnalyticsChennaiCourseData = [
           {
             id: 0,
             ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, you will be awarded IBM accredited Business Analytics Certificate on successful course completion.`,
+            ans: `Upon successful completion of the Business Analytics Course in Chennai, you will receive 3 certifications, two from IBM and one from IIT Patna.
+`,
             open: true,
           },
         ],
@@ -584,10 +625,11 @@ export const BusinessAnalyticsChennaiCourseData = [
     CertificationBot2:
       "Having this credential on one's resume can help one land a job as a business analyst in the top paid MNC job profiles. Over the past 3 years, more than 10,000 candidates have been trained in a variety of Learnbay courses, and have secured rewarding careers in top startups and PRODUCT Based Companies companies. ",
     src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
+    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
     ModuleHead1: 'What will you learn in our IBM business analytics course?',
     ModuleHead2: 'Programming classes:',
     ModuleBot3:

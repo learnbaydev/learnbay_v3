@@ -19,7 +19,7 @@ export const programCards = [
     logo: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/ibm-microsoft+(1).webp',
     icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2408.webp',
     brochureUrl:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
     pdfUrl:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification_Program%2Bdownload.pdf',
     dataScience: true,
@@ -44,7 +44,7 @@ export const programCards = [
     brochureUrl:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
     pdfUrl:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf',
     theme: 'purple',
     logo: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2673.webp',
     icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2369.webp',
