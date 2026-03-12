@@ -843,38 +843,26 @@ export const DataSciencecanadaCourseData = [
       'Our data science courses in Canada are designed to be straightforward and simple to follow while providing the greatest possible foundation in data science. Our instructor-led online data science course teaches students the key principles of data science and how to use these skills in the workplace. Topics include data visualization, machine learning, statistical inference and time series analysis, and other data science tools. Our instructor explains each concept using real-world scenarios.',
     ModuleBot2:
       "Additionally, we've added Module 0 to the data science curriculum package, which focuses on Python and R programming. Non-technical individuals can take advantage of these specialized classes to accelerate their learning in each module.",
-    syllabush1: ' Preparatory Classes (Programming + Maths)',
-    syllabusb1: '6 Hours',
-    SyllabusBotlist11: ' Cohort Orientation',
-    SyllabusBotlist12: 'A brief introduction to tools related to data',
-    SyllabusBotlist13: ' Fundamentals of Programming',
-    SyllabusBotlist14: 'Introduction to Anaconda & Jupyter notebook',
-    SyllabusBotlist15: 'Fundamentals of Statistics',
-    SyllabusBotlist16: 'Mean, Median, Mode',
-    syllabush2: 'Python for Data Science',
-    syllabusb2: '40 Hours',
-    SyllabusBotlist21: 'Python Programming',
-    SyllabusBotlist22: 'Data Analysis Using Numpy',
-    SyllabusBotlist23: 'Python Programming Overview',
-    SyllabusBotlist24: 'Python Data Types',
-    SyllabusBotlist25: 'Strings, Decisions & Loop Control',
-    SyllabusBotlist26: 'Data Analysis Using Pandas',
-    syllabush3: 'Statistics and Machine Learning',
-    syllabusb3: '70 Hours',
-    SyllabusBotlist31: 'Statistics',
-    SyllabusBotlist32: 'Fundamentals of Math and Probability',
-    SyllabusBotlist33: 'Descriptive Statistics',
-    SyllabusBotlist34: ' Machine Learning',
-    SyllabusBotlist35: 'Linear Regression Model',
-    SyllabusBotlist36: 'Data Preprocessing',
-    syllabush4: ' Data Science Tools',
-    syllabusb4: '12+ Classes',
-    SyllabusBotlist41: ' SQL',
-    SyllabusBotlist42: 'MongoDB',
-    SyllabusBotlist43: 'Tableau',
-    SyllabusBotlist44: ' PowerBI',
-    SyllabusBotlist45: ' Big Data & Spark Analytics',
-    SyllabusBotlist46: 'Big Data & Spark Analytics',
+    syllabush1: 'INDUCTION + ORIENTATION',
+    syllabusb1: '3 Days',
+    SyllabusBotlist11:
+      'Understand the GenAI & Agentic AI landscape, tools, expectations, and how this program aligns with your career goals.',
+
+    syllabush2: 'FOUNDATION OF GENAI',
+    syllabusb2: '2.5 Months',
+    SyllabusBotlist21:
+      'Build Python, ML, DL, and NLP foundations for modern GenAI workflows.',
+
+    syllabush3: 'ADVANCED GENERATIVE AI',
+    syllabusb3: '1 Month',
+    SyllabusBotlist31:
+      'Design and optimize LLM-based applications and autonomous AI agents using prompts, embeddings, RAG, and fine-tuning.',
+
+    syllabush4: 'AGENTIC AI & AUTOMATION',
+    syllabusb4: '1 Month',
+    SyllabusBotlist41:
+      'Design autonomous AI agents that plan, reason, and automate complex workflows end to end.',
+
     syllabussrc:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
     JobHead1: 'Job Assurance Data Science Course in Canada at Learnbay',
