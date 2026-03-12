@@ -674,10 +674,8 @@ export const BusinessAnalyticsHyderabadCourseData = [
       "Learnbay is committed to delivering industries in Hyderabad with the highest quality and most qualified personnel. As a result, we've partnered with IBM to help our students acquire additional industrial value. By teaming up with IBM for the Business Analytics course in Hyderabad, Learnbay has reached a big milestone.",
     CertificationBot2:
       'With this certificate on the resume, one can obtain a position as a business analyst in one of the highest-paying MNC job profiles. Over 10,000 individuals have completed Learnbay courses in the last three years, followed by landing rewarding jobs at leading startups and Top MNCs.',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
+    src: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/learnbayMain/ibm2026.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:

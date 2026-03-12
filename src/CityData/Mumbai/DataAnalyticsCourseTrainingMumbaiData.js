@@ -674,12 +674,10 @@ export const DAMumbaiCourseData = [
       "IBM has recognized our data analytics industrial program in Mumbai. We've also partnered with international IT companies to offer our students a better placement assistance experience. ",
     CertificationBot2:
       'Due to the presence of the IBM Data Analytics Certificate in your Linkedin and other online job profiles, your profile becomes tagged for top-tire data analytics job profiles in Mumbai.',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
+    src: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/learnbayMain/ibm2026.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleHead1:
       'What do you get under the Learnbay Data Analytics program in Mumbai?',
     ModuleHead4: 'Special Programming Classes',

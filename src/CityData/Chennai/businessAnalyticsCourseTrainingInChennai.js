@@ -624,12 +624,10 @@ export const BusinessAnalyticsChennaiCourseData = [
       'Learnbay is dedicated to supplying the best quality and most skilled people to the industries in Chennai. Hence, We’ve collaborated with IBM to gain more value for our learners. Learnbay has achieved a significant milestone by partnering with IBM for its Business Analytics course in Chennai. ',
     CertificationBot2:
       "Having this credential on one's resume can help one land a job as a business analyst in the top paid MNC job profiles. Over the past 3 years, more than 10,000 candidates have been trained in a variety of Learnbay courses, and have secured rewarding careers in top startups and PRODUCT Based Companies companies. ",
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
+    src: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/learnbayMain/ibm2026.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleHead1: 'What will you learn in our IBM business analytics course?',
     ModuleHead2: 'Programming classes:',
     ModuleBot3:
