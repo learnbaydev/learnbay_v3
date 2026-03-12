@@ -767,10 +767,8 @@ export const BADelhiCourseData = [
     CertificationHead1: 'Certification process at Learnbay',
     CertificationBot2:
       'After the completion of the Business analytics course with placement, students will be awarded an IBM Certification. To be eligible for this certification, students must successfully complete all business analytics course modules, assessments, assignments, real-time projects as well as the final IBM Exams. Possessing this certificate will undoubtedly boost your portfolio and make you stand out in the business analytics job market.',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
+    src: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/learnbayMain/ibm2026.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:

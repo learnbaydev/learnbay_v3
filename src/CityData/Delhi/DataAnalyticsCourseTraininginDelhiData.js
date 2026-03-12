@@ -731,12 +731,10 @@ export const DADelhiCourseData = [
       'Learnbay has developed a data analytics course in partnership with a renowned organization, IBM. Students will receive an IBM certificate upon completion of the data analytics course in Delhi. To earn this certification, students must successfully complete all modules, assessments, assignments, and projects. Following successful completion of the IBM exam, you will be eligible for IBM certification.',
     CertificationBot2:
       'This credential will make you a qualified candidate for data analyst jobs in Delhi.',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
+    src: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/learnbayMain/ibm2026.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleBot1:
       'The modules of the IBM data analytics course are meticulously crafted to cater to the needs of various data analytics job roles in Delhi. The course is further divided into 8 modules which are supplemented with assignments, and real-time project works to facilitate experiential learning. This 6-months data analytics course covers important data analytics tools and techniques such as Advanced Excel, PowerBI, Time series analysis, as well as statistics and probability. Apart from this, you will also learn to create a database from scratch, design tables and queries, and analyze data using reporting apps.',
     ModuleBot2:

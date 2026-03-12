@@ -721,12 +721,10 @@ export const DataAnalyticsChennaiCourseData = [
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     CertificationBot2:
       'This IBM data analytics course will certainly strengthen your resume to make you stand out from the crowd and get noticed by the recruiters.  Also, We have collaborated with global tech companies in order to showcase the talents of our data analytics students.',
-    src33:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-    src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
+    src33: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificate.webp',
+    src: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/learnbayMain/ibm2026.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleHead1: 'What does the IBM data analytics course in Chennai include? ',
     ModuleBot1:
       'Learnbay is committed to providing the best data analytics course in Chennai.  This Data Analytics course with placement has been designed to meet the ever-changing demands of the industry. This customized data analytics course in Chennai delivers basic to advanced levels of training in data analytics. Additionally, they also offer special classes of coding for non-programmers to excel at programming skills.',
