@@ -127,12 +127,10 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-      </Head>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{ 
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
               "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Learnbay - Data science and Generative AI courses training in Pune",
@@ -189,13 +187,13 @@ export default function Home() {
 }
 
             }`,
-        }}
-      />
+          }}
+        />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{ 
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
             "@context": "https://schema.org",
   "@type": "Product",
   "name": "Best Full Stack Developer Course in Pune with Job Assistance",
@@ -213,13 +211,13 @@ export default function Home() {
   }
 
            }`,
-        }}
-      />
+          }}
+        />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{ 
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
             "@context": "https://schema.org",
   "@type": "Course",
   "name": "Best Full Stack Developer Course in Pune with Job Assistance",
@@ -248,13 +246,13 @@ export default function Home() {
   }
 
            }`,
-        }}
-      />
+          }}
+        />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{ 
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ 
             "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
@@ -513,8 +511,9 @@ export default function Home() {
 }
 
            }`,
-        }}
-      />
+          }}
+        />
+      </Head>
 
       <main>
         {' '}
