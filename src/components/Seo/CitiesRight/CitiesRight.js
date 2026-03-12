@@ -807,8 +807,7 @@ const CitiesRight = ({
               <li>12+ real-time industrial projects</li>
             </ul>
             <h2 className={styles.pHead}>
-              Data Science and AI program for Managers and Leaders in Mumbai
-              with Placement Assistance{' '}
+              Data Science and Gen AI Program in Mumbai{' '}
             </h2>
             <ul>
               <li>
@@ -1424,7 +1423,7 @@ const CitiesRight = ({
             </ul>
 
             <h3 className={styles.pHead}>
-              highlights with the Data Science and Gen AI Program in pune
+              Highlights of the Data Science and Gen AI Program in Pune
             </h3>
             <ul>
               <li>Consists of 200+ hours of live sessions</li>

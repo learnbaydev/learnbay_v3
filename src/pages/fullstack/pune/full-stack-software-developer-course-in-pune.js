@@ -119,10 +119,6 @@ export default function Home() {
           name="twitter:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <link
-          rel="canonical"
-          href="https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune"
-        />
         <meta
           name="copyright"
           content="Learnbay: Full-Stack Software Developer Courses Certification Training India"
@@ -189,14 +185,16 @@ export default function Home() {
     "https://www.linkedin.com/company/learnbay/"
   ]
 }
- }`,
+
+            }`,
           }}
         />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{ 
-             "@context": "https://schema.org",
+            "@context": "https://schema.org",
   "@type": "Product",
   "name": "Best Full Stack Developer Course in Pune with Job Assistance",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
@@ -211,15 +209,16 @@ export default function Home() {
     "worstRating": "1",
     "ratingCount": "1283"
   }
-}
- }`,
+
+           }`,
           }}
         />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{ 
-              "@context": "https://schema.org",
+            "@context": "https://schema.org",
   "@type": "Course",
   "name": "Best Full Stack Developer Course in Pune with Job Assistance",
   "description": "Join the best Full-stack Software Developer course in Pune and acquire the skills needed to excel in this field. Sign-up Now.",
@@ -245,136 +244,16 @@ export default function Home() {
       "priceCurrency": "INR"
     }
   }
-}
- }`,
+
+           }`,
           }}
         />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{ 
-               "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Learnbay - Data science and Generative AI courses training in Pune",
-  "description": "Join the best Full-stack Software Developer course in Pune and acquire the skills needed to excel in this field. Sign-up Now.",
-  "url": "https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune",
-  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "office no. 408, 4th floor, City Space, opposite to Fiserv, Viman Nagar",
-    "addressLocality": "Pune",
-    "addressRegion": "Maharashtra",
-    "postalCode": "411014",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 18.562830973846324,
-    "longitude": 73.92150074243546
-  },
-  "telephone": "(+91) 77956 87988",
-  "email": "contacts@learnbay.co",
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "09:00",
-      "closes": "20:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Saturday"
-      ],
-      "opens": "10:00",
-      "closes": "20:00"
-    }
-  ],
-  "priceRange": "₹ 1,59,000 + 18% GST",
-  "areaServed": "Pune",
-  "paymentAccepted": "Cash, Credit Card, Debit Card, EMI",
-  "sameAs": [
-    "https://www.facebook.com/learnbay/",
-    "https://twitter.com/Learnbay",
-    "https://www.instagram.com/learnbayofficial/",
-    "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
-    "https://www.linkedin.com/company/learnbay/"
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Best Full Stack Developer Course in Pune with Job Assistance",
-  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
-  "brand": {
-    "@type": "Brand",
-    "name": "Learnbay"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.7",
-    "bestRating": "5",
-    "worstRating": "1",
-    "ratingCount": "1283"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "Best Full Stack Developer Course in Pune with Job Assistance",
-  "description": "Join the best Full-stack Software Developer course in Pune and acquire the skills needed to excel in this field. Sign-up Now.",
-  "url": "https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune",
-  "provider": {
-    "@type": "Organization",
-    "name": "Learnbay",
-    "sameAs": "https://www.learnbay.co/"
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "159000",
-    "priceCurrency": "INR",
-    "category": "Educational"
-  },
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "Online",
-    "courseWorkload": "P11M",
-    "offers": {
-      "@type": "Offer",
-      "price": "159000",
-      "priceCurrency": "INR"
-    }
-  }
-}
-</script>
-
-
-
-
-FAQ Schema:
-Replace the existing FAQ Schema code with the new one.
-
-Rich Result Test:
-https://search.google.com/test/rich-results/result?id=ZKHw-qgJec2jHHHQJ1r1Xg 
-
-
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
+            "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
@@ -631,10 +510,11 @@ https://search.google.com/test/rich-results/result?id=ZKHw-qgJec2jHHHQJ1r1Xg
   }]
 }
 
- }`,
+           }`,
           }}
         />
       </Head>
+
       <main>
         {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
