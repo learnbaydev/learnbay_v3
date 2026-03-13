@@ -976,17 +976,20 @@ export const AIDubaiCourseData = [
       'Additionally, you can even get a placement assistance in specific artificial intelligence certification programs.',
     ProgramBot5:
       'Available Artificial Intelligence Certification Courses by Learnbay in Dubai:',
-    Courselink1: '/Advanced Data Science & GenAI Master Certification Program',
-    Courselink2: '/GenAI & Agentic AI Master Program',
-    Courselink3: '/Applied AI Practitioner Program | IIT Patna',
-    Courselink4: '/AI-Powered Cloud And DevOps Engineering Course',
-    Courselink5: '/AI Engineering Master Certification Program',
-    Course1:
-      'Data Science and AI Foundation Program with industry-specific training',
-    Course2: 'Advanced Data Science and AI Program with domain specialization',
-    Course3: 'AI & ML Program for tech professionals',
-    Course4: 'Data Science and AI Program For Manager & Leaders',
-    Course5: 'Data Science and AI master program',
+    // Updated URLs
+    Courselink1: '/data-science-genai-program',
+    // Courselink2 removed per instructions
+    Courselink3: '/artificial-intelligence/applied-ai-practitioner-program',
+    Courselink4: '/genai-and-agentic-ai-master-program',
+    Courselink5:
+      '/datascience/data-science-and-ai-master-certification-program',
+
+    // Updated Anchor Texts
+    Course1: 'Data Science and Gen AI Program.',
+    // Course2 removed per instructions
+    Course3: 'Applied AI Practitioner Program.',
+    Course4: 'Artificial Intelligence for Managers & Leaders',
+    Course5: 'Data Science and AI master program', // Kept as per "don't change" instruction
     DomainBot1:
       'Mastering artificial intelligence tools and techniques is not the only thing you need to be successful in this field. It is recommended that learners specialize in a certain area of expertise or Domain before applying for  AI or ML jobs. Besides, domain knowledge helps us achieve a high level of precision and accuracy. Domain specialization not only helps in salary boost but also enables you to handle job duties more efficiently. In one world, domain specialization makes your data science career more sustainable in the real sense.',
     DomainBot2:

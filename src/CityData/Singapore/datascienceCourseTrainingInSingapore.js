@@ -168,7 +168,7 @@ export const DSSingaporeCourseData = [
           {
             id: 3,
             ques: 'What is a Flexi Subscription in these advanced data science courses in Singapore?',
-            ans: 'Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.',
+            ans: 'Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. ',
             open: false,
           },
           {
@@ -226,12 +226,7 @@ export const DSSingaporeCourseData = [
           {
             id: 4,
             ques: 'Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?',
-            ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
-                    Advance Data Science and AI Certification course- Maximum 2 domains. 
-                    Data Science and AI Certification Course for Managers and Leaders- All domains 
-                    Data Science and AI Training with Placement Assistance- All domains
-                     
-                    No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
+            ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. `,
             open: false,
           },
           {
@@ -255,7 +250,9 @@ export const DSSingaporeCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for Data Science Certifications courses in Singapore?',
-            ans: `You need to invest around $1700 for a Data Science Training Course in Singapore. For more details, you can check the specific courses. `,
+            ans: 'You need to invest around $1700 for a Data Science Training Course in Singapore. For more details, you can check the specific ',
+            linkText1: ' Course',
+            link1: '/learnbay.co',
             open: true,
           },
           {
@@ -308,12 +305,13 @@ export const DSSingaporeCourseData = [
                     Advance Data Science and AI Certification course-12 projects.
                     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
                     Data Science and AI Training with Placement Assistance- 15 projects.`,
-            note: 'Note: Data Science and Gen AI projects in Singapore are as per the current demand. So check with our expert for the latest category of projects and BYOP options.',
-            linkText1: ' Click here to download the list of the projects.',
+
+            linkText1: ' Click here to download the list of the projects.  ',
             link1:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf',
             link: true,
-            note: 'Note: Data Science and Gen AI projects in Singapore are as per the current demand. So check with our expert for the latest category of projects and BYOP options.',
+            ansAfter:
+              ' Note: Data Science and Gen AI projects in Singapore are as per the current demand. So check with our expert for the latest category of projects and BYOP options.',
             open: true,
           },
           {
@@ -439,8 +437,8 @@ export const DSSingaporeCourseData = [
 
     CertificationBot1:
       'The successful union of data-driven methods with business actions paves the way for an informed future. IBM is one of the first-line tech leaders, famous for its ultra-age data-driven outcomes. Its unique data science program helps experts gain scalable skills for optimized decisiveness.      ',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
