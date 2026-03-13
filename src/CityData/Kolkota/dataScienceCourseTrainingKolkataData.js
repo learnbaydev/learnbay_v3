@@ -409,7 +409,7 @@ export const DSKolkotaCourseData = [
     //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleMasterBot1:
       'Our data science institute in Kolkata extends absolute support to working experts eager to revamp their careers. Here, you will learn every bit of data science – from basics to advanced uses in various operations. Its industry-driven GenAI-rich syllabus equips you with useful skills to stay competitive.         ',
 
@@ -480,7 +480,7 @@ export const DSKolkotaCourseData = [
       'In today’s data science age, upskilling has become important in upholding a career. Unlike generic courses, joining an industry-focused data science program is vital to acquiring in-demand skills and building an invincible career.         ',
     JobBot002:
       ' Working experts willing to revamp their stagnant careers via the best data science institute in Kolkata will gain the above-stated skills. Learning with our leading-edge upskilling programs helps you to crack critical job interviews with 100% success. Plus, it helps you to improve your soft skills and behavior to become the right organizational fit.         ',
-    JobHead19: 'Career Service Pro    ',
+    JobHead19: 'Career Service assistance  ',
 
     JobBot20:
       'Data science is an economically rewarding career with elite gains (attractive pay, hikes, & promotions). Today’s data-driven era promises a refined future for several working pros from diverse domains across Kolkata. Yet, skill gaps and limited growth prospects can demean the success graph. Hence, learning via a data science course in Kolkata with placement is useful.         ',
