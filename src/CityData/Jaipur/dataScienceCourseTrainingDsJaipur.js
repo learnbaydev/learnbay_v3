@@ -389,12 +389,14 @@ export const DSJaipurCourseData = [
     Domainlink1:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf',
     Domainlink2:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf',
     Domainlink3:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf',
     Domainlink4:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf',
     Domainlink5:
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf',
+    Domainlink6:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf',
     DomainBot40:
       'Experts eager to enhance their domain skills with the best institute for data science in Jaipur can join us and achieve invincible career success. For our job placement program, a minimum of six months of work experience (full-time/part-time) is needed for enrollment.',
@@ -408,8 +410,8 @@ export const DSJaipurCourseData = [
     CertificationBot4:
       'Obtaining a certificate accreditation allows you to develop skills aligned with current industry trends, enhancing the visibility of your resume on several job platforms. Major MNCs prioritize certificates that offer global visibility and help individuals distinguish themselves. This credential states specific skill sets that can set you apart in your dream job. Enhanced career reputation boosts your career impact and attracts top job offers.',
     CertificationBot5: '  ',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',

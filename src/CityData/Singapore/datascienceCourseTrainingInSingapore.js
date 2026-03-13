@@ -168,7 +168,7 @@ export const DSSingaporeCourseData = [
           {
             id: 3,
             ques: 'What is a Flexi Subscription in these advanced data science courses in Singapore?',
-            ans: 'Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.',
+            ans: 'Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. ',
             open: false,
           },
           {
@@ -305,6 +305,7 @@ export const DSSingaporeCourseData = [
                     Advance Data Science and AI Certification course-12 projects.
                     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
                     Data Science and AI Training with Placement Assistance- 15 projects.`,
+
             note: 'Note: Data Science and Gen AI projects in Singapore are as per the current demand. So check with our expert for the latest category of projects and BYOP options.',
             linkText1: ' Click here to download the list of the projects.  ',
             link1:
@@ -437,8 +438,8 @@ export const DSSingaporeCourseData = [
 
     CertificationBot1:
       'The successful union of data-driven methods with business actions paves the way for an informed future. IBM is one of the first-line tech leaders, famous for its ultra-age data-driven outcomes. Its unique data science program helps experts gain scalable skills for optimized decisiveness.      ',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+    src33:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
