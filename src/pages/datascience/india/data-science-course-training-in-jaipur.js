@@ -398,15 +398,9 @@ Group of 4+: Max 10% discount"
       "@type": "Answer",
       "text": "Learnbay is available 24/7 to support its learners. For non-technical issues, you can contact our team or learning consultant directly at +91 7795687988 and get your queries resolved shortly."
     }
-  },{
-    "@type": "Question",
-    "name": "",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": ""
-    }
   }]
 }
+
  }`,
           }}
         />

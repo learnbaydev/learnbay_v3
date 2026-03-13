@@ -226,12 +226,7 @@ export const DSSingaporeCourseData = [
           {
             id: 4,
             ques: 'Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?',
-            ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
-                    Advance Data Science and AI Certification course- Maximum 2 domains. 
-                    Data Science and AI Certification Course for Managers and Leaders- All domains 
-                    Data Science and AI Training with Placement Assistance- All domains
-                     
-                    No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
+            ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. `,
             open: false,
           },
           {
@@ -255,7 +250,9 @@ export const DSSingaporeCourseData = [
           {
             id: 0,
             ques: 'What is the total fee for Data Science Certifications courses in Singapore?',
-            ans: `You need to invest around $1700 for a Data Science Training Course in Singapore. For more details, you can check the specific courses. `,
+            ans: 'You need to invest around $1700 for a Data Science Training Course in Singapore. For more details, you can check the specific ',
+            linkText1: ' Course',
+            link1: '/learnbay.co',
             open: true,
           },
           {
@@ -309,11 +306,12 @@ export const DSSingaporeCourseData = [
                     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
                     Data Science and AI Training with Placement Assistance- 15 projects.`,
             note: 'Note: Data Science and Gen AI projects in Singapore are as per the current demand. So check with our expert for the latest category of projects and BYOP options.',
-            linkText1: ' Click here to download the list of the projects.',
+            linkText1: ' Click here to download the list of the projects.  ',
             link1:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf',
             link: true,
-            note: 'Note: Data Science and Gen AI projects in Singapore are as per the current demand. So check with our expert for the latest category of projects and BYOP options.',
+            ansAfter:
+              ' Note: Data Science and Gen AI projects in Singapore are as per the current demand. So check with our expert for the latest category of projects and BYOP options.',
             open: true,
           },
           {
