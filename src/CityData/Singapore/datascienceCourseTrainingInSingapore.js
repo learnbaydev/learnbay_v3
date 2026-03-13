@@ -306,7 +306,6 @@ export const DSSingaporeCourseData = [
                     Data Science and AI Certification Course for Managers and Leaders- 15 projects.
                     Data Science and AI Training with Placement Assistance- 15 projects.`,
 
-            note: 'Note: Data Science and Gen AI projects in Singapore are as per the current demand. So check with our expert for the latest category of projects and BYOP options.',
             linkText1: ' Click here to download the list of the projects.  ',
             link1:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf',
