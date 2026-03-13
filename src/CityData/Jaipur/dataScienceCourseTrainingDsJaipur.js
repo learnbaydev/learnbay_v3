@@ -381,11 +381,11 @@ export const DSJaipurCourseData = [
     DomainBot3:
       'Here are the few domains that experts can choose as per their interests –         ',
     DomainList1: '• BFSI',
-    DomainList2: '• Healthcare',
+    DomainList2: '• HR',
     DomainList3: '• Marketing',
-    DomainList4: '• Supply Chain',
-    DomainList5: '• HR',
-    DomainList6: '• Manufacturing ',
+    DomainList4: '• Manufacturing',
+    DomainList5: '• Healthcare      ',
+    DomainList6: '• Supply Chain ',
     Domainlink1:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf',
     Domainlink2:
