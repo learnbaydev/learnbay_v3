@@ -410,11 +410,9 @@ export const DSinodreCourseData = [
       ' certificate approval equips you with skills aligned to current trends, raising your resume’s visibility on job sites. Top MNCs highly value the prestigious certificates, which provide global exposure and set you apart. This certification points out unique skills and enhances your efficiency in your career outlook.',
     CertificationBot5:
       'This certification states unique skill sets to help you stand out in the career race. When applying for top jobs, your professional credibility increases your power. Top high-profile MNCs are hiring data scientists as demand for data expertise increases globally.',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleMasterBot1: '',
 
     ModuleHead1: 'Module Details',

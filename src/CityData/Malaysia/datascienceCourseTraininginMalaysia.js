@@ -439,11 +439,9 @@ export const DSMalaysiaCourseData = [
       'Experts eager to enrich their domain skills can join us and achieve unbeatable success. You can enroll in our program with at least six months of work experience (full-time/part-time).',
     CertificationBot1:
       'With every passing time, the business outlook keeps changing due to constant tech shifts globally. Firms from diverse fields take up many ways to cope with changes and easily tackle the odds. Thus, data literacy skills dominate the current global job market. Certifications are proven ways to cut down hurdles and thrive against rivals.         ',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     CertificationBot2:
       'Our data science certification course in Malaysia assists your career growth journey in collaboration with IBM . Our alliance with two global tech leaders – IBM unleashes a way toward swift promotions.         ',
     CertificationBot3:

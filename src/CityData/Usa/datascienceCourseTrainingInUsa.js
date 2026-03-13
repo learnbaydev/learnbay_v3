@@ -423,11 +423,9 @@ export const DSUSACourseData = [
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf',
     CertificationBot1:
       'IBM is one of the top-notch tech giants in the world with proven predictive analytics and machine learning solutions. Its unstoppable support to businesses with insightful solutions assures success.',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     CertificationBot2:
       'Learnbay’s collaboration with IBM unleashes a broad upskilling platform with the best capabilities.',
     CertificationBot3:

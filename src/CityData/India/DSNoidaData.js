@@ -407,11 +407,9 @@ export const DSNoidaCourseData = [
       'At Learnbay, we believe in supporting career transitions with our end-to-end solutions. Our trustworthy alliance with industry leaders IBM  enhances career worth and adds more value to it. Upskilling with the best data science training institute in Noida helps you gain a competitive edge in your domain or desired field. Here, you will get two-course completion certificates from IBM & MS and one IBM project certificate. Hence, learning with our leading-edge data science courses is crucial to building a lucrative career in data science.',
     CertificationBot4: '',
     CertificationBot5: '',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleMasterBot1: '',
 
     ModuleHead1: ' Module Details       ',

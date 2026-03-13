@@ -408,11 +408,9 @@ export const DSMarathCourseData = [
       'Making your resume stand out on job portals, the MS certificate mandate enhances your skill set with the newest trends. The best MNCs mainly opt for precious credentials that raise your global visibility and set you apart.',
     CertificationBot5:
       'This certification states unique skill sets to help you stand out in the career race. When applying for top jobs, your professional credibility increases your power. Top high-profile MNCs are hiring data scientists as the demand for data expertise increases globally.',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleMasterBot1: '',
 
     ModuleHead1: ' Module Details       ',

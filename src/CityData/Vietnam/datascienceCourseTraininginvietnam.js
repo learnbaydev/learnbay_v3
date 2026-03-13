@@ -778,11 +778,9 @@ export const DSVietnamCourseData = [
 
     CertificationBot1:
       'IBM, an American MNC, is widely known for its next-generation AI, predictive analytics, and security offerings. IBM’s premium presence in data science elevates business growth values. Owing to IBM’s rising credibility in the tech sector, Learnbay declares its alliance.       ',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     CertificationBot2:
       'Learnbay offers career transition certified by IBM with job-driven gains. Our learners will be able to stand out against career races with in-demand skills and expertise. IBM’s advancement in AI and automation help Learnbay restructure the course modules as per the trend.       ',
     // CertificationBot3:

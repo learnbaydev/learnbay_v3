@@ -408,11 +408,9 @@ export const DSBhubabneswasCourseData = [
       ' MS certificate Mandate enhances your skill sets with the latest trends, making your resume stand out on job portals. Top MNCs mostly prefer precious certificates that can give you global exposure and make you stand out.         ',
     CertificationBot5:
       'This certification states unique skill sets to help you stand out in the professional competition. When applying for top jobs, your professional credibility increases your power. Top high-profile companies are hiring data scientists as demand for data expertise increases globally.    ',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleMasterBot1:
       'The data science institute in Bhubaneswar delivers incredible courses comprising Gen AI modules curated to make you job-ready. The Gen AI-rich syllabus equips you with cutting-edge skills to capitalize on competitive success. In this course, you will gain practical skills through capstone projects and theoretical knowledge, ensuring you are an ideal match for any organization.         ',
 

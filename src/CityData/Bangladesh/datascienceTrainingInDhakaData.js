@@ -435,11 +435,9 @@ export const DSDhakaCourseData = [
       'Note: If you are enrolling in an online master’s degree in data science, then you will have to choose a domain specialization and an elective. It depends on the career interests and goals of the learners that help them decide the suitable domain.',
     CertificationBot1:
       'Data science is a rewarding career with boundless growth options for working pros from diverse backgrounds. Today’s digital space in Dhaka accommodates experts with updated data-driven skills and knowledge. Thus, upskilling via an industry-paced data science course in Dhaka has become essential to accomplishing success.         ',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     CertificationBot2:
       'Certificates are beneficial for driving attainable career growth across the globe. Experts must enroll in an industry-proven data science training institute in Dhaka with valuable credentials. Our top-level data science courses offer globally recognized certificates from the tech giants like IBM. Hence, experts regardless of data science course fees opt for skills upgrades with the latest tools.         ',
     CertificationBot3:

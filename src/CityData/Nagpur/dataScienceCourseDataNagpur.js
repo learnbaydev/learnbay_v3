@@ -406,11 +406,9 @@ export const DSnagpurCourseData = [
       'Learnbay’s industry alliance with top-notch leaders IBM unleashes prime career potential with global-scale gains. Experts enrolling in our top data science training programs in Nagpur will obtain globally valued certifications from IBM . Each learner will acquire course completion and project certificates from IBM and MS to demonstrate their expertise. These valuable certifications help experts crack desirable jobs with attractive packages. Additionally, it offers global exposure to learners with endless opportunities for career transitions and stands out against the competition.         ',
     CertificationBot4: '   ',
     CertificationBot5: ' ',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleMasterBot1:
       'The data science institute in Nagpur offers undeniable career support via its Generative AI-integrated course syllabus to make your career competitive. The syllabus anticipates a global-level data science career where experts develop abstract and practical skills.         ',
 

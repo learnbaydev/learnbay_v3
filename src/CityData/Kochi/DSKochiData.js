@@ -407,11 +407,9 @@ export const DSKochiCourseData = [
       'Learnbay’s data analytics certification in Pune unlocks the door to global-level career shifts with attractive gains. Here, you will receive two IBM certifications – coursework and projects with impactful career returns. These certificates are vital in enriching career values and helping you ace prime job roles with lucrative pay.',
     CertificationBot4: '',
     CertificationBot5: ' ',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleMasterBot1: '',
 
     ModuleHead1: 'Module Details',

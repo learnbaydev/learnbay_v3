@@ -408,11 +408,9 @@ export const DSPatnaCourseData = [
     CertificationBot4:
       'Accreditation with a certificate enables you to build competencies in line with industry trends and improves the visibility of your resume across multiple job boards. Major MNCs prefer certifications allowing people to stand out globally and enhance their visibility. The skill sets listed in this credential can help you stand out in your ideal position. Improved professional reputation increases impact and draws in top job offers.',
     CertificationBot5: '  ',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleMasterBot1: '',
 
     ModuleHead1: 'Module Details',

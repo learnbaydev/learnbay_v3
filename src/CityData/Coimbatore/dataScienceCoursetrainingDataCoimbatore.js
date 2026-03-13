@@ -406,11 +406,9 @@ export const DSCoimbCourseData = [
       'Learning via our data science course in Coimbatore with global certifications improves your job selection rates with exciting gains. Our alliance with IBM accelerates your success metrics with proven gains. Learners will get two IBM course certificates and one IBM project certificate. Validation from top-notch tech leaders enhances career growth metrics and equips learners with tempting gains. Hence, join us today and rebuild your career graph, cracking in-demand roles with top-tier MNCs. Plus, you will get exposure to global-level job offers with swift promotions and hikes. ',
     CertificationBot4: '     ',
     CertificationBot5: '  ',
-    // src33:
-    //   "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
-      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png',
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
     ModuleMasterBot1:
       'Learning is vital for working pros to combat career stagnation and rise in today’s ever-changing market. Our artificial intelligence and data science course in Coimbatore offers in-depth training in the latest tools and trends. Upskilling via our syllabus helps you gain abstract and hands-on learning of tools that best fit today’s GenAI era. ',
 
