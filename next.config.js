@@ -1862,6 +1862,17 @@ const nextConfig = {
         destination: '/advanced-cloud-and-devops-program',
         permanent: true,
       },
+      {
+        source:
+          '/software-development-program-with-specialization-data-science-and-ai',
+        destination: '/artificial-intelligence/genai-software-developers',
+        permanent: true,
+      },
+      {
+        source: '/fullstack/generative-ai-course-for-professionals',
+        destination: '/genai-and-agentic-ai-master-program',
+        permanent: true,
+      },
     ];
   },
 };
