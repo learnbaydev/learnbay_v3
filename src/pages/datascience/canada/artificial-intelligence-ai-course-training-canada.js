@@ -139,35 +139,11 @@ export default function Home() {
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
 
-        {/* Product */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org/',
-              '@type': 'Product',
-              name: 'Artificial Intelligence(AI) Course Training In Canada',
-              image:
-                'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png',
-              brand: {
-                '@type': 'Brand',
-                name: 'Learnbay',
-              },
-              aggregateRating: {
-                '@type': 'AggregateRating',
-                ratingValue: '4.7',
-                bestRating: '5',
-                worstRating: '1',
-                ratingCount: '2513',
-              },
-            }),
-          }}
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{ 
-              "@context": "https://schema.org",
+       "@context": "https://schema.org",
   "@type": "Product",
   "name": "Best Artificial Intelligence Course in Canada - Learnbay",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
@@ -182,7 +158,8 @@ export default function Home() {
     "worstRating": "1",
     "ratingCount": "5010"
   }
-}
+
+
  }`,
           }}
         />
