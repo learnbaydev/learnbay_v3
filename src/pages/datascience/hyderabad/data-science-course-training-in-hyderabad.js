@@ -101,12 +101,6 @@ export default function Home() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(DSHyderabadSchema),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
             __html: `{ 
             "@context": "https://schema.org",
   "@type": "Product",
