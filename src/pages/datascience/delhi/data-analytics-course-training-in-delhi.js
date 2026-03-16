@@ -277,7 +277,7 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-            "@context": "https://schema.org",
+              "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
@@ -350,7 +350,7 @@ export default function Home() {
       "text": "After enrolling in the ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation."
     }
   },{
-    "@type": "Question",
+    “@type": "Question",
     "name": "Can I select multiple domain electives and do I need to pay extra charges?",
     "acceptedAnswer": {
       "@type": "Answer",
@@ -476,6 +476,7 @@ export default function Home() {
       "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
     }
   }]
+
 
   }`,
           }}
