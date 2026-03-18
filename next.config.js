@@ -1793,14 +1793,14 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/data-science-course/big-data-hadoop-spark-training/',
+        source: '/data-science-course/big-data-hadoop-spark-training',
         destination:
           '/datascience/data-science-and-ai-master-certification-program',
         permanent: true,
       },
       {
         source:
-          '/data-science-course/artificial-intelligence-courses-training-bangalore/',
+          '/data-science-course/artificial-intelligence-courses-training-bangalore',
         destination:
           '/datascience/bangalore/artificial-intelligence-ai-course-training-bangalore',
         permanent: true,
@@ -1817,7 +1817,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/data-science-course/project-sessions/',
+        source: '/data-science-course/project-sessions',
         destination: '/ai-co-lab',
         permanent: true,
       },
@@ -1828,12 +1828,12 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/data-science-course/apply-for-counselling-interview/',
+        source: '/data-science-course/apply-for-counselling-interview',
         destination: 'https://www.learnbay.co/',
         permanent: true,
       },
       {
-        source: '/data-science-course/enrol-now/',
+        source: '/data-science-course/enrol-now',
         destination: 'https://www.learnbay.co/',
         permanent: true,
       },
