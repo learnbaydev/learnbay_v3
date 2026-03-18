@@ -39,13 +39,13 @@ export const NewDSAData = [
         ],
         mentorText: 'Earn Industry-Ready Certification from',
         mentorFromImg: [
-          //   {
-          //     id: 1,
-          //     img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
-          //     imgAlt: "Microsoft Logo",
-          //     width: "150",
-          //     height: "30",
-          //   },
+          {
+            id: 1,
+            img: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp',
+            imgAlt: 'Microsoft Logo',
+            width: '150',
+            height: '30',
+          },
           {
             id: 2,
             img: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp',
