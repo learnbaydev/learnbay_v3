@@ -1806,7 +1806,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/data-science-course/terms-of-use/',
+        source: '/data-science-course/terms-of-use',
         destination: '/terms-conditions',
         permanent: true,
       },
