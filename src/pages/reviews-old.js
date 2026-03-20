@@ -1,13 +1,13 @@
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import Footer from "../components/Global/Footer/Footer";
-import BottomBar from "../components/Global/BottomBar/BottomBar";
-import Navbar from "../components/Global/Navbar/Navbar";
-import Review from "../components/StaticPage/Review/Review";
-import styles from "../styles/Home.module.css";
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import Footer from '../components/Global/Footer/Footer';
+import BottomBar from '../components/Global/BottomBar/BottomBar';
+import Navbar from '../components/Global/Navbar/Navbar';
+import Review from '../components/StaticPage/Review/Review';
+import styles from '../styles/Home.module.css';
 
-const Button = dynamic(() => import("../components/Global/Button/Button"));
+const Button = dynamic(() => import('../components/Global/Button/Button'));
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         <title>
           Learnbay - Testimonials and Reviews of Our Trusted Learners
         </title>
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex, follow" />
         <meta
           name="description"
           content="Learnbay - The best online professional learning platform, has received numerous positive student reviews. Gain knowledge and make sound decisions. Join today!"
@@ -28,15 +28,15 @@ export default function Home() {
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScienceCounselling={true} radio={true} />
         <Review viewmore={false} />
         <div
           className={styles.Button}
           style={{
-            marginBottom: "70px",
-            display: "flex",
-            justifyContent: "center",
+            marginBottom: '70px',
+            display: 'flex',
+            justifyContent: 'center',
           }}
         >
           <a
