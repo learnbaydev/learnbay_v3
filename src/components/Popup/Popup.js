@@ -526,10 +526,7 @@ const PopupNew = ({ onClose }) => {
             </span>
           </div>
           <div className={styles.progressTrack}>
-            <div
-              className={styles.progressFill}
-              style={{ width: `${progressPercent}%` }}
-            ></div>
+            <div className={styles.progressFill} />
           </div>
 
           {/* CTA */}

@@ -1,39 +1,39 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useState } from "react";
-import { DSABangaloreCourseData } from "../../CityData/Bangalore/DSAbangaloreData";
-import Footer from "../../components/Global/Footer/Footer";
-import Form from "../../components/Global/Form/Form";
-import Navbar from "../../components/Global/Navbar/Navbar";
-import Popup from "../../components/Global/Popup/Popup";
-import FeeSection from "../../components/Seo/FeeSection/FeeSection";
-import styles from "../../styles/Home.module.css";
-const FirstSection = dynamic(() =>
-  import("../../components/Seo/FirstSection/FirstSection")
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useState } from 'react';
+import { DSABangaloreCourseData } from '../../CityData/Bangalore/DSAbangaloreData';
+import Footer from '../../components/Global/Footer/Footer';
+import Form from '../../components/Global/Form/Form';
+import Navbar from '../../components/Global/Navbar/Navbar';
+import Popup from '../../components/Global/Popup/Popup';
+import FeeSection from '../../components/Seo/FeeSection/FeeSection';
+import styles from '../../styles/Home.module.css';
+const FirstSection = dynamic(
+  () => import('../../components/Seo/FirstSection/FirstSection')
 );
-const SecondSection = dynamic(() =>
-  import("../../components/Seo/SecondSection/SecondSection")
-);
-
-const SeventhSection = dynamic(() =>
-  import("../../components/Seo/SeventhSection/SeventhSection")
+const SecondSection = dynamic(
+  () => import('../../components/Seo/SecondSection/SecondSection')
 );
 
-const CityText = dynamic(() =>
-  import("../../components/Seo/CityText/CityText")
+const SeventhSection = dynamic(
+  () => import('../../components/Seo/SeventhSection/SeventhSection')
 );
-const CitiesLeft = dynamic(() =>
-  import("../../components/Seo/CitiesLeft/CitiesLeft")
+
+const CityText = dynamic(
+  () => import('../../components/Seo/CityText/CityText')
 );
-const CitiesRight = dynamic(() =>
-  import("../../components/Seo/CitiesRight/CitiesRight")
+const CitiesLeft = dynamic(
+  () => import('../../components/Seo/CitiesLeft/CitiesLeft')
 );
-const FAQNew = dynamic(() => import("../../components/Seo/FAQNew/FAQNew"));
+const CitiesRight = dynamic(
+  () => import('../../components/Seo/CitiesRight/CitiesRight')
+);
+const FAQNew = dynamic(() => import('../../components/Seo/FAQNew/FAQNew'));
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf';
   return (
     <div className={styles.container}>
       <Head>
@@ -101,7 +101,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        {" "}
+        {' '}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
@@ -138,7 +138,7 @@ export default function Home() {
         /> */}
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹95,000"
+            Fee="₹1,20,000"
             FeeEmi="₹6,228/month"
             weekendbatch="Weekday Evening (DSA BATCHES)"
             weekdaybatch="Weekday Evening (DSA BATCHES)"

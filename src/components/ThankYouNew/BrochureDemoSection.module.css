@@ -326,47 +326,15 @@
   }
 }
 
-/* ── CTA button ──────────────────────────────────────────── */
-.ctaBtn {
-  width: 100%;
-  background: linear-gradient(135deg, #4b3fe4, #7c3aed);
-  color: #ffffff;
-  border: none;
-  border-radius: 14px;
-  padding: 17px;
+.noteText {
   font-size: 16px;
-  font-weight: 700;
-  cursor: pointer;
-  letter-spacing: -0.2px;
-  position: relative;
-  overflow: hidden;
-  transition:
-    transform 0.15s,
-    box-shadow 0.15s;
-  box-shadow: 0 6px 24px rgba(75, 63, 228, 0.4);
+  color: #555;
+  background: #f5f7fa;
+  padding: 10px 14px;
+  border-left: 4px solid #007bff;
+  border-radius: 6px;
+  margin-top: 12px;
 }
-
-.ctaBtn::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.15) 0%,
-    transparent 60%
-  );
-  pointer-events: none;
-}
-
-.ctaBtn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 8px 28px rgba(75, 63, 228, 0.55);
-}
-
-.ctaBtn:active {
-  transform: translateY(0);
-}
-
 /* ── IBM note ────────────────────────────────────────────── */
 .ibmNote {
   margin-top: 14px;

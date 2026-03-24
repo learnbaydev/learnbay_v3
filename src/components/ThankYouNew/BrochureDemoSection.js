@@ -265,25 +265,24 @@ function BrochureDemoSection({ pdfUrl }) {
                 Only {remainingSeats} left at this price
               </span>
             </div>
-            <div className={styles.progressTrack}>
+            {/* <div className={styles.progressTrack}>
               <div
                 className={styles.progressFill}
                 style={{ width: `${progressPercent}%` }}
               ></div>
-            </div>
+            </div> */}
 
             {/* Progress bar */}
             <div className={styles.progressTrack}>
               <div className={styles.progressFill} />
             </div>
 
-            {/* CTA */}
-            <button
-              className={styles.ctaBtn}
-              onClick={() => setModalOpen(true)}
-            >
-              Claim Your Scholarship Now
-            </button>
+            {/* Note instead of CTA */}
+            <div className={styles.noteText}>
+              Note: Scholarships are limited and offered on a first-come,
+              first-served basis. Check your eligibility during the counseling
+              session.
+            </div>
 
             {/* IBM note */}
             <div className={styles.ibmNote}>
