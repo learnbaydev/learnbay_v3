@@ -47,31 +47,22 @@ function ApplyforCouncelling() {
   }, []);
 
   return (
-    <section className={styles.section}>
-      <div className={styles.hero}>
-        <h1 className={styles.heroTitle}>
-          Your Enquiry Is Successfully Registered
-        </h1>
-        <p className={styles.heroSubtitle}>
-          Before our expert calls you, get a head-start with a live demo.
-        </p>
-      </div>
-
+    <section className={styles.section} style={{ marginTop: '200px' }}>
       <div className={styles.cardWrapper}>
         <div className={styles.card}>
-          <div className={styles.urgencyBar}>
+          {/* <div className={styles.urgencyBar}>
             <div className={styles.blinkDot} />
             <span className={styles.barText}>
               Financial Year-End Offer ends in
             </span>
             <span className={styles.timer}>{timeLeft}</span>
             <div className={styles.blinkDot} />
-          </div>
+          </div> */}
 
           <div className={styles.cardContent}>
-            <div className={styles.thankYouTag}>
+            {/* <div className={styles.thankYouTag}>
               ✓ &nbsp;You&apos;re in — Thank You!
-            </div>
+            </div> */}
 
             <h2 className={styles.headline}>
               One More Step.
@@ -158,7 +149,14 @@ function ApplyforCouncelling() {
           </div>
         </div>
       </div>
-
+      <div className={styles.hero}>
+        <h1 className={styles.heroTitle}>
+          Your Enquiry Is Successfully Registered
+        </h1>
+        <p className={styles.heroSubtitle}>
+          Before our expert calls you, get a head-start with a live demo.
+        </p>
+      </div>
       <StrategyModal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
     </section>
   );
