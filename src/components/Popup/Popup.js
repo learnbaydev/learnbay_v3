@@ -475,8 +475,8 @@ const PopupNew = ({ onClose }) => {
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ibm_logo.webp"
               loading="lazy"
-              width={40}
-              height={16}
+              width={50}
+              height={20}
               quality={100}
               className={styles.ibmBadgeImg}
               alt="IBM"
