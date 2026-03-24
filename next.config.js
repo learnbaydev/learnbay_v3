@@ -1873,6 +1873,12 @@ const nextConfig = {
         destination: '/genai-and-agentic-ai-master-program',
         permanent: true,
       },
+
+      {
+        source: '/blog/tech-non-tech-careers-bangalore-guide',
+        destination: '/blogs/tech-non-tech-careers-bangalore-guide',
+        permanent: true,
+      },
     ];
   },
 };
