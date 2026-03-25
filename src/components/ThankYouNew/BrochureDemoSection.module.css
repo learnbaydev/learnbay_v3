@@ -533,6 +533,27 @@
   margin-right: auto;
   line-height: 1.5;
 }
+
+.ctaButton1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 19px 71px;
+  margin-top: 14px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 24.508px;
+  background: linear-gradient(90deg, #1163d2 0%, #414ee3 100%);
+}
+
+.ctaButton1:hover {
+  transform: translateY(-1px);
+}
 /* ── RESPONSIVE ── */
 @media (max-width: 520px) {
   .featuresGrid {

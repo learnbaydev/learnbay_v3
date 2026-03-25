@@ -181,7 +181,7 @@ function getRemainingSeats() {
   return remaining > 1 ? remaining : 1;
 }
 
-function ApplyforCouncelling() {
+function ApplyforCouncelling({ subText, mainText, pdfUrl }) {
   const [isModalOpen, setModalOpen] = useState(false);
   const [timeLeft, setTimeLeft] = useState({
     d: '00',
@@ -386,14 +386,29 @@ function ApplyforCouncelling() {
       {/* SECOND HERO */}
       <div className={styles.hero}>
         <h1 className={styles.heroTitle}>
-          Your Enquiry Is Successfully Registered
+          {/* Your Enquiry Is Successfully Registered */}
+          {mainText}
         </h1>
 
         <p className={styles.heroSub}>
-          Before our expert calls you, get a head-start with a live demo.
+          {/* Before our expert calls you, get a head-start with a live demo. */}
+          {subText}
         </p>
       </div>
-
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignContent: 'center',
+          paddingBottom: '50px',
+        }}
+      >
+        {pdfUrl && (
+          <a href={pdfUrl} target="_blank" rel="noopener noreferrer">
+            <button className={styles.ctaButton1}>View Syllabus</button>
+          </a>
+        )}
+      </div>
       <StrategyModal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
     </section>
   );

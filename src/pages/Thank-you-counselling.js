@@ -33,6 +33,10 @@ const NewThankYouCounselling = ({ initialName, initialPhone }) => {
         <ApplyforCouncelling
           initialName={initialName}
           initialPhone={initialPhone}
+          mainText={'Your Enquiry Is Successfully Registered'}
+          subText={
+            'Before our expert calls you, get a head-start with a live demo.'
+          }
         />
 
         <SessionSection />

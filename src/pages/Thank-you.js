@@ -103,6 +103,9 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
         <ApplyforCouncelling
           initialName={initialName}
           initialPhone={initialPhone}
+          mainText={'Your Brochure Is Ready!'}
+          subText={'You’re one step closer to upgrading your career'}
+          pdfUrl={pdfUrl}
         />
 
         <SessionSection />
@@ -116,7 +119,7 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
           }}
         ></main>
       </div>
-      <BrochureDemoSection pdfUrl={pdfUrl} />
+      {/* <BrochureDemoSection pdfUrl={pdfUrl} /> */}
       <Footer />
       <WhatsappFloat />
     </>
