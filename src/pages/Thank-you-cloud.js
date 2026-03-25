@@ -1,17 +1,18 @@
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import TyPageCta from "@/components/StaticPage/Thankyou/TyPageCta/TyPageCta";
-import { useEffect, useState } from "react";
-import BottomBar from "../components/Global/BottomBar/BottomBar";
-import Footer from "../components/Global/Footer/Footer";
-import Navbar from "../components/Global/Navbar/Navbar";
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import TyPageCta from '@/components/StaticPage/Thankyou/TyPageCta/TyPageCta';
+import { useEffect, useState } from 'react';
+import BottomBar from '../components/Global/BottomBar/BottomBar';
+import Footer from '../components/Global/Footer/Footer';
+import Navbar from '../components/Global/Navbar/Navbar';
 // import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHeader";
-import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
-import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
-import Head from "next/head";
-import cookies from "next-cookies";
-import CertificationCard from "../components/Home/newUI/CertificationCard/CertificationCard";
-import { certificationCourses } from "../components/Home/newUI/NewCourse/NewCourseData";
-import Firstcloud from "../components/StaticPage/Thankyou/FirstCloud/FirstCloud";
+import Survey from '../components/StaticPage/Thankyou/Survey/Survey';
+import ThankStats from '../components/StaticPage/Thankyou/ThankStat/ThankStats';
+import Head from 'next/head';
+import cookies from 'next-cookies';
+import CertificationCard from '../components/Home/newUI/CertificationCard/CertificationCard';
+import { certificationCourses } from '../components/Home/newUI/NewCourse/NewCourseData';
+import Firstcloud from '../components/StaticPage/Thankyou/FirstCloud/FirstCloud';
+import ApplyforCouncelling from '@/components/ThankYouNew/ApplyforCouncelling';
 
 const setCookie = (name, value, days, domain) => {
   const expires = new Date();
@@ -27,14 +28,14 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
 
   useEffect(() => {
     // Set the cookie with a domain that allows cross-origin access
-    setCookie("yourCookieName", initialName, 30, ".learnbay.co");
-    setCookie("yourCookieName", initialPhone, 30, ".learnbay.co");
+    setCookie('yourCookieName', initialName, 30, '.learnbay.co');
+    setCookie('yourCookieName', initialPhone, 30, '.learnbay.co');
   }, [initialName, initialPhone]);
 
   const dataArray = [];
   const [queryData, setQueryData] = useState({
-    titleCourse: "",
-    brochureLink: "",
+    titleCourse: '',
+    brochureLink: '',
   });
   const [data, setData] = useState(dataArray);
 
@@ -51,52 +52,52 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
 
   const SYLLABUS_MAP = {
     // Popular & Master Programs
-    "ads-genai-master":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf",
-    "genai-agentic-master":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf",
-    "cloud-devops-master":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf",
-    "sde-genai-master":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf",
+    'ads-genai-master':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
+    'genai-agentic-master':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf',
+    'cloud-devops-master':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf',
+    'sde-genai-master':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
 
     // GenAI & Agentic AI Category
-    "genai-managers":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf",
-    "genai-cloud-devops":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf",
-    "genai-software-dev":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_for_Software_Developers.pdf",
-    "genai-agentic-program":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_Program.pdf",
-    "applied-ai-practitioner":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/IIT_Patna_Applied_AI_Program.pdf",
+    'genai-managers':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf',
+    'genai-cloud-devops':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf',
+    'genai-software-dev':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_for_Software_Developers.pdf',
+    'genai-agentic-program':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_Program.pdf',
+    'applied-ai-practitioner':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/IIT_Patna_Applied_AI_Program.pdf',
 
     // Cloud & DevOps Category
-    "cloud-network-pro":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf",
-    "cloud-sys-admin":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
-    "adv-cloud-devops":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Advanced_Cloud_and_Devops_Program.pdf",
-    "cloud-it-support":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_ITS_and_ITOps_Professionals.pdf",
-    "cloud-db-admin":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_DBA_Professionals.pdf",
+    'cloud-network-pro':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf',
+    'cloud-sys-admin':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
+    'adv-cloud-devops':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Advanced_Cloud_and_Devops_Program.pdf',
+    'cloud-it-support':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_ITS_and_ITOps_Professionals.pdf',
+    'cloud-db-admin':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_DBA_Professionals.pdf',
 
     // Data Science & GenAI Category
-    "ds-genai-program":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf",
-    "genai-analytics":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf",
+    'ds-genai-program':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
+    'genai-analytics':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
 
     // Academic
-    "masters-cs-ds-genai":
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Masters-in-CS.pdf",
+    'masters-cs-ds-genai':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Masters-in-CS.pdf',
   };
 
   useEffect(() => {
-    const courseId = sessionStorage.getItem("pending_syllabus");
+    const courseId = sessionStorage.getItem('pending_syllabus');
     console.log({ courseId, link: SYLLABUS_MAP[courseId], pdfUrl });
     if (courseId && SYLLABUS_MAP[courseId] && pdfUrl === null) {
       console.log({ courseId, link: SYLLABUS_MAP[courseId], pdfUrl });
@@ -128,6 +129,24 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
         brochurePdf={showBrochureButton}
         brochureLink={data[1]}
       /> */}
+
+      <div style={{ marginTop: '80px' }}>
+        <ApplyforCouncelling
+          initialName={initialName}
+          initialPhone={initialPhone}
+        />
+
+        {/* <SessionSection /> */}
+        {/* <WhyChooseUsSection /> */}
+
+        <main
+          style={{
+            padding: '32px',
+            maxWidth: 1000,
+            margin: '0 auto',
+          }}
+        ></main>
+      </div>
       <Firstcloud brochureLink={pdfUrl} />
 
       <ThankStats
@@ -164,8 +183,8 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
 
 ThankYouDemo.getInitialProps = async (ctx) => {
   return {
-    initialName: cookies(ctx).CARD || "",
-    initialPhone: cookies(ctx).CARDPHONE || "",
+    initialName: cookies(ctx).CARD || '',
+    initialPhone: cookies(ctx).CARDPHONE || '',
   };
 };
 

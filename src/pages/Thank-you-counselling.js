@@ -1,11 +1,11 @@
-import React from "react";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import SessionSection from "@/components/ThankYouNew/SessionSection";
-import WhyChooseUsSection from "@/components/ThankYouNew/WhyChooseUsSection";
-import Footer from "@/components/Global/Footer/Footer";
-import ApplyforCouncelling from "@/components/ThankYouNew/ApplyforCouncelling";
-import Head from "next/head";
+import React from 'react';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import SessionSection from '@/components/ThankYouNew/SessionSection';
+import WhyChooseUsSection from '@/components/ThankYouNew/WhyChooseUsSection';
+import Footer from '@/components/Global/Footer/Footer';
+import ApplyforCouncelling from '@/components/ThankYouNew/ApplyforCouncelling';
+import Head from 'next/head';
 
 const NewThankYouCounselling = ({ initialName, initialPhone }) => {
   return (
@@ -29,10 +29,14 @@ const NewThankYouCounselling = ({ initialName, initialPhone }) => {
         interstedInHide={true}
       />
 
-      <div style={{ marginTop: "80px" }}>
+      <div style={{ marginTop: '80px' }}>
         <ApplyforCouncelling
           initialName={initialName}
           initialPhone={initialPhone}
+          mainText={'Your Enquiry Is Successfully Registered'}
+          subText={
+            'Before our expert calls you, get a head-start with a live demo.'
+          }
         />
 
         <SessionSection />
@@ -40,9 +44,9 @@ const NewThankYouCounselling = ({ initialName, initialPhone }) => {
 
         <main
           style={{
-            padding: "32px",
+            padding: '32px',
             maxWidth: 1000,
-            margin: "0 auto",
+            margin: '0 auto',
           }}
         ></main>
       </div>

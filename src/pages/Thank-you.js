@@ -3,6 +3,8 @@ import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import BrochureDemoSection from '@/components/ThankYouNew/BrochureDemoSection';
 import SessionSection from '@/components/ThankYouNew/SessionSection';
 import WhyChooseUsSection from '@/components/ThankYouNew/WhyChooseUsSection';
+import ApplyforCouncelling from '@/components/ThankYouNew/ApplyforCouncelling';
+
 import Footer from '../components/Global/Footer/Footer';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -87,7 +89,7 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
         dataScienceCounselling={true}
         interstedInHide={true}
       />
-      <div style={{ marginTop: '80px' }}>
+      {/* <div style={{ marginTop: '80px' }}>
         <BrochureDemoSection pdfUrl={pdfUrl} />
 
         <SessionSection />
@@ -95,7 +97,29 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
         <main
           style={{ padding: '32px', maxWidth: 1000, margin: '0 auto' }}
         ></main>
+      </div> */}
+
+      <div style={{ marginTop: '80px' }}>
+        <ApplyforCouncelling
+          initialName={initialName}
+          initialPhone={initialPhone}
+          mainText={'Your Brochure Is Ready!'}
+          subText={'You’re one step closer to upgrading your career'}
+          pdfUrl={pdfUrl}
+        />
+
+        <SessionSection />
+        <WhyChooseUsSection />
+
+        <main
+          style={{
+            padding: '32px',
+            maxWidth: 1000,
+            margin: '0 auto',
+          }}
+        ></main>
       </div>
+      {/* <BrochureDemoSection pdfUrl={pdfUrl} /> */}
       <Footer />
       <WhatsappFloat />
     </>
