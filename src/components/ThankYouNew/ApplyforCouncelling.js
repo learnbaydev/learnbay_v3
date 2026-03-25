@@ -192,11 +192,11 @@ function ApplyforCouncelling() {
 
   const remainingSeats = getRemainingSeats();
 
+  // ✅ FIXED HERE
   const progressPercent = Math.min(
-    Math.round(((TOTAL_SEATS - remainingSeats) / TOTAL_SEATS) * 100),
+    Math.round((remainingSeats / TOTAL_SEATS) * 100),
     100
   );
-
   useEffect(() => {
     const updateTimer = () => {
       const deadline = new Date('2026-03-31T23:59:59');
@@ -235,8 +235,8 @@ function ApplyforCouncelling() {
         </div>
 
         <h1 className={styles.heroTitle}>
-          Your Seat Is <br />
-          <span className={styles.gradGreen}>Waiting For You</span>
+          Avail Financial Year End <br />
+          <span className={styles.gradGreen}>Scholarship </span>
         </h1>
 
         <p className={styles.heroSub}>
@@ -257,7 +257,7 @@ function ApplyforCouncelling() {
               <div>
                 <div className={styles.scholLabel}>Scholarship Offer</div>
                 <div className={styles.scholSub}>
-                  Applied automatically at checkout
+                  Avaliable on all AI programs
                 </div>
               </div>
             </div>
@@ -278,7 +278,7 @@ function ApplyforCouncelling() {
         </div>
 
         {/* TIMER */}
-        <div className={styles.timerStrip}>
+        {/* <div className={styles.timerStrip}>
           <div className={styles.timerLabel}>Offer expires in</div>
 
           <div className={styles.timerBoxes}>
@@ -308,7 +308,7 @@ function ApplyforCouncelling() {
               <div className={styles.tLbl}>Secs</div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* FEATURES */}
         <div className={styles.featuresGrid}>
@@ -351,8 +351,8 @@ function ApplyforCouncelling() {
         <div className={styles.urgency}>
           <div className={styles.lockIcon}>🔒</div>
           <div className={styles.urgencyText}>
-            <strong>Limited scholarships.</strong> First-come, first-served.
-            Once these seats are gone, price increases April 1st.
+            <strong>Limited scholarships offer:</strong> Based on First-come,
+            first-served. Price will increases from 1st April 2026.
           </div>
         </div>
 
@@ -360,10 +360,11 @@ function ApplyforCouncelling() {
         <div className={styles.ibmBar}>
           <div className={styles.ibmBadge}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png"
-              alt="IBM"
-              width={70}
-              height={30}
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/ibm-microsoft+(1).webp"
+              alt="IBM and Microsoft"
+              width={120}
+              height={40}
+              className={styles.logoImg}
             />
           </div>
           <span className={styles.ibmSep}>|</span>
