@@ -1879,6 +1879,12 @@ const nextConfig = {
         destination: '/blogs/tech-non-tech-careers-bangalore-guide',
         permanent: true,
       },
+
+      {
+        source: '/blog/master-tech-layoffs-survival-skills',
+        destination: 'blogs/master-tech-layoffs-survival-skills',
+        permanent: true,
+      },
     ];
   },
 };

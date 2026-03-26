@@ -649,6 +649,13 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
+
+<url>
+		<loc>https://www.learnbay.co/blogs/master-tech-layoffs-survival-skills</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+	
 	<url>
 		<loc>https://www.learnbay.co/blogs/top-ai-trends</loc>
 		<changefreq>daily</changefreq>
@@ -753,6 +760,8 @@
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
+
+	
 
 	
 
