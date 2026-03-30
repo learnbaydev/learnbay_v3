@@ -589,7 +589,7 @@ const PopupNew = ({ onClose }) => {
   const totalReducibleSeats = TOTAL_SEATS - MIN_SEATS;
 
   const progressPercent =
-    50 + Math.min((seatsUsed / totalReducibleSeats) * 50, 50);
+    50 + Math.min((seatsUsed / totalReducibleSeats) * 50, 50) - 4;
 
   const popupShow = useCallback(() => {
     setPopups(true);
