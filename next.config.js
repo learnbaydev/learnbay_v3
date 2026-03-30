@@ -1912,13 +1912,6 @@ const nextConfig = {
           '/datascience/chennai/data-science-course-training-in-chennai',
         permanent: true,
       },
-
-      {
-        source:
-          '/data-science-course/blog-post/differentiating-data-scientist-and-data-analyst/',
-        destination: '/differentiating-data-scientist-and-data-analyst',
-        permanent: true,
-      },
     ];
   },
 };
