@@ -163,14 +163,35 @@
 // }
 
 // export default ApplyforCouncelling;
+
 'use client';
 import React, { useState, useEffect } from 'react';
 import styles from './BrochureDemoSection.module.css';
 import StrategyModal from '../StrategyModal/StrategyModal';
 import Image from 'next/image';
 
+// ✅ CONFIG
+const TOTAL_SEATS = 24;
+const SEATS_PER_DAY = 4;
+const BASE_DATE = new Date('2026-03-24T00:00:00');
+
+// ✅ CALCULATE REMAINING SEATS
+function getRemainingSeats() {
+  const now = new Date();
+
+  const daysPassed = Math.floor((now - BASE_DATE) / (1000 * 60 * 60 * 24));
+
+  const seatsSold = daysPassed * SEATS_PER_DAY;
+
+  const remaining = TOTAL_SEATS - seatsSold;
+
+  // never go below 4 (your requirement)
+  return remaining > 4 ? remaining : 4;
+}
+
 function ApplyforCouncelling({ subText, mainText, pdfUrl }) {
   const [isModalOpen, setModalOpen] = useState(false);
+  const [remainingSeats, setRemainingSeats] = useState(getRemainingSeats());
 
   const [timeLeft, setTimeLeft] = useState({
     d: '00',
@@ -179,10 +200,16 @@ function ApplyforCouncelling({ subText, mainText, pdfUrl }) {
     s: '00',
   });
 
-  // ✅ FIXED VALUES
-  const remainingSeats = 4;
-  const progressPercent = 96;
+  // ✅ UPDATE SEATS EVERY MINUTE (so it stays fresh)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRemainingSeats(getRemainingSeats());
+    }, 60000);
 
+    return () => clearInterval(interval);
+  }, []);
+
+  // ✅ TIMER
   useEffect(() => {
     const updateTimer = () => {
       const deadline = new Date('2026-03-31T23:59:59');
@@ -205,6 +232,14 @@ function ApplyforCouncelling({ subText, mainText, pdfUrl }) {
     const interval = setInterval(updateTimer, 1000);
     return () => clearInterval(interval);
   }, []);
+
+  // ✅ PROGRESS CALCULATION (correct)
+  const seatsUsed = TOTAL_SEATS - remainingSeats;
+
+  const progressPercent = Math.min(
+    (seatsUsed / TOTAL_SEATS) * 100,
+    96 // cap at 96%
+  );
 
   return (
     <section className={styles.section}>
@@ -277,7 +312,7 @@ function ApplyforCouncelling({ subText, mainText, pdfUrl }) {
             </span>
           </div>
 
-          {/* ✅ FIXED PROGRESS BAR */}
+          {/* ✅ DYNAMIC PROGRESS */}
           <div className={styles.progressTrack}>
             <div
               className={styles.progressFill}
@@ -312,8 +347,8 @@ function ApplyforCouncelling({ subText, mainText, pdfUrl }) {
         {/* NOTE */}
         <div className={styles.ctaSection}>
           <p className={styles.ctaNote}>
-            Note: Scholarships are limited and offered on a first-come,
-            first-served basis. Check your eligibility during the counseling
+            Note: Scholarships are limited and offered on a first-come, //
+            first-served basis. Check your eligibility during the counseling //
             session.
           </p>
         </div>
