@@ -1892,6 +1892,33 @@ const nextConfig = {
           '/datascience/vietnam/data-science-course-training-in-vietnam',
         permanent: true,
       },
+
+      {
+        source: '/data-science-course-training-bangalore',
+        destination:
+          '/datascience/bangalore/data-science-course-training-in-bangalore',
+        permanent: true,
+      },
+
+      {
+        source: '/data-science-course-in-delhi',
+        destination: '/datascience/delhi/data-science-course-training-in-delhi',
+        permanent: true,
+      },
+
+      {
+        source: '/datascience/chennai/data-science-course',
+        destination:
+          '/datascience/chennai/data-science-course-training-in-chennai',
+        permanent: true,
+      },
+
+      {
+        source:
+          '/data-science-course/blog-post/differentiating-data-scientist-and-data-analyst/',
+        destination: '/differentiating-data-scientist-and-data-analyst',
+        permanent: true,
+      },
     ];
   },
 };
