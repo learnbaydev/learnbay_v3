@@ -13,7 +13,7 @@ function getRemainingSeats() {
   const now = new Date();
   const daysPassed = Math.floor((now - BASE_DATE) / (1000 * 60 * 60 * 24));
   const remaining = TOTAL_SEATS - daysPassed * SEATS_PER_DAY;
-  return remaining > MIN_SEATS ? remaining : MIN_SEATS; // never go below MIN_SEATS
+  return remaining > MIN_SEATS ? remaining : MIN_SEATS;
 }
 
 function ApplyforCouncelling({ subText, mainText, pdfUrl }) {
@@ -26,14 +26,14 @@ function ApplyforCouncelling({ subText, mainText, pdfUrl }) {
     s: '00',
   });
 
-  // Calculate progress percentage
-  const seatsUsed = TOTAL_SEATS - remainingSeats;
-  const totalReducibleSeats = TOTAL_SEATS - MIN_SEATS;
+  // Fix: progress based on seats TAKEN out of total available (TOTAL - MIN_SEATS)
+  const seatsUsed = TOTAL_SEATS - remainingSeats; // seats taken
+  const totalReducibleSeats = TOTAL_SEATS - MIN_SEATS; // max seats that can be taken = 20
+  // Start bar at 50% when 0 seats used, reach 100% when all reducible seats are used
   const progressPercent =
     50 + Math.min((seatsUsed / totalReducibleSeats) * 50, 50);
 
   useEffect(() => {
-    // Set remaining seats on client side to avoid hydration mismatch
     setRemainingSeats(getRemainingSeats());
   }, []);
 
