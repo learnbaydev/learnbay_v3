@@ -1885,6 +1885,61 @@ const nextConfig = {
         destination: 'blogs/master-tech-layoffs-survival-skills',
         permanent: true,
       },
+
+      {
+        source: '/datascience/Vietnam/data-science-course-training-in-Vietnam',
+        destination:
+          '/datascience/vietnam/data-science-course-training-in-vietnam',
+        permanent: true,
+      },
+
+      {
+        source: '/data-science-course-training-bangalore',
+        destination:
+          '/datascience/bangalore/data-science-course-training-in-bangalore',
+        permanent: true,
+      },
+
+      {
+        source: '/data-science-course-in-delhi',
+        destination: '/datascience/delhi/data-science-course-training-in-delhi',
+        permanent: true,
+      },
+
+      {
+        source: '/datascience/chennai/data-science-course',
+        destination:
+          '/datascience/chennai/data-science-course-training-in-chennai',
+        permanent: true,
+      },
+
+      {
+        source:
+          '/blog/random-forest-algorithm-in-machine-learning-with-example',
+        destination: 'https://blog.learnbay.co/category/machine-learning',
+        permanent: true,
+      },
+
+      {
+        source:
+          '/data-science-course/blog-post/top-10-machine-learning-algorithms-...2021',
+        destination: 'https://blog.learnbay.co/category/machine-learning',
+        permanent: true,
+      },
+
+      {
+        source:
+          '/data-science-course/blog-post/differentiating-data-scientist-and-data-analyst',
+        destination:
+          'https://blog.learnbay.co/differentiating-data-scientist-and-data-analyst',
+        permanent: true,
+      },
+      {
+        source:
+          '/data-science-course/blog-post/top-15-freshers-level-power-bi-interview-questions-for-2021',
+        destination: 'https://blog.learnbay.co/category/data-science',
+        permanent: true,
+      },
     ];
   },
 };

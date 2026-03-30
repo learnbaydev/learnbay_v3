@@ -84,7 +84,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/Vietnam/data-science-course-training-in-Vietnam/vi"
+          content="https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam/vi"
         />
         <meta
           property="og:title"
@@ -123,7 +123,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/Vietnam/data-science-course-training-in-Vietnam"
+          href="https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
@@ -136,10 +136,10 @@ export default function Home() {
         {/* <meta name="bingbot" content="index,follow" /> */}
         {/* <meta name="expires" content="never" /> */}
         {/* <meta name="coverage" content="Worldwide" /> */}
-        {/* <meta name="robots" content="ALL" /> */}
+        {/* <meta name="robots" content="ALL" />*/}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-Vietnam"
+          content="https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam"
         />
         <meta
           property="og:title"
@@ -147,7 +147,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-Vietnam"
+          content="https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam"
         />
         <meta
           property="og:title"

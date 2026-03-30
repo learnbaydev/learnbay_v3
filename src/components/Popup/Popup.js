@@ -589,7 +589,7 @@ const PopupNew = ({ onClose }) => {
   const totalReducibleSeats = TOTAL_SEATS - MIN_SEATS;
 
   const progressPercent =
-    50 + Math.min((seatsUsed / totalReducibleSeats) * 50, 50);
+    50 + Math.min((seatsUsed / totalReducibleSeats) * 50, 50) - 4;
 
   const popupShow = useCallback(() => {
     setPopups(true);
@@ -621,7 +621,7 @@ const PopupNew = ({ onClose }) => {
         <div className={styles.hero}>
           <span className={styles.pill}>30% Scholarship</span>
           <h2 className={styles.h2}>Financial Year End</h2>
-          <h1 className={styles.h1}>Scholarship</h1>
+          <h2 className={styles.h2}>Scholarship</h2>
           <p className={styles.sub}>
             Valid till <strong>31st March 2026.</strong> Choose a program below
             and apply.
