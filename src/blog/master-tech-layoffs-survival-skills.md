@@ -213,37 +213,47 @@ Now, the majority of working professionals are advised to focus on the <b>best s
 
 Learnbay’s exclusively designed GenAI-focused programs will surely equip you with 4 best skills to survive the tech layoffs and stay competitive.
 
-## Frequently Asked Questions (FAQs)
+<div style="width: 100%; background-color: #f9f9f9; padding: 40px 20px; border-radius: 12px; border: 1px solid #e0e0e0; box-sizing: border-box;">
 
-### 1. Is there going to be a recession in 2026?
+<h2 style="margin-top: 0; color: #000; text-align: center;">Frequently Asked Questions (FAQs)</h2>
 
-A recession in 2026 has not been publicly announced yet, but rising global tensions, AI dominance, and a divided economy suggest it is possible. Also, JP Morgan research indicates a 35% probability of a recession in 2026.
+<div style="margin-bottom: 25px;">
+<h3 style="color: #2372bc;">1. Is there going to be a recession in 2026?</h3>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444;">A recession in 2026 has not been publicly announced yet, but rising global tensions, AI dominance, and a divided economy suggest it is possible. Also, JP Morgan research indicates a 35% probability of a recession in 2026.</p>
+</div>
 
-### 2. What 5 jobs will AI not replace?
+<div style="margin-bottom: 25px;">
+<h3 style="color: #2372bc;">2. What 5 jobs will AI not replace?</h3>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Top 5 jobs that require strategic thinking, high EQ, specialised skills, and human expertise are unlikely to get replaced by AI. They are –
 
-Top 5 jobs that require strategic thinking, high EQ, specialised skills, and human expertise are unlikely to get replaced by AI. They are –
+• Healthcare or nursing experts
+• AI/ML engineers and data scientists
+• Strategic leaders, CEO, and CFOs
+• Creative professionals with GenAI and agentic AI skills
+• Empathy-centric roles</p>
 
-• _Healthcare or nursing experts_  
-• _AI/ML engineers and data scientists_  
-• _Strategic leaders, CEO, and CFOs_  
-• _Creative professionals with GenAI and agentic AI skills_  
-• _Empathy-centric roles_
+</div>
 
-### 3. Which industry will boom in 2026?
+<div style="margin-top: 0;">
+<h3 style="color: #2372bc;">3. Which industry will boom in 2026?</h3>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Industries with AI adaptation, sustainable operations, and strategic initiatives will boom in 2026. They are –
 
-Industries with AI adaptation, sustainable operations, and strategic initiatives will boom in 2026. They are –
+• Consumer-centric sectors
+• Tech-driven companies
+• Renewable energy supply sectors
+• Healthcare sectors
+• Fintech</p>
 
-• _Consumer-centric sectors_  
-• _Tech-driven companies_  
-• _Renewable energy supply sectors_  
-• _Healthcare sectors_  
-• _Fintech_
+</div>
+<div style="margin-top: 0;">
+<h3 style="color: #2372bc;">4. Which AI skills are most in demand?</h3>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Top AI skills that will stay in demand in 2026 and beyond are –
 
-### 4. Which AI skills are most in demand?
+• Generative AI and LLMs
+• Agentic AI
+• ML engineering
+• Prompt engineering</p>
 
-Top **AI skills** that will stay in demand in 2026 and beyond are –
+</div>
 
-• _Generative AI and LLMs_  
-• _Agentic AI_  
-• _ML engineering_  
-• _Prompt engineering_
+</div>
