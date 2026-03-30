@@ -1885,6 +1885,13 @@ const nextConfig = {
         destination: 'blogs/master-tech-layoffs-survival-skills',
         permanent: true,
       },
+
+      {
+        source: '/datascience/Vietnam/data-science-course-training-in-Vietnam',
+        destination:
+          '/datascience/vietnam/data-science-course-training-in-vietnam',
+        permanent: true,
+      },
     ];
   },
 };
