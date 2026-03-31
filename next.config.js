@@ -1889,7 +1889,7 @@ const nextConfig = {
       {
         source: '/datascience/Vietnam/data-science-course-training-in-Vietnam',
         destination:
-          '/datascience/vietnam/data-science-course-training-in-vietnam',
+          'datascience/Vietnam/data-science-course-training-in-Vietnam',
         permanent: true,
       },
 
