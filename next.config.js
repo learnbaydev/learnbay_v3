@@ -1886,12 +1886,12 @@ const nextConfig = {
         permanent: true,
       },
 
-      {
-        source: '/datascience/Vietnam/data-science-course-training-in-Vietnam',
-        destination:
-          'datascience/Vietnam/data-science-course-training-in-Vietnam',
-        permanent: true,
-      },
+      // {
+      //   source: '/datascience/Vietnam/data-science-course-training-in-Vietnam',
+      //   destination:
+      //     '/datascience/vietnam/data-science-course-training-in-vietnam',
+      //   permanent: true,
+      // },
 
       {
         source: '/data-science-course-training-bangalore',
