@@ -1940,6 +1940,13 @@ const nextConfig = {
         destination: 'https://blog.learnbay.co/category/data-science',
         permanent: true,
       },
+
+      {
+        source: '/datascience/chennai/data-science-course',
+        destination:
+          '/datascience/chennai/data-science-course-training-in-chennai',
+        permanent: true,
+      },
     ];
   },
 };
