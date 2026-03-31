@@ -335,7 +335,7 @@ function ApplyforCouncelling({ subText, mainText, pdfUrl }) {
           <Image
             src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/ibm-microsoft+(1).webp"
             alt="IBM and Microsoft"
-            width={120}
+            width={200}
             height={40}
           />
           <span className={styles.ibmSep}>|</span>
@@ -347,8 +347,8 @@ function ApplyforCouncelling({ subText, mainText, pdfUrl }) {
         {/* NOTE */}
         <div className={styles.ctaSection}>
           <p className={styles.ctaNote}>
-            Note: Scholarships are limited and offered on a first-come, //
-            first-served basis. Check your eligibility during the counseling //
+            Note: Scholarships are limited and offered on a first-come,
+            first-served basis. Check your eligibility during the counseling
             session.
           </p>
         </div>
