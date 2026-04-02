@@ -1,0 +1,159 @@
+.wrapper {
+  font-family: system-ui, sans-serif;
+}
+
+/* layout */
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(125deg, #08093d 3.22%, #141414 84.06%);
+  color: white;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #1e293b;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #22c55e;
+  border-radius: 50%;
+}
+
+.subtitle {
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+}
+
+/* steps */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 2rem;
+}
+
+.stepCard {
+  background: #1e293b;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.stepNum {
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+/* counselor */
+.counselor {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 2rem;
+  background: #0072bc;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  background: white;
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status {
+  margin-left: auto;
+  background: white;
+  color: black;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+/* SECTION */
+.section {
+  background: #f8fafc;
+}
+
+/* cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 1.5rem;
+}
+
+.card {
+  display: flex;
+  gap: 12px;
+  background: white;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  background: #eef2ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon svg {
+  width: 18px;
+  height: 18px;
+  fill: #4f46e5;
+  stroke: #4f46e5;
+}
+
+/* stats */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.stats strong {
+  display: block;
+  font-size: 18px;
+}
+
+.stats span {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+}

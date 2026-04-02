@@ -9,6 +9,7 @@ import Footer from '../components/Global/Footer/Footer';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+import SuccessPage from '../components/ThankYouNew/SuccessPage';
 const ThankYouDemo = ({ initialName, initialPhone }) => {
   const SYLLABUS_MAP = {
     // Popular & Master Programs
@@ -100,14 +101,15 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
       </div> */}
 
       <div style={{ marginTop: '80px' }}>
-        <ApplyforCouncelling
+        {/* <ApplyforCouncelling
           initialName={initialName}
           initialPhone={initialPhone}
           mainText={'Your Brochure Is Ready!'}
           subText={'You’re one step closer to upgrading your career'}
           pdfUrl={pdfUrl}
-        />
+        /> */}
 
+        <SuccessPage />
         <SessionSection />
         <WhyChooseUsSection />
 
