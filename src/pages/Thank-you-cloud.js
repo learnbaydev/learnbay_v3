@@ -137,7 +137,7 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
           initialPhone={initialPhone}
         /> */}
         <SuccessPage
-          option1={'Call scheduled'}
+          option1={'View Syllabus'}
           option2={'Your Enquiry Is Successfully Registered'}
           pdfUrl={pdfUrl}
         />
