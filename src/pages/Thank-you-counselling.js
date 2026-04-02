@@ -6,6 +6,7 @@ import WhyChooseUsSection from '@/components/ThankYouNew/WhyChooseUsSection';
 import Footer from '@/components/Global/Footer/Footer';
 import ApplyforCouncelling from '@/components/ThankYouNew/ApplyforCouncelling';
 import Head from 'next/head';
+import SuccessPage from '../components/ThankYouNew/SuccessPage';
 
 const NewThankYouCounselling = ({ initialName, initialPhone }) => {
   return (
@@ -30,15 +31,19 @@ const NewThankYouCounselling = ({ initialName, initialPhone }) => {
       />
 
       <div style={{ marginTop: '80px' }}>
-        <ApplyforCouncelling
+        {/* <ApplyforCouncelling
           initialName={initialName}
           initialPhone={initialPhone}
           mainText={'Your Enquiry Is Successfully Registered'}
           // subText={
           //   'Before our expert calls you, get a head-start with a live demo.'
           // }
-        />
+        /> */}
 
+        <SuccessPage
+          option1={'Call scheduled'}
+          option2={'                   Your Enquiry Is Successfully Registered'}
+        />
         <SessionSection />
         <WhyChooseUsSection />
 

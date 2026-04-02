@@ -13,6 +13,7 @@ import CertificationCard from '../components/Home/newUI/CertificationCard/Certif
 import { certificationCourses } from '../components/Home/newUI/NewCourse/NewCourseData';
 import Firstcloud from '../components/StaticPage/Thankyou/FirstCloud/FirstCloud';
 import ApplyforCouncelling from '@/components/ThankYouNew/ApplyforCouncelling';
+import SuccessPage from '../components/ThankYouNew/SuccessPage';
 
 const setCookie = (name, value, days, domain) => {
   const expires = new Date();
@@ -131,9 +132,14 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
       /> */}
 
       <div style={{ marginTop: '80px' }}>
-        <ApplyforCouncelling
+        {/* <ApplyforCouncelling
           initialName={initialName}
           initialPhone={initialPhone}
+        /> */}
+        <SuccessPage
+          option1={'View Syllabus'}
+          option2={'Your Enquiry Is Successfully Registered'}
+          pdfUrl={pdfUrl}
         />
 
         {/* <SessionSection /> */}
