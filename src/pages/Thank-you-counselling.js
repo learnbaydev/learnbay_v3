@@ -6,7 +6,7 @@ import WhyChooseUsSection from '@/components/ThankYouNew/WhyChooseUsSection';
 import Footer from '@/components/Global/Footer/Footer';
 import ApplyforCouncelling from '@/components/ThankYouNew/ApplyforCouncelling';
 import Head from 'next/head';
-import SuccessPage1 from '../components/ThankYouNew/SuccessPage';
+import SuccessPage from '../components/ThankYouNew/SuccessPage';
 
 const NewThankYouCounselling = ({ initialName, initialPhone }) => {
   return (
@@ -40,7 +40,10 @@ const NewThankYouCounselling = ({ initialName, initialPhone }) => {
           // }
         /> */}
 
-        <SuccessPage1 />
+        <SuccessPage
+          option1={'Call scheduled'}
+          option2={'                   Your Enquiry Is Successfully Registered'}
+        />
         <SessionSection />
         <WhyChooseUsSection />
 

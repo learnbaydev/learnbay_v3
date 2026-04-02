@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './SuccessPage.module.css';
 
-const SuccessPage = () => {
+const SuccessPage = ({ option1, option2, pdfUrl }) => {
   return (
     <div className={styles.section}>
       {/* AMBIENT BACKGROUND ELEMENTS */}
@@ -20,7 +20,7 @@ const SuccessPage = () => {
             <span className={styles.gradGreen}>AI Career Breakthrough</span>
           </h1>
           <p className={styles.heroSub}>
-            Our expert counselor will reach out within a few hours. Here's what
+            Our expert counselor will reach out within 24 hours. Here's what
             happens next:
           </p>
         </div>
@@ -59,16 +59,18 @@ const SuccessPage = () => {
             <div className={styles.avatar}>LC</div>
             <div className={styles.counselorText}>
               <strong>Learnbay Career Expert</strong>
-              <span>Avg. response time · within a few hours</span>
+              <span>Avg. response time · within 24 hours</span>
             </div>
           </div>
-          <div className={styles.callBadge}>Call scheduled</div>
+          <a href={pdfUrl} target="_blank" rel="noopener noreferrer">
+            <div className={styles.callBadge}>{option1}</div>
+          </a>
         </div>
 
         {/* FOLD 2 CONTENT */}
         <div className={styles.fold2Header}>
-          <h2 className={styles.heroTitleSmall}>
-            Your brochure is ready — and so is your counselor
+          <h2 className={styles.heroTitleSmall} style={{ textAlign: 'center' }}>
+            {option2}
           </h2>
           <p className={styles.heroSub}>
             During the session, your counselor will cover everything you need to

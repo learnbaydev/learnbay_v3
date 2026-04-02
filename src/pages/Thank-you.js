@@ -9,8 +9,8 @@ import Footer from '../components/Global/Footer/Footer';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+
 import SuccessPage from '../components/ThankYouNew/SuccessPage';
-import SuccessPage1 from '../components/ThankYouNew/SuccessPage';
 const ThankYouDemo = ({ initialName, initialPhone }) => {
   const SYLLABUS_MAP = {
     // Popular & Master Programs
@@ -111,7 +111,11 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
         /> */}
 
         {/* <SuccessPage /> */}
-        <SuccessPage1 />
+        <SuccessPage
+          option1={'View Syllabus'}
+          option2={' Your brochure is ready — and so is your counselor'}
+          pdfUrl={pdfUrl}
+        />
         <SessionSection />
         <WhyChooseUsSection />
 
