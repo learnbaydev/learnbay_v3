@@ -1,141 +1,146 @@
+import React from 'react';
 import styles from './SuccessPage.module.css';
 
-const steps = [
-  {
-    step: 'Step 01',
-    title: 'Expert call',
-    desc: 'A dedicated counselor calls you to understand your background and goals',
-  },
-  {
-    step: 'Step 02',
-    title: 'Personalised roadmap',
-    desc: 'Get a custom AI/Data Science learning path tailored to your current role',
-  },
-  {
-    step: 'Step 03',
-    title: 'Enrol & begin',
-    desc: 'Choose your batch, flexible payment options, and start your transformation',
-  },
-];
-
-const sessions = [
-  {
-    title: 'Salary growth potential',
-    desc: 'Data-driven analysis of your hike based on experience, domain, and target role',
-    icon: (
-      <svg viewBox="0 0 24 24">
-        <path d="M12 2l2.5 6 6 .5-4.5 4 1.2 6-5.2-3-5.2 3 1.2-6-4.5-4 6-.5z" />
-      </svg>
-    ),
-  },
-  {
-    title: 'Real-world curriculum',
-    desc: 'How GenAI, Agentic AI, and live projects are built into every program',
-    icon: (
-      <svg viewBox="0 0 24 24">
-        <path d="M3 10l9-6 9 6v10H3z" />
-      </svg>
-    ),
-  },
-  {
-    title: 'Placement support',
-    desc: 'Resume builds, mock interviews, LinkedIn optimisation, and job referrals',
-    icon: (
-      <svg viewBox="0 0 24 24">
-        <rect x="3" y="5" width="18" height="14" rx="2" />
-      </svg>
-    ),
-  },
-  {
-    title: 'Flexible batch options',
-    desc: 'Weekend and weekday schedules designed for working professionals',
-    icon: (
-      <svg viewBox="0 0 24 24">
-        <circle cx="12" cy="12" r="9" />
-        <path d="M12 7v5l3 2" />
-      </svg>
-    ),
-  },
-];
-
-export default function SuccessPage() {
+const SuccessPage = () => {
   return (
-    <div className={styles.wrapper}>
-      {/* HEADER */}
-      <section className={styles.hero}>
-        <div className={styles.container}>
+    <div className={styles.section}>
+      {/* AMBIENT BACKGROUND ELEMENTS */}
+      <div className={styles.orb1} />
+      <div className={styles.orb2} />
+
+      <div className={styles.container}>
+        {/* HERO SECTION */}
+        <div className={styles.hero}>
           <div className={styles.badge}>
-            <span className={styles.dot}></span>
+            <span className={styles.badgeDot} />
             Enquiry successfully registered
           </div>
-
-          <h1>You're one step closer to your AI career breakthrough</h1>
-
-          <p className={styles.subtitle}>
-            Our expert counselor will reach out within a few hours.
+          <h1 className={styles.heroTitle}>
+            You're one step closer to your <br />
+            <span className={styles.gradGreen}>AI Career Breakthrough</span>
+          </h1>
+          <p className={styles.heroSub}>
+            Our expert counselor will reach out within a few hours. Here's what
+            happens next:
           </p>
+        </div>
 
-          <div className={styles.steps}>
-            {steps.map((item, i) => (
-              <div key={i} className={styles.stepCard}>
-                <span className={styles.stepNum}>{item.step}</span>
-                <h3>{item.title}</h3>
-                <p>{item.desc}</p>
-              </div>
-            ))}
+        {/* NEXT STEPS - ORIGINAL 3 STEP GRID */}
+        <div className={styles.stepGrid}>
+          <div className={styles.stepCard}>
+            <span className={styles.stepNum}>Step 01</span>
+            <h3 className={styles.stepTitle}>Expert call</h3>
+            <p className={styles.stepDesc}>
+              A dedicated counselor calls you to understand your background and
+              goals
+            </p>
           </div>
+          <div className={styles.stepCard}>
+            <span className={styles.stepNum}>Step 02</span>
+            <h3 className={styles.stepTitle}>Personalised roadmap</h3>
+            <p className={styles.stepDesc}>
+              Get a custom AI/Data Science learning path tailored to your
+              current role
+            </p>
+          </div>
+          <div className={styles.stepCard}>
+            <span className={styles.stepNum}>Step 03</span>
+            <h3 className={styles.stepTitle}>Enrol & begin</h3>
+            <p className={styles.stepDesc}>
+              Choose your batch, flexible payment options, and start your
+              transformation
+            </p>
+          </div>
+        </div>
 
-          <div className={styles.counselor}>
+        {/* COUNSELOR BAR - PREMIUM STYLE */}
+        <div className={styles.counselorBar}>
+          <div className={styles.counselorLeft}>
             <div className={styles.avatar}>LC</div>
-            <div>
+            <div className={styles.counselorText}>
               <strong>Learnbay Career Expert</strong>
-              <p>Response time: within a few hours</p>
+              <span>Avg. response time · within a few hours</span>
             </div>
-            <span className={styles.status}>Call scheduled</span>
           </div>
+          <div className={styles.callBadge}>Call scheduled</div>
         </div>
-      </section>
 
-      {/* DETAILS */}
-      <section className={styles.section}>
-        <div className={styles.container}>
-          <h2>Your brochure is ready</h2>
-          <p className={styles.subtitle}>
-            Here's what you'll learn during the session:
+        {/* FOLD 2 CONTENT */}
+        <div className={styles.fold2Header}>
+          <h2 className={styles.heroTitleSmall}>
+            Your brochure is ready — and so is your counselor
+          </h2>
+          <p className={styles.heroSub}>
+            During the session, your counselor will cover everything you need to
+            make a confident decision:
           </p>
+        </div>
 
-          <div className={styles.grid}>
-            {sessions.map((item, i) => (
-              <div key={i} className={styles.card}>
-                <div className={styles.icon}>{item.icon}</div>
-                <div>
-                  <h4>{item.title}</h4>
-                  <p>{item.desc}</p>
-                </div>
-              </div>
-            ))}
+        {/* SESSION GRID - ORIGINAL 4 ITEMS */}
+        <div className={styles.sessionGrid}>
+          <div className={styles.sessionItem}>
+            <div className={styles.iconBox}>📈</div>
+            <div>
+              <h3 className={styles.itemTitle}>Salary growth potential</h3>
+              <p className={styles.itemDesc}>
+                Data-driven analysis of your hike based on experience, domain,
+                and target role
+              </p>
+            </div>
           </div>
-
-          <div className={styles.stats}>
+          <div className={styles.sessionItem}>
+            <div className={styles.iconBox}>🤖</div>
             <div>
-              <strong>10,000+</strong>
-              <span>professionals trained</span>
+              <h3 className={styles.itemTitle}>Real-world curriculum</h3>
+              <p className={styles.itemDesc}>
+                How GenAI, Agentic AI, and live projects are built into every
+                program
+              </p>
             </div>
+          </div>
+          <div className={styles.sessionItem}>
+            <div className={styles.iconBox}>💼</div>
             <div>
-              <strong>IBM & Microsoft</strong>
-              <span>certified programs</span>
+              <h3 className={styles.itemTitle}>Placement support</h3>
+              <p className={styles.itemDesc}>
+                Resume builds, mock interviews, LinkedIn optimisation, and job
+                referrals
+              </p>
             </div>
+          </div>
+          <div className={styles.sessionItem}>
+            <div className={styles.iconBox}>🗓️</div>
             <div>
-              <strong>300+</strong>
-              <span>hiring partners</span>
-            </div>
-            <div>
-              <strong>4.8 ★</strong>
-              <span>average rating</span>
+              <h3 className={styles.itemTitle}>Flexible batch options</h3>
+              <p className={styles.itemDesc}>
+                Weekend and weekday schedules designed for working professionals
+              </p>
             </div>
           </div>
         </div>
-      </section>
+
+        {/* PROOF ROW - ORIGINAL 4 STATS */}
+        <div className={styles.proofRow}>
+          <div className={styles.proofCard}>
+            <span className={styles.proofNum}>10,000+</span>
+            <span className={styles.proofLabel}>professionals trained</span>
+          </div>
+          <div className={styles.proofCard}>
+            <span className={styles.proofNum}>IBM & MS</span>
+            <span className={styles.proofLabel}>certified programs</span>
+          </div>
+          <div className={styles.proofCard}>
+            <span className={styles.proofNum}>300+</span>
+            <span className={styles.proofLabel}>hiring partners</span>
+          </div>
+          <div className={styles.proofCard}>
+            <span className={styles.proofNum}>4.8 ★</span>
+            <span className={styles.proofLabel}>average rating</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
+};
+
+export default SuccessPage;
