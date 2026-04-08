@@ -1889,7 +1889,7 @@ const nextConfig = {
       {
         source: '/datascience/Vietnam/data-science-course-training-in-Vietnam',
         destination:
-          'https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam',
+          '/datascience/vietnam/data-science-course-training-in-vietnam',
         permanent: true,
       },
 
@@ -1945,6 +1945,17 @@ const nextConfig = {
         source: '/datascience/chennai/data-science-course',
         destination:
           '/datascience/chennai/data-science-course-training-in-chennai',
+        permanent: true,
+      },
+
+      {
+        source: '/verify-certicate',
+        destination: '/verify-certificate',
+        permanent: true,
+      },
+      {
+        source: '/verify-certi',
+        destination: '/verify-certificate',
         permanent: true,
       },
     ];
