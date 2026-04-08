@@ -70,16 +70,18 @@ export function middleware(req) {
   const goneRoutes = [
     '/data-science-course/apply-scholarship-eligibility-test/',
     '/data-science-course/exwatch-2-2/',
+    '/event/',
   ];
 
   if (goneRoutes.includes(pathname)) {
-    return new NextResponse('<h1>This page has been removed</h1>', {
+    const res = new NextResponse('<h1>This page has been removed</h1>', {
       status: 410,
       headers: {
         'content-type': 'text/html',
-        'X-Robots-Tag': 'noindex, nofollow', // ✅ VERY IMPORTANT
       },
     });
+    res.headers.set('X-Robots-Tag', 'noindex, nofollow');
+    return res;
   }
 
   // ✅ Redirects
