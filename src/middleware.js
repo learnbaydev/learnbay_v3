@@ -80,7 +80,7 @@ export function middleware(req) {
         'content-type': 'text/html',
       },
     });
-    res.headers.set('X-Robots-Tag', 'noindex, nofollow');
+
     return res;
   }
 
@@ -133,16 +133,11 @@ export function middleware(req) {
       301
     );
 
-    // ✅ Also prevent indexing of redirected URLs
-    res.headers.set('X-Robots-Tag', 'noindex, nofollow');
-
     return res;
   }
 
   // ✅ Default response (apply noindex globally if this is staging/private)
   const res = NextResponse.next();
-
-  res.headers.set('X-Robots-Tag', 'noindex, nofollow');
 
   return res;
 }
