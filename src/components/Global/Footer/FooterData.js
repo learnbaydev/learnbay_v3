@@ -1,307 +1,307 @@
 export const CityFooterData = [
   {
-    id: "FirstDiv",
+    id: 'FirstDiv',
     FirstDiv: [
       {
-        id: "Pune",
-        city: "Pune",
+        id: 'Pune',
+        city: 'Pune',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Pune",
-            url: "/datascience/pune/data-science-course-training-in-pune",
+            name: 'Data Science Course Training in Pune',
+            url: '/datascience/pune/data-science-course-training-in-pune',
           },
           {
             id: 2,
-            name: "Machine learning course training in pune",
-            url: "/datascience/pune/machine-learning-course-training-in-pune",
+            name: 'Machine learning course training in pune',
+            url: '/datascience/pune/machine-learning-course-training-in-pune',
           },
           {
             id: 3,
-            name: "data analytics course training in pune",
-            url: "/datascience/pune/data-analytics-course-training-in-pune",
+            name: 'data analytics course training in pune',
+            url: '/datascience/pune/data-analytics-course-training-in-pune',
           },
           {
             id: 4,
-            name: "business analytics course training in pune",
-            url: "/datascience/pune/business-analytics-course-training-in-pune",
+            name: 'business analytics course training in pune',
+            url: '/datascience/pune/business-analytics-course-training-in-pune',
           },
           {
             id: 5,
-            name: "artificial intelligence AI course training pune",
-            url: "/datascience/pune/artificial-intelligence-ai-course-training-pune",
+            name: 'artificial intelligence AI course training pune',
+            url: '/datascience/pune/artificial-intelligence-ai-course-training-pune',
           },
           {
             id: 6,
-            name: "Full stack software developer course in Pune",
-            url: "/fullstack/pune/full-stack-software-developer-course-in-pune",
+            name: 'Full stack software developer course in Pune',
+            url: '/fullstack/pune/full-stack-software-developer-course-in-pune',
           },
           {
             id: 7,
-            name: "Cloud Computing Course in Pune",
-            url: "/cloud&devops/pune/online-cloud-computing-course-pune",
+            name: 'Cloud Computing Course in Pune',
+            url: '/cloud&devops/pune/online-cloud-computing-course-pune',
           },
         ],
       },
       {
-        id: "Mumbai",
-        city: "Mumbai",
+        id: 'Mumbai',
+        city: 'Mumbai',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Mumbai",
-            url: "/datascience/mumbai/data-science-course-training-in-mumbai",
+            name: 'Data Science Course Training in Mumbai',
+            url: '/datascience/mumbai/data-science-course-training-in-mumbai',
           },
           {
             id: 2,
-            name: "Machine learning course training in Mumbai",
-            url: "/datascience/mumbai/machine-learning-course-training-in-mumbai",
+            name: 'Machine learning course training in Mumbai',
+            url: '/datascience/mumbai/machine-learning-course-training-in-mumbai',
           },
           {
             id: 3,
-            name: "data analytics course training in Mumbai",
-            url: "/datascience/mumbai/data-analytics-course-training-in-mumbai",
+            name: 'data analytics course training in Mumbai',
+            url: '/datascience/mumbai/data-analytics-course-training-in-mumbai',
           },
           {
             id: 4,
-            name: "business analytics course training in Mumbai",
-            url: "/datascience/mumbai/business-analytics-course-training-in-mumbai",
+            name: 'business analytics course training in Mumbai',
+            url: '/datascience/mumbai/business-analytics-course-training-in-mumbai',
           },
           {
             id: 5,
-            name: "artificial intelligence AI course training in Mumbai",
-            url: "/datascience/mumbai/artificial-intelligence-ai-course-training-mumbai",
+            name: 'artificial intelligence AI course training in Mumbai',
+            url: '/datascience/mumbai/artificial-intelligence-ai-course-training-mumbai',
           },
           {
             id: 6,
-            name: "Full stack software developer course in Mumbai",
-            url: "/fullstack/mumbai/full-stack-software-developer-course-in-mumbai",
+            name: 'Full stack software developer course in Mumbai',
+            url: '/fullstack/mumbai/full-stack-software-developer-course-in-mumbai',
           },
         ],
       },
       {
-        id: "Chennai",
-        city: "Chennai",
+        id: 'Chennai',
+        city: 'Chennai',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Chennai",
-            url: "/datascience/chennai/data-science-course-training-in-chennai",
+            name: 'Data Science Course Training in Chennai',
+            url: '/datascience/chennai/data-science-course-training-in-chennai',
           },
           {
             id: 2,
-            name: "Machine learning course training in Chennai",
-            url: "/datascience/chennai/machine-learning-course-training-in-chennai",
+            name: 'Machine learning course training in Chennai',
+            url: '/datascience/chennai/machine-learning-course-training-in-chennai',
           },
           {
             id: 3,
-            name: "data analytics course training in Chennai",
-            url: "/datascience/chennai/data-analytics-course-training-in-chennai",
+            name: 'data analytics course training in Chennai',
+            url: '/datascience/chennai/data-analytics-course-training-in-chennai',
           },
           {
             id: 4,
-            name: "business analytics course training in Chennai",
-            url: "/datascience/chennai/business-analytics-course-training-in-chennai",
+            name: 'business analytics course training in Chennai',
+            url: '/datascience/chennai/business-analytics-course-training-in-chennai',
           },
           {
             id: 5,
-            name: "artificial intelligence AI course training in Chennai",
-            url: "/datascience/chennai/artificial-intelligence-ai-course-training-chennai",
+            name: 'artificial intelligence AI course training in Chennai',
+            url: '/datascience/chennai/artificial-intelligence-ai-course-training-chennai',
           },
           {
             id: 6,
-            name: "Full stack software developer course in Chennai",
-            url: "/fullstack/chennai/full-stack-software-developer-course-in-chennai",
+            name: 'Full stack software developer course in Chennai',
+            url: '/fullstack/chennai/full-stack-software-developer-course-in-chennai',
           },
         ],
       },
       {
-        id: "Canada",
-        city: "Canada",
+        id: 'Canada',
+        city: 'Canada',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Canada",
-            url: "/datascience/canada/data-science-course-training-in-canada",
+            name: 'Data Science Course Training in Canada',
+            url: '/datascience/canada/data-science-course-training-in-canada',
           },
           {
             id: 2,
-            name: "Machine learning course training in Canada",
-            url: "/datascience/canada/machine-learning-course-training-in-canada",
+            name: 'Machine learning course training in Canada',
+            url: '/datascience/canada/machine-learning-course-training-in-canada',
           },
           {
             id: 3,
-            name: "data analytics course training in Canada",
-            url: "/datascience/canada/data-analytics-course-training-in-canada",
+            name: 'data analytics course training in Canada',
+            url: '/datascience/canada/data-analytics-course-training-in-canada',
           },
           {
             id: 4,
-            name: "business analytics course training in Canada",
-            url: "/datascience/canada/business-analytics-course-training-in-canada",
+            name: 'business analytics course training in Canada',
+            url: '/datascience/canada/business-analytics-course-training-in-canada',
           },
           {
             id: 5,
-            name: "artificial intelligence AI course training in Canada",
-            url: "/datascience/canada/artificial-intelligence-ai-course-training-canada",
+            name: 'artificial intelligence AI course training in Canada',
+            url: '/datascience/canada/artificial-intelligence-ai-course-training-canada',
           },
           {
             id: 6,
-            name: "Full stack software developer course in Canada",
-            url: "/fullstack/canada/full-stack-software-developer-course-in-canada",
+            name: 'Full stack software developer course in Canada',
+            url: '/fullstack/canada/full-stack-software-developer-course-in-canada',
           },
         ],
       },
     ],
   },
   {
-    id: "SecondDiv",
+    id: 'SecondDiv',
     FirstDiv: [
       {
-        id: "Bangalore",
-        city: "Bangalore",
+        id: 'Bangalore',
+        city: 'Bangalore',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Bangalore",
-            url: "/datascience/bangalore/data-science-course-training-in-bangalore",
+            name: 'Data Science Course Training in Bangalore',
+            url: '/datascience/bangalore/data-science-course-training-in-bangalore',
           },
           {
             id: 2,
-            name: "Machine learning course training in Bangalore",
-            url: "/datascience/bangalore/machine-learning-course-training-in-bangalore",
+            name: 'Machine learning course training in Bangalore',
+            url: '/datascience/bangalore/machine-learning-course-training-in-bangalore',
           },
           {
             id: 3,
-            name: "data analytics course training in Bangalore",
-            url: "/datascience/bangalore/data-analytics-course-training-in-bangalore",
+            name: 'data analytics course training in Bangalore',
+            url: '/datascience/bangalore/data-analytics-course-training-in-bangalore',
           },
           {
             id: 4,
-            name: "business analytics course training in Bangalore",
-            url: "/datascience/bangalore/business-analytics-course-training-in-bangalore",
+            name: 'business analytics course training in Bangalore',
+            url: '/datascience/bangalore/business-analytics-course-training-in-bangalore',
           },
           {
             id: 5,
-            name: "artificial intelligence AI course training in Bangalore",
-            url: "/datascience/bangalore/artificial-intelligence-ai-course-training-bangalore",
+            name: 'artificial intelligence AI course training in Bangalore',
+            url: '/datascience/bangalore/artificial-intelligence-ai-course-training-bangalore',
           },
           {
             id: 6,
-            name: "Full stack software developer course in Bangalore",
-            url: "/fullstack/bangalore/full-stack-software-developer-course-in-bangalore",
+            name: 'Full stack software developer course in Bangalore',
+            url: '/fullstack/bangalore/full-stack-software-developer-course-in-bangalore',
           },
           {
             id: 7,
-            name: "Cloud Computing Course in Bangalore",
-            url: "/cloud&devops/bangalore/online-cloud-computing-course-bangalore",
+            name: 'Cloud Computing Course in Bangalore',
+            url: '/cloud&devops/bangalore/online-cloud-computing-course-bangalore',
           },
         ],
       },
       {
-        id: "Hyderabad",
-        city: "Hyderabad",
+        id: 'Hyderabad',
+        city: 'Hyderabad',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Hyderabad",
-            url: "/datascience/hyderabad/data-science-course-training-in-hyderabad",
+            name: 'Data Science Course Training in Hyderabad',
+            url: '/datascience/hyderabad/data-science-course-training-in-hyderabad',
           },
           {
             id: 2,
-            name: "Machine learning course training in Hyderabad",
-            url: "/datascience/hyderabad/machine-learning-course-training-in-hyderabad",
+            name: 'Machine learning course training in Hyderabad',
+            url: '/datascience/hyderabad/machine-learning-course-training-in-hyderabad',
           },
           {
             id: 3,
-            name: "data analytics course training in Hyderabad",
-            url: "/datascience/hyderabad/data-analytics-course-training-in-hyderabad",
+            name: 'data analytics course training in Hyderabad',
+            url: '/datascience/hyderabad/data-analytics-course-training-in-hyderabad',
           },
           {
             id: 4,
-            name: "business analytics course training in Hyderabad",
-            url: "/datascience/hyderabad/business-analytics-course-training-in-hyderabad",
+            name: 'business analytics course training in Hyderabad',
+            url: '/datascience/hyderabad/business-analytics-course-training-in-hyderabad',
           },
           {
             id: 5,
-            name: "artificial intelligence AI course training in Hyderabad",
-            url: "/datascience/hyderabad/artificial-intelligence-ai-course-training-hyderabad",
+            name: 'artificial intelligence AI course training in Hyderabad',
+            url: '/datascience/hyderabad/artificial-intelligence-ai-course-training-hyderabad',
           },
           {
             id: 6,
-            name: "Full stack software developer course in Hyderabad",
-            url: "/fullstack/hyderabad/full-stack-software-developer-course-in-hyderabad",
+            name: 'Full stack software developer course in Hyderabad',
+            url: '/fullstack/hyderabad/full-stack-software-developer-course-in-hyderabad',
           },
         ],
       },
       {
-        id: "Dubai",
-        city: "Dubai",
+        id: 'Dubai',
+        city: 'Dubai',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Dubai",
-            url: "/datascience/dubai/data-science-course-training-in-dubai",
+            name: 'Data Science Course Training in Dubai',
+            url: '/datascience/dubai/data-science-course-training-in-dubai',
           },
           {
             id: 2,
-            name: "Machine learning course training in Dubai",
-            url: "/datascience/dubai/machine-learning-course-training-in-dubai",
+            name: 'Machine learning course training in Dubai',
+            url: '/datascience/dubai/machine-learning-course-training-in-dubai',
           },
           {
             id: 3,
-            name: "data analytics course training in Dubai",
-            url: "/datascience/dubai/data-analytics-course-training-in-dubai",
+            name: 'data analytics course training in Dubai',
+            url: '/datascience/dubai/data-analytics-course-training-in-dubai',
           },
           {
             id: 4,
-            name: "business analytics course training in Dubai",
-            url: "/datascience/dubai/business-analytics-course-training-in-dubai",
+            name: 'business analytics course training in Dubai',
+            url: '/datascience/dubai/business-analytics-course-training-in-dubai',
           },
           {
             id: 5,
-            name: "artificial intelligence AI course training Dubai",
-            url: "/datascience/dubai/artificial-intelligence-ai-course-training-dubai",
+            name: 'artificial intelligence AI course training Dubai',
+            url: '/datascience/dubai/artificial-intelligence-ai-course-training-dubai',
           },
           {
             id: 6,
-            name: "Full stack software developer course in Dubai",
-            url: "/fullstack/dubai/full-stack-software-developer-course-in-dubai",
+            name: 'Full stack software developer course in Dubai',
+            url: '/fullstack/dubai/full-stack-software-developer-course-in-dubai',
           },
         ],
       },
       {
-        id: "Delhi",
-        city: "Delhi",
+        id: 'Delhi',
+        city: 'Delhi',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Delhi",
-            url: "/datascience/delhi/data-science-course-training-in-delhi",
+            name: 'Data Science Course Training in Delhi',
+            url: '/datascience/delhi/data-science-course-training-in-delhi',
           },
           {
             id: 2,
-            name: "Machine learning course training in Delhi",
-            url: "/datascience/delhi/machine-learning-course-training-in-delhi",
+            name: 'Machine learning course training in Delhi',
+            url: '/datascience/delhi/machine-learning-course-training-in-delhi',
           },
           {
             id: 3,
-            name: "data analytics course training in Delhi",
-            url: "/datascience/delhi/data-analytics-course-training-in-delhi",
+            name: 'data analytics course training in Delhi',
+            url: '/datascience/delhi/data-analytics-course-training-in-delhi',
           },
           {
             id: 4,
-            name: "business analytics course training in Delhi",
-            url: "/datascience/delhi/business-analytics-course-training-in-delhi",
+            name: 'business analytics course training in Delhi',
+            url: '/datascience/delhi/business-analytics-course-training-in-delhi',
           },
           {
             id: 5,
-            name: "artificial intelligence AI course training in Delhi",
-            url: "/datascience/delhi/artificial-intelligence-ai-course-training-delhi",
+            name: 'artificial intelligence AI course training in Delhi',
+            url: '/datascience/delhi/artificial-intelligence-ai-course-training-delhi',
           },
           {
             id: 6,
-            name: "Full stack software developer course in Delhi",
-            url: "/fullstack/delhi/full-stack-software-developer-course-in-delhi",
+            name: 'Full stack software developer course in Delhi',
+            url: '/fullstack/delhi/full-stack-software-developer-course-in-delhi',
           },
         ],
       },
@@ -309,50 +309,50 @@ export const CityFooterData = [
   },
 
   {
-    id: "SecondDiv",
+    id: 'SecondDiv',
     FirstDiv: [
       {
-        id: "kolkata",
-        city: "Kolkata",
+        id: 'kolkata',
+        city: 'Kolkata',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Kolkata",
-            url: "/datascience/india/data-science-course-training-in-kolkata",
+            name: 'Data Science Course Training in Kolkata',
+            url: '/datascience/india/data-science-course-training-in-kolkata',
           },
           ,
         ],
       },
       {
-        id: "bhubaneswar",
-        city: "Bhubaneswar",
+        id: 'bhubaneswar',
+        city: 'Bhubaneswar',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Bhubaneswar",
-            url: "/datascience/india/data-science-course-training-in-bhubaneswar",
+            name: 'Data Science Course Training in Bhubaneswar',
+            url: '/datascience/india/data-science-course-training-in-bhubaneswar',
           },
         ],
       },
       {
-        id: "nagpur",
-        city: "Nagpur",
+        id: 'nagpur',
+        city: 'Nagpur',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Nagpur",
-            url: "/datascience/india/data-science-course-training-in-nagpur",
+            name: 'Data Science Course Training in Nagpur',
+            url: '/datascience/india/data-science-course-training-in-nagpur',
           },
         ],
       },
       {
-        id: "Jaipur",
-        city: "jaipur",
+        id: 'Jaipur',
+        city: 'jaipur',
         cityData: [
           {
             id: 0,
-            name: "Data Science Course Training in Jaipur",
-            url: "/datascience/india/data-science-course-training-in-jaipur",
+            name: 'Data Science Course Training in Jaipur',
+            url: '/datascience/india/data-science-course-training-in-jaipur',
           },
         ],
       },
@@ -360,49 +360,49 @@ export const CityFooterData = [
   },
 
   {
-    id: "SecondDiv",
+    id: 'SecondDiv',
     FirstDiv: [
       {
-        id: "coimbatore",
-        city: "coimbatore",
+        id: 'coimbatore',
+        city: 'coimbatore',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in coimbatore",
-            url: "/datascience/india/data-science-course-training-in-coimbatore",
+            name: 'Data Science Course Training in coimbatore',
+            url: '/datascience/india/data-science-course-training-in-coimbatore',
           },
         ],
       },
       {
-        id: "patna",
-        city: "Patna",
+        id: 'patna',
+        city: 'Patna',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Patna",
-            url: "/datascience/india/data-science-course-training-in-patna",
+            name: 'Data Science Course Training in Patna',
+            url: '/datascience/india/data-science-course-training-in-patna',
           },
         ],
       },
       {
-        id: "noida",
-        city: "Noida",
+        id: 'noida',
+        city: 'Noida',
         cityData: [
           {
             id: 2,
-            name: "Data Science Course Training in Noida",
-            url: "/datascience/india/data-science-course-training-in-noida",
+            name: 'Data Science Course Training in Noida',
+            url: '/datascience/india/data-science-course-training-in-noida',
           },
         ],
       },
       {
-        id: "marathahalli",
-        city: "Marathahalli",
+        id: 'marathahalli',
+        city: 'Marathahalli',
         cityData: [
           {
             id: 3,
-            name: "Data Science Course Training in Marathahalli",
-            url: "/datascience/bangalore/data-data-science-course-training-in-marathahalli",
+            name: 'Data Science Course Training in Marathahalli',
+            url: '/datascience/bangalore/data-data-science-course-training-in-marathahalli',
           },
         ],
       },
@@ -410,28 +410,28 @@ export const CityFooterData = [
   },
 
   {
-    id: "SecondDiv",
+    id: 'SecondDiv',
     FirstDiv: [
       {
-        id: "indore",
-        city: "Indore",
+        id: 'indore',
+        city: 'Indore',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Indore",
-            url: "/datascience/india/data-science-course-training-in-indore",
+            name: 'Data Science Course Training in Indore',
+            url: '/datascience/india/data-science-course-training-in-indore',
           },
         ],
       },
 
       {
-        id: "kochi",
-        city: "Kochi",
+        id: 'kochi',
+        city: 'Kochi',
         cityData: [
           {
             id: 2,
-            name: "Data Science Course Training in Kochi",
-            url: "/datascience/india/data-science-course-training-in-kochi",
+            name: 'Data Science Course Training in Kochi',
+            url: '/datascience/india/data-science-course-training-in-kochi',
           },
         ],
       },
@@ -439,157 +439,157 @@ export const CityFooterData = [
   },
 
   {
-    id: "SecondDiv",
+    id: 'SecondDiv',
     FirstDiv: [
       {
-        id: "USA",
-        city: "USA",
+        id: 'USA',
+        city: 'USA',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in USA",
-            url: "/datascience/usa/data-science-course-training-in-usa",
+            name: 'Data Science Course Training in USA',
+            url: '/datascience/usa/data-science-course-training-in-usa',
           },
           {
             id: 2,
             name: "Master's Degree in Data Science in USA",
-            url: "/datascience/usa/masters-degree-in-data-science-in-usa",
+            url: '/datascience/usa/masters-degree-in-data-science-in-usa',
           },
         ],
       },
       {
-        id: "South africa",
-        city: "South africa",
+        id: 'South africa',
+        city: 'South africa',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in South africa",
-            url: "/datascience/southafrica/data-science-course-training-in-south-africa",
+            name: 'Data Science Course Training in South africa',
+            url: '/datascience/southafrica/data-science-course-training-in-south-africa',
           },
         ],
       },
       {
-        id: "nigeria",
-        city: "Nigeria",
+        id: 'nigeria',
+        city: 'Nigeria',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Nigeria",
-            url: "/datascience/nigeria/data-science-course-training-in-nigeria",
+            name: 'Data Science Course Training in Nigeria',
+            url: '/datascience/nigeria/data-science-course-training-in-nigeria',
           },
         ],
       },
       {
-        id: "singapore",
-        city: "singapore",
+        id: 'singapore',
+        city: 'singapore',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Singapore",
-            url: "/datascience/singapore/data-science-course-training-in-singapore",
+            name: 'Data Science Course Training in Singapore',
+            url: '/datascience/singapore/data-science-course-training-in-singapore',
           },
         ],
       },
     ],
   },
   {
-    id: "SecondDiv",
+    id: 'SecondDiv',
     FirstDiv: [
       {
-        id: "Bangladesh",
-        city: "Bangladesh",
+        id: 'Bangladesh',
+        city: 'Bangladesh',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Bangladesh",
-            url: "/datascience/bangladesh/data-science-course-training-in-bangladesh",
+            name: 'Data Science Course Training in Bangladesh',
+            url: '/datascience/bangladesh/data-science-course-training-in-bangladesh',
           },
           {
             id: 1,
-            name: "Data Science Course Training in Dhaka",
-            url: "/datascience/bangladesh/data-science-course-training-in-dhaka",
+            name: 'Data Science Course Training in Dhaka',
+            url: '/datascience/bangladesh/data-science-course-training-in-dhaka',
+          },
+        ],
+      },
+      // {
+      //   id: 'Vietnam',
+      //   city: 'Vietnam',
+      //   cityData: [
+      //     {
+      //       id: 1,
+      //       name: 'Data Science Course Training in Vietnam',
+      //       url: 'https://www.learnbay.co/',
+      //     },
+      //   ],
+      // },
+      {
+        id: 'Malaysia',
+        city: 'Malaysia',
+        cityData: [
+          {
+            id: 1,
+            name: 'Data Science Course Training in Malaysia',
+            url: '/datascience/malaysia/data-science-course-training-in-malaysia',
           },
         ],
       },
       {
-        id: "Vietnam",
-        city: "Vietnam",
-        cityData: [
-          {
-            id: 1,
-            name: "Data Science Course Training in Vietnam",
-            url: "/datascience/vietnam/data-science-course-training-in-vietnam",
-          },
-        ],
-      },
-      {
-        id: "Malaysia",
-        city: "Malaysia",
-        cityData: [
-          {
-            id: 1,
-            name: "Data Science Course Training in Malaysia",
-            url: "/datascience/malaysia/data-science-course-training-in-malaysia",
-          },
-        ],
-      },
-      {
-        id: "Germany",
-        city: "Germany",
+        id: 'Germany',
+        city: 'Germany',
         cityData: [
           {
             id: 1,
             name: "Master's Degree in Data Science in germany",
-            url: "/datascience/germany/master-degree-in-data-science-in-germany",
+            url: '/datascience/germany/master-degree-in-data-science-in-germany',
+          },
+        ],
+      },
+      {
+        id: 'Austin',
+        city: 'Austin',
+        cityData: [
+          {
+            id: 1,
+            name: 'Data Science Course Training in Austin',
+            url: '/datascience/austin/data-science-course-training-in-austin',
           },
         ],
       },
     ],
   },
   {
-    id: "SecondDiv",
+    id: 'SecondDiv',
     FirstDiv: [
       {
-        id: "Austin",
-        city: "Austin",
+        id: 'Egypt',
+        city: 'Egypt',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Austin",
-            url: "/datascience/austin/data-science-course-training-in-austin",
+            name: 'Data Science Course Training in Egypt',
+            url: '/datascience/egypt/data-science-course-training-in-egypt',
           },
         ],
       },
       {
-        id: "Egypt",
-        city: "Egypt",
+        id: 'UK',
+        city: 'UK',
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Egypt",
-            url: "/datascience/egypt/data-science-course-training-in-egypt",
+            name: 'Data Science Course Training in UK',
+            url: '/datascience/uk/data-science-course-training-in-uk',
           },
         ],
       },
       {
-        id: "UK",
-        city: "UK",
-        cityData: [
-          {
-            id: 1,
-            name: "Data Science Course Training in UK",
-            url: "/datascience/uk/data-science-course-training-in-uk",
-          },
-        ],
-      },
-      {
-        id: "Australia",
-        city: "Australia",
+        id: 'Australia',
+        city: 'Australia',
         cityData: [
           {
             id: 2,
             name: "Master's Degree in Data Science in Australia ",
-            url: "/datascience/australia/masters-degree-in-data-science-in-australia",
+            url: '/datascience/australia/masters-degree-in-data-science-in-australia',
           },
         ],
       },
@@ -626,98 +626,98 @@ export const CityFooterData = [
 
 export const HeadData = [
   {
-    id: "Learnbay",
-    Head: "Learnbay",
+    id: 'Learnbay',
+    Head: 'Learnbay',
     LearnbayData: [
       {
         id: 1,
-        url: "/about-us",
-        name: "About Us",
+        url: '/about-us',
+        name: 'About Us',
       },
       {
         id: 2,
-        url: "/contact-us",
-        name: "Contact Us",
+        url: '/contact-us',
+        name: 'Contact Us',
       },
       {
         id: 3,
-        url: "/demo",
-        name: "Demo",
+        url: '/demo',
+        name: 'Demo',
       },
       {
         id: 4,
-        url: "https://blog.learnbay.co/",
-        name: "Blogs",
+        url: 'https://blog.learnbay.co/',
+        name: 'Blogs',
       },
     ],
   },
   {
-    id: "Terms",
-    Head: "Terms",
+    id: 'Terms',
+    Head: 'Terms',
     LearnbayData: [
       {
         id: 1,
-        url: "/terms-conditions",
-        name: "Terms and Conditions",
+        url: '/terms-conditions',
+        name: 'Terms and Conditions',
       },
       {
         id: 2,
-        url: "/refund-cancellation-policy",
-        name: "Refund/Cancellation policy",
+        url: '/refund-cancellation-policy',
+        name: 'Refund/Cancellation policy',
       },
       {
         id: 3,
-        url: "/privacy-policy",
-        name: "Privacy Policy",
+        url: '/privacy-policy',
+        name: 'Privacy Policy',
       },
     ],
   },
 ];
 export const genHeadData = [
   {
-    id: "Learnbay",
-    Head: "Learnbay",
+    id: 'Learnbay',
+    Head: 'Learnbay',
     LearnbayData: [
       {
         id: 1,
-        url: "",
-        name: "About Us",
+        url: '',
+        name: 'About Us',
       },
       {
         id: 2,
-        url: "",
-        name: "Contact Us",
+        url: '',
+        name: 'Contact Us',
       },
       {
         id: 3,
-        url: "",
-        name: "Demo",
+        url: '',
+        name: 'Demo',
       },
       {
         id: 4,
-        url: "",
-        name: "Blogs",
+        url: '',
+        name: 'Blogs',
       },
     ],
   },
   {
-    id: "Terms",
-    Head: "Terms",
+    id: 'Terms',
+    Head: 'Terms',
     LearnbayData: [
       {
         id: 1,
-        url: "/terms-conditions",
-        name: "Terms and Conditions",
+        url: '/terms-conditions',
+        name: 'Terms and Conditions',
       },
       {
         id: 2,
-        url: "/refund-cancellation-policy",
-        name: "Refund/Cancellation policy",
+        url: '/refund-cancellation-policy',
+        name: 'Refund/Cancellation policy',
       },
       {
         id: 3,
-        url: "/privacy-policy",
-        name: "Privacy Policy",
+        url: '/privacy-policy',
+        name: 'Privacy Policy',
       },
     ],
   },
@@ -725,141 +725,141 @@ export const genHeadData = [
 
 export const CourseData = [
   {
-    id: "Courses",
-    Head: "Courses",
+    id: 'Courses',
+    Head: 'Courses',
     Courses: [
       {
         id: 7,
-        name: "Generative AI and Agentic AI Master Program for Working Professionals",
-        url: "https://www.learnbay.co/genai-and-agentic-ai-master-program",
+        name: 'Generative AI and Agentic AI Master Program for Working Professionals',
+        url: 'https://www.learnbay.co/genai-and-agentic-ai-master-program',
       },
       {
         id: 7,
-        name: "GenAI & Agentic AI Course for Managers & Leaders",
-        url: "https://www.learnbay.co/genai-agentic-ai-managers-leaders",
+        name: 'GenAI & Agentic AI Course for Managers & Leaders',
+        url: 'https://www.learnbay.co/genai-agentic-ai-managers-leaders',
       },
       {
         id: 7,
-        name: "GenAI and Agentic AI Program for Cloud & DevOps",
-        url: "https://www.learnbay.co/genai-agentic-ai-for-cloud-devops",
+        name: 'GenAI and Agentic AI Program for Cloud & DevOps',
+        url: 'https://www.learnbay.co/genai-agentic-ai-for-cloud-devops',
       },
       {
         id: 7,
-        name: "GenAI & Agentic AI Course for Software Developers",
-        url: "https://www.learnbay.co/artificial-intelligence/genai-software-developers",
+        name: 'GenAI & Agentic AI Course for Software Developers',
+        url: 'https://www.learnbay.co/artificial-intelligence/genai-software-developers',
       },
       {
         id: 8,
-        name: "Gen AI and Agentic AI Certification Program",
-        url: "https://www.learnbay.co/genai-agentic-ai-program",
+        name: 'Gen AI and Agentic AI Certification Program',
+        url: 'https://www.learnbay.co/genai-agentic-ai-program',
       },
       {
         id: 7,
-        name: "Applied AI Practitioner Program ",
-        url: "https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program",
+        name: 'Applied AI Practitioner Program ',
+        url: 'https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program',
       },
 
       {
         id: 1,
-        url: "https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
-        name: "AI-Powered Cloud And DevOps Engineering Course",
+        url: 'https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
+        name: 'AI-Powered Cloud And DevOps Engineering Course',
       },
       {
         id: 2,
-        url: "https://www.learnbay.co/cloud-and-devops-for-network-professionals",
-        name: "Cloud & DevOps training for Network Professionals",
+        url: 'https://www.learnbay.co/cloud-and-devops-for-network-professionals',
+        name: 'Cloud & DevOps training for Network Professionals',
       },
       {
         id: 3,
-        url: "https://www.learnbay.co/cloud-and-devops-for-system-administrators",
-        name: "Cloud & DevOps Program For System Administrators",
+        url: 'https://www.learnbay.co/cloud-and-devops-for-system-administrators',
+        name: 'Cloud & DevOps Program For System Administrators',
       },
       {
         id: 4,
-        url: "https://www.learnbay.co/advanced-cloud-and-devops-program",
-        name: "Advanced Cloud and DevOps Training Program",
+        url: 'https://www.learnbay.co/advanced-cloud-and-devops-program',
+        name: 'Advanced Cloud and DevOps Training Program',
       },
       {
         id: 5,
-        url: "https://www.learnbay.co/cloud-and-devops-for-it-support-and-it-operations",
-        name: "Cloud & DevOps Course for IT Support & Operations",
+        url: 'https://www.learnbay.co/cloud-and-devops-for-it-support-and-it-operations',
+        name: 'Cloud & DevOps Course for IT Support & Operations',
       },
       {
         id: 6,
-        url: "https://www.learnbay.co/cloud-and-devops-for-database-administrators",
-        name: "Cloud & DevOps Certification for Database Admins",
+        url: 'https://www.learnbay.co/cloud-and-devops-for-database-administrators',
+        name: 'Cloud & DevOps Certification for Database Admins',
       },
       {
         id: 7,
-        url: "https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai",
-        name: "SDE Master Program For Software Developers",
+        url: 'https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai',
+        name: 'SDE Master Program For Software Developers',
       },
       {
         id: 8,
-        url: "https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program",
-        name: "Data Science and GenAI Master Certification Program",
+        url: 'https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program',
+        name: 'Data Science and GenAI Master Certification Program',
       },
       {
         id: 7,
-        name: "Data Science and GenAI Program",
-        url: "https://www.learnbay.co/data-science-genai-program",
+        name: 'Data Science and GenAI Program',
+        url: 'https://www.learnbay.co/data-science-genai-program',
       },
 
       {
         id: 8,
-        name: "Data Analytics & Business Analytics Course with Gen AI ",
-        url: "https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course",
+        name: 'Data Analytics & Business Analytics Course with Gen AI ',
+        url: 'https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course',
       },
       {
         id: 9,
-        name: "Master of Science in Computer Science with a Specialisation Certificate in Data Science and AI",
-        url: "https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs",
+        name: 'Master of Science in Computer Science with a Specialisation Certificate in Data Science and AI',
+        url: 'https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs',
       },
     ],
   },
 ];
 export const GnCourseData = [
   {
-    id: "Courses",
-    Head: "Courses",
+    id: 'Courses',
+    Head: 'Courses',
     Courses: [
       {
         id: 1,
 
-        name: "Advance Data Science and AI Certification",
+        name: 'Advance Data Science and AI Certification',
       },
       {
         id: 2,
 
-        name: "Advance AI and ML Certification Course",
+        name: 'Advance AI and ML Certification Course',
       },
       {
         id: 3,
 
-        name: "Master in CS: Data Science and AI",
+        name: 'Master in CS: Data Science and AI',
       },
       {
         id: 4,
 
-        name: "Software Development Certification Course",
+        name: 'Software Development Certification Course',
       },
       {
         id: 5,
 
-        name: "Business Analytics Course",
+        name: 'Business Analytics Course',
       },
       {
         id: 6,
 
-        name: "Data Analytics Course",
+        name: 'Data Analytics Course',
       },
       {
         id: 7,
-        name: "Advanced Cloud Computing & DevOps Certification Course",
+        name: 'Advanced Cloud Computing & DevOps Certification Course',
       },
       {
         id: 7,
-        name: "Certificate in AWS Cloud Computing & Devops",
+        name: 'Certificate in AWS Cloud Computing & Devops',
       },
     ],
   },
@@ -868,47 +868,47 @@ export const GnCourseData = [
 export const puneLocation = [
   {
     id: 1,
-    cityName: "Pune",
+    cityName: 'Pune',
     location:
-      "Ofc No. 408, 4th Floor, City Space, Opp To Fiserv, Viman Nagar, Pune, Maharashtra 411014",
+      'Ofc No. 408, 4th Floor, City Space, Opp To Fiserv, Viman Nagar, Pune, Maharashtra 411014',
   },
 ];
 
 export const OtherLocation = [
   {
     id: 1,
-    cityName: "Mumbai",
+    cityName: 'Mumbai',
     location:
-      "Business Centre, 2nd Floor, Apeejay House, Dinshaw Vacha Road, Churchgate, Mumbai, Maharashtra 400020",
+      'Business Centre, 2nd Floor, Apeejay House, Dinshaw Vacha Road, Churchgate, Mumbai, Maharashtra 400020',
   },
   {
     id: 2,
-    cityName: "Delhi (NCR)",
+    cityName: 'Delhi (NCR)',
     location:
-      " Office number:3,Ground Floor,Building Number D13, sector : 3, Noida, Uttar Pradesh 201301",
+      ' Office number:3,Ground Floor,Building Number D13, sector : 3, Noida, Uttar Pradesh 201301',
   },
   {
     id: 3,
-    cityName: "Kolkata",
+    cityName: 'Kolkata',
     location:
-      "Ambuja Neotia EcoCentre 15th Floor, EM-4,EM-Block, Sector 5 Kolkata 700091",
+      'Ambuja Neotia EcoCentre 15th Floor, EM-4,EM-Block, Sector 5 Kolkata 700091',
   },
   {
     id: 4,
-    cityName: "Hyderabad",
+    cityName: 'Hyderabad',
     location:
-      "C9WH+W92, HUDA Techno Enclave, HITEC City, Hyderabad, Telangana 500081",
+      'C9WH+W92, HUDA Techno Enclave, HITEC City, Hyderabad, Telangana 500081',
   },
   {
     id: 5,
-    cityName: "Bangalore",
+    cityName: 'Bangalore',
     location:
-      "1090 1st floor, 18th Cross Road, above Sangam Sweets, Sector 3, HSR Layout, Bengaluru, Karnataka 560102",
+      '1090 1st floor, 18th Cross Road, above Sangam Sweets, Sector 3, HSR Layout, Bengaluru, Karnataka 560102',
   },
   {
     id: 6,
-    cityName: "Chennai",
+    cityName: 'Chennai',
     location:
-      "Apeejay Business Centre, Phone Booth, 1st Floor, Apeejay House, 39/12 Haddows Road, Nungambakkam, Chennai 600 006",
+      'Apeejay Business Centre, Phone Booth, 1st Floor, Apeejay House, 39/12 Haddows Road, Nungambakkam, Chennai 600 006',
   },
 ];

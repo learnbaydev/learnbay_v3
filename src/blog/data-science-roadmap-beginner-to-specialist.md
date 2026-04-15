@@ -201,7 +201,7 @@ A data science online course enables you to work on the trending GenAI projects 
 <p style="font-size:  1.2rem;margin: 0; padding: 0;">• Designing conversational AI voice assistants</p>
 <p style="font-size:  1.2rem;margin: 0; padding: 0;">• Multi-agent interaction tools</p>
 
-The <a heref="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program" target="_blank">best advanced data science courses</a> will provide you with an open training space to master these skills and become a specialist in 2026. Plus, aspirants should stay updated with the <a href="https://www.learnbay.co/blogs/latest-data-science-trends" target="_blank">latest trends in data science</a> to strengthen their positions in 2026.
+The <a href="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program" target="_blank">best advanced data science courses</a> will provide you with an open training space to master these skills and become a specialist in 2026. Plus, aspirants should stay updated with the <a href="https://www.learnbay.co/blogs/latest-data-science-trends" target="_blank">latest trends in data science</a> to strengthen their positions in 2026.
 
 ## Phase 4: Understanding Production & Model Deployments
 
