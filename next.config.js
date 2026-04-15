@@ -1886,13 +1886,6 @@ const nextConfig = {
         permanent: true,
       },
 
-      // {
-      //   source: '/datascience/Vietnam/data-science-course-training-in-Vietnam',
-      //   destination:
-      //     '/datascience/vietnam/data-science-course-training-in-vietnam',
-      //   permanent: true,
-      // },
-
       {
         source: '/data-science-course-training-bangalore',
         destination:
@@ -1956,6 +1949,18 @@ const nextConfig = {
       {
         source: '/verify-certi',
         destination: '/verify-certificate',
+        permanent: true,
+      },
+
+      {
+        source: '/datascience/vietnam/data-science-course-training-in-vietnam',
+        destination: 'https://www.learnbay.co/',
+        permanent: true,
+      },
+
+      {
+        source: '/datascience/Vietnam/data-science-course-training-in-Vietnam',
+        destination: 'https://www.learnbay.co/',
         permanent: true,
       },
     ];

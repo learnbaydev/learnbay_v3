@@ -15,7 +15,7 @@ export const DSVietnamCourseData = [
       author: {
         '@type': 'Organization',
         name: 'Learnbay',
-        url: 'https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam',
+        url: 'https://www.learnbay.co/',
       },
       publisher: {
         '@type': 'Organization',
