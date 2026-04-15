@@ -757,7 +757,11 @@
 	</url>
 
 	
-
+<url>
+	<loc>https://www.learnbay.co/blogs/data-science-roadmap-beginner-to-specialist</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
 	
 
 </urlset>
