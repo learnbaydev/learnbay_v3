@@ -6,9 +6,10 @@ keywords: 'data science roadmap, data science training program, roadmap for data
 date: '15/04/2026'
 author: 'Nivin Biswas'
 readTime: '7 min'
-image: 'https:/d32and0ii3b8oy.cloudfront.net/adlearnbay/Advanced+Data+Science+Roadmap_+Beginner+to+Specialist_.webp'
-imagephone: 'https:/d32and0ii3b8oy.cloudfront.net/adlearnbay/Advanced+Data+Science+Roadmap_+Beginner+to+Specialist_.webp'
+image: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Advanced+Data+Science+Roadmap_+Beginner+to+Specialist_.webp'
+imagephone: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Advanced+Data+Science+Roadmap_+Beginner+to+Specialist_.webp'
 alt: 'Blog banner image: Advanced Data Science Roadmap: Beginner to Specialist featuring a person in VR.'
+datePublished: '2026-08-10T08:00:00+08:00'
 
 faqs:
   - question: 'Is data science still in demand in 2026?'
