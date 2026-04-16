@@ -1,14 +1,14 @@
 ---
-title: "Are Data Scientist Jobs Declining Due to AI Agents?"
-Stitle: "The Truth About AI Replacing Data Science Jobs – Learnbay"
-description: "Is AI replacing data science jobs? Explore facts, myths, & insights about future careers to understand how data scientists can stay relevant in the AI era."
-keywords: "data scientist jobs,data science skills,data science career opportunities,what are ai agents,will ai replace data scientists,data science vs ai,ai in data science,future of data scientists"
-date: "14-01-2026"
-author: "Sonalisha Mohanty"
-readTime: "12 min"
-image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Blog+banner+image+titled+-+will+ai+replace+data+scientists.webp"
-imagephone: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Blog+banner+image+titled+-+will+ai+replace+data+scientists.webp"
-alt: "Will AI agents replace data scientists? Blog banner with a glowing AI brain and floating icons."
+title: 'Are Data Scientist Jobs Declining Due to AI Agents?'
+Stitle: 'The Truth About AI Replacing Data Science Jobs – Learnbay'
+description: 'Is AI replacing data science jobs? Explore facts, myths, & insights about future careers to understand how data scientists can stay relevant in the AI era.'
+keywords: 'data scientist jobs,data science skills,data science career opportunities,what are ai agents,will ai replace data scientists,data science vs ai,ai in data science,future of data scientists'
+date: '14-01-2026'
+author: 'Sonalisha Mohanty'
+readTime: '12 min'
+image: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Blog+banner+image+titled+-+will+ai+replace+data+scientists.webp'
+imagephone: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Blog+banner+image+titled+-+will+ai+replace+data+scientists.webp'
+alt: 'Will AI agents replace data scientists? Blog banner with a glowing AI brain and floating icons.'
 ---
 
 ## Will AI Replace Data Scientists? – Facts & Insights
