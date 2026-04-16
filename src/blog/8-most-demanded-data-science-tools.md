@@ -35,7 +35,7 @@ We can apply different tools in varying steps. However, understanding these tool
 
 Apache Spark can handle batch and process streams like other <b>data analytics tools</b> (Hadoop). It is among the best tools for data science, capable of handling large data volumes.<br/>
 
-It can access real-time information from data sources, which is a huge improvement over other <b>trending data science tools</br> that can only handle historical data.
+It can access real-time information from data sources, which is a huge improvement over other <b>trending data science tools</b> that can only handle historical data.
 
 Spark processes data using the cluster management system. The system allows it to process applications at lightning speed. Due to its varied built-in <b>machine learning APIs,</b> it is also used as a <a href="https://blog.learnbay.co/top-8-machine-learning-tools-you-should-know-in-2023" target="_blank">machine learning tool</a>.
 
@@ -89,7 +89,7 @@ Around 60,000 companies use this tool to create <b>interactive dashboards</b> an
 
 ## 5. TensorFlow:-
 
-<b>TensorFlow</b> is one of the best tools in data science and has wider applications.. Recent uses include <a href="https://blog.learnbay.co/nlp-and-deep-learning-for-data-scientists" target="_blank">NLP</a> for creating machines capable of understanding human language, <a href="https://blog.learnbay.co/handwriting-recognition-an-excellent-ai-innovation-in-ocr-technology" target="_blank">handwriting recognition</a>, image classification, and recurrent neural networks.
+<b>TensorFlow</b> is one of the best tools in data science and has wider applications.Recent uses include <a href="https://blog.learnbay.co/nlp-and-deep-learning-for-data-scientists" target="_blank">NLP</a> for creating machines capable of understanding human language, <a href="https://blog.learnbay.co/handwriting-recognition-an-excellent-ai-innovation-in-ocr-technology" target="_blank">handwriting recognition</a>, image classification, and recurrent neural networks.
 
 Data scientists can use this tool in drug discovery, speech recognition, image and language generation, and more applications. It got the name ''Tensor'' from the data type used in this tool which is an N-dimensional array.
 
