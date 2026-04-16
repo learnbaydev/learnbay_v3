@@ -1,10 +1,10 @@
 // JobAbroad.js
-import Image from "next/image";
-import React, { useState } from "react";
-import Styles from "./JobAbroad.module.css";
-import Link from "next/link";
-import Form from "../../Global/Form/Form";
-import Popup from "../../Global/Popup/Popup";
+import Image from 'next/image';
+import React, { useState } from 'react';
+import Styles from './JobAbroad.module.css';
+import Link from 'next/link';
+import Form from '../../Global/Form/Form';
+import Popup from '../../Global/Popup/Popup';
 const JobAbroad = ({
   data,
   WolfLink,
@@ -36,7 +36,7 @@ const JobAbroad = ({
           <div className="leftPopup">
             <div
               className="whiteP"
-              style={{ width: "340px", height: "400px" }}
+              style={{ width: '340px', height: '400px' }}
             ></div>
           </div>
           <div className="RightPopup">
@@ -93,13 +93,13 @@ const JobAbroad = ({
             <>
               {WolfLink ? (
                 <p className={Styles.woolfText}>
-                  Learnbay Excelversity is a constituent college affiliated with{" "}
-                  <a href="https://woolf.university">
+                  Learnbay Excelversity is a constituent college of{' '}
+                  <a href="https://woolf.education">
                     <span className={Styles.spanWoolf}>Woolf, EU</span>
                   </a>
                 </p>
               ) : (
-                ""
+                ''
               )}
             </>
           </div>
