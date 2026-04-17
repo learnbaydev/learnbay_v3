@@ -530,11 +530,13 @@ export default function Home() {
               Courselink3={AIDubaiCourseData[0].Courselink3}
               Courselink4={AIDubaiCourseData[0].Courselink4}
               Courselink5={AIDubaiCourseData[0].Courselink5}
+              Courselink6={AIDubaiCourseData[0].Courselink6}
               Course1={AIDubaiCourseData[0].Course1}
               Course2={AIDubaiCourseData[0].Course2}
               Course3={AIDubaiCourseData[0].Course3}
               Course4={AIDubaiCourseData[0].Course4}
               Course5={AIDubaiCourseData[0].Course5}
+              Course6={AIDubaiCourseData[0].Course6}
               DomainHead1={AIDubaiCourseData[0].DomainHead1}
               DomainBot1={AIDubaiCourseData[0].DomainBot1}
               DomainBot2={AIDubaiCourseData[0].DomainBot2}

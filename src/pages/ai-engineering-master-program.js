@@ -10,6 +10,7 @@ import BottomBar from '@/components/Global/BottomBar/BottomBar';
 import Navbar from '@/components/Global/Navbar/Navbar';
 import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import { parseJSONData } from '@/Util/JsonConvertor';
+import { link } from 'fs';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 const ProgramSection = dynamic(
@@ -125,6 +126,15 @@ const NewDSA = ({ DSADataJson }) => {
           list3:
             'BYOP+Mentorship to resolve your own issues under a mentor’s guidance',
           list4: 'IBM and Microsoft credentials to validate your AI skills',
+          Note: 'You can also check:',
+          linkText1: 'Data Science and AI Master Certification Program',
+          linkText2: 'GenAI and Agentic AI Master Program',
+          linkText3: 'GenAI Agentic AI Managers and Leaders Program',
+          link1:
+            '/datascience/data-science-and-ai-master-certification-program',
+          link2: '/genai-and-agentic-ai-master-program',
+          link3: '/genai-agentic-ai-managers-leaders',
+          link: true,
         },
       ],
     },

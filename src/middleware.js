@@ -123,6 +123,12 @@ export function middleware(req) {
         '/cloud&devops/bangalore/online-cloud-computing-course-bangalore/',
       destination: '/cloud&devops/online-cloud-computing-course-bangalore',
     },
+    {
+      source:
+        '/cloud&amp;devops/executive-program-in-cloud-and-devops-by-iit-guwahati/',
+      destination:
+        '/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati',
+    },
   ];
 
   const redirect = redirects.find((r) => r.source === pathname);

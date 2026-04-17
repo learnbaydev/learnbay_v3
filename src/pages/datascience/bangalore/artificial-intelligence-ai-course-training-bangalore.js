@@ -563,11 +563,13 @@ export default function Home() {
               Courselink3={DataScienceCourseData[0].Courselink3}
               Courselink4={DataScienceCourseData[0].Courselink4}
               Courselink5={DataScienceCourseData[0].Courselink5}
+              Courselink6={DataScienceCourseData[0].Courselink6}
               Course1={DataScienceCourseData[0].Course1}
               Course2={DataScienceCourseData[0].Course2}
               Course3={DataScienceCourseData[0].Course3}
               Course4={DataScienceCourseData[0].Course4}
               Course5={DataScienceCourseData[0].Course5}
+              Course6={DataScienceCourseData[0].Course6}
               DomainHead1={DataScienceCourseData[0].DomainHead1}
               DomainBot1={DataScienceCourseData[0].DomainBot1}
               DomainBot2={DataScienceCourseData[0].DomainBot2}

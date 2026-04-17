@@ -500,11 +500,13 @@ export default function Home() {
               Courselink3={AIcanadaCourseData[0].Courselink3}
               Courselink4={AIcanadaCourseData[0].Courselink4}
               Courselink5={AIcanadaCourseData[0].Courselink5}
+              Courselink6={AIcanadaCourseData[0].Courselink6}
               Course1={AIcanadaCourseData[0].Course1}
               Course2={AIcanadaCourseData[0].Course2}
               Course3={AIcanadaCourseData[0].Course3}
               Course4={AIcanadaCourseData[0].Course4}
               Course5={AIcanadaCourseData[0].Course5}
+              Course6={AIcanadaCourseData[0].Course6}
               DomainHead1={AIcanadaCourseData[0].DomainHead1}
               DomainBot1={AIcanadaCourseData[0].DomainBot1}
               DomainBot2={AIcanadaCourseData[0].DomainBot2}

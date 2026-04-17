@@ -542,11 +542,11 @@
 		<priority>0.80</priority>
 	</url>
 
-	<url>
+	<!-- <url>
 		<loc>https://www.learnbay.co/datascience/data-science-and-ai-for-healthcare-professionals</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
-	</url>
+	</url> -->
 	<url>
 		<loc>https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati</loc>
 		<changefreq>daily</changefreq>
@@ -562,11 +562,11 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
-	<url>
+	<!-- <url>
 		<loc>https://www.learnbay.co/fullstack/dsa-course-training-pune</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
-	</url>
+	</url> -->
 
 	<url>
 		<loc>https://www.learnbay.co/ai-co-lab</loc>
@@ -575,11 +575,11 @@
 	</url>
 
 
-	<url>
+	<!-- <url>
 		<loc>https://www.learnbay.co/advanced-cyber-security-course-training</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
-	</url>
+	</url> -->
 
 	<url>
 		<loc>https://www.learnbay.co/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee</loc>
@@ -587,11 +587,11 @@
 		<priority>0.80</priority>
 	</url>
 
-	<url>
+	<!-- <url>
 		<loc>https://www.learnbay.co/fullstack/data-structure-algorithm-online-course-training</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
-	</url>
+	</url> -->
 	<url>
 		<loc>https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-fullstack-professionals</loc>
 		<changefreq>daily</changefreq>
@@ -618,11 +618,11 @@
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
-	<url>
+	<!-- <url>
 		<loc>https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
-	</url>
+	</url> -->
 	<url>
 		<loc>https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters</loc>
 		<changefreq>daily</changefreq>
@@ -633,11 +633,11 @@
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
-	<url>
+	<!-- <url>
 		<loc>https://www.learnbay.co/artificial-intelligence/generative-ai-for-managers</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
-	</url>
+	</url> -->
 
 	<url>
 		<loc>https://www.learnbay.co/blogs/tech-non-tech-careers-bangalore-guide</loc>
