@@ -2,7 +2,7 @@
 title: 'How to Choose the Right Data Science Program for Your Career Goals'
 description: 'Evaluate and outline your skills to choose a proven data science program that aligns with your career goals.'
 keywords: 'best data science online programs, data science course online, online certification in data science, learn data science online'
-date: '07/20/2023'
+date: '03/04/2026'
 author: 'Manas Kochar'
 readTime: '6.5 min'
 image: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/dscg.webp'
