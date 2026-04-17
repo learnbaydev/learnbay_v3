@@ -983,6 +983,7 @@ export const AIDubaiCourseData = [
     Courselink4: '/genai-and-agentic-ai-master-program',
     Courselink5:
       '/datascience/data-science-and-ai-master-certification-program',
+    Courselink6: '/ai-engineering-master-program',
 
     // Updated Anchor Texts
     Course1: 'Data Science and Gen AI Program.',
@@ -990,6 +991,7 @@ export const AIDubaiCourseData = [
     Course3: 'Applied AI Practitioner Program.',
     Course4: 'Artificial Intelligence for Managers & Leaders',
     Course5: 'Data Science and AI master program', // Kept as per "don't change" instruction
+    Course6: 'AI Engineering Master Program',
     DomainBot1:
       'Mastering artificial intelligence tools and techniques is not the only thing you need to be successful in this field. It is recommended that learners specialize in a certain area of expertise or Domain before applying for  AI or ML jobs. Besides, domain knowledge helps us achieve a high level of precision and accuracy. Domain specialization not only helps in salary boost but also enables you to handle job duties more efficiently. In one world, domain specialization makes your data science career more sustainable in the real sense.',
     DomainBot2:

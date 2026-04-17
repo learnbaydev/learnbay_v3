@@ -840,12 +840,14 @@ export const DataScienceCourseData = [
     Courselink3: '/artificial-intelligence-certification-course',
     Courselink4: '/data-science-ai-for-managers',
     Courselink5: '/data-science-ai-masters-program',
+    Courselink6: '/ai-engineering-master-program',
     Course1:
       'Data Science and AI Foundation Program with industry-specific training',
     Course2: 'Advanced Data Science and AI Program with domain specialization',
     Course3: 'AI & ML Program for tech professionals',
     Course4: 'Data Science and AI Program For Manager & Leaders',
     Course5: 'Data Science and AI master program',
+    Course6: 'AI Engineering Master Program',
     DomainHead1:
       ' Why is domain specialization important in job-ready  Artificial intelligence training in Bangalore?',
     DomainBot1:

@@ -831,12 +831,14 @@ The fees of this artificial intelligence course in Mumbai is 1,59,000 INR exclud
     Courselink3: '/artificial-intelligence-certification-course',
     Courselink4: '/data-science-ai-for-managers',
     Courselink5: '/data-science-ai-masters-program',
+    Courselink6: '/ai-engineering-master-program',
     Course1:
       'Data Science and AI Foundation Program with industry-specific training',
     Course2: 'Advanced Data Science and AI Program with domain specialization',
     Course3: 'AI & ML Program for tech professionals',
     Course4: 'Data Science and AI Program For Manager & Leaders',
     Course5: 'Data Science and AI master program',
+    Course6: 'AI Engineering Master Program',
     DomainHead1: 'Why Domain Specialization?',
     DomainBot1:
       'Domain-focused Artificial intelligence courses are the ultimate key to AI career success today. Domain specialization plays an important role in the artificial intelligence workplace. Since the things you learn can be diverse, it helps you concentrate on one area so the AI solutions can be applied with the most of its efficacy and processing power to that specific field.',

@@ -833,12 +833,14 @@ export const AIChennaiCourseData = [
     Courselink3: '/artificial-intelligence-certification-course',
     Courselink4: '/data-science-ai-for-managers',
     Courselink5: '/data-science-ai-masters-program',
+    Courselink6: '/ai-engineering-master-program',
     Course1: 'Foundational Data Science and AI Program',
     Course2: 'Advanced-Data Science and AI Program with Domain Specialization',
     Course3:
       'Artificial Intelligence and Machine Learning Program with Domain Specialization',
     Course4: 'Data Science and AI Program for Managers and Leaders',
     Course5: 'Data Science and AI master program',
+    Course6: 'AI Engineering Master Program',
     DomainHead1: 'Why Domain Specialization?',
     DomainBot1:
       'Domain specialization is all about focusing your efforts on one specific area to help you stand out in a crowded artificial intelligence job marketplace. Besides, Domain expertise is the key secret to being a successful artificial intelligence developer. The role of artificial intelligence experts or application developers is very diverse; hence they must possess deep knowledge and domain expertise in artificial intelligence applications and the latest AI and ML tools. This is why you should consider domain-specialized AI and ML courses to get your desired job.',

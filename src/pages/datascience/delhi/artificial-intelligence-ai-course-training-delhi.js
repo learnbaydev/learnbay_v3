@@ -583,11 +583,13 @@ export default function Home() {
               Courselink3={AIelhiCourseData[0].Courselink3}
               Courselink4={AIelhiCourseData[0].Courselink4}
               Courselink5={AIelhiCourseData[0].Courselink5}
+              Courselink6={AIelhiCourseData[0].Courselink6}
               Course1={AIelhiCourseData[0].Course1}
               Course2={AIelhiCourseData[0].Course2}
               Course3={AIelhiCourseData[0].Course3}
               Course4={AIelhiCourseData[0].Course4}
               Course5={AIelhiCourseData[0].Course5}
+              Course6={AIelhiCourseData[0].Course6}
               DomainHead1={AIelhiCourseData[0].DomainHead1}
               DomainBot1={AIelhiCourseData[0].DomainBot1}
               DomainBot2={AIelhiCourseData[0].DomainBot2}
