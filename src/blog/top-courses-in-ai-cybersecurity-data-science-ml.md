@@ -8,7 +8,7 @@ author: 'Sonalisha Mohanty'
 readTime: '5.5 min'
 image: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/top-course-banner.png'
 imagephone: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/top-course-banner.png'
-alt: 'AI, Cybersecurity, Data Science, and Machine Learning courses.'
+alt: 'Learnbay blog banner of top courses to master data science and AI.'
 datePublished: '2026-04-08T08:00:00+08:00'
 
 faqs:
