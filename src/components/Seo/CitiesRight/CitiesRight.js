@@ -6770,7 +6770,10 @@ const CitiesRight = ({
         <div className={styles.CitiesRightInner}>
           <h2 className={styles.pHead}>{DomainHead1}</h2>
           <p className={styles.pp}>{DomainBot1}</p>
-          <p className={styles.pp}>{DomainBot2}</p>
+          <p
+            className={styles.pp}
+            dangerouslySetInnerHTML={{ __html: DomainBot2 }}
+          />
           <h2 className={styles.pHead}>{DomainHead2}</h2>
           <p className={styles.pp}>{DomainBot4}</p>
           <p className={styles.pp}>{DomainBot5}</p>
@@ -6998,7 +7001,10 @@ const CitiesRight = ({
               <p className={styles.pp}>{ModuleMasterBot1}</p>
               <h2 className={styles.pHead}>{ModuleHead1}</h2>
               <h4 style={{ fontSize: '16px' }}>{ModuleMasterHead1}</h4>
-              <p className={styles.pp}>{ModuleBot1}</p>
+              <p
+                className={styles.pp}
+                dangerouslySetInnerHTML={{ __html: ModuleBot1 }}
+              />
               <p className={styles.pp}>{ModuleBot2}</p>
               <p className={styles.pp}>
                 <b>{ModuleBotL21}</b>
