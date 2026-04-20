@@ -137,7 +137,7 @@ Plus, the <b>future of AI</b> emphasizes that computer vision may be employed al
 
 This is the right time to invest in these <b>artificial intelligence trends</b>, not only for businesses but also for individuals who can benefit from learning all about the <b>AI trends 2026</b>.
 
-To grab the upcoming opportunities in AI, professionals can upgrade themselves with the <a href="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program" target="_blank"> Data Science and GenAI Master Certification </a> Program by Learnbay. This will help them remain ahead of the curve by learning under the supervision of skilled mentors. Furthermore, you can develop practical skills through live, real-world applications.
+To grab the upcoming opportunities in AI, professionals can upgrade themselves with the <a href="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program" target="_blank"> Data Science and GenAI Master Certification </a> Program by Learnbay. If you are already in a leadership position and want to secure your further growth with GenAI skill without starting anew, you can choose <a href="https://www.learnbay.co/genai-agentic-ai-managers-leaders" target="_blank" >GenAI and Agentic AI Course for Managers and Leaders.</a> This will help them remain ahead of the curve by learning under the supervision of skilled mentors. Furthermore, you can develop practical skills through live, real-world applications.
 
 <!-- ## FAQs:
 

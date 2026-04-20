@@ -48,7 +48,7 @@ Automation is one of the promising <b>data scientist trends</b> for experts eage
 
 <Image src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/working-with-agentic-ai.webp" style="width:100%" class="img" alt="An illustration of a person at data screens under a glowing digital brain, symbolizing agentic AI"/></br>
 
-Gen AI is the latest buzzing AI trend that leads to a proactive future. Gen AI empowers data experts to tackle complex cases effortlessly. The tech experts can use Gen AI in various ways to manage crucial tasks with assured gains.
+Gen AI is the latest buzzing <a href=" https://www.learnbay.co/blogs/top-ai-trends" target="_blank">AI trend</a> that leads to a proactive future. Gen AI empowers data experts to tackle complex cases effortlessly. The tech experts can use Gen AI in various ways to manage crucial tasks with assured gains.
 
 **<i>Why should data scientists know this trend? –</i>**
 
