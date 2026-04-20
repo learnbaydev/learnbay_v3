@@ -618,11 +618,7 @@
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
-	<!-- <url>
-		<loc>https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.90</priority>
-	</url> -->
+	
 	<url>
 		<loc>https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters</loc>
 		<changefreq>daily</changefreq>
@@ -633,11 +629,7 @@
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
-	<!-- <url>
-		<loc>https://www.learnbay.co/artificial-intelligence/generative-ai-for-managers</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.90</priority>
-	</url> -->
+	
 
 	<url>
 		<loc>https://www.learnbay.co/blogs/tech-non-tech-careers-bangalore-guide</loc>
