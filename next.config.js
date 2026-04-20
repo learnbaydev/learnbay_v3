@@ -1733,6 +1733,20 @@ const nextConfig = {
       },
 
       {
+        source:
+          '/artificial-intelligence/generative-ai-course-for-data-science-professionals',
+        destination: '/',
+        permanent: true,
+      },
+
+      {
+        source:
+          '/artificial-intelligence/generative-ai-course-for-fullstack-professionals',
+        destination: '/',
+        permanent: true,
+      },
+
+      {
         source: '/data-science-course/terms-and-conditions',
         destination: '/terms-conditions',
         permanent: true,

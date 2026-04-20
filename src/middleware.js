@@ -99,6 +99,12 @@ export function middleware(req) {
       destination:
         '/artificial-intelligence/generative-ai-course-for-data-science-professionals',
     },
+
+    {
+      source:
+        '/artificial-intelligence/generative-ai-course-for-data-science-professionals',
+      destination: 'https://www.learnbay.co/ ',
+    },
     {
       source:
         '/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee/',
@@ -110,6 +116,13 @@ export function middleware(req) {
       destination:
         '/artificial-intelligence/generative-ai-course-for-fullstack-professionals',
     },
+
+    {
+      source:
+        '/artificial-intelligence/generative-ai-course-for-fullstack-professionals',
+      destination: 'https://www.learnbay.co/ ',
+    },
+
     {
       source: '/cloud&devops/pune/online-cloud-computing-course-pune/',
       destination: '/cloud&devops/online-cloud-computing-course-pune',
