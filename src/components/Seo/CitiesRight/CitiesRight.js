@@ -7174,7 +7174,10 @@ const CitiesRight = ({
           <p className={styles.pp}>{JobBot5}</p>
           <h2 className={styles.pHead}>{JobHead2}</h2>
           <p className={styles.pp}>{JobBot3}</p>
-          <p className={styles.pp}>{JobBot4}</p>
+          <p
+            className={styles.pp}
+            dangerouslySetInnerHTML={{ __html: JobBot4 }}
+          />
           <p className={styles.pp}>{JobBot6}</p>
           <h2 className={styles.pHead}>{JobHead3}</h2>
           <p className={styles.pp}>{JobBot7}</p>
