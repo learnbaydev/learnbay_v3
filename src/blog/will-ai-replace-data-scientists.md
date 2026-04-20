@@ -82,7 +82,7 @@ The answer is no, not completely, until you learn. Yes, that’s right. Data sci
 
 The digital age focuses on the growing role of AI agents, which empower firms to achieve competitive results. The rise of AI agents has sparked a serious debate on <b>‘Will AI replace data scientists?’</b>. In the interim, many have made various theories about the evolving role of AI agents in crucial tasks. This creates fear among experts of job loss, layoffs, and other risks.
 
-No wonder <b>AI in data science</b> roles and duties has challenged their positions. Many data science experts fear getting replaced by AI agents and systems. Yet, AI agents are unlikely to remove human experts from the workspace completely. Read more to bust the myths of AI agents replacing data scientists.
+No wonder <b>AI in data science</b> roles and duties has challenged their positions. If you check the latest <a href="https://www.learnbay.co/blogs/latest-data-science-trends" target="_blank" >data science trends,</a> many data science experts fear getting replaced by AI agents and systems. Yet, AI agents are unlikely to remove human experts from the workspace completely. Read more to bust the myths of AI agents replacing data scientists.
 
 <b>Myth 1</b>: AI agents are better than chatbots and can delegate tasks to get meaningful returns.
 
