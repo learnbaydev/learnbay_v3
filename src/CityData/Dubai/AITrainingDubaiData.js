@@ -1001,7 +1001,7 @@ export const AIDubaiCourseData = [
     DomainList3: '• Energy, Oil and Gas',
     DomainList4: '• Healthcare',
     DomainList5: '• Supply Chain, E-Commerce & Retail',
-    DomainList6: '• Trending Tech/Non Tech Careers in Bangalore',
+
     Domainlink1:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf',
     Domainlink2:
@@ -1012,8 +1012,6 @@ export const AIDubaiCourseData = [
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf',
     Domainlink5:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf',
-    Domainlink6:
-      'https://www.learnbay.co/blogs/tech-non-tech-careers-bangalore-guide',
 
     CertificationHead1:
       'Learnbay has achieved a remarkable breakthrough by partnering with IBM.',

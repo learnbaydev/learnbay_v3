@@ -542,11 +542,7 @@
 		<priority>0.80</priority>
 	</url>
 
-	<!-- <url>
-		<loc>https://www.learnbay.co/datascience/data-science-and-ai-for-healthcare-professionals</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url> -->
+	
 	<url>
 		<loc>https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati</loc>
 		<changefreq>daily</changefreq>
@@ -562,11 +558,7 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
-	<!-- <url>
-		<loc>https://www.learnbay.co/fullstack/dsa-course-training-pune</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url> -->
+	
 
 	<url>
 		<loc>https://www.learnbay.co/ai-co-lab</loc>
@@ -575,11 +567,7 @@
 	</url>
 
 
-	<!-- <url>
-		<loc>https://www.learnbay.co/advanced-cyber-security-course-training</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url> -->
+	
 
 	<url>
 		<loc>https://www.learnbay.co/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee</loc>
