@@ -643,7 +643,10 @@ const CitiesRight = ({
             {' '}
             {bAnalystAbout ? (
               <div style={{ marginBottom: '40px' }}>
-                <p className={styles.pp}>{ProgramBot1}</p>
+                <p
+                  className={styles.pp}
+                  dangerouslySetInnerHTML={{ __html: ProgramBot1 }}
+                />
                 <p className={styles.pp}>{ProgramBot2}</p>
                 <p className={styles.pp}>{ProgramBot3}</p>
                 <p className={styles.pp}>{ProgramBot4}</p>

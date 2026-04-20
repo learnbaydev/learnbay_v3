@@ -749,8 +749,8 @@ export const BAnalystPuneCourseData = [
         ],
       },
     ],
-    ProgramBot1:
-      'Learnbay introduces you to the application-based learning of the business analyst. The learning materials of this course make you aware of the functionalities of business functions and investigative methods. You can implement these methods to get evidence-based insights. The design of the course module is smart and offers an all-inclusive learning experience.',
+    ProgramBot1: `Learnbay introduces you to the application-based learning of the business analyst. The learning materials of <b><a href="https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course" target="_blank">Data Analytics and Business Analytics with GenAI</a></b> make you aware of the functionalities of business functions and investigative methods. You can implement these methods to get evidence-based insights. The design of the course module is smart and offers an all-inclusive learning experience.`,
+
     ProgramBot3:
       'The business analyst training in Pune helps you upskill with live sessions, doubt-clearing, etc. This certification has global acclamation and is curated in alliance with IBM and Microsoft. Anyone can pursue this course with an undergraduate award and more than a quarter of professional experience. ',
     ProgramBot4:
