@@ -1682,13 +1682,12 @@ const nextConfig = {
       {
         source:
           '/cloud&amp;devops/cloud-computing-online-course-training-institute',
-        destination:
-          '/cloud&devops/cloud-computing-online-course-training-institute',
+        destination: 'https://www.learnbay.co/',
         permanent: true,
       },
       {
         source: '/cloud&amp;devops/devops-online-course-training-institute',
-        destination: '/cloud&devops/devops-online-course-training-institute',
+        destination: 'https://www.learnbay.co/',
         permanent: true,
       },
       {

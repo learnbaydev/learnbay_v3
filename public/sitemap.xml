@@ -531,16 +531,8 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
-	<url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/devops-online-course-training-institute</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/cloud-computing-online-course-training-institute</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url>
+	
+	
 
 	
 	<url>

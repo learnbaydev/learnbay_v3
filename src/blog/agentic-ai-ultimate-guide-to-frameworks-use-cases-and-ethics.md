@@ -124,7 +124,7 @@ Indeed, Agentic AI has revamped modern-day businesses, paving the way for an aut
 
 Agentic AI has become the latest version of AI models, navigating the future of modern businesses. It embraces cutting-edge methods, proactively tackles industry intricacies, and thrives. Hence, in-depth learning of <b>Agentic AI frameworks</b> and their uses has become vital for users.
 
-The <b>Agentic AI roadmap</b> stresses upskilling for overall learning and career progress. Enrolling in a <a href="https://www.learnbay.co/genai-and-agentic-ai-master-program" target="_blank">GenAI and Agentic AI Master Program</a>is worth investing in. Its <i>IBM and Microsoft Backed certifications</i> empower you to excel in your field with Agentic AI skills. In case you are targeting a leadership role then you can course <a href="https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-data-science-professionals" target="_blank">Managers and Leaders exclusive Agentic AI Course.</a>
+The <b>Agentic AI roadmap</b> stresses upskilling for overall learning and career progress. Enrolling in a <a href="https://www.learnbay.co/genai-and-agentic-ai-master-program" target="_blank">GenAI and Agentic AI Master Program</a> is worth investing in. Its <i>IBM and Microsoft Backed certifications</i> empower you to excel in your field with Agentic AI skills. In case you are targeting a leadership role then you can course <a href="https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-data-science-professionals" target="_blank">Managers and Leaders exclusive Agentic AI Course.</a>
 
 <!-- ## FAQs:–
 
