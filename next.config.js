@@ -1976,6 +1976,18 @@ const nextConfig = {
         destination: 'https://www.learnbay.co/',
         permanent: true,
       },
+      {
+        source:
+          '/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati',
+        destination: 'https://www.learnbay.co',
+        permanent: true,
+      },
+      {
+        source:
+          '/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee',
+        destination: 'https://www.learnbay.co',
+        permanent: true,
+      },
     ];
   },
 };
