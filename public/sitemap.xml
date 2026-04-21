@@ -748,6 +748,12 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
+
+	<url>
+	<loc>https://www.learnbay.co/blogs/accelerate-data-science-careers-in-agentic-ai</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
 	
 
 </urlset>
