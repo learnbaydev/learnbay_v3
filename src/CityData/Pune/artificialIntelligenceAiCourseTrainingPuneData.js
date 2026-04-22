@@ -837,7 +837,8 @@ Two AI Co-Lab Project Certificates
     DomainBot1:
       'Artificial intelligence is a very broad concept, and it has a lot of sub-sets under it. Domain specialization in Artificial intelligence makes students an expert using AI tools within a particular industry. This is why Learnbay provides a list of the Domain for students to choose from. Learnbay covers almost all domains from manufacturing to logistics, from banking to the oil and gas sector. We know that every industry needs different requirements and has different best practices for handling data or building AI software.',
     DomainBot2:
-      "Learnbay mentors and guides analyze candidates' profiles and accordingly suggest respective domains to students. Presently, recruiters are not much interested in which University certificate you hold. Rather they are madly concerned about your domain expertise. A normally certified  AI expert with finance domain knowledge gets a better candidature score than a master's degree holder in AI without a finance background in Banking.",
+      "Learnbay mentors and guides analyze candidates' profiles and accordingly suggest respective domains to students. Presently, recruiters are not much interested in which University certificate you hold. Rather they are madly concerned about your domain expertise. A normally certified AI expert with finance domain knowledge gets a better candidature score than a master's degree holder in AI without a finance background in Banking. </br>Also read: <b><a href='https://www.learnbay.co/blogs/master-tech-layoffs-survival-skills' target='_blank' >Master Future-Proof Skills to Survive Tech Layoff</b></a>",
+
     DomainBot3: 'List of available Domain-Electivess',
     DomainList1: '• BFSI',
     DomainList2: '• Manufacturing',

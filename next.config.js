@@ -1682,13 +1682,12 @@ const nextConfig = {
       {
         source:
           '/cloud&amp;devops/cloud-computing-online-course-training-institute',
-        destination:
-          '/cloud&devops/cloud-computing-online-course-training-institute',
+        destination: 'https://www.learnbay.co/',
         permanent: true,
       },
       {
         source: '/cloud&amp;devops/devops-online-course-training-institute',
-        destination: '/cloud&devops/devops-online-course-training-institute',
+        destination: 'https://www.learnbay.co/',
         permanent: true,
       },
       {
@@ -1729,6 +1728,20 @@ const nextConfig = {
         source: '/datascience/generative-ai-course-for-managers',
         destination:
           '/artificial-intelligence/generative-ai-course-for-data-science-professionals',
+        permanent: true,
+      },
+
+      {
+        source:
+          '/artificial-intelligence/generative-ai-course-for-data-science-professionals',
+        destination: '/',
+        permanent: true,
+      },
+
+      {
+        source:
+          '/artificial-intelligence/generative-ai-course-for-fullstack-professionals',
+        destination: '/',
         permanent: true,
       },
 
@@ -1961,6 +1974,18 @@ const nextConfig = {
       {
         source: '/datascience/Vietnam/data-science-course-training-in-Vietnam',
         destination: 'https://www.learnbay.co/',
+        permanent: true,
+      },
+      {
+        source:
+          '/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati',
+        destination: 'https://www.learnbay.co',
+        permanent: true,
+      },
+      {
+        source:
+          '/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
     ];

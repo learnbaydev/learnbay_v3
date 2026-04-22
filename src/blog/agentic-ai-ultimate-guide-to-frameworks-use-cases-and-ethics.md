@@ -1,14 +1,14 @@
 ---
-title: "A Guide to Agentic AI Frameworks, Use Cases, and Ethical Issues"
-Stitle: "Agentic AI: Ultimate Guide To Frameworks, Use Cases & Ethics"
-description: "Discover Agentic AI: Explore top frameworks, real-world use cases, and ethical challenges. A guide for upskilling and mastering the future of AI."
-keywords: "Agentic AI, Agentic AI framework, agentic ai course, What is agentic AI, Agentic AI vs Generative AI, agentic AI architecture, Agentic AI use cases, agentic ai roadmap, Top agentic AI frameworks"
-date: "14-04-2025"
-author: "Sonalisha Mohanty"
-readTime: "4.5 min"
-image: "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/agentic-ai-technology-illustration_updated.webp"
-imagephone: "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/agentic-ai-technology-illustration+_phone.webp"
-alt: "An illustration of agentic AI concept with robotic hands holding digital brain on tech background."
+title: 'A Guide to Agentic AI Frameworks, Use Cases, and Ethical Issues'
+Stitle: 'Agentic AI: Ultimate Guide To Frameworks, Use Cases & Ethics'
+description: 'Discover Agentic AI: Explore top frameworks, real-world use cases, and ethical challenges. A guide for upskilling and mastering the future of AI.'
+keywords: 'Agentic AI, Agentic AI framework, agentic ai course, What is agentic AI, Agentic AI vs Generative AI, agentic AI architecture, Agentic AI use cases, agentic ai roadmap, Top agentic AI frameworks'
+date: '14-04-2025'
+author: 'Sonalisha Mohanty'
+readTime: '4.5 min'
+image: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/agentic-ai-technology-illustration_updated.webp'
+imagephone: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/agentic-ai-technology-illustration+_phone.webp'
+alt: 'An illustration of agentic AI concept with robotic hands holding digital brain on tech background.'
 ---
 
 According to <a href="https://www.mordorintelligence.com/industry-reports/agentic-ai-market" rel="nofollow" target="_blank"> Mordor Intelligence reports</a>, the global Agentic AI market is expected to grow 41.48% by 2030. As digital innovation continues to grow, Agentic AI creates a new history. Unlike traditional AI systems, Agentic AI has revolutionized the tech industry with future-intelligent systems. The 21st Century’s splendid creation in the form of Agentic AI sets the basis for autonomous work practices and decision-making. Yet, the latest buzz spins around ‘<i><b>What is Agentic AI and how does it work in real-world settings?</b></i>’ This blog guides you through the <b>Agentic AI frameworks</b>, uses, key risks, and future trends. Also, career fanatics can follow the guide to redefine their careers via an Agentic AI course.
@@ -124,7 +124,7 @@ Indeed, Agentic AI has revamped modern-day businesses, paving the way for an aut
 
 Agentic AI has become the latest version of AI models, navigating the future of modern businesses. It embraces cutting-edge methods, proactively tackles industry intricacies, and thrives. Hence, in-depth learning of <b>Agentic AI frameworks</b> and their uses has become vital for users.
 
-The <b>Agentic AI roadmap</b> stresses upskilling for overall learning and career progress. Enrolling in a **[](https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-data-science-professionals)** <a href="https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-data-science-professionals" target="_blank">GenAI Certification for Managers and Tech Leaders Course </a> is worth investing in. Its _<b>E&ICT Academy, IIT Guwahati certifications</b>_ empower you to excel in your field with Agentic AI skills.
+The <b>Agentic AI roadmap</b> stresses upskilling for overall learning and career progress. Enrolling in a <a href="https://www.learnbay.co/genai-and-agentic-ai-master-program" target="_blank">GenAI and Agentic AI Master Program</a> is worth investing in. Its <i>IBM and Microsoft Backed certifications</i> empower you to excel in your field with Agentic AI skills. In case you are targeting a leadership role then you can course <a href="https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-data-science-professionals" target="_blank">Managers and Leaders exclusive Agentic AI Course.</a>
 
 <!-- ## FAQs:–
 

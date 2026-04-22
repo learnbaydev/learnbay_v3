@@ -861,7 +861,7 @@ export const MLBangaloreCourseData = [
     JobBot3:
       'Moreover, there are various industry-paced exclusive hackathons and webinars to participate in. This also increases your chances of referrals.',
     JobBot4:
-      "As already told, you get Multiple mock-interview sessions by Artificial intelligence and Machine learning experts of specific domains and product MNC's/job roles. The job assistance program consists of tips and tricks, suggestions for building a remarkable resume, and an online portfolio.",
+      "As already told, you get Multiple mock-interview sessions by Artificial intelligence and Machine learning experts of specific domains and product MNC's/job roles. The job assistance program consists of tips and tricks, suggestions for building a remarkable resume, and an online portfolio.</br>Check this: <b><a href='https://www.learnbay.co/blogs/tech-non-tech-careers-bangalore-guide' target='_blank'>Trending Tech/Non Tech Careers in Bangalore</a></b>",
     ProjectsBot1:
       'Learnbay is keen on students to work on live ML projects, and capstones as the existence of properly done projects would be a key factor in their resume or portfolio. The Learnbay Machine Learning course in Bangalore contains 15 real-time projects and 2 capstone projects. Get IBM certificates for completing the course and projects (separate certificate for industrial project experience by IBM).',
     src1: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png',
