@@ -1,9 +1,9 @@
-import { React, useState } from "react";
-import styles from "./content.module.css";
-import Form from "../../Global/Form/Form";
-import Popup from "../../Global/Popup/Popup";
-import Button from "@/components/Global/Button/Button";
-import Link from "next/link";
+import { React, useState } from 'react';
+import styles from './content.module.css';
+import Form from '../../Global/Form/Form';
+import Popup from '../../Global/Popup/Popup';
+import Button from '@/components/Global/Button/Button';
+import Link from 'next/link';
 
 function DataAnalytics({
   daba,
@@ -50,7 +50,7 @@ function DataAnalytics({
         <div className="leftPopup">
           <div
             className="whiteP"
-            style={{ width: "350px", height: "400px" }}
+            style={{ width: '350px', height: '400px' }}
           ></div>
         </div>
         <div className="RightPopup">
@@ -66,26 +66,26 @@ function DataAnalytics({
             Specialization
           </h2>
           <p>
-            Enhance your career with our online{" "}
+            Enhance your career with our online{' '}
             <b>Data Structures and Algorithms course</b>. Enroll in a
             specialized data structures and algorithms program with
             industry-leading education. Our Advanced DSA course modules will
             help you become a DSA Specialist through expert mentorship, globally
             recognized certifications, and live training sessions.
           </p>
-          <h4 style={{ fontSize: "24px" }}>About Learnbay's DSA Course</h4>
-          <h3 style={{ fontSize: "20px" }}>Course Description</h3>
+          <h4 style={{ fontSize: '24px' }}>About Learnbay's DSA Course</h4>
+          <h3 style={{ fontSize: '20px' }}>Course Description</h3>
           <p>
-            Learnbay provides the{" "}
+            Learnbay provides the{' '}
             <b>best Data Structures and Algorithms course</b> with comprehensive
             DSA modules for learners to learn from the best mentors and offers
             placement opportunities in top MNCs. Professionals or learners will
-            gain basic and advanced technical skills by enrolling in the{" "}
+            gain basic and advanced technical skills by enrolling in the{' '}
             <b>best DSA course</b>. They learn in mentor-led live sessions,
             practice their skills in real-world projects, and earn IBM &
             Microsoft certificates for help in placements.
           </p>
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Why study data structures and algorithms?
           </h3>
           {read ? (
@@ -146,8 +146,8 @@ function DataAnalytics({
                     coding interview rounds.
                   </p>
                 </li>
-              </ul>{" "}
-              <h3 style={{ fontSize: "20px" }}>
+              </ul>{' '}
+              <h3 style={{ fontSize: '20px' }}>
                 Why enroll in the DSA courses?
               </h3>
               <p>
@@ -200,7 +200,7 @@ function DataAnalytics({
                 <li>
                   <b>• Projects</b>
                   <p>
-                    The <b>data structures and algorithms online course</b>{" "}
+                    The <b>data structures and algorithms online course</b>{' '}
                     comes with our two capstone and 10+ real-time projects;
                     learners get the chance to experience working in a real
                     industrial environment. The projects range from mechanical
@@ -228,8 +228,8 @@ function DataAnalytics({
                     complex industry problems.
                   </p>
                 </li>
-              </ul>{" "}
-              <h3 style={{ fontSize: "20px" }}>What is career counseling?</h3>
+              </ul>{' '}
+              <h3 style={{ fontSize: '20px' }}>What is career counseling?</h3>
               <p>
                 Learnbay provides help to those learners who have difficulty
                 choosing the right career for themselves. We provide experts to
@@ -239,7 +239,7 @@ function DataAnalytics({
                 counselors will help you choose the best system design course
                 with optimal benefits.
               </p>
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Who is eligible for the DSA and System Design Course?
               </h3>
               <p>
@@ -259,7 +259,7 @@ function DataAnalytics({
                   to gain software development skills.
                 </li>
               </ul>
-              <h3 style={{ fontSize: "20px" }}>What are domain electives?</h3>
+              <h3 style={{ fontSize: '20px' }}>What are domain electives?</h3>
               <p>
                 Domain electives help learners gain real-world project
                 experience in their preferred sector. Learnbay provides domain
@@ -275,7 +275,7 @@ function DataAnalytics({
                 <li>Web 3.0 Developer</li>
                 <li>Data Science and AI</li>
               </ul>
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Are domain electives helpful in algorithms and data structures?
               </h3>
               <p>
@@ -321,7 +321,7 @@ function DataAnalytics({
                 <b>Term 4:- System Design</b>
               </p>
               <p>
-                {" "}
+                {' '}
                 Learn DSA and system design concepts in this module. Learners
                 will be taught every idea, from basics, design principles, and
                 scalability to integration and deployment. This allows them to
@@ -333,23 +333,23 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
       {DSANewContent ? (
         <div className={styles.content}>
@@ -358,26 +358,26 @@ function DataAnalytics({
             Specialization
           </h2>
           <p>
-            Enhance your career with our online{" "}
+            Enhance your career with our online{' '}
             <b>Data Structures and Algorithms course.</b> Enroll in a
             specialized data structures and algorithms program with
             industry-leading education. Our advanced modules will help you
             become a DSA Specialist through expert mentorship, industry
             recognized certifications, and live training sessions.
           </p>
-          <h4 style={{ fontSize: "24px" }}>About Learnbay's DSA Course</h4>
-          <h3 style={{ fontSize: "20px" }}>Course Description</h3>
+          <h4 style={{ fontSize: '24px' }}>About Learnbay's DSA Course</h4>
+          <h3 style={{ fontSize: '20px' }}>Course Description</h3>
           <p>
-            Learnbay provides the{" "}
+            Learnbay provides the{' '}
             <b>best Data Structures and Algorithms course</b> with comprehensive
             DSA modules for learners to learn from the best mentors and offers
             placement opportunities in top MNCs. Professionals or learners will
-            gain basic and advanced technical skills by enrolling in the{" "}
+            gain basic and advanced technical skills by enrolling in the{' '}
             <b>best DSA course.</b> They learn in mentor-led live sessions,
             practice their skills in real-world projects, and earn a Learnbay
             certificate followed by placements.
           </p>
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Why study data structures and algorithms?
           </h3>
           <p>
@@ -386,7 +386,7 @@ function DataAnalytics({
             Certainly, the best Data Structures and Algorithms courses are
             required to create efficient programs. However, as this concept is
             complex, most beginners choose to defer from their study of DSA.
-            Below are the reasons why joining{" "}
+            Below are the reasons why joining{' '}
             <b>courses on data structures and algorithms</b> is essential:
           </p>
           <b>• Understand programming languages</b>
@@ -396,7 +396,7 @@ function DataAnalytics({
             languages are based on DSA, so understanding their concepts helps
             solve complex problems. Libraries and APIs are also significant in
             programming, and DSA knowledge helps us understand how to utilize
-            them in the programs efficiently. Plus, experts can refine{" "}
+            them in the programs efficiently. Plus, experts can refine{' '}
             <b>data structures and algorithms in Java</b> for an in-depth
             understanding of programming languages.
           </p>
@@ -406,7 +406,7 @@ function DataAnalytics({
             company of their choice. The recruitment drives for these companies
             include testing a candidate's problem-solving abilities. They want
             to hire programmers capable of solving large and complicated
-            problems. The <b>best course on data structures and algorithms</b>{" "}
+            problems. The <b>best course on data structures and algorithms</b>{' '}
             enhances a candidate's proficiency with programming basics, i.e.,
             Algorithms and Data Structures.
           </p>
@@ -417,21 +417,21 @@ function DataAnalytics({
             structures that take less space and algorithms that run the code in
             less time. This helps limit the usage of company resources.
           </p>
-          <h3 style={{ fontSize: "20px" }}>Why enroll in the DSA courses?</h3>
+          <h3 style={{ fontSize: '20px' }}>Why enroll in the DSA courses?</h3>
           {read ? (
             <>
               <p>
                 Learnbay's <b>data structures online course</b> allows learners
                 to learn from home. In this fast-paced world, everyone needs to
                 manage their time efficiently. Learners can manage their time
-                and study effectively by enrolling in the <b>best DSA course</b>{" "}
+                and study effectively by enrolling in the <b>best DSA course</b>{' '}
                 that enhances their overall learning experience.
               </p>
               <b>• Mentor led classes</b>
               <p>
-                Learners study in line with mentor-led 100% live online{" "}
+                Learners study in line with mentor-led 100% live online{' '}
                 <b>data structures and algorithms class.</b> They are provided
-                with expert mentors who help them throughout the{" "}
+                with expert mentors who help them throughout the{' '}
                 <b>DSA course online.</b> Learners get 1:1 doubt-clearing
                 sessions with the mentors. They can also choose their preferred
                 batch from weekends and weekdays to study and maintain a
@@ -439,7 +439,7 @@ function DataAnalytics({
               </p>
               <b>• Hand on experience</b>
               <p>
-                Learners can practice solving real-time problems in a{" "}
+                Learners can practice solving real-time problems in a{' '}
                 <b>data structures and algorithms course.</b> Mentors are
                 present for guidance in case they get stuck. They will develop
                 and learn advanced DSA skills with the help of mentors. There
@@ -468,11 +468,11 @@ function DataAnalytics({
                 designs. Learners get the chance to experience working in a real
                 industrial environment to enrich system implementations. The
                 projects will help you tackle GenAI-rich system models and have
-                seamless LLMs integration.{" "}
+                seamless LLMs integration.{' '}
               </p>
               <b>• Certifications</b>
               <p>
-                Certifications from accredited organizations are provided in the{" "}
+                Certifications from accredited organizations are provided in the{' '}
                 <b>data structures online course</b> to assist learners in
                 getting their dream jobs. Aspirants enrolling in our DSA course
                 will earn a course completion certificate from Learnbay. It
@@ -480,17 +480,17 @@ function DataAnalytics({
                 practical skills developed. Learners can also impress recruiters
                 with certificates from reputable organizations.
               </p>
-              <h3 style={{ fontSize: "20px" }}>What is career counseling?</h3>
+              <h3 style={{ fontSize: '20px' }}>What is career counseling?</h3>
               <p>
                 Learnbay provides help to those learners who have difficulty
                 choosing the right career for themselves. We provide experts to
                 help you make the right choice and understand the field in which
                 you are interested in joining. You can schedule your session
                 online and get the expert help you require. In short, our
-                counselors will help you choose the{" "}
+                counselors will help you choose the{' '}
                 <b>best system design course</b> with optimal benefits.
               </p>
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Who is eligible for the DSA and System Design Course?
               </h3>
               <p>
@@ -508,7 +508,7 @@ function DataAnalytics({
                   <b>• Aspirants with a minimum of 1+ years of experience</b>
                 </li>
               </ul>
-              <h3 style={{ fontSize: "20px" }}>What are domain electives?</h3>
+              <h3 style={{ fontSize: '20px' }}>What are domain electives?</h3>
               <p>
                 Domain electives help learners gain real-world project
                 experience in their preferred sector. Learnbay provides domain
@@ -531,7 +531,7 @@ function DataAnalytics({
                   <b>• Product Management</b>
                 </li>
               </ul>
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Are domain electives helpful in algorithms and data structures?
               </h3>
               <p>
@@ -544,7 +544,7 @@ function DataAnalytics({
                 their programming skills and expertise to help them quickly
                 grasp the DSA concepts.
               </p>
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 How is Learnbay’s DSA course module structured with maximum
                 gains?
               </h3>
@@ -563,7 +563,7 @@ function DataAnalytics({
               </p>
               <b>Term 2:- Data Structures & Algorithms</b>
               <p>
-                This module familiarises learners with basic{" "}
+                This module familiarises learners with basic{' '}
                 <b>DSA and system design course</b> concepts. Concepts such as
                 recursion, time/space complexity, searching/sorting techniques,
                 dynamic programming, and different types of data structures like
@@ -584,7 +584,7 @@ function DataAnalytics({
                 Learners will be taught high-level and low-level design
                 principles, and scalability to integration and deployment. It
                 will help you master key skills to work with APIs, GenAI, and
-                complex databases.{" "}
+                complex databases.{' '}
               </p>
               {/* <ul>
                 <li>
@@ -825,40 +825,40 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
       {DSAFresherContent ? (
         <div className={styles.content}>
           <h2>DSA Course with Placement Prep – For Freshers & Students</h2>
           <p>
-            Enhance your problem-solving skills with Learnbay's{" "}
+            Enhance your problem-solving skills with Learnbay's{' '}
             <b>best DSA course</b>. Join the industry's most talked-about DSA
             program, exclusively curated for freshers entering the realm of
             software development. Enroll today to hone your coding skills and
             crack top-rated product-based interviews.
           </p>
 
-          <h4 style={{ fontSize: "24px" }}>About Learnbay's DSA Course </h4>
-          <h3 style={{ fontSize: "20px" }}>Course Description</h3>
+          <h4 style={{ fontSize: '24px' }}>About Learnbay's DSA Course </h4>
+          <h3 style={{ fontSize: '20px' }}>Course Description</h3>
           <p>
             Learnbay envisions a bright tech future for aspirants willing to
-            kick-start their careers in software development. Its all-inclusive{" "}
+            kick-start their careers in software development. Its all-inclusive{' '}
             <b>Data Structures and Algorithms Course</b> for freshers and
             students sets the primary stage. This course is designed thoroughly
             for freshers and beginners seeking promising tech roles.
@@ -871,7 +871,7 @@ function DataAnalytics({
             projects, placement preparation, and certification.
           </p>
 
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Who is eligible for Learnbay’s best DSA course?
           </h3>
           {read ? (
@@ -879,12 +879,12 @@ function DataAnalytics({
               <p>
                 Today’s tech job market outlook lures aspirants to gain an upper
                 career edge via constant upskilling. Meanwhile, Learnbay
-                introduces the industry’s <b>best DSA course for beginners</b>{" "}
+                introduces the industry’s <b>best DSA course for beginners</b>{' '}
                 with placement preparation. Our commitment to empower India’s
                 future talents ends at our fingertips.
               </p>
               <p>
-                Hence, check your eligibility to join the course and{" "}
+                Hence, check your eligibility to join the course and{' '}
                 <b>learn data structures and algorithms</b> from scratch.
               </p>
               <ul>
@@ -906,7 +906,7 @@ function DataAnalytics({
                   </b>
                 </li>
               </ul>
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Introduction to Data Structures and Algorithms Course
               </h3>
               <p>
@@ -915,7 +915,7 @@ function DataAnalytics({
                 competition imposes career threats for fresh graduates,
                 freshers, and students willing to join the tech domain. To
                 support their career journey, many DSA courses are being
-                introduced. Freshers joining the course can{" "}
+                introduced. Freshers joining the course can{' '}
                 <b>learn data structures and algorithms from scratch</b>.
               </p>
               <p>
@@ -939,8 +939,8 @@ function DataAnalytics({
                 competitive edge for freshers willing to build proven tech
                 careers.
               </p>
-              <h3 style={{ fontSize: "20px" }}></h3>
-              <h3 style={{ fontSize: "20px" }}>Importance of Learning DSA</h3>
+              <h3 style={{ fontSize: '20px' }}></h3>
+              <h3 style={{ fontSize: '20px' }}>Importance of Learning DSA</h3>
               <p>
                 Freshers and students eager to kick-start a thriving tech career
                 must <b>learn data structures and algorithms from scratch</b>.
@@ -984,11 +984,11 @@ function DataAnalytics({
                   </p>
                 </li>
               </ul>
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Why Join Learnbay’s Best DSA Course for Beginners?
               </h3>
               <p>
-                Enrolling in a course is essential to{" "}
+                Enrolling in a course is essential to{' '}
                 <b>learn data structures and algorithms from scratch</b>.
                 Freshers can master in-demand DSA concepts to enrich the worth
                 of their careers and excel. Joining Learnbay’s inclusively
@@ -1004,7 +1004,7 @@ function DataAnalytics({
                   <b>100% instructor-led online training sessions </b>
                   <p>
                     Freshers, final-year students, and fresh graduates can opt
-                    for Learnbay to{" "}
+                    for Learnbay to{' '}
                     <b>learn data structures and algorithms from scratch</b>.
                     It’s 100% online classes with personalized 1:1
                     doubt-clearing guides you to become industry-ready. Its
@@ -1071,13 +1071,13 @@ function DataAnalytics({
                   </p>
                 </li>
               </ul>
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Is Learnbay’s DSA online course curriculum helpful for freshers?
               </h3>
               <p>
                 Yes. Learnbay’s exclusive introduction to data structures and
                 algorithms career path for freshers is worth investing in. The
-                DSA course online syllabus is grouped into two parts –{" "}
+                DSA course online syllabus is grouped into two parts –{' '}
               </p>
               <ul>
                 <li>
@@ -1126,20 +1126,21 @@ function DataAnalytics({
                     DSA learning has become essential for freshers willing to
                     build a thriving tech career. Freshers can opt for IBM
                     certification programs, Google data structure and algorithm
-                    courses, etc. Yet, Learnbay’s career-specific dive into the{" "}
+                    courses, etc. Yet, Learnbay’s career-specific dive into the{' '}
                     <b>DSA course</b> equips freshers with exciting perks. Join
                     us to excel in your future and crack critical technical
                     interviews.
                   </p>
                 </li>
               </ul>
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 How does the placement preparation module for freshers help?
               </h3>
               <p>
                 Learnbay’s historic introduction to data structures and
                 algorithms with placement prep sets an example of hassle-free
-                learning. Its placement preparation module covers three stages –{" "}
+                learning. Its placement preparation module covers three stages
+                –{' '}
               </p>
               <ul>
                 <li>
@@ -1156,14 +1157,14 @@ function DataAnalytics({
                   <b>• Project-based prep:</b> Freshers will work on a
                   final-year project under their mentor’s guidance and feedback.
                 </li>
-              </ul>{" "}
+              </ul>{' '}
               <p>
                 In short, Learnbay’s DSA course equips you with the skills to
                 crack critical technical interviews with assured gains. Hence,
                 join the course today and take your first career step.
               </p>
-              <h3 style={{ fontSize: "20px" }}>Essential Reminders!!</h3>
-              <h5 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>Essential Reminders!!</h3>
+              <h5 style={{ fontSize: '20px' }}>
                 1. Which language is best for DSA?
               </h5>
               <p>
@@ -1174,7 +1175,7 @@ function DataAnalytics({
                 Hence, Java/C++ programming languages are mostly used in DSA;
                 you must learn them.
               </p>
-              <h5 style={{ fontSize: "20px" }}>2. What is the MERN stack?</h5>
+              <h5 style={{ fontSize: '20px' }}>2. What is the MERN stack?</h5>
               <p>
                 MERN stack full form depicts MongoDB, Express, React, and Node.
                 It denotes a pre-built stack technology that runs on JavaScript.
@@ -1183,34 +1184,34 @@ function DataAnalytics({
               </p>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
 
       {Advance ? (
         <div className={styles.content}>
-          <h2 style={{ fontSize: "30px" }}>
+          <h2 style={{ fontSize: '30px' }}>
             Proliferate Your Success Probabilities With An Advanced
-            Certification In Data Science and AI.{" "}
+            Certification In Data Science and AI.{' '}
           </h2>
           <p>
             Interested in Data Science and AI, build a solid foundation for your
-            career with Learnbay’s{" "}
+            career with Learnbay’s{' '}
             <b>Advance Data Science Certification Courses.</b> Learnbay ensures
             quality training to learners by providing flexible learning
             opportunities, domain electives, placement assistance, and hands-on
@@ -1220,11 +1221,11 @@ function DataAnalytics({
           </p>
           {read ? (
             <>
-              <h4 style={{ fontSize: "28px" }}>
+              <h4 style={{ fontSize: '28px' }}>
                 Acquaint Yourself With the Value of Advance Data Science
-                Certification Courses.{" "}
+                Certification Courses.{' '}
               </h4>
-              <h2 style={{ fontSize: "24px" }}>
+              <h2 style={{ fontSize: '24px' }}>
                 <b>What is Data Science? </b>
               </h2>
               {/* <h3>Course Overview</h3> */}
@@ -1266,7 +1267,7 @@ function DataAnalytics({
                 At present, most companies and individuals use Artificial
                 Intelligence to increase their productivity and efficiency by
                 mimicking human intelligence at its best. To help you establish
-                a solid career in AI, enroll in Learnbay's{" "}
+                a solid career in AI, enroll in Learnbay's{' '}
                 <b className={styles.links}>
                   <Link
                     href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
@@ -1275,7 +1276,7 @@ function DataAnalytics({
                     master's in artificial intelligence
                   </Link>
                 </b>
-                .{" "}
+                .{' '}
               </p>
               <h3>Why is Data Science and AI important? </h3>
               <p>
@@ -1365,7 +1366,7 @@ function DataAnalytics({
                 in all career aspects. To access career assistance services, one
                 must secure a minimum score of 70% in their assigned tasks.
                 Learners will get hands-on career assistance once they finish
-                the assignments, case studies, projects, and assessments.{" "}
+                the assignments, case studies, projects, and assessments.{' '}
               </p>
               <p>
                 Learnbay’s Career Service Pro features entail the following
@@ -1429,7 +1430,7 @@ function DataAnalytics({
                 </p>
                 <h2>
                   Will An Advanced Certification In Data Science And AI Lead Me
-                  To A Successful Career?{" "}
+                  To A Successful Career?{' '}
                 </h2>
                 <p>
                   Advanced certification programs will cover from top to bottom
@@ -1440,7 +1441,8 @@ function DataAnalytics({
                   AI, without a doubt, is a head start for your successful
                   career. Advanced-level certification programs will help you
                   become a team player, effective communicator, self-manage,
-                  help with time management, and be more flexible and adaptable.{" "}
+                  help with time management, and be more flexible and
+                  adaptable.{' '}
                 </p>
                 <h2>
                   Learnbay’s Advance Data Science and AI certification, is it
@@ -1500,48 +1502,48 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
 
       {AIML ? (
         <div className={styles.content}>
           <h2>
             Gain Expertise to Grow Beyond Technology with Artificial
-            Intelligence Certification Program{" "}
+            Intelligence Certification Program{' '}
           </h2>
           <p>
-            Leap forward with the{" "}
+            Leap forward with the{' '}
             <b>Artificial Intelligence Certification Program</b> to unleash a
-            data-driven future globally. Register with Learnbay’s{" "}
+            data-driven future globally. Register with Learnbay’s{' '}
             <b>
               <i>
                 ‘Advance AI & ML Certification Program for Tech Professionals’
               </i>
-            </b>{" "}
+            </b>{' '}
             today. This program intends to bridge the learning gaps for tech
             experts and help them land attractive job prospects.
           </p>
           {read ? (
             <>
-              <h4 style={{ fontSize: "28px" }}>
-                Briefing on Cutting-edge AI &{" "}
-                <b>Machine Learning Training for Tech Professionals</b>{" "}
+              <h4 style={{ fontSize: '28px' }}>
+                Briefing on Cutting-edge AI &{' '}
+                <b>Machine Learning Training for Tech Professionals</b>{' '}
               </h4>
 
               <h3>Introducing the Course </h3>
@@ -1585,7 +1587,7 @@ function DataAnalytics({
               </p>
               <h3>
                 Is upskilling with a Professional AI and ML Certification
-                Program worth it?{" "}
+                Program worth it?{' '}
               </h3>
               <p>
                 If you are an IT pro with relevant years of experience,
@@ -1607,10 +1609,10 @@ function DataAnalytics({
                   </li>
                   <li>• Basic knowledge of mathematics/statistics </li>
                   <li>• At least 1 year of work experience in any domain</li>
-                </ul>{" "}
+                </ul>{' '}
               </p>
               <h3>
-                Briefing Learnbay’s{" "}
+                Briefing Learnbay’s{' '}
                 <i>
                   Advance AI & ML Certification Program for Tech Professionals
                 </i>
@@ -1646,7 +1648,7 @@ function DataAnalytics({
               <h4>• Domain Electives</h4>
               <p>
                 Techies can kick-start learning AI/ML tools to reshape their
-                domain knowledge. This program has 6+ domain electives{" "}
+                domain knowledge. This program has 6+ domain electives{' '}
                 <i>
                   (BFSI, Manufacturing, Supply chain, HR, Marketing, and
                   Healthcare)
@@ -1681,7 +1683,7 @@ function DataAnalytics({
               <h3>• Globally Recognized Industry Certifications </h3>
               <p>
                 Enrolling in this program equips you with top-notch tech skills
-                development in AI and ML. An{" "}
+                development in AI and ML. An{' '}
                 <b>advanced AI and ML certification</b> brings extensive growth
                 to your career and expands the earning limits. Here, you will
                 get two-course certificates <i>(IBM & Microsoft)</i> and one
@@ -1705,12 +1707,13 @@ function DataAnalytics({
                 <li>Data science tools </li>
                 <li>Latest AI tools and trends</li>
                 <li>
-                  Deployment of Data Structures and Algorithms with basics{" "}
+                  Deployment of Data Structures and Algorithms with basics{' '}
                 </li>
                 <li>Generative AI trends </li>
                 <li>Future Trends</li>
                 <h3>
-                  Is AI/ML upskilling tough due to its expensive fee structure?{" "}
+                  Is AI/ML upskilling tough due to its expensive fee
+                  structure?{' '}
                 </h3>
                 <p>
                   Regardless of costly online courses, many techies opt for
@@ -1721,13 +1724,13 @@ function DataAnalytics({
                   terms of installment. For this, learners can pay INR
                   ₹5,244/month up to 18 months and start learning. It also
                   offers a scholarship facility (up to 25%) to eligible
-                  students, making their learning journey hassle-free.{" "}
+                  students, making their learning journey hassle-free.{' '}
                 </p>
                 <p>
                   <b>
                     <i>Note:</i>
-                  </b>{" "}
-                  Working experts can also opt for{" "}
+                  </b>{' '}
+                  Working experts can also opt for{' '}
                   <b className={styles.links}>
                     <Link
                       href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
@@ -1735,7 +1738,7 @@ function DataAnalytics({
                     >
                       Advance data science certification courses
                     </Link>
-                  </b>{" "}
+                  </b>{' '}
                   a to refine their skill sets as per the latest AI trends.
                 </p>
               </ul>
@@ -1745,23 +1748,23 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
 
       {DataAnalytics ? (
@@ -1769,7 +1772,7 @@ function DataAnalytics({
           <h2>Upskill Yourself with Data Analytics Course Online</h2>
           <p>
             Boost your career with Learnbay’s Data Analytics Program to land on
-            the field of endless opportunities. Enroll in an industry-paced{" "}
+            the field of endless opportunities. Enroll in an industry-paced{' '}
             <b>online data analytics certification</b> in association with IBM.
             With existing domain knowledge, this course brings the massive
             privilege of having a job-ready future. From flexible learning
@@ -1778,10 +1781,10 @@ function DataAnalytics({
           </p>
           {read ? (
             <>
-              <h4 style={{ fontSize: "28px" }}>
-                India’s Industry-led Best Online Data Analytics Course{" "}
+              <h4 style={{ fontSize: '28px' }}>
+                India’s Industry-led Best Online Data Analytics Course{' '}
               </h4>
-              <h2 style={{ fontSize: "24px" }}>
+              <h2 style={{ fontSize: '24px' }}>
                 <b>Briefing With the Best Online Data Analytics Course </b>
               </h2>
               <h3>Course Overview</h3>
@@ -1830,7 +1833,7 @@ function DataAnalytics({
               <p>
                 Hence, data analytics has become pervasive with vast use in both
                 tech and non-tech sectors. If you intend to pursue a career in
-                data analytics, you must choose to enroll in an{" "}
+                data analytics, you must choose to enroll in an{' '}
                 <b>online data analytics certification</b> program.
               </p>
               <h3>
@@ -1885,11 +1888,11 @@ function DataAnalytics({
                   setup for working professionals. The flexibility of the course
                   comes in two forms -
                 </p>
-                <ul style={{ listStyle: "lower-latin" }}>
+                <ul style={{ listStyle: 'lower-latin' }}>
                   <li>
                     <b>
                       <i>Flexible career move</i>
-                    </b>{" "}
+                    </b>{' '}
                     – The data analytics course program targets both tech &
                     non-tech enthusiasts. With basic knowledge of applied
                     mathematics, one can start learning data analytics. Unlike
@@ -1904,7 +1907,7 @@ function DataAnalytics({
                   <li>
                     <b>
                       <i>Flexible sessions</i>
-                    </b>{" "}
+                    </b>{' '}
                     – This program offers an industry-paced training session for
                     the working experts on weekdays and weekends. Hence, having
                     a work-study balance is possible. Plus, the experts can opt
@@ -1944,13 +1947,13 @@ function DataAnalytics({
                       <b>○ years of placement support:</b> Learners will gain
                       uninterrupted placement help from experts until they land
                       a suitable job. It offers flexible access to job
-                      interviews with MNCs.{" "}
+                      interviews with MNCs.{' '}
                     </li>
                     <li>
                       <b>
                         ○ 6 1:1 mock interviews with leading MNCs & unicorn
-                        startups:{" "}
-                      </b>{" "}
+                        startups:{' '}
+                      </b>{' '}
                       Learners gain real-time insights into the latest trends
                       and attend mock interviews with 450+ leading MNCs &
                       unicorn startups. It enhances the chances of landing a
@@ -1959,18 +1962,18 @@ function DataAnalytics({
                     <li>
                       <b>○ Resume Preparation:</b> Mentors help learners revamp
                       their resumes with proven skills and validate them with
-                      proper certifications.{" "}
+                      proper certifications.{' '}
                     </li>
                     <li>
                       <b>○ 1:1 LinkedIn profile review:</b> Learners gain help
                       with LinkedIn profile reviews and design creative cover
-                      letters.{" "}
+                      letters.{' '}
                     </li>
                     <li>
                       <b>○ 100% dedicated placement team:</b> Learners get
                       eligible for Career Service Pro after successful
                       completion of the course. It helps them secure good
-                      positions in their desirable MNCs.{" "}
+                      positions in their desirable MNCs.{' '}
                     </li>
                   </ul>
                   <p>
@@ -1997,7 +2000,7 @@ function DataAnalytics({
                     offers with better salary hikes. It brings an excellent
                     career growth scope for the aspirants who learn, grow, and
                     succeed under tech giants like IBM. The best part here is,
-                    that you get{" "}
+                    that you get{' '}
                     <b>
                       <i>industrial project experience certification</i>
                     </b>
@@ -2019,7 +2022,7 @@ function DataAnalytics({
                 <i>
                   Projections reveal a growth of 23% in data analyst jobs by
                   2031.
-                </i>{" "}
+                </i>{' '}
                 Yet, <b>data analytics online training</b> can only lessen the
                 skills gap in the industry.
               </p>
@@ -2079,7 +2082,7 @@ function DataAnalytics({
               </ul>
               <p>
                 <b>Note:</b> If you wish to have the upper hand in data science
-                for better decision-making, then you must enroll for the{" "}
+                for better decision-making, then you must enroll for the{' '}
                 <b className={styles.links}>
                   <a
                     href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
@@ -2087,7 +2090,7 @@ function DataAnalytics({
                   >
                     advance Data Science and AI certification course
                   </a>
-                </b>{" "}
+                </b>{' '}
                 today.
               </p>
               <h3>Is Learnbay’s certification in data analytics worth it?</h3>
@@ -2135,7 +2138,7 @@ function DataAnalytics({
               </p>
               <h3>
                 What are the domain specializations available? Is it necessary
-                for you to choose one?{" "}
+                for you to choose one?{' '}
               </h3>
               <p>
                 The data analytics course online by Learnbay curates a
@@ -2200,44 +2203,45 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
       {CDevops ? (
         <div className={styles.content}>
           <h2>Advanced Cloud Computing & DevOps Certification Program </h2>
-          <h4 style={{ fontSize: "24px" }}>
+          <h4 style={{ fontSize: '24px' }}>
             Demonstrate Your Technical Expertise with a Cloud Computing
             Certification
           </h4>
           <p>
             Elevate your technical knowledge to attain success in today’s
-            reforming tech world. Enroll today with Learnbay’s{" "}
+            reforming tech world. Enroll today with Learnbay’s{' '}
             <i>
               <b>Advanced Cloud Computing & DevOps Certification Program</b>
-            </i>{" "}
-            and unleash infinite scope of growth. Upskill with an industry-paced{" "}
+            </i>{' '}
+            and unleash infinite scope of growth. Upskill with an industry-paced{' '}
             <b>cloud computing certification</b> and land your dream career.
           </p>
           {read ? (
             <>
-              <h4 style={{ fontSize: "28px" }}>
-                Briefing with the Industry-paced Cloud Computing Online Courses{" "}
+              <h4 style={{ fontSize: '28px' }}>
+                Briefing with the Industry-paced Cloud Computing Online
+                Courses{' '}
               </h4>
 
               <h3>Course Overview</h3>
@@ -2253,7 +2257,7 @@ function DataAnalytics({
               </p>
               <p>
                 Apart from the 360-degree knowledge-building platform, this
-                course also offers dual certification from{" "}
+                course also offers dual certification from{' '}
                 <i>
                   <b>IBM & Microsoft</b>
                 </i>
@@ -2290,7 +2294,7 @@ function DataAnalytics({
                 industry. DevOps has become a popular concept over the years,
                 discarding traditional ways of designing software products. It
                 integrates systems to deliver faster and more scalable
-                offerings.{" "}
+                offerings.{' '}
               </p>
               <p>
                 From a career upfront, <b>AWS DevOps certification</b> justifies
@@ -2317,7 +2321,7 @@ function DataAnalytics({
                   <li>• Cost-saving measures with increasing revenues</li>
                   <li>• Flexible operations with IT systems</li>
                   <li>• Timely meeting of industry demands</li>
-                </ul>{" "}
+                </ul>{' '}
               </p>
               <h3>Importance of Cloud Computing skills for tech experts </h3>
               <p>
@@ -2352,7 +2356,7 @@ function DataAnalytics({
               </ul>
               <h4>
                 Is Cloud Computing Certification worth it to sustain in the IT
-                sector?{" "}
+                sector?{' '}
               </h4>
               <p>
                 Yes, certification in cloud skills is worth enough to retain
@@ -2465,14 +2469,15 @@ function DataAnalytics({
               <ul>
                 <li>• 3 years of Job Assistance</li>
                 <li>
-                  • 6 mock interviews with renowned experts from MNCs/MAANG{" "}
+                  • 6 mock interviews with renowned experts from MNCs/MAANG{' '}
                 </li>
                 <li>• Resume preparation help </li>
                 <li>• 1:1 LinkedIn Profiling</li>
                 <li>• Dedicated Placement team </li>
 
                 <h3>
-                  Is Learnbay’s <b>Cloud Computing certification</b> worth it?{" "}
+                  Is Learnbay’s <b>Cloud Computing certification</b> worth
+                  it?{' '}
                 </h3>
                 <p>
                   Yes, upskilling with Learnbay’s cloud and DevOps certification
@@ -2483,7 +2488,7 @@ function DataAnalytics({
                 <ul>
                   <li>• Career Counselling</li>
                   <li>
-                    • Comprehensively designed Cloud and{" "}
+                    • Comprehensively designed Cloud and{' '}
                     <b>DevOps course syllabus</b>
                   </li>
                   <li>• Flexible live instructor-led training</li>
@@ -2494,12 +2499,12 @@ function DataAnalytics({
                   <li>• Hands-on learning of tools via live projects</li>
                   <li>• Career Service Pro</li>
                   <li>
-                    • Globally-recognized certifications{" "}
+                    • Globally-recognized certifications{' '}
                     <i>(IBM & Microsoft)</i>
                   </li>
                 </ul>
                 <h3>
-                  Is Learnbay’s Cloud Computing online courses affordable?{" "}
+                  Is Learnbay’s Cloud Computing online courses affordable?{' '}
                 </h3>
                 <p>
                   Yes, Learnbay introduces an industry-paced cloud program with
@@ -2507,7 +2512,7 @@ function DataAnalytics({
                   80,000 + 18% GST. It includes a flexible financing plan with
                   easy payment options – No-cost EMI and easy loans. With this,
                   one can pay INR ₹5,244/month up to 18 months and start
-                  learning.{" "}
+                  learning.{' '}
                 </p>
                 <h3>
                   Can Cloud and DevOps certification unlock better job prospects
@@ -2527,7 +2532,7 @@ function DataAnalytics({
                   expands your earning potential with a bright future. The
                   average salary of a DevOps engineer is INR 8,00,000 per annum.
                   Thus, you can choose the right career path with lucrative job
-                  offers.{" "}
+                  offers.{' '}
                 </p>
                 <h3>
                   Which certification is beneficial for IT experts eager for a
@@ -2548,32 +2553,32 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
 
       {DevopsOnly ? (
         <div className={styles.content}>
           <h2>Advanced DevOps Certification Program </h2>
-          <h4 style={{ fontSize: "24px" }}>
+          <h4 style={{ fontSize: '24px' }}>
             Learnbay’s Industry-specific DevOps Course with Certification
           </h4>
-          <h3 style={{ fontSize: "20px" }}>Course Overview</h3>
+          <h3 style={{ fontSize: '20px' }}>Course Overview</h3>
           <p>
             Today’s IT sector welcomes major operating shifts due to the
             fast-paced rise of tech creations. Knowing the trending tools is
@@ -2675,11 +2680,11 @@ function DataAnalytics({
                   <li>• Decreasing intricacies</li>
                   <li>• More scalable and agile solutions </li>
                   <li>• Cost-saving methods for tasks</li>
-                </ul>{" "}
+                </ul>{' '}
               </p>
               <h3>
                 Is a DevOps certification course worth investing in to prosper
-                in today’s tech sector?{" "}
+                in today’s tech sector?{' '}
               </h3>
               <p>
                 Today’s tech sector declares rapid growth in working dynamics,
@@ -2697,7 +2702,7 @@ function DataAnalytics({
                 Our DevOps training with placement unleashes the way to build a
                 global-level career with the leading MNCs. Learners will also
                 receive IBM & Microsoft certifications by the end of the course
-                and projects.{" "}
+                and projects.{' '}
               </p>
               <h3>
                 Enlisting Core Features of DevOps Course with Certification
@@ -2716,7 +2721,7 @@ function DataAnalytics({
                     syllabus. Our DevOps certification course modules include
                     the latest tools and trends vital for techies to learn. Our
                     live instructor-led training sessions with proven mentorship
-                    help you gain abstract and practical learning.{" "}
+                    help you gain abstract and practical learning.{' '}
                   </p>
                 </li>
                 <li>
@@ -2728,7 +2733,7 @@ function DataAnalytics({
                     leading-edge DevOps training institutes guide techies to
                     work with 10+ real-world projects. Here, techies can choose
                     their projects and learn the real-world uses of DevOps
-                    concepts.{" "}
+                    concepts.{' '}
                   </p>
                 </li>
                 <li>
@@ -2740,7 +2745,7 @@ function DataAnalytics({
                     job selection chances. Eligible learners with at least 70%
                     scores can avail of ‘Career Service PRO’. Techies will gain
                     every career benefit under this course – from 1:1
-                    doubt-clearing to resume-making.{" "}
+                    doubt-clearing to resume-making.{' '}
                   </p>
                 </li>
 
@@ -2750,7 +2755,7 @@ function DataAnalytics({
                     Techies joining our DevOps course with certification can
                     validate their skills with exciting career gains. The
                     program offers two-course completion certificates from IBM &
-                    Microsoft and one IBM project certificate.{" "}
+                    Microsoft and one IBM project certificate.{' '}
                   </p>
                 </li>
               </ul>
@@ -2779,7 +2784,7 @@ function DataAnalytics({
 
               <h4>
                 Is Learnbay’s DevOps course with certification worth it for
-                upskilling?{" "}
+                upskilling?{' '}
               </h4>
 
               <p>
@@ -2804,7 +2809,7 @@ function DataAnalytics({
               </ul>
               <h4>
                 Does Learnbay’s DevOps Certification Course offer affordable
-                upskilling?{" "}
+                upskilling?{' '}
               </h4>
 
               <p>
@@ -2815,7 +2820,7 @@ function DataAnalytics({
               </p>
               <h4>
                 Can upskilling from DevOps training institutes unlock better
-                career growth options in today’s tech age?{" "}
+                career growth options in today’s tech age?{' '}
               </h4>
               <p>
                 DevOps learning is useful for techies willing to crack better
@@ -2831,28 +2836,28 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
       {cComputingOnly ? (
         <div className={styles.content}>
           <h2>Best Cloud Computing Certification Course </h2>
-          <h4 style={{ fontSize: "24px" }}>Online | Learnbay</h4>
+          <h4 style={{ fontSize: '24px' }}>Online | Learnbay</h4>
           <p>
             Accelerate technical skills and success limits in today’s tech
             landscape. Enroll in Learnbay’s cloud computing certification course
@@ -2863,7 +2868,7 @@ function DataAnalytics({
           {read ? (
             <>
               <h3>
-                Briefing Learnbay’s Industry-paced Cloud Computing Programs{" "}
+                Briefing Learnbay’s Industry-paced Cloud Computing Programs{' '}
               </h3>
 
               <h3>Course Overview</h3>
@@ -2884,7 +2889,31 @@ function DataAnalytics({
                 <p>
                   Techies enrolling in this course will revamp their careers
                   with global job offers. Plus, our USP of offering dual
-                  certifications (IBM & Microsoft) escalates success metrics.
+                  certifications (IBM & Microsoft), You can also check our
+                  latest courses{' '}
+                  <b>
+                    <a
+                      href="https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master"
+                      target="_blank"
+                    >
+                      data analytics and business analytics masters course
+                    </a>
+                    ,{' '}
+                    <a
+                      href="https://www.learnbay.co/datascience/online-dsa-training-pune"
+                      target="_blank"
+                    >
+                      Online DSA Training in Pune
+                    </a>
+                    ,{' '}
+                    <a
+                      href="https://www.learnbay.co/datascience/marketing-analytics-course"
+                      target="_blank"
+                    >
+                      Marketing analytics course
+                    </a>
+                  </b>{' '}
+                  .
                 </p>
               </p>
               <h3>Dual Certifications in Brief!!</h3>
@@ -2950,7 +2979,7 @@ function DataAnalytics({
                 <li>Blending industry trends for better results</li>
               </ul>
               <h3>
-                Essence of Cloud-driven Skills for Techies in Today’s Era{" "}
+                Essence of Cloud-driven Skills for Techies in Today’s Era{' '}
               </h3>
               <p>
                 Cloud computing is the latest buzzword that is crafting a
@@ -2971,11 +3000,11 @@ function DataAnalytics({
                   <li>• Flexible union with various teams </li>
                   <li>• Data security</li>
                   <li>• Increasing competitiveness </li>
-                </ul>{" "}
+                </ul>{' '}
               </p>
               <h3>
                 Is a cloud computing certification course worth investing in to
-                sustain in today’s tech world?{" "}
+                sustain in today’s tech world?{' '}
               </h3>
               <p>
                 Yes, joining the best certification courses for cloud computing
@@ -3007,7 +3036,7 @@ function DataAnalytics({
                     syllabus. Our cloud computing course modules include the
                     latest tools and trends vital for techies to learn. Our live
                     instructor-led training sessions with proven mentorship help
-                    you gain abstract and practical knowledge.{" "}
+                    you gain abstract and practical knowledge.{' '}
                   </p>
                 </li>
                 <li>
@@ -3018,7 +3047,8 @@ function DataAnalytics({
                     proven tools via live projects to gain insights. Our
                     leading-edge cloud computing programs guide techies to work
                     with 10+ live projects. Here, techies can choose their
-                    projects to know the real-world uses of cloud computing.{" "}
+                    projects to know the real-world uses of cloud
+                    computing.{' '}
                   </p>
                 </li>
                 <li>
@@ -3041,7 +3071,7 @@ function DataAnalytics({
                     validate their skills via our global-scale certifications
                     from IBM & Microsoft. The program offers two-course
                     completion certificates from IBM & Microsoft and one IBM
-                    project certificate.{" "}
+                    project certificate.{' '}
                   </p>
                 </li>
               </ul>
@@ -3069,7 +3099,7 @@ function DataAnalytics({
               </ul>
 
               <h4>
-                Is Learnbay’s cloud courses online worth it for upskilling?{" "}
+                Is Learnbay’s cloud courses online worth it for upskilling?{' '}
               </h4>
 
               <p>
@@ -3130,11 +3160,12 @@ function DataAnalytics({
                 A certification program from the best institute for cloud
                 computing is vital for tech experts to revamp their careers.
                 Learnbay’s globally recognized certification courses validate
-                your skills and make you job-ready to land your dream roles.{" "}
+                your skills and make you job-ready to land your dream
+                roles.{' '}
               </p>
               <p>
                 Hence, experts eager to update their static careers can join our
-                cloud computing programs.{" "}
+                cloud computing programs.{' '}
               </p>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
@@ -3142,28 +3173,28 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
 
       {Masterscontent ? (
         <div className={styles.content}>
-          <h2 style={{ fontSize: "35px" }}>
+          <h2 style={{ fontSize: '35px' }}>
             Unlock Global Job Opportunities with
             <b> a Master’s in Computer Science Data Science and AI</b>
           </h2>
@@ -3177,16 +3208,16 @@ function DataAnalytics({
           </p>
           {read ? (
             <>
-              <h4 style={{ fontSize: "28px" }}>
-                India's Inclusive Learning Platform for Working Pros Offering{" "}
-                <b>Masters in Computer Science</b>{" "}
+              <h4 style={{ fontSize: '28px' }}>
+                India's Inclusive Learning Platform for Working Pros Offering{' '}
+                <b>Masters in Computer Science</b>{' '}
               </h4>
 
               <h3>Course Overview </h3>
               <p>
                 In response to the evolving tech age and surge in demand for
-                skilled data scientists, Learnbay introduces a{" "}
-                <b>Master’s in CS Artificial Intelligence and Data Science.</b>{" "}
+                skilled data scientists, Learnbay introduces a{' '}
+                <b>Master’s in CS Artificial Intelligence and Data Science.</b>{' '}
                 With an inclusive learning setup, this course welcomes working
                 pros from diverse domains at any career level. This master's
                 program is designed to help experts prepare for a rewarding
@@ -3194,10 +3225,10 @@ function DataAnalytics({
               </p>
 
               <h3>
-                Why choose Learnbay's Master in CS : Data Science and AI?{" "}
+                Why choose Learnbay's Master in CS : Data Science and AI?{' '}
               </h3>
               <p>
-                Accelerate your full career potential with Learnbay's{" "}
+                Accelerate your full career potential with Learnbay's{' '}
                 <b>Master in CS Data Science and AI</b> program. Here’s why you
                 should choose the online master's degree data science program by
                 Learnbay over others :
@@ -3212,7 +3243,7 @@ function DataAnalytics({
                     <b>Job Assistance :</b> We provide job support to help you
                     successed in this field after completion of the course.
                     We’ll help you cherish all of your existing potential to
-                    land at your desired career level.{" "}
+                    land at your desired career level.{' '}
                   </li>
                   <li>
                     <b>Flexible Learning:</b> Our hybrid learning platform
@@ -3225,13 +3256,13 @@ function DataAnalytics({
                 </ul>
               </p>
               <p>
-                Apart from these gains, this course offers a{" "}
-                <b>computer science master’s degree</b> from{" "}
+                Apart from these gains, this course offers a{' '}
+                <b>computer science master’s degree</b> from{' '}
                 <i>
                   <b>Woolf</b>
-                </i>{" "}
+                </i>{' '}
                 (Global Collegiate Higher Education Institution), followed by
-                globally recognized certifications from <i>IBM & Microsoft</i>{" "}
+                globally recognized certifications from <i>IBM & Microsoft</i>{' '}
                 (Dual Certification).
               </p>
               <p>
@@ -3242,10 +3273,10 @@ function DataAnalytics({
                 <i> USD 195,000 overseas.</i>
               </p>
               <p>
-                Learnbay is present in prime cities of India like{" "}
+                Learnbay is present in prime cities of India like{' '}
                 <i>
                   <b>Bengaluru, Hyderabad, Delhi, and Pune,</b>
-                </i>{" "}
+                </i>{' '}
                 shaping worthy careers in data science with hands-on practice
                 with live projects. Concerning the upcoming demands, it brings
                 on an MS in Computer Science Data Science and AI program with
@@ -3264,18 +3295,18 @@ function DataAnalytics({
                       <b>
                         • Industry-driven Syllabus supporting Generative AI:
                       </b>
-                    </i>{" "}
-                    Learnbay's{" "}
+                    </i>{' '}
+                    Learnbay's{' '}
                     <b>
                       Master's in CS artificial intelligence and data science
-                    </b>{" "}
+                    </b>{' '}
                     crafts the syllabus with the latest Gen AI trends (ChatGPT,
                     Bard, & many more) and trending skills in the job market.
                   </li>
                   <li>
                     <i>
                       <b>• 360-degree career growth:</b>
-                    </i>{" "}
+                    </i>{' '}
                     Our <b>masters in computer science online</b> program brings
                     360-degree knowledge-building scope for experts from diverse
                     domains.
@@ -3283,8 +3314,8 @@ function DataAnalytics({
                   <li>
                     <i>
                       <b>• Woolf degree:</b>
-                    </i>{" "}
-                    Upskilling with a <b>Masters in Data Science and AI</b>{" "}
+                    </i>{' '}
+                    Upskilling with a <b>Masters in Data Science and AI</b>{' '}
                     program by Learnbay offers you a globally accredited
                     Master's Degree by Woolf degree along with ample ECTS
                     credits. This is well-recognized in the US, Canada, Europe,
@@ -3293,7 +3324,7 @@ function DataAnalytics({
                   <li>
                     <i>
                       <b>• Training from Global Faculties:</b>
-                    </i>{" "}
+                    </i>{' '}
                     Learnbay's <b>Master's degree in data science</b> offers the
                     scope of mentorship by renowned experts from MNCs/MAANG and
                     also from global Ph.D. scholars.
@@ -3302,7 +3333,7 @@ function DataAnalytics({
               </p>
 
               <p>
-                <i>Globally recognized certifications:</i> Learnbay's{" "}
+                <i>Globally recognized certifications:</i> Learnbay's{' '}
                 <b>Master’s in Computer Science</b> degree offers dual
                 certification from IBM & Microsoft, increasing the chances of
                 redefining a career at a global level.
@@ -3317,7 +3348,7 @@ function DataAnalytics({
                 non-tech working pros. Amidst the fast-paced rise of AI models,
                 many professional courses are coming up to support real-time
                 career enhancement. In such times, a master’s program in
-                computer science, Gen AI, or a{" "}
+                computer science, Gen AI, or a{' '}
                 <b>
                   <a
                     href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
@@ -3325,13 +3356,13 @@ function DataAnalytics({
                   >
                     cloud computing certification
                   </a>
-                </b>{" "}
+                </b>{' '}
                 supports career transition.
               </p>
               <p>
                 Owing to the gaining popularity, master’s programs in leading AI
                 rends have become a preferred gateway for many pros. Upskilling
-                with an <b>MS in Computer Science Data Science and AI</b>{" "}
+                with an <b>MS in Computer Science Data Science and AI</b>{' '}
                 program is vital for career shifts. At present, firms depend on
                 data science for reasons like –
                 <ul>
@@ -3352,7 +3383,7 @@ function DataAnalytics({
                 in Data Science and AI
               </h4>
               <p>
-                Learnbay's{" "}
+                Learnbay's{' '}
                 <b>Master’s in Computer Science Data Science and AI</b> program
                 offers training with diverse domain electives such as –
                 <ul>
@@ -3371,7 +3402,7 @@ function DataAnalytics({
                 reshaping their careers with any of the specializations like –
               </p>
               <b>
-                <p style={{ textDecoration: "underline" }}>
+                <p style={{ textDecoration: 'underline' }}>
                   Specialization 1: Data Science & Data Analytics
                 </p>
               </b>
@@ -3388,8 +3419,8 @@ function DataAnalytics({
                 </ul>
               </p>
               <b>
-                {" "}
-                <p style={{ textDecoration: "underline" }}>
+                {' '}
+                <p style={{ textDecoration: 'underline' }}>
                   Specialization 2: Artificial Intelligence & Machine Learning
                 </p>
               </b>
@@ -3411,23 +3442,23 @@ function DataAnalytics({
               <h4>About Woolf Master's Degree</h4>
               <p>
                 Learnbay's master's program offers a Master's Degree accredited
-                by <b>Woolf</b> equivalent to a master's from the{" "}
+                by <b>Woolf</b> equivalent to a master's from the{' '}
                 <b>US, Canada, and Europee</b> with better jobs and hikes of
-                working pros. Woolf's degree for a e{" "}
+                working pros. Woolf's degree for a e{' '}
                 <b>Master in CS Artificial Intelligence and Data Science</b> is
-                well recognized across{" "}
+                well recognized across{' '}
                 <b>
                   <i>60+ Western countries,</i>
-                </b>{" "}
+                </b>{' '}
                 driving alluring global job offers.
               </p>
               <h4>About Dual Certifications (IBM & Microsoft)</h4>
               <p>
                 Learnbay's <b>Computer Science Master’s degree</b> offers dual
-                certification from{" "}
+                certification from{' '}
                 <i>
                   <b>IBM & Microsoft,</b>
-                </i>{" "}
+                </i>{' '}
                 supporting career shifts and adding value to one's slow-paced
                 career. After completing the master's program, learners get a
                 project experience certificate from IBM & course completion
@@ -3460,7 +3491,7 @@ function DataAnalytics({
                 drive real-time success. Our project innovation labs operate
                 across four prime cities in India – Bengaluru, Hyderabad, Pune,
                 and Delhi. Also, you can get the online experience from any part
-                of the world. Experts enrolling in{" "}
+                of the world. Experts enrolling in{' '}
                 <b>Masters in Computer Science</b> program will have benefits
                 like –
                 <ul>
@@ -3476,7 +3507,7 @@ function DataAnalytics({
               <h3>Job Assistance Program</h3>
               <h4>Data Science Job Support by Learnbay</h4>
               <p>
-                Learnbay's<b> MS in Computer Science Data Science and AI</b>{" "}
+                Learnbay's<b> MS in Computer Science Data Science and AI</b>{' '}
                 program guides working experts with 100% placement support (at
                 startup or MNC level) across its centers. In terms of redefining
                 stagnant careers in the age of data science, a master’s program
@@ -3504,7 +3535,7 @@ function DataAnalytics({
 
               <h3>Know Your Projects </h3>
               <p>
-                Learnbay's{" "}
+                Learnbay's{' '}
                 <b>Master’s in Computer Science Data Science and AI </b>
                 program offers training in diverse domains with the latest
                 trends. Learners develop their practical skills with 10+ fresh
@@ -3521,38 +3552,38 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
       {Banalytics ? (
         <div className={styles.content}>
           <div className={styles.btnread}>
             <p
               style={{
-                color: "#fff",
-                fontWeight: "600",
-                textDecoration: "underline",
-                cursor: "pointer",
+                color: '#fff',
+                fontWeight: '600',
+                textDecoration: 'underline',
+                cursor: 'pointer',
               }}
               onClick={handler}
               className={styles.readP}
             >
-              {read ? "Read Less..." : "Read More..."}
+              {read ? 'Read Less...' : 'Read More...'}
             </p>
           </div>
           <h2>Online Business Analyst Course Overview</h2>
@@ -3566,7 +3597,7 @@ function DataAnalytics({
           </p>
           {read ? (
             <>
-              <h2 style={{ fontSize: "24px" }}>
+              <h2 style={{ fontSize: '24px' }}>
                 <b>What is Business Analytics? Why Do We Need It? </b>
               </h2>
 
@@ -3606,7 +3637,7 @@ function DataAnalytics({
               <p>
                 Companies are recruiting more and more business analysts to
                 foster their productivity at jet speed. If you are an aspiring
-                business analyst with the right{" "}
+                business analyst with the right{' '}
                 <b>certificate course in business analytics</b> you can become a
                 successful business analyst.
               </p>
@@ -3634,7 +3665,7 @@ function DataAnalytics({
                 of various industries.
                 <ul>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>
+                    <h4 style={{ fontSize: '18px' }}>
                       • Business Analytics in Healthcare Industry
                     </h4>
                     <p>
@@ -3653,7 +3684,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>
+                    <h4 style={{ fontSize: '18px' }}>
                       • Business Analytics in Finance Industry
                     </h4>
                     <p>
@@ -3672,7 +3703,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>
+                    <h4 style={{ fontSize: '18px' }}>
                       • Business Analytics in Retail Industry
                     </h4>
                     <p>
@@ -3683,7 +3714,7 @@ function DataAnalytics({
                       procurements. All kinds of business segments in the retail
                       industry have dynamically changed including foods,
                       consumer electronics, automotive, e-commerce, and health &
-                      beauty. By earning the right{" "}
+                      beauty. By earning the right{' '}
                       <b>certificate in business analytics,</b> you can easily
                       land a job in the retail sector.
                     </p>
@@ -3699,10 +3730,10 @@ function DataAnalytics({
                     </p>
                     <p>
                       With the rapid increase in the demand for business
-                      analytics, there are many{" "}
+                      analytics, there are many{' '}
                       <b>best courses for business analytics</b> also available.
                       If you are interested in learning more about business
-                      analytics, you can find several good{" "}
+                      analytics, you can find several good{' '}
                       <b>business analytics online courses.</b> Earning a good
                       certificate in <b>business analytics</b> will pay off
                       hugely and will certainly help you to establish a great
@@ -3715,9 +3746,9 @@ function DataAnalytics({
               <p>
                 <b>Certification in business analytics</b> will help you to
                 successfully establish your career and land your dream job. If
-                you enroll in a <b>certificate program in business analytics</b>{" "}
+                you enroll in a <b>certificate program in business analytics</b>{' '}
                 with comprehensive training, you will receive training for
-                cutting-edge technologies and practices. Upon completion of the{" "}
+                cutting-edge technologies and practices. Upon completion of the{' '}
                 <b>certificate program in business analytics</b>, you will
                 receive certification from renowned institutions. These
                 certifications and cutting-edge skills will help you to be
@@ -3728,7 +3759,7 @@ function DataAnalytics({
               </h2>
 
               <p>
-                Among other <b>best courses for business analytics,</b>{" "}
+                Among other <b>best courses for business analytics,</b>{' '}
                 Learnbay’s <b>Business Analytics Online Course</b> not only
                 offers comprehensive training but training for new technologies
                 like Generative AI and focuses on hands-on practical experience.
@@ -3736,12 +3767,12 @@ function DataAnalytics({
               <p>
                 Learnbay’s <b>Certificate Course in Business Analytics</b> helps
                 you to delve into real-world business analytics applications and
-                covers future trends as well. Learnbay’s{" "}
+                covers future trends as well. Learnbay’s{' '}
                 <b>business analytics training</b> includes the following
                 features -
                 <ul>
                   <li>
-                    <h4 style={{ fontSize: "20px" }}>
+                    <h4 style={{ fontSize: '20px' }}>
                       1. Industry Relevant Course Curriculum
                     </h4>
                     <p>
@@ -3762,7 +3793,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h3 style={{ fontSize: "24px" }}>
+                    <h3 style={{ fontSize: '24px' }}>
                       2. Hands-on Experience With Real-World Exposure
                     </h3>
                     <p>
@@ -3775,7 +3806,7 @@ function DataAnalytics({
                     </p>
                     <p>
                       Upon completion of capstone projects, you will be able to
-                      receive a project{" "}
+                      receive a project{' '}
                       <b>certification in business analytics</b> from IBM.
                       Additionally, to enhance your learning and practical
                       experience Learnbay offers you the opportunity to work on
@@ -3783,8 +3814,8 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h3 style={{ fontSize: "24px" }}>
-                      3. Globally Recognized Certifications{" "}
+                    <h3 style={{ fontSize: '24px' }}>
+                      3. Globally Recognized Certifications{' '}
                     </h3>
                     <p>
                       As it is a <b>certificate course in business analytics</b>
@@ -3796,7 +3827,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h3 style={{ fontSize: "24px" }}>
+                    <h3 style={{ fontSize: '24px' }}>
                       4. Career-Focused Domain Electives
                     </h3>
                     <p>
@@ -3808,18 +3839,18 @@ function DataAnalytics({
                       ways to certain career paths.
                     </p>
                     <p>
-                      Again, having a recognized{" "}
+                      Again, having a recognized{' '}
                       <b>certificate in business analytics</b> with domain
                       expertise is an edge in this competitive job market.
                     </p>
                   </li>
                   <li>
-                    <h3 style={{ fontSize: "24px" }}>
+                    <h3 style={{ fontSize: '24px' }}>
                       5. Personalized Career Services
                     </h3>
                     <p>
                       You can find different kinds of courses for business
-                      analytics, but the{" "}
+                      analytics, but the{' '}
                       <b>best courses for business analytics</b> will have
                       career assistance in their course curriculum. Learnbay’s
                       certificate program in business analytics is inclusive of
@@ -3828,7 +3859,7 @@ function DataAnalytics({
                       various features such as:
                       <ul>
                         <li>
-                          <h3 style={{ fontSize: "20px" }}>
+                          <h3 style={{ fontSize: '20px' }}>
                             • Placement Support
                           </h3>
                           <p>
@@ -3838,17 +3869,17 @@ function DataAnalytics({
                           </p>
                         </li>
                         <li>
-                          <h4 style={{ fontSize: "20px" }}>
+                          <h4 style={{ fontSize: '20px' }}>
                             • Personalized Career Services
                           </h4>
                           <p>
                             Their tailored services help you to prepare and
                             optimize your resume and provide feedback for areas
-                            of improvement and skill enhancement.{" "}
+                            of improvement and skill enhancement.{' '}
                           </p>
                         </li>
                         <li>
-                          <h3 style={{ fontSize: "24px" }}>
+                          <h3 style={{ fontSize: '24px' }}>
                             6. Networking Opportunities
                           </h3>
                           <p>
@@ -3883,25 +3914,25 @@ function DataAnalytics({
                 better part of it, you have to learn from comprehensive courses.
               </p>
               <p>
-                Try to search for{" "}
+                Try to search for{' '}
                 <a
                   href="https://www.learnbay.co/datascience/artificial-intelligence-certification-course"
                   target="_blank"
                 >
                   advanced course in artificial intelligence and machine
-                  learning{" "}
-                </a>{" "}
+                  learning{' '}
+                </a>{' '}
                 to gain more extensive knowledge about the real-world
                 applications of it. There are various master’s degree program in
                 AI as well, so select the best one to gain the edge.
               </p>
               <p>
-                Learnbay’s{" "}
+                Learnbay’s{' '}
                 <a
                   href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
                   target="_blank"
                 >
-                  Master’s in Computer Science Data Science{" "}
+                  Master’s in Computer Science Data Science{' '}
                 </a>
                 and AI is a specialization program that leverages your prior
                 work experience by combining it with competitive and most-demand
@@ -3914,38 +3945,38 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : ""}
+            {read ? 'Read Less...' : ''}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
       {daba ? (
         <div className={styles.content}>
           <div className={styles.btnread}>
             <p
               style={{
-                color: "#fff",
-                fontWeight: "600",
-                textDecoration: "underline",
-                cursor: "pointer",
+                color: '#fff',
+                fontWeight: '600',
+                textDecoration: 'underline',
+                cursor: 'pointer',
               }}
               onClick={handler}
               className={styles.readP}
             >
-              {read ? "Read Less..." : "Read More..."}
+              {read ? 'Read Less...' : 'Read More...'}
             </p>
           </div>
           <h2>
@@ -3954,18 +3985,18 @@ function DataAnalytics({
           </h2>
           <p>
             Build a Generative AI-driven expertise to thrive in today’s
-            analytics-driven workspace. Join Learnbay’s cutting-edge{" "}
+            analytics-driven workspace. Join Learnbay’s cutting-edge{' '}
             <b>data analytics and AI course </b>to enrich your data-driven
-            decisions and business forte.{" "}
+            decisions and business forte.{' '}
             <b>
-              Our Data Analytics and Business Analytics with Gen AI Program{" "}
+              Our Data Analytics and Business Analytics with Gen AI Program{' '}
             </b>
             (career support & capstone projects) vows you a hassle-free career
             shift.
           </p>
           {read ? (
             <>
-              <h2 style={{ fontSize: "24px" }}>
+              <h2 style={{ fontSize: '24px' }}>
                 <b>Diving Deeper into Market Insights</b>
               </h2>
               <p>
@@ -4012,7 +4043,7 @@ function DataAnalytics({
                 shot. We have designed this program for working experts keen to
                 learn full-stack analytics with GenAI features to upscale their
                 data skills and industry acumen.
-              </p>{" "}
+              </p>{' '}
               <p>
                 <b> Business analytics and artificial intelligence </b>have been
                 a key focus for diverse sectors willing to enrich their
@@ -4023,7 +4054,7 @@ function DataAnalytics({
               </p>
               <h2>
                 Why Choose Learnbay’s GenAI-Rich Data and Business Analytics
-                Course?{" "}
+                Course?{' '}
               </h2>
               <p>
                 A rapidly growing GenAI trend inspires working experts to
@@ -4035,7 +4066,7 @@ function DataAnalytics({
                 gains. Let’s explore the course features.
                 <ul>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>
+                    <h4 style={{ fontSize: '18px' }}>
                       • All-inclusive modules with data analytics, business
                       analytics, and artificial intelligence:
                     </h4>
@@ -4048,7 +4079,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>
+                    <h4 style={{ fontSize: '18px' }}>
                       • Flexible GenAI-rich training:
                     </h4>
                     <p>
@@ -4063,21 +4094,21 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>
+                    <h4 style={{ fontSize: '18px' }}>
                       •Domain-specific training:
                     </h4>
                     <p>
                       Aspirants will get domain-driven learning to tackle
                       industry cases with 100% proven solutions. Experts can
-                      choose the best-fit domain{" "}
+                      choose the best-fit domain{' '}
                       <b>
                         (BFSI, Retail, Supply Chain, HR, Marketing, or
                         Manufacturing)
-                      </b>{" "}
+                      </b>{' '}
                       and master proven tools. Experts can choose any two
                       domains to undergo live project work.
                     </p>
-                    <h4 style={{ fontSize: "18px" }}>
+                    <h4 style={{ fontSize: '18px' }}>
                       Real-time learning via capstone projects:
                     </h4>
                     <p>
@@ -4086,7 +4117,7 @@ function DataAnalytics({
                       enrich their skills. It offers insights into real-world
                       cases and equips you with skills to thrive globally.
                     </p>
-                    <h4 style={{ fontSize: "18px" }}>
+                    <h4 style={{ fontSize: '18px' }}>
                       Capstone project validation via a job-driven certificate:
                     </h4>
                     <p>
@@ -4096,7 +4127,7 @@ function DataAnalytics({
                       <b> AI in business analytics</b>
                       and data-driven decision-making.
                     </p>
-                    <h4 style={{ fontSize: "18px" }}>
+                    <h4 style={{ fontSize: '18px' }}>
                       Career-driven placement aid:
                     </h4>
                     <p>
@@ -4106,7 +4137,7 @@ function DataAnalytics({
                       offers resume building, mock interviews, 1:1
                       doubt-clearing, and endless job calls.
                     </p>
-                    <h4 style={{ fontSize: "18px" }}>Global certifications:</h4>
+                    <h4 style={{ fontSize: '18px' }}>Global certifications:</h4>
                     <p>
                       Business and <b> data analytics with AI </b>lay the basis
                       for swift career shifts for experts from diverse sectors.
@@ -4123,7 +4154,7 @@ function DataAnalytics({
               <p>
                 As the demand for certified data analysts, business analysts, or
                 GenAI experts grows, the urgency for upskilling keeps
-                triggering. Experts prefer joining a{" "}
+                triggering. Experts prefer joining a{' '}
                 <b>data analytics and AI course </b>with globally valued
                 certificates for proven success.Learnbay promises swift career
                 growth under the industry alliance with IBM & Microsoft. It
@@ -4139,7 +4170,7 @@ function DataAnalytics({
                   </li>
                 </ul>
               </p>
-              <h4 style={{ fontSize: "20px" }}>
+              <h4 style={{ fontSize: '20px' }}>
                 Is learning with Learnbay’s cutting-edge course modules worth
                 investing in?
               </h4>
@@ -4163,7 +4194,7 @@ function DataAnalytics({
                     <ul>
                       <li>
                         • <b>1st Term:</b>Learners will master Excel functions
-                        and advanced features to apply{" "}
+                        and advanced features to apply{' '}
                         <b>AI in business analytics</b>
                         and data analysis.
                       </li>
@@ -4176,7 +4207,7 @@ function DataAnalytics({
                       <li>
                         • <b>3rd Term:</b> Learners can gain visualization and
                         analysis skills to decode data patterns, predict future
-                        trends, and explore business and{" "}
+                        trends, and explore business and{' '}
                         <b>data analytics with AI.</b>
                       </li>
                       <li>
@@ -4202,7 +4233,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h3 style={{ fontSize: "24px" }}>
+                    <h3 style={{ fontSize: '24px' }}>
                       In what ways does Learnbay’s career assistance prepare you
                       for upcoming roles?
                     </h3>
@@ -4248,7 +4279,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h3 style={{ fontSize: "24px" }}>
+                    <h3 style={{ fontSize: '24px' }}>
                       Is project-based learning crucial for modern-age career
                       transformations?
                     </h3>
@@ -4256,7 +4287,7 @@ function DataAnalytics({
                       Project-based learning is vital for experts to build
                       promising AI careers. Owing to the modern age of Agentic
                       AI and GenAI trends, upskilling has become crucial to have
-                      exciting offers. Our inclusively curated{" "}
+                      exciting offers. Our inclusively curated{' '}
                       <b>data analytics and AI course</b> offers a hands-on
                       learning space where you can work on domain-driven
                       projects.
@@ -4266,9 +4297,9 @@ function DataAnalytics({
                     <p>
                       Learners must choose two domains
                       <b>
-                        {" "}
+                        {' '}
                         (BFSI, Retail, Supply Chain, HR, Marketing, or
-                        Manufacturing){" "}
+                        Manufacturing){' '}
                       </b>
                       to undergo live project work across the offline innovation
                       labs. Working while learning helps you gain insights into
@@ -4288,25 +4319,25 @@ function DataAnalytics({
                 </ul>
               </p>
               <p>
-                Try to search for{" "}
+                Try to search for{' '}
                 <a
                   href="https://www.learnbay.co/datascience/artificial-intelligence-certification-course"
                   target="_blank"
                 >
                   advanced course in artificial intelligence and machine
-                  learning{" "}
-                </a>{" "}
+                  learning{' '}
+                </a>{' '}
                 to gain more extensive knowledge about the real-world
                 applications of it. There are various master’s degree program in
                 AI as well, so select the best one to gain the edge.
               </p>
               <p>
-                Learnbay’s{" "}
+                Learnbay’s{' '}
                 <a
                   href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
                   target="_blank"
                 >
-                  Master’s in Computer Science Data Science{" "}
+                  Master’s in Computer Science Data Science{' '}
                 </a>
                 and AI is a specialization program that leverages your prior
                 work experience by combining it with competitive and most-demand
@@ -4318,28 +4349,29 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : ""}
+            {read ? 'Read Less...' : ''}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
       {mangers ? (
         <div className={styles.content}>
-          <h4 style={{ textAlign: "center" }}>
-            Data Science and AI Certification Program for Managers and Leaders{" "}
+          <h4 style={{ textAlign: 'center' }}>
+            Data Science and AI Certification Program for Managers and
+            Leaders{' '}
           </h4>
           <p>
             The growth of cutting edge technologies in recent years has forced
@@ -4354,12 +4386,12 @@ function DataAnalytics({
           </p>
           {read ? (
             <>
-              <h4 style={{ fontSize: "28px" }}>
-                Find out how the AI and{" "}
+              <h4 style={{ fontSize: '28px' }}>
+                Find out how the AI and{' '}
                 <b>Data Science Course for Managers and Leaders </b> will help
-                you.{" "}
+                you.{' '}
               </h4>
-              <h2 style={{ fontSize: "24px" }}>
+              <h2 style={{ fontSize: '24px' }}>
                 What is the importance of <b>AI for managers course</b> in
                 leadership development?
               </h2>
@@ -4381,13 +4413,13 @@ function DataAnalytics({
                 Science and Artificial Intelligence Course for Managers.
               </p>
               <p>
-                Hence, decision-makers or senior executives must join a{" "}
+                Hence, decision-makers or senior executives must join a{' '}
                 <b>data science course for managers and leaders </b> to cherish
                 its importance in terms of –
               </p>
               <ul>
                 <li>
-                  <h3 style={{ fontSize: "18px" }}>
+                  <h3 style={{ fontSize: '18px' }}>
                     a. Personalized learning and growth implications:
                   </h3>
                   <p>
@@ -4402,7 +4434,7 @@ function DataAnalytics({
                   </p>
                 </li>
                 <li>
-                  <h3 style={{ fontSize: "18px" }}>
+                  <h3 style={{ fontSize: '18px' }}>
                     b. Data-driven decision-making:
                   </h3>
                   <p>
@@ -4410,11 +4442,11 @@ function DataAnalytics({
                     their functions and drive compelling gains. Decision-making
                     is a proven metric for business growth and success. Experts
                     can pursue a data science and <b>AI course for managers </b>
-                    to drive exciting decisions with real-time insights.{" "}
+                    to drive exciting decisions with real-time insights.{' '}
                   </p>
                 </li>
                 <li>
-                  <h3 style={{ fontSize: "18px" }}>
+                  <h3 style={{ fontSize: '18px' }}>
                     c. Building a diversified and inclusive team:
                   </h3>
                   <p>
@@ -4439,8 +4471,9 @@ function DataAnalytics({
                 an edge.
               </p>
 
-              <h2 style={{ fontSize: "24px" }}>
-                How do Managers and Leaders make use of Data Science and AI?{" "}
+              <h2 style={{ fontSize: '24px' }}>
+                How do Managers and Leaders make use of Data Science and
+                AI?{' '}
               </h2>
               <p>
                 Data Science is not only a simple buzz or trend word but a
@@ -4451,18 +4484,19 @@ function DataAnalytics({
                 right areas to allocate resources to and identifying skill gaps
                 in employees help management in the big time. Also, data-driven
                 insights help managers and leaders avoid gut-feeling-based and
-                hypothesis-driven decisions.{" "}
+                hypothesis-driven decisions.{' '}
               </p>
               <p>
-                The following are some specific examples of how AI and{" "}
+                The following are some specific examples of how AI and{' '}
                 <b>
-                  data science are useful for business leaders and managers.{" "}
+                  data science are useful for business leaders and
+                  managers.{' '}
                 </b>
               </p>
 
               <ul>
                 <li>
-                  <h3 style={{ fontSize: "18px" }}>
+                  <h3 style={{ fontSize: '18px' }}>
                     • Predictive AI analytics for sales forecasting
                   </h3>
                   <p>
@@ -4476,7 +4510,7 @@ function DataAnalytics({
                   </p>
                 </li>
                 <li>
-                  <h3 style={{ fontSize: "18px" }}>
+                  <h3 style={{ fontSize: '18px' }}>
                     • Machine learning models to do risk management
                   </h3>
                   <p>
@@ -4491,18 +4525,18 @@ function DataAnalytics({
                     trees will help you a lot as a manager.
                   </p>
                   <p>
-                    {" "}
+                    {' '}
                     Other than these activities, managers seek the assistance of
                     AI and Data Science in optimizing inventory, resources,
                     operations, team performance, employee performance, and
                     customer experience. <b>Data science for managers</b> plays
                     an important role and helps them increase productivity too.
-                    Also, gaining a specialized Data Science and{" "}
+                    Also, gaining a specialized Data Science and{' '}
                     <b>Artificial Intelligence course for managers </b>will help
-                    managerial professionals achieve new career steps.{" "}
+                    managerial professionals achieve new career steps.{' '}
                   </p>
                   <p>
-                    {" "}
+                    {' '}
                     Artificial intelligence and data science for leaders have
                     become essential skills in the 21st century. Yet, the rise
                     of AI-rich functions creates a fear of job loss and
@@ -4517,9 +4551,9 @@ function DataAnalytics({
                   </p>
                 </li>
               </ul>
-              <h2 style={{ fontSize: "24px" }}>
+              <h2 style={{ fontSize: '24px' }}>
                 Can Artificial Intelligence Replace Human-centric Leadership
-                Culture?{" "}
+                Culture?{' '}
               </h2>
               <p>
                 Today’s tech-driven era calls for constant upskilling and
@@ -4527,7 +4561,8 @@ function DataAnalytics({
                 gains. Meanwhile, the advent of data science and AI leverages
                 business growth prospects and drives exciting gains. In such
                 times, leaders and managers are exposed to uncertainties that
-                require diversified abilities to make insightful approaches.{" "}
+                require diversified abilities to make insightful
+                approaches.{' '}
               </p>
               <p>
                 AI understands human instincts and uses real-time facts to
@@ -4536,15 +4571,16 @@ function DataAnalytics({
                 functions, improve them, and induce better gains. Hence, experts
                 must join an <b>AI course for managers</b> and leaders to
                 develop proven skills and have an insightful approach to
-                business growth.{" "}
+                business growth.{' '}
               </p>
               <p>
                 AI cannot replace human managers and leaders. It can only
                 support its data-driven effectiveness, driving compelling gains.
-                Constant learning via an AI and{" "}
+                Constant learning via an AI and{' '}
                 <b>data science course for managers </b> can help you acquire
                 cutting-edge skills. Hence, you can sustain and empower your
-                career roles with a progressive approach without any conflict.{" "}
+                career roles with a progressive approach without any
+                conflict.{' '}
               </p>
               <p>
                 In short, AI cannot replace a human-centric leadership culture.
@@ -4555,7 +4591,7 @@ function DataAnalytics({
                 and Leaders.
               </p>
 
-              <h2 style={{ fontSize: "24px" }}>
+              <h2 style={{ fontSize: '24px' }}>
                 Is There Any Specific Data Science and AI Course for Managers
                 and Leaders?
               </h2>
@@ -4608,9 +4644,9 @@ function DataAnalytics({
                 reinforcement learning.
               </p>
 
-              <h2 style={{ fontSize: "24px" }}>
+              <h2 style={{ fontSize: '24px' }}>
                 Why Opt For Learnbay’s Data Science and Artificial Intelligence
-                Course For Managers?{" "}
+                Course For Managers?{' '}
               </h2>
               <p>
                 AI and Data Science for managers play a vital role in the
@@ -4623,21 +4659,21 @@ function DataAnalytics({
               <p>
                 If you are a person who wants to get into the banking industry,
                 you can choose an elective related to banking to make your
-                career path easy. The{" "}
+                career path easy. The{' '}
                 <a
                   href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
                   target="_blank"
-                  style={{ color: "#0072bc" }}
+                  style={{ color: '#0072bc' }}
                 >
-                  <i> artificial intelligence and data science course</i>{" "}
-                </a>{" "}
+                  <i> artificial intelligence and data science course</i>{' '}
+                </a>{' '}
                 <b>for leaders </b>includes the following domains - <b>BFSI </b>
-                (Banking, Financial Services, and Insurance);{" "}
-                <b>Healthcare; Supply Chain;</b> and <b>Manufacturing. </b>{" "}
+                (Banking, Financial Services, and Insurance);{' '}
+                <b>Healthcare; Supply Chain;</b> and <b>Manufacturing. </b>{' '}
               </p>
 
               <p>
-                As mentioned earlier, Learnbay’s Data Science and{" "}
+                As mentioned earlier, Learnbay’s Data Science and{' '}
                 <b>AI certification for Managers</b> and Leaders program will
                 offer flexibility and continuous student support. You can opt
                 for <b>one-on-one doubt-clearing sessions</b> according to your
@@ -4645,7 +4681,7 @@ function DataAnalytics({
                 The faculty members are friendly and easily approachable.
                 Additionally, even if you are from a non-tech background,
                 Learnbay will set you on the right track and help you learn
-                comprehensively.{" "}
+                comprehensively.{' '}
               </p>
               <p>
                 In brief, Learnbay honed and designed an AI for managers course
@@ -4654,7 +4690,7 @@ function DataAnalytics({
                 receive training for cutting edge tools and technologies, gain
                 real-world industry exposure, earn globally recognized
                 certifications, and work on simulated real-time capstone
-                projects.{" "}
+                projects.{' '}
               </p>
               <p>
                 In this AI Course for Managers, you will gain practical
@@ -4679,23 +4715,23 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
 
       {HRContent ? (
@@ -4707,10 +4743,10 @@ function DataAnalytics({
           <p>
             Step up to build a data-driven workspace with more factual HR
             decisions. In the human-tech nexus, thrive as a top-notch HR leader
-            leading diverse work teams. Learnbay’s{" "}
+            leading diverse work teams. Learnbay’s{' '}
             <i>
               <b>‘HR Analytics Certification Program’ </b>
-            </i>{" "}
+            </i>{' '}
             is here to navigate your success with engaging results. Enroll in an
             industry-paced HR analytics course today and build an agile
             workspace.
@@ -4718,8 +4754,8 @@ function DataAnalytics({
           {read ? (
             <>
               <h2>Outlining Domain-Specific HR Analytics Course Online</h2>
-              <h4 style={{ fontSize: "28px" }}>
-                Introducing the HR Analytics Program{" "}
+              <h4 style={{ fontSize: '28px' }}>
+                Introducing the HR Analytics Program{' '}
               </h4>
 
               <p>
@@ -4734,7 +4770,7 @@ function DataAnalytics({
               </p>
 
               <h3>
-                Why choose Learnbay's Master in CS : Data Science and AI?{" "}
+                Why choose Learnbay's Master in CS : Data Science and AI?{' '}
               </h3>
               <i>
                 <b>
@@ -4769,7 +4805,7 @@ function DataAnalytics({
                     one space to lead people analytics.
                   </li>
                   <li>
-                    <b>• Improved Decision-making with Real-time Data:</b>{" "}
+                    <b>• Improved Decision-making with Real-time Data:</b>{' '}
                     Experts gain a hands-on learning scope via HR analytics
                     training for driving optimal decisions with facts.
                   </li>
@@ -4786,7 +4822,7 @@ function DataAnalytics({
                 </ul>
               </p>
               <p>
-                Thus, upskilling with the best <b>HR analytics certification</b>{" "}
+                Thus, upskilling with the best <b>HR analytics certification</b>{' '}
                 can help you handle the trends and attain competitive success.
               </p>
 
@@ -4819,7 +4855,7 @@ function DataAnalytics({
               <p>
                 <li>
                   <b>Note:</b>
-                </li>{" "}
+                </li>{' '}
                 Experts enrolling in the <b>business analytics course</b> can
                 also kick-start their careers as HR analysts, but may lack
                 domain-led expertise.
@@ -4838,25 +4874,25 @@ function DataAnalytics({
               <p>
                 Learners enrolling in Learnbay’s <b>HR analytics course</b> are
                 entitled to gain dual certification. All eligible learners will
-                obtain two-course completion certificates{" "}
-                <b>(IBM & Microsoft)</b> and one project certificate from{" "}
+                obtain two-course completion certificates{' '}
+                <b>(IBM & Microsoft)</b> and one project certificate from{' '}
                 <b>IBM</b>. These industry certifications are globally approved
                 and validate your skills for better offers.
               </p>
 
               <h3>
-                • How does Learnbay’s <b>HR Analytics Certification Course</b>{" "}
+                • How does Learnbay’s <b>HR Analytics Certification Course</b>{' '}
                 help in Career Growth?
               </h3>
               <p>
                 Learnbay offers the best <b>HR analytics course online</b> to
-                lift your career growth limits.{" "}
+                lift your career growth limits.{' '}
               </p>
               <i>
                 <b>
                   <p>
                     Let’s know the elite course features that help you lift your
-                    career with better job offers.{" "}
+                    career with better job offers.{' '}
                   </p>
                 </b>
               </i>
@@ -4970,10 +5006,10 @@ function DataAnalytics({
                 Enroll today and start learning while you earn.
               </p>
               <p>
-                Register with Learnbay’s custom-fit{" "}
+                Register with Learnbay’s custom-fit{' '}
                 <i>
                   '<b>HR Analytics Certification Program’</b>
-                </i>{" "}
+                </i>{' '}
                 and drive career merits with better job prospects.
               </p>
 
@@ -4982,23 +5018,23 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
       {Marketing ? (
         <div className={styles.content}>
@@ -5012,13 +5048,13 @@ function DataAnalytics({
             business ROI. Learnbay’s ‘Marketing Analytics Certification Program’
             is all set to empower marketers with data-informed action plans.
             Enroll today to master your skills with a leading-edge marketing
-            analyst course.{" "}
+            analyst course.{' '}
           </p>
 
           {read ? (
             <>
               <h2>
-                {" "}
+                {' '}
                 Laying Out Domain-centric <b>Marketing Analytics Program</b>
               </h2>
               <h4>Course Overview </h4>
@@ -5059,10 +5095,10 @@ function DataAnalytics({
                 Role of Marketing Analytics Program to Overcome Outpaced Career
               </h2>
               <p>
-                Learnbay introduces the{" "}
+                Learnbay introduces the{' '}
                 <i>
                   <b>‘Marketing Analytics Certification Program’</b>
-                </i>{" "}
+                </i>{' '}
                 to empower marketers with proven excellence. Working pros in any
                 domain or experts with generic marketing careers find it useful.
                 <i>
@@ -5091,7 +5127,7 @@ function DataAnalytics({
                   <li>
                     <h3>• Flexible Training Sessions by Industry Experts</h3>
                     <p>
-                      Experts enrolling in Learnbay’s{" "}
+                      Experts enrolling in Learnbay’s{' '}
                       <b>marketing analytics course</b>
                       will gain flexible training sessions from industry
                       experts. It offers hybrid and live instructor-led training
@@ -5100,7 +5136,7 @@ function DataAnalytics({
                     </p>
                     <h3>• Flexible Financing Plans</h3>
                     <p>
-                      Learners opting for the{" "}
+                      Learners opting for the{' '}
                       <b>marketing analytics certification</b>
                       course are entitled to flexible fee payment options.
                       Eligible learners can avail of scholarships (up to 25%)
@@ -5182,11 +5218,11 @@ function DataAnalytics({
                 </b>
               </i>
               <h3>
-                Crack Top Job Roles with Learnbay’s{" "}
-                <b>Marketing Analytics Course?</b>{" "}
+                Crack Top Job Roles with Learnbay’s{' '}
+                <b>Marketing Analytics Course?</b>{' '}
               </h3>
               <p>
-                Learnbay’s dedicated placement cell in the{" "}
+                Learnbay’s dedicated placement cell in the{' '}
                 <b>marketing analytics certification course,</b> helps you crack
                 prime job roles like –
                 <ul>
@@ -5249,45 +5285,45 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
 
       {Bfsi ? (
         <div className={styles.content}>
           <h1>
-            Step Up Beyond Conventional Financial Decision-making with{" "}
+            Step Up Beyond Conventional Financial Decision-making with{' '}
             <b>Data Science in BFSI</b>
           </h1>
           <p>
             Empower yourself to grapple with the evolving financial sector via
-            industry-driven upskilling. Enroll with Learnbay’s{" "}
+            industry-driven upskilling. Enroll with Learnbay’s{' '}
             <i>
               <b>‘Data Science and AI for BFSI Professionals’</b>
-            </i>{" "}
-            today. Upgrade your financial expertise via{" "}
+            </i>{' '}
+            today. Upgrade your financial expertise via{' '}
             <b>Data Science in BFSI</b> and land the highest-paying job.
           </p>
 
           {read ? (
             <>
               <h2>
-                Briefing on Leading-edge Training for{" "}
+                Briefing on Leading-edge Training for{' '}
                 <b>Data Science in Financial Services </b>
               </h2>
               <h4>Course Overview </h4>
@@ -5295,7 +5331,7 @@ function DataAnalytics({
               <p>
                 The emerging field of data science drives unbeatable excellence
                 in diverse sectors. The banking and financial services sector is
-                one of them. Data science integration with the{" "}
+                one of them. Data science integration with the{' '}
                 <b>BFSI domain</b>
                 expands career growth limits with assured gains. Upskilling with
                 Learnbay’s domain-led data science course empowers your career
@@ -5304,7 +5340,7 @@ function DataAnalytics({
               </p>
               <h3>
                 Transforming the World of Banking & Financial Services with Data
-                Science{" "}
+                Science{' '}
               </h3>
               <p>
                 <b>Data science in financial services</b> has become essential
@@ -5331,18 +5367,18 @@ function DataAnalytics({
                 prime gateway to enriching career values with better job offers.
               </p>
               <h2>
-                Is enrolling in{" "}
+                Is enrolling in{' '}
                 <b>Data Science and AI for BFSI Professionals</b> worth it?
               </h2>
               <p>
                 If you are a BFSI expert at an early or mid-career level eager
                 to upgrade your career’s worth, upskilling is a wise solution.
-                If you are interested in the <b>BFSI domain,</b> opting for the{" "}
+                If you are interested in the <b>BFSI domain,</b> opting for the{' '}
                 <p>
                   <i>
                     <b>Note:</b>
-                  </i>{" "}
-                  Experts can also opt for an{" "}
+                  </i>{' '}
+                  Experts can also opt for an{' '}
                   <b>Advance Data Science and AI Course</b> and improve their
                   financial knowledge as per the latest trends.
                 </p>
@@ -5357,7 +5393,7 @@ function DataAnalytics({
                       This program offers industry-fit course syllabi curated as
                       per the latest updates. Learners get a 360-degree
                       knowledge-building (theoretical & practical) scope via
-                      this course. With this, you learn the use of{" "}
+                      this course. With this, you learn the use of{' '}
                       <b>data science in financial services.</b>
                     </p>
                   </li>
@@ -5366,7 +5402,7 @@ function DataAnalytics({
                     <p>
                       Renowned industry experts provide domain-specific training
                       to learners enrolling in the course. It helps to gain a
-                      complete knowledge of real-time uses of{" "}
+                      complete knowledge of real-time uses of{' '}
                       <b>data science in BFSI.</b> Experts learn about
                       real-world uses of data science tools and improve their
                       ways of working.
@@ -5378,7 +5414,7 @@ function DataAnalytics({
                       Learnbay believes in real-time skills upgrades. Thus, this
                       program introduces two fresh capstone projects to make you
                       aware of real cases. Mentors help you gain hands-on
-                      learning experiences with in-demand tools in the{" "}
+                      learning experiences with in-demand tools in the{' '}
                       <b>BFSI domain.</b>
                     </p>
                   </li>
@@ -5391,7 +5427,7 @@ function DataAnalytics({
                       This course offers 100% placement support via its Career
                       Service Pro program. A learner will get everything – from
                       resume preparation to Job-readiness with interview support
-                      from any of the 350+ leading MNCs & unicorn startups.{" "}
+                      from any of the 350+ leading MNCs & unicorn startups.{' '}
                     </p>
                   </li>
                   <li>
@@ -5400,7 +5436,7 @@ function DataAnalytics({
                       Learners opting for this course will gain the scope of
                       validating their careers with globally accredited industry
                       certifications. This course offers 2 course certificates
-                      <b>(IBM & Microsoft)</b> and 1 project certificate{" "}
+                      <b>(IBM & Microsoft)</b> and 1 project certificate{' '}
                       <b>(IBM).</b>
                     </p>
                   </li>
@@ -5412,7 +5448,7 @@ function DataAnalytics({
                       other non-bankers eager to switch to data science can
                       upskill via Data Science and AI for BFSI Professionals
                       program. With good academics and basic numeracy skills,
-                      anyone can kick-start their career with this program.{" "}
+                      anyone can kick-start their career with this program.{' '}
                     </p>
                   </li>
                   <li>
@@ -5441,20 +5477,20 @@ function DataAnalytics({
                         organizations. A general data scientist can earn INR 8
                         LPA – INR 23 LPA on average. On the other hand, the
                         average salary for a data scientist in financial
-                        services ranges between INR 4 LPA and INR 28 LPA.{" "}
+                        services ranges between INR 4 LPA and INR 28 LPA.{' '}
                       </p>
                     </p>
                   </li>
                 </ul>
                 <h2>
                   How does Learnbay support your career transition journey in
-                  the BFSI domain?{" "}
+                  the BFSI domain?{' '}
                 </h2>
                 <p>
-                  Enrolling in Learnbay’s{" "}
+                  Enrolling in Learnbay’s{' '}
                   <i>
                     <b>Data Science and AI for BFSI Professionals</b>
-                  </i>{" "}
+                  </i>{' '}
                   program is the first step to successful career growth. Its
                   inclusive training offers a real-time learning platform via
                   the ‘Project Innovation Lab’.
@@ -5501,23 +5537,23 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
 
       {AdvanceCyberSecurity ? (
@@ -5525,19 +5561,19 @@ function DataAnalytics({
           <h2>Advance Certification in Cyber Security & Ethical Hacking</h2>
           <p>
             Gain digital eminence to decode and eradicate today's threat
-            landscape with Learnbay's thoroughly designed{" "}
+            landscape with Learnbay's thoroughly designed{' '}
             <b>advance cyber security course.</b> Join a Generative AI-driven
             program to develop proven cyber security skills and thrive. Earn EC
             Council and Microsoft certificates to validate your defensive
             powers.
           </p>
-          <h4 style={{ fontSize: "24px" }}>
+          <h4 style={{ fontSize: '24px' }}>
             About Learnbay's Cyber Security and Ethical Hacking Course
           </h4>
-          <h3 style={{ fontSize: "20px" }}>Course Details</h3>
+          <h3 style={{ fontSize: '20px' }}>Course Details</h3>
           <p>
             In the data age, where data explosions and breaches are growing
-            simultaneously, Learnbay marks a landmark with its{" "}
+            simultaneously, Learnbay marks a landmark with its{' '}
             <b>certificate course in ethical hacking and cyber security.</b> Our
             proactive step toward a GenAI-rich learning stage will help you
             build a thriving career in cyber security.
@@ -5545,7 +5581,7 @@ function DataAnalytics({
           <p>
             Our inclusively designed course is here to help IT experts, network
             admins, security analysts, and other tech pros learn and grow. It
-            presents a broadly curated{" "}
+            presents a broadly curated{' '}
             <b>cybersecurity and ethical hacking roadmap</b>, equipping techies
             with vital skills to lessen cyber-attacks and enrich AI-driven
             security.
@@ -5558,7 +5594,7 @@ function DataAnalytics({
             certificates from <b>EC Council and Microsoft</b> to your career can
             enrich your worth.
           </p>
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Who is eligible for Learnbay's Advance Cyber Security Course?
           </h3>
           <p>
@@ -5569,7 +5605,7 @@ function DataAnalytics({
             cyber security roles.
           </p>
           <p>
-            Before enrolling in our{" "}
+            Before enrolling in our{' '}
             <b>cyber security and ethical hacking course</b>, check if you can
             join –
           </p>
@@ -5588,12 +5624,12 @@ function DataAnalytics({
             Yet, it is crucial to note that freshers, recent graduates, and
             students cannot take this course.
           </p>
-          <h4 style={{ fontSize: "24px" }}>
+          <h4 style={{ fontSize: '24px' }}>
             Briefing the Essence of Cyber Security and Ethical Hacking in the
             Tech Age
           </h4>
           <p>
-            According to cybercrime{" "}
+            According to cybercrime{' '}
             <a
               href="https://secureframe.com/blog/data-breach-statistics"
               className={styles.hyperLink}
@@ -5616,7 +5652,7 @@ function DataAnalytics({
             boosting your skill sets with cyber security tools and methods is
             crucial.
           </p>
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Let's review the essence of cyber security in today's age.
           </h3>
           <p>
@@ -5647,7 +5683,7 @@ function DataAnalytics({
             growing rapidly.
           </p>
           <p>
-            Experts join a{" "}
+            Experts join a{' '}
             <b>certificate course in ethical hacking and cyber security</b> to
             protect firms from piracy attacks, data breaches, and other risks.
             Ethical hackers help firms protect their systems from piracy
@@ -5656,7 +5692,7 @@ function DataAnalytics({
             ethical hacking has become a crucial part of firms, ensuring 100%
             safety and security.
           </p>
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Let’s learn more about the extent of ethical hacking in limiting
             cyber-attacks.
           </h3>
@@ -5679,14 +5715,14 @@ function DataAnalytics({
               <p>
                 <b>• Mitigating cyber threats : </b>Ethical hackers help firms
                 address cyberattacks and prevent linked factors from unethical
-                actions. Aspirants can opt for an{" "}
+                actions. Aspirants can opt for an{' '}
                 <b>advance cyber security course</b> to master ethical hacking
                 tools and methods and mitigate further cyber attacks. This
                 course helps them grab ethical hacker job roles with prime MNCs.
               </p>
               <p>
                 <b>• Risk management : </b>Ethical hackers can stop likely cyber
-                threats and set the stage for end-to-end security. The{" "}
+                threats and set the stage for end-to-end security. The{' '}
                 <b>cybersecurity and ethical hacking roadmap</b> prepares them
                 to face upcoming risks, identify them on time, and manage those
                 for better results. Experts regularly test the systems, monitor
@@ -5695,18 +5731,18 @@ function DataAnalytics({
               </p>
               <p>
                 Indeed, upskilling with cutting-edge cyber security tools and
-                trends is helpful. Experts can enroll in a{" "}
-                <b>certificate course in ethical hacking and cyber security</b>{" "}
+                trends is helpful. Experts can enroll in a{' '}
+                <b>certificate course in ethical hacking and cyber security</b>{' '}
                 to handle risk factors and ensure safety. If you're willing to
                 execute your work swiftly and help various firms from cyber
                 attacks, join our course today.
               </p>
-              <h4 style={{ fontSize: "24px" }}>
+              <h4 style={{ fontSize: '24px' }}>
                 How is Learnbay's Advance Cyber Security Course Different From
                 Others?
               </h4>
               <p>
-                Learning with a leading-edge{" "}
+                Learning with a leading-edge{' '}
                 <b>cyber security and ethical hacking course</b> is vital for
                 aspirants willing to have tempting career growth. Hence, our
                 course is entirely curated to meet learner's needs.
@@ -5739,7 +5775,7 @@ function DataAnalytics({
                 <li>
                   <b>
                     Reliable industry experts to keep you abreast of competition
-                    :{" "}
+                    :{' '}
                   </b>
                   Join our advanced cyber security course to gain live
                   mentorship from industry experts. Our reliable mentors are
@@ -5750,7 +5786,7 @@ function DataAnalytics({
                   risks.
                 </li>
                 <li>
-                  <b>Practical learning experiences : </b>Our{" "}
+                  <b>Practical learning experiences : </b>Our{' '}
                   <b>cybersecurity and ethical hacking roadmap</b> prepares you
                   for critical roles with real-time insights. You can work on
                   GenAI-rich projects to tackle cyber issues and attain proven
@@ -5760,11 +5796,11 @@ function DataAnalytics({
                   attain inspiring growth.
                 </li>
                 <li>
-                  <b>Prestigious Certifications : </b>Techies joining our{" "}
+                  <b>Prestigious Certifications : </b>Techies joining our{' '}
                   <b>
                     certificate course in ethical hacking and cyber security
-                  </b>{" "}
-                  will earn notable credentials to stand out. Our course offers{" "}
+                  </b>{' '}
+                  will earn notable credentials to stand out. Our course offers{' '}
                   <b>EC Council and Microsoft certifications</b> to enrich your
                   career values globally. Its global validation helps you build
                   a strong career base and boost your success rates.
@@ -5779,12 +5815,12 @@ function DataAnalytics({
                   perks.
                 </li>
               </ol>
-              <h4 style={{ fontSize: "24px" }}>
+              <h4 style={{ fontSize: '24px' }}>
                 Is the Advance Cyber Security Course Syllabus at Learnbay Worth
                 Investing In?
               </h4>
               <p>
-                Yes. Learnbay's <b>cyber security and ethical hacking course</b>{" "}
+                Yes. Learnbay's <b>cyber security and ethical hacking course</b>{' '}
                 syllabus is worth investing in to master front-age tools and
                 excel in your career. Our course module offers –
               </p>
@@ -5829,7 +5865,7 @@ function DataAnalytics({
                 learn ways to detect cyber threats, automate security alerts,
                 and identify malware patterns.
               </p>
-              <h4 style={{ fontSize: "24px" }}>
+              <h4 style={{ fontSize: '24px' }}>
                 How does Learnbay's Career Support Services Help Tech Experts?
               </h4>
               <p>
@@ -5853,7 +5889,7 @@ function DataAnalytics({
                 </li>
               </ul>
               <p>
-                Experts enrolling in our <b>advance cyber security course</b>{" "}
+                Experts enrolling in our <b>advance cyber security course</b>{' '}
                 will attain high-paying roles with top-tier MNCs. Join our
                 course today to excel in your career and battle against upcoming
                 cyber risks.
@@ -5863,38 +5899,38 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
       {GenAIManagers ? (
         <div className={styles.content}>
           <h2>GenAI Certification for Managers & Tech Leaders</h2>
           <p>
             Learn to harness the power of Generative AI (Gen AI) and lead a team
-            with a visionary mindset. Join an inclusively curated{" "}
+            with a visionary mindset. Join an inclusively curated{' '}
             <b>Gen AI course for managers</b> and tech leaders to enrich your
             leadership skills and decisiveness. Accelerate your success rate
             with <b>E&ICT Academy, IIT Guwahati</b> certification.
           </p>
-          <h4 style={{ fontSize: "24px" }}>
-            Briefing Learnbay's Best Gen AI Course for Managers & Leaders{" "}
+          <h4 style={{ fontSize: '24px' }}>
+            Briefing Learnbay's Best Gen AI Course for Managers & Leaders{' '}
           </h4>
-          <h3 style={{ fontSize: "20px" }}>Course Insights!!</h3>
+          <h3 style={{ fontSize: '20px' }}>Course Insights!!</h3>
           <p>
             In the age of Gen AI, constant learning and upskilling have become
             vital for a hassle-free career shift. Gen AI promises to revamp
@@ -5915,11 +5951,11 @@ function DataAnalytics({
             decision-making skills and drive better gains. Managers can leverage
             crucial changes with the help of GenAI's insightful interventions.
             Joining our course helps you learn proven skills to integrate GenAI
-            with usual functions and drive higher gains. Also, adding{" "}
+            with usual functions and drive higher gains. Also, adding{' '}
             <b>E&ICT Academy, IIT Guwahati credentials</b> to your career to
             unleash potential job offers with an alluring future.
           </p>
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Who is eligible to pursue Learnbay's generative AI course for
             managers?
           </h3>
@@ -5953,7 +5989,7 @@ function DataAnalytics({
             Unlike generic learning, enrolling in our course unlocks tempting
             growth options.
           </p>
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Diving Deeper into the Role of Gen AI in Enriching Decision-making
           </h3>
           {read ? (
@@ -5963,7 +5999,7 @@ function DataAnalytics({
                 decision-making processes. Unlike the age-old experience-based
                 decisions, today's data-driven reality focuses on more
                 innovative solutions. Yet, decision-makers face unwanted issues
-                due to a lack of potential skills. Hence, the demand for a{" "}
+                due to a lack of potential skills. Hence, the demand for a{' '}
                 <b>Gen AI course for managers</b> keeps growing rapidly to keep
                 you updated with the latest trends.
               </p>
@@ -5973,12 +6009,12 @@ function DataAnalytics({
                     <a
                       href="https://www.statista.com/outlook/tmo/artificial-intelligence/generative-ai/worldwide"
                       rel="nofollow noindex"
-                      style={{ textDecoration: "underline", color: "#0072bc" }}
+                      style={{ textDecoration: 'underline', color: '#0072bc' }}
                     >
                       Statista reports
                     </a>
                   </i>
-                </b>{" "}
+                </b>{' '}
                 confirm a 41.52% growth in GenAI market stance with US
                 dominance, which will change how we work. Also, firms will have
                 an evolved way to serve their customers with higher ROI. Hence,
@@ -5998,7 +6034,7 @@ function DataAnalytics({
                 Gen AI-powered systems help experts see through the changing
                 data patterns and make real-time moves. Experts with GenAI-rich
                 skills can tackle massive data sets, extract facts, present
-                forecasts, and make data-driven decisions.{" "}
+                forecasts, and make data-driven decisions.{' '}
                 <b>
                   Let's see how GenAI has helped managers enrich their
                   decisions.
@@ -6045,7 +6081,7 @@ function DataAnalytics({
                     <b>
                       4. Automate business tasks and personalize decisions: Gen
                       AI for leaders
-                    </b>{" "}
+                    </b>{' '}
                     lays the basis for automating business functions and
                     customizing further tactics. Experts with GenAI skills can
                     automate tedious tasks and focus on strategy planning for
@@ -6057,22 +6093,22 @@ function DataAnalytics({
 
               <p>
                 In short, GenAI shifts have changed the age-old business era
-                with advanced tactics. Hence, enrolling in a{" "}
+                with advanced tactics. Hence, enrolling in a{' '}
                 <b>Gen AI course for managers</b> has become vital for experts
                 to have first-hand involvement in decision-making.
               </p>
 
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Gen AI on the Verge of Empowering Managerial Roles
               </h3>
               <p>
-                According to{" "}
+                According to{' '}
                 <b>
                   <i>
                     <a
                       href="https://economictimes.indiatimes.com/jobs/hr-policies-trends/by-2026-20-of-organisations-will-use-ai-to-reduce-50-middle-management-roles-gartner/articleshow/114535239.cms?from=mdr"
                       rel="nofollow noindex"
-                      style={{ textDecoration: "underline", color: "#0072bc" }}
+                      style={{ textDecoration: 'underline', color: '#0072bc' }}
                     >
                       ET reports
                     </a>
@@ -6093,7 +6129,7 @@ function DataAnalytics({
                 today's tech-driven era. In the interim, GenAI revamps
                 managerial roles and related posts for optimal gains. Hence,
                 joining the <b>generative AI course for managers</b> has become
-                vital for aspirants.{" "}
+                vital for aspirants.{' '}
               </p>
 
               <p>
@@ -6101,7 +6137,7 @@ function DataAnalytics({
                 increasing overall yields. Hence, the inclusion of GenAI with
                 regular tasks has started automating them with lesser human
                 effort. As a result, GenAI is seen removing most static middle
-                career roles, driving better gains. Mastering{" "}
+                career roles, driving better gains. Mastering{' '}
                 <b>Gen AI for leaders</b> has become the ultimate weapon for
                 tackling industry intricacies.
               </p>
@@ -6109,23 +6145,23 @@ function DataAnalytics({
               <p>
                 In short, GenAI is on the verge of changing leadership dynamics,
                 altering the products or services available, and enriching the
-                results. Experts at decision-making levels must pursue the{" "}
+                results. Experts at decision-making levels must pursue the{' '}
                 <b>best Gen AI course</b> to attain success. Such aspirants can
                 unlock immense potential to grab exciting job offers and enhance
-                their decision-making skills.{" "}
+                their decision-making skills.{' '}
               </p>
 
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Is Learnbay's Generative AI course for Managers Worth it?
               </h3>
               <p>
                 Learnbay has become a boon for aspirants willing to redefine
                 their careers and bring data-driven decisions on board. Its
                 industry-paced <b>Gen AI course for managers</b> and tech
-                leaders is worth investing in.{" "}
+                leaders is worth investing in.{' '}
                 <b>
                   Let's view its notable features that bring hassle-free career
-                  growth chances.{" "}
+                  growth chances.{' '}
                 </b>
               </p>
 
@@ -6152,7 +6188,7 @@ function DataAnalytics({
                 </li>
                 <li>
                   <p>
-                    <b>3. Career-driven mentorship:</b> The{" "}
+                    <b>3. Career-driven mentorship:</b> The{' '}
                     <b>best Gen AI course</b> is worth investing in due to its
                     industry-paced mentorship. Experts enrolling in this course
                     will get 100% live training sessions from reputed IIT
@@ -6164,7 +6200,7 @@ function DataAnalytics({
                   <p>
                     <b>
                       4. Accelerate your career graph with reputed credentials:
-                    </b>{" "}
+                    </b>{' '}
                     The <b>generative AI course for managers</b> offers
                     career-driven certificates to help you excel in your field.
                     You can earn E&ICT Academy, IIT Guwahati credentials to
@@ -6177,7 +6213,7 @@ function DataAnalytics({
                     <b>
                       5. Revamp your career with industry-driven placement aid:
                       Gen AI for leaders
-                    </b>{" "}
+                    </b>{' '}
                     The <b>generative AI course for managers</b> lays the basis
                     for exciting career shifts. Experts eager to redefine their
                     careers must join Learnbay's generative AI training with
@@ -6191,7 +6227,7 @@ function DataAnalytics({
                 In short, if you want to improve your decisiveness, enroll in
                 Learnbay’s <b>Gen AI course for managers</b> and tech leaders.
               </p>
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Briefing the Best Gen AI Course Module – Grab Future-ready
                 Leadership Roles!!
               </h3>
@@ -6229,10 +6265,10 @@ function DataAnalytics({
                   </p>
                 </li>
               </ul>
-              <h3 style={{ fontSize: "20px" }}>What Future Holds?</h3>
+              <h3 style={{ fontSize: '20px' }}>What Future Holds?</h3>
               <p>
                 GenAI learning has become vital for managers and leaders for
-                data-driven decision-making. Hence, joining Learnbay's{" "}
+                data-driven decision-making. Hence, joining Learnbay's{' '}
                 <b>Gen AI course for managers</b> is the ultimate way to
                 solidify your skills and excel in your field. Generative AI for
                 leaders sets the stage for hassle-free career shifts and higher
@@ -6244,43 +6280,43 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
       {GenAIDevelopers ? (
         <div className={styles.content}>
           <h2>GenAI Developer Certification for Professionals</h2>
           <p>
             Enhance your skills to face the new era of tech-driven changes with
-            the rise of Generative AI. Pursue a <b>Gen AI certification</b>{" "}
+            the rise of Generative AI. Pursue a <b>Gen AI certification</b>{' '}
             course for a pivotal career shift in the emerging software
-            development sector. Earn <b>E&ICT Academy and IIT Guwahati</b>{" "}
+            development sector. Earn <b>E&ICT Academy and IIT Guwahati</b>{' '}
             credentials to advance your tech career beyond digital creations.
           </p>
-          <h4 style={{ fontSize: "24px" }}>
+          <h4 style={{ fontSize: '24px' }}>
             About Learnbay's Best Generative AI Course for Tech Experts
           </h4>
-          <h3 style={{ fontSize: "20px" }}>Course Details</h3>
+          <h3 style={{ fontSize: '20px' }}>Course Details</h3>
           <p>
             The rise of generative AI models lays the basis for functional
             optimization and custom-fit user dealings with better results.
             Hence, GenAI learning has become vital for techies from diverse
-            fields. In the interim, Learnbay has made the historic move with its{" "}
+            fields. In the interim, Learnbay has made the historic move with its{' '}
             <b>Gen AI certification course</b> for tech experts. Our proactive
             step is all set to equip techies with skills to enhance data
             clarity, automate workflows, and drive robust results.
@@ -6297,16 +6333,16 @@ function DataAnalytics({
             Enroll in the <b>Generative AI course</b> to design better-quality
             software and boost your yields. GenAI learning modules help you
             create better ideas, design amusing user stories, and test cases for
-            better results. Also, attesting globally valued certificates{" "}
+            better results. Also, attesting globally valued certificates{' '}
             <b>(E&ICT Academy and IIT Guwahati)</b> to your career validates
             your tech-driven skills and builds a thriving future.
           </p>
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Who is eligible for Learnbay's best Gen AI course for tech experts?
           </h3>
           <p>
             As the GenAI-powered era evolves, so does the haste for upskilling
-            and reskilling. Seeing the tech power, Learnbay presents a{" "}
+            and reskilling. Seeing the tech power, Learnbay presents a{' '}
             <b>Gen AI course</b> for IT experts from diverse fields. No wonder,
             Gen AI has become a prime skill for techies eager to automate their
             designs, meet user needs, and deliver high-end quality products.
@@ -6317,7 +6353,7 @@ function DataAnalytics({
           </p>
           <ul>
             <li>
-              <b>• Domain –</b> IT developers and other related experts{" "}
+              <b>• Domain –</b> IT developers and other related experts{' '}
             </li>
             <li>
               <b>• Work – </b> At least 2+ years of experience
@@ -6333,7 +6369,7 @@ function DataAnalytics({
             lacking essential learning can enroll in the foundation program and
             pursue the GenAI course.
           </p>
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Briefing on the Role of Gen AI in Changing the Modern Tech Age
           </h3>
           {read ? (
@@ -6353,13 +6389,13 @@ function DataAnalytics({
                 shifts, altering the face of various working sectors.
               </p>
               <p>
-                According to{" "}
+                According to{' '}
                 <b>
                   <i>
                     <a
                       href="https://www.marketsandmarkets.com/Market-Reports/generative-ai-market-142870584.html"
                       rel="nofollow noindex"
-                      style={{ textDecoration: "underline", color: "#0072bc" }}
+                      style={{ textDecoration: 'underline', color: '#0072bc' }}
                     >
                       M&M reports
                     </a>
@@ -6373,7 +6409,7 @@ function DataAnalytics({
               <p>
                 <b>
                   Let's review the impacts of GenAI on tech-driven sectors in
-                  recent years.{" "}
+                  recent years.{' '}
                 </b>
               </p>
               <ul>
@@ -6382,7 +6418,7 @@ function DataAnalytics({
                     <b>1. Creating data-driven ideas:</b> GenAI-rich practices
                     help firms decode human instincts and devise user-centric
                     ways. Such advances help experts follow human texts and
-                    forge operating ways for higher yields. A{" "}
+                    forge operating ways for higher yields. A{' '}
                     <b>Gen AI course syllabus</b> equips you with skills to
                     write effective prompts and devise ways to solve user
                     issues.
@@ -6419,40 +6455,40 @@ function DataAnalytics({
                     business reports. It eases the data trends/patterns to
                     prepare business reports for better analysis. Techies can
                     join a <b>Gen AI course online</b> to master cutting-edge
-                    tools and trends and stay ahead of the curve.{" "}
+                    tools and trends and stay ahead of the curve.{' '}
                   </p>
                 </li>
               </ul>
 
               <p>
-                In short, experts joining the <b>best generative AI course</b>{" "}
+                In short, experts joining the <b>best generative AI course</b>{' '}
                 can build proven skills to tackle industry cases with tactful
                 options. Learning is the best way to deliver products or
                 services aligned with the user's choices. Hence, join a
                 leading-edge course today and kick-start a thriving career.
               </p>
 
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 How GenAI is Changing the Future of the Software Development
                 Industry?
               </h3>
               <p>
-                The{" "}
+                The{' '}
                 <b>
                   <i>
                     <a
                       href="https://www.globenewswire.com/news-release/2025/01/30/3018135/0/en/Generative-AI-in-Software-and-Coding-Market-is-expected-to-reach-a-revenue-of-USD-243-7-Mn-by-2033-at-25-5-CAGR-Dimension-Market-Research.html#:~:text=Important%20Insights,dominate%20throughout%20the%20forecasted%20period."
                       rel="nofollow noindex"
-                      style={{ textDecoration: "underline", color: "#0072bc" }}
+                      style={{ textDecoration: 'underline', color: '#0072bc' }}
                     >
                       Gen AI in Software and Coding market
                     </a>
                   </i>
-                </b>{" "}
+                </b>{' '}
                 predicts a 25.5% growth by 2033, paving the way for exciting
                 career advances for IT developers. The competitive IT sector
                 adopts proven tools to automate coding tasks, lessen work time,
-                and enhance efficiency. In the interim, the rise of{" "}
+                and enhance efficiency. In the interim, the rise of{' '}
                 <b>advanced generative AI</b> enriches user abilities and
                 usability.
               </p>
@@ -6466,7 +6502,7 @@ function DataAnalytics({
               <p>
                 <b>
                   Let's dive deeper into ways Gen AI is altering the future of
-                  the IT industry.{" "}
+                  the IT industry.{' '}
                 </b>
               </p>
 
@@ -6497,7 +6533,7 @@ function DataAnalytics({
                 </li>
                 <li>
                   <p>
-                    <b>3. Seamless software designing:</b> Techies joining a{" "}
+                    <b>3. Seamless software designing:</b> Techies joining a{' '}
                     <b>generative AI course</b> help techies normalize system
                     design and update it as per the latest trends. Gen AI helps
                     techies reuse design elements for time and cost-effective
@@ -6507,7 +6543,7 @@ function DataAnalytics({
                 </li>
                 <li>
                   <p>
-                    <b>4. Redefines software development essentials:</b> Gen{" "}
+                    <b>4. Redefines software development essentials:</b> Gen{' '}
                     <b>AI for software developers</b> lays the basis for meeting
                     minimum conditions with easy steps. Techies rely on Gen AI
                     models to break down design elements and reframe user
@@ -6520,12 +6556,12 @@ function DataAnalytics({
                 </li>
               </ul>
               <p>
-                In short, techies can enroll in the{" "}
+                In short, techies can enroll in the{' '}
                 <b>best generative AI course</b> to learn cost and time-saving
                 software development ways. Gen AI helps techies design high-end
                 user stories and test cases followed by data-driven reporting.
               </p>
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 How Does Learnbay's Gen AI Certification Course Help Techies
                 Excel in Their Careers?
               </h3>
@@ -6539,12 +6575,12 @@ function DataAnalytics({
               </p>
               <p>
                 Let's review how our <b>best Gen AI course</b> helps techies
-                grow and excel in their careers.{" "}
+                grow and excel in their careers.{' '}
               </p>
               <ul>
                 <li>
                   <p>
-                    <b>1. GenAI-driven syllabus:</b> Our{" "}
+                    <b>1. GenAI-driven syllabus:</b> Our{' '}
                     <b>generative AI course</b> includes the latest trends and
                     upgrades, setting the stage for seamless career growth.
                     Techies enrolling in this course can automate regular tasks,
@@ -6572,7 +6608,7 @@ function DataAnalytics({
                   <p>
                     <b>
                       3. Swift career shift with industry experts as mentors:
-                    </b>{" "}
+                    </b>{' '}
                     Our <b>Gen AI certification course</b> appoints eminent
                     industry experts for live training and career counseling.
                     Learning from highly adept mentors helps you tackle complex
@@ -6587,12 +6623,12 @@ function DataAnalytics({
                   <p>
                     <b>
                       4. Prestigious credentials from top-tier institutions:
-                    </b>{" "}
+                    </b>{' '}
                     Pursuing an <b>advanced generative AI</b> course adds
                     reputable certificates to your career with optimal gains.
                     Learning with the top-rated training institutes can add
                     value to your job, bringing exciting offers. Here, techies
-                    can earn a globally recognized <b>Gen AI certification</b>{" "}
+                    can earn a globally recognized <b>Gen AI certification</b>{' '}
                     from <b>E&ICT Academy, IIT Guwahati</b>. These credentials
                     enrich your career worth and prepare you to grab alluring
                     job offers.
@@ -6600,7 +6636,7 @@ function DataAnalytics({
                 </li>
                 <li>
                   <p>
-                    <b>5. Personalized career support:</b> Our{" "}
+                    <b>5. Personalized career support:</b> Our{' '}
                     <b>best generative AI course</b> offers 100% career support
                     services to help you excel in your field. Techies can refine
                     their soft skills and become a perfect corporate fit via an
@@ -6612,14 +6648,14 @@ function DataAnalytics({
               </ul>
 
               <p>
-                In short, techies joining a{" "}
+                In short, techies joining a{' '}
                 <b>Gen AI course with a certificate</b> and solely planned
                 placement aid can enrich their careers and grab exciting offers.
                 Join the course today and learn to lead and innovate seamless
                 solutions.
               </p>
 
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Briefing a Gen AI Developer Course Module
               </h3>
               <p>
@@ -6672,21 +6708,21 @@ function DataAnalytics({
                 </li>
               </ul>
               <p>
-                In short, joining an industry-paced <b>Gen AI certification</b>{" "}
+                In short, joining an industry-paced <b>Gen AI certification</b>{' '}
                 program paves the way toward future-proofing your career and
-                grabbing tempting offers.{" "}
+                grabbing tempting offers.{' '}
               </p>
 
-              <h3 style={{ fontSize: "20px" }}>What to do Next??</h3>
+              <h3 style={{ fontSize: '20px' }}>What to do Next??</h3>
               <p>
                 Any software developer eager to escalate career metrics and
-                excel in their field, enroll in the industry's{" "}
+                excel in their field, enroll in the industry's{' '}
                 <b>best generative AI course</b> with prime gains. Mastering the
                 front-end tools and trends is the ultimate way to enrich your
                 career and grab exciting offers. Constant upskilling and
                 reskilling shall help techies confound static careers and attain
                 absolute growth. Join the course today to redefine your career
-                path.{" "}
+                path.{' '}
               </p>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
@@ -6694,23 +6730,23 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
       {ExecutiveCyberSecurityIITR ? (
         <div className={styles.content}>
@@ -6719,15 +6755,15 @@ function DataAnalytics({
             Become a proficient guardian of the evolving digital realm
             encompassing defensive tactics to protect computing network systems.
             Join our <b>cyber security and ethical hacking course</b> to
-            preserve data integrity and privacy. Earn globally recognized{" "}
+            preserve data integrity and privacy. Earn globally recognized{' '}
             <b>IIT Roorkee and EC Council certifications</b> to become a
             frontline defensive expert.
           </p>
-          <h4 style={{ fontSize: "24px" }}>
+          <h4 style={{ fontSize: '24px' }}>
             About Learnbay's Executive Cyber Security and Ethical Hacking
-            Program{" "}
+            Program{' '}
           </h4>
-          <h3 style={{ fontSize: "20px" }}>Course Details</h3>
+          <h3 style={{ fontSize: '20px' }}>Course Details</h3>
           <p>
             Today's fast-paced digital world sees splendid tech creations and
             advances. However, it also notifies of piracy attacks, data
@@ -6754,13 +6790,13 @@ function DataAnalytics({
             2-day immersive learning sessions with IIT Roorkee experts and
             master in-demand tools with global credentials.
           </p>
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Who is eligible for Learnbay’s Cyber Security and Ethical Hacking
             Program?
           </h3>
           <p>
             Learnbay strives to foster an ingenious mindset to tackle
-            cutting-edge tech creations. Its inclusively designed{" "}
+            cutting-edge tech creations. Its inclusively designed{' '}
             <b>cyber security and hacking courses</b> help techies treat cyber
             attacks. Our executive-level cyber security course is solely
             designed for –
@@ -6779,7 +6815,7 @@ function DataAnalytics({
           <p>
             <b>
               <i>Also note:</i>
-            </b>{" "}
+            </b>{' '}
             This program is not ideal for fresh graduates and students.
           </p>
           <p>
@@ -6787,7 +6823,7 @@ function DataAnalytics({
             our <b>cyber security and ethical hacking course</b>, driving proven
             gains.
           </p>
-          <h3 style={{ fontSize: "20px" }}>
+          <h3 style={{ fontSize: '20px' }}>
             Overview of Cyber Security and Ethical Hacking in Today's
             Tech-driven Era
           </h3>
@@ -6799,17 +6835,17 @@ function DataAnalytics({
                 These tech-driven shifts have triggered firms and users with
                 constant cyber threats. Hence, the demand for cyber security
                 experts and ethical hackers keeps growing. In the interim,
-                techies prefer joining the{" "}
+                techies prefer joining the{' '}
                 <b>best institute for cyber security in India</b>.
               </p>
               <p>
-                According to{" "}
+                According to{' '}
                 <b>
                   <i>
                     <a
                       href="https://www.marketsandmarkets.com/Market-Reports/cyber-security-market-505.html#:~:text=The%20global%20Cybersecurity%20Market%20size,projected%20to%20reach%20%24298.5%20billion."
                       rel="nofollow noindex"
-                      style={{ textDecoration: "underline", color: "#0072bc" }}
+                      style={{ textDecoration: 'underline', color: '#0072bc' }}
                     >
                       M&M reports
                     </a>
@@ -6825,13 +6861,13 @@ function DataAnalytics({
               <p>
                 Cyber security has become a buzzing practice that techies adopt
                 to protect their data sets and digital assets from piracy
-                attacks. Experts with good{" "}
+                attacks. Experts with good{' '}
                 <b>ethical hacking and cyber security</b> wisdom can fight cyber
                 crimes and build encrypted walls.
               </p>
               <p>
                 Cyber security skills help techies identify and remove risk
-                factors, ensuring security. Hence, joining the{" "}
+                factors, ensuring security. Hence, joining the{' '}
                 <b>best cyber security institute in India</b> has become crucial
                 to lessen the presence of cyber-attacks and remove unauthorized
                 access.
@@ -6894,7 +6930,7 @@ function DataAnalytics({
 
               <p>
                 No wonder, the present data-driven age has seen constantly
-                rising risks of cyber crimes. Hence, leveling up skills via a{" "}
+                rising risks of cyber crimes. Hence, leveling up skills via a{' '}
                 <b>cyber security and ethical hacking course</b> has become
                 crucial for techies from diverse fields. In the interim, the
                 role of ethical hackers comes into the limelight, driving
@@ -6902,7 +6938,7 @@ function DataAnalytics({
               </p>
 
               <p>
-                Techies enrolling in a{" "}
+                Techies enrolling in a{' '}
                 <b>cyber security ethical hacking course </b>can master proven
                 tools and trends to build encrypted walls. Hackers develop new
                 methods to invade a firm’s safe space, so enrolling in an
@@ -6914,7 +6950,7 @@ function DataAnalytics({
                 <b>
                   <i>
                     Let’s unleash the extent of ethical hacking in limiting
-                    cyber crimes.{" "}
+                    cyber crimes.{' '}
                   </i>
                 </b>
               </p>
@@ -6935,7 +6971,7 @@ function DataAnalytics({
                   <p>
                     <b>2. Timely detection of malicious moves:</b> Ethical
                     hackers are skilled enough to identify and decode risky
-                    factors and limit further losses. An expert with a{" "}
+                    factors and limit further losses. An expert with a{' '}
                     <b>cyber security ethical hacking certification</b> can take
                     a legal approach to identifying possible risks and ensuring
                     their complete removal.
@@ -6949,7 +6985,7 @@ function DataAnalytics({
                     experts help firms find and remove viable risk factors
                     boosting overall growth. They can also respond to critical
                     cases, preparing firms to fight security risks. Hence,
-                    enrolling in an <b>ethical hacking and cyber security</b>{" "}
+                    enrolling in an <b>ethical hacking and cyber security</b>{' '}
                     program is vital for techies.
                   </p>
                 </li>
@@ -6968,13 +7004,13 @@ function DataAnalytics({
 
               <p>
                 In short, enrolling in an <b>ethical hacking course</b> is vital
-                for techies willing to join the IT sector. Mastering{" "}
+                for techies willing to join the IT sector. Mastering{' '}
                 <b>cyber security and ethical hacking</b> has become crucial for
                 setting the basis for risk-free business moves. Hence, constant
                 learning of proven tools and trends is vital.
               </p>
 
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 Is Joining Learnbay’s Cyber Security and Ethical Hacking Course
                 Worth it?
               </h3>
@@ -7001,7 +7037,7 @@ function DataAnalytics({
                 </li>
                 <li>
                   <p>
-                    <b>2. Real-world learning scope:</b> Techies joining our{" "}
+                    <b>2. Real-world learning scope:</b> Techies joining our{' '}
                     <b>ethical hacking and cyber security</b> course will gain
                     real-world insights. Learners will work on GenAI live
                     projects to gain practical skills and thrive globally. It
@@ -7034,14 +7070,14 @@ function DataAnalytics({
                   <p>
                     <b>
                       5. Earn IIT Roorkee credentials for enriched career worth:
-                    </b>{" "}
+                    </b>{' '}
                     Learning without proof is worthless. Many firms and hiring
                     partners prefer certified experts over generic ones.
-                    Learners receive{" "}
+                    Learners receive{' '}
                     <b>
                       iHUB Divya Sampark, IIT Roorkee, and EC Council
                       certificates
-                    </b>{" "}
+                    </b>{' '}
                     to build a prestigious career in your domain.
                   </p>
                 </li>
@@ -7049,7 +7085,7 @@ function DataAnalytics({
                   <p>
                     <b>
                       6. Drive exciting career growth with our placement aid:
-                    </b>{" "}
+                    </b>{' '}
                     Our <b>cyber security and hacking courses</b> offer
                     custom-fit career support services. Learners enrolling in
                     this course will gain career-driven perks like mock
@@ -7059,9 +7095,9 @@ function DataAnalytics({
                 </li>
               </ul>
 
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 How valuable is Learnbay’s cyber security and ethical hacking
-                program module?{" "}
+                program module?{' '}
               </h3>
               <p>
                 Learnbay's <b>ethical hacking and cyber security</b> course
@@ -7075,7 +7111,7 @@ function DataAnalytics({
               <p>
                 Learners will gain the basics of OS networking, cloud security,
                 and related tools that are vital in battling against cyber
-                crimes.{" "}
+                crimes.{' '}
               </p>
 
               <p>
@@ -7104,7 +7140,7 @@ function DataAnalytics({
                 Learners will gain a solid knowledge of cyber security
                 principles, practices, network managing measures, and other
                 vital. Also, real-time projects will help you tackle real-world
-                hacking cases for better gains.{" "}
+                hacking cases for better gains.{' '}
               </p>
 
               <p>
@@ -7129,10 +7165,10 @@ function DataAnalytics({
               </p>
               <p>
                 This term will help you prepare for the CISSP exam that covers 8
-                crucial domains.{" "}
+                crucial domains.{' '}
               </p>
 
-              <h3 style={{ fontSize: "20px" }}>
+              <h3 style={{ fontSize: '20px' }}>
                 How does Learnbay's Personalized Career Assistance Help Techies?
               </h3>
               <p>
@@ -7157,7 +7193,7 @@ function DataAnalytics({
                 </li>
               </ul>
               <p>
-                Techies enrolling in our{" "}
+                Techies enrolling in our{' '}
                 <b>cyber security ethical hacking course</b> can avail of these
                 career perks and excel in their fields.
               </p>
@@ -7167,23 +7203,23 @@ function DataAnalytics({
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
           <p
             style={{
-              color: "#2D9CD7",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
+              color: '#2D9CD7',
+              fontWeight: '600',
+              textDecoration: 'underline',
+              cursor: 'pointer',
             }}
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? 'Read Less...' : 'Read More...'}
           </p>
         </div>
       ) : (
-        ""
+        ''
       )}
     </div>
   );
