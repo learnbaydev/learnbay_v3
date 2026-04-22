@@ -5210,12 +5210,30 @@ function DataAnalytics({
                 </ul>
               </p>
               <i>
-                <b>
-                  <p>
-                    Before diving into the course features, let’s brief you on
-                    the latest HR analytics trends.
-                  </p>
-                </b>
+                <p>
+                  Other relevant courses you can check :
+                  <br />
+                  <b>
+                    <a
+                      href="https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master"
+                      target="_blank"
+                    >
+                      Data Analytics and Business Analytics Masters Course ,
+                    </a>
+                    <a
+                      href="https://www.learnbay.co/datascience/online-dsa-training-pune"
+                      target="_blank"
+                    >
+                      Online DSA Training in Pune ,
+                    </a>
+                    <a
+                      href="https://www.learnbay.co/datascience/hr-analytics-course"
+                      target="_blank"
+                    >
+                      HR Analytics Course .
+                    </a>
+                  </b>
+                </p>
               </i>
               <h3>
                 Crack Top Job Roles with Learnbay’s{' '}
