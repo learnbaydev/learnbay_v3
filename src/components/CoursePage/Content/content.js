@@ -2900,14 +2900,14 @@ function DataAnalytics({
                     </a>
                     ,{' '}
                     <a
-                      href="https://www.learnbay.co/datascience/online-dsa-training-pune"
+                      href="https://www.learnbay.co/fullstack/dsa-course-training-pune"
                       target="_blank"
                     >
                       Online DSA Training in Pune
                     </a>
                     ,{' '}
                     <a
-                      href="https://www.learnbay.co/datascience/marketing-analytics-course"
+                      href="https://www.learnbay.co/datascience/hr-analytics"
                       target="_blank"
                     >
                       Marketing analytics course
