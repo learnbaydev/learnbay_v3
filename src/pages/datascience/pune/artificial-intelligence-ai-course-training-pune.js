@@ -553,11 +553,13 @@ export default function Home() {
               Courselink3={AIPuneCourseData[0].Courselink3}
               Courselink4={AIPuneCourseData[0].Courselink4}
               Courselink5={AIPuneCourseData[0].Courselink5}
+              Courselink6={AIPuneCourseData[0].Courselink6}
               Course1={AIPuneCourseData[0].Course1}
               Course2={AIPuneCourseData[0].Course2}
               Course3={AIPuneCourseData[0].Course3}
               Course4={AIPuneCourseData[0].Course4}
               Course5={AIPuneCourseData[0].Course5}
+              Course6={AIPuneCourseData[0].Course6}
               DomainHead1={AIPuneCourseData[0].DomainHead1}
               DomainBot1={AIPuneCourseData[0].DomainBot1}
               DomainBot2={AIPuneCourseData[0].DomainBot2}
