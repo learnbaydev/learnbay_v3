@@ -501,6 +501,10 @@ export default function Home() {
               src={DataScienceHyderabadCourseData[0].src}
               src22={DataScienceHyderabadCourseData[0].src22}
               src33={DataScienceHyderabadCourseData[0].src33}
+              alt222={DataScienceHyderabadCourseData[0].alt222}
+              alt333={DataScienceHyderabadCourseData[0].alt333}
+              alt444={DataScienceHyderabadCourseData[0].alt444}
+              alt555={DataScienceHyderabadCourseData[0].alt555}
               ModuleHead1={DataScienceHyderabadCourseData[0].ModuleHead1}
               ModuleBot1={DataScienceHyderabadCourseData[0].ModuleBot1}
               ModuleBot2={DataScienceHyderabadCourseData[0].ModuleBot2}
