@@ -520,6 +520,10 @@ export default function Home() {
               src={DSUKCourseData[0].src}
               src22={DSUKCourseData[0].src22}
               src33={DSUKCourseData[0].src33}
+              alt222={DSUKCourseData[0].alt222}
+              alt333={DSUKCourseData[0].alt333}
+              alt444={DSUKCourseData[0].alt444}
+              alt555={DSUKCourseData[0].alt555}
               ModuleHead1={DSUKCourseData[0].ModuleHead1}
               ModuleBot1={DSUKCourseData[0].ModuleBot1}
               ModuleBot2={DSUKCourseData[0].ModuleBot2}
