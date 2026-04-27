@@ -504,6 +504,10 @@ export default function Home() {
               src={DSNigeriaCourseData[0].src}
               src22={DSNigeriaCourseData[0].src22}
               src33={DSNigeriaCourseData[0].src33}
+              alt222={DSNigeriaCourseData[0].alt222}
+              alt333={DSNigeriaCourseData[0].alt333}
+              alt444={DSNigeriaCourseData[0].alt444}
+              alt555={DSNigeriaCourseData[0].alt555}
               ModuleHead1={DSNigeriaCourseData[0].ModuleHead1}
               ModuleBot1={DSNigeriaCourseData[0].ModuleBot1}
               ModuleBot2={DSNigeriaCourseData[0].ModuleBot2}
