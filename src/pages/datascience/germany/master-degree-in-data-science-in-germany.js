@@ -600,6 +600,10 @@ export default function Home() {
               src={masterdegreeGermanyCourseData[0].src}
               src22={masterdegreeGermanyCourseData[0].src22}
               src33={masterdegreeGermanyCourseData[0].src33}
+              alt222={masterdegreeGermanyCourseData[0].alt222}
+              alt333={masterdegreeGermanyCourseData[0].alt333}
+              alt444={masterdegreeGermanyCourseData[0].alt444}
+              alt555={masterdegreeGermanyCourseData[0].alt555}
               ModuleMasterBot1={
                 masterdegreeGermanyCourseData[0].ModuleMasterBot1
               }
