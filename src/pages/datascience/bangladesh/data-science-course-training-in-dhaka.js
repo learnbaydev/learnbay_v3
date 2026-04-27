@@ -311,6 +311,10 @@ export default function Home() {
               src={DSDhakaCourseData[0].src}
               src22={DSDhakaCourseData[0].src22}
               src33={DSDhakaCourseData[0].src33}
+              alt222={DSDhakaCourseData[0].alt222}
+              alt333={DSDhakaCourseData[0].alt333}
+              alt444={DSDhakaCourseData[0].alt444}
+              alt555={DSDhakaCourseData[0].alt555}
               ModuleBot1={DSDhakaCourseData[0].ModuleBot1}
               ModuleBot3={DSDhakaCourseData[0].ModuleBot3}
               ModuleBot10={DSDhakaCourseData[0].ModuleBot10}
