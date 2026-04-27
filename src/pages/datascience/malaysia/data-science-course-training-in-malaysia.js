@@ -313,6 +313,10 @@ export default function Home() {
               src={DSMalaysiaCourseData[0].src}
               src22={DSMalaysiaCourseData[0].src22}
               src33={DSMalaysiaCourseData[0].src33}
+              alt222={DSMalaysiaCourseData[0].alt222}
+              alt333={DSMalaysiaCourseData[0].alt333}
+              alt444={DSMalaysiaCourseData[0].alt444}
+              alt555={DSMalaysiaCourseData[0].alt555}
               ModuleHead1={DSMalaysiaCourseData[0].ModuleHead1}
               ModuleBot1={DSMalaysiaCourseData[0].ModuleBot1}
               ModuleBot3={DSMalaysiaCourseData[0].ModuleBot3}
