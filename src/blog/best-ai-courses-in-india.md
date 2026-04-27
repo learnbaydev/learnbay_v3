@@ -110,11 +110,167 @@ Working experts willing to excel in their careers in the age of AI should upskil
 
 ## For Beginners
 
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+td, th {
+  border: 1px solid #070101ff;;
+  text-align: left;
+  font-size: 17px;
+  padding: 8px;
+}
+</style>
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Course Name</th>
+      <th>Course Provider</th>
+      <th>Key AI Modules</th>
+      <th>Placements</th>
+      <th>Certifications</th>
+      <th>Domain Electives</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Generative AI and Agentic AI Program</td>
+      <td>Learnbay</td>
+      <td>
+        Python with GenAI<br>
+        Advanced GenAI Concepts<br>
+        Agentic AI and Automation<br>
+        LLMOps and Production Deployment with projects
+      </td>
+      <td>✅</td>
+      <td>IBM and Microsoft</td>
+      <td>BFSI, Healthcare, Supply Chain, Manufacturing, HR</td>
+    </tr>
+    <tr>
+      <td>Generative AI for Beginners</td>
+      <td>Udemy</td>
+      <td>
+        GenAI basics<br>
+        Industry use cases<br>
+        LLMs, prompt engineering<br>
+        Chatbot creation
+      </td>
+      <td>❌</td>
+      <td>Udemy</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Artificial Intelligence Courses for Beginners</td>
+      <td>Coursera, in unison with Google, IBM, Deep Learning, etc</td>
+      <td>
+        Prompt engineering<br>
+        AI basics<br>
+        GenAI fundamentals<br>
+        ML algorithms<br>
+        AI workflows<br>
+        AI product strategy
+      </td>
+      <td>❌</td>
+      <td>Coursera and the respective industry partners</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>AI Agents for Beginners</td>
+      <td>Microsoft</td>
+      <td>
+        AI Agents and Frameworks<br>
+        RAG<br>
+        Designing and deployments<br>
+        Multi-AI agent system
+      </td>
+      <td>❌</td>
+      <td>Microsoft</td>
+      <td>❌</td>
+    </tr>
+
+  </tbody>
+</table>
+
 ## For Data Scientists
 
 Data scientists are on the radar as next-gen AI trends emerge. With the rise of autonomous models, they fear losing their roles to AI.
 
 In the interim, a common fear surfaces: <a href="https://www.learnbay.co/blogs/will-ai-replace-data-scientists" target="_blank">Are data scientists' jobs declining due to AI agents?</a> But you can overcome such fears through upskilling. Here is the list of top data science and AI courses you should consider to excel in your careers.
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Course Name</th>
+      <th>Course Provider</th>
+      <th>Key AI Modules</th>
+      <th>Placements</th>
+      <th>Certifications</th>
+      <th>Domain Electives</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Advanced Data Science and GenAI Master Certification Program</td>
+      <td>Learnbay</td>
+      <td>
+        Python with GenAI<br>
+        Advanced GenAI Concepts<br>
+        Agentic AI<br>
+        Advanced Data Science<br>
+        MLOps and Deployment<br>
+        Data Analytics and Visualization<br>
+        Big Data Analytics<br>
+        DSA<br>
+        Database Management System<br>
+        Project Management<br>
+        Live Projects
+      </td>
+      <td>✅</td>
+      <td>IBM and Microsoft</td>
+      <td>BFSI, Healthcare, Supply Chain, Manufacturing, HR</td>
+    </tr>
+    <tr>
+      <td>Data Science Certification Program with AI</td>
+      <td>Intellipaat</td>
+      <td>
+        Python<br>
+        SQL<br>
+        Machine Learning<br>
+        AI<br>
+        Generative AI<br>
+        NLP
+      </td>
+      <td>✅</td>
+      <td>iHub IIT Roorkee &amp; Microsoft</td>
+      <td>
+        Data Analytics<br>
+        ML and AI Model Deployment using Cloud<br>
+        Git<br>
+        Data Analysis
+      </td>
+    </tr>
+    <tr>
+      <td>Data Science and AI Course</td>
+      <td>Intellipaat with IITM Pravartak</td>
+      <td>
+        Python<br>
+        SQL<br>
+        Machine Learning<br>
+        AI<br>
+        Generative AI<br>
+        NLP<br>
+        Prediction Algorithms
+      </td>
+      <td>✅</td>
+      <td>IITM Pravartak</td>
+      <td>Power BI</td>
+    </tr>
+
+  </tbody>
+</table>
 
 Managers or business leaders in the data science field can upgrade their AI skills to address agent-driven advancements and enhance their decision-making.
 
