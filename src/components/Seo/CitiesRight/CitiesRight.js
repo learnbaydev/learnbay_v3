@@ -395,6 +395,10 @@ const CitiesRight = ({
   alt7,
   alt8,
   alt9,
+  alt222,
+  alt333,
+  alt444,
+  alt555,
   fullStackCity,
   ProgramBot61,
   ProgramBot62,
@@ -7403,7 +7407,7 @@ const CitiesRight = ({
                   height={50}
                   loading="lazy"
                   src={src1}
-                  alt={alt2}
+                  alt={alt222}
                 />
                 <p className={styles.ppp}>{ProjectsH1}</p>
               </div>
@@ -7418,7 +7422,7 @@ const CitiesRight = ({
                   height={50}
                   loading="lazy"
                   src={src2}
-                  alt={alt3}
+                  alt={alt333}
                 />
 
                 <p className={styles.ppp}>{ProjectsH2}</p>
@@ -7436,7 +7440,7 @@ const CitiesRight = ({
                   height={50}
                   loading="lazy"
                   src={src3}
-                  alt={alt4}
+                  alt={alt444}
                 />
                 <p className={styles.ppp}>{ProjectsH3}</p>
               </div>
@@ -7451,7 +7455,7 @@ const CitiesRight = ({
                   height={50}
                   loading="lazy"
                   src={src4}
-                  alt={alt5}
+                  alt={alt555}
                 />
                 <p className={styles.ppp}>{ProjectsH4}</p>
               </div>

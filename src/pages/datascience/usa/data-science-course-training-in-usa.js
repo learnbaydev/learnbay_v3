@@ -521,6 +521,10 @@ export default function Home() {
               src={DSUSACourseData[0].src}
               src22={DSUSACourseData[0].src22}
               src33={DSUSACourseData[0].src33}
+              alt222={DSUSACourseData[0].alt222}
+              alt333={DSUSACourseData[0].alt333}
+              alt444={DSUSACourseData[0].alt444}
+              alt555={DSUSACourseData[0].alt555}
               ModuleHead1={DSUSACourseData[0].ModuleHead1}
               ModuleBot1={DSUSACourseData[0].ModuleBot1}
               ModuleBot2={DSUSACourseData[0].ModuleBot2}

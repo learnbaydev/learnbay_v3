@@ -523,6 +523,10 @@ export default function Home() {
               src={DSSouthAfricaCourseData[0].src}
               src22={DSSouthAfricaCourseData[0].src22}
               src33={DSSouthAfricaCourseData[0].src33}
+              alt222={DSSouthAfricaCourseData[0].alt222}
+              alt333={DSSouthAfricaCourseData[0].alt333}
+              alt444={DSSouthAfricaCourseData[0].alt444}
+              alt555={DSSouthAfricaCourseData[0].alt555}
               ModuleBot1={DSSouthAfricaCourseData[0].ModuleBot1}
               ModuleBot3={DSSouthAfricaCourseData[0].ModuleBot3}
               ModuleBot2={DSSouthAfricaCourseData[0].ModuleBot2}

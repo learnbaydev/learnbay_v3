@@ -313,6 +313,10 @@ export default function Home() {
               src={DSBangladeshCourseData[0].src}
               src22={DSBangladeshCourseData[0].src22}
               src33={DSBangladeshCourseData[0].src33}
+              alt222={DSBangladeshCourseData[0].alt222}
+              alt333={DSBangladeshCourseData[0].alt333}
+              alt444={DSBangladeshCourseData[0].alt444}
+              alt555={DSBangladeshCourseData[0].alt555}
               ModuleBot1={DSBangladeshCourseData[0].ModuleBot1}
               ModuleBot3={DSBangladeshCourseData[0].ModuleBot3}
               ModuleBot10={DSBangladeshCourseData[0].ModuleBot10}

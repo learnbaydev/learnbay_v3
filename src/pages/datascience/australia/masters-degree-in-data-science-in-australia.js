@@ -600,6 +600,10 @@ ATS- Resume optimization, Interview Preparation."
               src={masterdegreeAUSData[0].src}
               src22={masterdegreeAUSData[0].src22}
               src33={masterdegreeAUSData[0].src33}
+              alt222={masterdegreeAUSData[0].alt222}
+              alt333={masterdegreeAUSData[0].alt333}
+              alt444={masterdegreeAUSData[0].alt444}
+              alt555={masterdegreeAUSData[0].alt555}
               ModuleMasterBot1={masterdegreeAUSData[0].ModuleMasterBot1}
               ModuleMasterBot2={masterdegreeAUSData[0].ModuleMasterBot2}
               ModuleHead1={masterdegreeAUSData[0].ModuleHead1}

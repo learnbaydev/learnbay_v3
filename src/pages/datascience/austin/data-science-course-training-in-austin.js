@@ -314,6 +314,10 @@ export default function Home() {
               src={DSAustinCourseData[0].src}
               src22={DSAustinCourseData[0].src22}
               src33={DSAustinCourseData[0].src33}
+              alt555={DSAustinCourseData[0].alt555}
+              alt444={DSAustinCourseData[0].alt444}
+              alt333={DSAustinCourseData[0].alt333}
+              alt222={DSAustinCourseData[0].alt222}
               ModuleHead1={DSAustinCourseData[0].ModuleHead1}
               ModuleBot1={DSAustinCourseData[0].ModuleBot1}
               ModuleBot3={DSAustinCourseData[0].ModuleBot3}
