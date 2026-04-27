@@ -1,13 +1,14 @@
 ---
 title: 'How to Choose the Right Data Science Program for Your Career Goals'
-description: 'Evaluate and outline your skills to choose a proven data science program that aligns with your career goals.'
-keywords: 'best data science online programs, data science course online, online certification in data science, learn data science online'
+Stitle: 'Choose the Right Data Science Program for Career | Learnbay'
+description: 'Learn how to choose the right data science program by evaluating goals, skills, and learning modes to build a successful and future-ready career.'
+keywords: 'data science courses online,online data science course, best data science course,	data science jobs in india,	data science program,	data science course fees,	data science skills,	data science with generative ai course'
 date: '03/04/2026'
 author: 'Manas Kochar'
 readTime: '6.5 min'
 image: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/dscg.webp'
 alt: 'Data Science and AI Master Program, Data science online program, learn data science online'
-datePublished: '2026-04-08T08:00:00+08:00'
+datePublished: '2026-04-03T08:00:00+08:00'
 faqs:
   - question: 'Can I do a data science course online in India?'
     answer: "An online data science course in India is the best suitable for professionals. As they can't dedicate their time to learning all the time, it is preferable for them to start learning through online courses. However, if you're a beginner wanting to study data science, you can also join an online course to study alongside professionals."
