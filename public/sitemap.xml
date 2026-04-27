@@ -561,18 +561,7 @@
 
 	
 
-	<url>
-		<loc>https://www.learnbay.co/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url>
 
-	
-	<url>
-		<loc>https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-fullstack-professionals</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url>
 	<url>
 		<loc>https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-data-science-professionals</loc>
 		<changefreq>daily</changefreq>
