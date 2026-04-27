@@ -601,7 +601,8 @@ export const DSMalaysiaCourseData = [
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",
     src3: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png',
-    alt444: 'Amazon Logo',
+    alt444:
+      'Amazon logo for amazon customer review analysis project of Learnbay.',
     ProjectsH3: 'Amazon Customer Review Analysis',
     Projectsp3:
       'Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.',
