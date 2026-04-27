@@ -516,6 +516,10 @@ Note: Data Science and Gen AI projects in Singapore are as per the current deman
               src={DSSingaporeCourseData[0].src}
               src22={DSSingaporeCourseData[0].src22}
               src33={DSSingaporeCourseData[0].src33}
+              alt222={DSSingaporeCourseData[0].alt222}
+              alt333={DSSingaporeCourseData[0].alt333}
+              alt444={DSSingaporeCourseData[0].alt444}
+              alt555={DSSingaporeCourseData[0].alt555}
               ModuleHead1={DSSingaporeCourseData[0].ModuleHead1}
               ModuleBot1={DSSingaporeCourseData[0].ModuleBot1}
               ModuleBot3={DSSingaporeCourseData[0].ModuleBot3}
