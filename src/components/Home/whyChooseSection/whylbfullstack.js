@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from "react";
-import styles from "./whyChooseSection.module.css";
-import Image from "next/image";
-import whyChooseData from "./Whylbdatafull"; // Import the data
+import React, { useEffect, useRef } from 'react';
+import styles from './whyChooseSection.module.css';
+import Image from 'next/image';
+import whyChooseData from './Whylbdatafull'; // Import the data
 
 function AnimationNew({ fullstack }) {
   const divRefs = useRef([]);
@@ -16,7 +16,7 @@ function AnimationNew({ fullstack }) {
       <mask
         height="30"
         id="mask0_3838_12416"
-        style={{ maskType: "alpha" }}
+        style={{ maskType: 'alpha' }}
         width="30"
         x="0"
         y="0"
@@ -126,15 +126,15 @@ function AnimationNew({ fullstack }) {
                       index === whyChooseData.length - 3
                         ? 200
                         : index === whyChooseData.length - 2
-                        ? 260
-                        : 320
+                          ? 260
+                          : 320
                     }
                     viewBox={`0 0 24 ${
                       index === whyChooseData.length - 3
                         ? 500
                         : index === whyChooseData.length - 2
-                        ? 500
-                        : 480
+                          ? 500
+                          : 480
                     }`}
                     fill="none"
                   >
@@ -179,7 +179,7 @@ function AnimationNew({ fullstack }) {
                         width={80} // replace with actual dimensions or make dynamic
                         height={60}
                         loading="lazy"
-                        style={{ marginLeft: "16px" }}
+                        style={{ marginLeft: '16px' }}
                       />
                       <p className={styles.renowed}>
                         {/* {item.subItems[0].newTxt} */}
@@ -202,7 +202,7 @@ function AnimationNew({ fullstack }) {
                       >
                         <Image
                           src={subItem.icon}
-                          //   alt="icon"
+                          alt={subItem.alt}
                           width={subItem.width}
                           height={subItem.height}
                           loading="lazy"
@@ -215,7 +215,7 @@ function AnimationNew({ fullstack }) {
 
                 {item.note && (
                   <span className={styles.noteP}>
-                    <span className={styles.orgText}>*Important Note:</span>{" "}
+                    <span className={styles.orgText}>*Important Note:</span>{' '}
                     {item.note}
                   </span>
                 )}
