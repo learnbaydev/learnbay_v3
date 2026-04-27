@@ -501,27 +501,27 @@ Choosing a certification is merely a personal decision. But according to market 
     <tr>
       <td>Learning Speed</td>
       <td>A good AI certification course takes more than 6 months.</td>
-      <td>A promising AI degree program takes 2 – 4 years.</td>
+      <td>A promising AI degree program takes 2 – 4 years of your time.</td>
     </tr>
     <tr>
       <td>Cost</td>
-      <td>INR 50,000 – INR 2,50,000</td>
-      <td>INR 3,00,000 – INR 20,00,000 (varies by university)</td>
+      <td>The best AI courses in India cost INR 50,000–INR 2,50,000.</td>
+      <td>AI degree programs may cost you INR 3,00,000 – INR 20,00,000(varying according to Universities)</td>
     </tr>
     <tr>
       <td>Earning Value</td>
-      <td>AI-certified professionals earn 25%–50% more than non-certified peers.</td>
-      <td>Outcomes vary; depends on placement quality and institution.</td>
+      <td>AI-certified experts earn 25%–50% more than non-certified experts.</td>
+      <td>Experts with a reputable AI degree may or may not land lucrative jobs, depending on the quality of placements. </td>
     </tr>
     <tr>
       <td>Hiring Trends</td>
-      <td>Companies prefer candidates with practical skills and certifications for real-world tasks.</td>
-      <td>Degree holders may lack strong portfolios if not supplemented with projects.</td>
+      <td>Top firms prefer hiring certified AI specialists to tackle real-world cases.</td>
+      <td>AI experts with degrees may not showcase their portfolios, leading to the loss of lucrative offers.</td>
     </tr>
     <tr>
       <td>Cost of Waiting</td>
-      <td>Low — learners can apply for jobs while upskilling.</td>
-      <td>High — long duration delays entry into the job market.</td>
+      <td>Very less Learners can apply for jobs during upskilling.</td>
+      <td>Huge waiting periodPlacements can delay your progress. </td>
     </tr>
 
   </tbody>
@@ -557,27 +557,27 @@ Yet, there are specific aspects you should consider to enhance your AI learning 
   </thead>
   <tbody>
     <tr>
-      <td>A non-coder willing to grasp foundational AI skills</td>
+      <td>A non-coder willing to grasp foundational AI skills.</td>
       <td>✅</td>
       <td>❌</td>
     </tr>
     <tr>
-      <td>An IT engineer or data scientist willing to gain advanced AI mastery</td>
+      <td>An IT engineer or data scientist willing to gain advanced AI mastery.</td>
       <td>✅</td>
       <td>✅</td>
     </tr>
     <tr>
-      <td>Tech professionals aiming to enhance engineering skills and optimize operations</td>
+      <td>Techies who are willing to enhance their engineering skills and optimise their operations.</td>
       <td>❌</td>
       <td>✅</td>
     </tr>
     <tr>
-      <td>A manager / domain-specific professional / analyst looking to upgrade their role</td>
+      <td>A manager/domain-specific professional/analyst eager to revamp their roles.</td>
       <td>✅</td>
       <td>❌</td>
     </tr>
     <tr>
-      <td>Experienced tech professionals with GenAI skills aiming for advanced growth</td>
+      <td>Experienced experts in the tech domain with core GenAI skills willing to grow.</td>
       <td>❌</td>
       <td>✅</td>
     </tr>
