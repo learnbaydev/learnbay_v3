@@ -630,6 +630,10 @@ Interview Preparation"
               src={masterdegreeUSACourseData[0].src}
               src22={masterdegreeUSACourseData[0].src22}
               src33={masterdegreeUSACourseData[0].src33}
+              alt222={masterdegreeUSACourseData[0].alt222}
+              alt333={masterdegreeUSACourseData[0].alt333}
+              alt444={masterdegreeUSACourseData[0].alt444}
+              alt555={masterdegreeUSACourseData[0].alt555}
               ModuleMasterBot1={masterdegreeUSACourseData[0].ModuleMasterBot1}
               ModuleMasterBot2={masterdegreeUSACourseData[0].ModuleMasterBot2}
               ModuleHead1={masterdegreeUSACourseData[0].ModuleHead1}
