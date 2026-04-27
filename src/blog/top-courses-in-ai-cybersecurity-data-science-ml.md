@@ -1,7 +1,7 @@
 ---
 title: 'Top Courses to Master: AI, Cybersecurity, Data Science, Machine Learning'
-Stitle: 'Latest Data Science Trends, Blogs, Career Resources - Learnbay Blogs'
-description: 'Discover essential courses in AI, cybersecurity, data science, and machine learning to advance your skills and career.'
+Stitle: 'Top AI, Data Science & ML Courses | Learnbay'
+description: 'Upgrade your career with top AI, ML, data science, and cybersecurity courses. Gain practical skills and stay ahead in today’s competitive job market.'
 keywords: 'machine learning certification, cybersecurity certification, advanced data analytics training, Artificial Intelligence (AI) training'
 date: '01/04/2026'
 author: 'Sonalisha Mohanty'
@@ -9,7 +9,7 @@ readTime: '5.5 min'
 image: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/top-course-banner.png'
 imagephone: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/top-course-banner.png'
 alt: 'Learnbay blog banner of top courses to master data science and AI.'
-datePublished: '2026-04-08T08:00:00+08:00'
+datePublished: '2026-04-01T08:00:00+08:00'
 
 faqs:
   - question: "Which is better, a master's in AI or data science?"
