@@ -516,6 +516,10 @@ export default function Home() {
               src={DSEgyptCourseData[0].src}
               src22={DSEgyptCourseData[0].src22}
               src33={DSEgyptCourseData[0].src33}
+              alt222={DSEgyptCourseData[0].alt222}
+              alt333={DSEgyptCourseData[0].alt333}
+              alt444={DSEgyptCourseData[0].alt444}
+              alt555={DSEgyptCourseData[0].alt555}
               ModuleHead1={DSEgyptCourseData[0].ModuleHead1}
               ModuleBot1={DSEgyptCourseData[0].ModuleBot1}
               ModuleBot3={DSEgyptCourseData[0].ModuleBot3}
