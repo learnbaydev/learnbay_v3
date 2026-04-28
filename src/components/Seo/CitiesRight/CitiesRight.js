@@ -489,6 +489,7 @@ const CitiesRight = ({
   Note,
   linkText1,
   link1,
+  NotInDomainSpecilize,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -6818,7 +6819,7 @@ const CitiesRight = ({
               <h2 className={styles.pHead}>{DomainHead5}</h2>
               <h2 className={styles.pHead}>{DomainHead6}</h2>
               <h2 className={styles.pHead}>{DomainHead7}</h2>
-              {link1 && (
+              {link1 && NotInDomainSpecilize && (
                 <p className={styles.pp}>
                   {Note}{' '}
                   <Link

@@ -739,6 +739,7 @@ export default function Home() {
               link1={FSDPuneCourseData[0].link1}
               linkText1={FSDPuneCourseData[0].linkText1}
               Note={FSDPuneCourseData[0].Note}
+              NotInDomainSpecilize={false}
             />
             <div className={styles.faqCity}>
               <FAQNew FAQNewData={FSDPuneCourseData[0].faq} />

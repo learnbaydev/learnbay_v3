@@ -292,6 +292,7 @@ const CitiesRight = ({
   Note,
   linkText1,
   link1,
+  showLinkText1BABangalore,
 }) => {
   const [popups, setPopups] = useState(false);
   const popupShow = () => setPopups(true);
@@ -1313,7 +1314,7 @@ const CitiesRight = ({
                     <p className={styles.pp}>{ProgramBot1}</p>
                     <p className={styles.pp}>{ProgramBot2}</p>
                     <p className={styles.pp}>{ProgramBot3}</p>
-                    {link1 && (
+                    {link1 && showLinkText1BABangalore && (
                       <p className={styles.pp}>
                         {Note}{' '}
                         <Link
