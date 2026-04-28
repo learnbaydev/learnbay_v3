@@ -1705,15 +1705,14 @@ const nextConfig = {
       },
       {
         source: '/datascience/generative-ai-course-for-managers',
-        destination:
-          '/artificial-intelligence/generative-ai-course-for-data-science-professionals',
+        destination: 'https://www.learnbay.co/',
         permanent: true,
       },
 
       {
         source:
           '/artificial-intelligence/generative-ai-course-for-data-science-professionals',
-        destination: '/',
+        destination: 'https://www.learnbay.co/',
         permanent: true,
       },
 
