@@ -371,6 +371,17 @@ const Blog = ({ postData, nextPost }) => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [isMobile, isTOCOpen]);
 
+  const normalizeDate = (dateStr) => {
+    if (!dateStr) return null;
+
+    // If already ISO, return as-is
+    if (dateStr.includes('T')) return dateStr;
+
+    // Convert DD/MM/YYYY → ISO
+    const [day, month, year] = dateStr.split('/');
+    return `${year}-${month}-${day}T00:00:00+05:30`;
+  };
+
   const markdownComponents = useMemo(
     () => ({
       h1: ({ node, ...props }) => {
@@ -464,7 +475,7 @@ const Blog = ({ postData, nextPost }) => {
                   url: postData.publisherLogo,
                 },
               },
-              datePublished: postData.publishedDate,
+              datePublished: normalizeDate(postData.publishedDate),
             }),
           }}
         />

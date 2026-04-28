@@ -9,7 +9,7 @@ readTime: '7 mins'
 image: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/mdds-1.jpg'
 imagephone: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/mdds-1.jpg'
 alt: "A banner image titled, '8 Most Demanded Data Science Tools in 2023' shows a box connected to a laptop that displays an analytical chart."
-datePublished: '2026-04-10T08:00:00+08:00'
+publishedDate: '2026-04-10T00:00:00+05:30'
 
 faqs:
   - question: 'Is data science in demand in 2026 and the upcoming years?'
