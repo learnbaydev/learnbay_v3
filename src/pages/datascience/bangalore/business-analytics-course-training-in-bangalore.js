@@ -550,6 +550,9 @@ export default function Home() {
               ProgramBot1={BABangaloreCourseData[0].ProgramBot1}
               ProgramHead3={BABangaloreCourseData[0].ProgramHead3}
               ProgramBot3={BABangaloreCourseData[0].ProgramBot3}
+              link1={BABangaloreCourseData[0].link1}
+              linkText1={BABangaloreCourseData[0].linkText1}
+              Note={BABangaloreCourseData[0].Note}
               ProgramBot31={BABangaloreCourseData[0].ProgramBot31}
               ProgramBot4={BABangaloreCourseData[0].ProgramBot4}
               ProgramBot5={BABangaloreCourseData[0].ProgramBot5}

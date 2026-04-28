@@ -736,6 +736,9 @@ export default function Home() {
               Asrc4={FSDPuneCourseData[0].Asrc4}
               AlumniH4={FSDPuneCourseData[0].AlumniH4}
               Alumnip4={FSDPuneCourseData[0].Alumnip4}
+              link1={FSDPuneCourseData[0].link1}
+              linkText1={FSDPuneCourseData[0].linkText1}
+              Note={FSDPuneCourseData[0].Note}
             />
             <div className={styles.faqCity}>
               <FAQNew FAQNewData={FSDPuneCourseData[0].faq} />

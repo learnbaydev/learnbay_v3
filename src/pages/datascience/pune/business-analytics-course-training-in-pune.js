@@ -543,6 +543,9 @@ export default function Home() {
               ProgramBot1={BAPuneCourseData[0].ProgramBot1}
               ProgramHead3={BAPuneCourseData[0].ProgramHead3}
               ProgramBot3={BAPuneCourseData[0].ProgramBot3}
+              link1={BAPuneCourseData[0].link1}
+              linkText1={BAPuneCourseData[0].linkText1}
+              Note={BAPuneCourseData[0].Note}
               ProgramBot31={BAPuneCourseData[0].ProgramBot31}
               ProgramBot4={BAPuneCourseData[0].ProgramBot4}
               ProgramBot5={BAPuneCourseData[0].ProgramBot5}

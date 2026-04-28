@@ -620,6 +620,9 @@ export default function Home() {
               DomainHead5={FullStackBangaloreCourseData[0].DomainHead5}
               DomainHead6={FullStackBangaloreCourseData[0].DomainHead6}
               DomainHead7={FullStackBangaloreCourseData[0].DomainHead7}
+              link1={FullStackBangaloreCourseData[0].link1}
+              linkText1={FullStackBangaloreCourseData[0].linkText1}
+              Note={FullStackBangaloreCourseData[0].Note}
               DomainBot2={FullStackBangaloreCourseData[0].DomainBot2}
               DomainBot3={FullStackBangaloreCourseData[0].DomainBot3}
               DomainList1={FullStackBangaloreCourseData[0].DomainList1}
