@@ -6,6 +6,7 @@ import styles from './CitiesRight.module.css';
 const Form = lazy(() => import('../../Global/Form/Form'));
 const Popup = dynamic(() => import('../../Global/Popup/Popup'));
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 
 const CitiesRight = ({
   ProgramHead1,
@@ -288,6 +289,10 @@ const CitiesRight = ({
   cityTextDevopsBangalore,
   cityTextCloudPune,
   ulModule,
+  Note,
+  linkText1,
+  link1,
+  showLinkText1BABangalore,
 }) => {
   const [popups, setPopups] = useState(false);
   const popupShow = () => setPopups(true);
@@ -1309,6 +1314,19 @@ const CitiesRight = ({
                     <p className={styles.pp}>{ProgramBot1}</p>
                     <p className={styles.pp}>{ProgramBot2}</p>
                     <p className={styles.pp}>{ProgramBot3}</p>
+                    {link1 && showLinkText1BABangalore && (
+                      <p className={styles.pp}>
+                        {Note}{' '}
+                        <Link
+                          href={link1}
+                          style={{ color: '#2D9CD7', fontWeight: '600' }}
+                          target="_blank"
+                        >
+                          {' '}
+                          {linkText1}
+                        </Link>
+                      </p>
+                    )}
                     <p className={styles.pp}>{ProgramBot31}</p>
                     <p className={styles.pp}>{ProgramBot32}</p>
                     <p className={styles.pp}>{ProgramBot4}</p>

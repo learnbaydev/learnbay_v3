@@ -700,6 +700,10 @@ export const BABangaloreCourseData = [
       'Why join the Learnbay Business analytics training program in Bangalore?',
     ProgramBot3:
       'Business analyst experts from top tire multinational companies design this Business Analytics course training according to the industry needs and requirements. Learnbay keeps updating its Business Analytics program with the current working scenarios of the IT industry. Our mentors are well experienced and highly skilled at training young professionals ready for Business Analytics technology. We have a practical training model conducted and explained by top experts and even get experience with live Business analytics projects.',
+    Note: 'You can also check:',
+    linkText1: 'Best Cloud Computing Course in Bangalore',
+    link1:
+      'https://www.learnbay.co/cloud&devops/online-cloud-computing-course-bangalore',
     CertificationHead1:
       'Learnbay Business Analytics course training is powered by IBM certificates',
     CertificationBot1:

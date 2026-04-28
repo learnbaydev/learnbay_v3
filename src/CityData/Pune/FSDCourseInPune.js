@@ -456,6 +456,10 @@ two AI Co-Lab certifications.
     ProgramHead11: '> Domain specialization',
     ProgramHead12: '> Learn at your pace with 3yrs of subscriptions',
     ProgramHead13: '> Offline project innovation labs for better learning',
+    Note: 'You can also check:',
+    linkText1: 'Best Cloud Computing Course in Pune',
+    link1:
+      'https://www.learnbay.co/cloud&devops/online-cloud-computing-course-pune',
     DomainBot1:
       "Learnbay is the first organization in Pune to offer best full-stack developer course with domain specializations. Because Learnbay knows domain specialization is essential in today's world, we want to empower all our students with domain-specific knowledge.",
     DomainHead2:

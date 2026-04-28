@@ -7,6 +7,7 @@ import YoutubeVideo from '../YoutubeVideo/YoutubeVideo';
 import styles from './CitiesRight.module.css';
 import YoutubeEmbed from '../YoutubeVideo/YoutubeEmbed';
 import PopupContent from '@/components/Global/PopupContent/PopupContent';
+import Link from 'next/link';
 
 const CitiesRight = ({
   delhi,
@@ -485,6 +486,10 @@ const CitiesRight = ({
   CyberSecurityBangalore,
   CyberSecurityPune,
   embedId,
+  Note,
+  linkText1,
+  link1,
+  NotInDomainSpecilize,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -6667,6 +6672,19 @@ const CitiesRight = ({
             <p className={styles.pp}>{ProgramBot13}</p>
             <h2 className={styles.pHead}>{ProgramHead12}</h2>
             <h2 className={styles.pHead}>{ProgramHead13}</h2>
+            {link1 && (
+              <p className={styles.pp}>
+                {Note}{' '}
+                <Link
+                  href={link1}
+                  style={{ color: '#2D9CD7', fontWeight: '600' }}
+                  target="_blank"
+                >
+                  {' '}
+                  {linkText1}
+                </Link>
+              </p>
+            )}
             <a href={Courselink1} target="_blank">
               <h2
                 className={styles.pp}
@@ -6801,6 +6819,19 @@ const CitiesRight = ({
               <h2 className={styles.pHead}>{DomainHead5}</h2>
               <h2 className={styles.pHead}>{DomainHead6}</h2>
               <h2 className={styles.pHead}>{DomainHead7}</h2>
+              {link1 && NotInDomainSpecilize && (
+                <p className={styles.pp}>
+                  {Note}{' '}
+                  <Link
+                    href={link1}
+                    style={{ color: '#2D9CD7', fontWeight: '600' }}
+                    target="_blank"
+                  >
+                    {' '}
+                    {linkText1}
+                  </Link>
+                </p>
+              )}
               <h2 className={styles.pHead}>{DomainHead8}</h2>
             </>
           ) : (
