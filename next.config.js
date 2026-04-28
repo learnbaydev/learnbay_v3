@@ -1988,6 +1988,23 @@ const nextConfig = {
         destination: 'https://www.learnbay.co',
         permanent: true,
       },
+
+      {
+        source: '/datascience/advance-data-analytics-program-iit-guwahati',
+        destination: 'https://www.learnbay.co',
+        permanent: true,
+      },
+      {
+        source: '/datascience/data-science-ai-for-freshers',
+        destination: 'https://www.learnbay.co',
+        permanent: true,
+      },
+      {
+        source:
+          '/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati',
+        destination: 'https://www.learnbay.co',
+        permanent: true,
+      },
     ];
   },
 };
