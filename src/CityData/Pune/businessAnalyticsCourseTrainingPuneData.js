@@ -708,6 +708,7 @@ export const BAPuneCourseData = [
       'Why do students and professionals need to take the Learnbay Business Analytics course in Pune?',
     ProgramBot3:
       'Our business analytics course training program in Pune is designed by Industry experts who own more than 8 years of experience in top multinational companies. Our faculty has designed this course as per the industry standards and requirements in Pune. Learnbay always keeps its course modules updated so that students remain updated with the latest trends and development in the industry. Our mentors are highly experienced and skilled Business analysts. All Learnbay modules are rich in practical training sessions by top PRODUCT Based Companies experts. Aso, the course contains real-time Business Analytics projects.',
+
     CertificationBot1:
       'Learnbay Business Analytics program in Pune is Certified by IBM.',
     CertificationBot2:

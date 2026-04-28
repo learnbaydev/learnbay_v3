@@ -763,7 +763,7 @@ const nextConfig = {
       {
         source:
           '/data-science-course/data-science-and-ai-for-fresh-graduates-learnbay',
-        destination: '/fullstack/full-stack-software-development-program',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
@@ -941,7 +941,7 @@ const nextConfig = {
       },
       {
         source: '/full-stack-software-development-program',
-        destination: '/fullstack/full-stack-software-development-program',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
@@ -1273,65 +1273,44 @@ const nextConfig = {
         destination: '/datascience/data-science-and-ai-masters-in-cs',
         permanent: true,
       },
-      // {
-      //   source: "/datascience/data-science-certification-courses",
-      //   destination: "/datascience/advance-data-science-certification-courses",
-      //   permanent: true,
-      // },
 
-      // {
-      //   source: "/datascience/hr-analytics",
-      //   destination: "/datascience/business-analytics-certification-course",
-      //   permanent: true,
-      // },
-      // {
-      //   source: "/datascience/marketing-analytics",
-      //   destination: "/datascience/business-analytics-certification-course",
-      //   permanent: true,
-      // },
-      // {
-      //   source: "/fullstack/dsa-system-design",
-      //   destination: "/fullstack/full-stack-software-development-program",
-      //   permanent: true,
-      // },
       {
         source: '/fullstack/software-development-program-for-freshers',
-        destination: '/fullstack/full-stack-software-development-program',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
         source:
           '/fullstack/software-development-program-with-specialization-in-blockchain',
-        destination: '/fullstack/full-stack-software-development-program',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
         source:
           '/fullstack/software-development-program-with-specialization-in-cloud-computing-and-devops',
-        destination: '/fullstack/full-stack-software-development-program',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
         source: '/master-program-in-software-development',
-        destination: '/fullstack/full-stack-software-development-program',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
         source: '/master-program-in-software-development',
-        destination: '/fullstack/full-stack-software-development-program',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
 
       {
         source: '/datascience/advance-data-analytics-program',
-        destination: '/datascience/advance-data-analytics-program-iit-guwahati',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
 
       {
         source: '/datascience/executive-program-in-data-science-and-ai',
-        destination:
-          '/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
 
