@@ -1742,7 +1742,7 @@ const nextConfig = {
       },
       {
         source: '/data-science-course/author/learnbay',
-        destination: '/',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
