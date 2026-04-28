@@ -8,7 +8,7 @@ author: 'Manas Kochar'
 readTime: '6.5 min'
 image: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/dscg.webp'
 alt: 'Data Science and AI Master Program, Data science online program, learn data science online'
-datePublished: '2026-04-03T08:00:00+08:00'
+publishedDate: '2026-04-03T00:00:00+05:30'
 faqs:
   - question: 'Can I do a data science course online in India?'
     answer: "An online data science course in India is the best suitable for professionals. As they can't dedicate their time to learning all the time, it is preferable for them to start learning through online courses. However, if you're a beginner wanting to study data science, you can also join an online course to study alongside professionals."

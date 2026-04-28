@@ -9,7 +9,7 @@ readTime: '7 mins'
 image: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Master+the+Top+Generative+AI+Skills+to+Crack+the+Hiring+Game-1.webp'
 imagephone: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Master+the+Top+Generative+AI+Skills+to+Crack+the+Hiring+Game-1.webp'
 alt: 'Learnbay blog banner of Master the Top Generative AI Skills to Crack the Hiring Game.'
-datePublished: '2026-04-23T08:00:00+08:00'
+publishedDate: '2026-04-23T00:00:00+05:30'
 
 faqs:
   - question: 'Why are AI skills important? '

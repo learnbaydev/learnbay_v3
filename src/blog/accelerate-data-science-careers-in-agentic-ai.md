@@ -9,7 +9,7 @@ readTime: '12 mins'
 image: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Accelerate+Data+Science+Careers+in+the+Agentic+AI+Age.webp'
 imagephone: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Accelerate+Data+Science+Careers+in+the+Agentic+AI+Age.webp'
 alt: 'Learnbay blog banner of Accelerate data science careers in the agentic age blog.'
-datePublished: '2026-04-22T08:00:00+08:00'
+publishedDate: '2026-04-22T00:00:00+05:30'
 
 faqs:
   - question: 'Is Agentic AI essential for data scientists to learn?'

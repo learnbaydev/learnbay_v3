@@ -9,7 +9,7 @@ readTime: '5.5 min'
 image: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/top-course-banner.png'
 imagephone: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/top-course-banner.png'
 alt: 'Learnbay blog banner of top courses to master data science and AI.'
-datePublished: '2026-04-01T08:00:00+08:00'
+publishedDate: '2026-04-01T00:00:00+05:30'
 
 faqs:
   - question: "Which is better, a master's in AI or data science?"

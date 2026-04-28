@@ -10,7 +10,7 @@ image: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Best+Skills+to
 imagephone: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Best+Skills+to+Learn+to+Survive+AI+Dominance+and+Layoffs2026.webp'
 alt: 'Blog banner image: Best skills to survive AI dominance and layoffs; laptop user linked to blue AI'
 canonicalUrl: 'https://www.learnbay.co/blogs/master-tech-layoffs-survival-skills'
-publishedDate: '2026-03-27T08:00:00+08:00'
+publishedDate: '2026-03-27T00:00:00+05:30'
 faqs:
   - question: 'Is there going to be a recession in 2026?'
     answer: 'A recession in 2026 has not been publicly announced yet, but rising global tensions, AI dominance, and a divided economy suggest it is possible. Also, JP Morgan research indicates a 35% probability of a recession in 2026.'

@@ -9,7 +9,7 @@ readTime: '10 mins'
 image: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/cover-++Best+AI+Courses+in+India+(2026)+%E2%80%93+GenAI%2C+Agentic+AI+%26+Placement+Programs+Compared.webp'
 imagephone: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/cover-++Best+AI+Courses+in+India+(2026)+%E2%80%93+GenAI%2C+Agentic+AI+%26+Placement+Programs+Compared.webp'
 alt: 'Banner showing futuristic AI robots and comparison of best AI courses in India top programs.'
-datePublished: '2026-04-28T08:00:00+08:00'
+publishedDate: '2026-04-28T00:00:00+05:30'
 
 faqs:
   - question: 'Which is the best AI course in India for 2026?'
