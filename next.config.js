@@ -721,12 +721,12 @@ const nextConfig = {
       },
       {
         source: '/data-science-course/webinar',
-        destination: '/',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
         source: '/data-science-course/shop',
-        destination: '/',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
@@ -741,7 +741,7 @@ const nextConfig = {
       },
       {
         source: '/data-science-course/team',
-        destination: '/',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
@@ -1719,7 +1719,7 @@ const nextConfig = {
       {
         source:
           '/artificial-intelligence/generative-ai-course-for-fullstack-professionals',
-        destination: '/',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
 
@@ -1758,7 +1758,7 @@ const nextConfig = {
       },
       {
         source: '/llms.txt',
-        destination: '/',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
 
