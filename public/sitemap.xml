@@ -542,11 +542,6 @@
 	</url>
 
 
-	
-
-
-	
-
 	<url>
 		<loc>https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course</loc>
 		<changefreq>daily</changefreq>
@@ -726,5 +721,11 @@
 		<priority>0.80</priority>
 	</url>
 	
+
+	<url>
+	<loc>https://www.learnbay.co/blogs/will-ai-replace-data-scientists</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
 
 </urlset>
