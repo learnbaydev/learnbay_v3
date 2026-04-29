@@ -604,7 +604,7 @@ Now, as the AI learning path is clear, your next step is to choose the right tra
 <p style="font-size:  1.2rem;margin: 0; padding: 0;">• <i>Decode hiring trends, mapping the <b>AI courses with placement</b></i></p>
 <p style="font-size:  1.2rem;margin: 0; padding: 0;">• <i>Earn certifications through the <b>best GenAI courses</b></i></p>
 
-Indeed, anyone eager to revamp their career paths and acquire industrial skills to thrive should opt for the best <b>AI </i></p>training courses</b> in 2026.
+Indeed, anyone eager to revamp their career paths and acquire industrial skills to thrive should opt for the best <b>AI training courses</b> in 2026.</i></p>
 
 ## Ready to Take the Next Step?
 
