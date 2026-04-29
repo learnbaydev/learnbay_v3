@@ -6,8 +6,8 @@ keywords: 'data science tools,tools used in data science,data analytics tools,tr
 date: '10/04/2026'
 author: 'Sonalisha Mohanty'
 readTime: '7 mins'
-image: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/mdds-1.jpg'
-imagephone: 'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/mdds-1.jpg'
+image: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/8MostDemanededDataScienceTool.jpeg'
+imagephone: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/8MostDemanededDataScienceTool.jpeg'
 alt: "A banner image titled, '8 Most Demanded Data Science Tools in 2023' shows a box connected to a laptop that displays an analytical chart."
 publishedDate: '2026-04-10T00:00:00+05:30'
 
