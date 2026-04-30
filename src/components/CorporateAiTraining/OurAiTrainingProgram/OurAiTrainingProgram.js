@@ -2,7 +2,18 @@ import styles from './OurAiTrainingProgram.module.css';
 
 export default function AiPrograms() {
   return (
-    <section className={styles.section}>
+    <section
+      className={styles.section}
+      style={{
+        backgroundImage: `
+          linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+          url("https://d32and0ii3b8oy.cloudfront.net/adlearnbay/corporateAITrainingDarkBackground.webp")
+        `,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
       <div className={styles.overlay}>
         <h2 className={styles.heading}>Our AI Training Programs</h2>
 

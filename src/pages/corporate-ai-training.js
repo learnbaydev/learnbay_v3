@@ -5,7 +5,7 @@ import Footer from '@/components/Global/Footer/Footer';
 import HeroSection from '../components/CorporateAiTraining/HeroSection/HeroSection';
 import WhyAiTraining from '../components/CorporateAiTraining/WhyAiTraining/WhyAiTraining';
 import WhatLearningDelivers from '../components/CorporateAiTraining/WhatLearningDelivers/WhatLearningDelivers';
-import SameTeamSameTool from '../components/CorporateAiTraining/SameTeamSameTool/SameTeamSameTool';
+import QuickOverview from '../components/CorporateAiTraining/QuickOverview/QuickOverview';
 import RealExample from '../components/CorporateAiTraining/RealExample/RealExample';
 import OurAiTrainingProgram from '../components/CorporateAiTraining/OurAiTrainingProgram/OurAiTrainingProgram';
 import WhatLeadersSay from '../components/CorporateAiTraining/WhatLeadersSay/WhatLeadersSay';
@@ -23,9 +23,9 @@ const CorporateAITraining = () => {
       <HeroSection />
       <WhyAiTraining />
       <OurAiTrainingProgram />
-      <WhatLearningDelivers />
-      <SameTeamSameTool />
       <RealExample />
+      <QuickOverview />
+      <WhatLearningDelivers />
 
       <WhatLeadersSay />
       <InvestInResults />
