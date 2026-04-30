@@ -27,8 +27,8 @@ const CorporateAITraining = () => {
       <SameTeamSameTool />
       <RealExample />
 
-      <WhatLeadersSay />
       <InvestInResults />
+      <WhatLeadersSay />
       <FaqSection />
 
       <Footer />
