@@ -23,10 +23,11 @@ const CorporateAITraining = () => {
       <HeroSection />
       <p style={{ paddingTop: '500px' }}></p>
       <WhyAiTraining />
+      <OurAiTrainingProgram />
       <WhatLearningDelivers />
       <SameTeamSameTool />
       <RealExample />
-      <OurAiTrainingProgram />
+
       <WhatLeadersSay />
       <InvestInResults />
       <FaqSection />
