@@ -27,8 +27,8 @@ const CorporateAITraining = () => {
       <QuickOverview />
       <WhatLearningDelivers />
 
-      <WhatLeadersSay />
       <InvestInResults />
+      <WhatLeadersSay />
       <FaqSection />
 
       <Footer />
