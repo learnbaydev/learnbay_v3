@@ -4,7 +4,7 @@ import Navbar from '@/components/Global/Navbar/Navbar';
 import Footer from '@/components/Global/Footer/Footer';
 import HeroSection from '../components/CorporateAiTraining/HeroSection/HeroSection';
 import WhyAiTraining from '../components/CorporateAiTraining/WhyAiTraining/WhyAiTraining';
-import WhatLearningDelivers from '../components/CorporateAiTraining/WhatLearningDelivers/WhatLearningDelivers';
+
 import QuickOverview from '../components/CorporateAiTraining/QuickOverview/QuickOverview';
 import RealExample from '../components/CorporateAiTraining/RealExample/RealExample';
 import OurAiTrainingProgram from '../components/CorporateAiTraining/OurAiTrainingProgram/OurAiTrainingProgram';
@@ -25,7 +25,6 @@ const CorporateAITraining = () => {
       <OurAiTrainingProgram />
       <RealExample />
       <QuickOverview />
-      <WhatLearningDelivers />
 
       <InvestInResults />
       <WhatLeadersSay />
