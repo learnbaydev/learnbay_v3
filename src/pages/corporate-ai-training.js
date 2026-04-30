@@ -21,7 +21,6 @@ const CorporateAITraining = () => {
         interstedInHide={true}
       />
       <HeroSection />
-      <p style={{ paddingTop: '500px' }}></p>
       <WhyAiTraining />
       <OurAiTrainingProgram />
       <WhatLearningDelivers />

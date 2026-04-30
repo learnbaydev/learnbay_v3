@@ -1,0 +1,171 @@
+.hero {
+  background: linear-gradient(135deg, #eef2f7, #dbe3f0);
+  padding: 80px 20px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* LEFT */
+
+.left {
+  max-width: 520px;
+}
+
+.badge {
+  display: inline-block;
+  background: #ffffff;
+  color: #2563eb;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 20px;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #2563eb;
+}
+
+.description {
+  margin-top: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.buttons {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+.primaryBtn {
+  background: #2563eb;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primaryBtn:hover {
+  background: #1d4ed8;
+}
+
+.secondaryBtn {
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.secondaryBtn:hover {
+  background: #eff6ff;
+}
+
+.reviews {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatars {
+  display: flex;
+}
+
+.avatars img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: -8px;
+}
+
+/* RIGHT */
+
+.right {
+  position: relative;
+}
+
+.heroImg {
+  width: 450px;
+}
+
+/* Floating Cards */
+
+.card {
+  position: absolute;
+  background: white;
+  padding: 12px 16px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  font-size: 14px;
+}
+
+.card strong {
+  color: #2563eb;
+  display: block;
+}
+
+.card p {
+  margin: 0;
+  color: #666;
+  font-size: 12px;
+}
+
+/* Positions */
+
+.card1 {
+  top: 40px;
+  right: -20px;
+}
+
+.card2 {
+  bottom: 100px;
+  left: -40px;
+}
+
+.card3 {
+  bottom: -10px;
+  right: 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .right {
+    margin-top: 40px;
+  }
+
+  .heroImg {
+    width: 320px;
+  }
+
+  .card {
+    display: none; /* optional: hide floating cards on mobile */
+  }
+}
