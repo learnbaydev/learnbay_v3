@@ -1,6 +1,6 @@
-import Image from 'next/image';
 import React from 'react';
 import styles from './HeroSection.module.css';
+
 const HeroSection = () => {
   return (
     <section className={styles.hero}>
@@ -24,7 +24,6 @@ const HeroSection = () => {
             <button className={styles.primaryBtn}>
               Book Free Consultation →
             </button>
-
             <button className={styles.secondaryBtn}>
               Download Corporate Training Brochure ↓
             </button>
@@ -32,23 +31,16 @@ const HeroSection = () => {
 
           <div className={styles.reviews}>
             <div className={styles.avatars}>
-              <img src="/avatar1.jpg" alt="" />
-              <img src="/avatar2.jpg" alt="" />
-              <img src="/avatar3.jpg" alt="" />
+              <img src="/avatar1.jpg" alt="user" />
+              <img src="/avatar2.jpg" alt="user" />
+              <img src="/avatar3.jpg" alt="user" />
             </div>
             <span>⭐⭐⭐⭐⭐ (32k+ Reviews)</span>
           </div>
         </div>
 
-        {/* RIGHT */}
+        {/* RIGHT - Keep this for floating cards positioning */}
         <div className={styles.right}>
-          <img
-            src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/corporateAITrainingHero.webp"
-            alt="hero"
-            className={styles.heroImg}
-          />
-
-          {/* Floating Cards */}
           <div className={`${styles.card} ${styles.card1}`}>
             <div>⏱</div>
             <div>
