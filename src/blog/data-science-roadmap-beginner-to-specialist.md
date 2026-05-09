@@ -30,7 +30,7 @@ Imagine a modern data scientist working alongside LLMs, tackling real-world busi
 
 ## Why Has The Data Scientist Roadmap Been Revamped in 2026?
 
-Gone are the days when data science experts limited their tasks to data handling and building models. However, in 2026, it looks more precise and specialised. The modern data scientists work closely with <a href="https://www.learnbay.co/blogs/will-ai-replace-data-scientists"  target="_blank"  rel="nofollow">AI agents</a>, apply GenAI skills, and devise real-world solutions.
+Gone are the days when data science experts limited their tasks to data handling and building models. However, in 2026, it looks more precise and specialised. The modern data scientists work closely with <a href="https://www.learnbay.co/blogs/will-ai-replace-data-scientists" target="\_blank" ">AI agents</a>, apply GenAI skills, and devise real-world solutions.
 
 In short, the modern age data science career in 2026 reflects <b>‘Data + GenAI + Business Acumen + Model Engineering’</b>.
 

@@ -29,6 +29,30 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/data-science-courses"
         />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+"@context": "https://schema.org/",
+"@type": "Product",
+"name": "Data Science Courses – Learnbay",
+"image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+"brand": {
+"@type": "Brand",
+"name": "Learnbay"
+},
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.7",
+"bestRating": "5",
+"worstRating": "1",
+"ratingCount": "1955"
+}
+}
+`,
+          }}
+        />
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} interstedInHide={true} />

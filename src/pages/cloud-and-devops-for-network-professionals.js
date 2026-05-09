@@ -1,270 +1,270 @@
-import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import HighlightsAdminSection from "@/components/CoursePage/FirstPart/Support_noimage/highlightcloudAdmin";
-import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
-import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
-import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
-import Newheader from "@/components/CoursePage/newHeaderCloudAndDevOps/newHeader";
-import NewTools from "@/components/CoursePage/newTools/NewTools";
-import AlumniCompaniesCloudDevopsNP from "@/components/CoursePage/newUICourse/AlumniCompaniesCloudDevopsNP";
-import LearningToPlacementNP from "@/components/CoursePage/newUICourse/LearningToPlacementNP/LearningToPlacement";
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import React from "react";
-import highlightsData from "@/Data/highlightsDataNP";
-import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
-const AnimationNew1 = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whylblimitedNP")
+import { MasterAI } from '@/Data/Schema/DataScienceAndAIMasterSchema';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import HighlightsAdminSection from '@/components/CoursePage/FirstPart/Support_noimage/highlightcloudAdmin';
+import BookDemo from '@/components/CoursePage/NewDSA/BookDemo/BookDemo';
+import UpdatedCertificate from '@/components/CoursePage/UpdatedCertificate/UpdatedCertificate';
+import GenAIProject from '@/components/CoursePage/genAiProject/GenAIProject';
+import Newheader from '@/components/CoursePage/newHeaderCloudAndDevOps/newHeader';
+import NewTools from '@/components/CoursePage/newTools/NewTools';
+import AlumniCompaniesCloudDevopsNP from '@/components/CoursePage/newUICourse/AlumniCompaniesCloudDevopsNP';
+import LearningToPlacementNP from '@/components/CoursePage/newUICourse/LearningToPlacementNP/LearningToPlacement';
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import React from 'react';
+import highlightsData from '@/Data/highlightsDataNP';
+import FAQ from '@/components/AppliedAIPractitionerProgram/FAQs/FAQ';
+const AnimationNew1 = dynamic(
+  () => import('@/components/Home/whyChooseSection/whylblimitedNP')
 );
-const JobReadySection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
+const JobReadySection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/JobReadySection/JobReadySection')
 );
-const DSASyllabus = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus")
+const DSASyllabus = dynamic(
+  () => import('@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus')
 );
-const DSAFeeSection = dynamic(() =>
-  import("@/components/CoursePage/dsaFee/DSAFeeSection")
+const DSAFeeSection = dynamic(
+  () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
 );
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-const NewSevenSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
+const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
+const NewSevenSection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection')
 );
-const MentorsSection = dynamic(() =>
-  import("@/components/course/MentorsSection/MentorsSection")
+const MentorsSection = dynamic(
+  () => import('@/components/course/MentorsSection/MentorsSection')
 );
-const ReviewSlider = dynamic(() =>
-  import("@/components/Home/newUI/reviewSlider/reviewSlider")
+const ReviewSlider = dynamic(
+  () => import('@/components/Home/newUI/reviewSlider/reviewSlider')
 );
-const SyllabusNew = dynamic(() =>
-  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
+const SyllabusNew = dynamic(
+  () => import('@/components/CoursePage/Syllabus/MasterSyllabus2025')
 );
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf';
   const faqNewData = [
     {
       id: 0,
-      sectionName: "COURSE-RELATED",
+      sectionName: 'COURSE-RELATED',
       data: [
         {
           id: 0,
-          ques: "What is the duration of the Cloud and DevOps Engineering Program for network professionals?",
-          ans: "With our 150+ hours of live instructor-led training sessions, you can establish yourself as a certified professional in Cloud or DevOps.",
+          ques: 'What is the duration of the Cloud and DevOps Engineering Program for network professionals?',
+          ans: 'With our 150+ hours of live instructor-led training sessions, you can establish yourself as a certified professional in Cloud or DevOps.',
           open: true,
         },
         {
           id: 1,
-          ques: "What prerequisites are required to enroll in this program?",
-          ans: "This program is suitable for entry to mid-level working professionals with a minimum of 1 year of work experience in the IT domain.",
+          ques: 'What prerequisites are required to enroll in this program?',
+          ans: 'This program is suitable for entry to mid-level working professionals with a minimum of 1 year of work experience in the IT domain.',
           open: false,
         },
         {
           id: 2,
-          ques: "Is this Cloud Computing Course suitable for freshers in IT?",
-          ans: "No, this certification is not an ideal match for freshers. It requires a minimum of 1 year of working experience in the tech domain.",
+          ques: 'Is this Cloud Computing Course suitable for freshers in IT?',
+          ans: 'No, this certification is not an ideal match for freshers. It requires a minimum of 1 year of working experience in the tech domain.',
           open: false,
         },
         {
           id: 3,
-          ques: "What cloud platforms are covered in the Cloud and DevOps Engineering Program?",
-          ans: "This course will cover Google Cloud Platform, Microsoft Azure, and Amazon AWS tools with a hands-on learning experience.",
+          ques: 'What cloud platforms are covered in the Cloud and DevOps Engineering Program?',
+          ans: 'This course will cover Google Cloud Platform, Microsoft Azure, and Amazon AWS tools with a hands-on learning experience.',
           open: false,
         },
         {
           id: 4,
-          ques: "How do I stay updated on course content and any changes in the Cloud Computing Course with Real-Time Projects?",
-          ans: "Learnbay enables learners to stay updated with recent developments through its customized application. This app enables you to chat online with the respective groups and mentors for further clarification on course doubts.",
+          ques: 'How do I stay updated on course content and any changes in the Cloud Computing Course with Real-Time Projects?',
+          ans: 'Learnbay enables learners to stay updated with recent developments through its customized application. This app enables you to chat online with the respective groups and mentors for further clarification on course doubts.',
           open: false,
         },
         {
           id: 5,
-          ques: "How does this program prepare aspirants for real-world cloud and DevOps challenges?",
-          ans: "The DevOps Training with capstone projects prepares IT professionals to tackle network challenges faced by startups and deliver scalable results.",
+          ques: 'How does this program prepare aspirants for real-world cloud and DevOps challenges?',
+          ans: 'The DevOps Training with capstone projects prepares IT professionals to tackle network challenges faced by startups and deliver scalable results.',
           open: false,
         },
       ],
     },
     {
       id: 1,
-      sectionName: "PAYMENTS & SCHOLARSHIPS",
+      sectionName: 'PAYMENTS & SCHOLARSHIPS',
       data: [
         {
           id: 0,
-          ques: "How much does the Cloud & DevOps Engineering Certification (for network professionals) cost?",
-          ans: "The course fee is INR 1,20,000 + 18% GST.",
+          ques: 'How much does the Cloud & DevOps Engineering Certification (for network professionals) cost?',
+          ans: 'The course fee is INR 1,20,000 + 18% GST.',
           open: false,
         },
         {
           id: 1,
-          ques: "Are there any payment instalment options available for this course?",
-          ans: "Yes, we have an instalment payment facility to pay the fee through a Credit card, UPI, or Internet banking.",
+          ques: 'Are there any payment instalment options available for this course?',
+          ans: 'Yes, we have an instalment payment facility to pay the fee through a Credit card, UPI, or Internet banking.',
           open: false,
         },
         {
           id: 2,
-          ques: "Can I pay for the course using credit cards, and are there other payment methods accepted?",
-          ans: "Yes, you can pay for the course using credit cards in addition to UPI or Internet banking.",
+          ques: 'Can I pay for the course using credit cards, and are there other payment methods accepted?',
+          ans: 'Yes, you can pay for the course using credit cards in addition to UPI or Internet banking.',
           open: false,
         },
         {
           id: 3,
-          ques: "Is there a refund policy in case I need to withdraw from the program?",
-          ans: "Yes, we offer an easy refund or cancellation policy for those who need to withdraw from the program. For further details, refer to Learnbay’s Refund/Cancellation Policy.",
+          ques: 'Is there a refund policy in case I need to withdraw from the program?',
+          ans: 'Yes, we offer an easy refund or cancellation policy for those who need to withdraw from the program. For further details, refer to Learnbay’s Refund/Cancellation Policy.',
           open: false,
         },
         {
           id: 4,
-          ques: "Are there any additional costs for course materials, textbooks, or certification exams?",
-          ans: "No, you don’t have to pay extra for course materials, textbooks, or certification exams. With just the payment of course fees, you can get started with the learning.",
+          ques: 'Are there any additional costs for course materials, textbooks, or certification exams?',
+          ans: 'No, you don’t have to pay extra for course materials, textbooks, or certification exams. With just the payment of course fees, you can get started with the learning.',
           open: false,
         },
       ],
     },
     {
       id: 2,
-      sectionName: "CAPSTONE AND REAL-TIME PROJECTS",
+      sectionName: 'CAPSTONE AND REAL-TIME PROJECTS',
       data: [
         {
           id: 0,
-          ques: "How many live capstone projects will there be?",
-          ans: "You will get four live capstone projects with this program.",
+          ques: 'How many live capstone projects will there be?',
+          ans: 'You will get four live capstone projects with this program.',
           open: false,
         },
         {
           id: 1,
-          ques: "Could you elaborate on the capstone project and its significance in this program?",
-          ans: "Capstone projects enable tech experts to enhance their ability to tackle real-world network challenges. It equips you with skills startups value and builds a professional portfolio for recruiters.",
+          ques: 'Could you elaborate on the capstone project and its significance in this program?',
+          ans: 'Capstone projects enable tech experts to enhance their ability to tackle real-world network challenges. It equips you with skills startups value and builds a professional portfolio for recruiters.',
           open: false,
         },
       ],
     },
     {
       id: 3,
-      sectionName: "CERTIFICATION",
+      sectionName: 'CERTIFICATION',
       data: [
         {
           id: 0,
-          ques: "Is there any accredited certification after course completion?",
-          ans: "Yes. You will obtain industry-accredited certifications from Microsoft and Learnbay once you complete the course and projects.",
+          ques: 'Is there any accredited certification after course completion?',
+          ans: 'Yes. You will obtain industry-accredited certifications from Microsoft and Learnbay once you complete the course and projects.',
           open: false,
         },
         {
           id: 1,
-          ques: "Is the certification globally recognised?",
-          ans: "Yes, we provide globally recognized credentials to enrich your career and validate your skills to grab competitive jobs.",
+          ques: 'Is the certification globally recognised?',
+          ans: 'Yes, we provide globally recognized credentials to enrich your career and validate your skills to grab competitive jobs.',
           open: false,
         },
         {
           id: 2,
-          ques: "What type of certification do I receive upon course completion?",
-          ans: "Upon completion of the course, you will receive –",
+          ques: 'What type of certification do I receive upon course completion?',
+          ans: 'Upon completion of the course, you will receive –',
           open: false,
           dscoursefaq1: true,
-          list1: "Three Microsoft certifications",
-          list2: "One Course Completion Certificate from Learnbay",
+          list1: 'Three Microsoft certifications',
+          list2: 'One Course Completion Certificate from Learnbay',
         },
         {
           id: 3,
-          ques: "Are there any additional costs associated with the course?",
-          ans: "The certification has no other expenses included apart from the course fees.",
+          ques: 'Are there any additional costs associated with the course?',
+          ans: 'The certification has no other expenses included apart from the course fees.',
           open: false,
         },
       ],
     },
     {
       id: 4,
-      sectionName: "JOB ASSISTANCE",
+      sectionName: 'JOB ASSISTANCE',
       data: [
         {
           id: 0,
-          ques: "How does this program cater to individuals interested in pursuing a career as a certified Cloud & DevOps professional?",
-          ans: "IT experts eager to pursue a career as a Cloud or DevOps Engineer will get seamless training sessions and hands-on learning of tools to future-proof their skills with assured job offers.",
+          ques: 'How does this program cater to individuals interested in pursuing a career as a certified Cloud & DevOps professional?',
+          ans: 'IT experts eager to pursue a career as a Cloud or DevOps Engineer will get seamless training sessions and hands-on learning of tools to future-proof their skills with assured job offers.',
           open: false,
         },
         {
           id: 1,
-          ques: "What distinguishes this course from others in the market?",
-          ans: "Its DevOps Training for Working Professionals is different from others in the following ways –",
+          ques: 'What distinguishes this course from others in the market?',
+          ans: 'Its DevOps Training for Working Professionals is different from others in the following ways –',
           open: false,
           dscoursefaq1: true,
-          list1: "Industry-driven modules with AWS, Microsoft Azure, and GCP",
-          list2: "Assured interview calls from 350+ Industry partners",
-          list3: "Domain-specific training (for network professionals)",
-          list4: "ATS-friendly resume optimization and 1:1 doubt-clearing",
+          list1: 'Industry-driven modules with AWS, Microsoft Azure, and GCP',
+          list2: 'Assured interview calls from 350+ Industry partners',
+          list3: 'Domain-specific training (for network professionals)',
+          list4: 'ATS-friendly resume optimization and 1:1 doubt-clearing',
         },
         {
           id: 2,
-          ques: "What resources are in place to help graduates secure positions in the field of networking?",
-          ans: "Learnbay offers industry-paced training including:",
+          ques: 'What resources are in place to help graduates secure positions in the field of networking?',
+          ans: 'Learnbay offers industry-paced training including:',
           open: false,
           dscoursefaq1: true,
-          list1: "Comprehensive knowledge-building and practical training",
-          list2: "Live projects and training on in-demand Cloud & DevOps tools",
-          list3: "100% placement services",
-          list4: "Industry recognised certifications from Microsoft",
+          list1: 'Comprehensive knowledge-building and practical training',
+          list2: 'Live projects and training on in-demand Cloud & DevOps tools',
+          list3: '100% placement services',
+          list4: 'Industry recognised certifications from Microsoft',
         },
       ],
     },
     {
       id: 5,
-      sectionName: "MENTORSHIPS",
+      sectionName: 'MENTORSHIPS',
       data: [
         {
           id: 0,
-          ques: "Is there any support or mentorship provided during the course?",
-          ans: "Yes, we believe in industry-driven mentorship. We have renowned faculty from MNCs who guide you with real-world experiences and proven solutions.",
+          ques: 'Is there any support or mentorship provided during the course?',
+          ans: 'Yes, we believe in industry-driven mentorship. We have renowned faculty from MNCs who guide you with real-world experiences and proven solutions.',
           open: false,
         },
         {
           id: 1,
-          ques: "Are there mentors available to help with coursework and projects?",
-          ans: "Our experienced mentors will help you with coursework, case studies, practical exercises, and live capstone projects with 1:1 doubt-clearing.",
+          ques: 'Are there mentors available to help with coursework and projects?',
+          ans: 'Our experienced mentors will help you with coursework, case studies, practical exercises, and live capstone projects with 1:1 doubt-clearing.',
           open: false,
         },
         {
           id: 2,
-          ques: "How can I connect with a mentor?",
-          ans: "You can contact your mentor 24/7 directly via the Learnbay app, personally over the phone, or via app chat sessions.",
+          ques: 'How can I connect with a mentor?',
+          ans: 'You can contact your mentor 24/7 directly via the Learnbay app, personally over the phone, or via app chat sessions.',
           open: false,
         },
         {
           id: 3,
-          ques: "What is the typical response time for mentor support?",
-          ans: "Within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects.",
+          ques: 'What is the typical response time for mentor support?',
+          ans: 'Within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects.',
           open: false,
         },
       ],
     },
     {
       id: 6,
-      sectionName: "SUPPORT",
+      sectionName: 'SUPPORT',
       data: [
         {
           id: 0,
-          ques: "Are there dedicated support channels for addressing technical issues during the course?",
-          ans: "Learnbay has a centralised technical support system available 24/7 to solve queries related to login, training sessions, or attendance.",
+          ques: 'Are there dedicated support channels for addressing technical issues during the course?',
+          ans: 'Learnbay has a centralised technical support system available 24/7 to solve queries related to login, training sessions, or attendance.',
           open: false,
         },
         {
           id: 1,
-          ques: "What kind of support is available for professionals enrolled in the Cloud and DevOps Engineering program?",
-          ans: "Learners get support for technical/non-technical issues, 1:1 doubt-clearing, course materials, project guidance, and career assistance.",
+          ques: 'What kind of support is available for professionals enrolled in the Cloud and DevOps Engineering program?',
+          ans: 'Learners get support for technical/non-technical issues, 1:1 doubt-clearing, course materials, project guidance, and career assistance.',
           open: false,
         },
         {
           id: 2,
-          ques: "How can learners get assistance with course materials or clarification on concepts?",
-          ans: "Dedicated mentorship is available for clarifying concepts. You can directly reach your mentor for further clarification on Cloud and DevOps concepts.",
+          ques: 'How can learners get assistance with course materials or clarification on concepts?',
+          ans: 'Dedicated mentorship is available for clarifying concepts. You can directly reach your mentor for further clarification on Cloud and DevOps concepts.',
           open: false,
         },
         {
           id: 3,
-          ques: "Are there specific support options for those preparing for Cloud & DevOps exams?",
-          ans: "Our placement service helps with 1:1 doubt clearing, mock interviews, resume building, and soft skills training specifically for certification exams.",
+          ques: 'Are there specific support options for those preparing for Cloud & DevOps exams?',
+          ans: 'Our placement service helps with 1:1 doubt clearing, mock interviews, resume building, and soft skills training specifically for certification exams.',
           open: false,
         },
       ],
@@ -274,7 +274,9 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>Cloud & DevOps training for Network Professionals - Learnbay</title>
+        <title>
+          Cloud & DevOps training for Network Professionals - Learnbay
+        </title>
         <meta
           name="description"
           content="Advance your networking career with Learnbay's cloud & DevOps training. Learn AWS, cloud security, automation, and DevOps through live classes. Enrol now!"
@@ -372,6 +374,30 @@ Clouds and DevOps Network professional program
   ]
 
     }
+`,
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+"@context": "https://schema.org/",
+"@type": "Product",
+"name": "Cloud and DevOps Engineering Certification",
+"image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+"brand": {
+"@type": "Brand",
+"name": "Learnbay"
+},
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.8",
+"bestRating": "5",
+"worstRating": "1",
+"ratingCount": "1600"
+}
+}
 `,
           }}
         />
@@ -635,7 +661,7 @@ Clouds and DevOps Network professional program
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
-          courseId={"cloud-network-pro"}
+          courseId={'cloud-network-pro'}
         />
         <AlumniCompaniesCloudDevopsNP
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
@@ -663,7 +689,7 @@ Clouds and DevOps Network professional program
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         /> */}
-        <div style={{ marginTop: "50px" }}>
+        <div style={{ marginTop: '50px' }}>
           <SyllabusNew
             masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
             onlyGENAIPage={true}
@@ -697,10 +723,10 @@ Clouds and DevOps Network professional program
           Admission="Admission Process"
           Content="Our 3-step admission process clearly guides you through checking your eligibility, selecting the right course via expert counselling, and smoothly completing your enrollment. It's designed for simplicity and clarity."
           highlight={[
-            "3-step admission process",
-            "eligibility",
-            "counselling",
-            "enrollment",
+            '3-step admission process',
+            'eligibility',
+            'counselling',
+            'enrollment',
           ]}
           first="Evaluation Call"
           second="Screening Call"
@@ -723,9 +749,8 @@ Clouds and DevOps Network professional program
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import(
-    "../Data/cloud-and-devops-for-network-professionals-data"
-  );
+  const module =
+    await import('../Data/cloud-and-devops-for-network-professionals-data');
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

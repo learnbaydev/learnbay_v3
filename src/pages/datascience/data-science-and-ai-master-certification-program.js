@@ -411,6 +411,31 @@ const NewDSA = ({ DSADataJson }) => {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
+            __html: `{    
+"@context": "https://schema.org/",
+"@type": "Product",
+"name": "Advanced Data Science and GenAI Master Certification Program",
+"image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+"brand": {
+"@type": "Brand",
+"name": "Learnbay"
+},
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.9",
+"bestRating": "5",
+"worstRating": "1",
+"ratingCount": "1772"
+}
+}
+
+`,
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
             __html: `{ 
             "@context": "https://schema.org",
   "@type": "FAQPage",

@@ -728,4 +728,10 @@
 		<priority>0.80</priority>
 	</url>
 
+	<url>
+	<loc>https://www.learnbay.co/blogs/step-by-step-generative-ai-learning-path</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+
 </urlset>

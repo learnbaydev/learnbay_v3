@@ -1,0 +1,38 @@
+import React from 'react';
+import Navbar from '@/components/Global/Navbar/Navbar';
+
+import Footer from '@/components/Global/Footer/Footer';
+import HeroSection from '../components/CorporateAiTraining/HeroSection/HeroSection';
+import WhyAiTraining from '../components/CorporateAiTraining/WhyAiTraining/WhyAiTraining';
+
+import QuickOverview from '../components/CorporateAiTraining/QuickOverview/QuickOverview';
+import RealExample from '../components/CorporateAiTraining/RealExample/RealExample';
+import OurAiTrainingProgram from '../components/CorporateAiTraining/OurAiTrainingProgram/OurAiTrainingProgram';
+import WhatLeadersSay from '../components/CorporateAiTraining/WhatLeadersSay/WhatLeadersSay';
+import InvestInResults from '../components/CorporateAiTraining/InvestInResults/InvestInResults';
+import FaqSection from '../components/CorporateAiTraining/FaqSection/FaqSection';
+
+const CorporateAITraining = () => {
+  return (
+    <div>
+      <Navbar
+        popup={true}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
+      <HeroSection />
+      <WhyAiTraining />
+      <OurAiTrainingProgram />
+      <RealExample />
+      <QuickOverview />
+
+      <InvestInResults />
+      <WhatLeadersSay />
+      <FaqSection />
+
+      <Footer />
+    </div>
+  );
+};
+
+export default CorporateAITraining;

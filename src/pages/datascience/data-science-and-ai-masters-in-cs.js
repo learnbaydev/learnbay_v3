@@ -1,10 +1,10 @@
-import { parseJSONData } from "@/Util/JsonConvertor";
-import dynamic from "next/dynamic";
-import Head from "next/head";
+import { parseJSONData } from '@/Util/JsonConvertor';
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
 
-import FirstPart from "@/components/MastersCourse/PagePart/FirstPart";
-const SecondPart = dynamic(() =>
-  import("@/components/MastersCourse/PagePart/SecondPart")
+import FirstPart from '@/components/MastersCourse/PagePart/FirstPart';
+const SecondPart = dynamic(
+  () => import('@/components/MastersCourse/PagePart/SecondPart')
 );
 
 const Blockchain = ({ DataScienceCourseDataJson }) => {
@@ -109,6 +109,32 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
 }`,
           }}
         />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+"@context": "https://schema.org/",
+"@type": "Product",
+"name": "Master of Science in Computer Science with a Specialisation Certificate in
+Data Science and AI",
+"image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+"brand": {
+"@type": "Brand",
+"name": "Learnbay"
+},
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.7",
+"bestRating": "5",
+"worstRating": "1",
+"ratingCount": "1863"
+}
+}
+`,
+          }}
+        />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -354,7 +380,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
           TestimonialData={
             DataScienceCourseData.DataScienceMastersinCS[0].testimonial
           }
-          courseId={"masters-cs-ds-genai"}
+          courseId={'masters-cs-ds-genai'}
         />
         <SecondPart
           masterSyllabusMobile={
@@ -376,7 +402,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
 };
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/DataScienceAiMastersinCS");
+  const data = await import('../../Data/DataScienceAiMastersinCS');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }
