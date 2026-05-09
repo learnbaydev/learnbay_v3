@@ -1,68 +1,68 @@
-import React from "react";
-import Head from "next/head";
-import dynamic from "next/dynamic";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import DSAHeader from "@/components/CoursePage/NewDSA/Header/NewDSAHeader";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
-const ProgramSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProgramSection/ProgramSection")
+import React from 'react';
+import Head from 'next/head';
+import dynamic from 'next/dynamic';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import DSAHeader from '@/components/CoursePage/NewDSA/Header/NewDSAHeader';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import BookDemo from '@/components/CoursePage/NewDSA/BookDemo/BookDemo';
+const ProgramSection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/ProgramSection/ProgramSection')
 );
-const DSAPractical = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
+const DSAPractical = dynamic(
+  () => import('@/components/CoursePage/NewDSA/Practical/DSAPractical')
 );
-const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whylblimited")
+const AnimationNew = dynamic(
+  () => import('@/components/Home/whyChooseSection/whylblimited')
 );
-const Other = dynamic(() =>
-  import("@/components/Home/newUI/OtherVS_updated/Other")
+const Other = dynamic(
+  () => import('@/components/Home/newUI/OtherVS_updated/Other')
 );
-const JobReadySection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
+const JobReadySection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/JobReadySection/JobReadySection')
 );
-const SyllabusNew = dynamic(() =>
-  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
+const SyllabusNew = dynamic(
+  () => import('@/components/CoursePage/Syllabus/MasterSyllabus2025')
 );
-const NewCertificateSection = dynamic(() =>
-  import("@/components/CoursePage/newCertificate/NewCertificate")
+const NewCertificateSection = dynamic(
+  () => import('@/components/CoursePage/newCertificate/NewCertificate')
 );
-const DSAFeeSection = dynamic(() =>
-  import("@/components/CoursePage/dsaFee/DSAFeeSection")
+const DSAFeeSection = dynamic(
+  () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
 );
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-const NewSevenSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
+const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+const NewSevenSection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection')
 );
-const MentorsSection = dynamic(() =>
-  import("@/components/course/MentorsSection/MentorsSection")
+const MentorsSection = dynamic(
+  () => import('@/components/course/MentorsSection/MentorsSection')
 );
-import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
-const ReviewSlider = dynamic(() =>
-  import("@/components/Home/newUI/reviewSlider/reviewSlider")
+import GenAIProject from '@/components/CoursePage/genAiProject/GenAIProject';
+const ReviewSlider = dynamic(
+  () => import('@/components/Home/newUI/reviewSlider/reviewSlider')
 );
-import Certificate from "@/components/CoursePage/Certificate/Certificate";
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
+import Certificate from '@/components/CoursePage/Certificate/Certificate';
+const Content = dynamic(
+  () => import('@/components/CoursePage/Content/content')
 );
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import FAQNew from '@/components/CoursePage/FAQNew/FAQNew';
 import {
   getDSABookingLaterDate,
   getDSABookingSoonDate,
-} from "@/Util/getDSABatchData";
-import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacementChild/LearningToPlacement";
-import Newheader from "@/components/CoursePage/newHeader/newHeader";
-import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
-import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
-import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
-import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection";
-import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
+} from '@/Util/getDSABatchData';
+import AlumniCompanies from '@/components/CoursePage/newUICourse/AlumniCompanies';
+import LearningToPlacement from '@/components/CoursePage/newUICourse/LearningToPlacementChild/LearningToPlacement';
+import Newheader from '@/components/CoursePage/newHeader/newHeader';
+import { MasterAI } from '@/Data/Schema/DataScienceAndAIMasterSchema';
+import FeeSection from '@/components/course/feeSection/FeeSectionCourse';
+import UpdatedCertificate from '@/components/CoursePage/UpdatedCertificate/UpdatedCertificate';
+import HighlightsSection from '@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection';
+import FAQ from '@/components/AppliedAIPractitionerProgram/FAQs/FAQ';
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf';
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -71,84 +71,84 @@ const NewDSA = ({ DSADataJson }) => {
   const faqNewData = [
     {
       id: 0,
-      sectionName: "Course-Related",
+      sectionName: 'Course-Related',
       data: [
         {
           id: 0,
-          ques: "Can I do a Gen AI Course for Managers & Leaders at Learnbay?",
-          ans: "Yes. Any professional with years of work experience in an industry can pursue our Generative AI course for managers and leaders.",
+          ques: 'Can I do a Gen AI Course for Managers & Leaders at Learnbay?',
+          ans: 'Yes. Any professional with years of work experience in an industry can pursue our Generative AI course for managers and leaders.',
           open: true,
         },
         {
           id: 1,
-          ques: "Can I pursue an Agentic AI and Gen AI for managers course while working full-time or from a distinct time zone?",
-          ans: "Mid- to senior-level experts in leadership roles can opt for this Gen AI course with the flexibility to maintain work-study balance. Hence, managers can opt for upskilling with a full-time job or from a distinct time zone, considering our flexible weekday or weekend batches. ",
+          ques: 'Can I pursue an Agentic AI and Gen AI for managers course while working full-time or from a distinct time zone?',
+          ans: 'Mid- to senior-level experts in leadership roles can opt for this Gen AI course with the flexibility to maintain work-study balance. Hence, managers can opt for upskilling with a full-time job or from a distinct time zone, considering our flexible weekday or weekend batches. ',
           open: false,
         },
         {
           id: 2,
-          ques: "Are there any hands-on labs or practical exercises in the course curriculum?",
-          ans: "Yes. The Generative AI course for managers and leaders offers a hands-on learning scope where you can work on practical projects and exercises. Our modules are revised considering the latest AI-driven trends to enrich your skills. Managers can learn to have AI-driven business shifts, build teams with AI experts, and devise AI initiatives for resolving issues. ",
+          ques: 'Are there any hands-on labs or practical exercises in the course curriculum?',
+          ans: 'Yes. The Generative AI course for managers and leaders offers a hands-on learning scope where you can work on practical projects and exercises. Our modules are revised considering the latest AI-driven trends to enrich your skills. Managers can learn to have AI-driven business shifts, build teams with AI experts, and devise AI initiatives for resolving issues. ',
           open: false,
         },
         {
           id: 3,
-          ques: "Is a Gen AI course for managers worth it?",
-          ans: "Pursuing a Generative AI for managers course is worth investing in due to its expansive career benefits. Experts can acquire proven skills to tackle business issues amidst GenAI growth. You will work on AI-specific projects to optimize your judgment and scale up business decisions for promising gains. ",
+          ques: 'Is a Gen AI course for managers worth it?',
+          ans: 'Pursuing a Generative AI for managers course is worth investing in due to its expansive career benefits. Experts can acquire proven skills to tackle business issues amidst GenAI growth. You will work on AI-specific projects to optimize your judgment and scale up business decisions for promising gains. ',
           open: false,
         },
         {
           id: 4,
-          ques: "What is the duration of the GenAI and Agentic AI Program for Leaders and Managers?",
-          ans: "The course duration is 5 months (flexible weekday and weekend batches) and involves live projects.",
+          ques: 'What is the duration of the GenAI and Agentic AI Program for Leaders and Managers?',
+          ans: 'The course duration is 5 months (flexible weekday and weekend batches) and involves live projects.',
           open: false,
         },
         {
           id: 5,
-          ques: "What additional benefits are provided in this Gen AI program for managers?",
-          ans: "Learners joining our GenAI and Agentic AI program for managers will receive promising career perks.  Apart from this, you will receive extra benefits like – ",
+          ques: 'What additional benefits are provided in this Gen AI program for managers?',
+          ans: 'Learners joining our GenAI and Agentic AI program for managers will receive promising career perks.  Apart from this, you will receive extra benefits like – ',
           open: false,
           list1:
-            "Acquiring cutting-edge GenAI-rich skills (OpenAI APIs, Lang Chain, LLMs, RAG, etc.)",
-          list2: "BYOP+mentorship to resolve your own business problems",
-          list3: "AI CoLab experience with AI-driven projects",
-          list4: "3-year flexi subscription",
-          list5: "Career Services PRO (100% assured interviews)",
-          list6: "IBM Generative AI Certification",
+            'Acquiring cutting-edge GenAI-rich skills (OpenAI APIs, Lang Chain, LLMs, RAG, etc.)',
+          list2: 'BYOP+mentorship to resolve your own business problems',
+          list3: 'AI CoLab experience with AI-driven projects',
+          list4: '3-year flexi subscription',
+          list5: 'Career Services PRO (100% assured interviews)',
+          list6: 'IBM Generative AI Certification',
         },
       ],
     },
 
     {
       id: 1,
-      sectionName: "Payments and Scholarships",
+      sectionName: 'Payments and Scholarships',
       data: [
         {
           id: 0,
-          ques: "What is the cost of the GenAI Program for Managers and Leaders?",
-          ans: "The program fee is ₹1,20,000 plus 18% GST.",
+          ques: 'What is the cost of the GenAI Program for Managers and Leaders?',
+          ans: 'The program fee is ₹1,20,000 plus 18% GST.',
           open: true,
         },
         {
           id: 1,
-          ques: "Can I pay in installments for the Generative AI Course for Managers & Leaders?",
-          ans: "Yes. Learners opting for this course can pay in installments under a no-cost EMI option within 6, 9, or 12 months. Learners can also opt for interest-free loans, credit cards, or UPI for hassle-free learning. ",
+          ques: 'Can I pay in installments for the Generative AI Course for Managers & Leaders?',
+          ans: 'Yes. Learners opting for this course can pay in installments under a no-cost EMI option within 6, 9, or 12 months. Learners can also opt for interest-free loans, credit cards, or UPI for hassle-free learning. ',
           open: false,
         },
         {
           id: 2,
-          ques: "Is there any scholarship/discount available for leaders and managers for the Gen AI course?",
-          ans: "The GenAI and Agentic AI Program for Managers and Leaders offers an early bird discount of 15% – 20%, followed by attractive group discounts.",
+          ques: 'Is there any scholarship/discount available for leaders and managers for the Gen AI course?',
+          ans: 'The GenAI and Agentic AI Program for Managers and Leaders offers an early bird discount of 15% – 20%, followed by attractive group discounts.',
           open: false,
-          list1: "Group of 2: 5% extra discount",
-          list2: "Group of 3: 8% additional discount",
-          list3: "Group of 4+: Up to 10% discount",
-          note: "Apart from these deals, learners can avail themselves of up to 25% scholarship when registering for the course. You can check with our sales team at +91 7795687988 for further details. ",
+          list1: 'Group of 2: 5% extra discount',
+          list2: 'Group of 3: 8% additional discount',
+          list3: 'Group of 4+: Up to 10% discount',
+          note: 'Apart from these deals, learners can avail themselves of up to 25% scholarship when registering for the course. You can check with our sales team at +91 7795687988 for further details. ',
         },
         {
           id: 3,
-          ques: "What is the refund policy for the GenAI and Agentic AI Program for Managers and Leaders at Learnbay?",
-          ans: "Experts can stop their learning anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy. ",
+          ques: 'What is the refund policy for the GenAI and Agentic AI Program for Managers and Leaders at Learnbay?',
+          ans: 'Experts can stop their learning anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy. ',
           open: false,
         },
       ],
@@ -156,24 +156,24 @@ const NewDSA = ({ DSADataJson }) => {
 
     {
       id: 2,
-      sectionName: "Capstone and Real-time Projects",
+      sectionName: 'Capstone and Real-time Projects',
       data: [
         {
           id: 0,
-          ques: "How many real-time projects will there be?",
-          ans: "The Generative AI for Managers course includes 28+ executive-level real-time industrial projects to demonstrate success with exciting offers. ",
+          ques: 'How many real-time projects will there be?',
+          ans: 'The Generative AI for Managers course includes 28+ executive-level real-time industrial projects to demonstrate success with exciting offers. ',
           open: true,
         },
         {
           id: 1,
-          ques: "Are there possibilities to work on real-time industry projects?",
-          ans: "Yes. Learners opting for this course will work on real-time projects to boost industry knowledge. Our eminent mentors are here to guide you throughout the project-handling stage at our AI CoLab. These projects are designed to equip you with real-time industry insights, refining your expertise. ",
+          ques: 'Are there possibilities to work on real-time industry projects?',
+          ans: 'Yes. Learners opting for this course will work on real-time projects to boost industry knowledge. Our eminent mentors are here to guide you throughout the project-handling stage at our AI CoLab. These projects are designed to equip you with real-time industry insights, refining your expertise. ',
           open: false,
         },
         {
           id: 2,
-          ques: "Can I choose my project for the capstone, or are projects assigned?",
-          ans: "Yes. Learners joining the Gen AI course for managers can choose their best-suited projects with their mentor’s advice. You can assess your skills, career goals, and interests while selecting the projects. ",
+          ques: 'Can I choose my project for the capstone, or are projects assigned?',
+          ans: 'Yes. Learners joining the Gen AI course for managers can choose their best-suited projects with their mentor’s advice. You can assess your skills, career goals, and interests while selecting the projects. ',
           open: false,
         },
       ],
@@ -181,18 +181,18 @@ const NewDSA = ({ DSADataJson }) => {
 
     {
       id: 3,
-      sectionName: "Certifications",
+      sectionName: 'Certifications',
       data: [
         {
           id: 0,
-          ques: "Is there any accredited certification after course completion?",
-          ans: "Yes. Learners joining the Gen AI course for managers will receive an IBM GenAI certification to validate their AI expertise and land promising roles.",
+          ques: 'Is there any accredited certification after course completion?',
+          ans: 'Yes. Learners joining the Gen AI course for managers will receive an IBM GenAI certification to validate their AI expertise and land promising roles.',
           open: true,
         },
         {
           id: 2,
-          ques: "How do I receive my certificate, and is it a digital or printed certificate?",
-          ans: "All eligible learners with scores of 70% can earn globally acknowledged IBM certificates in digital form that will reach you within 7 days. ",
+          ques: 'How do I receive my certificate, and is it a digital or printed certificate?',
+          ans: 'All eligible learners with scores of 70% can earn globally acknowledged IBM certificates in digital form that will reach you within 7 days. ',
           open: false,
         },
       ],
@@ -200,33 +200,33 @@ const NewDSA = ({ DSADataJson }) => {
 
     {
       id: 4,
-      sectionName: "Job Assistance",
+      sectionName: 'Job Assistance',
       data: [
         {
           id: 0,
-          ques: "Who is eligible for a job assistance program at Learnbay?",
-          ans: "Learners enrolling in this Gen AI course must complete the course tasks, live projects, and case studies with a minimum score of 70%. It makes you eligible for a job assistance program at Learnbay (Career Services PRO) to pursue the exciting leadership opportunities.  ",
+          ques: 'Who is eligible for a job assistance program at Learnbay?',
+          ans: 'Learners enrolling in this Gen AI course must complete the course tasks, live projects, and case studies with a minimum score of 70%. It makes you eligible for a job assistance program at Learnbay (Career Services PRO) to pursue the exciting leadership opportunities.  ',
           open: true,
         },
         {
           id: 1,
-          ques: "How many interview calls will I get at Learnbay?",
-          ans: "Learners joining our Generative AI for Managers course will get promising job calls from top-rated 350+ industry partners until they land promising jobs.",
+          ques: 'How many interview calls will I get at Learnbay?',
+          ans: 'Learners joining our Generative AI for Managers course will get promising job calls from top-rated 350+ industry partners until they land promising jobs.',
           open: false,
         },
         {
           id: 2,
-          ques: "Can I opt for the Career Services Pro feature?",
-          ans: "Mid- to senior working experts with 70% score in the course and live projects are eligible for Learnbay’s Career Services PRO feature. Here, you will get –",
+          ques: 'Can I opt for the Career Services Pro feature?',
+          ans: 'Mid- to senior working experts with 70% score in the course and live projects are eligible for Learnbay’s Career Services PRO feature. Here, you will get –',
           open: false,
-          list1: "Career-driven 1:1 mock interviews with allied partners",
-          list2: "Resume help",
-          list3: "Favorable job referrals from top-rated MNCs/MAANG/FAANG",
+          list1: 'Career-driven 1:1 mock interviews with allied partners',
+          list2: 'Resume help',
+          list3: 'Favorable job referrals from top-rated MNCs/MAANG/FAANG',
         },
         {
           id: 3,
-          ques: "Do you offer job placement or assistance services after course completion?",
-          ans: "Yes. Experts pursuing a Gen AI course for managers can avail of 100% job and placement services at Learnbay – from interview prep to CV-making. ",
+          ques: 'Do you offer job placement or assistance services after course completion?',
+          ans: 'Yes. Experts pursuing a Gen AI course for managers can avail of 100% job and placement services at Learnbay – from interview prep to CV-making. ',
           open: false,
         },
       ],
@@ -234,30 +234,30 @@ const NewDSA = ({ DSADataJson }) => {
 
     {
       id: 5,
-      sectionName: "Mentorships",
+      sectionName: 'Mentorships',
       data: [
         {
           id: 0,
-          ques: "When will the learners receive the mentorship?",
-          ans: "We believe in industry-relevant mentorship to expand career potential and growth options. Our learners can avail themselves of the mentorship facility until they complete the course. Our mentors are here for doubt-clearing, career support, and offline project advice. ",
+          ques: 'When will the learners receive the mentorship?',
+          ans: 'We believe in industry-relevant mentorship to expand career potential and growth options. Our learners can avail themselves of the mentorship facility until they complete the course. Our mentors are here for doubt-clearing, career support, and offline project advice. ',
           open: true,
         },
         {
           id: 1,
-          ques: "Can a Learnbay student choose to study with their desired mentor?",
-          ans: "Learnbay has a team of dedicated mentors with pertinent industry insights. Our learners are assigned to respected mentors who can justify upskilling and fulfill a learner’s career interests. If you find a mentor unfit for training, you can request your desired mentor. We support quality upskilling, and our learners are free to change their mentors and study from the ones they desire. ",
+          ques: 'Can a Learnbay student choose to study with their desired mentor?',
+          ans: 'Learnbay has a team of dedicated mentors with pertinent industry insights. Our learners are assigned to respected mentors who can justify upskilling and fulfill a learner’s career interests. If you find a mentor unfit for training, you can request your desired mentor. We support quality upskilling, and our learners are free to change their mentors and study from the ones they desire. ',
           open: false,
         },
         {
           id: 2,
-          ques: "Are mentors available for one-on-one or group sessions?",
-          ans: "Yes. Our reliable mentors are available for live training sessions during projects or course tasks. If learners opt for a 1:1 training session, doubt-clearing, or project-related queries, mentors are open to them. ",
+          ques: 'Are mentors available for one-on-one or group sessions?',
+          ans: 'Yes. Our reliable mentors are available for live training sessions during projects or course tasks. If learners opt for a 1:1 training session, doubt-clearing, or project-related queries, mentors are open to them. ',
           open: false,
         },
         {
           id: 3,
-          ques: "Are there mentors available to help with coursework and projects?",
-          ans: "Experts joining the GenAI and Agentic AI for Managers and Leaders course can get reliable industry-driven training. Our mentors are accountable for guiding learners with course tasks, case studies, and live projects. So, yes, you will get hassle-free help from your mentor while working on real-time projects and course tasks. ",
+          ques: 'Are there mentors available to help with coursework and projects?',
+          ans: 'Experts joining the GenAI and Agentic AI for Managers and Leaders course can get reliable industry-driven training. Our mentors are accountable for guiding learners with course tasks, case studies, and live projects. So, yes, you will get hassle-free help from your mentor while working on real-time projects and course tasks. ',
           open: false,
         },
       ],
@@ -265,24 +265,24 @@ const NewDSA = ({ DSADataJson }) => {
 
     {
       id: 6,
-      sectionName: "Support",
+      sectionName: 'Support',
       data: [
         {
           id: 0,
-          ques: "How can I reach out for technical support if I face any problems with the course platform?",
-          ans: "Once you join the Generative AI course for managers, you will get 24x7 support that resolves any learning query. You can call our helpline number to reach the expected service providers who can help you with any technical matters (login, sessions, projects, chat, or course materials) with the course platform. ",
+          ques: 'How can I reach out for technical support if I face any problems with the course platform?',
+          ans: 'Once you join the Generative AI course for managers, you will get 24x7 support that resolves any learning query. You can call our helpline number to reach the expected service providers who can help you with any technical matters (login, sessions, projects, chat, or course materials) with the course platform. ',
           open: true,
         },
         {
           id: 1,
-          ques: "Is there a discussion forum or community for learners to communicate, discuss, and seek help?",
-          ans: "Learners will get a personalized Learnbay app with each bit of course, project, and mentor details. They can directly reach out to their mentors to fix course/project queries and discuss doubts with peers. ",
+          ques: 'Is there a discussion forum or community for learners to communicate, discuss, and seek help?',
+          ans: 'Learners will get a personalized Learnbay app with each bit of course, project, and mentor details. They can directly reach out to their mentors to fix course/project queries and discuss doubts with peers. ',
           open: false,
         },
         {
           id: 2,
-          ques: "How long will I receive job referrals?",
-          ans: "With the Career Services Pro, you can avail yourself of endless job referrals until you get placed. ",
+          ques: 'How long will I receive job referrals?',
+          ans: 'With the Career Services Pro, you can avail yourself of endless job referrals until you get placed. ',
           open: false,
         },
       ],
@@ -396,6 +396,30 @@ ai course for managers
     }
   ]
     }`,
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+"@context": "https://schema.org/",
+"@type": "Product",
+"name": "Generative AI and Agentic AI Program For Managers and Leaders",
+"image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+"brand": {
+"@type": "Brand",
+"name": "Learnbay"
+},
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.9",
+"bestRating": "5",
+"worstRating": "1",
+"ratingCount": "1573"
+}
+}
+`,
           }}
         />
 
@@ -643,7 +667,7 @@ ai course for managers
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
-          courseId={"genai-managers"}
+          courseId={'genai-managers'}
         />
         <AlumniCompanies
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf"
@@ -713,10 +737,10 @@ ai course for managers
           Admission="Admission Process"
           Content="Our 3-step admission process clearly guides you through checking your eligibility, selecting the right course via expert counselling, and smoothly completing your enrollment. It's designed for simplicity and clarity."
           highlight={[
-            "3-step admission process",
-            "eligibility",
-            "counselling",
-            "enrollment",
+            '3-step admission process',
+            'eligibility',
+            'counselling',
+            'enrollment',
           ]}
           first="Evaluation Call"
           second="Screening Call"
@@ -747,9 +771,8 @@ ai course for managers
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import(
-    "../Data/GenAIandAgenticAIProgramManagersLeadersData2025"
-  );
+  const module =
+    await import('../Data/GenAIandAgenticAIProgramManagersLeadersData2025');
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

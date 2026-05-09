@@ -1,67 +1,67 @@
-import React from "react";
-import Head from "next/head";
-import dynamic from "next/dynamic";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import DSAHeader from "@/components/CoursePage/NewDSA/Header/NewDSAHeader";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
-const ProgramSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProgramSection/ProgramSection")
+import React from 'react';
+import Head from 'next/head';
+import dynamic from 'next/dynamic';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import DSAHeader from '@/components/CoursePage/NewDSA/Header/NewDSAHeader';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import BookDemo from '@/components/CoursePage/NewDSA/BookDemo/BookDemo';
+const ProgramSection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/ProgramSection/ProgramSection')
 );
-const DSAPractical = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
+const DSAPractical = dynamic(
+  () => import('@/components/CoursePage/NewDSA/Practical/DSAPractical')
 );
-const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whylblimited")
+const AnimationNew = dynamic(
+  () => import('@/components/Home/whyChooseSection/whylblimited')
 );
-const Other = dynamic(() =>
-  import("@/components/Home/newUI/OtherVS_updated/Other")
+const Other = dynamic(
+  () => import('@/components/Home/newUI/OtherVS_updated/Other')
 );
-const JobReadySection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
+const JobReadySection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/JobReadySection/JobReadySection')
 );
-const SyllabusNew = dynamic(() =>
-  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
+const SyllabusNew = dynamic(
+  () => import('@/components/CoursePage/Syllabus/MasterSyllabus2025')
 );
-const NewCertificateSection = dynamic(() =>
-  import("@/components/CoursePage/newCertificate/NewCertificate")
+const NewCertificateSection = dynamic(
+  () => import('@/components/CoursePage/newCertificate/NewCertificate')
 );
-const DSAFeeSection = dynamic(() =>
-  import("@/components/CoursePage/dsaFee/DSAFeeSection")
+const DSAFeeSection = dynamic(
+  () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
 );
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-const NewSevenSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
+const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
+import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
+const NewSevenSection = dynamic(
+  () => import('@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection')
 );
-const MentorsSection = dynamic(() =>
-  import("@/components/course/MentorsSection/MentorsSection")
+const MentorsSection = dynamic(
+  () => import('@/components/course/MentorsSection/MentorsSection')
 );
-import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
-const ReviewSlider = dynamic(() =>
-  import("@/components/Home/newUI/reviewSlider/reviewSlider")
+import GenAIProject from '@/components/CoursePage/genAiProject/GenAIProject';
+const ReviewSlider = dynamic(
+  () => import('@/components/Home/newUI/reviewSlider/reviewSlider')
 );
-import Certificate from "@/components/CoursePage/Certificate/Certificate";
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
+import Certificate from '@/components/CoursePage/Certificate/Certificate';
+const Content = dynamic(
+  () => import('@/components/CoursePage/Content/content')
 );
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import FAQ from '@/components/AppliedAIPractitionerProgram/FAQs/FAQ';
 import {
   getDSABookingLaterDate,
   getDSABookingSoonDate,
-} from "@/Util/getDSABatchData";
-import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacementChild/LearningToPlacement";
-import Newheader from "@/components/CoursePage/newHeader/newHeader";
-import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
-import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
-import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
-import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection";
+} from '@/Util/getDSABatchData';
+import AlumniCompanies from '@/components/CoursePage/newUICourse/AlumniCompanies';
+import LearningToPlacement from '@/components/CoursePage/newUICourse/LearningToPlacementChild/LearningToPlacement';
+import Newheader from '@/components/CoursePage/newHeader/newHeader';
+import { MasterAI } from '@/Data/Schema/DataScienceAndAIMasterSchema';
+import FeeSection from '@/components/course/feeSection/FeeSectionCourse';
+import UpdatedCertificate from '@/components/CoursePage/UpdatedCertificate/UpdatedCertificate';
+import HighlightsSection from '@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection';
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Software_Developers.pdf";
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Software_Developers.pdf';
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -70,200 +70,200 @@ const NewDSA = ({ DSADataJson }) => {
   const faqNewData = [
     {
       id: 0,
-      sectionName: "Course-Related",
+      sectionName: 'Course-Related',
       data: [
         {
           id: 0,
-          ques: "Can I do a GenAI and Agentic AI Program for developers at Learnbay?",
-          ans: "Software professionals (developers or engineers) with at least 1 year of work experience can enrol in this course. However, aspirants must have basic knowledge of Python, machine learning, and deep learning.",
+          ques: 'Can I do a GenAI and Agentic AI Program for developers at Learnbay?',
+          ans: 'Software professionals (developers or engineers) with at least 1 year of work experience can enrol in this course. However, aspirants must have basic knowledge of Python, machine learning, and deep learning.',
           open: true,
         },
         {
           id: 1,
-          ques: "Can I pursue a Generative AI course while having a full-time job or from a different time zone?",
-          ans: "Yes. Software developers can enrol in a Generative AI course online with a full-time job or from a different time zone. This course offers 100% live online sessions, allowing you to balance your learning goals with job duties. Experts can choose and plan their batches for weekday or weekend sessions.",
+          ques: 'Can I pursue a Generative AI course while having a full-time job or from a different time zone?',
+          ans: 'Yes. Software developers can enrol in a Generative AI course online with a full-time job or from a different time zone. This course offers 100% live online sessions, allowing you to balance your learning goals with job duties. Experts can choose and plan their batches for weekday or weekend sessions.',
           open: false,
         },
         {
           id: 2,
-          ques: "Are there any hands-on labs or practical tasks in the course modules?",
-          ans: "Yes. The GenAI & Agentic AI program focuses on project-based learning. Here, you will work on real-time AI projects to tackle GenAI and Agentic AI challenges and gain insights.",
+          ques: 'Are there any hands-on labs or practical tasks in the course modules?',
+          ans: 'Yes. The GenAI & Agentic AI program focuses on project-based learning. Here, you will work on real-time AI projects to tackle GenAI and Agentic AI challenges and gain insights.',
           open: false,
         },
         {
           id: 3,
-          ques: "Is a Gen AI course worth it for developers?",
-          ans: "Pursuing a GenAI & Agentic AI course is a notable career investment for software developers. Tech experts can master GenAI & Agentic AI to design large language models and have agile deployments. In addition, you can earn an IBM certification to validate your skills and become an AI-first developer.",
+          ques: 'Is a Gen AI course worth it for developers?',
+          ans: 'Pursuing a GenAI & Agentic AI course is a notable career investment for software developers. Tech experts can master GenAI & Agentic AI to design large language models and have agile deployments. In addition, you can earn an IBM certification to validate your skills and become an AI-first developer.',
           open: false,
         },
         {
           id: 4,
-          ques: "What is the duration of the GenAI & Agentic AI Program?",
-          ans: "The course duration is 5 months, including coursework and live projects.",
+          ques: 'What is the duration of the GenAI & Agentic AI Program?',
+          ans: 'The course duration is 5 months, including coursework and live projects.',
           open: false,
         },
       ],
     },
     {
       id: 1,
-      sectionName: "Payments and Scholarships",
+      sectionName: 'Payments and Scholarships',
       data: [
         {
           id: 0,
-          ques: "What is the cost of the GenAI & Agentic AI course online?",
-          ans: "This course costs ₹1,20,000 + 18% GST.",
+          ques: 'What is the cost of the GenAI & Agentic AI course online?',
+          ans: 'This course costs ₹1,20,000 + 18% GST.',
           open: true,
         },
         {
           id: 1,
-          ques: "Can I pay in instalments for the Generative AI & Agentic AI Course?",
-          ans: "You can pay course fees in instalments under a no-cost EMI option in 6, 9, or 12 months. You can also opt for interest-free loans, credit cards, or UPI with the necessary documents (Aadhaar card, PAN card, and salary slip).",
+          ques: 'Can I pay in instalments for the Generative AI & Agentic AI Course?',
+          ans: 'You can pay course fees in instalments under a no-cost EMI option in 6, 9, or 12 months. You can also opt for interest-free loans, credit cards, or UPI with the necessary documents (Aadhaar card, PAN card, and salary slip).',
           open: false,
         },
         {
           id: 2,
-          ques: "Is there any scholarship/discount available for the Gen AI course online?",
-          ans: "The GenAI and Agentic AI Course offers a 15% – 20% discount for early birds. We also offer group discounts as per the following terms and conditions:",
+          ques: 'Is there any scholarship/discount available for the Gen AI course online?',
+          ans: 'The GenAI and Agentic AI Course offers a 15% – 20% discount for early birds. We also offer group discounts as per the following terms and conditions:',
           open: false,
-          list1: "Group of 2: 5% extra discount",
-          list2: "Group of 3: 8% additional discount",
-          list3: "Group of 4+: Max 10% discount",
-          note: "Apart from discounts, experts can receive up to a 25% scholarship while enrolling. Contact us at +91 7795687988 for further details.",
+          list1: 'Group of 2: 5% extra discount',
+          list2: 'Group of 3: 8% additional discount',
+          list3: 'Group of 4+: Max 10% discount',
+          note: 'Apart from discounts, experts can receive up to a 25% scholarship while enrolling. Contact us at +91 7795687988 for further details.',
         },
         {
           id: 3,
-          ques: "What is the refund policy for the GenAI & Agentic AI Program at Learnbay?",
-          ans: "You can cancel the course anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy.",
+          ques: 'What is the refund policy for the GenAI & Agentic AI Program at Learnbay?',
+          ans: 'You can cancel the course anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy.',
           open: false,
         },
       ],
     },
     {
       id: 2,
-      sectionName: "Capstone and Real-time Projects",
+      sectionName: 'Capstone and Real-time Projects',
       data: [
         {
           id: 0,
-          ques: "How many real projects will there be?",
-          ans: "The GenAI course for developers includes 10+ real projects to refine domain knowledge.",
+          ques: 'How many real projects will there be?',
+          ans: 'The GenAI course for developers includes 10+ real projects to refine domain knowledge.',
           open: true,
         },
         {
           id: 1,
-          ques: "Are there opportunities to work on real industry projects?",
-          ans: "Yes. Developers can work on real-time enterprise-grade AI projects to tackle real-world problems with GenAI solutions. Additionally, throughout the program tenure, learners will work on various live projects to sharpen their expertise.",
+          ques: 'Are there opportunities to work on real industry projects?',
+          ans: 'Yes. Developers can work on real-time enterprise-grade AI projects to tackle real-world problems with GenAI solutions. Additionally, throughout the program tenure, learners will work on various live projects to sharpen their expertise.',
           open: false,
         },
         {
           id: 2,
-          ques: "Can I choose my capstone project, or are projects assigned?",
-          ans: "Once you enrol in the Gen AI program, you can choose projects best suited to your career roles, interests, and goals. Learners will also work on various projects under the mentorship of industry experts.",
+          ques: 'Can I choose my capstone project, or are projects assigned?',
+          ans: 'Once you enrol in the Gen AI program, you can choose projects best suited to your career roles, interests, and goals. Learners will also work on various projects under the mentorship of industry experts.',
           open: false,
         },
       ],
     },
     {
       id: 3,
-      sectionName: "Certifications",
+      sectionName: 'Certifications',
       data: [
         {
           id: 0,
-          ques: "Is there any accredited certification after course completion?",
-          ans: "Yes. Learners can accelerate their career growth with an industry-recognised Generative AI certification from IBM and validate their industrial expertise.",
+          ques: 'Is there any accredited certification after course completion?',
+          ans: 'Yes. Learners can accelerate their career growth with an industry-recognised Generative AI certification from IBM and validate their industrial expertise.',
           open: true,
         },
         {
           id: 1,
-          ques: "How do I receive my certificate, and is it a digital or printed certificate?",
-          ans: "All eligible learners with scores of at least 70% in course tasks and projects can earn globally recognised certificates. Your digitally available certificates will reach you within 7 days.",
+          ques: 'How do I receive my certificate, and is it a digital or printed certificate?',
+          ans: 'All eligible learners with scores of at least 70% in course tasks and projects can earn globally recognised certificates. Your digitally available certificates will reach you within 7 days.',
           open: false,
         },
       ],
     },
     {
       id: 4,
-      sectionName: "Job Assistance",
+      sectionName: 'Job Assistance',
       data: [
         {
           id: 0,
-          ques: "What’s the eligibility for a job assistance program at Learnbay?",
-          ans: "Learners enrolling in this course must complete the tasks and projects with a minimum score of 70%. Then they are eligible for Career Services Pro benefits at Learnbay with exciting options.",
+          ques: 'What’s the eligibility for a job assistance program at Learnbay?',
+          ans: 'Learners enrolling in this course must complete the tasks and projects with a minimum score of 70%. Then they are eligible for Career Services Pro benefits at Learnbay with exciting options.',
           open: true,
         },
         {
           id: 1,
-          ques: "How many interview calls will I get at Learnbay?",
-          ans: "Software developers joining our GenAI course online will get unlimited interview calls from top-trending allied partners.",
+          ques: 'How many interview calls will I get at Learnbay?',
+          ans: 'Software developers joining our GenAI course online will get unlimited interview calls from top-trending allied partners.',
           open: false,
         },
         {
           id: 2,
-          ques: "Can I opt for the Career Services Pro feature?",
-          ans: "Anyone with a minimum score of 70% in course tasks and projects is eligible for the Career Services PRO feature. Under this feature, you will get –",
+          ques: 'Can I opt for the Career Services Pro feature?',
+          ans: 'Anyone with a minimum score of 70% in course tasks and projects is eligible for the Career Services PRO feature. Under this feature, you will get –',
           open: false,
           list1:
-            "1:1 career-focused mock interviews with 350+ industry partners",
-          list2: "Resume help",
-          list3: "Promising job referrals from top-ranked MNCs",
+            '1:1 career-focused mock interviews with 350+ industry partners',
+          list2: 'Resume help',
+          list3: 'Promising job referrals from top-ranked MNCs',
         },
         {
           id: 3,
-          ques: "Do you offer job assistance services after course completion?",
-          ans: "Yes. We offer 100% job assistance services to learners opting for a Gen AI course online via our career services pro feature. The program supports learners with premium career-enrich perks – from 1:1 interview prep to CV updates.",
+          ques: 'Do you offer job assistance services after course completion?',
+          ans: 'Yes. We offer 100% job assistance services to learners opting for a Gen AI course online via our career services pro feature. The program supports learners with premium career-enrich perks – from 1:1 interview prep to CV updates.',
           open: false,
         },
       ],
     },
     {
       id: 5,
-      sectionName: "Mentorships",
+      sectionName: 'Mentorships',
       data: [
         {
           id: 0,
-          ques: "Until when will the students get the mentorship facility?",
-          ans: "Learners will get mentorship until they complete the course. After completing the course tasks and projects, you can reach out to your mentors for doubt-clearing, career assistance, and project guidance.",
+          ques: 'Until when will the students get the mentorship facility?',
+          ans: 'Learners will get mentorship until they complete the course. After completing the course tasks and projects, you can reach out to your mentors for doubt-clearing, career assistance, and project guidance.',
           open: true,
         },
         {
           id: 1,
-          ques: "Can a Learnbay student choose to study with their desired mentor?",
-          ans: "Learnbay has a team of reliable mentors with relevant industry experience. If a student does not find a mentor fit for training, he/she can request a new mentor. Learnbay supports quality upskilling; hence, students can change their mentors and study from the ones they desire.",
+          ques: 'Can a Learnbay student choose to study with their desired mentor?',
+          ans: 'Learnbay has a team of reliable mentors with relevant industry experience. If a student does not find a mentor fit for training, he/she can request a new mentor. Learnbay supports quality upskilling; hence, students can change their mentors and study from the ones they desire.',
           open: false,
         },
         {
           id: 2,
-          ques: "Are mentors available for one-on-one or group sessions?",
-          ans: "Yes. Our reliable mentors are available for a 1:1 session for live training, doubt-clearing, and project queries.",
+          ques: 'Are mentors available for one-on-one or group sessions?',
+          ans: 'Yes. Our reliable mentors are available for a 1:1 session for live training, doubt-clearing, and project queries.',
           open: false,
         },
         {
           id: 3,
-          ques: "Are there mentors available to help with coursework and projects?",
-          ans: "Learners enrolling in the Gen AI program for software developers get the scope of learning from industry experts. These mentors are liable for guiding each learner with course tasks and real-time projects at AI CoLab.",
+          ques: 'Are there mentors available to help with coursework and projects?',
+          ans: 'Learners enrolling in the Gen AI program for software developers get the scope of learning from industry experts. These mentors are liable for guiding each learner with course tasks and real-time projects at AI CoLab.',
           open: false,
         },
       ],
     },
     {
       id: 6,
-      sectionName: "Support",
+      sectionName: 'Support',
       data: [
         {
           id: 0,
-          ques: "How can I contact technical support if I face any problems with the course platform?",
-          ans: "Once you register for the course, you will get 24×7 learner support that resolves any learning queries. You can call our helpline number to reach the desired service providers who can help you with any technical issues.",
+          ques: 'How can I contact technical support if I face any problems with the course platform?',
+          ans: 'Once you register for the course, you will get 24×7 learner support that resolves any learning queries. You can call our helpline number to reach the desired service providers who can help you with any technical issues.',
           open: true,
         },
         {
           id: 1,
-          ques: "Is there a discussion forum or community for learners to communicate and seek support?",
-          ans: "Learners will get a custom-fit Learnbay app with a list of learners and their mentors. They can directly reach out to their mentors to resolve queries and discuss doubts with peers.",
+          ques: 'Is there a discussion forum or community for learners to communicate and seek support?',
+          ans: 'Learners will get a custom-fit Learnbay app with a list of learners and their mentors. They can directly reach out to their mentors to resolve queries and discuss doubts with peers.',
           open: false,
         },
         {
           id: 2,
-          ques: "How long will I get job referrals?",
-          ans: "You will get promising job referrals from us for 3 years.",
+          ques: 'How long will I get job referrals?',
+          ans: 'You will get promising job referrals from us for 3 years.',
           open: false,
         },
       ],
@@ -378,6 +378,30 @@ genai course for software developers
         }
       ]
      }`,
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+"@context": "https://schema.org/",
+"@type": "Product",
+"name": "Generative AI and Agentic AI For Software Developers",
+"image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+"brand": {
+"@type": "Brand",
+"name": "Learnbay"
+},
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.7",
+"bestRating": "5",
+"worstRating": "1",
+"ratingCount": "1922"
+}
+}
+`,
           }}
         />
 
@@ -618,7 +642,7 @@ genai course for software developers
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
-          courseId={"genai-software-dev"}
+          courseId={'genai-software-dev'}
         />
         <AlumniCompanies
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"
@@ -688,10 +712,10 @@ genai course for software developers
           Admission="Admission Process"
           Content="Our 3-step admission process clearly guides you through checking your eligibility, selecting the right course via expert counselling, and smoothly completing your enrollment. It's designed for simplicity and clarity."
           highlight={[
-            "3-step admission process",
-            "eligibility",
-            "counselling",
-            "enrollment",
+            '3-step admission process',
+            'eligibility',
+            'counselling',
+            'enrollment',
           ]}
           first="Evaluation Call"
           second="Screening Call"
@@ -722,7 +746,7 @@ genai course for software developers
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/genaisoftware");
+  const module = await import('../../Data/genaisoftware');
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

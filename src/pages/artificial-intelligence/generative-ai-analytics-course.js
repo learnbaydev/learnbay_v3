@@ -1,8 +1,8 @@
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import DABAFirstPart from "@/components/CoursePage/FirstPart/DABAFirstPart";
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import DABAFirstPart from '@/components/CoursePage/FirstPart/DABAFirstPart';
 
-import DABASecondPart from "@/components/CoursePage/FirstPart/DABASecondPart";
+import DABASecondPart from '@/components/CoursePage/FirstPart/DABASecondPart';
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -144,6 +144,31 @@ function Blockchain({ DataScienceCourseDataJson }) {
 `,
           }}
         />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+"@context": "https://schema.org/",
+"@type": "Product",
+"name": "Data Analytics and Business Analytics with Generative AI",
+"image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+"brand": {
+"@type": "Brand",
+"name": "Learnbay"
+},
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.6",
+"bestRating": "5",
+"worstRating": "1",
+"ratingCount": "1092"
+}
+}
+`,
+          }}
+        />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -385,7 +410,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <DABAFirstPart
           SecondSectionData={DataScienceCourseData.DABAData[0].secondSection}
           TestimonialData={DataScienceCourseData.DABAData[0].testimonial}
-          courseId={"genai-analytics"}
+          courseId={'genai-analytics'}
         />
         <DABASecondPart
           masterSyllabusMobile={
@@ -402,7 +427,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/DABAData");
+  const data = await import('../../Data/DABAData');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }
