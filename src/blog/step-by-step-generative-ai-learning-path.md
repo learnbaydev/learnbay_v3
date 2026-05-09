@@ -164,33 +164,33 @@ Upskilling through a <b>Generative AI course</b> is worth investing in to future
 
 **Ans.** Pursuing a Generative AI course will help you master foundational skills, such as –
 
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Python</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Machine learning</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Deep learning</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Prompt engineering</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Model fine-tuning and deployments</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Responsible AI</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• AI Ethics</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Frameworks and APIs</p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Python</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Machine learning</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Deep learning</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Prompt engineering</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Model fine-tuning and deployments</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Responsible AI</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • AI Ethics</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Frameworks and APIs</i></p>
 
 ### What are the proven learning tracks to become a Generative AI specialist?
 
 **Ans.** A proven learning track of a Gen AI roadmap inspires aspirants to go through simple steps to become a GenAI specialist. They are –
 
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Start with basic concepts</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Advanced Generative AI learning</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Practical application of tools via projects</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Effortless deployments via capstone projects</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Build a portfolio and attend placements</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Earn global certifications</p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Start with basic concepts</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Advanced Generative AI learning</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Practical application of tools via projects</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Effortless deployments via capstone projects</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Build a portfolio and attend placements</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Earn global certifications</i></p>
 
 ### What are the trending Gen AI jobs in 2026?
 
 **Ans.** The trending Gen AI jobs in 2026 that you should consider are –
 
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• GenAI engineers</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• Prompt engineers</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• MLOps engineer</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• GenAI specialist</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• AI solutions architect</p>
-<p style="font-size:  1.2rem;margin: 0; padding: 0;">• AI product manager</p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • GenAI engineers</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • Prompt engineers</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • MLOps engineer</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • GenAI specialist</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • AI solutions architect</i></p>
+<p style="font-size:  1.2rem;margin: 0; padding: 0;"><i> • AI product manager</i></p>
