@@ -26,7 +26,7 @@ export default function AiPrograms() {
           {/* CARD 1 */}
           <div className={styles.card}>
             <img
-              src="https://images.unsplash.com/photo-1677442136019-21780ecad995"
+              src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/AIImage.webp"
               alt="ai"
               className={styles.cardImg}
             />
@@ -57,7 +57,7 @@ export default function AiPrograms() {
           {/* CARD 2 */}
           <div className={styles.card}>
             <img
-              src="https://images.unsplash.com/photo-1677442136019-21780ecad995"
+              src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/AIImage.webp"
               alt="ai"
               className={styles.cardImg}
             />

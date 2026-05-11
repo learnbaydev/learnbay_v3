@@ -4,17 +4,17 @@ import { Rocket, Bot, TrendingUp } from 'lucide-react';
 export default function WhyAITraining() {
   const features = [
     {
-      icon: <Rocket size={20} />,
+      icon: <Rocket size={40} />,
       title: 'Boost Efficiency',
       desc: '20% – 40% faster execution of priority workflows once AI prompts and automated workflows are implemented.',
     },
     {
-      icon: <Bot size={20} />,
+      icon: <Bot size={40} />,
       title: 'Automate Repetitive Tasks',
       desc: 'Offload 80% routine tasks, refocus on growth, governance, and innovation with work automation.',
     },
     {
-      icon: <TrendingUp size={20} />,
+      icon: <TrendingUp size={40} />,
       title: 'Stay Ahead of Change',
       desc: 'AI tools are competitive differentiators – we empower your teams to future-proof themselves with AI capability.',
     },

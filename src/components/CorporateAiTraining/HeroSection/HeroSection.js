@@ -5,13 +5,14 @@ const HeroSection = () => {
   return (
     <section className={styles.hero}>
       <div className={styles.container}>
-        {/* LEFT */}
+        {/* LEFT CONTENT */}
         <div className={styles.left}>
           <span className={styles.badge}>CORPORATE AI TRAINING</span>
 
           <h1 className={styles.title}>
-            Build AI-First Teams That Save{' '}
-            <span className={styles.highlight}>30–40%</span> Operational Time
+            Build AI-First Teams That Save <br />
+            <span className={styles.highlight}>30–40%</span>{' '}
+            <span className={styles.noWrap}>Operational Time</span>
           </h1>
 
           <p className={styles.description}>
@@ -24,6 +25,7 @@ const HeroSection = () => {
             <button className={styles.primaryBtn}>
               Book Free Consultation →
             </button>
+
             <button className={styles.secondaryBtn}>
               Download Corporate Training Brochure ↓
             </button>
@@ -31,26 +33,41 @@ const HeroSection = () => {
 
           <div className={styles.reviews}>
             <div className={styles.avatars}>
-              <img src="/avatar1.jpg" alt="user" />
-              <img src="/avatar2.jpg" alt="user" />
-              <img src="/avatar3.jpg" alt="user" />
+              <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="user"
+              />
+              <img
+                src="https://randomuser.me/api/portraits/women/44.jpg"
+                alt="user"
+              />
+              <img
+                src="https://randomuser.me/api/portraits/men/52.jpg"
+                alt="user"
+              />
             </div>
-            <span>⭐⭐⭐⭐⭐ (32k+ Reviews)</span>
+
+            <div className={styles.reviewText}>
+              <span className={styles.stars}>★★★★★</span>
+              <p>(32k+ Reviews)</p>
+            </div>
           </div>
         </div>
 
-        {/* RIGHT - Keep this for floating cards positioning */}
+        {/* RIGHT SIDE FLOATING CARDS */}
         <div className={styles.right}>
           <div className={`${styles.card} ${styles.card1}`}>
-            <div>⏱</div>
+            <div className={styles.iconBox}>◴</div>
+
             <div>
-              <strong>20–40%</strong>
+              <strong>20-40%</strong>
               <p>Time Saving Delivered</p>
             </div>
           </div>
 
           <div className={`${styles.card} ${styles.card2}`}>
-            <div>👥</div>
+            <div className={styles.iconBox}>◌◌</div>
+
             <div>
               <strong>100+</strong>
               <p>Teams Trained</p>
@@ -58,10 +75,11 @@ const HeroSection = () => {
           </div>
 
           <div className={`${styles.card} ${styles.card3}`}>
-            <div>📄</div>
+            <div className={styles.iconBox}>▣</div>
+
             <div>
               <strong>30+</strong>
-              <p>Workflows Built</p>
+              <p>Case Studies</p>
             </div>
           </div>
         </div>
