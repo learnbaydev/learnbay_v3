@@ -2,18 +2,7 @@ import styles from './OurAiTrainingProgram.module.css';
 
 export default function AiPrograms() {
   return (
-    <section
-      className={styles.section}
-      style={{
-        backgroundImage: `
-          linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
-          url("https://d32and0ii3b8oy.cloudfront.net/adlearnbay/corporateAITrainingDarkBackground.webp")
-        `,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-      }}
-    >
+    <section className={styles.section}>
       <div className={styles.overlay}>
         <h2 className={styles.heading}>Our AI Training Programs</h2>
 
@@ -44,10 +33,21 @@ export default function AiPrograms() {
               </p>
 
               <ul className={styles.list}>
-                <li>Interactive online sessions & exercises</li>
-                <li>Course completion certificate</li>
-                <li>Duration: 4–6 weeks</li>
-                <li>₹ Pricing (per team or person)</li>
+                <li>
+                  Interactive online sessions, practicals, exercises, digital
+                  badges
+                </li>
+                <li>Course completion certificate; ready-to-use templates</li>
+                <li>
+                  Duration: 4–6 weeks
+                  <br />
+                  (modular self-placed + live Q&A)
+                </li>
+                <li>
+                  ₹₹₹ (per team or person)
+                  <br />
+                  ideal for intial upskilling
+                </li>
               </ul>
 
               <button className={styles.btnBlue}>Enroll In Level 1 →</button>
@@ -71,14 +71,25 @@ export default function AiPrograms() {
 
               <p className={styles.desc}>
                 Full-service AI adoption program: training + guided workflow
-                design for one team.
+                design for one team.(5-20 people)
               </p>
 
               <ul className={styles.list}>
-                <li>Discovery sessions & workflow building</li>
-                <li>Hands-on coaching</li>
-                <li>Duration: 6–8 weeks</li>
-                <li>₹ Value-based pricing</li>
+                <li>
+                  Discovery sessions, custom workflow building, hands-on
+                  coaching
+                </li>
+                <li>Course completion certificate; ready-to-use templates</li>
+                <li>
+                  Duration: 6–8 weeks
+                  <br />
+                  (live workshop + onsite/virtual support)
+                </li>
+                <li>
+                  ₹₹₹ (value-packed pilot rate)-
+                  <br />
+                  designed to prove ROI before scaling
+                </li>
               </ul>
 
               <button className={styles.btnOrange}>Enroll In Level 2 →</button>

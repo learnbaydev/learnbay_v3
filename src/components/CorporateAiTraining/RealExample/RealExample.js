@@ -94,16 +94,8 @@ export default function RealExamples() {
   ];
 
   return (
-    <section
-      className={styles.section}
-      style={{
-        backgroundImage: `
-          linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)),
-          url("https://d32and0ii3b8oy.cloudfront.net/adlearnbay/corporateAITrainingDarkBackground.webp")
-        `,
-      }}
-    >
-      <div className={styles.container}>
+    <section className={styles.section}>
+      <div className={styles.overlay}>
         <h2 className={styles.heading}>Real Examples: AI at Work</h2>
 
         <div className={styles.grid}>

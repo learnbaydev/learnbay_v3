@@ -4,22 +4,22 @@ import { Calendar, Users, Check, TrendingUp } from 'lucide-react';
 export default function QuickOverview() {
   const items = [
     {
-      icon: <Calendar size={22} />,
+      icon: <Calendar />,
       title: 'What it is',
       desc: 'A corporate AI training course empowers teams to build and use AI tools that automate workflows and synthesis tasks.',
     },
     {
-      icon: <Users size={22} />,
+      icon: <Users />,
       title: 'Who it’s for',
       desc: 'Business teams (operations, marketing, HR, analytics, dev, testing, product) are ready to save time with tech-savvy AI.',
     },
     {
-      icon: <Check size={22} />,
+      icon: <Check />,
       title: 'Key benefit',
       desc: 'Work automation to remove redundancies, establish strategic intelligence, and enable teams to focus on high-value work.',
     },
     {
-      icon: <TrendingUp size={22} />,
+      icon: <TrendingUp />,
       title: 'Outcome',
       desc: '20–40% time savings on common tasks (as proven by our past clients).',
     },

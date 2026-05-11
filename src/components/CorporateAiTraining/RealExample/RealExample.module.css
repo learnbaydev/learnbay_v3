@@ -1,18 +1,25 @@
 .section {
+  position: relative;
   padding: 80px 20px;
+  color: #fff;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.82)),
+    url('https://d32and0ii3b8oy.cloudfront.net/adlearnbay/corporateAITrainingDarkBackground.webp');
+
   background-size: cover;
   background-position: center;
-  color: #fff;
+  background-repeat: no-repeat;
 }
 
-.container {
+.overlay {
   max-width: 1100px;
   margin: 0 auto;
   text-align: center;
 }
 
 .heading {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
   margin-bottom: 40px;
   color: #fff;
@@ -21,7 +28,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
+  gap: 75px;
 }
 
 @media (max-width: 900px) {
@@ -58,24 +65,24 @@
 }
 
 .title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 
 .desc {
-  font-size: 13px;
+  font-size: 16px;
   color: #555;
 }
 
 .highlight {
-  font-size: 13px;
+  font-size: 14px;
   color: #2563eb;
   font-weight: 600;
 }
 
 .footerText {
-  margin-top: 40px;
-  font-size: 18px;
+  margin-top: 65px;
+  font-size: 24px;
   font-weight: 500;
   color: #fff;
 }
@@ -86,6 +93,7 @@
   background: transparent;
   border: 1px solid #aaa;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 9px;
   cursor: pointer;
+  font-size: 16px;
 }
