@@ -1983,6 +1983,12 @@ const nextConfig = {
         destination: 'https://www.learnbay.co',
         permanent: true,
       },
+
+      {
+        source: '/artificial-intelligence/generative-ai-for-managers',
+        destination: '/genai-agentic-ai-managers-leaders',
+        permanent: true,
+      },
     ];
   },
 };

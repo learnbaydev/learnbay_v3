@@ -142,6 +142,11 @@ export function middleware(req) {
       destination:
         '/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati',
     },
+
+    {
+      source: '/artificial-intelligence/generative-ai-for-managers',
+      destination: '/genai-agentic-ai-managers-leaders',
+    },
   ];
 
   const redirect = redirects.find((r) => r.source === pathname);
