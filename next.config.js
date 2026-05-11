@@ -1989,6 +1989,40 @@ const nextConfig = {
         destination: '/genai-agentic-ai-managers-leaders',
         permanent: true,
       },
+
+      {
+        source: '/data-science-course/blog-post/data-science-projects',
+        destination:
+          ' https://blog.learnbay.co/the-7-best-data-science-project-ideas-to-get-hired-by-top-mncs',
+        permanent: true,
+      },
+
+      {
+        source: '/data-science-course/blog-post/data-preprocessing',
+        destination: 'https://blog.learnbay.co/category/data-science',
+        permanent: true,
+      },
+
+      {
+        source: '/data-science-course/category/python',
+        destination: 'https://blog.learnbay.co/category/python',
+        permanent: true,
+      },
+
+      {
+        source: '/datascience/dubai/data-science-course-tr',
+        destination:
+          'https://www.learnbay.co/datascience/dubai/data-science-course-training-in-dubai',
+        permanent: true,
+      },
+
+      {
+        source:
+          '/data-science-course/blog-post/top-10-machine-learning-algorithms-the-key-to-successful-ml-career-in-2021',
+        destination:
+          'https://blog.learnbay.co/10-must-know-machine-learning-algorithms-for-beginners-in-2023',
+        permanent: true,
+      },
     ];
   },
 };
