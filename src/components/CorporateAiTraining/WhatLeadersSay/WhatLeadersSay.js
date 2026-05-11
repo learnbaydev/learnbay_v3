@@ -1,18 +1,26 @@
 import React from 'react';
 import styles from './WhatLeadersSay.module.css';
+import { Users, BadgeCheck, FlaskConical } from 'lucide-react';
+
 const WhatLeadersSay = () => {
   return (
     <section className={styles.section}>
-      {/* TOP: TESTIMONIALS */}
+      {/* TOP TITLE */}
       <h2 className={styles.heading}>What Leaders say</h2>
 
+      {/* TESTIMONIALS */}
       <div className={styles.testimonials}>
         {[1, 2, 3].map((item) => (
           <div key={item} className={styles.card}>
             <div className={styles.user}>
-              <img src="/avatar.jpg" alt="user" />
+              <img
+                src="https://randomuser.me/api/portraits/women/44.jpg"
+                alt="user"
+              />
+
               <div>
                 <h4>Priya Sharma</h4>
+
                 <p>VP Operations, TechNova</p>
               </div>
             </div>
@@ -25,32 +33,46 @@ const WhatLeadersSay = () => {
         ))}
       </div>
 
-      {/* MIDDLE TITLE */}
-      <h2 className={styles.headingLarge}>
-        What Learning Delivers For Your Organization
-      </h2>
+      {/* CENTER CONTENT */}
+      <div className={styles.middle}>
+        <h2 className={styles.headingLarge}>
+          What Learning Delivers For Your Organization
+        </h2>
 
-      <p className={styles.sub}>
-        Proven outcomes across global teams, roles, and industries.
-      </p>
+        <p className={styles.sub}>
+          Proven outcomes across global teams, roles, and industries.
+        </p>
+      </div>
 
-      {/* BOTTOM: METRICS */}
+      {/* METRICS */}
       <div className={styles.metrics}>
         <div className={styles.metricItem}>
-          <div className={styles.iconCircle}>👥</div>
+          <div className={styles.iconCircle}>
+            <Users />
+          </div>
+
           <h3>80%</h3>
+
           <p>Average Completion Rate</p>
         </div>
 
         <div className={styles.metricItem}>
-          <div className={styles.iconCircle}>📜</div>
+          <div className={styles.iconCircle}>
+            <BadgeCheck />
+          </div>
+
           <h3>95%</h3>
+
           <p>Certification Pass Rate</p>
         </div>
 
         <div className={styles.metricItem}>
-          <div className={styles.iconCircle}>🧪</div>
+          <div className={styles.iconCircle}>
+            <FlaskConical />
+          </div>
+
           <h3>40%</h3>
+
           <p>Savings on Training Costs</p>
         </div>
       </div>

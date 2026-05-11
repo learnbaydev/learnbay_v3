@@ -390,7 +390,7 @@ DevOps engineering for system administrator
             __html: `{
 "@context": "https://schema.org/",
 "@type": "Product",
-"name": "Master's Degree in Data Science & AI in Australia - Learnbay",
+"name": "Cloud & DevOps Engineering Certification",
 "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
 "brand": {
 "@type": "Brand",

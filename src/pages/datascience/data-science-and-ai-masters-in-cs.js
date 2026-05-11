@@ -99,7 +99,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
   "hasCourseInstance": {
     "@type": "CourseInstance",
     "courseMode": "Online",
-    "courseWorkload": "P10W",
+    "courseWorkload": "P18M",
     "location": {
       "@type": "VirtualLocation",
       "name": "Online"

@@ -1,89 +1,303 @@
 .hero {
-  /* Overlay + Background Image */
   background: url('https://d32and0ii3b8oy.cloudfront.net/adlearnbay/corporateAITrainingHero.webp');
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-  padding: 100px 20px;
   min-height: 100vh;
   display: flex;
   align-items: center;
+  padding: 80px 20px;
   overflow: hidden;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1240px;
+  width: 100%;
   margin: 0 auto;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  gap: 40px;
 }
 
 .left {
-  max-width: 600px;
-  z-index: 2; /* Ensures text is above any background elements */
+  max-width: 640px;
+  z-index: 2;
 }
 
-/* RIGHT - Acts as a container for floating cards */
-.right {
-  position: relative;
-  flex: 1;
-  height: 300px; /* Gives the floating cards space to live */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+  color: #0f5eff;
+
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+
+  padding: 10px 18px;
+  border-radius: 10px;
 }
 
 .title {
-  font-size: 48px;
-  font-weight: 800;
-  margin-top: 20px;
-  line-height: 1.1;
-  color: #1a1a1a;
+  font-size: 45px;
+  line-height: 1.08;
+  font-weight: 700;
+  color: #111827;
+
+  margin-top: 22px;
+  margin-bottom: 24px;
+
+  letter-spacing: -3px;
+
+  max-width: 900px;
 }
 
-/* ... keep your existing button and badge styles ... */
+.highlight {
+  color: #0f5eff;
+  display: inline-block;
+}
 
+/* KEEP "Operational Time" IN SAME LINE */
+.title span + text {
+  white-space: nowrap;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #5b6475;
+
+  max-width: 620px;
+  margin-bottom: 36px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 34px;
+  flex-wrap: nowrap;
+}
+
+.primaryBtn {
+  background: #0f5eff;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 18px 28px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  white-space: nowrap;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+}
+
+.secondaryBtn {
+  background: transparent;
+  color: #0f5eff;
+  border: 1.5px solid #0f5eff;
+  padding: 18px 28px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  white-space: nowrap;
+}
+
+.secondaryBtn:hover {
+  background: rgba(15, 94, 255, 0.06);
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.avatars {
+  display: flex;
+  align-items: center;
+}
+
+.avatars img {
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 3px solid white;
+  margin-left: -12px;
+}
+
+.avatars img:first-child {
+  margin-left: 0;
+}
+
+.reviewText {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.reviewText p {
+  margin: 0;
+  font-size: 14px;
+  color: #5b6475;
+}
+
+.right {
+  position: relative;
+  flex: 1;
+  height: 620px;
+}
+
+/* MAIN CARD STYLE */
 .card {
   position: absolute;
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(4px); /* Modern touch */
-  padding: 12px 16px;
-  border-radius: 12px;
   display: flex;
-  gap: 10px;
   align-items: center;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  z-index: 3;
-  opacity: 0.8;
+  gap: 18px;
+
+  background: #f4f4f6; /* solid light grey like image */
+  border-radius: 22px;
+
+  padding: 22px 26px;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+
+  z-index: 5;
 }
 
-/* Adjusted positions for a cleaner look without the central <img> */
+/* REMOVE TRANSPARENCY */
+.card {
+  backdrop-filter: unset;
+  -webkit-backdrop-filter: unset;
+}
+
+/* ICON BOX */
+.iconBox {
+  width: 56px;
+  height: 56px;
+
+  border: 2px solid #0f5eff;
+  border-radius: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #0f5eff;
+  font-size: 24px;
+  font-weight: 700;
+
+  flex-shrink: 0;
+}
+
+/* TEXT */
+.card strong {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f5eff;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #5b6475;
+}
+
+/* EXACT POSITIONING */
+
+/* TOP CARD */
 .card1 {
-  top: 190px;
-  right: -10%;
+  top: 359px;
+  right: -258px;
+  width: 320px;
+  height: 100px;
 }
+
+/* MIDDLE CARD */
 .card2 {
-  top: 120px;
-  right: 30%;
+  top: 455px;
+  left: 130px;
+  width: 250px;
+  height: 100px;
 }
+
+/* BOTTOM CARD */
 .card3 {
-  bottom: 90px;
-  right: 5%;
+  bottom: -67px;
+  right: -202px;
+  width: 250px;
+  height: 90px;
+}
+@media (max-width: 1200px) {
+  .title {
+    font-size: 54px;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 42px;
+    line-height: 1.15;
+    letter-spacing: -2px;
+  }
 }
 
 @media (max-width: 900px) {
   .hero {
-    /* Stacked gradient for mobile readability */
-    background: url('https://d32and0ii3b8oy.cloudfront.net/adlearnbay/corporateAITrainingHero.webp');
-    background-size: cover;
+    padding: 70px 20px;
   }
+
   .container {
     flex-direction: column;
     text-align: center;
   }
 
+  .left {
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 42px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .reviews {
+    justify-content: center;
+  }
+
   .right {
-    display: none; /* Cards usually clutter background-image mobile views */
+    display: none;
   }
 }
