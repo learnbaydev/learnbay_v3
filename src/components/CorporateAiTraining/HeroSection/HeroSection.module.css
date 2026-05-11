@@ -212,8 +212,8 @@
 /* TEXT */
 .card strong {
   display: block;
-  font-size: 34px;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 600;
   color: #0f5eff;
   line-height: 1;
   margin-bottom: 6px;
@@ -221,7 +221,7 @@
 
 .card p {
   margin: 0;
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.3;
   color: #5b6475;
@@ -233,24 +233,24 @@
 .card1 {
   top: 359px;
   right: -258px;
-  width: 361px;
-  height: 122px;
+  width: 320px;
+  height: 100px;
 }
 
 /* MIDDLE CARD */
 .card2 {
-  top: 449px;
-  left: 127px;
-  width: 285px;
-  height: 114px;
+  top: 455px;
+  left: 130px;
+  width: 250px;
+  height: 100px;
 }
 
 /* BOTTOM CARD */
 .card3 {
   bottom: -67px;
   right: -202px;
-  width: 294px;
-  height: 101px;
+  width: 250px;
+  height: 90px;
 }
 @media (max-width: 1200px) {
   .title {
