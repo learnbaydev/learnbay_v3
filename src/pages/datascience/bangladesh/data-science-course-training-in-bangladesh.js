@@ -218,10 +218,7 @@ export default function Home() {
     "worstRating": "1",
     "ratingCount": "1950"
   }
-              }
-             
               
-}
                }`,
           }}
         />
@@ -256,7 +253,6 @@ export default function Home() {
       "priceCurrency": "INR"
     }
   }
-}
  }`,
           }}
         />
