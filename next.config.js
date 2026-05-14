@@ -2023,6 +2023,14 @@ const nextConfig = {
           'https://blog.learnbay.co/10-must-know-machine-learning-algorithms-for-beginners-in-2023',
         permanent: true,
       },
+
+      {
+        source:
+          '/datascience/bangalore/data-data-science-course-training-in-marathahalli ',
+        destination:
+          '/datascience/bangalore/data-science-course-training-in-marathahalli',
+        permanent: true,
+      },
     ];
   },
 };
