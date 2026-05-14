@@ -203,7 +203,7 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-                  "@context": "https://schema.org/", 
+  "@context": "https://schema.org/", 
   "@type": "Product", 
   "name": "Best Data Science Certification Course Online in Bangladesh",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
@@ -217,7 +217,7 @@ export default function Home() {
     "bestRating": "5",
     "worstRating": "1",
     "ratingCount": "1950"
-
+  }
                }`,
           }}
         />
@@ -261,7 +261,7 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-  "@context": "https://schema.org",
+       "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
