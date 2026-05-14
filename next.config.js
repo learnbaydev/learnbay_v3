@@ -1756,11 +1756,6 @@ const nextConfig = {
         destination: '/cloud&devops/online-cloud-computing-course-pune',
         permanent: true,
       },
-      {
-        source: '/llms.txt',
-        destination: 'https://www.learnbay.co',
-        permanent: true,
-      },
 
       {
         source: '/data-science-course/data-science-course-in-delh',
