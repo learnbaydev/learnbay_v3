@@ -142,13 +142,6 @@ export function middleware(req) {
       destination:
         '/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati',
     },
-
-    {
-      source:
-        '/datascience/bangalore/data-data-science-course-training-in-marathahalli ',
-      destination:
-        '/datascience/bangalore/data-science-course-training-in-marathahalli',
-    },
   ];
 
   const redirect = redirects.find((r) => r.source === pathname);

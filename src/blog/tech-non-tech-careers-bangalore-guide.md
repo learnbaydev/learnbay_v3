@@ -354,7 +354,7 @@ IBM & Microsoft certificates
 
 </table> <br/> <br/>
 
-Indeed, Bangalore’s promising training institutes help you outperform others and succeed. Experts can kick-start a proven data career via a <b><a href="https://www.learnbay.co/datascience/bangalore/data-data-science-course-training-in-marathahalli" target="_blank">data science course training in Marathahalli </a></b> or other promising learning hubs.
+Indeed, Bangalore’s promising training institutes help you outperform others and succeed. Experts can kick-start a proven data career via a <b><a href="https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-marathahalli" target="_blank">data science course training in Marathahalli </a></b> or other promising learning hubs.
 
 If you are from a non tech background you can opt for <b><a href="https://www.learnbay.co/data-science-genai-program" target="_blank" >Data science and GenAI Program</a></b> to take the first step toward building a proven career. Project managers can pursue <b><a href="https://www.learnbay.co/genai-agentic-ai-managers-leaders" target="_blank" >GenAI and Agentic AI Course for Managers and Leaders.</b></a> For tech professionals <b><a href="https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai" target="_blank" >SDE Master Program with GenAI and Agentic AI</b></a> is the best one to lead agentic AI trends in various fields. Experts eager to enrich their skills can opt for domain-specific training programs with Gen AI-rich modules. These courses can help you crack tempting data science jobs in Bangalore with proven perks.
 

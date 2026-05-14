@@ -2026,7 +2026,7 @@ const nextConfig = {
 
       {
         source:
-          '/datascience/bangalore/data-data-science-course-training-in-marathahalli ',
+          '/datascience/bangalore/data-data-science-course-training-in-marathahalli',
         destination:
           '/datascience/bangalore/data-science-course-training-in-marathahalli',
         permanent: true,

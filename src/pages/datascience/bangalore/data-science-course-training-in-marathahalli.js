@@ -109,11 +109,11 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/bangalore/data-data-science-course-training-in-marathahalli"
+          href="https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-marathahalli"
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/bangalore/data-data-science-course-training-in-marathahalli"
+          content="https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-marathahalli"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -135,7 +135,7 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/datascience/bangalore/data-data-science-course-training-in-marathahalli"
+          content="https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-marathahalli"
         />
         <meta
           name="twitter:title"
@@ -184,7 +184,7 @@ export default function Home() {
   "@type": "Course",
   "name": "Data Science Course Training in Marathahalli | GenAI",
   "description": "Get the best Data Science Training Institute in Marathalli, Learnbay. Get IBM GenAI certified in 9 months at best price, Industry Project &100% job assist.",
-  "url": "https://www.learnbay.co/datascience/bangalore/data-data-science-course-training-in-marathahalli",
+  "url": "https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-marathahalli",
   "provider": {
     "@type": "Organization",
     "name": "Learnbay",

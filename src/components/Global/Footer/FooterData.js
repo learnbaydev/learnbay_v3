@@ -402,7 +402,7 @@ export const CityFooterData = [
           {
             id: 3,
             name: 'Data Science Course Training in Marathahalli',
-            url: '/datascience/bangalore/data-data-science-course-training-in-marathahalli',
+            url: '/datascience/bangalore/data-science-course-training-in-marathahalli',
           },
         ],
       },
