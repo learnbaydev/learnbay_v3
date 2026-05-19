@@ -50,7 +50,7 @@ NLP will continue to innovate and improve ways for machines to analyze text in a
 
 ### Trend 2: Innovations in AI search through Generative AI
 
-As soon as ChatGPT was released, it took over the internet by storm, and a horde of consumers began testing its potential. Since then, the tech giants have started racing to develop the next big thing in generative AI. Among the top <b>AI trends</b> in 2026 is the implementation of <a href="https://blog.learnbay.co/what-is-generative-ai-all-you-need-to-know" target="_blank"><b> generative AI </b></a> in search systems to improve their accuracy.
+As soon as ChatGPT was released, it took over the internet by storm, and a horde of consumers began testing its potential. Since then, the tech giants have started racing to develop the next big thing in generative AI. Among the top <b>AI trends</b> in 2026 is the implementation of <a href="https://www.learnbay.co/blogs/generative-ai-complete-guide" target="_blank"><b> generative AI </b></a> in search systems to improve their accuracy.
 
 The recent years have witnessed innovative applications of generative AI. Microsoft has debuted its collaborative AI search engine with Bing, powered by ChatGPT technology. Google has also released <a href="https://blog.learnbay.co/is-google-bard-a-possible-rival-to-chatgpt-4" target="_blank"> Bard </a> and <a href="https://blog.learnbay.co/chatgpt-vs-google-gemini" target="_blank"> Gemini </a>, updated versions of the AI search engine, to challenge Microsoft's search engine.
 
