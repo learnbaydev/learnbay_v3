@@ -314,8 +314,7 @@ const nextConfig = {
       },
       {
         source: '/data-science-course',
-        destination:
-          '/datascience/bangalore/data-science-course-training-in-bangalore',
+        destination: '/data-science-courses',
         permanent: true,
       },
       {
@@ -351,7 +350,7 @@ const nextConfig = {
       },
       {
         source: '/data-science-course/data-science-certification-courses',
-        destination: '/datascience/advance-data-science-certification-courses',
+        destination: '/data-science-courses',
         permanent: true,
       },
       {
@@ -372,15 +371,10 @@ const nextConfig = {
         destination: '/datascience/data-science-ai-for-managers',
         permanent: true,
       },
-      {
-        source:
-          '/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course',
-        destination: '/datascience/data-science-ai-masters-program',
-        permanent: true,
-      },
+
       {
         source: '/data-science-course/data-science-certification-courses',
-        destination: '/datascience/advance-data-science-certification-courses',
+        destination: '/data-science-courses',
         permanent: true,
       },
       {
@@ -703,7 +697,7 @@ const nextConfig = {
       },
       {
         source: '/data-science-course/data-science-certification-courses',
-        destination: '/datascience/advance-data-science-certification-courses',
+        destination: '/data-science-courses',
         permanent: true,
       },
       {
@@ -760,12 +754,7 @@ const nextConfig = {
         destination: '/datascience/advance-data-science-certification-courses',
         permanent: true,
       },
-      {
-        source:
-          '/data-science-course/data-science-and-ai-for-fresh-graduates-learnbay',
-        destination: 'https://www.learnbay.co',
-        permanent: true,
-      },
+
       {
         source: '/data-science-course/data-science-course-online',
         destination: '/datascience/data-science-ai-for-managers',
@@ -777,12 +766,7 @@ const nextConfig = {
           '/datascience/artificial-intelligence-certification-course',
         permanent: true,
       },
-      {
-        source:
-          '/data-science-course/data-science-and-ai-for-fresh-graduates-learnbay',
-        destination: '/datascience/data-science-ai-masters-program',
-        permanent: true,
-      },
+
       {
         source: '/data-science-course/tag/leanbaybangaluru',
         destination: 'https://www.learnbay.co/',
@@ -853,7 +837,8 @@ const nextConfig = {
 
       {
         source: '/data-science-ai-masters-program-generic',
-        destination: '/datascience/data-science-ai-masters-program',
+        destination:
+          '/datascience/data-science-and-ai-master-certification-program',
         permanent: true,
       },
 
@@ -881,7 +866,7 @@ const nextConfig = {
       },
       {
         source: '/best-data-science-courses-in-india',
-        destination: '/datascience/best-data-science-courses-in-india',
+        destination: '/datascience/data-science-course-training-in-india',
         permanent: true,
       },
       {
@@ -901,7 +886,8 @@ const nextConfig = {
       },
       {
         source: '/data-science-ai-masters-program',
-        destination: '/datascience/data-science-ai-masters-program',
+        destination:
+          '/datascience/data-science-and-ai-master-certification-program',
         permanent: true,
       },
       {
@@ -916,7 +902,7 @@ const nextConfig = {
       // },
       {
         source: '/data-science-course',
-        destination: '/datascience/data-science-course',
+        destination: '/data-science-courses',
         permanent: true,
       },
       {
@@ -944,18 +930,7 @@ const nextConfig = {
         destination: 'https://www.learnbay.co',
         permanent: true,
       },
-      {
-        source: '/software-development-program-for-freshers',
-        destination: '/fullstack/software-development-program-for-freshers',
-        permanent: true,
-      },
-      {
-        source:
-          '/software-development-program-with-specialization-in-blockchain',
-        destination:
-          '/fullstack/software-development-program-with-specialization-in-blockchain',
-        permanent: true,
-      },
+
       {
         source:
           '/software-development-program-with-specialization-in-cloud-computing-&-devops',
@@ -1252,12 +1227,7 @@ const nextConfig = {
           '/fullstack/pune/full-stack-software-developer-course-in-pune',
         permanent: true,
       },
-      {
-        source:
-          '/job-guarantee-or-money-back-data-science-ai-certification-course',
-        destination: '/datascience/data-science-ai-masters-program',
-        permanent: true,
-      },
+
       {
         source: '/datascience/best-data-science-courses-in-india',
         destination: '/datascience/advance-data-science-certification-courses',
@@ -1293,12 +1263,14 @@ const nextConfig = {
       },
       {
         source: '/master-program-in-software-development',
-        destination: 'https://www.learnbay.co',
+        destination:
+          '/artificial-intelligence/sde-master-program-genai-agentic-ai',
         permanent: true,
       },
       {
         source: '/master-program-in-software-development',
-        destination: 'https://www.learnbay.co',
+        destination:
+          '/artificial-intelligence/sde-master-program-genai-agentic-ai',
         permanent: true,
       },
 

@@ -71,6 +71,11 @@ export function middleware(req) {
     '/data-science-course/apply-scholarship-eligibility-test/',
     '/data-science-course/exwatch-2-2/',
     '/event/',
+    '/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/',
+    '/data-science-course/data-science-and-ai-for-fresh-graduates-learnbay/',
+    '/job-guarantee-or-money-back-data-science-ai-certification-course/',
+    '/software-development-program-with-specialization-in-blockchain/',
+    '/software-development-program-for-freshers/',
   ];
 
   if (goneRoutes.includes(pathname)) {
