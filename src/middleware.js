@@ -71,6 +71,9 @@ export function middleware(req) {
     '/data-science-course/apply-scholarship-eligibility-test/',
     '/data-science-course/exwatch-2-2/',
     '/event/',
+  ];
+
+  const otherGoneRoutes = [
     '/data-science-course/job-guarantee-or-money-back-data-science-ai-certification-course/',
     '/data-science-course/data-science-and-ai-for-fresh-graduates-learnbay/',
     '/job-guarantee-or-money-back-data-science-ai-certification-course/',
@@ -78,15 +81,24 @@ export function middleware(req) {
     '/software-development-program-for-freshers/',
   ];
 
+  // First 3 routes
   if (goneRoutes.includes(pathname)) {
-    const res = new NextResponse('<h1>This page has been removed</h1>', {
+    return new NextResponse('<h1>This page has been removed</h1>', {
       status: 410,
       headers: {
         'content-type': 'text/html',
       },
     });
+  }
 
-    return res;
+  // Remaining routes
+  if (otherGoneRoutes.includes(pathname)) {
+    return new NextResponse('<h1>This course is no longer available</h1>', {
+      status: 410,
+      headers: {
+        'content-type': 'text/html',
+      },
+    });
   }
 
   // ✅ Redirects
