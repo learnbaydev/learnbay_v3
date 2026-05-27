@@ -196,6 +196,14 @@ Raw text → <b>text cleaning</b>(remove noise: punctuation, slang, emoji) → <
 <table border="0" cellpadding="14" cellspacing="0" 
 style="width:100%; border-collapse:collapse; font-family:'Times New Roman', serif;">
 
+<thead>
+    <tr>
+      <th style="text-align:left; padding:18px;">Model</th>
+      <th style="text-align:left; padding:18px;">Year & Origin</th>
+      <th style="text-align:left; padding:18px;">Key Idea</th>
+    </tr>
+  </thead>
+
   <tbody>
 <tr>
       <td style="padding:24px;">Word2Vec</td>
