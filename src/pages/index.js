@@ -138,7 +138,7 @@ export default function Home() {
 
         <meta
           name="description"
-          content="Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!"
+          content="Achieve your professional goals with Learnbay's IBM, Microsoft, and IIT-certified Data Science, Gen AI & Agentic AI courses. Enroll now."
         />
         <link rel="canonical" href="https://www.learnbay.co/" />
         <meta
