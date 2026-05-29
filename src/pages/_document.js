@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
@@ -46,7 +46,7 @@ export default function Document() {
               ],
               "logo": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
               "name": "Learnbay",
-              "description": "Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!",
+              "description": "Achieve your professional goals with Learnbay's IBM, Microsoft, and IIT-certified Data Science, Gen AI & Agentic AI courses. Enroll now.",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "1090 , 1st floor, 18th cross road HSR layout sector 3",

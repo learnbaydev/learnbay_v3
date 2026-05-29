@@ -172,7 +172,7 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!"
+          content="Achieve your professional goals with Learnbay's IBM, Microsoft, and IIT-certified Data Science, Gen AI & Agentic AI courses. Enroll now."
         />
         <meta
           property="og:image"
@@ -189,7 +189,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!"
+          content="Achieve your professional goals with Learnbay's IBM, Microsoft, and IIT-certified Data Science, Gen AI & Agentic AI courses. Enroll now."
         />
         <meta
           name="twitter:image"
