@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
-import styles from "./Form.module.css";
-import PhoneInput from "react-phone-input-2";
-import "react-phone-input-2/lib/style.css";
-import { useRouter } from "next/router";
+import React, { useState, useEffect } from 'react';
+import styles from './Form.module.css';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
+import { useRouter } from 'next/router';
+import { fireLead } from '@/lib/fireLead';
 
 const Form = ({
   popup,
@@ -18,14 +19,14 @@ const Form = ({
   const [value, setValue] = useState();
   const [disable, setDisable] = useState(false);
   const [toggle, setToggle] = useState(true);
-  const [alertMSG, setAlertMSG] = useState("");
+  const [alertMSG, setAlertMSG] = useState('');
   const [query, setQuery] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    workExperience: "",
-    Brief: "",
-    dateTime: "",
+    name: '',
+    email: '',
+    phone: '',
+    workExperience: '',
+    Brief: '',
+    dateTime: '',
     url: router.asPath,
   });
   useEffect(() => {
@@ -42,17 +43,17 @@ const Form = ({
     }));
   };
 
-  let endPoint = "https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d";
+  let endPoint = 'https://getform.io/f/0b5b1a8f-bce0-445a-967f-f56103e73f3d';
   if (
-    router.pathname === "/career-portal" ||
-    router.pathname === "/career-apply-now"
+    router.pathname === '/career-portal' ||
+    router.pathname === '/career-apply-now'
   ) {
-    endPoint = "https://getform.io/f/9c5b2164-1f56-4150-ad53-7944d6fe4363";
+    endPoint = 'https://getform.io/f/9c5b2164-1f56-4150-ad53-7944d6fe4363';
   }
 
-  let btnText = "Apply for Counselling";
+  let btnText = 'Apply for Counselling';
   if (event) {
-    btnText = "Register Now";
+    btnText = 'Register Now';
   }
 
   // Form Submit function
@@ -63,17 +64,18 @@ const Form = ({
       formData.append(key, value);
     });
     fetch(`${endPoint}`, {
-      method: "POST",
+      method: 'POST',
       body: formData,
     }).then(
-      () => setAlertMSG(""),
+      () => setAlertMSG(''),
+      fireLead({ email: formData.email, phone: formData.phone }),
       setQuery({
-        name: "",
-        email: "",
-        phone: "",
-        jobDescription: "",
-        workExperience: "",
-        dateTime: "",
+        name: '',
+        email: '',
+        phone: '',
+        jobDescription: '',
+        workExperience: '',
+        dateTime: '',
         url: router.asPath,
       })
     );
@@ -84,13 +86,13 @@ const Form = ({
       off();
     }
     if (
-      router.pathname === "/career-portal" ||
-      router.pathname === "/career-apply-now"
+      router.pathname === '/career-portal' ||
+      router.pathname === '/career-apply-now'
     ) {
       setToggle(false);
-      setAlertMSG("Form Submitted successfully");
+      setAlertMSG('Form Submitted successfully');
       setDisable(false);
-      setValue("");
+      setValue('');
     }
   };
 
@@ -105,7 +107,7 @@ const Form = ({
             required
             placeholder="Enter your Full Name"
             value={query.name}
-            style={{ borderBottom: "1px solid grey" }}
+            style={{ borderBottom: '1px solid grey' }}
             onChange={handleParam()}
           />
         </div>
@@ -126,22 +128,22 @@ const Form = ({
             inputStyle={
               popup
                 ? {
-                    height: "50px",
-                    borderRadius: "8px",
-                    border: "1px solid grey",
-                    padding: "10px",
+                    height: '50px',
+                    borderRadius: '8px',
+                    border: '1px solid grey',
+                    padding: '10px',
                   }
                 : {
-                    border: "0",
-                    height: "50px",
-                    borderRadius: "3px",
-                    borderBottom: "1px solid grey",
+                    border: '0',
+                    height: '50px',
+                    borderRadius: '3px',
+                    borderBottom: '1px solid grey',
                   }
             }
             inputProps={{
-              name: "phone",
+              name: 'phone',
               required: true,
-              placeholder: "Enter Phone Number",
+              placeholder: 'Enter Phone Number',
               className: popup ? styles.Phones : styles.Phone,
             }}
             country="IN" // Set the default country code
@@ -157,17 +159,17 @@ const Form = ({
             name="resume"
             className={popup ? styles.NameInputs : styles.NameInput}
             value={query.resume}
-            style={{ marginTop: "10px" }}
+            style={{ marginTop: '10px' }}
             onChange={handleParam()}
           />
         </div>
-        <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
-        <p className={styles.FormText} style={{ fontSize: "10px" }}>
+        <div>{toggle ? '' : <p className={styles.alert}>{alertMSG}</p>}</div>
+        <p className={styles.FormText} style={{ fontSize: '10px' }}>
           By submitting the form, you agree to our Terms and Conditions and our
           Privacy Policy.
         </p>
         <button type="submit" className={styles.button}>
-          {downloadBrochure ? "Download Now" : btnText}{" "}
+          {downloadBrochure ? 'Download Now' : btnText}{' '}
         </button>
         <input type="hidden" id="zc_gad" name="zc_gad" value="" />
       </form>

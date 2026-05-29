@@ -1,9 +1,10 @@
-import React, { useState } from "react";
-import axios from "axios";
-import styles from "./EnrollPage.module.css";
-import { FaRegCheckCircle } from "react-icons/fa";
-import Image from "next/image";
-import { useRouter } from "next/router";
+import React, { useState } from 'react';
+import axios from 'axios';
+import styles from './EnrollPage.module.css';
+import { FaRegCheckCircle } from 'react-icons/fa';
+import Image from 'next/image';
+import { useRouter } from 'next/router';
+import { fireLead } from '@/lib/fireLead';
 
 const EnrollPopup = ({
   onClose,
@@ -15,8 +16,8 @@ const EnrollPopup = ({
   totalPrice,
   paymentType,
 }) => {
-  const [selectedDate, setSelectedDate] = useState("");
-  const [selectedTime, setSelectedTime] = useState("");
+  const [selectedDate, setSelectedDate] = useState('');
+  const [selectedTime, setSelectedTime] = useState('');
   const [submittingForm, setSubmittingForm] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const router = useRouter();
@@ -46,15 +47,18 @@ const EnrollPopup = ({
 
     axios
       .post(
-        "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92",
+        'https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92',
         formData
       )
       .then((response) => {
-        console.log("Form submitted successfully to external endpoint!");
-        router.push(`/loan-process?course=${selectedProduct.name}&amount=${totalPrice}&date=${selectedDate}&time=${selectedTime}`);
+        console.log('Form submitted successfully to external endpoint!');
+        router.push(
+          `/loan-process?course=${selectedProduct.name}&amount=${totalPrice}&date=${selectedDate}&time=${selectedTime}`
+        );
+        fireLead({ email: formData.email, phone: formData.phone });
       })
       .catch((error) => {
-        console.error("Error submitting form:", error);
+        console.error('Error submitting form:', error);
       })
       .finally(() => {
         setFormSubmitted(true);
@@ -108,7 +112,9 @@ const EnrollPopup = ({
           </div>
           <div>
             <form>
-          <p className={styles.LabelPopup}>Select a slot for our finance team to contact you.</p>
+              <p className={styles.LabelPopup}>
+                Select a slot for our finance team to contact you.
+              </p>
               <div className={styles.divFlexPopup}>
                 <div className={styles.formGroupPopup}>
                   <label className={styles.LabelPopup}>Date</label>
@@ -145,35 +151,35 @@ const EnrollPopup = ({
                 <button
                   type="button"
                   onClick={() => {
-                    console.log("Checking if fields are empty...");
+                    console.log('Checking if fields are empty...');
                     if (!selectedTime || !selectedDate || submittingForm) {
-                      console.log("Fields are empty. Showing alert...");
-                      alert("Please fill in all the required fields.");
+                      console.log('Fields are empty. Showing alert...');
+                      alert('Please fill in all the required fields.');
                       return;
                     }
                     setSubmittingForm(true);
                     console.log(
-                      "Fields are filled. Proceeding with checkout..."
+                      'Fields are filled. Proceeding with checkout...'
                     );
                     handleFormSubmit();
                   }}
                   className={`${styles.button} ${
                     (!selectedTime || !selectedDate) && !submittingForm
                       ? styles.disabled
-                      : ""
+                      : ''
                   }`}
                   disabled={!selectedTime || !selectedDate || submittingForm}
                   style={{
-                    width: "auto",
-                    margin: "30px 0px 0px 0px",
+                    width: 'auto',
+                    margin: '30px 0px 0px 0px',
                     opacity: submittingForm
                       ? 0.5
                       : !selectedTime || !selectedDate
-                      ? 0.5
-                      : 1,
+                        ? 0.5
+                        : 1,
                   }}
                 >
-                  {submittingForm ? "Submitting..." : "Start My Application"}
+                  {submittingForm ? 'Submitting...' : 'Start My Application'}
                 </button>
               )}
             </form>

@@ -1,26 +1,27 @@
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import styles from "./MasterApplicationForm.module.css";
-import PhoneInput from "react-phone-input-2";
-import "react-phone-input-2/lib/style.css";
-import { useRouter } from "next/router";
-import Navbar from "../../Global/Navbar/Navbar";
-import Head from "next/head";
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import styles from './MasterApplicationForm.module.css';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
+import { useRouter } from 'next/router';
+import Navbar from '../../Global/Navbar/Navbar';
+import Head from 'next/head';
+import { fireLead } from '../../../lib/fireLead';
 
 const MasterApplicationForm = ({ secondForm, title }) => {
   const router = useRouter();
   const [value, setValue] = useState();
   const [query, setQuery] = useState({
-    name: "",
-    email: "",
+    name: '',
+    email: '',
     url: router.asPath,
-    phoneNumber: "",
-    highestEducation: "",
-    graduationMarks: "",
-    workExperience: "",
-    currentJobTitle: "",
-    domain: "",
-    programmingKnowledge: "no",
+    phoneNumber: '',
+    highestEducation: '',
+    graduationMarks: '',
+    workExperience: '',
+    currentJobTitle: '',
+    domain: '',
+    programmingKnowledge: 'no',
   });
 
   useEffect(() => {
@@ -29,7 +30,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
 
   const handleChange = (e) => {
     const { name, value, type } = e.target;
-    const newValue = type === "file" ? e.target.files[0] : value;
+    const newValue = type === 'file' ? e.target.files[0] : value;
     setQuery({
       ...query,
       [name]: newValue,
@@ -38,51 +39,53 @@ const MasterApplicationForm = ({ secondForm, title }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     // Ensure phone number exists and has at least 10 digits
     if (!value) {
-      alert("Please enter your phone number.");
+      alert('Please enter your phone number.');
       return;
     }
-  
-    const phoneNumberDigits = value.replace(/\D/g, ""); // Remove non-digit characters
+
+    const phoneNumberDigits = value.replace(/\D/g, ''); // Remove non-digit characters
     if (phoneNumberDigits.length < 12) {
-      alert("Please enter a valid 10-digit phone number.");
+      alert('Please enter a valid 10-digit phone number.');
       return;
     }
-  
+
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
     });
-  
+
     const sendData = await fetch(
       secondForm
-        ? "https://getform.io/f/c97e799c-c954-4fc8-80c9-47b33ce2bb5d"
-        : "https://getform.io/f/f22d962e-90ad-4ec0-a9cd-ac0881f683ca",
+        ? 'https://getform.io/f/c97e799c-c954-4fc8-80c9-47b33ce2bb5d'
+        : 'https://getform.io/f/f22d962e-90ad-4ec0-a9cd-ac0881f683ca',
       {
-        method: "POST",
+        method: 'POST',
         body: formData,
       }
     );
-  
+
     setQuery({
-      name: "",
-      email: "",
+      name: '',
+      email: '',
       url: router.asPath,
-      phoneNumber: "",
-      highestEducation: "",
-      graduationMarks: "",
-      workExperience: "",
-      currentJobTitle: "",
-      domain: "",
-      programmingKnowledge: "no",
+      phoneNumber: '',
+      highestEducation: '',
+      graduationMarks: '',
+      workExperience: '',
+      currentJobTitle: '',
+      domain: '',
+      programmingKnowledge: 'no',
     });
-  
+
     setValue();
-    if (sendData.status === 200) router.push("/Thank-you-counselling");
+    if (sendData.status === 200) {
+      fireLead({ email: formData.email, phone: formData.phone });
+      router.push('/Thank-you-counselling');
+    }
   };
-  
 
   return (
     <>
@@ -141,9 +144,9 @@ const MasterApplicationForm = ({ secondForm, title }) => {
                 }}
                 name="phoneNumber"
                 inputProps={{
-                  name: "phoneNumber",
+                  name: 'phoneNumber',
                   required: true,
-                  placeholder: "Enter Phone Number",
+                  placeholder: 'Enter Phone Number',
                 }}
                 country="in" // Set the default country code
                 value={value}
@@ -187,7 +190,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
               required
             >
               <option value="">Select</option>
-              <option value="<60%">{"<60%"}</option>
+              <option value="<60%">{'<60%'}</option>
               <option value="60% to 70%">60% to 70%</option>
               <option value="70% to 80%">70% to 80%</option>
               <option value="80%+">80%+</option>

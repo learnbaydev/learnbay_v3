@@ -1,32 +1,33 @@
-import Image from "next/image";
-import { useEffect, useState } from "react";
-import { FaReact } from "react-icons/fa";
-import axios from "axios";
-import styles from "./EnrollPage.module.css";
-import EnrollPopup from "./EnrollPagePopup";
-import { useRouter } from "next/router";
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import { FaReact } from 'react-icons/fa';
+import axios from 'axios';
+import styles from './EnrollPage.module.css';
+import EnrollPopup from './EnrollPagePopup';
+import { useRouter } from 'next/router';
+import { fireLead } from '@/lib/fireLead';
 
 const products = [
-  { name: "Data Science and AI Master Certification Program", price: 129000 },
-  { name: "Advanced AI and ML Certification Program", price: 110000 },
+  { name: 'Data Science and AI Master Certification Program', price: 129000 },
+  { name: 'Advanced AI and ML Certification Program', price: 110000 },
   {
-    name: "Data Science & AI Certification Program For Managers and Leaders",
+    name: 'Data Science & AI Certification Program For Managers and Leaders',
     price: 110000,
   },
-  { name: "Business Analytics Master Certification Program", price: 90000 },
-  { name: "Advanced Data Science and AI Certification", price: 99000 },
-  { name: "Data Analytics Certification Program", price: 80000 },
-  { name: "HR Analytics Certification Program", price: 75000 },
-  { name: "Marketing Analytics Certification Program", price: 75000 },
+  { name: 'Business Analytics Master Certification Program', price: 90000 },
+  { name: 'Advanced Data Science and AI Certification', price: 99000 },
+  { name: 'Data Analytics Certification Program', price: 80000 },
+  { name: 'HR Analytics Certification Program', price: 75000 },
+  { name: 'Marketing Analytics Certification Program', price: 75000 },
   {
-    name: "Data Science & AI Certification Program for BFSI Professionals",
+    name: 'Data Science & AI Certification Program for BFSI Professionals',
     price: 90000,
   },
   { name: "Master's Degree in CS: Data Science and AI", price: 250000 },
-  { name: "Data Science and AI Program for Freshers", price: 70000 },
-  { name: "Data Science Foundation Program", price: 70000 },
-  { name: "Cloud Computing & DevOps Certification Program", price: 80000 },
-  { name: "Software Developer Certification", price: 115000 },
+  { name: 'Data Science and AI Program for Freshers', price: 70000 },
+  { name: 'Data Science Foundation Program', price: 70000 },
+  { name: 'Cloud Computing & DevOps Certification Program', price: 80000 },
+  { name: 'Software Developer Certification', price: 115000 },
 ];
 
 function EnrollPage({ label, ...rest }) {
@@ -46,19 +47,19 @@ function EnrollPage({ label, ...rest }) {
     }
   };
   const [mobile, setMobile] = useState(false);
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
-  const [selectedCoupon, setSelectedCoupon] = useState("");
+  const [selectedCoupon, setSelectedCoupon] = useState('');
   const [totalPrice, setTotalPrice] = useState(0);
   const [couponApplied, setCouponApplied] = useState(false);
   const [couponValid, setCouponValid] = useState(true);
   const [showPopup, setShowPopup] = useState(false);
-  const [paymentType, setPaymentType] = useState("");
+  const [paymentType, setPaymentType] = useState('');
   const [isInstallmentSelected, setIsInstallmentSelected] = useState(false);
   const [discount, setDiscount] = useState(0);
-  const [discountMsg, setDiscountMsg] = useState("");
+  const [discountMsg, setDiscountMsg] = useState('');
   const [submittingForm, setSubmittingForm] = useState(false);
   const router = useRouter();
 
@@ -93,11 +94,11 @@ function EnrollPage({ label, ...rest }) {
   };
 
   const handleCouponApply = async () => {
-    if (selectedCoupon != " ") {
+    if (selectedCoupon != ' ') {
       try {
-        const response = await fetch("/api/Database/getCoupon", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
+        const response = await fetch('/api/Database/getCoupon', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             couponCode: selectedCoupon,
           }),
@@ -114,23 +115,23 @@ function EnrollPage({ label, ...rest }) {
           setCouponValid(true);
         } else if (response.status === 404) {
           setCouponValid(false);
-          setDiscountMsg("Coupon Not Valid");
+          setDiscountMsg('Coupon Not Valid');
         }
       } catch (err) {
         console.error(
-          "You have an error in your code or there are network issues.",
+          'You have an error in your code or there are network issues.',
           err
         );
       }
     }
     if (selectedProduct === null) {
-      alert("please select a prooduct");
-    } else if (selectedCoupon != " " && selectedProduct) {
+      alert('please select a prooduct');
+    } else if (selectedCoupon != ' ' && selectedProduct) {
       const discountedPrice = selectedProduct.price * (1 - discount / 100);
       setTotalPrice(discountedPrice * 1.18);
       setCouponApplied(true);
       setCouponValid(true);
-    } else if (selectedProduct && selectedCoupon === " ") {
+    } else if (selectedProduct && selectedCoupon === ' ') {
       setCouponApplied(false);
       setCouponValid(false);
       setTotalPrice(selectedProduct.price * 1.18);
@@ -145,7 +146,7 @@ function EnrollPage({ label, ...rest }) {
       setTotalPrice(totalPriceWithoutDiscount);
     }
 
-    setSelectedCoupon("");
+    setSelectedCoupon('');
     setCouponApplied(false);
     setCouponValid(true);
   };
@@ -155,7 +156,7 @@ function EnrollPage({ label, ...rest }) {
   };
 
   const handleRadioChange = (e) => {
-    if (e.target.value === "installments") {
+    if (e.target.value === 'installments') {
       setShowPopup(true);
     } else {
       setShowPopup(false);
@@ -166,34 +167,35 @@ function EnrollPage({ label, ...rest }) {
     try {
       const res = await initializeRazorpay();
       if (!res) {
-        throw new Error("Razorpay SDK failed to load");
+        throw new Error('Razorpay SDK failed to load');
       }
-      const response = await fetch("/api/Razor_pay", {
-        method: "POST",
+      const response = await fetch('/api/Razor_pay', {
+        method: 'POST',
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           totalPrice,
         }),
       });
       if (!response.ok) {
-        throw new Error("Failed to fetch Razorpay details");
+        throw new Error('Failed to fetch Razorpay details');
       }
 
       const data = await response.json();
       const options = {
         key: process.env.RAZORPAY_KEY,
-        name: "Learnbay",
+        name: 'Learnbay',
         currency: data.currency,
         amount: data.amount,
         order_id: data.id,
-        description: "Thank you for your purchase",
-        image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp",
+        description: 'Thank you for your purchase',
+        image:
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp',
         handler: function (response) {
           handleFormSubmit(response.razorpay_payment_id);
           alert(
-            "Payment successful! Payment ID: " + response.razorpay_payment_id
+            'Payment successful! Payment ID: ' + response.razorpay_payment_id
           );
           // After successful payment, submit form data
           router.push('/payment-success');
@@ -202,15 +204,15 @@ function EnrollPage({ label, ...rest }) {
       const paymentObject = new window.Razorpay(options);
       paymentObject.open();
     } catch (error) {
-      console.error("Error making payment:", error);
-      alert("Error making payment. Please try again.");
+      console.error('Error making payment:', error);
+      alert('Error making payment. Please try again.');
     }
   };
 
   const initializeRazorpay = () => {
     return new Promise((resolve) => {
-      const script = document.createElement("script");
-      script.src = "https://checkout.razorpay.com/v1/checkout.js";
+      const script = document.createElement('script');
+      script.src = 'https://checkout.razorpay.com/v1/checkout.js';
       script.onload = () => {
         resolve(true);
       };
@@ -224,7 +226,7 @@ function EnrollPage({ label, ...rest }) {
 
   const handleFormSubmit = (PaymentId) => {
     setSubmittingForm(true);
-    console.log("insidewe defwaecsdewd");
+    console.log('insidewe defwaecsdewd');
     const formData = {
       name: name,
       email: email,
@@ -239,14 +241,15 @@ function EnrollPage({ label, ...rest }) {
 
     axios
       .post(
-        "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92",
+        'https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92',
         formData
       )
       .then((response) => {
-        console.log("Form submitted successfully to external endpoint!");
+        (console.log('Form submitted successfully to external endpoint!'),
+          fireLead({ email: formData.email, phone: formData.phone }));
       })
       .catch((error) => {
-        console.error("Error submitting form:", error);
+        console.error('Error submitting form:', error);
       })
       .finally(() => {
         setSubmittingForm(false);
@@ -273,11 +276,10 @@ function EnrollPage({ label, ...rest }) {
           alt="Learnbay"
           quality={100}
           priority
-          style={{ objectFit: "contain" }}
-          width={mobile ? "135" : "230"}
+          style={{ objectFit: 'contain' }}
+          width={mobile ? '135' : '230'}
           height={60}
           loading="lazy"
-        
         />
       </div>
       <div className={styles.formSection}>
@@ -290,8 +292,8 @@ function EnrollPage({ label, ...rest }) {
                   {...rest}
                   type="text"
                   className={styles.formControl}
-                  onFocus={() => handleFocus("fullNameLabel")}
-                  onBlur={() => handleBlur("fullNameLabel", name)}
+                  onFocus={() => handleFocus('fullNameLabel')}
+                  onBlur={() => handleBlur('fullNameLabel', name)}
                   value={name}
                   required
                   onChange={(e) => setName(e.target.value)}
@@ -299,7 +301,7 @@ function EnrollPage({ label, ...rest }) {
                 <label
                   id="fullNameLabel"
                   className={`${styles.formLabel} ${
-                    focused ? styles.focused : ""
+                    focused ? styles.focused : ''
                   }`}
                 >
                   Full Name *
@@ -310,9 +312,9 @@ function EnrollPage({ label, ...rest }) {
                   {...rest}
                   type="email"
                   className={styles.formControl}
-                  onFocus={() => handleFocus("EmailId")}
+                  onFocus={() => handleFocus('EmailId')}
                   onBlur={() => {
-                    handleBlur("EmailId", email);
+                    handleBlur('EmailId', email);
                   }}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -321,7 +323,7 @@ function EnrollPage({ label, ...rest }) {
                 <label
                   id="EmailId"
                   className={`${styles.formLabel} ${
-                    focused ? styles.focused : ""
+                    focused ? styles.focused : ''
                   }`}
                 >
                   Email id *
@@ -334,9 +336,9 @@ function EnrollPage({ label, ...rest }) {
                   {...rest}
                   type="tel"
                   className={styles.formControl}
-                  onFocus={() => handleFocus("PhonId")}
+                  onFocus={() => handleFocus('PhonId')}
                   onBlur={() => {
-                    handleBlur("PhonId", phone);
+                    handleBlur('PhonId', phone);
                   }}
                   value={phone}
                   required
@@ -345,7 +347,7 @@ function EnrollPage({ label, ...rest }) {
                 <label
                   id="PhonId"
                   className={`${styles.formLabel} ${
-                    focused ? styles.focused : ""
+                    focused ? styles.focused : ''
                   }`}
                 >
                   Phone *
@@ -356,10 +358,10 @@ function EnrollPage({ label, ...rest }) {
                 <select
                   {...rest}
                   className={styles.formControl}
-                  onFocus={() => handleFocus("productsId")}
-                  onBlur={() => handleBlur("productsId", products)}
+                  onFocus={() => handleFocus('productsId')}
+                  onBlur={() => handleBlur('productsId', products)}
                   onChange={handleProductChange}
-                  style={{ color: "#0072BC" }}
+                  style={{ color: '#0072BC' }}
                   required
                 >
                   <option></option>
@@ -372,7 +374,7 @@ function EnrollPage({ label, ...rest }) {
                 <label
                   id="productsId"
                   className={`${styles.formLabel} ${
-                    focused ? styles.focused : ""
+                    focused ? styles.focused : ''
                   }`}
                 >
                   Select Product *
@@ -386,15 +388,15 @@ function EnrollPage({ label, ...rest }) {
                     {...rest}
                     type="text"
                     className={styles.formControl}
-                    onFocus={() => handleFocus("CouponId")}
-                    onBlur={() => handleBlur("CouponId", selectedCoupon)}
+                    onFocus={() => handleFocus('CouponId')}
+                    onBlur={() => handleBlur('CouponId', selectedCoupon)}
                     value={selectedCoupon}
                     onChange={handleCouponChange}
                   />
                   <label
                     id="CouponId"
                     className={`${styles.formLabel} ${
-                      focused ? styles.focused : ""
+                      focused ? styles.focused : ''
                     }`}
                   >
                     Coupon Code
@@ -407,11 +409,11 @@ function EnrollPage({ label, ...rest }) {
                       couponApplied ? handleCouponCancel : handleCouponApply
                     }
                   >
-                    {couponApplied ? "CANCEL" : "APPLY"}
+                    {couponApplied ? 'CANCEL' : 'APPLY'}
                   </button>
                 </div>
                 <div className={styles.formGroup}>
-                  {" "}
+                  {' '}
                   {!couponValid && (
                     <p className={styles.error}>{discountMsg}</p>
                   )}
@@ -428,7 +430,7 @@ function EnrollPage({ label, ...rest }) {
                   {selectedProduct.name}
                 </p>
                 <p className={styles.PriceName}>
-                  {"₹" + selectedProduct.price.toFixed(2)}
+                  {'₹' + selectedProduct.price.toFixed(2)}
                 </p>
               </div>
             )}
@@ -469,7 +471,7 @@ function EnrollPage({ label, ...rest }) {
               <div className={styles.divInput}>
                 <label className={styles.Label}>Course Fee:</label>
                 <span className={styles.price}>
-                  {"₹" + selectedProduct.price.toFixed(2)}
+                  {'₹' + selectedProduct.price.toFixed(2)}
                 </span>
               </div>
             )}
@@ -478,7 +480,7 @@ function EnrollPage({ label, ...rest }) {
               <div className={styles.divInput}>
                 <label className={styles.Label}>GST (18%):</label>
                 <span className={styles.price}>
-                  {"₹" + (selectedProduct.price * 0.18).toFixed(2)}
+                  {'₹' + (selectedProduct.price * 0.18).toFixed(2)}
                 </span>
               </div>
             )}
@@ -486,10 +488,10 @@ function EnrollPage({ label, ...rest }) {
               <div className={styles.divInput}>
                 <label className={styles.Label}>Discount Amount:</label>
                 <span className={styles.price}>
-                  {"₹" +
+                  {'₹' +
                     (selectedProduct.price * (discount / 100) * 1.18).toFixed(
                       2
-                    )}{" "}
+                    )}{' '}
                 </span>
               </div>
             )}
@@ -501,17 +503,17 @@ function EnrollPage({ label, ...rest }) {
                   <b>Total:</b>
                 </label>
                 <span className={styles.price}>
-                  <b>{"₹" + totalPrice.toFixed(2)}</b>
+                  <b>{'₹' + totalPrice.toFixed(2)}</b>
                 </span>
               </div>
               <p className={styles.cont}>
-                By completing your purchases you agree to these{" "}
+                By completing your purchases you agree to these{' '}
                 <b>Terms of Services</b>
               </p>
               <button
                 type="button"
                 onClick={() => {
-                  console.log("Checking if fields are empty...");
+                  console.log('Checking if fields are empty...');
                   if (
                     !name ||
                     !email ||
@@ -519,25 +521,25 @@ function EnrollPage({ label, ...rest }) {
                     !selectedProduct ||
                     submittingForm
                   ) {
-                    console.log("Fields are empty. Showing alert...");
-                    alert("Please fill in all the required fields.");
+                    console.log('Fields are empty. Showing alert...');
+                    alert('Please fill in all the required fields.');
                     return;
                   }
-                  console.log("Fields are filled. Proceeding with checkout...");
+                  console.log('Fields are filled. Proceeding with checkout...');
                   if (isInstallmentSelected) {
                     setShowPopup(true);
                   } else {
                     makePayment()
                       .then(() => {
                         console.log(
-                          "Payment completed successfully. Proceeding with form submission..."
+                          'Payment completed successfully. Proceeding with form submission...'
                         );
                         // Assuming makePayment resolves without an error, indicating a successful payment
                         setSubmittingForm(true);
                       })
                       .catch((error) => {
-                        console.error("Error making payment:", error);
-                        alert("Error making payment. Please try again.");
+                        console.error('Error making payment:', error);
+                        alert('Error making payment. Please try again.');
                       });
                   }
                 }}
@@ -548,7 +550,7 @@ function EnrollPage({ label, ...rest }) {
                   !selectedProduct ||
                   submittingForm
                     ? styles.disabled
-                    : ""
+                    : ''
                 }`}
                 disabled={
                   !name ||
@@ -558,7 +560,7 @@ function EnrollPage({ label, ...rest }) {
                   submittingForm
                 }
               >
-                {submittingForm ? "Submitting..." : "Complete Checkout"}
+                {submittingForm ? 'Submitting...' : 'Complete Checkout'}
               </button>
             </div>
           </form>
