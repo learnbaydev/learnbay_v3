@@ -10,6 +10,7 @@ import {
   getValidation,
   redirectionThankYou,
 } from './formFunction';
+import { fireLead } from '@/lib/fireLead';
 
 const Form = ({
   popup,
@@ -148,7 +149,7 @@ const Form = ({
           method: 'POST',
           body: formData,
         });
-
+        fireLead({ email: formData.email, phone: formData.phone });
         setQuery({
           name: '',
           email: '',
