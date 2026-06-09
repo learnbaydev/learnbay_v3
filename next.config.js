@@ -1240,7 +1240,8 @@ const nextConfig = {
       // },
       {
         source: '/datascience/data-science-ai-masters-program',
-        destination: '/datascience/data-science-and-ai-masters-in-cs',
+        destination:
+          '/datascience/data-science-and-ai-master-certification-program',
         permanent: true,
       },
 
