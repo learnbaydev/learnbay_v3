@@ -28,11 +28,7 @@
 	</url>
 
 
-	<url>
-		<loc>https://www.learnbay.co/datascience/data-science-certification-courses</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.90</priority>
-	</url>
+	
 	<url>
 		<loc>https://www.learnbay.co/datascience/business-analytics-certification-course</loc>
 		<changefreq>daily</changefreq>
@@ -347,11 +343,7 @@
 		<priority>0.80</priority>
 	</url>
 
-	<url>
-		<loc>https://www.learnbay.co/datascience/data-science-for-bfsi-professional</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url>
+	
 
 	<url>
 		<loc>https://www.learnbay.co/datascience/marketing-analytics</loc>
@@ -707,7 +699,7 @@
 	</url>
 
 <url>
-	<loc>https://www.learnbay.co/blogs/best-ai-courses-in-india</loc>
+	<loc>https://www.learnbay.co/blogsbest-ai-courses-in-india/</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>

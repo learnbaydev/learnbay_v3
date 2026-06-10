@@ -892,7 +892,7 @@ const nextConfig = {
       },
       {
         source: '/data-science-certification-course',
-        destination: '/datascience/data-science-certification-courses',
+        destination: '/data-science-courses',
         permanent: true,
       },
       // {
@@ -907,7 +907,8 @@ const nextConfig = {
       },
       {
         source: '/data-science-for-bfsi-professional',
-        destination: '/datascience/data-science-for-bfsi-professional',
+        destination:
+          '/datascience/data-science-and-ai-master-certification-program',
         permanent: true,
       },
       {
@@ -1299,7 +1300,7 @@ const nextConfig = {
       },
       {
         source: '/data-science-certification-courses',
-        destination: '/datascience/data-science-certification-courses',
+        destination: '/data-science-courses',
         permanent: true,
       },
       {
