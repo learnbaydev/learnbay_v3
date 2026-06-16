@@ -24,7 +24,7 @@ const ContactCounsellor = ({
 
   const openWhatsApp = () => {
     const phoneNumber = '+917795687988'; // Replace with the desired WhatsApp phone number
-    const whatsappURL = `https://api.whatsapp.com/send?phone=919606950935`;
+    const whatsappURL = `https://api.whatsapp.com/send?phone=917349222263`;
     window.open(whatsappURL, '_blank');
   };
   // const sendEmailViaApi = () => {
