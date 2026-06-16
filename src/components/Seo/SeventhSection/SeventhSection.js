@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import styles from "./SeventhSection.module.css";
-import { AiOutlineWhatsApp } from "react-icons/ai";
-import { MdCall } from "react-icons/md";
-import Image from "next/image";
-import Button from "../../Global/Button/Button";
+import React, { useState, useEffect } from 'react';
+import styles from './SeventhSection.module.css';
+import { AiOutlineWhatsApp } from 'react-icons/ai';
+import { MdCall } from 'react-icons/md';
+import Image from 'next/image';
+import Button from '../../Global/Button/Button';
 
 function SeventhSection({ fullStackCont }) {
   const [mobile, setMobile] = useState(false);
@@ -65,7 +65,7 @@ function SeventhSection({ fullStackCont }) {
           ) : (
             <div className={styles.btnWrap}>
               <a
-                href="https://api.whatsapp.com/send?phone=917349222263"
+                href="https://api.whatsapp.com/send?phone=919606950935"
                 target="_blank"
               >
                 <button className={styles.btn1}>
@@ -91,7 +91,7 @@ function SeventhSection({ fullStackCont }) {
               width={600}
               height={600}
               alt="data science course"
-              style={{ borderRadius: "5px" }}
+              style={{ borderRadius: '5px' }}
               loading="lazy"
             />
           </div>

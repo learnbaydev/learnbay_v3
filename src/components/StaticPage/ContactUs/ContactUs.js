@@ -1,8 +1,8 @@
-import dynamic from "next/dynamic";
-import Image from "next/image";
-import { FaEnvelope, FaMapMarkedAlt, FaWhatsapp } from "react-icons/fa";
-import styles from "./ContactUs.module.css";
-const Button = dynamic(() => import("../../Global/Button/Button"));
+import dynamic from 'next/dynamic';
+import Image from 'next/image';
+import { FaEnvelope, FaMapMarkedAlt, FaWhatsapp } from 'react-icons/fa';
+import styles from './ContactUs.module.css';
+const Button = dynamic(() => import('../../Global/Button/Button'));
 
 function ContactUs() {
   return (
@@ -50,20 +50,26 @@ function ContactUs() {
             <a href="mailto:contacts@learnbay.co" target="_blank">
               <p>Email :- contacts@learnbay.co</p>
             </a>
-            <a href="tel:+917349222263" target="_blank">
+            <a href="tel:+919606950935" target="_blank">
               <p>Phone :- (+91) 77956 87988</p>
             </a>
           </div>
           <div className={styles.InnerBox}>
-            <a href="https://api.whatsapp.com/send?phone=917349222263" target="_blank">
+            <a
+              href="https://api.whatsapp.com/send?phone=919606950935"
+              target="_blank"
+            >
               <FaWhatsapp className={styles.tick} />
             </a>
             <h3>Whatsapp</h3>
-            <a href="https://api.whatsapp.com/send?phone=917349222263" target="_blank">
+            <a
+              href="https://api.whatsapp.com/send?phone=919606950935"
+              target="_blank"
+            >
               <Button
-              title="whatsapp"
+                title="whatsapp"
                 className={styles.btn}
-                style={{ marginTop: "25px" }}
+                style={{ marginTop: '25px' }}
                 text="(+91) 7349222263"
               />
             </a>

@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
-import Script from "next/script";
-import styles from "../../../styles/Home.module.css";
-import { IoChatbubbles, IoChatbubblesOutline, IoClose } from "react-icons/io5";
-import { IoIosCall } from "react-icons/io";
-import { FaClosedCaptioning, FaWhatsapp } from "react-icons/fa";
-import Link from "next/link";
-import { BsChatRight } from "react-icons/bs";
-import { PiChatsCircleLight } from "react-icons/pi";
-import { MdChat } from "react-icons/md";
-import { Fa42Group } from "react-icons/fa6";
+import React, { useState, useEffect } from 'react';
+import Script from 'next/script';
+import styles from '../../../styles/Home.module.css';
+import { IoChatbubbles, IoChatbubblesOutline, IoClose } from 'react-icons/io5';
+import { IoIosCall } from 'react-icons/io';
+import { FaClosedCaptioning, FaWhatsapp } from 'react-icons/fa';
+import Link from 'next/link';
+import { BsChatRight } from 'react-icons/bs';
+import { PiChatsCircleLight } from 'react-icons/pi';
+import { MdChat } from 'react-icons/md';
+import { Fa42Group } from 'react-icons/fa6';
 
 function WhatsappFloat({ chat360code1 }) {
   const [showButtons, setShowButtons] = useState(false);
@@ -33,7 +33,7 @@ function WhatsappFloat({ chat360code1 }) {
     <>
       {chat360code1 ? (
         <Link
-          href="https://api.whatsapp.com/send?phone=917349222263"
+          href="https://api.whatsapp.com/send?phone=919606950935"
           target="_blank"
         >
           <div className={styles.FloatWhatsapp}>
@@ -70,7 +70,7 @@ function WhatsappFloat({ chat360code1 }) {
         //   </div>
         // </div>
         <Link
-          href="https://api.whatsapp.com/send?phone=917349222263"
+          href="https://api.whatsapp.com/send?phone=919606950935"
           target="_blank"
         >
           <div className={styles.FloatWhatsapp}>

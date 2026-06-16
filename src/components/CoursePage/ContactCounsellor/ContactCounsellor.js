@@ -1,11 +1,11 @@
-import React from "react";
-import styles from "../ContactCounsellor/ContactCounsellor.module.css";
-import { MdOutlineWhatsapp } from "react-icons/md";
-import { AiOutlineMail } from "react-icons/ai";
-import Image from "next/image";
-import { useState } from "react";
-import Popup from "../../Global/Popup/Popup";
-import Form from "../../Global/Form/Form";
+import React from 'react';
+import styles from '../ContactCounsellor/ContactCounsellor.module.css';
+import { MdOutlineWhatsapp } from 'react-icons/md';
+import { AiOutlineMail } from 'react-icons/ai';
+import Image from 'next/image';
+import { useState } from 'react';
+import Popup from '../../Global/Popup/Popup';
+import Form from '../../Global/Form/Form';
 
 const ContactCounsellor = ({
   dataScience,
@@ -23,9 +23,9 @@ const ContactCounsellor = ({
   };
 
   const openWhatsApp = () => {
-    const phoneNumber = "+917795687988"; // Replace with the desired WhatsApp phone number
-    const whatsappURL = `https://api.whatsapp.com/send?phone=917349222263`;
-    window.open(whatsappURL, "_blank");
+    const phoneNumber = '+917795687988'; // Replace with the desired WhatsApp phone number
+    const whatsappURL = `https://api.whatsapp.com/send?phone=919606950935`;
+    window.open(whatsappURL, '_blank');
   };
   // const sendEmailViaApi = () => {
   //   // Replace with the API endpoint that triggers the email
@@ -58,13 +58,13 @@ const ContactCounsellor = ({
   // };
 
   const sendEmail = () => {
-    const recipient = "contacts@learnbay.co";
-    const subject = "";
-    const body = "";
+    const recipient = 'contacts@learnbay.co';
+    const subject = '';
+    const body = '';
     const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${subject}&body=${body}`;
 
     // Open Gmail link in a new tab or window
-    window.open(gmailLink, "_blank");
+    window.open(gmailLink, '_blank');
   };
   return (
     <div className={styles.consmain}>
@@ -80,7 +80,7 @@ const ContactCounsellor = ({
         <div className="leftPopup">
           <div
             className="whiteP"
-            style={{ width: "340px", height: "400px" }}
+            style={{ width: '340px', height: '400px' }}
           ></div>
         </div>
         <div className="RightPopup">
@@ -121,19 +121,23 @@ const ContactCounsellor = ({
         </div>
       </div>
       <div className={styles.conimg}>
-       {GenAi ? ( <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/contact_man+(1).webp"
-          width={450}
-          height={265}
-          alt="contact-counseller"
-          loading="lazy"
-        />):( <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fee-newboy.webp"
-          width={320}
-          height={380}
-          alt="contact-counseller"
-          loading="lazy"
-        />)}
+        {GenAi ? (
+          <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/contact_man+(1).webp"
+            width={450}
+            height={265}
+            alt="contact-counseller"
+            loading="lazy"
+          />
+        ) : (
+          <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fee-newboy.webp"
+            width={320}
+            height={380}
+            alt="contact-counseller"
+            loading="lazy"
+          />
+        )}
       </div>
     </div>
   );
