@@ -1999,6 +1999,41 @@ const nextConfig = {
           '/datascience/bangalore/data-science-course-training-in-marathahalli',
         permanent: true,
       },
+
+      {
+        source: '/cloud&devops/aws-cloud-computing-and-devOps',
+        destination: '/cloud-and-devops/aws-cloud-computing-and-devops',
+        permanent: true,
+      },
+
+      {
+        source:
+          '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
+        destination:
+          '/cloud-and-devops/cloud-and-devops-for-system-administrators-master-certification',
+        permanent: true,
+      },
+
+      // Redirect to SEO-recommended page
+      {
+        source:
+          '/cloud&devops/cloud-computing-and-devOps-certification-program',
+        destination: '/advanced-cloud-and-devops-program',
+        permanent: true,
+      },
+
+      {
+        source: '/cloud&devops/online-cloud-computing-course-bangalore',
+        destination:
+          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+        permanent: true,
+      },
+
+      {
+        source: '/cloud&devops/online-cloud-computing-course-pune',
+        destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+        permanent: true,
+      },
     ];
   },
 };
