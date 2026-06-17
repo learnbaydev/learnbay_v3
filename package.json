@@ -8,7 +8,8 @@
     "start": "next start",
     "postbuild": "node uploadS3.mjs",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build:sitemap": "node scripts/build-sitemap-manifest.js"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.6",
