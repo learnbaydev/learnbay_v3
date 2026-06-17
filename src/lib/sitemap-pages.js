@@ -96,16 +96,11 @@ const SKIP_EXACT = new Set([
   // Old folder is being deleted. 301 redirects live in next.config.js.
   // These entries are a safety net — if any file is accidentally left
   // behind during the folder delete, it won't appear in the sitemap.
-  '/cloud&devops',
-  '/cloud%26devops',
 
   // xyz is a deprecated course page.
   // It redirects directly to /cloud-and-devops/master-course-page (1 hop).
   // It does NOT exist in the new cloud-and-devops folder.
   // All three variants must be excluded.
-  '/cloud&devops/xyz',
-  '/cloud%26devops/xyz',
-  '/cloud-and-devops/xyz',
 ]);
 
 const SKIP_PREFIX = ['/api/', '/Thank-you', '/NewThankYouCounselling'];

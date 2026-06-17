@@ -33,15 +33,14 @@
 //   content even on a fresh server start before build:sitemap is run.
 //
 // ─────────────────────────────────────────────────────────────────────────────
-
-import fs from 'fs';
-import path from 'path';
-import { getAllPages } from '../lib/sitemap-pages.js';
+const fs = require('fs');
+const path = require('path');
+const { getAllPages } = require('../src/lib/sitemap-pages');
 
 const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL || 'https://www.learnbay.co'
 ).replace(/\/$/, '');
-
+console.log('SITE_URL', SITE_URL);
 const OUTPUT = path.join(process.cwd(), 'public', 'sitemap-manifest.json');
 const BATCH_SIZE = 10; // pages verified in parallel per round
 const BATCH_GAP = 200; // ms pause between rounds — avoids hammering your server
@@ -49,8 +48,50 @@ const TIMEOUT_MS = 8000; // per-page fetch timeout
 
 // ─── Indexability check ───────────────────────────────────────────────────────
 
+// async function isIndexable(url) {
+//   try {
+//     const res = await fetch(url, {
+//       method: 'GET',
+//       redirect: 'manual', // 301 / 302 → not indexable, exclude from sitemap
+//       headers: { 'User-Agent': 'LearnbaySitemapBot/1.0' },
+//       signal: AbortSignal.timeout(TIMEOUT_MS),
+//     });
+
+//     // Must return HTTP 200 — anything else excluded
+//     if (res.status !== 200) return false;
+
+//     // Check x-robots-tag response header
+//     const xRobots = res.headers.get('x-robots-tag') || '';
+//     if (/noindex/i.test(xRobots)) return false;
+
+//     // Check HTML body for <meta name="robots" content="noindex">
+//     // Both attribute orderings must be checked
+//     const html = await res.text();
+
+//     if (
+//       /<meta[^>]+name=["']robots["'][^>]+content=["'][^"']*noindex/i.test(html)
+//     ) {
+//       return false;
+//     }
+//     if (
+//       /<meta[^>]+content=["'][^"']*noindex[^"']*["'][^>]+name=["']robots["']/i.test(
+//         html
+//       )
+//     ) {
+//       return false;
+//     }
+
+//     return true;
+//   } catch {
+//     // Timeout, DNS failure, connection refused etc. — exclude the page
+//     return false;
+//   }
+// }
+
 async function isIndexable(url) {
   try {
+    console.log(`[CHECKING] ${url}`);
+
     const res = await fetch(url, {
       method: 'GET',
       redirect: 'manual', // 301 / 302 → not indexable, exclude from sitemap
@@ -59,32 +100,52 @@ async function isIndexable(url) {
     });
 
     // Must return HTTP 200 — anything else excluded
-    if (res.status !== 200) return false;
+    if (res.status !== 200) {
+      console.log(`[EXCLUDED] ${url} → HTTP ${res.status} (${res.statusText})`);
+      return false;
+    }
 
     // Check x-robots-tag response header
     const xRobots = res.headers.get('x-robots-tag') || '';
-    if (/noindex/i.test(xRobots)) return false;
+    if (/noindex/i.test(xRobots)) {
+      console.log(
+        `[EXCLUDED] ${url} → X-Robots-Tag contains "noindex": ${xRobots}`
+      );
+      return false;
+    }
 
-    // Check HTML body for <meta name="robots" content="noindex">
-    // Both attribute orderings must be checked
+    // Check HTML body for meta robots noindex
     const html = await res.text();
 
     if (
       /<meta[^>]+name=["']robots["'][^>]+content=["'][^"']*noindex/i.test(html)
     ) {
+      console.log(
+        `[EXCLUDED] ${url} → Meta robots tag contains noindex (name first)`
+      );
       return false;
     }
+
     if (
       /<meta[^>]+content=["'][^"']*noindex[^"']*["'][^>]+name=["']robots["']/i.test(
         html
       )
     ) {
+      console.log(
+        `[EXCLUDED] ${url} → Meta robots tag contains noindex (content first)`
+      );
       return false;
     }
 
+    console.log(`[INDEXABLE] ${url}`);
     return true;
-  } catch {
-    // Timeout, DNS failure, connection refused etc. — exclude the page
+  } catch (error) {
+    console.log(
+      `[EXCLUDED] ${url} → Fetch failed: ${error?.name || 'Unknown'} - ${
+        error?.message || 'No error message'
+      }`
+    );
+
     return false;
   }
 }
