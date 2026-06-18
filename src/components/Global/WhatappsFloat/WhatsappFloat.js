@@ -33,7 +33,7 @@ function WhatsappFloat({ chat360code1 }) {
     <>
       {chat360code1 ? (
         <Link
-          href="https://api.whatsapp.com/send?phone=917349222263"
+          href="https://api.whatsapp.com/send?phone=919606950935"
           target="_blank"
         >
           <div className={styles.FloatWhatsapp}>
@@ -70,7 +70,7 @@ function WhatsappFloat({ chat360code1 }) {
         //   </div>
         // </div>
         <Link
-          href="https://api.whatsapp.com/send?phone=917349222263"
+          href="https://api.whatsapp.com/send?phone=919606950935"
           target="_blank"
         >
           <div className={styles.FloatWhatsapp}>

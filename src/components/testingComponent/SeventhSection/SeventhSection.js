@@ -62,7 +62,7 @@ function SeventhSectionCopy({ fullStackCont }) {
           {/* Dynamic Contact Information */}
           <div className={styles.btnWrap}>
             <a
-              href={`https://api.whatsapp.com/send?phone=${fullStackCont ? '919731135221' : '917349222263'}&text=Hello,`}
+              href={`https://api.whatsapp.com/send?phone=${fullStackCont ? '919731135221' : '919606950935'}&text=Hello,`}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Chat with us on WhatsApp"
