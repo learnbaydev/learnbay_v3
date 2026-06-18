@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run build:sitemap && next dev",
     "build": "next build",
     "start": "next start",
-    "postbuild": "node uploadS3.mjs",
+    "postbuild": "npm run build:sitemap && node uploadS3.mjs",
     "lint": "next lint",
     "format": "prettier --write .",
     "build:sitemap": "node scripts/build-sitemap-manifest.js"

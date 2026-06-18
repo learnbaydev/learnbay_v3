@@ -1,0 +1,740 @@
+[
+  {
+    "url": "https://www.learnbay.co/",
+    "type": "homepage",
+    "lastmod": "2026-06-16",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/about-us",
+    "type": "default",
+    "lastmod": "2026-02-16",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/advanced-cloud-and-devops-program",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/advanced-cyber-security-course-training",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/ai-co-lab",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/ai-engineering-master-program",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/artificial-intelligence/genai-software-developers",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/cloud-and-devops-for-database-administrators",
+    "type": "course",
+    "lastmod": "2026-06-16",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/cloud-and-devops-for-it-support-and-it-operations",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/cloud-and-devops-for-network-professionals",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/cloud-and-devops-for-system-administrators",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/contact-us",
+    "type": "default",
+    "lastmod": "2026-02-16",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/corporate-ai-training",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/cyber-security/india/cyber-security-course-training-in-bangalore",
+    "type": "course",
+    "lastmod": "2026-02-16",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/cyber-security/india/cyber-security-course-training-in-pune",
+    "type": "course",
+    "lastmod": "2026-02-16",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/data-science-courses",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/data-science-genai-program",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/advance-data-science-certification-courses",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/artificial-intelligence-certification-course",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/austin/data-science-course-training-in-austin",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/australia/masters-degree-in-data-science-in-australia",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/bangalore/artificial-intelligence-ai-course-training-bangalore",
+    "type": "course",
+    "lastmod": "2026-04-27",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/bangalore/business-analytics-course-training-in-bangalore",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/bangalore/data-analytics-course-training-in-bangalore",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-marathahalli",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/bangalore/machine-learning-course-training-in-bangalore",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/bangladesh/data-science-course-training-in-bangladesh",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/bangladesh/data-science-course-training-in-dhaka",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/business-analytics-certification-course",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/canada/artificial-intelligence-ai-course-training-canada",
+    "type": "course",
+    "lastmod": "2026-04-27",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/canada/business-analytics-course-training-in-canada",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/canada/data-analytics-course-training-in-canada",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/canada/data-science-course-training-in-canada",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/canada/machine-learning-course-training-in-canada",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/chennai/artificial-intelligence-ai-course-training-chennai",
+    "type": "course",
+    "lastmod": "2026-04-27",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/chennai/business-analytics-course-training-in-chennai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/chennai/data-analytics-course-training-in-chennai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/chennai/data-science-course-training-in-chennai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/chennai/machine-learning-course-training-in-chennai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/data-analytics-certification-course",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/data-science-ai-for-managers",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/data-science-and-ai-for-healthcare-professionals",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/data-science-certification-courses",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/data-science-course-training-in-india",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/data-science-for-bfsi-professional",
+    "type": "course",
+    "lastmod": "2026-04-27",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/delhi/artificial-intelligence-ai-course-training-delhi",
+    "type": "course",
+    "lastmod": "2026-04-27",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/delhi/business-analytics-course-training-in-delhi",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/delhi/data-analytics-course-training-in-delhi",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/delhi/data-science-course-training-in-delhi",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/delhi/machine-learning-course-training-in-delhi",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/dubai/artificial-intelligence-ai-course-training-dubai",
+    "type": "course",
+    "lastmod": "2026-04-27",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/dubai/business-analytics-course-training-in-dubai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/dubai/data-analytics-course-training-in-dubai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/dubai/data-science-course-training-in-dubai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/dubai/machine-learning-course-training-in-dubai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/egypt/data-science-course-training-in-egypt",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati-generic",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/hr-analytics",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/hyderabad/artificial-intelligence-ai-course-training-hyderabad",
+    "type": "course",
+    "lastmod": "2026-04-27",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/hyderabad/business-analytics-course-training-in-hyderabad",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/hyderabad/data-analytics-course-training-in-hyderabad",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/hyderabad/data-science-course-training-in-hyderabad",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/hyderabad/machine-learning-course-training-in-hyderabad",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/india/data-science-course-training-in-bhubaneswar",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/india/data-science-course-training-in-coimbatore",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/india/data-science-course-training-in-indore",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/india/data-science-course-training-in-jaipur",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/india/data-science-course-training-in-kochi",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/india/data-science-course-training-in-kolkata",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/india/data-science-course-training-in-nagpur",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/india/data-science-course-training-in-noida",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/india/data-science-course-training-in-patna",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/malaysia/data-science-course-training-in-malaysia",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/marketing-analytics",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/mumbai/artificial-intelligence-ai-course-training-mumbai",
+    "type": "course",
+    "lastmod": "2026-04-27",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/mumbai/business-analytics-course-training-in-mumbai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/mumbai/data-analytics-course-training-in-mumbai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/mumbai/data-science-course-training-in-mumbai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/mumbai/machine-learning-course-training-in-mumbai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/nigeria/data-science-course-training-in-nigeria",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/pune/artificial-intelligence-ai-course-training-pune",
+    "type": "course",
+    "lastmod": "2026-04-27",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/pune/business-analyst-course-training-in-pune",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/pune/business-analytics-course-training-in-pune",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/pune/data-analyst-course-training-in-pune",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/pune/data-analytics-course-training-in-pune",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/pune/machine-learning-course-training-in-pune",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/singapore/data-science-course-training-in-singapore",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/southafrica/data-science-course-training-in-south-africa",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/uk/data-science-course-training-in-uk",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/usa/data-science-course-training-in-usa",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/datascience/usa/masters-degree-in-data-science-in-usa",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/bangalore/full-stack-software-developer-course-in-bangalore",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/canada/full-stack-software-developer-course-in-canada",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/chennai/full-stack-software-developer-course-in-chennai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/data-structure-algorithm-online-course-training",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/delhi/full-stack-software-developer-course-in-delhi",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/dsa-course-training-bangalore",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/dsa-course-training-pune",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/dsa-system-design",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/dubai/full-stack-software-developer-course-in-dubai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/full-stack-software-development-program",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/full-stack-software-development",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/full-stack-web-development-program",
+    "type": "course",
+    "lastmod": "2026-02-16",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/hyderabad/full-stack-software-developer-course-in-hyderabad",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/mumbai/full-stack-software-developer-course-in-mumbai",
+    "type": "course",
+    "lastmod": "2026-04-02",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune",
+    "type": "course",
+    "lastmod": "2026-04-28",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/genai-agentic-ai-for-cloud-devops",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/genai-agentic-ai-managers-leaders",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/genai-agentic-ai-program",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/genai-and-agentic-ai-master-program",
+    "type": "course",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/privacy-policy",
+    "type": "policy",
+    "lastmod": "2026-02-16",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/refund-cancellation-policy",
+    "type": "policy",
+    "lastmod": "2026-02-16",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/reviews",
+    "type": "default",
+    "lastmod": "2026-05-14",
+    "indexable": true
+  },
+  {
+    "url": "https://www.learnbay.co/terms-conditions",
+    "type": "policy",
+    "lastmod": "2026-02-16",
+    "indexable": true
+  }
+]
