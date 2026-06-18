@@ -16,7 +16,7 @@ export const TabData = [
       {
         CName: "AI-Powered Cloud & DevOps Master Program ",
         hours: "9 Months",
-        url: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
+        url: "/cloud-and-devops/ai-powered-cloud-devops-masters-certification",
       },
       {
         CName: "SDE Master Program With GenAI & Agentic AI ",
@@ -88,7 +88,7 @@ export const TabData = [
       {
         CName: "AI-Powered Cloud and DevOps Master Program",
         hours: "9 months",
-        url: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
+        url: "/cloud-and-devops/ai-powered-cloud-devops-masters-certification",
       },
       {
         CName: "Cloud & DevOps for Network Professionals",
@@ -129,7 +129,7 @@ export const TabData = [
       {
         CName: "AI-Powered Cloud and DevOps Masters Program",
         hours: "9 months",
-        url: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
+        url: "/cloud-and-devops/ai-powered-cloud-devops-masters-certification",
       },
       {
         CName: "SDE Master Program With GenAI & Agentic AI",

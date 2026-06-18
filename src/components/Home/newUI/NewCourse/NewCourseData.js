@@ -371,7 +371,7 @@ export const courses = {
       description: 'Designed by industry experts',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV22026.webp',
-      link: '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
+      link: '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf',
       brochurePdfs:
@@ -710,7 +710,7 @@ export const courses = {
       description: 'For Tech Professionals',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp',
-      link: '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
+      link: '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf',
       brochurePdfs:
@@ -1013,7 +1013,7 @@ export const courses = {
       description: 'For Tech Professionals',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp',
-      link: '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
+      link: '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf',
       brochurePdfs:

@@ -2010,7 +2010,7 @@ const nextConfig = {
         source:
           '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
         destination:
-          '/cloud-and-devops/cloud-and-devops-for-system-administrators-master-certification',
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         permanent: true,
       },
 

@@ -200,7 +200,7 @@ export const TabData = [
       {
         CName: "Cloud and DevOps Engineering Masters Certification",
         hours: "9 Months",
-        url: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
+        url: "/cloud-and-devops/ai-powered-cloud-devops-masters-certification",
       },
 
       {
