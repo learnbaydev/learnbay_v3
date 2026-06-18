@@ -4,7 +4,7 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: 'for IT Support & IT Operations ',
+        spanTag: 'Deploy. Scale. Get hired. ',
         spanIcon:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp',
         title: [
