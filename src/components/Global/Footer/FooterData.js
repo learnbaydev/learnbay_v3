@@ -761,7 +761,7 @@ export const CourseData = [
 
       {
         id: 1,
-        url: 'https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
+        url: 'https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         name: 'AI-Powered Cloud And DevOps Engineering Course',
       },
       {
