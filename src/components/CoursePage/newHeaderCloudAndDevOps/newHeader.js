@@ -114,7 +114,7 @@ const Newheader = ({
               })}
           </h1>
 
-          <h5 style={{ fontSize: '30px' }}>{spanTag}</h5>
+          <p style={{ fontSize: '30px' }}>{spanTag}</p>
           {/* <div className={styles.svgWrapper}>
           <svg
               xmlns="http://www.w3.org/2000/svg"
