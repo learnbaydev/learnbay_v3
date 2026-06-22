@@ -654,7 +654,7 @@ export const NewDSAData = [
 
       {
         Module13: {
-          title: 'Cloud & DevOps for Network Professionals ',
+          title: 'Cloud & DevOps for QA Engineers ',
           hours: '6 weeks',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
@@ -662,22 +662,18 @@ export const NewDSAData = [
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
           endImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
-          points: 'Cloud & DevOps for Network Professionals',
+          points: 'Cloud & DevOps for QA Engineers',
           content: [
             {
               chap: {
-                title: 'Cloud & DevOps for Network Professionals ',
+                title: 'Cloud & DevOps for QA Engineers ',
                 desc: [
-                  'Week 1: Cloud networking architecture, VPC design principles, CIDR planning, subnets, routing tables, gateways, and end-to-end traffic flow.',
-                  'IPv6 addressing and dual-stack VPC setups, NAT Gateway and egress traffic design, Transit Gateway fundamentals, and multi-VPC design patterns for scalable architectures.',
-                  'Week 2: Load balancing concepts, DNS routing strategies, traffic distribution, auto-scaling integration, and hybrid connectivity fundamentals.',
-                  'Global routing acceleration with CloudFront and Global Accelerator, PrivateLink and VPC Endpoints, redundant VPN/Direct Connect routing with BGP, and advanced health checks with intelligent DNS routing policies.',
-                  'Week 3: Network security controls, security groups vs NACLs, access rules, flow logs, monitoring, and network-level troubleshooting.',
-                  'AWS Network Firewall and WAF essentials, IAM-based network restriction models, GuardDuty and IDS/IPS threat detection, TLS termination and encryption-in-transit, and certificate-based secure communication.',
-                  'Week 4: Service mesh fundamentals, east–west vs north–south traffic, Envoy decars, zero-trust architecture principles, microservices networking, and distributed traffic observability.',
-                  'Week 5: Network automation using Infrastructure-as-Code (Terraform, CloudFormation basics), reusable modules, automated VPC deployments, managing multi-environment networking, and CI/CD pipelines for network configuration delivery.',
-
-                  'Week 6: Cloud-native firewalls, advanced routing (transit gateways, peering), multi-cloud networking design, performance optimisation, cost-efficient traffic routing, log analytics for optimisation, and hands-on troubleshooting of production-like distributed systems.',
+                  'CI/CD Pipeline Integration & Quality Gates',
+                  'Infrastructure Automation & Test Environment Provisioning',
+                  'Backup, DR & High Availability for Test Infrastructure',
+                  'Containerised Test Execution & Kubernetes Scale',
+                  'Cloud Monitoring & Observability for QA',
+                  'GitOps & Operational Governance for QA',
                 ],
               },
             },
