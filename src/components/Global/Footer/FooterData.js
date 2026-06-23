@@ -781,7 +781,7 @@ export const CourseData = [
       },
       {
         id: 5,
-        url: 'https://www.learnbay.co/cloud-and-devops-for-it-support-and-it-operations',
+        url: 'https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations',
         name: 'Cloud & DevOps Course for IT Support & Operations',
       },
       {

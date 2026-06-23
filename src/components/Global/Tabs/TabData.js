@@ -216,7 +216,7 @@ export const TabData = [
       {
         CName: 'Cloud & DevOps for IT Support & IT Operations',
         hours: '5 Months',
-        url: '/cloud-and-devops-for-it-support-and-it-operations',
+        url: '/cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations',
       },
       {
         CName: 'Cloud & DevOps for Database Administrators',

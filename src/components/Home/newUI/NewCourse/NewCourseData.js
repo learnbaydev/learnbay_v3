@@ -1069,7 +1069,7 @@ export const courses = {
       description: 'For IT Support & IT Operations',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO3.webp',
-      link: 'cloud-and-devops-for-it-support-and-it-operations',
+      link: 'cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionalslink.pdf',
       brochurePdfs:

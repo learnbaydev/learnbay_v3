@@ -308,7 +308,7 @@ cloud certification for it professionals
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud-and-devops-for-it-support-and-it-operations"
+          content="https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -329,7 +329,7 @@ cloud certification for it professionals
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud-and-devops-for-it-support-and-it-operations"
+          content="https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations"
         />
         <meta
           name="twitter:title"
@@ -350,7 +350,7 @@ cloud certification for it professionals
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud-and-devops-for-it-support-and-it-operations"
+          href="https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations"
         />
         <script
           type="application/ld+json"
@@ -360,7 +360,7 @@ cloud certification for it professionals
   "@type": "Course",
   "name": "Cloud & DevOps Course for IT Support & Operations - Learnbay",
   "description": "Advance your IT support career into Cloud & DevOps with Learnbay. Learn cloud operations, alert handling, & automation through practical learning. Join now!",
-  "url": "https://www.learnbay.co/cloud-and-devops-for-it-support-and-it-operations",
+  "url": "https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations",
   "offers": {
     "@type": "offer",
     "price": "120000",
