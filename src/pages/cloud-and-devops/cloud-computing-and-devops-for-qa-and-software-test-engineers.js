@@ -44,7 +44,7 @@ const SyllabusNew = dynamic(
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_QA.pdf';
   const faqNewData = [
     {
       id: 0,
@@ -658,13 +658,13 @@ Clouds and DevOps Network professional program
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_QA.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
-          courseId={'cloud-network-pro'}
+          courseId={'cloud-qa-pro'}
         />
         <AlumniCompaniesCloudDevopsNP
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_QA.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacementNP time="150" guided="10" />
