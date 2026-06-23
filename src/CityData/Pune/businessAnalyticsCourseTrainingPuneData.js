@@ -711,7 +711,7 @@ export const BAPuneCourseData = [
     Note: 'You can also check:',
     linkText1: 'Best Cloud Computing Course in Pune',
     link1:
-      'https://www.learnbay.co/cloud&devops/online-cloud-computing-course-pune',
+      'https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-pune',
 
     CertificationBot1:
       'Learnbay Business Analytics program in Pune is Certified by IBM.',

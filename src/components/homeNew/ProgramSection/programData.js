@@ -76,7 +76,8 @@ export const programCards = [
     theme: 'green',
     logo: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2682+(1).webp',
     icon: 'https://d32and0ii3b8oy.cloudfront.net/web/learnbay_v4/Homepage/course_section/devops_icon.png',
-    detailsUrl: '/cloud&devops/cloud-and-devops-engineering-masters',
+    detailsUrl:
+      '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
     dataScience: true,
     dataScienceCounselling: true,
   },

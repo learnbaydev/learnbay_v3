@@ -26,7 +26,7 @@ Key Partners: IBM, Microsoft, IIT Patna, and Woolf University
  
 ### For Cloud & DevOps Professionals
 [GenAI & Agentic AI for Cloud & DevOps](https://www.learnbay.co/genai-agentic-ai-for-cloud-devops): An IBM-certified course for cloud architects and DevOps engineers to integrate AI with cloud-native workflows
-[AI-Powered Cloud and DevOps Engineering Masters Certification Program](https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification): 9-month IBM-certified master's program for cloud & DevOps engineers to learn DevSecOps, multicloud strategy, and MLOps
+[AI-Powered Cloud and DevOps Engineering Masters Certification Program](https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification): 9-month IBM-certified master's program for cloud & DevOps engineers to learn DevSecOps, multicloud strategy, and MLOps
  
 ### For Managers & Leaders
 [GenAI & Agentic AI Program for Managers & Leaders](https://www.learnbay.co/genai-agentic-ai-managers-leaders): IBM-certified course tailored for managers, leaders, and CXOs to lead AI strategy and manage AI teams

@@ -248,13 +248,13 @@ export default function Home() {
           "sameAs": "https://www.learnbay.co"
         },
         "educationalCredentialAwarded": "AI-Powered Cloud & DevOps Master Certification",
-        "url": "https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
+        "url": "https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification",
         "offers": {
           "@type": "Offer",
           "price": "159000",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock",
-          "url": "https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
+          "url": "https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification",
           "category": "Cloud & DevOps"
         },
         "hasCourseInstance": {

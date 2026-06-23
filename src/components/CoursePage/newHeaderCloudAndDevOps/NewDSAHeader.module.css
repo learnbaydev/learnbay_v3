@@ -68,7 +68,7 @@
   line-height: 109%;
 }
 
-.contentTitleWrapper h5 {
+.contentTitleWrapper p {
   color: #fff;
   text-align: center;
   font-size: 21px;
@@ -240,7 +240,7 @@
     font-size: 44px;
   }
 
-  /* .contentTitleWrapper h5 {
+  /* .contentTitleWrapper p {
     padding: 10px 70px;
   } */
 
@@ -288,7 +288,7 @@
     font-size: 40px;
   }
 
-  .contentTitleWrapper h5 {
+  .contentTitleWrapper p {
     padding: 10px 50px;
   }
 
@@ -334,7 +334,7 @@
   } */
 }
 @media only screen and (max-width: 1081px) {
-  .contentTitleWrapper h5 {
+  .contentTitleWrapper p {
     font-size: 23px;
   }
 
@@ -477,7 +477,7 @@
     font-size: 32px;
   }
 
-  .contentTitleWrapper h5 {
+  .contentTitleWrapper p {
     font-size: 22px;
     padding: 8px 15px;
     line-height: 25px;
@@ -570,7 +570,7 @@
     height: 55px;
   }
 
-  .contentTitleWrapper h5 {
+  .contentTitleWrapper p {
     width: 72%;
     font-size: 16px;
     padding: 6px 31px;
@@ -702,7 +702,7 @@
 }
 
 @media only screen and (max-width: 433px) {
-  .contentTitleWrapper h5 {
+  .contentTitleWrapper p {
     width: 88%;
     padding: 6px 15px;
   }
@@ -718,7 +718,7 @@
     top: 100px;
   }
 
-  .contentTitleWrapper h5 {
+  .contentTitleWrapper p {
     width: 74%;
   }
 
@@ -728,7 +728,7 @@
 }
 
 @media only screen and (max-width: 401px) {
-  .contentTitleWrapper h5 {
+  .contentTitleWrapper p {
     font-size: 18px;
   }
 
@@ -745,7 +745,7 @@
 }
 
 @media (max-width: 385px) {
-  .contentTitleWrapper h5 {
+  .contentTitleWrapper p {
     font-weight: 400;
     line-height: 25px;
   }
@@ -788,7 +788,7 @@
         font-size: 24px;
     } */
 
-  /* .contentTitleWrapper h5 {
+  /* .contentTitleWrapper p {
         font-size: 14px;
         padding: 5px 10px;
         width: -webkit-fill-available;
