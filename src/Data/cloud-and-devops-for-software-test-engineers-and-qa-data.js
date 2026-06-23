@@ -172,30 +172,30 @@ export const NewDSAData = [
     genAiData: [
       {
         id: 1,
-        title: 'Cloud Infrastructure Automation',
+        title: 'Cloud Test Infra Automation',
         description:
           'Objective: Create an AI system that generates actionable insights and strategies for inventory optimization and logistics planning. Outcome: Learn to automate decision-making processes, ensuring cost efficiency and reduced lead times.',
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-21.webp', // Provide the path to the icon image
         listItems: [
-          'Design and deploy an automated cloud infrastructure setup using Terraform to create and manage cloud resources.',
-          'Tools: Tools: Terraform, AWS CloudFormation,Azure Resource Manager',
-          'outcome: Automate infrastructure provisioning and management across clouds.',
+          'Objective: Design and deploy automated test infrastructure using Terraform to provision and manage cloud-based test environments.',
+          'Skills Covered: Terraform, AWS CloudFormation,Azure Resource Manager',
+          'Outcome: Automate test environment provisioning teardown across clouds.',
         ],
         rank: '#2',
         duration: '',
       },
       {
         id: 2,
-        title: 'Monitoring and Logging Solution',
+        title: 'Test Observability & Monitoring Solution',
         description:
           'Objective: Develop a generative AI-based sales forecasting model tailored for decision-making in retail or FMCG domains. Outcome: Learners will create predictive sales reports and simulate scenarios for strategic planning.',
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp', // Provide the path to the icon image
         listItems: [
-          'Objective: Set up a robust monitoring and logging infrastructure for realtime data analysis and alerting.',
-          'Outcome: Prometheus, Grafana, ELK Stack, AWS CloudWatch',
-          'Skills Covered: Create a robust system for real-time monitoring and alerts.',
+          'Objective: Set up cloud monitoring and log aggregation for test environments, enabling real-time failure detection and alerting.',
+          'Skills Covered: Prometheus, Grafana, ELK Stack, AWS CloudWatch',
+          'Outcome: Build a system for real-time test environment monitoring and alerts',
         ],
         rank: '#3',
         duration: '',
@@ -203,15 +203,15 @@ export const NewDSAData = [
 
       {
         id: 3,
-        title: 'Serverless Application Deployment with DevOps',
+        title: 'Containerised Parallel Test Execution Platform',
         description:
           'Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.',
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-41.webp', // Provide the path to the icon image
         listItems: [
-          'Build and deploy a serverless application using cloud functions, ensuring that the entire process follows a DevOps workflow.',
-          'Tools: AWS Lambda, Azure Functions, Google Cloud Functions, GitHub Actions',
-          'outcome: Develop and deploy ascalable serverless application.',
+          'Objective: Package test suites into Docker containers, deploy Selenium Grid on Kubernetes, and execute tests in parallel with auto-scaling and teardown.',
+          'Skills Covered: Docker, Kubernetes, Selenium Grid, GitHub Actions, AWS EC2',
+          'Outcome: Run parallel tests at scale on cloud infrastructure.',
         ],
         rank: '#4',
         duration: '20 hours',
@@ -224,9 +224,9 @@ export const NewDSAData = [
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp', // Provide the path to the icon image
         listItems: [
-          'Create a multistage CI/CD pipeline for deploying a microservices based application to a cloud platform like AWS, Azure, or GCP.',
-          'Jenkins, GitLab CI/CD, Docker, Kubernetes',
-          'Outcome : Automate microservices deployment using a multistage CI/CD pipeline.',
+          'Objective: Create a multistage CI/CD pipeline integrating automated test suites, quality gates, parallel execution, and deployment to a cloud platform like AWS.',
+          'Skills Covered: Jenkins, GitLab CI/CD, Docker, Kubernetes',
+          'Outcome: Automate test execution and deployment using a multistage CI/CD pipeline.',
         ],
         rank: '#1',
         duration: '',
@@ -654,7 +654,7 @@ export const NewDSAData = [
 
       {
         Module13: {
-          title: 'Cloud & DevOps for QA Engineers ',
+          title: 'Cloud & DevOps for Specialization QA Engineers ',
           hours: '6 weeks',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
