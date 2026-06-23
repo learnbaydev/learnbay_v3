@@ -80,7 +80,7 @@ No wonder Bangalore offers <b>the best career options in 2026</b> for tech exper
 
 The rise of Gen AI and automation trends halts career progress for many IT experts. AI models and virtual assistants are replacing generic IT experts, such as developers, coders, or engineers. Hence, upskilling has become crucial for IT experts to stay ahead of the curve.
 
-IT experts can enroll in the <b>full-stack developer course or the <a href="https://www.learnbay.co/cloud&devops/online-cloud-computing-course-bangalore" target="_blank">cloud computing course in Bangalore</a></b> to confront the AI age.
+IT experts can enroll in the <b>full-stack developer course or the <a href="https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-bangalore" target="_blank">cloud computing course in Bangalore</a></b> to confront the AI age.
 
 ### Emerging Non-tech Jobs in Bangalore: Opportunities & Gaps
 

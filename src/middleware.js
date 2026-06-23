@@ -43,7 +43,7 @@
 //     },
 //     {
 //       source: '/cloud&devops/bangalore/online-cloud-computing-course-bangalore',
-//       destination: '/cloud&devops/online-cloud-computing-course-bangalore',
+//       destination: '/cloud-and-devops/online-cloud-computing-course-bangalore',
 //       statusCode: 301, // Force 301 Redirect
 //     },
 //   ];
@@ -151,7 +151,7 @@ export function middleware(req) {
     {
       source:
         '/cloud&devops/bangalore/online-cloud-computing-course-bangalore/',
-      destination: '/cloud&devops/online-cloud-computing-course-bangalore',
+      destination: '/cloud-and-devops/online-cloud-computing-course-bangalore',
     },
     {
       source:

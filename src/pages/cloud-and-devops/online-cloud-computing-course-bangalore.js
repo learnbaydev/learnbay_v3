@@ -50,11 +50,11 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/online-cloud-computing-course-bangalore"
+          href="https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-bangalore"
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud&devops/online-cloud-computing-course-bangalore"
+          content="https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-bangalore"
         />
         <meta
           property="og:title"

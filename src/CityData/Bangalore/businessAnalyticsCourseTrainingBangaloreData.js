@@ -703,7 +703,7 @@ export const BABangaloreCourseData = [
     Note: 'You can also check:',
     linkText1: 'Best Cloud Computing Course in Bangalore',
     link1:
-      'https://www.learnbay.co/cloud&devops/online-cloud-computing-course-bangalore',
+      'https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-bangalore',
     CertificationHead1:
       'Learnbay Business Analytics course training is powered by IBM certificates',
     CertificationBot1:

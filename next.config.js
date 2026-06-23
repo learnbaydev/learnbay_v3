@@ -1594,7 +1594,8 @@ const nextConfig = {
       },
       {
         source: '/cloud&devops/bangalore/o',
-        destination: '/cloud&devops/online-cloud-computing-course-bangalore',
+        destination:
+          '/cloud-and-devops/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
@@ -1651,7 +1652,8 @@ const nextConfig = {
       },
       {
         source: '/cloud&amp;devops/online-cloud-computing-course-bangalore',
-        destination: '/cloud&devops/online-cloud-computing-course-bangalore',
+        destination:
+          '/cloud-and-devops/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
@@ -1721,7 +1723,8 @@ const nextConfig = {
       {
         source:
           '/cloud&amp;devops/bangalore/online-cloud-computing-course-bangalore',
-        destination: '/cloud&devops/online-cloud-computing-course-bangalore',
+        destination:
+          '/cloud-and-devops/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
