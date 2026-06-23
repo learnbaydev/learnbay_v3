@@ -766,7 +766,7 @@ export const CourseData = [
       },
       {
         id: 2,
-        url: 'https://www.learnbay.co/cloud-and-devops-for-network-professionals',
+        url: 'https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-network-professionals',
         name: 'Cloud & DevOps training for Network Professionals',
       },
       {

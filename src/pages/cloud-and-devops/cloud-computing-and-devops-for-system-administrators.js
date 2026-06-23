@@ -764,7 +764,7 @@ export default NewDSA;
 
 export async function getStaticProps() {
   const module =
-    await import('../Data/cloud-and-devops-for-system-administrators-data');
+    await import('../../Data/cloud-and-devops-for-system-administrators-data');
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

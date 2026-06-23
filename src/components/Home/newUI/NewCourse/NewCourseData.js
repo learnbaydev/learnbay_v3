@@ -1027,7 +1027,7 @@ export const courses = {
       description: 'For Network Professionals',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO1.webp',
-      link: '/cloud-and-devops-for-network-professionals',
+      link: '/cloud-and-devops/cloud-computing-and-devops-for-network-professionals',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf',
       brochurePdfs:
@@ -1404,7 +1404,7 @@ export const certificationcloudCourses = [
     ],
     imageSrc: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp',
 
-    link: '/cloud-and-devops-for-network-professionals',
+    link: '/cloud-and-devops/cloud-computing-and-devops-for-network-professionals',
     brochureLinks:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf',
     brochurePdfs:

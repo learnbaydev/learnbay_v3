@@ -802,7 +802,7 @@ export default NewDSA;
 
 export async function getStaticProps() {
   const module =
-    await import('../Data/cloud-and-devops-for-it-support-and-it-operations-data');
+    await import('../../Data/cloud-and-devops-for-it-support-and-it-operations-data');
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>
