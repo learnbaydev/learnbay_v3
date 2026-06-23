@@ -118,7 +118,7 @@ export const courses = {
     //     image:
     //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
 
-    //     link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //     link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //     brochureLinks:
     //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf",
     //     brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
@@ -170,7 +170,7 @@ export const courses = {
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
 
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf",
@@ -304,7 +304,7 @@ export const courses = {
     //   description: "Designed by industry experts",
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
     //   brochurePdfs:
@@ -317,7 +317,7 @@ export const courses = {
     //   description: "Designed by industry experts",
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
     //   brochurePdfs:
@@ -570,7 +570,7 @@ export const courses = {
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
 
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
     //   brochurePdfs:
@@ -665,7 +665,7 @@ export const courses = {
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
 
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
     //   brochurePdfs:
@@ -1138,7 +1138,7 @@ export const courses = {
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
 
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
     //   brochurePdfs:
@@ -1153,7 +1153,7 @@ export const courses = {
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
 
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
     //   brochurePdfs:

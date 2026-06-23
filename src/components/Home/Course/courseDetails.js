@@ -96,7 +96,7 @@ export const courseDetails = [
               ,
             ],
             link1:
-              '/cloud&devops/cloud-computing-and-devOps-certification-program',
+              '/cloud-and-devops/cloud-computing-and-devops-certification-program',
             link2:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
@@ -882,7 +882,7 @@ export const courseDetails = [
               ,
             ],
             link1:
-              '/cloud&devops/cloud-computing-and-devOps-certification-program',
+              '/cloud-and-devops/cloud-computing-and-devops-certification-program',
             link2:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
@@ -1391,7 +1391,7 @@ export const courseDetails = [
               ,
             ],
             link1:
-              '/cloud&devops/cloud-computing-and-devOps-certification-program',
+              '/cloud-and-devops/cloud-computing-and-devops-certification-program',
             link2:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
@@ -1749,7 +1749,7 @@ export const courseDetails = [
               ,
             ],
             link1:
-              '/cloud&devops/cloud-computing-and-devOps-certification-program',
+              '/cloud-and-devops/cloud-computing-and-devops-certification-program',
             link2:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
@@ -1785,7 +1785,7 @@ export const courseDetails = [
               ,
             ],
             link1:
-              '/cloud&devops/cloud-computing-and-devOps-certification-program',
+              '/cloud-and-devops/cloud-computing-and-devops-certification-program',
             link2:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
@@ -2152,7 +2152,7 @@ export const courseDetails = [
               ,
             ],
             link1:
-              '/cloud&devops/cloud-computing-and-devOps-certification-program',
+              '/cloud-and-devops/cloud-computing-and-devops-certification-program',
             link2:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
@@ -2260,7 +2260,7 @@ export const courseDetailsM = [
               ,
             ],
             link1:
-              '/cloud&devops/cloud-computing-and-devOps-certification-program',
+              '/cloud-and-devops/cloud-computing-and-devops-certification-program',
             link2:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
@@ -3162,7 +3162,7 @@ export const courseDetailsM = [
               ,
             ],
             link1:
-              '/cloud&devops/cloud-computing-and-devOps-certification-program',
+              '/cloud-and-devops/cloud-computing-and-devops-certification-program',
             link2:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },
@@ -3527,7 +3527,7 @@ export const courseDetailsM = [
               ,
             ],
             link1:
-              '/cloud&devops/cloud-computing-and-devOps-certification-program',
+              '/cloud-and-devops/cloud-computing-and-devops-certification-program',
             link2:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
           },

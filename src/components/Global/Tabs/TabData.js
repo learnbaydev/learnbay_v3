@@ -175,7 +175,7 @@ export const TabData = [
       // {
       //   CName: "Cloud Computing & DevOps Certification Program",
       //   hours: "6 Months",
-      //   url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+      //   url: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
       // },
       // {
       //   CName: "Certificate in AWS Cloud Computing & Devops",

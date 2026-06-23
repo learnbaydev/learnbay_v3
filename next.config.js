@@ -1605,7 +1605,7 @@ const nextConfig = {
       {
         source: '/clouddevops/c',
         destination:
-          '/cloud&devops/cloud-computing-and-devOps-certification-program',
+          '/cloud-and-devops/cloud-computing-and-devops-certification-program',
         permanent: true,
       },
       {
@@ -1646,7 +1646,7 @@ const nextConfig = {
         source:
           '/cloud&amp;devops/cloud-computing-and-devOps-certification-program',
         destination:
-          '/cloud&devops/cloud-computing-and-devOps-certification-program',
+          '/cloud-and-devops/cloud-computing-and-devops-certification-program',
         permanent: true,
       },
       {
@@ -2020,7 +2020,7 @@ const nextConfig = {
         source:
           '/cloud&devops/cloud-computing-and-devOps-certification-program',
         destination:
-          '/cloud-and-devops/advanced-cloud-computing-and-devops-program',
+          '/cloud-and-devops/cloud-computing-and-devops-certification-program',
         permanent: true,
       },
 
