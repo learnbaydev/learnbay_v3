@@ -1,3 +1,5 @@
+const { deserialize } = require('mongodb');
+
 const isProd = process.env.NODE_ENV == 'production';
 const nextConfig = {
   assetPrefix: isProd ? 'https://d32and0ii3b8oy.cloudfront.net/' : undefined,
@@ -2038,6 +2040,13 @@ const nextConfig = {
       {
         source: '/cloud&devops/online-cloud-computing-course-pune',
         destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+        permanent: true,
+      },
+
+      {
+        source: '/cloud&devops/cloud-and-devops-engineering-masters',
+        destination:
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         permanent: true,
       },
     ];

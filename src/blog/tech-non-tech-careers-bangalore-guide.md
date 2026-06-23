@@ -243,7 +243,7 @@ IBM & Microsoft certificates
 
 Many times, we have heard people asking, <b>Is it difficult to get an IT/Tech job in Bangalore?</b> This query decides your path to success in your domain. Well, learning is the sole way to meet your career goals and thrive.
 
-Apart from Bangalore-specific courses, techies with more work experience can enroll in master's programs. Tech experts can pursue the <b><a href="https://www.learnbay.co/fullstack/full-stack-software-development" target="_blank">Full Stack Software Development Master's Program </a></b> or <b><a href="https://www.learnbay.co/cloud&devops/cloud-and-devops-engineering-masters" target="_blank">Cloud & DevOps Engineering Master's Program</a></b> for specific career growth. Freshers can join the <b>DSA Course with Placement Prep</b> to kick-start a thriving career. Experts can pursue such courses to crack DSA, cloud, or <b>DevOps jobs in Bangalore.</b>
+Apart from Bangalore-specific courses, techies with more work experience can enroll in master's programs. Tech experts can pursue the <b><a href="https://www.learnbay.co/fullstack/full-stack-software-development" target="_blank">Full Stack Software Development Master's Program </a></b> or <b><a href="https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification" target="_blank">Cloud & DevOps Engineering Master's Program</a></b> for specific career growth. Freshers can join the <b>DSA Course with Placement Prep</b> to kick-start a thriving career. Experts can pursue such courses to crack DSA, cloud, or <b>DevOps jobs in Bangalore.</b>
 
 ### Non-tech Domain Courses in Bangalore
 

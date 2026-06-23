@@ -190,7 +190,7 @@ export const TabData = [
       // {
       //   CName: "Cloud and DevOps Engineering Masters Certification",
       //   hours: "10 Months",
-      //   url: "/cloud&devops/cloud-and-devops-engineering-masters",
+      //   url: "/cloud-and-devops/ai-powered-cloud-devops-masters-certification",
       // },
       // {
       //   CName: "Software Development Certification Program",
