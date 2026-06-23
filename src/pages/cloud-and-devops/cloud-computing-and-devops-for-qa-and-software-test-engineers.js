@@ -285,11 +285,11 @@ const NewDSA = ({ DSADataJson }) => {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Clouds and DevOps Network professionals certification,
-Clouds and DevOps Engineering Network professionals,
-DevOps certification for Network professionals,
-Cloud engineering for Network professionals,
-Clouds and DevOps Network professional program
+          content="Clouds and DevOps QA professionals certification,
+Clouds and DevOps Engineering QA professionals,
+DevOps certification for QA professionals,
+Cloud engineering for QA professionals,
+Clouds and DevOps QA professional program
 
 "
         />
@@ -301,11 +301,11 @@ Clouds and DevOps Network professional program
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Cloud & DevOps training for Network Professionals - Learnbay"
+          content=" Cloud & DevOps Training for QA & Test Engineers - Learnbay"
         />
         <meta
           property="og:description"
-          content="Advance your networking career with Learnbay's cloud & DevOps training. Learn AWS, cloud security, automation, and DevOps through live classes. Enrol now!"
+          content="Advance your QA career with Learnbay's cloud & DevOps training. Learn CI/CD pipelines, test infrastructure, Kubernetes, and cloud monitoring. Enrol now!"
         />
         <meta
           property="og:image"
@@ -321,11 +321,11 @@ Clouds and DevOps Network professional program
         />
         <meta
           name="twitter:title"
-          content="Cloud & DevOps training for Network Professionals - Learnbay"
+          content="Cloud & DevOps Training for QA & Test Engineers - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Advance your networking career with Learnbay's cloud & DevOps training. Learn AWS, cloud security, automation, and DevOps through live classes. Enrol now!"
+          content="Advance your QA career with Learnbay's cloud & DevOps training. Learn CI/CD pipelines, test infrastructure, Kubernetes, and cloud monitoring. Enrol now!"
         />
         <meta
           name="twitter:image"
@@ -346,8 +346,8 @@ Clouds and DevOps Network professional program
             __html: `{
    "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Cloud & DevOps training for Network Professionals - Learnbay",
-  "description": "Advance your networking career with Learnbay's cloud & DevOps training. Learn AWS, cloud security, automation, and DevOps through live classes. Enrol now!",
+  "name": " Cloud & DevOps Training for QA & Test Engineers - Learnbay",
+  "description": "The Cloud and DevOps program prepares QA engineers to own test infrastructure, build CI/CD pipelines, and operate cloud environments at scale.",
   "url": "https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-qa-and-software-test-engineers",
   "offers": {
     "@type": "offer",
