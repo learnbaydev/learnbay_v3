@@ -786,7 +786,7 @@ export const CourseData = [
       },
       {
         id: 6,
-        url: 'https://www.learnbay.co/cloud-and-devops-for-database-administrators',
+        url: 'https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-database-administrators',
         name: 'Cloud & DevOps Certification for Database Admins',
       },
       {

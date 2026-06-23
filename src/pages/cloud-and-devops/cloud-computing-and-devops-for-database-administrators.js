@@ -298,7 +298,7 @@ devops database administrator
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud-and-devops-for-database-administrators"
+          content="https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-database-administrators"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -319,7 +319,7 @@ devops database administrator
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud-and-devops-for-database-administrators"
+          content="https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-database-administrators"
         />
         <meta
           name="twitter:title"
@@ -340,7 +340,7 @@ devops database administrator
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud-and-devops-for-database-administrators"
+          href="https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-database-administrators"
         />
         <script
           type="application/ld+json"
@@ -350,7 +350,7 @@ devops database administrator
   "@type": "Course",
   "name": "Cloud & DevOps Certification for Database Admins - Learnbay",
   "description": "Upgrade your DBA career with Cloud & DevOps training. Learn cloud databases, DevOps automation, AWS tools, and hands-on projects with experts.",
-  "url": "https://www.learnbay.co/cloud-and-devops-for-database-administrators",
+  "url": "https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-database-administrators",
   "offers": {
     "@type": "offer",
     "price": "120000",
