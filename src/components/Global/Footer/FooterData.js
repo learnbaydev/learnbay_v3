@@ -771,7 +771,7 @@ export const CourseData = [
       },
       {
         id: 3,
-        url: 'https://www.learnbay.co/cloud-and-devops-for-system-administrators',
+        url: 'https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-system-administrators',
         name: 'Cloud & DevOps Program For System Administrators',
       },
       {

@@ -1041,7 +1041,7 @@ export const courses = {
       description: 'For System Administrators',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO2.webp',
-      link: '/cloud-and-devops-for-system-administrators',
+      link: '/cloud-and-devops/cloud-computing-and-devops-for-system-administrators',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf',
       brochurePdfs:
@@ -1428,7 +1428,7 @@ export const certificationcloudCourses = [
       },
     ],
     imageSrc: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_II.webp',
-    link: '/cloud-and-devops-for-system-administrators',
+    link: '/cloud-and-devops/cloud-computing-and-devops-for-system-administrators',
     brochureLinks:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf',
     brochurePdfs:
