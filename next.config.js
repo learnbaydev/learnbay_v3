@@ -1926,7 +1926,8 @@ const nextConfig = {
       {
         source:
           '/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati',
-        destination: 'https://www.learnbay.co',
+        destination:
+          'https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         permanent: true,
       },
       {

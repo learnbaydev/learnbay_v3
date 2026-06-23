@@ -157,7 +157,7 @@ export function middleware(req) {
       source:
         '/cloud&amp;devops/executive-program-in-cloud-and-devops-by-iit-guwahati/',
       destination:
-        '/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati',
+        '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
     },
   ];
 
