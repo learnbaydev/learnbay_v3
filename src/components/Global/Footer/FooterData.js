@@ -770,6 +770,11 @@ export const CourseData = [
         name: 'Cloud & DevOps training for Network Professionals',
       },
       {
+        id: 22,
+        url: 'https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-qa-and-software-test-engineers',
+        name: 'Cloud & DevOps for QA and Software Test Engineers',
+      },
+      {
         id: 3,
         url: 'https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-system-administrators',
         name: 'Cloud & DevOps Program For System Administrators',

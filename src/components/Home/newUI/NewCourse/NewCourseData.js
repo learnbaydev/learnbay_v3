@@ -1033,6 +1033,19 @@ export const courses = {
       brochurePdfs:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf',
     },
+    {
+      title: 'Cloud & DevOps for QA and Software Test Engineers',
+      duration: '5 months',
+      certification: 'Certification form Microsoft',
+      description: 'For QA and Software Test Engineers',
+      image:
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO1.webp',
+      link: 'cloud-and-devops/cloud-computing-and-devops-for-qa-and-software-test-engineers',
+      brochureLinks:
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_QA.pdf',
+      brochurePdfs:
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_QA.pdf',
+    },
 
     {
       title: 'Cloud & DevOps for System Administrators',
