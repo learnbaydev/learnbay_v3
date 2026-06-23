@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./LearningToPlacement.module.css";
-import Image from "next/image";
+import React from 'react';
+import styles from './LearningToPlacement.module.css';
+import Image from 'next/image';
 
 const LearningToPlacement = ({ time, guided }) => {
   return (
@@ -9,19 +9,19 @@ const LearningToPlacement = ({ time, guided }) => {
         <div className={styles.header}>
           <div className={styles.top}>
             <h3>
-              From{" "}
+              From{' '}
               <span className={styles.highlight}>Learning to Placement</span>
             </h3>
             <p className={styles.des}>We've got you covered</p>
             <div className={styles.underline}>
-              {" "}
+              {' '}
               <Image
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/under_lone.webp"
                 width={220}
                 height={25}
                 alt="underLine"
                 loading="lazy"
-              />{" "}
+              />{' '}
             </div>
           </div>
 
@@ -63,12 +63,12 @@ const LearningToPlacement = ({ time, guided }) => {
             <p className={styles.pTag}>
               <span className={styles.green}>
                 Become a Microsoft Certified Cloud Professional
-              </span>{" "}
+              </span>{' '}
               {/* <span className={styles.nor}>Subscription</span> */}
             </p>
             <span className={styles.learn}>
-              Learn practical system administration skills and achieve Microsoft
-              certification.
+              Learn practical cloud and DevOps skills built for QA engineers and
+              achieve Microsoft certification.
             </span>
           </div>
 
@@ -78,9 +78,9 @@ const LearningToPlacement = ({ time, guided }) => {
               <div className={styles.capRight}>
                 <h5>
                   <strong>
-                    Gain hands-on experience by solving real startup network
-                    challenges and earn industry-certified projects that
-                    demonstrate your operational expertise.
+                    Gain hands-on experience solving real startup QA
+                    infrastructure challenges and earn industry-certified
+                    projects that demonstrate your cloud expertise.
                   </strong>
                 </h5>
               </div>

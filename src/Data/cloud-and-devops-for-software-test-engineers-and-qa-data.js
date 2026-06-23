@@ -24,7 +24,7 @@ export const NewDSAData = [
             id: 1,
             img: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp',
             imgAlt: 'DSA First Point',
-            text1: 'Work on Startup-Driven Database Projects.',
+            text1: 'Work on Startup-Driven QA Cloud Projects.',
           },
           {
             id: 2,

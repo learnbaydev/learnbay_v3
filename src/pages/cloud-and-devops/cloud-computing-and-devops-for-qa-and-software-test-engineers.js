@@ -14,13 +14,14 @@ import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import React from 'react';
-import highlightsData from '@/Data/highlightsDataNP';
+import highlightsData from '@/Data/highlightsDataQA';
 import FAQ from '@/components/AppliedAIPractitionerProgram/FAQs/FAQ';
 const AnimationNew1 = dynamic(
   () => import('@/components/Home/whyChooseSection/whylblimitedNP')
 );
 const JobReadySection = dynamic(
-  () => import('@/components/CoursePage/NewDSA/JobReadySection/JobReadySection')
+  () =>
+    import('@/components/CoursePage/NewDSA/JobReadySectionQA/JobReadySection')
 );
 const DSASyllabus = dynamic(
   () => import('@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus')
@@ -52,38 +53,38 @@ const NewDSA = ({ DSADataJson }) => {
       data: [
         {
           id: 0,
-          ques: 'What is the duration of the Cloud and DevOps Engineering Program for network professionals?',
+          ques: 'What is the duration of the Cloud and DevOps Engineering Program for QA Engineers?',
           ans: 'With our 150+ hours of live instructor-led training sessions, you can establish yourself as a certified professional in Cloud or DevOps.',
           open: true,
         },
         {
           id: 1,
           ques: 'What prerequisites are required to enroll in this program?',
-          ans: 'This program is suitable for entry to mid-level working professionals with a minimum of 1 year of work experience in the IT domain.',
+          ans: 'This program is suitable for entry to mid-level QA and test professionals with a minimum of 1 year of QA experience and basic familiarity with testing.',
           open: false,
         },
         {
           id: 2,
-          ques: 'Is this Cloud Computing Course suitable for freshers in IT?',
-          ans: 'No, this certification is not an ideal match for freshers. It requires a minimum of 1 year of working experience in the tech domain.',
+          ques: 'Is this Cloud and DevOps Course suitable for freshers in QA?',
+          ans: 'No, this is not a match for freshers. It requires at least 1 year of QA experience. Cloud and DevOps topics are taught from scratch.',
           open: false,
         },
         {
           id: 3,
-          ques: 'What cloud platforms are covered in the Cloud and DevOps Engineering Program?',
-          ans: 'This course will cover Google Cloud Platform, Microsoft Azure, and Amazon AWS tools with a hands-on learning experience.',
+          ques: 'What cloud platforms and DevOps tools are covered in this program?',
+          ans: 'This course covers AWS, Azure, and GCP alongside DevOps tools including Docker, Kubernetes, and cloud monitoring platforms.',
           open: false,
         },
         {
           id: 4,
-          ques: 'How do I stay updated on course content and any changes in the Cloud Computing Course with Real-Time Projects?',
-          ans: 'Learnbay enables learners to stay updated with recent developments through its customized application. This app enables you to chat online with the respective groups and mentors for further clarification on course doubts.',
+          ques: 'How does this program help QA engineers move into cloud roles?',
+          ans: 'Learnbay teaches cloud infrastructure skills that QA engineers need in modern production teams.',
           open: false,
         },
         {
           id: 5,
-          ques: 'How does this program prepare aspirants for real-world cloud and DevOps challenges?',
-          ans: 'The DevOps Training with capstone projects prepares IT professionals to tackle network challenges faced by startups and deliver scalable results.',
+          ques: 'Do I need prior cloud knowledge to join?',
+          ans: 'The Cloud and DevOps program prepares QA engineers to own test infrastructure, build CI/CD pipelines, and operate cloud environments at scale.',
           open: false,
         },
       ],
@@ -94,7 +95,7 @@ const NewDSA = ({ DSADataJson }) => {
       data: [
         {
           id: 0,
-          ques: 'How much does the Cloud & DevOps Engineering Certification (for network professionals) cost?',
+          ques: 'How much does the Cloud & DevOps Engineering Certification (for QA Engineers) cost?',
           ans: 'The course fee is INR 1,20,000 + 18% GST.',
           open: false,
         },
@@ -193,7 +194,7 @@ const NewDSA = ({ DSADataJson }) => {
           dscoursefaq1: true,
           list1: 'Industry-driven modules with AWS, Microsoft Azure, and GCP',
           list2: 'Assured interview calls from 350+ Industry partners',
-          list3: 'Domain-specific training (for network professionals)',
+          list3: 'Domain-specific training (for QA Engineers)',
           list4: 'ATS-friendly resume optimization and 1:1 doubt-clearing',
         },
         {
@@ -275,11 +276,11 @@ const NewDSA = ({ DSADataJson }) => {
     <>
       <Head>
         <title>
-          Cloud & DevOps training for Network Professionals - Learnbay
+          Cloud & DevOps Training for QA & Test Engineers - Learnbay
         </title>
         <meta
           name="description"
-          content="Advance your career as a Software Test Engineer with Cloud and DevOps training. Gain hands-on skills and job-ready expertise for tech roles worldwide."
+          content="Advance your QA career with Learnbay's cloud & DevOps training. Learn CI/CD pipelines, test infrastructure, Kubernetes, and cloud monitoring. Enrol now!"
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -411,7 +412,7 @@ Clouds and DevOps Network professional program
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the duration of the Cloud and DevOps Engineering Program for network professionals?",
+      "name": "What is the duration of the Cloud and DevOps Engineering Program for QA Engineers?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With our 150+ hours of live instructor-led training sessions, you can establish yourself as a certified professional in Cloud or DevOps. "
@@ -459,7 +460,7 @@ Clouds and DevOps Network professional program
     },
     {
       "@type": "Question",
-      "name": "How much does the Cloud & DevOps Engineering Certification (for network professionals) cost?",
+      "name": "How much does the Cloud & DevOps Engineering Certification (for QA Engineers) cost?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The course fee is INR 1,20,000 + 18% GST. "
@@ -550,7 +551,7 @@ Clouds and DevOps Network professional program
       "name": "How does this program cater to individuals interested in pursuing a career as a certified Cloud & DevOps professional?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This program aims to support career-building with promising job roles. IT experts eager to pursue a career as a Cloud or DevOps Engineer will get seamless training sessions. Hands-on learning of tools helps learners future-proof their skills with assured job offers as certified network professionals. "
+        "text": "This program aims to support career-building with promising job roles. IT experts eager to pursue a career as a Cloud or DevOps Engineer will get seamless training sessions. Hands-on learning of tools helps learners future-proof their skills with assured job offers as certified QA Engineers. "
       }
     },
     {
@@ -558,7 +559,7 @@ Clouds and DevOps Network professional program
       "name": "What distinguishes this course from others in the market?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –\n\nIndustry-driven modules with AWS, Microsoft Azure, and GCP\nAssured interview calls from 350+ Industry partners \nGlobally recognised project certification from Microsoft\nDomain-specific training (for network professionals)\n100%  live interactions with mentors\n1:1 doubt-clearing sessions\nResume optimization"
+        "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –\n\nIndustry-driven modules with AWS, Microsoft Azure, and GCP\nAssured interview calls from 350+ Industry partners \nGlobally recognised project certification from Microsoft\nDomain-specific training (for QA Engineers)\n100%  live interactions with mentors\n1:1 doubt-clearing sessions\nResume optimization"
       }
     },
     {
