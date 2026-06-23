@@ -1110,7 +1110,7 @@ export const courses = {
       description: 'For Database Administrators',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO5.webp',
-      link: '/advanced-cloud-and-devops-program',
+      link: '/cloud-and-devops/advanced-cloud-computing-and-devops-program',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf',
       brochurePdfs:

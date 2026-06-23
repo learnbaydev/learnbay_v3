@@ -781,7 +781,7 @@ export const CourseData = [
       },
       {
         id: 4,
-        url: 'https://www.learnbay.co/advanced-cloud-and-devops-program',
+        url: 'https://www.learnbay.co/cloud-and-devops/advanced-cloud-computing-and-devops-program',
         name: 'Advanced Cloud and DevOps Training Program',
       },
       {
