@@ -447,7 +447,7 @@ export const FullStackBangaloreCourseData = [
     Note: 'You can also check:',
     linkText1: 'Best Cloud Computing Course in Bangalore',
     link1:
-      'https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-bangalore',
+      'https://www.learnbay.co/cloud&devops/online-cloud-computing-course-bangalore',
     DomainHead8:
       'Note: Our courses always follow the contemporary job market skill demands, so our modules and courses are always updated. Please check the brochure in the module section to get the current syllabus.',
     ModuleBot1:

@@ -1,12 +1,12 @@
-import Head from 'next/head';
-import { parseJSONData } from '@/Util/JsonConvertor';
-import FirstPart from '@/components/CoursePage/FirstPart/DevOpsFirstpart';
-import SecondPart from '@/components/CoursePage/FirstPart/DevopsSecondPart';
-import Navbar from '@/components/Global/Navbar/Navbar';
+import Head from "next/head";
+import { parseJSONData } from "@/Util/JsonConvertor";
+import FirstPart from "@/components/CoursePage/FirstPart/DevOpsFirstpart";
+import SecondPart from "@/components/CoursePage/FirstPart/DevopsSecondPart";
+import Navbar from "@/components/Global/Navbar/Navbar";
 import {
   cloudDevOpsSchema,
   cloudCourseSchema,
-} from '@/Data/Schema/CloudAnddevopsSchema'; // Import the schema
+} from "@/Data/Schema/CloudAnddevopsSchema"; // Import the schema
 
 function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
   const CloudAndDevOpsCourseData = parseJSONData(CloudAndDevOpsCourseDataJson);
@@ -32,7 +32,7 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-certification-program"
+          href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
         />
       </Head>
       <main>
@@ -69,7 +69,7 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
 export default CloudAndDevOpsCoursePage;
 
 export async function getStaticProps() {
-  const data = await import('../../Data/CloudAndDevOpsCourse');
+  const data = await import("../../Data/CloudAndDevOpsCourse");
   function getCloudAndDevOpsCourseDataJSON(CloudAndDevOpsCourseData) {
     return JSON.stringify(CloudAndDevOpsCourseData);
   }

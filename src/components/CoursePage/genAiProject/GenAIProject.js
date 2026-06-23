@@ -1,12 +1,12 @@
-import React from 'react';
-import styles from './genAi.module.css'; // Ensure the path is correct
-import Image from 'next/image';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper';
+import React from "react";
+import styles from "./genAi.module.css"; // Ensure the path is correct
+import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation } from "swiper";
 
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const GenAIProject = ({ genAiData, Duration, GENAIMAN, noClud }) => {
   // Function to highlight specific words in red
@@ -59,15 +59,15 @@ const GenAIProject = ({ genAiData, Duration, GENAIMAN, noClud }) => {
         >
           {[...genAiData]
             .sort((a, b) => {
-              const rankA = parseInt(a.rank.replace('#', ''));
-              const rankB = parseInt(b.rank.replace('#', ''));
+              const rankA = parseInt(a.rank.replace("#", ""));
+              const rankB = parseInt(b.rank.replace("#", ""));
               return rankA - rankB;
             })
             .map((project) => (
               <SwiperSlide key={project.id}>
                 <div
                   className={`${styles.Card} ${
-                    GENAIMAN ? styles.CardManger : ''
+                    GENAIMAN ? styles.CardManger : ""
                   }`}
                 >
                   <div className={styles.iconDIv}>

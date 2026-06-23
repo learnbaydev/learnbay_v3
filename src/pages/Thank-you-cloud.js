@@ -77,8 +77,6 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
     // Cloud & DevOps Category
     'cloud-network-pro':
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf',
-    'cloud-qa-pro':
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_QA.pdf',
     'cloud-sys-admin':
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
     'adv-cloud-devops':

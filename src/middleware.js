@@ -33,7 +33,7 @@
 //     },
 //     {
 //       source: '/cloud&devops/pune/online-cloud-computing-course-pune',
-//       destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+//       destination: '/cloud&devops/online-cloud-computing-course-pune',
 //       statusCode: 301, // Force 301 Redirect
 //     },
 //     {
@@ -43,7 +43,7 @@
 //     },
 //     {
 //       source: '/cloud&devops/bangalore/online-cloud-computing-course-bangalore',
-//       destination: '/cloud-and-devops/online-cloud-computing-course-bangalore',
+//       destination: '/cloud&devops/online-cloud-computing-course-bangalore',
 //       statusCode: 301, // Force 301 Redirect
 //     },
 //   ];
@@ -142,7 +142,7 @@ export function middleware(req) {
 
     {
       source: '/cloud&devops/pune/online-cloud-computing-course-pune/',
-      destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+      destination: '/cloud&devops/online-cloud-computing-course-pune',
     },
     {
       source: '/cloud&devops/bangalore/online-devops-training-in-bangalore/',
@@ -151,13 +151,13 @@ export function middleware(req) {
     {
       source:
         '/cloud&devops/bangalore/online-cloud-computing-course-bangalore/',
-      destination: '/cloud-and-devops/online-cloud-computing-course-bangalore',
+      destination: '/cloud&devops/online-cloud-computing-course-bangalore',
     },
     {
       source:
         '/cloud&amp;devops/executive-program-in-cloud-and-devops-by-iit-guwahati/',
       destination:
-        '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
+        '/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati',
     },
   ];
 

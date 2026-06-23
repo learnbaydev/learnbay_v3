@@ -606,7 +606,7 @@ export const CloudComputingTrainingInPune = [
       <span>
         Also, Learnbay’s{' '}
         <a
-          href="https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-certification-program"
+          href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
           style={{ color: '#0072bc' }}
           target="_blank"
         >

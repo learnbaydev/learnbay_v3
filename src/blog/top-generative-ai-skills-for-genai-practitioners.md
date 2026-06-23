@@ -444,7 +444,7 @@ Professionals can master <a href="https://www.learnbay.co/blogs/generative-ai-co
 
 <p style="font-size:  1.2rem;margin: 0; padding: 0;">• <b>GCP Vertex AI</b> — End-to-end ML pipelines plus Vertex Search for vector database integration — suited for teams that need both training infrastructure and production serving.</p>
 
-Aspirants can also opt to pursue an <a href="https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification" target="_blank">AI-powered Cloud & DevOps master's program </a>to learn about various deployment platforms.
+Aspirants can also opt to pursue an <a href="https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification" target="_blank">AI-powered Cloud & DevOps master's program </a>to learn about various deployment platforms.
 
 <hr/>
 
