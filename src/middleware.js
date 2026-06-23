@@ -33,7 +33,7 @@
 //     },
 //     {
 //       source: '/cloud&devops/pune/online-cloud-computing-course-pune',
-//       destination: '/cloud&devops/online-cloud-computing-course-pune',
+//       destination: '/cloud-and-devops/online-cloud-computing-course-pune',
 //       statusCode: 301, // Force 301 Redirect
 //     },
 //     {
@@ -142,7 +142,7 @@ export function middleware(req) {
 
     {
       source: '/cloud&devops/pune/online-cloud-computing-course-pune/',
-      destination: '/cloud&devops/online-cloud-computing-course-pune',
+      destination: '/cloud-and-devops/online-cloud-computing-course-pune',
     },
     {
       source: '/cloud&devops/bangalore/online-devops-training-in-bangalore/',

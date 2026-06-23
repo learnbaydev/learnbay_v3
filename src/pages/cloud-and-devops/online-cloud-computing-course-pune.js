@@ -50,11 +50,11 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/online-cloud-computing-course-pune"
+          href="https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-pune"
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud&devops/online-cloud-computing-course-pune"
+          content="https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-pune"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -75,7 +75,7 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud&devops/online-cloud-computing-course-pune"
+          content="https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-pune"
         />
         <meta
           name="twitter:title"
@@ -101,7 +101,7 @@ export default function Home() {
   "@type": "LocalBusiness",
   "name": "Learnbay - Data science and Generative AI courses training in Pune",
   "description": "Upskill Your Career With Learnbay's Cloud Computing Course Training In Pune. Gain Practical Skills, IBM Certifications, and dedicated placement Assistance.",
-  "url": "https://www.learnbay.co/cloud&devops/online-cloud-computing-course-pune",
+  "url": "https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-pune",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "address": {
     "@type": "PostalAddress",
@@ -185,7 +185,7 @@ export default function Home() {
   "@type": "Course",
   "name": "Online Cloud Computing Course in Pune - Learnbay",
   "description": "Upskill Your Career With Learnbay's Cloud Computing Course Training In Pune. Gain Practical Skills, IBM Certifications, and dedicated placement Assistance.",
-  "url": "https://www.learnbay.co/cloud&devops/online-cloud-computing-course-pune",
+  "url": "https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-pune",
   "provider": {
     "@type": "Organization",
     "name": "Learnbay",
