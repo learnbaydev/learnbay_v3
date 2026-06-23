@@ -1807,7 +1807,7 @@ export const courseDetails = [
               'Job-readiness with interview support',
               ,
             ],
-            link1: '/cloud&devops/aws-cloud-computing-and-devOps',
+            link1: '/cloud-and-devops/aws-cloud-computing-and-devops',
             link2:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf',
           },
@@ -3184,7 +3184,7 @@ export const courseDetailsM = [
               'Job-readiness with interview support',
               ,
             ],
-            link1: '/cloud&devops/aws-cloud-computing-and-devOps',
+            link1: '/cloud-and-devops/aws-cloud-computing-and-devops',
             link2:
               'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf',
           },

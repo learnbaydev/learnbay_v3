@@ -29,9 +29,11 @@ function WhatsappFloat({ chat360code1 }) {
   //     toggleButtons();
   //   }
   // };
-  return (
-    <>
-      {chat360code1 ? (
+
+  // commented on 23-06-26
+  {
+    /* <>
+    {chat360code1 ? (
         <Link
           href="https://api.whatsapp.com/send?phone=919606950935"
           target="_blank"
@@ -78,8 +80,9 @@ function WhatsappFloat({ chat360code1 }) {
           </div>
         </Link>
       )}
-    </>
-  );
+    </> */
+  }
+  return <></>;
 }
 
 export default React.memo(WhatsappFloat);
