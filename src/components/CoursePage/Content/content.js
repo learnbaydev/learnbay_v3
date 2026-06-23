@@ -3351,7 +3351,7 @@ function DataAnalytics({
                 computer science, Gen AI, or a{' '}
                 <b>
                   <a
-                    href="https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-certification-program"
+                    href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
                     target="_blank"
                   >
                     cloud computing certification

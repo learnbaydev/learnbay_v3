@@ -336,7 +336,7 @@ Cloud and DevOps certification program,
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification"
+          content="https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -357,7 +357,7 @@ Cloud and DevOps certification program,
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification"
+          content="https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification"
         />
         <meta
           name="twitter:title"
@@ -378,7 +378,7 @@ Cloud and DevOps certification program,
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification"
+          href="https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification"
         />
         <script
           type="application/ld+json"
@@ -388,7 +388,7 @@ Cloud and DevOps certification program,
   "@type": "Course",
   "name": "AI-Powered Cloud And DevOps Engineering Course - Learnbay",
   "description": "Advance your career with Learnbay’s AI-Powered Cloud DevOps Master Certification Program. Attend live classes, projects, and multi-cloud training. Enrol now!",
-  "url": "https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification",
+  "url": "https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
   "offers": {
     "@type": "offer",
     "price": "159000",

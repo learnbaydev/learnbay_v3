@@ -1,5 +1,5 @@
-import styles from './refund.module.css';
-import React from 'react';
+import styles from "./refund.module.css";
+import React from "react";
 
 function refund() {
   return (
@@ -85,8 +85,9 @@ function refund() {
         <p className={styles.bot}>
           Refunds will be granted to the original source used at the time of
           purchase. For example, if a payment is made through a credit card,
-          then the refund will be initiated in the same payment source, **We
-          require proof of purchase or receipt to complete your return.
+          then the refund will be initiated in the same payment source, within
+          5-7 working days. **We require proof of purchase or receipt to
+          complete your return.
         </p>
         <p className={styles.bot}>
           In case you get any difficulty, in the refund process then
@@ -100,11 +101,11 @@ function refund() {
         </li>
         <h4 className={styles.top}>
           Having followed all of the above steps but still have not received
-          your refund, contact us at -{' '}
+          your refund, contact us at -{" "}
           <a href="mailto:finance@learnbay.co">finance@learnbay.co</a>
         </h4>
         <h4 className={styles.top}>
-          For Cancellations please email us at:{' '}
+          For Cancellations please email us at:{" "}
           <a href="mailto:finance@learnbay.co">finance@learnbay.co.</a>
         </h4>
       </div>

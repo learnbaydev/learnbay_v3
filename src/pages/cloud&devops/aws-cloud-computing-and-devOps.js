@@ -29,7 +29,7 @@ function Blockchain({ AwsAndDevOpsCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud-and-devops/aws-cloud-computing-and-devops"
+          href="https://www.learnbay.co/cloud&devops/aws-cloud-computing-and-devOps"
         />
       </Head>
       <main>

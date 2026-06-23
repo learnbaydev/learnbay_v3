@@ -327,7 +327,7 @@ Best certification for advanced cloud and DevOps,
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud-and-devops/advanced-cloud-computing-and-devops-program"
+          content="https://www.learnbay.co/advanced-cloud-and-devops-program"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -348,7 +348,7 @@ Best certification for advanced cloud and DevOps,
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud-and-devops/advanced-cloud-computing-and-devops-program"
+          content="https://www.learnbay.co/advanced-cloud-and-devops-program"
         />
         <meta
           name="twitter:title"
@@ -369,7 +369,7 @@ Best certification for advanced cloud and DevOps,
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud-and-devops/advanced-cloud-computing-and-devops-program"
+          href="https://www.learnbay.co/advanced-cloud-and-devops-program"
         />
         <script
           type="application/ld+json"
@@ -379,7 +379,7 @@ Best certification for advanced cloud and DevOps,
       "@type": "Course",
       "name": "Advanced Cloud and DevOps Training Program - Learnbay",
       "description": "Future-proof your career with advanced cloud & DevOps training, live classes, real-world capstone projects, and expert mentorship. Join now!",
-      "url": "https://www.learnbay.co/cloud-and-devops/advanced-cloud-computing-and-devops-program",
+      "url": "https://www.learnbay.co/advanced-cloud-and-devops-program",
       "offers": {
         "@type": "offer",
         "price": "120000",
@@ -848,8 +848,7 @@ Career assistance (Job assistance)"
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module =
-    await import('../../Data/advanced-cloud-and-devops-program-data');
+  const module = await import('../Data/advanced-cloud-and-devops-program-data');
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

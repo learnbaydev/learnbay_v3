@@ -1,5 +1,3 @@
-const { deserialize } = require('mongodb');
-
 const isProd = process.env.NODE_ENV == 'production';
 const nextConfig = {
   assetPrefix: isProd ? 'https://d32and0ii3b8oy.cloudfront.net/' : undefined,
@@ -1596,8 +1594,7 @@ const nextConfig = {
       },
       {
         source: '/cloud&devops/bangalore/o',
-        destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+        destination: '/cloud&devops/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
@@ -1608,7 +1605,7 @@ const nextConfig = {
       {
         source: '/clouddevops/c',
         destination:
-          '/cloud-and-devops/cloud-computing-and-devops-certification-program',
+          '/cloud&devops/cloud-computing-and-devOps-certification-program',
         permanent: true,
       },
       {
@@ -1649,18 +1646,17 @@ const nextConfig = {
         source:
           '/cloud&amp;devops/cloud-computing-and-devOps-certification-program',
         destination:
-          '/cloud-and-devops/cloud-computing-and-devops-certification-program',
+          '/cloud&devops/cloud-computing-and-devOps-certification-program',
         permanent: true,
       },
       {
         source: '/cloud&amp;devops/online-cloud-computing-course-bangalore',
-        destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+        destination: '/cloud&devops/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
         source: '/cloud&amp;devops/online-cloud-computing-course-pune',
-        destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+        destination: '/cloud&devops/online-cloud-computing-course-pune',
         permanent: true,
       },
       {
@@ -1725,13 +1721,12 @@ const nextConfig = {
       {
         source:
           '/cloud&amp;devops/bangalore/online-cloud-computing-course-bangalore',
-        destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+        destination: '/cloud&devops/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
         source: '/cloud&amp;devops/pune/online-cloud-computing-course-pune',
-        destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+        destination: '/cloud&devops/online-cloud-computing-course-pune',
         permanent: true,
       },
 
@@ -1823,8 +1818,7 @@ const nextConfig = {
       },
       {
         source: '/clouddevops/cloud-computing-and-devOps-certification-program',
-        destination:
-          '/cloud-and-devops/advanced-cloud-computing-and-devops-program',
+        destination: '/advanced-cloud-and-devops-program',
         permanent: true,
       },
       {
@@ -1931,8 +1925,7 @@ const nextConfig = {
       {
         source:
           '/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati',
-        destination:
-          'https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
@@ -2004,49 +1997,6 @@ const nextConfig = {
           '/datascience/bangalore/data-data-science-course-training-in-marathahalli',
         destination:
           '/datascience/bangalore/data-science-course-training-in-marathahalli',
-        permanent: true,
-      },
-
-      {
-        source: '/cloud&devops/aws-cloud-computing-and-devOps',
-        destination: '/cloud-and-devops/aws-cloud-computing-and-devops',
-        permanent: true,
-      },
-
-      {
-        source:
-          '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
-        destination:
-          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
-        permanent: true,
-      },
-
-      // Redirect to SEO-recommended page
-      {
-        source:
-          '/cloud&devops/cloud-computing-and-devOps-certification-program',
-        destination:
-          '/cloud-and-devops/cloud-computing-and-devops-certification-program',
-        permanent: true,
-      },
-
-      {
-        source: '/cloud&devops/online-cloud-computing-course-bangalore',
-        destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
-        permanent: true,
-      },
-
-      {
-        source: '/cloud&devops/online-cloud-computing-course-pune',
-        destination: '/cloud-and-devops/online-cloud-computing-course-pune',
-        permanent: true,
-      },
-
-      {
-        source: '/cloud&devops/cloud-and-devops-engineering-masters',
-        destination:
-          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         permanent: true,
       },
     ];
