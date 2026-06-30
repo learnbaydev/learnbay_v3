@@ -48,11 +48,11 @@ Working on real-world <b>Agentic AI use cases</b> and projects can help experts 
 
 ### Industry Highlights
 
-- The Agentic AI market is expected to grow at 46.3% by 2030 as industries prefer task automation with fewer human experts <a href="https://www.marketsandmarkets.com/Market-Reports/ai-agents-market-15761548.html" target="_blank">(M&M reports)</a>.
-- The <a href="https://economictimes.indiatimes.com/jobs/hr-policies-trends/demand-for-agentic-ai-skills-surges-supply-falls-short-by-over-50-pc-report/articleshow/127268631.cms?from=mdr" target="_blank">ET reports</a> specify the growing demand for Agentic AI and GenAI roles (35% – 40%), while supply gaps remain above 50%.
-  Around 2/3rd of employers plan to hire talent with AI-specific skills (<a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025" target="_blank">World Economic Forum</a>).
-- Over 70% of firms are already using AI in their work, but only 57% of APAC members have successfully automated workflows, stated by <a href="https://www.bcg.com/publications/2025/ai-at-work-is-asia-pacific-leading-the-way" target="_blank">BCG reports</a> in 2025.
-- Considering the risks, <a href="https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027 " target="_blank">Gartner</a> predicts that over 40% of Agentic AI projects will be dismissed by 2027 due to cost increments and unclear goals.
+- The Agentic AI market is expected to grow at 46.3% by 2030 as industries prefer task automation with fewer human experts <a href="https://www.marketsandmarkets.com/Market-Reports/ai-agents-market-15761548.html" target="_blank" rel="nofollow">(M&M reports)</a>.
+- The <a href="https://economictimes.indiatimes.com/jobs/hr-policies-trends/demand-for-agentic-ai-skills-surges-supply-falls-short-by-over-50-pc-report/articleshow/127268631.cms?from=mdr" target="_blank" rel="nofollow">ET reports</a> specify the growing demand for Agentic AI and GenAI roles (35% – 40%), while supply gaps remain above 50%.
+  Around 2/3rd of employers plan to hire talent with AI-specific skills (<a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025" target="_blank" rel="nofollow">World Economic Forum</a>).
+- Over 70% of firms are already using AI in their work, but only 57% of APAC members have successfully automated workflows, stated by <a href="https://www.bcg.com/publications/2025/ai-at-work-is-asia-pacific-leading-the-way" target="_blank" rel="nofollow">BCG reports</a> in 2025.
+- Considering the risks, <a href="https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027 " target="_blank" rel="nofollow">Gartner</a> predicts that over 40% of Agentic AI projects will be dismissed by 2027 due to cost increments and unclear goals.
 
 Indeed, Agentic AI is here to transform several functions in 2026 and beyond. Yet, a planned strategy and growth mindset are required to make everything successful.
 
@@ -66,7 +66,7 @@ In 2026, employers in India do not just want anyone who can fine-tune AI models.
 
 An <b>Agentic AI roadmap</b> in 2026 is worth following for aspirants willing to learn and thrive across industries. It reflects the critical gap in the traditional AI portfolio that many overlook.
 
-<a href="https://www.ey.com/en_gl/newsroom/2025/11/ey-survey-reveals-companies-are-missing-out-on-up-to-40-percent-of-ai-productivity-gains-due-to-gaps-in-talent-strategy" target="_blank">EY survey reports</a> confirm that firms are missing over 40% of AI-driven gains due to major talent gaps. And the main reason is that aspirants with typical portfolios are applying for AI-specific roles in 2026.
+<a href="https://www.ey.com/en_gl/newsroom/2025/11/ey-survey-reveals-companies-are-missing-out-on-up-to-40-percent-of-ai-productivity-gains-due-to-gaps-in-talent-strategy" target="_blank" rel="nofollow">EY survey reports</a> confirm that firms are missing over 40% of AI-driven gains due to major talent gaps. And the main reason is that aspirants with typical portfolios are applying for AI-specific roles in 2026.
 
 The core portfolio gap here is the absence of an agency role played by AI. In short, if your portfolio lacks your practical skills with <b>Agentic AI platforms</b>, you may fail to secure a good job in India.
 
