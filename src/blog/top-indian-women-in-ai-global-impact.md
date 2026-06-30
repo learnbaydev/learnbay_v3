@@ -33,6 +33,7 @@ faqs:
 According to the <a href="https://hai.stanford.edu/ai-index" target="_blank" rel="nofollow">HAI AI Index report</a>, Indian women are highly skilled in AI (about 1.9x of the global skills). However, only 14% of the total group holds a premium corporate position in India’s tech sector. <b>Women in AI</b> in India create a historic technological change that brings massive transformation to several industries.
 
 Women leading data and AI in India today are empowering top tech firms, such as Wipro, Infosys, Accenture, and many more. When I'm talking about top tech firms, it does not mean they are only in IT. But they are in R&D, Data Analytics, Artificial Intelligence, Machine learning, Blockchain, Robotics, and many more. So Indian <b>women in artificial intelligence</b> are becoming global legends.
+
 Indeed, women in India’s rapidly evolving AI field are bringing transformations for many. According to reports, India produces close to <a href="https://indiatechnologynews.in/ansr-women-in-tech-report-2026-95-of-women-ready-to-lead-the-ai-era" target="_blank" rel="nofollow">43% of the world's female STEM graduates</a>, with only 29% of candidates getting into entry-level tech roles and just 14% succeed to get into C-suite seats. Although a few women make careers in AI, their success stories inspire many.
 This blog will reflect on the best 9 successful Indian women with breakthroughs in establishing, scaling, and deploying AI, breaking stereotypes.
 
@@ -47,6 +48,7 @@ The World Economic Forum's latest reading has the overall gender gap <a href="ht
 ### Top 9 Indian Women in AI Breaking the Stereotypes Around AI
 
 Here are the top Indian women in artificial intelligence, or better to say, the top Indian women leaders in AI, to address.
+
 Setting the national direction toward AI
 
 #### 1. Debjani Ghosh — AI Governance and Policy
@@ -99,7 +101,9 @@ A professor at <a href="https://home.iitj.ac.in/~richa/" target="_blank" rel="no
 
 As biometric AI spreads across India, her research on making these systems accurate and unbiased is exactly the kind of work that makes AI models trustworthy.
 
-Turning AI into product-grade systems 7. Geetha Manjunath — AI as a Healthtech Leader
+### Turning AI into product-grade systems
+
+#### 7. Geetha Manjunath — AI as a Healthtech Leader
 
 Geetha Manjunath left a research-lab career to build <a href="NIRAMAI Health Analytix" target="_blank" rel="nofollow">NIRAMAI Health Analytix</a> after losing close family members to late-stage breast cancer.
 
@@ -127,13 +131,13 @@ She has empowered many small businesses with successful AI adoption that powers 
 
 <Image src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/women_leading_AI.webp" style="width:100%" class="img" alt="An image with women in AI leading in technological field."/></br>
 
-Conclusion
+## Conclusion
 
 Indeed, <b>women in AI</b> are not just coming out of their zone but are creating a milestone, inspiring many women who aspire to work in the technology field.
 
 But still, there is a tiny percentage of <b>women in artificial intelligence</b> leadership. <a href="https://insights.dice.com/2020/07/20/facebook-diversity-report-shows-incremental-progress/" target="_blank" rel="nofollow">Facebook's diversity report</a> says that 22% of technical departments are women, and 15% of their work is in AI research. Google's diversity report says only 10% of women work with <b>machine intelligence</b>.
 
-Thus, encouraging women to learn new age technology like AI and ML or any other technology (GenAI and Agentic models), so women can lead the future of AI. Women with such career visions can opt for a <a href="https://www.learnbay.co/genai-and-agentic-ai-master-program" target="_blank" rel="nofollow">Generative AI & Agentic AI Master Program</a>.
+Thus, encouraging women to learn new age technology like AI and ML or any other technology (GenAI and Agentic models), so women can lead the future of AI. Women with such career visions can opt for a <a href="https://www.learnbay.co/genai-and-agentic-ai-master-program" target="\_blank" ">Generative AI & Agentic AI Master Program</a>.
 
 ### FAQs:
 

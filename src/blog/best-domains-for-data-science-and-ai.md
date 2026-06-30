@@ -168,7 +168,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 
 <b>What changed</b>: BFSI was data-rich before AI; now it's the front line of agentic model deployment with tactful risk-handling. Banks use LLMs for customer service, document processing, and credit memos. They are piloting agents for reconciliation and fraud triage — all under heavy compliance, where human domain expertise is essential for governing requirements.
 
-#### AI & GenAI use cases:
+<b> AI & GenAI use cases:</b>
 
 - Loan approval management
 - Fraud detection
@@ -180,7 +180,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Credit score and underwriting
 - Agentic workflows for bank reconciliation, dispute handling and compliance checks
 
-#### Typical roles:
+<b> Typical roles:</b>
 
 - Data Scientist
 - AI/ML Engineer/Specialist
@@ -188,9 +188,9 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Risk Analyst
 - AI Compliance Specialist
 
-#### Salary band in India: ₹12–40 LPA
+<b> Salary band in India: ₹12–40 LPA</b>
 
-#### Top Hiring Companies:
+<b> Top Hiring Companies:</b>
 
 - HDFC Bank
 - ICICI
@@ -201,7 +201,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Mastercard
 - Razorpay
 
-#### Skills/tech stack:
+<b> Skills/tech stack:</b>
 
 - Python
 - SQL
@@ -215,7 +215,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 
 <b>What changed</b>: One of the 3 industries McKinsey names as leading agentic adoption. The medical sector adopts AI agents or generative models to draft clinical documentation, accelerate drug discovery, and power diagnostic support. Yet, it ensures a strict accuracy and ethics bar that makes domain-trained humans indispensable.
 
-#### AI & GenAI use cases driving hiring:
+<b> AI & GenAI use cases driving hiring:</b>
 
 - Precise prescription
 - Advances in Clinical Science
@@ -224,23 +224,23 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Customized care support
 - Hospital operations
 
-#### Typical roles:
+<b> Typical roles:</b>
 
 - Healthcare Data Scientist
 - Clinical NLP Engineer
 - Bioinformatics Analyst
 - ML Engineer
 
-#### Salary band in India: ₹10–32 LPA
+<b> Salary band in India: ₹10–32 LPA</b>
 
-#### Top recruiters:
+<b> Top recruiters:</b>
 
 - GE HealthCare
 - Sanofi
 - Tata 1mg
 - Practo
 
-#### Skills/tech stack:
+<b> Skills/tech stack:</b>
 
 - Python
 - NLP/LLMs
@@ -254,14 +254,14 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 
 <b>What changed</b>: Retail thrives on consumer behaviour data, and quick-commerce made it real-time. GenAI now powers conversational shopping, dynamic personalization and synthetic product content, while agents optimize pricing and inventory across the supply chain.
 
-#### AI & GenAI use cases driving hiring:
+<b> AI & GenAI use cases driving hiring:</b>
 
 - Personalised recommendations and conversational shopping assistants
 - Demand forecasting, dynamic pricing and inventory optimization
 - GenAI product descriptions, catalogue enrichment and ad creative
 - Supply-chain and last-mile route optimization
 
-#### Typical roles:
+<b> Typical roles:</b>
 
 - Data Scientist
 - ML Engineer
@@ -269,9 +269,9 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Demand/Supply Analyst
 - Personalization Scientist
 
-#### Indicative India salary band: ₹12–38 LPA
+<b> Indicative India salary band: ₹12–38 LPA</b>
 
-#### Top recruiters:
+<b> Top recruiters:</b>
 
 - Aditya Birla
 - Lifestyle
@@ -281,7 +281,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Amazon
 - Reliance
 
-#### Skills/tech stack:
+<b> Skills/tech stack:</b>
 
 - Python
 - SQL
@@ -295,7 +295,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 
 <b>What changed</b>: This is where <a href="https://datascience-learnbay.medium.com/what-is-generative-ai-f37ebcca309a" target="_blank" rel="nofollow">Generative AI</a> hit fastest. Content generation, campaign optimization and AI-driven personalization are now default, so the value shifts to professionals who can measure incremental impact and orchestrate AI tools — not just run them.
 
-#### AI & GenAI use cases driving hiring:
+<b> AI & GenAI use cases driving hiring:</b>
 
 - Creation of diverse content, creative and campaign assets at scale
 - Accurate Business Predictions.
@@ -303,16 +303,16 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Enhance data security
 - The complexity of data interpretation
 
-#### Typical roles:
+<b> Typical roles:</b>
 
 - Data Scientist
 - Growth/Marketing Analyst
 - MarTech Engineer
 - GenAI Content Strategist
 
-#### Salary band in India: ₹8–30 LPA
+<b> Salary band in India: ₹8–30 LPA</b>
 
-#### Top recruiters:
+<b> Top recruiters:</b>
 
 - Google
 - Meta
@@ -322,7 +322,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Salesforce
 - MuSigma
 
-#### Skills/tech stack:
+<b> Skills/tech stack:</b>
 
 - Python/SQL
 - GA4
@@ -336,7 +336,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 
 <b>What changed</b>: The infrastructure layer is where AI projects live or die. With McKinsey finding most AI value stalls at scaling, the people who can deploy, monitor and govern models in production are among the best-paid in India — and demand far outstrips supply.
 
-#### AI & GenAI use cases driving hiring:
+<b> AI & GenAI use cases driving hiring:</b>
 
 - MLOps: CI/CD for models, monitoring, drift detection and retraining
 - LLMOps: serving, evaluation, guardrails and cost optimization for GenAI
@@ -346,16 +346,16 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Prevent data loss
 - Improve data security
 
-#### Typical roles:
+<b> Typical roles:</b>
 
 - MLOps Engineer
 - ML Platform Engineer
 - Cloud/AI Engineer
 - Data Engineer
 
-#### Salary band in India: ₹14–45 LPA
+<b> Salary band in India: ₹14–45 LPA</b>
 
-#### Top recruiters:
+<b> Top recruiters:</b>
 
 - AWS
 - Microsoft
@@ -368,7 +368,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Wipro
 - LinkedIn
 
-#### Skills/tech stack:
+<b> Skills/tech stack:</b>
 
 - Docker/Kubernetes,
 - AWS/Azure/GCP
@@ -383,7 +383,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 
 <b>What changed</b>: Telecom sits on some of the largest behavioural datasets anywhere, and 5G plus network complexity make AI essential. GenAI now drives customer care and network operations, while agents handle self-healing networks and predictive maintenance.
 
-#### AI & GenAI use cases driving hiring:
+<b> AI & GenAI use cases driving hiring:</b>
 
 - Personalized offers for customers
 - Maintenance Prediction
@@ -395,22 +395,22 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Call detail record analysis
 - Price Optimization
 
-#### Typical roles:
+<b> Typical roles:</b>
 
 - Data Scientist
 - Network AI Engineer
 - AI/ML Engineer
 - Analytics Specialist
 
-#### Salary band in India: ₹10–30 LPA
+<b> Salary band in India: ₹10–30 LPA</b>
 
-#### Top recruiters:
+<b> Top recruiters:</b>
 
 - Reliance Jio
 - Bharti Airtel
 - Vodafone Idea
 
-#### Skills/tech stack:
+<b> Skills/tech stack:</b>
 
 - Python
 - Time-series
@@ -423,7 +423,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 
 </b>What changed</b>: Self-driving features, connected vehicles and edge AI have revamped the automotive industry into a data and AI-driven business. Sensor fusion, computer vision and on-device models are core, expanding their hiring frequencies in India.
 
-#### AI & GenAI use cases driving hiring:
+<b> AI & GenAI use cases driving hiring:</b>
 
 - Increase vehicle safety with IoT intelligent sensors
 - Reduce repair cost
@@ -431,16 +431,16 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Manage schedules effectively
 - Help manufacturers gain more control over supply chains, management, and logistics
 
-#### Typical roles:
+<b> Typical roles:</b>
 
 - ADAS/CV Engineer
 - IoT Data Scientist
 - Embedded ML Engineer
 - Edge AI Specialist
 
-#### Salary band in India: ₹10–34 LPA
+<b> Salary band in India: ₹10–34 LPA</b>
 
-#### Top recruiters:
+<b> Top recruiters:</b>
 
 - Honda
 - Tata Motors
@@ -448,7 +448,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Maruti Suzuki
 - Ola Electric
 
-#### Skills/tech stack:
+<b> Skills/tech stack:</b>
 
 - Python/C++
 - Computer vision
@@ -461,7 +461,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 
 <b>What changed</b>: The green transition in this sector is now a major job creator. WEF lists renewable-energy and EV roles among the fastest-growing, adding a fast-rising clean-energy data layer to the traditional oil & gas one.
 
-#### AI & GenAI use cases driving hiring:
+<b> AI & GenAI use cases driving hiring:</b>
 
 - Reducing drilling time.
 - Better transportation and shipping.
@@ -471,16 +471,16 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Reservoir characterization and simulation.
 - Asset management in Petrochemicals
 
-#### Typical roles
+<b>Typical roles</b>
 
 - Energy Data Scientist
 - ML Engineer
 - Geoscience Analyst
 - Sustainability Analyst
 
-#### Salary band in India: ₹10–30 LPA
+<b> Salary band in India: ₹10–30 LPA</b>
 
-#### Top recruiters:
+<b> Top recruiters:</b>
 
 - Indian Oil
 - ONGC
@@ -489,7 +489,7 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Reliance Petroleum Limited
 - Gas Authority of India
 
-#### Skills/tech stack:
+<b> Skills/tech stack:</b>
 
 - Python
 - Time-series & geospatial analytics
@@ -610,7 +610,7 @@ For example, a banker with LLMs and RAG skills is more valuable in BFSI than a g
 
 Even <b>data science jobs in 2026</b> demand combined knowledge of data science and AI for a lucrative career-building. Alternatively, professionals can also refer to the <a href="https://www.learnbay.co/blogs/best-ai-courses-in-india" target="_blank">best AI courses in India</a> to gain a 360-degree knowledge of everything and excel.
 
-### Conclusion
+## Conclusion
 
 So, there is nothing called the ' <b>best domain for data science</b>'; whatever domain you belong to, you have plenty of scope to switch into data science.
 Every one of the eight industries here is hiring, and each has been reshaped by Generative and Agentic AI to reward people who pair domain knowledge with modern AI skills.
