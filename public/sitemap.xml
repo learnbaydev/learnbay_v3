@@ -742,4 +742,17 @@
 		<priority>0.80</priority>
 	</url>
 
+		<loc>https://www.learnbay.co/blogs/agentic-ai-projects-that-get-you-hired</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+		<loc>https://www.learnbay.co/blogs/best-domains-for-data-science-and-ai</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+		<loc>https://www.learnbay.co/blogs/top-indian-women-in-ai-global-impact</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+
 </urlset>
