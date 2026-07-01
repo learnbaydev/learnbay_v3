@@ -54,7 +54,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud&devops/online-cloud-computing-course-bangalore"
+          content="https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-bangalore"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -75,7 +75,7 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud&devops/online-cloud-computing-course-bangalore"
+          content="https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-bangalore"
         />
         <meta
           name="twitter:title"
@@ -102,7 +102,7 @@ export default function Home() {
               "@type": "LocalBusiness",
               "name": "Learnbay - Data Science, Data Analyst Course Training in Bangalore",
               "description": "Join our online cloud computing course training in Bangalore to gain in-demand skills and accelerate your tech career. Start Learning Today.",
-              "url": "https://www.learnbay.co/cloud&devops/online-cloud-computing-course-bangalore",
+              "url": "https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-bangalore",
               "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
               "address": {
                 "@type": "PostalAddress",

@@ -9,11 +9,11 @@ export const NewDSAData = [
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp',
         title: [
           {
-            text: 'Cloud and DevOps Engineering ',
+            text: 'Cloud and DevOps ',
             color: false,
           },
           {
-            text: 'Certification for Database Administrators',
+            text: ' Certification for Software Test Engineers',
             color: true,
             gradient: 'linear-gradient(90deg, #f2b7be, #eebdc6, #d7d1e5)',
           },
@@ -24,7 +24,7 @@ export const NewDSAData = [
             id: 1,
             img: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp',
             imgAlt: 'DSA First Point',
-            text1: 'Work on Startup-Driven Database Projects.',
+            text1: 'Work on Startup-Driven QA Cloud Projects.',
           },
           {
             id: 2,
@@ -172,30 +172,30 @@ export const NewDSAData = [
     genAiData: [
       {
         id: 1,
-        title: 'Cloud Infrastructure Automation',
+        title: 'Cloud Test Infra Automation',
         description:
           'Objective: Create an AI system that generates actionable insights and strategies for inventory optimization and logistics planning. Outcome: Learn to automate decision-making processes, ensuring cost efficiency and reduced lead times.',
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-21.webp', // Provide the path to the icon image
         listItems: [
-          'Design and deploy an automated cloud infrastructure setup using Terraform to create and manage cloud resources.',
-          'Tools: Tools: Terraform, AWS CloudFormation,Azure Resource Manager',
-          'outcome: Automate infrastructure provisioning and management across clouds.',
+          'Objective: Design and deploy automated test infrastructure using Terraform to provision and manage cloud-based test environments.',
+          'Skills Covered: Terraform, AWS CloudFormation,Azure Resource Manager',
+          'Outcome: Automate test environment provisioning teardown across clouds.',
         ],
         rank: '#2',
         duration: '',
       },
       {
         id: 2,
-        title: 'Monitoring and Logging Solution',
+        title: 'Test Observability & Monitoring Solution',
         description:
           'Objective: Develop a generative AI-based sales forecasting model tailored for decision-making in retail or FMCG domains. Outcome: Learners will create predictive sales reports and simulate scenarios for strategic planning.',
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp', // Provide the path to the icon image
         listItems: [
-          'Objective: Set up a robust monitoring and logging infrastructure for realtime data analysis and alerting.',
-          'Outcome: Prometheus, Grafana, ELK Stack, AWS CloudWatch',
-          'Skills Covered: Create a robust system for real-time monitoring and alerts.',
+          'Objective: Set up cloud monitoring and log aggregation for test environments, enabling real-time failure detection and alerting.',
+          'Skills Covered: Prometheus, Grafana, ELK Stack, AWS CloudWatch',
+          'Outcome: Build a system for real-time test environment monitoring and alerts',
         ],
         rank: '#3',
         duration: '',
@@ -203,15 +203,15 @@ export const NewDSAData = [
 
       {
         id: 3,
-        title: 'Serverless Application Deployment with DevOps',
+        title: 'Containerised Parallel Test Execution Platform',
         description:
           'Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.',
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-41.webp', // Provide the path to the icon image
         listItems: [
-          'Build and deploy a serverless application using cloud functions, ensuring that the entire process follows a DevOps workflow.',
-          'Tools: AWS Lambda, Azure Functions, Google Cloud Functions, GitHub Actions',
-          'outcome: Develop and deploy ascalable serverless application.',
+          'Objective: Package test suites into Docker containers, deploy Selenium Grid on Kubernetes, and execute tests in parallel with auto-scaling and teardown.',
+          'Skills Covered: Docker, Kubernetes, Selenium Grid, GitHub Actions, AWS EC2',
+          'Outcome: Run parallel tests at scale on cloud infrastructure.',
         ],
         rank: '#4',
         duration: '20 hours',
@@ -224,9 +224,9 @@ export const NewDSAData = [
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp', // Provide the path to the icon image
         listItems: [
-          'Create a multistage CI/CD pipeline for deploying a microservices based application to a cloud platform like AWS, Azure, or GCP.',
-          'Jenkins, GitLab CI/CD, Docker, Kubernetes',
-          'Outcome : Automate microservices deployment using a multistage CI/CD pipeline.',
+          'Objective: Create a multistage CI/CD pipeline integrating automated test suites, quality gates, parallel execution, and deployment to a cloud platform like AWS.',
+          'Skills Covered: Jenkins, GitLab CI/CD, Docker, Kubernetes',
+          'Outcome: Automate test execution and deployment using a multistage CI/CD pipeline.',
         ],
         rank: '#1',
         duration: '',
@@ -415,14 +415,14 @@ export const NewDSAData = [
       },
 
       {
-        id: '14',
+        id: '12',
         trackIcon:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp',
         width: 80,
         height: 80,
         title: 'TERM 8',
         toolsImg: '',
-        elective: 'Elective - 1',
+        elective: 'Elective',
         imageSizes: {
           vsm: { width: 40, height: 21 },
           sm: { width: 40, height: 23 },
@@ -430,14 +430,14 @@ export const NewDSAData = [
           lg: { width: 40, height: 32 },
         },
         // contentModule: "Topics Covered",
-        description: 'Cloud & DevOps for Database Administrators',
+        description: 'Cloud & DevOps for Network Professionals',
         duration: '40-45 hrs',
         contentDescription: '',
         contentDetails: [
-          '  Capstone Projects 1. Cloud Database Deployment & Backup Automation',
-          '  Tools: AWS RDS, IAM, AWS Backup',
-          '  Capstone Projects 2. Scalable & Highly Available Database Architecture',
-          '  Tools: AWS RDS Multi-AZ, Monitoring Tools',
+          '  Capstone Projects 1. Cloud Network Foundation Setup',
+          '  Tools: AWS VPC, EC2, Security Groups',
+          '  Capstone Projects 2. Highly Available Cloud Network Architecture',
+          '  Tools: AWS ALB/NLB, Route 53, VPC Flow Logs',
         ],
       },
     ],
@@ -654,7 +654,7 @@ export const NewDSAData = [
 
       {
         Module13: {
-          title: 'Cloud & DevOps for Database Administrators ',
+          title: 'Cloud & DevOps for Specialization QA Engineers ',
           hours: '6 weeks',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
@@ -662,24 +662,18 @@ export const NewDSAData = [
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
           endImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
-          points: 'Cloud & DevOps for Database Administrators',
+          points: 'Cloud & DevOps for QA Engineers',
           content: [
             {
               chap: {
-                title: 'Cloud & DevOps for Database Administrators ',
+                title: 'Cloud & DevOps for QA Engineers ',
                 desc: [
-                  'Week 1: Cloud database services, managed databases, backup strategies, recovery planning, HA concepts.',
-                  'PITR (Point-in-Time Recovery), automated snapshot policies, cross-region replication, storage optimisation fundamentals, and SLA-driven backup design.',
-                  'Week 2: Database deployment, scaling strategies, performance optimisation, access control and security basics.',
-                  'Read replicas vs Multi-AZ, auto-scaling patterns, index optimisation, query performance tuning, IAM authentication, encryption at rest & in transit, and secret rotation best practices.',
-                  'Week 3: Resilient database architectures, monitoring, failover planning, operational best practices.',
-                  'Event-driven failover automation, health checks, observability with Performance Insights, capacity planning, and database error-pattern analysis for proactive maintenance.',
-                  'Week 4: Cloud-native data migration strategies, DMS fundamentals, schema conversion, replication tasks, validation checks, and cutover planning.',
-                  '(Added) Blue–green migration flows, downtime minimisation patterns, and heterogeneous DB migration approaches.',
-                  'Week 5: Advanced performance engineering, slow query analytics, workload analysis, partitioning, caching strategies, and bottleneck elimination.',
-                  'Database profiling tools, IOPS tuning, memory optimisation, and read/write separation design.',
-                  'Week 6: CDevOps for DBAs: automation pipelines, IaC for database provisioning, policy enforcement, auditing, and complianceready database operations.',
-                  'Terraform for RDS/Aurora, automated DB lifecycle workflows, Git-based change control for schemas, and database CI/CD patterns (Liquibase/Flyway concepts).',
+                  'CI/CD Pipeline Integration & Quality Gates',
+                  'Infrastructure Automation & Test Environment Provisioning',
+                  'Backup, DR & High Availability for Test Infrastructure',
+                  'Containerised Test Execution & Kubernetes Scale',
+                  'Cloud Monitoring & Observability for QA',
+                  'GitOps & Operational Governance for QA',
                 ],
               },
             },

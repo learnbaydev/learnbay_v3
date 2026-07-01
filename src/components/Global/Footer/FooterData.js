@@ -761,32 +761,37 @@ export const CourseData = [
 
       {
         id: 1,
-        url: 'https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
+        url: 'https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         name: 'AI-Powered Cloud And DevOps Engineering Course',
       },
       {
         id: 2,
-        url: 'https://www.learnbay.co/cloud-and-devops-for-network-professionals',
+        url: 'https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-network-professionals',
         name: 'Cloud & DevOps training for Network Professionals',
       },
       {
+        id: 22,
+        url: 'https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-qa-and-software-test-engineers',
+        name: 'Cloud & DevOps for QA and Software Test Engineers',
+      },
+      {
         id: 3,
-        url: 'https://www.learnbay.co/cloud-and-devops-for-system-administrators',
+        url: 'https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-system-administrators',
         name: 'Cloud & DevOps Program For System Administrators',
       },
       {
         id: 4,
-        url: 'https://www.learnbay.co/advanced-cloud-and-devops-program',
+        url: 'https://www.learnbay.co/cloud-and-devops/advanced-cloud-computing-and-devops-program',
         name: 'Advanced Cloud and DevOps Training Program',
       },
       {
         id: 5,
-        url: 'https://www.learnbay.co/cloud-and-devops-for-it-support-and-it-operations',
+        url: 'https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations',
         name: 'Cloud & DevOps Course for IT Support & Operations',
       },
       {
         id: 6,
-        url: 'https://www.learnbay.co/cloud-and-devops-for-database-administrators',
+        url: 'https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-for-database-administrators',
         name: 'Cloud & DevOps Certification for Database Admins',
       },
       {
