@@ -137,7 +137,7 @@ Indeed, <b>women in AI</b> are not just coming out of their zone but are creatin
 
 But still, there is a tiny percentage of <b>women in artificial intelligence</b> leadership. <a href="https://insights.dice.com/2020/07/20/facebook-diversity-report-shows-incremental-progress/" target="_blank" rel="nofollow">Facebook's diversity report</a> says that 22% of technical departments are women, and 15% of their work is in AI research. Google's diversity report says only 10% of women work with <b>machine intelligence</b>.
 
-Thus, encouraging women to learn new age technology like AI and ML or any other technology (GenAI and Agentic models), so women can lead the future of AI. Women with such career visions can opt for a <a href="https://www.learnbay.co/genai-and-agentic-ai-master-program" target="\_blank" ">Generative AI & Agentic AI Master Program</a>.
+Thus, encouraging women to learn new age technology like AI and ML or any other technology (GenAI and Agentic models), so women can lead the future of AI. Women with such career visions can opt for a <a href="https://www.learnbay.co/genai-and-agentic-ai-master-program" target="_blank">Generative AI & Agentic AI Master Program</a>.
 
 ### FAQs:
 
