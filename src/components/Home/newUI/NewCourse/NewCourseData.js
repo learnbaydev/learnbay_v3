@@ -118,7 +118,7 @@ export const courses = {
     //     image:
     //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
 
-    //     link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //     link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //     brochureLinks:
     //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf",
     //     brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
@@ -170,7 +170,7 @@ export const courses = {
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
 
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf",
@@ -304,7 +304,7 @@ export const courses = {
     //   description: "Designed by industry experts",
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
     //   brochurePdfs:
@@ -317,7 +317,7 @@ export const courses = {
     //   description: "Designed by industry experts",
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
     //   brochurePdfs:
@@ -371,7 +371,7 @@ export const courses = {
       description: 'Designed by industry experts',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV22026.webp',
-      link: '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
+      link: '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf',
       brochurePdfs:
@@ -570,7 +570,7 @@ export const courses = {
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
 
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
     //   brochurePdfs:
@@ -665,7 +665,7 @@ export const courses = {
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
 
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
     //   brochurePdfs:
@@ -710,7 +710,7 @@ export const courses = {
       description: 'For Tech Professionals',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp',
-      link: '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
+      link: '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf',
       brochurePdfs:
@@ -1013,7 +1013,7 @@ export const courses = {
       description: 'For Tech Professionals',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV52026.webp',
-      link: '/cloud&devops/cloud-and-devops-for-system-administrators-master-certification',
+      link: '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf',
       brochurePdfs:
@@ -1027,11 +1027,24 @@ export const courses = {
       description: 'For Network Professionals',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO1.webp',
-      link: '/cloud-and-devops-for-network-professionals',
+      link: '/cloud-and-devops/cloud-computing-and-devops-for-network-professionals',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf',
       brochurePdfs:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf',
+    },
+    {
+      title: 'Cloud & DevOps for QA and Software Test Engineers',
+      duration: '5 months',
+      certification: 'Certification form Microsoft',
+      description: 'For QA and Software Test Engineers',
+      image:
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO1.webp',
+      link: 'cloud-and-devops/cloud-computing-and-devops-for-qa-and-software-test-engineers',
+      brochureLinks:
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_QA.pdf',
+      brochurePdfs:
+        'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_QA.pdf',
     },
 
     {
@@ -1041,7 +1054,7 @@ export const courses = {
       description: 'For System Administrators',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO2.webp',
-      link: '/cloud-and-devops-for-system-administrators',
+      link: '/cloud-and-devops/cloud-computing-and-devops-for-system-administrators',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf',
       brochurePdfs:
@@ -1069,7 +1082,7 @@ export const courses = {
       description: 'For IT Support & IT Operations',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO3.webp',
-      link: 'cloud-and-devops-for-it-support-and-it-operations',
+      link: 'cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionalslink.pdf',
       brochurePdfs:
@@ -1083,7 +1096,7 @@ export const courses = {
       description: 'For Database Administrators',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO4.webp',
-      link: 'cloud-and-devops-for-database-administrators',
+      link: 'cloud-and-devops/cloud-computing-and-devops-for-database-administrators',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf',
       brochurePdfs:
@@ -1097,7 +1110,7 @@ export const courses = {
       description: 'For Database Administrators',
       image:
         'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO5.webp',
-      link: '/advanced-cloud-and-devops-program',
+      link: '/cloud-and-devops/advanced-cloud-computing-and-devops-program',
       brochureLinks:
         'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf',
       brochurePdfs:
@@ -1125,7 +1138,7 @@ export const courses = {
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
 
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf",
     //   brochurePdfs:
@@ -1140,7 +1153,7 @@ export const courses = {
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
 
-    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   link: "/cloud-and-devops/cloud-computing-and-devops-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
     //   brochurePdfs:
@@ -1404,7 +1417,7 @@ export const certificationcloudCourses = [
     ],
     imageSrc: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp',
 
-    link: '/cloud-and-devops-for-network-professionals',
+    link: '/cloud-and-devops/cloud-computing-and-devops-for-network-professionals',
     brochureLinks:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf',
     brochurePdfs:
@@ -1428,7 +1441,7 @@ export const certificationcloudCourses = [
       },
     ],
     imageSrc: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_II.webp',
-    link: '/cloud-and-devops-for-system-administrators',
+    link: '/cloud-and-devops/cloud-computing-and-devops-for-system-administrators',
     brochureLinks:
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf',
     brochurePdfs:

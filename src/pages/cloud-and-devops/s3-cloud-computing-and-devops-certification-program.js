@@ -1,10 +1,10 @@
-import { parseJSONData } from "@/Util/JsonConvertor";
-import EightSection from "@/components/CoursePage/EightSection/EightSection";
-import FirstPart from "@/components/CoursePage/FirstPart/DevOpsFirstpart";
-import SecondPart from "@/components/CoursePage/FirstPart/DevopsSecondPart";
-import FirstSection from "@/components/CoursePage/cloud&devops/Devopsfirstsection/DevopFirstSection";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import Head from "next/head";
+import { parseJSONData } from '@/Util/JsonConvertor';
+import EightSection from '@/components/CoursePage/EightSection/EightSection';
+import FirstPart from '@/components/CoursePage/FirstPart/DevOpsFirstpart';
+import SecondPart from '@/components/CoursePage/FirstPart/DevopsSecondPart';
+import FirstSection from '@/components/CoursePage/cloud&devops/Devopsfirstsection/DevopFirstSection';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import Head from 'next/head';
 
 function Blockchain({ CloudAndDevOpsCourseDataJson }) {
   const CloudAndDevOpsCourseData = parseJSONData(CloudAndDevOpsCourseDataJson);
@@ -12,9 +12,7 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-          Cloud Computing & DevOps Certification Program - Learnbay
-        </title>
+        <title>Cloud Computing & DevOps Certification Program - Learnbay</title>
         <meta
           name="description"
           content="Elevate your career with an advanced Cloud Computing and DevOps certification program, and explore the latest techniques in AWS, Google Cloud Platform, and AZURE."
@@ -30,7 +28,7 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
+          href="https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-certification-program"
         />
 
         <script
@@ -41,7 +39,7 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
       "@type": "Course",
       "name": "Cloud Computing & DevOps Certification Program",
       "description": "Elevate your career with an advanced Cloud Computing and DevOps certification program, and explore the latest techniques in AWS, Google Cloud Platform, and AZURE.",
-      "url": "https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program",
+      "url": "https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-certification-program",
       "offers": {
        "@type": "offer",
         "price": "110000",
@@ -105,7 +103,7 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/CloudAndDevOpsCourse");
+  const data = await import('../../Data/CloudAndDevOpsCourse');
   function getCloudAndDevOpsCourseDataJSON(CloudAndDevOpsCourseData) {
     return JSON.stringify(CloudAndDevOpsCourseData);
   }

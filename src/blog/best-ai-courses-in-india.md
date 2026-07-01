@@ -398,7 +398,7 @@ However, besides master’s courses, you can pursue an <a href="https://www.lear
   </thead>
   <tbody>
 <tr>
-      <td><a href="https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification" target="_blank">AI-Powered Cloud and DevOps Engineering Masters Certification Program</a></td>
+      <td><a href="https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification" target="_blank">AI-Powered Cloud and DevOps Engineering Masters Certification Program</a></td>
       <td>Learnbay</td>
       <td>
         Cloud Basics<br>
