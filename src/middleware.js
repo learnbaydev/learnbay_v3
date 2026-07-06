@@ -57,8 +57,20 @@
 // }
 
 import { NextResponse } from 'next/server';
+import { getToken } from 'next-auth/jwt';
 
-export function middleware(req) {
+export async function middleware(req) {
+  // ✅ Gate the blog CMS admin area at the edge. Fine-grained role checks still
+  // happen in each page's getServerSideProps / API route.
+  if (req.nextUrl.pathname.startsWith('/admin')) {
+    const token = await getToken({ req, secret: process.env.NEXTAUTH_SECRET });
+    if (!token) {
+      const loginUrl = new URL('/login', req.url);
+      loginUrl.searchParams.set('callbackUrl', req.nextUrl.pathname);
+      return NextResponse.redirect(loginUrl);
+    }
+  }
+
   let pathname = req.nextUrl.pathname;
 
   // ✅ Normalize trailing slash

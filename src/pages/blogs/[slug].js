@@ -613,7 +613,7 @@ export async function getStaticProps({ params }) {
     const blogDirectory = path.join(process.cwd(), 'src/blog');
     const filePath = path.join(blogDirectory, `${params.slug}.md`);
 
-    if (!fs.existsSync(filePath)) return { notFound: true };
+    if (!fs.existsSync(filePath)) return { notFound: true, revalidate: 60 };
 
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data, content } = matter(fileContent);
@@ -670,10 +670,13 @@ export async function getStaticProps({ params }) {
       };
     }
 
-    return { props: { postData, nextPost } };
+    // ISR: keep static SEO/perf but let publish/unpublish + edits refresh without
+    // a full rebuild. On-demand res.revalidate() (on publish/unpublish) updates
+    // instantly; this interval is a self-heal net.
+    return { props: { postData, nextPost }, revalidate: 3600 };
   } catch (error) {
     console.error('Error in getStaticProps:', error);
-    return { notFound: true };
+    return { notFound: true, revalidate: 60 };
   }
 }
 
