@@ -44,6 +44,11 @@ allowed only for emails already present (and active) in the `users` collection.
    | `SMTP_USER` / `SMTP_PASS` | existing — editorial email notifications |
    | `SEED_ADMIN_EMAIL` / `SEED_ADMIN_PASSWORD` | first-admin bootstrap (seed only) |
    | `NEXT_PUBLIC_SITE_URL` | existing — used in emails/sitemap |
+   | `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY` | existing — S3 image uploads |
+   | `BLOG_S3_BUCKET` | image bucket (default `learnbay-s3`) |
+   | `BLOG_S3_REGION` | bucket region (default `us-east-2`) |
+   | `BLOG_S3_PREFIX` | key prefix for uploads (default `blog/uploads/`) |
+   | `BLOG_S3_PUBLIC_BASE` | public delivery base, e.g. your CloudFront URL (default: the S3 URL) |
 
 3. Seed the first admin:
 
@@ -64,6 +69,37 @@ allowed only for emails already present (and active) in the `users` collection.
 | `src/lib/authOptions.js` | NextAuth providers + callbacks |
 | `src/lib/mailer.js` | editorial notification emails |
 | `src/lib/markdown.js` | shared slug/heading/TOC helpers |
+
+## Authoring quality gates
+
+Enforced in the editor (live) **and** server-side in `POST /api/posts/[id]/submit`
+(`src/lib/postValidation.js`), so a post cannot be submitted for review until:
+
+- **Required fields** are filled: title, SEO title (Stitle), meta description,
+  keywords, cover image, image alt, content.
+- **SEO title** is 30–60 chars (≈200–600px) — live meter turns green in range,
+  red outside; shows chars + measured pixel width.
+- **Meta description** is 70–160 chars (≈430–920px) — same meter.
+- **Links**: at least **1 internal** and **2 outbound** links in the body. A link
+  is internal if it is relative (`/…`) or points to `*.learnbay.co`; other
+  `http(s)` links are outbound. Live counter shows `internal x/1`, `outbound y/2`.
+
+Images & editor UX:
+
+- **No image URLs are typed.** Cover image, mobile image, and in-body images are
+  chosen as files; the client uploads to `POST /api/upload-image`, which converts
+  to **WebP** (`sharp`) and stores them in S3 (`src/lib/s3.js`). The returned
+  public URL is written into the field.
+- The editor shows the **full public blog URL** with a copy-to-clipboard button.
+- **Fields collapse** ("Hide fields") so a blogger/admin can view the full
+  rendered blog (the live preview) full-width.
+
+Auto-populated (not hand-entered):
+
+- **Author** → the logged-in user.
+- **Read time** → computed from content length (~200 wpm).
+- **Publish date** → set automatically in **IST** at publish time
+  (`src/lib/dateIST.js`); the editor previews today's IST date.
 
 ## SEO guarantees
 

@@ -18,6 +18,7 @@ import {
   deletePublishedFile,
   publishedExists,
 } from '@/lib/posts';
+import { istDateDDMMYYYY } from '@/lib/dateIST';
 
 // Ordering matters: write the file first (the public artifact), then update the
 // DB. If the DB update throws, we roll the file back so the two stores can't
@@ -25,12 +26,26 @@ import {
 export async function publishPost(post) {
   if (!post?.slug) throw new Error('Post has no slug.');
   const existedBefore = publishedExists(post.slug);
-  writePublishedFile(post);
+
+  // Publish date is set automatically in IST at publish time. `date` (the
+  // human-facing "Publish on") is set too if the author never had one.
+  const publishedDate = istDateDDMMYYYY();
+  const stamped = { ...post, publishedDate, date: post.date || publishedDate };
+
+  writePublishedFile(stamped);
   try {
     const posts = await postsCollection();
     await posts.updateOne(
       { _id: post._id },
-      { $set: { status: STATUS.PUBLISHED, publishedAt: new Date(), updatedAt: new Date() } }
+      {
+        $set: {
+          status: STATUS.PUBLISHED,
+          publishedDate,
+          date: stamped.date,
+          publishedAt: new Date(),
+          updatedAt: new Date(),
+        },
+      }
     );
   } catch (err) {
     if (!existedBefore) deletePublishedFile(post.slug); // rollback new file

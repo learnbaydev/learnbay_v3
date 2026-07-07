@@ -4,6 +4,7 @@
 import { requireRole, ROLES } from '@/lib/auth';
 import { STATUS, findPostById, postsCollection, usersCollection } from '@/lib/posts';
 import { canTransition, isAuthor, isAdmin, transitionStamp } from '@/lib/postWorkflow';
+import { validateForReview } from '@/lib/postValidation';
 import { notifySubmitted } from '@/lib/mailer';
 
 async function handler(req, res) {
@@ -20,6 +21,14 @@ async function handler(req, res) {
 
   const check = canTransition(user, post.status, STATUS.IN_REVIEW);
   if (!check.ok) return res.status(409).json({ error: check.reason });
+
+  // Hard-enforce the authoring-quality gates (required fields, meta lengths,
+  // and the internal/outbound link minimums) — the UI blocks too, but the API
+  // is the source of truth.
+  const quality = validateForReview(post);
+  if (!quality.ok) {
+    return res.status(400).json({ error: 'Post is not ready for review.', errors: quality.errors });
+  }
 
   const posts = await postsCollection();
   await posts.updateOne({ _id: post._id }, { $set: transitionStamp(STATUS.IN_REVIEW, user) });
