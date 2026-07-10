@@ -217,6 +217,62 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
     });
   }
 
+  // Selection-aware editing that powers the formatting toolbar.
+  function editContent(transform) {
+    const el = contentRef.current;
+    const value = form.content || '';
+    const start = el ? el.selectionStart : value.length;
+    const end = el ? el.selectionEnd : value.length;
+    const out = transform(value.slice(start, end), value, start, end);
+    update('content', out.text);
+    requestAnimationFrame(() => {
+      if (!el) return;
+      el.focus();
+      el.setSelectionRange(out.selStart ?? out.text.length, out.selEnd ?? out.selStart ?? out.text.length);
+    });
+  }
+
+  function wrapSel(before, after = before, placeholder = 'text') {
+    editContent((sel, value, start, end) => {
+      const inner = sel || placeholder;
+      const insert = before + inner + after;
+      return { text: value.slice(0, start) + insert + value.slice(end), selStart: start + before.length, selEnd: start + before.length + inner.length };
+    });
+  }
+
+  // Prefix each line spanned by the selection (headings, quotes, lists).
+  function linePrefix(makePrefix) {
+    editContent((sel, value, start, end) => {
+      const lineStart = value.lastIndexOf('\n', start - 1) + 1;
+      const nl = value.indexOf('\n', end);
+      const lineEnd = nl === -1 ? value.length : nl;
+      const block = value.slice(lineStart, lineEnd).split('\n').map((l, i) => makePrefix(i) + l).join('\n');
+      return { text: value.slice(0, lineStart) + block + value.slice(lineEnd), selStart: lineStart, selEnd: lineStart + block.length };
+    });
+  }
+
+  function fenceSel() {
+    editContent((sel, value, start, end) => {
+      const inner = sel || 'code';
+      const insert = '```\n' + inner + '\n```';
+      return { text: value.slice(0, start) + insert + value.slice(end), selStart: start + 4, selEnd: start + 4 + inner.length };
+    });
+  }
+
+  const format = {
+    bold: () => wrapSel('**'),
+    italic: () => wrapSel('*'),
+    strike: () => wrapSel('<s>', '</s>'),
+    inlineCode: () => wrapSel('`'),
+    h2: () => linePrefix(() => '## '),
+    h3: () => linePrefix(() => '### '),
+    quote: () => linePrefix(() => '> '),
+    ul: () => linePrefix(() => '- '),
+    ol: () => linePrefix((i) => `${i + 1}. `),
+    codeBlock: fenceSel,
+    hr: () => insertIntoContent('\n\n---\n\n'),
+  };
+
   function setFaq(i, key, value) {
     setForm((f) => {
       const faqs = [...(f.faqs || [])];
@@ -357,6 +413,7 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
             {/* Content */}
             <div style={{ marginTop: 14 }}>
               <span style={{ fontSize: 12, color: '#444' }}>Content (markdown + raw HTML) *</span>
+              {!readOnly && <FormatToolbar format={format} onInsert={insertIntoContent} />}
               {!readOnly && <InsertToolbar onInsert={insertIntoContent} onError={(text) => setMsg({ ok: false, text })} />}
               <textarea
                 ref={contentRef}
@@ -542,6 +599,78 @@ function childText(children) {
   return '';
 }
 
+// Styled HTML table (renders via rehype-raw in both preview and published page,
+// no remark-gfm needed). Inline styles keep it presentable without CSS changes.
+function buildHtmlTable(rows, cols, header) {
+  const r = Math.max(1, Math.min(20, rows || 1));
+  const c = Math.max(1, Math.min(10, cols || 1));
+  // Matches the styling convention already used by the existing blog posts.
+  const th = (i) => `<th style="border:1px solid #000; padding:12px; text-align:left;">Header ${i + 1}</th>`;
+  const td = () => `<td style="border:1px solid #000; padding:12px;">Cell</td>`;
+  let out = '<table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; margin:20px 0;">\n';
+  if (header) {
+    out += '  <thead>\n    <tr>' + Array.from({ length: c }, (_, i) => th(i)).join('') + '</tr>\n  </thead>\n';
+  }
+  out += '  <tbody>\n';
+  for (let i = 0; i < r; i += 1) {
+    out += '    <tr>' + Array.from({ length: c }, td).join('') + '</tr>\n';
+  }
+  out += '  </tbody>\n</table>';
+  return out;
+}
+
+// Rich-text-style formatting toolbar over the markdown source + a table builder.
+function FormatToolbar({ format, onInsert }) {
+  const [tableOpen, setTableOpen] = useState(false);
+  const [tbl, setTbl] = useState({ rows: 3, cols: 3, header: true });
+
+  function insertTable() {
+    onInsert('\n' + buildHtmlTable(tbl.rows, tbl.cols, tbl.header) + '\n');
+    setTableOpen(false);
+  }
+
+  const B = ({ onClick, title, children }) => (
+    <button type="button" style={S.fmtBtn} onMouseDown={(e) => e.preventDefault()} onClick={onClick} title={title}>
+      {children}
+    </button>
+  );
+
+  return (
+    <div style={{ marginTop: 6 }}>
+      <div style={S.fmtBar}>
+        <B onClick={format.bold} title="Bold"><b>B</b></B>
+        <B onClick={format.italic} title="Italic"><i>I</i></B>
+        <B onClick={format.strike} title="Strikethrough"><s>S</s></B>
+        <B onClick={format.inlineCode} title="Inline code">{'<>'}</B>
+        <span style={S.fmtSep} />
+        <B onClick={format.h2} title="Heading 2">H2</B>
+        <B onClick={format.h3} title="Heading 3">H3</B>
+        <B onClick={format.quote} title="Quote">❝</B>
+        <B onClick={format.ul} title="Bullet list">• List</B>
+        <B onClick={format.ol} title="Numbered list">1. List</B>
+        <B onClick={format.codeBlock} title="Code block">Code</B>
+        <B onClick={format.hr} title="Divider">— HR</B>
+        <span style={S.fmtSep} />
+        <B onClick={() => setTableOpen((o) => !o)} title="Insert table">▦ Table</B>
+      </div>
+      {tableOpen && (
+        <div style={S.panel}>
+          <label style={S.tblLabel}>Rows
+            <input type="number" min="1" max="20" style={S.tblNum} value={tbl.rows} onChange={(e) => setTbl({ ...tbl, rows: parseInt(e.target.value, 10) || 1 })} />
+          </label>
+          <label style={S.tblLabel}>Columns
+            <input type="number" min="1" max="10" style={S.tblNum} value={tbl.cols} onChange={(e) => setTbl({ ...tbl, cols: parseInt(e.target.value, 10) || 1 })} />
+          </label>
+          <label style={S.check}>
+            <input type="checkbox" checked={tbl.header} onChange={(e) => setTbl({ ...tbl, header: e.target.checked })} /> header row
+          </label>
+          <button type="button" style={S.pInsert} onClick={insertTable}>Insert table</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function InsertToolbar({ onInsert, onError }) {
   const [open, setOpen] = useState(null);
   const [link, setLink] = useState({ url: '', text: '', nofollow: false, newTab: true });
@@ -662,6 +791,11 @@ const S = {
   previewTitle: { fontSize: 14, fontWeight: 600, margin: '0 0 8px' },
   previewFrame: { border: '1px solid #e5e5e5', borderRadius: 8, overflow: 'hidden', background: '#f9f9f9' },
   toolBtn: { padding: '6px 10px', background: '#f3f4f6', border: '1px solid #d1d5db', borderRadius: 6, fontSize: 13, cursor: 'pointer' },
+  fmtBar: { display: 'flex', gap: 4, flexWrap: 'wrap', alignItems: 'center', padding: 6, background: '#f7f8fa', border: '1px solid #e5e7eb', borderRadius: 6 },
+  fmtBtn: { minWidth: 30, padding: '5px 8px', background: '#fff', border: '1px solid #d8dde5', borderRadius: 5, fontSize: 13, cursor: 'pointer', lineHeight: 1 },
+  fmtSep: { width: 1, alignSelf: 'stretch', background: '#dde2e9', margin: '0 2px' },
+  tblLabel: { display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, color: '#444' },
+  tblNum: { width: 56, padding: '5px 6px', border: '1px solid #ccc', borderRadius: 5, fontSize: 13 },
   panel: { display: 'flex', flexWrap: 'wrap', gap: 8, alignItems: 'center', marginTop: 8, padding: 10, background: '#f9fafb', border: '1px solid #e5e7eb', borderRadius: 6 },
   pInput: { flex: '1 1 160px', padding: '6px 8px', border: '1px solid #ccc', borderRadius: 6, fontSize: 13 },
   check: { display: 'flex', alignItems: 'center', gap: 4, fontSize: 13, color: '#444' },

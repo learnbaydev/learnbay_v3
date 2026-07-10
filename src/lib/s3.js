@@ -49,14 +49,17 @@ export function publicUrl(key) {
 
 // Upload a buffer and return its public URL.
 export async function uploadBuffer(buffer, key, contentType = 'image/webp') {
-  await client()
-    .upload({
-      Bucket: BUCKET,
-      Key: key,
-      Body: buffer,
-      ContentType: contentType,
-      CacheControl: 'public, max-age=31536000, immutable',
-    })
-    .promise();
+  const params = {
+    Bucket: BUCKET,
+    Key: key,
+    Body: buffer,
+    ContentType: contentType,
+    CacheControl: 'public, max-age=31536000, immutable',
+  };
+  // Optional: set an object ACL (e.g. "public-read") if your bucket has ACLs
+  // ENABLED (Object Ownership = "Bucket owner preferred"). Leave BLOG_S3_ACL
+  // unset when serving via CloudFront or a bucket policy (the recommended paths).
+  if (process.env.BLOG_S3_ACL) params.ACL = process.env.BLOG_S3_ACL;
+  await client().upload(params).promise();
   return publicUrl(key);
 }

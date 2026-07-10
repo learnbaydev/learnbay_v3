@@ -49,6 +49,13 @@ allowed only for emails already present (and active) in the `users` collection.
    | `BLOG_S3_REGION` | bucket region (default `us-east-2`) |
    | `BLOG_S3_PREFIX` | key prefix for uploads (default `blog/uploads/`) |
    | `BLOG_S3_PUBLIC_BASE` | public delivery base, e.g. your CloudFront URL (default: the S3 URL) |
+   | `BLOG_S3_ACL` | optional — set to `public-read` only if the bucket has ACLs enabled |
+
+   > Uploaded objects must be publicly readable. Either serve them through
+   > CloudFront (set `BLOG_S3_PUBLIC_BASE` to the distribution URL — recommended,
+   > keeps the bucket private) **or** add a bucket policy granting `s3:GetObject`
+   > on `arn:aws:s3:::<bucket>/blog/uploads/*` to `Principal: "*"`. A direct S3
+   > URL on a private bucket returns `AccessDenied`.
 
 3. Seed the first admin:
 
@@ -83,6 +90,17 @@ Enforced in the editor (live) **and** server-side in `POST /api/posts/[id]/submi
 - **Links**: at least **1 internal** and **2 outbound** links in the body. A link
   is internal if it is relative (`/…`) or points to `*.learnbay.co`; other
   `http(s)` links are outbound. Live counter shows `internal x/1`, `outbound y/2`.
+
+Editor toolbar:
+
+- A **formatting toolbar** over the markdown box (bold, italic, strikethrough,
+  inline code, H2/H3, quote, bullet/numbered lists, code block, divider) that
+  wraps/prefixes the current selection — rich-text ease of use while the source
+  stays markdown.
+- A **table generator** (rows × columns + optional header row) that inserts a
+  styled HTML `<table>` matching the convention existing posts use. HTML tables
+  render via `rehype-raw` in both the preview and the published page — no
+  `remark-gfm` and no change to the SEO renderer.
 
 Images & editor UX:
 
