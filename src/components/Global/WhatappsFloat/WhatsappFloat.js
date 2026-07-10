@@ -31,13 +31,10 @@ function WhatsappFloat({ chat360code1 }) {
   // };
 
   // commented on 23-06-26
-  {
-    /* <>
-    {chat360code1 ? (
-        <Link
-          href="https://api.whatsapp.com/send?phone=919606950935"
-          target="_blank"
-        >
+  return (
+    <>
+      {chat360code1 ? (
+        <Link href="https://wa.me/+916366841343" target="_blank">
           <div className={styles.FloatWhatsapp}>
             <FaWhatsapp className={styles.whatsappIcon} />
           </div>
@@ -71,18 +68,14 @@ function WhatsappFloat({ chat360code1 }) {
         //     )}
         //   </div>
         // </div>
-        <Link
-          href="https://api.whatsapp.com/send?phone=919606950935"
-          target="_blank"
-        >
+        <Link href="https://wa.me/+916366841343" target="_blank">
           <div className={styles.FloatWhatsapp}>
             <FaWhatsapp className={styles.whatsappIcon} />
           </div>
         </Link>
       )}
-    </> */
-  }
-  return <></>;
+    </>
+  );
 }
 
 export default React.memo(WhatsappFloat);

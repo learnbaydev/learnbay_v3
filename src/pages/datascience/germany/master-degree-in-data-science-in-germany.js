@@ -130,6 +130,10 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

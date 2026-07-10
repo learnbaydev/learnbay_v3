@@ -513,7 +513,7 @@
 	</url>
 
 	<url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/aws-cloud-computing-and-devOps</loc>
+		<loc>https://www.learnbay.co/cloud-and-devops/aws-cloud-computing-and-devops</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
@@ -574,13 +574,13 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
-		<url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/online-cloud-computing-course-bangalore</loc>
+	<url>
+		<loc>https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-bangalore</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
 	<url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/online-cloud-computing-course-pune</loc>
+		<loc>https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-pune</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
