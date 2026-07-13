@@ -307,6 +307,7 @@ import styles from './slug.module.css';
 import Footer from '@/components/Global/Footer/Footer';
 import dynamic from 'next/dynamic';
 import rehypeRaw from 'rehype-raw';
+import remarkGfm from 'remark-gfm';
 import Link from 'next/link';
 
 import {
@@ -564,6 +565,7 @@ const Blog = ({ postData, nextPost }) => {
 
           <div className={styles.blogContent}>
             <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
               rehypePlugins={[rehypeRaw]}
               components={markdownComponents}
             >

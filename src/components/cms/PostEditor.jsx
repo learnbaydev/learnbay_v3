@@ -14,12 +14,18 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import rehypeRaw from 'rehype-raw';
+import remarkGfm from 'remark-gfm';
 import blogStyles from '@/pages/blogs/slug.module.css';
 import { slugify, headingId, estimateReadTime } from '@/lib/markdown';
 import { istDateDDMMYYYY } from '@/lib/dateIST';
 import { META, LINK_MIN, validateForReview } from '@/lib/postValidation';
 
 const ReactMarkdown = dynamic(() => import('react-markdown'), { ssr: false });
+// TipTap WYSIWYG — client-only (needs the DOM).
+const RichEditorDyn = dynamic(() => import('@/components/cms/RichEditor'), {
+  ssr: false,
+  loading: () => <div style={{ padding: 24, color: '#888', border: '1px solid #e5e7eb', borderRadius: 8, background: '#fff' }}>Loading editor…</div>,
+});
 
 const SITE = 'https://www.learnbay.co';
 
@@ -74,6 +80,7 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
   const [newComment, setNewComment] = useState('');
   const [decisionComment, setDecisionComment] = useState('');
   const [fieldsOpen, setFieldsOpen] = useState(true);
+  const [editorMode, setEditorMode] = useState('rich'); // 'rich' (WYSIWYG) | 'source' (markdown)
   const contentRef = useRef(null);
 
   const isAdmin = user?.role === 'ADMIN';
@@ -359,71 +366,93 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
       )}
 
       <div style={S.columns}>
+        {/* Metadata panel */}
         {fieldsOpen && (
-        <div style={S.col}>
-          {/* Auto-managed values */}
-          <div style={S.autoBar}>
-            <AutoChip label="Author" value={autoAuthor || '—'} />
-            <AutoChip label="Read time" value={autoReadTime} />
-            <AutoChip label="Publish date (IST)" value={autoPublishDate} note="set at publish" />
+          <div style={S.col}>
+            <div style={S.autoBar}>
+              <AutoChip label="Author" value={autoAuthor || '—'} />
+              <AutoChip label="Read time" value={autoReadTime} />
+              <AutoChip label="Publish date (IST)" value={autoPublishDate} note="set at publish" />
+            </div>
+
+            <fieldset disabled={readOnly} style={S.fieldset}>
+              <div style={S.grid}>
+                {FIELDS.map((f) => (
+                  <label key={f.key} style={S.label}>
+                    <span>{f.label}{f.required ? ' *' : ''}</span>
+                    <input
+                      style={S.input}
+                      value={f.key === 'slug' ? (slugTouched ? form.slug : effectiveSlug) : form[f.key] || ''}
+                      placeholder={f.placeholder || ''}
+                      onChange={(e) => {
+                        if (f.key === 'slug') setSlugTouched(true);
+                        update(f.key, e.target.value);
+                      }}
+                    />
+                  </label>
+                ))}
+              </div>
+
+              {/* Cover + mobile image: pick a file → converted to WebP → S3 URL */}
+              <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 12 }}>
+                <ImageField label="Cover image *" value={form.image} onChange={(url) => update('image', url)} disabled={readOnly} onError={(text) => setMsg({ ok: false, text })} />
+                <ImageField label="Mobile image (optional)" value={form.imagephone} onChange={(url) => update('imagephone', url)} disabled={readOnly} onError={(text) => setMsg({ ok: false, text })} />
+              </div>
+
+              {/* SEO title with live meter */}
+              <label style={{ ...S.label, marginTop: 12 }}>
+                <span>SEO title (Stitle) *</span>
+                <input style={S.input} value={form.Stitle || ''} onChange={(e) => update('Stitle', e.target.value)} />
+              </label>
+              <MetaMeter value={form.Stitle || ''} cfg={META.title} label="SEO title" />
+
+              {/* Meta description with live meter */}
+              <label style={{ ...S.label, marginTop: 12 }}>
+                <span>Meta description *</span>
+                <textarea style={{ ...S.input, minHeight: 60 }} value={form.description || ''} onChange={(e) => update('description', e.target.value)} />
+              </label>
+              <MetaMeter value={form.description || ''} cfg={META.description} label="Description" />
+
+              {/* FAQs */}
+              <div style={{ marginTop: 14 }}>
+                <div style={S.faqHead}>
+                  <span style={{ fontSize: 12, color: '#444' }}>FAQs (emit FAQ schema)</span>
+                  <button type="button" style={S.smallBtn} onClick={addFaq} disabled={readOnly}>+ Add FAQ</button>
+                </div>
+                {(form.faqs || []).map((faq, i) => (
+                  <div key={i} style={S.faqRow}>
+                    <input style={S.input} placeholder="Question" value={faq.question || ''} onChange={(e) => setFaq(i, 'question', e.target.value)} />
+                    <textarea style={{ ...S.input, minHeight: 44 }} placeholder="Answer" value={faq.answer || ''} onChange={(e) => setFaq(i, 'answer', e.target.value)} />
+                    <button type="button" style={S.removeBtn} onClick={() => removeFaq(i)} disabled={readOnly}>Remove</button>
+                  </div>
+                ))}
+              </div>
+            </fieldset>
+          </div>
+        )}
+
+        {/* Content editor — WYSIWYG (rich) renders inline; source is markdown */}
+        <div style={fieldsOpen ? S.col : S.colFull}>
+          <div style={S.contentHead}>
+            <span style={{ fontSize: 12, color: '#444' }}>Content *</span>
+            {!readOnly && (
+              <div style={S.modeToggle}>
+                <button type="button" style={{ ...S.modeBtn, ...(editorMode === 'rich' ? S.modeActive : {}) }} onClick={() => setEditorMode('rich')}>Rich</button>
+                <button type="button" style={{ ...S.modeBtn, ...(editorMode === 'source' ? S.modeActive : {}) }} onClick={() => setEditorMode('source')}>Source</button>
+              </div>
+            )}
           </div>
 
-          <fieldset disabled={readOnly} style={S.fieldset}>
-            <div style={S.grid}>
-              {FIELDS.map((f) => (
-                <label key={f.key} style={S.label}>
-                  <span>{f.label}{f.required ? ' *' : ''}</span>
-                  <input
-                    style={S.input}
-                    value={f.key === 'slug' ? (slugTouched ? form.slug : effectiveSlug) : form[f.key] || ''}
-                    placeholder={f.placeholder || ''}
-                    onChange={(e) => {
-                      if (f.key === 'slug') setSlugTouched(true);
-                      update(f.key, e.target.value);
-                    }}
-                  />
-                </label>
-              ))}
-            </div>
-
-            {/* Cover + mobile image: pick a file → converted to WebP → S3 URL */}
-            <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 12 }}>
-              <ImageField label="Cover image *" value={form.image} onChange={(url) => update('image', url)} disabled={readOnly} onError={(text) => setMsg({ ok: false, text })} />
-              <ImageField label="Mobile image (optional)" value={form.imagephone} onChange={(url) => update('imagephone', url)} disabled={readOnly} onError={(text) => setMsg({ ok: false, text })} />
-            </div>
-
-            {/* SEO title with live meter */}
-            <label style={{ ...S.label, marginTop: 12 }}>
-              <span>SEO title (Stitle) *</span>
-              <input style={S.input} value={form.Stitle || ''} onChange={(e) => update('Stitle', e.target.value)} />
-            </label>
-            <MetaMeter value={form.Stitle || ''} cfg={META.title} label="SEO title" />
-
-            {/* Meta description with live meter */}
-            <label style={{ ...S.label, marginTop: 12 }}>
-              <span>Meta description *</span>
-              <textarea style={{ ...S.input, minHeight: 60 }} value={form.description || ''} onChange={(e) => update('description', e.target.value)} />
-            </label>
-            <MetaMeter value={form.description || ''} cfg={META.description} label="Description" />
-
-            {/* FAQs */}
-            <div style={{ marginTop: 14 }}>
-              <div style={S.faqHead}>
-                <span style={{ fontSize: 12, color: '#444' }}>FAQs (emit FAQ schema)</span>
-                <button type="button" style={S.smallBtn} onClick={addFaq} disabled={readOnly}>+ Add FAQ</button>
-              </div>
-              {(form.faqs || []).map((faq, i) => (
-                <div key={i} style={S.faqRow}>
-                  <input style={S.input} placeholder="Question" value={faq.question || ''} onChange={(e) => setFaq(i, 'question', e.target.value)} />
-                  <textarea style={{ ...S.input, minHeight: 44 }} placeholder="Answer" value={faq.answer || ''} onChange={(e) => setFaq(i, 'answer', e.target.value)} />
-                  <button type="button" style={S.removeBtn} onClick={() => removeFaq(i)} disabled={readOnly}>Remove</button>
-                </div>
-              ))}
-            </div>
-
-            {/* Content */}
-            <div style={{ marginTop: 14 }}>
-              <span style={{ fontSize: 12, color: '#444' }}>Content (markdown + raw HTML) *</span>
+          {editorMode === 'rich' ? (
+            <RichEditorDyn
+              value={form.content || ''}
+              onChange={(md) => update('content', md)}
+              onUpload={uploadImageFile}
+              onError={(text) => setMsg({ ok: false, text })}
+              editable={!readOnly}
+            />
+          ) : (
+            <>
               {!readOnly && <FormatToolbar format={format} />}
               {!readOnly && <InsertToolbar onInsert={insertIntoContent} onError={(text) => setMsg({ ok: false, text })} />}
               {!readOnly && (
@@ -436,9 +465,9 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
                 onChange={(e) => update('content', e.target.value)}
                 onPaste={onContentPaste}
               />
-              <LinkStats links={review.links} />
-            </div>
-          </fieldset>
+            </>
+          )}
+          <LinkStats links={review.links} />
 
           {mode === 'review' && isAdmin && status === 'in_review' && (
             <div style={S.decision}>
@@ -458,32 +487,33 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
             </div>
           )}
         </div>
-        )}
 
-        {/* faithful preview — full width when fields are collapsed */}
-        <div style={fieldsOpen ? S.col : S.colFull}>
-          <h2 style={S.previewTitle}>Preview (as published)</h2>
-          <div style={S.previewFrame}>
-            <div className={blogStyles.blogPage} style={{ marginTop: 0, minHeight: 'auto' }}>
-              {form.image && <img src={form.image} alt={form.alt} width="100%" height="auto" className={blogStyles.blogHeader} />}
-              <div className={blogStyles.metaContainer}>
-                <h1 className={blogStyles.blogTitle}>{form.title || 'Untitled'}</h1>
-                <div className={blogStyles.metaInfo}>
-                  <span className={blogStyles.author}>By: {autoAuthor || '—'}</span>
-                  <span className={blogStyles.readTime}>Read Time : {autoReadTime}</span>
-                  <span className={blogStyles.date}>Publish on: {autoPublishDate}</span>
+        {/* Source-mode preview (rich mode renders inline, so no preview needed) */}
+        {editorMode === 'source' && (
+          <div style={S.col}>
+            <h2 style={S.previewTitle}>Preview (as published)</h2>
+            <div style={S.previewFrame}>
+              <div className={blogStyles.blogPage} style={{ marginTop: 0, minHeight: 'auto' }}>
+                {form.image && <img src={form.image} alt={form.alt} width="100%" height="auto" className={blogStyles.blogHeader} />}
+                <div className={blogStyles.metaContainer}>
+                  <h1 className={blogStyles.blogTitle}>{form.title || 'Untitled'}</h1>
+                  <div className={blogStyles.metaInfo}>
+                    <span className={blogStyles.author}>By: {autoAuthor || '—'}</span>
+                    <span className={blogStyles.readTime}>Read Time : {autoReadTime}</span>
+                    <span className={blogStyles.date}>Publish on: {autoPublishDate}</span>
+                  </div>
                 </div>
-              </div>
-              <div className={blogStyles.blogContainer}>
-                <div className={blogStyles.blogContent}>
-                  <ReactMarkdown rehypePlugins={[rehypeRaw]} components={markdownComponents}>
-                    {form.content || ''}
-                  </ReactMarkdown>
+                <div className={blogStyles.blogContainer}>
+                  <div className={blogStyles.blogContent}>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={markdownComponents}>
+                      {form.content || ''}
+                    </ReactMarkdown>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
@@ -856,6 +886,10 @@ const S = {
   smallBtn: { background: '#f3f4f6', border: '1px solid #d1d5db', borderRadius: 6, fontSize: 12, padding: '4px 8px', cursor: 'pointer' },
   removeBtn: { alignSelf: 'flex-start', background: 'none', border: 'none', color: '#c33', fontSize: 12, cursor: 'pointer' },
   decision: { marginTop: 16, background: '#fff', border: '1px solid #eee', borderRadius: 8, padding: 14 },
+  contentHead: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 },
+  modeToggle: { display: 'inline-flex', border: '1px solid #d8dde5', borderRadius: 6, overflow: 'hidden' },
+  modeBtn: { padding: '5px 14px', background: '#fff', border: 'none', fontSize: 13, cursor: 'pointer', color: '#556' },
+  modeActive: { background: '#2372bc', color: '#fff' },
   previewTitle: { fontSize: 14, fontWeight: 600, margin: '0 0 8px' },
   previewFrame: { border: '1px solid #e5e5e5', borderRadius: 8, overflow: 'hidden', background: '#f9f9f9' },
   toolBtn: { padding: '6px 10px', background: '#f3f4f6', border: '1px solid #d1d5db', borderRadius: 6, fontSize: 13, cursor: 'pointer' },

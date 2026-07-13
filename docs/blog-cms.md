@@ -91,12 +91,20 @@ Enforced in the editor (live) **and** server-side in `POST /api/posts/[id]/submi
   is internal if it is relative (`/…`) or points to `*.learnbay.co`; other
   `http(s)` links are outbound. Live counter shows `internal x/1`, `outbound y/2`.
 
-Editor toolbar:
+Editor modes — **Rich** (default) and **Source**, toggled per post:
 
-- A **formatting toolbar** over the markdown box (bold, italic, strikethrough,
-  inline code, H2/H3, quote, bullet/numbered lists, code block, divider) that
-  wraps/prefixes the current selection — rich-text ease of use while the source
-  stays markdown.
+- **Rich (WYSIWYG)** — a Notion/Word-style TipTap editor
+  (`src/components/cms/RichEditor.jsx`) where formatting renders inline as you
+  type: headings, bold/italic, lists, quotes, code, links, images (uploaded to
+  S3), and tables (insert, add/remove rows/cols, paste from Sheets). Content
+  round-trips to **markdown** via `tiptap-markdown`, so the TOC, SEO renderer,
+  and `.md` storage keep working. Tables serialize to GFM markdown, which is why
+  `remark-gfm` is enabled in the renderer (`src/pages/blogs/[slug].js`) and the
+  preview.
+- **Source (markdown)** — the raw markdown/HTML editor with a formatting toolbar
+  (bold, italic, strikethrough, inline code, H2/H3, quote, lists, code block,
+  divider) plus the paste-to-table and nofollow-link helpers. Use this for
+  nofollow links or exotic raw HTML that the WYSIWYG doesn't round-trip.
 - **Paste-to-table**: copy a range from Google Sheets / Excel and paste it into
   the content box — the paste handler reads the clipboard's HTML table (or the
   tab-separated fallback) and inserts a clean styled HTML `<table>` matching the
