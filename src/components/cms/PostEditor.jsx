@@ -273,6 +273,17 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
     hr: () => insertIntoContent('\n\n---\n\n'),
   };
 
+  // Paste a table copied from Google Sheets / Excel → styled HTML table.
+  function onContentPaste(e) {
+    if (readOnly || !e.clipboardData) return;
+    const table = tableFromClipboard(e.clipboardData);
+    if (table) {
+      e.preventDefault();
+      insertIntoContent('\n' + table + '\n');
+      setMsg({ ok: true, text: 'Table pasted and formatted.' });
+    }
+  }
+
   function setFaq(i, key, value) {
     setForm((f) => {
       const faqs = [...(f.faqs || [])];
@@ -413,13 +424,17 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
             {/* Content */}
             <div style={{ marginTop: 14 }}>
               <span style={{ fontSize: 12, color: '#444' }}>Content (markdown + raw HTML) *</span>
-              {!readOnly && <FormatToolbar format={format} onInsert={insertIntoContent} />}
+              {!readOnly && <FormatToolbar format={format} />}
               {!readOnly && <InsertToolbar onInsert={insertIntoContent} onError={(text) => setMsg({ ok: false, text })} />}
+              {!readOnly && (
+                <p style={S.pasteHint}>Tip: copy a table from Google Sheets / Excel and paste it here — it becomes a formatted table automatically.</p>
+              )}
               <textarea
                 ref={contentRef}
                 style={{ ...S.input, minHeight: 340, fontFamily: 'monospace', marginTop: 8 }}
                 value={form.content || ''}
                 onChange={(e) => update('content', e.target.value)}
+                onPaste={onContentPaste}
               />
               <LinkStats links={review.links} />
             </div>
@@ -599,36 +614,105 @@ function childText(children) {
   return '';
 }
 
-// Styled HTML table (renders via rehype-raw in both preview and published page,
-// no remark-gfm needed). Inline styles keep it presentable without CSS changes.
-function buildHtmlTable(rows, cols, header) {
-  const r = Math.max(1, Math.min(20, rows || 1));
-  const c = Math.max(1, Math.min(10, cols || 1));
-  // Matches the styling convention already used by the existing blog posts.
-  const th = (i) => `<th style="border:1px solid #000; padding:12px; text-align:left;">Header ${i + 1}</th>`;
-  const td = () => `<td style="border:1px solid #000; padding:12px;">Cell</td>`;
-  let out = '<table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; margin:20px 0;">\n';
-  if (header) {
-    out += '  <thead>\n    <tr>' + Array.from({ length: c }, (_, i) => th(i)).join('') + '</tr>\n  </thead>\n';
-  }
-  out += '  <tbody>\n';
-  for (let i = 0; i < r; i += 1) {
-    out += '    <tr>' + Array.from({ length: c }, td).join('') + '</tr>\n';
-  }
-  out += '  </tbody>\n</table>';
+// ---- Paste-to-table (Google Sheets / Excel style) -------------------------
+//
+// Copying cells from a spreadsheet puts an HTML <table> on the clipboard (plus a
+// tab-separated plaintext fallback). On paste we detect either and rebuild a
+// clean table using the site's styling convention, preserving bold, alignment
+// and links. Output is raw HTML → renders via rehype-raw in preview + published.
+
+const TABLE_STYLE = 'width:100%; border-collapse:collapse; font-family:Arial, sans-serif; margin:20px 0;';
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function renderRow(cells) {
+  return (
+    '    <tr>' +
+    cells
+      .map((c) => {
+        const style = `border:1px solid #000; padding:12px;` + (c.align ? ` text-align:${c.align};` : c.tag === 'th' ? ' text-align:left;' : '');
+        return `<${c.tag} style="${style}">${c.inner || ''}</${c.tag}>`;
+      })
+      .join('') +
+    '</tr>\n'
+  );
+}
+
+function buildTable(rows) {
+  const header = rows.filter((r) => r.header);
+  const body = rows.filter((r) => !r.header);
+  let out = `<table style="${TABLE_STYLE}">\n`;
+  if (header.length) out += '  <thead>\n' + header.map((r) => renderRow(r.cells)).join('') + '  </thead>\n';
+  out += '  <tbody>\n' + body.map((r) => renderRow(r.cells)).join('') + '  </tbody>\n</table>';
   return out;
 }
 
-// Rich-text-style formatting toolbar over the markdown source + a table builder.
-function FormatToolbar({ format, onInsert }) {
-  const [tableOpen, setTableOpen] = useState(false);
-  const [tbl, setTbl] = useState({ rows: 3, cols: 3, header: true });
+// Extract text + light formatting from a spreadsheet cell element.
+function cellFrom(el, tag) {
+  const style = (el.getAttribute('style') || '').toLowerCase();
+  const align = (style.match(/text-align:\s*(left|center|right)/) || [])[1];
+  const bold = /font-weight:\s*(bold|[6-9]00)/.test(style) || !!el.querySelector('b, strong');
+  const link = el.querySelector('a[href]');
+  let inner = esc((el.textContent || '').trim()).replace(/\n/g, '<br>');
+  if (link) inner = `<a href="${esc(link.getAttribute('href'))}" target="_blank" rel="noopener noreferrer">${inner}</a>`;
+  if (bold) inner = `<strong>${inner}</strong>`;
+  return { tag, inner, align };
+}
 
-  function insertTable() {
-    onInsert('\n' + buildHtmlTable(tbl.rows, tbl.cols, tbl.header) + '\n');
-    setTableOpen(false);
+function htmlToStyledTable(html) {
+  try {
+    const table = new DOMParser().parseFromString(html, 'text/html').querySelector('table');
+    if (!table) return null;
+    const rows = [];
+    table.querySelectorAll('tr').forEach((tr, idx) => {
+      const inThead = !!tr.closest('thead');
+      const cells = Array.from(tr.querySelectorAll('th, td')).map((el) =>
+        cellFrom(el, el.tagName === 'TH' || inThead ? 'th' : 'td')
+      );
+      if (cells.length) rows.push({ cells, header: inThead || (idx === 0 && cells.every((c) => c.tag === 'th')) });
+    });
+    if (!rows.length) return null;
+    if (!rows.some((r) => r.header)) {
+      rows[0].header = true;
+      rows[0].cells.forEach((c) => (c.tag = 'th'));
+    }
+    return buildTable(rows);
+  } catch {
+    return null;
   }
+}
 
+function tsvToStyledTable(text) {
+  const lines = text.replace(/\r/g, '').replace(/\n+$/, '').split('\n');
+  if (lines.length < 2) return null;
+  const grid = lines.map((l) => l.split('\t'));
+  const cols = Math.max(...grid.map((r) => r.length));
+  if (cols < 2) return null;
+  const rows = grid.map((cells, idx) => ({
+    header: idx === 0,
+    cells: Array.from({ length: cols }, (_, i) => ({ tag: idx === 0 ? 'th' : 'td', inner: esc((cells[i] || '').trim()) })),
+  }));
+  return buildTable(rows);
+}
+
+// Returns a styled HTML table from clipboard data, or null if it isn't tabular.
+function tableFromClipboard(clipboard) {
+  const html = clipboard.getData('text/html');
+  if (html && /<table/i.test(html)) {
+    const t = htmlToStyledTable(html);
+    if (t) return t;
+  }
+  const text = clipboard.getData('text/plain');
+  if (text && /\t/.test(text) && text.split(/\r?\n/).filter(Boolean).length >= 2) {
+    return tsvToStyledTable(text);
+  }
+  return null;
+}
+
+// Rich-text-style formatting toolbar over the markdown source.
+function FormatToolbar({ format }) {
   const B = ({ onClick, title, children }) => (
     <button type="button" style={S.fmtBtn} onMouseDown={(e) => e.preventDefault()} onClick={onClick} title={title}>
       {children}
@@ -650,23 +734,7 @@ function FormatToolbar({ format, onInsert }) {
         <B onClick={format.ol} title="Numbered list">1. List</B>
         <B onClick={format.codeBlock} title="Code block">Code</B>
         <B onClick={format.hr} title="Divider">— HR</B>
-        <span style={S.fmtSep} />
-        <B onClick={() => setTableOpen((o) => !o)} title="Insert table">▦ Table</B>
       </div>
-      {tableOpen && (
-        <div style={S.panel}>
-          <label style={S.tblLabel}>Rows
-            <input type="number" min="1" max="20" style={S.tblNum} value={tbl.rows} onChange={(e) => setTbl({ ...tbl, rows: parseInt(e.target.value, 10) || 1 })} />
-          </label>
-          <label style={S.tblLabel}>Columns
-            <input type="number" min="1" max="10" style={S.tblNum} value={tbl.cols} onChange={(e) => setTbl({ ...tbl, cols: parseInt(e.target.value, 10) || 1 })} />
-          </label>
-          <label style={S.check}>
-            <input type="checkbox" checked={tbl.header} onChange={(e) => setTbl({ ...tbl, header: e.target.checked })} /> header row
-          </label>
-          <button type="button" style={S.pInsert} onClick={insertTable}>Insert table</button>
-        </div>
-      )}
     </div>
   );
 }
@@ -794,8 +862,7 @@ const S = {
   fmtBar: { display: 'flex', gap: 4, flexWrap: 'wrap', alignItems: 'center', padding: 6, background: '#f7f8fa', border: '1px solid #e5e7eb', borderRadius: 6 },
   fmtBtn: { minWidth: 30, padding: '5px 8px', background: '#fff', border: '1px solid #d8dde5', borderRadius: 5, fontSize: 13, cursor: 'pointer', lineHeight: 1 },
   fmtSep: { width: 1, alignSelf: 'stretch', background: '#dde2e9', margin: '0 2px' },
-  tblLabel: { display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, color: '#444' },
-  tblNum: { width: 56, padding: '5px 6px', border: '1px solid #ccc', borderRadius: 5, fontSize: 13 },
+  pasteHint: { fontSize: 11, color: '#8a94a6', margin: '6px 0 0', fontStyle: 'italic' },
   panel: { display: 'flex', flexWrap: 'wrap', gap: 8, alignItems: 'center', marginTop: 8, padding: 10, background: '#f9fafb', border: '1px solid #e5e7eb', borderRadius: 6 },
   pInput: { flex: '1 1 160px', padding: '6px 8px', border: '1px solid #ccc', borderRadius: 6, fontSize: 13 },
   check: { display: 'flex', alignItems: 'center', gap: 4, fontSize: 13, color: '#444' },

@@ -97,9 +97,11 @@ Editor toolbar:
   inline code, H2/H3, quote, bullet/numbered lists, code block, divider) that
   wraps/prefixes the current selection — rich-text ease of use while the source
   stays markdown.
-- A **table generator** (rows × columns + optional header row) that inserts a
-  styled HTML `<table>` matching the convention existing posts use. HTML tables
-  render via `rehype-raw` in both the preview and the published page — no
+- **Paste-to-table**: copy a range from Google Sheets / Excel and paste it into
+  the content box — the paste handler reads the clipboard's HTML table (or the
+  tab-separated fallback) and inserts a clean styled HTML `<table>` matching the
+  convention existing posts use, preserving bold, alignment, and links. HTML
+  tables render via `rehype-raw` in both preview and published page — no
   `remark-gfm` and no change to the SEO renderer.
 
 Images & editor UX:
