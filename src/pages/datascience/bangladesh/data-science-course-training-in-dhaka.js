@@ -138,6 +138,10 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/datascience/bangladesh/data-science-course-training-in-dhaka"
+        />
 
         <script
           type="application/ld+json"
