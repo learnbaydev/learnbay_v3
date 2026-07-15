@@ -15,6 +15,7 @@ export default function AdminLayout({ user, title, children }) {
     ...(isAdmin
       ? [
           { href: '/admin/review', label: 'Review queue' },
+          { href: '/admin/published', label: 'Published' },
           { href: '/admin/users', label: 'Users' },
         ]
       : []),

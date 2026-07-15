@@ -21,6 +21,12 @@ A post lives in exactly one place at a time:
 
 The 21 legacy posts exist only as `.md` files and count as *published*.
 
+**Managing publish/unpublish:** `/admin/published` (ADMIN) lists Published posts
+(with **Unpublish**) and Unpublished posts (with **Republish**). An admin can also
+Unpublish/Publish from a post's own editor. Unpublish → post stored in Mongo, `.md`
+deleted, URL removed from `/blogs` + `sitemap.xml`. Republish → the same `.md` is
+rewritten (original publish date preserved), restoring it exactly.
+
 ## Roles
 
 - **ADMIN** — reviews, publishes/unpublishes, manages users.

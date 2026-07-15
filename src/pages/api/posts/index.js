@@ -37,6 +37,9 @@ export function pickContent(body) {
     if (body[key] !== undefined) out[key] = body[key];
   }
   out.content = typeof body.content === 'string' ? body.content : '';
+  // No mobile image supplied → reuse the cover image, so both fields carry the
+  // same URL everywhere (DB doc and the published .md frontmatter).
+  if (!out.imagephone && out.image) out.imagephone = out.image;
   return out;
 }
 

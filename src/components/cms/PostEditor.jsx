@@ -114,7 +114,14 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
   }
 
   function payload() {
-    return { ...form, slug: effectiveSlug, author: autoAuthor, readTime: autoReadTime };
+    return {
+      ...form,
+      slug: effectiveSlug,
+      author: autoAuthor,
+      readTime: autoReadTime,
+      // No mobile image chosen → reuse the cover image in both fields.
+      imagephone: form.imagephone || form.image,
+    };
   }
 
   async function save() {
@@ -202,6 +209,12 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
 
   async function republish() {
     await act(`/api/posts/${postId}/publish`, {}, 'Published.', '/admin');
+  }
+
+  async function unpublish() {
+    const slug = form.slug || effectiveSlug;
+    if (!window.confirm(`Unpublish "${slug}"?\n\nThe live page and sitemap entry are removed, the .md file is deleted, and the post is stored as Unpublished. You can republish it later.`)) return;
+    await act('/api/posts/unpublish', { slug }, 'Unpublished.', '/admin/published');
   }
 
   function insertIntoContent(snippet) {
@@ -325,6 +338,9 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
           {isAdmin && status === 'unpublished' && (
             <button style={S.primary} onClick={republish} disabled={busy}>Publish</button>
           )}
+          {isAdmin && status === 'published' && (
+            <button style={S.warn} onClick={unpublish} disabled={busy}>Unpublish</button>
+          )}
         </div>
       </div>
 
@@ -389,7 +405,7 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
             {/* Cover + mobile image: pick a file → converted to WebP → S3 URL */}
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 12 }}>
               <ImageField label="Cover image *" value={form.image} onChange={(url) => update('image', url)} disabled={readOnly} onError={(text) => setMsg({ ok: false, text })} />
-              <ImageField label="Mobile image (optional)" value={form.imagephone} onChange={(url) => update('imagephone', url)} disabled={readOnly} onError={(text) => setMsg({ ok: false, text })} />
+              <ImageField label="Mobile image (defaults to cover)" value={form.imagephone} fallback={form.image} onChange={(url) => update('imagephone', url)} disabled={readOnly} onError={(text) => setMsg({ ok: false, text })} />
             </div>
 
             {/* SEO title with live meter */}
@@ -549,8 +565,11 @@ function LinkStats({ links }) {
 }
 
 // Cover/mobile image: pick a file, upload+convert to WebP, store the S3 URL.
-function ImageField({ label, value, onChange, disabled, onError }) {
+function ImageField({ label, value, onChange, disabled, onError, fallback }) {
   const [busy, setBusy] = useState(false);
+  // When empty, show the fallback (cover image) — that's what will be saved.
+  const shown = value || fallback || '';
+  const usingFallback = !value && Boolean(fallback);
   async function onFile(e) {
     const file = e.target.files?.[0];
     e.target.value = '';
@@ -567,11 +586,12 @@ function ImageField({ label, value, onChange, disabled, onError }) {
   return (
     <div style={S.imgField}>
       <div style={{ fontSize: 12, color: '#444', marginBottom: 6 }}>{label}</div>
-      {value ? (
-        <img src={value} alt="" style={S.thumb} />
+      {shown ? (
+        <img src={shown} alt="" style={{ ...S.thumb, ...(usingFallback ? { opacity: 0.65 } : {}) }} />
       ) : (
         <div style={S.thumbEmpty}>No image</div>
       )}
+      {usingFallback && <div style={S.fallbackNote}>Using cover image</div>}
       <div style={{ display: 'flex', gap: 8, marginTop: 8, alignItems: 'center' }}>
         <label style={{ ...S.filePick, ...(disabled ? { opacity: 0.5, pointerEvents: 'none' } : {}) }}>
           {busy ? 'Uploading…' : value ? 'Replace' : 'Choose image'}
@@ -832,6 +852,7 @@ const S = {
   imgField: { flex: '1 1 200px', minWidth: 180, border: '1px solid #eee', borderRadius: 8, padding: 10, background: '#fafbfc' },
   thumb: { width: '100%', height: 120, objectFit: 'cover', borderRadius: 6, display: 'block' },
   thumbEmpty: { width: '100%', height: 120, borderRadius: 6, background: '#eef1f5', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#aab', fontSize: 13 },
+  fallbackNote: { fontSize: 11, color: '#8a94a6', marginTop: 4, fontStyle: 'italic' },
   filePick: { padding: '6px 12px', background: '#2563eb', color: '#fff', borderRadius: 6, fontSize: 13, cursor: 'pointer', display: 'inline-block' },
   clearBtn: { background: 'none', border: 'none', color: '#c33', fontSize: 13, cursor: 'pointer' },
   miniThumb: { width: 40, height: 40, objectFit: 'cover', borderRadius: 4 },

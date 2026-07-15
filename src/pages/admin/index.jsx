@@ -23,7 +23,7 @@ export default function Dashboard({ user, stats }) {
         <Card href="/admin/compose" label="Write a new post" value="✍️" />
         <Card href="/admin/my-posts" label="My posts" value={stats.mine} hint={`${stats.changesRequested} need changes`} />
         {isAdmin && <Card href="/admin/review" label="Awaiting review" value={stats.inReview} hint="Review queue" />}
-        {isAdmin && <Card href="/blogs" label="Published" value={stats.published} hint="Live posts" />}
+        {isAdmin && <Card href="/admin/published" label="Published" value={stats.published} hint="Manage / unpublish" />}
         {isAdmin && <Card href="/admin/users" label="Users" value="⚙️" hint="Manage accounts" />}
       </div>
     </AdminLayout>

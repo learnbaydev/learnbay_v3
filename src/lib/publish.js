@@ -27,10 +27,16 @@ export async function publishPost(post) {
   if (!post?.slug) throw new Error('Post has no slug.');
   const existedBefore = publishedExists(post.slug);
 
-  // Publish date is set automatically in IST at publish time. `date` (the
-  // human-facing "Publish on") is set too if the author never had one.
-  const publishedDate = istDateDDMMYYYY();
-  const stamped = { ...post, publishedDate, date: post.date || publishedDate };
+  // Publish date is set automatically in IST on FIRST publish; a republish
+  // preserves the original date so an unpublish→publish round-trip is lossless.
+  const publishedDate = post.publishedDate || istDateDDMMYYYY();
+  const stamped = {
+    ...post,
+    publishedDate,
+    date: post.date || publishedDate,
+    // Mobile image falls back to the cover image so the .md always has both.
+    imagephone: post.imagephone || post.image,
+  };
 
   writePublishedFile(stamped);
   try {

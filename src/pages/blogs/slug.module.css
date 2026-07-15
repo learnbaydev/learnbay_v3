@@ -115,12 +115,22 @@
 
 .blogContent {
   flex: 1;
+  min-width: 0; /* allow the content column to shrink so a wide image can't push out the TOC sidebar */
   /* max-height: 80vh; */
   /* background-color: #ffffff; */
   border-radius: 12px;
   padding: 0 30px;
   /* box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05); */
   scroll-behavior: smooth;
+}
+/* Constrain in-content images to the column width (older posts had no inline
+   images; CMS posts insert full-size uploads which would otherwise overflow). */
+.blogContent img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 24px auto;
+  border-radius: 8px;
 }
 .blogContent a {
   color: #2372bc;

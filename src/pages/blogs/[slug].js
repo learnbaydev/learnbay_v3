@@ -634,7 +634,8 @@ export async function getStaticProps({ params }) {
       date: data.date || 'Unknown Date',
       author: data.author || 'Author',
       image: data.image || '/default-image.jpg',
-      imagephone: data.imagephone || '/default-image.jpg',
+      // No mobile image? fall back to the cover image (never the placeholder).
+      imagephone: data.imagephone || data.image || '/default-image.jpg',
       alt: data.alt || 'Default alt text',
       Stitle: data.Stitle || data.title || 'Untitled',
       description: data.description || 'Default description',
