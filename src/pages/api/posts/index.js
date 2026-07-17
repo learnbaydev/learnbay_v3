@@ -15,7 +15,7 @@ import {
   postsCollection,
   listPosts,
   listPublished,
-  slugTaken,
+  slugConflict,
   toObjectId,
 } from '@/lib/posts';
 
@@ -77,9 +77,9 @@ async function handler(req, res) {
     const body = req.body || {};
     const slug = sanitizeSlug(body.slug || body.title || '');
     if (!slug) return res.status(400).json({ error: 'A title or slug is required.' });
-    if (await slugTaken(slug)) {
-      return res.status(409).json({ error: `The slug "${slug}" is already in use.` });
-    }
+    // The final blog URL must be unique across published files and working docs.
+    const conflict = await slugConflict(slug);
+    if (conflict.taken) return res.status(409).json({ error: conflict.message });
 
     const now = new Date();
     const doc = {

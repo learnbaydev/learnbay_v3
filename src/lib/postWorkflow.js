@@ -19,10 +19,17 @@ export function isAuthor(user, post) {
 
 // Content (body/frontmatter) is editable by the author only while draft or
 // changes_requested; ADMIN may edit any working doc.
+// Content is editable by the author while draft / changes_requested, and also
+// while unpublished — so a post can be taken down, revised, then re-published.
+// ADMIN may edit any working doc.
 export function canEdit(user, post) {
   if (isAdmin(user)) return true;
   if (!isAuthor(user, post)) return false;
-  return post.status === STATUS.DRAFT || post.status === STATUS.CHANGES_REQUESTED;
+  return (
+    post.status === STATUS.DRAFT ||
+    post.status === STATUS.CHANGES_REQUESTED ||
+    post.status === STATUS.UNPUBLISHED
+  );
 }
 
 // Allowed transitions: { [from]: { [to]: 'admin' | 'author' | 'either' } }.

@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/sync-blog-files.mjs",
     "build": "next build",
     "start": "next start",
     "postbuild": "node uploadS3.mjs",
+    "blog:sync": "node scripts/sync-blog-files.mjs",
     "lint": "next lint",
     "format": "prettier --write ."
   },

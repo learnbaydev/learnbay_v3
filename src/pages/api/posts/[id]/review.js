@@ -43,8 +43,9 @@ async function handler(req, res) {
     await posts.updateOne({ _id: post._id }, update);
 
     const fresh = await findPostById(req.query.id);
+    let result;
     try {
-      await publishPost(fresh);
+      result = await publishPost(fresh, user);
     } catch (err) {
       return res.status(500).json({ error: `Publish failed: ${err.message}` });
     }
@@ -53,7 +54,14 @@ async function handler(req, res) {
     const to = await authorEmail(post);
     if (to) notifyPublished({ to, postTitle: post.title || post.slug, slug: post.slug });
 
-    return res.status(200).json({ ok: true, status: STATUS.PUBLISHED, url: `/blogs/${post.slug}`, revalidated });
+    return res.status(200).json({
+      ok: true,
+      status: STATUS.PUBLISHED,
+      url: `/blogs/${post.slug}`,
+      revalidated,
+      // Post is live regardless; flag only if the git mirror didn't land.
+      gitWarning: result?.git?.ok === false && !result.git.skipped ? result.git.error : undefined,
+    });
   }
 
   if (action === 'request_changes') {

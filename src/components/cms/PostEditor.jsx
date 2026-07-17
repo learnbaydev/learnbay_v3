@@ -74,12 +74,16 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
   const [newComment, setNewComment] = useState('');
   const [decisionComment, setDecisionComment] = useState('');
   const [fieldsOpen, setFieldsOpen] = useState(true);
+  const [slugCheck, setSlugCheck] = useState(null); // { slug, available, message, url }
   const contentRef = useRef(null);
 
   const isAdmin = user?.role === 'ADMIN';
   const readOnly = mode === 'review' || status === 'in_review' || (status === 'published' && !isAdmin);
   const effectiveSlug = slugify(slugTouched ? form.slug : form.title);
   const fullUrl = `${SITE}/blogs/${effectiveSlug || 'slug'}`;
+  // The final URL is taken by another post (checked live against published files
+  // AND other working docs).
+  const urlTaken = Boolean(slugCheck && slugCheck.slug === effectiveSlug && slugCheck.available === false);
 
   // Auto-derived values.
   const autoAuthor = form.author || user?.name || '';
@@ -109,6 +113,33 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // Live-check the final blog URL as the title/slug changes (debounced), so a
+  // collision is reported before saving rather than as a surprise 409.
+  useEffect(() => {
+    if (readOnly || !effectiveSlug) {
+      setSlugCheck(null);
+      return undefined;
+    }
+    let cancelled = false;
+    const t = setTimeout(async () => {
+      try {
+        const res = await fetch('/api/posts/check-slug', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ slug: effectiveSlug, ignoreId: postId }),
+        });
+        const data = await res.json();
+        if (!cancelled) setSlugCheck(data);
+      } catch {
+        /* availability check is best-effort; the API still enforces it */
+      }
+    }, 400);
+    return () => {
+      cancelled = true;
+      clearTimeout(t);
+    };
+  }, [effectiveSlug, postId, readOnly]);
+
   function update(key, value) {
     setForm((f) => ({ ...f, [key]: value }));
   }
@@ -127,6 +158,7 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
   async function save() {
     if (!form.title.trim()) return setMsg({ ok: false, text: 'Title is required.' });
     if (!effectiveSlug) return setMsg({ ok: false, text: 'Could not derive a slug.' });
+    if (urlTaken) return setMsg({ ok: false, text: slugCheck.message });
     setBusy(true);
     setMsg(null);
     try {
@@ -179,6 +211,7 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
 
   async function submitForReview() {
     // Block on the quality gate before touching the network.
+    if (urlTaken) return setMsg({ ok: false, text: slugCheck.message });
     if (!review.ok) {
       return setMsg({ ok: false, text: `Not ready: ${review.errors[0]}` });
     }
@@ -307,7 +340,11 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
   const addFaq = () => setForm((f) => ({ ...f, faqs: [...(f.faqs || []), { question: '', answer: '' }] }));
   const removeFaq = (i) => setForm((f) => ({ ...f, faqs: (f.faqs || []).filter((_, idx) => idx !== i) }));
 
-  const canSubmitHere = !readOnly && (status === 'draft' || status === 'changes_requested' || (!postId && mode === 'create'));
+  // A post that was taken down can be revised and sent back through review
+  // (blogger) or published straight away (admin, via the Publish button).
+  const canSubmitHere =
+    !readOnly &&
+    (status === 'draft' || status === 'changes_requested' || status === 'unpublished' || (!postId && mode === 'create'));
 
   return (
     <div>
@@ -315,6 +352,11 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
           <span style={S.statusBadge(status)}>{STATUS_LABEL[status] || status}</span>
           <CopyUrl url={fullUrl} />
+          {!readOnly && effectiveSlug && slugCheck && slugCheck.slug === effectiveSlug && (
+            <span style={{ ...S.urlState, color: slugCheck.available ? '#0a7' : '#c33' }}>
+              {slugCheck.available ? '✓ URL available' : '✗ URL already taken'}
+            </span>
+          )}
         </div>
         <div style={S.actions}>
           <button style={S.ghost} onClick={() => setFieldsOpen((v) => !v)}>
@@ -327,12 +369,12 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
           )}
           {canSubmitHere && (
             <button
-              style={{ ...S.primary, ...(review.ok ? {} : S.primaryDisabled) }}
+              style={{ ...S.primary, ...(review.ok && !urlTaken ? {} : S.primaryDisabled) }}
               onClick={submitForReview}
-              disabled={busy || !review.ok}
-              title={review.ok ? 'Submit for review' : review.errors[0]}
+              disabled={busy || !review.ok || urlTaken}
+              title={urlTaken ? slugCheck.message : review.ok ? 'Submit for review' : review.errors[0]}
             >
-              Submit for review
+              {status === 'unpublished' ? 'Submit for re-publish' : 'Submit for review'}
             </button>
           )}
           {isAdmin && status === 'unpublished' && (
@@ -350,10 +392,13 @@ export default function PostEditor({ initialPost = null, user, mode = 'create' }
       {mode !== 'review' && fieldsOpen && (
         <div style={S.readiness}>
           <strong style={{ fontSize: 13 }}>
-            {review.ok ? '✅ Ready to submit for review' : `⚠️ ${review.errors.length} item(s) to fix before review`}
+            {review.ok && !urlTaken
+              ? '✅ Ready to submit for review'
+              : `⚠️ ${review.errors.length + (urlTaken ? 1 : 0)} item(s) to fix before review`}
           </strong>
-          {!review.ok && (
+          {(!review.ok || urlTaken) && (
             <ul style={S.readList}>
+              {urlTaken && <li>{slugCheck.message}</li>}
               {review.errors.map((e, i) => (
                 <li key={i}>{e}</li>
               ))}
@@ -835,6 +880,7 @@ const S = {
     color: status === 'published' ? '#0a7' : status === 'in_review' ? '#b8860b' : status === 'changes_requested' ? '#c33' : '#556',
   }),
   slugHint: { fontSize: 13, color: '#888' },
+  urlState: { fontSize: 12, fontWeight: 600 },
   actions: { display: 'flex', gap: 8, flexWrap: 'wrap' },
   primary: { padding: '9px 16px', background: '#2563eb', color: '#fff', border: 'none', borderRadius: 6, fontSize: 14, cursor: 'pointer' },
   primaryDisabled: { background: '#9db8e8', cursor: 'not-allowed' },

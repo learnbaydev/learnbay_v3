@@ -27,6 +27,29 @@ Unpublish/Publish from a post's own editor. Unpublish → post stored in Mongo, 
 deleted, URL removed from `/blogs` + `sitemap.xml`. Republish → the same `.md` is
 rewritten (original publish date preserved), restoring it exactly.
 
+## Git & deploys (how publish/unpublish survives)
+
+**Model:** MongoDB is the source of truth · git is a version-history mirror · the
+live site serves `.md` files written at runtime.
+
+- **Publishing/unpublishing never needs a deploy** — the runtime writes/deletes the
+  `.md` and `res.revalidate()` makes it live; the sitemap is dynamic.
+- **Git mirror** (`src/lib/gitContent.js`): each publish/unpublish commits the
+  `.md` add/delete to the **`prod`** branch via the GitHub Contents API, attributed
+  to the author (`blog: publish <slug> (Name)`). It's **best-effort** — a git
+  failure never blocks publishing, it just returns a `gitWarning`.
+- **Reconcile safety net** (`scripts/sync-blog-files.mjs`, wired as **`prebuild`**):
+  before every `npm run build` it reconciles Mongo → filesystem:
+  `published` → write the `.md`; `unpublished` → delete it; files Mongo doesn't
+  know about are **left alone** (legacy posts keep working, no migration).
+  It **fails the build** if Mongo is unreachable (escape: `SKIP_BLOG_SYNC=1`), so a
+  DB outage can't silently resurrect an unpublished post. Run manually with
+  `npm run blog:sync` (also a disaster-recovery tool: regenerate every published
+  `.md` from Mongo).
+
+> Because Mongo wins, hand-editing a `.md` that the CMS manages will be overwritten
+> on the next build. Edit CMS posts in the CMS; legacy posts are untouched.
+
 ## Roles
 
 - **ADMIN** — reviews, publishes/unpublishes, manages users.
@@ -56,6 +79,10 @@ allowed only for emails already present (and active) in the `users` collection.
    | `BLOG_S3_PREFIX` | key prefix for uploads (default `blog/uploads/`) |
    | `BLOG_S3_PUBLIC_BASE` | public delivery base, e.g. your CloudFront URL (default: the S3 URL) |
    | `BLOG_S3_ACL` | optional — set to `public-read` only if the bucket has ACLs enabled |
+   | `GITHUB_TOKEN` | fine-grained PAT, **Contents: Read & Write** on the repo — enables the git mirror (omit to disable) |
+   | `GITHUB_REPO` | default `learnbaydev/learnbay_v3` |
+   | `GITHUB_BRANCH` | default `prod` — the branch publish/unpublish commits to |
+   | `SKIP_BLOG_SYNC` | set to `1` to skip the prebuild reconcile (escape hatch only) |
 
    > Uploaded objects must be publicly readable. Either serve them through
    > CloudFront (set `BLOG_S3_PUBLIC_BASE` to the distribution URL — recommended,

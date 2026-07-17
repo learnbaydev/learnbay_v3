@@ -151,6 +151,33 @@ export async function slugTaken(slug) {
   return Boolean(await findPostBySlug(slug));
 }
 
+// Richer collision check for the final blog URL. `ignoreId` lets a post keep its
+// own slug while editing. Returns { taken, where, status, message }.
+export async function slugConflict(slug, ignoreId) {
+  const url = `/blogs/${slug}`;
+  if (publishedExists(slug)) {
+    const own = ignoreId ? await findPostBySlug(slug) : null;
+    // The post's own published file isn't a conflict with itself.
+    if (!own || String(own._id) !== String(ignoreId)) {
+      return {
+        taken: true,
+        where: 'published',
+        message: `That URL is already live: ${url} is a published post. Pick a different slug.`,
+      };
+    }
+  }
+  const doc = await findPostBySlug(slug);
+  if (doc && (!ignoreId || String(doc._id) !== String(ignoreId))) {
+    return {
+      taken: true,
+      where: 'post',
+      status: doc.status,
+      message: `That URL is already used by another post ("${doc.title || slug}", ${doc.status}) at ${url}. Pick a different slug.`,
+    };
+  }
+  return { taken: false };
+}
+
 export async function listPosts({ authorId, status, mine } = {}) {
   const query = {};
   if (status) query.status = status;

@@ -4,7 +4,7 @@
 //   DELETE -> delete a draft (author on draft, or ADMIN)
 
 import { requireRole, ROLES } from '@/lib/auth';
-import { STATUS, findPostById, postsCollection, toObjectId } from '@/lib/posts';
+import { STATUS, findPostById, postsCollection, toObjectId, sanitizeSlug, slugConflict } from '@/lib/posts';
 import { canEdit, isAdmin, isAuthor } from '@/lib/postWorkflow';
 import { serializePost, pickContent } from './index';
 
@@ -26,6 +26,21 @@ async function handler(req, res) {
     }
     const content = pickContent(req.body || {});
     const now = new Date();
+
+    // The slug IS the final blog URL: allow changing it while the post isn't
+    // live, always verifying the URL is free first.
+    const nextSlug = sanitizeSlug((req.body && req.body.slug) || '');
+    if (nextSlug && nextSlug !== post.slug) {
+      if (post.status === STATUS.PUBLISHED) {
+        return res.status(409).json({
+          error: `Cannot change the URL of a published post. Unpublish "${post.slug}" first, then change the slug.`,
+        });
+      }
+      const conflict = await slugConflict(nextSlug, post._id);
+      if (conflict.taken) return res.status(409).json({ error: conflict.message });
+      content.slug = nextSlug;
+    }
+
     const posts = await postsCollection();
     await posts.updateOne(
       { _id: post._id },

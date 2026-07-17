@@ -24,13 +24,19 @@ async function handler(req, res) {
   const check = canTransition(req.user, STATUS.PUBLISHED, STATUS.UNPUBLISHED);
   if (!check.ok) return res.status(403).json({ error: check.reason });
 
+  let result;
   try {
-    await unpublishPost(slug, req.user);
+    result = await unpublishPost(slug, req.user);
   } catch (err) {
     return res.status(500).json({ error: `Unpublish failed: ${err.message}` });
   }
   const revalidated = await revalidateBlog(res, slug);
-  return res.status(200).json({ ok: true, status: STATUS.UNPUBLISHED, revalidated });
+  return res.status(200).json({
+    ok: true,
+    status: STATUS.UNPUBLISHED,
+    revalidated,
+    gitWarning: result?.git?.ok === false && !result.git.skipped ? result.git.error : undefined,
+  });
 }
 
 export default requireRole([ROLES.ADMIN], handler);

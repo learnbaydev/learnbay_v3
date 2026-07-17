@@ -17,13 +17,15 @@ import {
   writePublishedFile,
   deletePublishedFile,
   publishedExists,
+  toMarkdown,
 } from '@/lib/posts';
 import { istDateDDMMYYYY } from '@/lib/dateIST';
+import { commitFile, deleteFile, blogFilePath } from '@/lib/gitContent';
 
 // Ordering matters: write the file first (the public artifact), then update the
 // DB. If the DB update throws, we roll the file back so the two stores can't
 // disagree.
-export async function publishPost(post) {
+export async function publishPost(post, user) {
   if (!post?.slug) throw new Error('Post has no slug.');
   const existedBefore = publishedExists(post.slug);
 
@@ -57,7 +59,16 @@ export async function publishPost(post) {
     if (!existedBefore) deletePublishedFile(post.slug); // rollback new file
     throw err;
   }
-  return { slug: post.slug, url: `/blogs/${post.slug}` };
+
+  // Mirror into git for history (best-effort — never blocks publishing).
+  const git = await commitFile({
+    path: blogFilePath(post.slug),
+    content: toMarkdown(stamped),
+    message: `blog: publish ${post.slug}${user?.name ? ` (${user.name})` : ''}`,
+    user,
+  });
+
+  return { slug: post.slug, url: `/blogs/${post.slug}`, git };
 }
 
 // Reverse the handoff. Works for both CMS posts (DB doc exists) and legacy
@@ -106,5 +117,13 @@ export async function unpublishPost(slug, user) {
 
   // Only remove the file once the DB reflects the unpublished state.
   deletePublishedFile(slug);
-  return { slug };
+
+  // Mirror the removal into git so a later deploy can't resurrect the post.
+  const git = await deleteFile({
+    path: blogFilePath(slug),
+    message: `blog: unpublish ${slug}${user?.name ? ` (${user.name})` : ''}`,
+    user,
+  });
+
+  return { slug, git };
 }

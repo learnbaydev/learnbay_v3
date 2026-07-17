@@ -19,13 +19,19 @@ async function handler(req, res) {
   const check = canTransition(req.user, post.status, STATUS.PUBLISHED);
   if (!check.ok) return res.status(409).json({ error: check.reason });
 
+  let result;
   try {
-    await publishPost(post);
+    result = await publishPost(post, req.user);
   } catch (err) {
     return res.status(500).json({ error: `Publish failed: ${err.message}` });
   }
   const revalidated = await revalidateBlog(res, post.slug);
-  return res.status(200).json({ ok: true, url: `/blogs/${post.slug}`, revalidated });
+  return res.status(200).json({
+    ok: true,
+    url: `/blogs/${post.slug}`,
+    revalidated,
+    gitWarning: result?.git?.ok === false && !result.git.skipped ? result.git.error : undefined,
+  });
 }
 
 export default requireRole([ROLES.ADMIN], handler);
