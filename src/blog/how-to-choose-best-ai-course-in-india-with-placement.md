@@ -46,9 +46,36 @@ The best AI training courses are accessible and span from affordable online opti
 
 <b>Below, we have included a video link demonstrating a concise overview of how the 5 learning models operate to provide an accurate approach. </b>
 
-<iframe width="760" height="315" src="https://www.youtube.com/embed/R0FDKdPFhfs?si=Xpu5i_DTRDZwjO3B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<style>
+.youtube-video {
+  position: relative;
+  width: 100%;
+  max-width: 760px;
+  margin: 1.5rem auto;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+}
 
-<Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/The+5+learning+models+mapped.webp" style="width:100%" class="img" alt="A graph shows 5 leaning model aprrocah for a learner to see in an AI course in india."/></br>
+.youtube-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+</style>
+
+<div class="youtube-video">
+  <iframe
+    src="https://www.youtube.com/embed/R0FDKdPFhfs?si=Xpu5i_DTRDZwjO3B"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ## Let’s look at our Five Learning Models
 
@@ -239,7 +266,13 @@ After covering the basics, the program focuses on the occupation of each partici
 
 <b>Why is this important now?</b>
 
-According to the PwC Global AI Jobs Barometer, AI healthcare and finance professionals will earn a great salary premium, projected toN be 62% more than that of their colleagues who don’t work in the AI space, an increase from 57% in 2025.
+According to the PwC Global AI Jobs Barometer, AI healthcare and finance professionals will earn a great salary premium, projected to be 62% more than that of their colleagues who don’t work in the AI space, an increase from 57% in 2025.
+
+Outcome -
+
+- <b>Best for</b>: Working professionals who want to combine AI skills with expertise in their existing domain, such as Software Development, Cloud & DevOps, Data Science, or Business Leadership.
+- <b>What to watch out for</b>: Programs that teach generic AI concepts without offering domain-specific learning paths or industry-relevant projects.
+- <b>Example players: Learnbay</b> (domain-specialized AI programs), Great Learning (selected specializations).
 
 <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/The+Ai-skills+wage+premium+keeps+widening.webp" style="width:100%" class="img" alt="A learner sitting with a laptop and searching for AI skills wage gap increasing year per pear"/></br>
 
