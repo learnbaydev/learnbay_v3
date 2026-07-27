@@ -504,7 +504,7 @@ To identify the most suitable and best AI course in India, you need to follow a 
 
 Bootcamps must be used by disciplined learners who have difficulty using a course with no structure. If you are experienced, a live, domain-focused course is best to actually learn GenAI skills, implement <a href="https://www.learnbay.co/blogs/agentic-ai-ultimate-guide-to-frameworks-use-cases-and-ethics" target="_blank" >AI frameworks</a>, and learn applied data thinking without going back to the start of the learning process.
 
-<a href="https://www.learnbay.co/" target="_blank" rel="nofollow">Learnbay's professional upskilling program</a> is a fully specialized program with more than 150 hours of completely live, instructor-led classes. Participants earn the IBM Generative AI credential and have the opportunity to focus on specializations that include BFSI, healthcare, supply chain, manufacturing, human resources, and project management.
+<a href="https://www.learnbay.co/" target="_blank">Learnbay's professional upskilling program</a> is a fully specialized program with more than 150 hours of completely live, instructor-led classes. Participants earn the IBM Generative AI credential and have the opportunity to focus on specializations that include BFSI, healthcare, supply chain, manufacturing, human resources, and project management.
 
 It also empowers professionals to become job-ready in just 5 months while working on live AI-powered Projects that specifically entail LangChain, RAG, and Agentic AI. Overall, this course provides a seamless approach to gathering specific knowledge for a sustainable career prospect in the AI-first job market.
 
@@ -518,7 +518,7 @@ There is no single 'best course.' The answer is dependent on your ability and ul
 
 Course completion does not prove to an employer that you can solve their domain-related issues. They want proof. Doing the same thing as hundreds of others does sharpen your skills, but it does not differentiate you. A domain-specific capstone (BFSI, healthcare, testing, operations, etc.) demonstrates that you have domain-related practical skills. Because of theAI-skills wage premium, this matters. The PwC 2026 Global AI Jobs Barometer predicts that skills that can optimize and enhance a company’s operations and profitability will earn premium salaries.
 
-### 3,How can I compare the actual best AI course in India?
+### 3.How can I compare the actual best AI course in India?
 
 When evaluating courses, analyze the following seven criteria for all of the training courses you are looking to attend:
 
