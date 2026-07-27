@@ -757,8 +757,20 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
-		<url>
+	<url>
 		<loc>https://www.learnbay.co/blogs/top-indian-women-in-ai-global-impact</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/blogs/how-to-choose-best-ai-course-in-india-with-placement</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/blogs/impact-of-ai-on-indias-job-market</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
