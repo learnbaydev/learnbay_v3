@@ -7,7 +7,7 @@ date: '17-07-2026'
 author: 'Sonalisha Mohanty'
 readTime: '12 min'
 image: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Labour+Market+Impact+of+AI+in+India_+2026+Update+on+Jobs%2C+Skills%2C+and+Your+Career.webp'
-imagephone: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Labour+Market+Impact+of+AI+in+India_+2026+Update+on+Jobs%2C+Skills%2C+and+Your+Career.webp'
+imagephone: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Labour+Market+Impact+of+AI+in+India_+2026+Update+on+Jobs%2C+Skills%2C+and+Your+Career.webp'
 alt: 'A humanoid robot and a man discussing the Impact of AI on India’s Job Market'
 publishedDate: '2026-07-17T00:00:00+05:30'
 
@@ -173,7 +173,7 @@ Coming to the sector-wise analysis, the AI impact on Indian IT jobs is at a high
 
 </table>
 
-<b>Note</b>: This 1% share of employment exposed to AI dominance is at greater career risk. Hence, such professionals should gain AI literacy, master <a href="https://www.learnbay.co/blogs/agentic-ai-ultimate-guide-to-frameworks-use-cases-and-ethics" target="_blank" rel="nofollow">Agentic AI frameworks</a>, and work with real agents to succeed in the AI age.
+<b>Note</b>: This 1% share of employment exposed to AI dominance is at greater career risk. Hence, such professionals should gain AI literacy, master <a href="https://www.learnbay.co/blogs/agentic-ai-ultimate-guide-to-frameworks-use-cases-and-ethics" target="_blank">Agentic AI frameworks</a>, and work with real agents to succeed in the AI age.
 
 ## The Impact of the AI Paradox: Rising AI Hiring vs. Rising Tech Layoffs
 
@@ -192,7 +192,7 @@ Indeed, tech layoffs are getting severe, affecting the economic and psychologica
 
 - <a href="https://nasscom.in/knowledge-center/publications/technology-sector-india-strategic-review-2026" target="_blank" rel="nofollow">NASSCOM's Strategic Review 2026</a> estimates the Indian tech industry added a net 1.35 lakh jobs in FY2026. This reflects an aggressive hiring trend to optimize work productivity in the long run.
 - AI-led hiring rates are increasing, as <a href="https://www.naukri.com/ai-jobs" target="_blank" rel="nofollow">Naukri</a> reports over 82,000 AI job postings in July 2026.
-- <a href="" target="_blank" rel="nofollow">PIB reports</a> on AI hiring specifications state that 6 million professionals have already been hired in the tech and AI ecosystem, and it is expected to increase India’s economy by $1.7 trillion in revenue by 2035 through AI-driven operations.
+- <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209737&reg=3&lang=1" target="_blank" rel="nofollow">PIB reports</a> on AI hiring specifications state that 6 million professionals have already been hired in the tech and AI ecosystem, and it is expected to increase India’s economy by $1.7 trillion in revenue by 2035 through AI-driven operations.
 - Industry reports state that over 89% of total startups in India have already adopted AI for core operations.
 
 However, AI literacy in India is still a concern for many professionals and career roles. Various big firms in India report that Generative AI adoption across functional teams has increased their productivity gains.
