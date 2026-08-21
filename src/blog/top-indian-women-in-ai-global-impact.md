@@ -105,7 +105,7 @@ As biometric AI spreads across India, her research on making these systems accur
 
 #### 7. Geetha Manjunath — AI as a Healthtech Leader
 
-Geetha Manjunath left a research-lab career to build <a href="NIRAMAI Health Analytix" target="_blank" rel="nofollow">NIRAMAI Health Analytix</a> after losing close family members to late-stage breast cancer.
+Geetha Manjunath left a research-lab career to build <a href="https://niramai.com/team/geetha-manjunath" target="_blank" rel="nofollow">NIRAMAI Health Analytix</a> after losing close family members to late-stage breast cancer.
 
 In 2026, she is serving as the CEO and CTO of Nirmai Health Analytix. With 30+ years of experience in IT innovation, she deploys thermalytix technology with AI and thermal imaging for radiation-free, affordable breast cancer screening for women of all ages.
 

@@ -359,7 +359,7 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/cloud-computing-and-devOps-certification-program</loc>
+		<loc>https://www.learnbay.co/cloud-and-devops/cloud-computing-and-devops-certification-program</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
@@ -513,7 +513,7 @@
 	</url>
 
 	<url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/aws-cloud-computing-and-devOps</loc>
+		<loc>https://www.learnbay.co/cloud-and-devops/aws-cloud-computing-and-devops</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
@@ -574,13 +574,13 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
-		<url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/online-cloud-computing-course-bangalore</loc>
+	<url>
+		<loc>https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-bangalore</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
 	<url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/online-cloud-computing-course-pune</loc>
+		<loc>https://www.learnbay.co/cloud-and-devops/online-cloud-computing-course-pune</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
@@ -747,16 +747,41 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
-
+	<url>
 		<loc>https://www.learnbay.co/blogs/agentic-ai-projects-that-get-you-hired</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
+	<url>
 		<loc>https://www.learnbay.co/blogs/best-domains-for-data-science-and-ai</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
+	<url>
 		<loc>https://www.learnbay.co/blogs/top-indian-women-in-ai-global-impact</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/blogs/how-to-choose-best-ai-course-in-india-with-placement</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/blogs/impact-of-ai-on-indias-job-market</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/blogs/data-analyst-course-fee-guide</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+		<url>
+		<loc>https://www.learnbay.co/blogs/top-generative-ai-skills-for-genai-practitioners</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
