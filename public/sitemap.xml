@@ -780,8 +780,13 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
-		<url>
+	<url>
 		<loc>https://www.learnbay.co/blogs/top-generative-ai-skills-for-genai-practitioners</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/blogs/best-ai-courses-in-india-compared</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
