@@ -1,4 +1,4 @@
-b---
+---
 title: >-
 Best AI Course in India With Placement Support (2026): After Comparing 50+,
 Here Are The 9 That Stand Out
