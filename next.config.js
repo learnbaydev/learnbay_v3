@@ -2050,6 +2050,14 @@ const nextConfig = {
         permanent: true,
       },
 
+      {
+        source:
+          'https://www.learnbay.co/cloud-and-devops-for-system-administrators',
+        destination:
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
+        permanent: true,
+      },
+
       // IMPORTANT: Keep these 3 Cloud & DevOps redirect rules at the VERY BOTTOM of the redirects array.
       // Next.js evaluates redirect rules sequentially from top to bottom.
       // Placing these at the bottom ensures specific route overrides above execute first,
