@@ -175,7 +175,7 @@ The 2026 syllabus includes production-grade RAG, LLM evaluation, cloud AI, and A
 
 Most programs introduce <a href="https://datascience-learnbay.medium.com/what-is-generative-ai-f37ebcca309a" target="_blank" rel="nofollow">Generative AI</a> similarly for both BFSI and manufacturing LLM modules. However, Learnbay has a slightly different approach by organizing its content vertically.
 
-In terms of roles: there's the <b>SDE track</b> for aspiring AI Engineers, QA for AI Test Engineers and AI Data Engineers, a <b>Forward Deployed Engineer track</b>, along with several other non-technical options. In short, it empowers professionals to master <a href="https://www.learnbay.co/blogs/master-tech-layoffs-survival-skills" target="_blank" rel="nofollow">big tech skills to survive layoffs</a> .
+In terms of roles: there's the <b>SDE track</b> for aspiring AI Engineers, QA for AI Test Engineers and AI Data Engineers, a <b>Forward Deployed Engineer track</b>, along with several other non-technical options. In short, it empowers professionals to master <a href="https://www.learnbay.co/blogs/master-tech-layoffs-survival-skills" target="_blank">big tech skills to survive layoffs</a> .
 
 <b>In terms of domain: BFSI, healthcare, e-commerce, retail, manufacturing and supply chain, HR, project management.</b>
 
@@ -207,7 +207,7 @@ If you're entirely new to programming and don't wish to learn it, choose the App
 
 <b>Fee</b>: ₹1,59,000 + 18% GST · <b>Duration</b>: 9 months · <b>Format</b>: 100% live, weekday or weekend batches · <b>Certification</b>: IBM, Microsoft, IIT Patna plus project certificates from AI startups ·
 
-# 2. IIT Roorkee (E&ICT Academy) - AI & ML Certification Program
+## 2. IIT Roorkee (E&ICT Academy) - AI & ML Certification Program
 
 The <a href="https://eict.iitr.ac.in/programs/explore-courses/Course-Detail/pg-certificate/306/artificial-intelligence-and-machine-learning-certification-program/" target="_blank" rel="nofollow">AI & ML certification program</a> mainly provides a genuine chance to earn IIT-certified credentials.
 
@@ -475,16 +475,22 @@ Figure 3: GenAI and agentic AI topic depth across all nine AI courses in India.
   </tbody>
 </table>
 
-A close evaluation of the table above shows that most training institutes provide limited or no coverage of multi-agent frameworks, agentic AI, LLMOps, ethical principles, and hands-on agentic modeling. On the other hand, Learnbay has strong coverage of <a href="https://www.learnbay.co/blogs/agentic-ai-ultimate-guide-to-frameworks-use-cases-and-ethics" target="_blank" rel="nofollow">Agentic AI frameworks</a> and concepts, empowering professionals to learn and lead the AI age in 2026. Therefore, ask when the syllabus was provided and request the framework names to check whether the course is worth investing in for upskilling in 2026.
+A close evaluation of the table above shows that most training institutes provide limited or no coverage of multi-agent frameworks, agentic AI, LLMOps, ethical principles, and hands-on agentic modeling. On the other hand, Learnbay has strong coverage of <a href="https://www.learnbay.co/blogs/agentic-ai-ultimate-guide-to-frameworks-use-cases-and-ethics" target="_blank" >Agentic AI frameworks</a> and concepts, empowering professionals to learn and lead the AI age in 2026. Therefore, ask when the syllabus was provided and request the framework names to check whether the course is worth investing in for upskilling in 2026.
 
 ## What should be included in a Gen AI portfolio by the year 2026?
 
 This is the section I would have found most valuable, so I have put more into it than any other part. Everything above is about choosing a course. This part is about what you actually need to walk away with.
+
 <b>One production-shaped project, not five notebooks</b>. Interviewers can spot the difference immediately. A single project with error handling, evaluation, cost tracking, and a deployment story is worth more than five Colab notebooks that stop at model.fit(). The phrase "production-shaped" is carrying real weight here - the project does not have to handle real traffic, but it has to look like something that genuinely could.
+
 <b>A RAG system where you can explain the retrieval failures</b>. Nearly everyone builds a RAG chatbot these days. Almost nobody can answer the question "what happens when the retriever returns three irrelevant chunks?" Being able to talk through chunking strategy, embedding choice, reranking, and failure modes is what separates a real portfolio project from a tutorial you just followed along with.
+
 <b>An agent that does something with real consequences</b>. Multi-step, tool-calling, with an actual API on the other end. Then be ready for the follow-up questions: what stops it from looping forever, what is the cost ceiling, what happens when the tool call fails? Agentic AI interviews are built almost entirely around these questions.
+
 <b>Evaluation, written down</b>. How do you know your system actually improved? If your answer is "it seemed better," you will lose out to a candidate who has an eval set and a concrete number. LLM evaluation is the fastest-growing gap between what courses teach and what employers actually want.
+
 <b>Domain framing</b>. A generic project on "Churn prediction on a telco dataset" will allow you to compete with thousands of professionals. On the other hand, a domain-specific project, "Claims triage for a mid-size health insurer, with the regulatory constraints built into the design", will help you validate your uniqueness and transition into AI roles. Hence, domain-specific AI learning is advised for several professionals to re-establish their careers with attractive wage premiums in 2026 and beyond.
+
 <b>A written record</b>. A short blog post or README that documents what you tried, what failed, and what you changed. It is evidence of engineering judgment rather than tutorial completion. It is exactly the kind of thing a colleague once showed me that made everything click.
 If you don’t receive these after completing a program, the specific company’s certificate doesn’t matter. Confirm with the counselor which of the elements the program includes.
 
@@ -621,48 +627,47 @@ Print this. Ask these questions on the counselling call. How a provider answers 
 ## Training
 
 5. Are sessions truly live, or recorded with a live doubt-clearing call?
-
 6. What happens if you miss a session: recording, make-up class or nothing?
-
 7. Are there weekday and weekend batch options, and can you switch?
 
 ## Certification
 
 8.  What does the partner brand really certify: the whole program or one module?
-
 9.  Do you get a separate project completion certificate?
-
 10. Does the credential indicate placement-based access, or is it just a resume credential? (Typically the latter for online programs - be sure to have them specified.)
 
 ## Career support
 
-11.     Which companies have recently hired graduates, and what positions did they fill?
-
-12.     Does “placement support” refer to targeted outreach or a resume blast to a mailing list?
+11. Which companies have recently hired graduates, and what positions did they fill?
+12. Does “placement support” refer to targeted outreach or a resume blast to a mailing list?
 
 ## Cost and Terms
 
-13.     Is the quoted price including GST? And is no-cost EMI genuinely free of cost?
-
-14.     Are there any bonds, clauses, or income-share agreements? Request the agreement before making a payment.
+13. Is the quoted price including GST? And is no-cost EMI genuinely free of cost?
+14. Are there any bonds, clauses, or income-share agreements? Request the agreement before making a payment.
 
 ## How to Select the Right AI Course in India for You
 
 The key takeaway from this article is that there is no universally best AI course in India. The ideal course depends on your current knowledge and starting point. The nine courses listed earlier are genuine options, but each may be unsuitable for some individuals.
 
-<b>Just answer these five questions in the order they’re listed. Doing so will help you find the answers more quickly than sifting through a comparison table.</b>
+<b>Just answer these four questions in the order they’re listed. Doing so will help you find the answers more quickly than sifting through a comparison table.</b>
 
 <b>1. What is the goal that you are looking to achieve?</b>
+
 Examples include getting a job, changing careers, getting promoted, earning a degree, or learning to read and write. Switching careers requires courses with live instruction and a domain-specific portfolio. Not getting fired immediately may need AI literacy for now, not deep AI engineering. AI literacy can cost less than ₹10,000.
 
 <b>2. Will the goal that you are trying to achieve require programming skills on your part?</b>
+
 This one question eliminates most of the courses on the list. The courses offered by Learnbay, GenAI, and the Agentic AI Master Program expect you to learn programming and technical skills. If you do not intend to learn programming skills, you should opt for the Applied AI Practitioner Program, which is a no-code track, rather than an engineering course, even if it is discounted.
 
 <b>3. What is your actual weekly time availability each week?</b>
+
 Be realistic this time. 8 to 12 hours a week is what an average working professional can manage. Fewer hours won't help with a 12-month program, and an 18-month degree will suffer even more.
 
 <b>4. Does your desired role require GenAI or classical ML depth?</b>
+
 Review ten active job postings for your target role and track the frameworks mentioned. If you're interested in frameworks like LangGraph, CrewAI, RAG, and LLMOps, choose a curriculum focused on GenAI and Agentic AI. However, if your focus includes frameworks such as scikit-learn, forecasting, and model evaluation, a broader machine learning program would be more appropriate.
+
 Once you answer these four, you are often left with a couple of choices. After that, ask both institutions for batch-wise placement details and an updated syllabus, and choose the one that provides them without hesitation.
 
 ## How I'd Actually Decide

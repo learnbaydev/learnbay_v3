@@ -2051,8 +2051,7 @@ const nextConfig = {
       },
 
       {
-        source:
-          'https://www.learnbay.co/cloud-and-devops-for-system-administrators',
+        source: '/cloud-and-devops-for-system-administrators',
         destination:
           '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         permanent: true,
