@@ -2049,6 +2049,34 @@ const nextConfig = {
           '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         permanent: true,
       },
+
+      {
+        source: '/cloud-and-devops-for-system-administrators',
+        destination:
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
+        permanent: true,
+      },
+
+      // IMPORTANT: Keep these 3 Cloud & DevOps redirect rules at the VERY BOTTOM of the redirects array.
+      // Next.js evaluates redirect rules sequentially from top to bottom.
+      // Placing these at the bottom ensures specific route overrides above execute first,
+      // while catching all remaining encoded (%26), HTML entity (&amp;), and raw (&) wildcard requests.
+      {
+        source: '/cloud%26devops/:path*',
+        destination: '/cloud-and-devops/:path*',
+        permanent: true,
+      },
+      {
+        source: '/cloud&amp;devops/:path*',
+        destination: '/cloud-and-devops/:path*',
+        permanent: true,
+      },
+      // Main catch-all wildcard rule
+      {
+        source: '/cloud&devops/:path*',
+        destination: '/cloud-and-devops/:path*',
+        permanent: true,
+      },
     ];
   },
 };
