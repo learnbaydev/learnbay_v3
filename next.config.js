@@ -2049,11 +2049,6 @@ const nextConfig = {
           '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         permanent: true,
       },
-      {
-        source: '/cloud&devops/:path*',
-        destination: '/cloud-and-devops/:path*',
-        permanent: true,
-      },
     ];
   },
 };
