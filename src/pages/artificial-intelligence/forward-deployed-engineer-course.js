@@ -53,7 +53,7 @@ const Content = dynamic(
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf';
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/forward-deployed-engineer-course.pdf';
 
   const faqNewData = [
     {
@@ -705,13 +705,13 @@ const NewDSA = ({ DSADataJson }) => {
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/forward-deployed-engineer-course.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
-          courseId={'ai-engineering-master-program'}
+          courseId={'forward-deployed-engineer-course'}
         />
         <AlumniCompanies
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/forward-deployed-engineer-course.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement
@@ -734,7 +734,7 @@ const NewDSA = ({ DSADataJson }) => {
           dataScienceCounselling={true}
           dataScience={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/forward-deployed-engineer-course.pdf"
           brochurePdf={pdfUrl}
           buttonHide={true}
           interstedInHide={true}
