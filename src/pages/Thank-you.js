@@ -25,6 +25,9 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
     'ai-engineering-master-program':
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI+Engineering+Program_compressed.pdf',
 
+    'forward-deployed-engineer-course':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/forward-deployed-engineer-course.pdf',
+
     // GenAI & Agentic AI Category
     'genai-managers':
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf',
