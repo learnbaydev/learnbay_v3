@@ -406,32 +406,53 @@ const NewDSA = ({ DSADataJson }) => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-                        "@context": "http://schema.org",
+                    "@context": "https://schema.org",
                     "@type": "Course",
-                    "name": "AI Engineering Master Certification Program - Learnbay",
-                    "description": "Accelerate your tech career with Learnbay’s AI Engineering Master Program. Learn GenAI, Agentic AI, RAG, and production AI through real projects. Join Now.",
+                    "name": "Forward Deployed AI Engineer Program - Learnbay",
+                    "description": "Learnbay’s Forward Deployed AI Engineer Program: 9 months of 100% live mentor-led training in LLMs, RAG, Agentic AI, and LLMOps with real AI startup projects. Enroll now.",
                     "url": "https://www.learnbay.co/artificial-intelligence/forward-deployed-engineer-course",
-                    "offers": {
-                      "@type": "offer",
-                      "price": "159000",
-                      "pricecurrency": "INR",
-                      "category": "Educational"
-                    },
                     "provider": {
-                          "@type": "Organization",
-                          "name": "Learnbay",
-                          "Url": "https://www.learnbay.co/"
-                        },
-                    "coursePrerequisites": "This program is suitable for entry to mid-level IT professionals with a minimum of 1 year of work experience. Professionals such as system administrators, solution architects, support engineers, and IT experts are the most welcomed for this certification.",
+                      "@type": "Organization",
+                      "name": "Learnbay",
+                      "url": "https://www.learnbay.co/"
+                    },
+                    "coursePrerequisites": "This program is suitable for tech professionals with a minimum of 1 year of IT work experience. Software developers, solution architects, system administrators, and support engineers looking to move into Forward Deployed AI Engineering are the ideal candidates.",
+                    "educationalCredentialAwarded": "Forward Deployed AI Engineer Certification, in collaboration with IBM and Microsoft",
+                    "timeRequired": "P9M",
+                    "teaches": [
+                      "Large Language Model (LLM) workflows",
+                      "Retrieval-Augmented Generation (RAG)",
+                      "Agentic AI automation",
+                      "Multimodal Generative AI",
+                      "API integration and deployment",
+                      "LLMOps and AIOps monitoring"
+                    ],
+                    "inLanguage": "en",
+                    "offers": {
+                      "@type": "Offer",
+                      "price": "159000",
+                      "priceCurrency": "INR",
+                      "category": "Paid",
+                      "availability": "https://schema.org/InStock",
+                      "url": "https://www.learnbay.co/artificial-intelligence/forward-deployed-engineer-course"
+                    },
                     "hasCourseInstance": [
                       {
                         "@type": "CourseInstance",
                         "courseMode": "Online",
-                        "courseWorkload": "P9M",
-                        "courseFee": {
-                          "@type": "PriceSpecification",
-                          "price": "₹ 1,59,000 + 18% GST",
-                          "priceCurrency": "INR"
+                        "courseWorkload": "PT6H",
+                        "instructor": {
+                          "@type": "Organization",
+                          "name": "Learnbay"
+                        }
+                      },
+                      {
+                        "@type": "CourseInstance",
+                        "courseMode": "Blended",
+                        "courseWorkload": "PT6H",
+                        "instructor": {
+                          "@type": "Organization",
+                          "name": "Learnbay"
                         }
                       }
                     ]
@@ -471,213 +492,234 @@ const NewDSA = ({ DSADataJson }) => {
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
-    "name": "What is the duration of the AI Engineering Master Program?",
+    "name": "What is the Forward Deployed AI Engineer course?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The program offers around 9 months of an intensive track. Within this time span, it will cover 100+ hours of live instructor-led learning on programming foundations to Agentic AI workflows. Later on, you will get capstone projects and job assistance."
+      "text": "This Forward Deployed AI Engineer course is a 12-month, 100% live mentor-led program designed to empower professionals with advanced AI capabilities through a specialized track and placement assistance."
     }
   },{
     "@type": "Question",
-    "name": "Is this a live training Program or recorded sessions?",
+    "name": "What skills will I gain by the end?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learbay’s AI Engineering Program is a 100% live instructor-led program. In all the sessions, you get direct interaction with your trainers, who are highly experienced industry experts from top tech companies. This kind of learning scope helps you experience real-time debugging and AI system design."
+      "text": "By the end of the course, tech professionals will learn core forward deployed engineer skills, including LLM workflows, content creation via GenAI, agentic AI automation, deployment, and LLMOps monitoring."
     }
   },{
     "@type": "Question",
-    "name": "What technical topics are covered in the curriculum?",
+    "name": "What tools and technologies will I learn?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Agentic AI automation, and Vector Databases are included in the syllabus, as the key focus is on product-grade AI skills. Alongside the course has MLOps, CI/CD for Ai and how to build GenAI microservices modules too. Note: Our courses are always getting updates as per contemporary market demand. Always check with our career counselor for the latest modules."
+      "text": "By the end of this FDE course, you will master LLMs, RAG, multimodal GenAI, Power BI, no-code builders, vector stores, API integrations, AIOps tools, automation, and deployment workflows."
     }
   },{
     "@type": "Question",
-    "name": "What is the “Flexi Pass” benefit at Learnbay?",
+    "name": "Is this program beginner-friendly?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The Flexi Pass is a 3-year complementary subscription that allows you to attend multiple batches and multiple trainers for up to 3 years of time. This offers working professionals an added advantage in flexible learning and managing a proper professional and upskilling time balance."
+      "text": "Yes. The FDE course starts with fundamental AI reasoning and LLM basics, which gradually move to Agentic AI, LLMOps, and automation workflows."
     }
   },{
     "@type": "Question",
-    "name": "Who is the ideal candidate for this AI engineering course?",
+    "name": "What are the learning modes at Learnbay?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "This course is custom-built for tech professionals. That means software Developers, Solution Architects, System Admins, and Support Enigeers looking to lead the shift into AI Enigeering are perfect for this course."
+      "text": "The forward deployed engineer course allows you to have flexible learning without disrupting your job. You can either opt for 100% live online sessions (online coursework and projects) or choose hybrid mode (online coursework but offline projects). However, it’s up to the learners to choose the right learning mode."
     }
   },{
     "@type": "Question",
-    "name": "Do I need prior experience in AI or Machine Learning?",
+    "name": "How long does it take to complete the FDE Program?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "A foundation in programming, APIs, and architecture is enough to join this course, while this program is designed to ‘add’ AI skills to your existing technical base. But yes, this AI engineering Master course offers preparatory modules for those needing a refresher on basics."
+      "text": "The FDE course is a 12-month intensive program including weekday and weekend batches. The course duration encompasses coursework, project work (AI Co-Lab), placement assistance, and certifications."
     }
   },{
     "@type": "Question",
-    "name": "Is there a minimum work experience requirement?",
+    "name": "How long can I have access to the course materials and resources?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, the program demands at least 1 year of work experience in IT industry. Through this course, such IT professionals will be able to upgrade themselves for 2026-ready AI roles."
+      "text": "Learners enrolling in the course can avail themselves of a 3-year flexible subscription at Learnbay. It allows you to have unlimited access to learning materials and resources. In short, you can learn at your own pace until you land your dream job."
     }
   },{
     "@type": "Question",
-    "name": "Can I pursue this AI Engineering Program while having a full-time job or from a different time zone?",
+    "name": "Why is the forward deployed AI engineer course different from others?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "IT professionals enrolling for this AI Engineering Training Program can easily balance their work schedules and study goals. They will get the flexibility to choose their batches from multiple timings on both weekdays and weekends. Our 100% live online sessions allow professionals to optimize their domain expertise without giving up their current jobs."
+      "text": "The Forward Deployed AI Engineer Program sets your career apart from others by equipping you with the following benefits – Build real-world AI projects. Work with AI startups. Develop advanced AI capabilities."
+    }
+  },{
+    "@type": "Question",
+    "name": "Who is qualified for the FDE course at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "This FDE course is custom-built for tech professionals. That means software developers, solution architects, system admins, and support engineers looking to lead the shift into AI Engineering are perfect for this course."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there a minimum work experience requirement to enrol in this course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, the program requires at least 1 year of work experience in the IT industry. Through this course, such IT professionals will be able to upgrade themselves for 2026-ready AI roles."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do I need coding experience to join?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A foundation in programming, APIs, and architecture is enough to join this course, while this program is designed to ‘add’ AI skills to your existing technical base. But yes, this FDE course offers preparatory modules for those needing a refresher on basics."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I pursue the FDE course while having a full-time job or from a different time zone?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "IT professionals enrolling in this forward deployed engineer course can easily balance their work schedules and study goals. They will get the flexibility to choose their batches from multiple timings on both weekdays and weekends."
     }
   },{
     "@type": "Question",
     "name": "Why should I join Learnbay’s MasterTrack Program?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "If you’re a cloud and devOps professional, enrolling in our MasterTrack program can be advantageous for you –3-Year flexi subscription to upgrade your skills and evolve. AI CoLab experience in tackling trending AI Engineering projects. BYOP+Mentorship to resolve your own issues under a mentor’s guidance. AI Colab feature. IBM and Microsoft credentials to validate your AI skills"
+      "text": "If you’re an IT professional, enrolling in our MasterTrack program can be advantageous for you – 3-Year flexi subscription to upgrade your skills and evolve. AI Co-Lab experience in tackling trending FDE-focused projects. BYOP+Mentorship to resolve your own issues under a mentor’s guidance. IBM and Microsoft credentials to validate your AI skills."
     }
   },{
     "@type": "Question",
-    "name": "What is the fee for the AI Engineering Master Program?",
+    "name": "What is the course fee for the Forward Deployed Engineer course?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The AI Engineering Online course for the tech professionals costs ₹1,59,000 + 18% GST. This investment includes the return of 9 months of intensive learning, BYOP projects, globally recognized certification, and custom-fit career support."
+      "text": "The Forward Deployed Engineer course costs ₹1,59,000 + 18% GST."
     }
   },{
     "@type": "Question",
-    "name": "Are there any financing or EMI options available for this AI Engineering Certification Program?",
+    "name": "What financing options are available for the FDE course?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, you can opt for an interest-free (no-cost EMI) plan with the necessary documents (Aadhaar card, PAN card, and salary slip). You can check your eligibility with our support team before your admission."
+      "text": "3-, 6-, and 12-month easy EMI plans are available."
     }
   },{
     "@type": "Question",
-    "name": "Does Learnbay offer any scholarships for AI Engineering Master Course?",
+    "name": "What is AI Co-Lab at Learnbay?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Being an early bird, you can avail yourself of a 15% – 20% discount. Yet, learners who join with one or more friends can avail of group discounts per the following terms and conditions. Group of 2: 5% extra discount. Group of 3: 8% additional discount. Group of 4+: Max 10% discount. Apart from discounts, experts can receive up to a 25% scholarship while enrolling in the course. You can contact our sales team at +91 7795687988 for further details on special offers."
+      "text": "AI Co-Lab is an open learning platform where learners work on FDE and Agentic AI-specific projects in real-time. Learners co-create and collaborate with AI startups to address real-world business problems in diverse domains."
     }
   },{
     "@type": "Question",
-    "name": "What is the refund policy for the Gen AI and Agentic AI Program at Learnbay?",
+    "name": "What benefits can I expect from the AI Co-Lab project work?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Experts joining our course can cancel anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy (https://www.learnbay.co/refund-cancellation-policy)."
+      "text": "Learners will work with AI startups and real-time projects that will help them with the following benefits – Reliable real-world experience in addressing Agentic AI and Generative AI-driven challenges. AI project certification. Industry-wide recognition of AI skills."
     }
   },{
     "@type": "Question",
-    "name": "How many projects can I work on during this course?",
+    "name": "Are there opportunities to work on live industry projects?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The AI engineering online course by Learnbay includes 100 hours of real-time industrial project work. Most of the focus remains on building and deploying autonomous AI agents and Gen-AI-driven architectures."
+      "text": "Yes. Tech professionals opting for the forward deployed engineer certification program ensure real-time development of advanced AI capabilities. Learners can work on Agentic AI projects to address core challenges while collaborating with AI startups."
     }
   },{
     "@type": "Question",
-    "name": "Can I work on real industry projects if I enrol for this course?",
+    "name": "How does Learnbay’s project-based preparation with AI Co-Lab help professionals?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Absolutely. This artificial intelligence engineering course emphasises the production AI system, offering learning opportunities in guardrail management, observability, and scaling in a real-world environment."
+      "text": "AI Co-Lab-powered project-based preparation at Learnbay helps you build your career as a forward deployed engineer. You can add such real-world skills to your resume and answer interview questions with actual insights."
     }
   },{
     "@type": "Question",
     "name": "Can I choose my capstone project, or are projects assigned?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "After enrolling in the AI Engineering program for Tech Professionals, you can choose projects useful to your domain, career interests, and goals. Additionally, you will work on AI startup projects to tackle real-time GenAI & Agentic AI challenges. Also, you can bring your own business problem (BYOP) to work on."
+      "text": "You can choose projects useful to your domain, career interests, and goals. Additionally, you will work on AI startup projects and can even Bring Your Own Problem (BYOP) to work on."
     }
   },{
     "@type": "Question",
-    "name": "Is there any accredited certification after course completion?",
+    "name": "Is certification essential for becoming a certified forward deployed AI engineer?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes. Learners joining this course will receive certifications to stand out in the career competition. Once you complete the course and project tasks, you will receive globally valued IBM and Microsoft Certifications- one is the Project Experience Certificate, and the other is the GenAI/Agentic AI Mastery Certificate."
+      "text": "Yes. The modern business landscape demands real-time expertise in AI-driven systems to efficiently address key problems. Certification from AI startups will help professionals strengthen their positions with industry exposure. Learnbay’s FDE program in alliance with IBM & Microsoft will validate forward deployed engineer skills, unlocking promising opportunities."
     }
   },{
     "@type": "Question",
-    "name": "How do I receive my certificate, and is it a digital or printed certificate?",
+    "name": "What certifications will I receive in the FDE course?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "All eligible learners with at least 70% in course tasks and projects can earn globally recognized certificates. Your digitally available certificates will reach you within 7 days."
+      "text": "Tech professionals enrolling in the forward deployed engineer course will earn two certificates, such as – IBM GenAI certification and Microsoft collaboration certification. Apart from this, learners will also get an industry-recognized project certification."
     }
   },{
     "@type": "Question",
-    "name": "Do you offer job placement services after completing the course?",
+    "name": "Do you offer career assistance services after course completion?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes. We offer dedicated job assistance services to learners opting for the AI Engineering Course. The program supports learners with premium career-enrich perks – from 1:1 interview prep to updating CVs."
+      "text": "Yes. Professionals enrolling in our forward deployed engineer certification program can avail themselves of reliable placement services. Here you will get – Mock interview sessions. 1:1 doubt-clearing. Resume optimization. Dedicated job calls from industry partners."
     }
   },{
     "@type": "Question",
-    "name": "What’s the eligibility for a job assistance program at Learnbay?",
+    "name": "Who is eligible for the career assistance program at Learnbay?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learners enrolling in this AI Engineering course for Tech professionals must complete the tasks and projects with a minimum score of 70% to unlock exciting career options through the placement program."
+      "text": "This course is custom-built for tech professionals. That means developers, solution architects, system admins, and support engineers looking to lead the shift into FDE roles are perfect for this course."
     }
   },{
     "@type": "Question",
     "name": "How many interview calls will I get at Learnbay?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learners from the IT sector joining our AI Engineering Certification online will get unlimited interview calls from our top allied partners."
-    }
-  },{
-    "@type": "Question",
-    "name": "How does Learnbay’s Job Referals and Career Acceleration Services support my job search?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Under this feature, you will get – Unlimited job referrals. Direct access to hiring managers in top MNC’s. ATS-Optimized resume building."
-    }
-  },{
-    "@type": "Question",
-    "name": "Until when will the students get the mentorship facility?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "The learners will get the mentorship until they complete the course. After completing the course tasks and projects, you can reach out to your mentors for doubt-clearing, placement support, and project guidance."
-    }
-  },{
-    "@type": "Question",
-    "name": "Can a Learnbay student choose to study with their desired mentor?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Learnbay has a team of reliable mentors with relevant industry experience. Each learner is assigned a mentor who can justify upskilling and meet a learner’s career goals and interests. If a student does not find the mentor fit for training, he/she can request a new mentor. Learnbay supports quality upskilling; hence, students can change their mentors and study from the ones they desire."
-    }
-  },{
-    "@type": "Question",
-    "name": "Are mentors available for one-on-one or group sessions?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Yes. Our reputable mentors are available for 1:1 or group sessions in respective projects or courses. If a learner opts for a 1:1 session for live training, doubt-clearing, or project queries, mentors are available for them."
-    }
-  },{
-    "@type": "Question",
-    "name": "Are there mentors available to help with coursework and projects?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Learners enrolling in the course will get reliable industry training. Our mentors each learner with course tasks and real-time projects associated with core AI engineering. So, yes, you will get hassle-free help from your mentor while working on capstone projects and course modules."
-    }
-  },{
-    "@type": "Question",
-    "name": "How can I contact technical support if I face any problems with the course platform?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Once you register for the course, you will get 24×7 learner support that resolves any learning queries. You can call our helpline number to reach the desired service providers who can help you with any technical issues (login, sessions, projects, chat, or course materials) with the course platform."
-    }
-  },{
-    "@type": "Question",
-    "name": "Is there a discussion forum or community for learners to communicate and seek support?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Learners will get a customized Learnbay app with their mentors mentioned. They can directly communicate with their mentors to resolve queries and discuss doubts with peers."
+      "text": "Learners pursuing the FDE course will get endless interview calls from our top allied partners."
     }
   },{
     "@type": "Question",
     "name": "How long will I get job referrals?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "We stay with you for 3 years until you are placed."
+      "text": "Learners must qualify themselves to get exciting job referrals. Once you complete the course with the required scores, you will get job referrals from us to get placed as a certified forward deployed engineer across 350+ industry partners."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I reach out to my mentors for doubt-clearing during or after the course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Learners enrolling in the FDE course can reach out to their mentors for 1:1 doubt-clearing. The mentors help learners understand advanced AI concepts and agentic workflows properly, which will help them handle real-world projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do the mentors take live classes or play recorded sessions during the training?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers 100% live online and hybrid classes where you will learn key concepts and work on projects via AI Co-Lab. Mentors will offer 100% live instructor-led training sessions to help you grasp advanced Agentic AI concepts. Even in hybrid training modes, learners will get online sessions from respective mentors during coursework."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long can I get the mentorship facility?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our mentors provide 100% live online training or hybrid sessions until you complete the course. In addition, we offer a 3-year flexi pass to our learners, where they can get uninterrupted mentorship. Our mentorship facility covers training sessions, doubt-clearing, project work, and placements."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can professionals choose to study with their desired mentors at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Anyone opting for the Forward Deployed Engineer course can choose their desired mentors. In case learners are not satisfied with their mentors, they can ask for a change."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I contact technical support if I face any problems with the course platform?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Once you register for the course, you will get uninterrupted technical assistance to address your queries. You can also reach Learnbay’s service providers to resolve any issues related to login, sessions, projects, chat, or course materials."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there a discussion forum or community for learners to communicate and seek support?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners will have access to Learnbay’s customized learning app with detailed information about training sessions, projects at AI Co-Lab, and mentors. Here, learners can discuss their queries related to coursework and projects."
     }
   },{
     "@type": "Question",
     "name": "What is the interview preparation process?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Here, you get 5+ mock interview sessions conducted by top industry experts, who simulate technical and HR rounds. All the mock sessions will focus on AI system design and Agentic workflow questions."
+      "text": "Learners opting for the FDE course will get 5+ mock interview sessions conducted by top industry experts, focusing on advanced AI capabilities, AI system design and Agentic workflow questions."
     }
   }]
 }
