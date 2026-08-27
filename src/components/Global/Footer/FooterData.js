@@ -749,6 +749,11 @@ export const CourseData = [
         url: 'https://www.learnbay.co/artificial-intelligence/genai-software-developers',
       },
       {
+        id: 77,
+        name: 'Forward Deployed Engineer Course for Working Professionals',
+        url: 'https://www.learnbay.co/artificial-intelligence/forward-deployed-engineer-course',
+      },
+      {
         id: 8,
         name: 'Gen AI and Agentic AI Certification Program',
         url: 'https://www.learnbay.co/genai-agentic-ai-program',

@@ -163,6 +163,11 @@ export const TabData = [
         url: '/artificial-intelligence/genai-software-developers',
       },
       {
+        CName: 'Forward Deployed Engineer Course',
+        hours: '12 months',
+        url: '/artificial-intelligence/forward-deployed-engineer-course',
+      },
+      {
         CName: 'AI Engineering Master Program',
         hours: '9 Months',
         url: '/ai-engineering-master-program',
