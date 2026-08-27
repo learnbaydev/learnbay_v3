@@ -6819,17 +6819,17 @@ export const NewDSAData = [
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp',
           endImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/build_ups.webp',
-          points: 'GenAI and Agentic AI Master Certification',
+          points: 'Forward Deployed AI Engineer Program',
           content: [
             {
               chap: {
                 title: 'Induction + Orientation',
                 desc: [
-                  'Overview Of AI, Generative AI, And Agentic AI',
-                  'Career Paths And Role Mapping For AI Professionals',
-                  'LinkedIn Profile Optimization For AI & Tech Hiring',
-                  'Using Python Colab For Hands-On Learning',
-                  'Learning Workflow, Tools, And Program Onboarding',
+                  'Overview Of Forward-Deployed AI Engineer Role.',
+                  'Career Path Mapping For A Forward-Deployed AI Engineer.',
+                  'LinkedIn Profile Optimization For AI & Tech Hiring.',
+                  'Using Python Colab And Cloud Sandbox For Labs.',
+                  'Learning Workflow, Tools, And Program Onboarding.',
                 ],
               },
             },
@@ -6841,148 +6841,106 @@ export const NewDSAData = [
 
       {
         Module1: {
-          title: 'Module 1 – Python for GenAI',
-          hours: '(1.5 Months)',
+          title: 'Module 1 – Gen AI Foundation (No Code)',
+          hours: '(2 Weeks)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
           StartImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
           endImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
-          points: 'Python for GenAI',
+          points: 'GenAI Foundation – No Code',
           content: [
             {
               chap: {
-                title: 'Core Python',
+                title: 'Tokens, Embeddings, And Context',
                 desc: [
-                  'Variables',
-                  'Store values in various data types',
-                  'Dynamic assign / reassign variables',
-                  'Python naming conventions for maintainable code',
-                  'Numeric types: int, float, complex.',
-                  'Text handling using str and string methods.',
-                  'Collections: list, tuple, set, dict.',
-                  'Mutable vs immutable data behavior.',
+                  'How text becomes tokens and vectors.',
+                  'Context window limits and truncation effects.',
+                  'Temperature, top-p, and output variation.',
                 ],
               },
             },
             {
               chap: {
-                title: 'Loops',
+                title: 'Model Families And Capabilities',
                 desc: [
-                  'Iteration using for and while loops.',
-                  'Sequence traversal with range(), enumerate(), zip().',
-                  'Optimizing iterations for data processing tasks.',
+                  'Frontier, open-weight, and small models.',
+                  'Reasoning models and tool-using models.',
+                  'Multimodal input: text, image, audio, documents.',
                 ],
               },
             },
             {
               chap: {
-                title: 'Control Statements',
+                title: 'Limitations And Failure Modes',
                 desc: [
-                  'Conditional logic using if, elif, else.',
-                  'Comparison operators (==, !=, <, >, <=, >=).',
-                  'Logical operators (and, or, not).',
-                  'Flow control using break, continue.',
-                  'Building decision trees for real-world logic handling.',
+                  'Hallucination versus ungrounded output.',
+                  'Cost, latency, and quality trade-offs.',
+                  'Where deterministic software still wins.',
                 ],
               },
             },
             {
               chap: {
-                title: 'Functions',
+                title: 'Prompt Anatomy',
                 desc: [
-                  'Creating reusable logic blocks using def and return.',
-                  'Passing parameters using positional and keyword arguments.',
-                  'Anonymous function with Lambda',
+                  'Role, context, task, and constraints.',
+                  'Output format contracts and worked examples.',
+                  'Few-shot patterns for consistent responses.',
                 ],
               },
             },
             {
               chap: {
-                title: 'Advanced Python',
+                title: 'Reasoning And Refinement',
                 desc: [
-                  'File Handling',
-                  'Reading and writing files using open(), read(), write().',
-                  'Handling text, CSV, and JSON files for data pipelines.',
-                  'Working with file paths using os and pathlib.',
+                  'Chain-of-thought and task decomposition.',
+                  'Self-critique and iterative prompt tuning.',
+                  'Debugging prompts when output drifts.',
                 ],
               },
             },
             {
               chap: {
-                title: 'Regex',
+                title: 'Workflow Automation Tools',
                 desc: [
-                  'Pattern matching using re.search(), re.findall(), re.sub().',
-                  'Cleaning and extracting text data from logs, emails, and documents.',
-                  'Using regex tokens: \\d, \\w, +, *, ^, $, groups.',
+                  'Triggers, actions, and connector basics.',
+                  'Human-in-the-loop approval steps.',
+                  'Error branches and fallback handling.',
                 ],
               },
             },
             {
               chap: {
-                title: 'Exceptional Handling',
+                title: 'Assistants And Custom Agents',
                 desc: [
-                  'Custom exceptions handling using try, except, finally.',
-                  'Common exceptions.',
-                  'Preventing pipeline failures in production code.',
+                  'Building document-grounded knowledge assistants.',
+                  'Configuring custom GPTs and assistant tools.',
+                  'Limits of no-code and migration signals.',
                 ],
               },
             },
             {
               chap: {
-                title: 'OOP’s',
+                title: 'AI Use-Case Scoping',
                 desc: [
-                  'Creating classes and objects using class and __init__.',
-                  'Instance variables vs class variables.',
-                  'Methods and object behavior modeling.',
-                  'Inheritance and method overriding.',
+                  'Use-Case Canvas: user, task, data, and success metric.',
+                  'Volume, repeatability, and error tolerance.',
+                  'Classifying the problem type correctly.',
+                  'Data readiness and access assessment.',
+                  'Simple ROI and effort estimation.',
+                  'Responsible AI, PII, and disclosure basics.',
                 ],
               },
             },
             {
               chap: {
-                title: 'NumPy',
+                title: 'Projects',
                 desc: [
-                  'Creating arrays using array, arange, linspace.',
-                  'Array operations: indexing, slicing, reshaping.',
-                  'Vectorized computations for performance.',
-                  'Mathematical functions: mean, sum, std, dot.',
-                  'Broadcasting and handling multi-dimensional data.',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'Pandas',
-                desc: [
-                  'Working with Series and DataFrame.',
-                  'Reading data from CSV, Excel, JSON.',
-                  'Data cleaning: missing values, duplicates, type casting.',
-                  'Filtering, sorting, and conditional selections.',
-                  'Grouping and aggregation using groupby.',
-                  'Feature preparation for ML and GenAI pipelines.',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'Matplotlib',
-                desc: [
-                  'Creating line, bar, scatter, histogram plots etc.',
-                  'Customizing labels, titles, legends, and axes.',
-                  'Visualizing trends and distributions in datasets.',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'Seaborn',
-                desc: [
-                  'Statistical plots: boxplot, violinplot, countplot.',
-                  'Relationship analysis using pairplot and heatmap.',
-                  'Visualizing correlations and feature importance.',
-                  'Styling plots for reports and dashboards.',
+                  'Support Ticket Triage Assistant – classify incoming tickets, route them by priority, and draft first-response replies without writing code.',
+                  'Document Q&A Knowledge Desk – build a grounded assistant over a policy document set that answers employee questions with source references.',
+                  'AI Opportunity Assessment Brief – scope a real business process into a costed AI solution brief with measurable success criteria.',
                 ],
               },
             },
@@ -6994,21 +6952,319 @@ export const NewDSAData = [
 
       {
         Module2: {
-          title: 'Module 2 – Foundation for GenAI',
-          hours: '(1 Months)',
+          title: 'Module 2 – Python for AI',
+          hours: '(1.5 Months)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
           StartImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
           endImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
-          points: 'ML & NLP Foundations',
+          points: 'Python for AI',
+          content: [
+            {
+              chap: {
+                title: 'Variables And Data Types',
+                desc: [
+                  'Numeric types: int, float, complex.',
+                  'Text handling using str and string methods.',
+                  'Collections: list, tuple, set, dict.',
+                  'Mutable vs immutable data behavior.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Control Flow And Loops',
+                desc: [
+                  'Conditional logic using if, elif, else.',
+                  'Iteration using for and while loops.',
+                  'Sequence traversal with range(), enumerate(), zip().',
+                  'Flow control using break and continue.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Functions',
+                desc: [
+                  'Reusable logic blocks using def and return.',
+                  'Positional, keyword, and default arguments.',
+                  'Anonymous functions with Lambda.',
+                  'Scope, closures, and return values.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'File Handling',
+                desc: [
+                  'Reading and writing files using open().',
+                  'Handling text, CSV, and JSON files.',
+                  'Working with file paths using os and pathlib.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Regex',
+                desc: [
+                  'Pattern matching using re.search(), re.findall(), re.sub().',
+                  'Cleaning and extracting text from logs.',
+                  'Using regex tokens: \\d, \\w, +, *, groups.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Exceptional Handling',
+                desc: [
+                  'Custom exceptions using try, except, finally.',
+                  'Common exceptions in data pipelines.',
+                  'Preventing pipeline failures in production code.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'OOP’s',
+                desc: [
+                  'Creating classes and objects using __init__.',
+                  'Instance variables vs class variables.',
+                  'Inheritance and method overriding.',
+                  'Dataclasses for structured records.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'NumPy',
+                desc: [
+                  'Creating arrays using array, arange, linspace.',
+                  'Array operations: indexing, slicing, reshaping.',
+                  'Vectorized computations for performance.',
+                  'Broadcasting and handling multi-dimensional data.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Pandas',
+                desc: [
+                  'Working with Series and DataFrame.',
+                  'Reading data from CSV, Excel, JSON.',
+                  'Data cleaning: missing values, duplicates, type casting.',
+                  'Grouping and aggregation using groupby.',
+                  'Merging, joining, and reshaping datasets.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Matplotlib And Seaborn',
+                desc: [
+                  'Creating line, bar, scatter, histogram plots.',
+                  'Statistical plots: boxplot, heatmap, pairplot.',
+                  'Styling plots for reports and dashboards.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'API Clients And Async',
+                desc: [
+                  'HTTP requests using requests and httpx.',
+                  'Retries, backoff, and rate limit handling.',
+                  'Async calls using asyncio for batching.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'LLM SDK Basics',
+                desc: [
+                  'Chat completions, streaming, and stop sequences.',
+                  'Structured outputs using Pydantic models.',
+                  'Environment variables and secret management.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Code Quality',
+                desc: [
+                  'Type hints and static checks with mypy.',
+                  'Unit testing with pytest and fixtures.',
+                  'Formatting and linting using ruff.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Projects',
+                desc: [
+                  'Client Data Cleanup Script – build a script that takes messy client input and performs structured transformations.',
+                  'Contract Document Extraction Pipeline – convert PDF and DOCX contracts into structured JSON records with schema validation and error logging.',
+                  'Delivery Operations Data Exploration – clean a messy delivery dataset, analyze delay patterns, and visualize route-level performance trends.',
+                  'Bulk LLM Enrichment Engine – process ten thousand product records through an LLM with async batching, retries, and resumable checkpoints.',
+                ],
+              },
+            },
+          ],
+          id: 2,
+          open: false,
+        },
+      },
+
+      {
+        Module3: {
+          title: 'Module 3 – Software Engineering for FDE',
+          hours: '(1.5 Months)',
+          imageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
+          StartImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
+          endImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
+          points: 'Software Engineering for FDE',
+          content: [
+            {
+              chap: {
+                title: 'Git And Engineering Workflow',
+                desc: [
+                  'Branching models, merge, and rebase.',
+                  'Conflict resolution and commit hygiene.',
+                  'Debugging history using git bisect.',
+                  'Pull requests and code review etiquette.',
+                  'CI checks running on every push.',
+                  'Working inside a client’s repository.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Data Modelling',
+                desc: [
+                  'Tables, keys, constraints, and normalization.',
+                  'Schema design for transactional systems.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'SQL Querying',
+                desc: [
+                  'Joins, subqueries, and common table expressions.',
+                  'Window functions for analytical queries.',
+                  'Aggregation, grouping, and filtering patterns.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Performance And Access',
+                desc: [
+                  'Indexing strategy and reading query plans.',
+                  'Transactions, isolation levels, and concurrency.',
+                  'SQLAlchemy ORM and Alembic migrations.',
+                  'pgvector for embeddings inside Postgres.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'NoSQL And Search Stores',
+                desc: [
+                  'MongoDB modelling and aggregation pipeline.',
+                  'Redis for caching, sessions, rate limits.',
+                  'Neo4j property graph modelling basics.',
+                  'Elasticsearch inverted index and BM25 scoring.',
+                  'Hybrid keyword and semantic search design.',
+                  'Choosing a store: access patterns, consistency, and scale.',
+                  'Object storage for documents and artifacts.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'HTTP And REST Design',
+                desc: [
+                  'Methods, status codes, and idempotency.',
+                  'Resource design, versioning, and pagination.',
+                  'Error contracts and validation responses.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'FastAPI',
+                desc: [
+                  'Routing, dependency injection, Pydantic models.',
+                  'Background tasks and lifespan events.',
+                  'Streaming responses and server-sent events.',
+                  'OpenAPI specs and auto-generated docs.',
+                  'WebSockets for interactive agent sessions.',
+                  'gRPC and GraphQL in existing client stacks.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Auth And Access Control',
+                desc: [
+                  'API keys, JWT, and OAuth 2.0 flows.',
+                  'SSO, OIDC, and SAML in enterprises.',
+                  'RBAC, ABAC, and multi-tenant isolation.',
+                  'Secrets management and credential rotation.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Integration Patterns',
+                desc: [
+                  'Webhooks, polling, and event-driven design.',
+                  'Message queues, retries, dead-letter queues.',
+                  'Idempotency keys and duplicate handling.',
+                  'Background jobs using Celery and schedulers.',
+                  'Docker images and docker-compose setups.',
+                  'Environment configuration across deployments.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Projects',
+                desc: [
+                  'Customer 360 Query Layer – model a normalized customer database and expose reusable analytical views for downstream AI services.',
+                  'Streaming Chat Backend Service – build a FastAPI service with token streaming, session persistence, and auto-generated API documentation.',
+                  'Enterprise Integration Bridge – sync two business systems through a webhook receiver, queue, retry logic, and dead-letter monitoring.',
+                  'Multi-Tenant Knowledge API – ship a tenant-isolated API with JWT authentication, role-based access control, and per-tenant data separation.',
+                ],
+              },
+            },
+          ],
+          id: 3,
+          open: false,
+        },
+      },
+
+      {
+        Module4: {
+          title: 'Module 4 – Foundation for AI',
+          hours: '(1.5 Months)',
+          imageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
+          StartImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
+          endImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
+          points: 'ML, Deep Learning & NLP Foundations',
           content: [
             {
               chap: {
                 title: 'ML Fundamentals',
                 desc: [
-                  'Basic of ML',
                   'Supervised vs Unsupervised learning paradigms.',
                   'Features, labels, training, validation, and test sets.',
                   'Bias–variance trade-off and model generalization.',
@@ -7021,7 +7277,6 @@ export const NewDSAData = [
               chap: {
                 title: 'Regression Analysis',
                 desc: [
-                  'Linear Regression',
                   'Multiple Regression with feature interactions.',
                   'Model evaluation using RMSE, MAE, R² score.',
                 ],
@@ -7056,8 +7311,7 @@ export const NewDSAData = [
                   'TF-IDF vectorization.',
                   'Word2Vec: CBOW and Skip-Gram.',
                   'Named Entity Recognition (NER)',
-                  'Topic Modeling',
-                  'Latent Dirichlet Allocation (LDA).',
+                  'Topic Modeling: Latent Dirichlet Allocation (LDA).',
                   'Latent Semantic Techniques (LSA/LST).',
                   'Part-of-Speech Tagging (POS)',
                   'NLP Evaluation Metrics',
@@ -7076,16 +7330,28 @@ export const NewDSAData = [
                 ],
               },
             },
+            {
+              chap: {
+                title: 'Projects',
+                desc: [
+                  'Energy Consumption Forecasting – predict household energy consumption using linear regression by analyzing temperature, appliances, and daily usage patterns.',
+                  'Loan Approval Prediction – build a classification model to predict loan approvals from applicant data.',
+                  'Smart Document Relevance Classifier – compute attention weights on simple sentences to understand token importance during context interpretation.',
+                  'Sentiment Analysis Using BERT – use pretrained BERT embeddings to convert sentences into vectors and classify sentiment using a simple classifier.',
+                  'Legal Entity Extraction – perform named entity recognition and classification in legal documents using spaCy, and visualize results.',
+                ],
+              },
+            },
           ],
-          id: 2,
+          id: 4,
           open: false,
         },
       },
 
       {
-        Module3: {
-          title: 'Module 3 – Advanced Generative AI',
-          hours: '(2 Months)',
+        Module5: {
+          title: 'Module 5 – Generative AI & LLM Engineering',
+          hours: '(1.5 Months)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
           StartImageUrl:
@@ -7096,7 +7362,7 @@ export const NewDSAData = [
           content: [
             {
               chap: {
-                title: 'Fundamentals of GenAI',
+                title: 'LLM Internals For Builders',
                 desc: [
                   'Difference Between Predictive AI And Generative AI.',
                   'Generative Modeling Concepts And Probability Distributions.',
@@ -7107,7 +7373,7 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: 'Use cases',
+                title: 'Use Cases',
                 desc: [
                   'Text Generation For Chatbots And Assistants.',
                   'Document Summarization And Report Automation.',
@@ -7136,6 +7402,8 @@ export const NewDSAData = [
                 desc: [
                   'GPT Family (GPT-3.5, GPT-4, GPT-4o).',
                   'LLaMA, Claude and Open-Source LLM Ecosystem.',
+                  'Serving with vLLM and Ollama.',
+                  'Quantization and GPU sizing decisions.',
                   'Tokenization and Context Windows.',
                   'Inference Parameters: Temperature, Top-p, Max Tokens.',
                   'Hallucination And Limitations Of LLMs.',
@@ -7147,21 +7415,21 @@ export const NewDSAData = [
               chap: {
                 title: 'Hugging Face',
                 desc: [
-                  'Transformers Library For NLP And GenAI',
-                  'Pre-trained Models Hub And Model Cards',
-                  'Tokenizers And Pipeline APIs',
-                  'Fine-tuning Models Using Hugging Face Trainer',
+                  'Transformers Library For NLP And GenAI.',
+                  'Pre-trained Models Hub And Model Cards.',
+                  'Tokenizers And Pipeline APIs.',
+                  'Fine-tuning Models Using Hugging Face Trainer.',
                 ],
               },
             },
             {
               chap: {
-                title: 'RAG (Retrieval Augmented Generation)',
+                title: 'Vector Database',
                 desc: [
-                  'Vector DB',
-                  'Multimodal RAG',
-                  'Graph RAG',
-                  'RAG Evaluation Metrics',
+                  'Embedding Generation Using OpenAI And Hugging Face Models.',
+                  'Vector Stores: FAISS, Pinecone, ChromaDB, Weaviate, Qdrant.',
+                  'Similarity Search And Distance Metrics.',
+                  'Chunking Strategies For Optimal Retrieval.',
                 ],
               },
             },
@@ -7169,47 +7437,46 @@ export const NewDSAData = [
               chap: {
                 title: 'Langchain / Llama Index',
                 desc: [
-                  'Prompt Templates And Output Parsers',
-                  'Chains And Sequential Workflows',
-                  'Agents And Tool Calling',
-                  'Integration With Vector Databases And APIs',
-                  'Embed and store documents in vector DBs (Pinecone, FAISS,Chroma, etc.)',
-                  'Retrieve relevant chunks based on a user query',
-                  'Format the retrieved chunks as context for the LLM',
+                  'Prompt Templates And Output Parsers.',
+                  'Chains And Sequential Workflows.',
+                  'Agents And Tool Calling.',
+                  'Integration With Vector Databases And APIs.',
+                  'Embed and store documents in vector DBs (Pinecone, FAISS, Chroma, etc.)',
+                  'Retrieve relevant chunks based on a user query.',
+                  'Format the retrieved chunks as context for the LLM.',
                 ],
               },
             },
             {
               chap: {
-                title: 'Fine tuning',
+                title: 'Fine Tuning',
                 desc: [
-                  'Full Fine-Tuning vs Parameter-Efficient Fine-Tuning (PEFT)',
-                  'LoRA And QLoRA Techniques',
-                  'Instruction Fine-Tuning',
-                  'Dataset Preparation And Labeling Remotely',
-                  'Overfitting Risks And Mitigation Strategies',
+                  'Full Fine-Tuning vs Parameter-Efficient Fine-Tuning (PEFT).',
+                  'LoRA And QLoRA Techniques.',
+                  'Instruction Fine-Tuning.',
+                  'Dataset Preparation And Labeling Remotely.',
+                  'Overfitting Risks And Mitigation Strategies.',
                 ],
               },
             },
-            // -----------------
             {
               chap: {
                 title: 'Fundamental Generative Models: GAN And VAE',
                 desc: [
-                  'Generative Adversarial Networks Architecture',
-                  'Variational Autoencoders And Latent Space Learning',
-                  'Use Cases In Image And Data Generation',
+                  'Generative Adversarial Networks Architecture.',
+                  'Variational Autoencoders And Latent Space Learning.',
+                  'Use Cases In Image And Data Generation.',
                 ],
               },
             },
             {
               chap: {
-                title: 'Stable Defusion',
+                title: 'Stable Diffusion',
                 desc: [
-                  'Diffusion Model Fundamentals',
-                  'Text-to-Image Generation Pipelines',
-                  'Prompt Control And Image Conditioning',
-                  'Fine-Tuning Diffusion Models (DreamBooth, LoRA)',
+                  'Diffusion Model Fundamentals.',
+                  'Text-to-Image Generation Pipelines.',
+                  'Prompt Control And Image Conditioning.',
+                  'Fine-Tuning Diffusion Models (DreamBooth, LoRA).',
                 ],
               },
             },
@@ -7217,20 +7484,8 @@ export const NewDSAData = [
               chap: {
                 title: 'Flux Framework',
                 desc: [
-                  'Image And Creative Generation Workflows',
-                  'High-quality Diffusion-based Outputs',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'LLMOp’s',
-                desc: [
-                  'Model Versioning And Prompt Version Control',
-                  'Monitoring LLM Outputs In Production',
-                  'Cost Tracking And Optimization',
-                  'Evaluation Pipelines For LLM Applications',
-                  'Deployment Strategies For GenAI Systems',
+                  'Image And Creative Generation Workflows.',
+                  'High-quality Diffusion-based Outputs.',
                 ],
               },
             },
@@ -7238,200 +7493,22 @@ export const NewDSAData = [
               chap: {
                 title: 'Azure OpenAI',
                 desc: [
-                  'Azure OpenAI Service Architecture',
-                  'Model Deployment And Endpoint Management',
-                  'Enterprise Security And Compliance',
-                  'Integrating Azure OpenAI With Applications',
-                ],
-              },
-            },
-          ],
-          id: 3,
-          open: false,
-        },
-      },
-
-      {
-        Module4: {
-          title: 'Module 4 – Agentic AI & Automation',
-          hours: '(1.5 Months)',
-          imageUrl:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
-          StartImageUrl:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
-          endImageUrl:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
-          points: 'Agentic AI & Autonomous Systems',
-          content: [
-            {
-              chap: {
-                title: ' Understanding Agentic AI and Autonomous Agents ',
-                desc: [
-                  'Difference Between LLM Applications And Agent-Based Systems',
-                  'Autonomous Decision-Making And Goal-Oriented Agents',
-                  'Single-Agent vs Multi-Agent Architectures',
+                  'Azure OpenAI Service Architecture.',
+                  'Model Deployment And Endpoint Management.',
+                  'Enterprise Security And Compliance.',
+                  'Integrating Azure OpenAI With Applications.',
                 ],
               },
             },
             {
               chap: {
-                title: 'Key components of Agentic AI',
+                title: 'Projects',
                 desc: [
-                  'Agent Roles, Goals, And Task Decomposition',
-                  'Planning, Reasoning, And Execution Loops',
-                  'Tool Calling And External System Integration',
-                  'Memory Types: Short-Term, Long-Term, And Episodic Memory',
-                  'Feedback Loops And Self-Reflection Mechanisms',
-                  'Failure Handling And Recovery Strategies',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'AutoGen',
-                desc: [
-                  'Multi-Agent Conversation Design',
-                  'Role-Based Agent Collaboration',
-                  'Task Delegation And Message Passing',
-                  'Use Cases For Autonomous Workflows',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'CrewAI',
-                desc: [
-                  'Team-Based Agent Orchestration',
-                  'Role Assignment And Hierarchical Agents',
-                  'Workflow Automation Using Crews',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'LangGraph',
-                desc: [
-                  'State-Based Agent Workflows',
-                  'Directed Graph Execution For Agents',
-                  'Conditional Routing And Branching Logic',
-                  'Multi-Step Planning And Execution Graphs',
-                  'Error Handling And Retry Mechanisms',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'MCP (Model Context Protocol) / ACP / A2A',
-                desc: [
-                  'Model Context Protocol (MCP) Fundamentals',
-                  'Agent Communication Protocol (ACP)',
-                  'Agent-to-Agent (A2A) Interaction Patterns',
-                  'Context Sharing Across Distributed Agents',
-                  'Secure Context Exchange Between Models',
-                  'Enterprise Interoperability Standards For Agents',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'No-Code/Low-Code AI Agent Basics',
-                desc: [
-                  'Build AI agents using drag-and-drop workflow builders',
-                  'Automate tasks, approvals, and decision flows without coding',
-                  'Evaluate feasibility, cost, and business ROI of AI agents',
-                  'Work confidently with tech teams to scale AI faster',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'Ethics And Safety In Agentic AI',
-                desc: [
-                  'Autonomous Agent Risk Assessment',
-                  'Bias, Hallucination, And Decision Transparency',
-                  'Human-in-the-Loop Control Mechanisms',
-                  'Compliance And Responsible AI Guidelines',
-                  'GuardRail',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'AWS Bedrock',
-                desc: [
-                  'Foundation Models Available In Bedrock',
-                  'Building Agents Using Bedrock APIs',
-                  'Tool Invocation And Workflow Automation',
-                  'Security, IAM, And Enterprise Controls',
-                  'Integrating Bedrock With AWS Services',
-                ],
-              },
-            },
-          ],
-          id: 4,
-          open: false,
-        },
-      },
-
-      {
-        Module5: {
-          title: 'Module 5 – AI System Architecture & Platform Engineering',
-          hours: '(1.5 Months)',
-          imageUrl:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
-          StartImageUrl:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
-          endImageUrl:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
-          points: 'AI System Architecture & Platform Engineering',
-          content: [
-            {
-              chap: {
-                title: 'AI System Design Patterns',
-                desc: [
-                  'Inference gateways and routing',
-                  'Event-driven AI architectures',
-                  'Cost and latency decisions',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'API & Microservice Design',
-                desc: [
-                  'FastAPI and gRPC patterns',
-                  'Async processing and queues',
-                  'Circuit breakers and backpressure',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'Data Storage & State',
-                desc: [
-                  'Vector stores and feature storage',
-                  'Caching with Redis',
-                  'State management strategies',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: ' Security & Governance',
-                desc: [
-                  'IAM, secrets, and access control',
-                  'Secure ingress and audit logging',
-                  'Enterprise compliance readiness',
-                ],
-              },
-            },
-            {
-              chap: {
-                title: 'Platform Automation',
-                desc: [
-                  'CI/CD for AI services',
-                  'GitOps and infrastructure automation',
-                  'Release strategies',
+                  'AI-Powered Sales Email Writer – use an LLM to generate personalized sales outreach emails using customer behavior and CRM attributes.',
+                  'Product Review Sentiment Classifier – build an NLP model to classify customer product reviews as positive or negative.',
+                  'Synthetic Defect Image Generation – generate synthetic defect images to augment limited manufacturing datasets for improved model training performance.',
+                  'Stable Diffusion Image Generator – generate creative images from text prompts and experiment with fine-tuning or style transfer.',
+                  'Enterprise Document Assistant – build a secure document Q&A system using Azure OpenAI embeddings and enterprise-grade retrieval pipelines.',
                 ],
               },
             },
@@ -7443,53 +7520,103 @@ export const NewDSAData = [
 
       {
         Module6: {
-          title: 'Module 6 – LLMOP’s & Production Deployment',
-          hours: '(1 Months)',
+          title: 'Module 6 – Advanced RAG & Enterprise AI Systems',
+          hours: '(1 Month)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
           StartImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
           endImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
-          points: 'LLMOP’s & Production Deployment',
+          points: 'Advanced RAG & Enterprise AI Systems',
           content: [
             {
               chap: {
-                title: 'LLM Lifecycle, Versioning & Deployment Basics',
+                title: 'Ingestion And Document Processing',
                 desc: [
-                  'End-to-end LLM lifecycle from development to production.',
-                  'Model and prompt versioning using evaluation traces.',
-                  'API-based LLM deployment using FastAPI and OpenAI / Azure OpenAI endpoints.',
+                  'Scanned PDFs, forms, tables, slides, email.',
+                  'Layout-aware parsing and OCR pipelines.',
+                  'Table and figure extraction techniques.',
+                  'Fixed, recursive, and semantic chunking.',
+                  'Layout-aware and hierarchical chunking.',
+                  'Late chunking and context preservation.',
+                  'Metadata design: source, section, date, sensitivity.',
+                  'Incremental ingestion and change detection.',
+                  'Versioning and deletion propagation.',
                 ],
               },
             },
             {
               chap: {
-                title: 'Containerization & Inference Serving',
+                title: 'Retrieval Engineering',
                 desc: [
-                  'Packaging GenAI applications for consistent deployment.',
-                  'Serving LLM-powered APIs using containers.',
-                  'Localand cloud-ready inference setups.',
+                  'Sparse, dense, and hybrid retrieval.',
+                  'Reciprocal rank fusion across retrievers.',
+                  'Metadata filtering with vector search.',
+                  'Query rewriting, expansion, and decomposition.',
+                  'HyDE and multi-query fusion retrieval.',
+                  'Handling ambiguous and multi-hop questions.',
+                  'Cross-encoder and Cohere re-ranking.',
+                  'Parent-document and sentence-window retrieval.',
+                  'Contextual retrieval and auto-merging.',
                 ],
               },
             },
             {
               chap: {
-                title: 'RAG & Agent Deployment Pipelines',
+                title: 'Advanced RAG Architectures',
                 desc: [
-                  'Deploying Retrieval-Augmented Generation pipelines reliably.',
-                  'Vector database operations for production workloads.',
-                  'Deploying agent workflows with tool calling and state handling.',
+                  'Knowledge graph construction from documents.',
+                  'Community summarization in GraphRAG.',
+                  'Retrieval as a tool inside agents.',
+                  'Corrective RAG and retrieval grading.',
+                  'Self-RAG and fallback retrieval paths.',
+                  'Calibrated refusal when context is missing.',
+                  'Text-to-SQL over warehouses and semantic layers.',
+                  'Combining structured and unstructured answers.',
+                  'Retrieval over images, charts, and tables.',
+                  'Long-context models versus retrieval trade-offs.',
                 ],
               },
             },
             {
               chap: {
-                title: 'Monitoring, Cost Optimization & Reliability',
+                title: 'Enterprise Retrieval Concerns',
                 desc: [
-                  'Tracking latency, token usage, and failures.',
-                  'Prompt evaluation and trace-based monitoring.',
-                  'Cost optimization, rollback, and safe production controls.',
+                  'ACL propagation and document-level security.',
+                  'Multi-tenancy and namespace isolation.',
+                  'Row-level security in retrieval results.',
+                  'PII detection and reversible tokenization.',
+                  'Data residency and air-gapped deployments.',
+                  'Source attribution and answer traceability.',
+                  'Freshness policies and reindexing strategy.',
+                  'Cost modelling at millions of documents.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'RAG Evaluation And Failure Analysis',
+                desc: [
+                  'Hit rate, MRR, and NDCG scoring.',
+                  'Context precision and context recall.',
+                  'Faithfulness, answer relevance, citation accuracy.',
+                  'Refusal correctness and hallucination rate.',
+                  'Taxonomy: retrieval, ranking, chunking, synthesis failures.',
+                  'Systematic tuning and ablation testing.',
+                  'Tracing a bad answer to its chunk.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Projects',
+                desc: [
+                  'Multi-Format Ingestion Pipeline – parse scanned manuals, spreadsheets, and drawings into a chunked, metadata-rich index with incremental updates.',
+                  'Hybrid Retrieval Search Engine – combine BM25, dense retrieval, and cross-encoder re-ranking to answer precedent questions across case files.',
+                  'GraphRAG Knowledge System – build an entity graph over research documents and answer multi-hop questions spanning several sources.',
+                  'Permission-Aware Policy Assistant – serve grounded policy answers with citations while enforcing per-role document access across business units.',
+                  'RAG Quality Audit Report – diagnose failures in an existing RAG system and deliver a tuned version with before-and-after metrics.',
                 ],
               },
             },
@@ -7499,79 +7626,740 @@ export const NewDSAData = [
         },
       },
 
-      // {
-      //   Module4: {
-      //     title: "Elective - (Choose Any 2)",
-      //     hours: "(1 Month)",
-      //     imageUrl:
-      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-      //     StartImageUrl:
-      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-      //     endImageUrl:
-      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-      //     points: "Agentic AI & Autonomous Systems",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: " GenAI and Agentic AI for BFSI ",
-      //           desc: [
-      //             "AI solutions for fraud detection, credit risk modeling, customer intelligence, underwriting automation, and financial copilots.",
-      //           ],
-      //         },
-      //       },
-      //       {
-      //         chap: {
-      //           title: "GenAI for Retail",
-      //           desc: [
-      //             "Build AI systems for demand forecasting, personalized recommendations, inventory optimization, and customer experience automation.",
-      //           ],
-      //         },
-      //       },
-      //       {
-      //         chap: {
-      //           title: "GenAI for Manufacturing",
-      //           desc: [
-      //             "Apply GenAI for predictive maintenance, quality inspection, supply chain intelligence, and factory optimization.",
-      //           ],
-      //         },
-      //       },
-      //       {
-      //         chap: {
-      //           title: "GenAI for Healthcare",
-      //           desc: [
-      //             "evelop AI use cases for clinical decision support, medical document analysis, diagnostics assistance, and patient data intelligence.",
-      //           ],
-      //         },
-      //       },
-      //       {
-      //         chap: {
-      //           title: "GenAI for Cloud & Devops",
-      //           desc: [
-      //             "Design autonomous agents, AI-driven CI/CD, monitoring agents, RAG pipelines, and production-grade MLOps systems.",
-      //           ],
-      //         },
-      //       },
-      //       {
-      //         chap: {
-      //           title: "GenAI for Managers & Leaders",
-      //           desc: [
-      //             "Learn Project Management uing AI, Gen AI for Digital Business Transformation , AI governance, agent-based decision systems.",
-      //           ],
-      //         },
-      //       },
-      //       {
-      //         chap: {
-      //           title: "GenAI for Software Developers",
-      //           desc: [
-      //             "Build LLM-powered applications, APIs, copilots, autonomous agents, and GenAI features using modern frameworks.",
-      //           ],
-      //         },
-      //       },
-      //     ],
-      //     id: 4,
-      //     open: false,
-      //   },
-      // },
+      {
+        Module7: {
+          title: 'Module 7 – Agentic AI & Automation',
+          hours: '(1.5 Months)',
+          imageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
+          StartImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
+          endImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
+          points: 'Agentic AI & Autonomous Systems',
+          content: [
+            {
+              chap: {
+                title: 'Understanding Agentic AI And Autonomous Agents',
+                desc: [
+                  'Difference Between LLM Applications And Agent-Based Systems.',
+                  'Autonomous Decision-Making And Goal-Oriented Agents.',
+                  'Single-Agent vs Multi-Agent Architectures.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Key Components Of Agentic AI',
+                desc: [
+                  'Agent Roles, Goals, And Task Decomposition.',
+                  'Planning, Reasoning, And Execution Loops.',
+                  'Tool Calling And External System Integration.',
+                  'Memory Types: Short-Term, Long-Term, And Episodic Memory.',
+                  'Feedback Loops And Self-Reflection Mechanisms.',
+                  'Failure Handling And Recovery Strategies.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'AutoGen',
+                desc: [
+                  'Multi-Agent Conversation Design.',
+                  'Role-Based Agent Collaboration.',
+                  'Task Delegation And Message Passing.',
+                  'Use Cases For Autonomous Workflows.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'CrewAI',
+                desc: [
+                  'Team-Based Agent Orchestration.',
+                  'Role Assignment And Hierarchical Agents.',
+                  'Workflow Automation Using Crews.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'LangGraph',
+                desc: [
+                  'State-Based Agent Workflows.',
+                  'Directed Graph Execution For Agents.',
+                  'Conditional Routing And Branching Logic.',
+                  'Multi-Step Planning And Execution Graphs.',
+                  'Error Handling And Retry Mechanisms.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'MCP (Model Context Protocol) / ACP / A2A',
+                desc: [
+                  'Model Context Protocol (MCP) Fundamentals.',
+                  'Agent Communication Protocol (ACP).',
+                  'Agent-to-Agent (A2A) Interaction Patterns.',
+                  'Context Sharing Across Distributed Agents.',
+                  'Secure Context Exchange Between Models.',
+                  'Enterprise Interoperability Standards For Agents.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'No-Code/Low-Code AI Agent Basics',
+                desc: [
+                  'Build AI agents using drag-and-drop workflow builders.',
+                  'Automate tasks, approvals, and decision flows without coding.',
+                  'Evaluate feasibility, cost, and business ROI of AI agents.',
+                  'Work confidently with tech teams to scale AI faster.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Ethics And Safety In Agentic AI',
+                desc: [
+                  'Autonomous Agent Risk Assessment.',
+                  'Bias, Hallucination, And Decision Transparency.',
+                  'Human-in-the-Loop Control Mechanisms.',
+                  'Compliance And Responsible AI Guidelines.',
+                  'GuardRail: Input And Output Validation.',
+                  'Policy Enforcement And Rule-Based Constraints.',
+                  'Monitoring Agent Actions In Production.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'AWS Bedrock',
+                desc: [
+                  'Foundation Models Available In Bedrock.',
+                  'Building Agents Using Bedrock APIs.',
+                  'Tool Invocation And Workflow Automation.',
+                  'Security, IAM, And Enterprise Controls.',
+                  'Integrating Bedrock With AWS Services.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Projects',
+                desc: [
+                  'AI Data Analyst Agent – develop an autonomous agent that connects to a database and answers data questions by generating SQL queries and charts.',
+                  'Quality Inspector Agent – build an agent team to analyze defect images, generate insights, and suggest corrective actions collaboratively.',
+                  'RAG Product Query Bot – build a RAG assistant that answers product comparisons and queries using catalog data and customer reviews.',
+                  'MCP Coding Assistant & Debugger – build an MCP-powered coding assistant that reads code files, runs tests, debugs errors, and suggests fixes automatically.',
+                  'LLM Toxicity Monitoring & Safety Guardrail Engine – create a safety pipeline to detect toxic content, enforce prompt rules, and generate safer LLM responses.',
+                  'AutoGen Vehicle Diagnostics Agent – create a diagnostic agent that interprets sensor logs and suggests repair actions using reasoning and tool execution.',
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
+
+      {
+        Module8: {
+          title: 'Module 8 – Cloud, Deployment, LLMOps & AIOps',
+          hours: '(1 Month)',
+          imageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
+          StartImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
+          endImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
+          points: 'Cloud, Deployment, LLMOps & AIOps',
+          content: [
+            {
+              chap: {
+                title: 'Cloud Foundations',
+                desc: [
+                  'Compute: VMs, containers, serverless, GPUs.',
+                  'Networking: VPCs, load balancers, private endpoints.',
+                  'Storage tiers and lifecycle policies.',
+                  'IAM roles, service accounts, least privilege.',
+                  'Cost model of AI workloads and levers.',
+                  'AI services across AWS, Azure, and GCP.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Containers, Orchestration, And Delivery',
+                desc: [
+                  'Multi-stage Docker builds and slim images.',
+                  'GPU base images and runtime configuration.',
+                  'Pods, deployments, services, and ingress.',
+                  'Config maps, secrets, and Helm charts.',
+                  'Autoscaling and scale-to-zero for GPUs.',
+                  'Terraform for reproducible client deployments.',
+                  'CI/CD with build, test, eval, deploy stages.',
+                  'Blue-green, canary, and shadow rollouts.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Serving And Performance',
+                desc: [
+                  'vLLM, Ray Serve, and Triton basics.',
+                  'Batching, KV caching, speculative decoding.',
+                  'GPU sizing and memory calculations.',
+                  'Latency budgets and model routing.',
+                  'Semantic and prompt caching for cost.',
+                  'Load testing and bottleneck discovery.',
+                  'Fallback chains across model providers.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'LLMOps',
+                desc: [
+                  'Prompt, model, and configuration versioning.',
+                  'Eval gates blocking failed deployments.',
+                  'Distributed tracing across LLM calls.',
+                  'Token, cost, and latency telemetry.',
+                  'Quality, embedding, and data drift monitoring.',
+                  'Capturing user feedback and annotations.',
+                  'Curating datasets from production traces.',
+                  'Incident response for probabilistic systems.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'AIOps And Platform Operations',
+                desc: [
+                  'Log intelligence and anomaly detection.',
+                  'Root-cause analysis assistants for incidents.',
+                  'Runbook automation and alert reduction.',
+                  'SLOs and error budgets for AI systems.',
+                  'Cost attribution, quotas, per-tenant metering.',
+                  'Rollbacks, kill switches, degradation modes.',
+                  'Security operations and key rotation.',
+                  'Runbooks the client team can operate.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Projects',
+                desc: [
+                  'Production AI Service Deployment – deploy a containerized RAG service on Kubernetes with Terraform provisioning and automated rollback.',
+                  'Eval-Gated Deployment Pipeline – block promotion automatically when regression evals fail, then roll out through a monitored canary release.',
+                  'Incident Triage And RCA Agent – build an agent that reads logs and traces, detects anomalies, and proposes root causes during incidents.',
+                  'AI Cost And Observability Dashboard – surface traces, quality metrics, and per-tenant token spend for a live GenAI workload.',
+                ],
+              },
+            },
+          ],
+          id: 8,
+          open: false,
+        },
+      },
+
+      {
+        Module9: {
+          title: 'Module 9 – AI System Design & Enterprise Architecture',
+          hours: '(2 Weeks)',
+          imageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
+          StartImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
+          endImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
+          points: 'AI System Design & Enterprise Architecture',
+          content: [
+            {
+              chap: {
+                title: 'AI System Design Framework',
+                desc: [
+                  'Requirements, constraints, and non-functional targets.',
+                  'Capacity estimation for tokens and GPUs.',
+                  'Trade-off analysis and failure mode mapping.',
+                  'Caching, queueing, and asynchronous design.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Reference Architectures',
+                desc: [
+                  'Conversational assistant and enterprise search.',
+                  'Document processing and agentic workflow systems.',
+                  'Embedded copilots inside existing products.',
+                  'Multi-model routing and cascade architectures.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Enterprise Landscape Integration',
+                desc: [
+                  'ERP, CRM, ITSM, and warehouse touchpoints.',
+                  'API gateways, event backbones, and iPaaS.',
+                  'Identity federation and zero-trust boundaries.',
+                  'Data architecture: lakehouse, embedding, semantic layers.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Governance And Compliance',
+                desc: [
+                  'Model registry, AI inventory, approval workflows.',
+                  'EU AI Act, DPDP, and sector regulations.',
+                  'On-prem, sovereign, and air-gapped options.',
+                  'Build versus buy and vendor lock-in analysis.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Architecture Deliverables',
+                desc: [
+                  'C4 diagrams, sequence flows, and ADRs.',
+                  'Solution design documents for architecture review.',
+                  'Three-year TCO and phased migration roadmap.',
+                  'Defending design trade-offs under challenge.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Projects',
+                desc: [
+                  'Enterprise AI Solution Design Document – produce a full architecture, security model, and phased rollout plan for an enterprise AI assistant.',
+                  'AI Architecture Review & Remediation – critique a provided AI architecture and deliver a prioritized remediation plan with cost impact.',
+                ],
+              },
+            },
+          ],
+          id: 9,
+          open: false,
+        },
+      },
+
+      {
+        Module10: {
+          title: 'Module 10 – FDE / Client Solution Engineering',
+          hours: '(1 Month)',
+          imageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
+          StartImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
+          endImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
+          points: 'FDE / Client Solution Engineering',
+          content: [
+            {
+              chap: {
+                title: 'Discovery And Scoping',
+                desc: [
+                  'Stakeholder mapping: economic buyer, champion, blocker, end user.',
+                  'Reading organizational incentives and politics.',
+                  'Question frameworks that surface real constraints.',
+                  'Process mapping and automatable slice identification.',
+                  'Data readiness and system access assessment.',
+                  'Pilot scope versus phase two scope.',
+                  'Effort estimation and pricing awareness.',
+                  'Writing proposals and statements of work.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Prototyping And Demos',
+                desc: [
+                  'Building a credible demo within days.',
+                  'Deciding what to fake and what to build.',
+                  'Prototype stacks: Streamlit, Gradio, Next.js.',
+                  'Narrative structure for technical demos.',
+                  'Recovering gracefully from live failures.',
+                  'Handling hostile and sceptical questions.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Delivery Inside Client Environments',
+                desc: [
+                  'Network restrictions, VPNs, and access delays.',
+                  'Security review and procurement processes.',
+                  'Working within client CI and review rules.',
+                  'Pilot design with baselines and thresholds.',
+                  'Scope creep, change requests, and escalation.',
+                  'Communicating probabilistic system behaviour.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Adoption, Enablement And Expansion',
+                desc: [
+                  'Change management for AI-assisted workflows.',
+                  'Training client teams and documenting runbooks.',
+                  'Measuring business impact, not model metrics.',
+                  'Support models, SLAs, and escalation paths.',
+                  'Productising a bespoke build for reuse.',
+                  'Finding and scoping the second use case.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Projects',
+                desc: [
+                  'Client Discovery And Solution Brief – run a live discovery session with a stakeholder panel and convert it into a scoped, costed proposal.',
+                  'Forty-Eight Hour Prototype Sprint – receive a brief on day one, build a working prototype, and demo it to a review panel.',
+                  'Pilot Impact And Handover Package – deliver baseline metrics, pilot results, runbooks, and a training plan for a client operations team.',
+                ],
+              },
+            },
+          ],
+          id: 10,
+          open: false,
+        },
+      },
+
+      {
+        Module11: {
+          title: 'Module 11 – Elective A: FDE for Software & SaaS',
+          hours: '(1 Month)',
+          imageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
+          StartImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
+          endImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
+          points: 'Specialization Track – Software & SaaS',
+          content: [
+            {
+              chap: {
+                title: 'AI Inside SaaS Products',
+                desc: [
+                  'In-product copilots and background agents.',
+                  'UX patterns for streaming and latency budgets.',
+                  'Feature flags and staged AI feature rollout.',
+                  'Pricing, packaging, and usage metering.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Developer-Facing Agents',
+                desc: [
+                  'Repository indexing and code understanding.',
+                  'Code review, migration, and test-generation agents.',
+                  'Safe autonomy boundaries inside a codebase.',
+                  'Evaluating coding agents on real repositories.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Support And Workflow Automation',
+                desc: [
+                  'Intent routing, deflection, and escalation design.',
+                  'Agent-assist and quality scoring systems.',
+                  'Process mining and cross-tool orchestration.',
+                  'Exception handling in automated workflows.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Multi-Tenant AI Operations',
+                desc: [
+                  'Per-tenant knowledge, isolation, and configuration.',
+                  'Plugin and MCP interfaces for customer tools.',
+                  'Product analytics: adoption, containment, cost per user.',
+                  'Metering, quotas, and billing integration.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Projects',
+                desc: [
+                  'Multi-Tenant SaaS Copilot – build an in-product copilot with per-tenant knowledge, tool actions, streaming UX, and usage metering.',
+                  'Developer Agent For Code Migration – build an agent that indexes a repository, proposes framework migration changes, and opens reviewed pull requests.',
+                ],
+              },
+            },
+          ],
+          id: 11,
+          open: false,
+        },
+      },
+
+      {
+        Module12: {
+          title: 'Module 12 – Elective B: FDE for Data & Analytics',
+          hours: '(1 Month)',
+          imageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
+          StartImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
+          endImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
+          points: 'Specialization Track – Data & Analytics',
+          content: [
+            {
+              chap: {
+                title: 'Modern Data Stack Foundations',
+                desc: [
+                  'Warehouse, lakehouse, ELT, and orchestration.',
+                  'dbt transformations and data modelling layers.',
+                  'Semantic layers and metric store design.',
+                  'Data contracts, lineage, and documentation.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Text-To-SQL Engineering',
+                desc: [
+                  'Schema linking and dynamic few-shot selection.',
+                  'Query validation, safety limits, and cost guards.',
+                  'Self-correction loops on failed queries.',
+                  'Execution accuracy and ambiguity handling metrics.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Conversational BI And Narratives',
+                desc: [
+                  'Follow-up questions and conversational state.',
+                  'Automatic chart selection and formatting.',
+                  'Narrative generation from query results.',
+                  'Embedding assistants inside BI tools.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'AI Data Agents And Quality',
+                desc: [
+                  'Profiling, anomaly detection, and metric monitoring.',
+                  'Root-cause analysis agents on metric movements.',
+                  'Unstructured data inside the warehouse.',
+                  'Row-level security and metric certification.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Projects',
+                desc: [
+                  'Natural Language Analytics Platform – ship a semantic-layer-backed text-to-SQL agent with chart generation, narratives, and execution accuracy evaluation.',
+                  'Metric Anomaly Investigation Agent – build an agent that detects metric anomalies, drills into dimensions, and reports probable root causes.',
+                ],
+              },
+            },
+          ],
+          id: 12,
+          open: false,
+        },
+      },
+
+      {
+        Module13: {
+          title: 'Module 13 – Elective C: FDE for Cloud & Enterprise',
+          hours: '(1 Month)',
+          imageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
+          StartImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
+          endImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
+          points: 'Specialization Track – Cloud & Enterprise',
+          content: [
+            {
+              chap: {
+                title: 'Enterprise Cloud Landing Zones',
+                desc: [
+                  'Multi-account structures and governance guardrails.',
+                  'Network segmentation and private connectivity.',
+                  'Cost governance and chargeback at platform scale.',
+                  'GPU capacity, scheduling, and multi-tenancy.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Legacy Modernization With AI',
+                desc: [
+                  'Codebase comprehension and documentation generation.',
+                  'Monolith assessment and decomposition planning.',
+                  'AI-assisted migration and regression safety nets.',
+                  'Phased cutover and rollback strategy.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Private And Sovereign AI Infrastructure',
+                desc: [
+                  'On-prem model serving and hardware sizing.',
+                  'Air-gapped RAG and offline model updates.',
+                  'Data residency and sovereign cloud constraints.',
+                  'Security, key management, and supply chain.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Platform Engineering And Integration',
+                desc: [
+                  'Internal developer platforms and golden paths.',
+                  'Self-service AI service provisioning.',
+                  'SAP, Salesforce, and ServiceNow integration patterns.',
+                  'SSO federation, SCIM provisioning, service auth.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Projects',
+                desc: [
+                  'Self-Service Enterprise AI Platform – build a platform where teams deploy AI services with SSO access, quotas, and per-team cost attribution.',
+                  'Private RAG For Air-Gapped Environment – deploy an offline retrieval assistant with on-prem model serving, local embeddings, and audit logging.',
+                ],
+              },
+            },
+          ],
+          id: 13,
+          open: false,
+        },
+      },
+
+      {
+        Module14: {
+          title: 'Capstone Projects & Interview Readiness',
+          hours: '(1.5 Months)',
+          imageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
+          StartImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
+          endImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
+          points: 'Capstone Projects & FDE Interview Readiness',
+          content: [
+            {
+              chap: {
+                title: 'Capstone Projects',
+                desc: [
+                  'Enterprise Knowledge Copilot (BFSI) – deploy a permission-aware RAG assistant over policy, product, and compliance documents with full citation traceability.',
+                  'Autonomous Claims Processing Agent (Insurance) – build an agent that extracts claim data, validates policy rules, and routes exceptions for human approval.',
+                  'Clinical Documentation Assistant (Healthcare) – deploy a de-identified summarization and coding assistant with clinician review and complete audit trails.',
+                  'Supply Chain Exception Agent (Manufacturing) – build an agent that detects supply disruptions, simulates options, and recommends corrective actions.',
+                  'Conversational Analytics Platform (Retail) – ship a natural-language analytics layer over a warehouse with semantic modelling and accuracy evaluation.',
+                  'Developer Productivity Agent Suite (Software) – deploy repository-aware agents for code review, test generation, and migration with measured quality gates.',
+                  'Telecom Network Operations Copilot (Telecom) – build an incident triage and root-cause agent over network logs with runbook automation and escalation.',
+                  'Public Sector Citizen Services Assistant (Public Sector) – deploy a multilingual, air-gapped grounded assistant with strict refusal calibration and full auditability.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Interview Readiness For GenAI & Agentic AI Roles',
+                desc: [
+                  'Practice AI system design: LLM-driven and agent-based architectures.',
+                  'Deploy production AI systems: CI/CD, observability, guardrails, and scaling.',
+                  'Run client discovery rounds: scope messy business problems into AI solutions.',
+                  '5+ mock interview sessions with industry experts.',
+                  'ATS-optimized resume and portfolio positioning.',
+                ],
+              },
+            },
+          ],
+          id: 14,
+          open: false,
+        },
+      },
+
+      {
+        Module15: {
+          title: 'DSA & Problem Solving (Optional)',
+          hours: '(2 Months)',
+          imageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
+          StartImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
+          endImageUrl:
+            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
+          points: 'DSA & Problem Solving',
+          content: [
+            {
+              chap: {
+                title: 'Foundations And Linear Structures',
+                desc: [
+                  'Complexity analysis and problem-solving frameworks.',
+                  'Arrays, strings, and two pointers.',
+                  'Sliding window and prefix sum patterns.',
+                  'Hashing, sets, and frequency counting.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Stacks, Queues, And Linked Lists',
+                desc: [
+                  'Stack and queue implementation patterns.',
+                  'Monotonic stack and deque techniques.',
+                  'Linked list traversal, reversal, and cycle detection.',
+                  'Fast and slow pointer applications.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Trees, Heaps And Tries',
+                desc: [
+                  'Binary tree traversal and recursion patterns.',
+                  'Binary search trees and balancing basics.',
+                  'Heaps for top-K and scheduling problems.',
+                  'Tries for prefix search and autocomplete.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Graphs And Advanced Techniques',
+                desc: [
+                  'BFS, DFS, and connected components.',
+                  'Shortest path, topological sort, union-find.',
+                  'Recursion, backtracking, and divide and conquer.',
+                  'Dynamic programming patterns over problem lists.',
+                  'Greedy algorithms and interval scheduling.',
+                  'Binary search on the answer space.',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Interview Simulation',
+                desc: [
+                  'Timed contest practice and pattern drills.',
+                  'Low-level design and object-oriented rounds.',
+                  'Whiteboard communication and edge case handling.',
+                  'Mock DSA screens with structured feedback.',
+                ],
+              },
+            },
+          ],
+          id: 15,
+          open: false,
+        },
+      },
     ],
 
     certificateNew: [
