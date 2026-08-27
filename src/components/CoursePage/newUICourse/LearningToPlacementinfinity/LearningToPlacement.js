@@ -1,27 +1,33 @@
-import React from "react";
-import styles from "./LearningToPlacement.module.css";
-import Image from "next/image";
+import React from 'react';
+import styles from './LearningToPlacement.module.css';
+import Image from 'next/image';
 
-const LearningToPlacement = ({ time, guided, fullstack }) => {
+const LearningToPlacement = ({
+  time,
+  guided,
+  fullstack,
+  midStack,
+  isFDE = false,
+}) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
         <div className={styles.header}>
           <div className={styles.top}>
             <h3>
-              From{" "}
+              From{' '}
               <span className={styles.highlight}>Learning to Placement</span>
             </h3>
             <p className={styles.des}>We've got you covered</p>
             <div className={styles.underline}>
-              {" "}
+              {' '}
               <Image
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/under_lone.webp"
                 width={220}
                 height={25}
                 alt="underLine"
                 loading="lazy"
-              />{" "}
+              />{' '}
             </div>
           </div>
 
@@ -39,7 +45,7 @@ const LearningToPlacement = ({ time, guided, fullstack }) => {
 
           <div className={`${styles.card} ${styles.teal}`}>
             <p className={styles.boldYellow}>
-              {guided}+ {fullstack ? "DSA" : "Guided"}
+              {guided}+ {fullstack ? 'DSA' : 'Guided'}
             </p>
             <span className={styles.skills}>
               {fullstack ? (
@@ -66,7 +72,7 @@ const LearningToPlacement = ({ time, guided, fullstack }) => {
               ) : (
                 <>
                   <span>GitHub</span>
-                  <span>OpenAI</span>
+                  <span>{midStack ? midStack : 'OpenAI'} </span>
                   <span>Python</span>
                 </>
               )}
@@ -84,7 +90,7 @@ const LearningToPlacement = ({ time, guided, fullstack }) => {
               loading="lazy"
             />
             <p className={styles.pTag}>
-              <span className={styles.green}>3 Years</span> Flexible{" "}
+              <span className={styles.green}>3 Years</span> Flexible{' '}
               <span className={styles.nor}>Subscription</span>
             </p>
             <span className={styles.learn}>
@@ -101,12 +107,19 @@ const LearningToPlacement = ({ time, guided, fullstack }) => {
                   className={styles.capImage} // optional: add this class if you want to control styling
                 />
               </div> */}
-              <div className={styles.capRight} style={{ color: "white" }}>
-                <h5 style={{ color: "white" }}>
-                  <strong>
-                    Solve real AI/GenAI challenges from startups and add
-                    industry-certified projects to your portfolio.
-                  </strong>
+              <div className={styles.capRight} style={{ color: 'white' }}>
+                <h5 style={{ color: 'white' }}>
+                  {isFDE ? (
+                    <storng>
+                      Solve real client problems end to end - discovery, build,
+                      deployment and handover
+                    </storng>
+                  ) : (
+                    <strong>
+                      Solve real AI/GenAI challenges from startups and add
+                      industry-certified projects to your portfolio.
+                    </strong>
+                  )}
                 </h5>
               </div>
             </div>

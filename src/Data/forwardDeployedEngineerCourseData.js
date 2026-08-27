@@ -9,13 +9,13 @@ export const NewDSAData = [
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp',
         title: [
           {
-            text: '',
+            text: 'Forward Deployed Engineer Course for Working Professionals',
             color: true,
             gradient:
               'linear-gradient(90deg, #7eb6f9 0%, #d1a4e8 50%, #f78dc7 100%)',
           },
           {
-            text: 'Engineer Course',
+            text: '',
             color: false,
           },
         ],
@@ -25,14 +25,13 @@ export const NewDSAData = [
             id: 1,
             img: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp',
             imgAlt: 'DSA First Point',
-            text1:
-              'Learn to integrate GenAI into your existing software stack.',
+            text1: 'Live Project-Led FDE Course with Advanced AI Capabilities',
           },
           {
             id: 2,
             img: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp',
             imgAlt: 'DSA Second Point',
-            text1: 'Build Autonomous AI Agents',
+            text1: 'Scope, Build and Deploy AI Inside Client Systems',
           },
         ],
         mentorText: 'Earn Industry-Ready Certification from',
@@ -6317,9 +6316,9 @@ export const NewDSAData = [
     genAiData: [
       {
         id: 1,
-        title: 'Smart Hiring Tool for recruitment',
+        title: 'Enterprise Knowledge Copilot',
         description:
-          'An AI tool to screen resumes, match candidates to jobs, and draft job descriptions. It uses LangChain to analyze resumes and Hugging Face for understanding job requirements, saving time in recruitment.',
+          'A grounded assistant that answers policy and process questions from internal documents. LangChain handles retrieval and a vector database powers search, with every answer carrying its source',
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp', // Provide the path to the icon image
         rank: '#1',
@@ -6327,9 +6326,9 @@ export const NewDSAData = [
       },
       {
         id: 2,
-        title: 'Financial Report Generator using GenAI tools',
+        title: 'Client Data Agent for operations teams',
         description:
-          'Automatically create clear financial reports from raw data like balance sheets. LangChain summarizes key insights, while Hugging Face helps with data analysis and clarity.',
+          'An agent that answers business questions by querying a live database and returning charts. LangGraph runs the reasoning loop, with validation and safety limits on every generated query',
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-21.webp', // Provide the path to the icon image
         rank: '#2',
@@ -6337,9 +6336,9 @@ export const NewDSAData = [
       },
       {
         id: 3,
-        title: 'Project Performance Dashboard',
+        title: 'AI Deployment Observability Dashboard',
         description:
-          'Track and analyze the progress of projects in real time. This tool provides insights into timelines, budgets, and risks, enabling better decision-making and project management',
+          'Track quality, latency and token cost for a live AI system in real time. The dashboard surfaces drift, failed responses and per-team spend, enabling tighter cost control  ',
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp', // Provide the path to the icon image
         rank: '#3',
@@ -6348,9 +6347,9 @@ export const NewDSAData = [
 
       {
         id: 4,
-        title: ' Employee Feedback Insights ',
+        title: 'Support Automation Agent with human approval',
         description:
-          'Analyze employee feedback and surveys for trends and sentiments. LangChain processes responses, and Hugging Face identifies sentiments, helping HR make better decisions.',
+          'Triage incoming tickets, draft replies and act across connected systems. LangGraph runs the workflow and every action passes an approval gate before it reaches the customer',
         iconUrl:
           'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp', // Provide the path to the icon image
         rank: '#4',

@@ -649,9 +649,14 @@ const NewDSA = ({ DSADataJson }) => {
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI+Engineering+Program_compressed.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="300" guided="40" />
+        <LearningToPlacement
+          time="400"
+          guided="80"
+          midStack="LangChain"
+          isFDE="true"
+        />
 
-        <HighlightsSection aiCloab={true} />
+        <HighlightsSection aiCloab={true} FDEProgram={true} />
         <AnimationNew />
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />

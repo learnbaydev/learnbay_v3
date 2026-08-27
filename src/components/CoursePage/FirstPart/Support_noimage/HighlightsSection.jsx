@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import styles from "./HighlightsSection.module.css";
-import Image from "next/image";
-import highlightsData from "./highlightsData";
-import dynamic from "next/dynamic";
+import React, { useState } from 'react';
+import styles from './HighlightsSection.module.css';
+import Image from 'next/image';
+import highlightsData from './highlightsData';
+import dynamic from 'next/dynamic';
 
-const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
-const FormCareer = dynamic(() =>
-  import("@/components/Global/CareerPortal/Form/Form")
+const Popup = dynamic(() => import('@/components/Global/Popup/Popup'));
+const FormCareer = dynamic(
+  () => import('@/components/Global/CareerPortal/Form/Form')
 );
-const Button = dynamic(() => import("@/components/Global/Button/Button"));
-const Form = dynamic(() => import("@/components/Global/Form/Form"));
+const Button = dynamic(() => import('@/components/Global/Button/Button'));
+const Form = dynamic(() => import('@/components/Global/Form/Form'));
 
 const HighlightsSection = ({
   careerForm,
@@ -18,6 +18,7 @@ const HighlightsSection = ({
   dataScience,
   dataScienceGeneric,
   aiCloab = false,
+  FDEProgram = false,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -25,11 +26,18 @@ const HighlightsSection = ({
 
   // 🔹 Conditional card filtering logic
   const filteredHighlights = highlightsData.filter((item) => {
-    if (item.tag === "JOB READINESS & INTERVIEW CONFIDENCE") {
+    if (item.tag === 'JOB READINESS & INTERVIEW CONFIDENCE') {
       return !aiCloab;
     }
-    if (item.tag === "AI Co-lab") {
+    if (item.tag === 'AI Co-lab') {
       return aiCloab;
+    }
+    if (item.tag === 'GENAI + AGENTIC AI' && FDEProgram) {
+      return false;
+    }
+
+    if (item.tag === 'ADVANCED AI' && !FDEProgram) {
+      return false;
     }
     return true;
   });
@@ -39,8 +47,8 @@ const HighlightsSection = ({
       <div className={styles.titleDiv}>
         <p>Support that matters</p>
         <h4>
-          From Day One to Dream Role—
-          <span className={styles.colors}>We’re with you</span>
+          From Day One to Dream Role -
+          <span className={styles.colors}> We’re with you</span>
         </h4>
       </div>
 
@@ -75,20 +83,20 @@ const HighlightsSection = ({
                   className={styles.desc}
                   style={{
                     color: item.descColor,
-                    maxWidth: item.descWidth ? `${item.descWidth}px` : "100%",
+                    maxWidth: item.descWidth ? `${item.descWidth}px` : '100%',
                   }}
                 >
-                  {item.description.split(" ").map((word, i) =>
-                    word.includes("product-based") ||
-                    word.includes("real-world") ||
-                    word.includes("sharpen") ||
-                    word.includes("enterprise") ||
-                    word.includes("hiring") ? (
+                  {item.description.split(' ').map((word, i) =>
+                    word.includes('product-based') ||
+                    word.includes('real-world') ||
+                    word.includes('sharpen') ||
+                    word.includes('enterprise') ||
+                    word.includes('hiring') ? (
                       <span key={i} className={styles.dark}>
-                        {word + " "}
+                        {word + ' '}
                       </span>
                     ) : (
-                      word + " "
+                      word + ' '
                     )
                   )}
                 </p>
@@ -103,7 +111,7 @@ const HighlightsSection = ({
                   alt="highlight-img"
                   width={item.width}
                   height={item.height}
-                  style={{ objectFit: "contain" }}
+                  style={{ objectFit: 'contain' }}
                   loading="lazy"
                 />
               </div>
