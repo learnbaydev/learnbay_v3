@@ -220,7 +220,7 @@ const NewDSA = ({ DSADataJson }) => {
         {
           id: 4,
           ques: 'Can I choose my capstone project, or are projects assigned?',
-          ans: 'You can choose projects useful to your domain, career interests, and goals. Additionally, you will work on AI startup projects and can even Bring Your Own Problem (BYOP) to work on.',
+          ans: 'You can choose projects useful to your domain, career interests, and goals. Additionally, you will work on AI startup projects and can even Bring Your Own Project (BYOP) to work on.',
           open: false,
         },
       ],
