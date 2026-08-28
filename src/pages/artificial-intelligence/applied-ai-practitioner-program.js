@@ -615,12 +615,7 @@ const AppliedAIPractitionerProgram = () => {
     "name": "Why is the Applied AI Practitioner Program different from others?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The Applied AI Practitioner program sets your career apart from others by equipping you with the following benefits –
-
-Build real-world AI projects
-Work with AI startups 
-Master no-code deployments, machine learning, AIOps, and automation
-Earn global certifications in collaboration with IIT Patna Vishlesan I-Hub Foundation"
+      "text": "The Applied AI Practitioner program sets your career apart from others by equipping you with the following benefits –\\n\\nBuild real-world AI projects\\nWork with AI startups \\nMaster no-code deployments, machine learning, AIOps, and automation\\nEarn global certifications in collaboration with IIT Patna Vishlesan I-Hub Foundation"
     }
   },{
     "@type": "Question",
@@ -634,14 +629,7 @@ Earn global certifications in collaboration with IIT Patna Vishlesan I-Hub Found
     "name": "What are the available elective domain options?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The AI practitioner certification program aims to enhance domain awareness to address real-world business problems across diverse fields. The available domains are – 
-
-Sales and Marketing
-BFSI
-Healthcare & Life Sciences
-Manufacturing & Supply Chain
-Software Development Professionals
-Product Management Professionals"
+      "text": "The AI practitioner certification program aims to enhance domain awareness to address real-world business problems across diverse fields. The available domains are – \\n\\nSales and Marketing\\nBFSI\\nHealthcare & Life Sciences\\nManufacturing & Supply Chain\\nSoftware Development Professionals\\nProduct Management Professionals"
     }
   },{
     "@type": "Question",
@@ -676,11 +664,7 @@ Product Management Professionals"
     "name": "What benefits can I expect from the AI Co-Lab project work?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learners will work with AI startups and real-time projects that will help them with the following benefits –
-
-Reliable real-world experience in addressing Agentic AI and Generative AI-driven challenges
-AI startup certification
-Industry-wide recognition of AI skills"
+      "text": "Learners will work with AI startups and real-time projects that will help them with the following benefits –\\n\\nReliable real-world experience in addressing Agentic AI and Generative AI-driven challenges\\nAI startup certification\\nIndustry-wide recognition of AI skills"
     }
   },{
     "@type": "Question",
@@ -701,24 +685,14 @@ Industry-wide recognition of AI skills"
     "name": "How does Learnbay's project-based preparation with AI Co-Lab help professionals?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Today’s crucial job interviews and recruiters demand real-time AI expertise to address industry challenges. 
-
-AI Co-Lab powered project-based preparation at Learnbay helps you build your career as an applied AI engineer. You can add such real-world skills to your resume and answer the interview questions with actual insights. 
-
-Learners can refine skills on GenAI-driven apps, RAG, automation systems, and agentic workflows."
+      "text": "Today’s crucial job interviews and recruiters demand real-time AI expertise to address industry challenges. \\n\\nAI Co-Lab powered project-based preparation at Learnbay helps you build your career as an applied AI engineer. You can add such real-world skills to your resume and answer the interview questions with actual insights. \\n\\nLearners can refine skills on GenAI-driven apps, RAG, automation systems, and agentic workflows."
     }
   },{
     "@type": "Question",
     "name": "What are the AI projects that I will work on?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Anyone enrolling in this course can become a certified AI practitioner with real-world expertise. During the course, you will work on industry-specific projects under the AI CoLab partnership, such as –
-
-Building AI knowledge assistant systems
-Designing an AI content studio without coding 
-Build an AI workflow Co-Pilot
-Designing and deploying an AI assistant web app
-Creating AIOps dashboards"
+      "text": "Anyone enrolling in this course can become a certified AI practitioner with real-world expertise. During the course, you will work on industry-specific projects under the AI CoLab partnership, such as –\\n\\nBuilding AI knowledge assistant systems\\nDesigning an AI content studio without coding \\nBuild an AI workflow Co-Pilot\\nDesigning and deploying an AI assistant web app\\nCreating AIOps dashboards"
     }
   },{
     "@type": "Question",
@@ -732,11 +706,7 @@ Creating AIOps dashboards"
     "name": "What certifications will I receive in the Applied AI Practitioner program?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Professionals enrolling in the AI practitioner certification program will earn two certificates, such as –
-
-IIT Patna Vishlesan I-Hub Foundation Certificate 
-IBM certification
-AI Startup Certificate"
+      "text": "Professionals enrolling in the AI practitioner certification program will earn two certificates, such as –\\n\\nIIT Patna Vishlesan I-Hub Foundation Certificate \\nIBM certification\\nAI Startup Certificate"
     }
   },{
     "@type": "Question",
@@ -750,12 +720,7 @@ AI Startup Certificate"
     "name": "Do you offer career assistance services after course completion?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes. Professionals enrolling in our Applied AI training programs can avail themselves of reliable placement services. Here you will get –
-
-Mock interview sessions
-1:1 doubt-clearing 
-Resume optimization
-Unlimited job calls from top firms"
+      "text": "Yes. Professionals enrolling in our Applied AI training programs can avail themselves of reliable placement services. Here you will get –\\n\\nMock interview sessions\\n1:1 doubt-clearing \\nResume optimization\\nUnlimited job calls from top firms"
     }
   },{
     "@type": "Question",
@@ -783,11 +748,7 @@ Unlimited job calls from top firms"
     "name": "Do the mentors take live classes or play recorded sessions during the training?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learnbay offers 100% live online and hybrid classes where you will learn key concepts and work on projects via AI Co-Lab. 
-
-Mentors will offer 100% live instructor-led training sessions to help you grasp proven GenAI and Agentic AI concepts. Even in hybrid training modes, learners will get online sessions from respective mentors during coursework. 
-
-However, you have to work on AI projects with AT startups in real-time to enrich your industry exposure."
+      "text": "Learnbay offers 100% live online and hybrid classes where you will learn key concepts and work on projects via AI Co-Lab. \\n\\nMentors will offer 100% live instructor-led training sessions to help you grasp proven GenAI and Agentic AI concepts. Even in hybrid training modes, learners will get online sessions from respective mentors during coursework. \\n\\nHowever, you have to work on AI projects with AT startups in real-time to enrich your industry exposure."
     }
   },{
     "@type": "Question",

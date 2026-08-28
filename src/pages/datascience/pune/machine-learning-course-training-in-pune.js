@@ -196,7 +196,7 @@ export default function Home() {
     "https://www.linkedin.com/company/learnbay/"
   ]
 }
- }`,
+`,
           }}
         />
         <script
@@ -219,10 +219,13 @@ export default function Home() {
     "ratingCount": "1853"
   }
 }
-</script>
-
-<script type="application/ld+json">
-{
+        `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "Machine Learning Certification Course in Pune - Learnbay",
@@ -250,7 +253,7 @@ export default function Home() {
     }
   }
 }
- }`,
+        `,
           }}
         />
         <script
@@ -464,7 +467,7 @@ export default function Home() {
     }
   }]
 }
- }`,
+`,
           }}
         />
       </Head>

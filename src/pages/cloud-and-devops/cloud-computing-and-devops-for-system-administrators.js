@@ -508,7 +508,7 @@ DevOps engineering for system administrator
       "name": "Are there any additional costs for course materials, textbooks, or certification exams?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No, you don’t have to pay additionally for course materials, textbooks, or certification exams. With just the payment of course fees, you can get started with the learning.\n\n "
+        "text": "No, you don’t have to pay additionally for course materials, textbooks, or certification exams. With just the payment of course fees, you can get started with the learning.\\n\\n "
       }
     },
     {
@@ -524,7 +524,7 @@ DevOps engineering for system administrator
       "name": "Could you elaborate on the capstone project and its significance in the Google Cloud Course?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Capstone projects enable techies to enhance their proficiency to see through actual business scenarios and tackle them. It equips you with a set of skills that employers value. This helps in increasing your earning limits. It consists of stimulating projects that help you practice the in-demand tools. It helps to evaluate your skills and knowledge. Thus, making room for improvement to sustain in the desired field. Additionally, the project work builds a project portfolio and validates your skills in the eyes of recruiters.\n\n\n\n\n"
+        "text": "Capstone projects enable techies to enhance their proficiency to see through actual business scenarios and tackle them. It equips you with a set of skills that employers value. This helps in increasing your earning limits. It consists of stimulating projects that help you practice the in-demand tools. It helps to evaluate your skills and knowledge. Thus, making room for improvement to sustain in the desired field. Additionally, the project work builds a project portfolio and validates your skills in the eyes of recruiters.\\n\\n\\n\\n\\n"
       }
     },
     {
@@ -548,7 +548,7 @@ DevOps engineering for system administrator
       "name": "What type of certification do I receive upon course completion?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Upon completion of the course, you will receive –\n\nThree Microsoft certifications\nOne Course Completion Certificate from Learnbay"
+        "text": "Upon completion of the course, you will receive –\\n\\nThree Microsoft certifications\\nOne Course Completion Certificate from Learnbay"
       }
     },
     {
@@ -556,7 +556,7 @@ DevOps engineering for system administrator
       "name": "Are there any additional costs associated with the course?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The certification has no other expenses included apart from the course fees.\n\n\n\n"
+        "text": "The certification has no other expenses included apart from the course fees.\\n\\n\\n\\n"
       }
     },
     {
@@ -572,7 +572,7 @@ DevOps engineering for system administrator
       "name": "What distinguishes this Cloud Engineering Course from others in the market?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –\n\nIndustry-driven syllabus with AWS, Microsoft Azure, and GCP\nGuaranteed calls for Interviews from 350+ Industry partners \nGlobally recognised project certification from Microsoft\nDomain-specific training (for System admin professionals)\n100%  live interactions with industry mentors\n1:1 doubt-clearing support\nResume preparation "
+        "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –\\n\\nIndustry-driven syllabus with AWS, Microsoft Azure, and GCP\\nGuaranteed calls for Interviews from 350+ Industry partners \\nGlobally recognised project certification from Microsoft\\nDomain-specific training (for System admin professionals)\\n100%  live interactions with industry mentors\\n1:1 doubt-clearing support\\nResume preparation "
       }
     },
     {
@@ -580,7 +580,7 @@ DevOps engineering for system administrator
       "name": "What resources or support systems are in place to help graduates secure positions in the field of system administration?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Learnbay offers industry-paced training to help graduates secure a promising position as a certified system administrator. The resources or support they offer are –\n\nComprehensive knowledge-building and practical training \nLive projects for practical learning\nTraining on in-demand Cloud & DevOps tools\n100% placement support\nIndustry recognised certifications from Microsoft & Learnbay\n\n\n"
+        "text": "Learnbay offers industry-paced training to help graduates secure a promising position as a certified system administrator. The resources or support they offer are –\\n\\nComprehensive knowledge-building and practical training \\nLive projects for practical learning\\nTraining on in-demand Cloud & DevOps tools\\n100% placement support\\nIndustry recognised certifications from Microsoft & Learnbay\\n\\n\\n"
       }
     },
     {
@@ -612,7 +612,7 @@ DevOps engineering for system administrator
       "name": "What is the typical response time for mentor support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "After enrolling in the Cloud & DevOps Engineering Program, you can get along with your mentor for each discussion or need. Our mentors are there to support your queries at any time (during and after the training sessions). So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects. \n\n"
+        "text": "After enrolling in the Cloud & DevOps Engineering Program, you can get along with your mentor for each discussion or need. Our mentors are there to support your queries at any time (during and after the training sessions). So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects. \\n\\n"
       }
     },
     {
@@ -628,7 +628,7 @@ DevOps engineering for system administrator
       "name": "What kind of support is available for students enrolled in the Cloud and DevOps Engineering?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "After enrolling in the DevOps Training, learners will get support for–\n\nTechnical/non-technical issues\nContacting mentors \n1:1 doubt-clearing\nCourse materials\nCoursework and project handling help\nJob assistance"
+        "text": "After enrolling in the DevOps Training, learners will get support for–\\n\\nTechnical/non-technical issues\\nContacting mentors \\n1:1 doubt-clearing\\nCourse materials\\nCoursework and project handling help\\nJob assistance"
       }
     },
     {
@@ -644,7 +644,7 @@ DevOps engineering for system administrator
       "name": "Are there specific support options for those preparing for Cloud & DevOps exams?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The placement service is a learner-centric solution for learners preparing for DevOps certification exams or placement. It helps learners with 1:1 doubt clearing, mock interviews, mentorship, resume building, and soft skills training. Learners can reach their mentors at any time to get support in certification exams or to appear in job interviews.\n\n\n\n\n"
+        "text": "The placement service is a learner-centric solution for learners preparing for DevOps certification exams or placement. It helps learners with 1:1 doubt clearing, mock interviews, mentorship, resume building, and soft skills training. Learners can reach their mentors at any time to get support in certification exams or to appear in job interviews.\\n\\n\\n\\n\\n"
       }
     }
   ]

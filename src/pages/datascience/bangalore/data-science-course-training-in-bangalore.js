@@ -209,7 +209,7 @@ export default function Home() {
               "priceRange": "₹ 1,20,000 + 18% GST",
               "areaServed": "Bangalore",
               "paymentAccepted": "Cash, Credit Card, Debit Card, EMI"
-              },
+              ,
               "sameAs": [
                   "https://www.facebook.com/learnbay/",
                             "https://twitter.com/Learnbay",
@@ -218,10 +218,7 @@ export default function Home() {
                             "https://www.linkedin.com/company/learnbay/"
               ]
               }
-             
-              
-} 
- }`,
+`,
           }}
         />
         <script
@@ -244,10 +241,7 @@ export default function Home() {
     "ratingCount": "12693"
   }
               }
-             
-              
-} 
- }`,
+`,
           }}
         />
         <script
@@ -280,7 +274,7 @@ export default function Home() {
     }
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -494,7 +488,7 @@ export default function Home() {
     }
   }]
 }
- }`,
+`,
           }}
         />
       </Head>

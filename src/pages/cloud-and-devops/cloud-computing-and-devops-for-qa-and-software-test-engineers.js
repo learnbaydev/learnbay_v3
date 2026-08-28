@@ -495,7 +495,7 @@ Clouds and DevOps QA professional program
       "name": "Are there any additional costs for course materials, textbooks, or certification exams?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No, you don’t have to pay extra for course materials, textbooks, or certification exams. With just the payment of course fees, you can get started with the learning.\n\n"
+        "text": "No, you don’t have to pay extra for course materials, textbooks, or certification exams. With just the payment of course fees, you can get started with the learning.\\n\\n"
       }
     },
     {
@@ -511,7 +511,7 @@ Clouds and DevOps QA professional program
       "name": "Could you elaborate on the capstone project and its significance in this program?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Capstone projects with this course enable tech experts to enhance their ability to tackle real-world network challenges. It equips you with a set of skills that industrial employers and startups value. This helps in increasing your earning limits. It consists of hands-on projects that help you practice the in-demand tools, making room for improvement to sustain in the desired field. Additionally, the project work helps you build a project portfolio and validates your skills in the eyes of recruiters.\n\n\n"
+        "text": "Capstone projects with this course enable tech experts to enhance their ability to tackle real-world network challenges. It equips you with a set of skills that industrial employers and startups value. This helps in increasing your earning limits. It consists of hands-on projects that help you practice the in-demand tools, making room for improvement to sustain in the desired field. Additionally, the project work helps you build a project portfolio and validates your skills in the eyes of recruiters.\\n\\n\\n"
       }
     },
     {
@@ -535,7 +535,7 @@ Clouds and DevOps QA professional program
       "name": "What type of certification do I receive upon course completion?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Upon completion of the course, you will receive –\n\nThree Microsoft certifications\nOne Course Completion Certificate from Learnbay"
+        "text": "Upon completion of the course, you will receive –\\n\\nThree Microsoft certifications\\nOne Course Completion Certificate from Learnbay"
       }
     },
     {
@@ -543,7 +543,7 @@ Clouds and DevOps QA professional program
       "name": "Are there any additional costs associated with the course?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The certification has no other expenses included apart from the course fees.\n\n"
+        "text": "The certification has no other expenses included apart from the course fees.\\n\\n"
       }
     },
     {
@@ -559,7 +559,7 @@ Clouds and DevOps QA professional program
       "name": "What distinguishes this course from others in the market?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –\n\nIndustry-driven modules with AWS, Microsoft Azure, and GCP\nAssured interview calls from 350+ Industry partners \nGlobally recognised project certification from Microsoft\nDomain-specific training (for QA Engineers)\n100%  live interactions with mentors\n1:1 doubt-clearing sessions\nResume optimization"
+        "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –\\n\\nIndustry-driven modules with AWS, Microsoft Azure, and GCP\\nAssured interview calls from 350+ Industry partners \\nGlobally recognised project certification from Microsoft\\nDomain-specific training (for QA Engineers)\\n100%  live interactions with mentors\\n1:1 doubt-clearing sessions\\nResume optimization"
       }
     },
     {
@@ -567,7 +567,7 @@ Clouds and DevOps QA professional program
       "name": "What resources are in place to help graduates secure positions in the field of networking?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Learnbay offers industry-paced training to help graduates secure a promising position as a certified cloud professional. The resources or support they offer are –\n\nComprehensive knowledge-building and practical training \nLive projects for practical learning\nTraining on in-demand Cloud & DevOps tools\n100% placement services\nIndustry recognised certifications from Microsoft & Learnbay\n\n "
+        "text": "Learnbay offers industry-paced training to help graduates secure a promising position as a certified cloud professional. The resources or support they offer are –\\n\\nComprehensive knowledge-building and practical training \\nLive projects for practical learning\\nTraining on in-demand Cloud & DevOps tools\\n100% placement services\\nIndustry recognised certifications from Microsoft & Learnbay\\n\\n "
       }
     },
     {
@@ -599,7 +599,7 @@ Clouds and DevOps QA professional program
       "name": "What is the typical response time for mentor support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "After enrolling in the Cloud & DevOps Engineering Program, you can get along with your mentor for each discussion or need. Our mentors are there to support your queries at any time (during and after the training sessions). So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects. \n\n"
+        "text": "After enrolling in the Cloud & DevOps Engineering Program, you can get along with your mentor for each discussion or need. Our mentors are there to support your queries at any time (during and after the training sessions). So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects. \\n\\n"
       }
     },
     {
@@ -615,7 +615,7 @@ Clouds and DevOps QA professional program
       "name": "What kind of support is available for professionals enrolled in the Cloud and DevOps Engineering program?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "After enrolling in the DevOps Training, learners will get support for–\n\nTechnical/non-technical issues\nContacting mentors \n1:1 doubt-clearing\nCourse materials\nCoursework and project handling guidance\nCareer assistance"
+        "text": "After enrolling in the DevOps Training, learners will get support for–\\n\\nTechnical/non-technical issues\\nContacting mentors \\n1:1 doubt-clearing\\nCourse materials\\nCoursework and project handling guidance\\nCareer assistance"
       }
     },
     {

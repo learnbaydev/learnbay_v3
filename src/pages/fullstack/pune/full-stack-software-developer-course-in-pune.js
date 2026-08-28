@@ -190,8 +190,7 @@ export default function Home() {
     "https://www.linkedin.com/company/learnbay/"
   ]
 }
-
-            }`,
+`,
           }}
         />
 
@@ -514,8 +513,7 @@ export default function Home() {
     }
   }]
 }
-
-           }`,
+`,
           }}
         />
       </Head>
