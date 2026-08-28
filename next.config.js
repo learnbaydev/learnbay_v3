@@ -936,8 +936,10 @@ const nextConfig = {
       {
         source:
           '/software-development-program-with-specialization-in-cloud-computing-&-devops',
-        destination:
-          '/fullstack/software-development-program-with-specialization-in-cloud-computing-&-devops',
+        // Previously pointed at /fullstack/...-in-cloud-computing-&-devops, which
+        // has never existed - this 301'd straight into a 404. Sent to the homepage
+        // to match the sibling rules for the other retired specialisation programs.
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
@@ -1313,7 +1315,7 @@ const nextConfig = {
       {
         source: '/cloud&devops/advance-cloud-computing-certification-program',
         destination:
-          '/cloud&devops/cloud-computing-online-course-training-institute',
+          '/cloud-and-devops/cloud-computing-online-course-training-institute',
         permanent: true,
       },
       {
@@ -1665,7 +1667,7 @@ const nextConfig = {
       },
       {
         source: '/cloud&amp;devops/aws-cloud-computing-and-devOps',
-        destination: '/cloud&devops/aws-cloud-computing-and-devOps',
+        destination: '/cloud-and-devops/aws-cloud-computing-and-devops',
         permanent: true,
       },
 
@@ -1968,7 +1970,7 @@ const nextConfig = {
       {
         source: '/data-science-course/blog-post/data-science-projects',
         destination:
-          ' https://blog.learnbay.co/the-7-best-data-science-project-ideas-to-get-hired-by-top-mncs',
+          'https://blog.learnbay.co/the-7-best-data-science-project-ideas-to-get-hired-by-top-mncs',
         permanent: true,
       },
 
@@ -2054,6 +2056,51 @@ const nextConfig = {
         source: '/cloud-and-devops-for-system-administrators',
         destination:
           '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
+        permanent: true,
+      },
+
+      // Top-level Cloud & DevOps pages moved into the /cloud-and-devops/ namespace
+      // on 2026-07-01. These were left without redirects and have returned 404 since.
+      {
+        source: '/advanced-cloud-and-devops-program',
+        destination:
+          '/cloud-and-devops/advanced-cloud-computing-and-devops-program',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops-for-network-professionals',
+        destination:
+          '/cloud-and-devops/cloud-computing-and-devops-for-network-professionals',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops-for-database-administrators',
+        destination:
+          '/cloud-and-devops/cloud-computing-and-devops-for-database-administrators',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops-for-it-support-and-it-operations',
+        destination:
+          '/cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations',
+        permanent: true,
+      },
+
+      // The 2026-07-01 migration also lowercased "devOps" -> "devops" in the new
+      // paths. The catch-all below preserves path case, so mixed-case legacy URLs
+      // would redirect to a non-existent route. Handle them explicitly here.
+      {
+        source:
+          '/cloud&devops/s3-cloud-computing-and-devOps-certification-program',
+        destination:
+          '/cloud-and-devops/s3-cloud-computing-and-devops-certification-program',
+        permanent: true,
+      },
+      {
+        source:
+          '/cloud&amp;devops/s3-cloud-computing-and-devOps-certification-program',
+        destination:
+          '/cloud-and-devops/s3-cloud-computing-and-devops-certification-program',
         permanent: true,
       },
 

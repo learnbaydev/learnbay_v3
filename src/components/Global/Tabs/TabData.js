@@ -211,7 +211,7 @@ export const TabData = [
       {
         CName: 'Cloud & DevOps for QA and Software Test Engineers',
         hours: '5 Months',
-        url: 'cloud-and-devops/cloud-computing-and-devops-for-qa-and-software-test-engineers',
+        url: '/cloud-and-devops/cloud-computing-and-devops-for-qa-and-software-test-engineers',
       },
       {
         CName: 'Cloud & DevOps for System Administrators',

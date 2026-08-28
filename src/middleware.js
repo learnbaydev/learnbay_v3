@@ -117,10 +117,16 @@ export function middleware(req) {
         '/artificial-intelligence/generative-ai-course-for-data-science-professionals',
     },
 
+    // NOTE: `pathname` is normalised to always end in "/" above, so this rule's
+    // source (no trailing slash) never matches and the redirect never fires.
+    // That is currently load-bearing: the page is live, index,follow, and is the
+    // destination of the /datascience/generative-ai-course-for-manager/ rule
+    // above. Do not "fix" the source without first deciding whether this page is
+    // actually meant to be deprecated. Destination had a stray trailing space.
     {
       source:
         '/artificial-intelligence/generative-ai-course-for-data-science-professionals',
-      destination: 'https://www.learnbay.co/ ',
+      destination: 'https://www.learnbay.co/',
     },
     {
       source:
@@ -134,10 +140,12 @@ export function middleware(req) {
         '/artificial-intelligence/generative-ai-course-for-fullstack-professionals',
     },
 
+    // NOTE: same as above - source lacks the trailing slash so this never fires,
+    // and the page is live and index,follow. Destination had a stray trailing space.
     {
       source:
         '/artificial-intelligence/generative-ai-course-for-fullstack-professionals',
-      destination: 'https://www.learnbay.co/ ',
+      destination: 'https://www.learnbay.co/',
     },
 
     {
@@ -146,7 +154,7 @@ export function middleware(req) {
     },
     {
       source: '/cloud&devops/bangalore/online-devops-training-in-bangalore/',
-      destination: '/cloud&devops/online-devops-training-in-bangalore',
+      destination: '/cloud-and-devops/online-devops-training-in-bangalore',
     },
     {
       source:

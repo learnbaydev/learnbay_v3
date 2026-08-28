@@ -363,7 +363,7 @@ Software developer master program
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai "
+          href="https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai"
         />
         <script
           type="application/ld+json"

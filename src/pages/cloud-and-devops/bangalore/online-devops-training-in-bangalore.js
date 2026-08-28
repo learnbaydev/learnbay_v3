@@ -51,7 +51,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud-and-devops/bangalore/online-devops-training-in-bangalore"
+          href="https://www.learnbay.co/cloud-and-devops/online-devops-training-in-bangalore"
         />
         <meta
           property="og:url"
