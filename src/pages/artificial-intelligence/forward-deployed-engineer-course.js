@@ -220,7 +220,7 @@ const NewDSA = ({ DSADataJson }) => {
         {
           id: 4,
           ques: 'Can I choose my capstone project, or are projects assigned?',
-          ans: 'You can choose projects useful to your domain, career interests, and goals. Additionally, you will work on AI startup projects and can even Bring Your Own Problem (BYOP) to work on.',
+          ans: 'You can choose projects useful to your domain, career interests, and goals. Additionally, you will work on AI startup projects and can even Bring Your Own Project (BYOP) to work on.',
           open: false,
         },
       ],
@@ -409,7 +409,7 @@ const NewDSA = ({ DSADataJson }) => {
                     "@context": "https://schema.org",
                     "@type": "Course",
                     "name": "Forward Deployed AI Engineer Program - Learnbay",
-                    "description": "Learnbay’s Forward Deployed AI Engineer Program: 9 months of 100% live mentor-led training in LLMs, RAG, Agentic AI, and LLMOps with real AI startup projects. Enroll now.",
+                    "description": "Learnbay’s Forward Deployed AI Engineer Program: 12 months of 100% live mentor-led training in LLMs, RAG, Agentic AI, and LLMOps with real AI startup projects. Enroll now.",
                     "url": "https://www.learnbay.co/artificial-intelligence/forward-deployed-engineer-course",
                     "provider": {
                       "@type": "Organization",
@@ -418,7 +418,7 @@ const NewDSA = ({ DSADataJson }) => {
                     },
                     "coursePrerequisites": "This program is suitable for tech professionals with a minimum of 1 year of IT work experience. Software developers, solution architects, system administrators, and support engineers looking to move into Forward Deployed AI Engineering are the ideal candidates.",
                     "educationalCredentialAwarded": "Forward Deployed AI Engineer Certification, in collaboration with IBM and Microsoft",
-                    "timeRequired": "P9M",
+                    "timeRequired": "P12M",
                     "teaches": [
                       "Large Language Model (LLM) workflows",
                       "Retrieval-Augmented Generation (RAG)",

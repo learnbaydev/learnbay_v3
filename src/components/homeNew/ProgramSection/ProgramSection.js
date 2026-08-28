@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import styles from "./ProgramSection.module.css";
-import Image from "next/image";
-const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
-const Form = dynamic(() => import("@/components/Global/Form/Form"));
-import dynamic from "next/dynamic";
+import React, { useState } from 'react';
+import styles from './ProgramSection.module.css';
+import Image from 'next/image';
+const Popup = dynamic(() => import('@/components/Global/Popup/Popup'));
+const Form = dynamic(() => import('@/components/Global/Form/Form'));
+import dynamic from 'next/dynamic';
 import {
   Award,
   Users,
@@ -11,8 +11,8 @@ import {
   Clock,
   BarChart2,
   CheckCircle2,
-} from "lucide-react";
-import { programCards } from "./programData";
+} from 'lucide-react';
+import { programCards } from './programData';
 // import ScrollTracker from "./ScrollTracker/ScrollTracker";
 
 const ProgramSection = () => {
@@ -176,7 +176,7 @@ const ProgramSection = () => {
                           <div className="leftPopup">
                             <div
                               className="whiteP"
-                              style={{ width: "340px", height: "400px" }}
+                              style={{ width: '340px', height: '400px' }}
                             ></div>
                           </div>
                           <div className="RightPopup">
@@ -233,7 +233,7 @@ const ProgramSection = () => {
                     <div className={styles.wrapper}>
                       <span className={styles.eligibilityTitle}>
                         {card.eligibilitytitle}
-                      </span>{" "}
+                      </span>{' '}
                       {card.eligibility}
                       <span className={styles.eligibilityTitle}>
                         {card.secondeligibilitytitle}
@@ -249,7 +249,7 @@ const ProgramSection = () => {
                         <div className="leftPopup">
                           <div
                             className="whiteP"
-                            style={{ width: "340px", height: "400px" }}
+                            style={{ width: '340px', height: '400px' }}
                           ></div>
                         </div>
                         <div className="RightPopup">
@@ -310,7 +310,7 @@ const ProgramSection = () => {
               onClick={() => setShowAll((prev) => !prev)}
               className={styles.viewMoreButton}
             >
-              {showAll ? "View Less" : "View More Programs"}
+              {showAll ? 'View Less' : 'View More Programs'}
             </button>
           </div>
         )}
