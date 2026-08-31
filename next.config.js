@@ -936,13 +936,14 @@ const nextConfig = {
       {
         source:
           '/software-development-program-with-specialization-in-cloud-computing-&-devops',
-        destination:
-          '/fullstack/software-development-program-with-specialization-in-cloud-computing-&-devops',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/full-stack-web-development-program',
-        destination: '/fullstack/full-stack-web-development-program',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
@@ -1313,7 +1314,7 @@ const nextConfig = {
       {
         source: '/cloud&devops/advance-cloud-computing-certification-program',
         destination:
-          '/cloud&devops/cloud-computing-online-course-training-institute',
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         permanent: true,
       },
       {
@@ -1491,13 +1492,17 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/datascience/bangalore/fullstack/dsa-system-design',
-        destination: '/fullstack/dsa-course-training-bangalore',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/fullstack/pune/fullstack/dsa-system-design',
-        destination: '/fullstack/dsa-course-training-pune',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
@@ -1516,8 +1521,10 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/datascience/pune/fullstack/dsa-system-design',
-        destination: '/fullstack/dsa-course-training-pune',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
@@ -1597,7 +1604,7 @@ const nextConfig = {
       {
         source: '/cloud&devops/bangalore/o',
         destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
@@ -1612,13 +1619,17 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/datascience/bangalore/dsa-course-training-bangalore',
-        destination: '/fullstack/dsa-course-training-bangalore',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/datascience/pune/dsa-course-training-pune',
-        destination: '/fullstack/dsa-course-training-pune',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
@@ -1637,7 +1648,8 @@ const nextConfig = {
       {
         source:
           '/cloud&amp;devops/cloud-computing-online-course-training-institute',
-        destination: 'https://www.learnbay.co/',
+        destination:
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         permanent: true,
       },
       {
@@ -1655,23 +1667,26 @@ const nextConfig = {
       {
         source: '/cloud&amp;devops/online-cloud-computing-course-bangalore',
         destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
         source: '/cloud&amp;devops/online-cloud-computing-course-pune',
-        destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+        destination:
+          '/cloud-and-devops/pune/online-cloud-computing-course-pune',
         permanent: true,
       },
       {
         source: '/cloud&amp;devops/aws-cloud-computing-and-devOps',
-        destination: '/cloud&devops/aws-cloud-computing-and-devOps',
+        destination: '/cloud-and-devops/aws-cloud-computing-and-devops',
         permanent: true,
       },
 
       {
+        // As per Ravi Pradhan suggestion
         source: '/data-science-course/data-science-courses-in-hyderabad/>Data',
-        destination: '/fullstack/dsa-course-training-bangalore',
+        destination:
+          '/datascience/hyderabad/data-science-course-training-in-hyderabad',
         permanent: true,
       },
 
@@ -1726,12 +1741,13 @@ const nextConfig = {
         source:
           '/cloud&amp;devops/bangalore/online-cloud-computing-course-bangalore',
         destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
         source: '/cloud&amp;devops/pune/online-cloud-computing-course-pune',
-        destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+        destination:
+          '/cloud-and-devops/pune/online-cloud-computing-course-pune',
         permanent: true,
       },
 
@@ -1968,7 +1984,7 @@ const nextConfig = {
       {
         source: '/data-science-course/blog-post/data-science-projects',
         destination:
-          ' https://blog.learnbay.co/the-7-best-data-science-project-ideas-to-get-hired-by-top-mncs',
+          'https://blog.learnbay.co/the-7-best-data-science-project-ideas-to-get-hired-by-top-mncs',
         permanent: true,
       },
 
@@ -2033,13 +2049,14 @@ const nextConfig = {
       {
         source: '/cloud&devops/online-cloud-computing-course-bangalore',
         destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
         permanent: true,
       },
 
       {
         source: '/cloud&devops/online-cloud-computing-course-pune',
-        destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+        destination:
+          '/cloud-and-devops/pune/online-cloud-computing-course-pune',
         permanent: true,
       },
 
@@ -2054,6 +2071,118 @@ const nextConfig = {
         source: '/cloud-and-devops-for-system-administrators',
         destination:
           '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
+        permanent: true,
+      },
+
+      {
+        source: '/datascience/data-analytics-and-business-analytics-master',
+        destination: '/artificial-intelligence/generative-ai-analytics-course',
+        permanent: true,
+      },
+
+      {
+        source: '/datascience/data-science-and-ai-for-healthcare-professionals',
+        destination:
+          '/datascience/data-science-and-ai-master-certification-program',
+        permanent: true,
+      },
+
+      {
+        source: '/fullstack/data-structure-algorithm-online-course-training',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
+        permanent: true,
+      },
+      {
+        // As per Ravi Pradhan suggestion
+        source: '/fullstack/dsa-course-training-bangalore',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
+        permanent: true,
+      },
+      {
+        source: '/fullstack/full-stack-software-development',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
+        permanent: true,
+      },
+      {
+        source: '/fullstack/full-stack-software-development-program',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
+        permanent: true,
+      },
+
+      {
+        source: '/fullstack/full-stack-web-development-program',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
+        permanent: true,
+      },
+
+      {
+        source:
+          '/cloud-and-devops/cloud-computing-online-course-training-institute',
+        destination:
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops/devops-online-course-training-institute',
+        destination:
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops/online-devops-training-in-bangalore',
+        destination:
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
+        permanent: true,
+      },
+      {
+        source:
+          '/cloud-and-devops/bangalore/online-devops-training-in-bangalore',
+        destination:
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
+        permanent: true,
+      },
+
+      {
+        source: '/advanced-cloud-and-devops-program',
+        destination:
+          '/cloud-and-devops/advanced-cloud-computing-and-devops-program',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops-for-network-professionals',
+        destination:
+          '/cloud-and-devops/cloud-computing-and-devops-for-network-professionals',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops-for-database-administrators',
+        destination:
+          '/cloud-and-devops/cloud-computing-and-devops-for-database-administrators',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops-for-it-support-and-it-operations',
+        destination:
+          '/cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations',
+        permanent: true,
+      },
+      {
+        source:
+          '/cloud&devops/s3-cloud-computing-and-devOps-certification-program',
+        destination:
+          '/cloud-and-devops/s3-cloud-computing-and-devops-certification-program',
+        permanent: true,
+      },
+      {
+        source:
+          '/cloud&amp;devops/s3-cloud-computing-and-devOps-certification-program',
+        destination:
+          '/cloud-and-devops/s3-cloud-computing-and-devops-certification-program',
         permanent: true,
       },
 
