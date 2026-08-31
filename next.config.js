@@ -941,8 +941,10 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/full-stack-web-development-program',
-        destination: '/fullstack/full-stack-web-development-program',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
@@ -2095,17 +2097,52 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '',
+        source: '/fullstack/full-stack-software-development',
         destination:
           '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
-        source: '',
+        source: '/fullstack/full-stack-software-development-program',
         destination:
           '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
+
+      {
+        source: '/fullstack/full-stack-web-development-program',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
+        permanent: true,
+      },
+
+      {
+        source:
+          '/cloud-and-devops/cloud-computing-online-course-training-institute',
+        destination:
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops/devops-online-course-training-institute',
+        destination:
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops/online-devops-training-in-bangalore',
+        destination:
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
+        permanent: true,
+      },
+      {
+        source:
+          '/cloud-and-devops/bangalore/online-devops-training-in-bangalore',
+        destination:
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
+        permanent: true,
+      },
+
       // IMPORTANT: Keep these 3 Cloud & DevOps redirect rules at the VERY BOTTOM of the redirects array.
       // Next.js evaluates redirect rules sequentially from top to bottom.
       // Placing these at the bottom ensures specific route overrides above execute first,
