@@ -372,8 +372,7 @@ Software developer master program
        "@context": "http://schema.org",
       "@type": "Course",
       "name": "SDE Master Program For Software Developers - Learnbay",
-      "description": "Master GenAI, Agentic AI, DSA & system design to crack top SDE roles. Build real-world AI projects and become industry-ready. Enroll now!
-",
+      "description": "Master GenAI, Agentic AI, DSA & system design to crack top SDE roles. Build real-world AI projects and become industry-ready. Enroll now!\\n",
       "url": "https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai",
       "offers": {
         "@type": "offer",
