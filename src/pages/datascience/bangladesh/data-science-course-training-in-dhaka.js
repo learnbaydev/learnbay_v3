@@ -163,10 +163,7 @@ export default function Home() {
     "ratingCount": "1950"
   }
               }
-             
-              
-}
-               }`,
+`,
           }}
         />
 
@@ -200,7 +197,7 @@ export default function Home() {
     }
   }
 }
- }`,
+`,
           }}
         />
 
@@ -415,7 +412,7 @@ export default function Home() {
     }
   }]
 }
- }`,
+`,
           }}
         />
       </Head>

@@ -536,11 +536,7 @@ Best certification for advanced cloud and DevOps,
     "name": "Are there any discounts for early registration in the program?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, we offer early bird discounts of 15% – 20% for learners registering in the program at first. Yet, a group discount is available for the learners who join with one or more friends. 
-
-Group of 2: 5% extra discount
-Group of 3: 8% additional discount
-Group of 4+: Max 10% discount"
+      "text": "Yes, we offer early bird discounts of 15% – 20% for learners registering in the program at first. Yet, a group discount is available for the learners who join with one or more friends. \\n\\nGroup of 2: 5% extra discount\\nGroup of 3: 8% additional discount\\nGroup of 4+: Max 10% discount"
     }
   },{
     "@type": "Question",
@@ -617,57 +613,28 @@ Group of 4+: Max 10% discount"
     "name": "What distinguishes this cloud computing course from others in the market?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its Cloud Computing and DevOps Certification Program is different from others in the following ways –
-
-Industry-driven syllabus with AWS, Microsoft Azure, and GCP
-Guaranteed calls for Interviews from Industry partners 
-Globally recognized project certification from Microsoft
-Domain-specific training 
-100% 1:1 live interactions with industry experts
-On-demand video doubt-clearing support
-Customized resume preparation"
+      "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its Cloud Computing and DevOps Certification Program is different from others in the following ways –\\n\\nIndustry-driven syllabus with AWS, Microsoft Azure, and GCP\\nGuaranteed calls for Interviews from Industry partners \\nGlobally recognized project certification from Microsoft\\nDomain-specific training \\n100% 1:1 live interactions with industry experts\\nOn-demand video doubt-clearing support\\nCustomized resume preparation"
     }
   },{
     "@type": "Question",
     "name": "Can you provide details on the job assistance provided after completing the Cloud Computing and DevOps Certification Program?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "After completing the Cloud Computing and DevOps Certification Program, end-to-end job assistance is offered to learners. Learners with a minimum of 70% in assessments and completed projects are eligible to get job assistance from Learnbay. We have a Career assistance and job referral for eligible learners, where they will get benefits like – 
-
-Uninterrupted Job and Placement Support
-Complete access to course materials and resources
-1:1 Mock Interviews with any of 450+ Industry Experts 
-24/7 contact with Mentors
-Resume Building Session
-1:1 LinkedIn Review Session
-Dedicated Placement Team for soft skills training"
+      "text": "After completing the Cloud Computing and DevOps Certification Program, end-to-end job assistance is offered to learners. Learners with a minimum of 70% in assessments and completed projects are eligible to get job assistance from Learnbay. We have a Career assistance and job referral for eligible learners, where they will get benefits like – \\n\\nUninterrupted Job and Placement Support\\nComplete access to course materials and resources\\n1:1 Mock Interviews with any of 450+ Industry Experts \\n24/7 contact with Mentors\\nResume Building Session\\n1:1 LinkedIn Review Session\\nDedicated Placement Team for soft skills training"
     }
   },{
     "@type": "Question",
     "name": "What resources or support systems are in place to help graduates secure positions in the field of cloud computing and DevOps?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learnbay offers industry-paced training to help graduates secure a promising position in Cloud Computing and DevOps. Resources or support they offer are –
-
-360-degree knowledge-building training 
-Live projects for practical learning
-Training on in-demand Cloud & DevOps tools
-100% placement support 
-Globally recognized certifications ( Microsoft)"
+      "text": "Learnbay offers industry-paced training to help graduates secure a promising position in Cloud Computing and DevOps. Resources or support they offer are –\\n\\n360-degree knowledge-building training \\nLive projects for practical learning\\nTraining on in-demand Cloud & DevOps tools\\n100% placement support \\nGlobally recognized certifications ( Microsoft)"
     }
   },{
     "@type": "Question",
     "name": "Explain job referral and career assistance by Learnbay?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learnbay’s job referral and career assistance aims to support a successful career transition in a preferred role. It has features like –
-
-AI-Optimized Resume, ATS-friendly, and Job-ready
-5 Mock Interviews with Industry Experts 
-1:1 LinkedIn Review Session
-Dedicated Placement Team
-
-You can opt for Career assistance for the Cloud and DevOps Program to crack in-demand jobs in the IT sector."
+      "text": "Learnbay’s job referral and career assistance aims to support a successful career transition in a preferred role. It has features like –\\n\\nAI-Optimized Resume, ATS-friendly, and Job-ready\\n5 Mock Interviews with Industry Experts \\n1:1 LinkedIn Review Session\\nDedicated Placement Team\\n\\nYou can opt for Career assistance for the Cloud and DevOps Program to crack in-demand jobs in the IT sector."
     }
   },{
     "@type": "Question",
@@ -709,14 +676,7 @@ You can opt for Career assistance for the Cloud and DevOps Program to crack in-d
     "name": "What kind of support is available for students enrolled in the Cloud Computing and DevOps Certification Program?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "After enrolling in the Cloud Computing and DevOps Certification Program, learners will get support for –
-
-Technical/non-technical issues
-Contacting mentors 
-1:1 clarification
-Course materials
-Coursework and project handling help
-Career assistance (Job assistance)"
+      "text": "After enrolling in the Cloud Computing and DevOps Certification Program, learners will get support for –\\n\\nTechnical/non-technical issues\\nContacting mentors \\n1:1 clarification\\nCourse materials\\nCoursework and project handling help\\nCareer assistance (Job assistance)"
     }
   },{
     "@type": "Question",

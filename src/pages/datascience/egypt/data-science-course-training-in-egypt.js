@@ -153,9 +153,8 @@ export default function Home() {
     "worstRating": "1",
     "ratingCount": "1924"
   }
-              }     
-}
- }`,
+              }
+`,
           }}
         />
         <script
@@ -188,7 +187,7 @@ export default function Home() {
     }
   }
 }
-}`,
+`,
           }}
         />
         <script
@@ -402,7 +401,7 @@ export default function Home() {
     }
   }]
 }
- }`,
+`,
           }}
         />
       </Head>

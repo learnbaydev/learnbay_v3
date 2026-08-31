@@ -174,7 +174,7 @@ export default function Home() {
     "ratingCount": "14024"
   }
 }
- }`,
+`,
         }}
       />
       <script
@@ -208,7 +208,7 @@ export default function Home() {
     }
   }
 }
-  }`,
+`,
         }}
       />
       <script
@@ -229,11 +229,7 @@ export default function Home() {
     "name": "What topics are covered in the curriculum of the data science course?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Programming languages
-Python programming basics
-Statistics and Machine Learning
-Industry projects and capstone projects
-Generative AI concepts"
+      "text": "Programming languages\\nPython programming basics\\nStatistics and Machine Learning\\nIndustry projects and capstone projects\\nGenerative AI concepts"
     }
   },{
     "@type": "Question",
@@ -268,13 +264,7 @@ Generative AI concepts"
     "name": "What are the domain electives offered in the data science course?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learnbay’s data science course offers 6 domain electives, and you can choose anyone from them to continue upskilling. Electives are –
-BFSI
-Healthcare
-Manufacturing
-Supply chain, E-commerce, & Retail
-Marketing
-HR"
+      "text": "Learnbay’s data science course offers 6 domain electives, and you can choose anyone from them to continue upskilling. Electives are –\\nBFSI\\nHealthcare\\nManufacturing\\nSupply chain, E-commerce, & Retail\\nMarketing\\nHR"
     }
   },{
     "@type": "Question",
@@ -397,7 +387,7 @@ HR"
     }
   }]
 }
- }`,
+`,
         }}
       />
       <main>

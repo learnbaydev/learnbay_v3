@@ -157,8 +157,7 @@ export default function Home() {
     "ratingCount": "1538"
   }
 }
-
-             }`,
+`,
           }}
         />
         <script
@@ -192,8 +191,7 @@ export default function Home() {
     }
   }
 }
- 
-            }`,
+`,
           }}
         />
         <script
@@ -263,9 +261,7 @@ export default function Home() {
     "name": "What are specialized domain options provided in this Program?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "In Dubai, Learnbay’s Full stack software development course provides domains such as GenAI for Software Development & SDE Roles, AI for Cloud, DevOps & LLM Infrastructure, AI Powered Backend Engineering for AI Systems, Distributed Systems & Microservices for AI
-Applications, Multi- Agent Systems & Workflow
-Automation with Agentic AI, GenAI & Agentic AI for Product Managers"
+      "text": "In Dubai, Learnbay’s Full stack software development course provides domains such as GenAI for Software Development & SDE Roles, AI for Cloud, DevOps & LLM Infrastructure, AI Powered Backend Engineering for AI Systems, Distributed Systems & Microservices for AI\\nApplications, Multi- Agent Systems & Workflow\\nAutomation with Agentic AI, GenAI & Agentic AI for Product Managers"
     }
   },{
     "@type": "Question",
@@ -458,8 +454,7 @@ Automation with Agentic AI, GenAI & Agentic AI for Product Managers"
     }
   }]
 }
-
-             }`,
+`,
           }}
         />
       </Head>

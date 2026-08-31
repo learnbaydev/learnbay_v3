@@ -474,14 +474,7 @@ Software developer master program
     "name": "What are the available domain elective options?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Our SDE master’s program with GenAI and Agentic AI promises a rewarding future. Here, you can choose any two domain electives to transition your role to GenAI & Agentic AI specialists. The available domain electives are – 
-
-GenAI for Software Development and SDE Roles
-AI for Cloud, DevOps, and LLM Infrastructure
-AI-Powered Backend Engineering for AI Systems
-Distributed Systems & Microservices for AI Applications
-Multi-Agent Systems & Workflow Automation with Agentic AI
-GenAI & Agentic AI for Product Managers"
+      "text": "Our SDE master’s program with GenAI and Agentic AI promises a rewarding future. Here, you can choose any two domain electives to transition your role to GenAI & Agentic AI specialists. The available domain electives are – \\n\\nGenAI for Software Development and SDE Roles\\nAI for Cloud, DevOps, and LLM Infrastructure\\nAI-Powered Backend Engineering for AI Systems\\nDistributed Systems & Microservices for AI Applications\\nMulti-Agent Systems & Workflow Automation with Agentic AI\\nGenAI & Agentic AI for Product Managers"
     }
   },{
     "@type": "Question",
@@ -537,11 +530,7 @@ GenAI & Agentic AI for Product Managers"
     "name": "Is there any accredited certification after course completion?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes. Our SDE master’s course offers –
-
-One IBM Generative AI Certification
-Three Microsoft Azure Certifications
-Two AI Co-Lab certifications"
+      "text": "Yes. Our SDE master’s course offers –\\n\\nOne IBM Generative AI Certification\\nThree Microsoft Azure Certifications\\nTwo AI Co-Lab certifications"
     }
   },{
     "@type": "Question",
@@ -562,11 +551,7 @@ Two AI Co-Lab certifications"
     "name": "How is Learnbay's Career Services Pro different from others?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "You become eligible for our placement program when you get upskilled with our SDE Master’s program. It offers -
-
-Technical mock interviews 
-Resume building (ATS-friendly)
-Job referrals"
+      "text": "You become eligible for our placement program when you get upskilled with our SDE Master’s program. It offers -\\n\\nTechnical mock interviews \\nResume building (ATS-friendly)\\nJob referrals"
     }
   },{
     "@type": "Question",
@@ -622,16 +607,7 @@ Job referrals"
     "name": "What types of support are available for learners joining the SDE Master Program?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "After enrolling in the course, learners will get support for –
-
-Technical/non-technical concerns
-Mentorship
-Domain-specific career guidance
-Personalized (1:1) doubt-clearing sessions
-Captone project preparation
-AI CoLab experience 
-IBM & AI Startup certifications
-Job assistance"
+      "text": "After enrolling in the course, learners will get support for –\\n\\nTechnical/non-technical concerns\\nMentorship\\nDomain-specific career guidance\\nPersonalized (1:1) doubt-clearing sessions\\nCaptone project preparation\\nAI CoLab experience \\nIBM & AI Startup certifications\\nJob assistance"
     }
   },{
     "@type": "Question",

@@ -153,9 +153,8 @@ export default function Home() {
     "worstRating": "1",
     "ratingCount": "1893"
   }
-              }     
-} 
- }`,
+              }
+`,
           }}
         />
         <script
@@ -188,7 +187,7 @@ export default function Home() {
     }
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -202,7 +201,7 @@ export default function Home() {
     "name": "What is the curriculum structure of the Master's in Data Science program in Germany?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The curriculum structure of the Master's in Data Science program in Germany represents Generative Al-rich modules for 360-degree learning. It follows the latest data science and Agentic AI trends prevailing in Germany leveraging businesses operating there.\nThe curriculum includes seven learning modules, and they are\nLl - Cohort Orientation with Programming\nL2 - Basic & Advanced Python Programming\nL3 - Statistics & Machine Learning\nL4 - Data Science Tools\nL5 - Al Tools\nL6 - Deployment"
+      "text": "The curriculum structure of the Master's in Data Science program in Germany represents Generative Al-rich modules for 360-degree learning. It follows the latest data science and Agentic AI trends prevailing in Germany leveraging businesses operating there.\\nThe curriculum includes seven learning modules, and they are\\nLl - Cohort Orientation with Programming\\nL2 - Basic & Advanced Python Programming\\nL3 - Statistics & Machine Learning\\nL4 - Data Science Tools\\nL5 - Al Tools\\nL6 - Deployment"
     }
   },{
     "@type": "Question",
@@ -300,7 +299,7 @@ export default function Home() {
     "name": "Are any discounts available for early enrollment or paying the tuition upfront for a master's in data science in Germany?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, we offer early bird discounts of 15%-20% for learners enrolling in a master's in data science in Germany. Yet, a group discount is available for learners who join with one or more friends.\nGroup of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Max 10% discount"
+      "text": "Yes, we offer early bird discounts of 15%-20% for learners enrolling in a master's in data science in Germany. Yet, a group discount is available for learners who join with one or more friends.\\nGroup of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Max 10% discount"
     }
   },{
     "@type": "Question",
@@ -444,7 +443,7 @@ export default function Home() {
     }
   }]
 }
- }`,
+`,
           }}
         />
       </Head>

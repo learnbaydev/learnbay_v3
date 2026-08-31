@@ -158,7 +158,7 @@ export default function Home() {
     "ratingCount": "2109"
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -192,7 +192,7 @@ export default function Home() {
     }
   }
 }
-  }`,
+`,
           }}
         />
         <script
@@ -206,16 +206,7 @@ export default function Home() {
     "name": "What is the curriculum structure of the Master's in Data Science program in the USA?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The curriculum structure of the Master’s in Data Science program in the USA represents Generative AI-rich modules for 360-degree learning. It follows the latest data science trends prevailing in the USA leveraging businesses operating there.
-
-The curriculum includes seven learning modules, and they are –
-
-L1 – Cohort Orientation with Programming
-L2 – Basic & Advanced Python Programming
-L3 – Statistics & Machine Learning
-L4 – Data Science Tools
-L5 – AI Tools
-L6 – Deployment"
+      "text": "The curriculum structure of the Master’s in Data Science program in the USA represents Generative AI-rich modules for 360-degree learning. It follows the latest data science trends prevailing in the USA leveraging businesses operating there.\\n\\nThe curriculum includes seven learning modules, and they are –\\n\\nL1 – Cohort Orientation with Programming\\nL2 – Basic & Advanced Python Programming\\nL3 – Statistics & Machine Learning\\nL4 – Data Science Tools\\nL5 – AI Tools\\nL6 – Deployment"
     }
   },{
     "@type": "Question",
@@ -320,10 +311,7 @@ L6 – Deployment"
     "name": "Are any discounts available for early enrollment or paying the tuition upfront for a master's in data science in the USA?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, we offer early bird discounts of 15%—20% for learners enrolling in a master’s in data science in the USA. Yet, a group discount is available for learners who join with one or more friends.
-Group of 2: 5% extra discount
-Group of 3: 8% additional discount
-Group of 4+: Max 10% discount"
+      "text": "Yes, we offer early bird discounts of 15%—20% for learners enrolling in a master’s in data science in the USA. Yet, a group discount is available for learners who join with one or more friends.\\nGroup of 2: 5% extra discount\\nGroup of 3: 8% additional discount\\nGroup of 4+: Max 10% discount"
     }
   },{
     "@type": "Question",
@@ -379,15 +367,7 @@ Group of 4+: Max 10% discount"
     "name": "What kind of career support services do you offer to students and alumni of master's in data science in the USA?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learners joining the master’s in data science in the USA will receive 100% job and placement assistance guided by esteemed mentors. Here, we offer Career Service PRO that successfully empowers learners to face and crack top-notch job offers. The career support services include –
-
-
-
-Three years of uninterrupted job assistance with premium offers
-Six 1:1 mock interviews with the leading MNCs in the USA & overseas
-1:1 doubt-clearing (coursework & projects)
-Resume review & optimization
-LinkedIn profile review"
+      "text": "Learners joining the master’s in data science in the USA will receive 100% job and placement assistance guided by esteemed mentors. Here, we offer Career Service PRO that successfully empowers learners to face and crack top-notch job offers. The career support services include –\\n\\n\\n\\nThree years of uninterrupted job assistance with premium offers\\nSix 1:1 mock interviews with the leading MNCs in the USA & overseas\\n1:1 doubt-clearing (coursework & projects)\\nResume review & optimization\\nLinkedIn profile review"
     }
   },{
     "@type": "Question",
@@ -450,16 +430,7 @@ LinkedIn profile review"
     "name": "What academic support services are available to students, such as tutoring or study groups, for master's in data science in the USA?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learners enrolling in master’s in data science in the USA can avail of dedicated mentorship from industry experts. You will gain uninterrupted training sessions from respective mentors with 24*7 assistance.
-
-Some exclusive academic support services will be –
-
-Live instructor-led training sessions
-Dedicated mentorship with 1:1 doubt-clearance
-Hassle-free contact with mentors after classes
-Learning materials
-Course tasks and projects handling support
-Career assistance"
+      "text": "Learners enrolling in master’s in data science in the USA can avail of dedicated mentorship from industry experts. You will gain uninterrupted training sessions from respective mentors with 24*7 assistance.\\n\\nSome exclusive academic support services will be –\\n\\nLive instructor-led training sessions\\nDedicated mentorship with 1:1 doubt-clearance\\nHassle-free contact with mentors after classes\\nLearning materials\\nCourse tasks and projects handling support\\nCareer assistance"
     }
   },{
     "@type": "Question",
@@ -480,20 +451,11 @@ Career assistance"
     "name": "How does the program foster community and peer support among students, especially in online learning environments for master's in data science in the USA?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learnbay utilizes several strategies to foster a sense of community and peer support among students pursuing a master’s in data science in the USA.
-
-It includes –
-
-Collaborative learning platforms with discussion forums
-Dedicated mentorship followed by 1:1 doubt-clearing sessions
-Project-based learning via projects
-Soft skills training
-Resume optimization
-Interview Preparation"
+      "text": "Learnbay utilizes several strategies to foster a sense of community and peer support among students pursuing a master’s in data science in the USA.\\n\\nIt includes –\\n\\nCollaborative learning platforms with discussion forums\\nDedicated mentorship followed by 1:1 doubt-clearing sessions\\nProject-based learning via projects\\nSoft skills training\\nResume optimization\\nInterview Preparation"
     }
   }]
 }
-  }`,
+`,
           }}
         />
       </Head>

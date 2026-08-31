@@ -116,9 +116,7 @@ export default function Home() {
     "ratingCount": "13659"
   }
               }
-             
-              
-} `,
+`,
           }}
         />
 

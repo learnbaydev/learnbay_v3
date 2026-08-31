@@ -403,7 +403,7 @@ const NewDSA = ({ DSADataJson }) => {
       }
     }
   ]
-          }}
+          }
 `,
           }}
         />
