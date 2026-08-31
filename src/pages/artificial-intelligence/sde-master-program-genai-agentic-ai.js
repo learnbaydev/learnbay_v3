@@ -316,7 +316,7 @@ Software developer master program
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai "
+          content="https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -337,7 +337,7 @@ Software developer master program
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai "
+          content="https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai"
         />
         <meta
           name="twitter:title"
@@ -363,7 +363,7 @@ Software developer master program
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai "
+          href="https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai"
         />
         <script
           type="application/ld+json"
@@ -372,8 +372,9 @@ Software developer master program
        "@context": "http://schema.org",
       "@type": "Course",
       "name": "SDE Master Program For Software Developers - Learnbay",
-      "description": "Master GenAI, Agentic AI, DSA & system design to crack top SDE roles. Build real-world AI projects and become industry-ready. Enroll now!\\n",
-      "url": "https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai ",
+      "description": "Master GenAI, Agentic AI, DSA & system design to crack top SDE roles. Build real-world AI projects and become industry-ready. Enroll now!
+",
+      "url": "https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai",
       "offers": {
         "@type": "offer",
         "price": "159000",

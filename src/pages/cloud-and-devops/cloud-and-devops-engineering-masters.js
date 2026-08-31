@@ -95,7 +95,7 @@ Cloud and DevOps master certification"
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
+          content="https://www.learnbay.co/cloud-and-devops/cloud-and-devops-engineering-masters"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -117,7 +117,7 @@ Cloud and DevOps master certification"
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
+          content="https://www.learnbay.co/cloud-and-devops/cloud-and-devops-engineering-masters"
         />
         <meta
           name="twitter:title"
@@ -138,7 +138,7 @@ Cloud and DevOps master certification"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
+          href="https://www.learnbay.co/cloud-and-devops/cloud-and-devops-engineering-masters"
         />
         <script
           type="application/ld+json"
