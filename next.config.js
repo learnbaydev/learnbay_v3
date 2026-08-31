@@ -1491,13 +1491,17 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/datascience/bangalore/fullstack/dsa-system-design',
-        destination: '/fullstack/dsa-course-training-bangalore',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/fullstack/pune/fullstack/dsa-system-design',
-        destination: '/fullstack/dsa-course-training-pune',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
@@ -1516,8 +1520,10 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/datascience/pune/fullstack/dsa-system-design',
-        destination: '/fullstack/dsa-course-training-pune',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
@@ -1612,13 +1618,17 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/datascience/bangalore/dsa-course-training-bangalore',
-        destination: '/fullstack/dsa-course-training-bangalore',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/datascience/pune/dsa-course-training-pune',
-        destination: '/fullstack/dsa-course-training-pune',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
         permanent: true,
       },
       {
@@ -1670,8 +1680,10 @@ const nextConfig = {
       },
 
       {
+        // As per Ravi Pradhan suggestion
         source: '/data-science-course/data-science-courses-in-hyderabad/>Data',
-        destination: '/fullstack/dsa-course-training-bangalore',
+        destination:
+          '/datascience/hyderabad/data-science-course-training-in-hyderabad',
         permanent: true,
       },
 
@@ -2057,6 +2069,43 @@ const nextConfig = {
         permanent: true,
       },
 
+      {
+        source: '/datascience/data-analytics-and-business-analytics-master',
+        destination: '/artificial-intelligence/generative-ai-analytics-course',
+        permanent: true,
+      },
+
+      {
+        source: '/datascience/data-science-and-ai-for-healthcare-professionals',
+        destination:
+          '/datascience/data-science-and-ai-master-certification-program',
+        permanent: true,
+      },
+
+      {
+        source: '/fullstack/data-structure-algorithm-online-course-training',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
+        permanent: true,
+      },
+      {
+        source: '/fullstack/dsa-course-training-bangalore',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
+        permanent: true,
+      },
+      {
+        source: '',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
+        permanent: true,
+      },
+      {
+        source: '',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
+        permanent: true,
+      },
       // IMPORTANT: Keep these 3 Cloud & DevOps redirect rules at the VERY BOTTOM of the redirects array.
       // Next.js evaluates redirect rules sequentially from top to bottom.
       // Placing these at the bottom ensures specific route overrides above execute first,
