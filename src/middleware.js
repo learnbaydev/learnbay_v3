@@ -85,7 +85,7 @@ export function middleware(req) {
 
     {
       source: '/cloud&devops/pune/online-cloud-computing-course-pune/',
-      destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+      destination: '/cloud-and-devops/pune/online-cloud-computing-course-pune',
     },
     {
       source: '/cloud&devops/bangalore/online-devops-training-in-bangalore/',
@@ -94,7 +94,8 @@ export function middleware(req) {
     {
       source:
         '/cloud&devops/bangalore/online-cloud-computing-course-bangalore/',
-      destination: '/cloud-and-devops/online-cloud-computing-course-bangalore',
+      destination:
+        '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
     },
     {
       source:

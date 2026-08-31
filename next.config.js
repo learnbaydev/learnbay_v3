@@ -1605,7 +1605,7 @@ const nextConfig = {
       {
         source: '/cloud&devops/bangalore/o',
         destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
@@ -1667,12 +1667,13 @@ const nextConfig = {
       {
         source: '/cloud&amp;devops/online-cloud-computing-course-bangalore',
         destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
         source: '/cloud&amp;devops/online-cloud-computing-course-pune',
-        destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+        destination:
+          '/cloud-and-devops/pune/online-cloud-computing-course-pune',
         permanent: true,
       },
       {
@@ -1740,12 +1741,13 @@ const nextConfig = {
         source:
           '/cloud&amp;devops/bangalore/online-cloud-computing-course-bangalore',
         destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
         permanent: true,
       },
       {
         source: '/cloud&amp;devops/pune/online-cloud-computing-course-pune',
-        destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+        destination:
+          '/cloud-and-devops/pune/online-cloud-computing-course-pune',
         permanent: true,
       },
 
@@ -2047,13 +2049,14 @@ const nextConfig = {
       {
         source: '/cloud&devops/online-cloud-computing-course-bangalore',
         destination:
-          '/cloud-and-devops/online-cloud-computing-course-bangalore',
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
         permanent: true,
       },
 
       {
         source: '/cloud&devops/online-cloud-computing-course-pune',
-        destination: '/cloud-and-devops/online-cloud-computing-course-pune',
+        destination:
+          '/cloud-and-devops/pune/online-cloud-computing-course-pune',
         permanent: true,
       },
 
