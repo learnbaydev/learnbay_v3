@@ -936,8 +936,7 @@ const nextConfig = {
       {
         source:
           '/software-development-program-with-specialization-in-cloud-computing-&-devops',
-        destination:
-          '/fullstack/software-development-program-with-specialization-in-cloud-computing-&-devops',
+        destination: 'https://www.learnbay.co',
         permanent: true,
       },
       {
@@ -1315,7 +1314,7 @@ const nextConfig = {
       {
         source: '/cloud&devops/advance-cloud-computing-certification-program',
         destination:
-          '/cloud-and-devops/cloud-computing-online-course-training-institute',
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         permanent: true,
       },
       {
@@ -1649,7 +1648,8 @@ const nextConfig = {
       {
         source:
           '/cloud&amp;devops/cloud-computing-online-course-training-institute',
-        destination: 'https://www.learnbay.co/',
+        destination:
+          '/cloud-and-devops/ai-powered-cloud-devops-masters-certification',
         permanent: true,
       },
       {
@@ -1984,7 +1984,7 @@ const nextConfig = {
       {
         source: '/data-science-course/blog-post/data-science-projects',
         destination:
-          ' https://blog.learnbay.co/the-7-best-data-science-project-ideas-to-get-hired-by-top-mncs',
+          'https://blog.learnbay.co/the-7-best-data-science-project-ideas-to-get-hired-by-top-mncs',
         permanent: true,
       },
 
@@ -2144,6 +2144,45 @@ const nextConfig = {
           '/cloud-and-devops/bangalore/online-devops-training-in-bangalore',
         destination:
           '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
+        permanent: true,
+      },
+
+      {
+        source: '/advanced-cloud-and-devops-program',
+        destination:
+          '/cloud-and-devops/advanced-cloud-computing-and-devops-program',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops-for-network-professionals',
+        destination:
+          '/cloud-and-devops/cloud-computing-and-devops-for-network-professionals',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops-for-database-administrators',
+        destination:
+          '/cloud-and-devops/cloud-computing-and-devops-for-database-administrators',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops-for-it-support-and-it-operations',
+        destination:
+          '/cloud-and-devops/cloud-computing-and-devops-for-it-support-and-it-operations',
+        permanent: true,
+      },
+      {
+        source:
+          '/cloud&devops/s3-cloud-computing-and-devOps-certification-program',
+        destination:
+          '/cloud-and-devops/s3-cloud-computing-and-devops-certification-program',
+        permanent: true,
+      },
+      {
+        source:
+          '/cloud&amp;devops/s3-cloud-computing-and-devOps-certification-program',
+        destination:
+          '/cloud-and-devops/s3-cloud-computing-and-devops-certification-program',
         permanent: true,
       },
 

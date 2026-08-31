@@ -63,7 +63,7 @@ export function middleware(req) {
     {
       source:
         '/artificial-intelligence/generative-ai-course-for-data-science-professionals',
-      destination: 'https://www.learnbay.co/ ',
+      destination: 'https://www.learnbay.co/',
     },
     {
       source:
@@ -80,7 +80,7 @@ export function middleware(req) {
     {
       source:
         '/artificial-intelligence/generative-ai-course-for-fullstack-professionals',
-      destination: 'https://www.learnbay.co/ ',
+      destination: 'https://www.learnbay.co/',
     },
 
     {
