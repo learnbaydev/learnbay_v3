@@ -1315,7 +1315,7 @@ const nextConfig = {
       {
         source: '/cloud&devops/advance-cloud-computing-certification-program',
         destination:
-          '/cloud&devops/cloud-computing-online-course-training-institute',
+          '/cloud-and-devops/cloud-computing-online-course-training-institute',
         permanent: true,
       },
       {
@@ -1678,7 +1678,7 @@ const nextConfig = {
       },
       {
         source: '/cloud&amp;devops/aws-cloud-computing-and-devOps',
-        destination: '/cloud&devops/aws-cloud-computing-and-devOps',
+        destination: '/cloud-and-devops/aws-cloud-computing-and-devops',
         permanent: true,
       },
 
@@ -2094,6 +2094,7 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // As per Ravi Pradhan suggestion
         source: '/fullstack/dsa-course-training-bangalore',
         destination:
           '/artificial-intelligence/forward-deployed-engineer-course',
