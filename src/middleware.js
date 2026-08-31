@@ -89,7 +89,7 @@ export function middleware(req) {
     },
     {
       source: '/cloud&devops/bangalore/online-devops-training-in-bangalore/',
-      destination: '/cloud&devops/online-devops-training-in-bangalore',
+      destination: '/cloud-and-devops/online-devops-training-in-bangalore',
     },
     {
       source:
