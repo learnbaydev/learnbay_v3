@@ -8,6 +8,7 @@
     "start": "next start",
     "postbuild": "node uploadS3.mjs",
     "lint": "next lint",
+    "seo-check": "node scripts/seo-preflight.js",
     "format": "prettier --write ."
   },
   "dependencies": {
