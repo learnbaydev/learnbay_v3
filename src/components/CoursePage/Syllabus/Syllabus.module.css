@@ -757,10 +757,17 @@
   .maindiv {
     margin: 0px 8px;
   }
+  /* This breakpoint shrinks .moduleImage to 45px but the end marker kept its
+     intrinsic 80px, so it sat off-axis from the track and overlapped the
+     module card. Match the icon size and centre it on the same column. */
   .trackimgend {
-    right: 81px;
+    right: 77px;
     top: 72px;
-    width: 50px;
+    width: 45px;
+  }
+  .trackimgend img {
+    width: 45px;
+    height: auto;
   }
   .QOuter {
     padding-left: 35px;
@@ -894,5 +901,16 @@
   .hoursSpan {
     top: 36px;
     left: 74%;
+  }
+}
+
+/* Above 481px the layout rules that keep this marker on its module icon stop
+   applying, so it lands 24px high and a few px right of the track. Realign it
+   for the 482-641px band; below 482px and on desktop the base values are
+   already correct. */
+@media (min-width: 482px) and (max-width: 641px) {
+  .trackimgend {
+    right: 81px;
+    top: 48px;
   }
 }
