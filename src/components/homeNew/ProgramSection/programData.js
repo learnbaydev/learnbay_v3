@@ -69,9 +69,9 @@ export const programCards = [
     secondeligibilitytitle: ' Production Deployment',
     readyfor: 'Get Job Ready For',
     brochureUrl:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Forward_Deployed_Engineer_Program.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/forward-deployed-engineer-course.pdf',
     pdfUrl:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Forward_Deployed_Engineer_Program.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/forward-deployed-engineer-course.pdf',
     theme: 'purple',
     logo: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2673.webp',
     icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2369.webp',
