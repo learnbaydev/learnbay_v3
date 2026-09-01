@@ -48,6 +48,9 @@
   overflow: scroll;
   padding: 10px 10px 10px 40px;
   gap: 10px;
+  /* As a grid item this defaults to min-width:auto, so the module list's
+     min-content width widened the track past narrow phones. */
+  min-width: 0;
 }
 .syllabusLeft p {
   font-size: 18px;
@@ -755,7 +758,7 @@
     margin: 0px 8px;
   }
   .trackimgend {
-    right: 97.6px;
+    right: 81px;
     top: 72px;
     width: 50px;
   }

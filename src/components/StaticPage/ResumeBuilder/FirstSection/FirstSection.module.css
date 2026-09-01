@@ -30,6 +30,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* Three fixed-width cards in one non-wrapping row ran off tablets. */
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .backThankbot {

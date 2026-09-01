@@ -29,6 +29,11 @@
   margin-top: 30px;
 }
 
+.imgDiv img {
+  max-width: 100%;
+  height: auto;
+}
+
 .cont h4 {
   font-size: 34px;
   color: #0072bc;

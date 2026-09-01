@@ -20,6 +20,11 @@
     margin: 80px 0px 50px 80px;  
   }
 
+  .forml img {
+    max-width: 100%;
+    height: auto;
+  }
+
 
 
   .formlScho {
