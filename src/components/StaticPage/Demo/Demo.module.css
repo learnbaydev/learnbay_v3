@@ -57,7 +57,8 @@
   .gridPanel {
     display: grid;
     height: max-content;
-    grid-template-columns: 32.5% 32.5% 32.5%;
+    /* 3 x 32.5% plus two 20px gaps exceeds the container. */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 0px 20px;
   

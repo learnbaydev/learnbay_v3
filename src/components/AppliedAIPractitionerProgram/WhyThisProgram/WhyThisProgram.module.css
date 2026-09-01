@@ -136,5 +136,13 @@
   .card {
     width: 100%;
     max-width: 100%;
+    /* The base min-width:300px plus .cardOuter padding overflowed 320px
+       phones once the cards stacked. */
+    min-width: 0;
+  }
+
+  .cardOuter {
+    width: 100%;
+    max-width: 100%;
   }
 }

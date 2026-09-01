@@ -216,6 +216,12 @@
   width: 300px;
   height: max-content;
 }
+/* The hero image is wider than the block that holds it on small phones. */
+.ImageBlock img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 .Margin {
 margin: -80px 0px;

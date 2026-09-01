@@ -91,6 +91,11 @@
   margin-top: 20px;
 }
 
+.GetHireMain img {
+  max-width: 100%;
+  height: auto;
+}
+
 .showDesktop {
   display: block;
 }
@@ -130,17 +135,26 @@
 } */
 .GetHireHead {
 display: grid;
-    grid-template-columns: 40% 45%;
-    grid-gap: 195px;
-    gap: 180px;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
     margin-bottom: 35px;
     justify-content: center;
+}
+
+.GetHireMain {
+  padding: 40px 24px;
+}
+
+.GetHireBulet > *,
+.GetHireHead > * {
+  min-width: 0;
 }
 
 
 .showDesktop img {
   width: 400px;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
 }
 .GetHireBulet {
   display: grid;
@@ -181,7 +195,8 @@ font-size: 24px;
     justify-content: center;
   }
   .HireLeft {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: 200px;
   }
   .GetHireBulet {

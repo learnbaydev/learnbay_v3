@@ -96,12 +96,31 @@
   margin-top: 20px;
 }
 
+.GetHireMain img {
+  max-width: 100%;
+  height: auto;
+}
+
 .showDesktop {
   display: block;
 }
 
 .showMobile {
   display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .GetHireMain {
+    padding: 40px 24px;
+  }
+  .GetHireHead {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  .GetHireBulet {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -125,7 +144,8 @@
     justify-content: center;
   }
   .HireLeft {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: 200px;
   }
   .GetHireBulet {

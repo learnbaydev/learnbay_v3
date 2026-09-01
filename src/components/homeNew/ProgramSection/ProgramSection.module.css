@@ -188,6 +188,16 @@ background-clip: text;
   /* gap: 1.5rem; */
 }
 
+/* Grid items default to min-width:auto, so a 300px divider image inside the
+   257px right panel forced the whole card past tablet viewports. */
+.cardBody > * {
+  min-width: 0;
+}
+
+.cardBody img {
+  max-width: 100%;
+}
+
 .leftPanel {
   display: flex;
   flex-direction: column;
@@ -459,6 +469,23 @@ border-radius: 12px;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(75, 136, 255, 0.15);
 }
+/* Tablets previously got the desktop two-column card squeezed to the point
+   of overlapping. Stack the panels here; the 641px rules below stay phone
+   specific (they also hide content, which is too aggressive for tablets). */
+@media (max-width: 1024px) and (min-width: 642px) {
+  .cardBody {
+    grid-template-columns: 1fr;
+    padding: 1.25rem 1.5rem 0;
+  }
+  .whyList {
+    flex-flow: column;
+  }
+  .textsection {
+    flex-flow: column;
+    gap: 0;
+  }
+}
+
 @media (max-width: 641px) {
 .whyList{
   flex-flow: column;

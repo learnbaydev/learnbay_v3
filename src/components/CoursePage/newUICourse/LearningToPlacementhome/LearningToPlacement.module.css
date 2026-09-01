@@ -316,9 +316,13 @@
   line-height: 126.5%; /* 45.158px */
 }
 
+.supportVideo {
+  min-width: 0;
+}
 .supportVideo img {
   border-radius: 10px;
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   height: auto;
 }
 @media (max-width: 768px) {
