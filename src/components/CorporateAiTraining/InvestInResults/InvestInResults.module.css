@@ -150,4 +150,10 @@
   .highlightCard {
     transform: none;
   }
+
+  /* The fixed 320px card overflowed once it was the full-width stacked item. */
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
 }

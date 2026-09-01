@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import "@/styles/Button.css";
 import Script from "next/script";
+import Head from "next/head";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
 import { Poppins } from "next/font/google";
@@ -27,6 +28,14 @@ const App = ({ Component, pageProps }) => {
 
   return (
     <PopupProvider>
+      <Head>
+        {/* Next's default is `width=device-width` only; initial-scale=1 stops
+            iOS Safari zooming the layout on orientation change. */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        />
+      </Head>
       <main className={georama.className}>
         <Script
           strategy="lazyOnload"

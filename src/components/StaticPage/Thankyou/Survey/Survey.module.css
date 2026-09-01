@@ -135,6 +135,14 @@
     position: relative;
     bottom: 18px;
     right: 70px;
+    /* The -12rem offset plus the image's natural width pushed it off the
+       left edge on tablets. */
+    max-width: 100%;
+    height: auto;
+  }
+
+  .lineImg {
+    left: 0;
   }
 
   .threeDiv {

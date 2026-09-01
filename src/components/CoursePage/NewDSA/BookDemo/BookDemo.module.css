@@ -410,8 +410,10 @@
 }
 @media (max-width: 378px) {
   .rightSection img {
+    /* Fluid rather than a fixed 295px, which overflowed 320px screens. */
     width: 295px;
-    height: 395px;
+    max-width: 100%;
+    height: auto;
     right: -15px;
   }
 }

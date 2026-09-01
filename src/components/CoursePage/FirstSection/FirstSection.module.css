@@ -327,6 +327,12 @@ background-clip: text;
   width: 300px;
   height: max-content;
 }
+/* The hero image is wider than the block that holds it on small phones. */
+.ImageBlock img {
+  max-width: 100%;
+  height: auto;
+}
+
 .FaPlay {
   background: #fff;
   padding: 7px 40px;

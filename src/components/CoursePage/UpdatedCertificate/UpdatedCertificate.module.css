@@ -79,6 +79,20 @@
   left: 0;
 } */
 
+/* next/image renders these at a fixed intrinsic width, which pushed the grid
+   track wider than the padded section on small phones. */
+.certificateSection img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Grid/flex children default to min-width:auto, so a wide child refuses to
+   shrink and overflows instead. */
+.content,
+.content > * {
+  min-width: 0;
+}
+
 /* Right Section for single image case */
 .rightSection {
   display: flex;

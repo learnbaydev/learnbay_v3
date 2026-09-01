@@ -493,7 +493,7 @@ const Thankyouads = () => {
           <div
             style={{
               flex: "1",
-              minWidth: "340px",
+              minWidth: "min(340px, 100%)",
               background: "#ffffff",
               borderRadius: "28px",
               padding: "48px",
@@ -661,7 +661,7 @@ const Thankyouads = () => {
           <div
             style={{
               flex: "1",
-              minWidth: "340px",
+              minWidth: "min(340px, 100%)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",

@@ -13,6 +13,13 @@
   padding: 0px 100px;
 }
 
+/* next/image emits a fixed 400px intrinsic width here, which overflowed the
+   grid cell on phones. */
+.BackC img {
+  max-width: 100%;
+  height: auto;
+}
+
 .BackC div {
   display: flex;
   flex-flow: column;
@@ -159,7 +166,7 @@
   }
 
   .CInner {
-    padding: 30px 0px;
+    padding: 30px 20px;
   }
 
   .CInner p {

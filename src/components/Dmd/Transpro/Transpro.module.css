@@ -21,6 +21,20 @@
     align-items: center;
 
 }
+
+/* The diagram is a 1200px next/image; without a cap it ran ~200px off each
+   side of a tablet (this block is hidden below 600px, so tablets were the
+   only viewport showing it broken). */
+.img img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .transmain {
+        height: auto;
+    }
+}
 .divone {
     display: flex;
     justify-content: space-between;

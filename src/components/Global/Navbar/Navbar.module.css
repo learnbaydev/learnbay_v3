@@ -1,5 +1,5 @@
 .nav {
-  width: 100vw;
+  width: 100%;
   scroll-behavior: smooth;
   font-size: 14px;
   position: fixed;
@@ -246,13 +246,21 @@
   }
 }
 
+/* Below ~350px the hamburger + 160px logo + CTA no longer fit the 300px of
+   content width the nav has left, so trim the logo rather than overflow. */
+@media (max-width: 350px) {
+  .logo {
+    width: 140px;
+  }
+}
+
 @media (max-width: 801px) {
   .left {
-    width: 100vw;
+    width: 100%;
     justify-content: space-between;
   }
   .nav {
-    width: 100vw;
+    width: 100%;
   }
 }
 

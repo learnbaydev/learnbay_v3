@@ -138,7 +138,10 @@
   border-width: 0px 3px 3px 3px;
   box-shadow: -1px 0px 10px 2px rgb(4 135 217 / 20%);
   cursor: pointer;
+  /* Fixed 330px overflowed 320px phones once the section padding was
+     accounted for. */
   width: 330px;
+  max-width: 100%;
 }
 
 .boxesInner:hover {
@@ -400,13 +403,23 @@
   }
 
   .boxes {
+    /* fit-content sized to the content and ignored the 280px the section
+       actually leaves on a 320px phone. */
     width: fit-content;
+    max-width: 100%;
     display: flex;
     border-radius: 5px;
     padding: 0px;
     margin: 0px;
     align-items: center;
     gap: 20px;
+  }
+
+  /* The link wrappers are flex items, so they default to min-width:auto and
+     refused to shrink below the 330px card inside them. */
+  .boxes > a {
+    min-width: 0;
+    max-width: 100%;
   }
 
   .orange,
