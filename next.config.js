@@ -2114,6 +2114,13 @@ const nextConfig = {
       },
 
       {
+        source: '/fullstack/dsa-course-training-pune',
+        destination:
+          '/artificial-intelligence/forward-deployed-engineer-course',
+        permanent: true,
+      },
+
+      {
         source: '/fullstack/full-stack-web-development-program',
         destination:
           '/artificial-intelligence/forward-deployed-engineer-course',
@@ -2183,6 +2190,19 @@ const nextConfig = {
           '/cloud&amp;devops/s3-cloud-computing-and-devOps-certification-program',
         destination:
           '/cloud-and-devops/s3-cloud-computing-and-devops-certification-program',
+        permanent: true,
+      },
+      {
+        source: '/cloud-and-devops/online-cloud-computing-course-bangalore',
+        destination:
+          '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
+        permanent: true,
+      },
+
+      {
+        source: '/cloud-and-devops/online-cloud-computing-course-pune',
+        destination:
+          '/cloud-and-devops/pune/online-cloud-computing-course-pune',
         permanent: true,
       },
 
