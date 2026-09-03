@@ -187,7 +187,7 @@ export default function Home() {
               "priceRange": "₹ 1,59,000 + 18% GST",
               "areaServed": "Delhi",
               "paymentAccepted": "Cash, Credit Card, Debit Card, EMI"
-              },
+              ,
               "sameAs": [
                   "https://www.facebook.com/learnbay/",
                             "https://twitter.com/Learnbay",
@@ -196,10 +196,7 @@ export default function Home() {
                             "https://www.linkedin.com/company/learnbay/"
               ]
               }
-             
-              
-} 
- }`,
+`,
           }}
         />
         <script
@@ -222,10 +219,7 @@ export default function Home() {
     "ratingCount": "1719"
   }
               }
-             
-              
-} 
- }`,
+`,
           }}
         />
         <script
@@ -258,7 +252,7 @@ export default function Home() {
     }
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -486,7 +480,7 @@ export default function Home() {
     }
   }]
 }
- }`,
+`,
           }}
         />
       </Head>

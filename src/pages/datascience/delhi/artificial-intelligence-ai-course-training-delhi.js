@@ -488,8 +488,7 @@ export default function Home() {
     }
   }]
 }
-
-             }`,
+`,
           }}
         />
       </Head>

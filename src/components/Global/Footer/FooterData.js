@@ -39,7 +39,7 @@ export const CityFooterData = [
           {
             id: 7,
             name: 'Cloud Computing Course in Pune',
-            url: '/cloud&devops/pune/online-cloud-computing-course-pune',
+            url: '/cloud-and-devops/pune/online-cloud-computing-course-pune',
           },
         ],
       },
@@ -193,7 +193,7 @@ export const CityFooterData = [
           {
             id: 7,
             name: 'Cloud Computing Course in Bangalore',
-            url: '/cloud&devops/bangalore/online-cloud-computing-course-bangalore',
+            url: '/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore',
           },
         ],
       },
@@ -747,6 +747,11 @@ export const CourseData = [
         id: 7,
         name: 'GenAI & Agentic AI Course for Software Developers',
         url: 'https://www.learnbay.co/artificial-intelligence/genai-software-developers',
+      },
+      {
+        id: 77,
+        name: 'Forward Deployed Engineer Course for Working Professionals',
+        url: 'https://www.learnbay.co/artificial-intelligence/forward-deployed-engineer-course',
       },
       {
         id: 8,

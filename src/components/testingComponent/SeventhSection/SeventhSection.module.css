@@ -97,8 +97,20 @@
 
 
 @media (max-width: 1024px) {
+  /* 180px of left padding plus a fixed 500px right column could not fit a
+     tablet; shrink both instead of letting the section run off-screen. */
   .LearnSupport {
-    padding: 30px 30px 30px 180px;
+    padding: 30px;
+  }
+  .rightPart {
+    width: auto;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  .rightPart img {
+    max-width: 100%;
+    height: auto;
   }
 }
 

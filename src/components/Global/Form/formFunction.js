@@ -30,7 +30,7 @@ const getEndPoint = (pathname, event) => {
   }
   if (
     pathname ===
-    '/cloud&devops/s3-cloud-computing-and-devOps-certification-program'
+    '/cloud-and-devops/s3-cloud-computing-and-devops-certification-program'
   ) {
     endPoint = 'https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c';
   }

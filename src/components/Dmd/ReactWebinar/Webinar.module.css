@@ -8,6 +8,13 @@
     
 }
 
+/* The banner is a 1200px next/image and ran ~200px off each side of a
+   tablet without a cap. */
+.webmain img {
+    max-width: 100%;
+    height: auto;
+}
+
 .greentext{
     color: #72BC00;
 }

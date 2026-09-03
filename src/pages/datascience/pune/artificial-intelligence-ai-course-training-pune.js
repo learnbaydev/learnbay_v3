@@ -191,7 +191,7 @@ export default function Home() {
     "https://www.linkedin.com/company/learnbay/"
   ]
 }
- }`,
+`,
           }}
         />
         <script
@@ -214,7 +214,7 @@ export default function Home() {
     "ratingCount": "1726"
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -248,7 +248,7 @@ export default function Home() {
     }
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -462,7 +462,7 @@ export default function Home() {
     }
   }]
 }
- }`,
+`,
           }}
         />
       </Head>

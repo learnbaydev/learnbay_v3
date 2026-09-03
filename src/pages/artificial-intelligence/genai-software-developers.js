@@ -342,7 +342,7 @@ genai course for software developers
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence/genai-software-developers "
+          href="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
         />
         <script
           type="application/ld+json"

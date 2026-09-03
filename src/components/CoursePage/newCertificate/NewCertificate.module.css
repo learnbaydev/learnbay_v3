@@ -45,6 +45,11 @@
     justify-content: center;
     align-items: center;
   }
+
+  .innerDiv img {
+    max-width: 100%;
+    height: auto;
+  }
   
   .middleLine {
   margin: 0px auto 30px auto;
@@ -165,11 +170,14 @@ max-width: 1000px;
   }
   .certBox img {
     height: auto;
+    /* A hard 320px overflowed 320px phones once section padding is counted. */
     width:320px;
+    max-width: 100%;
   }
   .certBoxDemo img {
     height: auto;
     width:320px;
+    max-width: 100%;
   }
   .iconDiv {
     grid-template-columns: 7% 90%;

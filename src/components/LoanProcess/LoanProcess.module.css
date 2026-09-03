@@ -4,6 +4,13 @@
   margin: 100px 0px 0px 0px;
 }
 
+/* The process diagram is a 1200px next/image; without a cap it ran off both
+   sides of tablet viewports. */
+.MainDiv img {
+  max-width: 100%;
+  height: auto;
+}
+
 .MainDivSuccess {
   margin: 70px 0px 50px 0px;
 }

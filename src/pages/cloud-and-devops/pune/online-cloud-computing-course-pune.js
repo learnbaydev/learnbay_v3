@@ -50,11 +50,11 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/pune/online-cloud-computing-course-pune"
+          href="https://www.learnbay.co/cloud-and-devops/pune/online-cloud-computing-course-pune"
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud&devops/pune/online-cloud-computing-course-pune"
+          content="https://www.learnbay.co/cloud-and-devops/pune/online-cloud-computing-course-pune"
         />
         <meta
           property="og:title"
@@ -116,9 +116,7 @@ export default function Home() {
     "ratingCount": "10500"
   }
               }
-             
-              
-} `,
+`,
           }}
         />
 

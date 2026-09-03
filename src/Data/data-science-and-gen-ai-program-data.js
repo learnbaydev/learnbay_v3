@@ -6662,7 +6662,7 @@ export const NewDSAData = [
           'Individualized project experience with easy access to premium job opportunities.',
         ],
       },
-      // {
+      // {Capstone project
       //   id: 4,
       //   topnav: "Gen-AI Certificate",
       //   img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
@@ -6675,6 +6675,19 @@ export const NewDSAData = [
       //     "Enhance your AI profile for leading tech employers worldwide.",
       //   ],
       // },
+      {
+        id: 5,
+        topnav: 'IIT Patna AI Certification',
+        img: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Applied+AI+Certification.webp',
+        width: 350,
+        height: 270,
+        title: 'IIT Patna Course Completion Applied AI Certification',
+        para: [
+          'Earn a prestigious Applied AI certification from Vishlesan I-Hub Foundation, IIT Patna.',
+          'Gain hands-on innovation exposure with real-world AI problem-solving experience.',
+          'Add IIT Patna credibility to your profile and stand out to top tech employers.',
+        ],
+      },
     ],
     faq: [
       {

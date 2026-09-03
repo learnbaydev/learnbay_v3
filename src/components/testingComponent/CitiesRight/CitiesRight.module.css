@@ -275,6 +275,17 @@
   padding: 10px 40px;
 }
 
+/* City pages embed authored comparison tables. Let them scroll inside the
+   column instead of running off the phone viewport (body clips overflow-x,
+   so the extra columns were simply unreachable). */
+.CitiesRightInner table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .certNew {
   position: relative;
   display: grid;
@@ -284,6 +295,10 @@
 
 .certNew img{
   width: auto;
+  /* next/image's intrinsic 400px width overflowed the 2-column grid on
+     tablets; min-width:0 lets the track shrink with it. */
+  max-width: 100%;
+  min-width: 0;
   height: auto;
   z-index: -10;
 }

@@ -158,7 +158,7 @@ export default function Home() {
     "ratingCount": "1585"
   }
 }
-  }`,
+`,
           }}
         />
         <script
@@ -191,7 +191,7 @@ export default function Home() {
     }
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -447,7 +447,7 @@ export default function Home() {
     }
   }]
 }
- }`,
+`,
           }}
         />
       </Head>

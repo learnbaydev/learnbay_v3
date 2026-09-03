@@ -285,6 +285,25 @@
   gap: 20px;
 }
 
+/* next/image's intrinsic 400px width overflowed the 2-column grid on
+   tablets; min-width:0 lets the track shrink with it. */
+.certNew img {
+  width: auto;
+  max-width: 100%;
+  min-width: 0;
+  height: auto;
+}
+
+/* City pages embed authored comparison tables. Let them scroll inside the
+   column instead of running off the phone viewport. */
+.CitiesRightInner table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .Button button {
   margin: auto;
 }

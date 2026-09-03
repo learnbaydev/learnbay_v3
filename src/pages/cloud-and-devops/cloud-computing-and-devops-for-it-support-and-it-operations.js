@@ -524,8 +524,7 @@ cloud certification for it professionals
       "name": "Are there any additional costs for course materials, textbooks, or certification exams?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No, you don’t have to pay additionally for course materials, textbooks, or certification exams. With just the payment of course fees, you can get started with the learning.
-"
+        "text": "No, you don’t have to pay additionally for course materials, textbooks, or certification exams. With just the payment of course fees, you can get started with the learning.\\n"
       }
     },
     {
@@ -589,15 +588,7 @@ cloud certification for it professionals
       "name": "What distinguishes this Cloud Engineering Course from others in the market?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –
-
-Industry-driven syllabus with AWS, Microsoft Azure, and GCP,
-Guaranteed calls for Interviews from Industry partners,
-Globally recognised project certification from Microsoft,
-Domain-specific training (IT Support & Operations),
-100%  live interactions with industry experts,
-On-demand 1:1 doubt-clearing support,
-Resume preparation "
+        "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –\\n\\nIndustry-driven syllabus with AWS, Microsoft Azure, and GCP,\\nGuaranteed calls for Interviews from Industry partners,\\nGlobally recognised project certification from Microsoft,\\nDomain-specific training (IT Support & Operations),\\n100%  live interactions with industry experts,\\nOn-demand 1:1 doubt-clearing support,\\nResume preparation "
       }
     },
     {
@@ -605,13 +596,7 @@ Resume preparation "
       "name": "What resources or support systems are in place to help graduates secure positions in the field of cloud operations and DevOps?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Learnbay offers industry-paced training to help graduates secure a promising position in Cloud and DevOps. The resources or support they offer are –
-
-Comprehensive knowledge-building and practical training,
-Live projects for practical learning,
-Training on in-demand Cloud & DevOps tools,
-100% placement support,
-Industry recognised certifications from Microsoft & Learnbay"
+        "text": "Learnbay offers industry-paced training to help graduates secure a promising position in Cloud and DevOps. The resources or support they offer are –\\n\\nComprehensive knowledge-building and practical training,\\nLive projects for practical learning,\\nTraining on in-demand Cloud & DevOps tools,\\n100% placement support,\\nIndustry recognised certifications from Microsoft & Learnbay"
       }
     },
     {
@@ -659,14 +644,7 @@ Industry recognised certifications from Microsoft & Learnbay"
       "name": "What kind of support is available for students enrolled in the Cloud and DevOps Engineering for ITS & ITOps Professionals?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "After enrolling in the DevOps Training, learners will get support for–
-
-Technical/non-technical issues,
-Contacting mentors,
-1:1 clarification,
-Course materials,
-Coursework and project handling help
-Job assistance"
+        "text": "After enrolling in the DevOps Training, learners will get support for–\\n\\nTechnical/non-technical issues,\\nContacting mentors,\\n1:1 clarification,\\nCourse materials,\\nCoursework and project handling help\\nJob assistance"
       }
     },
     {

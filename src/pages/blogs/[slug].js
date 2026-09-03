@@ -397,6 +397,24 @@ const Blog = ({ postData, nextPost }) => {
         const id = extractText(props.children);
         return <h3 id={id} {...props} />;
       },
+      // Posts author wide, inline-styled tables. Give every one a horizontal
+      // scroll container so narrow screens can reach the off-screen columns
+      // instead of clipping them against body { overflow-x: hidden }.
+      table: ({ node, ...props }) => (
+        <div className={styles.tableScroll}>
+          <table {...props} />
+        </div>
+      ),
+      // Drop the authored width/height attributes so the stylesheet can scale
+      // embedded images down to the column.
+      img: ({ node, width, height, ...props }) => (
+        <img loading="lazy" {...props} />
+      ),
+      iframe: ({ node, width, height, ...props }) => (
+        <div className={styles.videoWrap}>
+          <iframe loading="lazy" {...props} />
+        </div>
+      ),
     }),
     []
   );
@@ -513,8 +531,6 @@ const Blog = ({ postData, nextPost }) => {
               : postData.image
           }
           alt={postData.alt}
-          width="100%"
-          height="auto"
           className={styles.blogHeader}
         />
 
@@ -618,7 +634,15 @@ export async function getStaticProps({ params }) {
     if (!fs.existsSync(filePath)) return { notFound: true, revalidate: 60 };
 
     const fileContent = fs.readFileSync(filePath, 'utf8');
-    const { data, content } = matter(fileContent);
+    const { data, content: rawContent } = matter(fileContent);
+
+    // A few posts embed <style> blocks with unscoped `table`/`td` rules. Once
+    // rendered they leak site-wide and fight the responsive styles below, so
+    // strip them and let slug.module.css own post styling.
+    const content = rawContent.replace(
+      /<style\b[^>]*>[\s\S]*?<\/style>/gi,
+      ''
+    );
 
     const headings = [];
     content.replace(/^(#{1,6})\s+(.*)$/gm, (match, p1, p2) => {

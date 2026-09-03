@@ -50,7 +50,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/bangalore/online-cloud-computing-course-bangalore"
+          href="https://www.learnbay.co/cloud-and-devops/bangalore/online-cloud-computing-course-bangalore"
         />
         <meta
           property="og:url"
@@ -144,7 +144,7 @@ export default function Home() {
               "priceRange": "₹ 1,59,000 + 18% GST",
               "areaServed": "Bangalore",
               "paymentAccepted": "Cash, Credit Card, Debit Card, EMI"
-              },
+              ,
               "sameAs": [
                   "https://www.facebook.com/learnbay/",
                             "https://twitter.com/Learnbay",
@@ -153,10 +153,7 @@ export default function Home() {
                             "https://www.linkedin.com/company/learnbay/"
               ]
               }
-             
-              
-} 
- }`,
+`,
           }}
         />
         <script
@@ -189,7 +186,7 @@ export default function Home() {
     }
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -494,7 +491,7 @@ export default function Home() {
     }
   }]
 }
- }`,
+`,
           }}
         />
       </Head>

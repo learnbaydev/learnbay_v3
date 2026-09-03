@@ -93,6 +93,8 @@ const Realstory = () => {
             <img
               key={slide.id}
               src={slide.bigImage}
+              width={759}
+              height={420}
               alt="testimonials"
               style={{ cursor: "pointer" }}
             />

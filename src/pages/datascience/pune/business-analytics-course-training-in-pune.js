@@ -78,11 +78,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Business Analyst Certification Course in Pune - Learnbay</title>
+        <title>Business Analytics Course in Pune | Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll Today in Learnbay's Business Analyst Training in Pune for expert teaching and Capstone Projects. Gain valuable skills with IBM Certification."
+          content="Business Analytics Course in Pune with live training, practical projects, expert mentors, and placement assistance. Build job-ready analytics skills."
         />
         <meta
           name="keywords"
@@ -197,7 +197,7 @@ export default function Home() {
     "https://www.linkedin.com/company/learnbay/"
   ]
 }
- }`,
+`,
           }}
         />
         <script
@@ -220,7 +220,7 @@ export default function Home() {
     "ratingCount": "1274"
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -254,7 +254,7 @@ export default function Home() {
     }
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -461,7 +461,7 @@ export default function Home() {
     }
   }]
 }
-  }`,
+`,
           }}
         />
       </Head>

@@ -51,11 +51,11 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/bangalore/online-devops-training-in-bangalore"
+          href="https://www.learnbay.co/cloud-and-devops/bangalore/online-devops-training-in-bangalore"
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud&devops/bangalore/online-devops-training-in-bangalore"
+          content="https://www.learnbay.co/cloud-and-devops/bangalore/online-devops-training-in-bangalore"
         />
         <meta
           property="og:title"
@@ -120,9 +120,7 @@ export default function Home() {
     "ratingCount": "13659"
   }
               }
-             
-              
-} `,
+`,
           }}
         />
 

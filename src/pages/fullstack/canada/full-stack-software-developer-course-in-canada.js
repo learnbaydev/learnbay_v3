@@ -157,7 +157,7 @@ export default function Home() {
     "ratingCount": "1583"
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -191,7 +191,7 @@ export default function Home() {
     }
   }
 }
-  }`,
+`,
           }}
         />
         <script
@@ -433,12 +433,13 @@ export default function Home() {
     }
   }]
 }
-</script>
-
-
-
-<script type="application/ld+json">
-{
+        `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Full Stack Developer Course In Canada - Learnbay",
@@ -455,10 +456,13 @@ export default function Home() {
     "ratingCount": "2400"
   }
 }
-</script>
-
-<script type="application/ld+json">
-{
+        `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "Full Stack Developer Course In Canada - Learnbay",
@@ -486,7 +490,7 @@ export default function Home() {
     }
   }
 }
- }`,
+        `,
           }}
         />
       </Head>

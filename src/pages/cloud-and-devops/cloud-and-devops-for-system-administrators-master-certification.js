@@ -567,8 +567,7 @@ Cloud and DevOps certification program,
       "name": "Could you elaborate on the capstone project and its significance in the Google Cloud Course?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Capstone projects encompass the proficiency to see through actual business scenarios and tackle them with proven expertise. It equips you with a set of skills that are valued by employers. This helps in increasing your earning limits. It consists of stimulating projects that help you practice the in-demand tools. It helps to evaluate your skills and knowledge. Thus, making room for improvement to sustain in the desired field. Plus, the project work builds a project portfolio and validates your skills in the eyes of recruiters.
-"
+        "text": "Capstone projects encompass the proficiency to see through actual business scenarios and tackle them with proven expertise. It equips you with a set of skills that are valued by employers. This helps in increasing your earning limits. It consists of stimulating projects that help you practice the in-demand tools. It helps to evaluate your skills and knowledge. Thus, making room for improvement to sustain in the desired field. Plus, the project work builds a project portfolio and validates your skills in the eyes of recruiters.\\n"
       }
     },
     {
@@ -616,17 +615,7 @@ Cloud and DevOps certification program,
       "name": "What distinguishes this Cloud Computing Course from others in the market?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –
-
-Industry-driven syllabus with AWS, Microsoft Azure, and GCP,
-Guaranteed calls for Interviews from Industry partners,
-Globally recognized project certification from IBM,
-Domain-specific training,
-AI Co-Lab experience,
-100%  live interactions with industry experts,
-On-demand 1:1 doubt-clearing support,
-Resume preparation 
-"
+        "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –\\n\\nIndustry-driven syllabus with AWS, Microsoft Azure, and GCP,\\nGuaranteed calls for Interviews from Industry partners,\\nGlobally recognized project certification from IBM,\\nDomain-specific training,\\nAI Co-Lab experience,\\n100%  live interactions with industry experts,\\nOn-demand 1:1 doubt-clearing support,\\nResume preparation \\n"
       }
     },
     {
@@ -634,15 +623,7 @@ Resume preparation
       "name": "Can you provide details on the job assistance provided after completing the Cloud Computing and DevOps Certification Program?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "After DevOps Training with Mock Interviews, end-to-end job assistance is offered to learners. We have a 3-year flexi pass deal for eligible learners, where they will get benefits like– 
-
-Uninterrupted Job and Placement Support,
-Complete access to course materials and resources,
-1:1 Mock Interviews with any of 350+ Industry Experts,
-24/7 contact with Mentors,
-Resume Building Session,
-1:1 LinkedIn Review Session,
-Dedicated Placement Team for soft skills training"
+        "text": "After DevOps Training with Mock Interviews, end-to-end job assistance is offered to learners. We have a 3-year flexi pass deal for eligible learners, where they will get benefits like– \\n\\nUninterrupted Job and Placement Support,\\nComplete access to course materials and resources,\\n1:1 Mock Interviews with any of 350+ Industry Experts,\\n24/7 contact with Mentors,\\nResume Building Session,\\n1:1 LinkedIn Review Session,\\nDedicated Placement Team for soft skills training"
       }
     },
     {
@@ -650,13 +631,7 @@ Dedicated Placement Team for soft skills training"
       "name": "What resources or support systems are in place to help graduates secure positions in the field of cloud computing and DevOps?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Learnbay offers industry-paced training to help graduates secure a promising position in Cloud Computing and DevOps. The resources or support they offer are –
-
-Comprehensive knowledge-building and practical training,
-Live projects for practical learning,
-Training on in-demand Cloud & DevOps tools,
-100% placement support,
-Globally recognized certifications from IBM & Microsoft"
+        "text": "Learnbay offers industry-paced training to help graduates secure a promising position in Cloud Computing and DevOps. The resources or support they offer are –\\n\\nComprehensive knowledge-building and practical training,\\nLive projects for practical learning,\\nTraining on in-demand Cloud & DevOps tools,\\n100% placement support,\\nGlobally recognized certifications from IBM & Microsoft"
       }
     },
     {
@@ -664,14 +639,7 @@ Globally recognized certifications from IBM & Microsoft"
       "name": "Explain Learnbay's flexi pass. Can I opt for a flexi pass for the Cloud Computing Course with Real-Time Projects?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Learnbay’s flexi pass aims to support a successful career transition into a preferred role. It has features like –
-
-3 years of Job and Placement Support,
-1:1 Mock Interviews with Industry Experts,
-Resume Preparation Session,
-1:1 LinkedIn Review Session,
-Dedicated Placement Team
-You can opt for the 3-year flexi pass to crack in-demand jobs in the IT-related sector."
+        "text": "Learnbay’s flexi pass aims to support a successful career transition into a preferred role. It has features like –\\n\\n3 years of Job and Placement Support,\\n1:1 Mock Interviews with Industry Experts,\\nResume Preparation Session,\\n1:1 LinkedIn Review Session,\\nDedicated Placement Team\\nYou can opt for the 3-year flexi pass to crack in-demand jobs in the IT-related sector."
       }
     },
     {
@@ -719,14 +687,7 @@ You can opt for the 3-year flexi pass to crack in-demand jobs in the IT-related 
       "name": "What kind of support is available for students enrolled in the Cloud Computing and DevOps Master Certification Program?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "After enrolling in the DevOps Training, learners will get support for–
-
-Technical/non-technical issues,
-Contacting mentors,
-1:1 clarification,
-Course materials,
-Coursework and project handling help
-Job assistance"
+        "text": "After enrolling in the DevOps Training, learners will get support for–\\n\\nTechnical/non-technical issues,\\nContacting mentors,\\n1:1 clarification,\\nCourse materials,\\nCoursework and project handling help\\nJob assistance"
       }
     },
     {

@@ -168,7 +168,7 @@ export default function Home() {
     "ratingCount": "4380"
   }
 }
-  }`,
+`,
           }}
         />
         <script
@@ -202,7 +202,7 @@ export default function Home() {
     }
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -301,8 +301,7 @@ export default function Home() {
     "name": "Is there any accredited certification after course completion?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Upon successful completion of the Business Analytics Course in Canada, you will receive 3 certifications, two from IBM and one from IIT Patna.
-"
+      "text": "Upon successful completion of the Business Analytics Course in Canada, you will receive 3 certifications, two from IBM and one from IIT Patna.\\r\\n"
     }
   },{
     "@type": "Question",
@@ -361,8 +360,6 @@ export default function Home() {
       "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
     }
   }]
-}
-
 }
 `,
           }}

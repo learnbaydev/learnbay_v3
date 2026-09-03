@@ -379,7 +379,7 @@ data science and gen ai training  program
     }
   ]
 
-          }}
+          }
 `,
           }}
         />

@@ -26,30 +26,57 @@ export const programCards = [
     dataScienceCounselling: true,
   },
 
+  // {
+  //   id: 2,
+  //   title: 'Full Stack Software Development Master Certification',
+  //   description:
+  //     'Learn DSA + System Design + GenAI & Land Your Dream Job at Top MNCs!',
+  //   why: [
+  //     'Build AI-powered Application',
+  //     'Crack Top MNC Interviews With Confidence',
+  //   ],
+  //   keySkills: ['DSA', 'System Design', 'GENAI'],
+  //   duration: ' 12 Months Live Classes',
+  //   level: "Job Referrals At Top MNC's",
+  //   eligibility: 'Interactive Problem Solving &',
+  //   secondeligibilitytitle: ' Interview Preparation',
+  //   readyfor: 'Get Job Ready For',
+  //   brochureUrl:
+  //     'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
+  //   pdfUrl:
+  //     'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf',
+  //   theme: 'purple',
+  //   logo: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2673.webp',
+  //   icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2369.webp',
+
+  //   detailsUrl: 'fullstack/full-stack-software-development',
+  //   dataScience: true,
+  //   dataScienceCounselling: true,
+  // },
   {
     id: 2,
-    title: 'Full Stack Software Development Master Certification',
+    title: 'Forward Deployed AI Engineer Program',
     description:
-      'Learn DSA + System Design + GenAI & Land Your Dream Job at Top MNCs!',
+      'Learn GenAI + Agentic AI + LLMOps & Deploy AI Inside Real Client Systems!',
     why: [
-      'Build AI-powered Application',
-      'Crack Top MNC Interviews With Confidence',
+      'Build & Deploy Production AI Systems',
+      'Crack FDE & AI Solutions Interviews',
     ],
-    keySkills: ['DSA', 'System Design', 'GENAI'],
+    keySkills: ['GENAI', 'AGENTIC AI', 'LLMOPS'],
     duration: ' 12 Months Live Classes',
     level: "Job Referrals At Top MNC's",
-    eligibility: 'Interactive Problem Solving &',
-    secondeligibilitytitle: ' Interview Preparation',
+    eligibility: 'Client Discovery, Prototyping &',
+    secondeligibilitytitle: ' Production Deployment',
     readyfor: 'Get Job Ready For',
     brochureUrl:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/forward-deployed-engineer-course.pdf',
     pdfUrl:
-      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf',
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/forward-deployed-engineer-course.pdf',
     theme: 'purple',
     logo: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2673.webp',
     icon: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2369.webp',
 
-    detailsUrl: 'fullstack/full-stack-software-development',
+    detailsUrl: 'artificial-intelligence/forward-deployed-engineer-course',
     dataScience: true,
     dataScienceCounselling: true,
   },

@@ -161,7 +161,7 @@ export default function Home() {
     "ratingCount": "12893"
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -195,7 +195,7 @@ export default function Home() {
     }
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -493,7 +493,7 @@ export default function Home() {
     }
   }]
 }
-  }`,
+`,
           }}
         />
       </Head>

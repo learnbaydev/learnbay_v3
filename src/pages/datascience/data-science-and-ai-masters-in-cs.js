@@ -116,8 +116,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
             __html: `{
 "@context": "https://schema.org/",
 "@type": "Product",
-"name": "Master of Science in Computer Science with a Specialisation Certificate in
-Data Science and AI",
+"name": "Master of Science in Computer Science with a Specialisation Certificate in\\r\\nData Science and AI",
 "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
 "brand": {
 "@type": "Brand",

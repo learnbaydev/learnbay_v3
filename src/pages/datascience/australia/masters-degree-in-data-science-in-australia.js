@@ -156,10 +156,7 @@ export default function Home() {
     "ratingCount": "1872"
   }
               }
-             
-              
-}
- }`,
+`,
           }}
         />
         <script
@@ -192,7 +189,7 @@ export default function Home() {
     }
   }
 }
-  }`,
+`,
           }}
         />
         <script
@@ -206,14 +203,7 @@ export default function Home() {
     "name": "What is the curriculum structure of the Master's in Data Science program in Australia?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The curriculum structure of the Master's in Data Science program in Australia represents Generative AI-rich modules for 360-degree learning. It follows the latest data science and Agentic AI trends prevailing in Australia, leveraging businesses operating there. 
-The curriculum includes seven learning modules, and they are 
-Ll - Cohort Orientation with Programming
-L2 - Basic & Advanced Python Programming
-L3 - Statistics & Machine Learning
-L4 - Data Science Tools
-L5 - Al Tools
-L6 - Deployment"
+      "text": "The curriculum structure of the Master's in Data Science program in Australia represents Generative AI-rich modules for 360-degree learning. It follows the latest data science and Agentic AI trends prevailing in Australia, leveraging businesses operating there. \\nThe curriculum includes seven learning modules, and they are \\nLl - Cohort Orientation with Programming\\nL2 - Basic & Advanced Python Programming\\nL3 - Statistics & Machine Learning\\nL4 - Data Science Tools\\nL5 - Al Tools\\nL6 - Deployment"
     }
   },{
     "@type": "Question",
@@ -311,8 +301,7 @@ L6 - Deployment"
     "name": "Are any discounts available for early enrollment or paying the tuition upfront for a master's in data science in Australia?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, we offer early bird discounts of 15%-20% for learners enrolling in a master's in data science in Australia. Yet, a group discount is available for learners who join with one or more friends. 
-Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Max 10% discount"
+      "text": "Yes, we offer early bird discounts of 15%-20% for learners enrolling in a master's in data science in Australia. Yet, a group discount is available for learners who join with one or more friends. \\nGroup of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Max 10% discount"
     }
   },{
     "@type": "Question",
@@ -368,8 +357,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
     "name": "What kind of career support services do you offer to students and alumni of master's in data science in Australia?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learners joining the master's in data science in Australia will receive 100% job and placement assistance guided by esteemed mentors. Here, we offer Career Service Acceleration service that successfully empowers learners to face and crack top-notch job offers. The career support services include -
-Three years of uninterrupted job assistance with premium offers, six 1:1 mock interviews with the leading MNCs in the Germnay & overseas, 1:1 doubt-clearing (coursework & projects), Resume review & ATS optimization, LinkedIn profile review"
+      "text": "Learners joining the master's in data science in Australia will receive 100% job and placement assistance guided by esteemed mentors. Here, we offer Career Service Acceleration service that successfully empowers learners to face and crack top-notch job offers. The career support services include -\\nThree years of uninterrupted job assistance with premium offers, six 1:1 mock interviews with the leading MNCs in the Germnay & overseas, 1:1 doubt-clearing (coursework & projects), Resume review & ATS optimization, LinkedIn profile review"
     }
   },{
     "@type": "Question",
@@ -411,8 +399,7 @@ Three years of uninterrupted job assistance with premium offers, six 1:1 mock in
     "name": "How are mentors assigned to students, and what level of interaction can students expect for MS in data science in Australia?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "We have a group of renowned industry experts in the role of mentors for MS in data science in Australia. These mentors are assigned to individual learning batches as per relevant skills and experience. Learners can expect direct interaction with their
-mentors during training sessions. Apart from training classes, you can also contact mentors for doubt clearing or certain queries via phone call or chat."
+      "text": "We have a group of renowned industry experts in the role of mentors for MS in data science in Australia. These mentors are assigned to individual learning batches as per relevant skills and experience. Learners can expect direct interaction with their\\nmentors during training sessions. Apart from training classes, you can also contact mentors for doubt clearing or certain queries via phone call or chat."
     }
   },{
     "@type": "Question",
@@ -433,9 +420,7 @@ mentors during training sessions. Apart from training classes, you can also cont
     "name": "What academic support services are available to students, such as tutoring or study groups, for master's in data science in Australia?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learners enrolling in master's in data science in Australia can avail
-of dedicated mentorship from industry experts. You will gain uninterrupted training sessions from respective mentors with 24*7 assistance.
-Some exclusive academic support services will be - Live instructor-led training sessions, Dedicated mentorship with 1:1 doubt-clearance, Hassle-free contact with mentors after classes, Learning materials, Course tasks and projects handling support, Career assistance"
+      "text": "Learners enrolling in master's in data science in Australia can avail\\nof dedicated mentorship from industry experts. You will gain uninterrupted training sessions from respective mentors with 24*7 assistance.\\nSome exclusive academic support services will be - Live instructor-led training sessions, Dedicated mentorship with 1:1 doubt-clearance, Hassle-free contact with mentors after classes, Learning materials, Course tasks and projects handling support, Career assistance"
     }
   },{
     "@type": "Question",
@@ -456,14 +441,11 @@ Some exclusive academic support services will be - Live instructor-led training 
     "name": "How does the program foster community and peer support among students, especially in online learning environments for master's in data science in Australia?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learnbay utilizes several strategies to foster a sense of community and peer support among students pursuing a master's in data science in Australia.
-It includes -
-Collaborative learning platforms with discussion forums, Dedicated mentorship followed by 1:1 doubt-clearing sessions, Project-based learning via projects, and soft skills training
-ATS- Resume optimization, Interview Preparation."
+      "text": "Learnbay utilizes several strategies to foster a sense of community and peer support among students pursuing a master's in data science in Australia.\\nIt includes -\\nCollaborative learning platforms with discussion forums, Dedicated mentorship followed by 1:1 doubt-clearing sessions, Project-based learning via projects, and soft skills training\\nATS- Resume optimization, Interview Preparation."
     }
   }]
 }
- }`,
+`,
           }}
         />
       </Head>

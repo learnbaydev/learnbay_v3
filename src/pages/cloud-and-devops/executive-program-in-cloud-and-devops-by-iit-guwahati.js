@@ -40,12 +40,12 @@ cloud training
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati"
+          href="https://www.learnbay.co/cloud-and-devops/executive-program-in-cloud-and-devops-by-iit-guwahati"
         />
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati"
+          content="https://www.learnbay.co/cloud-and-devops/executive-program-in-cloud-and-devops-by-iit-guwahati"
         />
         <meta
           property="og:title"

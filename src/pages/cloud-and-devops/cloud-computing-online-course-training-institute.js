@@ -27,7 +27,7 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/cloud-computing-online-course-training-institute"
+          href="https://www.learnbay.co/cloud-and-devops/cloud-computing-online-course-training-institute"
         />
       </Head>
       <main>

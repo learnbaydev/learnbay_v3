@@ -157,7 +157,7 @@ export default function Home() {
     "ratingCount": "1302"
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -191,7 +191,7 @@ export default function Home() {
     }
   }
 }
- }`,
+`,
           }}
         />
         <script
@@ -282,8 +282,7 @@ export default function Home() {
     "name": "Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "You can select a pre-set maximum number (based on course) of domain elective as per your career goal and interest. Advance or Master course in Data science and GenAI in Dubai, offer better flexibility in domain selection. However, you can choose specific courses for Managers and leaders also if you are having more than 8 plus years of experience and already in leadership position. 
-And no, you need not to pay any extra charges for domain electives."
+      "text": "You can select a pre-set maximum number (based on course) of domain elective as per your career goal and interest. Advance or Master course in Data science and GenAI in Dubai, offer better flexibility in domain selection. However, you can choose specific courses for Managers and leaders also if you are having more than 8 plus years of experience and already in leadership position. \\nAnd no, you need not to pay any extra charges for domain electives."
     }
   },{
     "@type": "Question",
@@ -406,7 +405,7 @@ And no, you need not to pay any extra charges for domain electives."
     }
   }]
 }
- }`,
+`,
           }}
         />
       </Head>
