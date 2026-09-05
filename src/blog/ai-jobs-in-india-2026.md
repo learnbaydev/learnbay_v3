@@ -1,15 +1,15 @@
 ---
-title: 'AI Hiring Trends 2026: 6 High-Value Tech Roles Driving Corporate Indias Growth'
+title: 'AI Hiring Trends 2026: 6 High-Value Tech Roles Driving Corporate India`s Growth'
 Stitle: 'AI Hiring Trends: 6 High-Value AI Jobs in India'
 description: 'Explore AI hiring trends in India for, including 6 high-value AI jobs, career paths, skills, salaries, and opportunities driving corporate growth.'
 keywords: 'ai careers, ai career path, ai hiring, AI hiring trends, AI jobs, artificial intelligence jobs in India, AI career opportunities, AI roles in India, AI professionals in India, AI skills in demand, high-paying ai jobs in india AI jobs, AI job opportunities, future of AI jobs, AI recruitment trends, AI careers in India'
 date: '05/09/2026'
 author: 'Sonalisha Mohanty'
 readTime: '10 mins'
-canonicalUrl: 'https://www.learnbay.co/blogs/best-ai-courses-in-india-compared'
+canonicalUrl: 'https://www.learnbay.co/blogs/ai-jobs-in-india'
 image: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AIHiringTrends2026_+6High-ValueTechRolesDrivingCorporateIndia_s+Growth.webp'
 imagephone: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AIHiringTrends2026_+6High-ValueTechRolesDrivingCorporateIndia_s+Growth.webp'
-alt: 'Banner showing futuristic AI robots and comparison of best AI courses in India top programs.'
+alt: 'AI Hiring Trends 2026: Six high-value tech roles driving corporate India`s growth.'
 publishedDate: '2026-09-05T00:00:00+05:30'
 
 faqs:
