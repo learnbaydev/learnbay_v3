@@ -36,6 +36,10 @@ In June 2026, overall IT job postings fell 3% year-on-year even as AI hiring wit
 
 The shift highlights the growing importance of specialized AI and technology skills in the Indian job market.
 
+## Looking for deeper insights into India’s AI job market?
+
+“Refer to Learnbay’s exclusively designed <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AIHiringTrends2026.pdf" target="_blank" >AI Hiring Trends 2026 Report</a> for career-specific insights into emerging AI roles, hiring trends, salary benchmarks, and the skills employers are seeking in 2026.”
+
 ## The GCC Engine: India's Real Hiring Story
 
 Global Capability Centres (GCCs) were once offshore support functions, but many now have built their own AI platforms, cloud architecture, and cybersecurity systems. Many even have full product engineering mandates.
@@ -229,8 +233,6 @@ Professionals whose background points toward the newest role on this list can al
 While no training program can guarantee a specific job or salary, the decision to hire rests with the employer, and outcomes are influenced by effort and age, as well as market dynamics. However, with the right upskilling you can attract promising AI jobs in India.
 
 A flexibly designed course can help develop AI-powered skills in real time. According to what employers are expecting to see in 2026, this looks to be more important than training.
-
-Refer to Learnbay’s exclusively designed <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AIHiringTrends2026.pdf" target="_blank" >Report on AI Hiring Trends 2026</a> to gain career-specific knowledge.
 
 ---
 
