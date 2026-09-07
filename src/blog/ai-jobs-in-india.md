@@ -1,7 +1,7 @@
 ---
 title: 'AI Hiring Trends 2026: 6 High-Value Tech Roles Driving Corporate India`s Growth'
 Stitle: 'AI Hiring Trends: 6 High-Value AI Jobs in India'
-description: 'Explore AI hiring trends in India for, including 6 high-value AI jobs, career paths, skills, salaries, and opportunities driving corporate growth.'
+description: 'Explore AI hiring trends in India, including 6 high-value AI jobs, career paths, skills, salaries, and opportunities driving corporate growth.'
 keywords: 'ai careers, ai career path, ai hiring, AI hiring trends, AI jobs, artificial intelligence jobs in India, AI career opportunities, AI roles in India, AI professionals in India, AI skills in demand, high-paying ai jobs in india AI jobs, AI job opportunities, future of AI jobs, AI recruitment trends, AI careers in India'
 date: '05/09/2026'
 author: 'Sonalisha Mohanty'
