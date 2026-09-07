@@ -230,7 +230,7 @@ While no training program can guarantee a specific job or salary, the decision t
 
 A flexibly designed course can help develop AI-powered skills in real time. According to what employers are expecting to see in 2026, this looks to be more important than training.
 
-Refer to Learnbay’s exclusively designed <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AIHiringTrends2026.pdf" target="_blank" rel="nofollow">Report on AI Hiring Trends 2026</a> to gain career-specific knowledge.
+Refer to Learnbay’s exclusively designed <a href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AIHiringTrends2026.pdf" target="_blank" >Report on AI Hiring Trends 2026</a> to gain career-specific knowledge.
 
 ---
 
