@@ -1,0 +1,260 @@
+/* Design tokens for the v2 blog layout.
+   Declared on the layout root so every nested block module can read them with
+   var() without importing anything, and so they never leak into v1 or the rest
+   of the site. */
+.root {
+  --lb-ink: #0b1533;
+  --lb-ink-soft: #1d2438;
+  --lb-body: #3f4652;
+  --lb-muted: #6b7280;
+  --lb-faint: #9aa1ac;
+
+  --lb-accent: #2563eb;
+  --lb-accent-soft: #eef3ff;
+  --lb-accent-light: #7fa6ff;
+
+  --lb-positive: #15803d;
+  --lb-caution: #b45309;
+
+  --lb-line: #e8ebf2;
+  --lb-line-strong: #d9dee8;
+  --lb-surface: #f6f8fb;
+  --lb-cream: #fbfaf7;
+
+  --lb-dark-muted: #8f9ab0;
+  --lb-dark-body: #aeb8cb;
+  --lb-dark-strong: #c6cede;
+
+  --lb-radius-lg: 22px;
+  --lb-radius: 14px;
+  --lb-radius-sm: 12px;
+  --lb-radius-xs: 10px;
+  --lb-pill: 999px;
+
+  --lb-shadow: 0 12px 30px -14px rgba(10, 20, 51, 0.12);
+  --lb-band: linear-gradient(
+    137deg,
+    #122a63 0%,
+    #0b1533 43%,
+    #241a57 71%
+  );
+  --lb-rail-card: linear-gradient(125deg, #14306e 0%, #0b1533 71%);
+
+  --lb-gutter: 80px;
+  --lb-measure: 720px;
+  /* The site Navbar is position: fixed, so the layout has to start below it.
+     v1 does the same with margin-top: 5rem. */
+  --lb-navbar: 5rem;
+
+  padding-top: var(--lb-navbar);
+  background: #fff;
+  color: var(--lb-ink);
+  font-family: var(--lb-font-text), 'Inter', system-ui, sans-serif;
+}
+
+/* Plus Jakarta Sans is the display face throughout; headings never fall back to
+   the site-wide Poppins. */
+.root h1,
+.root h2,
+.root h3,
+.root h4 {
+  font-family: var(--lb-font-display), 'Plus Jakarta Sans', system-ui,
+    sans-serif;
+}
+
+.shell {
+  display: grid;
+  grid-template-columns: minmax(0, 894px) 282px;
+  gap: 24px;
+  align-items: start;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 36px var(--lb-gutter) 0;
+}
+
+.rail {
+  position: sticky;
+  top: calc(var(--lb-navbar) + 24px);
+}
+
+/* ---------- Article prose ---------- */
+
+.prose {
+  min-width: 0;
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--lb-body);
+}
+
+.prose > p,
+.prose > ul,
+.prose > ol,
+.prose > blockquote {
+  max-width: var(--lb-measure);
+}
+
+.prose > p {
+  margin: 0 0 22px;
+}
+
+.prose h2 {
+  margin: 44px 0 14px;
+  max-width: var(--lb-measure);
+  font-size: 28px;
+  line-height: 1.35;
+  font-weight: 800;
+  letter-spacing: -0.56px;
+  color: var(--lb-ink);
+  scroll-margin-top: calc(var(--lb-navbar) + 24px);
+}
+
+.prose h3 {
+  margin: 32px 0 10px;
+  max-width: var(--lb-measure);
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: var(--lb-ink);
+  scroll-margin-top: calc(var(--lb-navbar) + 24px);
+}
+
+.prose h2:first-child,
+.prose h3:first-child {
+  margin-top: 0;
+}
+
+.prose a {
+  color: var(--lb-accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.28);
+}
+
+.prose a:hover {
+  border-bottom-color: var(--lb-accent);
+}
+
+.prose strong {
+  color: var(--lb-ink);
+  font-weight: 600;
+}
+
+.prose ul,
+.prose ol {
+  margin: 0 0 22px;
+  padding-left: 22px;
+}
+
+.prose li {
+  margin-bottom: 8px;
+}
+
+.prose li::marker {
+  color: var(--lb-faint);
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--lb-radius);
+}
+
+.prose hr {
+  margin: 36px 0;
+  border: 0;
+  border-top: 1px solid var(--lb-line);
+}
+
+/* Authored markdown tables. Wide ones scroll inside their own container rather
+   than being clipped by the page's overflow-x: hidden. */
+.tableScroll {
+  margin: 0 0 26px;
+  overflow-x: auto;
+  border: 1px solid var(--lb-line);
+  border-radius: var(--lb-radius-sm);
+}
+
+.tableScroll table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+
+.tableScroll th,
+.tableScroll td {
+  padding: 13px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--lb-line);
+  vertical-align: top;
+}
+
+.tableScroll th {
+  background: var(--lb-surface);
+  color: var(--lb-ink);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tableScroll tr:last-child td {
+  border-bottom: 0;
+}
+
+.videoWrap {
+  position: relative;
+  margin: 0 0 26px;
+  padding-top: 56.25%;
+  border-radius: var(--lb-radius);
+  overflow: hidden;
+  background: var(--lb-surface);
+}
+
+.videoWrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 1180px) {
+  .root {
+    --lb-gutter: 40px;
+  }
+
+  .shell {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  /* The rail becomes a normal block below the article rather than a sticky
+     column; its own module drops the share/picks blocks at this width. */
+  .rail {
+    position: static;
+    border-left: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .root {
+    --lb-gutter: 20px;
+  }
+
+  .shell {
+    padding-top: 24px;
+  }
+
+  .prose {
+    font-size: 16px;
+  }
+
+  .prose h2 {
+    font-size: 23px;
+    letter-spacing: -0.4px;
+  }
+
+  .prose h3 {
+    font-size: 18.5px;
+  }
+}

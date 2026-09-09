@@ -52,6 +52,8 @@
     "react-slick": "^0.30.2",
     "rehype-raw": "^7.0.0",
     "remark": "^15.0.1",
+    "remark-directive": "^4.0.0",
+    "remark-gfm": "^4.0.1",
     "remark-html": "^16.0.1",
     "rsuite": "^5.53.2",
     "sass": "^1.77.8",
