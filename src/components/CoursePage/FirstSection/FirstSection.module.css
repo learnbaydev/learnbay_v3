@@ -279,6 +279,11 @@ background-clip: text;
   align-items: center;
   gap: 10px;
 }
+/* The hero's desktop/mobile split is CSS-only so both blocks ship in the SSR
+   HTML and nothing moves after hydration. Paired with .Mobile below. */
+.HeroDesktopOnly {
+  display: block;
+}
 .DAibm{
   display: flex;
   gap: 14px;
@@ -566,6 +571,9 @@ background-clip: text;
   }
 
   .Desktop {
+    display: none;
+  }
+  .HeroDesktopOnly {
     display: none;
   }
   .Mobile {
