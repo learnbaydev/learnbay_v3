@@ -50,9 +50,9 @@ const Hero = ({ post }) => (
   <header className={styles.hero}>
     <div className={styles.top}>
       <div className={styles.main}>
-        <Link href="/blogs" className={styles.back}>
+        {/* <Link href="/blogs" className={styles.back}>
           ← Back to blogs
-        </Link>
+        </Link> */}
 
         {post.eyebrow && <p className={styles.eyebrow}>{post.eyebrow}</p>}
 
@@ -74,7 +74,7 @@ const Hero = ({ post }) => (
       </div>
 
       <div className={styles.meta}>
-        <MetaItem label="PUBLISHED" value={post.date} />
+        <MetaItem label="LAST UPDATED" value={post.date} />
         <MetaItem label="CATEGORY" value={post.category} />
         <MetaItem label="READING TIME" value={post.readTime} />
         <MetaItem label="AUTHOR" value={post.author} />
