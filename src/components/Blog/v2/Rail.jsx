@@ -12,13 +12,31 @@ import styles from './Rail.module.css';
 
 const FALLBACK_THUMB = 'linear-gradient(135deg, #2563eb 0%, #7c5ce6 71%)';
 
-function ShareBlock({ title }) {
-  const [url, setUrl] = useState('');
-  const [copied, setCopied] = useState(false);
+/**
+ * Copies text without the async Clipboard API, which only exists on secure
+ * origins — so sharing still works when the site is opened over plain http,
+ * e.g. a LAN IP during review. Returns whether the copy succeeded.
+ */
+function legacyCopy(text) {
+  const field = document.createElement('textarea');
+  field.value = text;
+  field.setAttribute('readonly', '');
+  // Keep it off-screen and non-focusing so the page does not scroll or flash.
+  field.style.cssText = 'position:fixed;top:0;left:-9999px;opacity:0;';
+  document.body.appendChild(field);
+  field.select();
+  let ok = false;
+  try {
+    ok = document.execCommand('copy');
+  } catch {
+    ok = false;
+  }
+  document.body.removeChild(field);
+  return ok;
+}
 
-  // Read the canonical URL on the client so the markup stays identical between
-  // the static build and hydration.
-  useEffect(() => setUrl(window.location.href), []);
+function ShareBlock({ title, url }) {
+  const [copied, setCopied] = useState(false);
 
   const share = (href) =>
     window.open(href, '_blank', 'noopener,noreferrer,width=640,height=560');
@@ -27,14 +45,17 @@ function ShareBlock({ title }) {
   const encodedTitle = encodeURIComponent(title);
 
   const copy = async () => {
+    let ok = false;
     try {
+      // Absent on http origins, and can reject if the document is not focused.
       await navigator.clipboard.writeText(url);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+      ok = true;
     } catch {
-      // Clipboard is unavailable over http or when permission is denied. The
-      // address bar already has the URL, so failing quietly is fine.
+      ok = legacyCopy(url);
     }
+    if (!ok) return;
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
   };
 
   return (
@@ -132,7 +153,7 @@ const Rail = ({ post, headings }) => {
 
   return (
     <aside className={styles.rail}>
-      <ShareBlock title={post.title} />
+      <ShareBlock title={post.title} url={post.canonicalUrl} />
 
       {headings.length > 0 && (
         <div className={styles.block}>
