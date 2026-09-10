@@ -1,0 +1,109 @@
+/* Collapsible "In this article" shown above the article on narrow screens,
+   mirroring what v1 does. The sticky rail owns the TOC from 1181px up, so this
+   is hidden there. */
+.toc {
+  display: none;
+}
+
+@media (max-width: 1180px) {
+  .toc {
+    display: block;
+    margin-bottom: 24px;
+    border: 1px solid var(--lb-line);
+    border-radius: var(--lb-radius-sm);
+    background: var(--lb-surface);
+    overflow: hidden;
+  }
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--lb-ink);
+  list-style: none;
+}
+
+/* Safari renders a disclosure triangle without this. */
+.summary::-webkit-details-marker {
+  display: none;
+}
+
+.summary:focus-visible {
+  outline: 2px solid var(--lb-accent);
+  outline-offset: -2px;
+}
+
+.count {
+  padding: 2px 8px;
+  border-radius: var(--lb-pill);
+  background: var(--lb-accent-soft);
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--lb-accent);
+}
+
+.caret {
+  margin-left: auto;
+  flex-shrink: 0;
+  font-size: 15px;
+  color: var(--lb-muted);
+  transition: transform 0.18s ease;
+}
+
+.toc[open] .caret {
+  transform: rotate(180deg);
+}
+
+.list {
+  margin: 0;
+  padding: 0 16px 14px;
+  list-style: none;
+  border-top: 1px solid var(--lb-line);
+  padding-top: 10px;
+}
+
+.item {
+  border-top: 1px solid var(--lb-line);
+}
+
+.item:first-child {
+  border-top: 0;
+}
+
+.link {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+.num {
+  flex-shrink: 0;
+  width: 20px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--lb-faint);
+}
+
+.text {
+  flex: 1 0 0;
+  min-width: 0;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--lb-body);
+}
+
+/* Sub-headings sit slightly quieter, matching the rail. */
+.sub .text {
+  font-size: 13px;
+  color: var(--lb-muted);
+}

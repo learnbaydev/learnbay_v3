@@ -13,6 +13,7 @@ import { externalLinkProps } from '@/lib/blog/links';
 
 import Hero from './Hero';
 import Rail from './Rail';
+import MobileToc from './MobileToc';
 import BlockRenderer, { BlockDataProvider } from './BlockRenderer';
 import RelatedArticles from './sections/RelatedArticles';
 import FinalCta from './sections/FinalCta';
@@ -107,6 +108,8 @@ const BlogV2 = ({ post }) => {
 
       <div className={styles.shell}>
         <article className={styles.prose}>
+          <MobileToc headings={tocHeadings} />
+
           <BlockDataProvider value={post.data}>
             <ReactMarkdown
               remarkPlugins={REMARK_PLUGINS}

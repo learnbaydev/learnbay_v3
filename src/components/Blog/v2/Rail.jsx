@@ -160,7 +160,7 @@ const Rail = ({ post, headings }) => {
       <ShareBlock title={post.title} url={post.canonicalUrl} />
 
       {headings.length > 0 && (
-        <div className={styles.block}>
+        <div className={`${styles.block} ${styles.hideOnNarrow}`}>
           <p className={styles.label}>IN THIS ARTICLE</p>
           <div className={styles.tocList}>
             {headings.map((heading, index) => (
