@@ -26,6 +26,10 @@
 .btnGhost {
   display: inline-flex;
   font-family: inherit;
+  /* These render as <a> or <button> depending on whether the CTA opens the
+     popup. Without an explicit background a <button> picks up the UA's
+     `buttonface` grey, which left the outline variants white-on-grey. */
+  background: transparent;
   align-items: center;
   justify-content: center;
   padding: 11px 22px;

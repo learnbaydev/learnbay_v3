@@ -13,11 +13,11 @@ eyebrow: AI careers · Bangalore · 2026
 category: AI careers, Course comparison
 date: 09/09/2026
 publishedDate: '2026-09-09T00:00:00+05:30'
-author: Learnbay Editorial
-authorInitials: LB
+author: Sonalisha Mohanty
+authorInitials: SM
 authorBio:
-  Learnbay’s editorial team reads published syllabi module by module and compares them against
-  what 2026 hiring managers actually test for.
+  Writes Learnbay’s long-form course comparisons, reading published syllabi module by module
+  against what 2026 hiring managers actually test for.
 authorUrl: https://www.learnbay.co/
 readTime: 22 min
 canonicalUrl: https://www.learnbay.co/blogs/best-ai-courses-in-bangalore-with-placement-assistance
@@ -41,8 +41,6 @@ facts:
     label: teach no production operations
   - value: '12'
     label: questions answered
-  - label: Updated
-    value: Sept 2026
     valueAfter: true
 programCard:
   label: LEARNBAY PROGRAM
