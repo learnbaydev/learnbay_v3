@@ -41,7 +41,6 @@ facts:
     label: teach no production operations
   - value: '12'
     label: questions answered
-    valueAfter: true
 programCard:
   label: LEARNBAY PROGRAM
   title: GenAI & Agentic AI Master Program
@@ -596,8 +595,8 @@ data:
     cta: Book free counselling
     href: popup
   programLineup:
-    badgeLeft: '9 programs compared'
-    badgeRight: '6 criteria · scored out of 10'
+    badgeLeft: '10 programs compared'
+    badgeRight: 'Scored on 7 criteria'
     programs:
       - name: 'Applied AI & Business Analytics'
         accent: 'orange'
@@ -645,10 +644,13 @@ data:
           - 'Electives in NLP, computer vision or R.'
         href: 'https://www.learnbay.co/datascience/advance-data-science-certification-courses'
     stats:
-      - { value: '₹7K–₹5L+', label: 'Fee spread across the nine' }
-      - { value: '50+', label: 'Programs reviewed' }
-      - { value: '8', label: 'Curriculum topics scored' }
-      - { value: '21', label: 'Questions answered' }
+      # Every figure below is checkable against this article: the fee range is
+      # the one its own FAQ states, 7 criteria matches `methodChecks`, 6 is the
+      # skills scored in `syllabusDepth`, 12 is the FAQ count.
+      - { value: '₹20K–₹3.99L', label: 'Fee range across the ten' }
+      - { value: '7', label: 'Criteria scored' }
+      - { value: '6', label: '2026 skills checked per syllabus' }
+      - { value: '12', label: 'Questions answered' }
 
   topPick:
     badge: 'Our #1 Pick for 2026'

@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import Link from 'next/link';
 import { PiArrowLeftBold, PiArrowRightBold } from 'react-icons/pi';
+import { cssUrl } from '@/lib/blog/cssUrl';
 import styles from './Sections.module.css';
 
 // Gradient fallbacks for posts with no cover image, cycled so a row of cards
@@ -61,7 +62,7 @@ const RelatedArticles = ({ posts, title = 'Read our next article' }) => {
               className={styles.cardThumb}
               style={{
                 backgroundImage: post.image
-                  ? `url(${post.image})`
+                  ? cssUrl(post.image)
                   : post.accent || FALLBACKS[index % FALLBACKS.length],
               }}
             >

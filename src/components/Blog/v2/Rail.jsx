@@ -9,6 +9,7 @@ import {
 } from 'react-icons/pi';
 import { FaXTwitter } from 'react-icons/fa6';
 import { getAuthorByName, getAuthorHref } from '@/lib/blog/authors';
+import { cssUrl } from '@/lib/blog/cssUrl';
 import styles from './Rail.module.css';
 
 const FALLBACK_THUMB = 'linear-gradient(135deg, #2563eb 0%, #7c5ce6 71%)';
@@ -242,7 +243,7 @@ const Rail = ({ post, headings }) => {
                 className={styles.thumb}
                 style={{
                   backgroundImage: pick.image
-                    ? `url(${pick.image})`
+                    ? cssUrl(pick.image)
                     : pick.accent || FALLBACK_THUMB,
                 }}
               />

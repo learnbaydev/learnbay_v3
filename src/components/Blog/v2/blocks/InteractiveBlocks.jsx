@@ -7,6 +7,7 @@ import {
   PiArrowRightBold,
   PiArrowRightBold as PiMoveArrow,
 } from 'react-icons/pi';
+import { cssUrl } from '@/lib/blog/cssUrl';
 import styles from './Blocks.module.css';
 
 /**
@@ -141,7 +142,7 @@ export function SuccessStories({ data }) {
             <span
               className={styles.storyPhoto}
               style={
-                story.photo ? { backgroundImage: `url(${story.photo})` } : undefined
+                story.photo ? { backgroundImage: cssUrl(story.photo) } : undefined
               }
             />
             <span>
@@ -169,7 +170,7 @@ export function Reels({ data }) {
           target="_blank"
           rel="noopener noreferrer"
           style={
-            reel.poster ? { backgroundImage: `url(${reel.poster})` } : undefined
+            reel.poster ? { backgroundImage: cssUrl(reel.poster) } : undefined
           }
         >
           <PiPlayFill className={styles.reelPlay} aria-hidden />
@@ -207,7 +208,7 @@ export function YouTube({ id, title, caption, poster }) {
           <button
             type="button"
             className={styles.videoPoster}
-            style={{ backgroundImage: `url(${posterUrl})` }}
+            style={{ backgroundImage: cssUrl(posterUrl) }}
             aria-label={`Play video: ${title || id}`}
             onClick={() => setPlaying(true)}
           >
