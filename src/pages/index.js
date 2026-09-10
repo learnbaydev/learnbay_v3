@@ -132,7 +132,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Online IT Certification Courses and Professional Programs</title>
+        <title>Learnbay | AI-First Learning - Built for Professionals</title>
         <meta name="robots" content="index, follow" />
         <meta name="referrer" content="strict-origin-when-cross-origin" />
 
@@ -168,7 +168,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Online IT Certification Courses and Professional Programs"
+          content="Learnbay | AI-First Learning - Built for Professionals"
         />
         <meta
           property="og:description"
@@ -185,7 +185,7 @@ export default function Home() {
         <meta property="twitter:url" content="https://www.learnbay.co" />
         <meta
           name="twitter:title"
-          content="Online IT Certification Courses and Professional Programs"
+          content="Learnbay | AI-First Learning - Built for Professionals"
         />
         <meta
           name="twitter:description"
