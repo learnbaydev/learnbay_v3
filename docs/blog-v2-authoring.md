@@ -116,6 +116,35 @@ uses, so a reader sees at most one promo popup per session anywhere on the site.
 Blog routes are excluded from the site-wide 5-second popup in `_app.js` for the
 same reason — do not re-add them.
 
+**Any CTA can open it instead of navigating.** Set that CTA's href to the
+sentinel `popup` and it renders as a button wired to the form:
+
+```yaml
+secondaryCta: 'Talk to a counsellor'
+secondaryHref: 'popup'        # instead of a URL
+```
+
+Works on `learnbay-strip`, `learnbay-split-card`, `learnbay-dark-band`,
+`report-download`, `top-pick` and the page-level `finalCta`.
+
+**To deliver a brochure**, add `brochure:` to that CTA's popup config. The PDF
+downloads the moment the lead submits successfully — never before — and the URL
+is attached to the lead as `brochureLink`:
+
+```yaml
+cta: 'Download syllabus'
+href: 'popup'
+popup:
+  formTitle: 'Get the full syllabus'
+  submitCta: 'Send me the syllabus'
+  brochure: 'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf'
+```
+
+Brochure URLs live in the S3 bucket under `/2026/`; the authoritative one for a
+course is the URL on that course's own page. Blocks with two CTAs take
+`primaryPopup:` and `secondaryPopup:` when the two buttons need different
+popups — e.g. a counselling call and a syllabus download side by side.
+
 A post can override the auto-popup copy with a **top-level** `popup:` key in
 frontmatter; the same shape overrides a block's popup when nested under that
 block's data.

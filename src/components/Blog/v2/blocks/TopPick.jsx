@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Link from 'next/link';
+import BlogCta from './BlogCta';
 import dynamic from 'next/dynamic';
 import {
   PiTrophyFill,
@@ -86,13 +86,14 @@ export function TopPick({ data }) {
           </button>
         )}
         {data.secondaryCta && (
-          <Link
-            href={data.secondaryHref || '#'}
+          <BlogCta
+            href={data.secondaryHref}
             className={styles.topPickSecondary}
+            popupConfig={data.popup}
           >
             {data.secondaryCta}
             <PiArrowRightBold aria-hidden />
-          </Link>
+          </BlogCta>
         )}
       </div>
 

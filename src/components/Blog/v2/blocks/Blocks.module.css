@@ -25,6 +25,7 @@
 .btnWhite,
 .btnGhost {
   display: inline-flex;
+  font-family: inherit;
   align-items: center;
   justify-content: center;
   padding: 11px 22px;
@@ -1399,6 +1400,7 @@
 }
 
 .topPickSecondary {
+  font-family: inherit;
   background: linear-gradient(90deg, #f97316 0%, #f59e0b 100%);
   color: #fff;
 }

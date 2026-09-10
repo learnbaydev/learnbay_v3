@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import BlogCta from './BlogCta';
 import { PiStackBold, PiCheckCircleFill } from 'react-icons/pi';
 import styles from './Blocks.module.css';
 
@@ -22,9 +22,9 @@ export function LearnbayStrip({ data }) {
         {data.text && <p className={styles.stripText}>{data.text}</p>}
       </div>
       {data.cta && (
-        <Link href={data.href || '#'} className={styles.btnPrimary}>
+        <BlogCta href={data.href || '#'} className={styles.btnPrimary} popupConfig={data.popup}>
           {data.cta}
-        </Link>
+        </BlogCta>
       )}
     </aside>
   );
@@ -64,17 +64,22 @@ export function LearnbaySplitCard({ data }) {
           </div>
         )}
         {data.primaryCta && (
-          <Link href={data.primaryHref || '#'} className={styles.btnPrimary}>
+          <BlogCta
+            href={data.primaryHref || '#'}
+            className={styles.btnPrimary}
+            popupConfig={data.primaryPopup || data.popup}
+          >
             {data.primaryCta}
-          </Link>
+          </BlogCta>
         )}
         {data.secondaryCta && (
-          <Link
+          <BlogCta
             href={data.secondaryHref || '#'}
             className={styles.btnSecondary}
+            popupConfig={data.secondaryPopup || data.popup}
           >
             {data.secondaryCta}
-          </Link>
+          </BlogCta>
         )}
         {finePrint && <p className={styles.splitFinePrint}>{finePrint}</p>}
       </div>
@@ -110,14 +115,22 @@ export function LearnbayDarkBand({ data }) {
       {(data.primaryCta || data.secondaryCta) && (
         <div className={styles.darkActions}>
           {data.primaryCta && (
-            <Link href={data.primaryHref || '#'} className={styles.btnWhite}>
+            <BlogCta
+              href={data.primaryHref || '#'}
+              className={styles.btnWhite}
+              popupConfig={data.primaryPopup || data.popup}
+            >
               {data.primaryCta}
-            </Link>
+            </BlogCta>
           )}
           {data.secondaryCta && (
-            <Link href={data.secondaryHref || '#'} className={styles.btnGhost}>
+            <BlogCta
+              href={data.secondaryHref || '#'}
+              className={styles.btnGhost}
+              popupConfig={data.secondaryPopup || data.popup}
+            >
               {data.secondaryCta}
-            </Link>
+            </BlogCta>
           )}
         </div>
       )}
@@ -159,9 +172,9 @@ export function ReportDownload({ data }) {
         {data.text && <p className={styles.reportText}>{data.text}</p>}
       </div>
 
-      <Link href={data.href || '#'} className={styles.btnDark}>
+      <BlogCta href={data.href || '#'} className={styles.btnDark} popupConfig={data.popup}>
         {data.cta || 'Download the report'}
-      </Link>
+      </BlogCta>
     </aside>
   );
 }

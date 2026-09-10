@@ -173,6 +173,7 @@
 .finalPrimary,
 .finalSecondary {
   display: inline-flex;
+  font-family: inherit;
   align-items: center;
   justify-content: center;
   padding: 13px 22px;

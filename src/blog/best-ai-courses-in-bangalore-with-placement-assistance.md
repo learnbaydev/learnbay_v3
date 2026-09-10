@@ -65,9 +65,14 @@ finalCta:
     Bring any two programs you are considering. In 15 minutes you will get a module-by-module read
     on both, including where Learnbay is not the right fit for your role.
   primaryCta: Book free counselling
-  primaryHref: https://www.learnbay.co/contact
+  primaryHref: popup
   secondaryCta: Download the syllabus
-  secondaryHref: https://www.learnbay.co/genai-and-agentic-ai-master-program
+  secondaryHref: popup
+  secondaryPopup:
+    formTitle: Get the full syllabus
+    formSubtitle: Enter your details and the PDF downloads straight away.
+    submitCta: Send me the syllabus
+    brochure: https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf
 faqs:
   - question: Which is the best AI course in Bangalore in 2026?
     answer:
@@ -591,7 +596,7 @@ data:
       A Learnbay counsellor maps your background to the right program in one 15-minute call, including
       when Learnbay is not the right choice.
     cta: Book free counselling
-    href: https://www.learnbay.co/contact
+    href: popup
   programLineup:
     badgeLeft: '9 programs compared'
     badgeRight: '6 criteria · scored out of 10'
@@ -669,7 +674,12 @@ data:
       Download the full Learnbay module list, including the LLMOps, platform engineering and Responsible
       AI modules, and compare it line by line against any shortlist.
     cta: Download syllabus
-    href: 'https://www.learnbay.co/genai-and-agentic-ai-master-program'
+    href: popup
+    popup:
+      formTitle: Get the full syllabus
+      formSubtitle: Enter your details and the PDF downloads straight away.
+      submitCta: Send me the syllabus
+      brochure: https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf
   sdeProgram:
     label: LEARNBAY PROGRAM · SDE MASTER PROGRAM
     title: Generative AI and Agentic AI
@@ -686,7 +696,7 @@ data:
     primaryCta: Explore the SDE program
     primaryHref: https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai
     secondaryCta: Talk to a counsellor
-    secondaryHref: https://www.learnbay.co/contact
+    secondaryHref: popup
     stats:
       - value: 7–8 months
         label: 300+ live hours

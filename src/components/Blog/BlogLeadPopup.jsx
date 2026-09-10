@@ -65,6 +65,20 @@ async function fetchLocation() {
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 /**
+ * Starts a brochure download, mirroring the site-wide form's helper. The S3
+ * bucket already serves these with `Content-Disposition: attachment`, so the
+ * anchor click saves the file rather than opening a PDF viewer.
+ */
+function triggerDownload(url) {
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = url.split('/').pop();
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+
+/**
  * The blog lead popup. One component for every blog CTA, so the popup only has
  * to be designed once. Copy is overridable per post via `config`.
  *
@@ -133,6 +147,7 @@ const BlogLeadPopup = ({ open, onClose, config = {} }) => {
     Object.entries(values).forEach(([key, value]) => formData.append(key, value));
     formData.append('url', router.asPath);
     formData.append('platform', content.platform || 'Blog');
+    if (content.brochure) formData.append('brochureLink', content.brochure);
 
     const location = await fetchLocation();
     Object.entries(location).forEach(([key, value]) =>
@@ -144,6 +159,9 @@ const BlogLeadPopup = ({ open, onClose, config = {} }) => {
         method: 'POST',
         body: formData,
       });
+      // Only after the lead is away — a failed submit should not hand over the
+      // brochure.
+      if (content.brochure) triggerDownload(content.brochure);
       setDone(true);
     } catch (error) {
       console.error('Lead submission failed:', error);
@@ -205,10 +223,23 @@ const BlogLeadPopup = ({ open, onClose, config = {} }) => {
               <span className={styles.successTick} aria-hidden>
                 ✓
               </span>
-              <p className={styles.formTitle}>Thanks — you’re booked in.</p>
+              <p className={styles.formTitle}>
+                {content.brochure
+                  ? 'Thanks — your brochure is downloading.'
+                  : 'Thanks — you’re booked in.'}
+              </p>
               <p className={styles.formSubtitle}>
-                A Learnbay counsellor will call you shortly on the number you
-                gave us.
+                {content.brochure ? (
+                  <>
+                    If it did not start,{' '}
+                    <a href={content.brochure} download>
+                      download it here
+                    </a>
+                    . A counsellor will also call you shortly.
+                  </>
+                ) : (
+                  'A Learnbay counsellor will call you shortly on the number you gave us.'
+                )}
               </p>
               <button
                 type="button"

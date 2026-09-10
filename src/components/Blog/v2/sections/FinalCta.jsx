@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import BlogCta from '../blocks/BlogCta';
 import styles from './Sections.module.css';
 
 const FinalCta = ({ config }) => {
@@ -14,20 +14,14 @@ const FinalCta = ({ config }) => {
 
         <div className={styles.finalActions}>
           {config.primaryCta && (
-            <Link
-              href={config.primaryHref || '#'}
-              className={styles.finalPrimary}
-            >
+            <BlogCta href={config.primaryHref || '#'} className={styles.finalPrimary} popupConfig={config.primaryPopup || config.popup}>
               {config.primaryCta}
-            </Link>
+            </BlogCta>
           )}
           {config.secondaryCta && (
-            <Link
-              href={config.secondaryHref || '#'}
-              className={styles.finalSecondary}
-            >
+            <BlogCta href={config.secondaryHref || '#'} className={styles.finalSecondary} popupConfig={config.secondaryPopup || config.popup}>
               {config.secondaryCta}
-            </Link>
+            </BlogCta>
           )}
         </div>
       </div>
