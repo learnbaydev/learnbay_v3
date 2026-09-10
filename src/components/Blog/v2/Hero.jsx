@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { getAuthorHref } from '@/lib/blog/authors';
 import styles from './Hero.module.css';
 
 // `titleHighlight` is the tail of the headline the design sets in accent blue.
@@ -77,7 +78,16 @@ const Hero = ({ post }) => (
         <MetaItem label="LAST UPDATED" value={post.date} />
         <MetaItem label="CATEGORY" value={post.category} />
         <MetaItem label="READING TIME" value={post.readTime} />
-        <MetaItem label="AUTHOR" value={post.author} />
+        <MetaItem
+          label="AUTHOR"
+          value={
+            getAuthorHref(post.author) ? (
+              <Link href={getAuthorHref(post.author)}>{post.author}</Link>
+            ) : (
+              post.author
+            )
+          }
+        />
       </div>
     </div>
 

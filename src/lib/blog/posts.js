@@ -76,6 +76,32 @@ function summarize(slugs) {
     .filter(Boolean);
 }
 
+/**
+ * Every post by a given author, newest first, as card-sized summaries for the
+ * author profile pages. Matches on the frontmatter `author:` string.
+ */
+export function getPostsByAuthor(name) {
+  const wanted = String(name || '').trim().toLowerCase();
+  if (!wanted) return [];
+
+  return getPostSlugs()
+    .map((slug) => {
+      const file = readRaw(slug);
+      if (!file) return null;
+      const author = String(file.data.author || '').trim().toLowerCase();
+      if (author !== wanted) return null;
+      return { ...getPostSummary(slug), publishedDate: file.data.publishedDate };
+    })
+    .filter(Boolean)
+    .sort((a, b) => {
+      // publishedDate is ISO where present; fall back to keeping file order.
+      const left = Date.parse(a.publishedDate || '') || 0;
+      const right = Date.parse(b.publishedDate || '') || 0;
+      return right - left;
+    })
+    .map(({ publishedDate, ...summary }) => summary);
+}
+
 export function loadPost(slug) {
   const file = readRaw(slug);
   if (!file) return null;

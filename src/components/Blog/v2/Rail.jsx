@@ -8,6 +8,7 @@ import {
   PiCheckBold,
 } from 'react-icons/pi';
 import { FaXTwitter } from 'react-icons/fa6';
+import { getAuthorByName, getAuthorHref } from '@/lib/blog/authors';
 import styles from './Rail.module.css';
 
 const FALLBACK_THUMB = 'linear-gradient(135deg, #2563eb 0%, #7c5ce6 71%)';
@@ -150,6 +151,9 @@ function useActiveHeading(headings) {
 
 const Rail = ({ post, headings }) => {
   const activeId = useActiveHeading(headings);
+  // Registry photo when we have one; the initials disc is the fallback for a
+  // byline with no author profile.
+  const authorPhoto = getAuthorByName(post.author)?.photo;
 
   return (
     <aside className={styles.rail}>
@@ -183,9 +187,26 @@ const Rail = ({ post, headings }) => {
         <div className={styles.block}>
           <p className={styles.label}>AUTHOR</p>
           <div className={styles.author}>
-            <span className={styles.avatar}>{post.authorInitials}</span>
+            {authorPhoto ? (
+              <img
+                className={styles.avatarPhoto}
+                src={authorPhoto}
+                alt={post.author}
+                width={44}
+                height={44}
+                loading="lazy"
+              />
+            ) : (
+              <span className={styles.avatar}>{post.authorInitials}</span>
+            )}
             <div>
-              <p className={styles.authorName}>{post.author}</p>
+              <p className={styles.authorName}>
+                {getAuthorHref(post.author) ? (
+                  <Link href={getAuthorHref(post.author)}>{post.author}</Link>
+                ) : (
+                  post.author
+                )}
+              </p>
               <p className={styles.authorBio}>{post.authorBio}</p>
             </div>
           </div>
