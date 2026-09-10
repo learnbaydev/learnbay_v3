@@ -833,6 +833,8 @@ LinkedIn’s Skills on the Rise 2026 list for India names prompt engineering, wo
 
 Two of the five fastest-growing roles are operations roles, not modelling roles. Hence, any AI course in Bangalore that stops at CNN and LSTM is selling you a 2021 syllabus at a 2026 price. That single filter removes most of the **best AI courses in Bangalore** lists you will find on page one.
 
+![Horizontal bar chart of the CIEL HR growth figures.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/SkillDemand2.webp)
+
 ## How This Comparison Was Built
 
 :::note
@@ -870,6 +872,8 @@ Two findings stand out.
 RAG is missing by name from both Simplilearn’s and Intellipaat’s flagship technical syllabi, even though both are marketed as Generative AI programs.
 
 Responsible AI and guardrails appear as a graded module in only four of the ten, despite the India AI Governance Guidelines released by MeitY in February 2026 making AI governance capacity a stated national priority.
+
+![Grid of the ten programs against the 2026 skills and the operations skills.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/SyllabusDepthMatrix3.webp)
 
 ## Production Depth: MLOps, LLMOps and AIOps in Bangalore AI Courses
 
@@ -1131,6 +1135,8 @@ Here, you will check:
 ::checklist{from=tenChecks cols=2}
 
 Hence, a shortlist of three programs scored on these ten points will beat any listicle ranking, including this one.
+
+![Branching diagram starting at "Are you a software engineer?"](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Decisionflowchart4.webp)
 
 ## Five Mistakes Bangalore Learners Keep Making
 

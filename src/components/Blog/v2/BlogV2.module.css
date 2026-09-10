@@ -153,10 +153,28 @@
   color: var(--lb-faint);
 }
 
+/* `width: 100%` is load-bearing, not cosmetic. A markdown image carries no
+   width/height, so before it loads the element measures 0x0 — and Chrome never
+   fires the loading="lazy" fetch for a zero-sized box, so the image silently
+   never appears. Giving it a real width up front means the lazy fetch triggers
+   on scroll as intended. */
 .prose img {
   max-width: 100%;
   height: auto;
   border-radius: var(--lb-radius);
+}
+
+/* A markdown image on its own line (`![alt](url)`) becomes a paragraph holding
+   nothing else. Give it a real box before it loads: with no width/height
+   attributes the element measures 0x0, and Chrome never fires the
+   loading="lazy" fetch for a zero-sized box, so the image silently never
+   appears. The two-value aspect-ratio uses the image's own ratio once known and
+   the 16/9 fallback only before that, which also reserves space against CLS.
+   Scoped to :only-child so an inline image inside a sentence is left alone. */
+.prose p > img:only-child {
+  display: block;
+  width: 100%;
+  aspect-ratio: auto 16 / 9;
 }
 
 .prose hr {
