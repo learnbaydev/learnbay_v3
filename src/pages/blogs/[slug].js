@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 
 import { getPostSlugs, loadPost, getNextPost } from '@/lib/blog/posts';
+import ReadingProgress from '@/components/Blog/ReadingProgress';
 
 // One layout per post, picked by the `layout` key in the markdown frontmatter.
 // Loading them dynamically keeps a v1 post from shipping the v2 stylesheet and
@@ -124,6 +125,9 @@ const Blog = ({ postData, nextPost }) => {
           />
         )}
       </Head>
+
+      {/* Sits above both layouts so every blog post gets the scroll indicator. */}
+      <ReadingProgress />
 
       {postData.layout === 'v2' ? (
         <BlogV2 post={postData} />
