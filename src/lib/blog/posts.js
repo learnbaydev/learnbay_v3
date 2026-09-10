@@ -119,6 +119,7 @@ export function loadPost(slug) {
     postData.authorBio = data.authorBio || '';
     postData.programCard = data.programCard || null;
     postData.finalCta = data.finalCta || null;
+    postData.popup = data.popup || null;
     postData.data = data.data || {};
     postData.editorsPicks = summarize(data.editorsPicks);
     postData.relatedPosts = summarize(data.relatedPosts);

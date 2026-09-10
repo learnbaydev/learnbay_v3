@@ -21,6 +21,8 @@ import {
   LearnbayDarkBand,
   ReportDownload,
 } from './LearnbayBlocks';
+import { TopPick } from './TopPick';
+import { ProgramLineup } from './ProgramLineup';
 import {
   Faq,
   CourseCarousel,
@@ -61,6 +63,8 @@ export const BLOCKS = {
   'learnbay-split-card': { component: LearnbaySplitCard },
   'learnbay-dark-band': { component: LearnbayDarkBand },
   'report-download': { component: ReportDownload },
+  'top-pick': { component: TopPick },
+  'program-lineup': { component: ProgramLineup },
 
   // Configured entirely by attributes — ::youtube{id=... title="..."}
   youtube: { component: YouTube, attrsOnly: true },

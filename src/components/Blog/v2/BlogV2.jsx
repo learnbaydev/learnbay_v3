@@ -9,6 +9,7 @@ import Navbar from '@/components/Global/Navbar/Navbar';
 import Footer from '@/components/Global/Footer/Footer';
 import remarkBlocks from '@/lib/blog/remarkBlocks';
 import { slugToId } from '@/lib/blog/slug';
+import { externalLinkProps } from '@/lib/blog/links';
 
 import Hero from './Hero';
 import Rail from './Rail';
@@ -69,6 +70,11 @@ const BlogV2 = ({ post }) => {
         <h3 id={headingId(children)} {...props}>
           {children}
         </h3>
+      ),
+      // Anything not on learnbay.co gets nofollow and opens in a new tab. The
+      // policy props go last so a hand-written rel in a post cannot weaken it.
+      a: ({ node, href, ...props }) => (
+        <a href={href} {...props} {...externalLinkProps(href)} />
       ),
       table: ({ node, ...props }) => (
         <div className={styles.tableScroll}>

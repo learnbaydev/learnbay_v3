@@ -64,7 +64,10 @@ const ComponentWithPopup = ({ Component, pageProps }) => {
   const router = useRouter();
 
   useEffect(() => {
-    if (router.pathname !== "/organic/generic" && router.pathname !== "/submit-info" && router.pathname !== "/fullstack/dsa-system-design") {
+    // Blog posts run their own scroll-triggered popup (BlogAutoPopup), which
+    // shares the same `hasSeenPopup` session flag. Excluded here so a reader
+    // never gets both.
+    if (router.pathname !== "/organic/generic" && router.pathname !== "/submit-info" && router.pathname !== "/fullstack/dsa-system-design" && router.pathname !== "/blogs/[slug]") {
       const timer = setTimeout(() => {
         triggerPopup("");
       }, 5000);

@@ -6,6 +6,7 @@ import Link from 'next/link';
 
 import { Children, useEffect, useState, useRef, useMemo } from 'react';
 import Navbar from '@/components/Global/Navbar/Navbar';
+import { externalLinkProps } from '@/lib/blog/links';
 import { TestingCourseData } from '@/CityData/testingData/testingData';
 
 const RelatedCourses = dynamic(
@@ -79,6 +80,10 @@ const BlogV1 = ({ postData, nextPost }) => {
         const id = extractText(props.children);
         return <h3 id={id} {...props} />;
       },
+      // Anything not on learnbay.co gets nofollow and opens in a new tab.
+      a: ({ node, href, ...props }) => (
+        <a href={href} {...props} {...externalLinkProps(href)} />
+      ),
       // Posts author wide, inline-styled tables. Give every one a horizontal
       // scroll container so narrow screens can reach the off-screen columns
       // instead of clipping them against body { overflow-x: hidden }.

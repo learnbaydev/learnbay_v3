@@ -98,6 +98,46 @@ finalCta:
 Omit any of these and the corresponding piece of the page simply does not
 render. There are no placeholders to clean up.
 
+### The blog lead popup
+
+Every blog CTA that collects a lead opens the same component,
+[`BlogLeadPopup`](../src/components/Blog/BlogLeadPopup.jsx) — one design for all
+posts. It ships working defaults, so a block that opens it needs no config.
+
+It posts the same FormData keys (`name`, `email`, `phone`, `WorkExperience`,
+`url`, `platform`, `country`, `region`, `city`) to the same endpoint as the
+homepage form: `getEndPoint(router.pathname)` has no case for `/blogs/[slug]`,
+so both fall through to the same getform.io destination. The experience options
+match the site-wide form's values exactly.
+
+**It also opens on its own, once, after the reader passes 20% of the post.**
+That is session-gated through the same `hasSeenPopup` key the site-wide popup
+uses, so a reader sees at most one promo popup per session anywhere on the site.
+Blog routes are excluded from the site-wide 5-second popup in `_app.js` for the
+same reason — do not re-add them.
+
+A post can override the auto-popup copy with a **top-level** `popup:` key in
+frontmatter; the same shape overrides a block's popup when nested under that
+block's data.
+
+To override the copy for one post, add a `popup:` object to the block's data:
+
+```yaml
+topPick:
+  # …card fields…
+  popup:
+    eyebrow: 'AI Engineering Master Program'
+    title: 'Not sure this is the right track for you?'
+    text: 'One call is usually enough to know.'
+    points: ['A straight answer on whether your background fits']
+    formTitle: 'Book a free counselling call'
+    formSubtitle: 'No cost, no obligation. Takes 15 minutes.'
+    submitCta: 'Book my free call'
+    secondaryCta: 'Just show me the program'
+    secondaryHref: '/genai-and-agentic-ai-master-program'
+    platform: 'Blog'      # tags the lead source in the inbox
+```
+
 There is deliberately **no newsletter or email-capture block**. Learnbay has no
 mailing list behind it, and a form that posts nowhere is worse than no form —
 so `report-download` links straight to the asset via `href` instead of asking
@@ -161,6 +201,8 @@ data:
 | `learnbay-split-card` | `{label,title,text,points,facts,primaryCta,…}` | Grey card with pricing panel |
 | `learnbay-dark-band` | `{label,title,titleAccent,text,tags,stats,…}` | Full dark gradient band |
 | `report-download` | `{title, text, cta, href}` | Report/PDF card linking straight to the asset |
+| `program-lineup` | `{badgeLeft, badgeRight, programs: [{name, accent, meta, pitch, points, href}], stats: [{value,label}]}` | Dark panel with a scrollable row of program cards. `accent` is one of `orange`, `teal`, `violet`, `cyan`, `blue`; omit it and cards cycle through them in order. |
+| `top-pick` | `{badge, title, text, points, primaryCta, secondaryCta, secondaryHref, formTitle}` | "Our #1 pick" card. `text` supports `**bold**`. The primary CTA opens the site's standard lead popup; the secondary is a plain link. |
 | `youtube` | *no `from`* | `::youtube{id=abc123 title="…" caption="…"}` |
 
 **Tables** (`scenario-table`, `comparison-matrix`) take:
@@ -188,6 +230,11 @@ amber dash. Anything else renders as text.
 - **A `from=` key that isn't in `data:`** also warns in dev and renders nothing.
 - **Blocks are full width (894px); prose is 720px.** That is deliberate — the
   measure stays readable while tables and cards use the full column.
+- **Outbound links are handled for you.** Any link that is not on
+  `learnbay.co` (or a subdomain) is rendered with
+  `rel="nofollow noopener noreferrer"` and `target="_blank"` automatically, in
+  both layouts — see [`src/lib/blog/links.js`](../src/lib/blog/links.js). Write
+  plain markdown links; do not hand-write `<a rel="nofollow">` in a post.
 - **Don't put `<style>` tags in a post.** They are stripped on both layouts;
   unscoped `table`/`td` rules used to leak site-wide.
 

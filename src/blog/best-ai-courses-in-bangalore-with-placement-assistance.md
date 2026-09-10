@@ -592,6 +592,77 @@ data:
       when Learnbay is not the right choice.
     cta: Book free counselling
     href: https://www.learnbay.co/contact
+  programLineup:
+    badgeLeft: '9 programs compared'
+    badgeRight: '6 criteria · scored out of 10'
+    programs:
+      - name: 'Applied AI & Business Analytics'
+        accent: 'orange'
+        meta: '9 MONTHS  •  NO CODING NEEDED'
+        pitch: 'For professionals using AI to solve business problems'
+        points:
+          - 'No prior coding experience required.'
+          - 'For BAs, BFSI, marketing, supply chain, HR and consulting.'
+          - 'Career readiness begins in month 5.'
+        href: 'https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program'
+      - name: 'Forward Deployed AI Engineer'
+        accent: 'teal'
+        meta: '12 MONTHS  •  LIVE + HYBRID'
+        pitch: 'For engineers delivering enterprise AI from design to deployment'
+        points:
+          - 'Advanced RAG, enterprise AI and agentic engineering.'
+          - 'Tracks in Software & SaaS, Data & Analytics, Cloud.'
+          - 'Optional DSA track for product-company interviews.'
+        href: 'https://www.learnbay.co/artificial-intelligence/forward-deployed-engineer-course'
+      - name: 'GenAI & Agentic AI Certification'
+        accent: 'violet'
+        meta: '9 MONTHS  •  LIVE + HYBRID'
+        pitch: 'For engineers building GenAI & agentic AI systems'
+        points:
+          - 'Role tracks for SDE, Cloud & DevOps or Data Analyst.'
+          - 'Domain electives in BFSI, retail and manufacturing.'
+          - 'Two months of domain electives and live projects.'
+        href: 'https://www.learnbay.co/genai-and-agentic-ai-master-program'
+      - name: 'AI-Powered Cloud & DevOps'
+        accent: 'cyan'
+        meta: '9 MONTHS  •  LIVE + HYBRID'
+        pitch: 'For engineers building and operating AI infrastructure at scale'
+        points:
+          - 'Role-based specialisation across cloud and DevOps.'
+          - 'Pipelines, infrastructure, reliability and cost at scale.'
+          - 'IBM and Microsoft certification track.'
+        href: 'https://www.learnbay.co/cloud-and-devops/ai-powered-cloud-devops-masters-certification'
+      - name: 'Advanced Data Science & ML'
+        accent: 'blue'
+        meta: '12 MONTHS  •  LIVE + HYBRID'
+        pitch: 'For tech professionals going deep on modelling'
+        points:
+          - 'Hiring prep begins in month 5, mid-programme.'
+          - 'Statistics, ML and deep learning, then domain specialisation.'
+          - 'Electives in NLP, computer vision or R.'
+        href: 'https://www.learnbay.co/datascience/advance-data-science-certification-courses'
+    stats:
+      - { value: '₹7K–₹5L+', label: 'Fee spread across the nine' }
+      - { value: '50+', label: 'Programs reviewed' }
+      - { value: '8', label: 'Curriculum topics scored' }
+      - { value: '21', label: 'Questions answered' }
+
+  topPick:
+    badge: 'Our #1 Pick for 2026'
+    title: 'Learnbay GenAI & Agentic AI Master Program'
+    text:
+      'Best for **working professionals and career switchers** looking for job-focused live
+      training, practical AI projects, ML, GenAI, RAG and Agentic AI mentorship, and placement
+      support.'
+    points:
+      - 'Live weekend & weekday classes'
+      - 'Complete ML, GenAI & Agentic-AI curriculum'
+      - 'Hands-on portfolio projects'
+      - 'Job placement support'
+    primaryCta: 'Book a Free Call with an AI Expert'
+    secondaryCta: 'Check Course'
+    secondaryHref: 'https://www.learnbay.co/genai-and-agentic-ai-master-program'
+
   syllabusPdf:
     title: Want to run this checklist yourself?
     text:
@@ -840,6 +911,8 @@ Seven criteria decided the order:
 
 ::comparison-matrix{from=topTen}
 
+::top-pick{from=topPick}
+
 ## Syllabus Depth: Which Bangalore AI Course Teaches the 2026 Stack?
 
 :::note
@@ -941,7 +1014,7 @@ Add the practical parts. Microsoft and IBM GenAI certification. 40+ guided hands
 
 ### 2. IISc Bangalore with TalentSprint: Agentic and Generative AI
 
-<a href="https://talentsprint.com/course/agentic-and-generative-ai-iisc" rel="nofollow noopener" target="_blank">talentsprint.com/course/agentic-and-generative-ai-iisc</a>
+[talentsprint.com/course/agentic-and-generative-ai-iisc](https://talentsprint.com/course/agentic-and-generative-ai-iisc)
 
 **What is actually in it.** Ten modules across 6 months. Practical GenAI foundations, building GenAI applications, large language models taught at the level of masked multi-head attention and layer normalisation, multimodal AI, agentic AI including Model Context Protocol, scientific ML, foundation model fine-tuning with supervised fine-tuning and reward models, AI safety with guardrails, LLMOps with quantisation and serving, and federated learning.
 
@@ -953,7 +1026,7 @@ Add the practical parts. Microsoft and IBM GenAI certification. 40+ guided hands
 
 ### 3. IIIT Bangalore with upGrad: Executive PG in Applied AI and Agentic AI
 
-<a href="https://www.upgrad.com/applied-ai-and-agentic-ai-executive-pgp-certification-iiitb/" rel="nofollow noopener" target="_blank">upgrad.com/applied-ai-and-agentic-ai-executive-pgp-certification-iiitb</a>
+[upgrad.com/applied-ai-and-agentic-ai-executive-pgp-certification-iiitb](https://www.upgrad.com/applied-ai-and-agentic-ai-executive-pgp-certification-iiitb/)
 
 **What is actually in it.** Two tracks over 30 weeks. Weeks 1 to 15 cover foundations and data engineering, machine learning and deep learning, then MLOps and production systems with AWS, Docker, SageMaker and MLflow. Weeks 16 to 30 cover LLM foundations and RAG systems, agent frameworks including LangChain, LlamaIndex, LangGraph, AutoGen and CrewAI, then fine-tuning with LoRA, scale and security.
 
@@ -965,7 +1038,7 @@ Add the practical parts. Microsoft and IBM GenAI certification. 40+ guided hands
 
 ### 4. Edureka with Illinois Tech: PGP in Generative AI and Agentic AI
 
-<a href="https://www.edureka.co/executive-programs/pgp-generative-ai-machine-learning-certification-training" rel="nofollow noopener" target="_blank">edureka.co/executive-programs/pgp-generative-ai-machine-learning-certification-training</a>
+[edureka.co/executive-programs/pgp-generative-ai-machine-learning-certification-training](https://www.edureka.co/executive-programs/pgp-generative-ai-machine-learning-certification-training)
 
 **What is actually in it.** Eight modules over 6 months. Modern Python with AI-assisted development, GenAI and context engineering with DSPy, building and shipping LLM applications with advanced RAG and GraphRAG, autonomous agents with LangGraph, CrewAI and AutoGen, then a full module on MCP, A2A and guardrails, no-code automation with n8n, and LLMOps with monitoring and governance.
 
@@ -977,7 +1050,7 @@ Add the practical parts. Microsoft and IBM GenAI certification. 40+ guided hands
 
 ### 5. AnalytixLabs: Full Stack Applied AI Course
 
-<a href="https://www.analytixlabs.co.in/applied-ai-and-machine-learning-course" rel="nofollow noopener" target="_blank">analytixlabs.co.in/applied-ai-and-machine-learning-course</a>
+[analytixlabs.co.in/applied-ai-and-machine-learning-course](https://www.analytixlabs.co.in/applied-ai-and-machine-learning-course)
 
 **What is actually in it.** Three stages over 3.5 months. Stage 1 covers GenAI basics, prompt patterns and no-code agents with Zapier, n8n and Make. Stage 2 codes self-attention in PyTorch, builds a GPT from scratch, then covers PEFT and LoRA, LangChain, vector databases with FAISS, Pinecone and Weaviate, RAG with chunking and re-ranking, CrewAI and AutoGen, then LangGraph with MCP and A2A protocols. Stage 3 is self-paced deep learning and computer vision.
 
@@ -989,7 +1062,7 @@ Add the practical parts. Microsoft and IBM GenAI certification. 40+ guided hands
 
 ### 7. Great Learning with UT Austin: PGP in AI and Machine Learning
 
-<a href="https://www.mygreatlearning.com/pg-program-online-artificial-intelligence-machine-learning" rel="nofollow noopener" target="_blank">mygreatlearning.com/pg-program-online-artificial-intelligence-machine-learning</a>
+[mygreatlearning.com/pg-program-online-artificial-intelligence-machine-learning](https://www.mygreatlearning.com/pg-program-online-artificial-intelligence-machine-learning)
 
 **What is actually in it.** Five courses over 23 weeks. Python for AI solutions, predictive modelling with regression, decision trees, K-means and ensembles, GenAI for NLP with LLMs, prompt engineering, RAG and responsible AI, then agentic AI for automation with single and multi-agent systems, then deploying AI solutions.
 
@@ -1001,7 +1074,7 @@ Add the practical parts. Microsoft and IBM GenAI certification. 40+ guided hands
 
 ### 8. DataMites: Artificial Intelligence Engineer Course
 
-<a href="https://datamites.com/artificial-intelligence-course-training-bangalore/" rel="nofollow noopener" target="_blank">datamites.com/artificial-intelligence-course-training-bangalore</a>
+[datamites.com/artificial-intelligence-course-training-bangalore](https://datamites.com/artificial-intelligence-course-training-bangalore/)
 
 **What is actually in it.** Eighteen blocks across 780 learning hours. Python, statistics and probability, core and advanced machine learning with SVM, PCA, random forest, XGBoost and ARIMA, deep learning with Keras and TensorFlow, computer vision with YOLO and Faster R-CNN, NLP through BERT, a dedicated prompt engineering module, reinforcement learning, GANs and autoencoders. It also teaches SQL, MongoDB, Git, PySpark, Hive, Tableau and Power BI, plus Flask deployment on AWS EC2 and Azure ML Studio.
 
@@ -1013,7 +1086,7 @@ Add the practical parts. Microsoft and IBM GenAI certification. 40+ guided hands
 
 ### 9. Simplilearn with Michigan Engineering and IBM
 
-<a href="https://www.simplilearn.com/professional-aiml-program" rel="nofollow noopener" target="_blank">simplilearn.com/professional-aiml-program</a>
+[simplilearn.com/professional-aiml-program](https://www.simplilearn.com/professional-aiml-program)
 
 **What is actually in it.** Nine core modules over 24 weeks. Python refresher, applied data science, machine learning with TensorFlow, Keras and PyTorch, deep learning with CNN, transfer learning, object detection and RNN, then GenAI literacy covering transformers, GANs and LLMs, plus two IBM GenAI modules and a capstone. Electives add prompt engineering with chain-of-thought, advanced GenAI with LangChain, and an Agentic AI masterclass.
 
@@ -1025,7 +1098,7 @@ Add the practical parts. Microsoft and IBM GenAI certification. 40+ guided hands
 
 ### 10. Intellipaat with IIT Indore: Executive Certification in GenAI and ML
 
-<a href="https://intellipaat.com/generative-ai-machine-learning-course/" rel="nofollow noopener" target="_blank">intellipaat.com/generative-ai-machine-learning-course</a>
+[intellipaat.com/generative-ai-machine-learning-course](https://intellipaat.com/generative-ai-machine-learning-course/)
 
 **What is actually in it.** Seven modules over 7 months. SQL, Python with OOP and preprocessing, statistics for ML, machine learning with regression, classification and clustering, NLP with NLTK and sentiment analysis, then GenAI and prompt engineering covering transformers, BERT, GPT, LLMs, RLHF, LangChain fundamentals and Gradio. Deep learning and computer vision are electives.
 
@@ -1103,7 +1176,7 @@ If you get into any institute that offers offline doubt-clearing sessions, you s
 
 All tracks share the same spine. Python for GenAI, Foundation for GenAI, Advanced Generative AI, Agentic AI and Automation, then LLMOps and Production Deployment. The electives and the closing modules change by role.
 
-::course-carousel{from=learnbayTrackCards}
+::program-lineup{from=programLineup}
 
 ## How to Choose the Right AI Course in Bangalore
 

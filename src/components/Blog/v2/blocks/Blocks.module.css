@@ -1278,3 +1278,425 @@
     font-size: 19px;
   }
 }
+
+/* ---------- Top pick card ---------- */
+
+.topPick {
+  position: relative;
+  margin: 0 0 26px;
+  padding: 34px 40px 36px;
+  text-align: center;
+  border: 1px solid var(--lb-line);
+  border-radius: var(--lb-radius-lg);
+  background:
+    radial-gradient(120% 140% at 50% 0%, #f4f7ff 0%, #fbfcff 45%, #fff 100%);
+  box-shadow: var(--lb-shadow);
+}
+
+.topPickBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0 0 14px;
+  padding: 7px 16px;
+  border: 1px solid #dfe4f5;
+  border-radius: var(--lb-pill);
+  background: #fff;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--lb-ink);
+}
+
+.topPickBadge svg {
+  color: var(--lb-accent);
+  font-size: 14px;
+}
+
+.topPickTitle {
+  margin: 0 0 12px;
+  font-family: var(--lb-font-display), sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.7px;
+  background: linear-gradient(90deg, #2563eb 0%, #7c5ce6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.topPickText {
+  max-width: 620px;
+  margin: 0 auto 20px;
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: var(--lb-muted);
+}
+
+.topPickText strong {
+  font-weight: 600;
+  color: var(--lb-ink);
+}
+
+/* Two columns of ticks, centred as a block but left-aligned internally so the
+   tick and its label stay on a common baseline. */
+.topPickPoints {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 32px;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 24px;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.topPickPoint {
+  display: flex;
+  gap: 9px;
+  align-items: flex-start;
+  font-size: 14.5px;
+  line-height: 1.45;
+  color: var(--lb-body);
+}
+
+.topPickTick {
+  flex-shrink: 0;
+  margin-top: 1px;
+  font-size: 17px;
+  color: var(--lb-accent);
+}
+
+.topPickActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.topPickPrimary,
+.topPickSecondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 14px 26px;
+  border: 1px solid transparent;
+  border-radius: var(--lb-radius-sm);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.topPickPrimary {
+  background: linear-gradient(90deg, #2563eb 0%, #7c5ce6 100%);
+  color: #fff;
+}
+
+.topPickSecondary {
+  background: linear-gradient(90deg, #f97316 0%, #f59e0b 100%);
+  color: #fff;
+}
+
+.topPickPrimary:hover,
+.topPickSecondary:hover {
+  filter: brightness(1.06);
+}
+
+@media (max-width: 720px) {
+  .topPick {
+    padding: 26px 20px 28px;
+  }
+
+  .topPickTitle {
+    font-size: 23px;
+    letter-spacing: -0.5px;
+  }
+
+  .topPickPoints {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .topPickActions {
+    flex-direction: column;
+  }
+
+  .topPickPrimary,
+  .topPickSecondary {
+    width: 100%;
+  }
+}
+
+/* ---------- Program lineup ---------- */
+
+.lineup {
+  margin: 0 0 26px;
+  padding: 24px;
+  border-radius: var(--lb-radius);
+  background: linear-gradient(141deg, #122a63 0%, #0b1533 37%, #2a1b5e 67%);
+}
+
+.lineupTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.lineupPill {
+  padding: 5px 12px;
+  border-radius: var(--lb-pill);
+  background: rgba(255, 255, 255, 0.14);
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #fff;
+}
+
+/* Five cards do not fit the 894px column at a readable size, so the row scrolls
+   — the design shows them as a single fan and this preserves that order. */
+.lineupTrack {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 268px;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+  padding-bottom: 10px;
+}
+
+.lineupTrack::-webkit-scrollbar {
+  height: 6px;
+}
+
+.lineupTrack::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: var(--lb-pill);
+}
+
+.programCard {
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  background: #fff;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 8px 24px -8px rgba(15, 26, 43, 0.35);
+  transition: transform 0.18s ease;
+}
+
+.programCard:hover {
+  transform: translateY(-3px);
+}
+
+.programHeader {
+  position: relative;
+  display: block;
+  padding: 16px 14px 14px;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* The three translucent rings behind the header text. */
+.programRings {
+  position: absolute;
+  inset: -40% -20% auto -20%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, transparent 32%, rgba(255, 255, 255, 0.07) 32.5%, rgba(255, 255, 255, 0.07) 40%, transparent 40.5%),
+    radial-gradient(circle, transparent 48%, rgba(255, 255, 255, 0.06) 48.5%, rgba(255, 255, 255, 0.06) 56%, transparent 56.5%),
+    radial-gradient(circle, transparent 64%, rgba(255, 255, 255, 0.05) 64.5%, rgba(255, 255, 255, 0.05) 72%, transparent 72.5%);
+  pointer-events: none;
+}
+
+.programCohort {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 3px 9px;
+  border-radius: var(--lb-pill);
+  background: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--lb-ink);
+}
+
+.programName {
+  position: relative;
+  display: block;
+  clear: both;
+  padding-top: 14px;
+  font-family: var(--lb-font-display), sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.22;
+  letter-spacing: -0.18px;
+  color: #fff;
+}
+
+.programCertified {
+  position: relative;
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.9px;
+  color: #fff;
+}
+
+.programCertified svg {
+  font-size: 12px;
+  flex-shrink: 0;
+}
+
+.programBody {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  padding: 16px 18px 18px;
+}
+
+.programMeta {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.9px;
+  color: var(--lb-faint);
+}
+
+.programPitch {
+  display: block;
+  margin-bottom: 12px;
+  font-family: var(--lb-font-display), sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--lb-ink);
+}
+
+.programPoints {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.programPoint {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--lb-body);
+}
+
+.programTick {
+  flex-shrink: 0;
+  margin-top: 2px;
+  font-size: 14px;
+  color: var(--lb-positive);
+}
+
+.programFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid #e6eaf2;
+}
+
+.programCta {
+  font-family: var(--lb-font-display), sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--lb-ink);
+}
+
+.programArrow {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--lb-pill);
+  background: #1769e0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.programCard:hover .programArrow {
+  background: var(--lb-ink);
+}
+
+/* ---------- Lineup stats ---------- */
+
+.lineupStats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.lineupStat {
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.lineupStatValue {
+  margin: 0 0 5px;
+  font-family: var(--lb-font-display), sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.7px;
+  color: #fff;
+}
+
+.lineupStatLabel {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 720px) {
+  .lineup {
+    padding: 18px 16px;
+  }
+
+  .lineupTop {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .lineupStats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lineupStatValue {
+    font-size: 21px;
+  }
+}

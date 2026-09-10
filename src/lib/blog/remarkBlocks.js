@@ -40,6 +40,8 @@ export const BLOCK_NAMES = [
   'learnbay-split-card',
   'learnbay-dark-band',
   'report-download',
+  'top-pick',
+  'program-lineup',
   'youtube',
 ];
 
