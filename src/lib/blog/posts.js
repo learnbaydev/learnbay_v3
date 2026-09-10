@@ -118,7 +118,6 @@ export function loadPost(slug) {
     postData.authorInitials = data.authorInitials || initialsOf(postData.author);
     postData.authorBio = data.authorBio || '';
     postData.programCard = data.programCard || null;
-    postData.subscribe = data.subscribe || null;
     postData.finalCta = data.finalCta || null;
     postData.data = data.data || {};
     postData.editorsPicks = summarize(data.editorsPicks);

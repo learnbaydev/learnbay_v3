@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Link from 'next/link';
 import { PiStackBold, PiCheckCircleFill } from 'react-icons/pi';
 import styles from './Blocks.module.css';
@@ -138,12 +137,11 @@ export function LearnbayDarkBand({ data }) {
 }
 
 /**
- * Gated PDF download. The block only collects the address and hands it to the
- * endpoint named in frontmatter (`action`); it deliberately owns no submission
- * logic of its own so it can point at whichever form handler a post needs.
+ * Ungated PDF/report link. There is no mailing list behind this, so the block
+ * links straight to the asset rather than asking for an address it cannot do
+ * anything with.
  */
 export function ReportDownload({ data }) {
-  const [email, setEmail] = useState('');
   if (!data) return null;
 
   return (
@@ -161,25 +159,9 @@ export function ReportDownload({ data }) {
         {data.text && <p className={styles.reportText}>{data.text}</p>}
       </div>
 
-      <form
-        className={styles.reportForm}
-        action={data.action || undefined}
-        method="post"
-      >
-        <input
-          className={styles.reportInput}
-          type="email"
-          name="email"
-          required
-          placeholder={data.placeholder || 'Work email'}
-          aria-label="Work email"
-          value={email}
-          onChange={(event) => setEmail(event.target.value)}
-        />
-        <button type="submit" className={styles.btnDark}>
-          {data.cta || 'Download the report'}
-        </button>
-      </form>
+      <Link href={data.href || '#'} className={styles.btnDark}>
+        {data.cta || 'Download the report'}
+      </Link>
     </aside>
   );
 }

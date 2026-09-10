@@ -124,13 +124,26 @@
   margin-top: 0;
 }
 
-.prose a {
+/* Inline links in running text only. A bare `.prose a` also matches the block
+   library's CTA buttons, which are <a> elements too — and at specificity 0,1,1
+   it outranks a single `.btnPrimary` class (0,1,0), painting accent-blue text
+   onto the accent-blue button and making it unreadable. Scoping to the text
+   containers keeps prose links styled and leaves the buttons alone. */
+.prose p a,
+.prose li a,
+.prose td a,
+.prose th a,
+.prose blockquote a {
   color: var(--lb-accent);
   text-decoration: none;
   border-bottom: 1px solid rgba(37, 99, 235, 0.28);
 }
 
-.prose a:hover {
+.prose p a:hover,
+.prose li a:hover,
+.prose td a:hover,
+.prose th a:hover,
+.prose blockquote a:hover {
   border-bottom-color: var(--lb-accent);
 }
 

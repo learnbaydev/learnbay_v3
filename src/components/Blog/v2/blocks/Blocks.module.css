@@ -891,28 +891,6 @@
   color: var(--lb-muted);
 }
 
-.reportForm {
-  display: flex;
-  flex-shrink: 0;
-  gap: 8px;
-  align-items: center;
-}
-
-.reportInput {
-  width: 150px;
-  height: 44px;
-  padding: 0 14px;
-  border: 1px solid var(--lb-line-strong);
-  border-radius: var(--lb-pill);
-  font-family: inherit;
-  font-size: 14px;
-  color: var(--lb-ink);
-}
-
-.reportInput::placeholder {
-  color: var(--lb-faint);
-}
-
 /* ---------- YouTube ---------- */
 
 .video {
@@ -1236,14 +1214,6 @@
     flex-wrap: wrap;
   }
 
-  .reportForm {
-    width: 100%;
-  }
-
-  .reportInput {
-    flex: 1 0 0;
-    width: auto;
-  }
 }
 
 @media (max-width: 720px) {
@@ -1261,21 +1231,6 @@
   .report {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .reportForm {
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .reportInput {
-    flex: 1 1 100%;
-    min-width: 0;
-    width: 100%;
-  }
-
-  .reportForm button {
-    width: 100%;
   }
 
   .verdict {

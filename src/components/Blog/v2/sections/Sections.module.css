@@ -123,77 +123,6 @@
   color: var(--lb-accent);
 }
 
-/* ---------- Subscribe ---------- */
-
-.subscribe {
-  margin-top: 56px;
-  padding: 46px 24px;
-  border: 1px solid var(--lb-line);
-  border-radius: var(--lb-radius);
-  background: var(--lb-cream);
-  text-align: center;
-}
-
-.subscribeTitle {
-  margin: 0 0 10px;
-  font-family: var(--lb-font-display), sans-serif;
-  font-size: 26px;
-  font-weight: 800;
-  letter-spacing: -0.6px;
-  color: var(--lb-ink);
-}
-
-.subscribeText {
-  max-width: 520px;
-  margin: 0 auto 22px;
-  font-size: 15.5px;
-  line-height: 1.6;
-  color: var(--lb-muted);
-}
-
-.subscribeForm {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.subscribeInput {
-  width: 300px;
-  max-width: 100%;
-  height: 48px;
-  padding: 0 22px;
-  border: 1px solid var(--lb-line-strong);
-  border-radius: var(--lb-pill);
-  background: #fff;
-  font-family: inherit;
-  font-size: 15px;
-  color: var(--lb-ink);
-}
-
-.subscribeInput::placeholder {
-  color: var(--lb-faint);
-}
-
-.subscribeBtn {
-  height: 48px;
-  padding: 0 28px;
-  border: 0;
-  border-radius: var(--lb-pill);
-  background: var(--lb-ink);
-  color: #fff;
-  font-family: inherit;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.subscribeFinePrint {
-  margin: 16px 0 0;
-  font-size: 12.5px;
-  color: var(--lb-faint);
-}
-
 /* ---------- Final CTA ---------- */
 
 .finalCta {
@@ -285,19 +214,7 @@
     letter-spacing: -0.5px;
   }
 
-  .subscribe {
-    padding: 32px 20px;
-  }
 
-  .subscribeTitle {
-    font-size: 21px;
-  }
 
-  .subscribeInput {
-    width: 100%;
-  }
 
-  .subscribeBtn {
-    width: 100%;
-  }
 }

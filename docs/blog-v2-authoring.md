@@ -86,13 +86,6 @@ editorsPicks:
 relatedPosts:
   - 'best-ai-courses-in-india-compared'
 
-subscribe:
-  title: 'Get the next guide before anyone else'
-  text: 'One email a month…'
-  cta: 'Subscribe'
-  finePrint: 'Unsubscribe in one click.'
-  action: ''        # form POST endpoint; leave empty until one exists
-
 finalCta:
   title: 'Ready to choose the right AI career path?'
   text: 'Compare programs and choose the path that fits your goals.'
@@ -104,6 +97,11 @@ finalCta:
 
 Omit any of these and the corresponding piece of the page simply does not
 render. There are no placeholders to clean up.
+
+There is deliberately **no newsletter or email-capture block**. Learnbay has no
+mailing list behind it, and a form that posts nowhere is worse than no form —
+so `report-download` links straight to the asset via `href` instead of asking
+for an address.
 
 ---
 
@@ -162,7 +160,7 @@ data:
 | `learnbay-strip` | `{title, text, cta, href}` | Slim inline CTA |
 | `learnbay-split-card` | `{label,title,text,points,facts,primaryCta,…}` | Grey card with pricing panel |
 | `learnbay-dark-band` | `{label,title,titleAccent,text,tags,stats,…}` | Full dark gradient band |
-| `report-download` | `{title, text, cta, action}` | Gated PDF form |
+| `report-download` | `{title, text, cta, href}` | Report/PDF card linking straight to the asset |
 | `youtube` | *no `from`* | `::youtube{id=abc123 title="…" caption="…"}` |
 
 **Tables** (`scenario-table`, `comparison-matrix`) take:

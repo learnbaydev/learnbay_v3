@@ -21,10 +21,6 @@ authorBio:
 authorUrl: https://www.learnbay.co/
 readTime: 22 min
 canonicalUrl: https://www.learnbay.co/blogs/best-ai-courses-in-bangalore-with-placement-assistance
-# TODO before publishing: replace with the bespoke hero chart the source doc
-# briefs — "Bengaluru holds 25.4% of India's AI job openings", horizontal bar
-# chart across seven Indian cities with Bengaluru highlighted. This is a
-# branded placeholder so the banner and og:image are not broken meanwhile.
 image: https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BestAiCourseinBangaloreImage1.webp
 imagephone: https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BestAiCourseinBangaloreImage1.webp
 alt:
@@ -63,15 +59,6 @@ relatedPosts:
   - best-generative-ai-agentic-ai-courses
   - how-to-choose-best-ai-course-in-india-with-placement
   - ai-jobs-in-india
-subscribe:
-  title: Get the next comparison before anyone else
-  text:
-    'One email a month: new course comparisons, salary data and syllabus changes worth knowing about.
-    No sales sequences.'
-  placeholder: Your work email
-  cta: Subscribe
-  finePrint: We send one email a month and you can unsubscribe in one click.
-  action: ''
 finalCta:
   title: Compare your shortlist with a Learnbay counsellor
   text:
@@ -611,8 +598,7 @@ data:
       Download the full Learnbay module list, including the LLMOps, platform engineering and Responsible
       AI modules, and compare it line by line against any shortlist.
     cta: Download syllabus
-    placeholder: Work email
-    action: ''
+    href: 'https://www.learnbay.co/genai-and-agentic-ai-master-program'
   sdeProgram:
     label: LEARNBAY PROGRAM · SDE MASTER PROGRAM
     title: Generative AI and Agentic AI

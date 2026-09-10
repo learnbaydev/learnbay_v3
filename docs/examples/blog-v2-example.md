@@ -45,12 +45,6 @@ relatedPosts:
   - 'master-tech-layoffs-survival-skills'
   - 'ai-jobs-in-india'
 
-subscribe:
-  title: 'Get the next guide before anyone else'
-  text: 'One email a month: new comparisons, salary data and syllabus changes worth knowing about. No sales sequences.'
-  placeholder: 'Your work email'
-  cta: 'Subscribe'
-  finePrint: 'We send one email a month and you can unsubscribe in one click.'
 
 finalCta:
   title: 'Ready to choose the right AI career path?'
@@ -217,7 +211,7 @@ data:
     title: 'Get this comparison as a PDF report'
     text: 'All nine programs, the fee bands, the curriculum matrix and the 14-point checklist in a 32-page report.'
     cta: 'Download the report'
-    placeholder: 'Work email'
+    href: '/genai-and-agentic-ai-master-program'
 
   guideFaqs:
     - question: 'Do I need a computer science degree for these programs?'

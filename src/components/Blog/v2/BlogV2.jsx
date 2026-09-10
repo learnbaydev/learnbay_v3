@@ -14,7 +14,6 @@ import Hero from './Hero';
 import Rail from './Rail';
 import BlockRenderer, { BlockDataProvider } from './BlockRenderer';
 import RelatedArticles from './sections/RelatedArticles';
-import Subscribe from './sections/Subscribe';
 import FinalCta from './sections/FinalCta';
 import styles from './BlogV2.module.css';
 
@@ -119,7 +118,6 @@ const BlogV2 = ({ post }) => {
       </div>
 
       <RelatedArticles posts={post.relatedPosts} />
-      <Subscribe config={post.subscribe} />
       <FinalCta config={post.finalCta} />
 
       <Footer />
