@@ -300,3 +300,23 @@ to `BLOCK_NAMES` in `remarkBlocks.js`.
 > `src/lib/blog/posts.js` imports `fs` and `path`. Never import it from a
 > component — `package.json` stubs both to `false` in the browser, so it throws
 > the moment it reaches the client bundle. Import `slug.js` instead.
+
+---
+
+## Listing a post on /blogs
+
+The `/blogs` index builds its cards from every post in `src/blog/`, newest
+first by `publishedDate` (falling back to `date`). Index copy is kept short and
+separate from the SEO title, and each card needs a topic for the filter chips.
+Set these in the post's frontmatter (all optional — defaults live in
+`src/lib/blog/listing.js`):
+
+```yaml
+topic: 'genai'          # comparisons | careers | genai | skills
+cardLabel: 'Hiring data' # blue label on the card; defaults to the topic name
+cardTitle: 'Short headline for the card'
+excerpt: 'One line, shown on large cards only.'
+evidence: '6 roles mapped'  # small pill on large cards
+```
+
+The masthead "Lead story" is `LEAD_SLUG` in `src/lib/blog/listing.js`.

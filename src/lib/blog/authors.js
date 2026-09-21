@@ -16,7 +16,7 @@ export const AUTHORS = [
       'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/sonalisha.webp',
     // Published as http:// on the old blog; stored as https here.
     linkedin: 'https://www.linkedin.com/in/sonalisha-mohanty-637578259',
-    bio: 'Sonalisha is an MBA. But her tech enthusiasm has made her a passionate blogger on emerging tech innovations. Her keen interest in trending technologies and data management has attracted her to blogging and learning emerging innovations.',
+    bio: 'Sonalisha is a Senior Content Writer & AI strategist at Learnbay, turning AI, Data Science, Cloud & DevOps into stories worth reading. An MBA grad who chose curiosity over convention, always a step ahead of tech trends.',
   },
   {
     slug: 'nivin-biswas',
@@ -24,6 +24,12 @@ export const AUTHORS = [
     photo:
       'https://learnbay-wb.s3.ap-south-1.amazonaws.com/main-blog/blog/nivin.webp',
     linkedin: 'https://www.linkedin.com/in/nivin-biswas-7b3197178',
+    // `role`, `about` and `portrait` feed the profile page hero. `about` falls
+    // back to `bio` and `portrait` to `photo` for authors without them.
+    role: 'Senior Technical Writer & Editor, Learnbay',
+    about:
+      "A blogger and researcher in AI, data science and full-stack, with working knowledge of ML models and scripting languages including Python and Java. Writes the long-form comparison guides the ones that start from the buyer's side and publish their scoring method alongside the ranking.",
+    portrait: '/images/blogs-author/author-nivin-portrait.webp',
     bio: 'A tech blogger and researcher in artificial intelligence, data science, and full-stack development. He holds expertise in machine learning models, artificial intelligence, and scripting languages like Python and Java.',
   },
   {

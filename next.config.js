@@ -33,6 +33,12 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        // The authors index moved under the singular route its profiles use.
+        source: '/blogs/authors',
+        destination: '/blogs/author',
+        permanent: true,
+      },
+      {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/data-science-training-in-bangalore',
         destination:
