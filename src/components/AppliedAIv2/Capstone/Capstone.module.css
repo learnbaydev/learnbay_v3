@@ -1,0 +1,187 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  padding: 60px var(--aai-gutter);
+  background: var(--aai-ink);
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.kicker {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 10.6px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2.33px;
+  text-transform: uppercase;
+  color: var(--aai-on-dark-faint);
+}
+
+.title {
+  margin: 0;
+  max-width: 700px;
+  font-family: var(--aai-sans);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.84px;
+  color: var(--aai-on-dark);
+}
+
+.lede {
+  margin: 0;
+  max-width: 640px;
+  font-family: var(--aai-sans);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.18px;
+  color: var(--aai-on-dark-soft);
+}
+
+/* ---- Timeline ---- */
+
+.steps {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.step {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  min-width: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+/* The rule that joins the three markers, drawn from each step's own dot. */
+.step::before,
+.step::after {
+  content: '';
+  position: absolute;
+  top: 23px;
+  width: calc(50% - 23px - 14px);
+  height: 1px;
+  background: var(--aai-line-strong);
+}
+
+.step::before {
+  right: calc(50% + 23px);
+}
+
+.step::after {
+  left: calc(50% + 23px);
+}
+
+.step:first-child::before,
+.step:last-child::after {
+  display: none;
+}
+
+/* The connector must reach across the 28px gap between steps. */
+.step::before {
+  width: calc(50% - 23px + 14px);
+  margin-right: -14px;
+}
+
+.step::after {
+  width: calc(50% - 23px + 14px);
+  margin-left: -14px;
+}
+
+.dot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--aai-gold);
+  border-radius: 999px;
+  background: var(--aai-ink);
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  color: #ffcd35;
+}
+
+.stepTitle {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-family: var(--aai-sans);
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: -0.7px;
+  color: var(--aai-on-dark);
+}
+
+.stepBody {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--aai-on-dark-mute);
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 1000px) {
+  .title {
+    font-size: 42px;
+    line-height: 46px;
+    letter-spacing: -1.3px;
+  }
+
+  .stepTitle {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    --aai-gutter: 20px;
+    gap: 32px;
+    padding: 48px var(--aai-gutter);
+  }
+
+  .steps {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  /* No horizontal run to draw once the steps stack. */
+  .step::before,
+  .step::after {
+    display: none;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.9px;
+  }
+
+  .lede {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

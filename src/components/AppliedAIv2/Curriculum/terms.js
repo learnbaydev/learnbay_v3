@@ -1,0 +1,90 @@
+/* Syllabus terms. Topics come from src/Data/applied-ai-practitioner-program-data.js
+   (the existing live curriculum), lightly de-hyphenated for display. */
+
+export const TERMS = [
+  {
+    id: 'term-1',
+    term: 'Term 1',
+    accent: '#2563eb',
+    title: 'Foundations of AI reasoning & LLM workflows',
+    weeks: 'Weeks 1–3',
+    topics: [
+      'How modern AI models process, predict and reason',
+      'Prompt engineering for task control (role-based, few-shot, chain-of-thought)',
+      'Tokenisation, embeddings and contextual memory',
+      'Retrieval-Augmented Generation on private data',
+      'Ethics, safety and bias mitigation in AI responses',
+      'Evaluating AI outputs with qualitative and quantitative metrics',
+    ],
+  },
+  {
+    id: 'term-2',
+    term: 'Term 2',
+    accent: '#7c3aed',
+    title: 'Generative & multimodal AI for real-world content',
+    weeks: 'Weeks 4–5',
+    topics: [
+      'Text-to-image, text-to-video and text-to-audio generation',
+      'Understanding diffusion and multimodal creativity',
+      'Building content workflows: ideation → generation → feedback → iteration',
+      'Using AI for brand assets, marketing visuals and learning design',
+      'Applying AI ethics in synthetic media and responsible creation',
+    ],
+  },
+  {
+    id: 'term-3',
+    term: 'Term 3',
+    accent: '#0e9f6e',
+    title: 'Agentic AI & intelligent automation',
+    weeks: 'Weeks 6–7',
+    topics: [
+      'Fundamentals of autonomous agents and multi-agent reasoning',
+      'Task decomposition and tool calling for business workflows',
+      'Connecting CRMs, spreadsheets and communication platforms',
+      'Using “vibe coding” to describe logic naturally for agents',
+      'AI task chaining and feedback loop automation',
+      'Integrating AI insights into daily business processes',
+    ],
+  },
+  {
+    id: 'term-4',
+    term: 'Term 4',
+    accent: '#c9a227',
+    title: 'No-code app development & AI deployment',
+    weeks: 'Weeks 8–9',
+    topics: [
+      'Low-code and no-code app creation with AI integration',
+      'Connecting APIs, embeddings and vector stores into user-ready products',
+      'Designing front-end interfaces for chatbots and copilots',
+      'Testing endpoints, debugging and managing data securely',
+      'Collecting user feedback and improving model performance',
+    ],
+  },
+  {
+    id: 'term-5',
+    term: 'Term 5',
+    accent: '#12a0d8',
+    title: 'AIOps, optimisation & observability',
+    weeks: 'Weeks 10–11',
+    topics: [
+      'AIOps essentials: monitoring, observability and self-healing pipelines',
+      'Defining KPIs for AI performance (accuracy, latency, cost, drift)',
+      'Automating alerts, testing and continuous improvement',
+      'Visualising AI usage and cost with BI dashboards',
+      'AI governance and compliance considerations in production',
+    ],
+  },
+  {
+    id: 'term-6',
+    term: 'Term 6',
+    accent: '#ff7a1a',
+    title: 'Startup collaboration capstone: the AI Co-Lab experience',
+    weeks: 'Weeks 12–14',
+    topics: [
+      'Build your own AI product with startup companies',
+      'Product thinking and end-user problem solving',
+      'Cross-functional teamwork: business, tech and creative roles',
+      'Documenting, presenting and pitching your AI solution',
+    ],
+  },
+];

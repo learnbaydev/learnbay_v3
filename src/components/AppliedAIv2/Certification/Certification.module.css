@@ -1,0 +1,260 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  padding: 60px var(--aai-gutter);
+  background: var(--aai-wash);
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.kicker {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 10.6px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2.33px;
+  text-transform: uppercase;
+  color: var(--aai-muted);
+}
+
+.title {
+  margin: 0;
+  max-width: 700px;
+  font-family: var(--aai-sans);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.84px;
+  color: var(--aai-ink-900);
+}
+
+.lede {
+  margin: 0;
+  max-width: 640px;
+  font-family: var(--aai-sans);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.18px;
+  color: var(--aai-muted);
+}
+
+/* ---- Cards ---- */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  /* Stretch so every card's "Released on..." line sits at the same height. */
+  align-items: stretch;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--aai-border);
+  border-radius: 20px;
+  background: var(--aai-white);
+}
+
+/* ---- Certificate face ---- */
+
+.face {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 200px;
+  padding: 0 20px;
+  border-bottom: 1px solid var(--aai-border);
+  background: #fbf9f4;
+}
+
+.ornament {
+  position: absolute;
+  inset: 14px;
+  border: 1px solid rgba(11, 18, 34, 0.14);
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.faceIssuer {
+  margin: 0;
+  text-align: center;
+  font-family: var(--aai-sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #8c8470;
+}
+
+.faceCrest {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+}
+
+.faceLogo {
+  width: auto;
+  max-width: 145px;
+  height: 58px;
+  object-fit: contain;
+}
+
+.faceWordmark {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1.84px;
+  color: #ff7a1a;
+}
+
+.faceRule {
+  width: 118px;
+  height: 1px;
+  background: rgba(11, 18, 34, 0.2);
+}
+
+.faceAwarded {
+  margin: 0;
+  font-family: var(--aai-serif);
+  font-size: 14px;
+  color: #6e6754;
+}
+
+.waxSeal {
+  position: absolute;
+  right: 15px;
+  bottom: 13px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--aai-white);
+}
+
+.waxSeal svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* ---- Card body ---- */
+
+.body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 9px;
+  padding: 22px;
+}
+
+.eyebrow {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 10.6px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2.33px;
+  text-transform: uppercase;
+}
+
+.cardTitle {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: -0.7px;
+  color: var(--aai-ink-900);
+}
+
+.cardText {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--aai-muted);
+}
+
+.issued {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--aai-border);
+  font-family: var(--aai-sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--aai-muted);
+}
+
+.dot {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--aai-green);
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 1100px) {
+  .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .title {
+    font-size: 42px;
+    line-height: 46px;
+    letter-spacing: -1.3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    --aai-gutter: 20px;
+    gap: 32px;
+    padding: 48px var(--aai-gutter);
+  }
+
+  .cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.9px;
+  }
+
+  .lede {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .cardTitle {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .faceWordmark {
+    font-size: 36px;
+  }
+}

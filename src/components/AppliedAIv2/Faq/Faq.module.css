@@ -1,0 +1,143 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  padding: 60px var(--aai-gutter);
+  background: var(--aai-wash);
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.kicker {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 10.6px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2.33px;
+  text-transform: uppercase;
+  color: var(--aai-muted);
+}
+
+.title {
+  margin: 0;
+  max-width: 700px;
+  font-family: var(--aai-sans);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.84px;
+  color: var(--aai-ink-900);
+}
+
+/* ---- List ---- */
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  overflow: hidden;
+  border: 1px solid var(--aai-border);
+  border-radius: 14px;
+  background: var(--aai-white);
+}
+
+.questionHeading {
+  margin: 0;
+  font: inherit;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  padding: 18px 20px;
+  border: 0;
+  background: none;
+  text-align: left;
+  font-family: var(--aai-sans);
+  font-size: 15.4px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  color: var(--aai-ink-900);
+  cursor: pointer;
+}
+
+.toggle {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  background: var(--aai-line-light);
+  color: var(--aai-ink-900);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.toggle svg {
+  width: 16px;
+  height: 16px;
+}
+
+.toggleOpen {
+  background: var(--aai-ink);
+  color: var(--aai-white);
+}
+
+.answer {
+  padding: 0 20px 20px;
+}
+
+.answer p {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--aai-muted);
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 1000px) {
+  .title {
+    font-size: 42px;
+    line-height: 46px;
+    letter-spacing: -1.3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    --aai-gutter: 20px;
+    gap: 30px;
+    padding: 48px var(--aai-gutter);
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.9px;
+  }
+
+  .question {
+    font-size: 14.5px;
+    padding: 16px;
+  }
+
+  .answer {
+    padding: 0 16px 16px;
+  }
+}

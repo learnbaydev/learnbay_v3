@@ -1,0 +1,366 @@
+.section {
+  padding: 60px var(--aai-gutter);
+  background: var(--aai-wash);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 64px;
+}
+
+/* ---- Copy ---- */
+
+.copy {
+  display: flex;
+  flex: 1 1 0;
+  min-width: 0;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.kicker {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 10.6px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2.33px;
+  text-transform: uppercase;
+  color: var(--aai-muted);
+}
+
+.title {
+  margin: 0;
+  max-width: 480px;
+  font-family: var(--aai-sans);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.84px;
+  color: var(--aai-ink-900);
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.paragraphs p {
+  margin: 0;
+  max-width: 470px;
+  font-family: var(--aai-sans);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.18px;
+  color: var(--aai-muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 11px;
+}
+
+.ghostBtn,
+.primaryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 13px 24px;
+  border: 1px solid var(--aai-border-strong);
+  border-radius: 999px;
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.ghostBtn {
+  background: transparent;
+  color: var(--aai-ink-900);
+}
+
+.ghostBtn:hover {
+  background: rgba(11, 18, 34, 0.04);
+}
+
+.primaryBtn {
+  background: var(--aai-blue);
+  color: var(--aai-white);
+}
+
+.primaryBtn:hover {
+  background: #1d4fd7;
+  transform: translateY(-1px);
+}
+
+.arrow {
+  width: 18px;
+  height: 18px;
+}
+
+/* ---- Fee card ---- */
+
+.card {
+  flex-shrink: 0;
+  width: 440px;
+  overflow: hidden;
+  border: 1px solid var(--aai-border);
+  border-radius: 24px;
+  background: var(--aai-white);
+  box-shadow: 0 30px 64px -34px rgba(10, 18, 33, 0.32);
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 22px 26px;
+  background: var(--aai-ink);
+}
+
+.cardLogo {
+  flex-shrink: 0;
+  width: 39px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.cardHeadCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.cardHeadCopy strong {
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  color: var(--aai-on-dark);
+}
+
+.cardHeadCopy span {
+  font-family: var(--aai-sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--aai-on-dark-mute);
+}
+
+/* ---- Price ---- */
+
+.priceBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 26px 26px 22px;
+  border-bottom: 1px solid var(--aai-border);
+}
+
+.priceLabel {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 10.6px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2.33px;
+  text-transform: uppercase;
+  color: var(--aai-muted);
+}
+
+.amount {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+  margin: 0;
+  font-family: var(--aai-ui);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.26px;
+  color: var(--aai-ink-900);
+}
+
+.gst {
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0;
+  color: var(--aai-muted);
+}
+
+.emi {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--aai-muted);
+}
+
+.emi strong {
+  font-weight: 700;
+  letter-spacing: -0.14px;
+  color: var(--aai-ink-900);
+}
+
+/* ---- Spec rows ---- */
+
+.rows {
+  margin: 0;
+  padding: 6px 26px 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--aai-border);
+}
+
+.row:last-child {
+  border-bottom: 0;
+}
+
+.row dt {
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--aai-muted);
+}
+
+.row dd {
+  margin: 0;
+  text-align: right;
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  color: var(--aai-ink-900);
+}
+
+/* ---- CTA ---- */
+
+.cardCta {
+  padding: 0 26px 22px;
+}
+
+.applyBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 13px 24px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--aai-blue);
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  color: var(--aai-white);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.applyBtn:hover {
+  background: #1d4fd7;
+}
+
+.finePrint {
+  margin: 0;
+  padding: 0 26px 24px;
+  font-family: var(--aai-sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--aai-muted);
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 1100px) {
+  .layout {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 520px;
+  }
+
+  .title {
+    max-width: none;
+    font-size: 42px;
+    line-height: 46px;
+    letter-spacing: -1.3px;
+  }
+
+  .paragraphs p {
+    max-width: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    --aai-gutter: 20px;
+    padding: 48px var(--aai-gutter);
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.9px;
+  }
+
+  .paragraphs p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .ghostBtn,
+  .primaryBtn {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .amount {
+    font-size: 34px;
+    line-height: 38px;
+  }
+
+  /* Stack each spec so long values are not crushed against the label. */
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .row dd {
+    text-align: left;
+  }
+}

@@ -1,0 +1,386 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--aai-ink);
+  padding: 64px var(--aai-gutter) 52px;
+}
+
+.watermark {
+  position: absolute;
+  top: 50%;
+  left: 1000px;
+  width: 602px;
+  height: 620px;
+  transform: translateY(-50%);
+  opacity: 0.07;
+  pointer-events: none;
+}
+
+.watermark img {
+  object-fit: contain;
+}
+
+.inner {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 56px;
+  max-width: var(--aai-max);
+  margin: 0 auto;
+}
+
+.copy {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* ---- Institution lockup ---- */
+
+.lockup {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--aai-line);
+}
+
+.lockupLogo {
+  flex-shrink: 0;
+  width: 64px;
+  height: 66px;
+  object-fit: contain;
+}
+
+.institution {
+  margin: 0 0 7px;
+  font-family: var(--aai-serif);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1.6px;
+  color: var(--aai-on-dark);
+}
+
+.eyebrow {
+  margin: 0;
+  font-family: var(--aai-ui);
+  font-size: 10.6px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2.33px;
+  text-transform: uppercase;
+  color: var(--aai-gold);
+}
+
+/* ---- Headline ---- */
+
+.headlineBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.headline {
+  margin: 0;
+  max-width: 620px;
+  font-family: var(--aai-sans);
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2.1px;
+  color: var(--aai-on-dark);
+}
+
+.sub {
+  margin: 0;
+  max-width: 540px;
+  font-family: var(--aai-sans);
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.18px;
+  color: var(--aai-on-dark-soft);
+}
+
+/* ---- Fact pills ---- */
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fact {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 16px;
+  border: 1px solid var(--aai-line-strong);
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.fact strong {
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  color: var(--aai-on-dark);
+}
+
+.fact span:last-child {
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--aai-on-dark-pill);
+}
+
+.dot {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--aai-gold);
+}
+
+/* ---- Actions ---- */
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 11px;
+}
+
+.primaryBtn,
+.ghostBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 13px 24px;
+  border-radius: 999px;
+  font-family: var(--aai-ui);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.primaryBtn {
+  border: 0;
+  background: var(--aai-gold);
+  font-weight: 700;
+  color: var(--aai-ink);
+}
+
+.primaryBtn:hover {
+  background: #ffcf33;
+  transform: translateY(-1px);
+}
+
+.ghostBtn {
+  border: 1px solid var(--aai-line-strong);
+  background: transparent;
+  color: var(--aai-on-dark-btn);
+}
+
+.ghostBtn:hover {
+  border-color: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.arrow {
+  width: 18px;
+  height: 18px;
+}
+
+.finePrint {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 12.5px;
+  line-height: 18px;
+  color: var(--aai-on-dark-faint);
+}
+
+/* ---- Plaque ---- */
+
+.plaque {
+  flex-shrink: 0;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 26px;
+  border: 1px solid var(--aai-line-strong);
+  border-radius: 22px;
+  background: var(--aai-fill);
+  backdrop-filter: blur(10px);
+}
+
+.plaqueHead {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rule {
+  flex: 1 1 0;
+  height: 1px;
+  background: var(--aai-line);
+}
+
+.credentials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.credential {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--aai-line);
+}
+
+.credential:last-child {
+  border-bottom: 0;
+}
+
+.credentialLogo {
+  flex-shrink: 0;
+  display: inline-flex;
+}
+
+/* The three marks have very different aspect ratios, so cap both axes and
+   let object-fit letterbox them into a consistent slot. */
+.credentialLogo img {
+  width: auto;
+  max-width: 54px;
+  height: auto;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.credentialBadge {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 36px;
+  border-radius: 9px;
+  background: var(--aai-line);
+}
+
+.credentialBadge img {
+  width: 35px;
+  height: auto;
+  object-fit: contain;
+}
+
+.credentialCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.credentialCopy strong {
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  color: var(--aai-on-dark);
+}
+
+.credentialCopy span {
+  font-family: var(--aai-sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--aai-on-dark-mute);
+}
+
+.plaqueFoot {
+  margin: 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--aai-line);
+  font-family: var(--aai-sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--aai-on-dark-faint);
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 1180px) {
+  .inner {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .plaque {
+    width: 100%;
+    max-width: 520px;
+  }
+
+  .watermark {
+    left: auto;
+    right: -180px;
+  }
+
+  .headline {
+    font-size: 52px;
+    line-height: 56px;
+    letter-spacing: -1.6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    --aai-gutter: 20px;
+    padding: 40px var(--aai-gutter) 36px;
+  }
+
+  .headline {
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -1.1px;
+  }
+
+  .sub {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .institution {
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 1px;
+  }
+
+  .watermark {
+    display: none;
+  }
+
+  .primaryBtn,
+  .ghostBtn {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+}

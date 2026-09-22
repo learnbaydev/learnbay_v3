@@ -1,0 +1,343 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  padding: 60px var(--aai-gutter);
+  background: var(--aai-white);
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.kicker {
+  margin: 0;
+  font-family: var(--aai-sans);
+  font-size: 10.6px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2.33px;
+  text-transform: uppercase;
+  color: var(--aai-muted);
+}
+
+.title {
+  margin: 0;
+  max-width: 700px;
+  font-family: var(--aai-sans);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.84px;
+  color: var(--aai-ink-900);
+}
+
+.lede {
+  margin: 0;
+  max-width: 640px;
+  font-family: var(--aai-sans);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.18px;
+  color: var(--aai-muted);
+}
+
+/* ---- Table ---- */
+
+.table {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Every row across the three columns shares this height so they line up. */
+.key,
+.oursRow,
+.theirsRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  min-height: 62px;
+  padding: 20px;
+  border-bottom: 1px solid var(--aai-border);
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.keys {
+  flex-shrink: 0;
+  width: 280px;
+}
+
+.keysHeader {
+  height: 66px;
+}
+
+.key {
+  color: var(--aai-muted);
+}
+
+.keys .key:last-child {
+  border: 1px solid var(--aai-border);
+}
+
+/* ---- Our programme (raised panel) ---- */
+
+.ours {
+  flex: 1 1 0;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--aai-border);
+  border-radius: 18px;
+  background: var(--aai-white);
+  box-shadow: 0 28px 60px -28px rgba(28, 18, 56, 0.34);
+}
+
+.oursHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 20px 22px;
+  background: var(--aai-ink);
+}
+
+.oursBrand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  color: var(--aai-on-dark);
+}
+
+.oursLogo {
+  width: 25px;
+  height: 26px;
+  object-fit: contain;
+}
+
+.thisPage {
+  flex-shrink: 0;
+  padding: 4px 11px;
+  border-radius: 999px;
+  background: var(--aai-gold);
+  font-family: var(--aai-ui);
+  font-size: 10.6px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2.33px;
+  text-transform: uppercase;
+  color: var(--aai-ink);
+  white-space: nowrap;
+}
+
+.oursRow {
+  padding: 20px 22px;
+}
+
+.oursText {
+  margin: 0;
+  flex: 1 1 0;
+  min-width: 0;
+  color: var(--aai-ink-900);
+}
+
+.oursFooter {
+  padding: 20px 22px;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  width: 100%;
+  padding: 13px 24px;
+  border-radius: 999px;
+  background: var(--aai-blue);
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  color: var(--aai-white);
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.cta:hover {
+  background: #1d4fd7;
+  transform: translateY(-1px);
+}
+
+.ctaArrow {
+  width: 14px;
+  height: 14px;
+}
+
+/* ---- Typical course ---- */
+
+.theirs {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.theirsHeader {
+  display: flex;
+  align-items: center;
+  min-height: 66px;
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--aai-line-light);
+  font-family: var(--aai-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  color: var(--aai-muted);
+}
+
+.theirsText {
+  margin: 0;
+  flex: 1 1 0;
+  min-width: 0;
+  color: var(--aai-muted);
+}
+
+.theirs .theirsRow:last-child {
+  border: 1px solid var(--aai-border);
+}
+
+/* ---- Status icons ---- */
+
+.yes,
+.no {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  border-radius: 999px;
+}
+
+.yes {
+  background: rgba(14, 159, 110, 0.15);
+  color: var(--aai-green);
+}
+
+.no {
+  background: rgba(11, 18, 34, 0.06);
+  color: var(--aai-muted);
+}
+
+.yes svg,
+.no svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* The row label only appears once the table collapses to stacked cards. */
+.rowKeyMobile {
+  display: none;
+}
+
+.footnote {
+  margin: 0;
+  max-width: 900px;
+  font-family: var(--aai-sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--aai-muted);
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 1100px) {
+  .title {
+    font-size: 42px;
+    line-height: 46px;
+    letter-spacing: -1.3px;
+  }
+
+  /* Drop the shared key column and label each row inside its own card. */
+  .table {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .keys {
+    display: none;
+  }
+
+  .ours,
+  .theirs {
+    width: 100%;
+  }
+
+  .theirs {
+    border: 1px solid var(--aai-border);
+    border-radius: 18px;
+    overflow: hidden;
+  }
+
+  .theirsHeader {
+    border-radius: 0;
+  }
+
+  .theirs .theirsRow:last-child {
+    border: 0;
+  }
+
+  .oursRow,
+  .theirsRow {
+    flex-wrap: wrap;
+  }
+
+  .rowKeyMobile {
+    display: block;
+    flex: 1 1 100%;
+    margin-bottom: 4px;
+    font-family: var(--aai-sans);
+    font-size: 10.6px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2.33px;
+    text-transform: uppercase;
+    color: var(--aai-muted);
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    --aai-gutter: 20px;
+    gap: 32px;
+    padding: 48px var(--aai-gutter);
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.9px;
+  }
+
+  .lede {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .oursHeader {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

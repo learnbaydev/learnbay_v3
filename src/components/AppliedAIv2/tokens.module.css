@@ -1,0 +1,50 @@
+/* Shared design tokens for the Applied AI Practitioner Program (2026 redesign).
+   Applied once on the page wrapper; custom properties inherit into every
+   section module below it. */
+
+.page {
+  /* Surfaces */
+  --aai-ink: #1b1338;
+  --aai-ink-deep: #150f2c;
+  --aai-cream: #f7f5ef;
+  --aai-white: #ffffff;
+
+  /* Accent */
+  --aai-gold: #ffc200;
+
+  /* Text on dark */
+  --aai-on-dark: #ffffff;
+  --aai-on-dark-soft: #c4bddc;
+  --aai-on-dark-mute: #a9a3c4;
+  --aai-on-dark-faint: #807aa0;
+  --aai-on-dark-pill: #dcd6ee;
+  --aai-on-dark-btn: #edeaf8;
+
+  /* Hairlines on dark */
+  --aai-line: rgba(255, 255, 255, 0.12);
+  --aai-line-strong: rgba(255, 255, 255, 0.22);
+  --aai-fill: rgba(255, 255, 255, 0.1);
+
+  /* Light surfaces + text */
+  --aai-ink-900: #0b1222;
+  --aai-muted: #525f79;
+  --aai-muted-2: #8e9ab6;
+  --aai-border: rgba(11, 18, 34, 0.1);
+  --aai-border-strong: rgba(11, 18, 34, 0.17);
+  --aai-wash: #f4f6fb;
+  --aai-line-light: #e8edf7;
+
+  /* Accent hues used by the card sets */
+  --aai-blue: #2563eb;
+  --aai-green: #0e9f6e;
+  --aai-brass: #c9a227;
+
+  /* Layout */
+  --aai-gutter: 60px;
+  --aai-max: 1440px;
+
+  /* Type stacks — the CSS vars are set by next/font on the page wrapper. */
+  --aai-sans: var(--font-jakarta), system-ui, sans-serif;
+  --aai-serif: var(--font-instrument-serif), Georgia, serif;
+  --aai-ui: var(--font-archivo), system-ui, sans-serif;
+}

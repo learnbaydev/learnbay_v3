@@ -1,0 +1,123 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 56px var(--aai-gutter);
+  background: var(--aai-white);
+}
+
+.kicker {
+  margin: 0;
+  text-align: center;
+  font-family: var(--aai-sans);
+  font-size: 10.6px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2.33px;
+  text-transform: uppercase;
+  color: var(--aai-muted);
+}
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  /* Fade both ends so logos enter and leave instead of being cut off. */
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 8%,
+    #000 92%,
+    transparent
+  );
+}
+
+.track {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 60px;
+  margin: 0;
+  padding: 0 30px 0 0;
+  padding-inline-start: 60px;
+  list-style: none;
+  animation: scroll 55s linear infinite;
+}
+
+.item {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  height: 30px;
+}
+
+.logo {
+  width: auto;
+  height: 30px;
+  object-fit: contain;
+}
+
+.wordmark {
+  font-family: var(--aai-sans);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+  color: #0f172a;
+  white-space: nowrap;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    /* One full track, plus the gap that follows it. */
+    transform: translateX(calc(-100% - 60px));
+  }
+}
+
+.marquee:hover .track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .track {
+    animation: none;
+  }
+
+  .marquee {
+    overflow-x: auto;
+  }
+}
+
+.footnote {
+  margin: 0;
+  text-align: center;
+  font-family: var(--aai-sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--aai-muted);
+}
+
+@media (max-width: 768px) {
+  .section {
+    --aai-gutter: 20px;
+    gap: 20px;
+    padding: 40px var(--aai-gutter);
+  }
+
+  .track {
+    gap: 40px;
+    padding-inline-start: 40px;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 40px));
+    }
+  }
+}
