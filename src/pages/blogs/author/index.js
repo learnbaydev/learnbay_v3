@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import { Plus_Jakarta_Sans } from 'next/font/google';
 
 import Navbar from '@/components/Global/Navbar/Navbar';
 import AuthorCard from '@/components/Blog/AuthorCard';
@@ -10,7 +11,14 @@ import styles from '@/components/Blog/AuthorPage.module.css';
 
 const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
 
-const CANONICAL = 'https://www.learnbay.co/blogs/authors';
+const jakarta = Plus_Jakarta_Sans({
+  weight: ['400', '600', '700', '800'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--authors-font-sans',
+});
+
+const CANONICAL = 'https://www.learnbay.co/blogs/author';
 
 const Authors = ({ authors }) => (
   <>
@@ -32,9 +40,9 @@ const Authors = ({ authors }) => (
 
     <Navbar popup dataScience interstedInHide />
 
-    <div className={styles.page}>
+    <div className={`${styles.page} ${jakarta.variable}`}>
       <div className={styles.wrap}>
-        <Link href="/blogs/best-ai-courses-in-bangalore-with-placement-assistance" className={styles.back}>
+        <Link href="/blogs" className={styles.back}>
           ← Back to blogs
         </Link>
 
@@ -55,9 +63,9 @@ const Authors = ({ authors }) => (
           ))}
         </div>
       </div>
-
-      <Footer />
     </div>
+
+    <Footer />
   </>
 );
 

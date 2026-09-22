@@ -1,20 +1,11 @@
 import Head from 'next/head';
-import Link from 'next/link';
-import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 
-import Navbar from '@/components/Global/Navbar/Navbar';
-import AuthorCard from '@/components/Blog/AuthorCard';
+import AuthorProfile from '@/components/Blog/author/AuthorProfile';
 import { AUTHORS, getAuthorBySlug } from '@/lib/blog/authors';
-import { getPostsByAuthor } from '@/lib/blog/posts';
-import styles from '@/components/Blog/AuthorPage.module.css';
+import { TOPICS, getAuthorGuides } from '@/lib/blog/listing';
 
-const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
-
-const FALLBACK_THUMB =
-  'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp';
-
-const AuthorProfile = ({ author, posts }) => {
+const AuthorPage = ({ author, guides, topics, writers }) => {
   const router = useRouter();
   if (router.isFallback) return <div>Loading...</div>;
   if (!author) return <div>404 - Author Not Found</div>;
@@ -25,7 +16,7 @@ const AuthorProfile = ({ author, posts }) => {
     <>
       <Head>
         <title>{`${author.name} | Learnbay Blog`}</title>
-        <meta name="description" content={author.bio} />
+        <meta name="description" content={author.about || author.bio} />
         <link rel="canonical" href={canonical} />
         <link
           rel="icon"
@@ -34,7 +25,12 @@ const AuthorProfile = ({ author, posts }) => {
         <meta property="og:type" content="profile" />
         <meta property="og:title" content={`${author.name} | Learnbay Blog`} />
         <meta property="og:description" content={author.bio} />
-        <meta property="og:image" content={author.photo} />
+        <meta
+          property="og:image"
+          content={
+            author.portrait?.startsWith('http') ? author.portrait : author.photo
+          }
+        />
         <meta property="og:url" content={canonical} />
 
         {/* Person schema ties the byline on each post to a real profile. */}
@@ -55,59 +51,12 @@ const AuthorProfile = ({ author, posts }) => {
         />
       </Head>
 
-      <Navbar popup dataScience interstedInHide />
-
-      <div className={styles.page}>
-        <div className={styles.wrap}>
-          <Link href="/blogs/authors" className={styles.back}>
-            ← All authors
-          </Link>
-
-          <AuthorCard author={author} postCount={posts.length} />
-
-          <h2 className={styles.postsHead}>
-            {posts.length
-              ? `Articles by ${author.name}`
-              : `No articles by ${author.name} yet`}
-          </h2>
-
-          {posts.length ? (
-            <div className={styles.posts}>
-              {posts.map((post) => (
-                <Link
-                  key={post.slug}
-                  href={`/blogs/${post.slug}`}
-                  className={styles.post}
-                >
-                  <img
-                    className={styles.postThumb}
-                    src={post.image || FALLBACK_THUMB}
-                    alt={post.title}
-                    loading="lazy"
-                  />
-                  <span className={styles.postBody}>
-                    {post.category && (
-                      <span className={styles.postCategory}>
-                        {post.category}
-                      </span>
-                    )}
-                    <span className={styles.postTitle}>{post.title}</span>
-                    <span className={styles.postMeta}>
-                      {[post.date, post.readTime].filter(Boolean).join(' · ')}
-                    </span>
-                  </span>
-                </Link>
-              ))}
-            </div>
-          ) : (
-            <p className={styles.empty}>
-              Articles by this author will appear here.
-            </p>
-          )}
-        </div>
-
-        <Footer />
-      </div>
+      <AuthorProfile
+        author={author}
+        guides={guides}
+        topics={topics}
+        writers={writers}
+      />
     </>
   );
 };
@@ -123,7 +72,23 @@ export async function getStaticProps({ params }) {
   const author = getAuthorBySlug(params.slug);
   if (!author) return { notFound: true };
 
-  return { props: { author, posts: getPostsByAuthor(author.name) } };
+  // Everyone with at least one guide, for the desk switcher.
+  const writers = AUTHORS.map((writer) => ({
+    slug: writer.slug,
+    name: writer.name,
+    count: getAuthorGuides(writer.name).length,
+  })).filter((writer) => writer.count > 0);
+
+  return {
+    // Topics go through props: listing.js reads the filesystem, so it must only
+    // be used here, never in render, or it gets pulled into the client bundle.
+    props: {
+      author,
+      guides: getAuthorGuides(author.name),
+      topics: TOPICS,
+      writers,
+    },
+  };
 }
 
-export default AuthorProfile;
+export default AuthorPage;

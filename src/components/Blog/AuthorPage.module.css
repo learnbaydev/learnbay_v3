@@ -1,6 +1,8 @@
 .page {
   /* The site Navbar is position: fixed, 80px tall (60px below 1070px). */
   padding-top: 5rem;
+  font-family: var(--authors-font-sans), 'Plus Jakarta Sans', system-ui,
+    sans-serif;
   background: #fff;
   min-height: 100vh;
 }
