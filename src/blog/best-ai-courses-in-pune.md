@@ -73,122 +73,122 @@ finalCta:
 faqs:
   - question: 'Which is the best AI course in Pune for working professionals in 2026?'
     answer:
-      "The Learnbay + IBM + IIT Patna GenAI and Agentic AI Master Program is the closest fit for
+      'The Learnbay + IBM + IIT Patna GenAI and Agentic AI Master Program is the closest fit for
       working professionals with 1+ years of experience. It covers GenAI, Agentic AI, LLMOps and
-      Responsible AI in 9 months of live classes, with a hybrid project lab in Viman Nagar, Pune."
+      Responsible AI in 9 months of live classes, with a hybrid project lab in Viman Nagar, Pune.'
   - question: 'Which is the best AI institute in Pune?'
     answer:
-      "The best institute depends on your profile. Learnbay suits working professionals who want
+      'The best institute depends on your profile. Learnbay suits working professionals who want
       GenAI and agents with production depth. C-DAC ACTS Pune suits full-time engineering graduates.
-      ExcelR and DataMites suit learners who want a Pune classroom."
+      ExcelR and DataMites suit learners who want a Pune classroom.'
   - question: 'What is the fee for AI courses in Pune?'
     answer:
-      "AI course fees in Pune range from INR 15,000 for short Symbiosis SCDL certificates to
+      'AI course fees in Pune range from INR 15,000 for short Symbiosis SCDL certificates to
       INR 3,20,000 + GST for IISc + TalentSprint. Most full programs with GenAI and agents cost
-      between INR 1,25,000 and INR 1,90,000."
+      between INR 1,25,000 and INR 1,90,000.'
   - question: 'Which AI course in Pune offers placement support?'
     answer:
-      "Learnbay, upGrad + IIIT Bangalore, ExcelR, Imarticus, DataMites, Boston Institute of Analytics
+      'Learnbay, upGrad + IIIT Bangalore, ExcelR, Imarticus, DataMites, Boston Institute of Analytics
       and SevenMentor all offer placement assistance. None guarantees a job. Imarticus offers 10
-      guaranteed interviews, subject to grades and attendance."
+      guaranteed interviews, subject to grades and attendance.'
   - question: 'Is there an AI course in Pune with a job guarantee?'
     answer:
-      "No course on this list guarantees a job. Treat any job guarantee with caution and ask for the
-      refund and placement terms in writing before you pay."
+      'No course on this list guarantees a job. Treat any job guarantee with caution and ask for the
+      refund and placement terms in writing before you pay.'
   - question: 'Can a non-IT professional from BFSI, HR or sales learn AI in Pune?'
     answer:
-      "Yes. Non-coders can start with a no-code applied AI program such as the Learnbay Applied AI
+      'Yes. Non-coders can start with a no-code applied AI program such as the Learnbay Applied AI
       Practitioner Program, offered in collaboration with IIT Patna. It runs for 4 months and focuses
-      on using AI tools and agents in your current role."
+      on using AI tools and agents in your current role.'
   - question: 'Which is the best AI course in Pune for freshers?'
     answer:
-      "Freshers who can study full-time can choose C-DAC ACTS Pune PGCP-AI. Freshers who want a Pune
+      'Freshers who can study full-time can choose C-DAC ACTS Pune PGCP-AI. Freshers who want a Pune
       classroom with strong foundations can look at DataMites or Boston Institute of Analytics. Build
-      at least 3 projects before you apply for jobs."
+      at least 3 projects before you apply for jobs.'
   - question: 'Is C-DAC PG-DAI (now PGCP-AI) worth it in 2026?'
     answer:
-      "It is worth it for fresh engineering and MCA graduates who can study full-time for 24 weeks.
+      'It is worth it for fresh engineering and MCA graduates who can study full-time for 24 weeks.
       The public module list focuses on ML, deep learning, NLP and computer vision. Check the latest
-      syllabus for LLMs, RAG and agents before you apply."
+      syllabus for LLMs, RAG and agents before you apply.'
   - question: 'Which AI course in Pune is best for software developers in Hinjewadi or Kharadi?'
     answer:
-      "Software developers need agent engineering plus DSA and system design for product and GCC
+      'Software developers need agent engineering plus DSA and system design for product and GCC
       interviews. The Learnbay SDE Master Program in GenAI and Agentic AI combines both in 7 to 8
-      months."
+      months.'
   - question: 'Should I choose an online or classroom AI course in Pune?'
     answer:
-      "Choose a classroom or hybrid course if you need accountability and face-to-face doubt-clearing.
+      'Choose a classroom or hybrid course if you need accountability and face-to-face doubt-clearing.
       Choose live online if your work schedule changes often. A hybrid format, with live online theory
-      and classroom project sessions, suits most Pune professionals."
+      and classroom project sessions, suits most Pune professionals.'
   - question: 'How much can I earn after an AI course in Pune?'
     answer:
-      "Professionals moving into AI and data science roles have seen 25% to 45% salary hikes within a
+      'Professionals moving into AI and data science roles have seen 25% to 45% salary hikes within a
       year, as per TeamLease Digital. As per 1 Finance Research, AI professionals with 3 to 5 years of
-      experience earn around INR 12 LPA, and those with 10+ years earn around INR 36 LPA."
+      experience earn around INR 12 LPA, and those with 10+ years earn around INR 36 LPA.'
   - question: 'Can a mechanical or automotive engineer in Pune move into AI?'
     answer:
-      "Yes. Pune manufacturing and automotive GCCs, such as John Deere and Cummins, need AI talent with
+      'Yes. Pune manufacturing and automotive GCCs, such as John Deere and Cummins, need AI talent with
       domain knowledge. Pick a course with a manufacturing domain elective and build projects on
-      predictive maintenance or quality inspection."
+      predictive maintenance or quality inspection.'
   - question: 'Who can switch to an AI career in 2026?'
     answer:
-      "Almost anyone can, including non-tech professionals, testers, developers, analysts, managers and
+      'Almost anyone can, including non-tech professionals, testers, developers, analysts, managers and
       freshers. Non-coders usually move into applied AI roles, while coders move into GenAI, agent and
-      AI engineering roles."
+      AI engineering roles.'
   - question: 'What is the roadmap to switch into AI from a non-AI role?'
     answer:
-      "Pick a target role, build Python and ML foundations, learn Generative AI and RAG, then add agents
+      'Pick a target role, build Python and ML foundations, learn Generative AI and RAG, then add agents
       and LLMOps. Finish with 3 to 5 deployed projects from your own industry and interview preparation.
-      Most working professionals complete this in 6 to 9 months."
+      Most working professionals complete this in 6 to 9 months.'
   - question: 'Do I need to learn classical machine learning before GenAI?'
     answer:
-      "You need the basics. Regression, classification, evaluation metrics and neural network
+      'You need the basics. Regression, classification, evaluation metrics and neural network
       fundamentals help you debug LLM and RAG systems. Agent-only courses that skip ML suit experienced
-      engineers more than beginners."
+      engineers more than beginners.'
   - question: 'What is the difference between a Generative AI course and an Agentic AI course?'
     answer:
-      "A Generative AI course teaches LLMs, prompting, RAG and fine-tuning to build AI applications. An
+      'A Generative AI course teaches LLMs, prompting, RAG and fine-tuning to build AI applications. An
       Agentic AI course teaches you to build agents that plan, call tools and act on goals. The
-      strongest 2026 programs teach both."
+      strongest 2026 programs teach both.'
   - question: 'Is Agentic AI worth learning in 2026?'
     answer:
-      "Yes. Gartner predicts 40% of enterprise apps will feature task-specific AI agents by the end of
+      'Yes. Gartner predicts 40% of enterprise apps will feature task-specific AI agents by the end of
       2026. CIEL HR recorded a 260% rise in demand for Agentic AI Engineers in India between March 2024
-      and May 2026."
+      and May 2026.'
   - question: 'What are MCP and A2A, and why do they matter in AI courses?'
     answer:
-      "MCP (Model Context Protocol) connects AI models to tools and data. A2A (Agent2Agent) lets agents
+      'MCP (Model Context Protocol) connects AI models to tools and data. A2A (Agent2Agent) lets agents
       communicate with each other. Both now sit under the Linux Foundation Agentic AI Foundation, so a
-      syllabus that teaches them is current for 2026."
+      syllabus that teaches them is current for 2026.'
   - question: 'How long does it take to become job-ready in AI?'
     answer:
-      "Most working professionals need 6 to 9 months of structured learning plus 3 to 5 deployed
-      projects. Full-time learners can move faster, but project depth matters more than speed."
+      'Most working professionals need 6 to 9 months of structured learning plus 3 to 5 deployed
+      projects. Full-time learners can move faster, but project depth matters more than speed.'
   - question: 'Can I do an AI course in Pune while working full-time?'
     answer:
-      "Yes. Choose a weekend or weekday evening live batch with recorded backups. Plan for 8 to 10 hours
-      a week, including classes, assignments and project work."
+      'Yes. Choose a weekend or weekday evening live batch with recorded backups. Plan for 8 to 10 hours
+      a week, including classes, assignments and project work.'
   - question: 'What prior knowledge do I need to join an AI course?'
     answer:
-      "For technical programs, school-level maths helps. Learnbay master programs teach Python, ML and
+      'For technical programs, school-level maths helps. Learnbay master programs teach Python, ML and
       deep learning from the basics and expect 1+ years of work experience. No-code programs such as the
-      Applied AI Practitioner need no coding at all."
+      Applied AI Practitioner need no coding at all.'
   - question: 'Does Savitribai Phule Pune University offer part-time AI courses?'
     answer:
-      "Check the university official website for current part-time options, as offerings change each
+      'Check the university official website for current part-time options, as offerings change each
       year. Most working professionals in Pune choose live online or hybrid certifications, or short
-      online certificates such as those from Symbiosis SCDL."
+      online certificates such as those from Symbiosis SCDL.'
   - question: 'Which certifications matter most for AI jobs in Pune?'
     answer:
-      "Certificates help you get shortlisted, but projects get you hired. Industry certifications from
+      'Certificates help you get shortlisted, but projects get you hired. Industry certifications from
       IBM and Microsoft, and academic ones from IITs or IIIT Bangalore, add credibility. The Indeed 2026
       tracker found that 40% of Indian employers now put skills and certifications ahead of degrees for
-      AI roles."
+      AI roles.'
   - question: 'How do I check if an AI course in Pune is genuine?'
     answer:
-      "Ask for the full module list, the listed fee, the refund policy and the placement terms in
+      'Ask for the full module list, the listed fee, the refund policy and the placement terms in
       writing. Read recent one-star reviews on Google, Shiksha and Course Report, and speak with two
-      alumni from Pune before you pay."
+      alumni from Pune before you pay.'
 data:
   keyTakeaways:
     title: Key takeaways
@@ -1148,19 +1148,15 @@ data:
         Training a pre-trained model further on your own data. LoRA and QLoRA are low-cost
         fine-tuning methods.
     - term: Agentic AI
-      definition:
-        AI systems that plan steps, call tools and act on a goal with limited human input.
+      definition: AI systems that plan steps, call tools and act on a goal with limited human input.
     - term: Multi-agent frameworks
-      definition:
-        Tools such as LangGraph, CrewAI and AutoGen that coordinate several agents.
+      definition: Tools such as LangGraph, CrewAI and AutoGen that coordinate several agents.
     - term: MCP (Model Context Protocol)
       definition: An open standard that connects AI models to tools and data sources.
     - term: A2A (Agent2Agent protocol)
-      definition:
-        An open standard that lets agents from different systems talk to each other.
+      definition: An open standard that lets agents from different systems talk to each other.
     - term: Vector database
-      definition:
-        A database that stores embeddings for similarity search, such as Pinecone, FAISS or Chroma.
+      definition: A database that stores embeddings for similarity search, such as Pinecone, FAISS or Chroma.
     - term: LLMOps
       definition:
         Practices for deploying, monitoring, versioning and controlling the cost of LLM
@@ -1168,13 +1164,11 @@ data:
     - term: MLOps
       definition: Practices for deploying and maintaining classical ML models in production.
     - term: Guardrails
-      definition:
-        Checks that keep AI output safe, accurate and compliant. Essential in BFSI and healthcare.
+      definition: Checks that keep AI output safe, accurate and compliant. Essential in BFSI and healthcare.
     - term: Small language model (SLM)
       definition: A smaller, task-specific model that is cheaper to run than a general LLM.
     - term: Forward Deployed Engineer
-      definition:
-        An engineer who builds and integrates AI systems inside a client’s environment.
+      definition: An engineer who builds and integrates AI systems inside a client’s environment.
   programLineup:
     badgeLeft: '10 courses compared'
     badgeRight: 'Scored on 8 skills'
@@ -1239,122 +1233,122 @@ data:
   faqs:
     - question: 'Which is the best AI course in Pune for working professionals in 2026?'
       answer:
-        "The Learnbay + IBM + IIT Patna GenAI and Agentic AI Master Program is the closest fit for
+        'The Learnbay + IBM + IIT Patna GenAI and Agentic AI Master Program is the closest fit for
         working professionals with 1+ years of experience. It covers GenAI, Agentic AI, LLMOps and
-        Responsible AI in 9 months of live classes, with a hybrid project lab in Viman Nagar, Pune."
+        Responsible AI in 9 months of live classes, with a hybrid project lab in Viman Nagar, Pune.'
     - question: 'Which is the best AI institute in Pune?'
       answer:
-        "The best institute depends on your profile. Learnbay suits working professionals who want
+        'The best institute depends on your profile. Learnbay suits working professionals who want
         GenAI and agents with production depth. C-DAC ACTS Pune suits full-time engineering graduates.
-        ExcelR and DataMites suit learners who want a Pune classroom."
+        ExcelR and DataMites suit learners who want a Pune classroom.'
     - question: 'What is the fee for AI courses in Pune?'
       answer:
-        "AI course fees in Pune range from INR 15,000 for short Symbiosis SCDL certificates to
+        'AI course fees in Pune range from INR 15,000 for short Symbiosis SCDL certificates to
         INR 3,20,000 + GST for IISc + TalentSprint. Most full programs with GenAI and agents cost
-        between INR 1,25,000 and INR 1,90,000."
+        between INR 1,25,000 and INR 1,90,000.'
     - question: 'Which AI course in Pune offers placement support?'
       answer:
-        "Learnbay, upGrad + IIIT Bangalore, ExcelR, Imarticus, DataMites, Boston Institute of Analytics
+        'Learnbay, upGrad + IIIT Bangalore, ExcelR, Imarticus, DataMites, Boston Institute of Analytics
         and SevenMentor all offer placement assistance. None guarantees a job. Imarticus offers 10
-        guaranteed interviews, subject to grades and attendance."
+        guaranteed interviews, subject to grades and attendance.'
     - question: 'Is there an AI course in Pune with a job guarantee?'
       answer:
-        "No course on this list guarantees a job. Treat any job guarantee with caution and ask for the
-        refund and placement terms in writing before you pay."
+        'No course on this list guarantees a job. Treat any job guarantee with caution and ask for the
+        refund and placement terms in writing before you pay.'
     - question: 'Can a non-IT professional from BFSI, HR or sales learn AI in Pune?'
       answer:
-        "Yes. Non-coders can start with a no-code applied AI program such as the Learnbay Applied AI
+        'Yes. Non-coders can start with a no-code applied AI program such as the Learnbay Applied AI
         Practitioner Program, offered in collaboration with IIT Patna. It runs for 4 months and focuses
-        on using AI tools and agents in your current role."
+        on using AI tools and agents in your current role.'
     - question: 'Which is the best AI course in Pune for freshers?'
       answer:
-        "Freshers who can study full-time can choose C-DAC ACTS Pune PGCP-AI. Freshers who want a Pune
+        'Freshers who can study full-time can choose C-DAC ACTS Pune PGCP-AI. Freshers who want a Pune
         classroom with strong foundations can look at DataMites or Boston Institute of Analytics. Build
-        at least 3 projects before you apply for jobs."
+        at least 3 projects before you apply for jobs.'
     - question: 'Is C-DAC PG-DAI (now PGCP-AI) worth it in 2026?'
       answer:
-        "It is worth it for fresh engineering and MCA graduates who can study full-time for 24 weeks.
+        'It is worth it for fresh engineering and MCA graduates who can study full-time for 24 weeks.
         The public module list focuses on ML, deep learning, NLP and computer vision. Check the latest
-        syllabus for LLMs, RAG and agents before you apply."
+        syllabus for LLMs, RAG and agents before you apply.'
     - question: 'Which AI course in Pune is best for software developers in Hinjewadi or Kharadi?'
       answer:
-        "Software developers need agent engineering plus DSA and system design for product and GCC
+        'Software developers need agent engineering plus DSA and system design for product and GCC
         interviews. The Learnbay SDE Master Program in GenAI and Agentic AI combines both in 7 to 8
-        months."
+        months.'
     - question: 'Should I choose an online or classroom AI course in Pune?'
       answer:
-        "Choose a classroom or hybrid course if you need accountability and face-to-face doubt-clearing.
+        'Choose a classroom or hybrid course if you need accountability and face-to-face doubt-clearing.
         Choose live online if your work schedule changes often. A hybrid format, with live online theory
-        and classroom project sessions, suits most Pune professionals."
+        and classroom project sessions, suits most Pune professionals.'
     - question: 'How much can I earn after an AI course in Pune?'
       answer:
-        "Professionals moving into AI and data science roles have seen 25% to 45% salary hikes within a
+        'Professionals moving into AI and data science roles have seen 25% to 45% salary hikes within a
         year, as per TeamLease Digital. As per 1 Finance Research, AI professionals with 3 to 5 years of
-        experience earn around INR 12 LPA, and those with 10+ years earn around INR 36 LPA."
+        experience earn around INR 12 LPA, and those with 10+ years earn around INR 36 LPA.'
     - question: 'Can a mechanical or automotive engineer in Pune move into AI?'
       answer:
-        "Yes. Pune manufacturing and automotive GCCs, such as John Deere and Cummins, need AI talent with
+        'Yes. Pune manufacturing and automotive GCCs, such as John Deere and Cummins, need AI talent with
         domain knowledge. Pick a course with a manufacturing domain elective and build projects on
-        predictive maintenance or quality inspection."
+        predictive maintenance or quality inspection.'
     - question: 'Who can switch to an AI career in 2026?'
       answer:
-        "Almost anyone can, including non-tech professionals, testers, developers, analysts, managers and
+        'Almost anyone can, including non-tech professionals, testers, developers, analysts, managers and
         freshers. Non-coders usually move into applied AI roles, while coders move into GenAI, agent and
-        AI engineering roles."
+        AI engineering roles.'
     - question: 'What is the roadmap to switch into AI from a non-AI role?'
       answer:
-        "Pick a target role, build Python and ML foundations, learn Generative AI and RAG, then add agents
+        'Pick a target role, build Python and ML foundations, learn Generative AI and RAG, then add agents
         and LLMOps. Finish with 3 to 5 deployed projects from your own industry and interview preparation.
-        Most working professionals complete this in 6 to 9 months."
+        Most working professionals complete this in 6 to 9 months.'
     - question: 'Do I need to learn classical machine learning before GenAI?'
       answer:
-        "You need the basics. Regression, classification, evaluation metrics and neural network
+        'You need the basics. Regression, classification, evaluation metrics and neural network
         fundamentals help you debug LLM and RAG systems. Agent-only courses that skip ML suit experienced
-        engineers more than beginners."
+        engineers more than beginners.'
     - question: 'What is the difference between a Generative AI course and an Agentic AI course?'
       answer:
-        "A Generative AI course teaches LLMs, prompting, RAG and fine-tuning to build AI applications. An
+        'A Generative AI course teaches LLMs, prompting, RAG and fine-tuning to build AI applications. An
         Agentic AI course teaches you to build agents that plan, call tools and act on goals. The
-        strongest 2026 programs teach both."
+        strongest 2026 programs teach both.'
     - question: 'Is Agentic AI worth learning in 2026?'
       answer:
-        "Yes. Gartner predicts 40% of enterprise apps will feature task-specific AI agents by the end of
+        'Yes. Gartner predicts 40% of enterprise apps will feature task-specific AI agents by the end of
         2026. CIEL HR recorded a 260% rise in demand for Agentic AI Engineers in India between March 2024
-        and May 2026."
+        and May 2026.'
     - question: 'What are MCP and A2A, and why do they matter in AI courses?'
       answer:
-        "MCP (Model Context Protocol) connects AI models to tools and data. A2A (Agent2Agent) lets agents
+        'MCP (Model Context Protocol) connects AI models to tools and data. A2A (Agent2Agent) lets agents
         communicate with each other. Both now sit under the Linux Foundation Agentic AI Foundation, so a
-        syllabus that teaches them is current for 2026."
+        syllabus that teaches them is current for 2026.'
     - question: 'How long does it take to become job-ready in AI?'
       answer:
-        "Most working professionals need 6 to 9 months of structured learning plus 3 to 5 deployed
-        projects. Full-time learners can move faster, but project depth matters more than speed."
+        'Most working professionals need 6 to 9 months of structured learning plus 3 to 5 deployed
+        projects. Full-time learners can move faster, but project depth matters more than speed.'
     - question: 'Can I do an AI course in Pune while working full-time?'
       answer:
-        "Yes. Choose a weekend or weekday evening live batch with recorded backups. Plan for 8 to 10 hours
-        a week, including classes, assignments and project work."
+        'Yes. Choose a weekend or weekday evening live batch with recorded backups. Plan for 8 to 10 hours
+        a week, including classes, assignments and project work.'
     - question: 'What prior knowledge do I need to join an AI course?'
       answer:
-        "For technical programs, school-level maths helps. Learnbay master programs teach Python, ML and
+        'For technical programs, school-level maths helps. Learnbay master programs teach Python, ML and
         deep learning from the basics and expect 1+ years of work experience. No-code programs such as the
-        Applied AI Practitioner need no coding at all."
+        Applied AI Practitioner need no coding at all.'
     - question: 'Does Savitribai Phule Pune University offer part-time AI courses?'
       answer:
-        "Check the university official website for current part-time options, as offerings change each
+        'Check the university official website for current part-time options, as offerings change each
         year. Most working professionals in Pune choose live online or hybrid certifications, or short
-        online certificates such as those from Symbiosis SCDL."
+        online certificates such as those from Symbiosis SCDL.'
     - question: 'Which certifications matter most for AI jobs in Pune?'
       answer:
-        "Certificates help you get shortlisted, but projects get you hired. Industry certifications from
+        'Certificates help you get shortlisted, but projects get you hired. Industry certifications from
         IBM and Microsoft, and academic ones from IITs or IIIT Bangalore, add credibility. The Indeed 2026
         tracker found that 40% of Indian employers now put skills and certifications ahead of degrees for
-        AI roles."
+        AI roles.'
     - question: 'How do I check if an AI course in Pune is genuine?'
       answer:
-        "Ask for the full module list, the listed fee, the refund policy and the placement terms in
+        'Ask for the full module list, the listed fee, the refund policy and the placement terms in
         writing. Read recent one-star reviews on Google, Shiksha and Course Report, and speak with two
-        alumni from Pune before you pay."
+        alumni from Pune before you pay.'
 ---
 
 ## Best AI Courses in Pune in 2026: What the Syllabus Actually Says
