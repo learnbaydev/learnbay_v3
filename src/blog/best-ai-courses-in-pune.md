@@ -1385,6 +1385,8 @@ For working professionals in Pune who want Generative AI, Agentic AI, LLMOps and
 **Quick answer:** Pune is a GCC city. It hosts 500+ Global Capability Centres, and AI and ML hiring here grew 31% year on year in August 2026. Most of these roles ask you to build, deploy and run AI systems in production.
 :::
 
+![Chart 1: Pune holds 9.6% of India’s AI job openings in 2026](https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PuneAIJobShare240926.webp)
+
 Here are the Pune numbers worth knowing before you pay any institute:
 
 ::stat-cards{from=puneStats cols=2}
@@ -1400,6 +1402,8 @@ Hence, the real gap in Pune in 2026 is the shortage of people who can clear an A
 ### The Skill Shift Every Pune Learner Should Know
 
 India’s AI demand has moved from model building to shipping and operating AI systems. CIEL HR tracked job postings from March 2024 to May 2026 and recorded this growth:
+
+![Chart 3: Agentic AI Engineer demand grew 260% in India between 2024 and 2026](https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PuneAgenticAIDemand240926.webp)
 
 ::progress-stats{from=skillDemand}
 
@@ -1465,6 +1469,8 @@ Here is the list of the best AI courses in Pune, compared on the details that ma
 :::
 
 Every entry below comes from the published module list of each course.
+
+![Chart 4: Syllabus coverage of 10 AI courses in Pune across 8 skills for 2026](https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PuneSyllabusCoverage240926.webp)
 
 ::comparison-matrix{from=syllabusDepth}
 
@@ -1661,13 +1667,17 @@ Learners then pick one 16-week specialisation. The MLOps track covers data pipel
 **Quick answer:** AI course fees in Pune range from ₹15,000 for short online certificates to ₹3,20,000 + GST for IISc + TalentSprint. Most full programs that teach GenAI and AI agents cost between ₹1,25,000 and ₹1,90,000.
 :::
 
+![Chart 5: Listed fees of AI courses in Pune in 2026](https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PuneAICourseFees240926.webp)
+
 ::scenario-table{from=feeBands}
 
 ### Fee vs Skills Taught: Which Course Gives You the Most Job Readiness?
 
-A higher fee does not always mean more job-ready skills. The table below plots each course’s listed fee against the number of 2026 skills its syllabus teaches, out of eight: classical ML, RAG, fine-tuning, AI agents, MCP or A2A, vector databases, LLMOps and Responsible AI.
+A higher fee does not always mean more job-ready skills. The chart below plots each course’s listed fee against the number of 2026 skills its syllabus teaches, out of eight: classical ML, RAG, fine-tuning, AI agents, MCP or A2A, vector databases, LLMOps and Responsible AI.
 
 A full topic counts as one point, and a partial topic counts as half a point.
+
+![Chart 6: Fee vs job readiness of AI courses in Pune, with Learnbay in the job-ready zone](https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PuneFeeVsJobReadiness240926.webp)
 
 ::comparison-matrix{from=feeVsSkills}
 
@@ -1730,6 +1740,8 @@ If you are searching for a **generative AI course in Pune** or an **agentic AI c
 :::
 
 Hence, the useful question is which path fits where you are today.
+
+![Chart 7: Career switch mental map to AI roles in 2026](https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PuneCareerSwitchMap240926.webp)
 
 ### The Career Switch Mental Map
 
@@ -1885,6 +1897,8 @@ The biggest jumps come when you move into a new AI role.
 ::stat-cards{from=hikeStats cols=2}
 
 ### AI vs IT Salaries at the Same Experience Level
+
+![Chart 2: AI vs IT salaries by experience in 2026, showing an AI premium of up to 38%](https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PuneAIvsITSalaries240926.webp)
 
 ::scenario-table{from=salaryBands}
 

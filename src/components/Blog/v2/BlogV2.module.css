@@ -190,6 +190,12 @@
   aspect-ratio: auto 16 / 9;
 }
 
+/* Charts are drawn at ~2000px with small type, so a figure paragraph drops the
+   reading measure and spans the full column like the tables beside it. */
+.prose > p:has(> img:only-child) {
+  max-width: none;
+}
+
 .prose hr {
   margin: 36px 0;
   border: 0;
@@ -287,5 +293,15 @@
 
   .prose h3 {
     font-size: 18.5px;
+  }
+
+  /* At phone width a chart's labels shrink below readable size, so it keeps a
+     minimum width and scrolls sideways like the tables do. */
+  .prose > p:has(> img:only-child) {
+    overflow-x: auto;
+  }
+
+  .prose p > img:only-child {
+    min-width: 600px;
   }
 }
