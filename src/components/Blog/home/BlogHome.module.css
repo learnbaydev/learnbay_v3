@@ -1186,6 +1186,7 @@
   line-height: 48px;
   letter-spacing: -1.4px;
   color: #fff;
+  text-wrap: balance;
 }
 
 .promoTitleAccent {
@@ -1271,13 +1272,15 @@
 }
 
 .promoRatings {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  gap: 28px;
-  margin-top: 28px;
-  padding-top: 24px;
-  border-top: 1px solid var(--bh-dark-line-soft);
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  gap: 14px 20px;
+  margin-top: auto;
+  padding: 18px 22px;
+  border: 1px solid var(--bh-dark-line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .promoRating {
@@ -1298,7 +1301,9 @@
 }
 
 .promoReviews {
-  margin-left: auto;
+  grid-column: 1 / -1;
+  padding-top: 12px;
+  border-top: 1px solid var(--bh-dark-line-soft);
   font-size: 13px;
   font-weight: 600;
   line-height: 20px;
@@ -2007,10 +2012,6 @@
 
   .promoFeatures {
     grid-template-columns: minmax(0, 1fr);
-  }
-
-  .promoReviews {
-    margin-left: 0;
   }
 
   .codeWindow {

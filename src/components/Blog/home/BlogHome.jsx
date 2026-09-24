@@ -430,18 +430,6 @@ const Programs = ({ onCounsel }) => {
               the right track, and if this program isn&apos;t the right fit,
               they&apos;ll tell you.
             </p>
-
-            <div className={styles.promoRatings}>
-              {RATINGS.map((rating) => (
-                <span className={styles.promoRating} key={rating.label}>
-                  <strong>{rating.value}</strong>
-                  {rating.label}
-                </span>
-              ))}
-              <Link href="/reviews" className={styles.promoReviews}>
-                Read reviews →
-              </Link>
-            </div>
           </div>
 
           <div className={styles.promoSide}>
@@ -488,6 +476,18 @@ const Programs = ({ onCounsel }) => {
                   </div>
                 ))}
               </dl>
+            </div>
+
+            <div className={styles.promoRatings}>
+              {RATINGS.map((rating) => (
+                <span className={styles.promoRating} key={rating.label}>
+                  <strong>{rating.value}</strong>
+                  {rating.label}
+                </span>
+              ))}
+              <Link href="/reviews" className={styles.promoReviews}>
+                Read reviews →
+              </Link>
             </div>
           </div>
 
