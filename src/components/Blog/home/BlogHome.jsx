@@ -16,6 +16,8 @@ import {
   IMG,
   LINKEDIN_URL,
   PROGRAMS,
+  PROMO_FEATURES,
+  PROMO_HREF,
   PROMO_SUMMARY,
   QUOTES,
   RATINGS,
@@ -50,20 +52,21 @@ const initials = (name) =>
     .map((part) => part[0].toUpperCase())
     .join('');
 
-const Masthead = ({ lead, totalGuides, updated }) => (
+const Masthead = ({ lead }) => (
   <section className={styles.masthead}>
     <div className={styles.container}>
       <div className={styles.mastheadCopy}>
         <p className={`${styles.eyebrow} ${styles.onDark}`}>
-          The Learnbay desk · {totalGuides} guides live
-          {updated && ` · updated ${updated}`}
+          The Learnbay Blog · AI, data &amp; tech, explained
         </p>
-        <h1 className={styles.d1}>We publish what the brochures leave out.</h1>
+        <h1 className={styles.d1}>
+          Stay ahead in AI and tech, one clear read at a time.
+        </h1>
         <p className={`${styles.lede} ${styles.onDark}`}>
-          Comparison guides, hiring data and career roadmaps for working
-          professionals moving into AI. Every number is sourced, every ranking
-          shows its method, and we say plainly when a Learnbay program is the
-          wrong fit.
+          Byte-sized guides on GenAI, agentic AI, data science and the tools
+          shaping them, plus the skills, roadmaps and hiring trends that tell
+          you what to learn next. Written for working professionals, sourced,
+          and free to read.
         </p>
       </div>
 
@@ -171,10 +174,11 @@ const Watch = () => {
             <h2
               className={`${styles.d2} ${styles.onDarkStrong} ${styles.w760}`}
             >
-              Rather watch it? Same research, ten minutes.
+              Prefer to watch? Most guides have a video version.
             </h2>
             <p className={`${styles.lede} ${styles.onDark}`}>
-              Every comparison guide on this page has a video version, filmed by
+              The desk doesn&apos;t just write the research — it films it.
+              Comparisons, roadmaps, live projects and skill breakdowns, made by
               the same people who did the scoring. No slides read aloud.
             </p>
           </div>
@@ -374,67 +378,126 @@ const Programs = ({ onCounsel }) => {
 
         <div className={styles.promo}>
           <div className={styles.promoCopy}>
+            <div className={styles.promoBadges}>
+              <span className={styles.badgeFlagship}>★ Flagship program</span>
+              <span className={styles.badgeLive}>Live cohort</span>
+            </div>
             <p className={`${styles.eyebrow} ${styles.onDarkAccent}`}>
-              One counselling call, three tracks
+              Done reading? Start building.
             </p>
-            <h2
-              className={`${styles.d2} ${styles.onDarkStrong} ${styles.w560}`}
-            >
-              The counsellor&apos;s job is to tell you which one - not to sell
-              you the most expensive one.
+            <h2 className={styles.promoTitle}>
+              Stop reading about AI agents.{' '}
+              <span className={styles.promoTitleAccent}>
+                Start building them.
+              </span>
             </h2>
             <p className={styles.promoText}>
-              GenAI &amp; Agentic AI Master Program if you code. Applied AI
-              Practitioner if you would rather not. A Woolf-accredited MS if you
-              need the degree to travel.
+              The <strong>GenAI &amp; Agentic AI Master Program</strong> is for
+              working engineers who want to build and ship GenAI and agentic AI
+              systems, not just talk about them. It&apos;s 9 months of live
+              classes, with weekday or weekend batches that fit around a
+              full-time job.
             </p>
+
+            <ul className={styles.promoFeatures}>
+              {PROMO_FEATURES.map((item) => (
+                <li className={styles.promoFeature} key={item.title}>
+                  <span className={styles.promoIcon} aria-hidden>
+                    {item.icon}
+                  </span>
+                  <span>
+                    <strong>{item.title}</strong>
+                    {item.text}
+                  </span>
+                </li>
+              ))}
+            </ul>
+
             <div className={styles.actions}>
               <button
                 type="button"
                 className={`${styles.btn} ${styles.btnLight}`}
                 onClick={onCounsel}
               >
-                Book free counselling
+                Check if it fits you: free call &nbsp;→
               </button>
-              <Link
-                href="/genai-and-agentic-ai-master-program"
-                className={`${styles.btn} ${styles.btnGhostDark}`}
-              >
-                Explore the program &nbsp;→
+              <Link href={PROMO_HREF} className={styles.promoLink}>
+                See the full curriculum
               </Link>
             </div>
-            <p className={styles.promoFine}>
-              We do not publish fees here. Each program page carries its own
-              pricing, and a counsellor will confirm the exact figure for your
-              track before you commit. Placement assistance is included;
-              placement is not guaranteed. Durations are indicative and
-              confirmed before your batch begins.
+            <p className={styles.promoReassure}>
+              No payment, no obligation. A counsellor maps your background to
+              the right track, and if this program isn&apos;t the right fit,
+              they&apos;ll tell you.
             </p>
-          </div>
 
-          <div className={styles.summary}>
-            <dl>
-              {PROMO_SUMMARY.map((row) => (
-                <div className={styles.summaryRow} key={row.label}>
-                  <dt>{row.label}</dt>
-                  <dd className={row.accent ? styles.summaryAccent : ''}>
-                    {row.value}
-                  </dd>
-                </div>
+            <div className={styles.promoRatings}>
+              {RATINGS.map((rating) => (
+                <span className={styles.promoRating} key={rating.label}>
+                  <strong>{rating.value}</strong>
+                  {rating.label}
+                </span>
               ))}
-            </dl>
-            <div className={styles.marks}>
-              <span className={styles.markIbm}>
-                <img src={`${IMG}/mark-ibm.webp`} alt="IBM" />
-              </span>
-              <span className={styles.markMicrosoft}>
-                <img src={`${IMG}/mark-microsoft.webp`} alt="Microsoft" />
-              </span>
-              <span className={styles.markIit}>
-                <img src={`${IMG}/mark-iit-patna.webp`} alt="IIT Patna" />
-              </span>
+              <Link href="/reviews" className={styles.promoReviews}>
+                Read reviews →
+              </Link>
             </div>
           </div>
+
+          <div className={styles.promoSide}>
+            <div className={styles.codeWindow} aria-hidden>
+              <div className={styles.codeBar}>
+                <span />
+                <span />
+                <span />
+                <em>your_first_agent.py</em>
+              </div>
+              <pre className={styles.code}>
+                <span className={styles.codeVar}>agent</span> = Agent({'\n'}
+                {'    '}model=
+                <span className={styles.codeStr}>&quot;llm&quot;</span>,{'\n'}
+                {'    '}tools=[search, sql, email],{'\n'}){'\n'}
+                <span className={styles.codeVar}>agent</span>.run(
+                <span className={styles.codeStr}>
+                  &quot;Summarise last week&apos;s churn&quot;
+                </span>
+                ){'\n\n'}
+                <span className={styles.codeOk}>
+                  ✓ plan{'  '}✓ query{'  '}✓ draft
+                </span>
+              </pre>
+            </div>
+
+            <div className={styles.summary}>
+              <p className={`${styles.eyebrow} ${styles.onDarkAccent}`}>
+                Program at a glance
+              </p>
+              <dl>
+                {PROMO_SUMMARY.map((row) => (
+                  <div className={styles.summaryRow} key={row.label}>
+                    <dt>{row.label}</dt>
+                    <dd>
+                      {row.href ? (
+                        <Link href={row.href} className={styles.summaryLink}>
+                          {row.value}
+                        </Link>
+                      ) : (
+                        row.value
+                      )}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
+
+          <p className={styles.promoFine}>
+            Fees are listed on the program page and confirmed on your call, as
+            they depend on track and batch. Placement assistance is included;
+            placement is not guaranteed. Durations are indicative and confirmed
+            before your batch begins. Ratings are from third-party review
+            platforms.
+          </p>
         </div>
       </div>
     </section>
@@ -565,26 +628,24 @@ const Newsletters = () => {
   return (
     <section className={styles.dark}>
       <div className={styles.container}>
-        <p className={`${styles.eyebrow} ${styles.onDark}`}>
+        <p className={`${styles.eyebrow} ${styles.newsEyebrow}`}>
           Two ways to get the next one
         </p>
-        <h2
-          className={`${styles.d2} ${styles.onDarkStrong} ${styles.d2Wide} ${styles.newsTitle}`}
-        >
-          We send one email a month. Not a sales sequence.
+        <h2 className={styles.newsTitle}>
+          Read it here, or let it find you — one honest update a month.
         </h2>
 
         <div className={styles.panels}>
           <div className={styles.panel}>
             <div className={styles.panelCopy}>
-              <p className={`${styles.eyebrow} ${styles.onDarkAccent}`}>
+              <p className={`${styles.eyebrow} ${styles.panelEyebrow}`}>
                 Email · monthly
               </p>
               <h3 className={styles.d4Dark}>The Desk</h3>
               <p className={styles.panelText}>
-                New comparisons, refreshed salary bands and syllabus changes
-                worth knowing about sent once a month, the day a guide is
-                updated.
+                One email, the day a guide changes: a refreshed comparison, a
+                new hiring number, or a syllabus that quietly moved. No drip
+                sequence after you sign up.
               </p>
             </div>
             <form className={styles.subscribe} onSubmit={subscribe} noValidate>
@@ -605,7 +666,7 @@ const Newsletters = () => {
               />
               <button
                 type="submit"
-                className={`${styles.btn} ${styles.btnPrimary}`}
+                className={`${styles.btn} ${styles.btnIndigo}`}
                 disabled={status === 'sending' || status === 'done'}
               >
                 {status === 'sending' ? 'Subscribing…' : 'Subscribe'}
@@ -618,14 +679,14 @@ const Newsletters = () => {
 
           <div className={styles.panel}>
             <div className={styles.panelCopy}>
-              <p className={`${styles.eyebrow} ${styles.onDarkAccent}`}>
+              <p className={`${styles.eyebrow} ${styles.panelEyebrow}`}>
                 LinkedIn · weekly
               </p>
               <h3 className={styles.d4Dark}>Careers in the AI shift</h3>
               <p className={styles.panelText}>
-                A shorter weekly read on LinkedIn: one hiring signal, one skill
-                worth adding, and one honest take on a course claim doing the
-                rounds.
+                A shorter weekly read: one hiring signal worth knowing, one
+                skill worth adding, and one course claim we checked so you
+                don&apos;t have to.
               </p>
             </div>
             <a
@@ -708,7 +769,7 @@ const BlogHome = ({ lead, posts, topics, totalGuides, updated }) => {
       <Navbar popup dataScience interstedInHide />
 
       <main className={`${styles.page} ${jakarta.variable} ${serif.variable}`}>
-        <Masthead lead={lead} totalGuides={totalGuides} updated={updated} />
+        <Masthead lead={lead} />
         <ArticleIndex posts={posts} topics={topics} totalGuides={totalGuides} />
         <Watch />
         <Programs onCounsel={openCounsel} />

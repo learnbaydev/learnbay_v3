@@ -7,10 +7,16 @@ export const YOUTUBE_URL = 'https://bit.ly/Learnbay_YouTube';
 export const LINKEDIN_URL = 'https://www.linkedin.com/company/learnbay/';
 
 export const DESK_COUNTERS = [
-  { value: '50+', label: 'Programs reviewed before any ranking is published' },
-  { value: '8', label: 'Curriculum topics scored, cell by cell' },
-  { value: '4', label: 'Primary sources behind our 2026 hiring numbers' },
-  { value: '0', label: 'Sponsored placements nobody pays to rank here' },
+  {
+    value: '26',
+    label: 'Guides live across GenAI, data science, careers and courses',
+  },
+  {
+    value: '4',
+    label: 'Topic tracks: GenAI, skills & roadmaps, careers, course guides',
+  },
+  { value: '16', label: 'Guides you can finish in 10 minutes or less' },
+  { value: '0', label: 'Paywalls or sign-ups needed to read any of them' },
 ];
 
 // `id` is the YouTube video id; videos play in place on the page.
@@ -129,14 +135,38 @@ export const PROGRAMS = [
   },
 ];
 
+export const PROMO_HREF = '/genai-and-agentic-ai-master-program';
+
+export const PROMO_FEATURES = [
+  {
+    icon: '⚙',
+    title: 'Learn it for your role',
+    text: 'Pick a track: SDE, Cloud & DevOps, or Data Analyst.',
+  },
+  {
+    icon: '✎',
+    title: 'Build on real domain problems',
+    text: 'Two months of electives and live projects in BFSI, retail or manufacturing.',
+  },
+  {
+    icon: '▶',
+    title: '300+ hours, all live',
+    text: 'Taught in real time, so you can ask questions, not rewind videos.',
+  },
+  {
+    icon: '✓',
+    title: 'Backed after you finish',
+    text: 'Career support for up to 3 years. Certified by IBM, Microsoft & IIT Patna.',
+  },
+];
+
 export const PROMO_SUMMARY = [
-  { label: 'Program', value: 'GenAI & Agentic AI Master' },
   { label: 'Duration', value: '9 months' },
   { label: 'Format', value: '100% live, weekday or weekend' },
   { label: 'Live teaching', value: '300+ hours' },
   { label: 'Certification', value: 'IBM, Microsoft, IIT Patna' },
   { label: 'Career support', value: 'Up to 3 years' },
-  { label: 'Fee', value: 'On the program page', accent: true },
+  { label: 'Fee', value: 'On the program page →', href: PROMO_HREF },
 ];
 
 // 20 portraits across three rows of twelve, wrapping round the set, so the wall covers wide screens.
@@ -154,7 +184,7 @@ export const ALUMNI_ROWS = [0, 9, 18].map((start) =>
 export const RATINGS = [
   { value: '4.69', label: 'SwitchUp' },
   { value: '4.52', label: 'Course Report' },
-  { value: '9,000+', label: 'transitions' },
+  { value: '9,000+', label: 'career transitions' },
 ];
 
 export const QUOTES = [
