@@ -1,4 +1,3 @@
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
@@ -29,7 +28,6 @@ function refund() {
         <Navbar popup={true} dataScienceCounselling={true} radio={true} />
         <Refund />
         <Footer />
-        <WhatsappFloat />
         <BottomBar
           dataScienceGeneric={true}
           interstedInHide={true}

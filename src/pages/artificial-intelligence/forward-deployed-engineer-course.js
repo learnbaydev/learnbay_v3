@@ -8,7 +8,6 @@ import LearningToPlacement from '@/components/CoursePage/newUICourse/LearningToP
 import UpdatedCertificate from '@/components/CoursePage/UpdatedCertificate/UpdatedCertificate';
 import BottomBar from '@/components/Global/BottomBar/BottomBar';
 import Navbar from '@/components/Global/Navbar/Navbar';
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import { parseJSONData } from '@/Util/JsonConvertor';
 import { link } from 'fs';
 import dynamic from 'next/dynamic';
@@ -829,7 +828,6 @@ const NewDSA = ({ DSADataJson }) => {
         <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
-        <WhatsappFloat />
       </main>
     </>
   );

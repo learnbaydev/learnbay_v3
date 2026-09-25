@@ -5,7 +5,6 @@ import FirstSection from "@/components/Home/FirstSection/FirstSection";
 import styles from "../../styles/Home.module.css";
 import Navbar from "../../components/Global/Navbar/Navbar";
 import Footer from "../../components/Global/Footer/Footer";
-import WhatsappFloat from "../../components/Global/WhatappsFloat/WhatsappFloat";
 import Animation from "@/components/Home/whyChooseSection/whyChooseSection";
 const SeventhSection = dynamic(() =>
   import("../../components/Global/SeventhSection/SeventhSection")
@@ -185,7 +184,6 @@ export default function Home() {
         getappsOraginc={true}
         nolinklogo={true}
       />
-      <WhatsappFloat chat360code1={true} />
       <BottomBar
         dataScienceGeneric={true}
         // interstedInHide={true}

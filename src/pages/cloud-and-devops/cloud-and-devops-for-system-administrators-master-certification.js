@@ -10,7 +10,6 @@ import AlumniCompanies from '@/components/CoursePage/newUICourse/AlumniCompanies
 import LearningToPlacement from '@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement';
 import BottomBar from '@/components/Global/BottomBar/BottomBar';
 import Navbar from '@/components/Global/Navbar/Navbar';
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import highlightsData from '@/Data/HighlightsAdminSectionData';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
@@ -811,7 +810,6 @@ Cloud and DevOps certification program,
         <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
-        <WhatsappFloat />
       </main>
     </>
   );

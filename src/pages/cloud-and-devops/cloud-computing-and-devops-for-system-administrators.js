@@ -10,7 +10,6 @@ import AlumniCompaniesCloudDevopsSA from '@/components/CoursePage/newUICourse/Al
 import LearningToPlacementSA from '@/components/CoursePage/newUICourse/LearningToPlacementSA/LearningToPlacement';
 import BottomBar from '@/components/Global/BottomBar/BottomBar';
 import Navbar from '@/components/Global/Navbar/Navbar';
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import React from 'react';
@@ -754,7 +753,6 @@ DevOps engineering for system administrator
         <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
-        <WhatsappFloat />
       </main>
     </>
   );

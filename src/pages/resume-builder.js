@@ -1,4 +1,3 @@
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
@@ -35,7 +34,6 @@ const ResumeBuilder = () => {
       <FirstSection />
       <ThirdSection idss="4PBfjKsw580" />
       <Footer />
-      <WhatsappFloat />
       <BottomBar
         dataScienceCounselling={true}
         interstedInHide={true}

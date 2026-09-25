@@ -16,7 +16,6 @@ import NewCyberECCouncilProject from '@/components/CoursePage/NewDSA/ProjectSect
 import MentorsSection from '@/components/course/MentorsSection/MentorsSection';
 import Footer from '@/components/Global/Footer/Footer';
 import BottomBar from '@/components/Global/BottomBar/BottomBar';
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import FAQNew from '@/components/CoursePage/FAQNew/FAQNewDomain';
 import NewSevenSection from '@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection';
 const Content = dynamic(
@@ -247,7 +246,6 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
         />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
-        <WhatsappFloat />
       </main>
     </>
   );

@@ -1,5 +1,4 @@
 import Navbar from '@/components/Global/Navbar/Navbar';
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import BrochureDemoSection from '@/components/ThankYouNew/BrochureDemoSection';
 import SessionSection from '@/components/ThankYouNew/SessionSection';
 import WhyChooseUsSection from '@/components/ThankYouNew/WhyChooseUsSection';
@@ -134,7 +133,6 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
       </div>
       {/* <BrochureDemoSection pdfUrl={pdfUrl} /> */}
       <Footer />
-      <WhatsappFloat />
     </>
   );
 };

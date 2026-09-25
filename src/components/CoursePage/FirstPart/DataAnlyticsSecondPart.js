@@ -4,9 +4,6 @@ import { useEffect, useState } from 'react';
 import LJourney from '../LJourney/LJourney';
 const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
 const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
-const WhatsappFloat = dynamic(
-  () => import('@/components/Global/WhatappsFloat/WhatsappFloat')
-);
 const Content = dynamic(
   () => import('../../../components/CoursePage/Content/content')
 );
@@ -153,7 +150,6 @@ const SecondPart = ({
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
-      <WhatsappFloat />
       {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </div>
   );

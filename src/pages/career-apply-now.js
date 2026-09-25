@@ -5,7 +5,6 @@ import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import Image from "next/image";
 import Head from "next/head";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 
 const applyNow = () => {
   return (
@@ -43,7 +42,6 @@ const applyNow = () => {
         </div>
       </div>
       <Footer />
-      <WhatsappFloat />
     </div>
   );
 };

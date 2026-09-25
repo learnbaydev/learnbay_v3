@@ -1,4 +1,3 @@
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
 import Image from "next/image";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
@@ -56,7 +55,6 @@ const sumbit = () => {
         radio={true}
       />
       <Footer />
-      <WhatsappFloat />
     </div>
   );
 };

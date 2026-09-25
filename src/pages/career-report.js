@@ -1,4 +1,3 @@
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
@@ -41,7 +40,6 @@ function careerReport() {
         interstedInHide={true}
         radio={true}
       />
-      <WhatsappFloat />
       <Footer />
     </div>
   );
