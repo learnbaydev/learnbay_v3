@@ -276,7 +276,6 @@ function EnrollPage({ label, ...rest }) {
           style={{ objectFit: "contain" }}
           width={mobile ? "135" : "230"}
           height={60}
-          loading="lazy"
         
         />
       </div>

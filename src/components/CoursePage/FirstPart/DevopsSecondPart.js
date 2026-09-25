@@ -1,7 +1,6 @@
 import BottomBar from '@/components/Global/BottomBar/BottomBar';
 import Footer from '@/components/Global/Footer/Footer';
 import SeventhSection from '@/components/Global/SeventhSection/SeventhSection';
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
 import DSAFeeSection from '../dsaFee/DSAFeeSection';
@@ -149,7 +148,6 @@ const SecondPart = ({
         dataScienceCounselling={true}
         // interstedInHide={true}
       />
-      <WhatsappFloat />
       {/* {adsHide ? (
         ""
       ) : (

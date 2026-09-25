@@ -1,4 +1,3 @@
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
@@ -36,7 +35,6 @@ function contactus() {
           radio={true}
         />
         <Footer />
-        <WhatsappFloat />
       </main>
     </div>
   );

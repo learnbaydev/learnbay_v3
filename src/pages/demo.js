@@ -1,4 +1,3 @@
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
@@ -31,7 +30,6 @@ export default function Home() {
         />
         <Demo demos={true} />
         <Footer />
-        <WhatsappFloat />
         <BottomBar
           dataScienceGeneric={true}
           interstedInHide={true}

@@ -62,7 +62,6 @@ const ProgramSnapshotSection = dynamic(
 );
 
 const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 
 // import { list } from "postcss";
 // import FAQAppliedAINew from "@/components/CoursePage/FAQNew/FAQAppliedAINew";
@@ -818,7 +817,6 @@ const AppliedAIPractitionerProgram = () => {
         {/* <FAQAppliedAINew /> */}
         <FAQ FaqData={faqNewData} />
         <Footer />
-        <WhatsappFloat />
       </div>
     </main>
   );

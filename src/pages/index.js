@@ -15,9 +15,6 @@ import RealWorld from '@/components/homeNew/RealWorld/RealWorld';
 const BottomBar = dynamic(
   () => import('@/components/Global/BottomBar/BottomBar')
 );
-const WhatsappFloat = dynamic(
-  () => import('@/components/Global/WhatappsFloat/WhatsappFloat')
-);
 const Media = dynamic(() => import('@/components/Home/Media/Media'));
 const MobileTestimonial = dynamic(
   () => import('@/components/Home/MobileTestimonial/MobileTestimonial')
@@ -460,7 +457,6 @@ export default function Home() {
       */}
 
       <Footer />
-      <WhatsappFloat chat360code1={true} />
       <BottomBar dataScienceCounselling={true} radio={true} />
     </>
   );
