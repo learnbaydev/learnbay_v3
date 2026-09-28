@@ -119,13 +119,22 @@ const Hero = ({ post }) => (
 
     {post.image && (
       <div className={styles.banner}>
-        <img
-          src={post.image}
-          alt={post.alt}
-          width={1280}
-          height={427}
-          fetchpriority="high"
-        />
+        <picture>
+          {/* v1 swaps to `imagephone` on mobile; match that contract here so a
+              post can ship a taller phone crop of an ultra-wide banner. Doing
+              it with <source> rather than a JS width check keeps SSR and the
+              client in agreement. */}
+          {post.imagephone && post.imagephone !== post.image && (
+            <source media="(max-width: 720px)" srcSet={post.imagephone} />
+          )}
+          <img
+            src={post.image}
+            alt={post.alt}
+            width={1600}
+            height={626}
+            fetchpriority="high"
+          />
+        </picture>
       </div>
     )}
 

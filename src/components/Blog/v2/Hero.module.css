@@ -173,7 +173,8 @@
   overflow: hidden;
 }
 
-.banner img {
+.banner img,
+.banner picture {
   display: block;
   width: 100%;
   height: auto;
@@ -221,6 +222,18 @@
 @media (max-width: 720px) {
   .hero {
     padding-top: 28px;
+  }
+
+  /* Other blog layouts run the banner edge to edge on phones. Inside the 20px
+     gutter, with a border and radius on top, an ultra-wide banner shrinks to a
+     boxed-in strip — so cancel the gutter and drop the card treatment here. */
+  .banner {
+    margin-top: 24px;
+    margin-left: calc(var(--lb-gutter) * -1);
+    margin-right: calc(var(--lb-gutter) * -1);
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
   }
 
   .title {
