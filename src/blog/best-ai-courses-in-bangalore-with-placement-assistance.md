@@ -74,7 +74,7 @@ faqs:
   - question: Which is the best AI course in Bangalore in 2026?
     answer:
       There is no single best course for everyone. For a working professional who wants Generative
-      AI, Agentic AI and production operations in one track with classroom access, the Learnbay GenAI and
+      AI, Agentic AI and production operations in one track with classroom access, the Learnbay + IBM + IIT Patna GenAI and
       Agentic AI Master Program fits best. For research-grade depth on agents, IISc Bangalore leads. For
       agent tooling at a lower fee, AnalytixLabs goes deepest per rupee. Match the syllabus to your target
       role rather than to the brand name.
@@ -160,7 +160,7 @@ data:
     rows:
       - cells:
           - Working Professionals, 1+ years, want live training, AI plus interview prep
-          - Learnbay GenAI and Agentic AI Master Program
+          - Learnbay + IBM + IIT Patna, GenAI and Agentic AI Master Program
           - The only program here combining GenAI, Agentic AI, LLMOps, production deployment, DSA and system
             design in one track
         highlight: true
@@ -208,7 +208,7 @@ data:
       - cells:
           - '1'
           - GenAI and Agentic AI Master Program
-          - Learnbay
+          - Learnbay + IBM + IIT Patna
           - 9 months, 300+ live hrs
           - INR 1,59,000 + GST
           - Yes, hybrid classroom
@@ -281,7 +281,7 @@ data:
       - Responsible AI
     rows:
       - cells:
-          - Learnbay
+          - Learnbay + IBM + IIT Patna
           - Yes, full module
           - Yes, LoRA, PEFT
           - Yes, 1.5-month extensive module
@@ -354,7 +354,7 @@ data:
       - Deployment stack taught
     rows:
       - cells:
-          - Learnbay
+          - Learnbay + IBM + IIT Patna
           - Yes, CI/CD for AI
           - Yes, 1-month module
           - Yes, 1.5-month module
@@ -412,7 +412,7 @@ data:
       - Most repeated criticism
     rows:
       - cells:
-          - Learnbay
+          - Learnbay + IBM + IIT Patna
           - 4.7 Google (2599), 4.53 Course Report (161), 4.69 SwitchUp (101)
           - Pace assumes coding comfort; support good for 1x1 training, and decent on placement
         highlight: true
@@ -473,7 +473,7 @@ data:
       - Format
     rows:
       - cells:
-          - Learnbay
+          - Learnbay + IBM + IIT Patna
           - HSR Layout, hybrid project sessions
           - Live online, or online plus classroom projects
         highlight: true
@@ -709,7 +709,7 @@ data:
     items:
       - tag: Most popular
         title: GenAI & Agentic AI Master Program
-        meta: 9 months · 300+ live hours · Microsoft & IBM certified · hybrid classroom in Bangalore
+        meta: 9 months · 300+ live hours · Microsoft, IBM & IIT Patna certified · hybrid classroom in Bangalore
         price: ₹1,59,000 + GST
         cta: Explore program
         href: https://www.learnbay.co/genai-and-agentic-ai-master-program
@@ -762,7 +762,7 @@ data:
     - question: Which is the best AI course in Bangalore in 2026?
       answer:
         There is no single best course for everyone. For a working professional who wants Generative
-        AI, Agentic AI and production operations in one track with classroom access, the Learnbay GenAI
+        AI, Agentic AI and production operations in one track with classroom access, the Learnbay + IBM + IIT Patna GenAI
         and Agentic AI Master Program fits best. For research-grade depth on agents, IISc Bangalore leads.
         For agent tooling at a lower fee, AnalytixLabs goes deepest per rupee. Match the syllabus to your
         target role rather than to the brand name.
@@ -856,7 +856,7 @@ We read the published syllabus of 10 programs, module by module, and ignored the
 This blog will walk you through the **best AI courses in Bangalore** for 2026, with a side-by-side comparison of curriculum depth, fees, delivery format and career support.
 
 :::callout{title="Quick answer"}
-For a working professional in tech background like software engineer, test engineer, cloud, devops or in non-tech background like BFSI, Healthcare, Manufacturing or HR in Bangalore who wants to upgrade in AI with Generative AI, Agentic AI, LLMOps and production deployment in one track with a classroom option, the Learnbay GenAI and Agentic AI Master Program is the closest fit. For a research-grade credential, IISc Bangalore is a good option. For a low-cost agent-only course, AnalytixLabs goes deepest per rupee.
+For a working professional in tech background like software engineer, test engineer, cloud, devops or in non-tech background like BFSI, Healthcare, Manufacturing or HR in Bangalore who wants to upgrade in AI with Generative AI, Agentic AI, LLMOps and production deployment in one track with a classroom option, the Learnbay + IBM + IIT Patna GenAI and Agentic AI Master Program is the closest fit. For a research-grade credential, IISc Bangalore is a good option. For a low-cost agent-only course, AnalytixLabs goes deepest per rupee.
 :::
 
 ## Pick Your Scenario First
@@ -1000,7 +1000,7 @@ Hence, if you are already an SDE, the right question is not “which AI course i
 **Quick answer:** Each review below covers what is actually in the syllabus, who it suits, and where it falls short. No program here guarantees a job.
 :::
 
-### 1. Learnbay: GenAI and Agentic AI Master Program
+### 1. Learnbay + IBM + IIT Patna: GenAI and Agentic AI Master Program
 
 [learnbay.co/genai-and-agentic-ai-master-program](https://www.learnbay.co/genai-and-agentic-ai-master-program)
 
@@ -1014,7 +1014,7 @@ Second, responsible AI and guardrails is a graded module rather than a single bu
 
 Third, the program forks by role. Software engineers take the SDE Master Program with DSA and system design. Cloud and DevOps professionals take the Cloud and DevOps track. Managers take the leadership track. Domain specialisation runs across BFSI, healthcare, supply chain, manufacturing, HR and project management.
 
-Add the practical parts. Microsoft and IBM GenAI certification. 40+ guided hands-on projects plus AI Co-Lab work on live startup problems. A 3-year flexible subscription, against one year at AnalytixLabs and fixed windows elsewhere. Hybrid delivery, with classroom project sessions in Bangalore.
+Add the practical parts. Microsoft, IBM and IIT Patna certification. 40+ guided hands-on projects plus AI Co-Lab work on live startup problems. A 3-year flexible subscription, against one year at AnalytixLabs and fixed windows elsewhere. Hybrid delivery, with classroom project sessions in Bangalore.
 
 **What we would push back on.** The program assumes working knowledge of 1 year. Training is provided from scratch including Python, machine learning and deep learning, and NLP. Some Trustpilot reviewers say the pace of class helps coding comfort than the marketing suggests. Learnbay’s rating spread is also wide, 4.53 on Course Report across 161 reviews against 4.7 on Google reviews across 2599.
 
@@ -1226,7 +1226,7 @@ One camp teaches agents and tooling but has dropped classical machine learning, 
 
 That third camp is where Bangalore hiring actually happens, because GCCs are not hiring people to build notebooks.
 
-If you are a working professional who wants that full path plus a Bangalore classroom, the [Learnbay GenAI and Agentic AI Master Program](https://www.learnbay.co/genai-and-agentic-ai-master-program) runs Python for GenAI, Foundation for GenAI, Advanced Generative AI, Agentic AI and Automation, LLMOps and Production Deployment, and a graded module on Ethics, Guardrails and Responsible AI, with Microsoft and IBM certification and domain tracks across BFSI, healthcare, supply chain, manufacturing, HR and project management.
+If you are a working professional who wants that full path plus a Bangalore classroom, the [Learnbay + IBM + IIT Patna GenAI and Agentic AI Master Program](https://www.learnbay.co/genai-and-agentic-ai-master-program) runs Python for GenAI, Foundation for GenAI, Advanced Generative AI, Agentic AI and Automation, LLMOps and Production Deployment, and a graded module on Ethics, Guardrails and Responsible AI, with Microsoft, IBM and IIT Patna certification and domain tracks across BFSI, healthcare, supply chain, manufacturing, HR and project management.
 
 If you are a software engineer, the [SDE Master Program in GenAI and Agentic AI](https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai) adds Data Structures and Algorithms and System Design, plus electives in backend engineering for RAG microservices, distributed systems and LLM infrastructure.
 
