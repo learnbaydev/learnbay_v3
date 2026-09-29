@@ -33,6 +33,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/reviews-old',
+        destination: '/reviews',
+        permanent: true,
+      },
+      {
         // this will match `/english(default)/something` being requested
         source: '/data-science-course/data-science-training-in-bangalore',
         destination:
