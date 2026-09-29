@@ -160,7 +160,7 @@ data:
     rows:
       - cells:
           - Working Professionals, 1+ years, want live training, AI plus interview prep
-          - Learnbay + IBM + IIT Patna, GenAI and Agentic AI Master Program
+          - Learnbay + IBM + IIT Patna
           - The only program here combining GenAI, Agentic AI, LLMOps, production deployment, DSA and system
             design in one track
         highlight: true
@@ -171,13 +171,13 @@ data:
         - IIIT Bangalore with upGrad
         - Executive PG certification in collaboration with Upgrad
       - - Budget under INR 1 lakh
-        - AnalytixLabs Full Stack Applied AI
+        - AnalytixLabs
         - 3.5 months, agent stack, but no classical ML
       - - Fresher, want the widest offline tool coverage
         - DataMites AI Engineer
         - Three Bangalore centres, broad stack, weak on agents
       - - Product or business role, no coding wanted
-        - Learnbay AI Practitioner program, or Intellipaat for Leaders
+        - Learnbay AI Practitioner, or Intellipaat
         - Both built for strategy, product and ops roles
   skillDemand:
     - label: Agentic AI engineers
@@ -856,7 +856,7 @@ We read the published syllabus of 10 programs, module by module, and ignored the
 This blog will walk you through the **best AI courses in Bangalore** for 2026, with a side-by-side comparison of curriculum depth, fees, delivery format and career support.
 
 :::callout{title="Quick answer"}
-For a working professional in tech background like software engineer, test engineer, cloud, devops or in non-tech background like BFSI, Healthcare, Manufacturing or HR in Bangalore who wants to upgrade in AI with Generative AI, Agentic AI, LLMOps and production deployment in one track with a classroom option, the Learnbay + IBM + IIT Patna GenAI and Agentic AI Master Program is the closest fit. For a research-grade credential, IISc Bangalore is a good option. For a low-cost agent-only course, AnalytixLabs goes deepest per rupee.
+For a working professional in tech background like software engineer, test engineer, cloud, devops or in non-tech background like BFSI, Healthcare, Manufacturing or HR in Bangalore who wants to upgrade in AI with Generative AI, Agentic AI, LLMOps and production deployment in one track with a classroom option, the Learnbay GenAI and Agentic AI Master Program is the closest fit. For a research-grade credential, IISc Bangalore is a good option. For a low-cost agent-only course, AnalytixLabs goes deepest per rupee.
 :::
 
 ## Pick Your Scenario First
@@ -1226,7 +1226,7 @@ One camp teaches agents and tooling but has dropped classical machine learning, 
 
 That third camp is where Bangalore hiring actually happens, because GCCs are not hiring people to build notebooks.
 
-If you are a working professional who wants that full path plus a Bangalore classroom, the [Learnbay + IBM + IIT Patna GenAI and Agentic AI Master Program](https://www.learnbay.co/genai-and-agentic-ai-master-program) runs Python for GenAI, Foundation for GenAI, Advanced Generative AI, Agentic AI and Automation, LLMOps and Production Deployment, and a graded module on Ethics, Guardrails and Responsible AI, with Microsoft, IBM and IIT Patna certification and domain tracks across BFSI, healthcare, supply chain, manufacturing, HR and project management.
+If you are a working professional who wants that full path plus a Bangalore classroom, the [Learnbay GenAI and Agentic AI Master Program](https://www.learnbay.co/genai-and-agentic-ai-master-program) runs Python for GenAI, Foundation for GenAI, Advanced Generative AI, Agentic AI and Automation, LLMOps and Production Deployment, and a graded module on Ethics, Guardrails and Responsible AI, with Microsoft, IBM and IIT Patna certification and domain tracks across BFSI, healthcare, supply chain, manufacturing, HR and project management.
 
 If you are a software engineer, the [SDE Master Program in GenAI and Agentic AI](https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai) adds Data Structures and Algorithms and System Design, plus electives in backend engineering for RAG microservices, distributed systems and LLM infrastructure.
 

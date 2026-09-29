@@ -1,65 +1,42 @@
 import { useCallback, useEffect, useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import styles from './Popup.module.css';
 import PopupContent from '../Global/PopupContent/PopupContent';
 
-const Popup = ({ message, onClose }) => {
-  return (
-    <div className={styles.popupOverlay}>
-      <div
-        className={styles.popupContainer}
-        onClick={(e) => e.stopPropagation()} // Prevents propagation to the overlay
-      >
-        <span className={styles.close} onClick={onClose}>
-          &times;
-        </span>
+const POINTS = [
+  'Master LangChain & OpenAI APIs',
+  'Build and integrate GenAI applications',
+  'Get certified in GenAI from IBM',
+];
 
-        <div className={styles.mainDiv}>
-          <div className={styles.whiteDiv}>
-            <h3>Get Scholarship upto</h3>
-            <span className={styles.OFF}>20% OFF</span>
-            {/* <span className={styles.vaildTag}>( Valid till 16th Jan )</span> */}
-          </div>
-
-          {/* Middle TagLine */}
-          <div className={styles.tagLine}>
-            <p>
-              on all Our <span>Course</span>
-            </p>
-          </div>
-
-          {/* Bottom Gradient Div */}
-          <div className={styles.gradientDiv}>
-            <p className={styles.batch}>Batch Details</p>
-            <div className={styles.batchDiv}>
-              <p className={styles.offerText}>
-                Weekend Batch : <span>9:30 AM - 1 PM</span>
-              </p>
-              <p className={styles.offerText}>
-                Weekday Batch : <span>8:00 PM - 10:30 PM</span>
-              </p>
-            </div>
-            <Link href="/submit-info" target="_blank">
-              <div className={styles.buttonDiv}>
-                <button>Apply for Scholarship Now</button>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const PopupNew = ({ message, onClose }) => {
+const PopupNew = ({ onClose }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = useCallback(() => {
     setPopups(true);
   }, []);
+
+  // Escape closes the promo, unless the application form is open on top of it.
+  useEffect(() => {
+    if (popups) return undefined;
+    const onKey = (e) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [popups, onClose]);
+
+  // Lock page scroll while the promo is open.
+  useEffect(() => {
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = previous;
+    };
+  }, []);
+
   return (
-    <div className={styles.popupOverlay}>
+    <>
       <PopupContent
         popups={popups}
         setPopups={setPopups}
@@ -69,148 +46,86 @@ const PopupNew = ({ message, onClose }) => {
         genAISelectOption={true}
       />
       <div
-        className={styles.popupContainer}
-        onClick={(e) => e.stopPropagation()} // Prevents propagation to the overlay
+        className={styles.popupOverlay}
+        // Close only on a click on the backdrop itself, not inside the card.
+        onClick={(e) => {
+          if (e.target === e.currentTarget) onClose();
+        }}
       >
-        <span className={styles.close} onClick={onClose}>
-          &times;
-        </span>
+        <div
+          className={styles.card}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="genai-popup-title"
+        >
+          <button
+            type="button"
+            className={styles.close}
+            onClick={onClose}
+            aria-label="Close"
+          >
+            &times;
+          </button>
 
-        <div className={styles.mainDiv}>
-          <div className={styles.whiteDiv}>
-            <div className={styles.iitDiv}>
-              <Image
-                src=" https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ibm_logo.webp"
-                loading="lazy"
-                width={257}
-                height={182}
-                quality={100}
-                className={styles.iitImg}
-                alt="genai-pop"
-              />
-            </div>
+          <div className={styles.glow} aria-hidden="true" />
+
+          <div className={styles.logoChip}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Sparkling-New.webp"
-              loading="lazy"
-              width={50}
-              height={50}
+              src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ibm_logo.webp"
+              width={257}
+              height={182}
               quality={100}
-              className={styles.starPop}
-              alt="star-pop"
+              className={styles.logo}
+              alt="IBM"
             />
-            <h3>
-              GenAI Certification <span className={styles.forTitle}>For</span>
-            </h3>
-            <span className={styles.popupTitle}>Working professionals</span>
-            {/* <span className={styles.OFF}>20% OFF</span> */}
-            {/* <span className={styles.vaildTag}>( Valid till 16th Jan )</span> */}
           </div>
 
-          {/* Middle TagLine */}
-          {/* <div className={styles.tagLine}>
-            <p>
-              on all Our <span>Course</span>
-            </p>
-          </div> */}
-
-          {/* Bottom Gradient Div */}
-          <div className={styles.gradientDiv}>
-            <div className={styles.wrapper}>
-              <p className={styles.newbatch}>
-                Learn GenAI from Industry Mentors{' '}
-              </p>
-              {/* <p className={styles.orange}>
-                <p className={styles.violet}> - </p> Up to{" "}
-                <p className={styles.bold}>20%</p>
-              </p> */}
-            </div>
-            <div className={styles.popupPoints}>
-              <div className={styles.popPoint}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp"
-                  loading="lazy"
-                  width={20}
-                  height={20}
-                  quality={100}
-                  alt="green-tick"
-                />
-                Master LangChain & OpenAI APIs
-              </div>
-              <div className={styles.popPoint}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp"
-                  loading="lazy"
-                  width={20}
-                  height={20}
-                  quality={100}
-                  alt="green-tick"
-                />
-                Get Certified in GenAI from IBM
-              </div>
-              <div className={styles.popPoint}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp"
-                  loading="lazy"
-                  width={20}
-                  height={20}
-                  quality={100}
-                  alt="green-tick"
-                />
-                Build and Integrate GenAI application
-              </div>
-            </div>
-            <div className={styles.mpopupPoints}>
-              <div className={styles.mpopPoint}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp"
-                  loading="lazy"
-                  width={20}
-                  height={20}
-                  quality={100}
-                  alt="green-tick"
-                />
-                Master LangChain & OpenAI APIs
-              </div>
-              <div className={styles.mpopPoint}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp"
-                  loading="lazy"
-                  width={20}
-                  height={20}
-                  quality={100}
-                  alt="green-tick"
-                />
-                Build and Integrate GenAI application
-              </div>
-              <div className={styles.mpopPoint}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp"
-                  loading="lazy"
-                  width={20}
-                  height={20}
-                  quality={100}
-                  alt="green-tick"
-                />
-                Get Certified in GenAI from IBM
-              </div>
-            </div>
-            {/* <div className={styles.batchDiv}>
-              <p className={styles.offerText}>
-                Weekend Batch : <span>9:30 AM - 1 PM</span>
-              </p>
-              <p className={styles.offerText}>
-                Weekday Batch : <span>8:00 PM - 10:30 PM</span>
-              </p>
-            </div> */}
-            {/* <Link href="/submit-info" target="_blank"> */}
-            <div className={styles.buttonDiv} onClick={popupShow}>
-              <button>Apply Now</button>
-            </div>
-            {/* </Link> */}
+          <div className={styles.badgeGradient}>
+            <span className={styles.badgeInner}>
+              <span className={styles.badgeDot} aria-hidden="true" />
+              For working professionals
+            </span>
           </div>
+
+          <h3 id="genai-popup-title" className={styles.title}>
+            <span className={styles.titleAccent}>GenAI Certification</span>
+            <br />
+            with IBM
+          </h3>
+          <p className={styles.subtitle}>
+            Learn GenAI from industry mentors and ship real applications.
+          </p>
+
+          <ul className={styles.points}>
+            {POINTS.map((point) => (
+              <li key={point} className={styles.point}>
+                <span className={styles.check} aria-hidden="true">
+                  <svg viewBox="0 0 16 16" width="12" height="12">
+                    <path
+                      d="M3.5 8.5l3 3 6-7"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
+                {point}
+              </li>
+            ))}
+          </ul>
+
+          <button type="button" className={styles.cta} onClick={popupShow}>
+            Apply Now
+            <span aria-hidden="true">&rarr;</span>
+          </button>
+          <button type="button" className={styles.later} onClick={onClose}>
+            Maybe later
+          </button>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
@@ -218,30 +133,20 @@ const PopupWrapper = () => {
   const [isPopupVisible, setPopupVisible] = useState(false);
 
   useEffect(() => {
-    // Check if the popup has already been shown for the session
+    // Show the popup once per session.
     const hasSeenPopup = sessionStorage.getItem('hasSeenPopup');
 
     if (!hasSeenPopup) {
-      // Show the popup if the user hasn't seen it yet during this session
       setPopupVisible(true);
-
-      // Set a flag in sessionStorage to mark that the user has seen the popup
       sessionStorage.setItem('hasSeenPopup', 'true');
-      console.log(`User has seen the popup: ${!hasSeenPopup}`);
     }
   }, []);
 
-  const handleClosePopup = () => {
+  const handleClosePopup = useCallback(() => {
     setPopupVisible(false);
-  };
+  }, []);
 
-  return (
-    <>
-      {isPopupVisible && (
-        <PopupNew message="Get Scholarship" onClose={handleClosePopup} />
-      )}
-    </>
-  );
+  return <>{isPopupVisible && <PopupNew onClose={handleClosePopup} />}</>;
 };
 
 export default PopupWrapper;
