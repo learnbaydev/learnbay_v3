@@ -12,8 +12,8 @@ keywords:
   AI ML course in Pune, AI course in Pune for freshers, AI training institute in Pune, C-DAC PG-DAI Pune
 eyebrow: AI careers · Pune · 2026
 category: AI careers, Course comparison
-date: 22/09/2026
-publishedDate: '2026-09-22T00:00:00+05:30'
+date: 28/09/2026
+publishedDate: '2026-09-28T00:00:00+05:30'
 author: Sonalisha Mohanty
 authorInitials: SM
 authorBio:
