@@ -145,8 +145,13 @@
 }
 
 @media (max-width: 1070px) {
+  /* 22px clears the AI Co-lab outline, which sits 10px outside its text. */
   .right span {
-    margin-right: 12px;
+    margin-right: 22px;
+  }
+  .right a {
+    font-size: 15px;
+    white-space: nowrap;
   }
   .nav {
     padding: 0px 20px;
@@ -166,12 +171,22 @@
     gap: 15px;
   }
   .right button {
-    padding: 12px 15px;
+    padding: 10px 12px;
     font-size: 14px;
+    white-space: nowrap;
     color: #0072bc;
     background-color: transparent;
     border: 2px solid #0072bc;
     font-weight: 500;
+  }
+}
+
+@media (max-width: 900px) {
+  .right span {
+    margin-right: 18px;
+  }
+  .right a {
+    font-size: 14px;
   }
 }
 
