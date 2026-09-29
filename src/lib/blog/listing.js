@@ -15,11 +15,12 @@ import { getAuthorByName } from './authors';
  * change to be listed properly.
  */
 
+// `short` is the name used in the masthead's topic-tracks counter.
 export const TOPICS = [
-  { id: 'comparisons', label: 'Course comparisons' },
-  { id: 'careers', label: 'Careers & hiring' },
-  { id: 'genai', label: 'GenAI & agentic AI' },
-  { id: 'skills', label: 'Skills & roadmaps' },
+  { id: 'comparisons', label: 'Course guides', short: 'course guides' },
+  { id: 'careers', label: 'Careers & hiring', short: 'careers' },
+  { id: 'genai', label: 'GenAI & agentic AI', short: 'GenAI' },
+  { id: 'skills', label: 'Skills & roadmaps', short: 'skills & roadmaps' },
 ];
 
 // The post in the masthead's "Lead story" slot. It is left out of the grid.
@@ -166,13 +167,26 @@ export function formatPostDate(timestamp) {
   });
 }
 
-// "7 mins", "10 minutes", "4.5 min" → "7 min", "10 min", "5 min".
-function formatReadTime(value) {
+// "7 mins", "10 minutes", "4.5 min" → 7, 10, 4.5. 0 when missing.
+function readMinutes(value) {
   const minutes = parseFloat(String(value || ''));
-  return Number.isFinite(minutes) && minutes > 0
-    ? `${Math.round(minutes)} min`
-    : '';
+  return Number.isFinite(minutes) && minutes > 0 ? minutes : 0;
 }
+
+// 7 → "7 min", 4.5 → "5 min".
+function formatReadTime(minutes) {
+  return minutes ? `${Math.round(minutes)} min` : '';
+}
+
+// A post whose canonical points at a different post is a duplicate of it, so
+// the index links the canonical one only.
+function isCanonicalElsewhere(slug, canonicalUrl) {
+  const match = String(canonicalUrl || '').match(/\/blogs\/([^/?#]+)\/?$/);
+  return Boolean(match && match[1] !== slug);
+}
+
+// Cut-off for the "quick reads" counter on the index masthead.
+const QUICK_READ_MINUTES = 10;
 
 function topicLabel(id) {
   return TOPICS.find((topic) => topic.id === id)?.label || '';
@@ -190,6 +204,7 @@ function toCard(slug) {
   const timestamp =
     parsePostDate(data.publishedDate) || parsePostDate(data.date);
   const author = getAuthorByName(data.author);
+  const minutes = readMinutes(data.readTime);
 
   return {
     slug,
@@ -203,7 +218,9 @@ function toCard(slug) {
     alt: data.alt || data.title || '',
     author: data.author || '',
     authorPhoto: author?.photo || null,
-    readTime: formatReadTime(data.readTime),
+    readTime: formatReadTime(minutes),
+    minutes,
+    canonicalElsewhere: isCanonicalElsewhere(slug, data.canonicalUrl),
     timestamp,
     date: formatPostDate(timestamp),
   };
@@ -211,11 +228,14 @@ function toCard(slug) {
 
 /**
  * Everything the index page renders: the lead story, the rest newest first,
- * and topic counts for the filter chips.
+ * topic counts for the filter chips and the masthead counters. Every post in
+ * src/blog is picked up at build time, so a new post is listed (and linked
+ * from /blogs) without a code change.
  */
 export function getBlogListing() {
   const cards = getPostSlugs()
     .map(toCard)
+    .filter((card) => !card.canonicalElsewhere)
     .sort((a, b) => b.timestamp - a.timestamp);
 
   const lead =
@@ -231,7 +251,40 @@ export function getBlogListing() {
       ...topic,
       count: posts.filter((post) => post.topic === topic.id).length,
     })),
+    counters: getCounters(cards),
   };
+}
+
+// Masthead counters, all derived from the posts so they stay current.
+function getCounters(cards) {
+  const quickReads = cards.filter(
+    (card) => card.minutes && card.minutes <= QUICK_READ_MINUTES
+  ).length;
+  const latest = cards[0]?.timestamp;
+
+  return [
+    {
+      value: String(cards.length),
+      label: 'Guides live across GenAI, data science, careers and courses',
+    },
+    {
+      value: String(TOPICS.length),
+      label: `Topic tracks: ${TOPICS.map((topic) => topic.short).join(', ')}`,
+    },
+    {
+      value: String(quickReads),
+      label: `Guides you can finish in ${QUICK_READ_MINUTES} minutes or less`,
+    },
+    latest && {
+      // "28 Sept", the year is implied by the page.
+      value: new Date(latest).toLocaleDateString('en-GB', {
+        day: 'numeric',
+        month: 'short',
+        timeZone: 'Asia/Kolkata',
+      }),
+      label: 'Latest guide published, with new ones added as they go live',
+    },
+  ].filter(Boolean);
 }
 
 /**
@@ -246,6 +299,7 @@ export function getAuthorGuides(name) {
 
   return getPostSlugs()
     .map(toCard)
+    .filter((card) => !card.canonicalElsewhere)
     .filter((card) => card.author.trim().toLowerCase() === wanted)
     .sort((a, b) => b.timestamp - a.timestamp);
 }

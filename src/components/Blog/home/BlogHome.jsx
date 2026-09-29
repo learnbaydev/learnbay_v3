@@ -10,7 +10,6 @@ import ArticleIndex from './ArticleIndex';
 import {
   ALUMNI_ROWS,
   CLOSING_STATS,
-  DESK_COUNTERS,
   EMPLOYERS,
   FEATURE_VIDEO,
   IMG,
@@ -52,7 +51,7 @@ const initials = (name) =>
     .map((part) => part[0].toUpperCase())
     .join('');
 
-const Masthead = ({ lead }) => (
+const Masthead = ({ lead, counters }) => (
   <section className={styles.masthead}>
     <div className={styles.container}>
       <div className={styles.mastheadCopy}>
@@ -60,7 +59,7 @@ const Masthead = ({ lead }) => (
           The Learnbay Blog · AI, data &amp; tech, explained
         </p>
         <h1 className={styles.d1}>
-          Stay ahead in AI and tech, one clear read at a time.
+          AI career guides, reports and roadmaps, in one place.
         </h1>
         <p className={`${styles.lede} ${styles.onDark}`}>
           Byte-sized guides on GenAI, agentic AI, data science and the tools
@@ -71,7 +70,7 @@ const Masthead = ({ lead }) => (
       </div>
 
       <div className={`${styles.statStrip} ${styles.deskCounters}`}>
-        {DESK_COUNTERS.map((item) => (
+        {counters.map((item) => (
           <div className={styles.stat} key={item.label}>
             <span className={styles.statValue}>{item.value}</span>
             <span className={styles.statLabel}>{item.label}</span>
@@ -174,12 +173,12 @@ const Watch = () => {
             <h2
               className={`${styles.d2} ${styles.onDarkStrong} ${styles.w760}`}
             >
-              Prefer to watch? Most guides have a video version.
+              Prefer to watch? Video guides on AI careers and skills.
             </h2>
             <p className={`${styles.lede} ${styles.onDark}`}>
               The desk doesn&apos;t just write the research — it films it.
-              Comparisons, roadmaps, live projects and skill breakdowns, made by
-              the same people who did the scoring. No slides read aloud.
+              Career guides, roadmaps, live projects and skill breakdowns, made
+              by the same people who did the scoring. No slides read aloud.
             </p>
           </div>
           <a
@@ -212,7 +211,7 @@ const Watch = () => {
                   onClick={() => setPlaying(true)}
                   aria-label={`Play video: ${current.title}`}
                 >
-                  <img src={current.thumb} alt="" loading="lazy" />
+                  <img src={current.thumb} alt={current.title} loading="lazy" />
                   <span className={styles.play} aria-hidden>
                     <img
                       src={`${IMG}/play-button.svg`}
@@ -235,11 +234,6 @@ const Watch = () => {
             <div className={styles.featureCopy}>
               <h3 className={styles.d3}>{current.title}</h3>
               <p className={styles.featureMeta}>{current.meta}</p>
-              {current.pairsWithLead && (
-                <p className={styles.pairs}>
-                  <strong>Pairs with</strong> the lead story above
-                </p>
-              )}
             </div>
           </div>
 
@@ -253,7 +247,7 @@ const Watch = () => {
                   aria-label={`Play video: ${video.title}`}
                 >
                   <span className={styles.videoThumb}>
-                    <img src={video.thumb} alt="" loading="lazy" />
+                    <img src={video.thumb} alt={video.title} loading="lazy" />
                     <span className={styles.durationSmall}>
                       {video.duration}
                     </span>
@@ -291,7 +285,7 @@ const Programs = ({ onCounsel }) => {
               Role-focused cohorts · certified by IBM and Microsoft
             </p>
             <h2 className={`${styles.d2} ${styles.w680}`}>
-              If the reading has made up your mind, here&apos;s what we run.
+              Enjoyed the reading? These programs can help you build on it.
             </h2>
           </div>
           <div className={styles.railNav}>
@@ -529,7 +523,7 @@ const Alumni = () => (
         1,000+ reviews on platforms we cannot edit
       </p>
       <h2 className={`${styles.d2} ${styles.w600}`}>
-        35,000 people read something like this first.
+        35,000 professionals started with a guide like this.
       </h2>
       <p className={`${styles.lede} ${styles.w560}`}>
         Then they enrolled, finished, and changed jobs. Their reviews live on
@@ -632,7 +626,7 @@ const Newsletters = () => {
           Two ways to get the next one
         </p>
         <h2 className={styles.newsTitle}>
-          Read it here, or let it find you — one honest update a month.
+          Get new AI reports and roadmaps in your inbox.
         </h2>
 
         <div className={styles.panels}>
@@ -643,8 +637,8 @@ const Newsletters = () => {
               </p>
               <h3 className={styles.d4Dark}>The Desk</h3>
               <p className={styles.panelText}>
-                One email, the day a guide changes: a refreshed comparison, a
-                new hiring number, or a syllabus that quietly moved. No drip
+                One email, the day a guide changes: a refreshed report, a new
+                hiring number, or a syllabus that quietly moved. No drip
                 sequence after you sign up.
               </p>
             </div>
@@ -723,7 +717,7 @@ const ClosingCta = ({ onCounsel }) => (
         <div className={styles.headCopy}>
           <p className={`${styles.eyebrow} ${styles.onDark}`}>Still deciding</p>
           <h2 className={`${styles.d2} ${styles.onDarkStrong} ${styles.w560}`}>
-            Fifteen minutes now. Nine months better spent.
+            Turn the roadmap into a plan: 15 minutes with a counsellor.
           </h2>
           <p className={`${styles.lede} ${styles.ctaLede}`}>
             Tell a counsellor your background, the role you want and the hours
@@ -760,7 +754,7 @@ const ClosingCta = ({ onCounsel }) => (
   </section>
 );
 
-const BlogHome = ({ lead, posts, topics, totalGuides, updated }) => {
+const BlogHome = ({ lead, posts, topics, totalGuides, counters }) => {
   const [counselOpen, setCounselOpen] = useState(false);
   const openCounsel = () => setCounselOpen(true);
 
@@ -769,7 +763,7 @@ const BlogHome = ({ lead, posts, topics, totalGuides, updated }) => {
       <Navbar popup dataScience interstedInHide />
 
       <main className={`${styles.page} ${jakarta.variable} ${serif.variable}`}>
-        <Masthead lead={lead} />
+        <Masthead lead={lead} counters={counters} />
         <ArticleIndex posts={posts} topics={topics} totalGuides={totalGuides} />
         <Watch />
         <Programs onCounsel={openCounsel} />

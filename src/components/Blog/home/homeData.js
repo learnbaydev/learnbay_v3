@@ -6,27 +6,18 @@ const IMG = 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay';
 export const YOUTUBE_URL = 'https://bit.ly/Learnbay_YouTube';
 export const LINKEDIN_URL = 'https://www.linkedin.com/company/learnbay/';
 
-export const DESK_COUNTERS = [
-  {
-    value: '26',
-    label: 'Guides live across GenAI, data science, careers and courses',
-  },
-  {
-    value: '4',
-    label: 'Topic tracks: GenAI, skills & roadmaps, careers, course guides',
-  },
-  { value: '16', label: 'Guides you can finish in 10 minutes or less' },
-  { value: '0', label: 'Paywalls or sign-ups needed to read any of them' },
-];
-
 // `id` is the YouTube video id; videos play in place on the page.
+// `uploadDate` and `description` feed the VideoObject schema and come from the
+// video's YouTube page.
 export const FEATURE_VIDEO = {
   id: 'l3kTUSs0hwo',
   title: "Best AI course in India? I ranked all 9 so you don't have to",
   meta: '13K views · 1 month ago',
   duration: '6:45',
   thumb: `${IMG}/yt-feature.webp`,
-  pairsWithLead: true,
+  uploadDate: '2026-07-23T06:49:51-07:00',
+  description:
+    "India's top AI courses ranked: Learnbay, IIT programs, upGrad, Simplilearn, Guvi, Coursera, Great Learning, Udacity and more.",
 };
 
 export const VIDEOS = [
@@ -37,6 +28,9 @@ export const VIDEOS = [
     meta: '732 views',
     duration: '5:33',
     thumb: `${IMG}/yt-1.webp`,
+    uploadDate: '2026-08-06T05:41:16-07:00',
+    description:
+      'An honest, ranked top five AI courses in Bangalore for 2026, across classroom, online and hybrid formats.',
   },
   {
     id: 'SO-1ISCMi0M',
@@ -44,6 +38,9 @@ export const VIDEOS = [
     meta: '90 views · 4 days ago',
     duration: '5:49',
     thumb: `${IMG}/yt-2.webp`,
+    uploadDate: '2026-09-10T02:58:24-07:00',
+    description:
+      'The top five AI courses in Delhi NCR for 2026, ranked by who each one is actually for.',
   },
   {
     id: 'NAj_osxB68Y',
@@ -52,6 +49,9 @@ export const VIDEOS = [
     meta: '257 views',
     duration: '1:38:39',
     thumb: `${IMG}/yt-3.webp`,
+    uploadDate: '2026-08-31T03:58:39-07:00',
+    description:
+      'A full recorded live class: an end-to-end e-commerce data analytics project in Python, part 1 of The E-Commerce Data Playbook.',
   },
   {
     id: 'XOZDtUthezg',
@@ -60,6 +60,9 @@ export const VIDEOS = [
     meta: '396 views',
     duration: '5:31',
     thumb: `${IMG}/yt-4.webp`,
+    uploadDate: '2026-08-11T08:05:04-07:00',
+    description:
+      'An honest, ranked top five AI courses in Hyderabad for 2026, across institutes, online programs and hybrid formats.',
   },
   {
     id: 'DJEMnze7EHw',
@@ -68,6 +71,9 @@ export const VIDEOS = [
     meta: '298 views',
     duration: '2:52',
     thumb: `${IMG}/yt-5.webp`,
+    uploadDate: '2026-04-26T00:30:00-07:00',
+    description:
+      'How a mechanical engineer with zero Python moved into data science and AI with Learnbay.',
   },
 ];
 

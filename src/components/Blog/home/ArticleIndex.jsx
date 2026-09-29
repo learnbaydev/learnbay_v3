@@ -173,13 +173,9 @@ const ArticleIndex = ({ posts, topics, totalGuides }) => {
             <div className={styles.headCopy}>
               <p className={styles.eyebrow}>Latest from the desk</p>
               <h2 className={`${styles.d2} ${styles.d2Wide}`}>
-                Everything we&apos;ve published, most recent first.
+                Latest AI career guides, reports and roadmaps
               </h2>
             </div>
-            <p className={styles.headAside}>
-              Read times are measured, not estimated. Long guides say so up
-              front.
-            </p>
           </div>
 
           {visible.length > 0 ? (

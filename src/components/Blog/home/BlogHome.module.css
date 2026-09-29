@@ -252,14 +252,6 @@
   margin-top: 16px;
 }
 
-.headAside {
-  width: 240px;
-  flex-shrink: 0;
-  font-size: 14px;
-  line-height: 21px;
-  color: var(--bh-muted);
-}
-
 /* Whole-card click target without nesting the save button inside a link. */
 .cardLink::after {
   content: '';
@@ -851,20 +843,6 @@
   font-size: 14px;
   line-height: 21px;
   color: var(--bh-dark-muted);
-}
-
-.pairs {
-  margin-top: 12px;
-  font-size: 14px;
-  line-height: 21px;
-  color: var(--bh-dark-accent);
-}
-
-.pairs strong {
-  margin-right: 7px;
-  font-weight: 600;
-  letter-spacing: -0.14px;
-  color: #fff;
 }
 
 .videoList {
@@ -1949,10 +1927,6 @@
   .ctaRow {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .headAside {
-    width: auto;
   }
 
   .statStrip {
