@@ -2,7 +2,6 @@ import Head from "next/head";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global/Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "../components/Global/WhatappsFloat/WhatsappFloat";
 // import OfferPopup from "../components/Global/OfferPopup/OfferPopup";
 import NotFound from "../components/Global/NotFound/NotFound";
 
@@ -22,7 +21,6 @@ export default function Home() {
         {/* <OfferPopup offer={false} /> */}
         <BottomBar />
         <Footer />
-        <WhatsappFloat />
       </main>
     </div>
   );

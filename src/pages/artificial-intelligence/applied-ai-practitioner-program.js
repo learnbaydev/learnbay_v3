@@ -30,21 +30,47 @@ const archivo = Archivo({
 });
 
 const Hero = dynamic(() => import('@/components/AppliedAIv2/Hero/Hero'));
-const Marquee = dynamic(() => import('@/components/AppliedAIv2/Marquee/Marquee'));
-const StatBand = dynamic(() => import('@/components/AppliedAIv2/StatBand/StatBand'));
-const WhyProgram = dynamic(() => import('@/components/AppliedAIv2/WhyProgram/WhyProgram'));
-const WhoCanApply = dynamic(() => import('@/components/AppliedAIv2/WhoCanApply/WhoCanApply'));
-const Domains = dynamic(() => import('@/components/AppliedAIv2/Domains/Domains'));
+const Marquee = dynamic(
+  () => import('@/components/AppliedAIv2/Marquee/Marquee')
+);
+const StatBand = dynamic(
+  () => import('@/components/AppliedAIv2/StatBand/StatBand')
+);
+const WhyProgram = dynamic(
+  () => import('@/components/AppliedAIv2/WhyProgram/WhyProgram')
+);
+const WhoCanApply = dynamic(
+  () => import('@/components/AppliedAIv2/WhoCanApply/WhoCanApply')
+);
+const Domains = dynamic(
+  () => import('@/components/AppliedAIv2/Domains/Domains')
+);
 const Tools = dynamic(() => import('@/components/AppliedAIv2/Tools/Tools'));
-const Curriculum = dynamic(() => import('@/components/AppliedAIv2/Curriculum/Curriculum'));
+const Curriculum = dynamic(
+  () => import('@/components/AppliedAIv2/Curriculum/Curriculum')
+);
 const CoLab = dynamic(() => import('@/components/AppliedAIv2/CoLab/CoLab'));
-const Capstone = dynamic(() => import('@/components/AppliedAIv2/Capstone/Capstone'));
-const Certification = dynamic(() => import('@/components/AppliedAIv2/Certification/Certification'));
-const Comparison = dynamic(() => import('@/components/AppliedAIv2/Comparison/Comparison'));
-const Reviews = dynamic(() => import('@/components/AppliedAIv2/Reviews/Reviews'));
-const FeeCohort = dynamic(() => import('@/components/AppliedAIv2/FeeCohort/FeeCohort'));
-const Employers = dynamic(() => import('@/components/AppliedAIv2/Employers/Employers'));
-const AdvisorBooking = dynamic(() => import('@/components/AppliedAIv2/AdvisorBooking/AdvisorBooking'));
+const Capstone = dynamic(
+  () => import('@/components/AppliedAIv2/Capstone/Capstone')
+);
+const Certification = dynamic(
+  () => import('@/components/AppliedAIv2/Certification/Certification')
+);
+const Comparison = dynamic(
+  () => import('@/components/AppliedAIv2/Comparison/Comparison')
+);
+const Reviews = dynamic(
+  () => import('@/components/AppliedAIv2/Reviews/Reviews')
+);
+const FeeCohort = dynamic(
+  () => import('@/components/AppliedAIv2/FeeCohort/FeeCohort')
+);
+const Employers = dynamic(
+  () => import('@/components/AppliedAIv2/Employers/Employers')
+);
+const AdvisorBooking = dynamic(
+  () => import('@/components/AppliedAIv2/AdvisorBooking/AdvisorBooking')
+);
 const Faq = dynamic(() => import('@/components/AppliedAIv2/Faq/Faq'));
 const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
 
@@ -495,7 +521,6 @@ const AppliedAIPractitionerProgram = () => {
         <AdvisorBooking />
         <Faq />
         <Footer />
-        <WhatsappFloat />
       </div>
     </main>
   );

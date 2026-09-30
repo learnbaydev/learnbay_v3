@@ -4,9 +4,6 @@ import { useEffect, useState } from "react";
 import LJourney from "../LJourney/LJourney";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus2025"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const WhatsappFloat = dynamic(() =>
-  import("@/components/Global/WhatappsFloat/WhatsappFloat")
-);
 const DSAProjectSection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/ProjectSection/daba")
 );
@@ -162,7 +159,6 @@ const DABASecondPart = ({
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
-      <WhatsappFloat />
       {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </div>
   );

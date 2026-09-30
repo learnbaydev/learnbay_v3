@@ -32,7 +32,6 @@ const DSAFeeSection = dynamic(
   () => import('@/components/CoursePage/dsaFee/DSAFeeSection')
 );
 const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 const NewSevenSection = dynamic(
   () => import('@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection')
 );
@@ -302,7 +301,6 @@ Cloud and DevOps master certification"
         />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
-        <WhatsappFloat />
       </main>
     </>
   );

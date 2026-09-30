@@ -1,6 +1,5 @@
 import BottomBar from '@/components/Global/BottomBar/BottomBar';
 import Footer from '@/components/Global/Footer/Footer';
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
 import LJourney from '../LJourney/LJourney';
@@ -113,7 +112,6 @@ const FullStackSoftwareDevelopmentSecondPart = ({
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
-      <WhatsappFloat />
       {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </div>
   );

@@ -4,9 +4,6 @@ import { useEffect, useState } from 'react';
 import LJourney from '../LJourney/LJourney';
 const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
 const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
-const WhatsappFloat = dynamic(
-  () => import('@/components/Global/WhatappsFloat/WhatsappFloat')
-);
 const Certificate = dynamic(
   () =>
     import('../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate')
@@ -135,7 +132,6 @@ const SecondPart = ({
       <Content dataScienceCounselling={true} AIML={true} />
       <SeventhSection />
       <Footer />
-      <WhatsappFloat />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </div>

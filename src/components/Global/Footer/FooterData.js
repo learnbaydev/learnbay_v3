@@ -646,7 +646,7 @@ export const HeadData = [
       },
       {
         id: 4,
-        url: 'https://blog.learnbay.co/',
+        url: '/blogs',
         name: 'Blogs',
       },
     ],

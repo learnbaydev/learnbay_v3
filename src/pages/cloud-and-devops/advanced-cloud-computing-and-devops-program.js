@@ -10,7 +10,6 @@ import AlumniCompaniesCloudDevopsDA from '@/components/CoursePage/newUICourse/Al
 import LearningToPlacementDA from '@/components/CoursePage/newUICourse/LearningToPlacementDA/LearningToPlacement';
 import BottomBar from '@/components/Global/BottomBar/BottomBar';
 import Navbar from '@/components/Global/Navbar/Navbar';
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import React from 'react';
@@ -799,7 +798,6 @@ Best certification for advanced cloud and DevOps,
         <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
-        <WhatsappFloat />
       </main>
     </>
   );

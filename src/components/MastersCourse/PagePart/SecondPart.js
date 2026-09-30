@@ -1,4 +1,3 @@
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
 import BottomBar from '../../Global/BottomBar/BottomBar';
@@ -132,7 +131,6 @@ const SecondPart = ({
       <SeventhSection />
       <Footer />
       <BottomBar masterdegree={true} dataScienceCounselling={true} />
-      <WhatsappFloat />
       {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </>
   );

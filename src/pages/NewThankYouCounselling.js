@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "@/components/Global/Navbar/Navbar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import SessionSection from "@/components/ThankYouNew/SessionSection";
 import WhyChooseUsSection from "@/components/ThankYouNew/WhyChooseUsSection";
 import Footer from "@/components/Global/Footer/Footer";
@@ -34,7 +33,6 @@ const NewThankCounselling = ({ initialName, initialPhone }) => {
       </div>
 
       <Footer />
-      <WhatsappFloat />
     </>
   );
 };

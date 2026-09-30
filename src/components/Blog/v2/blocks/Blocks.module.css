@@ -72,6 +72,7 @@
 /* ---------- Callout ---------- */
 
 .callout {
+  margin: 0 0 26px;
   padding: 22px 26px;
   background: var(--lb-cream);
   border: 1px solid var(--lb-line);

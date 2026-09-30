@@ -11,6 +11,11 @@ export const menuItem = [
     url: '/reviews',
   },
   {
+    id: 5,
+    name: 'Blogs',
+    url: '/blogs',
+  },
+  {
     id: 4,
     name: 'AI Co-lab',
     url: '/ai-co-lab',

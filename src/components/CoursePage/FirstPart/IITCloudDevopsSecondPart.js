@@ -1,6 +1,5 @@
 import BottomBar from '@/components/Global/BottomBar/BottomBar';
 import Footer from '@/components/Global/Footer/Footer';
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import dynamic from 'next/dynamic';
 import LJourney from '../LJourney/LJourney';
 import NewCertificateSection from '../newCertificate/NewCertificate';
@@ -124,7 +123,6 @@ const IITCloudDevopsSecondPart = ({
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
-      <WhatsappFloat />
     </div>
   );
 };

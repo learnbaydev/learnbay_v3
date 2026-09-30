@@ -1,4 +1,3 @@
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import { DataScienceCourseData } from '../Data/AdvanceDataScienceCourse';
@@ -70,7 +69,6 @@ export default function Home() {
         <ReviewSwitch />
         <Review />
         <Footer />
-        <WhatsappFloat />
         <BottomBar
           dataScienceGeneric={true}
           interstedInHide={true}

@@ -442,7 +442,6 @@
 import Head from "next/head";
 import React, { useState } from "react";
 import Navbar from "@/components/Global/Navbar/Navbar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Footer from "../components/Global/Footer/Footer";
 import ThankYouAds from "../components/ThankYouAds/ThankYouAds";
 import Image from "next/image";
@@ -673,7 +672,6 @@ const Thankyouads = () => {
       </section>
 
       <Footer />
-      <WhatsappFloat />
       <StrategyModal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
     </>
   );

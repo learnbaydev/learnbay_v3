@@ -1,4 +1,3 @@
-import WhatsappFloat from '@/components/Global/WhatappsFloat/WhatsappFloat';
 import TyPageCta from '@/components/StaticPage/Thankyou/TyPageCta/TyPageCta';
 import { useEffect, useState } from 'react';
 import BottomBar from '../components/Global/BottomBar/BottomBar';
@@ -179,7 +178,6 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
       />
       <BottomBar />
       <Footer />
-      <WhatsappFloat />
       <BottomBar
         dataScienceCounselling={true}
         interstedInHide={true}

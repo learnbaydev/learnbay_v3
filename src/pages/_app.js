@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import "@/styles/Button.css";
 import Script from "next/script";
+import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
@@ -9,6 +10,11 @@ import { PopupProvider, usePopup } from "../context/PopupContext";
 import Popup from "../components/Popup/Popup";
 import { useRouter } from "next/router";
 import DSAPopupWrapper from "@/components/CoursePage/NewDSA/DSAPopup/DSAPopup";
+
+// Rendered once here so every route gets the floating WhatsApp button.
+const WhatsappFloat = dynamic(() =>
+  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+);
 
 const georama = Poppins({
   weight: ["300", "400", "500", "600", "700", "800"],
@@ -87,6 +93,7 @@ const ComponentWithPopup = ({ Component, pageProps }) => {
     {dsaPopup.show && <DSAPopupWrapper message={dsaPopup.message} onClose={closeDsaPopup} />}
       {popup.show && <Popup message={popup.message} onClose={closePopup} />}
       <Component {...pageProps} />
+      <WhatsappFloat />
     </>
   );
 };

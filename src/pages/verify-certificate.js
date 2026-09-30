@@ -5,7 +5,6 @@ import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global/Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
 import Head from "next/head";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 
 
 
@@ -158,7 +157,6 @@ const verify = () => {
       )}
     </div>
     <Footer/>
-    <WhatsappFloat />
     </>
   );
 };
