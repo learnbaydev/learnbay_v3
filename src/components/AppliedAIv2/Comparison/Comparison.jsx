@@ -84,7 +84,7 @@ export default function Comparison() {
           This programme versus a typical online AI course.
         </h2>
         <p className={styles.lede}>
-          A recorded course and a live, co-credentialled cohort are not the same
+          A recorded course and a live, certified cohort are not the same
           product. Here is the difference, stated plainly.
         </p>
       </header>

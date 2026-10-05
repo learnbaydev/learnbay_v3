@@ -153,23 +153,29 @@
   list-style: none;
 }
 
+/* The marks are white silhouettes with real transparency, so the chip stays
+   see-through and only carries a hairline. */
 .toolChip {
   display: flex;
   align-items: center;
+  justify-content: center;
   min-height: 46px;
-  padding: 13px 15px;
+  padding: 12px 16px;
   border: 1px solid var(--aai-line-strong);
   border-radius: 11px;
-  font-family: var(--aai-sans);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  color: var(--aai-on-dark);
+  background: transparent;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.toolChip:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .toolLogo {
   width: auto;
-  height: 20px;
+  height: 22px;
+  max-width: 140px;
   object-fit: contain;
 }
 

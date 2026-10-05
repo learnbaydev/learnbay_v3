@@ -68,9 +68,6 @@ const FeeCohort = dynamic(
 const Employers = dynamic(
   () => import('@/components/AppliedAIv2/Employers/Employers')
 );
-const AdvisorBooking = dynamic(
-  () => import('@/components/AppliedAIv2/AdvisorBooking/AdvisorBooking')
-);
 const Faq = dynamic(() => import('@/components/AppliedAIv2/Faq/Faq'));
 const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
 
@@ -518,7 +515,6 @@ const AppliedAIPractitionerProgram = () => {
         <Reviews />
         <FeeCohort />
         <Employers />
-        <AdvisorBooking />
         <Faq />
         <Footer />
       </div>

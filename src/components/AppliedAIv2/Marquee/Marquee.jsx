@@ -3,7 +3,7 @@ import styles from './Marquee.module.css';
 
 const ITEMS = [
   '4-month applied programme',
-  'Co-credentialled by Vishlesan i-Hub, IIT Patna',
+  'In collaboration with Vishlesan i-Hub, IIT Patna',
   'IBM certification included',
   '35+ AI tools, hands-on',
   'AI Co-Lab startup capstone',

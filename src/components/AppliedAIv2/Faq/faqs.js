@@ -16,7 +16,7 @@ export const FAQS = [
   },
   {
     q: 'What does the IIT Patna collaboration add?',
-    a: 'Vishlesan i-Hub Foundation contributes research-backed curriculum input and independent oversight of the capstone evaluation, and co-credentials the certificate you receive.',
+    a: 'Vishlesan i-Hub Foundation contributes research-backed curriculum input and independent oversight of the capstone evaluation, and jointly issues the certificate you receive.',
   },
   {
     q: 'What are the learning modes?',

@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import styles from './Reviews.module.css';
+import VideoPopup from '@/components/Global/VideoPopup/VideoPopup';
 import { FILTERS, REVIEWS, SCORES } from './reviewsData';
 
 function Stars({ count }) {
@@ -40,28 +41,32 @@ function Who({ review }) {
   );
 }
 
-function Card({ review }) {
+function Card({ review, onPlay }) {
   if (review.type === 'video') {
     return (
       <article className={`${styles.card} ${styles.videoCard}`}>
-        <Image
-          src={review.still}
-          alt=""
-          fill
-          sizes="(max-width: 768px) 100vw, 320px"
-          className={styles.still}
-        />
-        <span className={styles.duration}>Video · {review.duration}</span>
-        <span className={styles.play} aria-hidden="true">
-          <svg viewBox="0 0 58 58">
-            <circle cx="29" cy="29" r="29" fill="rgba(255,255,255,0.94)" />
-            <path d="M24 19.5 39 29l-15 9.5z" fill="#1b1338" />
-          </svg>
-        </span>
-        <div className={styles.videoCaption}>
-          <strong>{review.author}</strong>
-          <span>{review.role}</span>
-        </div>
+        <button
+          type="button"
+          className={styles.videoButton}
+          onClick={() => onPlay(review.youtubeId)}
+        >
+          <span className={styles.stillWrap}>
+            <Image
+              src={review.thumb}
+              alt=""
+              fill
+              sizes="(max-width: 768px) 100vw, 340px"
+              className={styles.still}
+            />
+          </span>
+          <span className={styles.videoCaption}>
+            <strong>{review.author}</strong>
+            <span>{review.role}</span>
+          </span>
+          <span className={styles.srOnly}>
+            Play video testimonial from {review.author}
+          </span>
+        </button>
       </article>
     );
   }
@@ -123,6 +128,7 @@ function Card({ review }) {
 
 export default function Reviews() {
   const [filter, setFilter] = useState('all');
+  const [playingId, setPlayingId] = useState(null);
   const visible =
     filter === 'all' ? REVIEWS : REVIEWS.filter((r) => r.type === filter);
 
@@ -133,10 +139,10 @@ export default function Reviews() {
           <p className={styles.kicker}>Reviews</p>
           <h2 className={styles.title}>
             1,000+ reviews.
-            <span className={styles.titleAccent}>None of them ours.</span>
+            <span className={styles.titleAccent}>Straight from our alumni.</span>
           </h2>
           <p className={styles.lede}>
-            Written, filmed and rated on platforms Learnbay cannot edit.
+            Written, filmed and rated on independent platforms.
           </p>
         </header>
 
@@ -167,14 +173,20 @@ export default function Reviews() {
 
       <div className={styles.grid}>
         {visible.map((review) => (
-          <Card key={review.id} review={review} />
+          <Card key={review.id} review={review} onPlay={setPlayingId} />
         ))}
       </div>
 
+      <VideoPopup
+        triggers={Boolean(playingId)}
+        setTriggers={() => setPlayingId(null)}
+        ids={playingId}
+      />
+
       <p className={styles.footnote}>
         Salary-hike figures are self-reported by alumni and indicative. Reviews
-        are quoted from the platform named on each card. Video stills are
-        placeholders pending the final edits.
+        are quoted from the platform named on each card. Video testimonials are
+        from Learnbay alumni across all programmes.
       </p>
     </section>
   );

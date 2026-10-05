@@ -21,7 +21,7 @@ export const CREDENTIALS = [
   {
     logo: 'tih',
     title: 'Vishlesan i-Hub Foundation, IIT Patna',
-    description: 'Co-credentialled programme certificate',
+    description: 'Joint programme certificate',
   },
   {
     logo: 'ibm',

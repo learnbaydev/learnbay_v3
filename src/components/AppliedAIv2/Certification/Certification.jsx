@@ -7,10 +7,10 @@ const CERTIFICATES = [
     id: 'iit',
     seal: '#1b1338',
     face: { kind: 'crest', src: '/applied-ai/crest.png' },
-    eyebrow: 'Academic co-credential',
+    eyebrow: 'Academic certificate',
     eyebrowColor: '#2c1e48',
     title: 'Vishlesan i-Hub Foundation, IIT Patna',
-    body: 'The i-Hub contributes research-backed curriculum input and independent oversight of the capstone evaluation, and co-credentials the certificate.',
+    body: 'The i-Hub contributes research-backed curriculum input and independent oversight of the capstone evaluation, and jointly issues the certificate.',
     issued: 'Released on assessment',
   },
   {

@@ -86,8 +86,8 @@ export default function Hero() {
           </div>
 
           <p className={styles.finePrint}>
-            Program designed and delivered by Learnbay. Certification
-            co-credentialled by Vishlesan i-Hub Foundation, IIT Patna, and IBM.
+            Program designed and delivered by Learnbay. Certification issued
+            with Vishlesan i-Hub Foundation, IIT Patna, and IBM.
           </p>
         </div>
 

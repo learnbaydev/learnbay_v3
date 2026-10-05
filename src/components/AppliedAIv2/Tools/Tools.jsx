@@ -57,17 +57,13 @@ export default function Tools() {
           <ul className={styles.toolChips}>
             {active.tools.map((tool) => (
               <li key={tool.name} className={styles.toolChip}>
-                {tool.logo ? (
-                  <Image
-                    src={tool.logo}
-                    alt={tool.name}
-                    width={tool.width}
-                    height={20}
-                    className={styles.toolLogo}
-                  />
-                ) : (
-                  tool.name
-                )}
+                <Image
+                  src={tool.logo}
+                  alt={tool.name}
+                  width={tool.w}
+                  height={22}
+                  className={styles.toolLogo}
+                />
               </li>
             ))}
           </ul>

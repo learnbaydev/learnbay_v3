@@ -1,5 +1,11 @@
 /* Review cards. `type` drives both the card layout and the filter tabs.
-   NOTE: video stills are the placeholders from the design, pending final edits. */
+   Video entries are real Learnbay alumni testimonials: `youtubeId` plays in the
+   shared VideoPopup, `thumb` is the branded still already on the CDN. Sourced
+   from src/CityData/Kochi/DSKochiData.js.
+
+   The Shubham and Jaya transition cards come from the same alumni data: their
+   hike figures are the `statLogo` values, and the from/to roles are the ones
+   stated in their own testimonial copy. */
 
 export const SCORES = [
   { value: '4.69', label: 'SwitchUp' },
@@ -46,12 +52,13 @@ export const REVIEWS = [
     avatar: '/applied-ai/reviews/avatar-prem.png',
   },
   {
-    id: 'kush',
+    id: 'jaya',
     type: 'video',
-    duration: '1:48',
-    still: '/applied-ai/reviews/still-kush.jpg',
-    author: 'Kush Swaroop',
-    role: 'Manager to Data Scientist',
+    youtubeId: 'A-BkcEM0rQM',
+    thumb:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jaya-sinha-thumb.webp',
+    author: 'Jaya Sinha',
+    role: 'Non-tech to Senior Data Analyst, Amazon · 150% hike',
   },
   {
     id: 'shravanthi-quote',
@@ -76,6 +83,15 @@ export const REVIEWS = [
     avatar: '/applied-ai/reviews/avatar-afreen.png',
   },
   {
+    id: 'shubham',
+    type: 'video',
+    youtubeId: 'JoKquvfAhZU',
+    thumb:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Shubham-kumar-thumb+.webp',
+    author: 'Shubham Kumar',
+    role: 'Teaching to Data Analyst, Cendrol · 210% hike',
+  },
+  {
     id: 'ritesh',
     type: 'transition',
     hike: '150%',
@@ -96,12 +112,33 @@ export const REVIEWS = [
     avatar: '/applied-ai/reviews/avatar-shravanthi.png',
   },
   {
-    id: 'neha',
+    id: 'shubham-hike',
+    type: 'transition',
+    hike: '210%',
+    from: 'Teaching',
+    to: 'Data Analyst',
+    author: 'Shubham Kumar',
+    role: 'Cendrol Technology',
+    avatar: 'https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/Shubham.webp',
+  },
+  {
+    id: 'jaya-hike',
+    type: 'transition',
+    hike: '150%',
+    from: 'Non-tech role',
+    to: 'Senior Data Analyst',
+    author: 'Jaya Sinha',
+    role: 'Amazon',
+    avatar: 'https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/Jaya.webp',
+  },
+  {
+    id: 'preksha',
     type: 'video',
-    duration: '2:14',
-    still: '/applied-ai/reviews/still-neha.jpg',
-    author: 'Neha Dixit',
-    role: 'Non-tech Ops to Business Analyst',
+    youtubeId: 'vSjfKdIzUjY',
+    thumb:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/preksha-testimonial.webp',
+    author: 'Preksha Mishra',
+    role: 'Now at HCL · 140% hike',
   },
   {
     id: 'five-platforms',
@@ -122,11 +159,12 @@ export const REVIEWS = [
     avatar: '/applied-ai/reviews/avatar-dhivya.png',
   },
   {
-    id: 'bhagyashree',
+    id: 'arvind',
     type: 'video',
-    duration: '3:02',
-    still: '/applied-ai/reviews/still-bhagyashree.jpg',
-    author: 'Bhagyashree Koche',
-    role: 'IT Support to Data Engineer',
+    youtubeId: 'hewBtR_WoDM',
+    thumb:
+      'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/aravind-k-thumb.webp',
+    author: 'Arvind Kumar',
+    role: 'Now at The Math Company · 150% hike',
   },
 ];
