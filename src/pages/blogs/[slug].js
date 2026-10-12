@@ -16,8 +16,8 @@ const normalizeDate = (dateStr) => {
   if (!dateStr) return null;
   if (dateStr.includes('T')) return dateStr;
 
-  // Convert DD/MM/YYYY → ISO
-  const [day, month, year] = dateStr.split('/');
+  // Convert DD/MM/YYYY or DD-MM-YYYY → ISO
+  const [day, month, year] = dateStr.split(/[/-]/);
   return `${year}-${month}-${day}T00:00:00+05:30`;
 };
 
@@ -101,6 +101,14 @@ const Blog = ({ postData, nextPost }) => {
                 },
               },
               datePublished: normalizeDate(postData.publishedDate),
+              // `date` is the post's "last updated" date; never let it fall before publication.
+              dateModified: [
+                normalizeDate(postData.date),
+                normalizeDate(postData.publishedDate),
+              ]
+                .filter(Boolean)
+                .sort()
+                .pop(),
             }),
           }}
         />
