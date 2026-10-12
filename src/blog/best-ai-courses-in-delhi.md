@@ -167,22 +167,6 @@ data:
       different course suits you better.
     cta: Book free counselling
     href: popup
-  skillDemand:
-    - label: Agentic AI Engineers
-      percent: 100.0
-      value: +260%
-    - label: GenAI Solutions Architects
-      percent: 46.2
-      value: +120%
-    - label: AI Product Owners
-      percent: 46.2
-      value: +120%
-    - label: LLM Engineers
-      percent: 33.3
-      value: +86.5%
-    - label: MLOps Engineers
-      percent: 31.6
-      value: +82.2%
   goodCourseChecks:
     - title: '2026 stack depth:'
       text: ' RAG, fine-tuning, agents, MCP and vector databases named in the syllabus'
@@ -371,7 +355,7 @@ data:
     rows:
       - cells:
           - Learnbay + IBM + IIT Patna
-          - Deployment pipelines for RAG and agents
+          - Yes, MLOps plus Deployment Pipeline for RAG and Agents
           - Yes, 1-month module
           - FastAPI, OpenAI and Azure endpoints, containers, inference serving, latency and
             token-cost monitoring, rollback
@@ -986,8 +970,6 @@ India’s AI demand has moved from model building to shipping and operating AI s
 ![Bar chart showing 260% growth in demand for Agentic AI Engineers in India between 2024 and 2026](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DelhiAgenticAIDemand051026.webp)
 
 *Chart 3: Agentic AI Engineer demand grew 260% in India between 2024 and 2026*
-
-::progress-stats{from=skillDemand}
 
 MLOps and LLM engineering now sit in the top five, and both are about running AI in production.
 

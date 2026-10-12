@@ -4,12 +4,11 @@ import { hasSeenPopup, markPopupSeen } from './popupSession';
 
 const BlogLeadPopup = dynamic(() => import('./BlogLeadPopup'));
 
-// Fire once the reader is a fifth of the way in — far enough to show intent,
-// early enough that they are still reading.
-const THRESHOLD = 0.2;
+// Same delay as the site-wide popup in _app.js.
+const DELAY_MS = 5000;
 
 /**
- * Opens the blog lead popup once the reader has scrolled past `THRESHOLD`.
+ * Opens the blog lead popup `DELAY_MS` after the post loads.
  *
  * Session-gated through the shared `hasSeenPopup` flag, so it shows at most
  * once per session and never stacks with the site-wide popup.
@@ -20,36 +19,16 @@ const BlogAutoPopup = ({ config }) => {
   useEffect(() => {
     if (hasSeenPopup()) return;
 
-    let frame = null;
+    const timer = setTimeout(() => {
+      // Re-check in case another popup claimed the session meanwhile.
+      if (hasSeenPopup()) return;
+      // Mark it seen the moment it opens, matching the site-wide popup: a
+      // reader who dismisses it must not have it come back.
+      markPopupSeen();
+      setOpen(true);
+    }, DELAY_MS);
 
-    const check = () => {
-      frame = null;
-      const doc = document.documentElement;
-      const scrollable = doc.scrollHeight - doc.clientHeight;
-      // Nothing to scroll means nothing to measure — a post shorter than the
-      // viewport should not trigger on load.
-      if (scrollable <= 0) return;
-
-      if (doc.scrollTop / scrollable >= THRESHOLD) {
-        // Mark it seen the moment it opens, matching the site-wide popup: a
-        // reader who dismisses it must not have it come back.
-        markPopupSeen();
-        setOpen(true);
-        cleanup();
-      }
-    };
-
-    const onScroll = () => {
-      if (frame === null) frame = requestAnimationFrame(check);
-    };
-
-    function cleanup() {
-      window.removeEventListener('scroll', onScroll);
-      if (frame !== null) cancelAnimationFrame(frame);
-    }
-
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return cleanup;
+    return () => clearTimeout(timer);
   }, []);
 
   if (!open) return null;
