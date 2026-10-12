@@ -9,9 +9,14 @@ import styles from './AuthorCard.module.css';
  * `linkTo` turns the name into a link to the author's profile — used on the
  * index, omitted on the profile page itself so it does not link to where the
  * reader already is.
+ *
+ * `nameAs` sets the name's heading level: the profile page passes 'h1' so the
+ * author's name is that page's main heading; lists keep the default 'h2'.
  */
-const AuthorCard = ({ author, linkTo = false, postCount }) => {
+const AuthorCard = ({ author, linkTo = false, postCount, nameAs = 'h2' }) => {
   if (!author) return null;
+
+  const NameTag = nameAs;
 
   const href = `/blogs/author/${author.slug}`;
 
@@ -32,9 +37,9 @@ const AuthorCard = ({ author, linkTo = false, postCount }) => {
         {author.role && <p className={styles.role}>{author.role}</p>}
 
         <div className={styles.nameRow}>
-          <h2 className={styles.name}>
+          <NameTag className={styles.name}>
             {linkTo ? <Link href={href}>{author.name}</Link> : author.name}
-          </h2>
+          </NameTag>
           {author.linkedin && (
             <a
               className={styles.linkedin}

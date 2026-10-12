@@ -63,7 +63,11 @@ const AuthorProfile = ({ author, posts }) => {
             ← All authors
           </Link>
 
-          <AuthorCard author={author} postCount={posts.length} />
+          <AuthorCard
+            author={author}
+            postCount={posts.length}
+            nameAs="h1"
+          />
 
           <h2 className={styles.postsHead}>
             {posts.length

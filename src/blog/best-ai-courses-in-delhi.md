@@ -5,7 +5,7 @@ titleHighlight: Fees, Syllabus and Placement Compared
 Stitle: 'Best AI Courses in Delhi (2026): Fees, Syllabus & Placement'
 description:
   Compare the 10 best AI courses in Delhi NCR for 2026 on syllabus depth, fees, placement support,
-  classroom access and learner reviews. Updated September 2026.
+  classroom access and learner reviews. Updated October 2026.
 keywords:
   best AI courses in Delhi, AI course in Delhi, artificial intelligence course in Delhi, AI course in
   Delhi with placement, AI course fees in Delhi, generative AI course in Delhi, agentic AI course in
@@ -13,7 +13,7 @@ keywords:
   IIT Delhi AI course
 eyebrow: AI careers · Delhi NCR · 2026
 category: AI careers, Course comparison
-date: 30/09/2026
+date: 12/10/2026
 publishedDate: '2026-09-30T00:00:00+05:30'
 author: Sonalisha Mohanty
 authorInitials: SM
