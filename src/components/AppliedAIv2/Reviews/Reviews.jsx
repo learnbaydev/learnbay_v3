@@ -171,7 +171,7 @@ export default function Reviews() {
         ))}
       </div>
 
-      <div className={styles.grid}>
+      <div className={filter === 'all' ? styles.masonry : styles.grid}>
         {visible.map((review) => (
           <Card key={review.id} review={review} onPlay={setPlayingId} />
         ))}

@@ -40,9 +40,8 @@ export default function Hero() {
             <h1 className={styles.headline}>Applied AI Practitioner Program.</h1>
             <p className={styles.sub}>
               Master 35+ AI tools, build real AI products and work directly with
-              startups in four months, without writing code. Delivered by
-              Learnbay in collaboration with Vishlesan i-Hub Foundation, IIT
-              Patna.
+              startups in four months, without writing code. In collaboration
+              with Vishlesan i-Hub Foundation, IIT Patna.
             </p>
           </div>
 
@@ -86,8 +85,7 @@ export default function Hero() {
           </div>
 
           <p className={styles.finePrint}>
-            Program designed and delivered by Learnbay. Certification issued
-            with Vishlesan i-Hub Foundation, IIT Patna, and IBM.
+            Earn 3 certificates and a portfolio-ready capstone.
           </p>
         </div>
 

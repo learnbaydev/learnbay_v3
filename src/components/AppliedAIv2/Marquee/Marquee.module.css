@@ -12,8 +12,9 @@
   align-items: center;
   gap: 52px;
   margin: 0;
-  padding: 18px var(--aai-gutter) 18px 0;
-  padding-inline-start: 52px;
+  /* Trailing padding equals the item gap, so the seam between the two
+     tracks is spaced like every other item. */
+  padding: 18px 52px 18px 0;
   list-style: none;
   animation: scroll 38s linear infinite;
 }
@@ -43,8 +44,8 @@
     transform: translateX(0);
   }
   to {
-    /* One full track, plus the gap that follows it. */
-    transform: translateX(calc(-100% - 52px));
+    /* One full track (its width includes the trailing gap). */
+    transform: translateX(-100%);
   }
 }
 

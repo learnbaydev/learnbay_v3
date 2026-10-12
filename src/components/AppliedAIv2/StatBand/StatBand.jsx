@@ -6,7 +6,6 @@ const STATS = [
   { value: '35+', label: 'AI tools used hands-on' },
   { value: '100+', label: 'Hours on real startup AI problems' },
   { value: '3', label: 'Credentials, each earned separately' },
-  { value: '0', label: 'Lines of code required' },
 ];
 
 export default function StatBand() {

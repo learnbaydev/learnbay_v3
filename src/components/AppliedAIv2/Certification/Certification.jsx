@@ -6,6 +6,7 @@ const CERTIFICATES = [
   {
     id: 'iit',
     seal: '#1b1338',
+    issuer: 'Vishlesan i-Hub Foundation · IIT Patna',
     face: { kind: 'crest', src: '/applied-ai/crest.png' },
     eyebrow: 'Academic certificate',
     eyebrowColor: '#2c1e48',
@@ -16,6 +17,7 @@ const CERTIFICATES = [
   {
     id: 'ibm',
     seal: '#2563eb',
+    issuer: 'IBM',
     face: { kind: 'logo', src: '/applied-ai/ibm-full.png' },
     eyebrow: 'Industry certification',
     eyebrowColor: '#2563eb',
@@ -26,6 +28,7 @@ const CERTIFICATES = [
   {
     id: 'startup',
     seal: '#ff7a1a',
+    issuer: 'AI Co-Lab · Partner startup',
     face: { kind: 'wordmark', text: 'AI Co-Lab' },
     eyebrow: 'Project credential',
     eyebrowColor: '#ff7a1a',
@@ -52,9 +55,7 @@ export default function Certification() {
           <article key={cert.id} className={styles.card}>
             <div className={styles.face}>
               <span className={styles.ornament} aria-hidden="true" />
-              <p className={styles.faceIssuer}>
-                Vishlesan i-Hub Foundation · IIT Patna · Learnbay
-              </p>
+              <p className={styles.faceIssuer}>{cert.issuer}</p>
 
               {cert.face.kind === 'wordmark' ? (
                 <p className={styles.faceWordmark}>{cert.face.text}</p>
