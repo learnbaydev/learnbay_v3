@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
@@ -498,87 +498,127 @@ const Programs = ({ onCounsel }) => {
   );
 };
 
-const Alumni = () => (
-  <section className={styles.alumni}>
-    <div className={styles.wall} aria-hidden>
-      {ALUMNI_ROWS.map((row, rowIndex) => (
-        <div
-          className={`${styles.wallRow} ${
-            rowIndex === 1 ? styles.wallRowLeft : styles.wallRowRight
-          }`}
-          key={rowIndex}
-        >
-          {/* The set is rendered twice so the strip can slide by exactly one
+// Seconds per portrait, matching the original 12-portrait rows (64s and 56s),
+// so a longer row keeps the same drift speed instead of speeding up.
+const WALL_PACE = { right: 64 / 12, left: 56 / 12 };
+
+const Alumni = () => {
+  const wallRef = useRef(null);
+  // Portraits load just before the wall scrolls into view: all of them at
+  // once, so no copy slides in unloaded and leaves a gap, but not on page load.
+  const [near, setNear] = useState(false);
+
+  useEffect(() => {
+    const wall = wallRef.current;
+    if (!wall || typeof IntersectionObserver === 'undefined') {
+      setNear(true);
+      return undefined;
+    }
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setNear(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '800px 0px' }
+    );
+    observer.observe(wall);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <section className={styles.alumni}>
+      <div className={styles.wall} ref={wallRef} aria-hidden>
+        {ALUMNI_ROWS.map((row, rowIndex) => (
+          <div
+            className={`${styles.wallRow} ${
+              rowIndex === 1 ? styles.wallRowLeft : styles.wallRowRight
+            }`}
+            style={{
+              animationDuration: `${
+                row.length * (rowIndex === 1 ? WALL_PACE.left : WALL_PACE.right)
+              }s`,
+            }}
+            key={rowIndex}
+          >
+            {/* The set is rendered twice so the strip can slide by exactly one
               set's width and loop without a visible jump. */}
-          {[...row, ...row].map((src, i) => (
-            <img key={`${rowIndex}-${i}`} src={src} alt="" loading="lazy" />
+            {[...row, ...row].map((src, i) => (
+              <img
+                key={`${rowIndex}-${i}`}
+                src={near ? src : undefined}
+                alt=""
+                decoding="async"
+              />
+            ))}
+          </div>
+        ))}
+        <div className={styles.veil} />
+      </div>
+
+      <div className={styles.wallCopy}>
+        <p className={styles.eyebrow}>
+          1,000+ reviews on platforms we cannot edit
+        </p>
+        <h2 className={`${styles.d2} ${styles.w600}`}>
+          35,000 professionals started with a guide like this.
+        </h2>
+        <p className={`${styles.lede} ${styles.w560}`}>
+          Then they enrolled, finished, and changed jobs. Their reviews live on
+          SwitchUp, Course Report, Trustpilot, Google and Shiksha none of which
+          we control.
+        </p>
+        <div className={styles.ratings}>
+          {RATINGS.map((rating) => (
+            <span className={styles.rating} key={rating.label}>
+              <strong>{rating.value}</strong> {rating.label}
+            </span>
           ))}
         </div>
-      ))}
-      <div className={styles.veil} />
-    </div>
-
-    <div className={styles.wallCopy}>
-      <p className={styles.eyebrow}>
-        1,000+ reviews on platforms we cannot edit
-      </p>
-      <h2 className={`${styles.d2} ${styles.w600}`}>
-        35,000 professionals started with a guide like this.
-      </h2>
-      <p className={`${styles.lede} ${styles.w560}`}>
-        Then they enrolled, finished, and changed jobs. Their reviews live on
-        SwitchUp, Course Report, Trustpilot, Google and Shiksha none of which we
-        control.
-      </p>
-      <div className={styles.ratings}>
-        {RATINGS.map((rating) => (
-          <span className={styles.rating} key={rating.label}>
-            <strong>{rating.value}</strong> {rating.label}
-          </span>
-        ))}
+        <Link href="/reviews" className={`${styles.btn} ${styles.btnPrimary}`}>
+          Read the reviews
+        </Link>
       </div>
-      <Link href="/reviews" className={`${styles.btn} ${styles.btnPrimary}`}>
-        Read the reviews
-      </Link>
-    </div>
 
-    <div className={`${styles.container} ${styles.quotesWrap}`}>
-      <div className={styles.quotes}>
-        {QUOTES.map((item) => (
-          <figure className={styles.quote} key={item.name}>
-            {item.hike && <span className={styles.hike}>{item.hike}</span>}
-            <blockquote>“{item.quote}”</blockquote>
-            <figcaption className={styles.attribution}>
-              <img
-                src={item.avatar}
-                alt=""
-                width={42}
-                height={42}
-                loading="lazy"
-              />
-              <span className={styles.attributionName}>
-                <strong>{item.name}</strong>
-                <span>{item.role}</span>
-              </span>
-              <span className={styles.quoteSource}>{item.source}</span>
-            </figcaption>
-          </figure>
-        ))}
+      <div className={`${styles.container} ${styles.quotesWrap}`}>
+        <div className={styles.quotes}>
+          {QUOTES.map((item) => (
+            <figure className={styles.quote} key={item.name}>
+              {item.hike && <span className={styles.hike}>{item.hike}</span>}
+              <blockquote>“{item.quote}”</blockquote>
+              <figcaption className={styles.attribution}>
+                <img
+                  src={item.avatar}
+                  alt=""
+                  width={42}
+                  height={42}
+                  loading="lazy"
+                />
+                <span className={styles.attributionName}>
+                  <strong>{item.name}</strong>
+                  <span>{item.role}</span>
+                </span>
+                <span className={styles.quoteSource}>{item.source}</span>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+        <p className={styles.disclaimer}>
+          Salary-hike figures are self-reported by alumni and indicative.
+          Reviews are quoted from the platforms named beside each one.
+        </p>
+        <ul className={styles.employers} aria-label="Where our alumni work">
+          {EMPLOYERS.map((employer) => (
+            <li key={employer.name}>
+              <img src={employer.logo} alt={employer.name} loading="lazy" />
+            </li>
+          ))}
+        </ul>
       </div>
-      <p className={styles.disclaimer}>
-        Salary-hike figures are self-reported by alumni and indicative. Reviews
-        are quoted from the platforms named beside each one.
-      </p>
-      <ul className={styles.employers} aria-label="Where our alumni work">
-        {EMPLOYERS.map((employer) => (
-          <li key={employer.name}>
-            <img src={employer.logo} alt={employer.name} loading="lazy" />
-          </li>
-        ))}
-      </ul>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 

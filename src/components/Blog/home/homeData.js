@@ -175,15 +175,84 @@ export const PROMO_SUMMARY = [
   { label: 'Fee', value: 'On the program page →', href: PROMO_HREF },
 ];
 
-// 20 portraits across three rows of twelve, wrapping round the set, so the wall covers wide screens.
-const PORTRAITS = Array.from(
-  { length: 20 },
-  (_, i) => `${IMG}/alumni-${i}.webp`
-);
-export const ALUMNI_ROWS = [0, 9, 18].map((start) =>
-  Array.from(
-    { length: 12 },
-    (_, i) => PORTRAITS[(start + i) % PORTRAITS.length]
+// Learner portraits, served from the CDN at
+// adlearnbay/alumni-wall/alumni-<name>.webp (336x448). Dealt round-robin into three
+// rows so neighbouring rows never show the same face side by side.
+const ALUMNI = [
+  'aditya-kumar-pandey',
+  'ajay-dobliyal',
+  'ajith-devadiga',
+  'akash-raut',
+  'akesh-kumar',
+  'ambika-sharma',
+  'anishma-k-s',
+  'antony-israel',
+  'anubhav-saxena',
+  'arjun-jayaraman',
+  'chandrika-b-hiremath',
+  'chetan-chandra',
+  'chethan-kumar',
+  'devang-handoo',
+  'gagan-gosavi',
+  'haneesh-t-k',
+  'ishanth-pillai',
+  'karan-singh',
+  'kartik-singh-bora',
+  'kawaljeet-singh-rao',
+  'kevin-parashar',
+  'khush-narula',
+  'kriti-kanchan',
+  'kshitij-rampurkar',
+  'm-haifaa-fathima',
+  'madhavi-adodariya',
+  'mallige-rajeev',
+  'mamta-kashyap',
+  'manimaran-ramakrishnan',
+  'mohammed-adiyan',
+  'monalisa-behera',
+  'namrata-paikekar',
+  'nayana-s-v',
+  'nikhil-shimpi',
+  'nitesh-kesharwani',
+  'nitin-reddy-manda',
+  'patchigolla-vignan',
+  'peter-reddy',
+  'phil-joseph',
+  'prajwal-nidoni',
+  'pranav-prasanth',
+  'praveen-kumar',
+  'pruthvi-b-v',
+  'purvi-majoka',
+  'rabina-sha',
+  'rekha-janardhan-reddy',
+  'rishi-kumar-singh',
+  'ritesh-pawar',
+  'rohan-dapurkar',
+  'sanket-agrawal',
+  'saraswata-roy',
+  'sharan-raj',
+  'sherin-n-john',
+  'shivam-agarwal',
+  'shivam-kumar-sharma',
+  'shivanshu-harshvardhan',
+  'shrikant-anand',
+  'shubham-khudre',
+  'shweta-devkhile',
+  'star-hephzi-anand',
+  'sumanta-samanta',
+  'sumit-badase',
+  'sushmita-mathamsett',
+  'swathi-krishna',
+  'swati-reddy',
+  'tanvi-kulkarni',
+  'tharunn-l',
+  'vijay-koneri',
+  'vikyath-shetty',
+  'zueb-ansari',
+];
+export const ALUMNI_ROWS = [0, 1, 2].map((row) =>
+  ALUMNI.filter((_, i) => i % 3 === row).map(
+    (name) => `${IMG}/alumni-wall/alumni-${name}.webp`
   )
 );
 

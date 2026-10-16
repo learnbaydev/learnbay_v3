@@ -1497,6 +1497,8 @@
   margin-right: 14px;
   border-radius: 16px;
   object-fit: cover;
+  /* Placeholder tile while a portrait is still loading. */
+  background: #e4e8f1;
   box-shadow: 0 12px 30px -16px rgba(8, 10, 23, 0.28);
 }
 
