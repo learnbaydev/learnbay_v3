@@ -549,6 +549,8 @@ export default function Home() {
                 CloudComputingTrainingInPune[0].CertificationBot4
               }
               src={CloudComputingTrainingInPune[0].src}
+              src55={CloudComputingTrainingInPune[0].src55}
+              src66={CloudComputingTrainingInPune[0].src66}
               src22={CloudComputingTrainingInPune[0].src22}
               src33={CloudComputingTrainingInPune[0].src33}
               src44={CloudComputingTrainingInPune[0].src44}

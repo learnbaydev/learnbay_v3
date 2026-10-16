@@ -198,6 +198,8 @@ export default function Home() {
                 CloudComputingTrainingInBangalore[0].CertificationBot3
               }
               src={CloudComputingTrainingInBangalore[0].src}
+              src55={CloudComputingTrainingInBangalore[0].src55}
+              src66={CloudComputingTrainingInBangalore[0].src66}
               src22={CloudComputingTrainingInBangalore[0].src22}
               src33={CloudComputingTrainingInBangalore[0].src33}
               src44={CloudComputingTrainingInBangalore[0].src44}

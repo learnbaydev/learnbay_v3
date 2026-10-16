@@ -7445,7 +7445,7 @@ export const NewDSAData = [
       {
         id: 2,
         topnav: "Gen-AI Certificate",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp",
         width: 300,
         height: 270,
         title: "Certification from IBM in Generative AI",

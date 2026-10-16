@@ -859,7 +859,7 @@ export const AIcanadaCourseData = [
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp',
     ModuleHead1: 'Programming Classes:',
     ModuleBot1:
       "We’ve added Module 0 of python programming classes specialized for non-technical learners. All of our AI courses are open to non-coders. You'll go from being a complete novice to an expert in Artificial Intelligence with this course.",

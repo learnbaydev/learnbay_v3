@@ -76,7 +76,7 @@ const NewDSA = ({ DSADataJson }) => {
         {
           id: 3,
           ques: 'What cloud platforms are covered in the Cloud and DevOps Engineering Masters Program?',
-          ans: 'During the cloud computing classes, we will cover Google Cloud Platform, Microsoft Azure, and Amazon AWS concepts and tools with hands-on training.',
+          ans: 'During the cloud computing classes, we will cover Microsoft Azure and Amazon AWS concepts and tools with hands-on training.',
           open: false,
         },
         {
@@ -166,12 +166,12 @@ const NewDSA = ({ DSADataJson }) => {
         {
           id: 0,
           ques: 'Is there any accredited certification after course completion?',
-          ans: 'Yes. You will obtain globally accredited certifications from IBM, Microsoft, and Learnbay once you complete the course and projects.',
+          ans: 'Yes. You will obtain globally accredited certifications from IBM, AWS, Microsoft and Learnbay once you complete the course and projects.',
           open: false,
         },
         {
           id: 1,
-          ques: 'Is the DevOps Training with IBM Certification internationally recognized?',
+          ques: 'Is the IBM certification for DevOps Training Globally recognized?',
           ans: 'Yes, the certification is globally recognized, which enriches your career and validates the learned skills for better job prospects.',
           open: false,
         },
@@ -179,17 +179,35 @@ const NewDSA = ({ DSADataJson }) => {
           id: 2,
           ques: 'What type of certification do I receive upon course completion?',
           ans: 'Upon completion of the course, you will receive –',
+          list1: 'One AI Co-Lab live start up project certificate',
+          list2: {
+            text: 'Two globally recognized IBM training certifications:',
+            items: [
+              'IBM Cloud computing & DevOps Engineering certificate',
+              'IBM GEN AI & Agentic AI for Cloud & DevOps certificate',
+            ],
+          },
+          list3: {
+            text: 'Three Microsoft Azure certification vouchers:',
+            items: [
+              'AZ-900 (Azure Fundamentals)',
+              'AZ-104 (Azure Administrator)',
+              'AZ-305 (Azure Solutions Architect Expert)',
+            ],
+          },
+          list4: {
+            text: 'Two AWS certification vouchers:',
+            items: [
+              'AWS Cloud Practitioner',
+              'AWS Solutions Architect – Associate',
+            ],
+          },
           open: false,
-          dscoursefaq1: true,
-          list1: 'One Generative AI Certification from IBM',
-          list2: 'Cloud & DevOps certification from IBM',
-          list3: 'Three Microsoft Azure certifications',
-          list4: 'One AI Co-Lab Project Certification',
         },
         {
           id: 3,
-          ques: 'Are there any additional costs associated with the AWS Certification Azure Training?',
-          ans: 'The certification has no other expenses included apart from the course fees.',
+          ques: 'Are there any additional costs associated with AWS and Azure certification?',
+          ans: 'The course fee is inclusive of the AWS and Microsoft Azure certification voucher costs. There are no additional expenses for the certification exams covered under the program, as the required certification vouchers are included in the course fee.',
           open: false,
         },
       ],
@@ -478,7 +496,7 @@ Cloud and DevOps certification program,
       "name": "What cloud platforms are covered in the Cloud and DevOps Engineering Masters Program?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "During the cloud computing classes, the program covers Google Cloud Platform, Microsoft Azure, and Amazon AWS concepts and tools with hands-on training."
+        "text": "During the cloud computing classes, the program covers Microsoft Azure and Amazon AWS concepts and tools with hands-on training."
       }
     },
     {
@@ -574,12 +592,12 @@ Cloud and DevOps certification program,
       "name": "Is there any accredited certification after course completion?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, you will obtain globally accredited certifications from IBM, Microsoft, and Learnbay once you complete the course and projects."
+        "text": "Yes, you will obtain globally accredited certifications from IBM, AWS, Microsoft and Learnbay once you complete the course and projects."
       }
     },
     {
       "@type": "Question",
-      "name": "Is the DevOps Training with IBM Certification internationally recognized?",
+      "name": "Is the IBM certification for DevOps Training Globally recognized?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes, the certification is globally recognized, enriching your career and validating your skills for better job prospects."
@@ -590,15 +608,15 @@ Cloud and DevOps certification program,
       "name": "What type of certification do I receive upon course completion?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Upon completion of the course, you will receive one Generative AI certification from IBM, a Cloud and DevOps certification from IBM, three Microsoft Azure certifications, and one AI Co-Lab project certification."
+        "text": "Upon completion of the course, you will receive one AI Co-Lab live start up project certificate; two globally recognized IBM training certifications (IBM Cloud computing & DevOps Engineering certificate, IBM GEN AI & Agentic AI for Cloud & DevOps certificate); three Microsoft Azure certification vouchers (AZ-900 Azure Fundamentals, AZ-104 Azure Administrator, AZ-305 Azure Solutions Architect Expert); and two AWS certification vouchers (AWS Cloud Practitioner, AWS Solutions Architect – Associate)."
       }
     },
     {
       "@type": "Question",
-      "name": "Are there any additional costs associated with the AWS Certification Azure Training?",
+      "name": "Are there any additional costs associated with AWS and Azure certification?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The certification has no other expenses included apart from the course fees."
+        "text": "The course fee is inclusive of the AWS and Microsoft Azure certification voucher costs. There are no additional expenses for the certification exams covered under the program, as the required certification vouchers are included in the course fee."
       }
     },
     {

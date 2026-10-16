@@ -233,6 +233,8 @@ export default function Home() {
               CertificationBot3={DevOpsCourseInBangalore[0].CertificationBot3}
               CertificationBot4={DevOpsCourseInBangalore[0].CertificationBot4}
               src={DevOpsCourseInBangalore[0].src}
+              src55={DevOpsCourseInBangalore[0].src55}
+              src66={DevOpsCourseInBangalore[0].src66}
               src22={DevOpsCourseInBangalore[0].src22}
               src33={DevOpsCourseInBangalore[0].src33}
               ModuleHead1={DevOpsCourseInBangalore[0].ModuleHead1}

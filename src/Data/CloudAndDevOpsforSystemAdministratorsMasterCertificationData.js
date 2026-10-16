@@ -49,6 +49,13 @@ export const NewDSAData = [
             width: "130",
             height: "30",
           },
+          {
+            id: 4,
+            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/aws-logo-white.webp",
+            imgAlt: "AWS Logo",
+            width: "80",
+            height: "30",
+          },
         ],
         descrption:
           "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",
@@ -568,6 +575,32 @@ export const NewDSAData = [
           "  Tools: AWS RDS Multi-AZ, Monitoring Tools",
         ],
       },
+      {
+        id: "15",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
+        width: 80,
+        height: 80,
+        title: "TERM 14",
+        toolsImg: "",
+        elective: "Elective - 5",
+        imageSizes: {
+          vsm: { width: 40, height: 21 },
+          sm: { width: 40, height: 23 },
+          md: { width: 40, height: 26 },
+          lg: { width: 40, height: 32 },
+        },
+        // contentModule: "Topics Covered",
+        description: "Cloud & DevOps for QA/ Testing Professionals",
+        duration: "40-45 hrs",
+        contentDescription: "",
+        contentDetails: [
+          "  Capstone Projects 1. Cloud Test Infra Automation",
+          "  Tools: Terraform, AWS CloudFormation, Azure Resource Manager",
+          "  Capstone Projects 2. Containerised Parallel Test Execution Platform",
+          "  Tools: Docker, Kubernetes, Selenium Grid, GitHub Actions, AWS EC2",
+        ],
+      },
     ],
     masterSyllabusMobile: [
       {
@@ -1016,6 +1049,37 @@ export const NewDSAData = [
           open: false,
         },
       },
+
+      {
+        Module15: {
+          title: "Elective E - Cloud & DevOps for QA/ Testing Professionals ",
+          hours: "6 Weeks",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud & DevOps for QA/ Testing Professionals ",
+          content: [
+            {
+              chap: {
+                title: "Cloud & DevOps for QA/ Testing Professionals ",
+                desc: [
+                  "CI/CD Pipeline Integration & Quality Gates",
+                  "Infrastructure Automation & Test Environment Provisioning",
+                  "Backup, DR & High Availability for Test Infrastructure",
+                  "Containerised Test Execution & Kubernetes Scale",
+                  "Cloud Monitoring & Observability for QA",
+                  "GitOps & Operational Governance for QA",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
     ],
     certificateNew: [
       {
@@ -1044,7 +1108,7 @@ export const NewDSAData = [
       {
         id: 1,
         topnav: "IBM Gen-AI Certificate",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp",
         width: 300,
         height: 270,
         title: "Certification from IBM in Generative AI",
@@ -1065,6 +1129,19 @@ export const NewDSAData = [
         para1: ["Solution Architect Expert"],
         para2: ["Azure Fundamentals"],
         para3: ["Administrator Associate"],
+      },
+      {
+        id: "aws",
+        topnav: "AWS",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedCloudPractitioner.webp",
+        img2: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedSolutionsArchitectAssociate.webp",
+        imgWidth: 300,
+        imgHeight: 212,
+        img2Width: 300,
+        img2Height: 212,
+        title: "AWS Certifications",
+        para1: ["AWS Certified Cloud Practitioner"],
+        para2: ["AWS Certified Solutions Architect – Associate"],
       },
       {
         id: 3,

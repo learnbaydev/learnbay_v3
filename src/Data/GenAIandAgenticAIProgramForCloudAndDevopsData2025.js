@@ -53,6 +53,13 @@ export const NewDSAData = [
             width: "60",
             height: "30",
           },
+          {
+            id: 4,
+            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/aws-logo-white.webp",
+            imgAlt: "AWS Logo",
+            width: "80",
+            height: "30",
+          },
         ],
         descrption:
           "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",
@@ -7570,7 +7577,7 @@ export const NewDSAData = [
       {
         id: 2,
         topnav: "Gen-AI Certificate",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp",
         width: 300,
         height: 270,
         title: "Certification from IBM in Generative AI",
@@ -7579,6 +7586,19 @@ export const NewDSAData = [
           " Expertise in IBM Watsonx and GenAI frameworks.",
           "Enhance your AI profile for leading tech employers worldwide.",
         ],
+      },
+      {
+        id: "aws",
+        topnav: "AWS",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedCloudPractitioner.webp",
+        img2: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedSolutionsArchitectAssociate.webp",
+        imgWidth: 300,
+        imgHeight: 212,
+        img2Width: 300,
+        img2Height: 212,
+        title: "AWS Certifications",
+        para1: ["AWS Certified Cloud Practitioner"],
+        para2: ["AWS Certified Solutions Architect – Associate"],
       },
     ],
     faq: [

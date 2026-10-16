@@ -126,6 +126,12 @@
   color: #444;
 }
 
+.subList {
+  margin-top: 5px;
+  padding-left: 20px;
+  list-style: decimal;
+}
+
 /* --- MOBILE RESPONSIVENESS --- */
 @media (max-width: 768px) {
   .layout {

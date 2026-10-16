@@ -831,7 +831,7 @@ export const MLDubaiCourseData = [
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp',
     ModuleBot1:
       'The machine learning course in Dubai comprises 15+ modules that cover all the latest ML tools and techniques. The modules are planned progressively from basic to advanced so that even a newbie can start learning with more efficacy. ',
     ModuleBot2:

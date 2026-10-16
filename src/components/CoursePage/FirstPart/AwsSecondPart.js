@@ -7,7 +7,7 @@ import LJourney from '../LJourney/LJourney';
 const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
 const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
 
-import Certificate from '../Certificate/Certificate';
+import Certificate from '../UpdatedCertificate/UpdatedCertificate';
 const OfferPopup = dynamic(() => import('../../Global/OfferPopup/OfferPopup'));
 const FeeSection = dynamic(
   () => import('../../../components/CoursePage/FeeSection/FeeSection')
@@ -91,11 +91,7 @@ const SecondPart = ({
       />
       <ToolsCovered devops={true} mbldevops={mbldevops} />
 
-      <Certificate
-        noTabs={true}
-        data={CertificateData}
-        DSAFresherCertHeading={true}
-      />
+      <Certificate data={CertificateData} />
       <FeeSection
         devopfee={devopfee}
         adsHide={adsHide}

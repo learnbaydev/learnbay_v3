@@ -869,7 +869,7 @@ export const AIChennaiCourseData = [
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp',
     ModuleBot1:
       "At Learnbay, we are dedicated to delivering the best quality modules for aspiring learners. For this reason, we've developed an IBM artificial intelligence course to keep pace with the ever-evolving needs of the market. The artificial intelligence course in Chennai comprises 400 hours of sessions whereas our Foundation and advanced data science course have 200+ hours of live interactive sessions. In all of our courses, students can attend multiple sessions with different instructors during the training. Additionally, Learnbay offers a 1 to 3-years Flexi subscription allowing students to learn at their own convenience.",
     ModuleBot2:

@@ -848,7 +848,7 @@ export const MachineLearningChennaiCourseData = [
       "Post successful completion of Learnbay's professional machine learning course, we give a course completion certificate in partnership with IBM. Not only this. Interestingly, you’ll be provided with 6 IBM additional certificates for completing different modules of artificial intelligence and machine learning courses. The most important certificate among these 6 is the IBM Machine Learning Project Experience Certificate. These are unquestionably added bonuses to your resume.",
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',

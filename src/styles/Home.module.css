@@ -561,3 +561,10 @@
   }
 
 }
+
+/* Sit above the fixed mobile "Apply For Counselling" bar instead of on it. */
+@media (max-width: 481px) {
+  :global(body:has(.divWrapper)) .FloatWhatsapp {
+    margin-bottom: 64px !important;
+  }
+}

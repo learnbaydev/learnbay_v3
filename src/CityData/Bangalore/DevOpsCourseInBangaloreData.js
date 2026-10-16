@@ -740,6 +740,8 @@ export const DevOpsCourseInBangalore = [
         cherry on top.
       </span>
     ),
+    src55: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedCloudPractitioner.webp',
+    src66: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedSolutionsArchitectAssociate.webp',
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',

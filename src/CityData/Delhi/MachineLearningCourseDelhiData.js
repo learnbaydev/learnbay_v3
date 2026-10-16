@@ -838,7 +838,7 @@ export const MLDelhiCourseData = [
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
     src33:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp',
     ModuleBot1:
       'Learnbay is a great place for students to pursue Machine Learning course training in Delhi. Programming and Machine Learning technologies and advanced statistical applications are the core topics of this training in Delhi. Each of these modules contains a variety of domain-based case studies and advanced Machine Learning-related assignments.',
     ModuleBot2:
