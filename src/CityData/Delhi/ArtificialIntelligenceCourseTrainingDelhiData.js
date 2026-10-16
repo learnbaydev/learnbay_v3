@@ -853,7 +853,7 @@ export const AIelhiCourseData = [
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
     src22:
       'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png',
-    src44: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp',
+    src44: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp',
     ModuleBot1:
       "Learnbay is dedicated to offering potential students with the highest-quality AI training. As a result, we've developed a variety of IBM Artificial Intelligence courses to meet the market's ever-changing requirements. Our Artificial Intelligence training courses in Delhi include various learning modules tailored to the aspirant's present professional stage, educational background and future career ambitions.",
     ModuleBot2:

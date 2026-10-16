@@ -156,6 +156,8 @@ const CitiesRight = ({
   cityTextDAhyderabad,
   src22,
   src44,
+  src55,
+  src66,
 
   cityTextDAPune,
   cityTextJDAPune,
@@ -1652,6 +1654,8 @@ const CitiesRight = ({
             <img src={src22}></img>
             <img src={src33}></img>
             <img src={src44}></img>
+            {src55 && <img src={src55} alt="AWS Certified Cloud Practitioner Certificate" />}
+            {src66 && <img src={src66} alt="AWS Certified Solutions Architect Associate Certificate" />}
           </div>
         </div>
       </div>

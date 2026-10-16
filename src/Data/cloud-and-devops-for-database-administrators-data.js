@@ -716,7 +716,7 @@ export const NewDSAData = [
       // {
       //   id: 1,
       //   topnav: "Gen-AI Certificate",
-      //   img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
+      //   img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp",
       //   width: 300,
       //   height: 270,
       //   title: "Certification from IBM in Generative AI",
@@ -737,6 +737,19 @@ export const NewDSAData = [
         para1: ['Solution Architect Expert'],
         para2: ['Azure Fundamentals'],
         para3: ['Administrator Associate'],
+      },
+      {
+        id: 'aws',
+        topnav: 'AWS',
+        img: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedCloudPractitioner.webp',
+        img2: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedSolutionsArchitectAssociate.webp',
+        imgWidth: 300,
+        imgHeight: 212,
+        img2Width: 300,
+        img2Height: 212,
+        title: 'AWS Certifications',
+        para1: ['AWS Certified Cloud Practitioner'],
+        para2: ['AWS Certified Solutions Architect – Associate'],
       },
       {
         id: 3,

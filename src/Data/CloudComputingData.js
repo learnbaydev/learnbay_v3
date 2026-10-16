@@ -193,10 +193,13 @@ export const CloudAndDevOpsCourseData = [
       },
     ],
 
-    Certificate: {
-      degreeCertificate: {
+    Certificate: [
+      {
         id: 1,
+        topnav: 'IBM',
         img: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp',
+        width: 300,
+        height: 223,
         title: 'Course Completion Certificate from IBM',
         para: [
           'Complete your training with the internationally recognized certificate.',
@@ -204,9 +207,12 @@ export const CloudAndDevOpsCourseData = [
           'Get acknowledged in IT sector by adding IBM Certificate to your profile.',
         ],
       },
-      microCertificate: {
+      {
         id: 2,
+        topnav: 'Microsoft',
         img: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-min.webp',
+        width: 300,
+        height: 212,
         title: 'Certification in Collaboration with Microsoft',
         para: [
           'Industry-certified Microsoft certificates',
@@ -214,17 +220,20 @@ export const CloudAndDevOpsCourseData = [
           'Boost job opportunities and earnings with Microsoft’s certification',
         ],
       },
-      projectCertificate: {
-        id: 3,
-        img: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp',
-        title: 'Capstone Project Certificate from Renowened Industry',
-        para: [
-          'Globally recognized Renowened Industry certification based on industrial-level projects.',
-          'Work on 1 capstone project certified by IBM.',
-          'Individualized project experience with easy access to premium job opportunities.',
-        ],
+      {
+        id: 'aws',
+        topnav: 'AWS',
+        img: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedCloudPractitioner.webp',
+        img2: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedSolutionsArchitectAssociate.webp',
+        imgWidth: 300,
+        imgHeight: 212,
+        img2Width: 300,
+        img2Height: 212,
+        title: 'AWS Certifications',
+        para1: ['AWS Certified Cloud Practitioner'],
+        para2: ['AWS Certified Solutions Architect – Associate'],
       },
-    },
+    ],
 
     masterSyllabusMobile: [
       {

@@ -1084,6 +1084,19 @@ export const IITCloudDevopsData = [
         para2: ["Azure Fundamentals"],
         para3: ["Administrator Associate"],
       },
+      {
+        id: "aws",
+        topnav: "AWS",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedCloudPractitioner.webp",
+        img2: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedSolutionsArchitectAssociate.webp",
+        imgWidth: 300,
+        imgHeight: 212,
+        img2Width: 300,
+        img2Height: 212,
+        title: "AWS Certifications",
+        para1: ["AWS Certified Cloud Practitioner"],
+        para2: ["AWS Certified Solutions Architect – Associate"],
+      },
     ],
 
     certificateNew: [

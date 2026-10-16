@@ -193,10 +193,13 @@ export const AwsAndDevOpsCourseData = [
       },
     ],
 
-    certificateNew: {
-      degreeCertificate: {
+    certificateNew: [
+      {
         id: 1,
+        topnav: 'Learnbay',
         img: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/awscertificate.webp',
+        width: 300,
+        height: 212,
         title: 'Learnbay Course Completion Certificate',
         para: [
           'Earn a Learnbay-certified AWS Cloud Computing & DevOps certificate, validating your skills for top tech roles.',
@@ -204,7 +207,20 @@ export const AwsAndDevOpsCourseData = [
           'Boost your resume with a certification that highlights your expertise and makes you job-ready.',
         ],
       },
-    },
+      {
+        id: 'aws',
+        topnav: 'AWS',
+        img: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedCloudPractitioner.webp',
+        img2: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/AWSCertifiedSolutionsArchitectAssociate.webp',
+        imgWidth: 300,
+        imgHeight: 212,
+        img2Width: 300,
+        img2Height: 212,
+        title: 'AWS Certifications',
+        para1: ['AWS Certified Cloud Practitioner'],
+        para2: ['AWS Certified Solutions Architect – Associate'],
+      },
+    ],
 
     masterSyllabusMobile: [
       {
