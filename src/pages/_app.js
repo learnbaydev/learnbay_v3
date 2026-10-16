@@ -16,6 +16,15 @@ const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
 
+// Mobile-only "Apply For Counselling" bar on every route. Pages that render
+// their own BottomBar (with page-specific props) hide this one via CSS.
+const GlobalBottomBar = dynamic(() =>
+  import("@/components/Global/BottomBar/BottomBar")
+);
+const NO_BOTTOM_BAR = ["/submit-info"];
+const hasBottomBar = (pathname) =>
+  !NO_BOTTOM_BAR.includes(pathname) && !/thank-you/i.test(pathname);
+
 const georama = Poppins({
   weight: ["300", "400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
@@ -93,6 +102,9 @@ const ComponentWithPopup = ({ Component, pageProps }) => {
     {dsaPopup.show && <DSAPopupWrapper message={dsaPopup.message} onClose={closeDsaPopup} />}
       {popup.show && <Popup message={popup.message} onClose={closePopup} />}
       <Component {...pageProps} />
+      {hasBottomBar(router.pathname) && (
+        <GlobalBottomBar dataScienceCounselling className="globalBottomBar" />
+      )}
       <WhatsappFloat />
     </>
   );

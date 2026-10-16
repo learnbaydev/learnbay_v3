@@ -12,6 +12,7 @@ const BottomBar = ({
   interstedInHide,
   radio,
   dataScienceGeneric,
+  className = '',
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -19,7 +20,7 @@ const BottomBar = ({
     setPopups(true);
   };
   return (
-    <div className="divWrapper">
+    <div className={`divWrapper ${className}`}>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />

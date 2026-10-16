@@ -579,3 +579,15 @@ margin-top: 100px;
     margin-left: 0;
   }
 }
+
+/* Global mobile bottom bar (rendered in _app). Hidden when the page already
+   renders its own BottomBar, so no page shows two. */
+body:has(.divWrapper:not(.globalBottomBar)) .globalBottomBar {
+  display: none;
+}
+@media (max-width: 481px) {
+  /* Keep the last bit of the footer clear of the fixed 50px bar. */
+  body:has(.divWrapper) {
+    padding-bottom: 50px;
+  }
+}
