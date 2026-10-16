@@ -1,5 +1,17 @@
-const getEndPoint = (pathname, event) => {
-  let endPoint = 'https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4';
+// Home page inbox — the fallback for any page without its own mapping.
+const HOME_ENDPOINT = 'https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4';
+const CLOUD_DEVOPS_ENDPOINT =
+  'https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c';
+// Section-wide mapping by URL prefix. Covers the city sub-pages too.
+const SECTION_ENDPOINTS = [
+  { prefix: '/cloud-and-devops/', endPoint: CLOUD_DEVOPS_ENDPOINT },
+];
+
+const getEndPoint = (pathname = '', event) => {
+  const section = SECTION_ENDPOINTS.find(({ prefix }) =>
+    pathname.startsWith(prefix)
+  );
+  let endPoint = section ? section.endPoint : HOME_ENDPOINT;
   if (event) {
     endPoint = 'https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6';
   }
@@ -28,14 +40,7 @@ const getEndPoint = (pathname, event) => {
   if (pathname === '/resume-builder') {
     endPoint = 'https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6';
   }
-  if (
-    pathname ===
-    '/cloud-and-devops/s3-cloud-computing-and-devops-certification-program'
-  ) {
-    endPoint = 'https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c';
-  }
   return endPoint;
-  // ... (Logic to determine the endpoint based on the router)
 };
 
 const redirectionThankYou = (
