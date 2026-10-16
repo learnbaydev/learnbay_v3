@@ -35,18 +35,25 @@ export const NewDSAData = [
         ],
         mentorText: 'Earn Industry-Ready Certification from',
         mentorFromImg: [
-          // {
-          //   id: 2,
-          //   img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-          //   imgAlt: "IBM Logo",
-          //   width: "60",
-          //   height: "30",
-          // },
+          {
+            id: 2,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
+            imgAlt: "IBM Logo",
+            width: "60",
+            height: "30",
+          },
           {
             id: 3,
             img: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp',
             imgAlt: 'image',
             width: '130',
+            height: '30',
+          },
+          {
+            id: 4,
+            img: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/aws-logo-white.webp',
+            imgAlt: 'AWS Logo',
+            width: '80',
             height: '30',
           },
         ],
@@ -711,19 +718,19 @@ export const NewDSAData = [
     ],
 
     Certificate: [
-      // {
-      //   id: 1,
-      //   topnav: "Gen-AI Certificate",
-      //   img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp",
-      //   width: 300,
-      //   height: 270,
-      //   title: "Certification from IBM in Generative AI",
-      //   para: [
-      //     "Globally recognized certification directly from IBM.",
-      //     " Expertise in IBM Watsonx and GenAI frameworks.",
-      //     "Enhance your AI profile for leading tech employers worldwide.",
-      //   ],
-      // },
+      {
+        id: 1,
+        topnav: "IBM Gen-AI Certificate",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GenerativeAICertificateProgramCertificate.webp",
+        width: 300,
+        height: 270,
+        title: "Certification from IBM in Generative AI",
+        para: [
+          "Globally recognized certification directly from IBM.",
+          " Expertise in IBM Watsonx and GenAI frameworks.",
+          "Enhance your AI profile for leading tech employers worldwide.",
+        ],
+      },
       {
         id: 2,
         topnav: 'Microsoft',

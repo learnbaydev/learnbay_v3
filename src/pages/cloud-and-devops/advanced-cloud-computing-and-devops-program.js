@@ -201,11 +201,24 @@ const NewDSA = ({ DSADataJson }) => {
         {
           id: 2,
           ques: 'What type of certification do I receive upon course completion?',
-          ans: 'Upon completion of the course, you will receive:',
+          ans: 'Upon completion of the course, you will receive –',
+          list1: 'IBM Cloud computing & DevOps Engineering certificate',
+          list2: {
+            text: 'Three Microsoft Azure certification vouchers:',
+            items: [
+              'AZ-900 (Azure Fundamentals)',
+              'AZ-104 (Azure Administrator)',
+              'AZ-305 (Azure Solutions Architect Expert)',
+            ],
+          },
+          list3: {
+            text: 'Two AWS certification vouchers:',
+            items: [
+              'AWS Cloud Practitioner',
+              'AWS Solutions Architect – Associate',
+            ],
+          },
           open: false,
-          dscoursefaq1: true,
-          list1: 'Three course certificates from Microsoft',
-          list2: 'One Course Completion Certificate from Learnbay',
         },
       ],
     },
@@ -591,7 +604,7 @@ Best certification for advanced cloud and DevOps,
     "name": "What type of certification do I receive upon course completion?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Upon completion of the course, you will receive three course certificates from Microsoft and a Course Completion Certificate from Learnbay"
+      "text": "Upon completion of the course, you will receive the IBM Cloud computing & DevOps Engineering certificate; three Microsoft Azure certification vouchers (AZ-900 Azure Fundamentals, AZ-104 Azure Administrator, AZ-305 Azure Solutions Architect Expert); and two AWS certification vouchers (AWS Cloud Practitioner, AWS Solutions Architect – Associate)."
     }
   },{
     "@type": "Question",

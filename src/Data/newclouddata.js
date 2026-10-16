@@ -56,6 +56,13 @@ export const NewDSAData = [
             width: "130",
             height: "30",
           },
+          {
+            id: 4,
+            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/aws-logo-white.webp",
+            imgAlt: "AWS Logo",
+            width: "80",
+            height: "30",
+          },
         ],
         descrption:
           "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",

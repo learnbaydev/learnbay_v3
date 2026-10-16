@@ -192,9 +192,22 @@ const FAQ = ({ FaqData }) => {
                     {/* ✅ Lists */}
                     {hasLists(faq) && (
                       <ul className={styles.listGroup}>
-                        {extractLists(faq).map((item, i) => (
-                          <li key={i}>{item}</li>
-                        ))}
+                        {extractLists(faq).map((item, i) =>
+                          // A list entry is a string, or { text, items } for a
+                          // heading with a numbered sub-list under it.
+                          typeof item === 'string' ? (
+                            <li key={i}>{item}</li>
+                          ) : (
+                            <li key={i}>
+                              {item.text}
+                              <ol className={styles.subList}>
+                                {item.items.map((sub, j) => (
+                                  <li key={j}>{sub}</li>
+                                ))}
+                              </ol>
+                            </li>
+                          )
+                        )}
                       </ul>
                     )}
 
