@@ -171,16 +171,16 @@ export default function Home() {
               "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "1090 , 1st floor, 18th cross road HSR layout sector 3",
+                "streetAddress": "2nd Floor, 6, Outer Ring Rd, Dollar Scheme Colony, 1st Phase, BTM 1st Stage",
                 "addressLocality": "Bangalore",
                 "addressRegion": "Karnataka",
-                "postalCode": "560102",
+                "postalCode": "560068",
                 "addressCountry": "IN"
               },
               "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 12.911826836324302,
-                "longitude": 77.64119807972756
+                "latitude": 12.9165465,
+                "longitude": 77.6183195
               },
               "telephone": "(+91) 77956 87988",
               "email": "contacts@learnbay.co",
