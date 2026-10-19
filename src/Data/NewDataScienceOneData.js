@@ -5573,15 +5573,15 @@ export const NewDSAData = [
 
       {
         Module1: {
-          title: 'Term 1 – Python for GenAI',
-          hours: '(2 Months)',
+          title: 'Term 1 – Foundation of GenAI',
+          hours: '(2.5 Months)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
           StartImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
           endImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
-          points: 'Python for GenAI',
+          points: 'Foundation of GenAI',
           content: [
             {
               chap: {
@@ -5718,24 +5718,6 @@ export const NewDSAData = [
                 ],
               },
             },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
-      {
-        Module2: {
-          title: 'Term 2 – Foundation for GenAI',
-          hours: '(2 Months)',
-          imageUrl:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
-          StartImageUrl:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
-          endImageUrl:
-            'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
-          points: 'ML & NLP Foundations',
-          content: [
             {
               chap: {
                 title: 'ML Fundamentals',
@@ -5809,15 +5791,15 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 2,
+          id: 1,
           open: false,
         },
       },
 
       {
-        Module3: {
-          title: 'Term 3 – Generative AI',
-          hours: '(3 Months)',
+        Module2: {
+          title: 'Term 2 – Advanced Generative AI',
+          hours: '(1 Month)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
           StartImageUrl:
@@ -5978,15 +5960,15 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 3,
+          id: 2,
           open: false,
         },
       },
 
       {
-        Module4: {
-          title: 'Term 4 – Agentic AI',
-          hours: '(1.5 Months)',
+        Module3: {
+          title: 'Term 3 – Agentic AI & Automation',
+          hours: '(1 Month)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
           StartImageUrl:
@@ -6100,14 +6082,14 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 4,
+          id: 3,
           open: false,
         },
       },
 
       {
-        Module5: {
-          title: 'Term 5 – Statistics & Foundation of DS',
+        Module4: {
+          title: 'Term 4 – Statistics & Foundation of DS',
           hours: '(1 Months)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
@@ -6233,9 +6215,9 @@ export const NewDSAData = [
       },
 
       {
-        Module6: {
-          title: 'Term 6 – Advanced Data Science',
-          hours: '(3 Months)',
+        Module5: {
+          title: 'Term 5 – Advanced Data Science',
+          hours: '(2.5 Months)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
           StartImageUrl:
@@ -6279,6 +6261,16 @@ export const NewDSAData = [
                   'Soft margin formulation: slack variables and regularization parameter tuning',
                   'Kernel methods: polynomial, radial basis function, and kernel trick mathematics',
                   'Multi-class extensions: one-vs-one and one-vs-rest strategies',
+                ],
+              },
+            },
+            {
+              chap: {
+                title: 'Dimensionality Reduction Methods',
+                desc: [
+                  'Principal Component Analysis: eigenvalue decomposition and variance explanation',
+                  'Component interpretation: loading analysis and dimensionality selection',
+                  'Feature selection comparison: filtering, wrapper, and embedded approaches',
                 ],
               },
             },
@@ -6500,8 +6492,8 @@ export const NewDSAData = [
       },
 
       {
-        Module7: {
-          title: 'Term 7 – Deployment & MLOps',
+        Module6: {
+          title: 'Term 6 – Deployment & MLOps',
           hours: '(1 Months)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
@@ -6555,13 +6547,13 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 7,
+          id: 6,
           open: false,
         },
       },
       {
-        Module8: {
-          title: 'Term 8 – Data Analytics & VisualizationTools',
+        Module7: {
+          title: 'Term 7 – Data Analytics & Visualization Tools',
           hours: '(1.5 Months)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
@@ -6645,16 +6637,16 @@ export const NewDSAData = [
         },
       },
       {
-        Module9: {
-          title: 'Term 9 – DATA BASE MANAGEMENT SYSTEM',
-          hours: '(2 Months)',
+        Module8: {
+          title: 'Term 8 – Data Management & SQL',
+          hours: '(1 Month)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
           StartImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp',
           endImageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp',
-          points: 'DATA BASE MANAGEMENT SYSTEM',
+          points: 'Data Management & SQL',
           content: [
             {
               chap: {
@@ -6701,13 +6693,13 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 7,
+          id: 8,
           open: false,
         },
       },
       {
-        Module10: {
-          title: 'Term 10 – Big Data Analytics ',
+        Module9: {
+          title: 'Term 9 – Big Data Analytics',
           hours: '(1 Months)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
@@ -6762,13 +6754,13 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 7,
+          id: 9,
           open: false,
         },
       },
       {
-        Module11: {
-          title: 'Term 11 – DSA (Optional)',
+        Module10: {
+          title: 'Term 10 – DSA (Optional)',
           hours: '(1 Months)',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
@@ -6815,13 +6807,13 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 7,
+          id: 10,
           open: false,
         },
       },
       {
-        Module12: {
-          title: 'Term 12 – Project Management (Skills & Tools)',
+        Module11: {
+          title: 'Term 11 – Project Management (Skills & Tools)',
           hours: '15 Days',
           imageUrl:
             'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp',
@@ -6858,7 +6850,7 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 7,
+          id: 11,
           open: false,
         },
       },
