@@ -12,8 +12,8 @@ keywords:
   forward deployed engineer meaning, fde engineer, palantir forward deployed engineer
 eyebrow: AI careers · India · 2026
 category: AI careers, Course comparison
-date: 19/10/2026
-publishedDate: '2026-10-19T00:00:00+05:30'
+date: 20/10/2026
+publishedDate: '2026-10-20T00:00:00+05:30'
 author: Abhishek Gupta
 authorInitials: AG
 authorBio: Co-founder and CBO, Learnbay.
