@@ -123,7 +123,7 @@ faqs:
     answer:
       It depends on your history. If you have started self-paced courses before and not finished them,
       a classroom adds accountability that recorded video does not. Only four options in this comparison
-      have real Bangalore presence, Learnbay with hybrid classroom project sessions at HSR Layout, DataMites
+      have real Bangalore presence, Learnbay with hybrid classroom project sessions at BTM 1st Stage, DataMites
       at BTM Layout, Marathahalli and Kudlu Gate, IISc for four campus days, and 360DigiTMG at Yelahanka.
       Great Learning has discontinued its Bangalore classroom.
   - question: How long does it take to become job ready in AI?
@@ -474,7 +474,7 @@ data:
     rows:
       - cells:
           - Learnbay + IBM + IIT Patna
-          - HSR Layout, hybrid project sessions
+          - BTM 1st Stage, hybrid project sessions
           - Live online, or online plus classroom projects
         highlight: true
       - - DataMites
@@ -813,7 +813,7 @@ data:
       answer:
         It depends on your history. If you have started self-paced courses before and not finished
         them, a classroom adds accountability that recorded video does not. Only four options in this comparison
-        have real Bangalore presence, Learnbay with hybrid classroom project sessions at HSR Layout, DataMites
+        have real Bangalore presence, Learnbay with hybrid classroom project sessions at BTM 1st Stage, DataMites
         at BTM Layout, Marathahalli and Kudlu Gate, IISc for four campus days, and 360DigiTMG at Yelahanka.
         Great Learning has discontinued its Bangalore classroom.
     - question: How long does it take to become job ready in AI?
