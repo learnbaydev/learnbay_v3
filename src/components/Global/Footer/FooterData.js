@@ -913,7 +913,7 @@ export const OtherLocation = [
     id: 5,
     cityName: 'Bangalore',
     location:
-      '1090 1st floor, 18th Cross Road, above Sangam Sweets, Sector 3, HSR Layout, Bengaluru, Karnataka 560102',
+      'Learnbay, 2nd Floor, 6, Outer Ring Rd, Dollar Scheme Colony, 1st Phase, BTM 1st Stage, Bengaluru, Karnataka 560068',
   },
   {
     id: 6,

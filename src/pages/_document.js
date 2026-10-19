@@ -49,10 +49,10 @@ export default function Document() {
               "description": "Achieve your professional goals with Learnbay's IBM, Microsoft, and IIT-certified Data Science, Gen AI & Agentic AI courses. Enroll now.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "1090 , 1st floor, 18th cross road HSR layout sector 3",
+                "streetAddress": "2nd Floor, 6, Outer Ring Rd, Dollar Scheme Colony, 1st Phase, BTM 1st Stage",
                 "addressLocality": "Bangalore",
                 "addressRegion": "Karnataka",
-                "postalCode": "560102",
+                "postalCode": "560068",
                 "addressCountry": "IN"
               },
               "numberOfEmployees": {

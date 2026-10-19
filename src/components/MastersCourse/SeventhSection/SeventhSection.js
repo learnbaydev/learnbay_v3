@@ -63,7 +63,7 @@ function SeventhSection({ fullStackCont }) {
           ) : (
             <div className={styles.btnWrap}>
               <a
-                href="https://api.whatsapp.com/send?phone=919606950935"
+                href="https://api.whatsapp.com/send?phone=916366841343"
                 target="_blank"
               >
                 <button className={styles.btn1}>
