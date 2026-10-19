@@ -31,14 +31,14 @@ function ContactUs() {
         </p>
         <div className={styles.Inner}>
           <div className={styles.InnerBox}>
-            <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank">
+            <a href="https://maps.app.goo.gl/Zoq3cu9uC1R9R6iz9" target="_blank">
               <FaMapMarkedAlt className={styles.tick} />
             </a>
-            <h3>HSR Layout</h3>
-            <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank">
+            <h3>BTM Layout</h3>
+            <a href="https://maps.app.goo.gl/Zoq3cu9uC1R9R6iz9" target="_blank">
               <p>
-                #1090 , 1st floor, 18th cross road HSR layout sector 3,
-                Bangalore - 560102 (Above Sangam Sweets)
+                Learnbay, 2nd Floor, 6, Outer Ring Rd, Dollar Scheme Colony, 1st Phase, BTM 1st Stage,
+                Bengaluru, Karnataka 560068
               </p>
             </a>
           </div>
