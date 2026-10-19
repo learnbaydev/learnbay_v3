@@ -52,7 +52,7 @@ const BottomBar = ({
 
       {whatsappShow ? (
         <div className="flDivRight">
-          <Link href="https://wa.me/+919606950935">Chat with us </Link>
+          <Link href="https://wa.me/916366841343">Chat with us </Link>
           <IoLogoWhatsapp className="bIcon" style={{ color: 'Green' }} />
         </div>
       ) : (
