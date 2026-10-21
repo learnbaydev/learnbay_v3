@@ -13,15 +13,15 @@ export const DSBangaloreCourseData = [
     //   address: {
     //     '@type': 'PostalAddress',
     //     streetAddress:
-    //       '1090 1st floor, 18th Cross Rd, above Sangam Sweets, Sector 3, HSR Layout ',
+    //       '2nd Floor, 6, Outer Ring Rd, Dollar Scheme Colony, 1st Phase, BTM 1st Stage',
     //     addressLocality: 'Bangalore',
-    //     postalCode: '560102',
+    //     postalCode: '560068',
     //     addressCountry: 'IN',
     //   },
     //   geo: {
     //     '@type': 'GeoCoordinates',
-    //     latitude: 12.9117946,
-    //     longitude: 77.6411634,
+    //     latitude: 12.9165465,
+    //     longitude: 77.6183195,
     //   },
     //   openingHoursSpecification: {
     //     '@type': 'OpeningHoursSpecification',

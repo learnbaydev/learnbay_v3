@@ -326,15 +326,15 @@ export const MachineLearningChennaiCourseData = [
     //       address: {
     //         '@type': 'PostalAddress',
     //         streetAddress:
-    //           ' #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3, Chennai - 560102 (Above Sangam Sweets)',
-    //         addressLocality: 'HSR Sector 3',
-    //         postalCode: '560102',
+    //           '2nd Floor, 6, Outer Ring Rd, Dollar Scheme Colony, 1st Phase, BTM 1st Stage',
+    //         addressLocality: 'BTM 1st Stage',
+    //         postalCode: '560068',
     //         addressCountry: 'Bengaluru, Karnataka,INDIA',
     //       },
     //       geo: {
     //         '@type': 'GeoCoordinates',
-    //         latitude: '12.911762714349765,',
-    //         longitude: '77.64127379352328',
+    //         latitude: '12.9165465,',
+    //         longitude: '77.6183195',
     //       },
     //     },
     //   ],
