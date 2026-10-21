@@ -344,16 +344,16 @@ export const MLBangaloreCourseData = [
     //       address: {
     //         '@type': 'PostalAddress',
     //         streetAddress:
-    //           '#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)',
+    //           '2nd Floor, 6, Outer Ring Rd, Dollar Scheme Colony, 1st Phase, BTM 1st Stage',
 
-    //         addressLocality: 'HSR Sector 3',
-    //         postalCode: '560102',
+    //         addressLocality: 'BTM 1st Stage',
+    //         postalCode: '560068',
     //         addressCountry: 'Bengaluru, Karnataka,INDIA',
     //       },
     //       geo: {
     //         '@type': 'GeoCoordinates',
-    //         latitude: '12.914745887585838',
-    //         longitude: '77.64087553886982',
+    //         latitude: '12.9165465',
+    //         longitude: '77.6183195',
     //       },
     //     },
     //   ],
