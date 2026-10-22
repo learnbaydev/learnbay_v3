@@ -125,6 +125,9 @@ export function loadPost(slug) {
     content,
     headings: extractHeadings(content),
     faqs: data.faqs || [],
+    // Extra JSON-LD blocks (e.g. BreadcrumbList, ItemList) beyond the Article
+    // and FAQPage the page builds itself.
+    jsonLd: Array.isArray(data.jsonLd) ? data.jsonLd : [],
     authorUrl: data.authorUrl || 'https://www.learnbay.co/',
     canonicalUrl: data.canonicalUrl || `https://www.learnbay.co/blogs/${slug}`,
     publishedDate: data.publishedDate || data.date,

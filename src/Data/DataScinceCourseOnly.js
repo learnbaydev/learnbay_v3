@@ -243,7 +243,7 @@ export const DataScienceCourseData = [
     DomainBot1:
       ' In today’s digital space, domain-specific learning has become vital for optimal solutions. Data science has become the main force driving higher profits and helping firms retain themselves. Thus, domain knowledge is vital for experts, as it helps them solve issues with proven insights.         ',
     DomainBot2:
-      ' Our leading-edge data science course institute offers domain-specific training sessions to enrich your prior knowledge. It helps you note down real issues and tackle them with the right methods. Learnbay’s best data science courses follow the trending domains to align them for upskilling. Such domain electives are –      ',
+      ' Our leading-edge data science course institute offers domain-specific training sessions to enrich your prior knowledge. It helps you note down real issues and tackle them with the right methods. Learnbay’s data science courses follow the trending domains to align them for upskilling. Such domain electives are –      ',
     DomainBot3: '',
     DomainList1: '• BFSI',
     DomainList2: '• HR',
@@ -328,7 +328,7 @@ export const DataScienceCourseData = [
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
     JobHead1: ' ',
     MasterJobBot1:
-      'In today’s tech era, we offer the best online data science courses with premium career gains. Experts joining any of the courses will equip themselves with alluring job offers from the leading MNCs. All the eligible learners with at least 70% score in tasks can avail of our job assist program.        ',
+      'In today’s tech era, we offer online data science courses with premium career gains. Experts joining any of the courses will equip themselves with alluring job offers from the leading MNCs. All the eligible learners with at least 70% score in tasks can avail of our job assist program.        ',
     MasterJobBot2:
       'By the end of our data science training, you will have expertise in –     ',
 
@@ -349,7 +349,7 @@ export const DataScienceCourseData = [
 
     JobHead19: 'Career Service Pro        ',
     JobBot50:
-      'Experts eager to re-establish their careers with premium gains must enroll in the best data science course with placement assistance. We envision a successful career change with alluring growth offers. Apart from tech skills, our job assist program focuses on soft and behavioral skill development. Mentors guide our learners through their real-time experience and help them become a perfect organizational fit.   ',
+      'Experts eager to re-establish their careers with premium gains must enroll in a data science course with placement assistance. We envision a successful career change with alluring growth offers. Apart from tech skills, our job assist program focuses on soft and behavioral skill development. Mentors guide our learners through their real-time experience and help them become a perfect organizational fit.   ',
     JobBot20: 'Vital career gains via our Career Service PRO are –        ',
     Joblist14:
       '1:1 doubt-clearing with mentors (Course and Project-related)      ',
@@ -374,7 +374,7 @@ export const DataScienceCourseData = [
       'Data science is reforming businesses with data-driven insights and higher returns. Employers across the globe search for skillful data experts with proven skills with the latest trends. Real-world projects are useful in optimizing growth chances and helping you land your dream roles.         ',
 
     ProjectsBot3:
-      'The best data science courses offer a project-based learning experience with assured career gains. Experts enrolling in our data science courses will have the scope to work with 12+ real-time projects. Learners can choose their preferred domain electives and continue their projects.         ',
+      'Learnbay’s data science courses offer a project-based learning experience with assured career gains. Experts enrolling in our data science courses will have the scope to work with 12+ real-time projects. Learners can choose their preferred domain electives and continue their projects.         ',
     ProjectsBot4:
       'Note: If you opt for our master’s data science online course, you will have three capstone projects in each domain specialization.         ',
     ProjectsBot5:

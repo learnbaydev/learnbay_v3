@@ -133,6 +133,14 @@ const Blog = ({ postData, nextPost }) => {
             }}
           />
         )}
+
+        {postData.jsonLd?.map((schema, index) => (
+          <script
+            key={index}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          />
+        ))}
       </Head>
 
       {/* Sit above both layouts so every blog post gets the scroll indicator

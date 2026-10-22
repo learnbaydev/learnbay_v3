@@ -11,10 +11,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best Data Science Courses with Certification [2026] </title>
+        <title>Data Science Courses with Certification | Learnbay</title>
         <meta
           name="description"
-          content="Enroll in the best data science courses to elevate your skills. Select from foundation to advanced courses according to your career requirement. Join Now!!"
+          content="Explore Learnbay data science courses, from foundation to advanced and GenAI programs, with live classes, real projects and partner certifications."
         />
         <meta name="robots" content="index, follow" />
         <meta

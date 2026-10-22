@@ -77,7 +77,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         cityParaCont="Experience the analytical power of data science with Learnbay’s industry-paced upskilling programs designed to propel competitive success rates. Enroll in our data science courses to break into the perplexity of emerging data-driven culture.     "
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
-        firstToparaImg="– Learnbay"
+        firstToparaImg=""
         firstHeading="Data Science Courses       "
         firstTopPara="  "
         idss="djokazk1d-0"
