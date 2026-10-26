@@ -88,7 +88,7 @@ export default function Home() {
         <meta
           name="keywords"
           content="data analytics course in pune, data analytics training in pune
-          data analyst course in pune, best data analyst course in pune
+          data analyst course in pune
           data analytics institute in pune, data analysis courses in pune, data analytics certification in pune, business analytics course in pune, data analytics courses in pune with placement assistance, data analytics classes in pune
           "
         />
