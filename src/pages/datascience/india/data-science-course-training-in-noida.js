@@ -33,7 +33,7 @@ const CitiesLeft = dynamic(
   () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
 const CitiesRight = dynamic(
-  () => import('../../../components/Seo/CitiesRight/CitiesRightDSNoida')
+  () => import('../../../components/Seo/CitiesRight/CitiesRight')
 );
 const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 const OfferPopup = dynamic(
@@ -96,11 +96,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Science Course in Noida with GenAI - Learnbay</title>
+        <title>Best Data Science Course Training in Noida with GenAI</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay's online data science course in Noida teaches Python, machine learning and GenAI through live classes, projects and IBM certification."
+          content="Our data science course in Noida offers hands-on experience with IBM GenAI certificate100% placement assist. We have Bring Your Own Project feature. Enrol!"
         />
         <meta
           name="keywords"
@@ -118,11 +118,11 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Data Science Course in Noida with GenAI - Learnbay"
+          content="Best Data Science Course Training in Noida with GenAI"
         />
         <meta
           property="og:description"
-          content="Learnbay's online data science course in Noida teaches Python, machine learning and GenAI through live classes, projects and IBM certification."
+          content="Our data science course in Noida offers hands-on experience with IBM GenAI certificate100% placement assist. We have Bring Your Own Project feature. Enrol!"
         />
         <meta
           property="og:image"
@@ -138,11 +138,11 @@ export default function Home() {
         />
         <meta
           name="twitter:title"
-          content="Data Science Course in Noida with GenAI - Learnbay"
+          content="Best Data Science Course Training in Noida with GenAI"
         />
         <meta
           name="twitter:description"
-          content="Learnbay's online data science course in Noida teaches Python, machine learning and GenAI through live classes, projects and IBM certification."
+          content="Our data science course in Noida offers hands-on experience with IBM GenAI certificate100% placement assist. We have Bring Your Own Project feature. Enrol!"
         />
         <meta
           name="twitter:image"
@@ -158,7 +158,7 @@ export default function Home() {
             __html: `{ 
               "@context": "https://schema.org",
   "@type": "Product",
-  "name": "Data Science Course in Noida with GenAI - Learnbay",
+  "name": "Best Data Science Course Training in Noida with GenAI",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "brand": {
     "@type": "Brand",
@@ -181,8 +181,8 @@ export default function Home() {
             __html: `{
               "@context": "https://schema.org",
   "@type": "Course",
-  "name": "Data Science Course in Noida with GenAI - Learnbay",
-  "description": "Learnbay's online data science course in Noida teaches Python, machine learning and GenAI through live classes, projects and IBM certification.",
+  "name": "Best Data Science Course Training in Noida with GenAI",
+  "description": "Our data science course in Noida offers hands-on experience with IBM GenAI certificate100% placement assist. We have Bring Your Own Project feature. Enrol!",
   "url": "https://www.learnbay.co/datascience/india/data-science-course-training-in-noida",
   "provider": {
     "@type": "Organization",
@@ -234,7 +234,7 @@ export default function Home() {
     "name": "Can I attend classes online, or is it only available in a physical classroom?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with Learnbay in Noida through an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility."
+      "text": "We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Noida with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility."
     }
   },{
     "@type": "Question",
@@ -412,7 +412,7 @@ export default function Home() {
           brochurePdf={pdfUrl}
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Online Data Science Course in Noida"
+          firstHeading="Best Online Data Science Course in Noida          "
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Leap forward to craft a global-level data science career with incredible job offers with leading MNCs. Join Learnbay’s top-tier data science course in Noida to equip your career with Generative AI-driven skills validated by IBM certifications. Enroll now to gain project-based learning with ultimate career gains.           "
           ibmOnly={true}

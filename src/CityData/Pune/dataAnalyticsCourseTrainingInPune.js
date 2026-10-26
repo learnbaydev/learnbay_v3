@@ -721,8 +721,8 @@ export const DAPuneCourseData = [
         the stage for global-level career transitions. It has become a trusted
         upskilling destination for tech/non-tech experts. If you’re willing to
         switch your career to data analytics, join our esteemed learning space.
-        We offer a
-        <b> data analyst course in Pune</b> with a GenAI-rich course
+        We offer the
+        <b> best data analyst course in Pune</b> with a GenAI-rich course
         curriculum. We aim to support real-time career shifts via our
         leading-edge data analytics courses.
       </span>
@@ -861,7 +861,7 @@ export const DAPuneCourseData = [
     //     <b>Data Analytics Training in Bangalore</b> Now!
     //   </span>
     // ),
-    CertificationHead1: 'IBM Data Analytics Certification in Pune',
+    CertificationHead1: 'IBM Data Analytics Certification in Bangalore',
     CertificationBot1:
       'Data Analytics is an ever-evolving field that attracts freshers and experienced pros from diverse fields. Experts willing to revamp their static careers can enroll in an industry-driven data analyst course institute in Pune with proven gains. Unlike generic courses, joining a cutting-edge course with useful credentials ensures success. Learning without divulging skills can demean career growth chances and limit your success. Hence, certifications are useful.        ',
     CertificationBot2:
@@ -912,17 +912,17 @@ export const DAPuneCourseData = [
     JobHead2:
       'What prime technical skills will you develop via our data analysis courses in Pune? ',
     JobBot3:
-      ' Data analytics learning has become crucial amidst the fierce career race in today’s job market. Many startups and MNCs deal with massive data sets to reach final decisions or make a business move. This enriches the demand for high-end quality data analysis. Hence, upskilling via a structured data analyst course in Pune is critical for career growth.    ',
+      ' Data analytics learning has become crucial amidst the fierce career race in today’s job market. Many startups and MNCs deal with massive data sets to reach final decisions or make a business move. This enriches the demand for high-end quality data analysis. Hence, upskilling via the best data analyst course in Pune is critical for career growth.    ',
     JobHead3: 'Why are skilled data analysts in demand?     ',
     JobBot4:
-      'Learnbay envisions successful career shifts for working experts from diverse fields. Its data analytics classes in Pune equip tech and non-tech pros with proven skills. Most non-tech experts gain proper technical skills to face critical job interviews and ace with 100% success. Hence, joining us will enhance your career prospects with alluring gains.      ',
+      'Learnbay envisions successful career shifts for working experts from diverse fields. Its best data analytics classes in Pune equip tech and non-tech pros with proven skills. Most non-tech experts gain proper technical skills to face critical job interviews and ace with 100% success. Hence, joining us will enhance your career prospects with alluring gains.      ',
     JobHead4:
       'Is skills upgrade via our data analytics course in Pune crucial for career growth?    ',
     JobBot8:
       'Career upskilling is vital to sustain yourself in today’s ever-evolving job market. The rise of data analytics alters the career outlook for many experts from diverse domains. Owing to the rising career trends, just a graduation degree and basic domain skills are not enough to sustain yourself and thrive. Hence, learning is crucial to refine pre-existing skills and attain career-driven clarity. ',
     JobBotSpan1: 'Entry-level Roles:     ',
     JobBot9:
-      'Learnbay’s online data analytics training in Pune offers everything you need to excel in today’s time. Its GenAI-inclusive course modules guide non-tech pros to ace arising data-driven careers with 100% success. Experts can showcase the merit of their domains with real-time learning via live projects. Here, experts can choose any project based on their domain expertise and practice the proven tools. Unlike common courses, joining our data analyst course in Pune is worth investing in. ',
+      'Learnbay’s online data analytics training in Pune offers everything you need to excel in today’s time. Its GenAI-inclusive course modules guide non-tech pros to ace arising data-driven careers with 100% success. Experts can showcase the merit of their domains with real-time learning via live projects. Here, experts can choose any project based on their domain expertise and practice the proven tools. Unlike common courses, joining our best data analyst course in Pune is worth investing in. ',
     JobBot10:
       'Experts joining our data analytics course in Pune will go through varied stages of job and placement programs that enrich their chances of success. Plus, you will obtain IBM course and project certificates that validate your skill sets on a global level. Hence, joining Learnbay’s cutting-edge courses is crucial for your career growth. ',
     JobBot11:
@@ -933,7 +933,7 @@ export const DAPuneCourseData = [
     ProjectsBot2:
       'Learnbay presents industry-focused data analyst training in Pune with promising career gains. Experts willing to learn and practice trending data analytics tools and gain hands-on experience can join our training programs. Here, experts will learn data analytics via any of the 12+ real-time projects in the chosen domain. ',
     ProjectsBot3:
-      'Our real-time projects help experts refine their prior domain skills in the leading domains. Our data analyst course in Pune covers major domains like – BFSI, HR, Marketing, Healthcare, Supply Chain, and Manufacturing. In addition, you will receive an IBM project certificate for completing assigned projects. ',
+      'Our real-time projects help experts refine their prior domain skills in the leading domains. Our best data analyst course in Pune covers major domains like – BFSI, HR, Marketing, Healthcare, Supply Chain, and Manufacturing. In addition, you will receive an IBM project certificate for completing assigned projects. ',
     src1: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png',
     alt2: 'Samsung Logo',
     ProjectsH1: 'Samsung Health Monitor App',

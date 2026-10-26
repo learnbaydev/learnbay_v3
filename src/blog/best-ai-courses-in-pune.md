@@ -1838,7 +1838,7 @@ Pune has a large base of professionals in BFSI operations, HR, supply chain, sal
 
 ::learnbay-dark-band{from=nonTechProgram}
 
-Other options include the Symbiosis SCDL Certificate in Generative AI and Automation for a short, low-cost start. If your work is mostly Excel, MIS reports and dashboards, compare the [best data analyst course in Pune](https://www.learnbay.co/blogs/best-data-analyst-course-in-pune) options as well.
+Other options include the Symbiosis SCDL Certificate in Generative AI and Automation for a short, low-cost start.
 
 If you are a manager or team lead, the Learnbay GenAI and Agentic AI for Managers and Leaders program covers AI strategy, digital transformation and GenAI for project management in 5 months.
 

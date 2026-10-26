@@ -22,15 +22,6 @@ export function isPopupHref(href) {
 const BlogCta = ({ href, className, children, popupConfig }) => {
   const [open, setOpen] = useState(false);
 
-  // PDFs (brochures, checklists) open in a new tab so the reader keeps the post.
-  if (typeof href === 'string' && /\.pdf(\?|#|$)/i.test(href.trim())) {
-    return (
-      <a href={href} className={className} target="_blank" rel="noopener">
-        {children}
-      </a>
-    );
-  }
-
   if (!isPopupHref(href)) {
     return (
       <Link href={href || '#'} className={className}>
