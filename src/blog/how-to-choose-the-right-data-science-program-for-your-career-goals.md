@@ -100,7 +100,7 @@ Most of the critical business processes are driven by data. Hence, pursuing a da
 
 It might be difficult to choose the right course for your data science career goals. Follow the above steps to decide on a course that suits you. But remember that you need to learn it one at a time. After you've selected your preferred course, it will take a required amount of time and constant practice to learn all the concepts.<br>
 
-Make sure you learn all the necessary tools and techniques related to your chosen career path. The best data science online programs will help set your foot in the field. You can go from basics to advanced with the help of mentors. Therefore, one should carefully select the program.<br>
+Make sure you learn all the necessary tools and techniques related to your chosen career path. The best data science online programs will help set your foot in the field. You can go from basics to advanced with the help of mentors. Therefore, one should carefully select the program. To see how ten programs compare on live teaching, projects and credentials, read our guide to the <a href="https://www.learnbay.co/blogs/best-data-science-course-in-india">best data science course in India</a>.<br>
 
 The <a href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs" target="_blank">Advanced Data Science and GenAI Master’s Program</a> is the one of the top data science courses for job assistance. It offers a great course through industry experts and hybrid classes. Students can learn and practice under the guidance of mentors, so they can solve their doubts. <br>
 

@@ -261,7 +261,7 @@ Placement plays a key role in the modern <b>data science roadmap</b> in 2026. Yo
 
 ## Final Thoughts!!
 
-A well-curated <b>data science roadmap</b> in 2026 inspires beginners to develop unique skills and land specialised roles. A quality upskilling via a <a href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs" target="_blank">master’s in data science</a> or an advanced data science program can help aspirants grow and excel in their careers.
+A well-curated <b>data science roadmap</b> in 2026 inspires beginners to develop unique skills and land specialised roles. A quality upskilling via a <a href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs" target="_blank">master’s in data science</a> or an advanced data science program can help aspirants grow and excel in their careers. To compare programs side by side, see our ranking of the <a href="https://www.learnbay.co/blogs/best-data-science-course-in-india">best data science course in India</a>.
 
 With the given phases and steps, any fresher or beginner can kick-start their career transition journey to become a data science specialist. No wonder this <b>roadmap for data science</b> learning can help you achieve a competitive edge in 2026.
 

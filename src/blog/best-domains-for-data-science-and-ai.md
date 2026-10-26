@@ -617,7 +617,7 @@ Every one of the eight industries here is hiring, and each has been reshaped by 
 
 The professionals who win the next five years won't be the ones who feared automation; they'll be the ones who picked a domain, learned the stack, and made themselves the person accountable for AI-driven outcomes in it.
 
-For this, working professionals can enrol in the GenAI and Agentic AI master’s program to have a domain-specific training with global recognition. Choose your domain, build the skills, and ship real projects.
+For this, working professionals can enrol in the GenAI and Agentic AI master’s program to have a domain-specific training with global recognition. Choose your domain, build the skills, and ship real projects. If you want to compare data science programs first, see our ranking of the <a href="https://www.learnbay.co/blogs/best-data-science-course-in-india">best data science course in India</a>.
 
 ### FAQs:
 
