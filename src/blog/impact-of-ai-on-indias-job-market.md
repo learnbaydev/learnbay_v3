@@ -3,7 +3,7 @@ title: 'Impact of AI on India’s Job Market: 2026 Update on Jobs, Skills, and Y
 Stitle: 'Impact of AI on India`s Job Market: Jobs, Skills & Careers'
 description: 'Explore AI`s impact on India`s job market, hiring trends, layoffs, in-demand AI skills, and career opportunities for professionals across industries. '
 keywords: 'impact of ai, impact of ai on jobs, impact of ai on india, impact of ai on job market, ai jobs in india, ai skills in demand, future of jobs, artificial intelligence careers, ai employment trends, ai career opportunities, upskilling for ai, impact of ai on careers, ai workforce trends, ai and automation, ai job market India'
-date: '17-07-2026'
+date: '17/07/2026'
 author: 'Sonalisha Mohanty'
 readTime: '12 min'
 image: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Labour+Market+Impact+of+AI+in+India_+2026+Update+on+Jobs%2C+Skills%2C+and+Your+Career.webp'

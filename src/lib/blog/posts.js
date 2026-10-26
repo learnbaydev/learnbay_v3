@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { slugToId } from './slug';
+import { displayPostDate } from './dates';
 
 export { slugToId };
 
@@ -63,7 +64,7 @@ export function getPostSummary(slug) {
     slug,
     title: data.title || 'Untitled',
     category: data.category || '',
-    date: data.date || '',
+    date: displayPostDate(data.date, slug),
     readTime: data.readTime || '',
     image: data.image || null,
     accent: data.accent || null,
@@ -113,7 +114,7 @@ export function loadPost(slug) {
   const postData = {
     layout,
     title: data.title || 'Untitled',
-    date: data.date || 'Unknown Date',
+    date: displayPostDate(data.date, slug) || 'Unknown Date',
     author: data.author || 'Author',
     image: data.image || '/default-image.jpg',
     imagephone: data.imagephone || '/default-image.jpg',

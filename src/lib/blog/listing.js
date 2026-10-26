@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { BLOG_DIR, getPostSlugs } from './posts';
 import { getAuthorByName } from './authors';
+import { parsePostDate, formatPostDate } from './dates';
 
 /**
  * Data for the /blogs index page.
@@ -138,34 +139,6 @@ const CARD_META = {
 };
 
 const DEFAULT_TOPIC = 'careers';
-
-/**
- * Frontmatter dates come in three shapes: ISO (`publishedDate`), `DD/MM/YYYY`
- * and `DD-MM-YYYY`. Returns a timestamp, or 0 when the value is unusable.
- */
-export function parsePostDate(value) {
-  const raw = String(value || '').trim();
-  if (!raw) return 0;
-
-  const dayFirst = raw.match(/^(\d{1,2})[/-](\d{1,2})[/-](\d{4})$/);
-  if (dayFirst) {
-    const [, day, month, year] = dayFirst;
-    return Date.UTC(Number(year), Number(month) - 1, Number(day));
-  }
-
-  return Date.parse(raw) || 0;
-}
-
-// "15 Sept 2026". Formatted at build time so server and client agree.
-export function formatPostDate(timestamp) {
-  if (!timestamp) return '';
-  return new Date(timestamp).toLocaleDateString('en-GB', {
-    day: 'numeric',
-    month: 'short',
-    year: 'numeric',
-    timeZone: 'Asia/Kolkata',
-  });
-}
 
 // "7 mins", "10 minutes", "4.5 min" → 7, 10, 4.5. 0 when missing.
 function readMinutes(value) {

@@ -3,7 +3,7 @@ title: 'Best AI Course in India With Placement Support (2026): After Comparing 5
 Stitle: 'Best AI Courses in India: Top 9 Programs Compared | Learnbay'
 description: 'Compare the 9 best AI courses in India by fees, curriculum, certification, projects, placement support, and career fit to choose the right program.'
 keywords: 'Best AI Course in India, ai certificate course, ai course in india, best ai courses'
-date: '21-08-2026'
+date: '21/08/2026'
 author: 'Nivin Biswas'
 readTime: '55 min'
 image: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Best+AI+Course+in+India+With+Placement+Support+_++After+Comparing+50%2B%2C+Here+Are+The+9+That+Stand+Out).webp'
