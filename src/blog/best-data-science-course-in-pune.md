@@ -26,8 +26,8 @@ authorBio: Senior Content Strategist, Learnbay.
 authorUrl: https://www.learnbay.co/blogs/author/sonalisha-mohanty
 readTime: 21 minutes
 canonicalUrl: https://www.learnbay.co/blogs/best-data-science-course-in-pune
-image: https://www.learnbay.co/blogs/images/DsPuneHero261026.webp
-imagephone: https://www.learnbay.co/blogs/images/DsPuneHero261026.webp
+image: https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsPuneHero261026.webp
+imagephone: https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsPuneHero261026.webp
 alt: 'Best data science course in Pune 2027: ten programs compared for jobs in Hinjewadi, Kharadi and other Pune hubs.'
 caption:
   Ten data science programs in Pune, compared for 2027 hiring in Hinjewadi, Kharadi and the city's
@@ -622,7 +622,7 @@ Here is how the top 10 programs in Pune compare –
 
 ::comparison-matrix{from=comparison}
 
-![Bar chart of projects and capstones named in each Pune data science syllabus, with Learnbay with IIT Patna and IBM highest.](/blogs/images/DsPuneProjectsCount261026.webp)
+![Bar chart of projects and capstones named in each Pune data science syllabus, with Learnbay with IIT Patna and IBM highest.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsPuneProjectsCount261026.webp)
 
 *Projects and capstones named in each program's syllabus or brochure, Pune shortlist, 2026.*
 
@@ -659,7 +659,7 @@ Yet, many Pune course pages give a project count without naming the projects. He
 
 **What is in the syllabus.** The program runs 11 modules over 13 months of live classes. It opens with Python, statistics and machine learning, then moves to deep learning, NLP and Transformers. Two full modules cover GenAI and AI agents: RAG, LangChain, LlamaIndex, fine-tuning, CrewAI, LangGraph and AWS Bedrock. Later modules teach MLOps, Power BI, Tableau, SQL, Spark and project management.
 
-![The Learnbay Data Science and GenAI Master Program roadmap for Pune learners: induction, eleven modules, AI Co-Lab and domain electives across 13 months.](/blogs/images/DsPuneGenAiMasterRoadmap261026.webp)
+![The Learnbay Data Science and GenAI Master Program roadmap for Pune learners: induction, eleven modules, AI Co-Lab and domain electives across 13 months.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsPuneGenAiMasterRoadmap261026.webp)
 
 *Program roadmap, Data Science & GenAI Master Program, as listed in the 2026 brochure.*
 
@@ -831,7 +831,7 @@ In short, choose the course that fits the employer you want, then the centre tha
 **Quick answer:** Learnbay with IIT Patna and IBM covers all eight skill areas as full modules, the only program in Pune's top 10 to do so. Boston Institute of Analytics and Ethans Tech come closest on GenAI and AI agents. Most Pune classroom courses treat GenAI as an introduction, and both M.Sc. programs leave it out.
 :::
 
-![Grid comparing ten data science courses in Pune on Python and SQL, ML, deep learning, GenAI, agentic AI, deployment, BI tools and domain projects.](/blogs/images/DsPuneSyllabusCoverage261026.webp)
+![Grid comparing ten data science courses in Pune on Python and SQL, ML, deep learning, GenAI, agentic AI, deployment, BI tools and domain projects.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsPuneSyllabusCoverage261026.webp)
 
 *Syllabus coverage by skill area. Full = dedicated core module; Partial = combined or introductory module, elective or add-on.*
 
@@ -845,7 +845,7 @@ Pune employers now hire for these skills by name. In 2026, Synechron advertised 
 **Quick answer:** Data scientists in Pune earn a median ₹24.9 LPA in total pay, and the top 10% earn above ₹51.2 LPA, as per levels.fyi (2026). Pay is highest at product and BFSI GCCs: Workday's Pune median is ₹80.3 LPA, and UBS's is ₹53.1 LPA.
 :::
 
-![Bar chart of data scientist pay in Pune: average total pay, median total pay, top 10% and the top-paying company median.](/blogs/images/DsPunePayLadder261026.webp)
+![Bar chart of data scientist pay in Pune: average total pay, median total pay, top 10% and the top-paying company median.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsPunePayLadder261026.webp)
 
 *Data scientist pay in Pune: average, median and top packages, in lakh per annum (LPA). Sources: Glassdoor India, levels.fyi, 2026.*
 
@@ -862,7 +862,7 @@ Here is what to expect by employer type in Pune –
 | Funded startups | HiLabs | ₹20 LPA median total pay | Glassdoor India, 2026 |
 | Analytics consulting | ZS | ₹17.9 LPA median total pay | levels.fyi, 2025 |
 
-![Chart of data scientist median total pay at Pune employers: Workday, UBS, John Deere, Citi, Deutsche Bank and ZS.](/blogs/images/DsPunePayByEmployer261026.webp)
+![Chart of data scientist median total pay at Pune employers: Workday, UBS, John Deere, Citi, Deutsche Bank and ZS.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsPunePayByEmployer261026.webp)
 
 *Data scientist median total pay at Pune employers, in LPA. Source: levels.fyi company pages for Pune, 2026.*
 
@@ -878,7 +878,7 @@ Hence, Pune's median sits at ₹24.9 LPA, the top 10% earn above ₹51.2 LPA, an
 **Quick answer:** Hi-Tech firms run the most GCCs in Pune, with 165 centres in 2026, followed by manufacturing with 65. BFSI is growing fastest: Pune's BFSI GCCs rose from 20 in 2023 to 46 in 2026, and KPMG expects 80 by 2030. Automotive and healthcare centres are growing too.
 :::
 
-![Grouped bar chart of Pune GCCs by industry in 2023, 2026 and 2030: Hi-Tech, manufacturing, BFSI, automotive and healthcare.](/blogs/images/DsPuneGccsByIndustry261026.webp)
+![Grouped bar chart of Pune GCCs by industry in 2023, 2026 and 2030: Hi-Tech, manufacturing, BFSI, automotive and healthcare.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsPuneGccsByIndustry261026.webp)
 
 *Pune GCCs by industry, 2023, 2026 and the 2030 forecast. Source: KPMG in India and AMCHAM, 2026.*
 

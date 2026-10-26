@@ -27,8 +27,8 @@ authorBio: Senior Content Strategist, Learnbay.
 authorUrl: https://www.learnbay.co/blogs/author/sonalisha-mohanty
 readTime: 24 minutes
 canonicalUrl: https://www.learnbay.co/blogs/best-data-science-course-in-india
-image: https://www.learnbay.co/blogs/images/DsHero261026.webp
-imagephone: https://www.learnbay.co/blogs/images/DsHero261026.webp
+image: https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsHero261026.webp
+imagephone: https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsHero261026.webp
 alt: 'Best data science course in India 2027: ten programs compared on live teaching, projects and credentials.'
 caption:
   Ten data science programs in India, compared on live teaching, project work and credentials for
@@ -685,7 +685,7 @@ Hence, if your employer values a specific academic name, an IIT or IIM program m
 **Quick answer:** Hiring is spread across six large metros, with Hyderabad growing fastest. AI/ML hiring rose 48% year-on-year in Hyderabad in August 2026, 31% in Bengaluru and Pune, and 25% in Delhi NCR, as per Naukri JobSpeak. Bengaluru still holds the largest share of AI job postings at 26%.
 :::
 
-![Bar chart of AI/ML hiring growth by Indian city, led by Hyderabad at 48% year-on-year, from Naukri JobSpeak 2026.](/blogs/images/DsHiringGrowthByCity261026.webp)
+![Bar chart of AI/ML hiring growth by Indian city, led by Hyderabad at 48% year-on-year, from Naukri JobSpeak 2026.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsHiringGrowthByCity261026.webp)
 
 *AI/ML hiring growth by city, year-on-year, August 2026. Source: Naukri JobSpeak, 2026.*
 
@@ -729,7 +729,7 @@ If live online learning suits your week, the [online data science course in Indi
 
 ::comparison-matrix{from=comparison}
 
-![Bar chart of projects and capstones named in each data science syllabus in India, led by Learnbay with IIT Patna and IBM.](/blogs/images/DsProjectsCount261026.webp)
+![Bar chart of projects and capstones named in each data science syllabus in India, led by Learnbay with IIT Patna and IBM.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsProjectsCount261026.webp)
 
 *Projects and capstones named in each program's own syllabus or brochure, 2026.*
 
@@ -750,7 +750,7 @@ Three programs on this list publish 50 or more projects, while five publish 10 o
 **Quick answer:** Learnbay with IIT Patna and IBM sits highest on job readiness while staying in the mid cost band. Scaler and Intellipaat with iHUB IIT Roorkee follow closely on readiness, with Scaler in the highest band. Programs built on recorded video sit further left, because they include fewer live build hours and graded projects.
 :::
 
-![Dot plot of job readiness against relative cost band for nine data science courses in India, with Learnbay with IIT Patna and IBM highest.](/blogs/images/DsReadinessVsCost261026.webp)
+![Dot plot of job readiness against relative cost band for nine data science courses in India, with Learnbay with IIT Patna and IBM highest.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsReadinessVsCost261026.webp)
 
 *Job readiness against relative cost band. Learnbay is highlighted in orange; the shaded area marks the best-value zone.*
 
@@ -772,7 +772,7 @@ Hence, only two programs land in the best-value zone, and Learnbay with IIT Patn
 
 "Statistics & Foundation of Data Science" and "Advanced Data Science" go deep on hypothesis testing, regression, classification, ensembles, time-series forecasting, Transformers and BERT, computer vision and reinforcement learning. The remaining modules cover "Deployment & MLOps" and "Data Analytics & Visualization - Tools" with Excel, Power BI and Tableau. They also cover "Data Management & SQL" with MongoDB, "Big Data Analytics" with Hadoop and Spark, optional DSA and project management.
 
-![The Learnbay Data Science and GenAI Master Program roadmap: induction, eleven modules, AI Co-Lab and domain electives across 13 months.](/blogs/images/DsGenAiMasterRoadmap261026.webp)
+![The Learnbay Data Science and GenAI Master Program roadmap: induction, eleven modules, AI Co-Lab and domain electives across 13 months.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsGenAiMasterRoadmap261026.webp)
 
 *Program roadmap, Data Science & GenAI Master Program, as listed in the 2026 brochure.*
 
@@ -925,7 +925,7 @@ For a longer checklist built around career goals, see [how to choose the right d
 **Quick answer:** Learnbay with IIT Patna and IBM is the only program here that teaches all eight skill areas as full core modules. Scaler and Intellipaat with iHUB IIT Roorkee come closest, with lighter coverage of agentic AI or deep learning. Academic and executive programs often treat GenAI or deployment as electives, or leave them out.
 :::
 
-![Grid comparing ten data science courses in India on Python and SQL, ML, deep learning, GenAI, agentic AI, deployment, BI tools and domain projects.](/blogs/images/DsSyllabusCoverage261026.webp)
+![Grid comparing ten data science courses in India on Python and SQL, ML, deep learning, GenAI, agentic AI, deployment, BI tools and domain projects.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsSyllabusCoverage261026.webp)
 
 *Syllabus coverage by skill area. Full = dedicated core module; Partial = combined or introductory module, elective or add-on.*
 
@@ -939,7 +939,7 @@ Indeed, the gap is widest on deployment. Only three programs on this list teach 
 **Quick answer:** Data scientists in India earn a median ₹29.9 LPA in total pay at product firms, GCCs and MNCs, and the top 1% reach ₹87.1 LPA, as per levels.fyi (2026). Big tech medians run from ₹53.8 LPA to ₹81.4 LPA, while GCC medians sit between ₹30.8 LPA and ₹48.9 LPA.
 :::
 
-![Bar chart of data scientist pay in India: average total pay, median total pay, top 10% and the highest reported packages.](/blogs/images/DsPayLadder261026.webp)
+![Bar chart of data scientist pay in India: average total pay, median total pay, top 10% and the highest reported packages.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsPayLadder261026.webp)
 
 *Data scientist pay in India: average, median and top packages, in lakh per annum (LPA). Sources: Glassdoor India, levels.fyi, 2026.*
 
@@ -956,7 +956,7 @@ Here is what to expect by employer type in 2027 –
 | IT services and MNCs | IBM, Accenture | ₹13 to 34.5 LPA | Glassdoor India and levels.fyi, 2026 |
 | Funded startups and unicorns | Meesho, Swiggy | ₹21.7 to 23.3 LPA average | [Indeed India, 2026](https://in.indeed.com/career/data-scientist/salaries) |
 
-![Chart of data scientist pay by employer type in India, with big tech and product companies highest, followed by GCCs, fintech, consulting, IT services and unicorns.](/blogs/images/DsPayByEmployer261026.webp)
+![Chart of data scientist pay by employer type in India, with big tech and product companies highest, followed by GCCs, fintech, consulting, IT services and unicorns.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsPayByEmployer261026.webp)
 
 *Data scientist pay by employer type in India, in LPA. Sources: levels.fyi, Indeed India, Glassdoor India, PayScale, 2026.*
 

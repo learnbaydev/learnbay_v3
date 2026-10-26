@@ -26,8 +26,8 @@ authorBio: Senior Content Strategist, Learnbay.
 authorUrl: https://www.learnbay.co/blogs/author/sonalisha-mohanty
 readTime: 22 minutes
 canonicalUrl: https://www.learnbay.co/blogs/best-data-science-course-in-delhi-ncr
-image: https://www.learnbay.co/blogs/images/DsDelhiNcrHero261026.webp
-imagephone: https://www.learnbay.co/blogs/images/DsDelhiNcrHero261026.webp
+image: https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsDelhiNcrHero261026.webp
+imagephone: https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsDelhiNcrHero261026.webp
 alt: 'Best data science course in Delhi NCR 2027: ten programs compared across Delhi, Gurugram and Noida.'
 caption:
   Ten data science programs for Delhi NCR learners, compared for 2027 across Delhi, Gurugram and
@@ -655,7 +655,7 @@ Hence, a learner in Noida can reach most analytics and product employers without
 **Quick answer:** Gurugram leads NCR's new office space, with 63% of leasing between July and September 2026, followed by Noida at 27% and Delhi at 10%. Gurugram hosts consulting and payment firms, Noida hosts analytics services and product teams, and Delhi adds policy, research and Aerocity offices.
 :::
 
-![Stacked bar chart of Delhi NCR office leasing by sub-city from Q4 2025 to Q3 2026, with Gurugram leading every quarter.](/blogs/images/DsDelhiNcrOfficeLeasing261026.webp)
+![Stacked bar chart of Delhi NCR office leasing by sub-city from Q4 2025 to Q3 2026, with Gurugram leading every quarter.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsDelhiNcrOfficeLeasing261026.webp)
 
 *Share of quarterly office leasing in Delhi NCR by sub-city. Source: Cushman & Wakefield, Delhi NCR MarketBeat Office, Q4 2025 to Q3 2026.*
 
@@ -704,7 +704,7 @@ Here is how the top 10 programs for Delhi NCR learners compare –
 **Quick answer:** Learnbay with IIT Patna and IBM sits furthest right on job readiness while staying in the mid cost band. AnalytixLabs and DataMites give solid readiness in the low band, and IIT Delhi CEP and Imarticus sit mid-table in the mid band. Programs that do not publish their cost are left off the chart.
 :::
 
-![Dot plot of job readiness against relative cost band for eight Delhi NCR data science programs, with Learnbay with IIT Patna and IBM in the best-value zone.](/blogs/images/DsDelhiNcrReadinessVsCost261026.webp)
+![Dot plot of job readiness against relative cost band for eight Delhi NCR data science programs, with Learnbay with IIT Patna and IBM in the best-value zone.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsDelhiNcrReadinessVsCost261026.webp)
 
 *Job readiness against relative cost band for Delhi NCR programs. Learnbay is highlighted in orange; the shaded area marks the best-value zone.*
 
@@ -724,7 +724,7 @@ Hence, Learnbay with IIT Patna and IBM is the only NCR program in the best-value
 
 **What is in the syllabus.** Eleven modules taught live over 13 months, opening with Python, statistics and machine learning and moving on to deep learning, NLP and Transformers. GenAI and agentic AI each get a full module, from RAG, LangChain and fine-tuning to CrewAI, LangGraph and AWS Bedrock, before MLOps, Power BI, Tableau, SQL and Spark.
 
-![The Learnbay Data Science and GenAI Master Program roadmap for Delhi NCR learners: induction, eleven modules, AI Co-Lab and domain electives across 13 months.](/blogs/images/DsDelhiNcrGenAiMasterRoadmap261026.webp)
+![The Learnbay Data Science and GenAI Master Program roadmap for Delhi NCR learners: induction, eleven modules, AI Co-Lab and domain electives across 13 months.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsDelhiNcrGenAiMasterRoadmap261026.webp)
 
 *Program roadmap, Data Science & GenAI Master Program, as listed in the 2026 brochure.*
 
@@ -896,7 +896,7 @@ In short, sort your shortlist by career stage first and by commute second. For a
 **Quick answer:** Only Learnbay with IIT Patna and IBM teaches all eight skill areas as full modules among these 10 NCR programs. IIT Delhi CEP and AnalytixLabs are strong on deployment, and Boston Institute of Analytics on GenAI and agents, while most other NCR courses centre on Python, machine learning and BI tools.
 :::
 
-![Grid comparing ten Delhi NCR data science courses on Python and SQL, ML, deep learning, GenAI, agentic AI, deployment, BI tools and domain projects.](/blogs/images/DsDelhiNcrSyllabusCoverage261026.webp)
+![Grid comparing ten Delhi NCR data science courses on Python and SQL, ML, deep learning, GenAI, agentic AI, deployment, BI tools and domain projects.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsDelhiNcrSyllabusCoverage261026.webp)
 
 *Syllabus coverage by skill area. Full = dedicated core module; Partial = combined or introductory module, elective or add-on.*
 
@@ -908,7 +908,7 @@ Employers across NCR now name these skills in their job posts. EXL's 2026 Data S
 **Quick answer:** Gurugram's median data scientist earns ₹27.2 LPA in total pay, and New Delhi's top 10% clear ₹63.4 LPA, as per levels.fyi (2026). New Delhi data science managers sit at a ₹54.4 LPA median, and product companies such as Microsoft and Adobe report medians above ₹50 LPA.
 :::
 
-![Bar chart of data scientist pay in Delhi NCR: average total pay, median total pay in Gurugram, data science manager median and top 10% in New Delhi.](/blogs/images/DsDelhiNcrPayLadder261026.webp)
+![Bar chart of data scientist pay in Delhi NCR: average total pay, median total pay in Gurugram, data science manager median and top 10% in New Delhi.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsDelhiNcrPayLadder261026.webp)
 
 *Data scientist pay in Delhi NCR: average, median and top packages, in lakh per annum (LPA). Sources: Glassdoor India, levels.fyi, 2026.*
 
@@ -918,7 +918,7 @@ Here is what to expect by employer type in Delhi NCR –
 
 ::scenario-table{from=payByEmployer}
 
-![Chart of data scientist median total pay at Delhi NCR employers, grouped into product, fintech, consulting, payments and analytics services.](/blogs/images/DsDelhiNcrPayByEmployer261026.webp)
+![Chart of data scientist median total pay at Delhi NCR employers, grouped into product, fintech, consulting, payments and analytics services.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsDelhiNcrPayByEmployer261026.webp)
 
 *Data scientist median total pay at Delhi NCR employers, in LPA. Source: levels.fyi, 2026; company figures draw on each company's India-wide data.*
 

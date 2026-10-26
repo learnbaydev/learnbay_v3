@@ -26,8 +26,8 @@ authorBio: Senior Content Strategist, Learnbay.
 authorUrl: https://www.learnbay.co/blogs/author/sonalisha-mohanty
 readTime: 23 minutes
 canonicalUrl: https://www.learnbay.co/blogs/best-data-science-course-in-hyderabad
-image: https://www.learnbay.co/blogs/images/DsHyderabadHero261026.webp
-imagephone: https://www.learnbay.co/blogs/images/DsHyderabadHero261026.webp
+image: https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsHyderabadHero261026.webp
+imagephone: https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsHyderabadHero261026.webp
 alt: 'Best data science course in Hyderabad 2027: ten programs compared for GCC and pharma careers.'
 caption: Ten data science programs for Hyderabad learners, compared for GCC and pharma careers in 2027.
 standfirst:
@@ -651,7 +651,7 @@ This blog will walk you through 10 programs that suit Hyderabad learners, who ea
 **Quick answer:** Global firms keep opening capability centres in Hyderabad, and these centres run data, analytics and AI work for their parent companies. The city added more than 70 GCCs in FY25, about twice Bengaluru's count. Its GCC hiring also grew 15% to 28% a year in every month from May to September 2026.
 :::
 
-![Grouped bar chart comparing Hyderabad and all-India growth in GCC hiring from May to September 2026, and in AI/ML hiring for May and August 2026.](/blogs/images/DsHyderabadHiringGrowth261026.webp)
+![Grouped bar chart comparing Hyderabad and all-India growth in GCC hiring from May to September 2026, and in AI/ML hiring for May and August 2026.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsHyderabadHiringGrowth261026.webp)
 
 *Hyderabad GCC and AI/ML hiring growth against the all-India figure. Source: Naukri JobSpeak, May to September 2026.*
 
@@ -732,7 +732,7 @@ Here is how the 10 contenders for the **best data science course in Hyderabad** 
 **Quick answer:** On the chart, Learnbay with IIT Patna and IBM gives the most hands-on readiness and still sits in the mid cost band. TalentSprint with IIIT Hyderabad scores well but sits in the highest band. Codegnan and 360DigiTMG lead the low band. Innomatics and Boston Institute of Analytics do not publish costs, so they are not plotted.
 :::
 
-![Dot plot of job readiness against relative cost band for eight Hyderabad data science programs, with Learnbay with IIT Patna and IBM in the best-value zone.](/blogs/images/DsHyderabadReadinessVsCost261026.webp)
+![Dot plot of job readiness against relative cost band for eight Hyderabad data science programs, with Learnbay with IIT Patna and IBM in the best-value zone.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsHyderabadReadinessVsCost261026.webp)
 
 *Job readiness against relative cost band for Hyderabad programs. Learnbay is in orange; the shaded area is the best-value zone.*
 
@@ -752,7 +752,7 @@ Hence, only one Hyderabad program lands in the best-value zone: Learnbay with II
 
 **What is in the syllabus.** The program teaches eleven modules live over 13 months. It begins with Python, statistics and machine learning, then moves to neural networks, NLP and Transformer models. Two full modules go to GenAI and to agentic AI, covering RAG, LangChain, fine-tuning, CrewAI, LangGraph and AWS Bedrock. MLOps, Power BI, Tableau, SQL and Spark complete the stack.
 
-![The Learnbay Data Science and GenAI Master Program roadmap for Hyderabad learners: induction, eleven modules, AI Co-Lab and domain electives over 13 months.](/blogs/images/DsHyderabadGenAiMasterRoadmap261026.webp)
+![The Learnbay Data Science and GenAI Master Program roadmap for Hyderabad learners: induction, eleven modules, AI Co-Lab and domain electives over 13 months.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsHyderabadGenAiMasterRoadmap261026.webp)
 
 *Program roadmap for the Data Science & GenAI Master Program, from the 2026 brochure.*
 
@@ -936,7 +936,7 @@ Learners who search for the data science course best institute in Hyderabad ofte
 **Quick answer:** Among these 10 programs, only Learnbay with IIT Patna and IBM covers all eight skill areas as full modules. Innomatics and Boston Institute of Analytics come next with broad syllabi, TalentSprint with IIIT Hyderabad is strong on deep learning and MLOps, and Codegnan stands out on agents.
 :::
 
-![Grid comparing ten Hyderabad data science programs on Python and SQL, ML, deep learning, GenAI, agentic AI, deployment, BI tools and domain projects.](/blogs/images/DsHyderabadSyllabusCoverage261026.webp)
+![Grid comparing ten Hyderabad data science programs on Python and SQL, ML, deep learning, GenAI, agentic AI, deployment, BI tools and domain projects.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsHyderabadSyllabusCoverage261026.webp)
 
 *Syllabus coverage by skill area for Hyderabad programs. Full = dedicated core module; Partial = combined or intro module, elective or add-on.*
 
@@ -948,7 +948,7 @@ Hyderabad employers already ask for these skills. Deloitte's 2026 roles in Gachi
 **Quick answer:** The median data scientist in Hyderabad earns ₹32.2 LPA in total pay, and the top 10% earn above ₹60.9 LPA, as per levels.fyi (2026). That is above the India median of ₹30.0 LPA and close to Bengaluru. Big tech pays the most, with Salesforce, Amazon and Microsoft medians above ₹52 LPA.
 :::
 
-![Bar chart of the data scientist salary in Hyderabad: average total pay, median total pay, manager median, top 10% and top 5%.](/blogs/images/DsHyderabadPayLadder261026.webp)
+![Bar chart of the data scientist salary in Hyderabad: average total pay, median total pay, manager median, top 10% and top 5%.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsHyderabadPayLadder261026.webp)
 
 *Data scientist salary in Hyderabad: average, median and top packages, in lakh per annum (LPA). Sources: Glassdoor India, levels.fyi, 2026.*
 
@@ -960,7 +960,7 @@ Pay by employer type in Hyderabad looks like this –
 
 ::scenario-table{from=payByEmployer}
 
-![Chart of data scientist median total pay at Hyderabad employers, grouped into big tech, product and healthcare, BFSI GCCs, and analytics and IT services.](/blogs/images/DsHyderabadPayByEmployer261026.webp)
+![Chart of data scientist median total pay at Hyderabad employers, grouped into big tech, product and healthcare, BFSI GCCs, and analytics and IT services.](https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DsHyderabadPayByEmployer261026.webp)
 
 *Data scientist median total pay at Hyderabad employers, in LPA. Source: levels.fyi, 2026.*
 
