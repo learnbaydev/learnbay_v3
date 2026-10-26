@@ -1,5 +1,6 @@
 import { PiCheckCircleFill, PiXCircleFill, PiMinusCircleFill } from 'react-icons/pi';
 import styles from './Blocks.module.css';
+import InlineLinks from './InlineLinks';
 
 /**
  * Blocks driven entirely by structured frontmatter. Each is placed with a leaf
@@ -24,8 +25,14 @@ export function StatCards({ data, cols }) {
       {items.map((item, index) => (
         <div className={styles.statCard} key={index}>
           <p className={styles.statValue}>{item.value}</p>
-          <p className={styles.statText}>{item.text}</p>
-          {item.source && <p className={styles.statSource}>{item.source}</p>}
+          <p className={styles.statText}>
+            <InlineLinks text={item.text} />
+          </p>
+          {item.source && (
+            <p className={styles.statSource}>
+              <InlineLinks text={item.source} />
+            </p>
+          )}
         </div>
       ))}
     </div>
@@ -43,7 +50,7 @@ function Cell({ value }) {
     return (
       <PiMinusCircleFill className={styles.markPartial} aria-label="Partial" />
     );
-  return value ?? '';
+  return <InlineLinks text={value} />;
 }
 
 function Table({ columns, rows, caption }) {
@@ -139,7 +146,7 @@ export function Checklist({ data, cols }) {
             )}
             <span>
               {title && <strong className={styles.checkTitle}>{title}</strong>}
-              {text}
+              <InlineLinks text={text} />
             </span>
           </li>
         );
