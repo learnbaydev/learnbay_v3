@@ -631,10 +631,7 @@ The region's capability centres are a big part of that demand. Delhi NCR has 490
 
 AI hiring has also outpaced the wider job market. NCR's AI/ML hiring grew 44% in March 2026, 34% in May and 25% in August, as per [Naukri JobSpeak](https://www.naukri.com/blog/naukri-jobspeak-march-26-records-a-9-rise-in-white-collar-hiring-as-fy26-closes-at-8-the-strongest-job-growth-in-three-years/) releases. Overall white-collar hiring in NCR moved between a 6% fall and a 10% rise over the same months.
 
-<!-- Hub blog not live on prod yet: link "best data science course in India" below and in Related reads
-     to /blogs/best-data-science-course-in-india on the day it publishes. -->
-
-New to the field? The Learnbay [data science roadmap from beginner to specialist](https://www.learnbay.co/blogs/data-science-roadmap-beginner-to-specialist) sets out the skills in the right order, and the best data science course in India comparison covers the national field.
+New to the field? The Learnbay [data science roadmap from beginner to specialist](https://www.learnbay.co/blogs/data-science-roadmap-beginner-to-specialist) sets out the skills in the right order, and the [best data science course in India](https://www.learnbay.co/blogs/best-data-science-course-in-india) comparison covers the national field.
 
 ## Who Is Hiring Data Scientists in Delhi NCR?
 
@@ -981,9 +978,9 @@ Put simply, the **best data science course in Delhi** matches your career stage,
 
 ### Related reads
 
-<!-- "Best data science course in India" and "Best data analyst course in Delhi NCR" are planned blogs (404 on prod today). Link each on the day it goes live. -->
+<!-- "Best data analyst course in Delhi NCR" is a planned blog (404 on prod today). Link it on the day it goes live. -->
 
-- Best data science course in India
+- [Best data science course in India](https://www.learnbay.co/blogs/best-data-science-course-in-india)
 - Best data analyst course in Delhi NCR
 - [Best AI courses in Delhi](https://www.learnbay.co/blogs/best-ai-courses-in-delhi)
 - [Data science roadmap from beginner to specialist](https://www.learnbay.co/blogs/data-science-roadmap-beginner-to-specialist)

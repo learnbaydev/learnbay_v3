@@ -693,14 +693,12 @@ Much of this demand comes from global capability centres (GCCs), which are offsh
 
 Bengaluru held a 26% share of India's AI job postings, as per [foundit reports](https://www.business-standard.com/industry/news/india-hiring-rises-15-pc-in-dec-signalling-shift-to-measured-expansion-report-126011301059_1.html) in 2026. Here is how the other hubs compare –
 
-<!-- Planned series blogs (404 until live). Switch each link on the day that blog publishes:
-     /blogs/best-data-science-course-in-hyderabad, /blogs/best-data-science-course-in-pune,
-     /blogs/best-data-science-course-in-delhi-ncr,
-     and "data science vs data analytics" above -> /blogs/best-data-analytics-course-in-india -->
+<!-- Planned series blog (404 until live). Switch the link on the day it publishes:
+     "data science vs data analytics" above -> /blogs/best-data-analytics-course-in-india -->
 
-- Hyderabad grew fastest at 48%, as a major GCC and pharma hub. Compare the data science courses in Hyderabad for GCC and pharma roles.
-- Pune grew 31%, with BFSI GCCs and automotive firms. Compare the data science courses in Pune for BFSI and manufacturing roles.
-- Delhi NCR grew 25%, across consulting, fintech and public-sector work. Compare the data science courses across Delhi, Gurugram and Noida.
+- Hyderabad grew fastest at 48%, as a major GCC and pharma hub. Compare the [data science courses in Hyderabad](https://www.learnbay.co/blogs/best-data-science-course-in-hyderabad) for GCC and pharma roles.
+- Pune grew 31%, with BFSI GCCs and automotive firms. Compare the [data science courses in Pune](https://www.learnbay.co/blogs/best-data-science-course-in-pune) for BFSI and manufacturing roles.
+- Delhi NCR grew 25%, across consulting, fintech and public-sector work. Compare the [data science courses across Delhi, Gurugram and Noida](https://www.learnbay.co/blogs/best-data-science-course-in-delhi-ncr).
 - Bengaluru grew 31% and holds the largest share of AI postings. If you are in the city, see the [data science course in Bangalore](https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore).
 
 Hence, a live online program lets you study from any city and apply across all six hubs.
@@ -1023,11 +1021,11 @@ Choosing the **best data science course in India** comes down to live build work
 
 ### Related reads
 
-<!-- Pune, Delhi NCR, Hyderabad and data analytics are planned blogs (404 today). Link each on the day it goes live. -->
+<!-- Data analytics is a planned blog (404 today). Link it on the day it goes live. -->
 
-- Best data science course in Pune
-- Best data science course in Delhi NCR
-- Best data science course in Hyderabad
+- [Best data science course in Pune](https://www.learnbay.co/blogs/best-data-science-course-in-pune)
+- [Best data science course in Delhi NCR](https://www.learnbay.co/blogs/best-data-science-course-in-delhi-ncr)
+- [Best data science course in Hyderabad](https://www.learnbay.co/blogs/best-data-science-course-in-hyderabad)
 - [Data science course in Bangalore](https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore)
 - Best data analytics course in India
 - [Best domains for data science and AI](https://www.learnbay.co/blogs/best-domains-for-data-science-and-ai)

@@ -582,10 +582,7 @@ Pune's GCCs employ 210,000 to 220,000 people today, as per KPMG and AMCHAM. That
 
 Office demand tells the same story. Pune leased 1.99 million sq ft of office space between July and September 2026, and GCCs took about 65% of it, as per the [Cushman & Wakefield Pune MarketBeat](https://www.cushmanwakefield.com/en/india/insights/marketbeat-india/pune-marketbeat). BFSI was the top sector, with 35% of that leasing.
 
-<!-- Hub blog not live on prod yet: link "best data science course in India" below and in Related reads
-     to /blogs/best-data-science-course-in-india on the day it publishes. -->
-
-If you are new to the field, the [data science roadmap from beginner to specialist](https://www.learnbay.co/blogs/data-science-roadmap-beginner-to-specialist) explains the skills in order. For a national view of the field, see the best data science course in India comparison.
+If you are new to the field, the [data science roadmap from beginner to specialist](https://www.learnbay.co/blogs/data-science-roadmap-beginner-to-specialist) explains the skills in order. For a national view of the field, see the [best data science course in India](https://www.learnbay.co/blogs/best-data-science-course-in-india) comparison.
 
 ## Who Is Hiring Data Scientists in Pune?
 
@@ -941,9 +938,9 @@ In the end, the **best data science course in Pune** is the one that gives you l
 
 ### Related reads
 
-<!-- "Best data science course in India" and "Best data analyst course in Pune" are planned blogs (404 on prod today). Link each on the day it goes live. -->
+<!-- "Best data analyst course in Pune" is a planned blog (404 on prod today). Link it on the day it goes live. -->
 
-- Best data science course in India
+- [Best data science course in India](https://www.learnbay.co/blogs/best-data-science-course-in-india)
 - Best data analyst course in Pune
 - [Best AI courses in Pune](https://www.learnbay.co/blogs/best-ai-courses-in-pune)
 - [Data science roadmap from beginner to specialist](https://www.learnbay.co/blogs/data-science-roadmap-beginner-to-specialist)

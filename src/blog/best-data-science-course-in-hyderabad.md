@@ -661,10 +661,7 @@ The base keeps growing too. Hyderabad had around 515 GCCs employing more than 3 
 
 AI roles are a large share of this. Hyderabad holds 12.5% of India's AI job openings, about 1 in 8, according to a CBRE study of Naukri listings covered by [Business Today](https://www.businesstoday.in/amp/tech-today/news/story/ai-jobs-bengaluru-leads-delhi-ncr-follows-as-ai-hiring-clusters-in-two-key-indian-hubs-says-report-516832-2026-02-18).
 
-<!-- Hub blog not live on prod yet: link "best data science course in India" below and in Related reads
-     to /blogs/best-data-science-course-in-india on the day it publishes. -->
-
-Starting from zero? The Learnbay [data science roadmap from beginner to specialist](https://www.learnbay.co/blogs/data-science-roadmap-beginner-to-specialist) lists the skills in order, and the best data science course in India guide ranks the national programs.
+Starting from zero? The Learnbay [data science roadmap from beginner to specialist](https://www.learnbay.co/blogs/data-science-roadmap-beginner-to-specialist) lists the skills in order, and the [best data science course in India](https://www.learnbay.co/blogs/best-data-science-course-in-india) guide ranks the national programs.
 
 ## Which Hyderabad Employers Hire Data Scientists, and Where Are Their Offices?
 
@@ -1025,9 +1022,9 @@ Put simply, the **best data science course in Hyderabad** fits your career stage
 
 ### Related reads
 
-<!-- "Best data science course in India" and "Best data analyst course in Hyderabad" are planned blogs (404 on prod today). Link each on the day it goes live. -->
+<!-- "Best data analyst course in Hyderabad" is a planned blog (404 on prod today). Link it on the day it goes live. -->
 
-- Best data science course in India
+- [Best data science course in India](https://www.learnbay.co/blogs/best-data-science-course-in-india)
 - Best data analyst course in Hyderabad
 - [Data science roadmap from beginner to specialist](https://www.learnbay.co/blogs/data-science-roadmap-beginner-to-specialist)
 - [How to choose a data science program for your career goals](https://www.learnbay.co/blogs/how-to-choose-the-right-data-science-program-for-your-career-goals)
