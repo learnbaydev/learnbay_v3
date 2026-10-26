@@ -1718,7 +1718,7 @@ Most learners search for an **AI course in Pune with placement**. Here is what e
 
 In short, GenAI helps a system create content, while Agentic AI helps a system plan and act on a goal.
 
-If you are searching for a **generative AI course in Pune** or an **agentic AI course in Pune**, check whether the course also teaches the fundamentals you are missing. An agent course without ML basics can leave gaps in interviews.
+If you are searching for a **generative AI course in Pune** or an **agentic AI course in Pune**, check whether the course also teaches the fundamentals you are missing. An agent course without ML basics can leave gaps in interviews. If you would rather build that data and modelling base first, compare the [best data science course in Pune](https://www.learnbay.co/blogs/best-data-science-course-in-pune) options.
 
 ## Who Can Switch to AI in 2026, and What Is the Roadmap?
 

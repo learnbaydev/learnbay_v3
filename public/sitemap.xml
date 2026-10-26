@@ -823,4 +823,9 @@
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
+	<url>
+		<loc>https://www.learnbay.co/blogs/best-data-science-course-in-pune</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
 </urlset>

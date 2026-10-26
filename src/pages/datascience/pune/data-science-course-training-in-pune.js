@@ -33,7 +33,7 @@ const CitiesLeft = dynamic(
   () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
 const CitiesRight = dynamic(
-  () => import('../../../components/Seo/CitiesRight/CitiesRight')
+  () => import('../../../components/Seo/CitiesRight/CitiesRightDSPune')
 );
 const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 const OfferPopup = dynamic(
@@ -80,11 +80,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Data Science Course Training in Pune - Learnbay</title>
+        <title>Data Science Course in Pune with IBM Certification</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Join the best Data Science Course in Pune with Learnbay. Get IBM certified training, live classes, real projects & 100% placement assistance. Enroll now!"
+          content="Learnbay's data science course in Pune covers Python, statistics, machine learning and GenAI with live classes, real projects and IBM certification."
         />
         <meta
           name="keywords"
@@ -97,11 +97,11 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Best Data Science Course Training in Pune - Learnbay"
+          content="Data Science Course in Pune with IBM Certification"
         />
         <meta
           property="og:description"
-          content="Join the best Data Science Course in Pune with Learnbay. Get IBM certified training, live classes, real projects & 100% placement assistance. Enroll now!"
+          content="Learnbay's data science course in Pune covers Python, statistics, machine learning and GenAI with live classes, real projects and IBM certification."
         />
         <meta
           property="og:image"
@@ -117,11 +117,11 @@ export default function Home() {
         />
         <meta
           name="twitter:title"
-          content="Best Data Science Course Training in Pune - Learnbay"
+          content="Data Science Course in Pune with IBM Certification"
         />
         <meta
           name="twitter:description"
-          content="Join the best Data Science Course in Pune with Learnbay. Get IBM certified training, live classes, real projects & 100% placement assistance. Enroll now!"
+          content="Learnbay's data science course in Pune covers Python, statistics, machine learning and GenAI with live classes, real projects and IBM certification."
         />
         <meta
           name="twitter:image"
@@ -202,7 +202,7 @@ export default function Home() {
             __html: `{ 
               "@context": "https://schema.org",
   "@type": "Product",
-  "name": "Best Data Science Course Training in Pune - Learnbay",
+  "name": "Data Science Course in Pune with IBM Certification",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "brand": {
     "@type": "Brand",
@@ -225,8 +225,8 @@ export default function Home() {
             __html: `{ 
               "@context": "https://schema.org",
   "@type": "Course",
-  "name": "Best Data Science Course Training in Pune - Learnbay",
-  "description": "Join the best Data Science Course in Pune with Learnbay. Get IBM certified training, live classes, real projects & 100% placement assistance. Enroll now!",
+  "name": "Data Science Course in Pune with IBM Certification",
+  "description": "Learnbay's data science course in Pune covers Python, statistics, machine learning and GenAI with live classes, real projects and IBM certification.",
   "url": "https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune",
   "provider": {
     "@type": "Organization",
@@ -470,9 +470,9 @@ export default function Home() {
           brochurePdf={pdfUrl}
           idss="-XjsfU8-bK8"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Best Data Science Courses in Pune"
+          firstHeading="Data Science Course in Pune"
           firstTopPara="Foundational and Advanced Job-ready"
-          cityParaCont=" Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited training from the best Data Science courses in Pune. This course will help you to capitalize on your domain expertise by utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
+          cityParaCont=" Acquire the weight of an experienced candidate even at your first data science job. Get industry-accredited training from Learnbay's data science course in Pune. This course will help you to capitalize on your domain expertise by utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
           ibmOnly={true}
         />
         <SecondSection SecondSectionData={DSPuneCourseData[0].secondSection} />
