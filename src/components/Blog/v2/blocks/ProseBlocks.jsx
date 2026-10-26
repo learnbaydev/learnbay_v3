@@ -1,5 +1,6 @@
 import styles from './Blocks.module.css';
 import { slugToId } from '@/lib/blog/slug';
+import InlineLinks from './InlineLinks';
 
 /**
  * Blocks whose body is prose. Each is authored as a container directive and
@@ -69,7 +70,8 @@ export function SpecLine({ data }) {
     <p className={styles.specLine}>
       {entries.map(([key, value], index) => (
         <span key={key}>
-          <span className={styles.specKey}>{key}</span> {value}
+          <span className={styles.specKey}>{key}</span>{' '}
+          <InlineLinks text={value} />
           {index < entries.length - 1 ? ' · ' : ''}
         </span>
       ))}

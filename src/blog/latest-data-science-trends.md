@@ -3,7 +3,7 @@ title: "Latest Trends in Data Science You Can't Miss in 2026"
 Stitle: "2026 Latest Data Science Trends You Can't Miss - Learnbay"
 description: 'Explore The Latest Data Science Trends For 2026 With Learnbay: Master Genai, Explainable AI, Quantum Computing & More To Boost Your Career Success.'
 keywords: 'latest trends in data science, data scientist trends, current trends in data science, future trends in data science, data science latest trends, future of data science, explainable ai'
-date: '10-12-2025'
+date: '10/12/2025'
 author: 'Sonalisha Mohanty'
 readTime: '8 min'
 image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Latest-Trends-in-Data-Science-You-Can't-Miss.webp"

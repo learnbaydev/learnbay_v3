@@ -3,7 +3,7 @@ title: "Tech Layoffs Survival: 4 Skills Big Tech Can't Replace"
 Stitle: 'Master Future-Proof Skills to Survive Tech Layoff | Learnbay'
 description: 'Facing tech layoffs? Master 4 skills Big Tech can’t replace and secure your career in the age of AI and automation. Build resilience and stay ahead today.'
 keywords: 'best skills to learn, tech layoffs, skills to learn,ai skills, ai engineering course, tech layoffs, data science course online, artificial intelligence skills, cloud computing skills.'
-date: '27-03-2026'
+date: '27/03/2026'
 author: 'Sonalisha Mohanty'
 readTime: '10 minutes'
 image: 'https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Best+Skills+to+Learn+to+Survive+AI+Dominance+and+Layoffs2026.webp'

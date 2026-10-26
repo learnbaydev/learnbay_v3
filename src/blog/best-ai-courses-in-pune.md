@@ -245,27 +245,6 @@ data:
       different course suits you better.
     cta: Book free counselling
     href: popup
-  puneStats:
-    - value: 9.6%
-      text:
-        Pune’s share of India’s AI job openings, ranked fifth after Bengaluru (25.4%), Delhi NCR
-        (24.8%), Mumbai (19.2%) and Hyderabad (12.5%).
-      source: CBRE, February 2026
-    - value: 31%
-      text:
-        Year-on-year rise in AI and ML hiring in Pune in August 2026, against a 15% rise in GCC
-        hiring in the same month.
-      source: Naukri JobSpeak, September 2026
-    - value: 500+
-      text:
-        GCCs operating in Pune, about 14% of India’s GCC units and about 9% of India’s GCC talent.
-        More than 130 entered or expanded here since 2024.
-      source: KPMG in India and AMCHAM, June 2026
-    - value: 52%
-      text:
-        Share of Pune’s Q2 2026 office leasing, 3.22 million sq ft, taken by GCCs. The city also
-        produces about 2,00,000 graduates a year, including 90,000 in STEM.
-      source: Cushman and Wakefield, July 2026
   skillDemand:
     - label: Agentic AI engineers
       percent: 100.0
@@ -577,11 +556,11 @@ data:
   spec6:
     Best for: Freshers and analysts in Pune who want a classroom path from analytics into GenAI
     Trade-off: No agent framework named, fee is not published on the official page
-    Fee: ₹75,000 certificate, ₹1,12,000 to ₹1,25,000 diploma, ₹1,45,000 to ₹1,55,000 master diploma
+    Fee: '₹75,000 certificate, ₹1,12,000 to ₹1,25,000 diploma, ₹1,45,000 to ₹1,55,000 master diploma, as listed on [Collegedunia](https://collegedunia.com/institute/1233-boston-institute-of-analytics-mumbai/courses-fees) and Shiksha'
   spec7:
     Best for: Fresh engineering and MCA graduates who can study full-time for six months
     Trade-off: LLMs, RAG, agents and LLMOps are not named in the public module list
-    Fee: ₹1,50,000 + GST classroom, ₹1,27,500 + GST online, 24 weeks
+    Fee: '₹1,50,000 + GST classroom, ₹1,27,500 + GST online, 24 weeks, as listed on [Shiksha](https://www.shiksha.com/college/cdac-centre-for-development-of-advanced-computing-pashan-pune-50998/course-online-pg-diploma-in-artificial-intelligence-pg-dai-1194345)'
   spec8:
     Best for: Python developers who want to learn agent frameworks fast in a Pune classroom
     Trade-off: No statistics, classical ML or fine-tuning, and the fee is not published
@@ -870,22 +849,22 @@ data:
       - What is missing
     rows:
       - - Symbiosis (SCDL)
-        - Certificate in Agentic AI and Software Solutions
+        - '[Certificate in Agentic AI and Software Solutions](https://www.scdl.net/programs/certificate-in-agentic-ai-and-software-solutions)'
         - ₹30,000 + ₹1,200 application
         - 3 months online, LangChain, LangGraph, CrewAI, AI in software development
         - No Python, ML, RAG or deployment
       - - Symbiosis (SCDL)
-        - Certificate in Generative AI and Automation
+        - '[Certificate in Generative AI and Automation](https://www.scdl.net/programs/certificate-in-generative-ai-and-automation)'
         - ₹15,000
         - 3 months online, GenAI basics, prompting, no-code automation
         - No coding or agents
       - - 360DigiTMG
-        - AI and Deep Learning Certificate (Kothrud)
+        - '[AI and Deep Learning Certificate](https://360digitmg.com/india/pune/artificial-intelligence-ai-and-deep-learning-certification-course-training-institute) (Kothrud)'
         - ₹55,000
         - CNN, RNN, LSTM, transformers, GANs, XAI
         - No RAG, agents or vector databases
       - - ExcelR
-        - Generative AI Course
+        - '[Generative AI Course](https://www.excelr.com/generative-ai-course-training-in-pune)'
         - ₹31,999
         - 100 hours, LangChain intro, PEFT, LoRA, LLMOps
         - Limited agent depth
@@ -972,22 +951,22 @@ data:
       text:
         Salary hike within a year for professionals moving from non-tech roles into AI or data
         science. Mid-level prompt engineering and agent orchestration roles sit at ₹22 to 35 LPA.
-      source: TeamLease Digital Skills and Salary Primer FY2025-26
+      source: '[TeamLease Digital Skills and Salary Primer FY2025-26](https://www.business-standard.com/industry/news/ai-cloud-cybersecurity-talent-gap-india-digital-economy-125082800570_1.html)'
     - value: 30–40%
       text:
         Hikes for emerging-skill roles such as AI and ML, against 6% to 15% for typical annual
         increments.
-      source: Michael Page 2025 Salary Guide
+      source: '[Michael Page 2025 Salary Guide](https://news.careers360.com/salary-hikes-to-hit-30-40-percent-for-emerging-skills-and-leadership-roles-in-2025/amp)'
     - value: 12%
       text:
         Year-on-year growth in AI salaries, compounding to about 22% since 2024, while traditional
         IT salaries fell about 1%. Entry-level AI roles pay ₹8.87 to 15.41 LPA.
-      source: foundit, September 2026
+      source: '[foundit data from September 2026](https://www.business-standard.com/industry/news/ai-leads-salary-growth-in-india-as-employers-pay-more-for-scarce-skills-126090200640_1.html)'
     - value: 66%
       text:
         Of Indian employers pay a premium for AI roles, and 26% offer 31% to 50% higher pay. AI
         skills carry a 62% wage premium globally.
-      source: Indeed AI at Work Tracker 2026 and PwC 2026 Global AI Jobs Barometer
+      source: '[Indeed AI at Work Tracker 2026](https://www.ciol.com/news/ai-skills-command-higher-salaries-but-most-workers-arent-seeing-the-benefits-indeed-12167799) and [PwC 2026 Global AI Jobs Barometer](https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html)'
   formats:
     columns:
       - Format
@@ -1052,28 +1031,28 @@ data:
     rows:
       - cells:
           - Working professional, 1+ years IT or techno-functional
-          - GenAI and Agentic AI Master Program
+          - '[GenAI and Agentic AI Master Program](https://www.learnbay.co/genai-and-agentic-ai-master-program)'
           - 9 months
           - ₹1,59,000 + GST
         highlight: true
       - - Software developer or SDE
-        - SDE Master Program in GenAI and Agentic AI
+        - '[SDE Master Program in GenAI and Agentic AI](https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai)'
         - 7 to 8 months
         - ₹1,59,000 + GST
       - - AI or platform engineer
-        - AI Engineering Master Program
+        - '[AI Engineering Master Program](https://www.learnbay.co/ai-engineering-master-program)'
         - 9 months
         - ₹1,59,000 + GST
       - - Cloud, DevOps or SRE
-        - GenAI and Agentic AI for Cloud and DevOps
+        - '[GenAI and Agentic AI for Cloud and DevOps](https://www.learnbay.co/genai-agentic-ai-for-cloud-devops)'
         - 5 months
         - ₹1,20,000 + GST
       - - Manager or team lead
-        - GenAI and Agentic AI for Managers and Leaders
+        - '[GenAI and Agentic AI for Managers and Leaders](https://www.learnbay.co/genai-agentic-ai-managers-leaders)'
         - 5 months
         - ₹1,20,000 + GST
       - - Non-coder from BFSI, HR, sales or operations
-        - Applied AI Practitioner Program (IIT Patna)
+        - '[Applied AI Practitioner Program (IIT Patna)](https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program)'
         - 4 months
         - ₹1,20,000 + GST
   portfolio:
@@ -1353,9 +1332,9 @@ data:
 
 ## Best AI Courses in Pune in 2026: What the Syllabus Actually Says
 
-Pune now holds 9.6% of all AI job openings in India, the fifth-largest share of any Indian city, according to CBRE research published in February 2026.
+Pune now holds 9.6% of all AI job openings in India, the fifth-largest share of any Indian city, according to [CBRE research published in February 2026](https://www.businesstoday.in/tech-today/news/story/ai-jobs-bengaluru-leads-delhi-ncr-follows-as-ai-hiring-clusters-in-two-key-indian-hubs-says-report-516832-2026-02-18).
 
-Hiring is moving fast here too. AI and ML recruitment in Pune grew 31% year on year in August 2026, as per Naukri JobSpeak.
+Hiring is moving fast here too. AI and ML recruitment in Pune grew 31% year on year in August 2026, as per [Naukri JobSpeak](https://www.tribuneindia.com/news/ai-roles/ai-ml-hiring-rises-31-pc-yoy-in-august-gcc-recruitment-grows-10-pc-naukri-jobspeak).
 
 Yet most learners in Pune pick a course by its fee or its brand name. Very few open the module list before they pay.
 
@@ -1389,11 +1368,19 @@ For working professionals in Pune who want Generative AI, Agentic AI, LLMOps and
 
 Here are the Pune numbers worth knowing before you pay any institute:
 
-::stat-cards{from=puneStats cols=2}
+| Figure | What it means | Source |
+| --- | --- | --- |
+| 9.6% | Pune’s share of India’s AI job openings, ranked fifth after Bengaluru (25.4%), Delhi NCR (24.8%), Mumbai (19.2%) and Hyderabad (12.5%) | [CBRE, Feb 2026](https://www.businesstoday.in/tech-today/news/story/ai-jobs-bengaluru-leads-delhi-ncr-follows-as-ai-hiring-clusters-in-two-key-indian-hubs-says-report-516832-2026-02-18) |
+| 31% | Year-on-year rise in AI/ML hiring in Pune in August 2026 | [Naukri JobSpeak, Sept 2026](https://www.tribuneindia.com/news/ai-roles/ai-ml-hiring-rises-31-pc-yoy-in-august-gcc-recruitment-grows-10-pc-naukri-jobspeak) |
+| 15% | Year-on-year rise in GCC hiring in Pune in August 2026 | [Naukri JobSpeak, Sept 2026](https://www.tribuneindia.com/news/ai-roles/ai-ml-hiring-rises-31-pc-yoy-in-august-gcc-recruitment-grows-10-pc-naukri-jobspeak) |
+| 500+ | GCCs operating in Pune, about 14% of India’s GCC units and about 9% of India’s GCC talent | [KPMG in India and AMCHAM, June 2026](https://kpmg.com/in/en/insights/2026/06/pune-a-strong-growth-frontier-for-global-capability-centers-in-india.html) |
+| 130+ | GCCs that entered or expanded in Pune since 2024 | [KPMG in India and AMCHAM, June 2026](https://kpmg.com/in/en/insights/2026/06/pune-a-strong-growth-frontier-for-global-capability-centers-in-india.html) |
+| 2,00,000 | Graduates Pune produces every year, including about 90,000 STEM graduates | [KPMG in India and AMCHAM, June 2026](https://kpmg.com/in/en/insights/2026/06/pune-a-strong-growth-frontier-for-global-capability-centers-in-india.html) |
+| 52% | Share of Pune’s Q2 2026 office leasing (3.22 mn sq ft) taken by GCCs | [Cushman and Wakefield, July 2026](https://www.freepressjournal.in/pune/pune-office-leasing-surges-54-qoq-as-gccs-drive-demand-report) |
 
 The KPMG and AMCHAM report names Emerson, Fiserv, Barclays, Amdocs, HSBC, UBS, John Deere, Cummins and Mastercard among Pune’s GCC employers. It lists Hinjewadi, Kharadi, Baner, Magarpatta, Hadapsar, Yerwada and Wakad as the main clusters.
 
-The state is investing too. The Maharashtra AI Policy 2026 targets ₹10,000 crore in investment, 1.5 lakh jobs by 2031 and AI training for 2 lakh people.
+The state is investing too. The [Maharashtra AI Policy 2026](https://inc42.com/buzz/maharashtra-approves-ai-policy-eyes-%E2%82%B910000-cr-investments/) targets ₹10,000 crore in investment, 1.5 lakh jobs by 2031 and AI training for 2 lakh people.
 
 The competition is heavy as well. Pune produces about 2 lakh graduates a year, and many of them apply for the same entry-level AI roles.
 
@@ -1401,7 +1388,7 @@ Hence, the real gap in Pune in 2026 is the shortage of people who can clear an A
 
 ### The Skill Shift Every Pune Learner Should Know
 
-India’s AI demand has moved from model building to shipping and operating AI systems. CIEL HR tracked job postings from March 2024 to May 2026 and recorded this growth:
+India’s AI demand has moved from model building to shipping and operating AI systems. [CIEL HR](https://www.businesstoday.in/jobs/story/ai-job-shift-agentic-ai-engineers-emerge-as-the-hottest-tech-hire-demand-up-260-percent-553968-2026-09-08) tracked job postings from March 2024 to May 2026 and recorded this growth:
 
 ![Bar chart of AI job-posting demand growth in India from March 2024 to May 2026, led by agentic AI engineers at 260%](https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PuneAgenticAIDemand240926.webp)
 
@@ -1409,7 +1396,7 @@ India’s AI demand has moved from model building to shipping and operating AI s
 
 MLOps and LLM engineering now sit in the top five, and both are about running AI in production.
 
-The talent gap is wide at the national level too. A Quess Corp study from June 2026 puts India’s AI workforce at 9.2 lakh, of which only about 2.57 lakh work in core AI roles. The same study found that GCCs account for 40% of core AI roles.
+The talent gap is wide at the national level too. A [Quess Corp study from June 2026](https://www.business-standard.com/industry/news/india-inc-seeks-ai-talent-to-deploy-and-scale-business-workflows-report-126061701019_1.html) puts India’s AI workforce at 9.2 lakh, of which only about 2.57 lakh work in core AI roles. The same study found that GCCs account for 40% of core AI roles.
 
 Hence, an AI course in Pune that stops at CNN and LSTM is teaching a 2021 syllabus at a 2026 price.
 
@@ -1421,14 +1408,14 @@ Hence, an AI course in Pune that stops at CNN and LSTM is teaching a 2021 syllab
 
 These are the developments that data scientists and AI learners in Pune should build their learning plan around:
 
-1. **Agents are moving into everyday software.** Gartner predicts that 40% of enterprise apps will feature task-specific AI agents by the end of 2026, up from less than 5% in 2025.
-2. **Many agent projects will still fail.** Gartner also expects over 40% of agentic AI projects to be cancelled by the end of 2027. Evaluation, cost control and guardrails are the skills that keep a project alive.
-3. **MCP and A2A are now shared standards.** The Linux Foundation formed the Agentic AI Foundation in December 2025 around the Model Context Protocol, with 10,000+ published MCP servers at launch. The A2A protocol crossed 150 supporting organisations by April 2026, shipped version 1.0 in March 2026 and joined the Agentic AI Foundation in August 2026.
-4. **Smaller models are rising.** Gartner predicts that by 2027, organisations will use small task-specific models three times more than general-purpose LLMs. Fine-tuning and model selection skills are back in demand.
-5. **Compliance is now part of the job.** The DPDP Rules 2025 were notified in November 2025 with an 18-month phased rollout, and MeitY released the India AI Governance Guidelines in the same month. For BFSI and healthcare GCCs in Pune, guardrails, audit logs and data privacy are now interview topics.
+1. **Agents are moving into everyday software.** [Gartner](https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025) predicts that 40% of enterprise apps will feature task-specific AI agents by the end of 2026, up from less than 5% in 2025.
+2. **Many agent projects will still fail.** [Gartner](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027) also expects over 40% of agentic AI projects to be cancelled by the end of 2027. Evaluation, cost control and guardrails are the skills that keep a project alive.
+3. **MCP and A2A are now shared standards.** The [Linux Foundation formed the Agentic AI Foundation](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation) in December 2025 around the Model Context Protocol, with 10,000+ published MCP servers at launch. The A2A protocol crossed 150 supporting organisations by April 2026, as per the [Linux Foundation](https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year). A2A shipped version 1.0 in March 2026 and [joined the Agentic AI Foundation](https://aaif.io/blog/a2a-joins-aaif) in August 2026.
+4. **Smaller models are rising.** [Gartner](https://www.gartner.com/en/newsroom/press-releases/2025-04-09-gartner-predicts-by-2027-organizations-will-use-small-task-specific-ai-models-three-times-more-than-general-purpose-large-language-models) predicts that by 2027, organisations will use small task-specific models three times more than general-purpose LLMs. Fine-tuning and model selection skills are back in demand.
+5. **Compliance is now part of the job.** The [DPDP Rules 2025](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190014&reg=3&lang=2) were notified in November 2025 with an 18-month phased rollout, and MeitY released the India AI Governance Guidelines in the same month. For BFSI and healthcare GCCs in Pune, guardrails, audit logs and data privacy are now interview topics.
 6. **Global rules affect Pune GCCs.** Most Pune GCCs serve US and European parents. The EU AI Act’s transparency rules under Article 50 apply from 2 August 2026, so teams building AI for European clients now need labelling and disclosure skills.
-7. **India’s compute base is growing.** The IndiaAI Mission has onboarded 38,000+ GPUs, as per PIB reports. Pune also hosts C-DAC’s PARAM Siddhi-AI supercomputer.
-8. **Employers now value proof over degrees.** The Indeed AI at Work Tracker 2026 found that 40% of Indian employers put demonstrable AI skills and certifications ahead of degrees for AI roles.
+7. **India’s compute base is growing.** The IndiaAI Mission has onboarded 38,000+ GPUs, as per [PIB reports](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245069&reg=3&lang=1). Pune also hosts C-DAC’s PARAM Siddhi-AI supercomputer, as per [PIB](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2201437&reg=3&lang=2).
+8. **Employers now value proof over degrees.** The [Indeed AI at Work Tracker 2026](https://www.ciol.com/news/ai-skills-command-higher-salaries-but-most-workers-arent-seeing-the-benefits-indeed-12167799) found that 40% of Indian employers put demonstrable AI skills and certifications ahead of degrees for AI roles.
 
 In short, the 2026 AI stack looks like this:
 
@@ -1494,7 +1481,7 @@ The agent-first courses, SevenMentor and IISc, skip classical ML. That suits exp
 
 ::comparison-matrix{from=productionDepth}
 
-Learnbay also offers an AI Engineering Master Program that adds a 1.5-month AI System Architecture and Platform Engineering module on top of LLMOps. That is the layer most syllabi in Pune skip.
+Learnbay also offers an [AI Engineering Master Program](https://www.learnbay.co/ai-engineering-master-program) that adds a 1.5-month AI System Architecture and Platform Engineering module on top of LLMOps. That is the layer most syllabi in Pune skip.
 
 ::report-download{from=syllabusPdf}
 
@@ -1517,7 +1504,7 @@ Learnbay also offers an AI Engineering Master Program that adds a 1.5-month AI S
 - **LLMOps and Production Deployment (1 month).** LLM lifecycle, evaluation traces, FastAPI, containers, inference serving, RAG and agent deployment pipelines, latency and token-cost monitoring, and rollback.
 - **Ethics, Guardrails and Responsible AI (2 weeks).** Bias, hallucination, input and output validation, human approval loops, audit logs and governance.
 
-**What sets it apart.** The program forks by role. Software developers can take the SDE Master Program with DSA and System Design. Platform engineers can take the AI Engineering Master Program.
+**What sets it apart.** The program forks by role. Software developers can take the [SDE Master Program](https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai) with DSA and System Design. Platform engineers can take the [AI Engineering Master Program](https://www.learnbay.co/ai-engineering-master-program).
 
 Domain electives cover BFSI, healthcare, retail, manufacturing, cloud and DevOps, and managers and leaders. That matters in Pune, where BFSI and manufacturing GCCs hire heavily.
 
@@ -1525,7 +1512,7 @@ The AI Co-Lab lets learners solve problems from AI startups and earn two startup
 
 **Pune access.** Theory runs live online. Capstone projects and interview preparation can be done in hybrid mode at the Learnbay project lab in Viman Nagar.
 
-**What learners say.** Learnbay holds 4.53 on Course Report across 161 reviews and 4.69 on SwitchUp across 101 reviews. The Pune centre shows 4.7 on Google across 169 reviews, as listed on Collegedunia. Reviewers praise patient instructors, 1:1 doubt-clearing and support for non-programmers, as Python, ML and deep learning are taught from the basics.
+**What learners say.** Learnbay holds 4.53 on [Course Report](https://www.coursereport.com/schools/learnbay) across 161 reviews and 4.69 on [SwitchUp](https://www.switchup.org/bootcamps/learnbay) across 101 reviews. The Pune centre shows 4.7 on Google across 169 reviews, as listed on [Collegedunia](https://collegedunia.com/institute/10243-learnbay-pune). Reviewers praise patient instructors, 1:1 doubt-clearing and support for non-programmers, as Python, ML and deep learning are taught from the basics.
 
 **What we would push back on.** The 9-month live format needs a steady weekly time commitment. The 3-year flexible subscription makes this easier, as you can move to a later batch if work gets busy.
 
@@ -1535,7 +1522,7 @@ The AI Co-Lab lets learners solve problems from AI startups and earn two startup
 
 ### 2. upGrad + IIIT Bangalore: Executive Diploma in Machine Learning and AI
 
-[upgrad.com/machine-learning-ai-pgd-iiitb](https://www.upgrad.com/machine-learning-ai-pgd-iiitb)
+[upgrad.com/machine-learning-ai-pgd-iiitb](https://www.upgrad.com/machine-learning-ai-pgd-iiitb/)
 
 **What is in the syllabus.** An optional 3-month foundation phase in maths, Python and SQL, then five core courses over 9 months: Advanced Math and Programming, Data Analysis and Exploration with Tableau and Power BI, Cloud Computing and Big Data with AWS, GCP, PySpark, Docker and Kubernetes, Foundations of ML, then Deep Learning and NLP with TensorFlow, Keras and PyTorch.
 
@@ -1543,7 +1530,7 @@ Learners then pick one 16-week specialisation. The MLOps track covers data pipel
 
 **What sets it apart.** An IIIT Bangalore Executive Diploma, stated as WES-recognised and equivalent to NSQF Level 8, with lifetime IIIT Bangalore alumni status.
 
-**What learners say.** upGrad holds 4.5 on Shiksha across 338 ratings. Reviewers praise the faculty and the structured curriculum. Yet placement support and value for money score lower in the same reviews.
+**What learners say.** upGrad holds 4.5 on [Shiksha](https://www.shiksha.com/provider/upgrad-49173/reviews) across 338 ratings. Reviewers praise the faculty and the structured curriculum. Yet placement support and value for money score lower in the same reviews.
 
 **What we would push back on.** Delivery is mostly recorded, with live interventions from faculty and experts. The base fee covers only one specialisation, so you choose between MLOps and GenAI. LoRA, PEFT, MCP and A2A are not named in the syllabus. The Microsoft certificate comes only with the higher-priced professional pack, and there is no Pune presence.
 
@@ -1557,7 +1544,7 @@ Learners then pick one 16-week specialisation. The MLOps track covers data pipel
 
 **What sets it apart.** The strongest academic depth on this list, with two campus visits of two days each at IISc.
 
-**What learners say.** No program-level reviews are available yet. A Careers360 review of a sister IISc program praised faculty and live hours but noted no discussion boards and no IISc alumni status.
+**What learners say.** No program-level reviews are available yet. A [Careers360 review](https://www.careers360.com/courses-certifications/articles/course-review-advanced-programme-in-computational-data-science-by-iisc-bangalore-via-talentsprint) of a sister IISc program praised faculty and live hours but noted no discussion boards and no IISc alumni status.
 
 **What we would push back on.** Classical ML is not taught at all. RAG has no dedicated module. The campus visits happen in Bengaluru, not Pune.
 
@@ -1571,7 +1558,7 @@ Learners then pick one 16-week specialisation. The MLOps track covers data pipel
 
 **What sets it apart.** An agent-focused syllabus with a Pune classroom at the Baner Road centre.
 
-**What learners say.** ExcelR Baner shows 4.5 on Google across 968 reviews, as listed on Collegedunia. The repeated complaint is about refunds after enrolment.
+**What learners say.** ExcelR Baner shows 4.5 on Google across 968 reviews, as listed on [Collegedunia](https://collegedunia.com/institute/10461-excelr-baner-pune). The repeated complaint is about refunds after enrolment.
 
 **What we would push back on.** Statistics and classical ML are light. The certificate is ExcelR’s own, plus an internship certificate from AiVariant.
 
@@ -1585,7 +1572,7 @@ Learners then pick one 16-week specialisation. The MLOps track covers data pipel
 
 **What sets it apart.** Solid classical ML and deep learning coverage with an E&ICT Academy, IIT Kanpur certificate.
 
-**What learners say.** Simplilearn holds 4.64 on Course Report across 2,309 reviews and 4.59 on SwitchUp across 1,392 reviews. Reviewers praise the structure but ask for more personalised feedback. The US Better Business Bureau shows 75 complaints in three years, with support delays as a repeated theme.
+**What learners say.** Simplilearn holds 4.64 on [Course Report](https://www.coursereport.com/schools/simplilearn) across 2,309 reviews and 4.59 on [SwitchUp](https://www.switchup.org/bootcamps/simplilearn) across 1,392 reviews. Reviewers praise the structure but ask for more personalised feedback. The US Better Business Bureau shows 75 complaints in three years, with support delays as a repeated theme.
 
 **What we would push back on.** Agents sit in an elective. MCP, vector databases and LLMOps are not in the core syllabus.
 
@@ -1593,13 +1580,13 @@ Learners then pick one 16-week specialisation. The MLOps track covers data pipel
 
 ### 6. Boston Institute of Analytics: Data Science and AI (GenAI and Agentic AI Integrated)
 
-[bostoninstituteofanalytics.org](https://bostoninstituteofanalytics.org)
+[bostoninstituteofanalytics.org (Pune, Shivaji Nagar)](https://bostoninstituteofanalytics.org/india/pune/shivaji-nagar/school-of-technology-ai/data-science-and-artificial-intelligence/)
 
 **What is in the syllabus.** Excel, SQL, Python, Tableau and Power BI, statistics, ML with explainability and time series, deep learning up to attention, NLP with transformers, then GenAI with embeddings, vector search and RAG. The Agentic AI block covers tool calling, multi-step workflows, MCP, human-in-the-loop and agent evaluation.
 
 **What sets it apart.** Three Pune campuses at Shivaji Nagar, Kharadi and Wakad, and a path from a 4-month certificate to a 10-month master diploma with on-job training.
 
-**What learners say.** BIA shows 4.4 on SmartCustomer across 45 reviews, many of them for other courses. Reviewers like the clear trainers but say advanced topics lack depth.
+**What learners say.** BIA shows 4.4 on [SmartCustomer](https://www.smartcustomer.com/reviews/bostoninstituteofanalytics.org) across 45 reviews, many of them for other courses. Reviewers like the clear trainers but say advanced topics lack depth.
 
 **What we would push back on.** No agent framework is named in the syllabus. The official page does not publish the fee, and the certificate is BIA’s own.
 
@@ -1607,11 +1594,11 @@ Learners then pick one 16-week specialisation. The MLOps track covers data pipel
 
 ### 7. C-DAC ACTS Pune: PG Certificate Programme in AI (formerly PG-DAI)
 
-[cdac.in](https://www.cdac.in)
+[cdac.in (PGCP-AI course page)](https://www.cdac.in/index.aspx?id=DAI&courseid=30)
 
 **What is in the syllabus.** The public module list covers Fundamentals of AI, Mathematics for AI, Advanced Python, Data Analytics, Practical ML, Deep Neural Networks, NLP and Computer Vision, AI Compute Platforms and Trends, Aptitude and Communication, and a project.
 
-**What sets it apart.** A government-backed, full-time classroom program at ACTS Pune in Pashan. Admission is through the C-CAT entrance, and the course runs for 24 weeks with about 1,200 hours, as per Careers360.
+**What sets it apart.** A government-backed, full-time classroom program at ACTS Pune in Pashan. Admission is through the C-CAT entrance, and the course runs for 24 weeks with about 1,200 hours, as per [Careers360](https://news.careers360.com/cdac-c-cat-2026-august-registration-from-may-26-eligibility-application-fees-exam-pattern-date-diploma-certificate-courses).
 
 **What learners say.** Review data is thin, with a 4.0 rating on Shiksha across only 2 reviews. The recurring theme is that ACTS Pune is hard to get into because of high C-CAT cut-offs.
 
@@ -1635,13 +1622,13 @@ Learners then pick one 16-week specialisation. The MLOps track covers data pipel
 
 ### 9. DataMites + IABAC + NASSCOM FutureSkills: Artificial Intelligence Engineer Course
 
-[datamites.com/artificial-intelligence-training/courses-pune](https://datamites.com/artificial-intelligence-training/courses-pune)
+[datamites.com/artificial-intelligence-training/courses-pune](https://datamites.com/artificial-intelligence-training/courses-pune/)
 
 **What is in the syllabus.** Python, statistics, core and advanced ML with SVM, PCA and XGBoost, SQL, MongoDB, Git, PySpark and Hive, Tableau and Power BI, then deep learning with CNN, YOLO, RNN and LSTM, NLP up to BERT and a GPT intro, prompt engineering, reinforcement learning and GANs.
 
 **What sets it apart.** Two Pune classrooms, at Kharadi and Baner, with the broadest classical tool coverage on this list.
 
-**What learners say.** DataMites Pune shows 4.8 on Google across 523 reviews, as listed on Collegedunia. Learners praise small batches of 15 to 20. The FAQ states plainly that its placement team “does not promise a job.”
+**What learners say.** DataMites Pune shows 4.8 on Google across 523 reviews, as listed on [Collegedunia](https://collegedunia.com/institute/10022-datamites-pune). Learners praise small batches of 15 to 20. The FAQ states plainly that its placement team “does not promise a job.”
 
 **What we would push back on.** RAG, fine-tuning, LangChain, agents, MCP, vector databases and LLMOps are all absent. The quoted fee also sits far below the listed fee of ₹1,54,000, which is worth clarifying before you pay.
 
@@ -1649,13 +1636,13 @@ Learners then pick one 16-week specialisation. The MLOps track covers data pipel
 
 ### 10. Imarticus Learning + NSDC (Skill India): PG Program in Data Science and Analytics with GenAI
 
-[imarticus.org/postgraduate-program-in-data-science-analytics](https://imarticus.org/postgraduate-program-in-data-science-analytics)
+[imarticus.org/postgraduate-program-in-data-science-analytics](https://imarticus.org/postgraduate-program-in-data-science-analytics/)
 
 **What is in the syllabus.** Excel and SQL with GenAI, Python, statistics, ML up to SVM and time series, Power BI and Tableau, model deployment with Flask, Gradio and SageMaker, deep learning up to BERT, GPT and LLaMA, and one GenAI module with a RAG-based dataset chatbot.
 
 **What sets it apart.** A classroom option at Shivajinagar and “10 guaranteed interviews” under its job assurance, subject to grades, attendance and mock interview clearance.
 
-**What learners say.** Imarticus Pune shows 4.4 on Google across 382 reviews, as listed on Collegedunia, and 4.47 on Course Report. Complaints repeat around weak placement outcomes and refund refusals.
+**What learners say.** Imarticus Pune shows 4.4 on Google across 382 reviews, as listed on [Collegedunia](https://collegedunia.com/institute/8199-imarticus-learning-pune/google-reviews), and 4.47 on [Course Report](https://www.coursereport.com/schools/imarticus-learning). Complaints repeat around weak placement outcomes and refund refusals.
 
 **What we would push back on.** GenAI is a single module. Agents, fine-tuning, MCP and LLMOps are absent.
 
@@ -1811,7 +1798,7 @@ Anyone eager to crack an AI role as a fresher should focus on projects first and
 
 A developer with 3 years of Java or Python experience in Hinjewadi does not need six weeks of descriptive statistics. That developer needs to build LLM services, design retrieval microservices, orchestrate multi-agent workflows and still clear a DSA and system design round.
 
-The **Learnbay SDE Master Program in GenAI and Agentic AI** is built around that path:
+The [Learnbay SDE Master Program in GenAI and Agentic AI](https://www.learnbay.co/artificial-intelligence/sde-master-program-genai-agentic-ai) is built around that path:
 
 - Python for GenAI, Foundation for GenAI and Advanced Generative AI
 - Agentic AI and Automation, and LLMOps and Production Deployment
@@ -1836,11 +1823,13 @@ Hence, if you are already an SDE, pick the AI course that keeps your engineering
 
 Pune has a large base of professionals in BFSI operations, HR, supply chain, sales and project management. Many of them now use AI tools every day at work.
 
+The [Learnbay Applied AI Practitioner Program](https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program) is built for this group:
+
 ::learnbay-dark-band{from=nonTechProgram}
 
 Other options include the Symbiosis SCDL Certificate in Generative AI and Automation for a short, low-cost start.
 
-If you are a manager or team lead, the Learnbay GenAI and Agentic AI for Managers and Leaders program covers AI strategy, digital transformation and GenAI for project management in 5 months.
+If you are a manager or team lead, the [Learnbay GenAI and Agentic AI for Managers and Leaders](https://www.learnbay.co/genai-agentic-ai-managers-leaders) program covers AI strategy, digital transformation and GenAI for project management in 5 months.
 
 ## Domain-Specific AI Careers in Pune
 
@@ -1906,9 +1895,9 @@ Source: [1 Finance Research via Business Standard, July 2026](https://www.busine
 
 The same research found that GCCs pay 12% to 20% more than IT firms, and 30% to 50% more for AI specialists. That matters in a GCC-heavy city like Pune.
 
-At the city level, AI Engineers in Pune report an average base pay of about ₹8.5 LPA, with a range of ₹6 to 12 LPA, as per Glassdoor data from 394 salary reports. This figure leans towards IT services roles, so GCC offers usually sit higher.
+At the city level, AI Engineers in Pune report an average base pay of about ₹8.5 LPA, with a range of ₹6 to 12 LPA, as per [Glassdoor](https://www.glassdoor.co.uk/Salaries/pune-ai-engineer-salary-SRCH_IL.0,4_IC2856202_KO5,16.htm) data from 394 salary reports. This figure leans towards IT services roles, so GCC offers usually sit higher.
 
-AI and ML hiring for professionals with 13 to 16 years of experience also rose 87% in August 2026, as per Naukri JobSpeak.
+AI and ML hiring for professionals with 13 to 16 years of experience also rose 87% in August 2026, as per [Naukri JobSpeak](https://www.tribuneindia.com/news/ai-roles/ai-ml-hiring-rises-31-pc-yoy-in-august-gcc-recruitment-grows-10-pc-naukri-jobspeak).
 
 Hence, what you can show you have shipped matters more than the logo on your certificate.
 
@@ -1993,6 +1982,8 @@ For a deeper framework, read the Learnbay guide on [how to choose the best AI co
 ## Watch: Best AI Course in Pune, Ranked for 2026
 
 The same comparison is explained on video, with who each course is not for.
+
+Video: [Best AI Course in Pune? I Ranked Them All – Top 5 and Who Each Is NOT For (2026)](https://youtu.be/X1tVERX52W0)
 
 ::youtube{id=X1tVERX52W0 title="Best AI Course in Pune? I Ranked Them All" caption="Top 5 AI courses in Pune for 2026, and who each one is NOT for."}
 
