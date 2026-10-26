@@ -1341,7 +1341,7 @@ Most learners search for an **AI course in Delhi with placement**. Here is what 
 
 In short, GenAI helps a system create content, while Agentic AI helps a system plan and act on a goal.
 
-If you are searching for a **generative AI course in Delhi** or an **agentic AI course in Delhi**, check whether the course also teaches the fundamentals you are missing. An agent course without ML basics can leave gaps in interviews.
+If you are searching for a **generative AI course in Delhi** or an **agentic AI course in Delhi**, check whether the course also teaches the fundamentals you are missing. An agent course without ML basics can leave gaps in interviews. If you would rather build that data and modelling base first, compare the [best data science course in Delhi](https://www.learnbay.co/blogs/best-data-science-course-in-delhi-ncr) options.
 
 ## Who Can Switch to AI in 2026, and What Is the Roadmap?
 

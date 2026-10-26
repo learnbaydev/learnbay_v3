@@ -31,7 +31,7 @@ const CitiesLeft = dynamic(
   () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
 const CitiesRight = dynamic(
-  () => import('../../../components/Seo/CitiesRight/CitiesRight')
+  () => import('../../../components/Seo/CitiesRight/CitiesRightDSDelhi')
 );
 const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 const OfferPopup = dynamic(
@@ -492,7 +492,7 @@ export default function Home() {
           brochurePdf={pdfUrl}
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstToparaImg=" - Enroll Now"
+          firstToparaImg=""
           firstHeading="Data Science Course in Delhi"
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Enhance your Data Science career with our comprehensive Data Science course in Delhi with IBM Certification. Our advanced Data Science training in Delhi will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters. to gain the most in-demand data science and AI skills."

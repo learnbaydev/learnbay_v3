@@ -169,7 +169,7 @@ export const DSNoidaCourseData = [
           {
             id: 2,
             ques: 'Can I attend classes online, or is it only available in a physical classroom?              ',
-            ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Noida with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
+            ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with Learnbay in Noida through an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
             open: false,
           },
           {
@@ -404,7 +404,7 @@ export const DSNoidaCourseData = [
     CertificationBot2:
       'Certificates are crucial to validating learned skills and cracking prime job offers globally. These certificates enrich professional credibility and are vital to redefining outpaced careers. Experts with valuable credentials can crack top-tier job roles with attractive pay scales. Globally recognized certifications help you to increase the chances of cracking jobs with leading MNCs with attractive pay scales.',
     CertificationBot3:
-      'At Learnbay, we believe in supporting career transitions with our end-to-end solutions. Our trustworthy alliance with industry leaders IBM  enhances career worth and adds more value to it. Upskilling with the best data science training institute in Noida helps you gain a competitive edge in your domain or desired field. Here, you will get two-course completion certificates from IBM & MS and one IBM project certificate. Hence, learning with our leading-edge data science courses is crucial to building a lucrative career in data science.',
+      'At Learnbay, we believe in supporting career transitions with our end-to-end solutions. Our trustworthy alliance with industry leaders IBM  enhances career worth and adds more value to it. Upskilling with Learnbay’s data science training in Noida helps you gain a competitive edge in your domain or desired field. Here, you will get two-course completion certificates from IBM & MS and one IBM project certificate. Hence, learning with our leading-edge data science courses is crucial to building a lucrative career in data science.',
     CertificationBot4: '',
     CertificationBot5: '',
     src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp',
@@ -414,7 +414,7 @@ export const DSNoidaCourseData = [
 
     ModuleHead1: ' Module Details       ',
     ModuleBot1:
-      'Data science learning has become vital for working pros eager to revamp their static careers. Learning with the best data science institute in Noida equips you with in-demand skills to thrive. Our frequently updated syllabus follows the recent Gen AI trends that experts need to know and practice',
+      'Data science learning has become vital for working pros eager to revamp their static careers. Learning data science with Learnbay in Noida equips you with in-demand skills to thrive. Our frequently updated syllabus follows the recent Gen AI trends that experts need to know and practice',
     ModuleHead2: ' Learning Outcomes     ',
 
     ModuleMasterlist1: 'Basic knowledge of statistical functions',
@@ -432,7 +432,7 @@ export const DSNoidaCourseData = [
     ModuleMasterlist10: 'Case studies',
     ModuleMasterlist11: 'Live projects',
     ModuleMasterBot2:
-      'Upskilling from the best institute for data science in Noida helps you build absolute skill sets to deal with the complex tech world. Experts joining us gain in-depth learning of abstract and practical data science concepts. Our regularly updated learning modules offer live instructor-led training on vital concepts. ',
+      'Upskilling in data science with Learnbay in Noida helps you build absolute skill sets to deal with the complex tech world. Experts joining us gain in-depth learning of abstract and practical data science concepts. Our regularly updated learning modules offer live instructor-led training on vital concepts. ',
     ModuleMasterBot3:
       'Unlike a typical big data course in Noida, our upskilling programs help you build a competitive career with proven skills. Experts joining our courses will learn everything – from basic coding to hands-on practice with data-driven tools.',
     ModuleBot47: '  ',
@@ -481,7 +481,7 @@ export const DSNoidaCourseData = [
     JobBot001:
       'Today’s 21st Century welcomes significant tech creations to face real-world business issues and solve them with factual moves. Experts eager for data science careers must upgrade their skills with proper technical skills – from coding to Gen AI tools. Hence, enrolling in data science training in Noida is crucial.',
     JobBot002:
-      'The present digital space demands proven expertise to face changing industry dynamics and rise competitively. Even employers of the leading MNCs prefer hiring dynamic data experts with practical knowledge of recent trends. Hence, learning with the best data science training institute in Noida is vital for a better career rise.',
+      'The present digital space demands proven expertise to face changing industry dynamics and rise competitively. Even employers of the leading MNCs prefer hiring dynamic data experts with practical knowledge of recent trends. Hence, structured data science training in Noida is vital for a better career rise.',
     JobHead19: 'Career Service Pro    ',
 
     JobBot20:
