@@ -28,7 +28,7 @@ const CitiesLeft = dynamic(
   () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
 const CitiesRight = dynamic(
-  () => import('../../../components/Seo/CitiesRight/CitiesRight')
+  () => import('../../../components/Seo/CitiesRight/CitiesRightDSHyderabad')
 );
 const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 
@@ -41,7 +41,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Best Data Science Courses Training in Hyderabad - Learnbay
+          Data Science Course in Hyderabad with IBM Certification
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -59,7 +59,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Best Data Science Courses Training in Hyderabad - Learnbay"
+          content="Data Science Course in Hyderabad with IBM Certification"
         />
         <meta
           property="og:description"
@@ -79,7 +79,7 @@ export default function Home() {
         />
         <meta
           name="twitter:title"
-          content="Best Data Science Courses Training in Hyderabad - Learnbay"
+          content="Data Science Course in Hyderabad with IBM Certification"
         />
         <meta
           name="twitter:description"
@@ -104,7 +104,7 @@ export default function Home() {
             __html: `{ 
             "@context": "https://schema.org",
   "@type": "Product",
-  "name": "Best Data Science Courses Training in Hyderabad - Learnbay",
+  "name": "Data Science Course in Hyderabad with IBM Certification",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "brand": {
     "@type": "Brand",
@@ -127,7 +127,7 @@ export default function Home() {
             __html: `{ 
               "@context": "http://schema.org",
       "@type": "Course",
-      "name": "Best Data Science Courses Training in Hyderabad - Learnbay",
+      "name": "Data Science Course in Hyderabad with IBM Certification",
       "description": "Master In-demand skills with Learnbay's Data Science Course In Hyderabad. Get expert-led GenAI training, IBM, MS certification, BYOP hands-on.",
       "url": "https://www.learnbay.co/datascience/hyderabad/data-science-course-training-in-hyderabad",
       "offers": {

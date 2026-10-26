@@ -250,6 +250,8 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Healthcare data standards
 - MLOps
 
+Hyderabad hosts many of India's pharma and healthcare GCCs, including Sanofi, so learners there can compare the <a href="https://www.learnbay.co/blogs/best-data-science-course-in-hyderabad">best data science course in Hyderabad</a> for this domain.
+
 ### 3. Retail & E-commerce / Supply Chain
 
 <b>What changed</b>: Retail thrives on consumer behaviour data, and quick-commerce made it real-time. GenAI now powers conversational shopping, dynamic personalization and synthetic product content, while agents optimize pricing and inventory across the supply chain.
