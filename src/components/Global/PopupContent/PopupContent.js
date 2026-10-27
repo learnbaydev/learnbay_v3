@@ -2,6 +2,9 @@ import React from "react";
 import dynamic from "next/dynamic";
 const Popup = dynamic(() => import("../Popup/Popup"));
 const Form = dynamic(() => import("../Form/Form"));
+const CounsellingPopup = dynamic(() =>
+  import("../CounsellingPopup/CounsellingPopup"),
+);
 
 const PopupContent = ({
   dataScience,
@@ -26,6 +29,30 @@ const PopupContent = ({
   genAISelectOption,
   courseId,
 }) => {
+  if (/counsel/i.test(heading) && !downloadBrochure && !DSADemoSession) {
+    return (
+      <CounsellingPopup
+        trigger={popups}
+        setTrigger={setPopups}
+        dataScience={dataScience}
+        dataScienceCounselling={dataScienceCounselling}
+        dataScienceGeneric={dataScienceGeneric}
+        radio={radio}
+        fullStack={fullStack}
+        titleCourse={titleCourse}
+        brochureLink={brochureLink}
+        brochurePdf={brochurePdf}
+        interstedInHide={interstedInHide}
+        Domain={Domain}
+        DomainInput={DomainInput}
+        dsaPopup={dsaPopup}
+        setDSAPopup={setDSAPopup}
+        genAISelectOption={genAISelectOption}
+        courseId={courseId}
+      />
+    );
+  }
+
   return (
     <Popup
       trigger={popups}
