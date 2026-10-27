@@ -9,7 +9,7 @@ import Navbar from '@/components/Global/Navbar/Navbar';
 import Footer from '@/components/Global/Footer/Footer';
 import remarkBlocks from '@/lib/blog/remarkBlocks';
 import { slugToId } from '@/lib/blog/slug';
-import { externalLinkProps } from '@/lib/blog/links';
+import { externalLinkProps, isGatedHref } from '@/lib/blog/links';
 
 import Hero from './Hero';
 import Rail from './Rail';
@@ -17,6 +17,7 @@ import MobileToc from './MobileToc';
 import BlockRenderer, { BlockDataProvider } from './BlockRenderer';
 import RelatedArticles from './sections/RelatedArticles';
 import FinalCta from './sections/FinalCta';
+import BlogCta from './blocks/BlogCta';
 import styles from './BlogV2.module.css';
 
 const ReactMarkdown = dynamic(() => import('react-markdown'));
@@ -57,6 +58,10 @@ const headingId = (children) => {
 };
 
 const BlogV2 = ({ post }) => {
+  // Pitch copy for brochure links written in the body; frontmatter CTAs carry
+  // their own `popup` config.
+  const brochurePopup = post.data?.brochurePopup;
+
   const markdownComponents = useMemo(
     () => ({
       // Every directive arrives as a <div data-block>; BlockRenderer swaps in
@@ -74,9 +79,17 @@ const BlogV2 = ({ post }) => {
       ),
       // Anything not on learnbay.co gets nofollow and opens in a new tab. The
       // policy props go last so a hand-written rel in a post cannot weaken it.
-      a: ({ node, href, ...props }) => (
-        <a href={href} {...props} {...externalLinkProps(href)} />
-      ),
+      // Brochure PDFs open the lead form instead of the file.
+      a: ({ node, href, children, ...props }) =>
+        isGatedHref(href) ? (
+          <BlogCta href={href} className={props.className} popupConfig={brochurePopup} inline>
+            {children}
+          </BlogCta>
+        ) : (
+          <a href={href} {...props} {...externalLinkProps(href)}>
+            {children}
+          </a>
+        ),
       table: ({ node, ...props }) => (
         <div className={styles.tableScroll}>
           <table {...props} />
@@ -91,7 +104,7 @@ const BlogV2 = ({ post }) => {
         </div>
       ),
     }),
-    []
+    [brochurePopup]
   );
 
   // The rail lists h2s and their h3 children; deeper levels would crowd it.

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { markPopupSeen } from '@/components/Blog/popupSession';
+import { isGatedHref } from '@/lib/blog/links';
 
 const BlogLeadPopup = dynamic(() => import('@/components/Blog/BlogLeadPopup'));
 
@@ -11,6 +12,10 @@ const BlogLeadPopup = dynamic(() => import('@/components/Blog/BlogLeadPopup'));
  *
  *   secondaryCta: 'Talk to a counsellor'
  *   secondaryHref: 'popup'
+ *
+ * A brochure-bucket PDF href is gated the same way: the form opens, and the PDF
+ * downloads only after it submits. The real URL never lands in the DOM, so
+ * middle-click or "copy link" cannot skip the form.
  */
 export function isPopupHref(href) {
   return (
@@ -19,10 +24,23 @@ export function isPopupHref(href) {
   );
 }
 
-const BlogCta = ({ href, className, children, popupConfig }) => {
-  const [open, setOpen] = useState(false);
+// Form copy for a gated download, so a post only has to supply the pitch.
+const DOWNLOAD_COPY = {
+  formTitle: 'Get the PDF',
+  formSubtitle: 'Enter your details and the PDF downloads straight away.',
+  submitCta: 'Download the PDF',
+  secondaryCta: null,
+};
 
-  if (!isPopupHref(href)) {
+/**
+ * `inline` renders the trigger as an anchor rather than a button, for links in
+ * running text, so prose link styling still applies.
+ */
+const BlogCta = ({ href, className, children, popupConfig, inline = false }) => {
+  const [open, setOpen] = useState(false);
+  const gated = isGatedHref(href);
+
+  if (!gated && !isPopupHref(href)) {
     return (
       <Link href={href || '#'} className={className}>
         {children}
@@ -30,25 +48,34 @@ const BlogCta = ({ href, className, children, popupConfig }) => {
     );
   }
 
+  const openPopup = (event) => {
+    event.preventDefault();
+    // Opening it deliberately counts as seen, so the scroll-triggered popup
+    // does not interrupt a moment later.
+    markPopupSeen();
+    setOpen(true);
+  };
+
+  const config = gated
+    ? { ...DOWNLOAD_COPY, ...popupConfig, brochure: popupConfig?.brochure || href }
+    : popupConfig || {};
+
   return (
     <>
-      <button
-        type="button"
-        className={className}
-        onClick={() => {
-          // Opening it deliberately counts as seen, so the scroll-triggered
-          // popup does not interrupt a moment later.
-          markPopupSeen();
-          setOpen(true);
-        }}
-      >
-        {children}
-      </button>
+      {inline ? (
+        <a href="#" role="button" className={className} onClick={openPopup}>
+          {children}
+        </a>
+      ) : (
+        <button type="button" className={className} onClick={openPopup}>
+          {children}
+        </button>
+      )}
       {open && (
         <BlogLeadPopup
           open={open}
           onClose={() => setOpen(false)}
-          config={popupConfig || {}}
+          config={config}
         />
       )}
     </>

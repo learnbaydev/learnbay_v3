@@ -32,3 +32,16 @@ export function externalLinkProps(href) {
     ? { rel: 'nofollow noopener noreferrer', target: '_blank' }
     : {};
 }
+
+// Learnbay's brochure bucket. A post that links a PDF from here gets the lead
+// form first; the file only downloads once the form has gone through.
+const GATED_HOST = /^brochureslearnbay\.s3[.-]/i;
+
+export function isGatedHref(href) {
+  if (typeof href !== 'string') return false;
+  try {
+    return GATED_HOST.test(new URL(href.trim()).hostname);
+  } catch {
+    return false;
+  }
+}
