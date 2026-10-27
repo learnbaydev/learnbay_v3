@@ -32,7 +32,7 @@ const CitiesLeft = dynamic(
   () => import("../../components/Seo/CitiesLeft/CitiesLeft"),
 );
 const CitiesRight = dynamic(
-  () => import("../../components/Seo/CitiesRight/CitiesRight"),
+  () => import("../../components/Seo/CitiesRight/CitiesRightDSIndia"),
 );
 const FAQNew = dynamic(() => import("../../components/Seo/FAQNew/FAQNew"));
 const OfferPopup = dynamic(
@@ -94,11 +94,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Data Science Courses Training in India - Learnbay</title>
+        <title>Online Data Science Course in India with IBM Certification</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Looking for the best data science course in India? Learnbay provides the best data science course training in India with placement assistance.          "
+          content="Learn data science online with Learnbay. Python, statistics, machine learning and GenAI in live classes, with IBM certification and job support."
         />
         <meta
           name="keywords"
@@ -114,13 +114,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course in India | Data Scientist Training In India - Learnbay"
+          content="Online Data Science Course in India with IBM Certification"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Best Data Science Courses in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India"
+          content="Learn data science online with Learnbay. Python, statistics, machine learning and GenAI in live classes, with IBM certification and job support."
         />
         <meta
           property="og:image"
@@ -132,16 +132,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in India | Data Scientist Training In India - Learnbay"
+          content="Online Data Science Course in India with IBM Certification"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Best Data Science Courses in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
+          content="Learn data science online with Learnbay. Python, statistics, machine learning and GenAI in live classes, with IBM certification and job support."
         />
         <meta
           name="twitter:description"
-          content="Best Data Science Courses in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
+          content="Learn data science online with Learnbay. Python, statistics, machine learning and GenAI in live classes, with IBM certification and job support."
         />
         <meta
           name="twitter:image"
@@ -181,7 +181,7 @@ export default function Home() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Best Online Data Science Course in India– Learnbay          "
+          firstHeading="Online Data Science Course in India"
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Embrace a digital learning space and gain adequate knowledge of data-related skills. Learnbay’s data science course in India emphasizes excellent career support through its GenAI AI-inclusive course syllabus. Learn to evaluate your career with domain-specific training, live projects, and top-notch certificates.           "
         />

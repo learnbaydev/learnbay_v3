@@ -96,7 +96,7 @@ const NewDSA = ({ DSADataJson }) => {
         },
         {
           id: 3,
-          ques: 'Does Learnbay Provide the Best Data Science Course for Working Professionals?',
+          ques: 'Is This Data Science Program Suitable for Working Professionals?',
           ans: 'Yes. Pursuing a data science and AI master certification is worth investing in at Learnbay. It empowers you to unleash potential benefits and tackle industry-driven GenAI challenges (at AI Co-Lab) with emerging GenAI models and Agentic systems.',
           open: false,
         },
@@ -465,7 +465,7 @@ const NewDSA = ({ DSADataJson }) => {
     },
     {
       "@type": "Question",
-      "name": "Does Learnbay Provide the Best Data Science Course for Working Professionals?",
+      "name": "Is This Data Science Program Suitable for Working Professionals?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes. We offer the best online data science training to keep you ahead of the career race. Pursuing a data science and AI master certification is worth investing in at Learnbay. It empowers you to unleash potential benefits and tackle industry-driven GenAI challenges (at AI Co-Lab). Learners with proven skills can work with emerging GenAI models and Agentic systems and certify them with alluring credentials. Lastly, you can showcase your expertise to grab rewarding GenAI roles with top-tier firms. "

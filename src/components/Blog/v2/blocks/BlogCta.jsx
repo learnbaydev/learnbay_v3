@@ -40,6 +40,16 @@ const BlogCta = ({ href, className, children, popupConfig, inline = false }) => 
   const [open, setOpen] = useState(false);
   const gated = isGatedHref(href);
 
+  // Other PDFs (not on the brochure bucket) open in a new tab so the reader
+  // keeps the post.
+  if (!gated && typeof href === 'string' && /\.pdf(\?|#|$)/i.test(href.trim())) {
+    return (
+      <a href={href} className={className} target="_blank" rel="noopener">
+        {children}
+      </a>
+    );
+  }
+
   if (!gated && !isPopupHref(href)) {
     return (
       <Link href={href || '#'} className={className}>
