@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { slugToId } from './slug';
 import { displayPostDate } from './dates';
+import { getAuthorHref } from './authors';
 
 export { slugToId };
 
@@ -129,7 +130,11 @@ export function loadPost(slug) {
     // Extra JSON-LD blocks (e.g. BreadcrumbList, ItemList) beyond the Article
     // and FAQPage the page builds itself.
     jsonLd: Array.isArray(data.jsonLd) ? data.jsonLd : [],
-    authorUrl: data.authorUrl || 'https://www.learnbay.co/',
+    // A registered author's profile page wins over frontmatter, so the Article
+    // schema always points at the page the byline links to.
+    authorUrl: getAuthorHref(data.author)
+      ? `https://www.learnbay.co${getAuthorHref(data.author)}`
+      : data.authorUrl || 'https://www.learnbay.co/',
     canonicalUrl: data.canonicalUrl || `https://www.learnbay.co/blogs/${slug}`,
     publishedDate: data.publishedDate || data.date,
     publisherLogo:

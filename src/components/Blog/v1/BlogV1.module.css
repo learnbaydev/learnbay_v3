@@ -82,6 +82,11 @@
   font-weight: bold;
 }
 
+.author a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .date {
   font-style: italic;
   color: #000;

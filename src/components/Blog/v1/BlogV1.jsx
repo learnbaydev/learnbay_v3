@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { Children, useEffect, useState, useRef, useMemo } from 'react';
 import Navbar from '@/components/Global/Navbar/Navbar';
 import { externalLinkProps } from '@/lib/blog/links';
+import { getAuthorHref } from '@/lib/blog/authors';
 import { TestingCourseData } from '@/CityData/testingData/testingData';
 
 const RelatedCourses = dynamic(
@@ -124,7 +125,14 @@ const BlogV1 = ({ postData, nextPost }) => {
         <div className={styles.metaContainer}>
           <h1 className={styles.blogTitle}>{postData.title}</h1>
           <div className={styles.metaInfo}>
-            <span className={styles.author}>By: {postData.author}</span>
+            <span className={styles.author}>
+              By:{' '}
+              {getAuthorHref(postData.author) ? (
+                <Link href={getAuthorHref(postData.author)}>{postData.author}</Link>
+              ) : (
+                postData.author
+              )}
+            </span>
             <span className={styles.readTime}>
               Read Time : {postData.readTime}
             </span>
