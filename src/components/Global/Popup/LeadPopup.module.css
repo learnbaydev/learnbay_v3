@@ -1,0 +1,528 @@
+/* Lead popup — Figma "Form · Apply for counselling" (485:2) and
+   "Form · Download syllabus" (485:168). Desktop 950 × 660, mobile 390 wide. */
+
+.scrim {
+  position: fixed;
+  inset: 0;
+  /* Above the floating WhatsApp button (16000160). */
+  z-index: 16000200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(15, 23, 42, 0.55);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.modal {
+  position: relative;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  width: 950px;
+  max-width: 100%;
+  max-height: calc(100vh - 32px);
+  max-height: calc(100dvh - 32px);
+  overflow-y: auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 22px;
+  box-shadow: 0 30px 80px -20px rgba(15, 23, 42, 0.45);
+  font-family: var(--lb-popup-font), "Plus Jakarta Sans", system-ui, sans-serif;
+  text-align: left;
+  color: #0f172a;
+}
+
+.close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 50%;
+  background: #fff;
+  color: #0f172a;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.close:hover {
+  background: #f1f5f9;
+}
+
+/* ── Form column ─────────────────────────────────────────────── */
+
+.formCol {
+  padding: 36px 40px 30px;
+  min-width: 0;
+}
+
+.header {
+  margin-bottom: 24px;
+  padding-right: 40px;
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  font-size: 13.5px;
+  line-height: 18px;
+  color: #64748b;
+}
+
+/* The pages still pass the old left image panel and an <h5> heading; the
+   design supplies both, so they are hidden rather than edited on every page. */
+.formCol :global(.leftPopup),
+.formCol :global(.RightPopup) > h5 {
+  display: none;
+}
+
+.formCol :global(.RightPopup) {
+  display: block;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Visual panel ────────────────────────────────────────────── */
+
+.panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 640px;
+  padding: 32px 12px 12px;
+  overflow: hidden;
+  border-radius: 16px;
+  background: linear-gradient(165deg, #3b64f6 0%, #4553ea 52%, #4a3fd7 100%);
+  color: #fff;
+}
+
+.glow {
+  position: absolute;
+  top: -112px;
+  left: 168px;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0) 70%);
+  pointer-events: none;
+}
+
+.copy {
+  position: relative;
+  max-width: 350px;
+  padding: 0 20px;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 10.5px;
+  line-height: 15px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.headline {
+  margin: 10px 0 0;
+  font-size: 26px;
+  line-height: 33px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.headlineSoft {
+  display: block;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+/* Certificate deck — 420 × 178, positions from the Figma frame. */
+.deck {
+  position: relative;
+  height: 178px;
+  margin: 20px -12px 0;
+}
+
+.cert {
+  position: absolute;
+  padding: 4px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px -10px rgba(15, 23, 42, 0.5);
+  line-height: 0;
+}
+
+.cert img {
+  display: block;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.certLeft {
+  top: 30px;
+  left: 34px;
+  transform: rotate(-7deg);
+}
+
+.certRight {
+  top: 30px;
+  left: 220px;
+  transform: rotate(7deg);
+}
+
+.certLeft img,
+.certRight img {
+  width: 174px;
+  height: 134px;
+}
+
+.certCenter {
+  top: 14px;
+  left: 127px;
+  z-index: 1;
+}
+
+.certCenter img {
+  width: 158px;
+  height: 110px;
+}
+
+.ibmBadge {
+  position: absolute;
+  top: 136px;
+  left: 50%;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 27px;
+  padding: 0 12px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 0 6px 16px -6px rgba(15, 23, 42, 0.45);
+  font-size: 11px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.seal {
+  font-size: 15px;
+  color: #2f5cf0;
+}
+
+/* Career switch card — 380 × 160. */
+.switchCard {
+  position: relative;
+  margin: 20px 8px 0;
+  padding: 17px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.learner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.initials {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  color: #3b5bf0;
+}
+
+.learnerName {
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.roleChip {
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.16);
+  font-size: 10px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.switchRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.fromChip,
+.toChip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.fromChip {
+  height: 30px;
+  padding: 0 11px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.toChip {
+  height: 28px;
+  padding: 0 10px;
+  background: #fff;
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.switchArrow {
+  font-size: 16px;
+  color: #6ee7b7;
+}
+
+.quote {
+  margin: 12px 0 0;
+  font-size: 11.5px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+/* Syllabus card with two sheets stacked behind it. */
+.syllabusWrap {
+  position: relative;
+  align-self: center;
+  width: 300px;
+  margin: auto 0;
+  padding-bottom: 16px;
+}
+
+.sheet {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.sheetBack {
+  left: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.sheetMid {
+  left: 10px;
+  right: 10px;
+  bottom: 8px;
+}
+
+.syllabusCard {
+  position: relative;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 18px 40px -16px rgba(15, 23, 42, 0.55);
+  color: #0f172a;
+}
+
+.syllabusTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.syllabusEyebrow {
+  margin: 0;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #2f5cf0;
+}
+
+.syllabusTitle {
+  margin: 6px 0 0;
+  font-size: 13.5px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.pdfChip {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 7px;
+  border-radius: 6px;
+  background: #fee2e2;
+  font-size: 9.5px;
+  font-weight: 700;
+  color: #dc2626;
+}
+
+.syllabusList {
+  display: grid;
+  gap: 16px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.syllabusList li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1e293b;
+}
+
+.syllabusNum {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #eef2ff;
+  font-size: 10px;
+  font-weight: 700;
+  color: #3b5bf0;
+}
+
+/* Proof strip — 396 × 63, pinned to the panel's foot. */
+.proof {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 13px 17px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+  background: rgba(15, 23, 90, 0.18);
+}
+
+.stat p {
+  margin: 0;
+}
+
+.statValue {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14.5px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.statLabel {
+  margin-top: 4px !important;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.stars {
+  display: inline-flex;
+  gap: 1px;
+  font-size: 11px;
+  color: #fbbf24;
+}
+
+.divider {
+  width: 1px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* ── Mobile: 390 wide, the panel collapses to a 121px header band ── */
+
+@media (max-width: 860px) {
+  .scrim {
+    align-items: flex-start;
+    padding: 36px 0 0;
+  }
+
+  .modal {
+    display: block;
+    width: 100%;
+    max-height: calc(100vh - 36px);
+    max-height: calc(100dvh - 36px);
+    padding: 0;
+    border-radius: 22px 22px 0 0;
+  }
+
+  .panel {
+    min-height: 0;
+    padding: 24px 24px 24px;
+    border-radius: 22px 22px 0 0;
+  }
+
+  .copy {
+    max-width: 300px;
+    padding: 0;
+  }
+
+  .headline {
+    font-size: 19px;
+    line-height: 24px;
+  }
+
+  .deck,
+  .switchCard,
+  .syllabusWrap,
+  .proof {
+    display: none;
+  }
+
+  .close {
+    border-color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff;
+  }
+
+  .close:hover {
+    background: rgba(255, 255, 255, 0.26);
+  }
+
+  .formCol {
+    padding: 24px 20px 28px;
+  }
+
+  .header {
+    padding-right: 0;
+  }
+}

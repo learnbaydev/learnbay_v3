@@ -1,9 +1,11 @@
 import jsCookie from "js-cookie";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import styles from "./Form.module.css";
+import PopupDesignContext from "../Popup/PopupDesignContext";
+import PopupFields from "./PopupFields";
 import {
   getEndPoint,
   getFormFields,
@@ -68,6 +70,8 @@ const Form = ({
     Domain: "",
   });
   const [submitting, setSubmitting] = useState(false); // State to track form submission
+  // Set when this form sits inside the lead popup design.
+  const popupDesign = useContext(PopupDesignContext);
 
   useEffect(() => {
     setQuery({ ...query, phone: value });
@@ -295,6 +299,27 @@ const Form = ({
       };
     }
   };
+
+  if (popupDesign) {
+    return (
+      <PopupFields
+        fields={DomainInput ? formField : formFields}
+        query={query}
+        onFieldChange={handleParam}
+        phone={value}
+        onPhoneChange={setValue}
+        onSubmit={formSubmit}
+        submitting={submitting}
+        hasError={Boolean(error)}
+        alertMSG={alertMSG}
+        downloadBrochure={downloadBrochure}
+        btnText={btnText}
+        onSubmitClick={() => setToggle(true)}
+        url={popup ? router.asPath : null}
+        syllabus={popupDesign.syllabus}
+      />
+    );
+  }
 
   return (
     <div className={styles.App}>
