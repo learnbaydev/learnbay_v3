@@ -515,7 +515,7 @@ export const DSIndiaCourseData = [
       'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
 
     JobHead1:
-      'What skills and technical abilities can you develop with Learnbay’s best data science course in India?       ',
+      'What skills and technical abilities can you develop with Learnbay’s data science course in India?       ',
     Joblist1: 'Fundamental knowledge of data cleansing    ',
     Joblist2: 'Developing coding skills      ',
     Joblist3: 'Python for data science     ',

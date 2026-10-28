@@ -53,7 +53,7 @@ const Accordion = () => {
           <p>
             Upskilling with our data science online course helps you develop
             in-demand skills to thrive in today’s competitive career race.
-            Working pros at early to senior career levels can enroll in the best
+            Working pros at early to senior career levels can enroll in Learnbay’s
             data science courses to attain success. In addition, certificates
             from IBM & Microsoft and a master’s degree (Woolf) uplift the career
             value.
@@ -112,7 +112,7 @@ const Accordion = () => {
           <br />
 
           <h4 style={{ fontSize: '20px' }}>
-            Best Data Science Courses Online in 2024
+            Data Science Courses Online
           </h4>
           <br />
           <p>
@@ -280,7 +280,7 @@ const Accordion = () => {
             Our leading-edge data science course institute offers
             domain-specific training sessions to enrich your prior knowledge. It
             helps you note down real issues and tackle them with the right
-            methods. Learnbay’s best data science courses follow the trending
+            methods. Learnbay’s data science courses follow the trending
             domains to align them for upskilling. Such domain electives are –
           </p>
           <ul style={{ marginLeft: '20px' }}>
@@ -412,7 +412,7 @@ const Accordion = () => {
       content: (
         <>
           <p>
-            In today’s tech era, we offer the best online data science courses
+            In today’s tech era, we offer online data science courses
             with premium career gains. Experts joining any of the courses will
             equip themselves with alluring job offers from the leading MNCs. All
             the eligible learners with at least 70% score in tasks can avail of
@@ -445,7 +445,7 @@ const Accordion = () => {
           <h4 style={{ fontSize: '20px' }}>Career Service PRO</h4>
           <p>
             Experts eager to re-establish their careers with premium gains must
-            enroll in the best{' '}
+            enroll in a{' '}
             <b>data science course with placement support.</b> We envision a
             successful career change with alluring growth offers. Apart from
             tech skills, our job assist program focuses on soft and behavioral
@@ -493,7 +493,7 @@ const Accordion = () => {
           </p>
 
           <p>
-            The best data science courses offer a project-based learning
+            Learnbay’s data science courses offer a project-based learning
             experience with assured career gains. Experts enrolling in our data
             science courses will have the scope to work with 12+ real-time
             projects. Learners can choose their preferred domain electives and

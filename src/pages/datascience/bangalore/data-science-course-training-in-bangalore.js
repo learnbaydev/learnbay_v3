@@ -105,7 +105,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content=" Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Banglore. Visit now"
+          content=" Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Bangalore. Visit now"
         />
         <meta
           name="keywords"
