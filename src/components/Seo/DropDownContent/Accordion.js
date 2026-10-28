@@ -29,7 +29,7 @@ const Accordion = () => {
           </p>
 
           <p>
-            As the demand for upskilling increases, Learnbay’s data science
+            As the demand for upskilling increases, Learnbay’s top data science
             courses take the central stage. Our industry-driven training
             programs help you remain competitive and sustain for longer. Besides
             skills upgrades, our premium training programs make you apt to crack

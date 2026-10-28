@@ -538,7 +538,7 @@ export const DSIndiaCourseData = [
     JobHead19: 'Career Service Pro    ',
 
     JobBot20:
-      'The data science course tends to allow data enthusiasts a promising and potentially lucrative career with high salary packages. Hence, working professionals opt for a data science course with placement support.       ',
+      'The data science course tends to allow data enthusiasts a promising and potentially lucrative career with high salary packages. Hence, working professionals opt for the best data science course to earn 100% career assistance.       ',
     JobBot003:
       'Our data science course training can lend you end-to-end job placement opportunities that can be supported via Career Service Pro. If you learn to achieve at least 70% in tasks and assessments, you are eligible for placement services. Here, you also earn an opportunity for 1:1 doubt-clearing and resume-building sessions.       ',
     JobBot39: 'Career Service Pro feature provides –      ',

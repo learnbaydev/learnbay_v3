@@ -94,7 +94,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Online Data Science Course in India with IBM Certification</title>
+        <title>Data Science Course in India with IBM Certification</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -114,7 +114,7 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Online Data Science Course in India with IBM Certification"
+          content="Data Science Course in India with IBM Certification"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
@@ -132,7 +132,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Online Data Science Course in India with IBM Certification"
+          content="Data Science Course in India with IBM Certification"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -181,7 +181,7 @@ export default function Home() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Online Data Science Course in India"
+          firstHeading="Data Science Course in India with IBM"
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Embrace a digital learning space and gain adequate knowledge of data-related skills. Learnbay’s data science course in India emphasizes excellent career support through its GenAI AI-inclusive course syllabus. Learn to evaluate your career with domain-specific training, live projects, and top-notch certificates.           "
         />
