@@ -65,17 +65,16 @@ async function fetchLocation() {
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 /**
- * Starts a brochure download, mirroring the site-wide form's helper. The S3
- * bucket already serves these with `Content-Disposition: attachment`, so the
- * anchor click saves the file rather than opening a PDF viewer.
+ * Opens a blank tab for the PDF while the submit click still counts as a user
+ * gesture; by the time the lead has posted, a fresh window.open would be
+ * popup-blocked. The S3 bucket serves these inline (no attachment header, and
+ * `download` is ignored cross-origin), so without a new tab the PDF would
+ * replace the blog.
  */
-function triggerDownload(url) {
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = url.split('/').pop();
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
+function reservePdfTab() {
+  const tab = window.open('', '_blank');
+  if (tab) tab.opener = null;
+  return tab;
 }
 
 /**
@@ -142,6 +141,7 @@ const BlogLeadPopup = ({ open, onClose, config = {} }) => {
     event.preventDefault();
     if (submitting || !validate()) return;
     setSubmitting(true);
+    const pdfTab = content.brochure ? reservePdfTab() : null;
 
     const formData = new FormData();
     Object.entries(values).forEach(([key, value]) => formData.append(key, value));
@@ -161,9 +161,12 @@ const BlogLeadPopup = ({ open, onClose, config = {} }) => {
       });
       // Only after the lead is away — a failed submit should not hand over the
       // brochure.
-      if (content.brochure) triggerDownload(content.brochure);
+      if (pdfTab) pdfTab.location.href = content.brochure;
+      else if (content.brochure)
+        window.open(content.brochure, '_blank', 'noopener,noreferrer');
       setDone(true);
     } catch (error) {
+      pdfTab?.close();
       console.error('Lead submission failed:', error);
       setErrors({ form: 'Something went wrong. Please try again.' });
     } finally {
@@ -225,15 +228,19 @@ const BlogLeadPopup = ({ open, onClose, config = {} }) => {
               </span>
               <p className={styles.formTitle}>
                 {content.brochure
-                  ? 'Thanks — your brochure is downloading.'
+                  ? 'Thanks — your PDF has opened in a new tab.'
                   : 'Thanks — you’re booked in.'}
               </p>
               <p className={styles.formSubtitle}>
                 {content.brochure ? (
                   <>
-                    If it did not start,{' '}
-                    <a href={content.brochure} download>
-                      download it here
+                    If it did not open,{' '}
+                    <a
+                      href={content.brochure}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      open it here
                     </a>
                     . A counsellor will also call you shortly.
                   </>

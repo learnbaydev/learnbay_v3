@@ -14,7 +14,7 @@ const BlogLeadPopup = dynamic(() => import('@/components/Blog/BlogLeadPopup'));
  *   secondaryHref: 'popup'
  *
  * A brochure-bucket PDF href is gated the same way: the form opens, and the PDF
- * downloads only after it submits. The real URL never lands in the DOM, so
+ * opens in a new tab only after it submits. The real URL never lands in the DOM, so
  * middle-click or "copy link" cannot skip the form.
  */
 export function isPopupHref(href) {
@@ -27,7 +27,7 @@ export function isPopupHref(href) {
 // Form copy for a gated download, so a post only has to supply the pitch.
 const DOWNLOAD_COPY = {
   formTitle: 'Get the PDF',
-  formSubtitle: 'Enter your details and the PDF downloads straight away.',
+  formSubtitle: 'Enter your details and the PDF opens in a new tab.',
   submitCta: 'Download the PDF',
   secondaryCta: null,
 };
