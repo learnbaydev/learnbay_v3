@@ -692,8 +692,6 @@ This blog will walk you through the 10 programs worth your time in 2027 and how 
 
 ::takeaways{from=keyTakeaways}
 
-::report-download{from=courseChecklist}
-
 ## What Does a Data Scientist Do in 2027, and Which Skills Matter Most?
 
 :::note
@@ -976,6 +974,8 @@ Use these six criteria to compare any shortlist for the **best data science cour
 **Criteria 5: The exact career-support wording.** "Placement assistance", "referrals" and "guaranteed interviews" mean different things. Read the terms, since no program on this list guarantees a job.
 
 **Criteria 6: A format that fits your week.** Pick weekend batches, weekday evenings or a classroom routine you can sustain for a year.
+
+::report-download{from=courseChecklist}
 
 For a longer checklist built around career goals, see [how to choose the right data science program for your career goals](https://www.learnbay.co/blogs/how-to-choose-the-right-data-science-program-for-your-career-goals).
 
