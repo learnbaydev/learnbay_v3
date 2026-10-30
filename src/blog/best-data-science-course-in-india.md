@@ -87,16 +87,16 @@ jsonLd:
     '@id': https://www.learnbay.co/blogs/best-data-science-course-in-india#breadcrumb
     itemListElement:
       - {
-          '@type': ListItem,
-          position: 1,
-          name: Home,
-          item: 'https://www.learnbay.co/',
+        '@type': ListItem,
+        position: 1,
+        name: Home,
+        item: 'https://www.learnbay.co/',
         }
       - {
-          '@type': ListItem,
-          position: 2,
-          name: Blogs,
-          item: 'https://www.learnbay.co/blogs',
+        '@type': ListItem,
+        position: 2,
+        name: Blogs,
+        item: 'https://www.learnbay.co/blogs',
         }
       - '@type': ListItem
         position: 3
@@ -111,96 +111,54 @@ jsonLd:
     itemListElement:
       - '@type': ListItem
         position: 1
-        item:
-          '@type': Course
-          name: Data Science & GenAI Master Program
-          url: https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program
-          description: 'Data Science & GenAI Master Program by Learnbay, ranked #1 in the 2027 comparison.'
-          provider: { '@type': Organization, name: Learnbay }
+        name: Data Science & GenAI Master Program
+        url: https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program
+        description: 'Data Science & GenAI Master Program by Learnbay, ranked #1 in the 2027 comparison.'
       - '@type': ListItem
         position: 2
-        item:
-          '@type': Course
-          name: BS Degree in Data Science and Applications
-          url: https://study.iitm.ac.in/ds/
-          description: 'BS Degree in Data Science and Applications by IIT Madras, ranked #2 in the 2027 comparison.'
-          provider: { '@type': Organization, name: IIT Madras }
+        name: BS Degree in Data Science and Applications
+        url: https://study.iitm.ac.in/ds/
+        description: 'BS Degree in Data Science and Applications by IIT Madras, ranked #2 in the 2027 comparison.'
       - '@type': ListItem
         position: 3
-        item:
-          '@type': Course
-          name: Executive Diploma in Data Science & Artificial Intelligence
-          url: https://www.upgrad.com/data-science-pgd-iiitb/
-          description: 'Executive Diploma in Data Science & Artificial Intelligence by upGrad with IIIT Bangalore, ranked #3 in the 2027 comparison.'
-          provider: { '@type': Organization, name: upGrad with IIIT Bangalore }
+        name: Executive Diploma in Data Science & Artificial Intelligence
+        url: https://www.upgrad.com/data-science-pgd-iiitb/
+        description: 'Executive Diploma in Data Science & Artificial Intelligence by upGrad with IIIT Bangalore, ranked #3 in the 2027 comparison.'
       - '@type': ListItem
         position: 4
-        item:
-          '@type': Course
-          name: Modern Data Science and ML with Specialisation in AI
-          url: https://www.scaler.com/data-science-course/
-          description: 'Modern Data Science and ML with Specialisation in AI by Scaler, ranked #4 in the 2027 comparison.'
-          provider: { '@type': Organization, name: Scaler }
+        name: Modern Data Science and ML with Specialisation in AI
+        url: https://www.scaler.com/data-science-course/
+        description: 'Modern Data Science and ML with Specialisation in AI by Scaler, ranked #4 in the 2027 comparison.'
       - '@type': ListItem
         position: 5
-        item:
-          '@type': Course
-          name: M.Tech. Data Science & Engineering
-          url: https://bits-pilani-wilp.ac.in/m-tech/cluster/data-science-and-engineering.php
-          description: 'M.Tech. Data Science & Engineering by BITS Pilani Work Integrated Learning Programmes, ranked #5 in the 2027 comparison.'
-          provider:
-            {
-              '@type': Organization,
-              name: BITS Pilani Work Integrated Learning Programmes,
-            }
+        name: M.Tech. Data Science & Engineering
+        url: https://bits-pilani-wilp.ac.in/m-tech/cluster/data-science-and-engineering.php
+        description: 'M.Tech. Data Science & Engineering by BITS Pilani Work Integrated Learning Programmes, ranked #5 in the 2027 comparison.'
       - '@type': ListItem
         position: 6
-        item:
-          '@type': Course
-          name: Executive Post Graduate Certification in Data Science & Artificial Intelligence
-          url: https://intellipaat.com/epgc-data-science-ai-ihubds-iit-roorkee/
-          description: 'Executive Post Graduate Certification in Data Science & Artificial Intelligence by Intellipaat with iHUB DivyaSampark, IIT Roorkee, ranked #6 in the 2027 comparison.'
-          provider:
-            {
-              '@type': Organization,
-              name: 'Intellipaat with iHUB DivyaSampark, IIT Roorkee',
-            }
+        name: Executive Post Graduate Certification in Data Science & Artificial Intelligence
+        url: https://intellipaat.com/epgc-data-science-ai-ihubds-iit-roorkee/
+        description: 'Executive Post Graduate Certification in Data Science & Artificial Intelligence by Intellipaat with iHUB DivyaSampark, IIT Roorkee, ranked #6 in the 2027 comparison.'
       - '@type': ListItem
         position: 7
-        item:
-          '@type': Course
-          name: 'Post Graduate Program in Data Science with Generative AI: Applications to Business'
-          url: https://www.mygreatlearning.com/pg-program-data-science-business-analytics-course
-          description: 'Post Graduate Program in Data Science with Generative AI: Applications to Business by Great Learning with The University of Texas at Austin McCombs, ranked #7 in the 2027 comparison.'
-          provider:
-            {
-              '@type': Organization,
-              name: Great Learning with The University of Texas at Austin McCombs,
-            }
+        name: 'Post Graduate Program in Data Science with Generative AI: Applications to Business'
+        url: https://www.mygreatlearning.com/pg-program-data-science-business-analytics-course
+        description: 'Post Graduate Program in Data Science with Generative AI: Applications to Business by Great Learning with The University of Texas at Austin McCombs, ranked #7 in the 2027 comparison.'
       - '@type': ListItem
         position: 8
-        item:
-          '@type': Course
-          name: Professional Certificate Programme in Data Science and AI for Business
-          url: https://iimkozhikode.emeritus.org/iimk-data-science-machine-learning-and-artificial-intelligence
-          description: 'Professional Certificate Programme in Data Science and AI for Business by Emeritus with IIM Kozhikode, ranked #8 in the 2027 comparison.'
-          provider: { '@type': Organization, name: Emeritus with IIM Kozhikode }
+        name: Professional Certificate Programme in Data Science and AI for Business
+        url: https://iimkozhikode.emeritus.org/iimk-data-science-machine-learning-and-artificial-intelligence
+        description: 'Professional Certificate Programme in Data Science and AI for Business by Emeritus with IIM Kozhikode, ranked #8 in the 2027 comparison.'
       - '@type': ListItem
         position: 9
-        item:
-          '@type': Course
-          name: Data Science 360 (Advanced Certification in Data Science)
-          url: https://www.analytixlabs.co.in/data-science-specialization-course/
-          description: 'Data Science 360 (Advanced Certification in Data Science) by AnalytixLabs, ranked #9 in the 2027 comparison.'
-          provider: { '@type': Organization, name: AnalytixLabs }
+        name: Data Science 360 (Advanced Certification in Data Science)
+        url: https://www.analytixlabs.co.in/data-science-specialization-course/
+        description: 'Data Science 360 (Advanced Certification in Data Science) by AnalytixLabs, ranked #9 in the 2027 comparison.'
       - '@type': ListItem
         position: 10
-        item:
-          '@type': Course
-          name: IBM Data Science Professional Certificate
-          url: https://www.coursera.org/professional-certificates/ibm-data-science
-          description: 'IBM Data Science Professional Certificate by Coursera with IBM, ranked #10 in the 2027 comparison.'
-          provider: { '@type': Organization, name: Coursera with IBM }
+        name: IBM Data Science Professional Certificate
+        url: https://www.coursera.org/professional-certificates/ibm-data-science
+        description: 'IBM Data Science Professional Certificate by Coursera with IBM, ranked #10 in the 2027 comparison.'
 faqs:
   - question: Which is the best data science course in India in 2027?
     answer: For working professionals, the Data Science & GenAI Master Program from Learnbay, in collaboration with IBM, IIT Patna and Microsoft, is the strongest all-round pick in 2027. It runs 13 months of live classes with 170+ project hours and domain electives. For a university degree, IIT Madras is the leading alternative.
@@ -753,12 +711,14 @@ Much of this demand comes from global capability centres (GCCs), which are offsh
 
 Bengaluru held a 26% share of India's AI job postings, as per [foundit reports](https://www.business-standard.com/industry/news/india-hiring-rises-15-pc-in-dec-signalling-shift-to-measured-expansion-report-126011301059_1.html) in 2026. Here is how the other hubs compare –
 
-<!-- Planned series blog (404 until live). Switch the link on the day it publishes:
-     "data science vs data analytics" above -> /blogs/best-data-analytics-course-in-india -->
+<!-- Planned series blogs (404 until live). Switch the links on the day each publishes:
+     "data science vs data analytics" above -> /blogs/best-data-analytics-course-in-india
+     Hyderabad / Pune / Delhi NCR bullets below point to the city course pages until
+     /blogs/best-data-science-course-in-{hyderabad,pune,delhi-ncr} go live -->
 
-- Hyderabad grew fastest at 48%, as a major GCC and pharma hub. Compare the [data science courses in Hyderabad](https://www.learnbay.co/blogs/best-data-science-course-in-hyderabad) for GCC and pharma roles.
-- Pune grew 31%, with BFSI GCCs and automotive firms. Compare the [data science courses in Pune](https://www.learnbay.co/blogs/best-data-science-course-in-pune) for BFSI and manufacturing roles.
-- Delhi NCR grew 25%, across consulting, fintech and public-sector work. Compare the [data science courses across Delhi, Gurugram and Noida](https://www.learnbay.co/blogs/best-data-science-course-in-delhi-ncr).
+- Hyderabad grew fastest at 48%, as a major GCC and pharma hub. See the [data science course in Hyderabad](https://www.learnbay.co/datascience/hyderabad/data-science-course-training-in-hyderabad) for GCC and pharma roles.
+- Pune grew 31%, with BFSI GCCs and automotive firms. See the [data science course in Pune](https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune) for BFSI and manufacturing roles.
+- Delhi NCR grew 25%, across consulting, fintech and public-sector work. See the [data science course in Delhi](https://www.learnbay.co/datascience/delhi/data-science-course-training-in-delhi) for Delhi, Gurugram and Noida.
 - Bengaluru grew 31% and holds the largest share of AI postings. If you are in the city, see the [data science course in Bangalore](https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore).
 
 Hence, a live online program lets you study from any city and apply across all six hubs.
