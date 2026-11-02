@@ -1,11 +1,9 @@
 import jsCookie from "js-cookie";
 import { useRouter } from "next/router";
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import styles from "./Form.module.css";
-import PopupDesignContext from "../Popup/PopupDesignContext";
-import PopupFields from "./PopupFields";
 import {
   getEndPoint,
   getFormFields,
@@ -38,6 +36,8 @@ const Form = ({
   DSADemoSession,
   genAISelectOption,
   courseId,
+  gatedPdf,
+  leadPlatform,
 }) => {
   const router = useRouter();
   const [formFields, setFormFields] = useState(
@@ -70,8 +70,6 @@ const Form = ({
     Domain: "",
   });
   const [submitting, setSubmitting] = useState(false); // State to track form submission
-  // Set when this form sits inside the lead popup design.
-  const popupDesign = useContext(PopupDesignContext);
 
   useEffect(() => {
     setQuery({ ...query, phone: value });
@@ -113,16 +111,30 @@ const Form = ({
     e.preventDefault();
     setSubmitting(true); // Set submitting state to true
 
+    // Open the tab while the submit click still counts as a user gesture; once
+    // the lead has posted, window.open would be popup-blocked.
+    let pdfTab = null;
+    if (gatedPdf && !getValidation(radio, Domain, interstedInHide, query)) {
+      pdfTab = window.open("", "_blank");
+      if (pdfTab) pdfTab.opener = null;
+    }
+
     let updatedQuery = { ...query };
 
     // If genAISelectOption is true, set platform to "generative ai"
     if (genAISelectOption) {
       updatedQuery.platform = "Generative AI";
     }
+    if (leadPlatform) {
+      updatedQuery.platform = leadPlatform;
+    }
     const formData = new FormData();
     Object.entries(updatedQuery).forEach(([key, value]) => {
       formData.append(key, value);
     });
+    if (gatedPdf) {
+      formData.append("brochureLink", gatedPdf);
+    }
 
     try {
       const locationData = await fetchLocation();
@@ -182,6 +194,15 @@ const Form = ({
           setDSAPopup();
         }
 
+        // A gated PDF opens in its own tab and the reader stays on the page.
+        if (gatedPdf) {
+          if (sendData.status !== 200) pdfTab?.close();
+          else if (pdfTab) pdfTab.location.href = gatedPdf;
+          else window.open(gatedPdf, "_blank", "noopener,noreferrer");
+          setSubmitting(false);
+          return;
+        }
+
         if (sendData.status === 200) {
           if (downloadBrochure) {
             downloadFileAtUrl(brochurePdf); // Download the brochure only after a successful submission
@@ -218,6 +239,7 @@ const Form = ({
       }
       setSubmitting(false); // Set submitting state to false after form submission
     } catch (error) {
+      pdfTab?.close();
       console.error("Error submitting form:", error.message);
     }
   };
@@ -299,27 +321,6 @@ const Form = ({
       };
     }
   };
-
-  if (popupDesign) {
-    return (
-      <PopupFields
-        fields={DomainInput ? formField : formFields}
-        query={query}
-        onFieldChange={handleParam}
-        phone={value}
-        onPhoneChange={setValue}
-        onSubmit={formSubmit}
-        submitting={submitting}
-        hasError={Boolean(error)}
-        alertMSG={alertMSG}
-        downloadBrochure={downloadBrochure}
-        btnText={btnText}
-        onSubmitClick={() => setToggle(true)}
-        url={popup ? router.asPath : null}
-        syllabus={popupDesign.syllabus}
-      />
-    );
-  }
 
   return (
     <div className={styles.App}>

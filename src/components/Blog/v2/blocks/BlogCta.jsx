@@ -24,12 +24,9 @@ export function isPopupHref(href) {
   );
 }
 
-// Form copy for a gated download, so a post only has to supply the pitch.
+// Popup heading for a gated download, unless the post sets its own.
 const DOWNLOAD_COPY = {
   formTitle: 'Get the PDF',
-  formSubtitle: 'Enter your details and the PDF opens in a new tab.',
-  submitCta: 'Download the PDF',
-  secondaryCta: null,
 };
 
 /**
