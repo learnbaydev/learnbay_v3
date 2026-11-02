@@ -177,6 +177,52 @@ const getValidation = (radio, interstedInHide, Domain, query) => {
     return false;
   }
 };
+const EMPTY_FIELD_ERRORS = {
+  name: 'Please enter your full name',
+  email: 'Please enter your email',
+  phone: 'Please enter your phone number',
+  WorkExperience: 'Please select your work experience',
+  platform: 'Please select a course preference',
+  Domain: 'Please select a domain',
+  WAdropdown: 'Please select an option',
+};
+
+// Per-field messages for the popup, keyed by field name. `phone` is the digits
+// from the phone widget, dial code included.
+const getFieldErrors = (fields, query, phone, dialCode) => {
+  const errors = {};
+  fields.forEach((field) => {
+    if (!field.showField || !field.required) return;
+
+    if (field.type === 'phone') {
+      const number = (phone || '').slice(dialCode.length);
+      if (!number) {
+        errors.phone = EMPTY_FIELD_ERRORS.phone;
+      } else if (dialCode === '91' ? number.length !== 10 : number.length < 6) {
+        errors.phone =
+          dialCode === '91'
+            ? 'Please enter a valid 10-digit phone number'
+            : 'Please enter a valid phone number';
+      }
+      return;
+    }
+
+    const value = (query[field.name] || '').trim();
+    const isPlaceholder =
+      field.type === 'select' &&
+      field.options.some((option) => option.hidden && option.value === value);
+    if (!value || isPlaceholder) {
+      errors[field.name] = EMPTY_FIELD_ERRORS[field.name];
+    } else if (
+      field.type === 'email' &&
+      !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
+    ) {
+      errors[field.name] = 'Please enter a valid email address';
+    }
+  });
+  return errors;
+};
+
 const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
   return [
     // ... (previous form fields)
@@ -372,4 +418,10 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
   ];
 };
 
-export { getEndPoint, redirectionThankYou, getValidation, getFormFields };
+export {
+  getEndPoint,
+  redirectionThankYou,
+  getValidation,
+  getFieldErrors,
+  getFormFields,
+};
