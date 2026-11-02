@@ -103,10 +103,7 @@ export function TopPick({ data }) {
         <BlogLeadPopup
           open={formOpen}
           onClose={() => setFormOpen(false)}
-          config={{
-            secondaryHref: data.secondaryHref,
-            ...(data.popup || {}),
-          }}
+          config={data.popup || {}}
         />
       )}
     </aside>

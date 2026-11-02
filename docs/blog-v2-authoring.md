@@ -100,15 +100,13 @@ render. There are no placeholders to clean up.
 
 ### The blog lead popup
 
-Every blog CTA that collects a lead opens the same component,
-[`BlogLeadPopup`](../src/components/Blog/BlogLeadPopup.jsx) — one design for all
-posts. It ships working defaults, so a block that opens it needs no config.
+Every blog CTA that collects a lead opens
+[`BlogLeadPopup`](../src/components/Blog/BlogLeadPopup.jsx), which renders the
+site's standard popup and form (`PopupContent`), so it needs no config.
 
-It posts the same FormData keys (`name`, `email`, `phone`, `WorkExperience`,
-`url`, `platform`, `country`, `region`, `city`) to the same endpoint as the
-homepage form: `getEndPoint(router.pathname)` has no case for `/blogs/[slug]`,
-so both fall through to the same getform.io destination. The experience options
-match the site-wide form's values exactly.
+It posts to the same endpoint as the homepage form, with `platform` set to
+`Blog` unless the popup config sets its own. A counselling lead then goes to
+`/Thank-you-counselling`; a brochure lead stays on the post.
 
 **It also opens on its own, once, after the reader passes 20% of the post.**
 That is session-gated through the same `hasSeenPopup` key the site-wide popup
@@ -128,15 +126,14 @@ Works on `learnbay-strip`, `learnbay-split-card`, `learnbay-dark-band`,
 `report-download`, `top-pick` and the page-level `finalCta`.
 
 **To deliver a brochure**, add `brochure:` to that CTA's popup config. The PDF
-downloads the moment the lead submits successfully — never before — and the URL
-is attached to the lead as `brochureLink`:
+opens in a new tab once the lead submits successfully — never before — and the
+URL is attached to the lead as `brochureLink`:
 
 ```yaml
 cta: 'Download syllabus'
 href: 'popup'
 popup:
   formTitle: 'Get the full syllabus'
-  submitCta: 'Send me the syllabus'
   brochure: 'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf'
 ```
 
@@ -145,25 +142,16 @@ course is the URL on that course's own page. Blocks with two CTAs take
 `primaryPopup:` and `secondaryPopup:` when the two buttons need different
 popups — e.g. a counselling call and a syllabus download side by side.
 
-A post can override the auto-popup copy with a **top-level** `popup:` key in
-frontmatter; the same shape overrides a block's popup when nested under that
-block's data.
-
-To override the copy for one post, add a `popup:` object to the block's data:
+The popup config takes `formTitle` (the heading), `platform` and `brochure`. A
+post can set them for the auto-popup with a **top-level** `popup:` key in
+frontmatter; the same shape applies to a block's popup when nested under that
+block's data:
 
 ```yaml
 topPick:
   # …card fields…
   popup:
-    eyebrow: 'AI Engineering Master Program'
-    title: 'Not sure this is the right track for you?'
-    text: 'One call is usually enough to know.'
-    points: ['A straight answer on whether your background fits']
     formTitle: 'Book a free counselling call'
-    formSubtitle: 'No cost, no obligation. Takes 15 minutes.'
-    submitCta: 'Book my free call'
-    secondaryCta: 'Just show me the program'
-    secondaryHref: '/genai-and-agentic-ai-master-program'
     platform: 'Blog'      # tags the lead source in the inbox
 ```
 
