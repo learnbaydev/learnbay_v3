@@ -93,133 +93,36 @@ const redirectionThankYou = (
   return routerPath;
 };
 
-const getValidation = (radio, interstedInHide, Domain, query) => {
-  if (query.phone === '' || query.phone === undefined) {
-    return true;
-  } else if (radio === true && interstedInHide === true && Domain === true) {
-    if (query.interstedIn === 'Interested In') {
-      return true;
-    } else if (query.interstedIn === '') {
-      return true;
-    } else if (query.platform === 'Select Course Preference') {
-      return true;
-    } else if (query.platform === '') {
-      return true;
-    } else if (query.Domain === '') {
-      return true;
-    } else if (query.Domain === 'Select Domain') {
-      return true;
-    } else {
-      return false;
-    }
-  } else if (
-    interstedInHide === true &&
-    (!radio === undefined ||
-      (radio === false && !Domain === undefined) ||
-      Domain === false)
-  ) {
-    if (query.interstedIn === 'Interested In') {
-      return true;
-    } else if (query.interstedIn === '') {
-      return true;
-    } else return false;
-  } else if (
-    radio === true &&
-    (!interstedInHide === undefined ||
-      (interstedInHide === false && !Domain === undefined) ||
-      Domain === false)
-  ) {
-    if (query.platform === 'Select Course Preference') {
-      return true;
-    } else if (query.platform === '') {
-      return true;
-    } else if (query.platform === undefined) {
-      return true;
-    } else return false;
-  } else if (
-    Domain === true &&
-    (!interstedInHide === undefined || interstedInHide === false,
-    !radio === undefined || radio === false)
-  ) {
-    if (query.Domain === 'Select Domain') {
-      return true;
-    } else if (query.Domain === '') {
-      return true;
-    } else if (query.Domain === undefined) {
-      return true;
-    } else return false;
-  }
-  //new validation logics for updated form fields
-  else if (query.name === '') {
-    return true;
-  } else if (query.email === '') {
-    return true;
-  } else if (
-    query.WorkExperience === '' ||
-    query.WorkExperience === 'Work Experience'
-  ) {
-    return true;
-  } else if (radio === true) {
-    if (
-      query.platform === '' ||
-      query.platform === 'Select Course Preference'
-    ) {
-      return true;
-    }
-  } else if (
-    interstedInHide === false ||
-    interstedInHide === undefined ||
-    radio === false ||
-    radio === undefined ||
-    Domain === false ||
-    Domain === undefined
-  ) {
-    return false;
-  }
-};
-const EMPTY_FIELD_ERRORS = {
-  name: 'Please enter your full name',
-  email: 'Please enter your email',
-  phone: 'Please enter your phone number',
-  WorkExperience: 'Please select your work experience',
-  platform: 'Please select a course preference',
-  Domain: 'Please select a domain',
-  WAdropdown: 'Please select an option',
-};
+// Only name, email and phone are mandatory.
+const getValidation = (query) =>
+  !query.name || !query.email || !query.phone;
 
 // Per-field messages for the popup, keyed by field name. `phone` is the digits
 // from the phone widget, dial code included.
-const getFieldErrors = (fields, query, phone, dialCode) => {
+const getFieldErrors = (query, phone, dialCode) => {
   const errors = {};
-  fields.forEach((field) => {
-    if (!field.showField || !field.required) return;
 
-    if (field.type === 'phone') {
-      const number = (phone || '').slice(dialCode.length);
-      if (!number) {
-        errors.phone = EMPTY_FIELD_ERRORS.phone;
-      } else if (dialCode === '91' ? number.length !== 10 : number.length < 6) {
-        errors.phone =
-          dialCode === '91'
-            ? 'Please enter a valid 10-digit phone number'
-            : 'Please enter a valid phone number';
-      }
-      return;
-    }
+  if (!query.name.trim()) {
+    errors.name = 'Please enter your full name';
+  }
 
-    const value = (query[field.name] || '').trim();
-    const isPlaceholder =
-      field.type === 'select' &&
-      field.options.some((option) => option.hidden && option.value === value);
-    if (!value || isPlaceholder) {
-      errors[field.name] = EMPTY_FIELD_ERRORS[field.name];
-    } else if (
-      field.type === 'email' &&
-      !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
-    ) {
-      errors[field.name] = 'Please enter a valid email address';
-    }
-  });
+  const email = query.email.trim();
+  if (!email) {
+    errors.email = 'Please enter your email';
+  } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    errors.email = 'Please enter a valid email address';
+  }
+
+  const number = (phone || '').slice(dialCode.length);
+  if (!number) {
+    errors.phone = 'Please enter your phone number';
+  } else if (dialCode === '91' ? number.length !== 10 : number.length < 6) {
+    errors.phone =
+      dialCode === '91'
+        ? 'Please enter a valid 10-digit phone number'
+        : 'Please enter a valid phone number';
+  }
+
   return errors;
 };
 
@@ -275,7 +178,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
         { value: 'Walk-In', label: 'Walk-In' },
         { value: 'GMB', label: 'GMB' },
       ],
-      required: google, // Conditionally required
+      required: false,
       showField: google, // Conditionally render the field
     },
     {
@@ -286,7 +189,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
         { value: 'Referral', label: 'Referral' },
         { value: 'Krishna Sir', label: 'Krishna Sir' },
       ],
-      required: referrals, // Conditionally required
+      required: false,
       showField: referrals, // Conditionally render the field
     },
     {
@@ -296,7 +199,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       options: [
         {
           value: 'Work Experience',
-          label: 'Work Experience *',
+          label: 'Work Experience',
           hidden: true,
         },
         {
@@ -320,7 +223,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
           label: '7+ years',
         },
       ],
-      required: true, // Conditionally required
+      required: false,
       showField: true, // Conditionally render the field
     },
     // {
@@ -349,7 +252,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       options: [
         {
           value: 'Select Course Preference',
-          label: 'Select Course Preference *',
+          label: 'Select Course Preference',
           hidden: true,
         },
         {
@@ -373,7 +276,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
           label: 'Cyber Security & Ethical Hacking',
         },
       ],
-      required: radio, // Conditionally required
+      required: false,
       showField: radio, // Conditionally render the field
     },
 
@@ -412,7 +315,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
           label: 'Others',
         },
       ],
-      required: Domain, // Conditionally required
+      required: false,
       showField: Domain, // Conditionally render the field
     },
   ];

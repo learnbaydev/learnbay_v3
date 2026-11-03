@@ -124,8 +124,8 @@ const FormNew = ({
         dataScienceCounselling
       );
 
-      setError(getValidation(radio, Domain, interstedInHide, query));
-      const validation = getValidation(radio, Domain, interstedInHide, query);
+      setError(getValidation(query));
+      const validation = getValidation(query);
 
       if (!validation) {
         const sendData = await fetch(endPoint, {

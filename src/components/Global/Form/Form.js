@@ -77,7 +77,7 @@ const Form = ({
 
   const fields = DomainInput ? formField : formFields;
   const fieldErrors = showFieldErrors
-    ? getFieldErrors(fields, query, value, dialCode)
+    ? getFieldErrors(query, value, dialCode)
     : {};
 
   useEffect(() => {
@@ -122,7 +122,7 @@ const Form = ({
     // The popup shows its errors under each field instead of the browser's
     // bubbles, so stop here before anything is opened or fetched.
     if (popup) {
-      const errors = getFieldErrors(fields, query, value, dialCode);
+      const errors = getFieldErrors(query, value, dialCode);
       const firstInvalid = Object.keys(errors)[0];
       setShowFieldErrors(true);
       if (firstInvalid) {
@@ -136,7 +136,7 @@ const Form = ({
     // Open the tab while the submit click still counts as a user gesture; once
     // the lead has posted, window.open would be popup-blocked.
     let pdfTab = null;
-    if (gatedPdf && !getValidation(radio, Domain, interstedInHide, query)) {
+    if (gatedPdf && !getValidation(query)) {
       pdfTab = window.open("", "_blank");
       if (pdfTab) pdfTab.opener = null;
     }
@@ -178,8 +178,8 @@ const Form = ({
         dataScienceCounselling,
       );
 
-      setError(getValidation(radio, Domain, interstedInHide, query));
-      const validation = getValidation(radio, Domain, interstedInHide, query);
+      setError(getValidation(query));
+      const validation = getValidation(query);
 
       if (!validation) {
         const sendData = await fetch(endPoint, {
