@@ -177,6 +177,32 @@ const getValidation = (radio, interstedInHide, Domain, query) => {
     return false;
   }
 };
+const getFieldErrors = (fields, query, phone, dialCode) => {
+  const errors = {};
+  fields.forEach((field) => {
+    if (!field.showField || !field.required) return;
+    const fieldValue = query[field.name];
+    if (field.type === 'phone') {
+      // The input is pre-filled with the dial code, which isn't a number yet.
+      if (!phone || phone === dialCode) errors[field.name] = field.errorMessage;
+    } else if (field.type === 'select') {
+      // A select without a hidden placeholder always shows a real option.
+      const placeholder = field.options.find((option) => option.hidden);
+      if (placeholder && (!fieldValue || fieldValue === placeholder.value)) {
+        errors[field.name] = field.errorMessage;
+      }
+    } else if (!fieldValue || !fieldValue.trim()) {
+      errors[field.name] = field.errorMessage;
+    } else if (
+      field.type === 'email' &&
+      !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fieldValue.trim())
+    ) {
+      errors[field.name] = 'Please enter a valid email address';
+    }
+  });
+  return errors;
+};
+
 const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
   return [
     // ... (previous form fields)
@@ -186,6 +212,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       type: 'text',
       required: true,
       placeholder: 'Enter your Full Name *',
+      errorMessage: 'Please enter your name',
       showField: true,
     },
     {
@@ -194,6 +221,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       type: 'email',
       required: true,
       placeholder: 'Enter your Email *',
+      errorMessage: 'Please enter your email',
       showField: true,
     },
     {
@@ -214,6 +242,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       },
       required: true,
       placeholder: 'Enter Phone Number *',
+      errorMessage: 'Please enter your phone number',
       showField: true,
     },
     {
@@ -246,6 +275,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
     {
       name: 'WorkExperience',
       label: 'Work Experience',
+      errorMessage: 'Please select your work experience',
       type: 'select',
       options: [
         {
@@ -299,6 +329,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
     {
       name: 'platform',
       label: 'Course Preference',
+      errorMessage: 'Please select a course preference',
       type: 'select',
       options: [
         {
@@ -334,6 +365,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
     {
       name: 'Domain',
       label: 'Select Domain',
+      errorMessage: 'Please select a domain',
       type: 'select',
       options: [
         { value: 'Select Domain', label: 'Select Domain', hidden: true },
@@ -372,4 +404,10 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
   ];
 };
 
-export { getEndPoint, redirectionThankYou, getValidation, getFormFields };
+export {
+  getEndPoint,
+  redirectionThankYou,
+  getValidation,
+  getFieldErrors,
+  getFormFields,
+};
