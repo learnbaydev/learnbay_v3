@@ -1,11 +1,13 @@
 import jsCookie from "js-cookie";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import InPopupContext from "../Popup/InPopupContext";
 import styles from "./Form.module.css";
 import {
   getEndPoint,
+  getFieldErrors,
   getFormFields,
   getValidation,
   redirectionThankYou,
@@ -40,6 +42,7 @@ const Form = ({
   leadPlatform,
 }) => {
   const router = useRouter();
+  const inPopup = useContext(InPopupContext);
   const [formFields, setFormFields] = useState(
     getFormFields(radio, google, referrals, Domain, interstedInHide),
   );
@@ -48,7 +51,9 @@ const Form = ({
   );
 
   const [value, setValue] = useState();
+  const [dialCode, setDialCode] = useState("");
   const [error, setError] = useState();
+  const [fieldErrors, setFieldErrors] = useState({});
   const [alertMSG, setAlertMSG] = useState("");
   const [toggle, setToggle] = useState(true);
   const [query, setQuery] = useState({
@@ -70,6 +75,7 @@ const Form = ({
     Domain: "",
   });
   const [submitting, setSubmitting] = useState(false); // State to track form submission
+  const fields = DomainInput ? formField : formFields;
 
   useEffect(() => {
     setQuery({ ...query, phone: value });
@@ -86,9 +92,17 @@ const Form = ({
     }
   }, [value]);
 
+  const clearFieldError = (name) => {
+    setFieldErrors((prevState) => {
+      const { [name]: cleared, ...rest } = prevState;
+      return rest;
+    });
+  };
+
   const handleParam = () => (e) => {
     const name = e.target.name;
     const value = e.target.value;
+    clearFieldError(name);
     setQuery((prevState) => ({
       ...prevState,
       [name]: value,
@@ -109,6 +123,18 @@ const Form = ({
 
   const formSubmit = async (e) => {
     e.preventDefault();
+
+    if (inPopup) {
+      const errors = getFieldErrors(fields, query, value, dialCode);
+      const firstInvalid = fields.find((field) => errors[field.name]);
+      setFieldErrors(errors);
+      if (firstInvalid) {
+        setError(false);
+        e.currentTarget.elements[firstInvalid.name]?.focus();
+        return;
+      }
+    }
+
     setSubmitting(true); // Set submitting state to true
 
     // Open the tab while the submit click still counts as a user gesture; once
@@ -324,117 +350,83 @@ const Form = ({
 
   return (
     <div className={styles.App}>
-      <form onSubmit={formSubmit}>
+      <form onSubmit={formSubmit} noValidate={inPopup}>
         <>
-          {DomainInput
-            ? formField.map(
-                (field) =>
-                  field.showField && (
-                    <div key={field.name} className={styles.formWrapper}>
-                      {/* <label htmlFor={field.name}>
-                        {field.label}
-                        {field.required && (
-                          <span className={styles.spanLabel}>*</span>
-                        )}
-                      </label> */}
-                      {field.type === "phone" ? (
-                        <PhoneInput
-                          inputStyle={field.inputStyle}
-                          containerStyle={field.containerStyle}
-                          name={field.name}
-                          inputProps={field.inputProps}
-                          country="in"
-                          placeholder={field.placeholder}
-                          value={value}
-                          onChange={(phone) => setValue(phone)}
-                          required={field.required}
-                        />
-                      ) : field.type === "select" ? (
-                        <select
-                          name={field.name}
-                          required={field.required}
-                          value={query[field.name]}
-                          className=""
-                          onChange={handleParam(field.name)}
+          {fields.map(
+            (field) =>
+              field.showField && (
+                <div key={field.name} className={styles.formWrapper}>
+                  {/* <label htmlFor={field.name}>
+                    {field.label}
+                    {field.required && (
+                      <span className={styles.spanLabel}>*</span>
+                    )}
+                  </label> */}
+                  {field.type === "phone" ? (
+                    <PhoneInput
+                      inputStyle={field.inputStyle}
+                      containerStyle={field.containerStyle}
+                      containerClass={
+                        fieldErrors[field.name] ? styles.phoneInvalid : ""
+                      }
+                      name={field.name}
+                      inputProps={{
+                        ...field.inputProps,
+                        "aria-invalid": Boolean(fieldErrors[field.name]),
+                      }}
+                      country="in"
+                      placeholder={field.placeholder}
+                      value={value}
+                      onChange={(phone, country) => {
+                        setValue(phone);
+                        setDialCode(country.dialCode);
+                        clearFieldError(field.name);
+                      }}
+                      required={field.required}
+                    />
+                  ) : field.type === "select" ? (
+                    <select
+                      name={field.name}
+                      required={field.required}
+                      value={query[field.name]}
+                      className={
+                        fieldErrors[field.name] ? styles.fieldInvalid : ""
+                      }
+                      aria-invalid={Boolean(fieldErrors[field.name])}
+                      onChange={handleParam(field.name)}
+                    >
+                      {field.options.map((option) => (
+                        <option
+                          key={option.value}
+                          value={option.value}
+                          hidden={option.hidden}
                         >
-                          {field.options.map((option) => (
-                            <option
-                              key={option.value}
-                              value={option.value}
-                              hidden={option.hidden}
-                            >
-                              {option.label}
-                            </option>
-                          ))}
-                        </select>
-                      ) : (
-                        <input
-                          type={field.type}
-                          name={field.name}
-                          className={styles.EmailInputs}
-                          required={field.required}
-                          placeholder={field.placeholder}
-                          value={query[field.name]}
-                          onChange={handleParam(field.name)}
-                        />
-                      )}
-                    </div>
-                  ),
-              )
-            : formFields.map(
-                (field) =>
-                  field.showField && (
-                    <div key={field.name} className={styles.formWrapper}>
-                      {/* <label htmlFor={field.name}>
-                        {field.label}
-                        {field.required && (
-                          <span className={styles.spanLabel}>*</span>
-                        )}
-                      </label> */}
-                      {field.type === "phone" ? (
-                        <PhoneInput
-                          inputStyle={field.inputStyle}
-                          containerStyle={field.containerStyle}
-                          name={field.name}
-                          inputProps={field.inputProps}
-                          country="in"
-                          placeholder={field.placeholder}
-                          value={value}
-                          onChange={(phone) => setValue(phone)}
-                          required={field.required}
-                        />
-                      ) : field.type === "select" ? (
-                        <select
-                          name={field.name}
-                          required={field.required}
-                          value={query[field.name]}
-                          className=""
-                          onChange={handleParam(field.name)}
-                        >
-                          {field.options.map((option) => (
-                            <option
-                              key={option.value}
-                              value={option.value}
-                              hidden={option.hidden}
-                            >
-                              {option.label}
-                            </option>
-                          ))}
-                        </select>
-                      ) : (
-                        <input
-                          type={field.type}
-                          name={field.name}
-                          className={styles.EmailInputs}
-                          required={field.required}
-                          placeholder={field.placeholder}
-                          value={query[field.name]}
-                          onChange={handleParam(field.name)}
-                        />
-                      )}
-                    </div>
-                  ),
-              )}
+                          {option.label}
+                        </option>
+                      ))}
+                    </select>
+                  ) : (
+                    <input
+                      type={field.type}
+                      name={field.name}
+                      className={`${styles.EmailInputs} ${
+                        fieldErrors[field.name] ? styles.fieldInvalid : ""
+                      }`}
+                      required={field.required}
+                      placeholder={field.placeholder}
+                      value={query[field.name]}
+                      aria-invalid={Boolean(fieldErrors[field.name])}
+                      onChange={handleParam(field.name)}
+                    />
+                  )}
+                  {fieldErrors[field.name] && (
+                    <span className={styles.fieldError} role="alert">
+                      {fieldErrors[field.name]}
+                    </span>
+                  )}
+                </div>
+              ),
+          )}
         </>
         <input name="country" value={query.country} type="hidden" />
         <input name="region" value={query.region} type="hidden" />
