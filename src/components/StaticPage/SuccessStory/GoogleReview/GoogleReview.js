@@ -4,7 +4,7 @@ import Image from "next/image";
 function GoogleReview() {
   return (
     <section className={Styles.container}>
-      <h4>Google</h4>
+      <h4>Google Reviews</h4>
       <div className={Styles.BoxDiv}>
         <div className="imgWrapper">
           <Image
@@ -12,6 +12,7 @@ function GoogleReview() {
             width={548}
             height={364}
             style={{ height: "fit-content" }}
+            alt="Image showcasing google review of Learnbay's student for data science course"
           />
         </div>
         <div className="imgWrapper">
@@ -20,6 +21,7 @@ function GoogleReview() {
             width={548}
             height={268}
             style={{ height: "fit-content" }}
+            alt="Image showcasing google review of Learnbay's student for Fullstack development Course"
           />
         </div>
         <div className="imgWrapper">
@@ -28,6 +30,7 @@ function GoogleReview() {
             width={548}
             height={258}
             style={{ height: "fit-content" }}
+            alt="Image showcasing google review of Learnbay's student for data science certification"
           />
         </div>
       </div>

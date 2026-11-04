@@ -1,7 +1,6 @@
-import React, { useState } from "react";
-import styles from "./FirstSection.module.css";
-import FirstSectionContent from "./FirstSectionContent";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
+import { useState } from "react";
+import FirstSectionContent from "./FirstSectionContent";
 
 function FirstSection({
   dataScience,
@@ -10,6 +9,8 @@ function FirstSection({
   titleCourse,
   brochureLink,
   interstedInHide,
+  brochurePdf,
+  courseId,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -22,9 +23,11 @@ function FirstSection({
         downloadBrochure
         titleCourse={titleCourse}
         brochureLink={brochureLink}
+        brochurePdf={brochurePdf}
         interstedInHide={interstedInHide}
         upSkillingHide={true}
-        heading="Download Brochure"
+        heading="Download Syllabus"
+        courseId={courseId}
       />
 
       <FirstSectionContent

@@ -1,6 +1,7 @@
 .program {
   text-align: center;
-  padding: 70px 100px;
+  /* padding: 120px 100px 70px 100px; */
+  /* border: "12px solid red"; */
 }
 .icons {
   font-size: 30px;
@@ -65,7 +66,7 @@
 
 /* .oIcon {
   font-size: 32px;
-  color: #f99600;
+  color: #FE7A36;
 } */
 
 /* Set the base styles for .boxIcon */
@@ -137,6 +138,21 @@
   .leftSide {
     width: 100%;
   }
+  .leftSide p {
+    margin-top: -30px;
+    color: #444;
+    font-weight: 500;
+    text-align: left;
+    line-height: 19px;
+    font-size: 13px;
+  }
+  .heading {
+    left: 55px;
+    font-size: 12px;
+  }
+  .boxWrap {
+    gap: 80px 90px;
+  }
 }
 
 @media (max-width: 801px) {
@@ -151,6 +167,9 @@
     display: grid;
     gap: 30px;
   }
+  .h2 {
+    font-size: 20px;
+  }
   .boxWrap {
     display: grid;
     grid-template-columns: 47% 47%;
@@ -161,7 +180,7 @@
 
 @media (max-width: 481px) {
   .program {
-    padding: 50px 10px 0px 25px;
+    padding: 80px 10px 0px 25px;
   }
 
   .programWrap {

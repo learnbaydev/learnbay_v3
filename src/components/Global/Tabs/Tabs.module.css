@@ -5,13 +5,13 @@
 .MenuTabs {
   display: flex;
   position: fixed;
-  left: 0;
+  left: 50;
   width: fit-content;
   justify-content: space-between;
   padding: 20px;
   background-color: white;
   box-shadow: rgba(136, 237, 253, 0.421) 0px 2px 8px 0px;
-  top: 60px;
+  top: 70px;
 }
 
 .leftPanel {
@@ -26,20 +26,31 @@
 
 .span,
 .spanActive {
+  position: relative;
   display: flex;
   align-items: center;
   cursor: pointer;
   justify-content: space-between;
   width: 350px;
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px 20px;
   font-weight: 400;
   border-radius: 5px;
   margin-bottom: 5px;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
-.span:hover {
-  background-color: #eaeaea;
+.span,
+.spanActive {
+  justify-content: flex-start !important;
+}
+
+.span:hover,
+.spanActive:hover {
+  background-color: #0367a6;
+  transform: scale(1.05);
+  color: white;
+  position: relative;
 }
 
 .spanActive {
@@ -57,6 +68,37 @@
 .RowWrap {
   display: grid;
   grid-template-columns: 49% 49%;
+  gap: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.tagNew {
+  position: relative;
+  width: max-content;
+  height: max-content;
+}
+
+.tagNew p{
+  padding: 2px 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #fe7a36 0%, #f94f4f 100%);
+  position: absolute;
+  margin: 0;
+  font-size: 7px !important;
+  color: #fff;
+  font-weight: 600;
+  top: -13px;
+  left: 1px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .Row {
@@ -79,6 +121,11 @@
   display: flex;
   height: fit-content;
   justify-content: space-between;
+  transition: transform 0.3s;
+}
+
+.Program:hover {
+  transform: scale(1.05);
 }
 
 .Program h5 {
@@ -94,7 +141,6 @@
 @media (max-width: 1281px) {
   .RowWrap {
     grid-template-columns: 30% 30% 30%;
-    gap: 20px;
   }
 
   .Program {
@@ -104,7 +150,7 @@
 }
 
 @media (min-width: 961px) and (max-width: 1070px),
-  (min-width: 799px) and (max-width: 960px) {
+(min-width: 799px) and (max-width: 960px) {
   .MenuTabs {
     padding: 20px;
     width: 100%;
@@ -153,10 +199,12 @@
 
   .Program {
     width: auto;
-    padding: 10px;
+    padding: 15px 10px;
+    height: fit-content;
   }
 
   .middlePanel {
     display: none;
   }
+
 }

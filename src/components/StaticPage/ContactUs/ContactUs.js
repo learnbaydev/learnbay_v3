@@ -1,17 +1,17 @@
-import dynamic from "next/dynamic";
-import Image from "next/image";
-import { FaEnvelope, FaMapMarkedAlt, FaWhatsapp } from "react-icons/fa";
-import styles from "./ContactUs.module.css";
-const Button = dynamic(() => import("../../Global/Button/Button"));
+import dynamic from 'next/dynamic';
+import Image from 'next/image';
+import { FaEnvelope, FaMapMarkedAlt, FaWhatsapp } from 'react-icons/fa';
+import styles from './ContactUs.module.css';
+const Button = dynamic(() => import('../../Global/Button/Button'));
 
 function ContactUs() {
   return (
     <section className={styles.ContactUs}>
       <div className={styles.BackC}>
         <div>
-          <h4>
+          <h1>
             <b>Contact Us</b>
-          </h4>
+          </h1>
         </div>
 
         <div>
@@ -24,21 +24,21 @@ function ContactUs() {
         </div>
       </div>
       <div className={styles.CInner}>
-        <h4>We`re Here To Help You</h4>
+        <h2>We`re Here To Help You</h2>
         <p>
           Got A Course In Mind? We’d Love To Hear And Help You Decide On A
           Course.
         </p>
         <div className={styles.Inner}>
           <div className={styles.InnerBox}>
-            <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank">
+            <a href="https://maps.app.goo.gl/Zoq3cu9uC1R9R6iz9" target="_blank">
               <FaMapMarkedAlt className={styles.tick} />
             </a>
-            <h3>HSR Layout</h3>
-            <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank">
+            <h3>BTM Layout</h3>
+            <a href="https://maps.app.goo.gl/Zoq3cu9uC1R9R6iz9" target="_blank">
               <p>
-                #1090 , 1st floor, 18th cross road HSR layout sector 3,
-                Bangalore - 560102 (Above Sangam Sweets)
+                Learnbay, 2nd Floor, 6, Outer Ring Rd, Dollar Scheme Colony, 1st Phase, BTM 1st Stage,
+                Bengaluru, Karnataka 560068
               </p>
             </a>
           </div>
@@ -55,15 +55,22 @@ function ContactUs() {
             </a>
           </div>
           <div className={styles.InnerBox}>
-            <a href="https://wa.me/+917795687988" target="_blank">
+            <a
+              href="https://api.whatsapp.com/send?phone=916366841343"
+              target="_blank"
+            >
               <FaWhatsapp className={styles.tick} />
             </a>
             <h3>Whatsapp</h3>
-            <a href="https://wa.me/+917795687988" target="_blank">
+            <a
+              href="https://api.whatsapp.com/send?phone=916366841343"
+              target="_blank"
+            >
               <Button
+                title="whatsapp"
                 className={styles.btn}
-                style={{ marginTop: "25px" }}
-                text="(+91) 77956 87988"
+                style={{ marginTop: '25px' }}
+                text="(+91) 6366841343"
               />
             </a>
           </div>

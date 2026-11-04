@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./OfferPopup.module.css";
 // import Button from "../Global/Button/Button";
 
-const OfferPopup = ({ popupData }) => {
+const OfferPopup = ({ popupData, devops }) => {
   console.log(popupData);
   const [open, setOpen] = useState(false);
   // Use state to control audio playback
@@ -44,7 +44,12 @@ const OfferPopup = ({ popupData }) => {
           <div className={styles.tag}>Filling Fast!</div>
         </div>
         <div className={styles.Offer}>
-          <p className={styles.bHeading}>Batch Details :</p>
+          {devops ? (
+            <p className={styles.bHeading}> Details :</p>
+          ) : (
+            <p className={styles.bHeading}>Batch Details :</p>
+          )}
+
           <div className={styles.batchPoint}>
             <p>
               <b>{firstPoint[0]}: </b>
@@ -60,16 +65,27 @@ const OfferPopup = ({ popupData }) => {
               </p>
             )}
           </div>
-          <a
-            href="/submit-info"
-            target="_blank"
-            className={styles.btnWrap}
-            rel="noopener noreferrer"
-          >
-            <button className="button" onClick={handelOpen}>
-              Apply For Scholarship Now!
-            </button>
-          </a>
+          {devops ? (
+            <a
+              href="/submit-info"
+              target="_blank"
+              className={styles.btnWrap2}
+              rel="noopener noreferrer"
+            >
+              <button className="button">Apply For Scholarship Now!</button>
+            </a>
+          ) : (
+            <a
+              href="/submit-info"
+              target="_blank"
+              className={styles.btnWrap}
+              rel="noopener noreferrer"
+            >
+              <button className="button" onClick={handelOpen}>
+                Apply For Scholarship Now!
+              </button>
+            </a>
+          )}
         </div>
         {/* <audio
           id="popup-entry-sound"

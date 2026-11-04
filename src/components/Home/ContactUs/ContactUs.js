@@ -8,13 +8,14 @@ function ContactUs({
   radio,
   upSkillingHide,
   interstedInHide,
+  dataScienceGeneric,
 }) {
   return (
     <section className={styles.ContactUs}>
       <div className={styles.LeftSide}>
-        <h1 className={styles.h1}>
+        <h2 className={styles.h1}>
           Get Ahead with Industry-Leading Courses <br />
-        </h1>
+        </h2>
 
         <div className={styles.conpara}>
           <p>
@@ -34,6 +35,8 @@ function ContactUs({
             height={50}
             loading="lazy"
             alt="review"
+   
+            
           />
 
           <p>
@@ -53,6 +56,7 @@ function ContactUs({
           dataScienceCounselling={dataScienceCounselling}
           radio={radio}
           upSkillingHide={upSkillingHide}
+          dataScienceGeneric={dataScienceGeneric}
           interstedInHide={interstedInHide}
         />
       </div>

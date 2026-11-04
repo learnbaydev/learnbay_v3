@@ -65,7 +65,7 @@ function SyllabusNew({
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>Download Brochure</h5>
+          <h5>Download Syllabus</h5>
           <Form
             dataScience={dataScience}
             downloadBrochure
@@ -81,6 +81,7 @@ function SyllabusNew({
         </p>
       </div>{" "}
       <section className={styles.Syllabus}>
+      
         <div className={styles.syllabusLeft}>
           {software ? (
             <>

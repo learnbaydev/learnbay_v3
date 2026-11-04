@@ -1,8 +1,8 @@
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { FaPlay } from "react-icons/fa";
 import Button from "../../../Global/Button/Button";
 import styles from "./DevopFirstSection.module.css";
-import { FaPlay } from "react-icons/fa";
 
 const FirstContent = ({
   softwareBtnHide,
@@ -14,7 +14,6 @@ const FirstContent = ({
   cityParaCont,
   setPopups,
   setVideo,
-
 }) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
@@ -45,7 +44,7 @@ const FirstContent = ({
             ""
           ) : (
             <>
-            <div className={ibmOnly ?  styles.DAibm: styles.Desktop}>
+              <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
                 <p className={styles.ptop}>In Collaboration With</p>
                 <div className={styles.ImageBlock}>
                   {ibmOnly ? (
@@ -55,6 +54,7 @@ const FirstContent = ({
                       height="30"
                       priority
                       alt="data science course"
+                      loading="lazy"
                     />
                   ) : (
                     <Image
@@ -63,19 +63,20 @@ const FirstContent = ({
                       height="48"
                       priority
                       alt="data science course"
+                      loading="lazy"
                     />
                   )}
                 </div>
               </div>
               <div className={styles.animationTextWrap}>
                 <span className={styles.animationText}>
-                  Guaranteed Interview Calls
+                  Job-ready with interview support
                 </span>
               </div>
               {/* Button */}
               <div className={styles.btnImage}>
                 <div onClick={popupShow}>
-                  <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                  <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
                 </div>
                 {softwareBtnHide ? (
                   ""
@@ -96,6 +97,7 @@ const FirstContent = ({
         <div className={styles.secondLeft}>
           <div className="bgImg">
             <Image
+              loading="lazy"
               src={FirstRightImg}
               fill={true}
               style={{ objectFit: "contain" }}
@@ -119,6 +121,7 @@ const FirstContent = ({
                     height="30"
                     priority
                     alt="data science course"
+                    loading="lazy"
                   />
                 ) : (
                   <Image
@@ -127,13 +130,14 @@ const FirstContent = ({
                     height="51"
                     priority
                     alt="data science course"
+                    loading="lazy"
                   />
                 )}
               </div>
             </div>{" "}
             <div className={styles.btnImageMobile}>
               <div onClick={popupShow}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
               {softwareBtnHide ? (
                 ""

@@ -1,60 +1,139 @@
-import React, { useState, useEffect } from "react";
-import Navbar from "../components/Global/Navbar/Navbar";
-import Footer from "../components/Global/Footer/Footer";
-import BottomBar from "../components/Global/BottomBar/BottomBar";
-import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHeader";
-import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
-import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
-import TyPageCta from "@/components/StaticPage/Thankyou/TyPageCta/TyPageCta";
+import Navbar from '@/components/Global/Navbar/Navbar';
+import BrochureDemoSection from '@/components/ThankYouNew/BrochureDemoSection';
+import SessionSection from '@/components/ThankYouNew/SessionSection';
+import WhyChooseUsSection from '@/components/ThankYouNew/WhyChooseUsSection';
+import ApplyforCouncelling from '@/components/ThankYouNew/ApplyforCouncelling';
 
-const ThankYouDemo = () => {
-  const dataArray = [];
-  const [queryData, setQueryData] = useState({
-    titleCourse: "",
-    brochureLink: "",
-  });
-  const [data, setData] = useState(dataArray);
+import Footer from '../components/Global/Footer/Footer';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
+
+import SuccessPage from '../components/ThankYouNew/SuccessPage';
+const ThankYouDemo = ({ initialName, initialPhone }) => {
+  const SYLLABUS_MAP = {
+    // Popular & Master Programs
+    'ads-genai-master':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf',
+    'genai-agentic-master':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf',
+    'cloud-devops-master':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf',
+    'sde-genai-master':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf',
+    'ai-engineering-master-program':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI+Engineering+Program_compressed.pdf',
+
+    'forward-deployed-engineer-course':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/forward-deployed-engineer-course.pdf',
+
+    // GenAI & Agentic AI Category
+    'genai-managers':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf',
+    'genai-cloud-devops':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf',
+    'genai-software-dev':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_for_Software_Developers.pdf',
+    'genai-agentic-program':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/GenAI_and_Agentic_AI_Program.pdf',
+    'applied-ai-practitioner':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/IIT_Patna_Applied_AI_Program.pdf',
+    'ai-engineering-master-program':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/AI+Engineering+Program_compressed.pdf',
+
+    // Cloud & DevOps Category
+    'cloud-network-pro':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_Network_Professionals.pdf',
+    'cloud-qa-pro':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_QA.pdf',
+    'cloud-sys-admin':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_System_Admin_Professionals.pdf',
+    'adv-cloud-devops':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Advanced_Cloud_and_Devops_Program.pdf',
+    'cloud-it-support':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_ITS_and_ITOps_Professionals.pdf',
+    'cloud-db-admin':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Cloud_and_Devops_Engineering_For_DBA_Professionals.pdf',
+
+    // Data Science & GenAI Category
+    'ds-genai-program':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Program.pdf',
+    'genai-analytics':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf',
+
+    // Academic
+    'masters-cs-ds-genai':
+      'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Masters-in-CS.pdf',
+  };
+
+  const router = useRouter();
+  const [pdfUrl, setPdfUrl] = useState(null);
 
   useEffect(() => {
-    const urlParams = new URLSearchParams(location.search);
-
-    for (const [key, value] of urlParams) {
-      dataArray.push(value);
-      setData(dataArray);
+    const courseId = sessionStorage.getItem('pending_syllabus');
+    if (courseId && SYLLABUS_MAP[courseId] && pdfUrl === null) {
+      setPdfUrl(SYLLABUS_MAP[courseId]);
     }
-    setQueryData(data);
   }, []);
-
   return (
-    <div>
-      <Navbar donwnload={true} brochureLink={data[1]} />
-      <FirstHeader donwnload={true} brochureLink={data[1]} />
-
-      <ThankStats
-        img1="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/GIF.gif"
-        heading="Gain Clarity: Explore the possibilities and chart your Career Journey"
-        // desc="tat point 1 here lorem ipsum doret trinkettat point 1 here lorem ipsum doret trinket tat point 1 here lorem ipsum doret trinket"
-        head1="Explore Career Options:"
-        head2="Embrace Opportunities:"
-        head5="Personalized Goal:"
-        head6="Strategize for Success:"
-        para5="Bridge the gap between aspirations and expertise."
-        para6="Overcome obstacles and maximize your potential."
-        para1="Find your ideal path based on skills, interests, and goals."
-        para2="Discover growth potential in emerging industries."
+    <>
+      <Head>
+        <title>Learnbay - Thank you</title>
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="description"
+          content="Learnbay thank you, Explore more information for a smooth learning experience. Come join us today!"
+        />
+        <link
+          rel="icon"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+        <link rel="canonical" href="https://www.learnbay.co/terms-conditions" />
+      </Head>
+      <Navbar
+        popup={true}
+        dataScienceCounselling={true}
+        interstedInHide={true}
       />
+      {/* <div style={{ marginTop: '80px' }}>
+        <BrochureDemoSection pdfUrl={pdfUrl} />
 
-      <TyPageCta brochureLink={data[1]} heading={data[0]} />
-      <Survey
-        header="Are you seeking the perfect course that will propel your career to new heights?"
-        // topPara="ENTER SOME TEXT HERE PLACEHOLDER"
-        para="Unleash your full potential with our personalized and tailored course suggestions that will guide you towards your ideal learning journey."
-      />
-      <BottomBar />
+        <SessionSection />
+        <WhyChooseUsSection />
+        <main
+          style={{ padding: '32px', maxWidth: 1000, margin: '0 auto' }}
+        ></main>
+      </div> */}
+
+      <div style={{ marginTop: '80px' }}>
+        {/* <ApplyforCouncelling
+          initialName={initialName}
+          initialPhone={initialPhone}
+          mainText={'Your Brochure Is Ready!'}
+          subText={'You’re one step closer to upgrading your career'}
+          pdfUrl={pdfUrl}
+        /> */}
+
+        {/* <SuccessPage /> */}
+        <SuccessPage
+          option1={'View Syllabus'}
+          option2={' Your brochure is ready — and so is your counselor'}
+          pdfUrl={pdfUrl}
+        />
+        <SessionSection />
+        <WhyChooseUsSection />
+
+        <main
+          style={{
+            padding: '32px',
+            maxWidth: 1000,
+            margin: '0 auto',
+          }}
+        ></main>
+      </div>
+      {/* <BrochureDemoSection pdfUrl={pdfUrl} /> */}
       <Footer />
-      <BottomBar radio={true} />
-    </div>
+    </>
   );
 };
-
 export default ThankYouDemo;

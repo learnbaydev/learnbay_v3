@@ -1,8 +1,7 @@
-import React from "react";
 import Head from "next/head";
-import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import Navbar from "../components/Global/Navbar/Navbar";
 import ContactUs from "../components/StaticPage/ContactUs/ContactUs";
 
 function contactus() {
@@ -30,7 +29,11 @@ function contactus() {
           radio={true}
         />
         <ContactUs />
-        <BottomBar radio={true} />
+        <BottomBar
+          dataScienceGeneric={true}
+          interstedInHide={true}
+          radio={true}
+        />
         <Footer />
       </main>
     </div>

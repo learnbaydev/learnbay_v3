@@ -1,10 +1,10 @@
-import React from "react";
-import styles from "./FirstHeader.module.css";
 import Head from "next/head";
 import Navbar from "../../../Global/Navbar/Navbar";
-import { PopupButton } from "@typeform/embed-react";
+import styles from "./FirstHeader.module.css";
+import CertificationCard from "../../../Home/newUI/CertificationCard/CertificationCard";
+import { certificationCourses } from "../../../Home/newUI/NewCourse/NewCourseData";
 
-const FirstHeader = ({ donwnload, brochureLink }) => {
+const FirstHeader = ({ donwnload, brochurePdf, brochureLink }) => {
   return (
     <>
       <Head>
@@ -28,7 +28,7 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
           <span className={styles.greenText}>FREE</span>
         </h1>
         <div className={styles.btnFlex}>
-          <PopupButton
+          {/* <PopupButton
             id="jpqC3A6g"
             style={{
               backgroundColor: "#0072bc",
@@ -40,15 +40,30 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
             className="my-button"
           >
             Know More
-          </PopupButton>
-          {donwnload ? (
+          </PopupButton> */}
+          {donwnload || brochurePdf ? (
             <a href={brochureLink}>
-              <button className={styles.btnDownload}>Download Brochure</button>
+              <button className={styles.btnDownload}>View Syllabus</button>
             </a>
           ) : (
             ""
           )}
         </div>
+      </div>
+      ===================================================
+      <div className={`${styles.MasterCard} width`}>
+        <div className={styles.cardwrapper}>
+          {certificationCourses.map((course, index) => (
+            <CertificationCard
+              data={course}
+              interstedInHide={true}
+              dataScience={true}
+              download={true}
+            />
+          ))}
+          =============================================
+        </div>
+        certificationCourses
       </div>
     </>
   );

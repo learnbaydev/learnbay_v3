@@ -22,7 +22,7 @@ function NotFound() {
         <a href="/">
           
             
-          <Button text="Click Here to Reconnect" />
+          <Button text="Go Back to Home Page" />
         </a>
       </div>
       </div>

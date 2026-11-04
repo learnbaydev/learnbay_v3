@@ -1,0 +1,202 @@
+.section {
+  background: #f4f4f4;
+  padding: 34px 20px 70px;
+  text-align: center;
+}
+
+/* TOP HEADING */
+
+.heading {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 600;
+
+  color: #111827;
+
+  margin-bottom: 34px;
+
+  letter-spacing: -0.5px;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+  max-width: 1180px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 40px;
+}
+
+.card {
+  max-width: 320px;
+  text-align: left;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 12px;
+}
+
+.user img {
+  width: 42px;
+  height: 42px;
+
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user h4 {
+  margin: 0;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+.user p {
+  margin: 2px 0 0;
+
+  font-size: 12px;
+  font-style: italic;
+
+  color: #6b7280;
+}
+
+.quote {
+  font-size: 15px;
+  line-height: 1.5;
+
+  color: #333;
+
+  font-style: italic;
+
+  margin: 0;
+}
+
+/* CENTER CONTENT */
+
+.middle {
+  margin-top: 80px;
+}
+
+.headingLarge {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 600;
+
+  color: #111827;
+
+  letter-spacing: -1px;
+
+  margin-bottom: 12px;
+}
+
+.sub {
+  font-size: 15px;
+  color: #6b7280;
+}
+
+/* METRICS */
+
+.metrics {
+  max-width: 1000px;
+  margin: 60px auto 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 40px;
+}
+
+.metricItem {
+  text-align: center;
+}
+
+.iconCircle {
+  width: 74px;
+  height: 74px;
+
+  background: #e6e6e8;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto 18px;
+}
+
+.iconCircle svg {
+  width: 30px;
+  height: 30px;
+
+  stroke-width: 1.8;
+  color: #5f6675;
+}
+
+.metricItem h3 {
+  margin: 0 0 8px;
+
+  color: #0f5eff;
+
+  font-size: 44px;
+  line-height: 1;
+
+  font-weight: 800;
+}
+
+.metricItem p {
+  margin: 0;
+
+  font-size: 16px;
+  color: #5b6475;
+
+  line-height: 1.4;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .metrics {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .headingLarge {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 30px 16px 50px;
+  }
+
+  .heading {
+    font-size: 26px;
+  }
+
+  .headingLarge {
+    font-size: 22px;
+  }
+
+  .metricItem h3 {
+    font-size: 38px;
+  }
+}

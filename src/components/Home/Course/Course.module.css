@@ -10,13 +10,37 @@
   text-align: left;
 }
 
+.customOrangeBg {
+  background-color: #8aff47;
+  color: #fff;
+}
+
 .mainHeadGreen {
   color: #0072bc !important;
 }
 
-.listPanel .mPanel {
-  display: none;
+.orangeBg {
+  display: flex;
+  justify-content: center;
+  border-radius: 9.467px;
+  /* background: linear-gradient(to right, #E8BD7D , #8A5300); */
+  background: #FE7A36;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  margin: auto;
+  padding: 10px 0px 30px 0px;
 }
+
+.orangeBg > p {
+  color: #fff !important;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  margin: 0 !important;
+}
+
+/* .listPanel .mPanel {
+  display: none;
+} */
 .listPanel {
   display: flex;
   gap: 20px;
@@ -54,13 +78,14 @@
   justify-content: start;
 }
 .ActiveSpan {
-  padding: 5px 0px;
+  padding: 5px 35px;
   width: fit-content;
   font-weight: 400;
   cursor: pointer;
   justify-content: start;
-  border-bottom: 2px solid #0072bc;
-  color: #0072bc;
+  border-bottom: 2px solid #FE7A36;
+  color: #FE7A36;
+  font-size: 16px;
 }
 .gridPanel {
   display: flex;
@@ -82,7 +107,6 @@
 .listPanel {
   display: flex;
   width: fit-content;
-  gap: 100px;
   margin-bottom: 50px;
   justify-content: flex-start;
 }
@@ -236,6 +260,7 @@
   border-radius: 8px;
   position: relative;
   z-index: 1;
+  height: auto;
 }
 
 .leftSide h6 {
@@ -249,6 +274,7 @@
   display: flex;
   flex-flow: column;
   text-align: center;
+  z-index: 2;
 }
 .hr {
   border: 1px solid #efefef;
@@ -269,7 +295,8 @@
   width: 49.7%;
 }
 .mainHead {
-  background: #000;
+  background: #fff;
+  color: #fff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -471,8 +498,6 @@
     cursor: pointer;
     line-height: normal;
     border: 0;
-    border-bottom: 2px solid #0072bc;
-    color: #0072bc;
     justify-content: start;
   }
   .Course h2 {
@@ -609,7 +634,10 @@
   }
 }
 .Course {
-  padding: 40px 100px;
+  padding: 0px 100px 40px 100px;
+  background: #fff;
+  z-index: 999;
+  position: relative;
 }
 
 .Course h2 {
@@ -624,26 +652,32 @@
   color: #0072bc !important;
 }
 
-.listPanel .mPanel {
+/* .listPanel .mPanel {
   display: none;
-}
+} */
 .listPanel {
   display: flex;
   width: 100%;
 }
 
 .divBox {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .bellIcon {
   font-size: 20px;
 }
 
+.zIndex {
+  z-index: 1;
+  margin: -180px 4px 0px 4px;
+}
+
 .contButton {
-  width: 92%;
+  width: 100%;
   margin-left: 15px;
   margin-top: -0px;
+  margin: auto;
   z-index: 1;
   background-color: white;
   border-radius: 20px;
@@ -659,23 +693,25 @@
 }
 
 .span {
-  padding: 5px 0px;
+  padding: 5px 35px;
   width: fit-content;
-  font-weight: 400;
+  font-weight: 700;
   cursor: pointer;
   color: #676767;
-  font-size: 20px;
-  justify-content: start;
+  font-size: 18px;
+  border-radius: 40.875px;
+  border: 0.908px solid #bfbfbf;
+  background: #f8f8f8;
 }
 .ActiveSpan {
-  padding: 5px 0px;
+  padding: 5px 35px;
   width: fit-content;
-  font-weight: 400;
+  font-weight: 700;
   cursor: pointer;
-  justify-content: start;
-  border-bottom: 2px solid #0072bc;
-  color: #0072bc;
-  font-size: 20px;
+  font-size: 18px;
+  border-radius: 40.875px;
+  border: 0.908px solid #FE7A36;
+  background: #fff9f0;
 }
 .gridPanel {
   display: flex;
@@ -695,11 +731,16 @@
   margin-top: 30px;
 }
 .listPanel {
-  display: none;
-  width: fit-content;
-  gap: 100px;
+  display: flex;
   margin-bottom: 50px;
-  justify-content: flex-start;
+  justify-content: space-between;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  position: sticky;
+  z-index: 999;
+  top: 0px;
+  background: #fff;
+  padding: 22px 20px;
 }
 
 /* .span {
@@ -722,7 +763,7 @@
 
 .gridPanel {
   display: flex;
-  height: 530px;
+  height: fit-content;
   width: 100%;
   max-height: 700px;
   gap: 20px;
@@ -732,6 +773,24 @@
   scroll-behavior: smooth;
   transition: transform 0.3s ease-out 0s;
   pointer-events: auto;
+}
+
+.viewAll {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textView {
+  font-size: 20px;
+  color: #0072bc;
+  margin-right: 30px;
+}
+
+.borderTop {
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  padding-top: 40px;
+  margin: 0px 10px 0px 10px;
 }
 
 .gridPanel .Course h5 {
@@ -747,7 +806,7 @@
   position: relative;
   border-radius: 8px;
   width: 33%;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-left: 10px;
 }
 
@@ -794,7 +853,7 @@
   background: linear-gradient(to right, white, #0798f6);
 }
 .newSliderWrapOrange::after {
-  background: linear-gradient(to right, white, #f99600);
+  background: linear-gradient(to right, white, #FE7A36);
 }
 .leftBorder,
 .OrangeLeftBorder {
@@ -812,7 +871,7 @@
 }
 
 .OrangeLeftBorder {
-  background: linear-gradient(to top, #f99600, white);
+  background: linear-gradient(to top, #FE7A36, white);
 }
 
 .rightBorder,
@@ -831,7 +890,7 @@
 }
 
 .OrangeRightBorder {
-  background: linear-gradient(to bottom, #f99600, white);
+  background: linear-gradient(to bottom, #FE7A36, white);
 }
 .newSliderWrap::before,
 .newSliderWrapOrange::before {
@@ -845,7 +904,7 @@
   background: linear-gradient(to right, #0798f6, white);
 }
 .newSliderWrapOrange::before {
-  background: linear-gradient(to right, #f99600, white);
+  background: linear-gradient(to right, #FE7A36, white);
 }
 .newSliderWrap .contentBox {
   width: 100%;
@@ -866,9 +925,11 @@
   position: relative;
   flex-flow: column;
   align-items: center;
-  padding: 0px 20px 12px 20px;
+  padding: 32px 20px 32px 20px;
   margin-left: 0px;
   background-color: white;
+  border-radius: 8px;
+  margin-top: -20px;
   /* hello */
 }
 .contButton .imgWrap {
@@ -877,27 +938,27 @@
 .imgWrap {
   display: flex;
 
-  height: 180px;
+  height: 214px;
   background-color: white;
   border-radius: 30px;
   position: relative;
   z-index: 1;
-  margin: 8px 12px 8px 0px;
 }
 
 .leftSide h6 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   margin: 0;
   width: 100%;
-  color: #000;
+  color: #fff;
 }
 
 .headWrapper {
   display: flex;
   flex-flow: column;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 0px;
+  margin: 30px 0px;
 }
 .hr {
   border: 1px solid #efefef;
@@ -915,10 +976,10 @@
   bottom: -1%;
   left: 0px;
   position: absolute;
-  width: 49.7%;
+  width: 100%;
 }
 .mainHead {
-  background: #000;
+  background: #fff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -929,7 +990,7 @@
   display: flex;
   color: #676767;
   align-items: center;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   margin: 0;
   margin-top: 10px;
@@ -946,19 +1007,20 @@
 }
 .checkCircle {
   margin-right: 10px;
-  color: #0072bc;
-  font-size: 22px;
+  color: #1e9b93;
+  font-size: 20px;
 }
 .btnWrapper {
   display: flex;
   grid-template-columns: 50% 1% 49%;
   width: 100%;
-  gap: 0px;
+  gap: 10px;
   border-radius: 0 0 20px 20px;
   margin-top: 0px;
+  padding: 20px 15px;
 }
 .btnWrapper button {
-  padding: 18px 15px;
+  padding: 14px 15px;
   width: 100%;
   gap: 5px;
   display: flex;
@@ -966,9 +1028,19 @@
   justify-content: center;
   height: 100%;
   border: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
+
+.btnWrapper button:hover {
+  opacity: 0.9;
+}
+
 .btnWrapper a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.btnWrapper span {
   display: flex;
   align-items: center;
   width: 100%;
@@ -987,17 +1059,25 @@
   margin-left: -3px;
 }
 .fillBtn {
-  background-color: #0072bc;
-  color: white;
+  background-color: #fff;
+  color: #282828;
   height: 100%;
+  border: 1px solid #282828;
   border-radius: 0px 0px 8px 0px;
+  font-size: 16px;
+  font-weight: 800;
 }
 
 .h5font {
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 700;
   margin: 0;
-  padding: 10px 0px;
+  margin-left: 10px;
+  padding: 10px 0px 20px 0px;
+  background: linear-gradient(90deg, #8d5603 0.76%, #000 24.77%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .timeIcon {
@@ -1006,13 +1086,13 @@
 }
 
 .checkIcon {
-  color: green;
+  color: #1e9b93;
   font-size: 20px;
   margin-right: 5px;
 }
 
 .paraDiv {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 @media (max-width: 1281px) {
@@ -1093,36 +1173,40 @@
     width: 100%;
   }
 
-  .headWrapper {
-    margin-bottom: 0;
+  .borderTop {
+    padding: 0px;
   }
+
+  /* .headWrapper {
+    margin-bottom: 0;
+  } */
   .paraDiv {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .span {
     border: 0;
     width: 100%;
     width: max-content;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
     cursor: pointer;
     justify-content: start;
-    padding: 14px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    border: 0.5px solid;
   }
   .leftSide {
-    height: 440px !important;
+    height: fit-content !important;
   }
   .ActiveSpan {
-    padding: 14px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
     width: max-content;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
     cursor: pointer;
     line-height: normal;
     border: 0;
-    border-bottom: 2px solid #0072bc;
-    color: #0072bc;
     justify-content: start;
+    border: 0.5px solid;
   }
   .Course h2 {
     font-size: 23px;
@@ -1138,19 +1222,22 @@
     gap: 0px;
   }
   .listPanel {
-    display: none;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    gap: 10px 10px;
     width: 100%;
-
-    gap: 50px;
-    grid-template-columns: 50% 32% 30% 10%;
     height: max-content;
     overflow-x: scroll;
     overflow-y: hidden;
     margin-bottom: 0px;
+    position: initial;
+    justify-content: center;
+    padding: 0px;
   }
 
   .divBox {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .gridPanel {
@@ -1158,16 +1245,18 @@
     /* overflow: scroll; */
     padding: 0;
     margin-top: 0px;
-    height: 490px;
+    height: fit-content;
   }
 
   .leftSide {
     width: 100%;
-    margin: 10px 10px;
+    margin: 10px 0px;
     padding: 0px;
   }
   .imgWrap {
     height: 208px;
+    width: 98.5%;
+    margin: auto;
   }
   .hr {
     top: 37.8%;
@@ -1190,9 +1279,11 @@
 
   .Course h5 {
     padding: 10px;
+    font-size: 18px;
+    margin-left: 0;
   }
   .contentBox {
-    margin-top: 0px;
+    /* margin-top: 0px; */
     overflow: hidden;
   }
 
@@ -1202,13 +1293,15 @@
     margin-left: 10px;
     justify-content: center;
     position: relative;
-    height: 470px;
+    height: fit-content;
     width: 100%;
     background-color: white;
   }
   .contentBox {
     background-color: transparent;
     align-items: flex-start;
+    padding: 5px 14px;
+    margin-top: -20px;
   }
   .contentBox p {
     margin: 0;
@@ -1221,7 +1314,7 @@
     margin-left: -20px;
   }
   .btnWrapper button {
-    padding: 18px 14px;
+    padding: 10px 8px;
     width: 100%;
     gap: 5px;
     display: flex;
@@ -1229,6 +1322,7 @@
     justify-content: center;
     height: 100%;
     border: 0;
+    font-size: 15px;
   }
   .btnWrapper a {
     display: flex;
@@ -1260,7 +1354,7 @@
     width: 300px !important;
   }
   .contButton {
-    width: 92%;
-    margin-left: 15px;
+    width: 100%;
+    margin-left: 0px;
   }
 }

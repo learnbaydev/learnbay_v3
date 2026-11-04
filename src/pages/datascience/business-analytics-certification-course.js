@@ -1,32 +1,10 @@
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import { useEffect, useState } from "react";
 import BAFirstPart from "@/components/CoursePage/FirstPart/BAFirstPart";
 import BASecondPart from "@/components/CoursePage/FirstPart/BASecondPart";
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
-
-  const [popupData, setPopupData] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const popupResponse = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
-      });
-      if (popupResponse.status === 200) {
-        const { popData } = await popupResponse.json();
-        const foundPopup = popData.find((data) =>
-          data.page.includes("Adv Data Science and AI")
-        );
-        if (foundPopup) {
-          setPopupData(foundPopup);
-        }
-      }
-    };
-
-    fetchData();
-  }, []);
 
   // const [batchDateData, setBatchDateData] = useState("");
 
@@ -67,15 +45,55 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Businesss Analytics Certification Program - Learnbay</title>
+        <title>Best Business Analyst Course with Placement Support</title>
         <meta
           name="description"
-          content="Upskill yourself with cutting edge Business Analytics Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.          "
+          content="Get the best Business Analytics & Analyst Course with placement support. Top certification & training for online classes. Enrol now for better career options."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="business analytics course, business analytics certification course, business analytics certification, business analyst training, hr analytics course, business analyst course online, marketing analytics course, business analyst certification course, best business analyst course, best business analyst certification          "
+          content="  business analytics course, business analyst course with placement, business analyst classes online, business analyst course with placement support, best business analyst course, best business analysis course, best business analyst training, top business analyst certification, business analytics course with placement, business analysis training and placement, best business analyst course with placement,      "
+        />
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/business-analytics-certification-course"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Best Business Analyst Course with Placement Support"
+        />
+        <meta
+          property="og:description"
+          content="Get the best Business Analytics & Analyst Course with placement support. Top certification & training for online classes. Enrol now for better career options."
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/business-analytics-certification-course"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Business Analyst Course with Placement Support"
+        />
+        <meta
+          name="twitter:description"
+          content="Get the best Business Analytics & Analyst Course with placement support. Top certification & training for online classes. Enrol now for better career options."
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <link
           rel="icon"
@@ -85,18 +103,18 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/datascience/business-analytics-certification-course"
         />
-        <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
-            "name": "Businesss Analytics Certification Program",
-            "description": "Upskill yourself with cutting edge Business Analytics Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.",
+            "name": "Businesss Analytics Master Certification Program",
+            "description": "Upskill yourself with cutting edge Business Analytics master Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.",
             "url": "https://www.learnbay.co/datascience/business-analytics-certification-course",
             "offers": {
               "@type": "Offer",
-              "price": 90000,
+              "price": 120000,
               "priceCurrency": "INR",
               "category": "Educational"
             },
@@ -105,7 +123,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
                   "name": "Learnbay",
                   "Url": "https://www.learnbay.co/"
                 },
-            "coursePrerequisites": "There are no prerequisites for this Business Analytics certification course as all modules are beginner-friendly and are taught from scratch. ",
+            "coursePrerequisites": "There are no prerequisites for this Business Analytics master certification course as all modules are beginner-friendly and are taught from scratch. ",
             "hasCourseInstance": [
               {
                 "@type": "CourseInstance",
@@ -113,7 +131,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
                 "courseWorkload": "P10W",
                 "courseFee": {
                   "@type": "PriceSpecification",
-                  "price": "₹ 90,000 + 18% GST",
+                  "price": "₹ 1,20,000 + 18% GST",
                   "priceCurrency": "INR"
                 }
               }
@@ -121,12 +139,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
 
 
-          }`
-
-        }}
-        
-
-
+          }`,
+          }}
         />
       </Head>
       <main>
@@ -149,6 +163,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           projectSection={
             DataScienceCourseData.BADataScienceCourseData[0].projectSection
           }
+          toolsdynamic={true}
           FAQNewData={DataScienceCourseData.BADataScienceCourseData[0].faq}
         />
       </main>

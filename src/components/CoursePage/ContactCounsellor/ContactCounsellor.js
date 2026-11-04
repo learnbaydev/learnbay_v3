@@ -1,11 +1,11 @@
-import React from "react";
-import styles from "../ContactCounsellor/ContactCounsellor.module.css";
-import { MdOutlineWhatsapp } from "react-icons/md";
-import { AiOutlineMail } from "react-icons/ai";
-import Image from "next/image";
-import { useState } from "react";
-import Popup from "../../Global/Popup/Popup";
-import Form from "../../Global/Form/Form";
+import React from 'react';
+import styles from '../ContactCounsellor/ContactCounsellor.module.css';
+import { MdOutlineWhatsapp } from 'react-icons/md';
+import { AiOutlineMail } from 'react-icons/ai';
+import Image from 'next/image';
+import { useState } from 'react';
+import Popup from '../../Global/Popup/Popup';
+import Form from '../../Global/Form/Form';
 
 const ContactCounsellor = ({
   dataScience,
@@ -13,6 +13,8 @@ const ContactCounsellor = ({
   interstedInHide,
   titleCourse,
   brochureLink,
+  brochurePdf,
+  GenAi,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -21,9 +23,9 @@ const ContactCounsellor = ({
   };
 
   const openWhatsApp = () => {
-    const phoneNumber = "+917795687988"; // Replace with the desired WhatsApp phone number
-    const whatsappURL = `https://wa.me/${phoneNumber}`;
-    window.open(whatsappURL, "_blank");
+    const phoneNumber = '+917795687988'; // Replace with the desired WhatsApp phone number
+    const whatsappURL = `https://api.whatsapp.com/send?phone=916366841343`;
+    window.open(whatsappURL, '_blank');
   };
   // const sendEmailViaApi = () => {
   //   // Replace with the API endpoint that triggers the email
@@ -56,13 +58,13 @@ const ContactCounsellor = ({
   // };
 
   const sendEmail = () => {
-    const recipient = "contacts@learnbay.co";
-    const subject = "";
-    const body = "";
+    const recipient = 'contacts@learnbay.co';
+    const subject = '';
+    const body = '';
     const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${subject}&body=${body}`;
 
     // Open Gmail link in a new tab or window
-    window.open(gmailLink, "_blank");
+    window.open(gmailLink, '_blank');
   };
   return (
     <div className={styles.consmain}>
@@ -78,7 +80,7 @@ const ContactCounsellor = ({
         <div className="leftPopup">
           <div
             className="whiteP"
-            style={{ width: "340px", height: "400px" }}
+            style={{ width: '340px', height: '400px' }}
           ></div>
         </div>
         <div className="RightPopup">
@@ -86,6 +88,7 @@ const ContactCounsellor = ({
           <Form
             titleCourse={titleCourse}
             brochureLink={brochureLink}
+            brochurePdf={brochurePdf}
             dataScience={dataScience}
             interstedInHide={interstedInHide}
             dataScienceCounselling={dataScienceCounselling}
@@ -96,7 +99,7 @@ const ContactCounsellor = ({
       </Popup>
       <div>
         <h4>Can’t decide which program to opt for?</h4>
-        <p>
+        <p className={styles.paraBot}>
           Don’t worry, our expert counsellor is there to guide you make the
           right career choice
         </p>
@@ -118,12 +121,23 @@ const ContactCounsellor = ({
         </div>
       </div>
       <div className={styles.conimg}>
-        <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masterPage/contact-counseller.webp"
-          width={300}
-          height={200}
-          alt="contact-counseller"
-        />
+        {GenAi ? (
+          <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/contact_man+(1).webp"
+            width={450}
+            height={265}
+            alt="contact-counseller"
+            loading="lazy"
+          />
+        ) : (
+          <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fee-newboy.webp"
+            width={320}
+            height={380}
+            alt="contact-counseller"
+            loading="lazy"
+          />
+        )}
       </div>
     </div>
   );

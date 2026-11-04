@@ -6,6 +6,7 @@ import "react-phone-input-2/lib/style.css";
 import { useRouter } from "next/router";
 import Navbar from "../../Global/Navbar/Navbar";
 import Head from "next/head";
+
 const MasterApplicationForm = ({ secondForm, title }) => {
   const router = useRouter();
   const [value, setValue] = useState();
@@ -13,18 +14,19 @@ const MasterApplicationForm = ({ secondForm, title }) => {
     name: "",
     email: "",
     url: router.asPath,
-    phone: "",
+    phoneNumber: "",
     highestEducation: "",
     graduationMarks: "",
     workExperience: "",
     currentJobTitle: "",
     domain: "",
     programmingKnowledge: "no",
-    // Default: "no"
   });
+
   useEffect(() => {
-    setQuery({ ...query, phone: value });
+    setQuery({ ...query, phoneNumber: value });
   }, [value]);
+
   const handleChange = (e) => {
     const { name, value, type } = e.target;
     const newValue = type === "file" ? e.target.files[0] : value;
@@ -36,53 +38,54 @@ const MasterApplicationForm = ({ secondForm, title }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+  
+    // Ensure phone number exists and has at least 10 digits
+    if (!value) {
+      alert("Please enter your phone number.");
+      return;
+    }
+  
+    const phoneNumberDigits = value.replace(/\D/g, ""); // Remove non-digit characters
+    if (phoneNumberDigits.length < 12) {
+      alert("Please enter a valid 10-digit phone number.");
+      return;
+    }
+  
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
     });
-
+  
     const sendData = await fetch(
       secondForm
         ? "https://getform.io/f/c97e799c-c954-4fc8-80c9-47b33ce2bb5d"
-        : "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4",
+        : "https://getform.io/f/f22d962e-90ad-4ec0-a9cd-ac0881f683ca",
       {
         method: "POST",
         body: formData,
       }
     );
+  
     setQuery({
       name: "",
       email: "",
       url: router.asPath,
-      phone: "",
+      phoneNumber: "",
       highestEducation: "",
       graduationMarks: "",
       workExperience: "",
       currentJobTitle: "",
       domain: "",
       programmingKnowledge: "no",
-      // Default: "no"
     });
-
+  
     setValue();
     if (sendData.status === 200) router.push("/Thank-you-counselling");
   };
+  
 
   return (
     <>
-    <Head>
-        <title>Learnbay - Counselling Form - Apply</title>
-        <meta
-          name="description"
-          content="Submit your information to LearnBay to unlock a world of learning opportunities. Join our platform today and start your path to success."
-        />
-        <meta name="robots" content="index, follow" />
-        <link
-          rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
-        />
-        <link rel="canonical" href="https://www.learnbay.co/submit-info" />
-      </Head>
       <Navbar masterApplication={true} />
       <div className={styles.formWrapper}>
         <div className={styles.leftWrap}>
@@ -128,7 +131,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
           ></input>
 
           <div className={styles.phoneWrap}>
-            <label htmlFor="phone">
+            <label htmlFor="phoneNumber">
               Phone Number<span className={styles.spanLabel}>*</span>
             </label>
             <div className={styles.phoneInput}>
@@ -136,9 +139,9 @@ const MasterApplicationForm = ({ secondForm, title }) => {
                 inputStyle={{
                   border: 0,
                 }}
-                name="phone"
+                name="phoneNumber"
                 inputProps={{
-                  name: "phone",
+                  name: "phoneNumber",
                   required: true,
                   placeholder: "Enter Phone Number",
                 }}
@@ -149,19 +152,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
               />
             </div>
           </div>
-          {/* <div className={styles.uploadButtonContainer}>
-          <label htmlFor="resume" className={styles.uploadButton}>
-            {query.resumeName ? query.resumeName : "Upload Resume"}{" "}
-            
-            <input
-              type="file"
-              id="resume"
-              name="resume"
-              accept=".pdf, .doc, .docx"
-              onChange={handleChange}
-            />
-          </label>
-        </div> */}
+
           <div className={styles.inputWrap}>
             <label htmlFor="highestEducation">Highest Education</label>
             <select
@@ -199,7 +190,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
               <option value="<60%">{"<60%"}</option>
               <option value="60% to 70%">60% to 70%</option>
               <option value="70% to 80%">70% to 80%</option>
-              <option value="70% to 80%">80%+</option>
+              <option value="80%+">80%+</option>
             </select>
           </div>
 
@@ -232,18 +223,6 @@ const MasterApplicationForm = ({ secondForm, title }) => {
               onChange={handleChange}
             />
           </div>
-
-          {/* <div className={styles.inputWrap}>
-          <label htmlFor="domain">Domain</label>
-          <input
-            type="text"
-            id="domain"
-            name="domain"
-            required
-            value={query.domain}
-            onChange={handleChange}
-          />
-        </div> */}
 
           <div className={styles.inputWrap}>
             <label htmlFor="programmingKnowledge">

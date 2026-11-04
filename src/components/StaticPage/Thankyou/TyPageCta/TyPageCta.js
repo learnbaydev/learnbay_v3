@@ -11,7 +11,7 @@ const TyPageCta = ({ heading, para, brochureLink }) => {
           <h4>{heading}</h4>
         </div>
         <a href={brochureLink}>
-          <Button text="Download Brochure" passIcon={<AiOutlineDownload />} />
+          <Button text="Download Syllabus" passIcon={<AiOutlineDownload />} />
         </a>
       </div>
     </div>

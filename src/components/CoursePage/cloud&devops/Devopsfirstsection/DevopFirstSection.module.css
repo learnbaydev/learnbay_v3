@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: 53% 47%;
   gap: 50px;
-  background: linear-gradient(#090909, #041D2D);
+  /* background: linear-gradient(#090909, #041D2D); */
   align-items: center;
 }
 .fillBtn {
@@ -62,7 +62,7 @@
   color: #fff;
 }
 .h1Span {
-  color: #f99600;
+  color: #FE7A36;
 }
 .h1 {
   color: #fff;
@@ -149,6 +149,12 @@
   width: 300px;
   height: max-content;
 }
+/* The hero image is wider than the block that holds it on small phones. */
+.ImageBlock img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 @media (max-width: 1281px) {
   .First {

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Popup.module.css";
 import { IoClose } from "react-icons/io5";
+import InPopupContext from "./InPopupContext";
 
 const Popup = (props) => {
   if (props.price) color = "white";
@@ -34,7 +35,9 @@ const Popup = (props) => {
           />
         )}
 
-        {props.children}
+        <InPopupContext.Provider value={true}>
+          {props.children}
+        </InPopupContext.Provider>
       </div>
     </div>
   ) : (

@@ -1,17 +1,16 @@
-import React from "react";
 import Head from "next/head";
-import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-import styles from "../styles/Home.module.css";
+import Navbar from "../components/Global/Navbar/Navbar";
 import SecondSection from "../components/StaticPage/FirstSectionLearning/SecondSectionLearning";
+import styles from "../styles/Home.module.css";
 
 function learning() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Learning Learnbay</title>
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
           content="data science courses with IBM certification. Learnbay is advanced data science course training institute. Enrol in our data science course to enhance your career"
@@ -36,7 +35,11 @@ function learning() {
         interstedInHide={true}
       />
       <SecondSection />
-      <BottomBar radio={true} />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        radio={true}
+      />
       <Footer />
     </div>
   );

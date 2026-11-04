@@ -1,11 +1,11 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import FullStackSoftwareDevelopmentFirstPart from "@/components/CoursePage/FirstPart/FullStackSoftwareDevelopmentFirstPart";
-import FullStackSoftwareDevelopmentSecondPart from "@/components/CoursePage/FirstPart/FullStackSoftwareDevelopmentSecondPart";
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import FullStackSoftwareDevelopmentFirstPart from '@/components/CoursePage/FirstPart/FullStackSoftwareDevelopmentFirstPart';
+import FullStackSoftwareDevelopmentSecondPart from '@/components/CoursePage/FirstPart/FullStackSoftwareDevelopmentSecondPart';
 
-const OfferPopup = dynamic(() =>
-  import("../../components/Global/OfferPopup/OfferPopup")
+const OfferPopup = dynamic(
+  () => import('../../components/Global/OfferPopup/OfferPopup')
 );
 
 function Blockchain({ DataScienceCourseDataJson }) {
@@ -17,7 +17,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <title>Software Development Certification Program - Learnbay</title>
         <meta
           name="description"
-          content="Elevate your tech skills through our Software development Certification Program and switch from service-based to product-based companies. Earn globally recoganized IBM and Microsoft Certifications.          "
+          content="Learn Full-Stack Software Development With Learnbay. Get Hands-On Projects, Live Sessions, Mentorship, And Placement Support To Land Your Dream Job. "
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -33,10 +33,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
           href="https://www.learnbay.co/fullstack/full-stack-software-development-program"
         />
 
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: `{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
       "@context": "http://schema.org",
       "@type": "Course",
       "name": "Software Development Certification Program",
@@ -44,7 +44,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       "url": "https://www.learnbay.co/fullstack/full-stack-software-development-program",
       "offers": {
         "@type": "Offer",
-        "price": 115000,
+        "price": 159000,
         "priceCurrency": "INR",
         "category": "Educational"
       },
@@ -61,15 +61,14 @@ function Blockchain({ DataScienceCourseDataJson }) {
           "courseWorkload": "P10W",
           "courseFee": {
             "@type": "PriceSpecification",
-            "price": "₹ 1,15,000 + 18% GST",
+            "price": "₹ 1,59,000 + 18% GST",
             "priceCurrency": "INR"
           }
         }
       ]
-    }`
-  }}
-/>
-
+    }`,
+          }}
+        />
       </Head>
       <main>
         <FullStackSoftwareDevelopmentFirstPart
@@ -91,7 +90,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/FullStackSoftwareProgram");
+  const data = await import('../../Data/FullStackSoftwareProgram');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

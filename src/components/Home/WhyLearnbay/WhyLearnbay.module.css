@@ -2,32 +2,30 @@
   font-size: 36px;
 }
 .iconbox {
-  background-color: white;
-  padding: 10px;
-  border-radius: 5px;
+margin: 0;
 }
 
 .Container {
   display: grid;
-  grid-template-columns: 55% 31%;
-  margin-bottom: 100px;
-  padding: 0px 100px;
+  grid-template-columns: 55% 45%;
+  padding: 50px 100px 0px 140px;
   justify-content: space-between;
-  gap: 180px;
-  align-items: flex-end;
 }
 
 .heading {
   margin: 0;
-  color: #414141;
   font-size: 36px;
   font-weight: 700;
+  background: linear-gradient(90deg, #414141 28.42%, #905A08 82.05%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .para {
   color: #414141;
   font-size: 20px;
-  margin-right: 170px;
+  margin-right: 150px;
   font-weight: 400;
   margin-top: 20px;
 }
@@ -36,11 +34,15 @@
   color: #0072bc;
 }
 
+.firstDivSection {
+  margin-bottom: 100px;
+}
+
 .OrangeText {
-  color: #f99600;
+  color: #FE7A36;
   font-size: 22px;
   font-weight: 700;
-  margin-top: 25px;
+  margin-top: 18px;
 }
 
 .botPara {
@@ -54,17 +56,19 @@
 
 .boxSecond {
   margin: auto;
+  margin-bottom: 0;
 }
 
 .imgBox {
-  padding: 30px;
+  padding: 20px 24px;
   width: fit-content;
+  align-items: center;
   display: flex;
   justify-content: center;
   border-radius: 6.956px;
-  border: 1.159px solid #fff;
-  background: rgba(41, 41, 41, 0.8);
-  box-shadow: 0px 0px 4.63743px 0px rgba(0, 0, 0, 0.25);
+border: 1.159px solid #FE7A36;
+background: rgba(249, 150, 0, 0.06);
+box-shadow: 0px 0px 4.637px 0px rgba(0, 0, 0, 0.25);
 }
 
 .imgBox img {
@@ -75,7 +79,7 @@
   display: grid;
   grid-template-columns: 21% 21% 22%;
   gap: 80px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .imgShow {
@@ -84,6 +88,7 @@
   width: 340px; /* Adjust the size as needed */
   height: 340px; /* Adjust the size as needed */
   overflow: hidden;
+  margin-left: 25px;
 }
 
 .imgShow img {
@@ -95,10 +100,10 @@
 }
 
 @keyframes rotate {
-  100% {
+  0% {
     transform: rotate(0deg);
   }
-  0% {
+  100% {
     transform: rotate(360deg);
   }
 }
@@ -118,20 +123,52 @@
   animation: rotate 20s linear infinite; /* Adjust the duration as needed */
   margin-top: 175px;
 }
+/* Nothing sat between the desktop layout and the 641px rules: 55%+45%
+   columns plus 240px of side padding could not fit a tablet. */
+@media (max-width: 1024px) {
+  .Container {
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 24px 0;
+  }
+  .Container > * {
+    min-width: 0;
+  }
+  /* The overlapping hero art is sized by its intrinsic width and spilled out
+     of the shrunken column. */
+  .imgBoy img,
+  .imgShow img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 @media (max-width: 641px) {
   .Container {
     display: block;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 50px 20px 20px 20px;
+  }
+
+  .boxSecond {
+    display: none;
+  }
+
+  .botPara {
+    font-size: 20px;
   }
 
   .heading {
     font-size: 25px;
   }
 
+  .firstDivSection {
+    margin-bottom: 0px;
+  }
+
   .para {
     margin: 20px 0px 30px 0px;
+    font-size: 18px;
   }
 
   .boxDiv {
@@ -142,6 +179,7 @@
   .innerDiv {
     display: flex;
     gap: 20px;
+    margin-bottom: 15px;
   }
 
   .boxSecond {

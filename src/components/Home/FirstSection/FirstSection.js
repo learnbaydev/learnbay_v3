@@ -10,6 +10,9 @@ const FirstSection = ({
   radio,
   dataScienceCounselling,
   interstedInHide,
+  idss,
+  btnHide,
+  dataScienceGeneric,
 }) => {
   const [popups, setPopups] = useState(false);
   return (
@@ -18,12 +21,14 @@ const FirstSection = ({
         dataScience={dataScience}
         radio={radio}
         dataScienceCounselling={dataScienceCounselling}
+        dataScienceGeneric={dataScienceGeneric}
         popups={popups}
         setPopups={setPopups}
         interstedInHide={interstedInHide}
         heading="Apply For Counselling"
       />
-      <FirstSectionContent setPopups={setPopups} />
+
+      <FirstSectionContent btnHide={btnHide} setPopups={setPopups} />
     </>
   );
 };

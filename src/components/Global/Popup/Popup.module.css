@@ -97,6 +97,9 @@
     right: 10px;
     font-size: 25px;
   }
+  /* .popupInners {
+    z-index: 100;
+  } */
 }
 @media (max-width: 1280px) {
   .popup {
@@ -144,6 +147,11 @@
   }
   .popup .popupInners {
     background-color: white;
+    background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/popup-left.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-origin: content-box;
     position: relative;
     display: flex;
     align-items: center;
@@ -195,28 +203,48 @@
 }
 @media (max-width: 1025px) {
   .popupInner {
+    background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/popup-left.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-origin: content-box;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(190, 202, 218, 0.75);
     padding: 30px 10px !important;
   }
   .popupInners {
+    background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/popup-left.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-origin: content-box;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(190, 202, 218, 0.75);
-    background-image: none !important;
+    /* background-image: none !important; */
     padding: 30px 10px;
   }
   .popupInnersW {
+    background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/popup-left.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-origin: content-box;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(190, 202, 218, 0.75);
-    background-image: none !important;
+    /* background-image: none !important; */
     padding: 30px 10px;
   }
 }
 @media (max-width: 1025px) {
   .popupInner {
+    background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/popup-left.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-origin: content-box;
     display: grid !important;
     grid-template-columns: 40% 55%;
     padding: 30px 10px !important;
@@ -238,6 +266,7 @@
     background-color: white;
     background-image: none !important;
     padding: 30px 10px;
+    z-index: 999;
   }
 }
 @media (max-width: 481px) {

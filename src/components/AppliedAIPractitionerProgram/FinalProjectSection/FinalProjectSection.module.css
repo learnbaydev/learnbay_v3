@@ -1,0 +1,179 @@
+.wrapper {
+  width: 100%;
+  padding: 60px 16px 70px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.inner {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.heading {
+  margin: 0 0 8px;
+  font-size: 1.9rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #0881fd 0.09%, #7536bf 88.61%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subheading {
+  margin: 0;
+  font-size: 0.98rem;
+  color: #676969;
+}
+
+/* Gradient strip */
+
+.strip {
+  margin-top: 24px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: linear-gradient(95deg, #6a14ff 0%, #2a2a8b 100%);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.18);
+}
+
+.stepsRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 28px 32px 30px;
+  gap: 48px;
+}
+
+/* Individual step */
+
+.stepBlock {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+}
+
+.iconOuter {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background: #ffffff;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconInner {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ffffff 0%, #e0e4ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconImage {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.stepTitle {
+  margin: 6px 0 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Arrow between steps */
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.arrowLine {
+  display: block;
+  width: 48px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.arrowHead {
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 6px solid rgba(255, 255, 255, 0.9);
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+/* Footer text */
+
+.footerText {
+  margin: 22px auto 0;
+  text-align: center;
+  font-size: 0.96rem;
+  color: #676969;
+  max-width: 680px;
+}
+
+.boldText {
+  font-weight: 600;
+}
+
+/* Responsive */
+
+@media (max-width: 860px) {
+  .stepsRow {
+    flex-direction: column;
+    padding: 24px 18px 26px;
+    gap: 28px;
+  }
+
+  .stepBlock {
+    text-align: center;
+  }
+
+  .arrow {
+    position: static;
+    transform: none;
+    margin-top: 14px;
+    justify-content: center;
+  }
+
+  .arrowLine {
+    width: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .subheading {
+    font-size: 0.9rem;
+  }
+
+  .footerText {
+    font-size: 0.9rem;
+  }
+
+  .stepsRow {
+    padding: 20px 14px 22px;
+  }
+}

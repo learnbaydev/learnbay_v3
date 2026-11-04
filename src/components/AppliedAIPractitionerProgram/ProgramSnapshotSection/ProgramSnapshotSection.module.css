@@ -1,0 +1,284 @@
+.wrapper {
+  width: 100%;
+  padding: 70px 6% 80px;
+  box-sizing: border-box;
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.heading {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #0881fd 0.09%, #7536bf 88.61%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.subheading {
+  margin: 8px 0 0;
+  font-size: 1rem;
+  color: #676969;
+}
+
+/* Main card */
+
+.card {
+  width: 100%;
+  max-width: 1120px;
+  display: flex;
+  border-radius: 26px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+}
+
+/* LEFT PANE */
+
+.leftPane {
+  flex: 1.1;
+  padding: 28px 36px 32px;
+  background-color: #ffffff;
+  border-right: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+}
+
+.durationPill {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 48.486px;
+  background: linear-gradient(90deg, #8540ec 0%, #4e73f5 100%);
+  align-self: flex-start;
+}
+
+.programTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.modeRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.modeLabel {
+  font-size: 0.78rem;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  color: #141313;
+}
+
+.modeValue {
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+.liveTag {
+  color: #ca3942;
+  font-weight: 700;
+}
+
+/* Collaboration */
+
+.collabRow {
+  display: flex;
+  align-items: center; /* Align text + image vertically */
+  gap: 10px; /* Space between them */
+}
+.collabLogoWrap {
+  position: relative;
+  width: 150px; /* or any width you prefer */
+  height: 90px; /* adjust depending on logo shape */
+}
+.collabLogo {
+  object-fit: contain;
+}
+
+/* RIGHT PANE */
+
+.rightPane {
+  flex: 0.9;
+  padding: 28px 36px;
+  border-radius: 0 100px;
+  background: linear-gradient(96deg, #7e3cea 3.37%, #2a2981 90.36%);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+  justify-content: center;
+  align-items: center;
+}
+
+.feePill {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 50px;
+
+  border: 1.23px solid #d3e9ff;
+  background: rgba(255, 255, 255, 0.26);
+  font-size: 0.88rem;
+  font-weight: 600;
+  width: 133px;
+}
+
+.priceBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.priceMain {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.priceSub {
+  font-size: 0.95rem;
+  opacity: 0.95;
+}
+
+/* Buttons */
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+  align-items: center;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  border: none;
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.primaryBtn {
+  border-radius: 12.53px;
+  background: #fff;
+  color: #111827;
+  width: 266px;
+  justify-content: center;
+  align-items: center;
+}
+
+.primaryBtn:hover {
+  background-color: #f9fafb;
+}
+
+.secondaryBtn {
+  color: #ffffff;
+  width: 266px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  border-radius: 12.613px;
+  background: linear-gradient(90deg, #0383ff 0%, #4e47e5 100%);
+}
+
+.btnIconBox {
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background-color: rgba(15, 23, 42, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconarrowRightToLine {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  background-color: #111827;
+}
+
+.iconPhone {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background-color: #1ad041;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .leftPane {
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .rightPane {
+    border-radius: 0 0 26px 26px;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 50px 16px 60px;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .leftPane,
+  .rightPane {
+    padding: 24px 20px;
+  }
+
+  .programTitle {
+    font-size: 1.3rem;
+  }
+
+  .priceMain {
+    font-size: 1.4rem;
+  }
+
+  .actions {
+    width: 100%;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    justify-content: center;
+  }
+}

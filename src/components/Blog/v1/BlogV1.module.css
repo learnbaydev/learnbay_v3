@@ -1,0 +1,411 @@
+.blogPage {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  margin-top: 5rem;
+  overflow-x: hidden;
+}
+
+.blogHeader {
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid #ddd;
+  display: block;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blogHeader h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.blogContainer {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2em auto 0;
+  flex: 1;
+  gap: 30px;
+  padding: 0 10px 6rem;
+  min-width: 0;
+}
+
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 100px;
+  align-self: flex-start;
+  max-height: 80vh;
+  overflow-y: auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.blogTitle {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: #2372bc; /* Blue title */
+  line-height: 1.25;
+  overflow-wrap: break-word;
+}
+
+.metaContainer {
+  padding: 30px clamp(16px, 3vw, 30px) 0;
+  width: 100%;
+  max-width: 1220px;
+  align-items: center;
+  margin: auto;
+}
+
+.metaInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 40px;
+  font-size: 1rem;
+  color: #000;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.author a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.date {
+  font-style: italic;
+  color: #000;
+}
+
+.sidebar h2 {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.sidebar ul {
+  padding-left: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.sidebar ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+
+  color: #181717;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+  overflow-wrap: break-word;
+}
+
+.sidebar ul li a:hover {
+  color: #2372bc;
+  font-weight: 500;
+}
+
+.blogContent {
+  flex: 1;
+  min-width: 0; /* lets a flex child shrink instead of forcing page-wide overflow */
+  border-radius: 12px;
+  padding: 0 30px;
+  scroll-behavior: smooth;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+.blogContent a {
+  color: #2372bc;
+  font-weight: 700;
+}
+.blogContent li {
+  padding: 0.4rem 0;
+  line-height: 1.5rem;
+}
+
+.blogContent h2 {
+  margin-top: 40px;
+  margin-bottom: 16px;
+  color: #333;
+  font-size: 1.8rem;
+}
+.blogContent h3 {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  color: #333;
+  font-size: 1.4rem;
+}
+
+.blogContent p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 20px;
+  color: #343434;
+}
+
+/* --- Authored markdown/HTML content ------------------------------------ */
+
+/* Post bodies carry inline width/height attributes, so these need to win. */
+.blogContent img {
+  display: block;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 1.5rem auto;
+}
+
+.tableScroll {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  margin: 1.5rem 0;
+  scrollbar-width: thin;
+  scrollbar-color: #c3c9d1 #eceff3;
+}
+
+/* Keep a visible scroll affordance so it reads as swipeable, not cut off. */
+.tableScroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.tableScroll::-webkit-scrollbar-track {
+  background: #eceff3;
+  border-radius: 3px;
+}
+
+.tableScroll::-webkit-scrollbar-thumb {
+  background: #c3c9d1;
+  border-radius: 3px;
+}
+
+/* Post tables are authored with inline table-layout/font-size/padding and
+   `cellpadding`, all of which overflow small screens; normalise them here and
+   let .tableScroll handle anything still too wide. */
+.blogContent .tableScroll table,
+.blogContent table {
+  width: 100% !important;
+  min-width: 34rem;
+  table-layout: auto !important;
+  border-collapse: collapse !important;
+  font-size: 1rem !important;
+}
+
+.blogContent th,
+.blogContent td {
+  padding: 10px 12px !important;
+  font-size: 0.95rem !important;
+  line-height: 1.5;
+  vertical-align: top;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.videoWrap {
+  position: relative;
+  width: 100%;
+  max-width: 760px;
+  margin: 1.5rem auto;
+  aspect-ratio: 16 / 9;
+}
+
+.videoWrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.blogContent pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.date {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.nextPost {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.nextPost a {
+  display: inline-block;
+  font-size: 1.1rem;
+  color: #0070f3;
+  text-decoration: none;
+  border: 1.5px solid #0070f3;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.nextPost a:hover {
+  background-color: #0070f3;
+  color: #fff;
+}
+.blogContent h1,
+.blogContent h2,
+.blogContent h3,
+.blogContent h4,
+.blogContent h5,
+.blogContent h6 {
+  scroll-margin-top: 120px; /* Adjust depending on your fixed header */
+  overflow-wrap: break-word;
+}
+
+.hr {
+  margin-top: 10px;
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    lightgray 13%,
+    darkgray 10%,
+    lightgray 100%
+  ); /* Gradient from light to dark */
+}
+
+@media (max-width: 1280px) {
+  .blogContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .toggleButton {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 260px;
+  }
+}
+
+@media (max-width: 861px) {
+  /* For mobile dropdown toggle */
+  .toggleButton {
+    background-color: #2372bc;
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    margin-bottom: 12px;
+    width: 100%;
+    transition: background 0.3s ease;
+  }
+
+  .toggleButton:hover {
+    background-color: #1b5b99;
+  }
+
+  .mobileSidebar {
+    width: 100% !important;
+    padding: 0 10px;
+  }
+
+  .mobileSidebar .tocContent {
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  .mobileSidebar ul {
+    max-height: 45vh;
+  }
+
+  .blogContainer {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .blogHeader {
+    position: relative;
+    box-shadow: none;
+    border: none;
+  }
+  .metaInfo {
+    font-size: 1rem;
+    padding-top: 16px;
+  }
+  .date {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 641px) {
+  .sidebar {
+    top: 70px;
+  }
+  .blogContent {
+    margin-top: 10px;
+    padding: 0;
+    box-shadow: none;
+  }
+  .blogContent h2 {
+    font-size: 1.4rem;
+  }
+  .blogContent h3 {
+    font-size: 1.2rem;
+  }
+  .blogContainer {
+    padding: 0 16px 3rem;
+  }
+  .blogContent p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+  .blogContent th,
+  .blogContent td {
+    padding: 8px 10px !important;
+    font-size: 0.9rem !important;
+  }
+  .blogContent .tableScroll table,
+  .blogContent table {
+    min-width: 30rem;
+  }
+  .metaContainer {
+    padding-top: 20px;
+  }
+  .metaInfo {
+    font-size: 12px;
+    gap: 8px 14px;
+  }
+  .date {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .blogContainer {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .blogContent .tableScroll table,
+  .blogContent table {
+    min-width: 26rem;
+  }
+}

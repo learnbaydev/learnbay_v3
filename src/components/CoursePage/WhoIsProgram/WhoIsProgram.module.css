@@ -1,8 +1,8 @@
 .container {
-  padding: 0px 70px 50px 70px;
+  padding:0px 90px 50px 90px;
 }
 
-.container h4 {
+.container h3 {
   text-align: center;
 }
 
@@ -23,7 +23,7 @@
 
 .InnerBox:nth-child(2),
 .InnerBox:nth-child(4) {
-  color: #f99600;
+  color: #FE7A36;
 }
 .InnerBox:nth-child(1),
 .InnerBox:nth-child(3) {
@@ -31,7 +31,7 @@
 }
 .InnerBox:nth-child(2),
 .InnerBox:nth-child(4) {
-  color: #f99600;
+  color: #FE7A36;
 }
 .InnerBox:nth-child(1),
 .InnerBox:nth-child(3) {
@@ -85,11 +85,32 @@
   justify-content: center;
   align-items: center;
 }
+
 @media (max-width: 1281px) {
 
   .BoxCont {
     font-size: 13px;
   }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .BgCont1 {
+    font-size: 13px;
+  }
+  .imgBox {
+    padding-left: 30px;
+  }
+  .BgCont2 {
+    font-size: 13px;
+  }
+  .imgBox {
+    padding-left: 30px;
+  }
+
+
 }
 
 @media (max-width: 641px) {

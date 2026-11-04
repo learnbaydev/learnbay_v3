@@ -1,8 +1,7 @@
-import React from "react";
 import Head from "next/head";
-import Navbar from "../components/Global/Navbar/Navbar";
-import Footer from "../components/Global/Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import Footer from "../components/Global/Footer/Footer";
+import Navbar from "../components/Global/Navbar/Navbar";
 import Terms from "../components/StaticPage/terms/terms";
 
 function terms() {
@@ -26,7 +25,11 @@ function terms() {
         <Terms />
 
         <Footer />
-        <BottomBar radio={true} />
+        <BottomBar
+          dataScienceGeneric={true}
+          interstedInHide={true}
+          radio={true}
+        />
       </main>
     </div>
   );

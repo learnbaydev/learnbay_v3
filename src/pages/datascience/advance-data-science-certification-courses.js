@@ -1,9 +1,8 @@
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import FirstPart from "@/components/CoursePage/FirstPart/FirstPart";
-import SecondPart from "@/components/CoursePage/FirstPart/SecondPart";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
+import Head from 'next/head';
+import { parseJSONData } from '@/Util/JsonConvertor';
+import FirstPart from '@/components/CoursePage/FirstPart/FirstPart';
+import SecondPart from '@/components/CoursePage/FirstPart/SecondPart';
+import Navbar from '@/components/Global/Navbar/Navbar';
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -11,18 +10,55 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-          Advance Data Science & AI Program with Domain Specialization -
-          Learnbay
-        </title>
+        <title>Advanced Data Science & AI Course Training - Learnbay</title>
         <meta
           name="description"
-          content="Our Advance Data Science and AI Course brings you a wide knowledge of Data Science and AI and helps you to make precise data-driven decisions.          "
+          content="Master Data Science & AI with Learnbay. Get certified and gain hands-on skills in AI & ML. Start your career transformation today."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
           content="data science and ai course, advanced data science course, data science and ai, ai and data science course, artificial intelligence and data science course, advanced certification in data science and ai"
+        />
+        {/* Open Graph / Facebook / LinkedIn */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+        />
+        <meta
+          property="og:title"
+          content="Advanced Data Science & AI Course Training - Learnbay"
+        />
+        <meta
+          property="og:description"
+          content="Master Data Science & AI with Learnbay. Get certified and gain hands-on skills in AI & ML. Start your career transformation today."
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
+        />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+        />
+        <meta
+          name="twitter:title"
+          content="Advanced Data Science Course & AI Program With Certification"
+        />
+        <meta
+          name="twitter:description"
+          content="Are you searching for the Advanced Data Science and Artificial Intelligence Program With Certification? Learnbay is providing the best online Advanced Data Science and AI Program . Enroll now!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <link
           rel="icon"
@@ -43,7 +79,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   "url": "https://www.learnbay.co/datascience/advance-data-science-certification-courses",
   "offers": {
     "@type": "offer",
-    "price": "125000",
+    "price": "159000",
     "pricecurrency": "INR",
     "category": "Educational"
   },
@@ -60,7 +96,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       "courseWorkload": "P10W",
       "courseFee": {
         "@type": "PriceSpecification",
-        "price": "₹ 1,25,000 + 18% GST",
+        "price": "₹ 1,59,000 + 18% GST",
         "priceCurrency": "INR"
       }
     }
@@ -71,20 +107,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} interstedInHide={true} />
-        <FirstSection
-          dataScienceCounselling={true}
-          interstedInHide={true}
-          ThirdTyped="Live Interactive Classes"
-          dataScience={true}
-          titleCourse="Advance Data Science & AI Program with Domain Specialization"
-          cityParaCont="Elevate your tech career with our Master's programs"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
-          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
-          firstToparaImg="with Domain Specialization"
-          firstHeading="Advance Data Science & AI Program"
-          firstTopPara="Curriculum Inclusive of Gen-AI "
-          idss="YWxTtvb3x-U"
-        />
+
         <FirstPart
           SecondSectionData={
             DataScienceCourseData.DataScienceCourseData[0].secondSection
@@ -113,7 +136,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/AdvanceDataScienceCourse");
+  const data = await import('../../Data/AdvanceDataScienceCourse');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

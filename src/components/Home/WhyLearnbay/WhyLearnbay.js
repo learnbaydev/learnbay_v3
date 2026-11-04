@@ -8,7 +8,7 @@ import { FiVideo } from "react-icons/fi";
 function WhyLearnbay() {
   return (
     <section className={styles.Container}>
-      <div>
+      <div className={styles.firstDivSection}>
         <p className={styles.heading}>
           Why choose Learnbay for{" "}
           <span className={styles.contBlue}>Upskilling?</span>
@@ -19,26 +19,47 @@ function WhyLearnbay() {
         </p>
         <div className={styles.boxDiv}>
           {renderBox(
-            "250%",
-            "Highest Salary Hike",
-            <FiTrendingUp className={styles.icon} />
+            "250% Avg.",
+            "Salary Hike",
+            <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/diagram_2285545+1.svg"
+            width={40}
+            height={40}
+            alt="Learnbay"
+            loading="lazy"
+            quality={40}
+          />
           )}
           {renderBox(
             "Dedicated",
             "Placement Cell",
-            <FaRegBuilding className={styles.icon} />
+            <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/hotel-new.svg"
+            width={40}
+            height={40}
+            alt="Learnbay"
+            loading="lazy"
+            quality={40}
+          />
           )}
           {renderBox(
             "Live online",
             "Interactive Session",
-            <FiVideo className={styles.icon} />
+            <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cinema-new.png"
+            width={40}
+            height={40}
+            alt="Learnbay"
+            loading="lazy"
+            quality={40}
+          />
           )}
         </div>
       </div>
       <div className={styles.boxSecond}>
         <div className={styles.imgBoy}>
           <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/global-boy.webp"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/global-boy.webp"
             width={420}
             height={420}
             alt="Learnbay"

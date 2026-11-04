@@ -96,7 +96,7 @@ function SecondSection() {
           </div>
           <div className={styles.boxGrey}>
             <IoRocketOutline className={styles.greyIcon} />
-            <p>Unlimited Interview Calls</p>
+            <p>Job-readiness with interview support</p>
           </div>
         </div>
       </div>

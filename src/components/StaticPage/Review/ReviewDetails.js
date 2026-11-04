@@ -6,22 +6,6 @@ export const ReviewD = [
     para: "Learnbay is great place for learning data science for working professionals. They have well trained instructors for every modules. The biggest advantage in Learnbay is we can repeat the modules if we want to relearn. As a working professional if our shift timings are changing we can switch the batches which will be convenient for us.Their support staffs also good as they quickly respond and help us to solve any type of issues. So I suggest everyone to learn in learnbay as they provide quality teaching for a reasonable cost.",
   },
   {
-    id: 2,
-    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/prem.png",
-    title: "Prem Jadhav",
-    para: `It was a nice learning journey with Learnbay,
-        Trainers assigned were well qualified and working professionals so was easy to relate to real life use cases.
-        Management is supportive for all help required lime some extra classes, doubt clearing. But still need to improve on providing more session one to one resume review, mock interviews which was missing.
-        Curriculum can be improved to be more suiting to industry requirements, like giving priority to modules which can help students to get on to jobs and career change early.
-        Overall it was a good experience.`,
-  },
-  {
-    id: 3,
-    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/dhivya.png",
-    title: "Dhivya K",
-    para: "I will definitely recommend Learnbay to anyone who is looking for Data Science course. First of all, they have best instructors and management is very supportive. Offer many project sessions, domain sessions and resume session. They listen to our queries and resolve them on priority. And you can take the modules any number of times, you can switch to any batch without hassle.  I joined the course Feb 2021, since I had some personal and professional commitments, I couldn't immediately join the next module, so I took break and they helped me rejoining the course without any difficulty. You can always raise concern and change the instructor or batch, Learnbay is always happy to help. One thing to note- they don't track our assignment or project submission and don't push us to complete anything, we will have to be professionals and take ownership. All in all, a superstar institute for Data Science adn AI courses.",
-  },
-  {
     id: 4,
     img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/sai.png",
     title: "Sai Venkat Reddy",

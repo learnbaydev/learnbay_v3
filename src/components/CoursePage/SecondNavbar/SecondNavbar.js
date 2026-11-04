@@ -16,8 +16,10 @@ function SecondNavbar({
   dataScience,
   fullStack,
   brochureLink,
+  brochurePdf,
   titleCourse,
   dataScienceCounselling,
+  hideProjectLab,
 }) {
   const [popups, setPopups] = useState(false);
   const [activeSection, setActiveSection] = useState(null);
@@ -121,6 +123,7 @@ function SecondNavbar({
               radio={radio}
               titleCourse={titleCourse}
               brochureLink={brochureLink}
+              brochurePdf={brochurePdf}
               fullStack={fullStack}
               dataScience={dataScience}
               interstedInHide={interstedInHide}
@@ -145,7 +148,7 @@ function SecondNavbar({
           />
         </Link>
         <div className={styles.innerP}>
-          <Link href="#alumni">
+          <Link href="/reviews">
             <p
               className={
                 activeSection === "alumni" ? styles.active : styles.inactive
@@ -154,6 +157,7 @@ function SecondNavbar({
               Alumni
             </p>
           </Link>
+          {/* {hideProjectLab ? ("") : (
           <Link href="#ProjectLab">
             <p
               className={
@@ -163,6 +167,7 @@ function SecondNavbar({
               Project Lab
             </p>
           </Link>
+          )} */}
           <Link href="#curriculum">
             <p
               className={

@@ -1,0 +1,77 @@
+const highlightsData = [
+  {
+    tag: 'CAREER / INDUSTRY VALUE',
+    heading: 'WORK WITH REAL CLOUD TEST INFRASTRUCTURE',
+    headingColor: '#873E18',
+    descColor: '#525252',
+    description:
+      'Build and operate production-grade test infrastructure used by engineering teams. Work with CI/CD pipelines, Kubernetes, Selenium Grid, and cloud monitoring.',
+    image: '',
+    width: 550,
+    height: 260,
+    top: 150,
+    right: -72,
+    bg: 'linear-gradient(111deg, #FFF 3.66%, #FFE6DA 98.21%)',
+    border: '#FE7A36',
+    shadow: 'rgba(239, 163, 125, 0.28)',
+    tagColor: '#CA3942',
+    duaration: '4 weeks',
+  },
+  {
+    tag: 'MENTORSHIP / GUIDANCE',
+    heading: 'GET GUIDED BY CLOUD & DEVOPS QA EXPERTS',
+    headingColor: '#048C5D',
+    descColor: '#1F4034',
+    description:
+      'Get 1-on-1 guidance from Cloud & DevOps mentors. Build pipelines, debug test environments, and review infrastructure to industry standards.',
+    image: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame.webp',
+    width: 330,
+    height: 190,
+    top: 171,
+    right: -96,
+    bg: 'linear-gradient(111deg, #E6FFFA 3.66%, #DAFFEF 98.21%)',
+    border: '#17C37B',
+    shadow: 'rgba(23, 195, 123, 0.28)',
+    tagColor: '#17C37B',
+    duaration: '4 weeks',
+  },
+
+  {
+    tag: 'HANDS-ON TOOLS / SKILLS',
+    heading: 'BUILD WITH CLOUD-NATIVE TESTING & DEVOPS TOOLS',
+    headingColor: '#0071F2',
+    descColor: '#1B1B1B',
+    description:
+      'Hands-on experience with real production tools: Jenkins • Docker • Kubernetes • Terraform • AWS EC2 • Selenium Grid • CloudWatch • Pytest',
+    image:
+      'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/docker_terraform.webp',
+    width: 305,
+    height: 200,
+    top: 160,
+    right: 32,
+    bg: 'linear-gradient(111deg, #F0F5FF 3.66%, #DAE6FF 98.21%)',
+    border: '#4D4FCD',
+    shadow: 'rgba(77, 79, 205, 0.28)',
+    tagColor: '#4D4FCD',
+    duaration: '3 weeks',
+  },
+  {
+    tag: 'CAREER READINESS / INTERVIEW PREP',
+    heading: 'BECOME JOB-READY WITH REAL-WORLD FEEDBACK',
+    headingColor: '#583EDB',
+    descColor: '#1C1C1C',
+    description:
+      'Practice CI/CD pipeline and test infrastructure scenarios. Get expert feedback to prepare for cloud and DevOps QA engineering interviews.',
+    width: 260,
+    height: 360,
+    top: 44,
+    right: -4,
+    bg: 'linear-gradient(111deg, #F3EFFF 3.66%, #DDD5FF 98.21%)',
+    border: '#A259FF',
+    shadow: 'rgba(162, 89, 255, 0.28)',
+    tagColor: '#A259FF',
+    duaration: '3 weeks',
+  },
+];
+
+export default highlightsData;

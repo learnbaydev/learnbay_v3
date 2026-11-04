@@ -1,0 +1,718 @@
+import React, { useState, useRef, useEffect, memo } from "react";
+import styles from "./NewCourse.module.css";
+import Image from "next/image";
+import {
+  courses,
+  masterCourse,
+  SvgArrow,
+  certificationCourses,
+} from "./NewCourseData";
+import Link from "next/link";
+import dynamic from "next/dynamic";
+import DataScienceCard from "./DataScienceCard";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import { Navigation, Pagination } from "swiper";
+import { MdOutlineFileDownloadSvg } from "@/Data/svgdata/MDIcons";
+import CertificationCard from "../CertificationCard/CertificationCard";
+
+const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
+const Form = dynamic(() => import("@/components/Global/Form/Form"));
+
+const NewCourse = ({
+  dataScience,
+  radio,
+  dataScienceCounselling,
+
+  dataScienceGeneric,
+  interstedInHide,
+}) => {
+  const [activeTab, setActiveTab] = useState("all");
+  const [visibleCount, setVisibleCount] = useState(6);
+  const [isMobile, setIsMobile] = useState(false);
+  const [popups, setPopups] = useState(false);
+  const [titleCourse, setTitleCourse] = useState();
+  const [brochureLinks, setBrochureLinks] = useState();
+  const [brochurePdfs, setBrochurePdfs] = useState();
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setIsMobile(true);
+        setVisibleCount(12);
+      } else {
+        setIsMobile(false);
+        setVisibleCount(9);
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const renderCourses = () => {
+    let selectedCourses = courses[activeTab] || [];
+
+    // If it's mobile and 'all' tab is active, hide the 'all' courses
+    // if (isMobile && activeTab === "all") {
+    //   selectedCourses = []; // Clear courses when 'all' is active in mobile
+    // }
+
+    // Slice the array to show only the number of visible courses
+    const visibleCourses = selectedCourses.slice(0, visibleCount);
+
+    return (
+      <>
+        {isMobile ? (
+          <Swiper
+            modules={[Navigation, Pagination]}
+            pagination={{ clickable: true }}
+            className={styles.swiperContainer}
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              412: {
+                slidesPerView: 1.2,
+                spaceBetween: 0,
+              },
+
+              512: {
+                slidesPerView: 1.4,
+                spaceBetween: 0,
+              },
+              612: {
+                slidesPerView: 1.6,
+                spaceBetween: 0,
+              },
+              712: {
+                slidesPerView: 2.1,
+                spaceBetween: 0,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+              1440: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+            }}
+          >
+            {" "}
+            <Popup
+              trigger={popups}
+              setTrigger={setPopups}
+              className="popupModal"
+              downloadBrochure
+            >
+              <div className="leftPopup">
+                <div
+                  className="whiteP"
+                  style={{ width: "340px", height: "400px" }}
+                ></div>
+              </div>
+              <div className="RightPopup">
+                <h5>Download Syllabus</h5>
+                <Form
+                  titleCourse={titleCourse}
+                  brochureLink={brochureLinks}
+                  brochurePdf={brochurePdfs}
+                  dataScience={dataScience}
+                  dataScienceCounselling={dataScienceCounselling}
+                  dataScienceGeneric={dataScienceGeneric}
+                  radio={radio}
+                  downloadBrochure
+                  upSkillingHide={true}
+                  interstedInHide={interstedInHide}
+                />
+              </div>
+            </Popup>
+            {visibleCourses.map((course, index) => (
+              <SwiperSlide key={course.title}>
+                <div className={styles.courseCard} key={index}>
+                  <Image
+                    src={course.image}
+                    width={360}
+                    height={120}
+                    alt={course.title}
+                    loading="lazy"
+                    className={styles.mainImage}
+                  />
+                  <div className={styles.cardContent}>
+                    <h3>{course.title}</h3>
+                    <div className={styles.lists}>
+                      <div className={styles.listicondiv}>
+                        <Image
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp"
+                          width={20}
+                          height={20}
+                          alt="certificate_icon"
+                          loading="lazy"
+                        />
+                        <span>{course.duration}</span>
+                      </div>
+                      <div className={styles.listicondiv}>
+                        <Image
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp"
+                          width={20}
+                          height={20}
+                          alt="certificate_icon"
+                          loading="lazy"
+                        />
+                        <span>{course.certification}</span>
+                      </div>
+                      <div className={styles.listicondiv}>
+                        <Image
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp"
+                          width={20}
+                          height={20}
+                          alt="certificate_icon"
+                          loading="lazy"
+                        />
+                        <span>{course.description}</span>
+                      </div>
+                    </div>
+                    <div className={styles.buttons}>
+                      <button
+                        className={styles.brochurebtn}
+                        onClick={() => {
+                          setTitleCourse(course.titleCourse);
+                          setBrochureLinks(course.brochureLinks);
+                          setBrochurePdfs(course.brochurePdfs);
+                          setPopups(true);
+                        }}
+                      >
+                        Brochure <MdOutlineFileDownloadSvg />
+                      </button>
+
+                      {course.link ? (
+                        <a href={course.link}>
+                          <button className={styles.viewDetailsButton}>
+                            View Details
+                          </button>
+                        </a>
+                      ) : (
+                        <button disabled className={styles.viewDetailsButton}>
+                          No Details Available
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        ) : (
+          <>
+            {visibleCourses.map((course, index) => (
+              <div className={styles.courseCard} key={index}>
+                <Popup
+                  trigger={popups}
+                  setTrigger={setPopups}
+                  className="popupModal"
+                  downloadBrochure
+                >
+                  <div className="leftPopup">
+                    <div
+                      className="whiteP"
+                      style={{ width: "340px", height: "400px" }}
+                    ></div>
+                  </div>
+                  <div className="RightPopup">
+                    <h5>Download Syllabus</h5>
+                    <Form
+                      titleCourse={titleCourse}
+                      brochureLink={brochureLinks}
+                      brochurePdf={brochurePdfs}
+                      dataScience={dataScience}
+                      dataScienceCounselling={dataScienceCounselling}
+                      dataScienceGeneric={dataScienceGeneric}
+                      radio={radio}
+                      downloadBrochure
+                      upSkillingHide={true}
+                      interstedInHide={interstedInHide}
+                    />
+                  </div>
+                </Popup>
+
+                <Image
+                  src={course.image}
+                  width={360}
+                  height={120}
+                  alt={course.title}
+                  loading="lazy"
+                  className={styles.mainImage}
+                />
+                <div className={styles.cardContent}>
+                  <h3>{course.title}</h3>
+                  <div className={styles.lists}>
+                    <div className={styles.listicondiv}>
+                      <Image
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp"
+                        width={20}
+                        height={20}
+                        alt="certificate_icon"
+                        loading="lazy"
+                      />
+                      <span>{course.duration}</span>
+                    </div>
+                    <div className={styles.listicondiv}>
+                      <Image
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp"
+                        width={20}
+                        height={20}
+                        alt="certificate_icon"
+                        loading="lazy"
+                      />
+                      <span>{course.certification}</span>
+                    </div>
+                    <div className={styles.listicondiv}>
+                      <Image
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp"
+                        width={20}
+                        height={20}
+                        alt="certificate_icon"
+                        loading="lazy"
+                      />
+                      <span>{course.description}</span>
+                    </div>
+                  </div>
+                  <div className={styles.buttons}>
+                    <button
+                      className={styles.brochurebtn}
+                      onClick={() => {
+                        setTitleCourse(course.titleCourse);
+                        setBrochureLinks(course.brochureLinks);
+                        setBrochurePdfs(course.brochurePdfs);
+                        setPopups(true);
+                      }}
+                    >
+                      Brochure <MdOutlineFileDownloadSvg />
+                    </button>
+
+                    {course.link ? (
+                      <a href={course.link}>
+                        <button className={styles.viewDetailsButton}>
+                          View Details
+                        </button>
+                      </a>
+                    ) : (
+                      <button disabled className={styles.viewDetailsButton}>
+                        No Details Available
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </>
+        )}
+      </>
+    );
+  };
+
+  const renderMasterCourse = () => (
+    <div className={`${styles.MasterCard} width`}>
+      {/* <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        downloadBrochure
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "340px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Download Syllabus</h5>
+          <Form
+            titleCourse={titleCourse}
+            brochureLink={brochureLinks}
+            brochurePdf={brochurePdfs}
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+            dataScienceGeneric={dataScienceGeneric}
+            radio={radio}
+            downloadBrochure
+            upSkillingHide={true}
+            interstedInHide={interstedInHide}
+          />
+        </div>
+      </Popup>
+      <Image
+        src={isMobile ? masterCourse.mImage : masterCourse.image}
+        width={isMobile ? 375 : 1200}
+        height={isMobile ? 300 : 200}
+        alt="MasterCard"
+        loading="lazy"
+        className={styles.bgImageMaster}
+      />
+      <div className={styles.contentConteiner}>
+        <h2>{masterCourse.title}</h2>
+        <div>
+          <div className={styles.mastericon}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/yellow_save+(1).webp"
+              width={25}
+              height={25}
+              alt="certificate_icon"
+              loading="lazy"
+            />
+            <p>{masterCourse.duration}</p>
+          </div>
+        </div>
+
+        <div>
+          <div className={`${styles.buttons} ${styles.buttonsMaster}`}>
+            <button
+              className={`${styles.brochurebtn} ${styles.brochurebtnMaster}`}
+              onClick={() => {
+                setTitleCourse(masterCourse.title);
+                setBrochureLinks(masterCourse.brochureLinks);
+                setBrochurePdfs(masterCourse.brochurePdfs);
+                setPopups(true);
+              }}
+            >
+              Brochure <MdOutlineFileDownloadSvg />
+            </button>
+
+            {masterCourse.link ? (
+              <Link href={masterCourse.link} passHref>
+                <button
+                  className={`${styles.viewDetailsButton} ${styles.viewDetailsButtonmaster}`}
+                >
+                  View Details
+                </button>
+              </Link>
+            ) : (
+              <button disabled className={styles.viewDetailsButton}>
+                No Details Available
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
+      <div className={styles.absloute}>
+        <div>
+          <h4>
+            90+
+            <span>Transferrable ECTS Credits</span>
+          </h4>
+        </div>
+        <div>
+          <h4>
+            60+
+            <span>Countries Recognition</span>
+          </h4>
+        </div>
+      </div> */}
+      <div className={styles.cardwrapper}>
+        {certificationCourses.map((course, index) => (
+          <CertificationCard data={course} radio={true} dataScience={true} />
+        ))}
+      </div>
+    </div>
+  );
+  const debounceScroll = (func, delay) => {
+    let timeout;
+    return (...args) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func(...args), delay);
+    };
+  };
+  const handleTabClick = debounceScroll((tabName) => {
+    setActiveTab(tabName);
+    setVisibleCount(isMobile ? 9 : 6);
+
+    if (containerRef.current) {
+      const containerTop =
+        containerRef.current.getBoundingClientRect().top + window.scrollY;
+
+      window.scrollTo({
+        top: containerTop - 100,
+        behavior: "smooth",
+      });
+
+      const activeTabElement = document.querySelector(
+        `.${styles.tabdiv}.active`
+      );
+      if (activeTabElement) {
+        activeTabElement.scrollIntoView({
+          behavior: "smooth",
+          inline: "nearest",
+        });
+      }
+    }
+  }, 200);
+  const handleViewMore = () => {
+    setVisibleCount((prevCount) => prevCount + (isMobile ? 20 : 6));
+  };
+
+  const handleWheel = (event) => {
+    event.preventDefault();
+    if (containerRef.current) {
+      containerRef.current.scrollBy({
+        left: event.deltaX > 0 ? 100 : -100,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  return (
+    <section className={styles.section}>
+      <div className={`${styles.container}`} ref={containerRef}>
+        <div className={styles.newSection}>
+          <div className={styles.tabHead}>
+            <div className={styles.tabMain} onWheel={handleWheel}>
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "all" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("all")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/round_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Popular Program </p>
+                  </div>
+                </div>
+
+                <SvgArrow color={activeTab === "all" ? "white" : "black"} />
+              </div>
+              {}
+
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "genai" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("genai")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={20}
+                      height={20}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <div className={styles.tagGen}>
+                      <p>GEN AI & Agentic AI</p>
+                      <div className={styles.tagNew}>NEW</div>
+                    </div>
+                  </div>
+                </div>
+                <SvgArrow color={activeTab === "genai" ? "white" : "black"} />
+              </div>
+
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "CloudDevops" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("CloudDevops")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Cloud & DevOps</p>
+                  </div>
+                </div>
+                <SvgArrow
+                  color={activeTab === "CloudDevops" ? "white" : "black"}
+                />
+              </div>
+
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "masterCertification" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("masterCertification")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud_DSA_icons.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Master Certification</p>
+                  </div>
+                </div>
+                <SvgArrow
+                  color={
+                    activeTab === "masterCertification" ? "white" : "black"
+                  }
+                />
+              </div>
+              {/* <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "dataScience" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("dataScience")}
+              >
+                            <div className={styles.sliders}>
+                <p>Data Science</p>
+                {svgFile}
+              </div>
+              </div> */}
+              {/* <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "MasterDegree" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("MasterDegree")}
+              >
+                             <div className={styles.sliders}>
+                <p>Master's Degree</p>
+                {svgFile}
+              </div>
+              </div> */}
+
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "sde" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("sde")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cer_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p> SDE </p>
+                  </div>
+                </div>
+                <SvgArrow color={activeTab === "sde" ? "white" : "black"} />
+              </div>
+
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "dsgenai" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("dsgenai")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <div className={styles.tagGen}>
+                      <p>Data Sci & GenAI</p>
+                    </div>
+                  </div>
+                </div>
+                <SvgArrow color={activeTab === "dsgenai" ? "white" : "black"} />
+              </div>
+
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "masterDegree" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("masterDegree")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/round_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Master's Degree</p>
+                  </div>
+                </div>
+                <SvgArrow
+                  color={activeTab === "masterDegree" ? "white" : "black"}
+                />
+              </div>
+
+              {/*            
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "manager" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("manager")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Managers </p>
+                  </div>
+                </div>
+                <SvgArrow color={activeTab === "manager" ? "white" : "black"} />
+              </div> */}
+            </div>
+          </div>
+
+          <div>
+            <div className={styles.CourseCardHead}>{renderCourses()}</div>
+            {isMobile && activeTab === "all" && (
+              <DataScienceCard
+                data={dataScience}
+                radio={true}
+                dataScience={true}
+              />
+            )}
+            {/* Render DataScienceCard only on mobile */}
+          </div>
+
+          {/* Render the Master Course after the View More button */}
+        </div>
+
+        {courses[activeTab]?.length > visibleCount && (
+          <div className={styles.viewMoreContainer}>
+            <button onClick={handleViewMore} className={styles.viewMoreButton}>
+              View More
+            </button>
+          </div>
+        )}
+      </div>
+      {[
+        "all",
+        "bfsi",
+        "Certifications",
+        "hr",
+        "dsa",
+        "CloudDevops",
+        "domainCourse",
+        "CyberSecurity",
+      ].includes(activeTab) && renderMasterCourse()}
+    </section>
+  );
+};
+
+export default memo(NewCourse);

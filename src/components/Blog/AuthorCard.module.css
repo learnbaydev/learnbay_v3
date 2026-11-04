@@ -1,0 +1,165 @@
+.card {
+  --a-blue: #0072bc;
+  --a-ink: #1a1a1a;
+  --a-muted: #555;
+
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  background: #fff;
+  border: 1px solid #e8ebf2;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Blue panel with the diagonal right edge from the design. The clip-path cuts
+   the slant; the panel is widened to compensate so the photo stays centred in
+   the visible area. */
+.media {
+  position: relative;
+  flex-shrink: 0;
+  width: 34%;
+  min-width: 240px;
+  padding: 34px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--a-blue);
+  clip-path: polygon(0 0, 100% 0, calc(100% - 78px) 100%, 0 100%);
+}
+
+/* Subtle constellation texture behind the portrait. */
+.media::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(rgba(255, 255, 255, 0.55) 1.4px, transparent 1.6px),
+    radial-gradient(rgba(255, 255, 255, 0.28) 1px, transparent 1.2px);
+  background-size: 78px 78px, 46px 46px;
+  background-position: 0 0, 22px 30px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.photo {
+  position: relative;
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  background: #e8ebf2;
+}
+
+.body {
+  flex: 1 0 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 36px 30px 8px;
+}
+
+.nameRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.name {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--a-ink);
+}
+
+.name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.name a:hover {
+  color: var(--a-blue);
+}
+
+.linkedin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  color: #0a66c2;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.linkedin:hover {
+  opacity: 0.75;
+}
+
+.role {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--a-blue);
+}
+
+.bio {
+  margin: 0;
+  max-width: 900px;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.65;
+  color: var(--a-muted);
+}
+
+.count {
+  margin: 14px 0 0;
+  font-size: 13.5px;
+  color: #6b7280;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 860px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .media {
+    width: 100%;
+    min-width: 0;
+    padding: 28px;
+    /* A horizontal slant reads as a mistake once stacked. */
+    clip-path: none;
+  }
+
+  .photo {
+    width: 118px;
+    height: 118px;
+  }
+
+  .body {
+    padding: 22px 24px 26px;
+    text-align: center;
+  }
+
+  .nameRow {
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+
+  .bio {
+    font-size: 15px;
+  }
+}

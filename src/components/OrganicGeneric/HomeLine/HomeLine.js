@@ -16,7 +16,7 @@ const HomeLine = ({ Emi }) => {
         <hr className={styles.hr} />
         <div className={styles.middle}>
           <BiBriefcase style={{ color: "#0072bc", fontSize: "40px" }} />
-          <p>300+ hiring partners</p>
+          <p>350+ leading MNCs & unicorn startups</p>
         </div>
         <hr className={styles.hr} />
         <div className={styles.right}>

@@ -19,10 +19,10 @@ function AboutUs() {
   return (
     <section className={styles.about}>
       <div className={styles.Back}>
-        <h4 style={{ textAlign: "left" }}>
+        <h1 style={{ textAlign: "left" }}>
           <span>“Knowledge is power,”- (Francis Bacon)</span> And we want to
           empower all our aspirants to succeed.
-        </h4>
+        </h1>
         <div className="imgWrapper">
           <div className={styles.right}>
             <Image

@@ -1,0 +1,290 @@
+.rail {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 0 30px 32px;
+  border-left: 1px solid var(--lb-line);
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.block {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--lb-line);
+}
+
+.block:last-child {
+  border-bottom: 0;
+}
+
+.label {
+  margin: 0 0 14px;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 1.035px;
+  color: var(--lb-faint);
+}
+
+/* ---------- Share ---------- */
+
+.share {
+  display: flex;
+  gap: 8px;
+}
+
+.shareBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--lb-pill);
+  background: var(--lb-surface);
+  color: var(--lb-ink);
+  font-size: 17px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.shareBtn:hover {
+  background: var(--lb-ink);
+  color: #fff;
+}
+
+.copied {
+  background: var(--lb-positive);
+  color: #fff;
+}
+
+/* ---------- In this article ---------- */
+
+.toc {
+  display: block;
+  padding: 6px 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.tocRow {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.tocNum {
+  flex-shrink: 0;
+  width: 20px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--lb-faint);
+}
+
+.tocText {
+  flex: 1 0 0;
+  min-width: 0;
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--lb-muted);
+}
+
+.tocActive .tocNum,
+.tocActive .tocText {
+  color: var(--lb-accent);
+  font-weight: 600;
+}
+
+.toc:hover .tocText {
+  color: var(--lb-ink);
+}
+
+/* Sub-headings (h3) sit indented under their section. */
+.tocSub .tocText {
+  font-size: 12.5px;
+  padding-left: 2px;
+}
+
+/* ---------- Author ---------- */
+
+.author {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.avatar {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--lb-pill);
+  background: var(--lb-ink);
+  color: #fff;
+  font-family: var(--lb-font-display), sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.avatarPhoto {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--lb-pill);
+  object-fit: cover;
+  background: var(--lb-surface);
+}
+
+.authorName {
+  margin: 0 0 4px;
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--lb-ink);
+}
+
+.authorName a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.authorName a:hover {
+  color: var(--lb-accent);
+}
+
+.authorBio {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--lb-muted);
+}
+
+/* ---------- Program card ---------- */
+
+.card {
+  display: block;
+  padding: 20px;
+  border-radius: var(--lb-radius);
+  background: var(--lb-rail-card);
+  text-decoration: none;
+}
+
+.cardLabel {
+  display: block;
+  margin: 0 0 10px;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 1.035px;
+  color: var(--lb-dark-muted);
+}
+
+.cardTitle {
+  display: block;
+  margin: 0 0 8px;
+  font-family: var(--lb-font-display), sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: -0.34px;
+  color: #fff;
+}
+
+.cardMeta {
+  display: block;
+  margin: 0 0 14px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--lb-dark-strong);
+}
+
+.cardCta {
+  display: block;
+  padding: 11px 22px;
+  border-radius: var(--lb-pill);
+  background: var(--lb-accent);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* ---------- Editor's picks ---------- */
+
+.pick {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 10px 0;
+  border-top: 1px solid var(--lb-line);
+  text-decoration: none;
+}
+
+.pick:first-of-type {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.thumb {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+}
+
+.pickCategory {
+  display: block;
+  margin: 0 0 4px;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 1.035px;
+  color: var(--lb-faint);
+}
+
+.pickTitle {
+  display: block;
+  margin: 0;
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--lb-ink);
+}
+
+.pick:hover .pickTitle {
+  color: var(--lb-accent);
+}
+
+/* Below the two-column breakpoint the rail stops being a sidebar. The TOC is
+   the only part still worth showing inline; share buttons and picks would just
+   repeat the page furniture. */
+@media (max-width: 1180px) {
+  .rail {
+    max-height: none;
+    overflow: visible;
+    padding: 24px 0 0;
+    border-left: 0;
+    border-top: 1px solid var(--lb-line);
+  }
+
+  .hideOnNarrow {
+    display: none;
+  }
+
+  .tocList {
+    columns: 2;
+    column-gap: 32px;
+  }
+}
+
+@media (max-width: 720px) {
+  .tocList {
+    columns: 1;
+  }
+}

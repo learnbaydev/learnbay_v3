@@ -15,7 +15,7 @@ function LinkedinReview() {
   };
   return (
     <div className={styles.LinkedinReviewMain}>
-      <h2>Linkedin</h2>
+      <h2>Linkedin Reviews</h2>
       <div className={styles.LinkedinReviewBoxHead}>
         {imageSources
           .slice(0, showMobileImages ? imageSources.length : 3)

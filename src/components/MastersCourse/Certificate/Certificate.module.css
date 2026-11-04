@@ -66,6 +66,8 @@
   align-items: normal;
   flex-flow: column;
   margin-top: 50px;
+  /* A bare URL is used as link text here and cannot wrap on its own. */
+  overflow-wrap: anywhere;
 
 
 
@@ -131,6 +133,8 @@
 
 .clogo{
   margin-top: 30px ;
+  max-width: 100%;
+  height: auto;
 }
 @media (max-width: 1281px) {
   .certificate {
@@ -226,7 +230,7 @@
   }
   .header p {
     font-size: 18px;
-    width: max-content;
+    /* width: max-content; */
     padding: 5px 0px;
     font-weight: 400;
   }
@@ -275,7 +279,7 @@
     
     display: grid;
     width: 100%;
-    grid-template-columns: 20% 70%;
+    grid-template-columns:33% 50%;
     gap: 10px;
     padding: 0px;
     overflow:hidden;

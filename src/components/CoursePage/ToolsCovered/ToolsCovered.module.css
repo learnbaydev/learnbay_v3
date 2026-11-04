@@ -6,13 +6,25 @@
     gap: 40px;
 }
 
+/* The tools diagram is a 1200px next/image and ran off both sides of a
+   tablet without a cap. */
+.toolmain img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 .toolmobile img {
   display: none;
 }
 
 
-
+@media screen  and (max-width: 1024px) {
+  .toolmain img {
+    width: fit-content;
+  
+  }
+}
 
 
 @media screen and (max-width: 641px) {

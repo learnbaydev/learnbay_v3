@@ -56,7 +56,7 @@
   color: #fff;
 }
 .h1Span {
-  color: #f99600;
+  color: #FE7A36;
 }
 .h1 {
   color: #fff;
@@ -143,9 +143,16 @@
   width: 300px;
   height: max-content;
 }
+/* The hero image is wider than the block that holds it on small phones. */
+.ImageBlock img {
+  max-width: 100%;
+  height: auto;
+}
+
 .secondLeft img {
-  height: 440px;
-  width: 634px;
+  height: 450px;
+  width: 580px;
+  
 }
 @media (max-width: 1281px) {
   .First {
@@ -258,9 +265,9 @@
   }
   .secondLeft img {
     height: fit-content;
-    width: 100vw;
-    padding: 0px 20px 0px 20px;
-    margin: -20px 0px 20px 0px;
+    width:100%;
+    padding: 0;
+    margin: 0;
   }
   .h1 {
     font-size: 27px;

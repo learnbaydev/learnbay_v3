@@ -1,0 +1,34 @@
+
+[
+  {
+    "id": 1,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Twitter.webp",
+    "number": 1,
+    "hours": "26 hours",
+    "title": "Cloud Infrastructure Automation",
+    "text": "Design and deploy an automated cloud infrastructure setup using Terraform to create and manage cloud resources.",
+    "cta": " Effective data Sharding and caching technique implementation.",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp"
+  },
+  {
+    "id": 2,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Oyo.webp",
+    "number": 2,
+    "hours": "26 hours",
+    "title": "Monitoring and Logging Solution",
+    "text": "Set up a robust monitoring and logging infrastructure for realtime data analysis and alerting.",
+    "cta": "Infusion of a database schema for tracking room bookings, customer accounts etc.",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/azuredevopspipeline.webp"
+  },
+  {
+    "id": 3,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ProjectSwiggy.webp",
+    "number": 3,
+    "hours": "26 hours",
+    "title": "Serverless Application Deployment with DevOps",
+    "text": "Build and deploy a serverless application using cloud functions, ensuring that the entire process follows a DevOps workflow.",
+    "cta": "Design a microservices architecture for managing restaurant listings, orders etc.",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/azureawsjenkins.webp"
+
+  }
+]

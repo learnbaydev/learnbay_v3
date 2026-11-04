@@ -1,6 +1,6 @@
 .mainBox {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 47% 50%;
   gap: 10px;
   margin: 32px 50px 55px 50px;
 }
@@ -33,12 +33,22 @@
   text-align: center;
   font-size: 40px;
 }
+.BoldC {
+  color: #ff8403;
+  padding-top: 20px;
+  font-weight: 700;
+  line-height: 45px;
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+}
 
 .NormalP {
   margin: 0;
   text-align: center;
   padding-bottom: 10px;
   padding-top: 5px;
+
 }
 
 .secondbox {
@@ -55,21 +65,28 @@
 .imgMobile {
   display: none;
 }
+@media (max-width: 1024px) {
+.NormalP{
+font-size: 14px;
+
+}
+}
 
 @media (max-width: 641px) {
   .mainBox {
-    margin: 32px 20px 55px 20px;
+    margin:33px 20px 22px 20px;
   }
 
   .firstbox {
     display: block;
+    background: #eae8e880;
   }
   .secondbox {
     display: block;
   }
 
   .radial {
-    width: 150px;
+    /* width: 150px; */
     height: 5px;
     margin: auto;
     display: block;
@@ -93,9 +110,15 @@
     font-size: 30px;
     padding-top: 10px;
   }
+  .BoldC {
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 10px;
+  }
 
   .secondbox {
     padding: 10px 5px;
+    background: #eae8e880;
   }
 
   .imgDesc {
@@ -106,5 +129,16 @@
     display: block;
     margin-top: 10px;
   }
-
+  
 }
+@media (max-width: 400px) {
+
+  .imgMobile img{
+
+    width: 150px;
+    height: auto;
+  
+  }
+  
+}
+

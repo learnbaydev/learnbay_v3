@@ -15,8 +15,18 @@ const PopupContent = ({
   upSkillingHide,
   titleCourse,
   brochureLink,
+  brochurePdf,
   dataScienceGeneric,
   interstedInHide,
+  Domain,
+  DomainInput,
+  DSADemoSession,
+  dsaPopup,
+  setDSAPopup,
+  genAISelectOption,
+  courseId,
+  gatedPdf,
+  leadPlatform,
 }) => {
   return (
     <Popup
@@ -41,9 +51,21 @@ const PopupContent = ({
           fullStack={fullStack}
           titleCourse={titleCourse}
           brochureLink={brochureLink}
+          brochurePdf={brochurePdf}
           dataScienceGeneric={dataScienceGeneric}
           upSkillingHide={upSkillingHide}
           interstedInHide={interstedInHide}
+          Domain={Domain}
+          DomainInput={DomainInput}
+          DSADemoSession={DSADemoSession}
+          popup={popups}
+          setTrigger={setPopups}
+          dsaPopup={dsaPopup}
+          setDSAPopup={setDSAPopup}
+          genAISelectOption={genAISelectOption}
+          courseId={courseId}
+          gatedPdf={gatedPdf}
+          leadPlatform={leadPlatform}
         />
       </div>
     </Popup>

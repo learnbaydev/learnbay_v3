@@ -1,26 +1,113 @@
 import "@/styles/globals.css";
 import "@/styles/Button.css";
 import Script from "next/script";
-// import { GoogleTagManager } from "@next/third-parties/google";
-import { Open_Sans } from "next/font/google";
-const openSans = Open_Sans({
+import dynamic from "next/dynamic";
+import Head from "next/head";
+import { useEffect } from "react";
+import TagManager from "react-gtm-module";
+import { Poppins } from "next/font/google";
+import { PopupProvider, usePopup } from "../context/PopupContext";
+import Popup from "../components/Popup/Popup";
+import { useRouter } from "next/router";
+import DSAPopupWrapper from "@/components/CoursePage/NewDSA/DSAPopup/DSAPopup";
+
+// Rendered once here so every route gets the floating WhatsApp button.
+const WhatsappFloat = dynamic(() =>
+  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+);
+
+// Mobile-only "Apply For Counselling" bar on every route. Pages that render
+// their own BottomBar (with page-specific props) hide this one via CSS.
+const GlobalBottomBar = dynamic(() =>
+  import("@/components/Global/BottomBar/BottomBar")
+);
+const NO_BOTTOM_BAR = ["/submit-info"];
+const hasBottomBar = (pathname) =>
+  !NO_BOTTOM_BAR.includes(pathname) && !/thank-you/i.test(pathname);
+
+const georama = Poppins({
   weight: ["300", "400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
   subsets: ["latin"],
   display: "swap",
 });
 
-export default function App({ Component, pageProps }) {
+const App = ({ Component, pageProps }) => {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      TagManager.initialize({ gtmId: "GTM-NN8XWH8" });
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  return (
+    <PopupProvider>
+      <Head>
+        {/* Next's default is `width=device-width` only; initial-scale=1 stops
+            iOS Safari zooming the layout on orientation change. */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        />
+      </Head>
+      <main className={georama.className}>
+        <Script
+          strategy="lazyOnload"
+          onError={(err) => {
+            console.error("Error", err);
+          }}
+          onLoad={() => {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "GTM-NN8XWH8", {
+              page_path: window.location.pathname,
+            });
+          }}
+        />
+        <ComponentWithPopup Component={Component} pageProps={pageProps} />
+      </main>
+    </PopupProvider>
+  );
+};
+
+const ComponentWithPopup = ({ Component, pageProps }) => {
+  const { popup, triggerPopup, closePopup, dsaPopup, triggerDsaPopup, closeDsaPopup } = usePopup();
+  const router = useRouter();
+
+  useEffect(() => {
+    // Blog posts run their own scroll-triggered popup (BlogAutoPopup), which
+    // shares the same `hasSeenPopup` session flag. Excluded here so a reader
+    // never gets both.
+    if (router.pathname !== "/organic/generic" && router.pathname !== "/submit-info" && router.pathname !== "/fullstack/dsa-system-design" && router.pathname !== "/blogs/[slug]") {
+      const timer = setTimeout(() => {
+        triggerPopup("");
+      }, 5000);
+
+      return () => clearTimeout(timer);
+    }else if (router.pathname === "/fullstack/dsa-system-design") {
+      const timer = setTimeout(() => {
+        triggerDsaPopup("Welcome to the DSA section!");
+      }, 5000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [router.pathname]);
+
   return (
     <>
-      <main className={openSans.className}>
-        <Component {...pageProps} />
-        {/* <GoogleTagManager gtmId="GTM-NN8XWH8" /> */}
-      </main>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=GTM-NN8XWH8"
-        strategy="afterInteractive"
-      />
+    {dsaPopup.show && <DSAPopupWrapper message={dsaPopup.message} onClose={closeDsaPopup} />}
+      {popup.show && <Popup message={popup.message} onClose={closePopup} />}
+      <Component {...pageProps} />
+      {hasBottomBar(router.pathname) && (
+        <GlobalBottomBar dataScienceCounselling className="globalBottomBar" />
+      )}
+      <WhatsappFloat />
     </>
   );
-}
+};
+
+export default App;

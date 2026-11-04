@@ -1,11 +1,12 @@
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import Link from "next/link";
-import { useState } from "react";
-import { FaRegUser } from "react-icons/fa";
-import Button from "../../Global/Button/Button";
-import Form from "../../Global/Form/Form";
-import NewSyllabusMap from "./NewSyllabusMap";
-import styles from "./Syllabus.module.css";
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
+import Link from 'next/link';
+import { useState } from 'react';
+import { FaRegUser } from 'react-icons/fa';
+import Button from '../../Global/Button/Button';
+import Form from '../../Global/Form/Form';
+import NewSyllabusMap from './NewSyllabusMap';
+import styles from './Syllabus.module.css';
+import NewSyllabusMangersGenAiMap from './NewSyllabusMapMangersGenAI';
 
 function SyllabusNew({
   masterSyllabusMobile,
@@ -13,9 +14,17 @@ function SyllabusNew({
   fullStack,
   titleCourse,
   brochureLink,
+  brochurePdf,
   buttonHide,
   dataScienceCounselling,
   interstedInHide,
+  MastersContent,
+  isGuwahati,
+  onlyGENAIPage,
+  GenAIMangersOnly,
+  genAIIIT,
+  hideDownloadButton,
+  hideIITGuwahati,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -31,15 +40,16 @@ function SyllabusNew({
           downloadBrochure
           titleCourse={titleCourse}
           brochureLink={brochureLink}
+          brochurePdf={brochurePdf}
           interstedInHide={interstedInHide}
           upSkillingHide={true}
           popups={popups}
           setPopups={setPopups}
-        heading="Download Brochure"
+          heading="Download Syllabus"
         />
 
         <div className={styles.project}>
-          <h4 className={styles.h1}>Explore our Syllabus</h4>
+          <h3 className={styles.h1}>Explore our Syllabus</h3>
           <p className={styles.ptop}>
             Curriculum is specifically engineered to meet the expectations of
             leading tech companies
@@ -48,24 +58,53 @@ function SyllabusNew({
 
         <section className={styles.Syllabus}>
           <div className={styles.syllabusLeft}>
-            <NewSyllabusMap Syllabus={masterSyllabusMobile} />
+            {GenAIMangersOnly ? (
+              <NewSyllabusMangersGenAiMap
+                Syllabus={masterSyllabusMobile}
+                onlyGENAIPage={onlyGENAIPage}
+              />
+            ) : (
+              <NewSyllabusMap
+                Syllabus={masterSyllabusMobile}
+                onlyGENAIPage={onlyGENAIPage}
+              />
+            )}
           </div>
           <div className={styles.button}>
             <div className={styles.formWrapper}>
               <div className={styles.boxDiv}>
                 <div className={styles.formBox}>
-                  {" "}
+                  {' '}
                   <FaRegUser className={styles.iconUser} /> 7,568 people filled
                 </div>
               </div>
-              <h4>
-                Interested in <span>Master’s Degree?</span>
-              </h4>
+
+              {MastersContent ? (
+                <p className={styles.p}>
+                  Interested in{' '}
+                  {isGuwahati ? (
+                    <>
+                      {' '}
+                      <span>Degree?</span>
+                    </>
+                  ) : (
+                    <>
+                      {' '}
+                      <span>Master’s Degree?</span>
+                    </>
+                  )}
+                </p>
+              ) : (
+                <p className={styles.p}>
+                  Free Consultation with<span> Expert</span>
+                </p>
+              )}
               <Form
                 dataScienceCounselling={dataScienceCounselling}
                 interstedInHide={interstedInHide}
                 titleCourse={titleCourse}
                 brochureLink={brochureLink}
+                brochurePdf={brochurePdf}
                 fullStack={fullStack}
                 syllabus={true}
                 upSkillingHide={true}
@@ -75,7 +114,7 @@ function SyllabusNew({
         </section>
         <div className={styles.buttonDiv}>
           {buttonHide ? (
-            ""
+            ''
           ) : (
             <Link href="/master-application">
               <div>
@@ -87,14 +126,22 @@ function SyllabusNew({
               </div>
             </Link>
           )}
-          <div onClick={popupShow}>
-            <Button
-              nobannerButton={true}
-              text="DOWNLOAD BROCHURE"
-              // passIcon={<FaDownload style={{ marginLeft: "10px" }} />}
-            />
-          </div>
+          {!hideDownloadButton && (
+            <div onClick={popupShow}>
+              <Button
+                nobannerButton={true}
+                text="DOWNLOAD SYLLABUS"
+                // passIcon={<FaDownload style={{ marginLeft: "10px" }} />}
+              />
+            </div>
+          )}
         </div>
+        {genAIIIT ? (
+          <p className={styles.coursePReq}>
+            <b>Note-</b> <strong>Course Prerequisites:</strong> You should have
+            knowledge of Python, Machine Learning, & Deep Learning. *
+          </p>
+        ) : null}
       </div>
     </>
   );

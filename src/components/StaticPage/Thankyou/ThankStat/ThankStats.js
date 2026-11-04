@@ -56,7 +56,7 @@ const ThankStats = ({
           </div>
         </div>
 
-        <PopupButton
+        {/* <PopupButton
           id="jpqC3A6g"
           style={{
             backgroundColor: '#0072bc',
@@ -69,7 +69,7 @@ const ThankStats = ({
           className="my-button"
         >
           Start your Survey
-        </PopupButton>
+        </PopupButton> */}
       </div>
       <div className={styles.imgWrapper}>
         <Image

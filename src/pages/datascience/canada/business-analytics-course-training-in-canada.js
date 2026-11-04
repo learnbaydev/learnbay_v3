@@ -1,41 +1,41 @@
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import styles from "../../../styles/Home.module.css";
-import dynamic from "next/dynamic";
-const FirstSection = dynamic(() =>
-  import("../../../components/Seo/FirstSection/FirstSection")
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { BAcanadaCourseData } from '../../../CityData/Canada/BusinessAnalyticsCourseTraininData';
+import Footer from '../../../components/Global/Footer/Footer';
+import Form from '../../../components/Global/Form/Form';
+import Navbar from '../../../components/Global/Navbar/Navbar';
+import Popup from '../../../components/Global/Popup/Popup';
+import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
+import Testimonial from '../../../components/Seo/Testimonial/Testimonial';
+import styles from '../../../styles/Home.module.css';
+const FirstSection = dynamic(
+  () => import('../../../components/Seo/FirstSection/FirstSection')
 );
-const SecondSection = dynamic(() =>
-  import("../../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import('../../../components/Seo/SecondSection/SecondSection')
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
+const ProgramInfo = dynamic(
+  () => import('../../../components/Seo/ProgramInfo/ProgramInfo')
 );
-const SeventhSection = dynamic(() =>
-  import("../../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import('../../../components/Seo/SeventhSection/SeventhSection')
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
+const ProgramFee = dynamic(
+  () => import('../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
-const CityText = dynamic(() =>
-  import("../../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import('../../../components/Seo/CityText/CityText')
 );
-const CitiesLeft = dynamic(() =>
-  import("../../../components/Seo/CitiesLeft/CitiesLeftDomain")
+const CitiesLeft = dynamic(
+  () => import('../../../components/Seo/CitiesLeft/CitiesLeftDomain')
 );
-const CitiesRight = dynamic(() =>
-  import("../../../components/Seo/CitiesRight/CitiesRightdomain")
+const CitiesRight = dynamic(
+  () => import('../../../components/Seo/CitiesRight/CitiesRightdomain')
 );
-import { BAcanadaCourseData } from "../../../CityData/Canada/BusinessAnalyticsCourseTraininData";
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
-import Popup from "../../../components/Global/Popup/Popup";
-import Navbar from "../../../components/Global/Navbar/Navbar";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
+const OfferPopup = dynamic(
+  () => import('../../../components/Global/OfferPopup/OfferPopup')
 );
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -48,8 +48,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -62,7 +62,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === 'Adv Data Science and AI') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -73,14 +73,16 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf';
   return (
     <div className={styles.container}>
       <Head>
-        <title>Business Analyst Course in Canada with IBM Certification</title>
+        <title>Business Analyst Course in Canada | IIT Patna Certified</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll in Learnbay's best Business Analytics Training in Canada with expert instructors and IBM certification. Sign-up Now."
+          content="Upgrade your career with Learnay's Business Analytics in Canada for working pros. Get IIT Patna and IBM GenAI certification. BYOP and100% job assist."
         />
         <meta
           name="keywords"
@@ -90,40 +92,38 @@ export default function Home() {
           property="og:url"
           content="https://www.learnbay.co/datascience/canada/business-analytics-course-training-in-canada"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Business Analytics course in Canada | Data Science Training in Canada"
+          content="Business Analyst Course in Canada | IIT Patna Certified"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Business Analytics course in Canada. Learnbay is Advanced Business Analytics course Training Institute in Canada. Business Analytics course in Canada will enhance your career"
+          content="Upgrade your career with Learnay's Business Analytics in Canada for working pros. Get IIT Patna and IBM GenAI certification. BYOP and100% job assist."
         />
         <meta
           property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Business Analytics course in Canada | Data Science Training in Canada"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Business Analytics course in Canada. Learnbay is Advanced Business Analytics course Training Institute in Canada. Business Analytics course in Canada will enhance your career"
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/canada/business-analytics-course-training-in-canada"
+        />
+        <meta
+          name="twitter:title"
+          content="Business Analyst Course in Canada | IIT Patna Certified"
         />
         <meta
           name="twitter:description"
-          content="Business Analytics course in Canada. Learnbay is Advanced Business Analytics course Training Institute in Canada. Business Analytics course in Canada will enhance your career"
+          content="Upgrade your career with Learnay's Business Analytics in Canada for working pros. Get IIT Patna and IBM GenAI certification. BYOP and100% job assist."
         />
         <meta
           name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <link
           rel="canonical"
@@ -151,37 +151,223 @@ export default function Home() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: ` `,
+            __html: `{
+              "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Business Analyst Course in Canada | IIT Patna Certified",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "4380"
+  }
+}
+`,
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `${BAcanadaCourseData[0].script1}`,
-          }}
-        />{" "}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` ${BAcanadaCourseData[0].script2}`,
+            __html: `{ 
+              "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Business Analyst Course in Canada | IIT Patna Certified",
+  "description": "Upgrade your career with Learnay's Business Analytics in Canada for working pros. Get IIT Patna and IBM GenAI certification. BYOP and100% job assist.",
+  "url": "https://www.learnbay.co/datascience/canada/business-analytics-course-training-in-canada",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "sameAs": "https://www.learnbay.co/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "120000",
+    "priceCurrency": "INR",
+    "category": "Educational"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P6M",
+    "offers": {
+      "@type": "Offer",
+      "price": "120000",
+      "priceCurrency": "INR"
+    }
+  }
+}
+`,
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: ` ${BAcanadaCourseData[0].script3} `,
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` ${BAcanadaCourseData[0].script4} `,
+            __html: `{
+ 
+    "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What are the prerequisites for the Business Analytics Training Course in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There are no prerequisites for this Business Analytics certification course in Canada as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I miss a few classes due to an emergency?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a Flexi Subscription in the Business Analytics Certification course in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Those who enroll for Business Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
+    }
+  },{
+    "@type": "Question",
+    "name": "What’s the duration of the Business Analytics Course in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Duration of the business analytics course in Canada is 6 months."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the mode of Business Analytics training at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide both classroom and online Business Analytics training modes. Based on your requirement, you can choose your preferred mode."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I opt for a Hybrid mode of learning?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the total fee for the Business Analytics Program in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The total program fee for the Business Analytics Program in Canada is INR 1,20,000/- exclusive of GST."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I pay in installments for INR 1,20,000/-?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can pay in instalments using a credit card with a no-cost EMI option for up upto 12 months. You can also choose an interest-free loan by submitting an Aadhar card, PAN card, and a 3-month salary slip."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any scholarship/discount available for the Business Analytics Program? What is Group Discount?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the refund policy for the Business Analytics Program at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Candidates are advised to read Click here to download the list of the projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many real-time projects will be there?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc. Click here to download the list of the projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How will the project be executed?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any accredited certification after course completion?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Upon successful completion of the Business Analytics Course in Canada, you will receive 3 certifications, two from IBM and one from IIT Patna.\\r\\n"
+    }
+  },{
+    "@type": "Question",
+    "name": "What's the eligibility for a job assistance program in Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many interview calls will I get at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a job-readiness program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
+    }
+  },{
+    "@type": "Question",
+    "name": "Will I get job referrals at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer dedicated placement assistance by referring your profile through our partnered consultancies and companies."
+    }
+  },{
+    "@type": "Question",
+    "name": "Until when will the students get the facility of mentorship?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our mentors will provide data science training to the students until the completion of the course."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can a Learnbay student choose to study from their desired mentor?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+    }
+  },{
+    "@type": "Question",
+    "name": "When is the job assistance provided at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get Job referrals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  }]
+}
+`,
           }}
         />
       </Head>
       <main>
-        {" "}
-        <Navbar popup={true} dataScience={true} />
+        {' '}
+        <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -192,18 +378,21 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
+          interstedInHide={true}
           titleCourse="business analytics course training in canada"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
-          idss="4j80WXLTvGE"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
+          brochurePdf={pdfUrl}
+          idss="CHut_wm-P2s"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/manager+header+image.webp"
           firstToparaImg="Training In Canada"
           firstHeading="Business Analytics Course"
           firstTopPara="Industrial Business Analytics Program for working professionals"
           cityParaCont="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
+          iitptnaandms={true}
         />
         <SecondSection
           SecondSectionData={BAcanadaCourseData[0].secondSection}
@@ -216,17 +405,35 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 90,000"
-            FeeEmi="₹ 5,900/month"
-            WeekdayDate="NOV 17th"
-            WeekendDate="NOV 26th"
-            WeekendTime="09:30 AM - 1:00 PM"
-            WeekdayTime="08:00 AM - 10:00 AM"
+            Fee="₹ 1,20,000"
+            FeeEmi="₹ 6,228/month"
+            weekdaybatch="Weekday Batch"
+            weekendbatch="Weekend Batch"
+            weekday="MON-FRI"
+            weekend="SAT- SUN"
+            WeekdayDate="Oct 18th"
+            WeekendDate="Nov 17th"
+            WeekendTime="9:30 AM - 1:00 PM"
+            WeekdayTime="8:00 PM - 10:30 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
-            FeeContent5="15 days refund policy"
+            FeeContent5="10 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
+            interstedInHide={true}
+            titleCourse="Business Analytics Certification Program"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
+            brochurePdf={pdfUrl}
+            dataScience={true}
+            // EMI POPUPDATA
+            emiType="NO COST EMI"
+            duration1="18 Months"
+            totalAmount1="₹95,000"
+            monthlyPayment1="₹6,228"
+            greenDown1="Standard Intrest rate Applicable"
+            duration2="12 Months"
+            totalAmount2="₹95,000"
+            monthlyPayment2="₹9,342"
           />
         </div>
         <div className="MainCities">
@@ -289,6 +496,7 @@ export default function Home() {
               src={BAcanadaCourseData[0].src}
               src22={BAcanadaCourseData[0].src22}
               src33={BAcanadaCourseData[0].src33}
+              src44={BAcanadaCourseData[0].src44}
               ModuleHead1={BAcanadaCourseData[0].ModuleHead1}
               ModuleBot1={BAcanadaCourseData[0].ModuleBot1}
               ModuleBot2={BAcanadaCourseData[0].ModuleBot2}
@@ -388,7 +596,7 @@ export default function Home() {
           CityTextL={BAcanadaCourseData[0].CityTextL}
         />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );

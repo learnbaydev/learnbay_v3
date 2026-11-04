@@ -1,16 +1,16 @@
-import styles from "./refund.module.css";
-import React from "react";
+import styles from './refund.module.css';
+import React from 'react';
 
 function refund() {
   return (
     <section className={styles.refund}>
       <div className={styles.BackP}>
-        <h4>
+        <h1>
           <b>Refund-Cancellation Policy</b>
-        </h4>
+        </h1>
       </div>
       <div className={styles.refundInner}>
-        <p className={styles.top}>Refund-Cancellation Policy </p>
+        <h2 className={styles.top}>Refund-Cancellation Policy </h2>
 
         <p className={styles.bot}>
           It would help if you had an internet connection and a current and
@@ -28,14 +28,14 @@ function refund() {
           chosen Platform.
         </p>
 
-        <p className={styles.top}>What does your approval mean to us?</p>
+        <h3 className={styles.top}>What does your approval mean to us?</h3>
 
         <p className={styles.bot}>
           You agree to our Refund Policy by using our website, creating an
           account, or making a purchase.
         </p>
 
-        <p className={styles.top}>What's the refund cancellation policy?</p>
+        <h3 className={styles.top}>What's the refund cancellation policy?</h3>
 
         <p className={styles.bot}>
           There are a few scenarios under which the refund policy will become
@@ -44,18 +44,18 @@ function refund() {
 
         <p className={styles.bot}>
           1. A user isn't eligible for a refund after the initial trial period
-          of 15 days unless they reached out to Learnbay before
+          of 10 days unless they reached out to Learnbay before
         </p>
-        <p className={styles.bot}>
+        {/* <p className={styles.bot}>
           <b>Note: </b>The Master Program is excluded from this please refer to
           the Terms & Conditions specified for the Master Program.
-        </p>
+        </p> */}
         <p className={styles.bot}>
           2. In case, the user opted for a student loan via Learnbay, and the
           same is already approved (when applying for a refund) approved
         </p>
         <p className={styles.bot}>
-          <b>Note: </b>No refund or loan cancellation will be possible. The 15
+          <b>Note: </b>No refund or loan cancellation will be possible. The 10
           days refund policy will get void here.
         </p>
         <p className={styles.bot}>
@@ -77,17 +77,16 @@ function refund() {
         </p>
         <p className={styles.bot}>
           7. Enrolled in a course but have not attended the 70% of these trial
-          phase classes within the 15 days of enrolment
+          phase classes within the 10 days of enrolment
         </p>
 
-        <p className={styles.top}>In case of refunds:-</p>
+        <h3 className={styles.top}>In case of refunds:-</h3>
 
         <p className={styles.bot}>
           Refunds will be granted to the original source used at the time of
           purchase. For example, if a payment is made through a credit card,
-          then the refund will be initiated in the same payment source, within
-          5-7 working days. **We require proof of purchase or receipt to
-          complete your return.
+          then the refund will be initiated in the same payment source, **We
+          require proof of purchase or receipt to complete your return.
         </p>
         <p className={styles.bot}>
           In case you get any difficulty, in the refund process then
@@ -99,15 +98,15 @@ function refund() {
         <li className={styles.bot}>
           Next, contact your bank. There is often a delay in processing refunds.
         </li>
-        <p className={styles.top}>
+        <h4 className={styles.top}>
           Having followed all of the above steps but still have not received
-          your refund, contact us at -{" "}
-          <a href="mailto:contacts@learnbay.co">contacts@learnbay.co</a>
-        </p>
-        <p className={styles.top}>
-          For Cancellations please email us at:{" "}
-          <a href="mailto:contacts@learnbay.co">contacts@learnbay.co.</a>
-        </p>
+          your refund, contact us at -{' '}
+          <a href="mailto:finance@learnbay.co">finance@learnbay.co</a>
+        </h4>
+        <h4 className={styles.top}>
+          For Cancellations please email us at:{' '}
+          <a href="mailto:finance@learnbay.co">finance@learnbay.co.</a>
+        </h4>
       </div>
     </section>
   );

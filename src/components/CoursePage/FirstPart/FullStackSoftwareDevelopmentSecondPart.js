@@ -1,27 +1,27 @@
-import React, { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
-import Footer from "@/components/Global/Footer/Footer";
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import Footer from '@/components/Global/Footer/Footer';
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import LJourney from '../LJourney/LJourney';
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
 );
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const FeeSection = dynamic(() =>
-  import("../../../components/CoursePage/FeeSection/FeeSection")
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const FeeSection = dynamic(
+  () => import('../../../components/CoursePage/FeeSection/FeeSection')
 );
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const MentorsSection = dynamic(() =>
-  import("../../../components/Global/MentorsSection/MentorsSection")
+const OfferPopup = dynamic(() => import('../../Global/OfferPopup/OfferPopup'));
+const MentorsSection = dynamic(
+  () => import('../../../components/Global/MentorsSection/MentorsSection')
 );
-const SliderTab = dynamic(() =>
-  import("../../../components/Global/SliderTabs/SliderTabs")
+const SliderTab = dynamic(
+  () => import('../../../components/Global/SliderTabs/SliderTabs')
 );
-const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCall")
+const PlacementCall = dynamic(
+  () => import('../../../components/Global/PlacementCall/PlacementCallFsd')
 );
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+const FAQNew = dynamic(
+  () => import('../../../components/CoursePage/FAQNew/FAQNew')
 );
 
 const FullStackSoftwareDevelopmentSecondPart = ({
@@ -33,8 +33,8 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -47,7 +47,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Full Stack Developer course") {
+            if (popupData === 'Full Stack Developer course') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -58,38 +58,52 @@ const FullStackSoftwareDevelopmentSecondPart = ({
     };
     fetchPopup();
   }, []);
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf';
   return (
     <div>
+      <LJourney />
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
+        brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
       />
       {/* <Certificate data={FSSPDataScienceCourseData[0].Certificate} /> */}
       <FeeSection
-        Fee="₹ 1,15,000"
+        Fee="₹ 1,59,000"
         FeeEmi="₹ 7,538/month"
-        weekdaybatch="Weekday Evening (JAVA BATCHES)"
         weekendbatch="Weekday Evening (DSA BATCHES)"
+        weekdaybatch="Weekday Evening (DSA BATCHES)"
         weekday="MON-WED-FRI"
         weekend="MON-WED-FRI"
-        WeekdayDate="DEC 15th"
-        WeekendDate="DEC 22nd"
+        WeekendDate="JAN 26th"
+        WeekdayDate="JAN 10th "
         WeekendTime="08:00PM - 10:00PM"
         WeekdayTime="08:00PM - 10:00PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
-        FeeContent5="15 days refund policy"
+        FeeContent5="10 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
+        brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
+        // <EMI POPUP
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹1,15,000"
+        monthlyPayment1="₹7,538"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹1,15,000"
+        monthlyPayment2="₹11,308"
       />
       <MentorsSection />
       <SliderTab />
@@ -97,9 +111,8 @@ const FullStackSoftwareDevelopmentSecondPart = ({
       <FAQNew FAQNewData={FAQNewData} />
       <SeventhSection />
       <Footer />
-      <BottomBar />
-      <WhatsappFloat />
-      {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+      <BottomBar dataScienceCounselling={true} interstedInHide={true} />
+      {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </div>
   );
 };

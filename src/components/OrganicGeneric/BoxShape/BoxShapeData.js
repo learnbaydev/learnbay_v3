@@ -15,8 +15,8 @@ export const HomeBoxData = [
   },
   {
     id: 3,
-    title: "Guaranteed Job Referral",
-    desc: "Guaranteed Job Referrals in top product based MNCs",
+    title: "Interview Support",
+    desc: "Job-ready training & interview support",
     active: false,
   },
 ];

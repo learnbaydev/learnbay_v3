@@ -114,7 +114,7 @@ function ThirdSection() {
             <a href="" target="_blank">
               <Button
                 className={styles.Btn}
-                text="Brochure"
+                text="Syllabus"
                 passIcon={<FaDownload className="bIconS" />}
               />
             </a>
@@ -152,7 +152,7 @@ function ThirdSection() {
             <a href="" target="_blank">
               <Button
                 className={styles.Btn}
-                text="Brochure"
+                text="Syllabus"
                 passIcon={<FaDownload className="bIconS" />}
               />
             </a>
@@ -190,7 +190,7 @@ function ThirdSection() {
             <a href="" target="_blank">
               <Button
                 className={styles.Btn}
-                text="Brochure"
+                text="Syllabus"
                 passIcon={<FaDownload className="bIconS" />}
               />
             </a>

@@ -1,41 +1,41 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { AIcanadaCourseData } from "../../../CityData/Canada/ArtificaialIntellginceCourseTrainingCanadaData";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
-import Navbar from "../../../components/Global/Navbar/Navbar";
-import Popup from "../../../components/Global/Popup/Popup";
-import styles from "../../../styles/Home.module.css";
-const FirstSection = dynamic(() =>
-  import("../../../components/Seo/FirstSection/FirstSection")
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { AIcanadaCourseData } from '../../../CityData/Canada/ArtificaialIntellginceCourseTrainingCanadaData';
+import Footer from '../../../components/Global/Footer/Footer';
+import Form from '../../../components/Global/Form/Form';
+import Navbar from '../../../components/Global/Navbar/Navbar';
+import Popup from '../../../components/Global/Popup/Popup';
+import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
+import Testimonial from '../../../components/Seo/Testimonial/Testimonial';
+import styles from '../../../styles/Home.module.css';
+const FirstSection = dynamic(
+  () => import('../../../components/Seo/FirstSection/FirstSection')
 );
-const SecondSection = dynamic(() =>
-  import("../../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import('../../../components/Seo/SecondSection/SecondSection')
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
+const ProgramInfo = dynamic(
+  () => import('../../../components/Seo/ProgramInfo/ProgramInfo')
 );
-const SeventhSection = dynamic(() =>
-  import("../../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import('../../../components/Seo/SeventhSection/SeventhSection')
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
+const ProgramFee = dynamic(
+  () => import('../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
-const CityText = dynamic(() =>
-  import("../../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import('../../../components/Seo/CityText/CityText')
 );
-const CitiesLeft = dynamic(() =>
-  import("../../../components/Seo/CitiesLeft/CitiesLeft")
+const CitiesLeft = dynamic(
+  () => import('../../../components/Seo/CitiesLeft/CitiesLeft')
 );
-const CitiesRight = dynamic(() =>
-  import("../../../components/Seo/CitiesRight/CitiesRight")
+const CitiesRight = dynamic(
+  () => import('../../../components/Seo/CitiesRight/CitiesRight')
 );
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
+const OfferPopup = dynamic(
+  () => import('../../../components/Global/OfferPopup/OfferPopup')
 );
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -48,8 +48,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -62,7 +62,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === 'Adv Data Science and AI') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -73,6 +73,8 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data_Science_and_GenAI_Master_Program.pdf';
   return (
     <div className={styles.container}>
       <Head>
@@ -80,7 +82,8 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay offers best Artificial Intelligence Training in Canada with live projects, IBM certification with best placement assistance. Enroll Now."
+          content="Learnbay offers best Artificial Intelligence Training in Canada with GenAI, IBM certification, `BYOP, 15+ live projects & 100% placement assist. Enroll Now.
+"
         />
         <meta
           name="keywords"
@@ -90,40 +93,38 @@ export default function Home() {
           property="og:url"
           content="https://www.learnbay.co/datascience/canada/artificial-intelligence-ai-course-training-canada"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content=" Artificial intelligence in Canada | Data Science Training in Canada"
+          content="Best Artificial Intelligence Course in Canada - Learnbay"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content=" Artificial intelligence in Canada. Learnbay is Advanced  Artificial intelligence Training Institute in Canada.  Artificial intelligence in Canada will enhance your career"
+          content="Learnbay offers best Artificial Intelligence Training in Canada with GenAI, IBM certification, `BYOP, 15+ live projects & 100% placement assist. Enroll Now."
         />
         <meta
           property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content=" Artificial intelligence in Canada | Artificial intelligence Training in Canada"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content=" Artificial intelligence in Canada. Learnbay is Advanced  Artificial intelligence Training Institute in Canada.  Artificial intelligence in Canada will enhance your career"
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/canada/artificial-intelligence-ai-course-training-canada"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Artificial Intelligence Course in Canada - Learnbay"
         />
         <meta
           name="twitter:description"
-          content=" Artificial intelligence in Canada. Learnbay is Advanced  Artificial intelligence Training Institute in Canada.  Artificial intelligence in Canada will enhance your career"
+          content="Learnbay offers best Artificial Intelligence Training in Canada with GenAI, IBM certification, `BYOP, 15+ live projects & 100% placement assist. Enroll Now."
         />
         <meta
           name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <link
           rel="canonical"
@@ -137,40 +138,276 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: ` `,
+            __html: `{ 
+       "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Best Artificial Intelligence Course in Canada - Learnbay",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "5010"
+  }
+
+
+ }`,
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `${AIcanadaCourseData[0].script1}`,
-          }}
-        />{" "}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` ${AIcanadaCourseData[0].script2}`,
+            __html: `{
+             "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Best Artificial Intelligence Course in Canada - Learnbay",
+  "description": "Learnbay offers best Artificial Intelligence Training in Canada with GenAI, IBM certification, BYOP, 15+ live projects & 100% placement assist. Enroll Now.",
+  "url": "https://www.learnbay.co/datascience/canada/artificial-intelligence-ai-course-training-canada",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "sameAs": "https://www.learnbay.co/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "159000",
+    "priceCurrency": "INR",
+    "category": "Educational"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P13M",
+    "offers": {
+      "@type": "Offer",
+      "price": "159000",
+      "priceCurrency": "INR"
+    }
+  }
+}`,
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: ` ${AIcanadaCourseData[0].script3} `,
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` ${AIcanadaCourseData[0].script4} `,
+            __html: `{
+ "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What are Artificial Intelligence (AI) training courses available at Learnbay in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Foundational data science and Artificial Intelligence Training Course, Advanced data science and AI Certification Course, Machine learning and AI Certification, Data Science and AI Certification Course for Managers and Leaders Data Science and Artificial Intelligence Training with Placement Assistance"
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the prerequisites for these AI training Courses in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There are no prerequisites for this artificial certification course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I miss a few classes of Learnbay AI courses due to an emergency?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a Flexi Subscription in these advanced artificial intelligence courses in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Those who enroll for AI live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational data science and Artificial Intelligence Training Course- 1 Year Advanced data science and AI Certification Course- 3 Years Machine learning and AI Certification- 3 Years Data Science and AI Certification Course for Managers and Leaders- 3 Years Data Science and Artificial Intelligence Training with Placement Assistance - 3-years"
+    }
+  },{
+    "@type": "Question",
+    "name": "What’s the duration of these advanced AI in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The duration of the artificial intelligence course in Canada is 13 months."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the learning mode of Artificial Intelligence Certification courses in Canada at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide both classroom and online AI training modes. Based on your requirement, you can choose your preferred mode."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I opt for a Hybrid mode of learning in IBM artificial intelligence training courses in Canada, At Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is domain specialization in the professional AI certification courses provided by Learnbay in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer industry-specific full-stack AI modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational AI course."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the available elective domain options in the different artificial intelligence training courses of Learnbay in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy"
+    }
+  },{
+    "@type": "Question",
+    "name": "Which domain elective within the Learnbay AI Certification courses is best suited for me?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988"
+    }
+  },{
+    "@type": "Question",
+    "name": "Why is domain specialization important in professional artificial intelligence certification?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "After enrolling in the advanced AI courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I select multiple domain electives and do I need to pay extra charges in any of the eligible AI certification courses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. Advance Data Science and AI Certification course- Maximum 2 domains. Data Science and AI Certification Course for Managers and Leaders- All domains Data Science and Artificial Intelligence Training with Placement Assistance- All domains Machine learning and AI Certification- maximum 4 domains No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I don't have any prior experience in any domain?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I change my domain electives later?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the total fee for Learnbay AI Certifications courses in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The total course fee for this artificial intelligence course in Canada is 1,59,000 INR, excluding GST"
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I pay in installments for these AI Certification courses in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 11 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any scholarship/discount available for these Artificial intelligence training courses available in Canada? What is Group Discount?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the refund policy for the Artificial Intelligence Certification courses at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Candidates are advised to read .Learnbay’s Refund/Cancellation Policy before enrolling in the course."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many capstone projects will be there?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Depending on the course you choose the number of capstone projects will vary. Foundational Artificial Intelligence Training Course - 1 Capstone. Advance Data Science and AI Certification course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and Artificial Intelligence Training with Placement Assistance- 3 Capstones. Machine learning and AI Certification- 2 Capstones."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many real-time projects/case studies will be covered in these artificial intelligence certification courses in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Depending on the course you choose the number of live projects will vary. Foundational Data Science and Artificial Intelligence Training Course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and Artificial Intelligence Training with Placement Assistance- 15 projects. Machine learning and AI Certification- 15 projects. Click here to download the list of the projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How will the projects be executed in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any accredited AI certification after course completion?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes you will recieve 4 certifications in total. Course Completion from IBM, Gen-AI from IBM, Project certification, and Microsoft Certification."
+    }
+  },{
+    "@type": "Question",
+    "name": "What's the eligibility for a job assistance Program in Learnbay artificial intelligence training courses in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get support for job assistance at Learnbay in Canada?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year. What is a job-readiness program? The Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
+    }
+  },{
+    "@type": "Question",
+    "name": "Will I get job referrals at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can a Learnbay student in Canada choose to study from their desired mentor?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+    }
+  },{
+    "@type": "Question",
+    "name": "When is the job assistance provided at Learnbay and how long will I get it?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get Job referrals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  }]
+
+          }
+`,
           }}
         />
       </Head>
       <main>
-        {" "}
-        <Navbar popup={true} dataScience={true} />
+        {' '}
+        <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -181,18 +418,21 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
+          interstedInHide={true}
           titleCourse="Data Science and AI Program For Manager & Leaders"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-          idss="osYNvuuI1_8"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
+          brochurePdf={pdfUrl}
+          idss="qxwIns6z2Bc"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Business-Analytics-Masters-Header.png"
           firstToparaImg="For Managers and Leaders"
           firstHeading="Artificial Intelligence(Ai) Course Training In Canada"
           firstTopPara="Job-Assured Artificial Intelligence Training  Program"
-          cityParaCont="Become a successful data science manager/leader within 11 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
+          cityParaCont="Become a successful data science manager/leader within 11 to 13 months. Learn the secret data scientific tricks of managing data science projects. Learn directly from industry leaders via live classes and live projects. "
+          ibmandms={true}
         />
         <SecondSection
           SecondSectionData={AIcanadaCourseData[0].secondSection}
@@ -205,17 +445,35 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 1,10,000"
-            FeeEmi="₹ 7,211/month"
-            WeekdayDate="NOV 17th"
-            WeekendDate="NOV 26th"
-            WeekendTime="09:30 AM - 1:00 PM"
-            WeekdayTime="08:00 AM - 10:00 AM"
+            Fee="₹ 1,59,000"
+            FeeEmi="₹ 7,539/ Month"
+            weekdaybatch="Weekend Batch"
+            weekendbatch="Weekday Batch"
+            weekday="SAT - SUN"
+            weekend="MON - THU"
+            WeekdayDate="19th Jan"
+            WeekendDate="3rd Jan"
+            WeekendTime="8:00 PM - 10:30 PM"
+            WeekdayTime="9:30 AM - 1 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
-            FeeContent5="15 days refund policy"
+            FeeContent5="10 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
+            dataScience={true}
+            titleCourse="AI & ML Program for tech professionals"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Data_Science_and_GenAI_Master_Program.pdf"
+            brochurePdf={pdfUrl}
+            interstedInHide={true}
+            // <EMI POPUP
+            emiType="NO COST EMI"
+            duration1="18 Months"
+            totalAmount1="₹1,15,000"
+            monthlyPayment1="₹7,539"
+            greenDown1="Standard Intrest rate Applicable"
+            duration2="12 Months"
+            totalAmount2="₹1,15,000"
+            monthlyPayment2="₹11,308"
           />
         </div>
         <div className="MainCities">
@@ -243,11 +501,13 @@ export default function Home() {
               Courselink3={AIcanadaCourseData[0].Courselink3}
               Courselink4={AIcanadaCourseData[0].Courselink4}
               Courselink5={AIcanadaCourseData[0].Courselink5}
+              Courselink6={AIcanadaCourseData[0].Courselink6}
               Course1={AIcanadaCourseData[0].Course1}
               Course2={AIcanadaCourseData[0].Course2}
               Course3={AIcanadaCourseData[0].Course3}
               Course4={AIcanadaCourseData[0].Course4}
               Course5={AIcanadaCourseData[0].Course5}
+              Course6={AIcanadaCourseData[0].Course6}
               DomainHead1={AIcanadaCourseData[0].DomainHead1}
               DomainBot1={AIcanadaCourseData[0].DomainBot1}
               DomainBot2={AIcanadaCourseData[0].DomainBot2}
@@ -278,6 +538,7 @@ export default function Home() {
               src={AIcanadaCourseData[0].src}
               src22={AIcanadaCourseData[0].src22}
               src33={AIcanadaCourseData[0].src33}
+              src44={AIcanadaCourseData[0].src44}
               ModuleHead1={AIcanadaCourseData[0].ModuleHead1}
               ModuleBot1={AIcanadaCourseData[0].ModuleBot1}
               ModuleBot2={AIcanadaCourseData[0].ModuleBot2}
@@ -377,7 +638,7 @@ export default function Home() {
           CityTextL={AIcanadaCourseData[0].CityTextL}
         />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );

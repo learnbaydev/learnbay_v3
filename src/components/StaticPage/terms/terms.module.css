@@ -19,6 +19,16 @@
   padding: 30px 100px;
   text-align: justify;
 }
+.head{
+  font-size: 24px;
+  font-weight: 500;
+  display: block;
+  color: black;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 .top {
   font-size: 20px;

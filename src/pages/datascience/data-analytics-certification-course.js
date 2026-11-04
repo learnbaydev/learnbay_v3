@@ -1,9 +1,9 @@
-import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
-import { useEffect, useState } from "react";
-import DataAnlyticsFirstPart from "@/components/CoursePage/FirstPart/DataAnlyticsFirstPart";
-import DataAnlyticsSecondPart from "@/components/CoursePage/FirstPart/DataAnlyticsSecondPart";
-
+import { parseJSONData } from '@/Util/JsonConvertor';
+import DataAnlyticsFirstPart from '@/components/CoursePage/FirstPart/DataAnlyticsFirstPart';
+import DataAnlyticsSecondPart from '@/components/CoursePage/FirstPart/DataAnlyticsSecondPart';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { DataAnalyticsSchema } from '@/Data/Schema/DataAnalyticsSchema';
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
@@ -11,13 +11,13 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
   useEffect(() => {
     const fetchData = async () => {
-      const popupResponse = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const popupResponse = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (popupResponse.status === 200) {
         const { popData } = await popupResponse.json();
         const foundPopup = popData.find((data) =>
-          data.page.includes("Adv Data Science and AI")
+          data.page.includes('Adv Data Science and AI')
         );
         if (foundPopup) {
           setPopupData(foundPopup);
@@ -28,18 +28,18 @@ function Blockchain({ DataScienceCourseDataJson }) {
     fetchData();
   }, []);
 
-  const [batchDateData, setBatchDateData] = useState("");
+  const [batchDateData, setBatchDateData] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {
       // Fetch Popup Data
-      const popupResponse = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const popupResponse = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (popupResponse.status === 200) {
         const { popData } = await popupResponse.json();
         const foundPopup = popData.find((data) =>
-          data.page.includes("Adv Data Science and AI")
+          data.page.includes('Data Analytics Program')
         );
         if (foundPopup) {
           setPopupData(foundPopup);
@@ -47,11 +47,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
       }
 
       // Fetch Batch Data
-      const batchResponse = await fetch("/api/BatchDetails/getBatchDetails", {
-        method: "POST",
-        body: JSON.stringify("Data Science and AI"),
+      const batchResponse = await fetch('/api/BatchDetails/getBatchDetails', {
+        method: 'POST',
+        body: JSON.stringify('Data Science and AI'),
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       });
 
@@ -67,15 +67,57 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Data Analytics Certification Program - Learnbay</title>
+        <title>
+          Best Data Analytics Course Online | Data Analytics Online Training
+        </title>
         <meta
           name="description"
-          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses.  Enroll now!          "
+          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
           content="data analytics certification course, data analytics certification, data analytics course, best data analytics course, data analyst course online, data analyst training, data analyst certification online, data analyst certification course          "
+        />
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/data-analytics-certification-course"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Best Data Analytics Course Online | Data Analytics Online Training"
+        />
+        <meta
+          property="og:description"
+          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/data-analytics-certification-course"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Data Analytics Course Online | Data Analytics Online Training"
+        />
+        <meta
+          name="twitter:description"
+          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <link
           rel="icon"
@@ -85,11 +127,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/datascience/data-analytics-certification-course"
         />
-        
+
         <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html : `{
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
             "name": "Data Analytics Certification Program",
@@ -97,7 +139,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
             "url": "https://www.learnbay.co/datascience/data-analytics-certification-course",
             "offers": {
               "@type": "Offer",
-              "price": 80000,
+              "price": 120000,
               "priceCurrency": "INR",
               "category": "Educational"
             },
@@ -114,31 +156,31 @@ function Blockchain({ DataScienceCourseDataJson }) {
                "courseWorkload": "P10W",
                 "courseFee": {
                   "@type": "PriceSpecification",
-                  "price": "₹ 80,000 + 18% GST",
+                  "price": "₹ 1,20,000 + 18% GST",
                   "priceCurrency": "INR"
                 }
               }
             ]
 
           }`,
-
-
-        }}
-         
-
+          }}
         />
-
-
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(DataAnalyticsSchema),
+          }}
+        />
       </Head>
       <main>
         <DataAnlyticsFirstPart
           SecondSectionData={
-            DataScienceCourseData.DADataScienceCourseData[0].secondSection       
+            DataScienceCourseData.DADataScienceCourseData[0].secondSection
           }
           TestimonialData={
             DataScienceCourseData.DADataScienceCourseData[0].testimonial
           }
-          ibmOnly ={true}
+          // ibmOnly={true}
         />
         <DataAnlyticsSecondPart
           masterSyllabusMobile={
@@ -148,7 +190,6 @@ function Blockchain({ DataScienceCourseDataJson }) {
           CertificateData={
             DataScienceCourseData.DADataScienceCourseData[0].Certificate
           }
-          singlecertificate={true}
           projectSection={
             DataScienceCourseData.DADataScienceCourseData[0].projectSection
           }
@@ -160,7 +201,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/DataAnalyticsData");
+  const data = await import('../../Data/DataAnalyticsData');
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

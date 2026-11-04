@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import FirstContent from "./FirstContent";
+import PopupContent from '@/components/Global/PopupContent/PopupContent';
+import VideoPopup from '@/components/Global/VideoPopup/VideoPopup';
+import React, { useState } from 'react';
+import FirstContent from './FirstContent';
 
 function FirstSection({
   dataScience,
@@ -14,9 +14,33 @@ function FirstSection({
   firstTopPara,
   titleCourse,
   brochureLink,
+  brochurePdf,
   dataScienceCounselling,
   ibmOnly,
   cityParaCont,
+  thumbnailUrl,
+  videoId,
+  youtubeEmbedUrl,
+  S3RightImage,
+  animationHide,
+  topHide,
+  IBMGl,
+  fresher,
+  upSkillingHide,
+  highlightWord,
+  DSWolf,
+  backgorunimg,
+  isSpecialPage,
+  isGuwahati,
+  backgroundImage,
+  IIT,
+  GEnAi,
+  microsoftOnly,
+  DSAFresherHeadContent,
+  DSA,
+  courseId,
+  DABAOnly,
+  hideIITGuwahati,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -26,13 +50,15 @@ function FirstSection({
       <PopupContent
         popups={popups}
         setPopups={setPopups}
-        heading="Apply For Counselling"
+        heading="Download Syllabus"
         downloadBrochure
         dataScience={true}
         interstedInHide={interstedInHide}
         upSkillingHide={true}
         titleCourse={titleCourse}
         brochureLink={brochureLink}
+        brochurePdf={brochurePdf}
+        courseId={courseId}
       />
       <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
       <FirstContent
@@ -43,10 +69,33 @@ function FirstSection({
         FirstRightImg={FirstRightImg}
         firstTopPara={firstTopPara}
         dataScienceCounselling={dataScienceCounselling}
-        ibmOnly={ibmOnly}
+        DSWolf={DSWolf}
         cityParaCont={cityParaCont}
         setPopups={setPopups}
         setVideo={setVideo}
+        videoId={videoId}
+        thumbnailUrl={thumbnailUrl}
+        youtubeEmbedUrl={youtubeEmbedUrl}
+        S3RightImage={S3RightImage}
+        animationHide={animationHide}
+        interstedInHide={interstedInHide}
+        upSkillingHide={upSkillingHide}
+        topHide={topHide}
+        IBMGl={IBMGl}
+        fresher={fresher}
+        isSpecialPage={isSpecialPage}
+        backgorunimg={backgorunimg}
+        isGuwahati={isGuwahati}
+        backgroundImage={backgroundImage}
+        ibmOnly={ibmOnly}
+        highlightWord={highlightWord}
+        GEnAi={GEnAi}
+        IIT={IIT}
+        microsoftOnly={microsoftOnly}
+        DSA={DSA}
+        DSAFresherHeadContent={DSAFresherHeadContent}
+        DABAOnly={DABAOnly}
+        hideIITGuwahati={hideIITGuwahati}
       />
     </>
   );

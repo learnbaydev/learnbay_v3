@@ -1,24 +1,84 @@
-import React from "react";
-import dynamic from "next/dynamic";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import FirstSection from "../FirstSection/FirstSection";
-import SecondSection from "../SecondSection/SecondSection";
-const FullStackSecondSection = dynamic(() =>
-  import("../FullStackSecondSection/FullStackSecondSection")
+import React from 'react';
+import dynamic from 'next/dynamic';
+import Navbar from '@/components/Global/Navbar/Navbar';
+import FirstSection from '../FirstSection/FirstSection';
+import SecondSection from '../SecondSection/SecondSection';
+const FullStackSecondSection = dynamic(
+  () => import('../FullStackSecondSection/FullStackSecondSection')
 );
-const TrainerSection = dynamic(() =>
-  import("../../Global/TrainerSection/TrainerSection")
+const TrainerSection = dynamic(
+  () => import('../../Global/TrainerSection/TrainerSection')
 );
-const WhoIsProgram = dynamic(() =>
-  import("../../CoursePage/WhoIsProgram/WhoIsProgram")
+const WhoIsProgram = dynamic(
+  () => import('../../CoursePage/WhoIsProgram/WhoIsProgram')
 );
 
-const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
-const ContactConsellor = dynamic(() =>
-  import("../../CoursePage/ContactCounsellor/ContactCounsellor")
+const GetHire = dynamic(() => import('../../Home/GetHire/GetHire'));
+const ContactConsellor = dynamic(
+  () => import('../../CoursePage/ContactCounsellor/ContactCounsellor')
+);
+const MasterSecondSection = dynamic(
+  () => import('../../MastersCourse/MasterSecondSection/MasterSecondSection')
+);
+const JobAbroad = dynamic(
+  () => import('../../MastersCourse/JobAbroad/JobAbroad')
 );
 
 const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
+  const seconddata = [
+    {
+      boldText: 'IBM',
+      normalText: 'Certified Capstone',
+      imageUrl:
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp',
+    },
+    {
+      CboldText: '175%',
+      normalText: 'Average Salary Hike',
+      imageUrl:
+        'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp',
+    },
+    { boldText: '35K+', normalText: 'Trusted Learners' },
+  ];
+  const JobData = {
+    title: 'Code Your Career Path To Success    ',
+    points: [
+      {
+        imgSrc:
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp',
+        imgAlt: 'image',
+        title: 'Transform with Top Tech Skills        ',
+        description:
+          'Become a sought-after software developer with our expert-led training.         ',
+      },
+      {
+        imgSrc:
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp',
+        imgAlt: 'image',
+        title: 'Practice Real-time projects in industry setting        ',
+        description:
+          'Dive into realt-time projects that solve real-world problems.         ',
+      },
+      {
+        imgSrc:
+          'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp',
+        imgAlt: 'image',
+        title: 'From Novice to Expert        ',
+        description:
+          'Learn from basics to advanced software development techniques.        ',
+      },
+    ],
+    bannerImage: {
+      src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp',
+      width: 500,
+      height: 400,
+      priority: true,
+      quality: 80,
+      alt: 'Banner Image 1 Alt',
+    },
+  };
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf';
   return (
     <div>
       <Navbar
@@ -27,22 +87,31 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
         interstedInHide={true}
       />
       <FirstSection
-        // FirstTyped="Guaranteed Interview Calls"
+        // FirstTyped="Job-ready with interview support"
         // SecondTyped="Capstone Project Certificate"
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
         titleCourse="Software Development Certification Program"
         cityParaCont="Upskill and switch from service-based to product-based companies"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
+        brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
-        firstToparaImg=""
-        firstHeading="Software Development Certification Program"
+        firstToparaImg="Certification Program"
+        firstHeading="Software Development "
         firstTopPara="Crack Interview in Top MNCs"
-        idss="bfl64ANfSV0"
-        softwareBtnHide={true}
+        idss="0cspp1jXAbM"
+        interstedInHide={true}
+        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sf-f.webp"
+        videoId="0cspp1jXAbM"
+      />
+      <MasterSecondSection data={seconddata} />
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
         interstedInHide={true}
       />
-      <SecondSection SecondSectionData={SecondSectionData} />
+      {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
+
       {/* <WhoProgram
           dataScience={true}
           leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
@@ -60,7 +129,8 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
       <GetHire />
       <ContactConsellor
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochureLink="hhttps://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/SDE_Master_Program_for_Tech_Professionals.pdf"
+        brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
       />

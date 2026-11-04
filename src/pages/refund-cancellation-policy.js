@@ -1,9 +1,8 @@
-import React from "react";
 import Head from "next/head";
-import Refund from "../components/StaticPage/refund/refund";
-import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import Navbar from "../components/Global/Navbar/Navbar";
+import Refund from "../components/StaticPage/refund/refund";
 
 function refund() {
   return (
@@ -29,7 +28,11 @@ function refund() {
         <Navbar popup={true} dataScienceCounselling={true} radio={true} />
         <Refund />
         <Footer />
-        <BottomBar radio={true} />
+        <BottomBar
+          dataScienceGeneric={true}
+          interstedInHide={true}
+          radio={true}
+        />
       </main>
     </div>
   );

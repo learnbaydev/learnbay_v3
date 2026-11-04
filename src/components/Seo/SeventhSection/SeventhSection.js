@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import styles from "./SeventhSection.module.css";
-import { AiOutlineWhatsApp } from "react-icons/ai";
-import { MdCall } from "react-icons/md";
-import Image from "next/image";
-import Button from "../../Global/Button/Button";
+import React, { useState, useEffect } from 'react';
+import styles from './SeventhSection.module.css';
+import { AiOutlineWhatsApp } from 'react-icons/ai';
+import { MdCall } from 'react-icons/md';
+import Image from 'next/image';
+import Button from '../../Global/Button/Button';
 
 function SeventhSection({ fullStackCont }) {
   const [mobile, setMobile] = useState(false);
@@ -25,12 +25,14 @@ function SeventhSection({ fullStackCont }) {
               fill={true}
               className={styles.deskImage}
               alt="Learners support"
+              loading="lazy"
             />
           ) : (
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/new-bg-sevventt.webp"
               fill={true}
               alt="Learners support"
+              loading="lazy"
             />
           )}
         </div>
@@ -63,7 +65,7 @@ function SeventhSection({ fullStackCont }) {
           ) : (
             <div className={styles.btnWrap}>
               <a
-                href="https://api.whatsapp.com/send?phone=917349222263&text=Hello,"
+                href="https://api.whatsapp.com/send?phone=916366841343"
                 target="_blank"
               >
                 <button className={styles.btn1}>
@@ -73,7 +75,7 @@ function SeventhSection({ fullStackCont }) {
 
               <a href="tel: +917795687988">
                 <Button
-                  text="917795687988"
+                  text="+917795687988"
                   passIcon={<MdCall />}
                   outline={true}
                   invert
@@ -89,7 +91,8 @@ function SeventhSection({ fullStackCont }) {
               width={600}
               height={600}
               alt="data science course"
-              style={{ borderRadius: "5px" }}
+              style={{ borderRadius: '5px' }}
+              loading="lazy"
             />
           </div>
         </div>

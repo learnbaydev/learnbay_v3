@@ -78,6 +78,7 @@ const ContactCounsellor = ({ dataScience, dataScienceCounselling }) => {
           height={200}
           loading="lazy"
           quality={40}
+          alt="The image showcasing a Data Scientist standing with a white background"
         />
       </div>
     </div>

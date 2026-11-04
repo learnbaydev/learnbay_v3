@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       {/* <h1>Youtube Embed</h1> */}
-      <YoutubeEmbed embedId="gvSdkorN6PE" />
+      {/* <YoutubeEmbed embedId="gvSdkorN6PE" /> */}
     </div>
   );
 }

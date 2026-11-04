@@ -1,7 +1,9 @@
 .formWrapper {
   margin-top: 70px;
   display: grid;
-  grid-template-columns: 55% 40%;
+  /* 55% + 40% plus a 70px gap and 60px padding is wider than the container;
+     fr tracks share what is actually left over. */
+  grid-template-columns: 55fr 40fr;
 
   gap: 70px;
   height: 100%;
@@ -9,9 +11,16 @@
   align-items: center;
   justify-content: center;
 }
+
+.formWrapper > * {
+  min-width: 0;
+}
+
 .formWrapper h1 {
   margin-bottom: 30px;
+  /* max-content alone ignored the column width and ran off-screen. */
   width: max-content;
+  max-width: 100%;
   border-bottom: 2px solid #606060;
 }
 .leftWrap {

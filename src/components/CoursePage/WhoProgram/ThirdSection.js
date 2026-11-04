@@ -16,11 +16,12 @@ const ThirdSection = ({
   const [popups, setPopups] = useState(false);
   const [titleCourse, setTitleCourse] = useState();
   const [brochureLinks, setBrochureLinks] = useState();
+  const [brcohurepdfs, setBrcohurepdfs] = useState();
   const popupShow = () => {
     setPopups(true);
   };
   return (
-    <div className={`${styles.program} wrapper`} id="eligibility">
+    <div className={`${styles.program}`} id="eligibility">
       <Popup
         trigger={popups}
         setTrigger={setPopups}
@@ -34,7 +35,7 @@ const ThirdSection = ({
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
+          <h5>Download Syllabus</h5>
           <Form
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
@@ -43,11 +44,12 @@ const ThirdSection = ({
             interstedInHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLinks}
+            brochurePdf={brcohurepdfs}
           />
         </div>
       </Popup>
 
-      <h4>Choose Your Domain Elective</h4>
+      {/* <h2 className={styles.h2}>Choose Your Domain Elective</h2>
       <div className={styles.programWrap}>
         <div className={styles.left}>
           <Image
@@ -61,7 +63,7 @@ const ThirdSection = ({
         <div>
           <div className={styles.boxWrap}>
             {ThirdSectionData.map((data, index) => {
-              const { icon, heading, para, brochureLink } = data;
+              const { icon, heading, para, brochureLink, brochurePdf } = data;
               return (
                 <div className={styles.leftSide} key={index}>
                   <div className={styles.boxIcon}>
@@ -75,11 +77,12 @@ const ThirdSection = ({
                     onClick={() => {
                       setTitleCourse(heading);
                       setBrochureLinks(brochureLink);
+                      setBrcohurepdfs(brochurePdf);
                       popupShow();
                     }}
                   >
                     <Button
-                      text="Brochure"
+                      text="Syllabus"
                       passIcon={<FaDownload className="bIconS" />}
                     />
                   </div>
@@ -88,7 +91,7 @@ const ThirdSection = ({
             })}
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

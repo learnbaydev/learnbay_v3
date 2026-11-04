@@ -1,41 +1,47 @@
-import React, { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const WhatsappFloat = dynamic(() =>
-  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+import BottomBar from '@/components/Global/BottomBar/BottomBar';
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import LJourney from '../LJourney/LJourney';
+const SyllabusNew = dynamic(() => import('../Syllabus/MasterSyllabus'));
+const ToolsCovered = dynamic(() => import('../ToolsCovered/ToolsCovered'));
+const Content = dynamic(
+  () => import('../../../components/CoursePage/Content/content')
 );
-const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/Certificate/Certificate")
-);
-
-const FeeSection = dynamic(() =>
-  import("../../../components/CoursePage/FeeSection/FeeSection")
-);
-
-const MentorsSection = dynamic(() =>
-  import("../../../components/Global/MentorsSection/MentorsSection")
+const Certificate = dynamic(
+  () =>
+    import('../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate')
 );
 
-const SliderTab = dynamic(() =>
-  import("../../../components/Global/SliderTabs/SliderTabs")
+const FeeSection = dynamic(
+  () => import('../../../components/CoursePage/FeeSection/FeeSection')
 );
 
-const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCall")
-);
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const NewProjectSection = dynamic(() =>
-  import("../../../components/Global/NewProjectSection/NewProjectSection")
+const MentorsSection = dynamic(
+  () => import('../../../components/Global/MentorsSection/MentorsSection')
 );
 
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+const SliderTab = dynamic(
+  () => import('../../../components/Global/SliderTabs/SliderTabs')
 );
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+
+const PlacementCall = dynamic(
+  () => import('../../../components/Global/PlacementCall/PlacementCall')
+);
+const OfferPopup = dynamic(() => import('../../Global/OfferPopup/OfferPopup'));
+const NewProjectSection = dynamic(
+  () => import('../../../components/Global/NewProjectSection/NewProjectSection')
+);
+
+const FAQNew = dynamic(
+  () => import('../../../components/CoursePage/FAQNew/FAQNew')
+);
+const Footer = dynamic(() => import('@/components/Global/Footer/Footer'));
+const SeventhSection = dynamic(
+  () => import('@/components/Global/SeventhSection/SeventhSection')
+);
+
+const MobileTestimonial = dynamic(
+  () => import('@/components/Home/MobileTestimonial/MobileTestimonial')
 );
 
 const SecondPart = ({
@@ -50,8 +56,8 @@ const SecondPart = ({
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -64,7 +70,7 @@ const SecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Data Analytics Program") {
+            if (popupData === 'Adv AI and ML Certification') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -75,59 +81,76 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf';
   return (
     <div>
+      <LJourney />
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+        titleCourse="Data Analytics Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
+        brochurePdf={pdfUrl}
         interstedInHide={true}
         buttonHide={true}
       />
-      <ToolsCovered />
+      <ToolsCovered foundation={true} />
       <Certificate
         data={CertificateData}
-        singlecertificate={singlecertificate}
+        projectWithCertificate={true}
+        singlecertificate={true}
       />
       <FeeSection
-        Fee="₹ 80,000"
-        FeeEmi="₹ 5,244/month"
-        weekdaybatch="Weekday Evening"
-        weekendbatch="Weekday  Evening"
-        weekday="MON - FRI"
-        weekend="MON - FRI"
-        WeekdayDate="DEC 1st"
-        WeekendDate="DEC 15th"
-        WeekendTime="08:00 PM - 10:00 PM"
-        WeekdayTime="08:00 PM - 10:00 PM"
+        Fee="₹1,20,000"
+        FeeEmi="₹5,572/month"
+        weekdaybatch="Weekend Batch"
+        weekendbatch="Weekday Batch"
+        weekday="MON - THU"
+        weekend="SAT - SUN"
+        WeekdayDate="1st April"
+        WeekendDate="19th April"
+        WeekdayTime="8:00 PM - 10:30 PM "
+        WeekendTime="9:30 AM - 1:00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
-        FeeContent5="15 days refund policy"
+        FeeContent5="10 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         interstedInHide={true}
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+        titleCourse="Data Analytics Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
+        brochurePdf={pdfUrl}
+        // EMI POPUPDATA
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹85,000"
+        monthlyPayment1="₹5,572"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹85,000"
+        monthlyPayment2="₹8,358"
       />
       <MentorsSection />
-      <SliderTab />
+      <SliderTab WithoutService={true} />
       <PlacementCall />
+      <MobileTestimonial />
       <NewProjectSection
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specializations"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+        titleCourse="Data Analytics Certification Programs"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/DABA_2026.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}
       />
       <FAQNew FAQNewData={FAQNewData} />
+      <Content dataScienceCounselling={true} DataAnalytics={true} />
       <SeventhSection />
       <Footer />
-      <BottomBar />
-      <WhatsappFloat />
-      {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+      <BottomBar dataScienceCounselling={true} interstedInHide={true} />
+      {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </div>
   );
 };

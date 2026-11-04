@@ -1,42 +1,42 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-import { DAPuneCourseData } from "../../../CityData/Pune/dataAnalyticsCourseTrainingInPune";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
-import Navbar from "../../../components/Global/Navbar/Navbar";
-import Popup from "../../../components/Global/Popup/Popup";
-import styles from "../../../styles/Home.module.css";
-const FirstSection = dynamic(() =>
-  import("../../../components/Seo/FirstSection/FirstSection")
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import { DAPuneCourseData } from '../../../CityData/Pune/dataAnalyticsCourseTrainingInPune';
+import Footer from '../../../components/Global/Footer/Footer';
+import Form from '../../../components/Global/Form/Form';
+import Navbar from '../../../components/Global/Navbar/Navbar';
+import Popup from '../../../components/Global/Popup/Popup';
+import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
+import Testimonial from '../../../components/Seo/Testimonial/Testimonial';
+import styles from '../../../styles/Home.module.css';
+const FirstSection = dynamic(
+  () => import('../../../components/Seo/FirstSection/FirstSection')
 );
-const SecondSection = dynamic(() =>
-  import("../../../components/Seo/SecondSection/SecondSection")
+const SecondSection = dynamic(
+  () => import('../../../components/Seo/SecondSection/SecondSection')
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
+const ProgramInfo = dynamic(
+  () => import('../../../components/Seo/ProgramInfo/ProgramInfo')
 );
-const SeventhSection = dynamic(() =>
-  import("../../../components/Seo/SeventhSection/SeventhSection")
+const SeventhSection = dynamic(
+  () => import('../../../components/Seo/SeventhSection/SeventhSection')
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
+const ProgramFee = dynamic(
+  () => import('../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee')
 );
-const CityText = dynamic(() =>
-  import("../../../components/Seo/CityText/CityText")
+const CityText = dynamic(
+  () => import('../../../components/Seo/CityText/CityText')
 );
-const CitiesLeft = dynamic(() =>
-  import("../../../components/Seo/CitiesLeft/CitiesLeftDomain")
+const CitiesLeft = dynamic(
+  () => import('../../../components/Seo/CitiesLeft/CitiesLeftDomain')
 );
-const CitiesRight = dynamic(() =>
-  import("../../../components/Seo/CitiesRight/CitiesRightdomain")
+const CitiesRight = dynamic(
+  () => import('../../../components/Seo/CitiesRight/CitiesRightdomain')
 );
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
+const OfferPopup = dynamic(
+  () => import('../../../components/Global/OfferPopup/OfferPopup')
 );
-const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import('../../../components/Seo/FAQNew/FAQNew'));
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -49,8 +49,8 @@ export default function Home() {
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
+      const data = await fetch('/api/Popup/popupGenerate', {
+        method: 'GET',
       });
       if (data.status === 200) {
         const { popData } = await data.json();
@@ -63,7 +63,7 @@ export default function Home() {
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === 'Adv Data Science and AI') {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -74,59 +74,60 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl =
+    'https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA_2026.pdf';
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Best IBM Certified Data Analytics Course in Pune - Learnbay
-        </title>
+        <title>Data Analytics Course Training in Pune | Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll in our Advanced Data Analytics Course in Pune now and earn an IBM Certification to accelerate your career as a Data Analytics professional."
+          content="Enroll in our Data Analytics Course in Pune now!! Gain industry recognition with IBM Certification to accelerate your career as a Data Analyst.          "
         />
         <meta
           name="keywords"
-          content="Data Analytics course in Pune, Data Analytics training in Pune, Data Analytics institute in Pune, best Data Analytics institute in Pune, Data Analytics course in Pune, Data Analytics certification in Pune, Data Analytics training institute in Pune, advanced Data Analytics course in Pune, Data Analytics course with Placement Assistance, Data Analytics course"
+          content="data analytics course in pune, data analytics training in pune
+          data analyst course in pune, best data analyst course in pune
+          data analytics institute in pune, data analysis courses in pune, data analytics certification in pune, business analytics course in pune, data analytics courses in pune with placement assistance, data analytics classes in pune
+          "
         />
         <meta
           property="og:url"
           content="https://www.learnbay.co/datascience/pune/data-analytics-course-training-in-pune"
         />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Data Analytics Course in pune | Data Science Training in pune"
+          content="Data Analytics Course Training in Pune | Learnbay"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data Analytics Course in pune. Learnbay is Advanced Data Analytics Course Training Institute in pune. Data Analytics Course in pune will enhance your career"
+          content="Enroll in our Data Analytics Course in Pune now!! Gain industry recognition with IBM Certification to accelerate your career as a Data Analyst."
         />
         <meta
           property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Data Analytics Course in Chennai | Data Science Training in Chennai"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Data Analytics Course in Chennai. Learnbay is Advanced Data Analytics Course Training Institute in Chennai. Data Analytics Course in Chennai will enhance your career"
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/pune/data-analytics-course-training-in-pune"
+        />
+        <meta
+          name="twitter:title"
+          content="Data Analytics Course Training in Pune | Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Data Analytics Course in Chennai. Learnbay is Advanced Data Analytics Course Training Institute in Chennai. Data Analytics Course in Chennai will enhance your career"
+          content="Enroll in our Data Analytics Course in Pune now!! Gain industry recognition with IBM Certification to accelerate your career as a Data Analyst."
         />
         <meta
           name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <link
           rel="canonical"
@@ -143,37 +144,339 @@ export default function Home() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: ` `,
+            __html: `{ 
+            "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Learnbay - Data science and Generative AI courses training in Pune",
+  "description": "Enroll in our Data Analytics Course in Pune now!! Gain industry recognition with IBM Certification to accelerate your career as a Data Analyst.",
+  "url": "https://www.learnbay.co/datascience/pune/data-analytics-course-training-in-pune",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "office no. 408, 4th floor, City Space, opposite to Fiserv, Viman Nagar",
+    "addressLocality": "Pune",
+    "addressRegion": "Maharashtra",
+    "postalCode": "411014",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.562830973846324,
+    "longitude": 73.92150074243546
+  },
+  "telephone": "(+91) 77956 87988",
+  "email": "contacts@learnbay.co",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "20:00"
+    }
+  ],
+  "priceRange": "₹ 1,20,000 + 18% GST",
+  "areaServed": "Pune",
+  "paymentAccepted": "Cash, Credit Card, Debit Card, EMI",
+  "sameAs": [
+    "https://www.facebook.com/learnbay/",
+    "https://twitter.com/Learnbay",
+    "https://www.instagram.com/learnbayofficial/",
+    "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
+    "https://www.linkedin.com/company/learnbay/"
+  ]
+}
+`,
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `${DAPuneCourseData[0].script1}`,
-          }}
-        />{" "}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` ${DAPuneCourseData[0].script2}`,
+            __html: `{  
+              "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Data Analytics Course Training in Pune | Learnbay",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "2485"
+  }
+}
+`,
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: ` ${DAPuneCourseData[0].script3} `,
+            __html: `{ 
+             "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Data Analytics Course Training in Pune | Learnbay",
+  "description": "Enroll in our Data Analytics Course in Pune now!! Gain industry recognition with IBM Certification to accelerate your career as a Data Analyst.",
+  "url": "https://www.learnbay.co/datascience/pune/data-analytics-course-training-in-pune",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "sameAs": "https://www.learnbay.co/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "120000",
+    "priceCurrency": "INR",
+    "category": "Educational"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P6M",
+    "offers": {
+      "@type": "Offer",
+      "price": "120000",
+      "priceCurrency": "INR"
+    }
+  }
+}
+`,
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: ` ${DAPuneCourseData[0].script4} `,
+            __html: `{ 
+             "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What are the prerequisites for the Data Analytics Training Course in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There are no prerequisites for this Data Analytics certification course in Pune as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I miss a few classes due to an emergency?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a Flexi Subscription in the Data Analytics Certification Program in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Those who enroll for Data Analytics live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends."
+    }
+  },{
+    "@type": "Question",
+    "name": "What’s the duration of the Data Analytics Course in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The duration of the Data Analytics course training in Pune is 8-9 months, including weekend and weekday batches."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the mode of Data Analytics training at Learnbay, Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide both classroom and online Data Analytics training modes. Based on your requirement, you can choose your preferred mode."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I opt for a Hybrid mode of learning in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is domain specialization associated with the Learnbay data analytics certification course in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer industry-specific full-stack data analytics with Gen AI modules that help you learn the best practices of the respective industry."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the available elective domain options?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "HR, Marketing, & sales; Retail, e-commerce & supply chain; Healthcare, pharma & clinical research; Banking, finance & Insurance domain; Manufacturing, mechanical & telecom domain; Media, hospitality & transportation domain; Energy, oil & gas domain, Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc."
+    }
+  },{
+    "@type": "Question",
+    "name": "Which domain elective is best suited for me?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988"
+    }
+  },{
+    "@type": "Question",
+    "name": "Why is domain specialization important?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "After enrolling in the data analytics course with domain specialisation course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I select multiple domain electives and do I need to pay extra charges?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum."
+    }
+  },{
+    "@type": "Question",
+    "name": "What if I don't have any prior experience in any domain?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I change my domain electives later?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the total fee for the Data Analytics Program in Pune?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The total program fee for the Data Analytics Program is INR 1,20,000 + 18% GST."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I pay in installments for INR 1,20,000 + 18% GST-?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can pay the installments using a credit card with a no-cost EMI option . You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any scholarship/discount available for the Data Analytics Certification in Pune? What is Group Discount?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+"
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the refund policy for the Data Analytics Course at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many real-time projects/case studies will be there?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc"
+    }
+  },{
+    "@type": "Question",
+    "name": "How many real-time projects will be there?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We have a set of 5 Real-time projects from multiple industries like Healthcare, Banking, Finance, Insurance, Retail, etc."
+    }
+  },{
+    "@type": "Question",
+    "name": "How will the project be executed?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any accredited certification after course completion?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you will be awarded IBM Gen AI and IIT Patna accredited Data Analytics Certificate on successful course completion."
+    }
+  },{
+    "@type": "Question",
+    "name": "What's the eligibility for a job assistance program in Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many interview calls will I get at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is a job-readiness program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles."
+    }
+  },{
+    "@type": "Question",
+    "name": "Will I get job referrals at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies."
+    }
+  },{
+    "@type": "Question",
+    "name": "Until when will the students get the facility of mentorship?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our mentors will provide Data Analytics training to the students until the completion of the course."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can a Learnbay student choose to study from their desired mentor?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors."
+    }
+  },{
+    "@type": "Question",
+    "name": "When is the job assistance provided at Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long will I get Job referrals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You’ll be provided with job assistance after the completion of the course for a period of 1 year."
+    }
+  }]
+}
+`,
           }}
         />
       </Head>
       <main>
-        {" "}
-        <Navbar popup={true} dataScience={true} />
+        {' '}
+        <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -184,18 +487,21 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
+          interstedInHide={true}
           titleCourse="Data Analytics Course Training in Pune"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf"
+          brochurePdf={pdfUrl}
           idss="y_0IdhFKJKM"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/data+analytics+header+image.webp"
           firstToparaImg="For Professionals"
           firstHeading="Data Analytics Course Training in Pune"
           firstTopPara="Industrial Training Program for Early-professionals"
-          cityParaCont="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
+          cityParaCont="Gain inarguable eminence to sustain in today’s digital world via Learnbay’s data analytics course in Pune. Join our practical, accessible, and Generative AI-rich courses to build a globally recognized career. Our industry alliance with IBM (course & project certifications) and 450+ MNCs ensures an invincible career path.      "
+          iitptnaandms={true}
         />
         <SecondSection SecondSectionData={DAPuneCourseData[0].secondSection} />
         <Testimonial
@@ -206,17 +512,35 @@ export default function Home() {
         />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 80,000"
-            FeeEmi="₹ 5,244/month"
-            WeekdayDate="NOV 17th"
-            WeekendDate="NOV 26th"
-            WeekendTime="09:30 AM - 1:00 PM"
-            WeekdayTime="08:00 AM - 10:00 AM"
+            Fee="₹ 1,20,000"
+            FeeEmi="₹5,572/month"
+            weekdaybatch="Weekend Batch"
+            weekendbatch="Weekday Batch"
+            weekday="SAT - SUN"
+            weekend="MON - THU"
+            WeekdayDate="19th Jan"
+            WeekendDate="3rd Jan"
+            WeekendTime="8:00 PM - 10:30 PM"
+            WeekdayTime="9:30 AM - 1 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
+            interstedInHide={true}
+            dataScience={true}
+            titleCourse="Data Analytics Certification Program"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf"
+            brochurePdf={pdfUrl}
+            // EMI POPUPDATA
+            emiType="NO COST EMI"
+            duration1="18 Months"
+            totalAmount1="1,20,000"
+            monthlyPayment1="₹5,572"
+            greenDown1="Standard Intrest rate Applicable"
+            duration2="12 Months"
+            totalAmount2="1,20,000"
+            monthlyPayment2="₹8,358"
           />
         </div>
         <div className="MainCities">
@@ -225,19 +549,29 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+              cityTextDAPune={true}
+              cityTextJDAPune={true}
               ProgramHead1={DAPuneCourseData[0].ProgramHead1}
               ProgramBot1={DAPuneCourseData[0].ProgramBot1}
               ProgramBot2={DAPuneCourseData[0].ProgramBot2}
               ProgramBot3={DAPuneCourseData[0].ProgramBot3}
+              ProgramBot4={DAPuneCourseData[0].ProgramBot4}
+              ProgramBot5={DAPuneCourseData[0].ProgramBot5}
+              ProgramBot6={DAPuneCourseData[0].ProgramBot6}
+              ProgramBot7={DAPuneCourseData[0].ProgramBot7}
+              ProgramBot8={DAPuneCourseData[0].ProgramBot8}
+              ProgramBot9={DAPuneCourseData[0].ProgramBot9}
+              ProgramBot32={DAPuneCourseData[0].ProgramBot32}
+              ProgramBot10={DAPuneCourseData[0].ProgramBot10}
+              ProgramBot11={DAPuneCourseData[0].ProgramBot11}
+              ProgramBot12={DAPuneCourseData[0].ProgramBot12}
               ProgramHead3={DAPuneCourseData[0].ProgramHead3}
               ProgramBot31={DAPuneCourseData[0].ProgramBot31}
               ProgramHead4={DAPuneCourseData[0].ProgramHead4}
               ProgramHead5={DAPuneCourseData[0].ProgramHead5}
-              ProgramBot4={DAPuneCourseData[0].ProgramBot4}
               CertificationHead1={DAPuneCourseData[0].CertificationHead1}
-              ProgramBot5={DAPuneCourseData[0].ProgramBot5}
+              CertificationBot3={DAPuneCourseData[0].CertificationBot3}
               ProgramHead6={DAPuneCourseData[0].ProgramHead6}
-              ProgramBot6={DAPuneCourseData[0].ProgramBot6}
               Courselink1={DAPuneCourseData[0].Courselink1}
               Courselink2={DAPuneCourseData[0].Courselink2}
               Courselink3={DAPuneCourseData[0].Courselink3}
@@ -276,6 +610,8 @@ export default function Home() {
               CertificationBot2={DAPuneCourseData[0].CertificationBot2}
               src={DAPuneCourseData[0].src}
               src22={DAPuneCourseData[0].src22}
+              src33={DAPuneCourseData[0].src33}
+              src44={DAPuneCourseData[0].src44}
               ModuleHead1={DAPuneCourseData[0].ModuleHead1}
               ModuleBot1={DAPuneCourseData[0].ModuleBot1}
               ModuleBot2={DAPuneCourseData[0].ModuleBot2}
@@ -317,12 +653,22 @@ export default function Home() {
               JobHead1={DAPuneCourseData[0].JobHead1}
               JobBot1={DAPuneCourseData[0].JobBot1}
               JobBot2={DAPuneCourseData[0].JobBot2}
+              JobBot4={DAPuneCourseData[0].JobBot4}
               JobBot5={DAPuneCourseData[0].JobBot5}
+              JobBot7={DAPuneCourseData[0].JobBot7}
               JobHead2={DAPuneCourseData[0].JobHead2}
+              JobHead3={DAPuneCourseData[0].JobHead3}
+              JobHead5={DAPuneCourseData[0].JobHead5}
+              JobHead4={DAPuneCourseData[0].JobHead4}
               JobBot3={DAPuneCourseData[0].JobBot3}
               JobBot6={DAPuneCourseData[0].JobBot6}
+              JobBot8={DAPuneCourseData[0].JobBot8}
+              JobBot9={DAPuneCourseData[0].JobBot9}
+              JobBot10={DAPuneCourseData[0].JobBot10}
+              JobBot11={DAPuneCourseData[0].JobBot11}
               ProjectsBot1={DAPuneCourseData[0].ProjectsBot1}
               ProjectsBot2={DAPuneCourseData[0].ProjectsBot2}
+              ProjectsBot3={DAPuneCourseData[0].ProjectsBot3}
               src1={DAPuneCourseData[0].src1}
               ProjectsH1={DAPuneCourseData[0].ProjectsH1}
               Projectsp1={DAPuneCourseData[0].Projectsp1}
@@ -362,7 +708,7 @@ export default function Home() {
           CityTextL={DAPuneCourseData[0].CityTextL}
         />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );

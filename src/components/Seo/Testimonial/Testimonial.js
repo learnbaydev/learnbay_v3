@@ -1,19 +1,17 @@
-import React, { useEffect, useState } from "react";
-import styles from "./Testimonial.module.css";
+import dynamic from "next/dynamic";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { useEffect, useState } from "react";
+import { AiOutlineRise } from "react-icons/ai";
+import { Navigation, Pagination, Scrollbar } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
-import { AiOutlineRise } from "react-icons/ai";
-import dynamic from "next/dynamic";
+import { Swiper, SwiperSlide } from "swiper/react";
+import VideoPopup from "../../Global/VideoPopup/VideoPopup";
+import styles from "./Testimonial.module.css";
 const ReviewPopup = dynamic(() =>
   import("../../../components/Global/ReviewPopup/ReviewPopup")
 );
-import VideoPopup from "../../Global/VideoPopup/VideoPopup";
-import { Pagination, Navigation } from "swiper";
-import "swiper/css/scrollbar";
-import { Scrollbar } from "swiper";
 function Testimonial({ redirectDS, para, heading, Testimonial }) {
   const [mobile, setMobile] = useState(false);
   const [vId, setVId] = useState("");
@@ -58,6 +56,7 @@ function Testimonial({ redirectDS, para, heading, Testimonial }) {
       {/* <div className={styles.line}>
         <img
           src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/alumni-arrow.png"
+alt="Image containing arrow"
           width="80px"
         />
       </div> */}

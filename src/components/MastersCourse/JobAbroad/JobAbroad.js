@@ -1,98 +1,117 @@
-import Image from "next/image";
-import Styles from "./JobAbroad.module.css";
-import Link from "next/link";
+// JobAbroad.js
+import Image from 'next/image';
+import React, { useState } from 'react';
+import Styles from './JobAbroad.module.css';
+import Link from 'next/link';
+import Form from '../../Global/Form/Form';
+import Popup from '../../Global/Popup/Popup';
+const JobAbroad = ({
+  data,
+  WolfLink,
+  formbtn,
+  dataScience,
+  dataScienceCounselling,
+  interstedInHide,
+  titleCourse,
+  brochureLink,
+}) => {
+  const { title, points, bannerImage } = data;
+  const [popups, setPopups] = useState(false);
 
-const JobAbroad = () => {
+  const popupShow = () => {
+    setPopups(true);
+  };
   return (
     <div>
       <div className={Styles.JobAbroadMain}>
-        <h2>
-          Master’s Degree that gets you
-          <span className={Styles.Ooo}>Job Abroad</span>{" "}
-        </h2>
+        <Popup
+          trigger={popups}
+          setTrigger={setPopups}
+          className="popupModal"
+          popup={true}
+          // radio={radio}
+          dataScience={dataScience}
+          dataScienceCounselling={dataScienceCounselling}
+        >
+          <div className="leftPopup">
+            <div
+              className="whiteP"
+              style={{ width: '340px', height: '400px' }}
+            ></div>
+          </div>
+          <div className="RightPopup">
+            <h5>Apply For Counselling</h5>
+            <Form
+              titleCourse={titleCourse}
+              brochureLink={brochureLink}
+              dataScience={dataScience}
+              interstedInHide={interstedInHide}
+              dataScienceCounselling={dataScienceCounselling}
+              upSkillingHide={true}
+              // radio={radio}
+            />
+          </div>
+        </Popup>
+
+        <h2>{title}</h2>
 
         <div className={Styles.JobAbroadHead}>
           <div className={Styles.JobAbroadleft}>
-            <div className={Styles.leftpoints}>
-              <div className={Styles.imgBox}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp"
-                  width={90}
-                  height={90}
-                  loading="lazy"
-                  alt="master degree"
-                />
+            {points.map((point, index) => (
+              <div key={index} className={Styles.leftpoints}>
+                <div className={Styles.imgBox}>
+                  <Image
+                    src={point.imgSrc}
+                    width={80}
+                    height={80}
+                    loading="lazy"
+                    alt={point.imgAlt}
+                  />
+                </div>
+                <div>
+                  <h3>{point.title}</h3>
+                  <p>{point.description}</p>
+                </div>
               </div>
-              <div>
-                <h3>Earn a Degree Without Pausing Your Career</h3>
-                <p>
-                  Flexible online degrees from LearnBay's ExcelVarsity for
-                  working pros.
-                </p>
+            ))}
+            {formbtn ? (
+              <div className={Styles.consbtn1}>
+                <Link href="/master-application">
+                  <button className={Styles.consbtn}>
+                    Start Your Application
+                  </button>
+                </Link>
               </div>
-            </div>
-
-            <div className={Styles.leftpoints}>
-              <div className={Styles.imgBox}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp"
-                  width={90}
-                  height={90}
-                  loading="lazy"
-                  alt="master degree"
-                />
-              </div>
-              <div>
-                <h3>Skill Up for Swift Promotions</h3>
-                <p>
-                  Curriculum designed for rapid career advancement and
-                  leadership roles.
-                </p>
-              </div>
-            </div>
-
-            <div className={Styles.leftpoints}>
-              <div className={Styles.imgBox}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp"
-                  width={90}
-                  height={90}
-                  loading="lazy"
-                  alt="job master degree"
-                />
-              </div>
-              <div>
-                <h3>Step into High-Value Research Careers</h3>
-                <p>
-                  Degree for prestigious research jobs and institutional
-                  collaborations.
-                </p>
-              </div>
-            </div>
-
-            <div className={Styles.consbtn1}>
-              <Link href="/master-application">
+            ) : (
+              <div className={Styles.consbtn1} onClick={popupShow}>
                 <button className={Styles.consbtn}>
-                  Start Your Application
+                  Apply For Counselling
                 </button>
-              </Link>
-            </div>
-            <p className={Styles.woolfText}>
-              Learnbay Excelversity is a constituent college affiliated with{" "}
-              <a href="https://woolf.university/academics/college-membership/bb43ed7d-edff-4e25-b530-2e950496519c">
-                <span className={Styles.spanWoolf}>Woolf University, EU</span>
-              </a>
-            </p>
+              </div>
+            )}
+
+            <>
+              {WolfLink ? (
+                <p className={Styles.woolfText}>
+                  Learnbay Excelversity is a constituent college of{' '}
+                  <a href="https://woolf.education">
+                    <span className={Styles.spanWoolf}>Woolf, EU</span>
+                  </a>
+                </p>
+              ) : (
+                ''
+              )}
+            </>
           </div>
 
           <div className={Styles.JobAbroadRight}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp"
-              width={600}
-              height={400}
-              priority
-              quality={60}
-              alt="master job program"
+              src={bannerImage.src}
+              width={bannerImage.width}
+              height={bannerImage.height}
+              priority={bannerImage.priority}
+              quality={bannerImage.quality}
+              alt={bannerImage.alt}
             />
           </div>
         </div>

@@ -1,20 +1,37 @@
 .Review {
+  display: flex;
+  flex-flow: column;
   margin: 70px 0px;
   padding: 0px;
+  justify-content: center;
+  align-items: center;
 }
 
 .Back {
-  background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/review.png");
-  height: 50vh;
+  /* background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/review.png"); */
+  /* height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 100%; */
   display: flex;
   align-items: center;
   margin: auto;
-  padding: 0px 100px;
+  /* padding: 0px 100px; */
 }
-
+.btn {
+  border-radius: 3px;
+  background: #0072bc;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 13px;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 8px 25px;
+  border: none;
+  cursor: pointer;
+}
 .gridPanel {
   display: grid;
   grid-template-columns: 33% 33% 33%;
