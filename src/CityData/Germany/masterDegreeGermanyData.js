@@ -293,13 +293,13 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
           {
             id: 0,
             ques: "What type of certification or degree will I receive upon completing the Master's in Data Science program in Germany?",
-            ans: `Learners enrolling in a master's in data science program in Germany will get a globally accredited degree from Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications.`,
+            ans: `Learners enrolling in this online master’s program will receive an MSc awarded by Woolf. Learnbay Excelversity is a college of Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications.`,
             open: true,
           },
           {
             id: 2,
             ques: 'Is the certification recognized internationally, and what is its value in the job market for data science masters programs in Germany?',
-            ans: `Yes, the certification is globally recognized (60+ countries recognize it), enriching your career and validating the learned skills for better job prospects. Anyone pursuing data science masters programs in Germany must obtain this certification for an effortless career transition. Learners with globally valued certifications attain a competitive advantage with compelling offers from top-tier companies in Germany. Certifications set a benchmark for exclusive competence to crack expanded career growth prospects throughout the country and overseas.`,
+            ans: `The MSc is awarded by Woolf and carries 90 ECTS credits at EQF level 7. Recognition of the degree depends on each country and employer. The IBM & Microsoft certifications validate your skills with employers and support your career transition.`,
             open: true,
           },
           {
@@ -459,10 +459,10 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
     CertificationBot2:
       'Our collaboration with IBM supports global-level career growth. Once you finish your data science masters in Germany, you will obtain an IBM project certificate. This certificate validates your learned skills to leverage career success limits exponentially with better job offers.          ',
     CertificationMasterHead2:
-      'Unleash Career Boundaries with a Globally Accredited Master’s Degree         ',
+      'Earn a Master’s Degree Awarded by Woolf',
 
     CertificationBot3:
-      'Experts who enroll in our masters in data science will land their dream jobs with the leading MNCs in Germany. Here, you will get a globally accredited master’s degree with affiliation to Woolf. This degree has approval from 60+ Western countries and is equivalent to MSC data science in Germany.         ',
+      'The MSc is awarded by Woolf. Learnbay Excelversity is a college of Woolf. The degree carries 90 ECTS credits at EQF level 7, and the program is open to students in Germany.',
     CertificationBot4: ' ',
     ModuleMasterBot1: '  ',
     ModuleHead1: 'Learning Outcomes     ',
@@ -554,7 +554,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
     JobBot22:
       'Our Master’s in CS: Data Science and AI Program is worth it for attaining global career success. Here, experts will develop skills to deal with GenAI tools and trends. Our live instructor-led data science masters in Germany will help you develop job-ready skills via real-time projects.         ',
     JobBotMasterBot5:
-      'Our master’s program is equivalent to an MSC in data science in Germany, with endless scopes for growth and success. It offers a globally accredited master’s degree (Woolf) followed by an IBM project certificate.         ',
+      'Our online master’s program leads to an MSc awarded by Woolf, followed by an IBM project certificate.',
     JobBotMasterBot6:
       'Thus, experts upskilling via our MS in data science in Germany are worth investing in for a lucrative career ahead on a global scale.',
     JobBot23: '   ',

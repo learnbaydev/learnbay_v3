@@ -6,8 +6,12 @@ import "react-phone-input-2/lib/style.css";
 import { useRouter } from "next/router";
 import Navbar from "../../Global/Navbar/Navbar";
 import Head from "next/head";
+import {
+  WoolfBadge,
+  WOOLF_COLLEGE_LINE,
+} from "../../Global/Woolf/WoolfEmbed";
 
-const MasterApplicationForm = ({ secondForm, title }) => {
+const MasterApplicationForm = ({ secondForm, title, woolf }) => {
   const router = useRouter();
   const [value, setValue] = useState();
   const [query, setQuery] = useState({
@@ -241,6 +245,12 @@ const MasterApplicationForm = ({ secondForm, title }) => {
           </div>
 
           <button type="submit">Submit</button>
+          {woolf ? (
+            <div className={styles.woolfWrap}>
+              <WoolfBadge />
+              <p className={styles.woolfLine}>{WOOLF_COLLEGE_LINE}</p>
+            </div>
+          ) : null}
         </form>
       </div>
     </>

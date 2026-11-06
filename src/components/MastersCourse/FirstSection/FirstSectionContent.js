@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./FirstSection.module.css";
 import Button from "@/components/Global/Button/Button";
 import Form from "@/components/Global/Form/Form";
+import { WoolfBadge } from "@/components/Global/Woolf/WoolfEmbed";
 
 const FirstSectionContent = ({
   setPopups,
@@ -39,7 +40,7 @@ const FirstSectionContent = ({
       <>
         <div className={styles.DivContent}>
           <div className={styles.firstDiv}>
-            <p className={styles.ptopC}>Learnbay Excelvarsity</p>
+            <p className={styles.ptopC}>Learnbay Excelversity</p>
             <h1 className={styles.h1}>
               <span style={{ color: "#FE7A36" }}>Master </span>
               of Science in Computer Science with a Specialisation Certificate
@@ -47,20 +48,7 @@ const FirstSectionContent = ({
               <br />
               <span style={{ color: "#FE7A36" }}>Data Science and AI</span>
             </h1>
-            <div className={styles.paraCollab}>
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/woolf_logo.webp"
-                alt="woolf-university"
-                priority
-                width="230"
-                height="50"
-                style={{
-                  backgroundColor: "white",
-                  padding: "8px",
-                  borderRadius: "4px",
-                }}
-              />
-            </div>
+            <WoolfBadge className={styles.paraCollab} skin="dark" />
             <div className={styles.boxDivGreen}>
               <p className={styles.special}>SPECIALIZATION IN</p>
               <div className={styles.iconPara}>

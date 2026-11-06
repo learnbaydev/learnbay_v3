@@ -9,6 +9,7 @@ import Popup from '../../../components/Global/Popup/Popup';
 import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
 // import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import Realstory from '@/components/Home/Realstory/Realstory';
+import { WoolfBlock } from '@/components/Global/Woolf/WoolfEmbed';
 import styles from '../../../styles/Home.module.css';
 const FirstSection = dynamic(
   () => import('../../../components/Seo/FirstSection/FirstSection')
@@ -79,11 +80,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Master’s Degree in Data Science in Germany – Learnbay</title>
+        <title>Online Master’s in Data Science, awarded by Woolf | Open to Students in Germany | Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content=" Prepare for a successful career in data science with Learnbay's Master’s Degree program in Germany. Gain practical skills and hands-on experience. Enroll now! "
+          content="Online Master’s in Data Science & GenAI, open to students in Germany. The MSc is awarded by Woolf. Gain practical skills and hands-on experience. Enroll now!"
         />
         <meta
           name="keywords"
@@ -96,11 +97,11 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Master’s Degree in Data Science in Germany – Learnbay"
+          content="Online Master’s in Data Science, awarded by Woolf | Open to Students in Germany | Learnbay"
         />
         <meta
           property="og:description"
-          content="Prepare for a successful career in data science with Learnbay's Master’s Degree program in Germany. Gain practical skills and hands-on experience. Enroll now!"
+          content="Online Master’s in Data Science & GenAI, open to students in Germany. The MSc is awarded by Woolf. Gain practical skills and hands-on experience. Enroll now!"
         />
         <meta
           property="og:image"
@@ -116,11 +117,11 @@ export default function Home() {
         />
         <meta
           name="twitter:title"
-          content="Master’s Degree in Data Science in Germany – Learnbay"
+          content="Online Master’s in Data Science, awarded by Woolf | Open to Students in Germany | Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Prepare for a successful career in data science with Learnbay's Master’s Degree program in Germany. Gain practical skills and hands-on experience. Enroll now!"
+          content="Online Master’s in Data Science & GenAI, open to students in Germany. The MSc is awarded by Woolf. Gain practical skills and hands-on experience. Enroll now!"
         />
         <meta
           name="twitter:image"
@@ -140,7 +141,7 @@ export default function Home() {
             __html: `{ 
                    "@context": "https://schema.org/", 
   "@type": "Product", 
-  "name": "Master’s Degree in Data Science in Germany – Learnbay",
+  "name": "Online Master’s in Data Science, awarded by Woolf | Open to Students in Germany | Learnbay",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "brand": {
     "@type": "Brand",
@@ -163,8 +164,9 @@ export default function Home() {
             __html: `{ 
               "@context": "https://schema.org",
   "@type": "Course",
-  "name": "Master’s Degree in Data Science in Germany – Learnbay",
-  "description": "Prepare for a successful career in data science with Learnbay's Master’s Degree program in Germany. Gain practical skills and hands-on experience. Enroll now!",
+  "name": "Online Master’s in Data Science, awarded by Woolf | Open to Students in Germany | Learnbay",
+  "description": "Online Master’s in Data Science & GenAI, open to students in Germany. The MSc is awarded by Woolf. Gain practical skills and hands-on experience. Enroll now!",
+  "educationalCredentialAwarded": "Master of Science in Computer Science, awarded by Woolf (90 ECTS, EQF level 7)",
   "provider": {
     "@type": "Organization",
     "name": "Learnbay",
@@ -334,14 +336,14 @@ export default function Home() {
     "name": "What type of certification or degree will I receive upon completing the Master's in Data Science program in Germany?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learners enrolling in a master's in data science program in Germany will get a globally accredited degree from Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications."
+      "text": "Learners enrolling in this online master’s program will receive an MSc awarded by Woolf. Learnbay Excelversity is a college of Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications."
     }
   },{
     "@type": "Question",
     "name": "Is the certification recognized internationally, and what is its value in the job market for data science masters programs in Germany?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, the certification is globally recognized (60+ countries recognize it), enriching your career and validating the learned skills for better job prospects. Anyone pursuing data science masters programs in Germany must obtain this certification for an effortless career transition. Learners with globally valued certifications attain a competitive advantage with compelling offers from top-tier companies in Germany. Certifications set a benchmark for exclusive competence to crack expanded career growth prospects throughout the country and overseas."
+      "text": "The MSc is awarded by Woolf and carries 90 ECTS credits at EQF level 7. Recognition of the degree depends on each country and employer. The IBM & Microsoft certifications validate your skills with employers and support your career transition."
     }
   },{
     "@type": "Question",
@@ -465,14 +467,14 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
           interstedInHide={true}
-          titleCourse="Best Data Science Courses in USA          "
+          titleCourse="Online Master’s in Data Science, awarded by Woolf"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Masters-in-CS.pdf"
           brochurePdf={pdfUrl}
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="  Master’s Degree in Data Science in Germany   "
-          firstTopPara="Learnbay Excelvarsity          "
-          cityParaCont="Proliferate your business growth metrics with Learnbay’s MS in data science in Germany. Join us to leverage business yields with data-driven insights and impactful decisions. Our trend-setting master’s program supports a GenAI-rich career transition with optimal success. Enroll today and validate your data skills with an IBM Project Certification. "
+          firstHeading="Online Master’s in Data Science, awarded by Woolf"
+          firstTopPara="Learnbay Excelversity"
+          cityParaCont="Open to students in Germany. The MSc is awarded by Woolf. Learnbay Excelversity is a college of Woolf. Join us to leverage business yields with data-driven insights and impactful decisions. Our trend-setting master’s program supports a GenAI-rich career transition with optimal success. Enroll today and validate your data skills with an IBM Project Certification. "
           woolfOnly={true}
         />
         <SecondSection
@@ -824,6 +826,7 @@ export default function Home() {
               AlumniH4={masterdegreeGermanyCourseData[0].AlumniH4}
               Alumnip4={masterdegreeGermanyCourseData[0].Alumnip4}
             />
+            <WoolfBlock />
             <div className={styles.faqCity}>
               <FAQNew FAQNewData={masterdegreeGermanyCourseData[0].faq} />
             </div>

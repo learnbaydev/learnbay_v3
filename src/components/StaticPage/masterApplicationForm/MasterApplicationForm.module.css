@@ -161,3 +161,17 @@
     text-align: center;
   }
 }
+
+.woolfWrap {
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.woolfLine {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #444;
+}
