@@ -1933,6 +1933,8 @@ If you get into any institute that offers offline doubt-clearing sessions, you s
 
 All technical tracks share the same spine. Python for GenAI, Foundation for AI, Advanced Generative AI, Agentic AI and Automation, then LLMOps and Production Deployment.
 
+If you lean towards data science rather than AI engineering, compare the [best data science course in Pune](https://www.learnbay.co/blogs/best-data-science-course-in-pune) options as well.
+
 ::program-lineup{from=programLineup}
 
 ## What Your AI Portfolio Should Have by the End of a Course
