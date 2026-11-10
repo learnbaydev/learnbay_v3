@@ -291,13 +291,13 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
           {
             id: 0,
             ques: "What type of certification or degree will I receive upon completing the Master's in Data Science program in Australia?",
-            ans: `Learners enrolling in a master's in data science program in Australia will get a globally accredited degree from Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications.`,
+            ans: `Learners enrolling in this online master’s program will receive an MSc awarded by Woolf. Learnbay Excelversity is a college of Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications.`,
             open: true,
           },
           {
             id: 2,
             ques: 'Is the certification recognized internationally, and what is its value in the job market for data science masters programs in Australia?',
-            ans: `Yes, the certification is globally recognized (60+ countries recognize it), enriching your career and validating the learned skills for better job prospects. Anyone pursuing data science masters programs in Australia must obtain this certification for an effortless career transition. Learners with globally valued certifications attain a competitive advantage with compelling offers from top-tier companies in Australia. Certifications set a benchmark for exclusive competence to crack expanded career growth prospects throughout the country and overseas.`,
+            ans: `The MSc is awarded by Woolf and carries 90 ECTS credits at EQF level 7. Recognition of the degree depends on each country and employer. The IBM & Microsoft certifications validate your skills with employers and support your career transition.`,
             open: true,
           },
           {
@@ -459,10 +459,10 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
     CertificationmasterBot5:
       'Our globally recognized certifications envision a career with competitive success. Unlike generic courses, our masters in data science enrich a career with potential success metrics. We offer an IBM project certificate that validates learned skill sets to land global job offers.         ',
     CertificationMasterHead2:
-      'Drive Competitive Success with Our Globally Accredited Master’s Degree        ',
+      'Earn a Master’s Degree Awarded by Woolf',
 
     CertificationBot3:
-      "We offer the best data science masters programs in Australia with globally approved degrees. Experts enrolling in our master's programs will obtain a globally valued degree from Woolf. Over 60+ Western countries approve our master’s degree, with lucrative job offers from Australia and overseas.         ",
+      'The MSc is awarded by Woolf. Learnbay Excelversity is a college of Woolf. The degree carries 90 ECTS credits at EQF level 7, and the program is open to students in Australia.',
     CertificationBot4: ' ',
     ModuleMasterBot1:
       'Learnbay’s data science masters in Australia offer a comprehensive learning module, the best suitable for today’s changing job market dynamics. Live instructor-led training helps you gain job-driven skills to thrive in a competitive career with better job offers. The learning modules of the master’s degree program consist of two domain specializations. Learners must choose one of the specializations and continue their upskilling.         ',
@@ -560,7 +560,7 @@ Group of 2: 5% extra discount Group of 3: 8% additional discount Group of 4+: Ma
     JobBot22:
       'Our master’s course in data science and AI supports hassle-free career growth. Experts enrolling in our master’s program will gain GenAI-rich skills followed by real-time projects. You can gain hands-on learning experience with 12+ real-time projects in diverse domains. It helps to know real-world business issues and learn proven ways to address them.     ',
     JobBotMasterBot5:
-      'Successful completion of upskilling will help you master data science in Australia with lucrative job offers. A master’s degree from Woolf followed by an IBM project certificate enriches career values. It helps you land your dream job roles across any of the 60+ Western countries. Upskilling with this certification program is worth it for enlarging your earning potential.       ',
+      'Successful completion of upskilling will help you master data science in Australia with lucrative job offers. An MSc awarded by Woolf followed by an IBM project certificate enriches your profile. Upskilling with this certification program is worth it for enlarging your earning potential.       ',
 
     JobBot23: '   ',
     Joblist50: '     ',

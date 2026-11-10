@@ -9,6 +9,7 @@ import Popup from '../../../components/Global/Popup/Popup';
 import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
 // import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import Realstory from '@/components/Home/Realstory/Realstory';
+import { WoolfBlock } from '@/components/Global/Woolf/WoolfEmbed';
 import styles from '../../../styles/Home.module.css';
 const FirstSection = dynamic(
   () => import('../../../components/Seo/FirstSection/FirstSection')
@@ -80,12 +81,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Master's Degree in Data Science & AI in Australia - Learnbay
+          Online Master’s in Data Science, awarded by Woolf | Open to Students in Australia | Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="  Explore our Master's Degree in Data Science and Artificial Intelligence in Australia. Dive into cutting-edge tech and unlock career opportunities. Enroll today! "
+          content="Online Master’s in Data Science & AI, open to students in Australia. The MSc is awarded by Woolf. Dive into cutting-edge tech and build job-ready skills. Enrol today!"
         />
         <meta
           name="keywords"
@@ -98,11 +99,11 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Master's Degree in Data Science & AI in Australia - Learnbay"
+          content="Online Master’s in Data Science, awarded by Woolf | Open to Students in Australia | Learnbay"
         />
         <meta
           property="og:description"
-          content="Join our Master's Degree in Data Science and Artificial Intelligence in Australia. Dive into cutting-edge tech & unlock career opportunities. Enrol today!"
+          content="Online Master’s in Data Science & AI, open to students in Australia. The MSc is awarded by Woolf. Dive into cutting-edge tech and build job-ready skills. Enrol today!"
         />
         <meta
           property="og:image"
@@ -118,11 +119,11 @@ export default function Home() {
         />
         <meta
           name="twitter:title"
-          content="Master's Degree in Data Science & AI in Australia - Learnbay"
+          content="Online Master’s in Data Science, awarded by Woolf | Open to Students in Australia | Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Join our Master's Degree in Data Science and Artificial Intelligence in Australia. Dive into cutting-edge tech & unlock career opportunities. Enrol today!"
+          content="Online Master’s in Data Science & AI, open to students in Australia. The MSc is awarded by Woolf. Dive into cutting-edge tech and build job-ready skills. Enrol today!"
         />
         <meta
           name="twitter:image"
@@ -142,7 +143,7 @@ export default function Home() {
             __html: `{ 
                           "@context": "https://schema.org/", 
   "@type": "Product", 
-  "name": "Master's Degree in Data Science & AI in Australia - Learnbay",
+  "name": "Online Master’s in Data Science, awarded by Woolf | Open to Students in Australia | Learnbay",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "brand": {
     "@type": "Brand",
@@ -165,8 +166,9 @@ export default function Home() {
             __html: `{
               "@context": "https://schema.org",
   "@type": "Course",
-  "name": "Master's Degree in Data Science & AI in Australia - Learnbay",
-  "description": "Join our Master's Degree in Data Science and Artificial Intelligence in Australia. Dive into cutting-edge tech & unlock career opportunities. Enrol today!.",
+  "name": "Online Master’s in Data Science, awarded by Woolf | Open to Students in Australia | Learnbay",
+  "description": "Online Master’s in Data Science & AI, open to students in Australia. The MSc is awarded by Woolf. Dive into cutting-edge tech and build job-ready skills. Enrol today!",
+  "educationalCredentialAwarded": "Master of Science in Computer Science, awarded by Woolf (90 ECTS, EQF level 7)",
   "provider": {
     "@type": "Organization",
     "name": "Learnbay",
@@ -336,14 +338,14 @@ export default function Home() {
     "name": "What type of certification or degree will I receive upon completing the Master's in Data Science program in Australia?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Learners enrolling in a master's in data science program in Australia will get a globally accredited degree from Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications."
+      "text": "Learners enrolling in this online master’s program will receive an MSc awarded by Woolf. Learnbay Excelversity is a college of Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications."
     }
   },{
     "@type": "Question",
     "name": "Is the certification recognized internationally, and what is its value in the job market for data science masters programs in Australia?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, the certification is globally recognized (60+ countries recognize it), enriching your career and validating the learned skills for better job prospects. Anyone pursuing data science masters programs in Australia must obtain this certification for an effortless career transition. Learners with globally valued certifications attain a competitive advantage with compelling offers from top-tier companies in Australia. Certifications set a benchmark for exclusive competence to crack expanded career growth prospects throughout the country and overseas."
+      "text": "The MSc is awarded by Woolf and carries 90 ECTS credits at EQF level 7. Recognition of the degree depends on each country and employer. The IBM & Microsoft certifications validate your skills with employers and support your career transition."
     }
   },{
     "@type": "Question",
@@ -467,14 +469,14 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
           interstedInHide={true}
-          titleCourse="Best Data Science Courses in Austrelia          "
+          titleCourse="Online Master’s in Data Science, awarded by Woolf"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/Masters-in-CS.pdf"
           brochurePdf={pdfUrl}
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="  Master’s Degree Program in Data Science and AI – Australia           "
-          firstTopPara="Learnbay Excelvarsity          "
-          cityParaCont="Equip yourself with a cutting-edge masters in data science program for an effortless career transition.  Enroll with us to acquire the highly sought-after data science competencies through our GenAI-rich course modules.  Kick-start your data science career journey with IBM project certification.            "
+          firstHeading="Online Master’s in Data Science, awarded by Woolf"
+          firstTopPara="Learnbay Excelversity"
+          cityParaCont="Open to students in Australia. The MSc is awarded by Woolf. Learnbay Excelversity is a college of Woolf. Equip yourself with a cutting-edge masters in data science program for an effortless career transition.  Enroll with us to acquire the highly sought-after data science competencies through our GenAI-rich course modules.  Kick-start your data science career journey with IBM project certification.            "
           woolfOnly={true}
         />
         <SecondSection
@@ -735,6 +737,7 @@ export default function Home() {
               AlumniH4={masterdegreeAUSData[0].AlumniH4}
               Alumnip4={masterdegreeAUSData[0].Alumnip4}
             />
+            <WoolfBlock />
             <div className={styles.faqCity}>
               <FAQNew FAQNewData={masterdegreeAUSData[0].faq} />
             </div>

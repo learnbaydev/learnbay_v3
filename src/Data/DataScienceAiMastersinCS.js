@@ -163,12 +163,10 @@ export const DataScienceMastersinCS = [
       degreeCertificate: {
         id: 3,
         img: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp',
-        title: 'Globally recognized degree',
+        title: 'Master’s degree awarded by Woolf',
         para: [
-          'The ECTS accreditation is recognized across more than 60 countries.',
-          'Equivalent to a Master’s degree in US',
-          'Our EU-accredited degree boosts visa prospects in Europe the US, canada, and more.',
-          'ECE.org evaluated credits making it equivalent to a master’s degree from the United States. To Know More:',
+          'The MSc is awarded by Woolf. Learnbay Excelversity is a college of Woolf.',
+          '90 ECTS, EQF level 7.',
         ],
         link: true,
         linkText: 'https://woolf.education/colleges/learnbay',
@@ -820,10 +818,8 @@ export const DataScienceMastersinCS = [
             ques: "What are the additional benefits provided in this master's degree program?",
             ans: `This master’s degree program in Data Science and AI has everything that helps professionals rebuild their careers worldwide. Apart from an industry-driven course curriculum, this program offers extra benefits like – 
 
-            An accredited master’s degree from Woolf
-            Globally recognized and equivalent to a master’s degree in the US, Canada, Europe, and 60+ Western countries
+            A Master of Science awarded by Woolf (90 ECTS, EQF level 7)
             Dual certification (IBM & Microsoft)
-            Immigration Opportunities
             MNC/MAANG experts as mentors
             Career Service Pro (100% placement support)
             
@@ -905,14 +901,14 @@ export const DataScienceMastersinCS = [
         data: [
           {
             id: 0,
-            ques: 'Is the degree globally recognized?            ',
-            ans: 'Yes, absolutely. Your master’s degree from Learnbay, awarded through Woolf, is a globally recognized master’s degree that opens doors to international opportunities across Europe, the US, Canada and other markets. The degree holds strong credibility among global employers, giving learners a competitive edge in the global job market.',
+            ques: 'Who awards the degree?            ',
+            ans: 'The MSc is awarded by Woolf. Learnbay Excelversity is a college of Woolf. The degree carries 90 ECTS credits at EQF level 7. Recognition depends on each country and employer.',
             open: true,
           },
           {
             id: 1,
-            ques: 'Is there any accredited certification after course completion?',
-            ans: `Yes, Learnbay offers an accredited dual certification once you complete the course. Along with a reputed degree, learners get a project experience certificate from IBM & course completion certificates from IBM & Microsoft. `,
+            ques: 'Are there any certifications after course completion?',
+            ans: `Yes. Along with the MSc awarded by Woolf, learners get a project experience certificate from IBM & course completion certificates from IBM & Microsoft. `,
             open: false,
           },
         ],

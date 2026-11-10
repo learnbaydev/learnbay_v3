@@ -334,13 +334,13 @@ export const masterdegreeUSACourseData = [
           {
             id: 0,
             ques: "What type of certification or degree will I receive upon completing the Master's in Data Science program in the USA?            ",
-            ans: `Learners enrolling in a master’s in data science program in the USA will get a globally accredited degree from Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications.             `,
+            ans: `Learners enrolling in this online master’s program will receive an MSc awarded by Woolf. Learnbay Excelversity is a college of Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications.             `,
             open: true,
           },
           {
             id: 0,
             ques: 'Is the certification recognized internationally, and what is its value in the job market for data science masters programs in the USA?            ',
-            ans: `Yes, the certification is globally recognized (60+ countries recognize it), enriching your career and validating the learned skills for better job prospects. Anyone pursuing data science masters programs in the USA must obtain this certification for effortless career transition. Learners with globally valued certifications attain a competitive advantage with compelling offers from top-tier companies in the USA. Certifications set a benchmark for exclusive competence to crack expanded career growth prospects throughout the country and overseas.             `,
+            ans: `The MSc is awarded by Woolf and carries 90 ECTS credits at EQF level 7. Recognition of the degree depends on each country and employer. The IBM & Microsoft certifications validate your skills with employers and support your career transition.             `,
             open: true,
           },
           {
@@ -528,7 +528,7 @@ export const masterdegreeUSACourseData = [
       'Specialization 2: Artificial Intelligence & Machine Learning ',
 
     CertificationBot1:
-      'Data science is an ever-changing field that requires regular skill updates. Thus, obtaining well-recognized certifications is vital for better job prospects. Learnbay’s MS in data science in USA ensures industry-driven career transition for its learners. In short, experts enrolling here will receive one globally accredited master’s degree followed by an IBM certification.       ',
+      'Data science is an ever-changing field that requires regular skill updates. Thus, obtaining well-recognized certifications is vital for better job prospects. Learnbay’s MS in data science in USA ensures industry-driven career transition for its learners. In short, learners receive an MSc awarded by Woolf followed by an IBM certification.',
     // src33:
     // "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
     src: 'https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp',
@@ -538,7 +538,7 @@ export const masterdegreeUSACourseData = [
       ' Leap Global Career Excellence with a Master’s Degree in Data Science ',
 
     CertificationBot2:
-      'Woolf accredits our data science masters programs, unlocking global-scale job options.  It is equivalent to a master’s degree from an eminent global university across 60+ Western countries. Plus, learners can have swift career rises with better hikes across leading MNCs in the USA and overseas.       ',
+      'The MSc is awarded by Woolf. Learnbay Excelversity is a college of Woolf. The degree carries 90 ECTS credits at EQF level 7. Plus, learners can have swift career rises with better hikes across leading MNCs in the USA and overseas.',
     CertificationMasterHead2:
       'Step Into High-paying Job Roles with IBM Certification',
 
@@ -641,7 +641,7 @@ export const masterdegreeUSACourseData = [
     JobBot22:
       'Learnbay’s masters in data science help you understand the career trajectory with vital gains. We provide hassle-free career support for swift promotions and hikes in your dream roles. Learners gain an inclusive learning space with our live instructor-led sessions. Hands-on learning via live projects refines the pre-existing skill sets with validation from IBM.       ',
     JobBotMasterBot5:
-      "Plus, 60+ countries recognized Woolf's master’s degree in data science unlocks a promising career path.       ",
+      'Plus, the MSc awarded by Woolf adds a master’s degree to your profile.',
 
     JobBot23: '   ',
     Joblist50: '     ',
