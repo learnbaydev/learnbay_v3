@@ -1070,8 +1070,7 @@ const CitiesRight = ({
               Our data science program sets the stage for open and flexible
               learning with the intent of giving hassle-free training. Our motto
               to help busy working pros is justified via our hybrid training
-              model and regularly revised syllabus. Experts join this best data
-              science institute in Hyderabad to land promising roles. Our live
+              model and regularly revised syllabus. Experts join Learnbay’s data science program in Hyderabad to land promising roles. Our live
               interactive training sessions equip you with basic and refined
               skills.
             </p>
@@ -1112,8 +1111,7 @@ const CitiesRight = ({
             </p>
 
             <h3 className={styles.pHead}>
-              Why is Learnbay claimed to be the best data science institute in
-              Hyderabad?
+              Why do learners choose Learnbay for data science in Hyderabad?
             </h3>
 
             <p>
@@ -1142,8 +1140,7 @@ const CitiesRight = ({
             </p>
 
             <p>
-              Experts find Learnbay as the best institute to learn data science
-              in Hyderabad due to its hands-on upskilling scope. You can work on
+              Experts choose Learnbay to learn data science in Hyderabad for its hands-on upskilling scope. You can work on
               domain-driven projects and case studies to refine your skills and
               grab rewarding roles. Our reputed mentors are here to guide you in
               mastering data-driven tools. Their real-time insights will help
