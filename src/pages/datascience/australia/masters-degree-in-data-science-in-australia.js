@@ -81,7 +81,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Online Master’s in Data Science, awarded by Woolf | Open to Students in Australia | Learnbay
+          Online Master’s in Data Science, awarded by Woolf | Australia
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -99,7 +99,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Online Master’s in Data Science, awarded by Woolf | Open to Students in Australia | Learnbay"
+          content="Online Master’s in Data Science, awarded by Woolf | Australia"
         />
         <meta
           property="og:description"
@@ -119,7 +119,7 @@ export default function Home() {
         />
         <meta
           name="twitter:title"
-          content="Online Master’s in Data Science, awarded by Woolf | Open to Students in Australia | Learnbay"
+          content="Online Master’s in Data Science, awarded by Woolf | Australia"
         />
         <meta
           name="twitter:description"
@@ -143,7 +143,7 @@ export default function Home() {
             __html: `{ 
                           "@context": "https://schema.org/", 
   "@type": "Product", 
-  "name": "Online Master’s in Data Science, awarded by Woolf | Open to Students in Australia | Learnbay",
+  "name": "Online Master’s in Data Science, awarded by Woolf | Australia",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "brand": {
     "@type": "Brand",
@@ -166,7 +166,7 @@ export default function Home() {
             __html: `{
               "@context": "https://schema.org",
   "@type": "Course",
-  "name": "Online Master’s in Data Science, awarded by Woolf | Open to Students in Australia | Learnbay",
+  "name": "Online Master’s in Data Science, awarded by Woolf | Australia",
   "description": "Online Master’s in Data Science & AI, open to students in Australia. The MSc is awarded by Woolf. Dive into cutting-edge tech and build job-ready skills. Enrol today!",
   "educationalCredentialAwarded": "Master of Science in Computer Science, awarded by Woolf (90 ECTS, EQF level 7)",
   "provider": {

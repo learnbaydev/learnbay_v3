@@ -81,7 +81,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Online Master’s in Data Science, awarded by Woolf | Open to US Students | Learnbay
+          Online Master’s in Data Science, awarded by Woolf | USA
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -105,7 +105,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Online Master’s in Data Science, awarded by Woolf | Open to US Students | Learnbay"
+          content="Online Master’s in Data Science, awarded by Woolf | USA"
         />
         <meta
           property="og:description"
@@ -125,7 +125,7 @@ export default function Home() {
         />
         <meta
           name="twitter:title"
-          content="Online Master’s in Data Science, awarded by Woolf | Open to US Students | Learnbay"
+          content="Online Master’s in Data Science, awarded by Woolf | USA"
         />
         <meta
           name="twitter:description"
@@ -145,7 +145,7 @@ export default function Home() {
             __html: `{ 
               "@context": "https://schema.org",
   "@type": "Product",
-  "name": "Online Master’s in Data Science, awarded by Woolf | Open to US Students | Learnbay",
+  "name": "Online Master’s in Data Science, awarded by Woolf | USA",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "brand": {
     "@type": "Brand",
@@ -168,7 +168,7 @@ export default function Home() {
             __html: `{
               "@context": "https://schema.org",
   "@type": "Course",
-  "name": "Online Master’s in Data Science, awarded by Woolf | Open to US Students | Learnbay",
+  "name": "Online Master’s in Data Science, awarded by Woolf | USA",
   "description": "Online Master’s in Data Science & GenAI, open to students in the USA. The MSc is awarded by Woolf. Earn an IBM project certificate with placement support.",
   "url": "https://www.learnbay.co/datascience/usa/masters-degree-in-data-science-in-usa",
   "educationalCredentialAwarded": "Master of Science in Computer Science, awarded by Woolf (90 ECTS, EQF level 7)",
