@@ -68,16 +68,16 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-          Best Data Analytics Course Online | Data Analytics Online Training
+          Data Analytics Course Online with IBM Certification
         </title>
         <meta
           name="description"
-          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
+          content="Learn data analytics online with Learnbay. Excel, SQL, Power BI, Tableau and GenAI in live classes, with real projects and IBM certification."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data analytics certification course, data analytics certification, data analytics course, best data analytics course, data analyst course online, data analyst training, data analyst certification online, data analyst certification course          "
+          content="data analytics certification course, data analytics certification, data analytics course, data analyst course online, data analyst training, data analyst certification online, data analyst certification course          "
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -87,11 +87,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Best Data Analytics Course Online | Data Analytics Online Training"
+          content="Data Analytics Course Online with IBM Certification"
         />
         <meta
           property="og:description"
-          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
+          content="Learn data analytics online with Learnbay. Excel, SQL, Power BI, Tableau and GenAI in live classes, with real projects and IBM certification."
         />
         <meta
           property="og:image"
@@ -109,11 +109,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           name="twitter:title"
-          content="Best Data Analytics Course Online | Data Analytics Online Training"
+          content="Data Analytics Course Online with IBM Certification"
         />
         <meta
           name="twitter:description"
-          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
+          content="Learn data analytics online with Learnbay. Excel, SQL, Power BI, Tableau and GenAI in live classes, with real projects and IBM certification."
         />
         <meta
           name="twitter:image"
@@ -135,7 +135,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
             "@context": "http://schema.org",
             "@type": "Course",
             "name": "Data Analytics Certification Program",
-            "description": "Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses.  Enroll now!",
+            "description": "Learn data analytics online with Learnbay. Excel, SQL, Power BI, Tableau and GenAI in live classes, with real projects and IBM certification.",
             "url": "https://www.learnbay.co/datascience/data-analytics-certification-course",
             "offers": {
               "@type": "Offer",
