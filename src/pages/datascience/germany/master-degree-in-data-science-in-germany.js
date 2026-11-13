@@ -80,7 +80,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Online Master’s in Data Science, awarded by Woolf | Open to Students in Germany | Learnbay</title>
+        <title>Online Master’s in Data Science, awarded by Woolf | Germany</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -97,7 +97,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Online Master’s in Data Science, awarded by Woolf | Open to Students in Germany | Learnbay"
+          content="Online Master’s in Data Science, awarded by Woolf | Germany"
         />
         <meta
           property="og:description"
@@ -117,7 +117,7 @@ export default function Home() {
         />
         <meta
           name="twitter:title"
-          content="Online Master’s in Data Science, awarded by Woolf | Open to Students in Germany | Learnbay"
+          content="Online Master’s in Data Science, awarded by Woolf | Germany"
         />
         <meta
           name="twitter:description"
@@ -141,7 +141,7 @@ export default function Home() {
             __html: `{ 
                    "@context": "https://schema.org/", 
   "@type": "Product", 
-  "name": "Online Master’s in Data Science, awarded by Woolf | Open to Students in Germany | Learnbay",
+  "name": "Online Master’s in Data Science, awarded by Woolf | Germany",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "brand": {
     "@type": "Brand",
@@ -164,7 +164,7 @@ export default function Home() {
             __html: `{ 
               "@context": "https://schema.org",
   "@type": "Course",
-  "name": "Online Master’s in Data Science, awarded by Woolf | Open to Students in Germany | Learnbay",
+  "name": "Online Master’s in Data Science, awarded by Woolf | Germany",
   "description": "Online Master’s in Data Science & GenAI, open to students in Germany. The MSc is awarded by Woolf. Gain practical skills and hands-on experience. Enroll now!",
   "educationalCredentialAwarded": "Master of Science in Computer Science, awarded by Woolf (90 ECTS, EQF level 7)",
   "provider": {
