@@ -707,15 +707,14 @@ _New data analyst postings in 24 hours by metro. Source: LinkedIn public job sea
 <!-- Planned series blogs (404 until live). Switch each anchor to a link on the day it publishes:
      "best data analytics course in Bangalore" -> /blogs/best-data-analytics-course-in-bangalore
      "best data analyst course in Hyderabad"   -> /blogs/best-data-analyst-course-in-hyderabad
-     "best data analyst course in Delhi NCR"   -> /blogs/best-data-analyst-course-in-delhi-ncr
-     "best data analyst course in Pune"        -> /blogs/best-data-analyst-course-in-pune -->
+     "best data analyst course in Delhi NCR"   -> /blogs/best-data-analyst-course-in-delhi-ncr -->
 
 Each city has its own mix of employers –
 
 - **Bengaluru** – retail tech and banking GCCs such as Walmart, Target, HSBC and JPMorgan Chase, plus startups like PhonePe and Razorpay; see the best data analytics course in Bangalore
 - **Hyderabad** – big tech and pharma and banking GCCs; see the best data analyst course in Hyderabad
 - **Delhi NCR** – American Express, EXL, EY and consumer tech in Gurugram and Noida; see the best data analyst course in Delhi NCR
-- **Pune** – Barclays, Citi, bp and ZS; see the best data analyst course in Pune
+- **Pune** – Barclays, Citi, bp and ZS; see the [best data analyst course in Pune](https://www.learnbay.co/blogs/best-data-analyst-course-in-pune)
 
 Mumbai and Chennai add banking, logistics and IT services roles. Hence, a live online course lets you learn from any of these cities and apply across all of them.
 
