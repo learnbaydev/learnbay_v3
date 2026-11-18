@@ -86,7 +86,7 @@ const Masthead = ({ lead, counters }) => (
                 <img
                   className={styles.leadFill}
                   src={lead.image}
-                  alt=""
+                  alt={lead.alt}
                   aria-hidden
                 />
                 <img src={lead.image} alt={lead.alt} />
@@ -109,7 +109,7 @@ const Masthead = ({ lead, counters }) => (
                 <img
                   className={styles.bylineAvatar}
                   src={lead.authorPhoto}
-                  alt=""
+                  alt={`${lead.author}, Learnbay blog author`}
                   width={30}
                   height={30}
                 />
@@ -215,14 +215,14 @@ const Watch = () => {
                   <span className={styles.play} aria-hidden>
                     <img
                       src={`${IMG}/play-button.svg`}
-                      alt=""
+                      alt="Play video"
                       width={74}
                       height={74}
                     />
                     <img
                       className={styles.playGlyph}
                       src={`${IMG}/play-glyph.svg`}
-                      alt=""
+                      alt="Play button"
                       width={18}
                       height={22}
                     />
@@ -295,7 +295,7 @@ const Programs = ({ onCounsel }) => {
               aria-label="Previous programs"
               onClick={() => scrollRail(-1)}
             >
-              <img src={`${IMG}/rail-prev.svg`} alt="" width={40} height={40} />
+              <img src={`${IMG}/rail-prev.svg`} alt="Previous" width={40} height={40} />
             </button>
             <button
               type="button"
@@ -303,7 +303,7 @@ const Programs = ({ onCounsel }) => {
               aria-label="More programs"
               onClick={() => scrollRail(1)}
             >
-              <img src={`${IMG}/rail-next.svg`} alt="" width={40} height={40} />
+              <img src={`${IMG}/rail-next.svg`} alt="Next" width={40} height={40} />
             </button>
             <Link
               href="/data-science-courses"
@@ -328,7 +328,7 @@ const Programs = ({ onCounsel }) => {
                 <span className={styles.livePill}>Live Cohort</span>
                 <span className={styles.programTitle}>{program.title}</span>
                 <span className={styles.certified}>
-                  <img src={`${IMG}/seal.svg`} alt="" width={13} height={13} />
+                  <img src={`${IMG}/seal.svg`} alt="Seal" width={13} height={13} />
                   IBM &amp; Microsoft certified
                 </span>
               </span>
@@ -343,7 +343,7 @@ const Programs = ({ onCounsel }) => {
                       <span className={styles.tick} aria-hidden>
                         <img
                           src={`${IMG}/tick.svg`}
-                          alt=""
+                          alt="Tick"
                           width={14.4}
                           height={11.4}
                         />
@@ -354,7 +354,7 @@ const Programs = ({ onCounsel }) => {
                 </span>
                 <span className={styles.programFooter}>
                   View Program
-                  <img src={`${IMG}/go.svg`} alt="" width={38} height={38} />
+                  <img src={`${IMG}/go.svg`} alt="Open link" width={38} height={38} />
                 </span>
               </span>
             </Link>
@@ -590,7 +590,7 @@ const Alumni = () => {
               <figcaption className={styles.attribution}>
                 <img
                   src={item.avatar}
-                  alt=""
+                  alt="Learnbay learner"
                   width={42}
                   height={42}
                   loading="lazy"
@@ -729,7 +729,7 @@ const Newsletters = () => {
               rel="noopener noreferrer"
               className={styles.linkedinBadge}
             >
-              <img src={`${IMG}/linkedin.webp`} alt="" width={20} height={20} />
+              <img src={`${IMG}/linkedin.webp`} alt="LinkedIn logo" width={20} height={20} />
               <span>
                 <strong>Follow on LinkedIn</strong>
                 <span>25,376 followers</span>
