@@ -23,7 +23,7 @@ import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
 import Button from "../../Global/Button/Button";
 
-function WhyLearnbay({ idss, NoGuwahati  }) {
+function WhyLearnbay({ idss, NoGuwahati, woolfMsc }) {
   const [domainSpec, setDomainSpec] = useState(false);
   const [projectInno, setProjectInno] = useState(true);
   const [projectCert, setProjectCert] = useState(false);
@@ -66,7 +66,7 @@ function WhyLearnbay({ idss, NoGuwahati  }) {
               <IoRocketOutline
                 className={projectInno ? Styles.Activeicon : Styles.icon}
               />
-              Globally Recognised Degree
+              {woolfMsc ? "Degree Awarded by Woolf" : "Globally Recognised Degree"}
             </p>
           </div>
           <div
@@ -301,14 +301,31 @@ function WhyLearnbay({ idss, NoGuwahati  }) {
             <div className={Styles.left}>
               <h6>Key Benefits</h6>
               <div className={Styles.mainCont}>
-                <p className={Styles.para}>
-                  <FaCheckCircle className={Styles.checkCircle} />
-                  ECTS accreditation recognized across more than 60 countries.
-                </p>
-                <p className={Styles.para}>
-                  <FaCheckCircle className={Styles.checkCircle} />
-                  Equivalent to a Master's Degree in the US
-                </p>
+                {woolfMsc ? (
+                  <>
+                    <p className={Styles.para}>
+                      <FaCheckCircle className={Styles.checkCircle} />
+                      The MSc is awarded by Woolf. Learnbay Excelversity is a
+                      college of Woolf.
+                    </p>
+                    <p className={Styles.para}>
+                      <FaCheckCircle className={Styles.checkCircle} />
+                      90 ECTS, EQF level 7
+                    </p>
+                  </>
+                ) : (
+                  <>
+                    <p className={Styles.para}>
+                      <FaCheckCircle className={Styles.checkCircle} />
+                      ECTS accreditation recognized across more than 60
+                      countries.
+                    </p>
+                    <p className={Styles.para}>
+                      <FaCheckCircle className={Styles.checkCircle} />
+                      Equivalent to a Master's Degree in the US
+                    </p>
+                  </>
+                )}
               </div>
             </div>
           </div>

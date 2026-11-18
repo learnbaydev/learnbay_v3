@@ -36,6 +36,7 @@ const MobileTestimonial = dynamic(
 
 const Footer = dynamic(() => import('../../Global/Footer/Footer'));
 const FAQNew = dynamic(() => import('../../CoursePage/FAQNew/FAQNewDomain'));
+import { WoolfBlock } from '../../Global/Woolf/WoolfEmbed';
 
 const SecondPart = ({
   CertificateData,
@@ -86,7 +87,7 @@ const SecondPart = ({
         deskImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Tools-Logo.png"
         mobImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Mobile-Tools-Covered.png"
       />
-      <Certificate data={CertificateData} />
+      <Certificate data={CertificateData} heading="Degree Awarded by Woolf" />
       <FeeSection
         Fee="₹ 3,25,000"
         FeeEmi="15,980/month."
@@ -126,6 +127,7 @@ const SecondPart = ({
         projectSection={projectSection}
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}
+      <WoolfBlock />
       <FAQNew FAQNewData={FAQNewData} />
       <Content Masterscontent={true} dataScienceCounselling={true} />
       <SeventhSection />

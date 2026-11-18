@@ -24,7 +24,7 @@ const masterApplication = () => {
     
         />
       </Head>
-     <MasterApplicationForm title="Application Form" />;
+     <MasterApplicationForm title="Application Form" woolf={true} />
 </>
 )
 };

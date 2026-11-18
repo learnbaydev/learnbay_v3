@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Certificate.module.css";
 import CertificateTabAdvance from "./CertificateTabAdvance";
-const Certificate = ({ NoCertificate, data, Imgno, certificatedivide, isGuwahati  }) => {
+const Certificate = ({ NoCertificate, data, Imgno, certificatedivide, isGuwahati, heading }) => {
   return NoCertificate ? (
     ""
   ) : (
     <div className={`${styles.Certificate}`} id="Degree">
-      {isGuwahati ?(<>  <h4 className={styles.infop}>Globally Recognized Certification</h4></>):(<>  <h4 className={styles.infop}>Globally Recognized Degree</h4></>)}
+      {isGuwahati ?(<>  <h4 className={styles.infop}>Globally Recognized Certification</h4></>):(<>  <h4 className={styles.infop}>{heading || "Globally Recognized Degree"}</h4></>)}
     
 
       <CertificateTabAdvance data={data }Imgno ={Imgno } certificatedivide={certificatedivide} isGuwahati={isGuwahati}/>

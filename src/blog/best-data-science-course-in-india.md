@@ -683,7 +683,7 @@ Hence, a course that stops at machine learning will leave a visible gap on your 
 
 AI Engineer ranks second on [LinkedIn's Jobs on the Rise 2026 list for India](https://ianslive.in/over-90-pc-indian-professionals-plan-to-use-ai-in-job-search-in-2026-report--20260108112157). Data scientist is a common earlier role for people who moved into it, as per [HRKatha's coverage of the list](https://www.hrkatha.com/features/research/top-10-fast-growing-jobs-in-india-the-paradox-of-preparation/) in 2026.
 
-Hence, pick a data science course that also covers GenAI and deployment, so all three paths stay open for you. If you are still deciding between this field and analytics, read data science vs data analytics before you choose.
+Hence, pick a data science course that also covers GenAI and deployment, so all three paths stay open for you. If you are still deciding between this field and analytics, read [data science vs data analytics](https://www.learnbay.co/blogs/best-data-analytics-course-in-india) before you choose.
 
 ## Are IIT, IIM and IISc-Backed Programs Better Than Industry Programs?
 
@@ -712,12 +712,11 @@ Much of this demand comes from global capability centres (GCCs), which are offsh
 Bengaluru held a 26% share of India's AI job postings, as per [foundit reports](https://www.business-standard.com/industry/news/india-hiring-rises-15-pc-in-dec-signalling-shift-to-measured-expansion-report-126011301059_1.html) in 2026. Here is how the other hubs compare –
 
 <!-- Planned series blogs (404 until live). Switch the links on the day each publishes:
-     "data science vs data analytics" above -> /blogs/best-data-analytics-course-in-india
-     Hyderabad / Pune / Delhi NCR bullets below point to the city course pages until
-     /blogs/best-data-science-course-in-{hyderabad,pune,delhi-ncr} go live -->
+     Delhi NCR bullet below points to the city course page until
+     /blogs/best-data-science-course-in-delhi-ncr goes live (Pune and Hyderabad are live) -->
 
-- Hyderabad grew fastest at 48%, as a major GCC and pharma hub. See the [data science course in Hyderabad](https://www.learnbay.co/datascience/hyderabad/data-science-course-training-in-hyderabad) for GCC and pharma roles.
-- Pune grew 31%, with BFSI GCCs and automotive firms. See the [data science course in Pune](https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune) for BFSI and manufacturing roles.
+- Hyderabad grew fastest at 48%, as a major GCC and pharma hub. Compare the [best data science courses in Hyderabad](https://www.learnbay.co/blogs/best-data-science-course-in-hyderabad) for GCC and pharma roles.
+- Pune grew 31%, with BFSI GCCs and automotive firms. Compare the [best data science courses in Pune](https://www.learnbay.co/blogs/best-data-science-course-in-pune) for BFSI and manufacturing roles.
 - Delhi NCR grew 25%, across consulting, fintech and public-sector work. See the [data science course in Delhi](https://www.learnbay.co/datascience/delhi/data-science-course-training-in-delhi) for Delhi, Gurugram and Noida.
 - Bengaluru grew 31% and holds the largest share of AI postings. If you are in the city, see the [data science course in Bangalore](https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore).
 

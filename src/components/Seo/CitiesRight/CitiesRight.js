@@ -1070,8 +1070,7 @@ const CitiesRight = ({
               Our data science program sets the stage for open and flexible
               learning with the intent of giving hassle-free training. Our motto
               to help busy working pros is justified via our hybrid training
-              model and regularly revised syllabus. Experts join this best data
-              science institute in Hyderabad to land promising roles. Our live
+              model and regularly revised syllabus. Experts join Learnbay’s data science program in Hyderabad to land promising roles. Our live
               interactive training sessions equip you with basic and refined
               skills.
             </p>
@@ -1112,8 +1111,7 @@ const CitiesRight = ({
             </p>
 
             <h3 className={styles.pHead}>
-              Why is Learnbay claimed to be the best data science institute in
-              Hyderabad?
+              Why do learners choose Learnbay for data science in Hyderabad?
             </h3>
 
             <p>
@@ -1142,8 +1140,7 @@ const CitiesRight = ({
             </p>
 
             <p>
-              Experts find Learnbay as the best institute to learn data science
-              in Hyderabad due to its hands-on upskilling scope. You can work on
+              Experts choose Learnbay to learn data science in Hyderabad for its hands-on upskilling scope. You can work on
               domain-driven projects and case studies to refine your skills and
               grab rewarding roles. Our reputed mentors are here to guide you in
               mastering data-driven tools. Their real-time insights will help
@@ -2576,8 +2573,9 @@ const CitiesRight = ({
               global-scale success across MNCs in the USA & overseas.
             </p>
             <p>
-              In addition, an internationally accredited master’s degree (Woolf
-              University) and IBM project certificate empower your career. .
+              In addition, the MSc is awarded by Woolf, and an IBM project
+              certificate validates your skills. Learnbay Excelversity is a
+              college of Woolf.
             </p>
             <br />
             <h4 style={{ fontSize: '20px' }}>
@@ -2626,22 +2624,10 @@ const CitiesRight = ({
               <li>
                 {' '}
                 <b>
-                  <i>Effortless Immigration:</i>
+                  <i>Master’s Degree Awarded by Woolf:</i>
                 </b>{' '}
-                With our master’s program, you can have hassle-free immigration
-                facilities across 60+ countries. It expands your global
-                networking limits with increased chances of career success.{' '}
-              </li>
-              <br />
-              <li>
-                {' '}
-                <b>
-                  <i>Globally Accredited Master’s Degree:</i>
-                </b>{' '}
-                You will receive a globally recognized master’s degree (Woolf
-                University) with better job prospects. This degree enriches your
-                career value similar to a master's in 60+ Western
-                countries.{' '}
+                The MSc is awarded by Woolf. Learnbay Excelversity is a college
+                of Woolf. The degree carries 90 ECTS credits at EQF level 7.{' '}
               </li>
               <br />
               <li>
@@ -2769,8 +2755,8 @@ const CitiesRight = ({
         {cityTextMastergermany ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: '20px' }}>
-              Briefing Our Master’s Degree in Data Science in Germany [In
-              Alliance with IBM & Woolf]
+              Briefing Our Online Master’s in Data Science, Awarded by Woolf
+              (Open to Students in Germany)
             </h4>
             <p>
               Following the rising digital shifts, MNCs in Germany rely on data
@@ -2789,18 +2775,17 @@ const CitiesRight = ({
               scientists in Germany, who are the future of the country.
             </p>
             <p>
-              Learnbay’s <b>master degree in data science in Germany</b> (Master
-              Degree in Computer science: Data science and AI) envisions an
+              Learnbay’s <b>online master’s in data science</b> (Master of
+              Science in Computer Science: Data Science and AI) envisions an
               unbeatable career growth journey. Its inclusive course modules
               with GenAI-rich syllabus help experts ace in-demand skills. Here,
               you will gain a 360-degree knowledge-building scope via real-time
               simulation projects in your domain.
             </p>
             <p>
-              Experts opting for an <b> in data science</b> will receive a
-              globally accredited master’s degree from Woolf. Plus, we also
-              offer an IBM project certificate that justifies proven skill sets
-              across the globe.
+              The MSc is awarded by Woolf. Learnbay Excelversity is a college of
+              Woolf. Plus, we also offer an IBM project certificate that
+              validates your skills.
             </p>
 
             <br />
@@ -2816,13 +2801,10 @@ const CitiesRight = ({
               </li>
 
               <br />
-              <li>Effortless Immigration Facilities</li>
-              <br />
               <li>Dedicated career acceleration support. </li>
               <br />
               <li>
-                Globally Accredited Master’s Degree with Affiliation to Woolf
-                University
+                Master’s Degree Awarded by Woolf (90 ECTS, EQF level 7)
               </li>
               <br />
               <li>IBM Project Certificate</li>
@@ -3827,10 +3809,9 @@ const CitiesRight = ({
               career as you can get exposure to real-world issues.
             </p>
             <p>
-              Our globally accredited master’s degree from Woolf unleashes
-              global-scale job prospects. Plus, an IBM project certificate
-              enriches career values limitlessly to land a dream job role in
-              Australia and overseas.
+              The MSc is awarded by Woolf. Learnbay Excelversity is a college of
+              Woolf, and the program is open to students in Australia. Plus, an
+              IBM project certificate validates your skills for employers.
             </p>
             <br />
             <h4 style={{ fontSize: '20px' }}>
@@ -3880,20 +3861,10 @@ const CitiesRight = ({
               <li>
                 {' '}
                 <b>
-                  <i>Advantageous Immigration:</i>
-                </b>{' '}
-                Our masters in data science program has 60+ country approvals,
-                paving the way for advantageous immigration. It extends your
-                professional links with better job prospects.
-              </li>
-              <br />
-              <li>
-                {' '}
-                <b>
                   <i>Career Service Pro:</i>
                 </b>{' '}
-                Career Service Pro: Unlike other universities in Australia, our
-                master’s in data science program offers 100% job assistance.
+                Our master’s in data science program offers 100% job
+                assistance.
                 With Career Service Pro, you will gain everything – from resume
                 building to job calls.
               </li>
@@ -3901,11 +3872,10 @@ const CitiesRight = ({
               <li>
                 {' '}
                 <b>
-                  <i>Globally Accredited Master’s Degree:</i>
+                  <i>Master’s Degree Awarded by Woolf:</i>
                 </b>{' '}
-                Our courses are trending in Australia as they offer a globally
-                approved degree (Woolf). With 60+ countries approved, learners
-                can revamp their careers with lucrative offers.
+                The MSc is awarded by Woolf and carries 90 ECTS credits at EQF
+                level 7.
               </li>
               <br />
               <li>

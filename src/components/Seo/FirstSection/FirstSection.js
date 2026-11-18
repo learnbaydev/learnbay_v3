@@ -246,6 +246,7 @@ import { FaPlay } from 'react-icons/fa';
 import styles from './FirstSection.module.css';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
+import { WoolfBadge } from '@/components/Global/Woolf/WoolfEmbed';
 
 const Form = lazy(() => import('../../Global/Form/Form'));
 const Button = dynamic(() => import('../../Global/Button/Button'));
@@ -300,14 +301,6 @@ function FirstSection({
         width: 127,
         height: 51,
         alt: 'IBM Collaboration',
-      };
-    } else if (woolfOnly) {
-      imageProps = {
-        src: 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/woolf_logo.webp',
-        width: 230,
-        height: 50,
-        alt: 'Woolf University',
-        priority: true,
       };
     } else if (ibmandms) {
       imageProps = {
@@ -390,9 +383,16 @@ function FirstSection({
 
           {/* DESKTOP COLLAB */}
           <div className={styles.Desktop}>
-            <p className={styles.ptop}>In Collaboration With</p>
-
-            <div className={styles.ImageBlock}>{renderCollabImage(false)}</div>
+            {woolfOnly ? (
+              <WoolfBadge className={styles.woolfBadge} skin="dark" />
+            ) : (
+              <>
+                <p className={styles.ptop}>In Collaboration With</p>
+                <div className={styles.ImageBlock}>
+                  {renderCollabImage(false)}
+                </div>
+              </>
+            )}
           </div>
 
           <div className={styles.animationTextWrap}>
@@ -434,8 +434,16 @@ function FirstSection({
 
         {/* MOBILE COLLAB */}
         <div className={styles.Mobile}>
-          <p className={styles.ptop}>In Collaboration With</p>
-          <div className={styles.ImageBlock}>{renderCollabImage(true)}</div>
+          {woolfOnly ? (
+            <WoolfBadge className={styles.woolfBadge} skin="dark" />
+          ) : (
+            <>
+              <p className={styles.ptop}>In Collaboration With</p>
+              <div className={styles.ImageBlock}>
+                {renderCollabImage(true)}
+              </div>
+            </>
+          )}
         </div>
       </div>
 

@@ -93,10 +93,11 @@ const JobAbroad = ({
             <>
               {WolfLink ? (
                 <p className={Styles.woolfText}>
-                  Learnbay Excelversity is a constituent college of{' '}
+                  Learnbay Excelversity is a college of{' '}
                   <a href="https://woolf.education">
-                    <span className={Styles.spanWoolf}>Woolf, EU</span>
+                    <span className={Styles.spanWoolf}>Woolf</span>
                   </a>
+                  .
                 </p>
               ) : (
                 ''

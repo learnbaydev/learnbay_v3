@@ -32,14 +32,14 @@ import { BsPeople } from "react-icons/bs";
 const FirstPart = ({ TestimonialData, WolfLink, formbtn, courseId }) => {
   const seconddata = [
     {
-      boldText: "60+",
-      normalText: "Countries Recognition",
+      boldText: "EQF 7",
+      normalText: "MSc Awarded by Woolf",
       imageUrl:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
     },
     {
-      CboldText: "90+",
-      normalText: "Transferrable ECTS Credits",
+      CboldText: "90",
+      normalText: "ECTS Credits",
       imageUrl:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
     },
@@ -92,7 +92,7 @@ const FirstPart = ({ TestimonialData, WolfLink, formbtn, courseId }) => {
         imgAlt: "image",
         title: "Earn a Degree Without Pausing Your Career        ",
         description:
-          "Flexible online degrees from LearnBay's ExcelVarsity for working pros.       ",
+          "Flexible online degree from Learnbay Excelversity, a college of Woolf, for working pros.       ",
       },
       {
         imgSrc:
@@ -146,7 +146,7 @@ const FirstPart = ({ TestimonialData, WolfLink, formbtn, courseId }) => {
       <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} Testimonial={TestimonialData} /> */}
-      <WhyLearnbay idss="ZPOTy4PEnNU" />
+      <WhyLearnbay idss="ZPOTy4PEnNU" woolfMsc={true} />
     </>
   );
 };

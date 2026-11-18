@@ -3256,14 +3256,14 @@ function DataAnalytics({
                 </ul>
               </p>
               <p>
-                Apart from these gains, this course offers a{' '}
-                <b>computer science master’s degree</b> from{' '}
+                Apart from these gains, this course leads to a{' '}
+                <b>Master of Science in Computer Science</b> awarded by{' '}
                 <i>
                   <b>Woolf</b>
-                </i>{' '}
-                (Global Collegiate Higher Education Institution), followed by
-                globally recognized certifications from <i>IBM & Microsoft</i>{' '}
-                (Dual Certification).
+                </i>
+                . Learnbay Excelversity is a college of Woolf. Learners also
+                earn certifications from <i>IBM & Microsoft</i> (Dual
+                Certification).
               </p>
               <p>
                 Data science is becoming one of the most rewarding careers. We
@@ -3315,11 +3315,8 @@ function DataAnalytics({
                     <i>
                       <b>• Woolf degree:</b>
                     </i>{' '}
-                    Upskilling with a <b>Masters in Data Science and AI</b>{' '}
-                    program by Learnbay offers you a globally accredited
-                    Master's Degree by Woolf degree along with ample ECTS
-                    credits. This is well-recognized in the US, Canada, Europe,
-                    & 60+ Western countries).
+                    The <b>Masters in Data Science and AI</b> program leads to
+                    an MSc awarded by Woolf: 90 ECTS, EQF level 7.
                   </li>
                   <li>
                     <i>
@@ -3439,18 +3436,12 @@ function DataAnalytics({
               </p>
 
               <h3>Degree and Certification Details</h3>
-              <h4>About Woolf Master's Degree</h4>
+              <h4>About the Woolf Master's Degree</h4>
               <p>
-                Learnbay's master's program offers a Master's Degree accredited
-                by <b>Woolf</b> equivalent to a master's from the{' '}
-                <b>US, Canada, and Europee</b> with better jobs and hikes of
-                working pros. Woolf's degree for a e{' '}
-                <b>Master in CS Artificial Intelligence and Data Science</b> is
-                well recognized across{' '}
-                <b>
-                  <i>60+ Western countries,</i>
-                </b>{' '}
-                driving alluring global job offers.
+                The <b>Master of Science in Computer Science</b> is awarded by{' '}
+                <b>Woolf</b>. Learnbay Excelversity is a college of Woolf. The
+                degree carries 90 ECTS credits at EQF level 7. Recognition
+                depends on each country and employer.
               </p>
               <h4>About Dual Certifications (IBM & Microsoft)</h4>
               <p>

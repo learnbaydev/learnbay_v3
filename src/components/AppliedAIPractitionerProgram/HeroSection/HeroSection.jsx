@@ -8,20 +8,13 @@ import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 export default function AppliedAIHero() {
   const [popups, setPopups] = useState(false);
+  const [brochurePopup, setBrochurePopup] = useState(false);
   const popupShow = () => {
     setPopups(true);
   };
 
   const pdfUrl =
     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/IIT_Patna_Applied_AI_Program.pdf";
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "IITPatnaAppliedAIProgram.pdf"; // filename for download
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
 
   return (
     <section className={styles.heroWrapper}>
@@ -83,6 +76,17 @@ export default function AppliedAIHero() {
                 brochurePdf={pdfUrl}
                 heading="Apply For Counselling"
               />
+              <PopupContent
+                popups={brochurePopup}
+                setPopups={setBrochurePopup}
+                heading="Download Program Brochure"
+                downloadBrochure
+                dataScience={true}
+                titleCourse="Applied AI Practitioner Program"
+                brochureLink={pdfUrl}
+                brochurePdf={pdfUrl}
+                courseId="applied-ai-practitioner"
+              />
               <button onClick={popupShow} className={styles.primaryBtn}>
                 <span className={styles.iconCircle}>
                   {/* Phone icon */}
@@ -100,7 +104,10 @@ export default function AppliedAIHero() {
                 Talk to a Program Advisor
               </button>
 
-              <button onClick={handleDownload} className={styles.secondaryBtn}>
+              <button
+                onClick={() => setBrochurePopup(true)}
+                className={styles.secondaryBtn}
+              >
                 <span className={styles.secondaryIconCircle}>
                   {/* Download icon */}
                   <svg

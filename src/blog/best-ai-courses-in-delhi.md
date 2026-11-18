@@ -955,7 +955,7 @@ Here are the Delhi NCR numbers worth knowing before you pay any institute –
 
 Policy money is arriving too.
 
-Haryana notified its [Global Capability Centres Policy 2026](https://www.pwc.in/research-insights/news_alert/tax-insights/government-of-haryana-notifies-the-haryana-global-capability-centres-policy-2026.html) in May 2026, targeting 100+ new GCCs and 30,000+ jobs in five years, and is setting up a Global Artificial Intelligence Centre in Gurugram.
+Haryana notified its [Global Capability Centres Policy 2026](https://www.grantthornton.in/globalassets/1.-member-firms/india/assets/pdfs/alerts/haryana-global-capability-centres-policy-2026.pdf) in May 2026, targeting 100+ new GCCs and 30,000+ jobs in five years, and is setting up a Global Artificial Intelligence Centre in Gurugram.
 
 The Delhi government is funding [two AI Centres of Excellence at NSUT and GGSIPU](https://www.millenniumpost.in/amp/delhi/delhi-to-set-up-two-ai-centres-of-excellence-657258) at ₹20 crore each, with a target of training 7,000+ people over four years. Uttar Pradesh has budgeted about [₹600 crore](https://www.business-standard.com/amp/industry/news/up-govt-plans-nearly-600-crore-investment-to-strengthen-ai-ecosystem-126052101090_1.html) for its AI mission and AI city.
 

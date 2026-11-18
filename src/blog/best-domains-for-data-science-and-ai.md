@@ -240,6 +240,8 @@ Here is a quick overview of the 8 <b>best domains for data science and AI</b> wi
 - Tata 1mg
 - Practo
 
+Hyderabad hosts many of these pharma and healthcare GCCs. If you are based there, compare the [best data science course in Hyderabad](https://www.learnbay.co/blogs/best-data-science-course-in-hyderabad) options for this domain.
+
 <b> Skills/tech stack:</b>
 
 - Python
