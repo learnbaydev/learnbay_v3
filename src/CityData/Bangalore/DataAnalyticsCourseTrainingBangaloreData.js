@@ -928,7 +928,7 @@ export const DABangaloreCourseData = [
     // ),
     CertificationHead1: 'IBM Data Analytics Certification in Bangalore',
     CertificationBot1:
-      'Learnbay offers one of the best data analytics certification training accredited by IBM, a leading tech giant. Earning an IBM certification allows you to shine out from the other candidates and increase your employment chances.       ',
+      'Learnbay offers data analytics certification training accredited by IBM, a leading tech giant. Earning an IBM certification allows you to shine out from the other candidates and increase your employment chances.       ',
     CertificationBot2:
       'Learnbay will conduct an IBM examination for all the course modules after completing the course. Participants of this program will be eligible for IBM certification if they have completed all the modules, assignments, and live projects. To validate your training and your skills, Learnbay offers an IBM-accredited project certification along with IBM course certification.       ',
     CertificationBot3:
@@ -983,10 +983,10 @@ export const DABangaloreCourseData = [
     JobHead2:
       'What prime technical skills will you develop via our data analysis courses in Bangalore? ',
     JobBot3:
-      ' Data analytics learning has become crucial amidst the fierce career race in today’s job market. Many startups and MNCs deal with massive data sets to reach final decisions or make a business move. This enriches the demand for high-end quality data analysis. Hence, upskilling via the best data analyst course in Bangalore is critical for career growth.    ',
+      ' Data analytics learning has become crucial amidst the fierce career race in today’s job market. Many startups and MNCs deal with massive data sets to reach final decisions or make a business move. This enriches the demand for high-end quality data analysis. Hence, upskilling via a structured data analyst course in Bangalore is critical for career growth.    ',
     JobHead3: 'Why are skilled data analysts in demand?     ',
     JobBot4:
-      'Learnbay envisions successful career shifts for working experts from diverse fields. Its best data analytics classes in Bangalore equip tech and non-tech pros with proven skills. Most non-tech experts gain proper technical skills to face critical job interviews and ace with 100% success. Hence, joining us will enhance your career prospects with alluring gains.      ',
+      'Learnbay envisions successful career shifts for working experts from diverse fields. Its data analytics classes in Bangalore equip tech and non-tech pros with proven skills. Most non-tech experts gain proper technical skills to face critical job interviews and ace with 100% success. Hence, joining us will enhance your career prospects with alluring gains.      ',
     JobBot5:
       'In other words, this large amount of data is called “Big data.” As it holds most of the business data, it contains invaluable insights and will be useful if interpreted correctly. Companies are eyeing skillful data analysts, as they can contribute to the business and gain a competitive edge in the market.     ',
     JobBot6:
@@ -1000,7 +1000,7 @@ export const DABangaloreCourseData = [
       'Career upskilling is vital to sustain yourself in today’s ever-evolving job market. The rise of data analytics alters the career outlook for many experts from diverse domains. Owing to the rising career trends, just a graduation degree and basic domain skills are not enough to sustain yourself and thrive. Hence, learning is crucial to refine pre-existing skills and attain career-driven clarity. ',
     JobBotSpan1: 'Entry-level Roles:     ',
     JobBot9:
-      'Learnbay’s online data analytics training in Bangalore offers everything you need to excel in today’s time. Its GenAI-inclusive course modules guide non-tech pros to ace arising data-driven careers with 100% success. Experts can showcase the merit of their domains with real-time learning via live projects. Here, experts can choose any project based on their domain expertise and practice the proven tools. Unlike common courses, joining our best data analyst course in Bangalore is worth investing in. ',
+      'Learnbay’s online data analytics training in Bangalore offers everything you need to excel in today’s time. Its GenAI-inclusive course modules guide non-tech pros to ace arising data-driven careers with 100% success. Experts can showcase the merit of their domains with real-time learning via live projects. Here, experts can choose any project based on their domain expertise and practice the proven tools. Unlike common courses, joining our data analyst course in Bangalore is worth investing in. ',
     JobBot10:
       'Experts joining our data analytics course in Bangalore will go through varied stages of job and placement programs that enrich their chances of success. Plus, you will obtain IBM course and project certificates that validate your skill sets on a global level. Hence, joining Learnbay’s cutting-edge courses is crucial for your career growth. ',
     JobBot11:
