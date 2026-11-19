@@ -14,11 +14,6 @@ import {
 import { BsGraphUp } from "react-icons/bs";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  WoolfBadge,
-  WoolfBlock,
-  WOOLF_COLLEGE_LINE,
-} from "../../Global/Woolf/WoolfEmbed";
 
 const TEAM = [
   {
@@ -203,14 +198,11 @@ function AboutUs() {
           </article>
 
           <article className={styles.academicCard}>
-            <div className={styles.academicLogo}>
-              <WoolfBadge />
-            </div>
             <h3 className={styles.academicTitle}>
               Master&apos;s degree awarded by Woolf
             </h3>
             <p className={styles.cardText}>
-              {WOOLF_COLLEGE_LINE} Our{" "}
+              Learnbay Excelversity is a college of Woolf, and Woolf awards the MSc. Our{" "}
               <Link
                 href="/datascience/data-science-and-ai-masters-in-cs"
                 className={styles.inlineLink}
@@ -221,7 +213,6 @@ function AboutUs() {
             </p>
           </article>
         </div>
-        <WoolfBlock />
       </section>
 
       {/* CORE TEAM */}

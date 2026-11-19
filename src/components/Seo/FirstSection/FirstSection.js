@@ -246,7 +246,6 @@ import { FaPlay } from 'react-icons/fa';
 import styles from './FirstSection.module.css';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
-import { WoolfBadge } from '@/components/Global/Woolf/WoolfEmbed';
 
 const Form = lazy(() => import('../../Global/Form/Form'));
 const Button = dynamic(() => import('../../Global/Button/Button'));
@@ -383,9 +382,7 @@ function FirstSection({
 
           {/* DESKTOP COLLAB */}
           <div className={styles.Desktop}>
-            {woolfOnly ? (
-              <WoolfBadge className={styles.woolfBadge} skin="dark" />
-            ) : (
+            {woolfOnly ? null : (
               <>
                 <p className={styles.ptop}>In Collaboration With</p>
                 <div className={styles.ImageBlock}>
@@ -434,9 +431,7 @@ function FirstSection({
 
         {/* MOBILE COLLAB */}
         <div className={styles.Mobile}>
-          {woolfOnly ? (
-            <WoolfBadge className={styles.woolfBadge} skin="dark" />
-          ) : (
+          {woolfOnly ? null : (
             <>
               <p className={styles.ptop}>In Collaboration With</p>
               <div className={styles.ImageBlock}>

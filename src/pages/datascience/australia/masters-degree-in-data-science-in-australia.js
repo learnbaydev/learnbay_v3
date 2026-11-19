@@ -9,7 +9,6 @@ import Popup from '../../../components/Global/Popup/Popup';
 import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
 // import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import Realstory from '@/components/Home/Realstory/Realstory';
-import { WoolfBlock } from '@/components/Global/Woolf/WoolfEmbed';
 import styles from '../../../styles/Home.module.css';
 const FirstSection = dynamic(
   () => import('../../../components/Seo/FirstSection/FirstSection')
@@ -474,7 +473,7 @@ export default function Home() {
           brochurePdf={pdfUrl}
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Online Master’s in Data Science, awarded by Woolf"
+          firstHeading="Online Master’s in Data Science in Australia, awarded by Woolf"
           firstTopPara="Learnbay Excelversity"
           cityParaCont="Open to students in Australia. The MSc is awarded by Woolf. Learnbay Excelversity is a college of Woolf. Equip yourself with a cutting-edge masters in data science program for an effortless career transition.  Enroll with us to acquire the highly sought-after data science competencies through our GenAI-rich course modules.  Kick-start your data science career journey with IBM project certification.            "
           woolfOnly={true}
@@ -737,7 +736,6 @@ export default function Home() {
               AlumniH4={masterdegreeAUSData[0].AlumniH4}
               Alumnip4={masterdegreeAUSData[0].Alumnip4}
             />
-            <WoolfBlock />
             <div className={styles.faqCity}>
               <FAQNew FAQNewData={masterdegreeAUSData[0].faq} />
             </div>

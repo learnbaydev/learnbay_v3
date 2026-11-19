@@ -168,9 +168,6 @@ export const DataScienceMastersinCS = [
           'The MSc is awarded by Woolf. Learnbay Excelversity is a college of Woolf.',
           '90 ECTS, EQF level 7.',
         ],
-        link: true,
-        linkText: 'https://woolf.education/colleges/learnbay',
-        linkUrl: 'https://woolf.education/colleges/learnbay',
       },
       projectCertificate: {
         id: 1,
