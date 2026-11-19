@@ -36,7 +36,6 @@ const MobileTestimonial = dynamic(
 
 const Footer = dynamic(() => import('../../Global/Footer/Footer'));
 const FAQNew = dynamic(() => import('../../CoursePage/FAQNew/FAQNewDomain'));
-import { WoolfBlock } from '../../Global/Woolf/WoolfEmbed';
 
 const SecondPart = ({
   CertificateData,
@@ -127,7 +126,6 @@ const SecondPart = ({
         projectSection={projectSection}
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}
-      <WoolfBlock />
       <FAQNew FAQNewData={FAQNewData} />
       <Content Masterscontent={true} dataScienceCounselling={true} />
       <SeventhSection />

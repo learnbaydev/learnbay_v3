@@ -6,10 +6,6 @@ import "react-phone-input-2/lib/style.css";
 import { useRouter } from "next/router";
 import Navbar from "../../Global/Navbar/Navbar";
 import Head from "next/head";
-import {
-  WoolfBadge,
-  WOOLF_COLLEGE_LINE,
-} from "../../Global/Woolf/WoolfEmbed";
 
 const MasterApplicationForm = ({ secondForm, title, woolf }) => {
   const router = useRouter();
@@ -247,8 +243,7 @@ const MasterApplicationForm = ({ secondForm, title, woolf }) => {
           <button type="submit">Submit</button>
           {woolf ? (
             <div className={styles.woolfWrap}>
-              <WoolfBadge />
-              <p className={styles.woolfLine}>{WOOLF_COLLEGE_LINE}</p>
+              <p className={styles.woolfLine}>Learnbay Excelversity is a college of Woolf, and Woolf awards the MSc.</p>
             </div>
           ) : null}
         </form>

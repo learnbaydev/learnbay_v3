@@ -9,7 +9,6 @@ import Popup from '../../../components/Global/Popup/Popup';
 import FeeSection from '../../../components/Seo/FeeSection/FeeSection';
 // import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import Realstory from '@/components/Home/Realstory/Realstory';
-import { WoolfBlock } from '@/components/Global/Woolf/WoolfEmbed';
 import styles from '../../../styles/Home.module.css';
 const FirstSection = dynamic(
   () => import('../../../components/Seo/FirstSection/FirstSection')
@@ -472,7 +471,7 @@ export default function Home() {
           brochurePdf={pdfUrl}
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Online Master’s in Data Science, awarded by Woolf"
+          firstHeading="Online Master’s in Data Science in Germany, awarded by Woolf"
           firstTopPara="Learnbay Excelversity"
           cityParaCont="Open to students in Germany. The MSc is awarded by Woolf. Learnbay Excelversity is a college of Woolf. Join us to leverage business yields with data-driven insights and impactful decisions. Our trend-setting master’s program supports a GenAI-rich career transition with optimal success. Enroll today and validate your data skills with an IBM Project Certification. "
           woolfOnly={true}
@@ -826,7 +825,6 @@ export default function Home() {
               AlumniH4={masterdegreeGermanyCourseData[0].AlumniH4}
               Alumnip4={masterdegreeGermanyCourseData[0].Alumnip4}
             />
-            <WoolfBlock />
             <div className={styles.faqCity}>
               <FAQNew FAQNewData={masterdegreeGermanyCourseData[0].faq} />
             </div>
