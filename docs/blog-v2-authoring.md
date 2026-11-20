@@ -50,6 +50,38 @@ Note `faqs:` (top level) feeds the **FAQ schema** in `<head>`. It does not
 render anything. To show an FAQ accordion on the page you also need a
 `data:` entry and a `::faq` block — see below.
 
+### Ranking list schema (`jsonLd`)
+
+"Best X course in <city>" blogs add an `ItemList` of the ranked programs under
+`jsonLd:`. Each entry must be a **plain `ListItem`**: no nested `Course`.
+
+```yaml
+# Correct
+- '@type': ListItem
+  position: 2
+  name: Data Analytics Course with AI, Bangalore
+  url: https://www.analytixlabs.co.in/data-analyst-training-course-in-bangalore/
+  description: 'Data Analytics Course with AI, Bangalore by AnalytixLabs, ranked #2 in the 2027 Bangalore comparison.'
+
+# Wrong: Google then requires offers + hasCourseInstance on every course
+- '@type': ListItem
+  position: 2
+  item:
+    '@type': Course
+    name: ...
+```
+
+Google checks every `Course` node for the course rich result, which needs a
+price (`offers`) and a schedule/mode (`hasCourseInstance`). A ranking list is
+mostly third-party programs we can't price, so Search Console flags 2 errors
+per course. This has happened on two blogs: India DS (Oct 2026) and Bangalore
+DA (Nov 2026). The Bangalore blog was ported from a draft that predated the
+first fix, so **when porting an old draft, copy the schema shape from the
+newest live sibling blog, not from the draft.**
+
+`npm run seo-check` (check 5) fails on any blog `Course` node missing those
+fields. Run it before opening the PR.
+
 ### Fields v2 adds
 
 ```yaml
