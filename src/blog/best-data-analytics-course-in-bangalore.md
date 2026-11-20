@@ -100,84 +100,54 @@ jsonLd:
     itemListElement:
       - '@type': ListItem
         position: 1
-        item:
-          '@type': Course
-          name: Data Analytics & Business Analytics with GenAI
-          url: https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course
-          description: 'Data Analytics & Business Analytics with GenAI by Learnbay, ranked #1 in the 2027 Bangalore data analytics comparison.'
-          provider: { '@type': Organization, name: Learnbay }
+        name: Data Analytics & Business Analytics with GenAI
+        url: https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course
+        description: 'Data Analytics & Business Analytics with GenAI by Learnbay, ranked #1 in the 2027 Bangalore data analytics comparison.'
       - '@type': ListItem
         position: 2
-        item:
-          '@type': Course
-          name: Data Analytics Course with AI, Bangalore
-          url: https://www.analytixlabs.co.in/data-analyst-training-course-in-bangalore/
-          description: 'Data Analytics Course with AI, Bangalore by AnalytixLabs with TIH IIT Bombay or IIT Patna, ranked #2 in the 2027 Bangalore data analytics comparison.'
-          provider: { '@type': Organization, name: AnalytixLabs with TIH IIT Bombay or IIT Patna }
+        name: Data Analytics Course with AI, Bangalore
+        url: https://www.analytixlabs.co.in/data-analyst-training-course-in-bangalore/
+        description: 'Data Analytics Course with AI, Bangalore by AnalytixLabs with TIH IIT Bombay or IIT Patna, ranked #2 in the 2027 Bangalore data analytics comparison.'
       - '@type': ListItem
         position: 3
-        item:
-          '@type': Course
-          name: AI Powered Data Analyst Course
-          url: https://www.simplilearn.com/data-analyst-certification-course
-          description: 'AI Powered Data Analyst Course by Simplilearn with Microsoft, ranked #3 in the 2027 Bangalore data analytics comparison.'
-          provider: { '@type': Organization, name: Simplilearn with Microsoft }
+        name: AI Powered Data Analyst Course
+        url: https://www.simplilearn.com/data-analyst-certification-course
+        description: 'AI Powered Data Analyst Course by Simplilearn with Microsoft, ranked #3 in the 2027 Bangalore data analytics comparison.'
       - '@type': ListItem
         position: 4
-        item:
-          '@type': Course
-          name: AI Powered Data Analyst Course in Bangalore
-          url: https://www.excelr.com/data-analyst-course-training-in-bangalore
-          description: 'AI Powered Data Analyst Course in Bangalore by ExcelR, ranked #4 in the 2027 Bangalore data analytics comparison.'
-          provider: { '@type': Organization, name: ExcelR }
+        name: AI Powered Data Analyst Course in Bangalore
+        url: https://www.excelr.com/data-analyst-course-training-in-bangalore
+        description: 'AI Powered Data Analyst Course in Bangalore by ExcelR, ranked #4 in the 2027 Bangalore data analytics comparison.'
       - '@type': ListItem
         position: 5
-        item:
-          '@type': Course
-          name: Data Analytics with Gen AI & Agentic AI, Bangalore classroom
-          url: https://intellipaat.com/data-analytics-training-course-bangalore/
-          description: 'Data Analytics with Gen AI & Agentic AI, Bangalore classroom by Intellipaat with iHUB IIT Roorkee, ranked #5 in the 2027 Bangalore data analytics comparison.'
-          provider: { '@type': Organization, name: Intellipaat with iHUB IIT Roorkee }
+        name: Data Analytics with Gen AI & Agentic AI, Bangalore classroom
+        url: https://intellipaat.com/data-analytics-training-course-bangalore/
+        description: 'Data Analytics with Gen AI & Agentic AI, Bangalore classroom by Intellipaat with iHUB IIT Roorkee, ranked #5 in the 2027 Bangalore data analytics comparison.'
       - '@type': ListItem
         position: 6
-        item:
-          '@type': Course
-          name: PG Program in Data Science and Analytics with GenAI, Bangalore
-          url: https://imarticus.org/postgraduate-program-in-data-science-analytics-bangalore/
-          description: 'PG Program in Data Science and Analytics with GenAI, Bangalore by Imarticus Learning, ranked #6 in the 2027 Bangalore data analytics comparison.'
-          provider: { '@type': Organization, name: Imarticus Learning }
+        name: PG Program in Data Science and Analytics with GenAI, Bangalore
+        url: https://imarticus.org/postgraduate-program-in-data-science-analytics-bangalore/
+        description: 'PG Program in Data Science and Analytics with GenAI, Bangalore by Imarticus Learning, ranked #6 in the 2027 Bangalore data analytics comparison.'
       - '@type': ListItem
         position: 7
-        item:
-          '@type': Course
-          name: Gen AI-powered Data Analytics, Bengaluru centres
-          url: https://www.upgrad.com/offline-centres/bengaluru/
-          description: 'Gen AI-powered Data Analytics, Bengaluru centres by upGrad, ranked #7 in the 2027 Bangalore data analytics comparison.'
-          provider: { '@type': Organization, name: upGrad }
+        name: Gen AI-powered Data Analytics, Bengaluru centres
+        url: https://www.upgrad.com/offline-centres/bengaluru/
+        description: 'Gen AI-powered Data Analytics, Bengaluru centres by upGrad, ranked #7 in the 2027 Bangalore data analytics comparison.'
       - '@type': ListItem
         position: 8
-        item:
-          '@type': Course
-          name: Business Analytics & Artificial Intelligence (BAAI)
-          url: https://eep.iimb.ac.in/course/business-analytics-artificial-intelligence-BAAI/
-          description: 'Business Analytics & Artificial Intelligence (BAAI) by IIM Bangalore, ranked #8 in the 2027 Bangalore data analytics comparison.'
-          provider: { '@type': Organization, name: IIM Bangalore }
+        name: Business Analytics & Artificial Intelligence (BAAI)
+        url: https://eep.iimb.ac.in/course/business-analytics-artificial-intelligence-BAAI/
+        description: 'Business Analytics & Artificial Intelligence (BAAI) by IIM Bangalore, ranked #8 in the 2027 Bangalore data analytics comparison.'
       - '@type': ListItem
         position: 9
-        item:
-          '@type': Course
-          name: Data Analyst Course in Bangalore
-          url: https://360digitmg.com/india/bangalore/data-analytics-certification-course-training-institute
-          description: 'Data Analyst Course in Bangalore by 360DigiTMG, ranked #9 in the 2027 Bangalore data analytics comparison.'
-          provider: { '@type': Organization, name: 360DigiTMG }
+        name: Data Analyst Course in Bangalore
+        url: https://360digitmg.com/india/bangalore/data-analytics-certification-course-training-institute
+        description: 'Data Analyst Course in Bangalore by 360DigiTMG, ranked #9 in the 2027 Bangalore data analytics comparison.'
       - '@type': ListItem
         position: 10
-        item:
-          '@type': Course
-          name: Certified Data Analyst Course in Bangalore
-          url: https://datamites.com/data-analytics-certification-course-training-bangalore/
-          description: 'Certified Data Analyst Course in Bangalore by DataMites, ranked #10 in the 2027 Bangalore data analytics comparison.'
-          provider: { '@type': Organization, name: DataMites }
+        name: Certified Data Analyst Course in Bangalore
+        url: https://datamites.com/data-analytics-certification-course-training-bangalore/
+        description: 'Certified Data Analyst Course in Bangalore by DataMites, ranked #10 in the 2027 Bangalore data analytics comparison.'
 faqs: &faqs
   - question: Which is the best data analytics course in Bangalore in 2027?
     answer: The top choice in 2027 is the Data Analytics & Business Analytics with GenAI program from Learnbay with IIT Patna and IBM. Learners start with RAG, agents and workflow automation, move on to Excel, SQL, Power BI, Tableau and A/B testing, and can attend project sessions in BTM Layout.

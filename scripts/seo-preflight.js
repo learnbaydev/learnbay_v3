@@ -11,6 +11,8 @@
  *   - a page removed without a redirect, or a redirect pointing at a 404
  *   - JSON-LD that is invalid once the template literal is evaluated
  *   - canonical tags with stray whitespace or pointing at routes that do not exist
+ *   - blog jsonLd Course items missing offers/hasCourseInstance (GSC errors on
+ *     the India DS blog, 30 Oct 2026, and the Bangalore DA blog, 20 Nov 2026)
  */
 
 const fs = require('fs');
@@ -356,10 +358,66 @@ function checkCanonicals(routes) {
     : pass(`all ${total} canonicals resolve to a real page`);
 }
 
-/* ---------- 5. images without dimensions (CLS) ---------- */
+/* ---------- 5. blog frontmatter jsonLd: incomplete Course items ---------- */
+
+/*
+ * Google checks every Course node for the course rich result, which needs both
+ * `offers` and `hasCourseInstance`. Ranking blogs list mostly third-party
+ * programs we cannot price, so their ItemList entries must be plain ListItems
+ * (position, name, url, description) - never `item: { '@type': Course }`.
+ */
+function checkBlogCourseSchema() {
+  head('5. blog jsonLd Course items (offers / hasCourseInstance)');
+  let matter;
+  try {
+    matter = require('gray-matter');
+  } catch (e) {
+    return warn('gray-matter not installed - skipped');
+  }
+  const blogDir = path.join(ROOT, 'src/blog');
+  if (!fs.existsSync(blogDir)) return pass('no blog directory');
+  const bad = [];
+  const isCourse = (t) => (Array.isArray(t) ? t : [t]).includes('Course');
+  const visit = (node, file) => {
+    if (Array.isArray(node)) return node.forEach((n) => visit(n, file));
+    if (!node || typeof node !== 'object') return;
+    if (isCourse(node['@type'])) {
+      const missing = ['offers', 'hasCourseInstance'].filter((k) => !node[k]);
+      if (missing.length)
+        bad.push(
+          `${file}  "${node.name || '(unnamed)'}" lacks ${missing.join(', ')}`
+        );
+    }
+    Object.values(node).forEach((v) => visit(v, file));
+  };
+  let files = 0;
+  for (const f of fs.readdirSync(blogDir)) {
+    if (!f.endsWith('.md')) continue;
+    let data;
+    try {
+      data = matter(fs.readFileSync(path.join(blogDir, f), 'utf8')).data;
+    } catch (e) {
+      bad.push(
+        `src/blog/${f}  frontmatter does not parse: ${e.message.slice(0, 60)}`
+      );
+      continue;
+    }
+    if (!data.jsonLd) continue;
+    files++;
+    visit(data.jsonLd, 'src/blog/' + f);
+  }
+  bad.length
+    ? fail(
+        `${bad.length} Course node(s) Google will flag - use plain ListItems in ranking lists`,
+        bad
+      )
+    : pass(`no incomplete Course nodes (${files} blogs with jsonLd checked)`);
+}
+
+/* ---------- 6. images without dimensions (CLS) ---------- */
 
 function checkImageDimensions() {
-  head('5. layout shift risk (raw <img> without width/height)');
+  head('6. layout shift risk (raw <img> without width/height)');
   const hits = [];
   for (const f of walk(path.join(ROOT, 'src/components'))) {
     const s = fs.readFileSync(f, 'utf8');
@@ -388,6 +446,7 @@ function checkImageDimensions() {
   checkJsonLd();
   await checkRedirects(routes);
   checkCanonicals(routes);
+  checkBlogCourseSchema();
   checkImageDimensions();
 
   console.log('\n' + '='.repeat(60));
