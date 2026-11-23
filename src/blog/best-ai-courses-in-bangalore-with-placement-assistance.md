@@ -1184,7 +1184,7 @@ If you get into any institute that offers offline doubt-clearing sessions, you s
 
 ::scenario-table{from=learnbayTracks}
 
-All tracks share the same spine. Python for GenAI, Foundation for GenAI, Advanced Generative AI, Agentic AI and Automation, then LLMOps and Production Deployment. The electives and the closing modules change by role.
+All tracks share the same spine. Python for GenAI, Foundation for GenAI, Advanced Generative AI, Agentic AI and Automation, then LLMOps and Production Deployment. The electives and the closing modules change by role. If your role is closer to reporting and dashboards than to building AI systems, compare the [best data analytics course in Bangalore](https://www.learnbay.co/blogs/best-data-analytics-course-in-bangalore) options first.
 
 ::program-lineup{from=programLineup}
 

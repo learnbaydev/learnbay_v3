@@ -78,7 +78,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Data Analytics Course in Bangalore - Learnbay</title>
+        <title>Data Analytics Course in Bangalore with IBM Certification</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -86,7 +86,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Data Analytics course in Bangalore, Data Analytics training in Bangalore, Data Analytics institute in Bangalore, best Data Analytics institute in Bangalore, Data Analytics course in Bangalore, Data Analytics certification in Bangalore, Data Analytics training institute in Bangalore, advanced Data Analytics course in Bangalore, Data Analytics course with Placement Assistance, Data Analytics course"
+          content="Data Analytics course in Bangalore, Data Analytics training in Bangalore, Data Analytics institute in Bangalore, Data Analytics course in Bangalore, Data Analytics certification in Bangalore, Data Analytics training institute in Bangalore, advanced Data Analytics course in Bangalore, Data Analytics course with Placement Assistance, Data Analytics course"
         />
         <meta
           property="og:url"
@@ -95,7 +95,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Best Data Analytics Course in Bangalore - Learnbay"
+          content="Data Analytics Course in Bangalore with IBM Certification"
         />
         <meta
           property="og:description"
@@ -115,7 +115,7 @@ export default function Home() {
         />
         <meta
           name="twitter:title"
-          content="Best Data Analytics Course in Bangalore - Learnbay"
+          content="Data Analytics Course in Bangalore with IBM Certification"
         />
         <meta
           name="twitter:description"
@@ -205,7 +205,7 @@ export default function Home() {
             __html: `{ 
                           "@context": "https://schema.org/", 
   "@type": "Product", 
-  "name": "Best Data Analytics Course in Bangalore - Learnbay",
+  "name": "Data Analytics Course in Bangalore with IBM Certification",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "brand": {
     "@type": "Brand",
@@ -228,7 +228,7 @@ export default function Home() {
             __html: `{ 
               "@context": "https://schema.org",
   "@type": "Course",
-  "name": "Best Data Analytics Course in Bangalore - Learnbay",
+  "name": "Data Analytics Course in Bangalore with IBM Certification",
   "description": "Join Learnbay's Data Analytics Training in Bangalore to boost your career. Experience the best mentorship from industry experts and gain practical skills.",
   "provider": {
     "@type": "Organization",

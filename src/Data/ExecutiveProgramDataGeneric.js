@@ -1664,8 +1664,6 @@ export const ExcutiveProgramAIDS = [
         ],
 
         link: false,
-        linkText: "https://woolf.university/colleges/learnbay",
-        linkUrl: "https://woolf.university/colleges/learnbay",
       },
       projectCertificate: {
         id: 1,

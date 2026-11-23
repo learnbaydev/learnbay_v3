@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "./FirstSection.module.css";
 import Button from "@/components/Global/Button/Button";
 import Form from "@/components/Global/Form/Form";
-import { WoolfBadge } from "@/components/Global/Woolf/WoolfEmbed";
 
 const FirstSectionContent = ({
   setPopups,
@@ -48,7 +47,6 @@ const FirstSectionContent = ({
               <br />
               <span style={{ color: "#FE7A36" }}>Data Science and AI</span>
             </h1>
-            <WoolfBadge className={styles.paraCollab} skin="dark" />
             <div className={styles.boxDivGreen}>
               <p className={styles.special}>SPECIALIZATION IN</p>
               <div className={styles.iconPara}>
