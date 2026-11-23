@@ -95,19 +95,15 @@ const AICoLabExperience = ({
                 >
                   Know More
                 </button>
-                <button
+                <a
+                  href="https://student-projects.lbayms.in/"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
                   className={styles.secondaryButton}
-                  onClick={() =>
-                    window.open(
-                      'https://www.youtube.com/playlist?list=PLl1gyDCKkiQRVRI-K7zwbtCwn6zj3nzkC',
-                      '_blank',
-                      'noopener,noreferrer'
-                    )
-                  }
+                  style={{ textDecoration: 'none' }}
                 >
-                  <div className={styles.playIcon}>▶</div>
-                  Learn from AI Leaders
-                </button>
+                  View Student Projects
+                </a>
               </div>
             </div>
 
